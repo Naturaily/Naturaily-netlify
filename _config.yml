@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Agile web and mobile development team building Ruby on Rails, React and
   React Native applications for startups and enterprises. Let’s talk!
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'jekyll.naturaily.eu' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://jekyllnetlify.naturaily.eu/' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 pagination:
