@@ -25,6 +25,6 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-        allow_add: false
+        allow_add: true
         default: [""]
       - {label: "Body", name: "body", widget: "markdown"}
