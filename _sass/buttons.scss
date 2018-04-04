@@ -1,0 +1,44 @@
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  @include transition(.2s);
+  &:hover {
+    @include scale(1.1);
+    box-shadow: 0 15px 45px 0 rgba(255,61,61,0.15);
+    text-decoration: none;
+  }
+}
+
+.btn-primary {
+  @include red-gradient-background();
+  border-radius: 30px;
+  color: $color-white;
+  padding: 14px 50px;
+  box-shadow: 0 6px 16px 0 rgba(255,61,61,0.15);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  &.btn-arrow {
+    padding: 18px 22px 18px 40px;
+    img {
+      margin-left: 15px;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.btn-secondary {
+  background: $color-white;
+  border-radius: 30px;
+  color: $color-primary;
+  padding: 14px 50px;
+  box-shadow: 0 6px 16px 0 rgba(255,61,61,0.15);
+  font-size: 0.75rem;
+  font-weight: 200;
+  text-transform: uppercase;
+
+  &:visited {
+    color: $color-primary;
+  }
+}

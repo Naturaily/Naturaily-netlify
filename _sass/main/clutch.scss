@@ -1,0 +1,41 @@
+.clutch {
+  width: 620px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: 200;
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: 150px 230px 250px;
+
+  a {
+    text-decoration: none;
+    color: $color-primary;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .clutch {
+    padding: 70px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 714px) {
+  .clutch {
+    width: auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    &-widget {
+      margin: 20px 0 20px 115px;
+    }
+  }
+}
+
+@media (max-width: 469px) {
+  .clutch-widget {
+    margin: 20px 0 20px 85px;
+  }
+}

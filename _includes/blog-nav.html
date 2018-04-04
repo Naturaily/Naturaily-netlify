@@ -1,0 +1,241 @@
+<div class="blog-nav">
+  <a class="dropdown-toggle" id="dropdown-toggle" href="#" title="Menu">Categories</a>
+  <ul class="blog-nav-list" id="dropdown">
+    <a href="/blog/">
+      <li {% if page.pagination.tag == undefined %}class="active" {% endif %}>All
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.posts %}
+            {% assign counter = counter | plus: 1 %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/android">
+      <li {% if page.pagination.tag == 'android' %}class="active" {% endif %}>Android
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Android"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/css">
+      <li {% if page.pagination.tag == 'css' %}class="active" {% endif %}>CSS
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["CSS"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/development">
+      <li {% if page.pagination.tag == 'Development' %}class="active" {% endif %}>Development
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Development"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/infographic">
+      <li {% if page.pagination.tag == 'Infographic' %}class="active" {% endif %}>Infographic
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Infographic"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/javascript">
+      <li {% if page.pagination.tag == 'Javascript' %}class="active" {% endif %}>Javascript
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Javascript"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/management">
+      <li {% if page.pagination.tag == 'management' %}class="active" {% endif %}>Management
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Management"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/online%20marketing">
+      <li {% if page.pagination.tag == 'Online marketing' %}class="active" {% endif %}>Online marketing
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Online marketing"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/project%20management">
+      <li {% if page.pagination.tag == 'Project management' %}class="active" {% endif %}>Project management
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Project management"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/remote%20development">
+      <li {% if page.pagination.tag == 'Remote development' %}class="active" {% endif %}>Remote development
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Remote development"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/responsive%20web%20design">
+      <li {% if page.pagination.tag == 'Responsive Web Design' %}class="active" {% endif %}>Responsive Web Design
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Responsive Web Design"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/ror">
+      <li {% if page.pagination.tag == 'Ruby on Rails' %}class="active" {% endif %}>Ruby on Rails
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Ruby on Rails"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/sass">
+      <li {% if page.pagination.tag == 'SASS' %}class="active" {% endif %}>SASS
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["SASS"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/social%20media">
+      <li {% if page.pagination.tag == 'Social media' %}class="active" {% endif %}>Social media
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Social media"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/spree%20commerce">
+      <li {% if page.pagination.tag == 'Spree Commerce' %}class="active" {% endif %}>Spree Commerce
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Spree Commerce"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/startup">
+      <li {% if page.pagination.tag == 'Startup' %}class="active" {% endif %}>Startup
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Startup"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/thoughts%20on%20building%20startups">
+      <li {% if page.pagination.tag == 'Thoughts on building start-ups' %}class="active" {% endif %}>Thoughts on building start-ups
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Thoughts on building start-ups"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/women%20in%20it">
+      <li {% if page.pagination.tag == 'Women in IT' %}class="active" {% endif %}>Women in IT
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Women in IT"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+  </ul>
+</div>
+
+<script type="text/javascript">
+  {% include dropdown.js %}
+</script>

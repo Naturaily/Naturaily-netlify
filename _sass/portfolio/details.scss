@@ -1,0 +1,373 @@
+.deal-banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 10px;
+  align-items: center;
+  grid-template-rows: 1fr;
+  background-size: cover;
+  background-position: center;
+  color: $color-white;
+  border-radius: 5px;
+  margin-top: 50px;
+
+  .deal-text {
+    padding: 75px 30px 60px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: calc(100% - 135px);
+
+    .lvcloud {
+      color: $color-main-project-muted;
+    }
+
+    .banner-logo {
+      width: 160px;
+    }
+
+    p {
+      max-width: 425px;
+    }
+  }
+
+  .deal-image {
+    padding: 20px;
+    text-align: center;
+
+    img {
+      max-height: 420px;
+      margin-top: 30px;
+    }
+  }
+
+  p {
+    font-weight: 200;
+    font-size: 1.5rem;
+  }
+
+  span {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+}
+
+.deal-step {
+  margin-top: 70px;
+
+  .step {
+    display: grid;
+
+    .main-point {
+      margin: 0;
+    }
+
+    h2,
+    span,
+    p,
+    img {
+      margin: 0;
+      margin-top: 30px;
+    }
+
+    img {
+      grid-row: 3;
+      box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .stack {
+      display: flex;
+      max-width: 300px;
+      margin-left: 30px;
+
+      img {
+        max-height: 50px;
+        margin-right: 40px;
+        box-shadow: none;
+      }
+    }
+
+    .image-right {
+      height: 405px;
+    }
+
+    .image-left {
+      height: 405px;
+    }
+
+    .step-image {
+      display: grid;
+
+      .step-gallery-first {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        width: 55%;
+        justify-self: end;
+      }
+
+      .step-gallery-second {
+        grid-row: 1 / 3;
+        grid-column: 1;
+        position: relative;
+        top: 90px;
+      }
+
+      .step-gallery-third {
+        grid-column: 1 / 3;
+        width: 90%;
+        justify-self: end;
+      }
+    }
+  }
+
+  h2 {
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  p {
+    max-width: 350px;
+    margin-top: 30px;
+    font-weight: 200;
+  }
+  .tech {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 53px;
+    margin-left: 30px;
+    width: 320px;
+    margin-bottom: 60px;
+    span {
+      width: 160px;
+      font-weight: 300;
+    }
+
+    &-cards {
+      display: flex;
+      flex-wrap: wrap;
+      span {
+        font-size: 1.5rem;
+        font-weight: 200;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .card {
+        background: $color-white;
+        width: 270px;
+        margin-right: 20px;
+        height: 80px;
+        margin-top: 20px;
+        border-bottom: 4px;
+      	box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+        img {
+          max-height: 100%;
+        }
+        span {
+          font-size: 1rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+.portfolio-comment {
+  margin-top: 70px;
+
+  .project-comment {
+    margin-top: 70px;
+
+    .comment {
+      min-height: 190px;
+    }
+
+    .comment-opinion p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.portfolio-slide {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  .slide-left {
+    justify-self: start;
+  }
+
+  .slide-right {
+    justify-self: end;
+    text-align: right;
+
+    .slide-arrow {
+      justify-self: end; 
+    }
+  }
+
+  .project-logo {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    width: 150px;
+    margin-top: 10px;
+
+  }
+
+  a {
+    display: grid;
+
+    span {
+      grid-row: 1;
+      color: $color-global-font;
+      font-weight: 200;
+      font-size: 0.9rem;
+      margin-top: -5px;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .slide-arrow {
+    grid-row: 1;
+    margin: 0 10px;
+    width: 25px;
+  }
+}
+
+@media (min-width: 811px) {
+  .deal-banner {
+    margin-top: 180px;
+  }
+}
+
+@media (min-width: 992px) {
+  .deal-banner {
+    grid-template-columns: 1fr 1.4fr;
+    height: 540px;
+    .deal-image {
+      grid-column: 2;
+
+      img {
+        margin: 0;
+      }
+    }
+    .deal-text {
+      padding: 75px 0 60px 75px;
+      grid-column: 1;
+      grid-row: 1;
+    }
+  }
+  .deal-step {
+    margin-top: 130px;
+
+    .step-left {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      span, h2, p {
+        grid-column: 1;
+      }
+
+      .stack {
+        margin-left: 60px;
+      }
+
+      .image-right {
+        grid-column: 2;
+        grid-row: 1 / 5;
+        margin-top: 100px;
+        margin-left: 100px;
+      }
+    }
+
+    .step-right {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      span, h2, p {
+        grid-column: 2;
+      }
+
+      .image-left {
+        grid-column: 1;
+        grid-row: 1 / 5;
+        margin-top: 100px;
+      }
+    }
+
+    .step-last {
+      span, h2, p {
+        grid-column: 1;
+      }
+
+      .step-image {
+        grid-column: 2;
+
+        .step-gallery-first {
+          width: 40%;
+          align-self: end;
+        }
+
+        .step-gallery-second {
+          top: 150px;
+          left: -6%;
+          width: 50%;
+        }
+
+        .step-gallery-third {
+          grid-row: 2;
+          width: 70%;
+          margin-right: 30px;
+        }
+      }
+    }
+
+    .step {
+
+      h2 {
+        margin-left: 32px;
+      }
+
+      p {
+        margin-left: 32px;
+        padding: 30px;
+      }
+
+      .step-gallery-top {
+        width: 50%;
+        margin-top: 180px;
+
+        .step-gallery-first {
+          width: 250px;
+          margin-left: -300px;
+          margin-top: 120px;
+        }
+
+        .step-gallery-second {
+          width: 390px;
+          margin-left: 200px;
+          margin-bottom: 30px;
+        }
+      }
+
+      .step-gallery-bottom {
+        width: 80%;
+
+        .step-gallery-third {
+          width: 550px;
+          margin-left: -40px;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+
+  .portfolio-comment {
+    margin-top: 150px;
+
+    .project-comment {
+      margin-top: 115px;
+    }
+  }
+}

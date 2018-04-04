@@ -1,0 +1,26 @@
+<div class="l-career-container">
+  <div class="main-point">
+    Programming
+  </div>
+  {% for job in site.career %}
+  {% if job.type contains "programming" %}
+    <div class="career-card">
+      <span class="career-card-job">
+        <a href="{{job.id}}">{{job.title}}</a>
+      </span>
+      <span class="career-card-rate">
+        <a href="{{job.id}}"> from {{job.salary}} pln netto</a>
+      </span>
+      <a href="{{job.id}}" type="button" class="career-card-apply btn btn-primary">
+        APPLY
+        <img src="/assets/images/btn-arrow.png">
+      </a>
+      <div class="career-hover-wave">
+        <img src="/assets/images/cream-wave3.png">
+        <div class="wave-tail"></div>
+      </div>
+    </div>
+  {% endif %}
+  {% endfor %}
+
+</div>

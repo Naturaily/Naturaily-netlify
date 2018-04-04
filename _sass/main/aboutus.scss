@@ -1,0 +1,133 @@
+.aboutus {
+  margin-top: 70px;
+
+  &-content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 60px;
+    font-weight: 200;
+
+    .aboutus-logo {
+      width: 160px;
+    }
+
+    .aboutus-description {
+      margin-top: 30px;
+    }
+  }
+
+  &-wave-1 {
+    z-index: -2;
+
+    .wave-tail {
+      padding-top: 80%;
+      background: linear-gradient(to bottom, #ffffff 0%,#f2fbff 100%);
+    }
+  }
+
+  &-wave-2 {
+    z-index: -3;
+
+    .wave-tail {
+      padding-top: 80%;
+      background: linear-gradient(to bottom, #ffffff 0%,#fff8eb 100%);
+    }
+  }
+
+  &-wave-3 {
+    z-index: -1;
+
+    .wave-tail {
+      padding-top: 80%;
+      background: linear-gradient(to bottom, #ffffff 0%,#fff8eb 100%);
+    }
+  }
+
+  &-description {
+    margin-top: 40px;
+  }
+}
+
+.aboutus-footer {
+  grid-column: 1 / 3;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 200px 0;
+  background-image: url(/assets/images/form-wave.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px 550px;
+  height: 400px;
+  margin: 0 -70px;
+
+  h1 {
+    margin: 0 90px;
+  }
+
+  p {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 10px
+  }
+
+  span {
+    display: block;
+    margin: 30px 0;
+  }
+}
+
+.about-gallery-titles{
+  margin-top: 85px;
+  h2 {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .aboutus-footer {
+    background-size: 100vw 650px;
+    margin: 0 -230px;
+
+    h1 {
+      margin-top: 50px;
+    }
+
+    span {
+      margin: 50px 0;
+    }
+
+    p {
+      max-width: 500px;
+      margin: 50px auto;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .aboutus {
+    margin-top: 60px;
+
+    &-content {
+      grid-template-columns: 300px 1fr 1fr;
+      margin-top: 60px;
+
+      .aboutus-logo {
+          margin-left: 30px;
+      }
+
+      .aboutus-description {
+        margin-top: 40px;
+      }
+    }
+
+    &-footer {
+      margin: 0px -800px;
+
+      h1 {
+        margin-top: 40px;
+      }
+    }
+  }
+}

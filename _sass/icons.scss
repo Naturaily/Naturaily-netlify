@@ -1,0 +1,55 @@
+@import "utilities";
+
+.sprite {
+  background-image: url(images/icons.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-icon-analyze {
+    @include icon(60px, 65px, -5px, -5px);
+}
+
+.sprite-icon-architectur {
+    @include icon(60px, 56px, -75px, -5px);
+}
+
+.sprite-icon-backend {
+    @include icon(65px, 71px, -145px, -5px);
+}
+
+.sprite-icon-code {
+    @include icon(64px, 54px, -5px, -86px);
+}
+
+.sprite-icon-frontend {
+    @include icon(66px, 54px, -79px , -86px);
+}
+
+.sprite-icon-growth {
+    @include icon(70px, 63px, -155px, -86px);
+}
+
+.sprite-icon-listen {
+    @include icon(59px, 62px, -5px, -159px);
+}
+
+.sprite-icon-mobile {
+    @include icon(60px, 60px, -74px, -159px);
+}
+
+.sprite-icon-mobile2 {
+    @include icon(60px, 60px, -144px, -159px);
+}
+
+.sprite-icon-multi {
+    @include icon(70px, 70px, -220px, -5px);
+}
+
+.sprite-icon-ruby {
+    @include icon(60px, 60px, -235px, -85px);
+}
+
+.sprite-icon-trust {
+    @include icon(67px, 62px, -235px, -155px);
+}

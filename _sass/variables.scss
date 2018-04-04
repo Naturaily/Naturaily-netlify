@@ -1,0 +1,65 @@
+$color-white: #FFFFFF;
+$color-global-font: #3B220F;
+$color-primary: #FF2C2C;
+$color-secondary: #FF5E45;
+$color-main-project-muted: #8564BD;
+$color-accent-purple: #55368A;
+$color-accent-blue: #71C3E3;
+$color-accent-gold: #B36800;
+$color-accent-green: #8DCB6F;
+$color-accent-yellow: #FFB040;
+$color-nav-border: #E8E1D5;
+$color-text-muted: #B8B8B8;
+$color-font-light: #543015;
+$color-code-bg: #FFFBF5;
+$color-zapnito: #E85A52;
+
+.text-primary {
+  color: $color-primary;
+}
+.text-secondary {
+  color: $color-secondary;
+}
+.text-accent-purple {
+  color: $color-accent-purple;
+}
+.text-accent-blue {
+  color: $color-accent-blue;
+}
+.text-accent-gold {
+  color: $color-accent-gold;
+}
+.text-accent-green {
+  color: $color-accent-green;
+}
+.text-center {
+  text-align: center;
+}
+
+
+.bg-accent-purple {
+  background-color: $color-accent-purple;
+}
+.bg-accent-blue {
+  background-color: $color-accent-blue;
+}
+.bg-accent-green {
+  background-color: $color-accent-green;
+}
+
+.clear {
+  clear: both;
+}
+
+.wave {
+  grid-column: 1 / 4;
+  position: relative;
+  .wave-tail {
+    position: absolute;
+    width: 100%;
+    bottom: 100%;
+  }
+  img {
+    width: 100%;
+  }
+}

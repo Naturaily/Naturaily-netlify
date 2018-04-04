@@ -1,0 +1,107 @@
+.technology {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 160px;
+
+  .main-point {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  &-title {
+    padding: 0 10px;
+    margin: 30px 0;
+  }
+
+  &-text {
+    padding: 0 10px;
+    font-weight: 200;
+  }
+
+  &-items {
+    margin: 0 auto;
+
+    .tech-carousel .technology-carousel {
+
+      .slick-arrow {
+        visibility: hidden;
+      }
+
+      .slick-list {
+        width: 350px;
+
+        .slick-track .slick-slide {
+          opacity: 1!important;
+          -webkit-transform: translateY(0) scale(1)!important;
+          transform: translateY(0) scale(1)!important;
+          box-shadow: none;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+    .item {
+      background: $color-white;
+      border-radius: 4px;
+      background-color: $color-white;
+      box-shadow: 0 8px 10px 0 rgba(0,0,0,0.1);
+      font-weight: 200;
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      height: 90px;
+      max-width: 350px;
+      margin-bottom: 20px;
+
+      img {
+        max-height: 60px;
+        margin-left: 15px;
+      }
+
+      .carousel-logo {
+        max-height: 45px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .technology {
+    grid-template-columns: 1fr 0.9fr;
+    margin-top: 0;
+    margin-bottom: 150px;
+
+    .main-point {
+      margin-top: 100px;
+      margin-bottom: 0;
+      grid-column: 2;
+    }
+
+    &-title {
+      margin: 40px 0;
+    }
+
+    &-text {
+      padding: 0 50px;
+    }
+
+    &-items {
+      padding-top: 200px;
+
+      .right {
+        margin-left: 50px;
+      }
+
+      .left {
+        margin-left: 15px;
+      }
+
+      .ios {
+        margin-left: 100px;
+      }
+    }
+  }
+}

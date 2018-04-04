@@ -1,0 +1,180 @@
+.l-main-container {
+
+  .l-career-header-details {
+    margin-bottom: 30px;
+
+    .point-where {
+      font-weight: 200;
+    }
+  }
+
+  .l-career-container-benefits {
+    display: block;
+  }
+}
+
+.career-details {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  &--who {
+    grid-column: 1 / 3;
+    max-width: 450px;
+    margin: 0;
+    font-weight: 200;
+  }
+
+  &--content {
+    grid-column: 1 / 3;
+    font-weight: 200;
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    span {
+      font-weight: 200;
+      font-size: 1.5rem;
+      min-width: 250px;
+      font-weight: 200;
+    }
+
+    p a {
+      color: $color-global-font;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+
+  &--card {
+    grid-row: 2;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+    padding: 25px;
+    font-weight: 200;
+    border-radius: 4px;
+    margin: 30px;
+
+    span {
+      display: block;
+      width: 200px;
+      margin-bottom: 10px;
+      font-size: 1.7rem;
+      color: $color-font-light;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      padding-left: 1em;
+      text-indent: -.7em;
+      color: $color-accent-gold;
+
+      &::before {
+        content: "•";
+        color: $color-accent-gold;
+        margin-right: 3px;
+      }
+    }
+
+    button {
+      font-size: 0.8rem;
+      width: 100%;
+      padding: 13px 40px;
+      margin-top: 60px;
+    }
+  }
+
+  &--mail {
+    margin: 70px 0;
+
+    .mail {
+      display: block;
+      margin-top: 30px;
+      font-size: 28px;
+      line-height: 35px;
+
+      a {
+        color: $color-font-light;
+      }
+    }
+  }
+}
+
+.career-more {
+  .more {
+    font-size: 22px;
+  }
+
+  .title {
+    margin: 20px 0 30px;
+  }
+}
+
+.requirements {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    font-weight: 200;
+    padding-left: 1em;
+    text-indent: -.7em;
+    max-width: 400px;
+
+    &::before {
+      content: "• ";
+      color: $color-accent-yellow;
+    }
+  }
+}
+
+
+@media (min-width: 992px) {
+  .career-details {
+
+    &--who {
+      margin-bottom: 80px;
+    }
+
+    &--content {
+      margin: 0;
+
+      p {
+        margin-bottom: 60px;
+      }
+
+      ul {
+        margin-bottom: 60px;
+      }
+    }
+
+    &--card {
+      grid-row: 2 / 3;
+      grid-column: 3;
+      height: 250px;
+      margin: 0;
+      margin-left: 50px;
+      margin-bottom: 30px;
+    }
+
+    &--mail {
+      text-align: center;
+    }
+  }
+
+  .career-more  .title {
+    margin-top: 40px;
+  }
+
+  .career-details-wave .wave-tail {
+    padding-top: 40%;
+  }
+
+  .requirements {
+    margin-left: 30px;
+  }
+}

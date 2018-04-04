@@ -1,0 +1,58 @@
+.error__wave {
+  padding-top: 40%;
+  grid-area: header;
+  background-image: url('../assets/images/blog-wave.png');
+  background-position: 50% 0;
+  background-size: 133%;
+  background-repeat: no-repeat;
+}
+
+.error {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  text-align: center;
+  min-height: 310px;
+
+  &-wrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+}
+
+@media (min-width: 811px) {
+  .error {
+    grid-row: 2;
+    height: calc(100vh - 865px);
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 50px;
+      font-size: 110px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .error {
+    height: calc(100vh - 523px);
+  }
+}

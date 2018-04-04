@@ -1,0 +1,101 @@
+.contactContainer {
+  display: none;
+  position: fixed;
+  top: 0px;
+  z-index: 4;
+  background: rgba(0,0,0,0.8);
+  height: 100%;
+  width: 100%;
+
+  .contactForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    height: 660px;
+    width: 550px;
+    background-image: url(/assets/images/form-wave2.png);
+    background-repeat: no-repeat;
+    background-size: 600px 800px;
+    background-position: center;
+    border-radius: 1%;
+
+    &-exit {
+      position: relative;
+      left: 240px;
+      top: 20px;
+
+      input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: relative;
+        left: 245px;
+        top: 12px;
+        transform: none;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+      }
+
+      span {
+        display: block;
+        width: 25px;
+        height: 4px;
+        margin-bottom: 5px;
+        background: $color-global-font;
+        border-radius: 3px;
+        z-index: 1;
+        position: relative;
+        left: 252px;
+      }
+
+      .exit-first {
+        transform: rotate(45deg);
+        top: -10px;
+      }
+
+      .exit-second {
+        transform: rotate(-45deg);
+        top: -19px;
+      }
+    }
+
+    &-header {
+      position: relative;
+      top: -30px;
+      text-align: left;
+      margin: 0;
+      margin-left: 40px;
+      font-size: 1.95rem;
+    }
+
+    .pipedriveWebForms {
+      width: 500px!important;
+      margin: 0 auto;
+      top: -50px;
+    }
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .contactContainer {
+
+    .contactForm {
+      height: 600px;
+      top: 52%;
+      width: 320px;
+
+      .pipedriveWebForms {
+        height: 80%!important;
+        width: 200px!important;
+        margin: 0 auto;
+      }
+
+      &-exit {
+        left: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@mixin red-gradient-background {
+  	background: linear-gradient(270deg, $color-secondary 0%, $color-primary 100%);
+}
+
+@mixin icon($width, $height, $position-x, $position-y) {
+  width: $width;
+  height: $height;
+  background-position: $position-x $position-y;
+}
+
+@mixin transition($time) {
+  -webkit-transition: all $time ease-in-out;
+  transition: all $time ease-in-out;
+}
+
+@mixin scale($value) {
+  -webkit-transform: scale($value);
+  -ms-transform: scale($value);
+  transform: scale($value);
+}

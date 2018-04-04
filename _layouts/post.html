@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<div class="blog__wave"></div>
+
+<div class="l-content l-blog">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      {% if page.image %}
+        <img src="{{page.image}}" alt="">
+      {% endif %}
+      <p class="post-meta">
+        {% if page.avatar %}
+          <img class="avatar" src="{{ page.avatar }}">
+        {% endif %}
+        <span class="author">
+          {% if page.author %}
+            <span>{{ page.author }}</span>
+          {% endif %}
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+          </time>
+        </span>
+        {% if page.readtime %}
+          <span class="read-time">{{ page.readtime }} min czytania</span>
+        {% endif %}
+      </p>
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <div class="post-tags">
+        {% if page.author %}
+          {% for tag in page.tags %}
+            <a href="/blog/{{ tag }}">{{ tag }}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </header>
+
+      <div class="post-content" itemprop="articleBody">
+        {{ content }}
+      </div>
+
+      {% if page.comments %}
+        {% include disqus_comments.html %}
+      {% endif %}
+    </article>
+    <div class="right-column">
+      {% include blog-recentpost.html %}
+      {% include blog-meetus.html %}
+    </div>
+    <div class="post-navigation">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">
+          {{page.previous.title}}
+          <img src="/assets/images/arrow-brown.png">
+        </a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">
+          <img src="/assets/images/arrow-brown.png">
+          {{page.next.title}}
+        </a>
+      {% endif %}
+    </div>
+    <div class="post-footer">
+      <h1>You’re going to like it!</h1>
+      <p>Do you want to work in calm, family atmosphere, eat bananas and drink craft beer? ;)</p>
+      <span>Join Naturaily!</span>
+      <a href="/career" type="button" class="btn btn-secondary">
+        see job offers
+      </a>
+    </div>
+
+</div>
+
+<div class="l-full-page">
+  {% include form.html %}
+</div>
+<script type="text/javascript">
+  {% include blog-sticky.js %}
+</script>

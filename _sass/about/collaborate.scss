@@ -1,0 +1,49 @@
+.dimonds {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 100px;
+  align-items: end;
+
+  .dimond {
+    margin-bottom: 70px;
+    display: grid;
+
+    img {
+      width: 250px;
+    }
+
+    h2 {
+      grid-row: 1;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .dimonds {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 60px;
+
+    .dimond {
+      margin-bottom: 50px;
+
+      img {
+        width: 300px;
+      }
+
+      h2 {
+        margin: 0;
+        grid-row: auto;
+      }
+
+      p {
+        margin: 40px 0 0 30px;
+        font-weight: 300;
+        max-width: 1000px;
+      }
+
+      &-steam {
+        margin-bottom: 170px;
+      }
+    }
+  }
+}

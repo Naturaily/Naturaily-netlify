@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: develop
+
+publish_mode: editorial_workflow
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  -
+    name: "post"
+    label: "Post"
+    folder: "_posts"
+    create: true
+    slug: "{{slug}}"
+    categories:
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date posted", name: "date", format: "DD MM YYYY", widget: "date"}
+      - {label: "Author name", name: "author", widget: "string"}
+      - {label: "Author avatar", name: "avatar", widget: "image"}
+      - {label: "Post image", name: "image", widget: "image"}
+      - {label: "Post preview", name: "text-preview", widget: "markdown"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: false
+        default: [""]
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -1,0 +1,53 @@
+.portfolio-comment {
+  .comment {
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 40px auto;
+    font-weight: 300;
+    padding: 0 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background: $color-white;
+
+    .comment-info {
+      width: 100%;
+      text-align: center;
+
+      img {
+        max-width: 100px;
+        margin: -50px auto 15px;
+        border-radius: 50%;
+        box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+      }
+    }
+
+    .comment-opinion {
+      width: 100%;
+
+      .comment-company {
+        max-width: 100px;
+        margin: 20px 0;
+        display: block;
+      }
+    }
+
+    p {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-comment .comment {
+    width: 900px;
+
+    .comment-opinion {
+      width: 80%;
+      padding-left: 4%;
+    }
+
+    .comment-info {
+      width: 16%;
+    }
+  }
+}

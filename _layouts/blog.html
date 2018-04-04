@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<div class="blog__wave"></div>
+
+<div class="l-content l-blog">
+  {% for post in paginator.posts %}
+    <div class="post-preview">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {% if post.image %}
+        <img class="post-image" src="{{post.image}}">
+        {% endif %}
+      </a>
+      <p class="post-meta">
+        {% if post.avatar %}
+          <img class="avatar" src="{{ post.avatar }}">
+        {% endif %}
+        <span class="author">
+          {% if post.author %}
+            <span>{{ post.author }}</span>
+          {% endif %}
+          <time>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ post.date | date: date_format }}
+          </time>
+        </span>
+        {% if post.readtime %}
+          <span class="read-time">{{ post.readtime }} min read</span>
+        {% endif %}
+      </p>
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <h1 class="post-title">{{ post.title | escape }}</h1>
+      </a>
+      <div class="post-tags">
+        {% for tag in post.tags %}
+          <a href="/blog/{{ tag }}" class="post-tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% if post.text-preview %}
+        {{ post.text-preview }}
+        <a class="read-more" href="{{ post.url | relative_url }}">
+          read more
+        </a>
+      {% endif %}
+      <hr>
+    </div>
+
+  {% endfor %}
+  <div class="right-column">
+    {% include blog-recentpost.html %}
+    {% include blog-meetus.html %}
+  </div>
+</div>
+
+<div class="l-content l-blog-pager">
+  <ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: 'index.html', '' }}">&larr;</a>
+    </li>
+    {% endif %}
+    {% if paginator.page_trail %}
+    {% for trail in paginator.page_trail %}
+    <li {% if page.url == trail.path %}class="selected"{% endif %}>
+      <a href="{{ trail.path | prepend: site.baseurl | replace: 'index.html', '' }}" title="{{trail.title}}">{{ trail.num }}</a>
+    </li>
+    {% endfor %}
+    {% endif %}
+    {% if paginator.next_page %}
+
+    <li class="next">
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: 'index.html', '' }}">&rarr;</a>
+    </li>
+    {% endif %}
+  </ul>
+
+</div>
+
+<div class="l-full-page">
+  {% include form.html %}
+</div>
+
+<script type="text/javascript">
+  {% include blog-sticky.js %}
+</script>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+    <div class="l-main-container" id="mainContainer">
+
+      {% include header.html %}
+
+      {{ content }}
+
+    </div>
+    {% include footer.html %}
+
+    <script type="text/javascript" src="https://static1.clutch.co/sites/all/modules/custom/clutch_widget/js/widget.js"></script>
+  </body>
+  {% seo %}
+</html>

@@ -1,0 +1,96 @@
+---
+layout: default
+---
+<div class="career__wave"></div>
+<h2 class="l-content l-career-header l-career-header-details">
+  <span class="big-point">
+    We’re looking for {{page.title}}
+  </span>
+  <span class="point-where">
+    Wrocław or remotely
+  </span>
+</h2>
+<div class="l-content career-details l-career-container career-detail-wider">
+  <p class="career-details--who">
+    We are an Agile development team using Ruby on Rails, Meteor and Ionic to craft great web and mobile apps. We work with startups and grown-up companies.
+  </p>
+  <div class="career-details--content">
+    <h2>
+      Join is if you have
+    </h2>
+    <ul class="requirements">
+      {% for req in page.requirements %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="career-details--card">
+    <span>{{page.title}}</span>
+    <ul>
+      {% for req in page.salary-range %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+    <button type="button" class="btn btn-primary">
+      apply
+      <img src="/assets/images/btn-arrow.png">
+    </button>
+  </div>
+</div>
+<div class="l-content l-career-container l-career-container-benefits">
+  <div class="career-more">
+    <div>
+      <span class="more">
+        Expect more!
+      </span>
+      <h2 class="title">What we offer</h2>
+      <ul class="requirements">
+        <li>Consistent growth and full control over your career path</li>
+        <li>Lots of opportunities to fully develop your potential</li>
+        <li>The real inpact on decisions made inside the organization</li>
+        <li>Flexible working hours and a partially remote work if needed</li>
+        <li>Weekly lunches, fresh fruits, coffee and snacks...</li>
+      </ul>
+    </div>
+    <div class="benefits">
+      <div class="benefits-tile benefit-1">
+        <img src="/assets/images/balance.png" alt="balance">
+        <span class="tile-text text-accent-green">Work/life balance</span>
+      </div>
+      <div class="benefits-tile benefit-2">
+        <img src="/assets/images/environment.png" alt="environment">
+        <span class="tile-text text-accent-gold">Healthy environment</span>
+      </div>
+      <div class="benefits-tile benefit-3">
+        <img src="/assets/images/freedom.png" alt="freedom">
+        <span class="tile-text text-accent-blue">Freedom of speech</span>
+      </div>
+      <div class="benefits-tile benefit-4">
+        <img src="/assets/images/challenges.png" alt="challenges">
+        <span class="tile-text">Challenges</span>
+      </div>
+      <div class="benefits-tile benefit-5">
+        <img src="/assets/images/education.png" alt="education">
+        <span class="tile-text text-accent-purple">Tech education</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wave main-wave-2 career-details-wave">
+  <div class="wave-tail"></div>
+  <img src="/assets/images/blue-wave.png" alt="">
+</div>
+<div class="l-content l-career-container l-career-container-benefits">
+  <div class="career-details--mail">
+    <span class="main-point">Don't hesitate and apply right away!</span>
+    <span class="mail">
+       In case of questions - drop us a line at
+       <br>
+       <a href="mailto:jobs@naturaily.com">jobs@naturaily.com</a>
+    </span>
+  </div>
+</div>
+
+<div class="l-full-page">
+  {% include form.html %}
+</div>

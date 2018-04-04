@@ -1,0 +1,122 @@
+.portfolio-projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 75px;
+  grid-row-gap: 30px;
+
+
+  .project {
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 40px 1fr 30px 20px;
+    background-size: cover;
+
+    &-collectivity {
+      background-image: url(../assets/images/projects-background-green.png);
+
+      a {
+        margin-top: 10px;
+      }
+    }
+
+    &-zapnito {
+      background-image: url(../assets/images/projects-background-blue.png);
+    }
+
+    &-snipsl {
+      background-image: url(../assets/images/projects-background-red.png);
+    }
+
+    &-text-collectivity {
+      margin-top: 10px;
+    }
+
+    &-image {
+      &-zapnito {
+        width: 350px;
+      }
+
+      &-collectivity {
+        width: 270px;
+      }
+
+      &-snipsl {
+        width: 300px;
+      }
+    }
+
+    &:hover {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+  }
+
+  .project-banner {
+    grid-column: 1;
+    background-image: url(../assets/images/projects-background-purple.png);
+    padding: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    .project-image {
+      grid-column: 1;
+      grid-row: 1;
+
+      &-lvcloud {
+        max-height: 380px;
+      }
+    }
+
+    .project-text {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    span {
+      font-weight: 200;
+      display: block;
+    }
+    p {
+      font-size: 1.5rem;
+      font-weight: 200;
+      margin-top: 30px;
+      margin-bottom: 56px;
+      max-width: 425px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-projects {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 85px;
+
+    .project-banner {
+      grid-column: 1 / 4;
+      grid-template-columns: 1fr 1.4fr;
+
+      .project-image {
+        grid-column: 2 / 3;
+        grid-row: 2;
+      }
+
+      .project-text {
+        grid-column: 1 / 2;
+        grid-row: 2;
+        padding-left: 35px;
+      }
+    }
+
+    .project {
+      &-collectivity {
+        margin-top: 60px;
+      }
+
+      &-zapnito, &-snipsl {
+        margin-bottom: 60px;
+      }
+
+      &-image img {
+        width: auto;
+      }
+    }
+  }
+}

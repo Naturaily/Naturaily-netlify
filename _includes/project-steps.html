@@ -1,0 +1,50 @@
+<div class="deal-step">
+  <div class="step step-left">
+    <span class="main-point">{{ page.step-one }}</span>
+    <h2>{{ page.step-one-title }}</h2>
+    <p>{{ page.step-one-text }}</p>
+    <img class="image-right" src="{{ page.image-one }}">
+  </div>
+</div>
+
+<div class="deal-step">
+  <div class="step step-right">
+    <span class="main-point">{{ page.step-two }}</span>
+    <h2>{{ page.step-two-title }}</h2>
+    <p>{{ page.step-two-text }}</p>
+    <img class="image-left" src="{{ page.image-two }}">
+  </div>
+</div>
+
+<div class="deal-step">
+  <div class="step step-left">
+    <span class="main-point">{{ page.step-three }}</span>
+    <h2>{{ page.step-three-title }}</h2>
+    <p>{{ page.step-three-text }}</p>
+    <div class="stack">
+      {% if page.src-stack-1 %}
+        <img src="{{ page.src-stack-1 }}" alt="{{ page.alt-stack-1 }}">
+      {% endif %}
+      {% if page.src-stack-2 %}
+        <img src="{{ page.src-stack-2 }}" alt="{{ page.alt-stack-2 }}">
+      {% endif %}
+      {% if page.src-stack-3 %}
+        <img src="{{ page.src-stack-3 }}" alt="{{ page.alt-stack-3 }}">
+      {% endif %}
+    </div>
+    <img class="image-right" src="{{ page.image-six }}">
+  </div>
+</div>
+
+<div class="deal-step">
+  <div class="step step-last">
+    <span class="main-point">{{ page.step-four }}</span>
+    <h2>{{ page.step-four-title }}</h2>
+    <p>{{ page.step-four-text }}</p>
+    <div class="step-image">
+      <img class="step-gallery-first" src="{{ page.image-three }}">
+      <img class="step-gallery-second" src="{{ page.image-four }}">
+      <img class="step-gallery-third" src="{{ page.image-five }}">
+    </div>
+  </div>
+</div>

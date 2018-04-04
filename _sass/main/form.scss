@@ -1,0 +1,23 @@
+.pipedriveWebForms {
+  display: flex;
+  justify-content: center;
+}
+
+.l-main-form {
+  position: relative;
+  margin-top: 100px;
+
+  .main-point {
+    display: block;
+  }
+  .form-wave {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    z-index: -1;
+    max-width: none;
+    height: 700px;
+    min-width: 100%;
+  }
+}

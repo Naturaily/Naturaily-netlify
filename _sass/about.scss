@@ -1,0 +1,48 @@
+@import "about/whoarewe";
+@import "about/faces";
+@import "about/values";
+@import "about/collaborate";
+
+.about__wave {
+  padding-top: 40%;
+  grid-area: header;
+  background-image: url('../assets/images/blog-wave.png');
+  background-position: 50% 0;
+  background-size: 133%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 610px;
+}
+
+.l-about-header {
+  margin-top: 50px;
+  margin-bottom: 70px;
+
+  .big-point {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 811px) {
+  .l-about-header {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .l-about-header {
+    margin: 180px 0 120px;
+    padding: 0 65px;
+
+    .big-point {
+      margin-left: -40px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .l-about-header {
+    padding: 0 135px;
+  }
+}

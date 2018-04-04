@@ -1,0 +1,61 @@
+.whoarewe {
+  position: relative;
+  margin-bottom: 190px;
+  margin-top: 110px;
+  img {
+    margin-bottom: 65px;
+    width: 160px;
+  }
+  .about-oval {
+    height: 270px;
+    width: 270px;
+    background: radial-gradient(circle, #FCC36D 0%, #FFB040 100%);
+    box-shadow: 0 30px 120px 0 rgba(255, 176, 64, 0.3);
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    right: -70px;
+    z-index: -1;
+    animation: oval 11s 500ms linear alternate infinite,fade-in 3300ms 0s cubic-bezier(0.68,-0.55,0.265,1.55);
+  }
+  &-texts {
+    .primary {
+      font-size: 2.2rem;
+      font-weight: 200;
+      max-width: 870px;
+    }
+    .secondary {
+      font-weight: 300;
+      max-width: 450px;
+      margin-left: 30px;
+      margin-top: 43px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .whoarewe {
+    margin: 0;
+    margin-top: 70px;
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    .about-oval {
+      top: -90px;
+      right: -170px;
+    }
+
+    &-texts {
+      .primary {
+        font-size: 1.8rem;
+        margin: 0;
+      }
+      .secondary {
+        margin-left: 0;
+        margin-top: 30px;
+      }
+    }
+  }
+}
