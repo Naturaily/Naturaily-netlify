@@ -4,7 +4,7 @@ layout: career-details
 type: design
 salary: 8000
 responsibilities:
-  - ''
+  - '1234'
 requirements:
   - stuff
   - ''
