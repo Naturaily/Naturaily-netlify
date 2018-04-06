@@ -1,8 +1,8 @@
 ---
 title: Growth hacker
 layout: career-details
-type: other
-salary: 3500
+type: design
+salary: '100'
 responsibilities:
   - ''
 requirements:
