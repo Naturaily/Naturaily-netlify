@@ -1,6 +1,6 @@
 ---
 title: Using Google Sheets as a dashboard for Breeze time tracker
-date: 08-22-2017
+date: 08-21-2017
 category: Management
 author: Sebastian Kubiak
 avatar: /assets/images/seba.jpg
