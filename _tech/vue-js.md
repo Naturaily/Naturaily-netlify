@@ -68,7 +68,7 @@ blog-desc: Our Vue developers share their knowledge and experience on our blog.
 competences:
   - tech-name: PWA
   - tech-name: React
-  - tech-name: EMBER
+  - tech-name: Ember
 competences-text: Vue
 ---
 
