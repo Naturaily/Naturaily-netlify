@@ -20,7 +20,8 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0000", widget: "date"}
-      - {label: "Author name", name: "category", widget: "string"}
+      - {label: "Category", name: "category", widget: "hidden", default: "author"}
+      - {label: "Author name", name: "author", widget: "string"}
       - {label: "Author avatar", name: "avatar", widget: "image"}
       - {label: "Post image", name: "image", widget: "image"}
       - {label: "Post preview", name: "text-preview", widget: "text"}
