@@ -1,6 +1,5 @@
 ---
 layout: default
-category: page.author
 ---
 
 <div class="blog__wave"></div>
@@ -16,8 +15,8 @@ category: page.author
           <img class="avatar" src="{{ page.avatar }}" alt="Author avatar">
         {% endif %}
         <p class="author">
-          {% if page.author %}
-            <a href="/blog/author/{{ page.author | replace: " ", "-"; }}/">{{ page.author }}</a>
+          {% if page.category %}
+            <a href="/blog/author/{{ page.category | replace: " ", "-"; }}/">{{ page.category }}</a>
           {% endif %}
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -25,7 +24,7 @@ category: page.author
           </time>
         </p>
         <div class="post-tags">
-          {% if page.author %}
+          {% if page.category %}
             {% for tag in page.tags %}
               <a href="/blog/tags/{{ tag | replace: " ", "-"; }}/">{{ tag }}</a>
             {% endfor %}
