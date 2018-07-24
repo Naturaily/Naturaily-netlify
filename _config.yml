@@ -39,6 +39,10 @@ collections:
   tech:
     output: true
     permalink: /:path
+  category:
+    output: true
+    permalink: /author/:path
+
 blog:
   tags:
     url: /blog/tags/
@@ -60,6 +64,12 @@ defaults:
       tags: ' '
       image: ' '
       text-preview: ' '
+  -
+    scope:
+      path: ''
+      type: 'category'
+    values:
+      layout: tag.html
   -
     scope:
       path: ''

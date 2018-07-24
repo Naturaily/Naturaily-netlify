@@ -1,5 +1,6 @@
 ---
 layout: default
+category: page.author
 ---
 
 <div class="blog__wave"></div>
@@ -16,7 +17,7 @@ layout: default
         {% endif %}
         <p class="author">
           {% if page.author %}
-            <span>{{ page.author }}</span>
+            <a href="/blog/author/{{ page.author | replace: " ", "-"; }}/">{{ page.author }}</a>
           {% endif %}
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
