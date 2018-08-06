@@ -67,7 +67,7 @@ layout: default
       <li>{{ req }}</li>
       {% endfor %}
     </ul>
-    <button type="button" class="btn btn-primary" data-job-modal-trigger>
+    <button type="button" class="btn btn-primary" data-modal-trigger="job">
       apply
       <img src="/assets/images/btn-arrow.png" alt="arrow">
     </button>
@@ -110,17 +110,15 @@ layout: default
   <img src="/assets/images/blue-wave.png" alt="blue-wave">
 </div>
 
-<div class="contactContainer" data-job-modal>
-  <div class="contactForm" data-job-modal-form>
-    <div class="contactForm-exit">
-      <input type="checkbox" data-job-modal-close />
+<div class="modal-container" data-modal="job" data-modal-close="job">
+  <div class="contact-form" data-modal-form="job">
+    <div class="contact-form-exit">
+      <input type="checkbox" data-modal-close="job"/>
       <span class="exit-first"></span>
       <span class="exit-second"></span>
     </div>
     <h3 class="contactForm-header">Join Naturaily!</h3>
-    <div class="pipedriveWebForms" data-pd-webforms="https://pipedrivewebforms.com/form/e1106d2a14dcd1df24fa778d286b4e69121759">
-      <script src="https://cdn.pipedriveassets.com/web-form-assets/webforms.min.js"></script>
-    </div>
+    <script type="text/javascript" src="https://form.jotformeu.com/jsform/82173567298368"></script>
   </div>
 </div>
 

@@ -1,4 +1,4 @@
-.contactContainer {
+.contactContainer, .modal-container {
   visibility: hidden;
   position: fixed;
   top: 0px;
@@ -7,13 +7,13 @@
   height: 100%;
   width: 100%;
 
-  .contactForm {
+  .contactForm, .contact-form {
     position: absolute;
     top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -200%);
-    height: 660px;
+    height: auto;
     width: 550px;
     background-color: #fdf1de;
     background-repeat: no-repeat;
@@ -120,8 +120,8 @@
       }
     }
 
-    .pipedriveWebForms {
-      width: 500px!important;
+    .pipedrive-form {
+      width: 500px !important;
       margin: 0 auto;
       top: -50px;
     }
@@ -129,14 +129,14 @@
 }
 
 @media screen and (max-width: 810px) {
-  .contactContainer {
+  .contactContainer, .modal-container {
 
-    .contactForm {
+    .contactForm, .contact-form {
       height: 600px;
       top: 52%;
       width: 320px;
 
-      .pipedriveWebForms {
+      .pipedrive-form {
         height: 80%!important;
         width: 200px!important;
         margin: 0 auto;
