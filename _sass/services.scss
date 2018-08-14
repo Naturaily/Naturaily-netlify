@@ -68,27 +68,12 @@
   }
 
   .career-more .services--hover {
-    transition: all 0.2s ease-in-out;
+    transition: transform .2s ease-in-out;
     &:hover {
-      transition: all 0.2s ease-in-out;
+      transition: transform .2s ease-in-out;
       transform: scale(1.1);
-      .tile-text {
-        margin-bottom: 80px;
-      }
-      .btn {
-        display: block;
-        bottom: 25px;
-      }
+      text-decoration: none;
     }
-
-    .btn {
-      display: none;
-      position: absolute;
-      bottom: 25px;
-      padding: 5px 25px;
-      font-size: 10px;
-    }
-
     .tile-text {
       transition: all 0.2s ease-in-out;
     }
