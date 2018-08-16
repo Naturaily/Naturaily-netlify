@@ -5,7 +5,7 @@ description: >-
   management. Will SoundCloud learn from their own mistakes?
 slug: what-happened-to-soundcloud-and-why
 date: '2017-08-17 10:38:01 +0000'
-category: Wojciech Miśta
+category: Startups
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/soundcloud.jpg

@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where: "author", page.filter_author %}
 <div class="blog__wave"></div>
 
 <div class="l-content l-blog">
   <div class="container">
     <div class="row">
       <section>
-        {% if page.filter_author %}
-          {% for post in posts |  %}
+        {% if site.categories[page.filter_category] %}
+          {% for post in site.categories[page.filter_category] %}
             <div class="post-preview">
               <a class="post-link" href="{{ post.url | relative_url }}">
                 {% if post.image %}

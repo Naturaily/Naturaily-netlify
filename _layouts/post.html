@@ -14,8 +14,8 @@ layout: default
           <img class="avatar" src="{{ page.avatar }}" alt="Author avatar">
         {% endif %}
         <p class="author">
-          {% if page.category %}
-            <a href="/blog/authors/{{ page.category | replace: " ", "-"; }}/">{{ page.category }}</a>
+          {% if page.author %}
+            <a href="/blog/authors/{{ page.author | replace: " ", "-" | downcase }}/">{{ page.author }}</a>
           {% endif %}
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -23,11 +23,9 @@ layout: default
           </time>
         </p>
         <div class="post-tags">
-          {% if page.author %}
-            {% for tag in page.tags %}
-              <a href="/blog/tags/{{ tag | replace: " ", "-"; }}/">{{ tag }}</a>
-            {% endfor %}
-          {% endif %}
+          {% for tag in page.tags %}
+            <a href="/blog/tags/{{ tag | replace: " ", "-" }}/">{{ tag }}</a>
+          {% endfor %}
         </div>
         {% if page.readtime %}
           <span class="read-time">{{ page.readtime }} min czytania</span>
@@ -44,6 +42,7 @@ layout: default
 
     </article>
     <div class="right-column">
+      {% include blog-categories.html %}
       {% include blog-recentpost.html %}
       {% include blog-meetus.html %}
     </div>

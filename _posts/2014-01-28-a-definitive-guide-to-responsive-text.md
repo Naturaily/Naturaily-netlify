@@ -5,7 +5,7 @@ description: >-
   most important piece - the text. Check out our guide to responsive text!
 slug: responsive-text-guide
 date: '2014-01-28 10:38:01 +0000'
-category: Maciej Kucharski
+category: Frontend development
 author: Maciej Kucharski
 avatar: /assets/images/maciek.png
 image: /assets/images/responsivetext.jpg

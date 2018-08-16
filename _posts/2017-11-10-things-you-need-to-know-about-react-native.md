@@ -6,7 +6,7 @@ description: >-
   development.
 slug: react-native-things-to-know
 date: '2017-11-10 10:38:01 +0000'
-category: Wojciech Miśta
+category: JavaScript development
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/react-native.jpg

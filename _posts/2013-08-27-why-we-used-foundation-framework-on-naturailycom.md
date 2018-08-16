@@ -5,7 +5,7 @@ description: >-
   which are the reasons why we used it to develop our website.
 slug: foundation-framework-naturaily
 date: '2013-08-27 10:38:01 +0000'
-category: Maciej Kucharski
+category: Frontend development
 author: Maciej Kucharski
 avatar: /assets/images/maciek.png
 image: /assets/images/foundation.jpg

@@ -7,7 +7,7 @@ description: >-
   and difficult. Luckily, this guide is here to help!
 slug: android-developer-guide-help-screens
 date: '2016-09-22 10:38:01 +0000'
-category: Kamil Buczel
+category: Native mobile development
 author: Kamil Buczel
 avatar: /assets/images/kamil.jpg
 image: /assets/images/android-hipster.jpg

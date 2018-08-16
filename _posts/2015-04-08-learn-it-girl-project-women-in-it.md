@@ -6,7 +6,7 @@ description: >-
   apps.
 slug: women-in-it
 date: '2015-04-08 10:38:01 +0000'
-category: Agnieszka Bugajska
+category: Diversity
 author: Agnieszka Bugajska
 avatar: /assets/images/aga.png
 image: /assets/images/learn_it_girl.jpg

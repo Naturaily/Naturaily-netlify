@@ -5,7 +5,7 @@ description: >-
   builders. Below you will find some of my favourite examples.
 slug: entrepreneurs-advice-from-movie-heroes
 date: '2015-02-02 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Startups
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/film_quotes.png

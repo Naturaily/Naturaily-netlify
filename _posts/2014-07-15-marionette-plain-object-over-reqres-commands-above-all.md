@@ -5,7 +5,7 @@ description: >-
   to use them, and what are the differences.
 slug: marionette-tutorial-objects-commands
 date: '2014-07-15 10:38:01 +0000'
-category: Maciej Kucharski
+category: JavaScript development
 author: Maciej Kucharski
 avatar: /assets/images/maciek.png
 image: /assets/images/marionette.jpg

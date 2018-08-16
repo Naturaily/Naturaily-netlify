@@ -7,7 +7,8 @@ description: >-
 slug: node-js-applications
 layout: post
 date: '2018-07-30 10:18:26 +0000'
-category: Wojciech Miśta
+category: JavaScript development
+author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/node-js-applications.jpg
 text-preview: >-
@@ -84,7 +85,7 @@ He also mentions how numerous development tools, automation libraries and other 
 
 Medium is an extremely popular online publishing platform where anyone can publish posts, mostly related to the field they work in. In 2016 alone 7.5M articles were published. In that year, site noted over 60 million unique monthly visitors (140% increase compared to previous year).
 
-According to Stackshare, Medium initially leveraged Node.js to do most of the required work, which they later divided into certain sections for other tools. Node.js still remains as the core of the app, but it is being run in multiple instances.   
+According to Stackshare, Medium initially leveraged Node.js to do most of the required work, which they later divided into certain sections for other tools. Node.js still remains as the core of the app, but it is being run in multiple instances.
 
 ### [![node-js-wsj](/assets/images/node-js-wsj.png)](https://www.wsj.com/){:rel=nofollow} Wall Street Journal
 

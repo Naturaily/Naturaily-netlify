@@ -5,7 +5,7 @@ description: >-
   Doorkeeper in the simplest way possible!
 slug: api-authentication-devise-doorkeeper-setup
 date: '2016-08-22 10:38:01 +0000'
-category: Jan Wieczorkowski
+category: Ruby on Rails development
 author: Jan Wieczorkowski
 avatar: /assets/images/janpol.png
 image: /assets/images/ancient-hall.jpg

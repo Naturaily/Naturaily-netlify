@@ -5,7 +5,7 @@ description: >-
   took a closer look at German startups that are worth your attention.
 slug: berlin-startups-2017
 date: '2017-08-29 10:38:01 +0000'
-category: Wojciech Miśta
+category: Startups
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/berlin-startups.jpg

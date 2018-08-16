@@ -5,7 +5,7 @@ description: >-
   too? Here are 5 reasons, from our experience, why you should let them!
 slug: remote-work-pros
 date: '2016-07-04 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Agile
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/release-employees.jpg

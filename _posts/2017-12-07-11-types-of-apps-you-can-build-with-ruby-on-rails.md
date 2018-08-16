@@ -5,7 +5,7 @@ description: >-
   deep look at the kind of apps you can build with Ruby on Rails.
 slug: ruby-on-rails-apps
 date: '2017-12-07 10:38:01 +0000'
-category: Wojciech Miśta
+category: Ruby on Rails development
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/ruby-is-cool.png

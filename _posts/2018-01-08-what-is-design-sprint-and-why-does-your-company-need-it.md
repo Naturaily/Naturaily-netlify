@@ -5,7 +5,7 @@ description: >-
   idea onto a piece of paper. Read on to learn how it works!
 slug: what-is-design-sprint
 date: '2018-01-08 10:38:01 +0000'
-category: Wojciech Miśta
+category: Agile
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/google-sprint.jpg

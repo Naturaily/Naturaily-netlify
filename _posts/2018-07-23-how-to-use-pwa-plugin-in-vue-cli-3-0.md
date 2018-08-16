@@ -6,7 +6,8 @@ description: >-
 slug: pwa-vue-cli-3
 layout: post
 date: '2018-08-06 10:42:09 +0000'
-category: Tomasz Żdanuk
+category: JavaScript development
+author: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
 image: /assets/images/pwa-vue-cli-3.jpg
 text-preview: >-
@@ -28,7 +29,7 @@ PWA is a mobile-oriented strategy of creating web applications, here's how Googl
 
 * Reliable,
 * Fast,
-* Engaging. 
+* Engaging.
 
 But what that's really mean for user?
 
@@ -50,9 +51,9 @@ To add PWA support plugin to your existing Vue CLI 3.0 app, simply type in your 
 vue add @vue/pwa
 ```
 
-Vue CLI generators will create all required files to make your app PWA ready. 
+Vue CLI generators will create all required files to make your app PWA ready.
 
-When from the start you know that you need PWA in your new app you can use 
+When from the start you know that you need PWA in your new app you can use
 
 ```shell
 vue create <app-name>
@@ -72,7 +73,7 @@ I'll describe in more details the most important files in next sections of this 
 
 ## Make your web app installable
 
-One of the ways to make your app more engaging is making it installable. Thanks to that users can have easy access to your site by simple tapping icon on home screen, what is way much faster than typing whole URL. To make it possible, you only need to create and/or fill manifest file. 
+One of the ways to make your app more engaging is making it installable. Thanks to that users can have easy access to your site by simple tapping icon on home screen, what is way much faster than typing whole URL. To make it possible, you only need to create and/or fill manifest file.
 The manifest provides the most crucial information about your application, such as app name, an icon displayed on a home screen and more. The full list of settings you can find in [official MDN web docs](https://developer.mozilla.org/en-US/docs/Web/Manifest)
 
 Vue CLI 3.0 and PWA plugin would create default `manifest.json` file for you, but remember to customize it for your needs! Here's how the default `manifest.json` file looks like (file is located in `/public` folder):
@@ -102,7 +103,7 @@ Vue CLI 3.0 and PWA plugin would create default `manifest.json` file for you, bu
 
 PWA template app also will generate a set of icons which will be used to represent your app on mobile devices. Imo, it's a good reference of what icon sizes you should made to make your app looking good on a home screen.
 
-`manifest.json` it's not the only place where you can take a look when making your app installable. Few more tweaks you can make also from `vue.config.js` file, you can change there features like theme color, MS Tile color, or flag your app as not capable for Apple devices with iOS before 11.3 (you can read more about PWA support on Apple devices in `PWA on Apple devices` section). 
+`manifest.json` it's not the only place where you can take a look when making your app installable. Few more tweaks you can make also from `vue.config.js` file, you can change there features like theme color, MS Tile color, or flag your app as not capable for Apple devices with iOS before 11.3 (you can read more about PWA support on Apple devices in `PWA on Apple devices` section).
 For the full list of tweaks you can make in `vue.config.js` file and example configuration take a look here: [link](https://www.npmjs.com/package/@vue/cli-plugin-pwa/v/3.0.0-rc.1)
 
 ## Service Workers
@@ -113,11 +114,11 @@ The core feature of service workers used in PWA is its ability to intercept and 
 
 To make your 'Service Workers' actually work, there are two prerequisites:
 
-1. Browser support 
+1. Browser support
 
   For a long time, the crucial issue with 'service workers' was the lack of support from every browser. Currently, the situation looks much more optimistic and the most popular browsers are supporting SW. You can find more details on Jake Archibald page.
 
-2. HTTPS 
+2. HTTPS
 
   Service Workers are a very powerful thing. It can fabricate and filter your data or hijack connections. That's why HTTPS is that important.
 
@@ -126,7 +127,7 @@ If you want to read more about Service Worker, I would recommend you to take a d
 ## What should we cache and how?
 
 ```
-There are only two hard things in Computer Science: 
+There are only two hard things in Computer Science:
 cache invalidation and naming things.
 
 ~Phil Karlton
@@ -148,7 +149,7 @@ There is one more decision for you to take in this case: how to cache those file
 * cacheFirst
   * Suites best: Fonts, Images
 * networkFirst
-  * Suites best: Network Requests 	
+  * Suites best: Network Requests
 * staleWhileRevalidate
   * Suites best: JS and CSS files that aren't precached
 

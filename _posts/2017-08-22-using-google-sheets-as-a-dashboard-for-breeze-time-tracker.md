@@ -5,7 +5,7 @@ description: >-
   ingenuity. Read on to learn how to create Breeze dashboard in Google Sheets!
 slug: google-sheets-breeze-time-tracker
 date: '2017-08-22 10:38:01 +0000'
-category: Sebastian Kubiak
+category: Agile
 author: Sebastian Kubiak
 avatar: /assets/images/seba.jpg
 image: /assets/images/macierevicz.jpg

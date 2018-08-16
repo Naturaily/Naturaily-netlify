@@ -5,7 +5,7 @@ description: >-
   Kanban, in our everyday work in software development.
 slug: practical-agile-implementation
 date: '2016-03-31 10:38:01 +0000'
-category: Sebastian Kubiak
+category: Agile
 author: Sebastian Kubiak
 avatar: /assets/images/seba.jpg
 image: /assets/images/fire.jpg

@@ -7,7 +7,7 @@ description: >-
   functionality in your Ruby on Rails project using PostgreSQL window functions.
 slug: ranking-system-implementation-postgresql
 date: '2016-10-11 10:38:01 +0000'
-category: Patryk Szeliga
+category: Ruby on Rails development
 author: Patryk Szeliga
 avatar: /assets/images/ciabos.jpg
 image: /assets/images/rails-elephant.jpg

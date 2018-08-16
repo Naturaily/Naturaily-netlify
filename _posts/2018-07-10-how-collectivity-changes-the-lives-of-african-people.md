@@ -6,7 +6,8 @@ description: >-
 slug: collectivity-interview
 layout: post
 date: '2018-08-20 11:35:00 +0000'
-category: Wojciech Miśta
+category: Interview
+author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/collectivity.jpg
 text-preview: >-

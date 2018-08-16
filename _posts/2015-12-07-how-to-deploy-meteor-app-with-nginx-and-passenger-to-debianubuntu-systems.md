@@ -5,7 +5,7 @@ description: >-
   how to deploy Meteor.js app with ngnix and passenger.
 slug: meteor-app-ngnix-debian
 date: '2015-12-07 10:38:01 +0000'
-category: Jacek Hiszpański
+category: JavaScript development
 author: Jacek Hiszpański
 avatar: /assets/images/jacek.png
 image: /assets/images/meteor2.jpg

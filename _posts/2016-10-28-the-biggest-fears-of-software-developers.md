@@ -5,7 +5,7 @@ description: >-
   through a misty jungle full of spider webs and creepy creatures!
 slug: software-developers-fears
 date: '2016-10-28 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Startups
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/fears.png

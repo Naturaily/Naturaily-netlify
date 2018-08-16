@@ -5,7 +5,7 @@ description: >-
   tutorial, you'll be able to see how to create them using Trailblazer Cells!
 slug: ruby-on-rails-trailblazer-cells
 date: '2016-10-03 10:38:01 +0000'
-category: Mikołaj Grygiel
+category: Ruby on Rails development
 author: Mikołaj Grygiel
 avatar: /assets/images/claus.jpg
 image: /assets/images/trailblazer.jpg

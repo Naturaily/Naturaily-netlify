@@ -5,7 +5,7 @@ description: >-
   in the past 3 years. Here's a brief comparison based on our experience.
 slug: react-vue-similarities-and-differences
 date: '2017-11-28 10:38:01 +0000'
-category: Wojciech Miśta
+category: JavaScript development
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/vue-v-react.png

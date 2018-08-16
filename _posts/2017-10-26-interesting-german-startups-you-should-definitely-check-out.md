@@ -6,7 +6,7 @@ description: >-
   storm?
 slug: interesting-german-startups
 date: '2017-10-26 10:38:01 +0000'
-category: Wojciech Miśta
+category: Startups
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/more-berlin-startups.jpg

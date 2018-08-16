@@ -5,7 +5,7 @@ description: >-
   the 7 precious tips from Master Yoda himself!
 slug: working-with-development-team
 date: '2016-09-09 10:38:01 +0000'
-category: Sebastian Kubiak
+category: Remote work
 author: Sebastian Kubiak
 avatar: /assets/images/seba.jpg
 image: /assets/images/mister-yoda.jpg

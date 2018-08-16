@@ -6,7 +6,7 @@ description: >-
   platform.
 slug: spree-override-views
 date: '2014-02-06 10:38:01 +0000'
-category: Mateusz Barczak
+category: Spree development
 author: Mateusz Barczak
 avatar: /assets/images/mateusz.png
 image: /assets/images/spreecomerce.jpg

@@ -5,7 +5,7 @@ description: >-
   It's no surprise that it has a huge impact on many aspects of our lives.
 slug: life-revolutionized-by-fin-tech
 date: '2016-11-09 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Startups
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/fin-tech.png

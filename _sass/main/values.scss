@@ -94,6 +94,11 @@
           background: $color-accent-yellow;
         }
       }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
     }
   }
 }

@@ -5,7 +5,7 @@ description: >-
   world. This list covers the most interesting UK startups from 2017.
 slug: finance-banking-startups-uk-2017
 date: '2017-12-15 10:38:01 +0000'
-category: Wojciech Miśta
+category: Startups
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/uk-banking.jpg

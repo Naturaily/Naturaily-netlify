@@ -7,7 +7,7 @@ description: >-
   śledzenie zainteresowanych stanowiskami na targach czy wystawach.
 slug: kpz-projekt-premiowanie-pracownikow
 date: '2017-04-13 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Events
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/kpz-4-aplikacja-hr.jpg

@@ -5,7 +5,7 @@ description: >-
   software development services, shall we?
 slug: buying-software-development-services
 date: '2015-11-02 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Startups
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/hipster2.jpg

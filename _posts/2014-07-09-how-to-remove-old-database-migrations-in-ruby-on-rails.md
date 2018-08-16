@@ -5,7 +5,7 @@ description: >-
   migrations in Ruby on Rails. With our guide, it's easier than you think!
 slug: remove-old-migrations-ruby-on-rails
 date: '2014-07-09 10:38:01 +0000'
-category: Jacek Hiszpański
+category: Ruby on Rails development
 author: Jacek Hiszpański
 avatar: /assets/images/jacek.png
 image: /assets/images/migrations.jpg

@@ -5,7 +5,7 @@ description: >-
   good sources? Check out the best books to start your journey with programming!
 slug: books-for-beginner-developers
 date: '2016-12-05 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Ruby on Rails development
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/recommended-books.jpg

@@ -5,7 +5,7 @@ description: >-
   database using ActiveRecord? With this tutorial, you can do it much faster!
 slug: ruby-on-rails-fast-data-import
 date: '2016-11-21 10:38:01 +0000'
-category: Mikołaj Grygiel
+category: Ruby on Rails development
 author: Mikołaj Grygiel
 avatar: /assets/images/claus.jpg
 image: /assets/images/speed_up.jpg

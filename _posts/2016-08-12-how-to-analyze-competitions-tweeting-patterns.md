@@ -5,7 +5,7 @@ description: >-
   this tutorial, you can analyze their tweeting patterns like a pro!
 slug: analyzing-competitions-tweeting-patterns
 date: '2016-08-12 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Online marketing
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/analyze_competition.jpg

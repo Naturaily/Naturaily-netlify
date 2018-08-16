@@ -5,7 +5,7 @@ description: >-
   generation for grid based sprites.
 slug: sprite-icon-classes-sass
 date: '2013-09-04 10:38:01 +0000'
-category: Maciej Kucharski
+category: Frontend development
 author: Maciej Kucharski
 avatar: /assets/images/maciek.png
 image: /assets/images/sass.jpg

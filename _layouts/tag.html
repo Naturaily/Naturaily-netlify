@@ -20,8 +20,8 @@ layout: default
                   <img class="avatar" src="{{ post.avatar }}" alt="Post author">
                 {% endif %}
                 <p class="author">
-                  {% if post.category %}
-                    <a href="/blog/authors/{{ post.category | replace: " ", "-"; }}/">{{ post.category }}</a>
+                  {% if post.author %}
+                    <a href="/blog/authors/{{ post.author | replace: " ", "-" | downcase }}/">{{ post.author }}</a>
                   {% endif %}
                   <time>
                     {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -30,7 +30,7 @@ layout: default
                 </p>
                 <div class="post-tags">
                   {% for tag in post.tags %}
-                    <a href="/blog/tags/{{ tag | replace: " ", "-"; }}/">{{ tag }}</a>
+                    <a href="/blog/tags/{{ tag | replace: " ", "-" }}/">{{ tag }}</a>
                   {% endfor %}
                 </div>
                 {% if post.readtime %}
@@ -58,6 +58,7 @@ layout: default
     </div>
   </div>
   <div class="right-column">
+    {% include blog-categories.html %}
     {% include blog-recentpost.html %}
     {% include blog-meetus.html %}
   </div>

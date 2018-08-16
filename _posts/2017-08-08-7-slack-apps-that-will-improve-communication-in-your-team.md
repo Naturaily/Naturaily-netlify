@@ -6,7 +6,7 @@ description: >-
   workflow.
 slug: slack-apps-improving-team-communication
 date: '2017-08-08 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Agile
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/slack.jpg

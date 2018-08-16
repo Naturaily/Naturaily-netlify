@@ -6,7 +6,7 @@ description: >-
   OCR.
 slug: kpz-projekt-wspomaganie-budzetu-domowego
 date: '2017-04-13 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Events
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/kpz-2-system-do-budzetu-domowego.jpg

@@ -5,7 +5,7 @@ description: >-
   is! The top 10 list of entrepreneurs that you have to follow on Snapchat!
 slug: entrepreneurs-snapchat
 date: '2016-06-24 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Startups
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/snapchat_entrepreneurs.jpeg

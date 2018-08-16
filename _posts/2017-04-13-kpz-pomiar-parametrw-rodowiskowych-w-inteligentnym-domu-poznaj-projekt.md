@@ -5,7 +5,7 @@ description: >-
   temperatura i wilgotność powietrza oraz stężenie pyłów w powietrzu.
 slug: kpz-projekt-inteligentny-dom
 date: '2017-04-13 10:30:01 +0000'
-category: Marcin Sulikowski
+category: Events
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/kpz-3-pomiar-parametrow.jpg

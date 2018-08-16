@@ -7,7 +7,8 @@ description: >-
 slug: startup-entrepreneurship-podcasts
 layout: post
 date: '2018-08-13 12:59:01 +0000'
-category: Wojciech Miśta
+category: Startups
+author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/entrepreneurship-podcasts.jpg
 text-preview: >-
@@ -17,7 +18,7 @@ text-preview: >-
 tags:
   - Startups
 ---
-SoundCloud, iTunes, and Spotify have all been flooded with lots of superb podcasts about entrepreneurship, startups, and business in general. It is hard to find a place to start, so in this post, we shared some of our favorite podcasts to narrow down your search to just 10! 
+SoundCloud, iTunes, and Spotify have all been flooded with lots of superb podcasts about entrepreneurship, startups, and business in general. It is hard to find a place to start, so in this post, we shared some of our favorite podcasts to narrow down your search to just 10!
 
 [![podcasts-guide-success-how-i-did-it](/assets/images/podcasts-guide-success-how-i-did-it.png)](https://www.acast.com/howididit){:rel="nofollow"}
 

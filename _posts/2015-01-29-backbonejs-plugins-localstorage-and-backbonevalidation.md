@@ -6,7 +6,7 @@ description: >-
   plugins.
 slug: backbone-plugins-local-storage-backbone-validation
 date: '2015-01-29 10:38:01 +0000'
-category: Agnieszka Bugajska
+category: JavaScript development
 author: Agnieszka Bugajska
 avatar: /assets/images/aga.png
 image: /assets/images/backbone_lol.png

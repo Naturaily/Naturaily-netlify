@@ -39,12 +39,19 @@ collections:
   services:
     output: true
     permalink: /services/index.html
+  authors:
+    output: true
+    permalink: blog/authors/:path
 
 blog:
   tags:
     url: /blog/tags/
     title_prefix: " "
     layout: tag.html
+  categories:
+    url: /blog/categories/
+    title_prefix: " "
+    layout: category.html
   authors:
     url: /blog/authors/
     title_prefix: " "

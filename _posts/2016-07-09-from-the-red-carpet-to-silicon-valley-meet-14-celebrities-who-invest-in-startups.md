@@ -7,7 +7,7 @@ description: >-
   invest in startups. Who invested in what and was it worth it?
 slug: celebrities-who-invest-in-startups
 date: '2016-07-09 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Startups
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/leonardo-naturaily.jpg

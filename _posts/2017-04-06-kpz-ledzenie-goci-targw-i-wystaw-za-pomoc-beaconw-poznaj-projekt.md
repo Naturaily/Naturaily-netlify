@@ -5,7 +5,7 @@ description: >-
   śledzenie zainteresowanych stanowiskami na targach czy wystawach.
 slug: kpz-projekt-sledzenie-uczestnikow-beacon
 date: '2017-04-06 10:38:01 +0000'
-category: Marcin Sulikowski
+category: Events
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/kpz-1-sledzenie.jpg

@@ -5,7 +5,7 @@ description: >-
   are worth keeping an eye on!
 slug: startup-failures-successes-2017
 date: '2017-12-30 10:38:01 +0000'
-category: Wojciech Miśta
+category: Startups
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/rise-and-fall.jpeg
