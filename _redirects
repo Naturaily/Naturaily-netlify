@@ -158,6 +158,7 @@
 /blog/post/generate-icon-classes-from-sprite-using-sass                                                                   /blog/sprite-icon-classes-sass
 /blog/post/a-definitive-guide-to-responsive-text                                                                          /blog/responsive-text-guide
 /blog/post/how-spree-handles-overriding-on-the-frontend-and-the-backend                                                   /blog/spree-override-views
+/blog/post/How-Spree-handles-overriding-on-the-frontend-and-the-backend                                                   /blog/spree-override-views
 /blog/post/how-to-remove-old-database-migrations-in-ruby-on-rails-apps                                                    /blog/remove-old-migrations-ruby-on-rails
 /blog/post/how-to-remove-old-database-migrations-in-ruby-on-rails                                                         /blog/remove-old-migrations-ruby-on-rails
 /blog/post/marionette-plain-object-over-reqres-commands-above-all                                                         /blog/marionette-tutorial-objects-commands
@@ -227,6 +228,7 @@
 /jobs/ruby-on-rails-developer                                /join/ruby-on-rails-developer
 /jobs/junior-qa-engineer                                     /join/junior-qa-engineer
 /jobs/backend-developer                                      /join/ruby-on-rails-developer
+/jobs/content-marketing-specialist                           /join/content-marketing-specialist
 
 # Authors redirects
 
