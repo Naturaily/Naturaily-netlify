@@ -94,11 +94,28 @@
           background: $color-accent-yellow;
         }
       }
+    }
+  }
+}
 
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
+.right-column {
+  .categories-aside {
+    .categories-aside--head {
+      font-weight: 200;
+      padding-bottom: 32px;
+      font-size: 1.5em;
+      margin: 0;
+    }
+
+    li {
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      padding: 16px 50px 18px;
+      display: flex;
     }
   }
 }
