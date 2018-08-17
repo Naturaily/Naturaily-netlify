@@ -102,13 +102,18 @@
   .categories-aside {
     padding-bottom: 32px;
 
-    .categories-aside--head {
+    &--head {
       font-weight: 200;
       padding-top: 32px;
       padding-bottom: 32px;
-      padding-left: 20px;
       font-size: 1.5em;
       margin: 0;
+    }
+
+    &--list {
+      margin-left: 0;
+      width: 100%;
+      max-width: 100%;
     }
 
     li {

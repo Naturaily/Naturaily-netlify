@@ -1,6 +1,6 @@
   <div class="values-nav categories-aside">
     <h3 class="categories-aside--head">Categories</h3>
-    <ul class="values-nav-list">
+    <ul class="values-nav-list categories-aside--list">
       {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <li class="{% if page.category == category_name %}active{% endif %}">
