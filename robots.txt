@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /tech
 
 Sitemap: https://naturaily.com/sitemap.xml

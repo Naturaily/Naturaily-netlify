@@ -127,9 +127,9 @@ collections:
       - {label: "Image five", name: "image-five", widget: "image"}
       - {label: "Image six", name: "image-six", widget: "image"}
   -
-    name: "technologie"
-    label: "Technologies"
-    label_singular: "Technology Landing"
+    name: "services"
+    label: "Serviesc"
+    label_singular: "Services Landing"
     folder: "_services"
     create: true
     slug: "{{slug}}"

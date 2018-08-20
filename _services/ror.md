@@ -3,7 +3,7 @@ title: Ruby on Rails development
 description: >-
   We create awesome software with Ruby on Rails - a go-to technology for
   startups and businesses that require the fastest development possible
-layout: tech
+layout: service
 permalink: /services/ruby-on-rails-development
 heading: Ruby on Rails Development
 desc: >-
