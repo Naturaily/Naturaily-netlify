@@ -133,6 +133,18 @@
   }
 }
 
+.main-point.main-point--career {
+  font-size: 35px;
+  line-height: 1;
+  padding-top: 110px;
+  padding-bottom: 90px;
+  &::before {
+    font-size: 4rem;
+    position: relative;
+    top: 10px;
+  }
+}
+
 
 @media (min-width: 992px) {
   .career-details {

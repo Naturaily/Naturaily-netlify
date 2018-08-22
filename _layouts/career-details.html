@@ -67,10 +67,10 @@ layout: default
       <li>{{ req }}</li>
       {% endfor %}
     </ul>
-    <button type="button" class="btn btn-primary" data-modal-trigger="job">
+    <a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary" data-modal-trigger="job">
       apply
       <img src="/assets/images/btn-arrow.png" alt="arrow">
-    </button>
+    </a>
   </div>
 </div>
 <div class="l-content l-career-container l-career-container-benefits">
@@ -123,5 +123,5 @@ layout: default
 </div>
 
 <div class="l-full-page">
-  {% include form.html %}
+  {% include career-form.html %}
 </div>
