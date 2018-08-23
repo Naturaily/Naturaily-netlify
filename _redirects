@@ -3,27 +3,33 @@
 /blog/category/Android                                               /blog/tags/Native-mobile-development
 /blog/category/CSS                                                   /blog/tags/Frontend-development
 /blog/category/css                                                   /blog/tags/Frontend-development
-/blog/category/Development                                           /blog/tags/Ruby-on-Rails-development
-/blog/category/Infographic                                           /blog/tags/Startups
-/blog/category/JavaScript                                            /blog/tags/JavaScript-development
-/blog/category/Konferencja%20zespołów%20projektowych                 /blog/tags/Events
-/blog/category/Konferencja%20zespo%C5%82%C3%B3w%20projektowych       /blog/tags/events
-/blog/category/Management                                            /blog/tags/Agile
-/blog/category/Online%20marketing                                    /blog/tags/Online-marketing
-/blog/category/Project%20management		                               /blog/tags/Agile
-/blog/category/Project%20managment		                               /blog/tags/Agile
-/blog/category/Remote%20development		                               /blog/tags/Remote-work
-/blog/category/Responsive%20Web%20Design		                         /blog/tags/Frontend-development
-/blog/category/Ruby%20on%20Rails		                                 /blog/tags/Ruby-on-Rails-development
 /blog/category/SASS		                                               /blog/tags/Frontend-development
-/blog/category/Social%20media		                                     /blog/tags/Startups
-/blog/category/Spree%20Commerce		                                   /blog/tags/Spree-development
+/blog/category/sass		                                               /blog/tags/Frontend-development
+/blog/category/Responsive%20Web%20Design		                         /blog/tags/Frontend-development
+/blog/category/Development                                           /blog/tags/Ruby-on-Rails-development
+/blog/category/Ruby%20on%20Rails		                                 /blog/tags/Ruby-on-Rails-development
+/blog/category/Infographic                                           /blog/tags/Startups
 /blog/category/Startup		                                           /blog/tags/Startups
 /blog/category/Thoughts%20on%20building%20start-ups		               /blog/tags/Startups
+/blog/category/Social%20media		                                     /blog/tags/Startups
+/blog/category/JavaScript                                            /blog/tags/JavaScript-development
+/blog/category/Konferencja%20zespołów%20projektowych                 /blog/tags/Events
+/blog/category/Konferencja%20zespo%C5%82%C3%B3w%20projektowych       /blog/tags/Events
+/blog/category/Management                                            /blog/tags/Agile
+/blog/category/Project%20management		                               /blog/tags/Agile
+/blog/category/Project%20managment		                               /blog/tags/Agile
+/blog/category/Online%20marketing                                    /blog/tags/Online-marketing
+/blog/category/Remote%20development		                               /blog/tags/Remote-work
+/blog/category/Spree%20Commerce		                                   /blog/tags/Spree-development
 /blog/category/Women%20in%20IT		                                   /blog/tags/Diversity
 
 # Tags redirects
 
+/blog/tag/comparison                                         /blog
+/blog/tag/Python                                             /blog
+/blog/tag/BMS                                                /blog
+/blog/tag/Beacony                                            /blog
+/blog/tag/IT                                                 /blog
 /blog/tag/google                                             /blog/tags/Agile
 /blog/tag/design%20sprint                                    /blog/tags/Agile
 /blog/tag/prototyping                                        /blog/tags/Agile
@@ -71,7 +77,6 @@
 /blog/tag/zapier                                             /blog/tags/Online-marketing
 /blog/tag/competition                                        /blog/tags/Online-marketing
 /blog/tag/analysis                                           /blog/tags/Online-marketing
-/blog/tags/Online_marketing                                  /blog/tags/Online-marketing
 /blog/tag/react%20native                                     /blog/tags/React-Native-development
 /blog/tag/react                                              /blog/tags/React-js-development
 /blog/tag/books                                              /blog/tags/Reading
@@ -103,7 +108,7 @@
 /blog/tag/rake                                               /blog/tags/Ruby-on-Rails-development
 /blog/tag/migrations                                         /blog/tags/Ruby-on-Rails-development
 /blog/tag/ActiveRecord                                       /blog/tags/Ruby-on-Rails-development
-/blog/tags/Ruby_on_Rails_development                         /blog/tags/Ruby-on-Rails-development
+/blog/tag/ruby%20on%20rails                                  /blog/tags/ruby-on-rails-development
 /blog/tag/Spree                                              /blog/tags/Spree-development
 /blog/tag/e-commerce                                         /blog/tags/Spree-development
 /blog/tag/startup                                            /blog/tags/Startups
@@ -123,11 +128,6 @@
 /blog/tag/movies                                             /blog/tags/Startups
 /blog/tag/incubators                                         /blog/tags/Startups
 /blog/tag/development                                        /blog/tags/Startups
-/blog/tag/comparison                                         /blog
-/blog/tag/Python                                             /blog
-/blog/tag/BMS                                                /blog
-/blog/tag/Beacony                                            /blog
-/blog/tag/IT                                                 /blog
 /blog/tag/employer%20branding                                /blog/tags/Team
 /blog/tag/HR                                                 /blog/tags/Team
 /blog/tag/ux                                                 /blog/tags/User-experience-design
@@ -135,21 +135,37 @@
 /blog/tag/material                                           /blog/tags/User-experience-design
 /blog/tag/process%20thinking                                 /blog/tags/User-experience-design
 /blog/tag/vue                                                /blog/tags/Vue-js-development
+
+/blog/tags/strona_g%C5%82%C3%B3wna_bloga                     /blog
+/blog/tags/Ruby_on_Rails_development                         /blog/tags/Ruby-on-Rails-development
 /blog/tags/Native_mobile_development                         /blog/tags/Native-mobile-development
 /blog/tags/Frontend_development                              /blog/tags/Frontend-development
 /blog/tags/React_Native_development                          /blog/tags/React-native-development
+/blog/tags/React.js_development                              /blog/tags/React-js-development
 /blog/tags/Meteor.js_development                             /blog/tags/Meteor-js-development
-/blog/tags/Remote_work                                       /blog/tags/Remote-work/
+/blog/tags/Ember.js_development                              /blog/tags/Ember-js-development
+/blog/tags/Remote_work                                       /blog/tags/Remote-work
+/blog/tags/Remote_development_team                           /blog/tags/Remote-work
 /blog/tags/User_experience_design                            /blog/tags/User-experience-design
+/blog/tags/Designer                                          /blog/tags/User-experience-design
+/blog/tags/designer                                          /blog/tags/User-experience-design
+/blog/tags/Design                                            /blog/tags/User-experience-design
+/blog/tags/design                                            /blog/tags/User-experience-design
+/blog/tags/Client                                            /blog/tags/User-experience-design
+/blog/tags/client                                            /blog/tags/User-experience-design
 /blog/tags/JavaScript_development                            /blog/tags/Javascript-development
 /blog/tags/Backbone.js_development                           /blog/tags/Backbone-js-development
 /blog/tags/Spree_development                                 /blog/tags/Spree-development
-/blog/tags/Remote_development_team                           /blog/tags/Remote-work
+/blog/tags/node.js                                           /blog/tags/Node-js
 /blog/tags/Node.js_development                               /blog/tags/Node-js-development
+/blog/tags/node.js-development                               /blog/tags/Node-js-development
+/blog/tags/Node.js-Applications                              /blog/tags/Node-js-applications
+/blog/tags/node.js-applications                              /blog/tags/Node-js-applications
+/blog/tags/Vue.js                                            /blog/tags/Vue-js-development
 /blog/tags/Vue.js_development                                /blog/tags/Vue-js-development
-/blog/tags/React.js_development                              /blog/tags/React-js-development
-/blog/tags/Ember.js_development                              /blog/tags/Ember-js-development
-/blog/tag/ruby%20on%20rails                                  /blog/tags/ruby-on-rails-development
+/blog/tags/Vue-CLI-release                                   /blog/tags/Vue-js-development
+/blog/tags/vue-cli-release                                   /blog/tags/Vue-js-development
+/blog/tags/Online_marketing                                  /blog/tags/Online-marketing
 
 # Posts redirects
 
@@ -219,12 +235,14 @@
 
 # Jobs redirects
 
+/jobs                                                        /careers
 /jobs/android-developer                                      /careers
 /jobs/ios-developer                                          /careers
 /jobs/project-manager                                        /careers
-/jobs                                                        /careers
 /jobs/frontend-engineer                                      /careers
 /jobs/office-manager                                         /careers
+/jobs/infrastructure-engineer                                /careers
+/jobs/meteor-developer                                       /careers
 /jobs/ruby-on-rails-developer                                /join/ruby-on-rails-developer
 /jobs/junior-qa-engineer                                     /join/junior-qa-engineer
 /jobs/backend-developer                                      /join/ruby-on-rails-developer
@@ -252,16 +270,3 @@
 
 /ruby-on-rails-development                                   /services/ruby-on-rails-development
 /vue-js-development                                          /services/vue-js-development
-
-# Additional redirects
-
-/blog/tags/Designer/                                          /blog/tags/User-experience-design
-/blog/tags/designer/                                          /blog/tags/User-experience-design
-/blog/tags/design/                                            /blog/tags/User-experience-design
-/blog/tags/client/                                            /blog/tags/User-experience-design
-/blog/tags/Vue.js/                                            /blog/tags/Vue-js-development
-/blog/tags/Vue-CLI-release/                                   /blog/tags/Vue-js-development
-/blog/tags/Node.js-Applications/                              /blog/tags/Node-js-applications/
-/blog/tags/node.js/                                           /blog/tags/Node-js/
-/blog/category/sass/		                                      /blog/tags/Frontend-development
-/blog/tags/strona_g%C5%82%C3%B3wna_bloga                      /blog/
