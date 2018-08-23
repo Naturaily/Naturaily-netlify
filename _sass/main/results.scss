@@ -59,8 +59,9 @@
     .results-circle__content {
       padding: 60px 15px;
       text-align: center;
-      button {
+      button, a {
         margin-top: 15px;
+        display: inline-block;
       }
     }
   }
