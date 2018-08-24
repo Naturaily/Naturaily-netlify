@@ -12,6 +12,7 @@
   .main-point {
     display: block;
   }
+
   .form-wave {
     position: absolute;
     left: 50%;
@@ -27,6 +28,13 @@
     padding-bottom: 30px;
     padding-top: 20px;
   }
+
+  @media (max-width: 640px) {
+    margin-bottom: 120px;
+    .form-wave {
+      height: 750px;
+    }
+  }
 }
 
 
@@ -36,5 +44,9 @@
 
   .form-wave {
     height: 545px;
+
+    @media (max-width: 640px) {
+      height: 605px;
+    }
   }
 }
