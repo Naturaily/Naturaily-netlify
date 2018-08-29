@@ -1,5 +1,7 @@
 User-agent: *
 
 Disallow: /admin/
+Disallow: /404.html
+Disallow: /500.html
 
 Sitemap: https://naturaily.com/sitemap.xml
