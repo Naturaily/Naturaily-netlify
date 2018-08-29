@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Naturaily
 email: hello@naturaily.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -98,17 +99,27 @@ include:
 
 permalink: /blog/:title
 
-
-
 # Build settings
+
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
-#theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.txt
+  - README.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

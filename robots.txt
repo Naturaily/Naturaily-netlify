@@ -1,9 +1,5 @@
 User-agent: *
 
 Disallow: /admin/
-Disallow: README.md
-Disallow: LICENSE.txt
-
-
 
 Sitemap: https://naturaily.com/sitemap.xml
