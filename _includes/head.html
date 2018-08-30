@@ -16,7 +16,6 @@
   <meta name="twitter:card" content="summary">
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
 
@@ -30,5 +29,21 @@
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-  {{page.noindex}}
+  {% if '/categories' == page.url or page.url contains 'categories' %}
+
+    {% if site.categories[page.filter_category] %}
+      {% for post in site.categories[page.filter_category] %}
+        {% assign tag_list = post.tags | join: ' ' %}
+
+        {% if  page.filter_category contains tag_list %}
+
+          <link rel="canonical" href="https://naturaily.com/blog/tags/{{ page.filter_category | replace: " ", "-" | downcase }}" />
+
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+
+
 </head>
