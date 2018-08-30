@@ -7,7 +7,7 @@ description: >-
 slug: vue-js-2018
 layout: post
 date: '2018-08-20 11:59:20 +0200'
-category: Vue.js development
+category: JavaScript development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/vuejs-2018.jpg
@@ -17,12 +17,13 @@ text-preview: >-
   against the competition. Learn why in this blog post.
 tags:
   - Vue js development
+  - JavaScript development
 ---
 Vue.js, the so-called progressive framework took the JavaScript community by storm. Now, the state of Vue.js in 2018 puts it in a very strong position against the competition. Learn why in this blog post.
 
 ## Popularity
 
-Vue.js’ popularity is constantly growing and there are no signs of slowing down! Recently, in June of 2018, it has reached the highest NPM download since its very launch - around **1.6 million monthly downloads**. It received the highest amount of stars on GitHub in 2017 out of all JavaScript projects, even **more than React and Angular**! 
+Vue.js’ popularity is constantly growing and there are no signs of slowing down! Recently, in June of 2018, it has reached the highest NPM download since its very launch - around **1.6 million monthly downloads**. It received the highest amount of stars on GitHub in 2017 out of all JavaScript projects, even **more than React and Angular**!
 
 Check out this [Star History](http://www.timqian.com/star-history/){:rel="nofollow"} graph. In 2018, the VueJS project has surpassed Facebook's React in tearms of popularity on GitHub.
 
@@ -30,7 +31,7 @@ Check out this [Star History](http://www.timqian.com/star-history/){:rel="nofoll
 
 The interest in the progressive framework has also grown on other levels, especially the StackOverflow community - there are more people learning Vue than ever before! In other words - **developers are thrilled to learn Vue.js**!
 
-While VueJS may be dominanting in tearms of how fast the project is growing, it's still far behind React when it comes to the [NPM downloads](https://npmcharts.com/){:rel="nofollow"}. Although the monthly downloads have doubled compared to the beginning of 2018, Vue is not in a position to take React down anytime soon. 
+While VueJS may be dominanting in tearms of how fast the project is growing, it's still far behind React when it comes to the [NPM downloads](https://npmcharts.com/){:rel="nofollow"}. Although the monthly downloads have doubled compared to the beginning of 2018, Vue is not in a position to take React down anytime soon.
 
 <img src="/assets/images/vue-js-2018-npm.png" alt="VueJS in 2018 Github" style="width:100%;height:100%;">
 

@@ -18,6 +18,7 @@ text-preview: >-
 tags:
   - Vue CLI
   - Vue js development
+  - JavaScript development
 ---
 Not so long ago, **Vue CLI** finally changed status from '_Beta_' to '_Release Candidate_', so now it's a great time to take a deeper look at all the new features the current version has to offer.
 

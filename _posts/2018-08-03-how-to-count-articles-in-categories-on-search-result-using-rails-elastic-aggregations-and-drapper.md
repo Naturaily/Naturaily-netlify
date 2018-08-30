@@ -3,7 +3,7 @@ title: Count articles by category on search in Ruby on Rails
 description: >-
   Have you ever wanted to calculate how many articles will be left in a certain
   category after search? Elasic aggregations and Drapper are significant in a
-  Ruby on Rails development, find out why! 
+  Ruby on Rails development, find out why!
 slug: rails-elastic-aggregation-drapper
 layout: post
 date: '2018-08-27 11:55:08 +0200'
@@ -36,7 +36,7 @@ I'll skip steps taken to create the app and to add some layout. I'll use control
 * add these gems to the Gemfile:
   * gem 'elasticsearch-model'
   * gem 'elasticsearch-rails'
-  * gem 'draper' 
+  * gem 'draper'
 * github: 'drapergem/draper'
 * bundle install
 * add elastic initializer to point elastic host

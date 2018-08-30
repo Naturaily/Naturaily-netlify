@@ -23,7 +23,6 @@ tags:
   - Backbone js development
   - Diversity
   - JavaScript development
-  - Events
 ---
 
 

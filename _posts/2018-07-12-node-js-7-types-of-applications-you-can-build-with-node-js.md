@@ -17,8 +17,7 @@ text-preview: >-
   Node.js.
 tags:
   - Node js development
-  - Node js
-  - Node js Applications
+  - JavaScript development
 ---
 Node.js took IT world by storm, no surprise the number of Node.js applications is constantly growing. Here are our top picks of applications built using Node.js.
 

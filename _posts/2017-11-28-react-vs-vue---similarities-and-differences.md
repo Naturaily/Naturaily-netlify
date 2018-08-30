@@ -15,8 +15,6 @@ text-preview: >-
   slightly different, they are often compared to each other due to a similar set
   of features making them compete in web development market.
 tags:
-  - React js development
-  - Vue js development
   - Comparison
   - JavaScript development
 ---

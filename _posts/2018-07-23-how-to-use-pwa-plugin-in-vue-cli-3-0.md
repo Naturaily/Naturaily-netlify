@@ -16,6 +16,7 @@ text-preview: >-
   introduce you into PWA world using Vue CLI 3.0.
 tags:
   - Vue js development
+  - JavaScript development
 ---
 In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin as one of the greatest features in my opinion. In this post, I'd like to introduce you into PWA world using Vue CLI 3.0.
 
