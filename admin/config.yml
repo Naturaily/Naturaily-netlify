@@ -101,12 +101,12 @@ collections:
       - {label: "The tools title(50 characters max)", name: "step-three-title", widget: "string"}
       - {label: "The tools description", name: "step-three-text", widget: "string"}
       - {label: "The tools image", name: "step-three-image", widget: "image", required: false}
-      - {label: "Stack first tech", name: "src-stack-1", widget: "image"}
-      - {label: "Stack alt first tech", name: "alt-stack-1", widget: "string"}
-      - {label: "Stack first tech", name: "src-stack-2", widget: "image"}
-      - {label: "Stack alt first tech", name: "alt-stack-2", widget: "string"}
-      - {label: "Stack first tech", name: "src-stack-3", widget: "image"}
-      - {label: "Stack alt first tech", name: "alt-stack-3", widget: "string"}
+      - {label: "The tools - development stack technology left", name: "src-stack-1", widget: "image", required: false}
+      - {label: "The tools - development stack technology alt left", name: "alt-stack-1", widget: "string", required: false}
+      - {label: "The tools - development stack technology center", name: "src-stack-2", widget: "image", required: false}
+      - {label: "The tools - development stack technology alt center", name: "alt-stack-2", widget: "string", required: false}
+      - {label: "The tools - development stack technology right", name: "src-stack-3", widget: "image", required: false}
+      - {label: "The tools - development stack technology alt right", name: "alt-stack-3", widget: "string", required: false}
       - {label: "The results title(50 characters max)", name: "step-four-title", widget: "string"}
       - {label: "The results description", name: "step-four-text", widget: "string"}
       - {label: "The results first image", name: "step-four-image-one", widget: "image", required: false}
