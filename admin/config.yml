@@ -115,6 +115,7 @@ collections:
       - label: "Testimonial"
         name: "testimonial"
         widget: "object"
+        required: false
         fields:
           - {label: "Testimonial photo", name: "testimonial-photo", widget: "image", required: false}
           - {label: "Testimonial name", name: "testimonial-name", widget: "string", required: false}
