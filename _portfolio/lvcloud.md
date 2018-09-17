@@ -2,8 +2,8 @@
 title: 'LVCloud case study: IoT application development | Naturaily'
 description: Case study on developing a successful IoT solution for energy market.
 layout: portfolio-details
-project-font: purple
-project-screen: /assets/images/LVCloud.png
+project-font-colour: purple
+project-screenshot: /assets/images/LVCloud.png
 project-logo: /assets/images/lvcloud-logo.png
 project-logo-class: lvcloud
 banner-bg: /assets/images/projects-background-purple.png
@@ -14,7 +14,6 @@ banner-text: >-
   with electricity networks before anyone knew they existed.
 banner-tech:
   - 'Ruby on Rails, Vue.js, MQTT'
-step-one: The need
 step-one-title: Taking care of the grid
 step-one-text: >-
   When electricity networks malfunction, this can cause serious problems for our
@@ -25,7 +24,7 @@ step-one-text: >-
   homes<br><br>Hardware-wise the grid is monitored by auto reclosing devices,
   which are sophisticated circuit breakers. But they need sophisticated software
   to operate correctly.
-step-two: The solution
+step-one-image: /assets/images/lvcloud-screen-1.png
 step-two-title: Monitor the grid like a pro
 step-two-text: >-
   The reclosing device's main job is to restore the electricity supply within
@@ -45,7 +44,7 @@ step-two-text: >-
   ATLMs (ALVIN Transformer Load Monitors). We gather data from all of them. And
   also enable managing them with our software.<br><br>In addition to a web based
   dashboard, engineers are notified via email or text.
-step-three: The tools
+step-two-image: /assets/images/lvcloud-screen-2.png
 step-three-title: Ruby-based microservices
 step-three-text: >-
   The software is created for large scale: hundreds of thousands of devices and
@@ -62,24 +61,27 @@ step-three-text: >-
   speed is crucial, MongoDB is a great choice. MQTT is the standard
   communication protocol between end devices and our system.<br><br>To put it
   shortly: heaven of internet of things development stack.
+step-three-image: /assets/images/lvcloud-screen-3.png
 src-stack-1: /assets/images/ruby-logo.png
 alt-stack-1: ruby
 src-stack-2: /assets/images/vue-logo.png
 alt-stack-2: vue
 src-stack-3: /assets/images/mqtt-logo.png
 alt-stack-3: mqtt
-step-four: The results
 step-four-title: Watch Netflix peacefully
 step-four-text: >-
   We are kidding, of course. This has much more impact for the stability of the
   network and your life. Charging your Tesla can overload the grid, so the
   sooner maintenance people get information about potential malfunction, the
   better, because you won't even know a problem existed.
-comment-photo: /assets/images/ChrisLowsley.jpg
-comment-name: Chris Lowsley
-comment-brand: Director – LV Solutions at EA Technology
-comment-logo: /assets/images/ea-tech-logo.png
-comment-text: >-
+step-four-image-one: /assets/images/lvcloud-screen-4.png
+step-four-image-two: /assets/images/lvcloud-screen-5.png
+step-four-image-three: /assets/images/lvcloud-screen-6.png
+testimonial-photo: /assets/images/ChrisLowsley.jpg
+testimonial-name: Chris Lowsley
+testimonial-brand: Director – LV Solutions at EA Technology
+testimonial-logo: /assets/images/ea-tech-logo.png
+testimonial-text: >-
   Working with Naturaily has been a pleasure from the start of the project to
   our continuing development of our product suite, Naturaily have vision and a
   dynamic approach to getting the project completed, they have showed EA
@@ -92,11 +94,4 @@ slide-left-link: /project/snipsl
 slide-right: Zapnito
 slide-right-logo: /assets/images/zapnito.png
 slide-right-link: /project/zapnito
-image-one: /assets/images/lvcloud-screen-1.png
-image-two: /assets/images/lvcloud-screen-2.png
-image-three: /assets/images/lvcloud-screen-3.png
-image-four: /assets/images/lvcloud-screen-4.png
-image-five: /assets/images/lvcloud-screen-5.png
-image-six: /assets/images/lvcloud-screen-6.png
 ---
-

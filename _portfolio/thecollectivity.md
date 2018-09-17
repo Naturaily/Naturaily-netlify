@@ -2,7 +2,7 @@
 title: 'Collectivity case study: NGO web app development | Naturaily'
 description: Case study on developing a successful web-based app for NGO.
 layout: portfolio-details
-project-screen: /assets/images/collectivity.png
+project-screenshot: /assets/images/collectivity.png
 project-logo: /assets/images/collectivity-logo.png
 banner-bg: /assets/images/projects-background-green.png
 banner-text: >-
@@ -12,7 +12,6 @@ banner-text: >-
   the African health systems for the better.
 banner-tech:
   - 'Ruby on Rails, Backbone'
-step-one: The need
 step-one-title: Helping health systems
 step-one-text: >-
   Africa’s health systems are underdeveloped. They lack proper design,
@@ -21,8 +20,8 @@ step-one-text: >-
   ago such group met and made a sad discovery - the potential is there, but
   there’s no place to share insights and organize cooperation. That’s where
   Naturaily enters the scene to help build online community solution.
-step-two: The solution
 step-two-title: It’s all about communities and projects
+step-one-image: /assets/images/collectivity-screen-1.png
 step-two-text: >-
   Naturaily has created a community website that makes communication and
   cooperation much easier. Two key sections of the website are Activities and
@@ -35,7 +34,7 @@ step-two-text: >-
   focused on discussions and resources. Each community can discuss issues and
   store resources on its page. Links to projects and community experts’ profiles
   are stored on the community page as well.
-step-three: The tools
+step-two-image: /assets/images/collectivity-screen-2.png
 step-three-title: Ruby on Rails application
 step-three-text: >-
   Collectivity is a regular Ruby on Rails application. It’s been developed with
@@ -45,22 +44,25 @@ step-three-text: >-
   enable smooth development and deployment process. Among them Jenkins with
   plugins for continuous integration and ensuring code quality, Docker for
   deployment.<br><br>Project has been managed using Kanban methodology.
+step-three-image: /assets/images/collectivity-screen-3.png
 src-stack-1: /assets/images/ruby-logo.png
 alt-stack-1: ruby
 src-stack-2: /assets/images/backbone-logo.png
 alt-stack-2: backbone
 src-stack-3: /assets/images/high-quality-picture.jpg
 alt-stack-3: delete-me
-step-four: The results
 step-four-title: Healthier African people
 step-four-text: >-
   Successful cooperation has resulted in many completed projects changing the
   African health systems for better.
-comment-photo: /assets/images/MaximeRouve.png
-comment-name: Maxime Rouve
-comment-brand: Project Manager ITM
-comment-logo: /assets/images/itm.png
-comment-text: >-
+step-four-image-one: /assets/images/collectivity-screen-4.png
+step-four-image-two: /assets/images/collectivity-screen-5.png
+step-four-image-three: /assets/images/collectivity-screen-6.png
+testimonial-photo: /assets/images/MaximeRouve.png
+testimonial-name: Maxime Rouve
+testimonial-brand: Project Manager ITM
+testimonial-logo: /assets/images/itm.png
+testimonial-text: >-
   Naturaily’s exceptional reactivity makes them a valuable development partner.
   Another advantage is their ability to communicate well with non-technical
   people. While they could maybe improve their schedule estimates, they
@@ -71,11 +73,4 @@ slide-left-link: /project/zapnito
 slide-right: Snipsl
 slide-right-logo: /assets/images/snipsl.png
 slide-right-link: /project/snipsl
-image-one: /assets/images/collectivity-screen-1.png
-image-two: /assets/images/collectivity-screen-2.png
-image-three: /assets/images/collectivity-screen-3.png
-image-four: /assets/images/collectivity-screen-4.png
-image-five: /assets/images/collectivity-screen-5.png
-image-six: /assets/images/collectivity-screen-6.png
 ---
-
