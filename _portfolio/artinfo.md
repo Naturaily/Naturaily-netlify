@@ -14,7 +14,7 @@ banner-tech:
   - Vue.js
   - Elastic
 step-one-title: Art auction house
-step-one-text: >
+step-one-text: >-
   Artinfo is a web platform that offers not only a sophisticated catalog of art
   pieces and auction houses but also it is an amazing source of information
   about the art market in Poland and Europe. It has launched over 18 years ago.
