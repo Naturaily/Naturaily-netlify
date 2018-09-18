@@ -19,10 +19,12 @@ step-one-text: >-
   pieces and auction houses but also it is an amazing source of information
   about the art market in Poland and Europe. It has launched over 18 years ago.
 
+  <br><br>
 
   With constant changes in the market, Artinfo was seeking an opportunity to
   expand and improve their service with new features and functionalities.
 
+  <br><br>
 
   Artinfo used to receive bids via email or phone. This is why the
   implementation of online live auctions was Artinfo's and our primary focus -
@@ -34,22 +36,26 @@ step-two-text: >
   Artinfo provides auction houses with an easy to use platform for handling
   online real-time bidding during auctions.
 
+  <br><br>
 
   Artinfo is a broker between auction houses and the customers for which they
   provide access to the online live auctions. Clients no longer have to be
   physically in the house in order to make a bid - with the help of Naturaily,
   now they can do it remotely.
 
+  <br><br>
 
   This real-time web application is an example of an inevitable digital
   transformation of this segment. Simple on the surface core component makes the
   service much more accessible for the broader audience.
 
+  <br><br>
 
   It also gives Artinfo countless benefits such as an ability to maintain and
   monetize an archive of past auctions, acquire new customers and finally expand
   the art market in Poland.
 
+  <br><br>
 
   Naturaily worked agile with Artinfo. We were open for every change in the
   architecture of the project to fit our client’s need as accurately as
@@ -57,6 +63,7 @@ step-two-text: >
   application. As the time went on, more features were being implemented making
   it more advanced with each change.
 
+  <br><br>
 
   Our application now provides a listing of available art with an extremely
   sophisticated search engine. Artinfo employee can manage the service using CMS
@@ -68,6 +75,7 @@ step-three-text: >-
   bid processing. Is it essential for the application to work/operate in real
   time.
 
+  <br><br>
 
   We chose Ruby on Rails for the backend. Ruby on Rails is a mature technology.
   It allowed us to develop the core structure of the application in no time. The
@@ -76,27 +84,32 @@ step-three-text: >-
   allowed us to find solutions for every issue we have encountered. Lastly, Ruby
   on Rails allowed us to implement WebSockets with ease.
 
+  <br><br>
 
   Sometimes biddings are very rapid. They can last for only a few seconds. This
   is the reason why we had to choose a high-performance framework to power the
   frontend side of the application.
 
+  <br><br>
 
   Our choice has fallen on Vue.js. We used it to develop the CMS and employee,
   user and helper panels. The site changes as the auction goes on. That is why
   we have implemented reactive components such as currently offered artwork, the
   seller or price.
 
+  <br><br>
 
   From the developers’ point of view, Vue.js is much easier to pick up and use
   in a project than React. Oh, Vue is also more performant!
 
+  <br><br>
 
   An interesting thing to note about this project is that it utilizes two
   databases. For the time being, we had to integrate our application with the
   old client’s system. Artinfo’s database is based on MySQL and currently
   contains users’ info.
 
+  <br><br>
 
   Before the development process, it used to be a home for over 10-year old
   data. We’ve transferred it to a more performant and rich with features
