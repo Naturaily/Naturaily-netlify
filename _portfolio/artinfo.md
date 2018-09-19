@@ -10,9 +10,9 @@ banner-text: >-
   Artinfo is a combination of a news website dedicated to the art market, as
   well as a sophisticated catalog of art pieces and auction houses
 banner-tech:
-  - Ruby on Rails
+  - '"Ruby on Rails'
   - Vue.js
-  - Elastic
+  - Elastic"
 step-one-title: Art auction house
 step-one-text: >-
   Artinfo is a web platform that offers not only a sophisticated catalog of art
