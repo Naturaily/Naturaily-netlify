@@ -6,6 +6,14 @@ layout: default
 <div class="l-content l-blog">
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
+      <div class="post-soc">
+        <a href="http://twitter.com/share?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
+          <img src="/assets/images/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
+          <img src="/assets/images/facebook.png" alt="Facebook">
+        </a>
+      </div>
       {% if page.image %}
         <img src="{{page.image}}" alt="Post image">
       {% endif %}
@@ -34,40 +42,40 @@ layout: default
       <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     </header>
 
-      <div class="post-content" itemprop="articleBody">
-        {{ content }}
+    <div class="post-content" itemprop="articleBody">
+      {{ content }}
 
-        {% include disqus_comments.html %}
-      </div>
+      {% include disqus_comments.html %}
+    </div>
 
-    </article>
-    <div class="right-column">
-      {% include blog-categories.html %}
-      {% include blog-recentpost-by-category.html %}
-      {% include blog-meetus.html %}
-    </div>
-    <div class="post-navigation">
-      {% if page.next.url %}
-        <a class="next" href="{{page.next.url}}" rel="next">
-          <img src="/assets/images/arrow-brown.png" alt="arrow">
-          {{page.next.title}}
-        </a>
-      {% endif %}
-      {% if page.previous.url %}
-        <a class="prev" href="{{page.previous.url}}" rel="prev">
-          {{page.previous.title}}
-          <img src="/assets/images/arrow-brown.png" alt="arrow">
-        </a>
-      {% endif %}
-    </div>
-    <div class="post-footer">
-      <h2>You’re going to like it!</h2>
-      <p>Do you want to work in calm, family atmosphere, eat bananas and drink craft beer? ;)</p>
-      <span>Join Naturaily!</span>
-      <a href="/careers" type="button" class="btn btn-secondary">
-        see job offers
+  </article>
+  <div class="right-column">
+    {% include blog-categories.html %}
+    {% include blog-recentpost-by-category.html %}
+    {% include blog-meetus.html %}
+  </div>
+  <div class="post-navigation">
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}" rel="next">
+        <img src="/assets/images/arrow-brown.png" alt="arrow">
+        {{page.next.title}}
       </a>
-    </div>
+    {% endif %}
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}" rel="prev">
+        {{page.previous.title}}
+        <img src="/assets/images/arrow-brown.png" alt="arrow">
+      </a>
+    {% endif %}
+  </div>
+  <div class="post-footer">
+    <h2>You’re going to like it!</h2>
+    <p>Do you want to work in calm, family atmosphere, eat bananas and drink craft beer? ;)</p>
+    <span>Join Naturaily!</span>
+    <a href="/careers" type="button" class="btn btn-secondary">
+      see job offers
+    </a>
+  </div>
 
 </div>
 <script type="text/javascript">
