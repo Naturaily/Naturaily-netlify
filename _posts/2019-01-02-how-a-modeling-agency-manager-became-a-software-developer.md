@@ -25,7 +25,7 @@ To all you folks wondering at home - **is it possible to suddenly become a devel
 
 Łukasz, is a 27 year old man, with a passion for art and tech. Interesting combination you say? I thought so too - and so I kept dwelling. In his own words _“I spent my life torn between the two worlds and kept going back and forth. When I was in primary school I got my first computer and fell in love with fixing it up. Even as a kid I was fascinated with how it all worked. My hobby turned into a plan for the future when I went to an IT technical school.”_
 
-![model 2 by Lukasz Wac](/assets/images/2.jpg)
+![model 2 by Lukasz Wac](/assets/images/2.jpg){:.MyClass}
 
 By now you’re probably wondering - as was I - **what about the models?!** Turns out, our friendly developer is also a talented painter and decided to pursue a painting degree at an Art School. There he developed a passion for graphic design and photography. His interests pushed him to study film production. From there he started earning his money shooting portfolios for models. With time he got offered a managing position for a modeling agency but quickly got bored. If you’re internally screaming I assure you - I was as surprised as you are right now. Turns out, he missed the tech aspect and decided to change careers. He then became a product manager for an electronic supply company and began handling contracts with powerhouse brands like Nintendo, Sony and Microsoft, just to name a few. 
 
