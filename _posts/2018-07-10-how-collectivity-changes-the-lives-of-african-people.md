@@ -47,7 +47,7 @@ As we build Collectivity in an iterative way, new features are regularly added. 
 
 **Answer:** The project was initially funded by NORAD, the Norwegian agency for development cooperation.
 
-The two main partners of the project were ITM – in charge of bringing its experience in knowledge management and documenting the process, and “BlueSquare” – a Belgian technological company. After the first year and half, “Naturaily” has been identified to perform the development of the platform. 
+The two main partners of the project were ITM – in charge of bringing its experience in knowledge management and documenting the process, and “BlueSquare” – a Belgian technological company. After the first year and half, “Naturaily” has been identified to perform the development of the platform.
 
 <h4 align="center">Learn more about the project. Read <a href="https://naturaily.com/project/thecollectivity">Collectivity case study</a></h4 >
 
@@ -59,7 +59,7 @@ Collectivity was developed from scratch, starting with a **Minimal Viable Produc
 
 One of the initial challenges was to communicate efficiently with the devs (_“why are you asking me “users stories”, I wrote you a 10 pages Word doc!”_). But past the early stages, it is now going smoothly and naturally… but maybe better to ask them?
 
-As a non-scientific (sensu stricto) project living in a temple of academic research, it is sometimes still a challenge to make people around us understand what we are trying to do, and why; To encourage a vision of what really means 'having an impact', beyond the sacrosanct academic concept of 'impact factor' – the number of people that are likely to read the scientific journal where you published the article that took you two years of hard work to produce, and that will finally be downloaded 10 times max in total and will never be of any use in the real World. Bitter, me? Maybe a little bit! But sometimes it's so frustrating to see so many brilliant minds not trying to have more impact… what could be done by interacting more with others (policy makers, field workers, experts in different disciplines). 
+As a non-scientific (sensu stricto) project living in a temple of academic research, it is sometimes still a challenge to make people around us understand what we are trying to do, and why; To encourage a vision of what really means 'having an impact', beyond the sacrosanct academic concept of 'impact factor' – the number of people that are likely to read the scientific journal where you published the article that took you two years of hard work to produce, and that will finally be downloaded 10 times max in total and will never be of any use in the real World. Bitter, me? Maybe a little bit! But sometimes it's so frustrating to see so many brilliant minds not trying to have more impact… what could be done by interacting more with others (policy makers, field workers, experts in different disciplines).
 
 **Challenges for the future:**
 
@@ -85,19 +85,17 @@ We have people from 90 different countries, with a significant part of them from
 
 * ### Who is your biggest competitor? Are there any other solutions similar to yours? How does Collectivity stand out?
 
-**Answer:** Today, the importance of Knowledge Management – and in particular knowledge sharing, is getting more and more acknowledged in our sector of activities. All big institutions are launching knowledge management initiatives. But changing old patterns takes time, and it’s where I think we are good: our team already have nearly a decade of experience and focuses from the very beginning on giving more visibility to experts “_from the South_”. 
+**Answer:** Today, the importance of Knowledge Management – and in particular knowledge sharing, is getting more and more acknowledged in our sector of activities. All big institutions are launching knowledge management initiatives. But changing old patterns takes time, and it’s where I think we are good: our team already have nearly a decade of experience and focuses from the very beginning on giving more visibility to experts “_from the South_”.
 
 So far, I think we are good at **mobilizing and reaching these people** because we’ve worked with them for years. There are several of the initiatives, launched by big international actors that may have in theory more chance of success. In practices, often no one joins their platform and contribute actively. So far, what makes the difference is that we have maybe more 'legitimacy', and clearly more experience than a lot of other initiatives.
 
 * ### What are your plans for the future?
 
-**Answer:** We have several ideas of new features to improve Collectivity. Maybe a little too much actually! 
+**Answer:** We have several ideas of new features to improve Collectivity. Maybe a little too much actually!
 
 The coming months will be a very exciting phase for our platform : as the project is now over, Collectivity needs to 'exit' from the ITM. We are now working on the next steps: integrating the platform in a new legal entity. But that’s is another subject!
 
-<br>
 <hr>
-<br>
 
 Make sure to take a look at **Collectivity** here - <https://www.thecollectivity.org/>
 

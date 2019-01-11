@@ -4,7 +4,7 @@ description: >-
   Many say that PWAs will be the new standard in the future world of mobile
   apps, and they're probably right! With tech giants behind it, Progressive Web
   Applications became an amazing technology that will soon make native
-  applications obsolete. 
+  applications obsolete.
 slug: pwa-guide
 layout: post
 twitter-card: summary_large_image
@@ -17,23 +17,23 @@ text-preview: >-
   Many say that PWAs will be the new standard in the future world of mobile
   apps, and they're probably right! With tech giants behind it, Progressive Web
   Applications became an amazing technology that will soon make native
-  applications obsolete. 
+  applications obsolete.
 tags:
   - Frontend development
 ---
-Many say that PWAs will be the new standard in the future world of mobile apps, and they're probably right! With tech giants behind it, Progressive Web Applications became an amazing technology that will soon make native applications obsolete. 
+Many say that PWAs will be the new standard in the future world of mobile apps, and they're probably right! With tech giants behind it, Progressive Web Applications became an amazing technology that will soon make native applications obsolete.
 
 # What is a PWA?
 
-The Progressive Web Application is a relatively new concept in the mobile and Internet world. PWAs are developed using certain technologies and approaches to create apps that take advantage of both native and web application features. Essentially, it is a mixture of mobile and web applications. 
+The Progressive Web Application is a relatively new concept in the mobile and Internet world. PWAs are developed using certain technologies and approaches to create apps that take advantage of both native and web application features. Essentially, it is a mixture of mobile and web applications.
 
-Thanks to the concept of Progressive Enhancement they work no matter what browser you use. PWAs give users a great experience on every modern smart device - phone, tablet, PC, you name it. Even though they are ‘just’ web applications, **PWAs act like a regular native app** (with some limitations of course). 
+Thanks to the concept of Progressive Enhancement they work no matter what browser you use. PWAs give users a great experience on every modern smart device - phone, tablet, PC, you name it. Even though they are ‘just’ web applications, **PWAs act like a regular native app** (with some limitations of course).
 
-The cool thing about Progressive Web Apps is that they are not like other regular web apps you’d find on the Internet. They have access to internals of your device, so for example, they can utilize sensors such GPS to find your location, accelerators or camera (even with advanced controls!) and many more [for more info check out [What Web Can Do Today?](http://whatwebcando.today/){:rel=nofollow}]. 
+The cool thing about Progressive Web Apps is that they are not like other regular web apps you’d find on the Internet. They have access to internals of your device, so for example, they can utilize sensors such GPS to find your location, accelerators or camera (even with advanced controls!) and many more [for more info check out [What Web Can Do Today?](http://whatwebcando.today/){:rel=nofollow}].
 
-PWA concept as a whole allows for easier user engagement with your content. Since the semi-native app can be saved to your app drawer and send notifications to your device, more people can come back to it. It’s much more convenient to just tap on an icon instead of typing the whole URL. 
+PWA concept as a whole allows for easier user engagement with your content. Since the semi-native app can be saved to your app drawer and send notifications to your device, more people can come back to it. It’s much more convenient to just tap on an icon instead of typing the whole URL.
 
-As we’ve mentioned in one of our [previous posts](https://naturaily.com/blog/pwa-vue-cli-3), during the Google I/O 2017 presentation dedicated to PWA, it was mentioned that even though web applications on mobile have almost **3 times more unique users** compared to native apps, the native apps are 20 times more engaging than web apps. It clearly shows that **PWA is a perfect technology** that will merge these two worlds for your and users’ benefit. 
+As we’ve mentioned in one of our [previous posts](https://naturaily.com/blog/pwa-vue-cli-3), during the Google I/O 2017 presentation dedicated to PWA, it was mentioned that even though web applications on mobile have almost **3 times more unique users** compared to native apps, the native apps are 20 times more engaging than web apps. It clearly shows that **PWA is a perfect technology** that will merge these two worlds for your and users’ benefit.
 
 ## Read: [How to use PWA plugin in Vue CLI 3.0](https://naturaily.com/blog/pwa-vue-cli-3)
 
@@ -63,8 +63,6 @@ Your dev team can update the app whenever they want since there is no App Store 
 
 Lastly, with Progressive Web Apps you don’t have to worry about the security of your app - they are served via HTTPS. This encryption ensures that your application is safe and sound, no one unauthorized can tinker with it.
 
-<br>
-
 ## How are PWAs adjusted for poor connection?
 
 As you can see, a lot of companies aim to develop lightweight apps that will work with slow, 2G connection. Since they want to expand their services on emerging markets, it’s one of their main goals. But how are they managing to do that?
@@ -75,15 +73,11 @@ Designers utilize the power of SVGs as opposed to PNGs or JPEGs. It is essential
 
 Unfortunately, when it comes to PWAs, many of the features from the native equivalent may be stripped down. It’s likely to do with saving data or even PWA support limitations.
 
-<br>
-
 ## What technologies do PWA developers use?
 
 As we’ve mentioned before, PWAs are essentially web apps that, with some help, behave like a native application. What does that mean? The development process for a PWA is quite similar as for a regular web application.
 
 Of course, there are some requirements that have to be met but, fear not, the Internet is full of online tools that will guide you, and make the PWA development simple. Judah Gabriel Himango in his [blog post](https://medium.freecodecamp.org/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned-7cb3f56daf9b){:rel=nofollow} has briefly explained the whole process of converting and publishing a web application as a PWA on 3 major platforms - iOS, Android and Windows. He mentioned a very interesting tool called [PWABuilder](https://www.pwabuilder.com/){:rel=nofollow} which can convert a web application into a PWA, give developers some tips on what’s missing in their app and even return ready to publish packages for major platforms.
-
-<br>
 
 ### So… what do developers use?
 
@@ -147,6 +141,6 @@ Link: <https://m.uber.com/>{:rel=nofollow}
 
 ### Tinder
 
-As other mentioned above apps, Tinder Online was created to expand on new markets. The PWA took only 3 months to develop and it delivers the core Tinder experience with only 10th of the native app size! It takes only 5 seconds on 4G connection to get interactive. The development team has utilized JavaScript Route-based code-splitting to shrink down this time from initial 12 seconds to only 5 seconds. Tinder saw an increase in session time, messages and swiping compared to their native app. 
+As other mentioned above apps, Tinder Online was created to expand on new markets. The PWA took only 3 months to develop and it delivers the core Tinder experience with only 10th of the native app size! It takes only 5 seconds on 4G connection to get interactive. The development team has utilized JavaScript Route-based code-splitting to shrink down this time from initial 12 seconds to only 5 seconds. Tinder saw an increase in session time, messages and swiping compared to their native app.
 
 Link: [https://tinder.com/](https://tinder.com/?lang=en){:rel=nofollow}

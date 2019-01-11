@@ -22,8 +22,6 @@ tags:
 ---
 In this post, I'll share some tips, tricks, and tools I use every day in frontend development. So buckle-up, and let’s jump into the vast world of the web!
 
-<br>
-
 ## The Planning stage
 
 First of all, use bug and time trackers, such as:
@@ -33,8 +31,6 @@ First of all, use bug and time trackers, such as:
 * [**Trello**](https://trello.com/){:rel=nofollow} - project management tool
 
 These tools will help you in carefully planning your tasks, time and process reporting what will eventually lead to easier frontend development.
-
-<br>
 
 ### PSD era is over
 
@@ -54,13 +50,11 @@ There are tons of applications that can replace Photoshop in terms of exporting 
 
 Besides Sketch and other tools mentioned above, there are many more, of course, that can be used to design the UI of your application. Check out [Figma](https://www.figma.com/){:rel=nofollow} that offers collaborative design, [Adobe XD](https://www.adobe.com/products/xd.html){:rel=nofollow} or [Affinity Designer](https://affinity.serif.com/en-gb/){:rel=nofollow} which is a great and inexpensive tool for vector graphics.
 
-<br>
-
 ## Frontend development stage
 
 ### Choosing an editor
 
-Different things appeal to different people. Each and every code editor has its own unique features, some people may like them or not. This is why the choice between available code editors is individual. There are many options, such as Atom, VS Code, Sublime, and Webstorm. 
+Different things appeal to different people. Each and every code editor has its own unique features, some people may like them or not. This is why the choice between available code editors is individual. There are many options, such as Atom, VS Code, Sublime, and Webstorm.
 
 Personally, I recommend Webstorm. It has a great support for ES6, snippets, grunt/gulp/npm task launching, bash console, out-of-the-box GIT support (push/pull/merge/rebase/stash/etc.) and the great preview of changes before commit. Unfortunately, it’s not free.
 
@@ -71,8 +65,6 @@ Using Linter will help you write better, more correct code. I recommend using ei
 ### Browser extensions
 
 If you are using one of the popular frameworks or libraries like Angular, Vue or React you’re in luck because there are debugging browser extensions designed specifically for each one of them. On top of that, there are some extensions that support the development process such as PixelPerfect.
-
-<br>
 
 Now let’s talk about **CSS** for a bit.
 
@@ -90,13 +82,9 @@ Don’t reinvent the wheel (unless you have the money and resources ;) ). Use fr
 
 Lots of people develop and test them on hundreds of devices. I don’t think I can achieve a similar solution in a reasonable period on my own laptop ;)
 
-<br>
-
 ### Lastly, use bundlers!
 
 I highly recommend using bundlers such as Webpack or Parcel. They are great for development, creating production package, setting up a development server, hot reload etc. They certainly will make your frontend development much easier.
-
-<br>
 
 ## Conclusion
 

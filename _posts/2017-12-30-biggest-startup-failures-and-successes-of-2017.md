@@ -62,7 +62,7 @@ Forward’s office in San Francisco is equipped with the latest medical instrume
 They offer health monitoring using wearable sensors, support and access to their AI and 24/7 access to medical staff through the app for $149 a month. Aoun hopes that the service will focus on prevention rather than sickness. Forward is a great example of a new emerging market - telemedicine, a market that soon will completely change the world.
 
 Check it out [here](http://goforward.com)
-<br>
+
 Twitter: [@GoForward](https://twitter.com/GoForward)
 
 ## Essential Phone - phone designed by the creator of Android

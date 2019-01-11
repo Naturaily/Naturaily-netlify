@@ -22,15 +22,11 @@ In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin as
 
 ## First of all, what's the PWA?
 
-According to Google Developers PWA description, Progressive Web Apps is a concept which improves user experiences in web applications, by making them reliable, fast and engaging. During Google I/O '17 presentation about the PWA, it was mentioned that in top 1000 mobile apps vs top 1000 mobile web properties, mobile web has almost **3 times more monthly unique visitors** than native apps, but even more interesting are statistics about average time spent there. Native apps users spend there more than **20 times more time than mobile web users**! Those statistics are crushing! But there is an explanation to that! 
+According to Google Developers PWA description, Progressive Web Apps is a concept which improves user experiences in web applications, by making them reliable, fast and engaging. During Google I/O '17 presentation about the PWA, it was mentioned that in top 1000 mobile apps vs top 1000 mobile web properties, mobile web has almost **3 times more monthly unique visitors** than native apps, but even more interesting are statistics about average time spent there. Native apps users spend there more than **20 times more time than mobile web users**! Those statistics are crushing! But there is an explanation to that!
 
 **Native mobile apps are more engaging** to users than web pages. It's way easier to just tap the icon on the home screen than to type a long URL. Native apps are also designed for mobile purposes, as well as in terms of graphic design, features and technical aspects. Unlike web apps, native apps have push notifications, access to your camera, or mic, but is that still true? No! PWA can that too!
 
-<br>
-
 # Read: [A brief guide to PWAs in 2018.](https://naturaily.com/blog/pwa-guide)
-
-<br>
 
 ## PWA Characteristics
 
