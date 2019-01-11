@@ -51,12 +51,6 @@ pre, code {
     img {
       border-radius: 5px;
       box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
-
-      &.float {
-        float: left;
-        width: 45%;
-        margin-right: 20px;
-      }
     }
 
     a {
@@ -255,6 +249,18 @@ pre, code {
       margin: 0 auto;
       margin-top: 50px;
       margin-bottom: 50px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .post-content {
+
+    img.float {
+      float: left;
+      width: 45%;
+      margin-bottom: 10px;
+      margin-right: 20px;
     }
   }
 }
