@@ -28,6 +28,10 @@
     grid-gap: 60px;
     padding-bottom: 90px;
 
+    .resources-tile {
+      box-shadow: 0 8px 32px 0 rgba(0,0,0,.1);
+    }
+
     .mobile-tile, .web-tile, .ux-tile {
       margin: 0;
       grid-row: unset;
