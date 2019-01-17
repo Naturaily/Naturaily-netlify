@@ -16,8 +16,11 @@
     grid-area: logos;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 50px;
-    justify-items: center;
     align-items: center;
+
+    img {
+      max-height: 52px;
+    }
   }
 
   &-description {
@@ -41,6 +44,10 @@
       }
   }
 
+  &-about {
+    grid-area: desc;
+  }
+
   &-poster {
     grid-area: poster;
     display: grid;
@@ -60,6 +67,7 @@
     &-header {
       margin: 60px 0 80px;
       grid-template-columns: 1fr;
+      grid-template-rows: initial;
       grid-row-gap: 50px;
       grid-template-areas:
         "logos" "desc";
@@ -68,6 +76,7 @@
     &-logos {
       grid-template-columns: repeat(2, 1fr);
       grid-row-gap: 50px;
+      justify-items: center;
     }
 
     &-project {
@@ -93,13 +102,13 @@
 
     &-header {
       grid-row-gap: 0;
-      margin-top: -40px;
+      margin-top: 0;
     }
 
     &-logos {
-      grid-column-gap: 20px;
-      grid-row-gap: 0;
-      padding: 0 20px;
+      grid-template-columns: 1fr;
+      grid-row-gap: 40px;
+      margin-bottom: 50px;
     }
 
     &-project {
