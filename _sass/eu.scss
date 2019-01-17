@@ -19,7 +19,7 @@
     align-items: center;
 
     img {
-      max-height: 52px;
+      max-height: 46px;
     }
   }
 
@@ -106,9 +106,12 @@
     }
 
     &-logos {
-      grid-template-columns: 1fr;
       grid-row-gap: 40px;
       margin-bottom: 50px;
+
+      img {
+        max-height: 35px;
+      }
     }
 
     &-project {
