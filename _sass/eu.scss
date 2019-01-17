@@ -67,7 +67,7 @@
     &-header {
       margin: 60px 0 80px;
       grid-template-columns: 1fr;
-      grid-template-rows: initial;
+      grid-template-rows: none;
       grid-row-gap: 50px;
       grid-template-areas:
         "logos" "desc";
