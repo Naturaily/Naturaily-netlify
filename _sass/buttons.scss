@@ -41,6 +41,34 @@
   &:visited {
     color: $color-primary;
   }
+
+  &_grouped {
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: none;
+      @include scale(1.1);
+    }
+  }
+}
+
+.btn-copy {
+  background-image: url(/assets/images/copy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  box-shadow: none;
+  @include transition(.2s);
+  &:hover {
+    box-shadow: none;
+    @include scale(1.1);
+  }
 }
 
 @media (max-width: 575px) {

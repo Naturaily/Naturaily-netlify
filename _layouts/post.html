@@ -6,14 +6,6 @@ layout: default
 <div class="l-content l-blog">
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
-      <div class="post-soc">
-        <a href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
-          <img src="/assets/images/twitter.png" alt="Twitter">
-        </a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
-          <img src="/assets/images/facebook.png" alt="Facebook">
-        </a>
-      </div>
       {% if page.image %}
         <img src="{{page.image}}" alt="Post image">
       {% endif %}
@@ -43,11 +35,24 @@ layout: default
     </header>
 
     <div class="post-content" itemprop="articleBody">
+      <div class="post-soc">
+        <div class="tooltip post-soc-copy" onmouseout="mouseOutFn()">
+          <input type="text" value="{{site.url}}{{page.url}}" id="copyUrl" class="custom-input" readonly>
+          <button onclick="copyToClipboard()" class="btn btn-copy"></button>
+          <span class="tooltip-text" id="copyTooltip">Copy to clipboard</span>
+        </div>
+        <a class="post-soc-shr" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
+          <img src="/assets/images/twitter.png" alt="Twitter">
+        </a>
+        <a class="post-soc-shr" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
+          <img src="/assets/images/facebook.png" alt="Facebook">
+        </a>
+      </div>
       {{ content }}
 
       {% include disqus_comments.html %}
     </div>
-
+§
   </article>
   <div class="right-column">
     {% include blog-categories.html %}
@@ -80,4 +85,20 @@ layout: default
 </div>
 <script type="text/javascript">
   {% include blog-sticky.js %}
+
+  function copyToClipboard() {
+    var copyUrl = document.getElementById("copyUrl");
+    copyUrl.select();
+    document.execCommand("copy");
+
+    var tooltip = document.getElementById("copyTooltip");
+    tooltip.innerHTML = "Copied post URL";
+  }
+
+  function mouseOutFn() {
+    var tooltip = document.getElementById("copyTooltip");
+    tooltip.innerHTML = "Copy to clipboard";
+  }
+
+
 </script>

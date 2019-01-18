@@ -5,6 +5,10 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.robots %}
+    <meta name="robots" content="{{page.robots}}" />
+  {% endif %}
+
   <meta name="google-site-verification" content="hN08h2wKl7pGAbXTpkyglvv4VdgIBfm5TAGozNPUhJM" />
   <meta property="og:title"  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" >
   <meta property="og:description"  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" >

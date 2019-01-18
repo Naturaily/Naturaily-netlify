@@ -21,8 +21,8 @@ description: > # this means to ignore newlines until "baseurl:"
   React Native applications for startups and enterprises. Let’s talk!
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://naturaily.com' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: naturaily
+github_username:  naturaily
 highlighter: rouge
 pagination:
   enabled: true
@@ -57,6 +57,17 @@ blog:
     url: /blog/authors/
     title_prefix: " "
     layout: author.html
+
+sitemap:
+    filename: "/do_androids_dream_of_electric_sheep/magic_file.xml"
+    exclude:
+        - "/admin"
+        - "/404.html"
+        - "/500.html"
+    include_posts:
+        - "/blog/index.html"
+    change_frequency_name: "always"
+    priority_name: "priority"
 
 
 defaults:

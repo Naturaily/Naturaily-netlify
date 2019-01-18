@@ -273,3 +273,7 @@
 
 /ruby-on-rails-development                                   /services/ruby-on-rails-development
 /vue-js-development                                          /services/vue-js-development
+
+# General redirects
+
+/sitemap.xml                                                 /
