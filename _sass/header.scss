@@ -41,8 +41,8 @@
   &-right {
     grid-column: 1 / 2;
     grid-row: 1;
-    align-self: start;
-    margin-top: 30px;
+    align-self: center;
+
     .header-btn {
       position: relative;
       z-index: 2;
@@ -54,7 +54,7 @@
 
 @media (min-width: 811px) {
   .header {
-    grid-template-columns: 120px 1fr 250px;
+    grid-template-columns: 120px 1fr 200px;
     &-logo {
       margin-left: 30px;
       grid-column: 1 / 2;
@@ -74,7 +74,7 @@
       }
     }
     ul li {
-      margin: 0 20px;
+      margin: 0 15px;
       display: inline;
     }
   }
@@ -82,26 +82,19 @@
 
 @media (min-width: 992px) {
   .header {
+    grid-template-columns: 120px 1fr 250px;
+
     ul li {
-      margin: 0 40px;
+      margin: 0 25px;
     }
   }
 }
 
 @media (min-width: 1175px) {
-  .header-right {
-    align-self: center;
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 1470px) {
   .header {
-    li {
+
+    ul li {
       margin: 0 40px;
-    }
-    .site-nav {
-      grid-column: 2 / 3;
     }
   }
 }
