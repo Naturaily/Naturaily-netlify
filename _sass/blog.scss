@@ -63,7 +63,6 @@ pre, code {
       height: auto;
       margin: 0;
       width: 30px;
-      opacity: 0.3;
       @include transition(.2s);
 
       &:hover {
@@ -75,7 +74,7 @@ pre, code {
     a.post-soc-shr {
       background-color: transparent;
       margin-left: 0;
-      margin-top: 5px;
+      margin-top: 10px;
       padding: 0;
     }
   }
