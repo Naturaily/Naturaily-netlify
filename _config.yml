@@ -58,17 +58,6 @@ blog:
     title_prefix: " "
     layout: author.html
 
-sitemap:
-    filename: "/do_androids_dream_of_electric_sheep.xml"
-    exclude:
-        - "/admin"
-        - "/404.html"
-        - "/500.html"
-    include_posts:
-        - "/blog/index.html"
-    change_frequency_name: "always"
-    priority_name: "priority"
-
 
 defaults:
   -
@@ -119,6 +108,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-sitemap
 
 
 exclude:
