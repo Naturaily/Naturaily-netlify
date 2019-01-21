@@ -59,7 +59,7 @@ blog:
     layout: author.html
 
 sitemap:
-    filename: "/do_androids_dream_of_electric_sheep/magic_file.xml"
+    filename: "/do_androids_dream_of_electric_sheep.xml"
     exclude:
         - "/admin"
         - "/404.html"
