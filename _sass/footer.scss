@@ -298,8 +298,8 @@
     }
 
     &-hr {
-      grid-row: 2;
-      grid-column: 1 / 5;
+      height: 1px;
+
       &.small-only {
         display: none;
       }

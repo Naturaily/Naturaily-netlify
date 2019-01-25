@@ -14,6 +14,14 @@
 .l-career-header {
   margin-top: 50px;
 
+  h1 {
+    margin-top: 40px;
+  }
+
+  h3 {
+    margin: 50px 0 70px;
+  }
+
   .big-point {
     display: block;
     margin-left: 0;
@@ -30,8 +38,115 @@
     margin-bottom: 0;
     font-weight: 200;
   }
+
+  .btn-arrow img {
+    transform: rotate(90deg);
+  }
 }
+
 .l-career-container {
+
+  &.no-gutters {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+
+  .career-benefits {
+
+    .benefits-tile {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+
+    .benefits-box {
+      font-weight: 200;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      background: white;
+      border-radius: 4px;
+      transition: all .2s;
+
+      img {
+        margin: 20px 0;
+        transition: all .2s;
+      }
+    }
+
+    .benefits-description {
+      padding: 0 7px;
+      display: inline-block;
+      height: 0;
+      opacity: 0;
+      overflow: hidden;
+      transition: height .2s, opacity .3s .2s;
+    }
+  }
+
+  &.career-space {
+    margin: 80px 0;
+  }
+
+  &.career-space-bottom-small {
+    margin-bottom: 80px;
+  }
+
+  .font-big {
+    font-size: 1.9rem;
+  }
+
+  .font {
+    font-size: 1.7rem;
+  }
+
+  blockquote {
+    color: #b36800;
+    border-left: 2px solid #ffb040;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 32px;
+    max-width: 500px;
+  }
+
+  .career-header {
+    grid-column: 1 / 3;
+  }
+
+  .full {
+    grid-column: 1 / 4;
+  }
+
+  .margin-left {
+    margin-left: 30px;
+  }
+
+  .margin-top {
+    margin-top: 30px;
+  }
+
+  .margin-bottom-big {
+    margin-bottom: 60px;
+  }
+
+  .text-right {
+    margin-right: 220px;
+  }
 
   .main-point {
     grid-column: 1 / 3;
@@ -102,6 +217,11 @@
     }
   }
 }
+
+.career-carousel {
+  margin-bottom: 50px;
+}
+
 .coffee-point {
   margin: 160px auto;
   max-width: 520px;
@@ -112,6 +232,7 @@
     font-size: 2.2rem;
   }
 }
+
 .big-point {
   font-weight: 200;
   font-size: 2.2rem;
@@ -156,6 +277,87 @@
       margin-left: -35px;
       padding: 60px 0px 0px;
       grid-column: 1 / 4;
+    }
+
+    &.career-space {
+      margin: 150px 0;
+
+      &.big {
+        margin-bottom: 250px;
+      }
+    }
+
+    .career-benefits {
+      grid-template-columns: 220px 1fr;
+      margin-right: 20px;
+
+      .benefits {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(7, 80px);
+
+        &-box {
+
+          &:hover {
+            height: 125%;
+            width: 130%;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+
+            img {
+              margin: 5px 0;
+              transform: scale(0.6);
+            }
+
+            .benefits-description {
+              height: 100px;
+              opacity: 1;
+
+              &.a {
+                height: 70px;
+              }
+            }
+          }
+        }
+
+        .benefit-1 {
+          grid-column: 1;
+          grid-row: 3 / 5;
+        }
+
+        .benefit-2 {
+          grid-column: 2;
+          grid-row: 2 / 4;
+        }
+
+        .benefit-3 {
+          grid-column: 2;
+          grid-row: 4 / 6;
+        }
+
+        .benefit-4 {
+          grid-column: 3;
+          grid-row: 1 / 3;
+        }
+
+        .benefit-5 {
+          grid-column: 3;
+          grid-row: 3 / 5;
+        }
+
+        .benefit-6 {
+          grid-column: 3;
+          grid-row: 5 / 7;
+        }
+
+        .benefit-7 {
+          grid-column: 4;
+          grid-row: 2 / 4;
+        }
+
+        .benefit-8 {
+          grid-column: 4;
+          grid-row: 4 / 6;
+        }
+      }
     }
   }
 
@@ -204,9 +406,23 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .l-career-container {
+
+    .career-benefits {
+      grid-template-columns: 350px 1fr;
+      margin: 0;
+    }
+  }
+}
+
 @media (min-width: 1400px) {
   .l-career-container {
     padding: 0 135px;
+
+    .career-benefits {
+      grid-template-columns: 500px 1fr;
+    }
   }
 
   .career-detail-wider {
@@ -220,5 +436,247 @@
 
   .l-career-header {
     padding: 0 135px;
+  }
+
+  .benefits-box {
+
+    &:hover {
+
+      .benefits-description.a {
+        height: 50px;
+      }
+
+      img {
+        margin: 10px 0;
+        transform: scale(0.7);
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1399px) {
+  .benefits-description {
+    margin-top: 5px;
+
+    &.a {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .l-career-container {
+
+    &.aba {
+      padding: 0;
+    }
+  }
+
+  .benefits-description {
+    font-size: 15px;
+    transition: height .3s, opacity .3s .4s;
+  }
+}
+
+@media (max-width: 991px) {
+  .dupa {
+    font-size: 1.8rem !important;
+  }
+
+  .mvb-3 {
+    margin-bottom: 30px;
+  }
+
+  .career-carousel {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .l-career-header {
+    margin-top: 0;
+
+    h3 {
+      margin: 30px 0 40px;
+    }
+
+    button {
+      margin-bottom: 30px;
+    }
+  }
+
+  .jakub {
+    position: relative;
+    height: 350px;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 4px;
+
+    img {
+      position: absolute;
+      top: -15%;
+      transform: scale(.9);
+      border-radius: 0;
+    }
+  }
+
+  .ader {
+    position: relative;
+    height: 350px;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 4px;
+
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 0;
+    }
+  }
+
+  .l-career-container {
+
+    &.career-space-bottom-small {
+      margin-bottom: 30px;
+    }
+
+    .career-header {
+      margin: 30px 0;
+    }
+
+    img.full {
+      margin: 30px 0;
+    }
+
+    blockquote br:first-child {
+      display: block;
+    }
+
+    br {
+      display: none;
+    }
+
+    .text-right {
+      margin: 0;
+    }
+
+    .pt-3 {
+      padding-top: 30px;
+    }
+
+    // musi być po text-right
+    .mb-3 {
+      margin-bottom: 30px;
+    }
+
+    .margin-left {
+      margin: 0;
+    }
+
+    .career-benefits {
+      grid-template-columns: 1fr;
+
+      .benefits {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 100px);
+        grid-gap: 20px;
+        margin-bottom: 30px;
+
+        &-box {
+          display: grid;
+          grid-template-columns: 120px 1fr;
+          justify-items: center;
+          align-items: center;
+
+          img {
+            grid-column: 1;
+            transform: scale(.7);
+            margin: 0;
+          }
+
+          .tile-text {
+            grid-column: 1;
+            margin: 0;
+            margin-bottom: 10px;
+            line-height: 18px;
+          }
+
+          .benefits-description {
+
+          }
+        }
+
+        &-description {
+          grid-column: 2;
+          grid-row: 1 / 3;
+          height: initial;
+          margin: 0;
+          opacity: 1;
+        }
+
+        .benefit-1 {
+          grid-column: 1;
+          grid-row: 1;
+        }
+
+        .benefit-2 {
+          grid-column: 1;
+          grid-row: 2;
+        }
+
+        .benefit-3 {
+          grid-column: 1;
+          grid-row: 3;
+        }
+
+        .benefit-4 {
+          grid-column: 1;
+          grid-row: 4;
+        }
+
+        .benefit-5 {
+          grid-column: 1;
+          grid-row: 5;
+        }
+
+        .benefit-6 {
+          grid-column: 1;
+          grid-row: 6;
+        }
+
+        .benefit-7 {
+          grid-column: 1;
+          grid-row: 7;
+        }
+
+        .benefit-8 {
+          grid-column: 1;
+          grid-row: 8;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .jakub {
+    height: 175px;
+
+    img {
+      top: -15%;
+      transform: scale(.9);
+    }
+  }
+
+  .ader {
+    height: 175px;
+
+    img {
+      top: 45%;
+      right: 22%;
+      transform: scale(1.5);
+    }
   }
 }

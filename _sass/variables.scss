@@ -8,6 +8,7 @@ $color-accent-blue: #71C3E3;
 $color-accent-gold: #B36800;
 $color-accent-green: #8DCB6F;
 $color-accent-yellow: #FFB040;
+$color-accent-pink: #ff78eb;
 $color-nav-border: #E8E1D5;
 $color-text-muted: #B8B8B8;
 $color-font-light: #543015;
@@ -31,6 +32,12 @@ $color-zapnito: #E85A52;
 }
 .text-accent-green {
   color: $color-accent-green;
+}
+.text-accent-pink {
+  color: $color-accent-pink;
+}
+.text-accent-yellow {
+  color: $color-accent-yellow;
 }
 .text-center {
   text-align: center;
