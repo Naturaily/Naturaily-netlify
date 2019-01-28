@@ -29,7 +29,7 @@ layout: default
     <h2 class="career-header">
       We work as a team
     </h2>
-    <h3 class="full margin-left text-right">
+    <h3 class="full-width left-offset right-offset">
       Naturaily is only just over 30 people large, which means less people work
       on individual projects. A smaller team allows for everyone to know what
       their role is, transparent communication and active participation in
@@ -39,11 +39,11 @@ layout: default
       projects. Every week brings new challenges, and every week we work
       together to meet them.
     </h3>
-    <img class="full" src="/assets/images/career-image-1.jpg" alt="">
+    <img class="full-width" src="/assets/images/career-image-1.jpg" alt="">
     <h2 class="career-header margin-top">
       We notice potential
     </h2>
-    <div class="margin-left career-header">
+    <div class="left-offset career-header">
       <h3>
         We know how to spot potential and a will to grow professionally. We
         encourage employees who want to work and develop their skills. We take
@@ -65,11 +65,11 @@ layout: default
 </div>
 
 <div class="l-content">
-  <div class="l-career-container no-gutters career-space big">
+  <div class="l-career-container no-gutters career-space career-space-big">
     <h2 class="career-header">
       We like you - for you!
     </h2>
-    <div class="margin-left career-header">
+    <div class="left-offset career-header">
       <h3>
         What makes us unique is our respect for individuality. We created an open
         and honest work environment that encourages everyone to be themselves. Our
@@ -88,7 +88,7 @@ layout: default
         ~Kuba (RoR Developer)
       </blockquote>
     </div>
-    <div class="jakub">
+    <div class="career-person person-1">
       <img class="career-image" src="/assets/images/career-image-2.jpg" alt="">
     </div>
   </div>
@@ -105,11 +105,11 @@ layout: default
 
 <div class="l-content">
   <div class="l-career-container no-gutters career-space career-space-bottom-small">
-    <h2 class="full font-big dupa">
+    <h2 class="full-width career-font-medium">
       When you come to work with us you will most likely have to assemble your
       own workstation, it’s our special way of welcoming you into our ranks!
     </h2>
-    <img class="full" src="/assets/images/career-image-3.jpg" alt="">
+    <img class="full-width" src="/assets/images/career-image-3.jpg" alt="">
   </div>
 </div>
 
@@ -121,7 +121,7 @@ layout: default
     <h2 class="career-header">
       Company culture
     </h2>
-    <h3 class="full margin-left text-right">
+    <h3 class="full-width left-offset right-offset">
       At Naturaily we value individuality, professionalism, open communication
       and honesty. We strive to provide our clients with the best, stable,
       reliable and beautiful digital products. We achieve that by avoiding
@@ -130,7 +130,7 @@ layout: default
       overcoming challenges. We pride ourselves in knowledge of Vue.js, Ruby on
       Rails and Internet of Things.
     </h3>
-    <img class="full" src="/assets/images/career-image-4.jpg" alt="">
+    <img class="full-width" src="/assets/images/career-image-4.jpg" alt="">
   </div>
 </div>
 
@@ -158,18 +158,18 @@ layout: default
         ~Adrian (RoR Developer)
       </blockquote>
     </div>
-    <div class="ader">
+    <div class="career-person person-2">
       <img class="career-image" src="/assets/images/career-image-5.jpg" alt="">
     </div>
   </div>
 </div>
 
 <div class="l-content">
-  <div class="l-career-container no-gutters">
+  <div id="scroll-offers" class="l-career-container no-gutters">
     <div class="main-point">
       Interested? We’re hiring.
     </div>
-    <h2 class="career-header dupa">
+    <h2 class="career-header">
       We’re always searching for
       <br>
       amazing people to join our
@@ -182,9 +182,9 @@ layout: default
 </div>
 
 {% for carrer_type in carrer_types %}
-  <div class="l-content mvb-3">
+  <div class="l-content l-content-offers">
     {% if carrer_type contains "Development" %}
-      <div class="l-career-container aba">
+      <div class="l-career-container">
         <div class="main-point pt-3">
           Development
         </div>
@@ -196,7 +196,7 @@ layout: default
       </div>
     {% endif %}
     {% if carrer_type contains "UX/UI" %}
-      <div class="l-career-container aba">
+      <div class="l-career-container">
         <div class="main-point blue-dot">
           UX/UI
         </div>
@@ -208,7 +208,7 @@ layout: default
       </div>
     {% endif %}
     {% if carrer_type contains "Sales&Marketing" %}
-      <div class="l-career-container aba">
+      <div class="l-career-container">
         <div class="main-point green-dot">
           Sales&Marketing
         </div>
@@ -220,7 +220,7 @@ layout: default
       </div>
     {% endif %}
     {% if carrer_type contains "Business Development" %}
-      <div class="l-career-container aba">
+      <div class="l-career-container">
         <div class="main-point">
           Business Development
         </div>
@@ -232,7 +232,7 @@ layout: default
       </div>
     {% endif %}
     {% if carrer_type contains "Operations" %}
-      <div class="l-career-container aba">
+      <div class="l-career-container">
         <div class="main-point blue-dot">
           Operations
         </div>
@@ -244,7 +244,7 @@ layout: default
       </div>
     {% endif %}
     {% if carrer_type contains "Other" %}
-      <div class="l-career-container aba">
+      <div class="l-career-container">
         <div class="main-point green-dot">
           Other
         </div>
@@ -265,7 +265,7 @@ layout: default
 
 <div class="l-content">
   <div class="l-career-container career-space">
-    <h2 class="full font">
+    <h2 class="full-width career-font-small">
       We’re working to build something meaningful and lasting. We try to
       approach everything we do thoughtfully - and if you feel the same about
       your? work, we’d love to hear from you. Use the form below and start your
@@ -279,7 +279,7 @@ layout: default
 </div>
 
 <div class="l-content">
-  <div class="l-career-container no-gutters ">
+  <div class="l-career-container no-gutters">
     <div class="main-point">
       Read more about working at Naturaily on our blog:
     </div>
@@ -298,7 +298,7 @@ layout: default
 <script type="text/javascript">
   $('[data-scroll-more]').click(() => {
       $('html, body').animate({
-          scrollTop: $('.work-as-a-team').offset().top
-      }, 200);
+          scrollTop: $('#scroll-offers').offset().top
+      }, 1000);
   });
 </script>
