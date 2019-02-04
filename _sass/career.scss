@@ -15,11 +15,12 @@
   margin-top: 50px;
 
   h1 {
-    margin-top: 40px;
+    font-size: 2.2rem;
   }
 
   h3 {
-    margin: 50px 0 70px;
+    margin: 60px 0 75px 30px;
+    font-weight: 200;
   }
 
   .big-point {
@@ -45,6 +46,10 @@
 }
 
 .l-career-container {
+
+  h3 {
+    font-weight: 200;
+  }
 
   &.no-gutters {
     padding-left: 0;
@@ -87,9 +92,9 @@
     }
 
     .benefits-description {
-      padding: 0 7px;
       display: inline-block;
       height: 0;
+      padding: 0 7px;
       opacity: 0;
       overflow: hidden;
       transition: height .2s, opacity .3s .2s;
@@ -299,22 +304,26 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(7, 80px);
 
-        &-box:hover {
-          height: 125%;
-          width: 130%;
-          box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+        &-box {
+          font-size: 14px;
 
-          img {
-            margin: 5px 0;
-            transform: scale(0.6);
-          }
+          &:hover {
+            height: 125%;
+            width: 130%;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
 
-          .benefits-description {
-            height: 100px;
-            opacity: 1;
+            img {
+              margin: 5px 0;
+              transform: scale(0.6);
+            }
 
-            &--short {
-              height: 70px;
+            .benefits-description {
+              height: 100px;
+              opacity: 1;
+
+              &--short {
+                height: 70px;
+              }
             }
           }
         }
@@ -413,6 +422,23 @@
     .career-benefits {
       grid-template-columns: 350px 1fr;
       margin: 0;
+
+      .benefits-box:hover {
+        height: 120%;
+        width: 120%;
+
+        .tile-text {
+          margin-bottom: 5px;
+        }
+
+        .benefits-description {
+          padding: 0 13px;
+
+          &--short {
+            margin-top: 15px;
+          }
+        }
+      }
     }
   }
 }
@@ -423,6 +449,25 @@
 
     .career-benefits {
       grid-template-columns: 500px 1fr;
+
+      .benefits-box:hover {
+        height: 110%;
+        width: 120%;
+
+        img {
+          margin: 10px 0;
+          transform: scale(0.7);
+        }
+
+        .benefits-description {
+          padding: 0 10px;
+          height: 105px;
+
+          &--short {
+            height: 60px;
+          }
+        }
+      }
     }
   }
 
@@ -437,18 +482,6 @@
 
   .l-career-header {
     padding: 0 135px;
-  }
-
-  .benefits-box:hover {
-
-    .benefits-description--short {
-      height: 50px;
-    }
-
-    img {
-      margin: 10px 0;
-      transform: scale(0.7);
-    }
   }
 }
 
