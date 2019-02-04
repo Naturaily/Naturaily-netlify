@@ -44,12 +44,12 @@ layout: default
         <a class="post-soc-shr" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
           <img src="/assets/images/twitter-icon.png" alt="Twitter">
         </a>
-        <a class="post-soc-shr" href="https://www.facebook.com/v2.9/dialog/share?app_id=2543647138995685&href={{site.url}}{{page.url}}&display=page&redirect_uri=https%3A%2F%2Fmedium.com%2Fm%2Ffacebook%2Fclose" target="_blank" rel="nofollow">
+        <a class="post-soc-shr" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
           <img src="/assets/images/facebook-icon.png" alt="Facebook">
         </a>
       </div>
       {{ content }}
-      <!-- https://www.facebook.com/v2.9/dialog/share?app_id=2543647138995685&href=https%3A%2F%2Flink.medium.com%2FCGBghr47LT&display=page&redirect_uri=https%3A%2F%2Fmedium.com%2Fm%2Ffacebook%2Fclose -->
+
       {% include disqus_comments.html %}
     </div>
 §
