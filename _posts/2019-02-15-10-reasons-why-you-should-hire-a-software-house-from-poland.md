@@ -40,7 +40,7 @@ By partnering with a full-service software development company, you are essentia
 
 ![](/assets/images/software-houses-warsaw.jpeg)
 
-## Why a software house from poland:
+## Why a software house from Poland:
 
 6. ### Some of the best coders in the world are Polish
    Eastern Europe provides five of the top 20 countries listed in [AT Kearney’s 2018 Global Services Location Index](https://www.atkearney.com/strategic-it/global-services-location-index){:rel=nofollow} and it’s becoming one of the most attractive regions for companies that want to hire an outside software house. Poland, that ranks 10th in the Global Services Location Index and also in [Tholons Top Outsourcing Destinations for 2016](http://www.tholons.com/Tholonstop100/Tholons_Top_100_2016_Executive_Summary_and_Rankings.pdf){:rel=nofollow}, is becoming the obvious choice when it comes to finding a software house. The facts speak for themselves – Polish developers receive high notes in foreign contests related to programming, such as [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766){:rel=nofollow}, [Microsoft Imagine Cup](https://imaginecup.microsoft.com/en-us/winners/2018WorldFinalists){:rel=nofollow}, [Central Europe Regional Contest](http://cerc.hsin.hr/index.php?page=results){:rel=nofollow} or [ACM International Collegiate Programming Contest](https://icpc.baylor.edu/worldfinals/results){:rel=nofollow}. They are currently ranked 4th in the world in the [Top Coder ranking](https://community.topcoder.com/stat?c=country_avg_rating){:rel=nofollow}, and 3rd at Hackerrank.
