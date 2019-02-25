@@ -87,7 +87,6 @@ competences:
   - tech-link: 'https://naturaily.com/services/vue-js-development'
     tech-name: Vue
   - tech-name: React
-  - tech-name: Ember
 competences-text: Ruby on Rails
 ---
 
