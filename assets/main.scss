@@ -7,6 +7,7 @@
 @import "main-page";
 @import "minima";
 @import "base";
+@import "checkbox";
 @import "header";
 @import "home-header";
 @import "footer";
@@ -31,3 +32,7 @@
 @import "tooltip";
 @import "cookies";
 @import "eu-bar";
+
+@import "estimate/banner";
+@import "estimate/steps";
+@import "estimate/form";

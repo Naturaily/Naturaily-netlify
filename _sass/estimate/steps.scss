@@ -1,0 +1,95 @@
+.estimate_steps {
+  display: flex;
+  flex-direction: column;
+  &-header {
+    width: 704px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-right: auto;
+    padding: 120px 0px 90px 60px;
+
+    &-icon {
+      color: $color-secondary;
+      padding: 55px;
+      border-radius: 50%;
+      background-color: #FFF7F1;
+    }
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-step {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-option {
+    position: relative;
+    width: calc(25% - 30px);
+    box-sizing: border-box;
+    padding: 30px 20px;
+
+    .checkbox-label {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      border: 2px solid rgba(228, 191, 191, 0.2);
+      border-radius: 10px;
+      left: 0;
+      top: 0;
+      transition: all .4s ease;
+    }
+
+    .checkbox:checked + .checkbox-label {
+      background-color: #ffffff;
+      box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+      border-color: transparent;
+    }
+
+    .checkbox label::before {
+
+    }
+
+    &:hover {
+      cursor: pointer;
+      .checkbox-label {
+        background-color: #ffffff;
+        box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+        border-color: transparent;
+      }
+    }
+  }
+
+  &-step-header {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .step-want {
+    span[class^="icon-"], span[class*=" icon-"] {
+      color: $color-secondary;
+    }
+  }
+
+  .step-need {
+    span[class^="icon-"], span[class*=" icon-"] {
+      color: $color-accent-purple;
+    }
+  }
+
+  .step-consider {
+    span[class^="icon-"], span[class*=" icon-"] {
+      color: $color-accent-yellow;
+    }
+  }
+
+}

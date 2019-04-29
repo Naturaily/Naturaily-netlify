@@ -1,0 +1,45 @@
+.checkbox {
+  position: relative;
+  display: none;
+
+  & + .checkbox-label {
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(228, 191, 191, 0.2);
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: "";
+      display: none;
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+  }
+  &:checked {
+    & + .checkbox-label {
+
+      &::before {
+        border-color: #ED6A4F;
+      }
+
+      &::after {
+        display: block;
+        position: absolute;
+        background-color: #ED6A4F;
+      }
+    }
+  }
+}
