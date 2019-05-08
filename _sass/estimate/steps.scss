@@ -2,12 +2,15 @@
   display: flex;
   flex-direction: column;
   &-header {
-    width: 704px;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
     margin-right: auto;
     padding: 120px 0px 90px 30px;
+    background-image: url("../assets/images/dot.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right 40px;
 
     &-icon {
       color: $color-secondary;
@@ -62,7 +65,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-width: 1320px;
+    width: 100%;
     align-self: center;
   }
 
