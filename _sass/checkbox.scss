@@ -3,14 +3,17 @@
   display: none;
 
   & + .checkbox-label {
-    display: inline-block;
-    position: relative;
-    width: 16px;
-    height: 16px;
+    // display: inline-block;
+    // position: relative;
+    // width: 16px;
+    // height: 16px;
 
     &::before {
       content: "";
       display: block;
+      position: absolute;
+      top: 30px;
+      left: 20px;
       width: 16px;
       height: 16px;
       border: 2px solid rgba(228, 191, 191, 0.2);
@@ -21,8 +24,8 @@
       content: "";
       display: none;
       position: absolute;
-      left: 5px;
-      top: 5px;
+      top: 35px;
+      left: 25px;
       width: 10px;
       height: 10px;
       border-radius: 50%;

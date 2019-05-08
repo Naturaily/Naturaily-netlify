@@ -1,0 +1,170 @@
+.estimate_form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 1320px;
+  align-self: center;
+  padding-top: 140px;
+
+  &-right {
+    flex: 1 1;
+    padding-left: 115px;
+  }
+
+  &-left {
+    width: 200px;
+    font-size: 14px;
+  }
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.estimate_form .form-all {
+  display: flex;
+  padding-bottom: 130px;
+
+  .form-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .inputs-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-right: 40px;
+  }
+
+  .form-required {
+    display: none;
+  }
+
+  .form-line {
+    position: relative;
+
+    &-textarea {
+      padding-right: 115px;
+    }
+
+    &-radio {
+      display: flex;
+      width: 100%;
+      padding-top: 50px;
+      color: $color-global-font;
+      font-weight: 600;
+      font-size: 14px;
+
+      .form-label-left {
+        padding-right: 40px;
+      }
+    }
+
+    &-text {
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  .form-html {
+    font-size: 12px;
+    opacity: 0.5;
+  }
+
+  .form-error-message {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    right: 0;
+    float: left;
+    background-color: $color-primary;
+    border-radius: 0;
+    padding: 4px;
+    font-size: 10px;
+    color: $color-white;
+
+    img {
+      display: none;
+    }
+  }
+
+  .form-radio-item {
+    display: flex;
+    width: 70px;
+    height: 20px;
+    position: relative;
+  }
+
+  .checkbox-label {
+    padding-left: 30px;
+    color: rgba(59, 34, 15, .5);
+    &::before {
+      top: 0;
+      left: 0;
+    }
+
+    &::after {
+      top: 5px;
+      left: 5px;
+    }
+  }
+
+  .checkbox:checked + .checkbox-label {
+    color: $color-global-font;
+  }
+
+  .form-input {
+    display: flex;
+  }
+
+  textarea {
+  	height: 174px;
+  	width: 518px;
+  	border-radius: 4px;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+  	color: $color-global-font;
+  	font-family: "Acumin Pro";
+  	font-size: 14px;
+  	line-height: 24px;
+    border: none;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    resize: vertical;
+
+    &:hover, &:focus {
+      border-color: $color-accent-yellow;
+    }
+  }
+
+  input {
+  	height: 40px;
+  	width: 100%;
+  	box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+    border-radius: 4px;
+  	color: $color-global-font;
+  	font-family: "Acumin Pro";
+  	font-size: 14px;
+  	line-height: 24px;
+    border: none;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    margin-bottom: 20px;
+
+    &:hover, &:focus {
+      border-color: $color-accent-yellow;
+    }
+  }
+
+  .always-hidden {
+    display: none !important;
+  }
+}

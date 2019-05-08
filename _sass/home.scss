@@ -48,6 +48,10 @@
 .l-full-page {
   min-width: 0;
   grid-column: left-sidebar / right-sidebar;
+
+  &--estimate {
+    max-width: 1380px;
+  }
 }
 
 .main-wave-1 {

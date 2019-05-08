@@ -7,62 +7,104 @@
     flex-direction: row;
     box-sizing: border-box;
     margin-right: auto;
-    padding: 120px 0px 90px 60px;
+    padding: 120px 0px 90px 30px;
 
     &-icon {
       color: $color-secondary;
-      padding: 55px;
+      padding: 46px;
       border-radius: 50%;
-      background-color: #FFF7F1;
+      background-color: $color-code-bg;
+    }
+    .icon-book {
+      font-size: 80px;
     }
   }
 
   &-text {
     display: flex;
     flex-direction: column;
+    padding-left: 95px;
+
+    h2 {
+      font-size: 36px;
+      font-weight: 200;
+      line-height: 50px;
+    }
+
+    strong {
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 5px;
+    }
+
+    a {
+    	color: $color-secondary;
+    	font-size: 11px;
+    	font-weight: 500;
+    	letter-spacing: 1.39px;
+      text-transform: uppercase;
+      margin-left: 9px;
+    }
+
+    small {
+    	opacity: 0.5;
+    	font-size: 14px;
+    	font-weight: 500;
+      display: flex;
+      margin-top: auto;
+    }
   }
 
   &-step {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 1320px;
+    align-self: center;
   }
 
   &-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     position: relative;
     width: calc(25% - 30px);
+    min-height: 150px;
     box-sizing: border-box;
-    padding: 30px 20px;
+    padding: 30px 20px 26px;
+    border: 2px solid rgba(228, 191, 191, 0.2);
+    border-radius: 10px;
+    transition: all .4s ease;
+    font-size: 14px;
+    color: rgba(59, 34, 15, .7);
 
-    .checkbox-label {
+    small {
       position: absolute;
-      z-index: -1;
-      width: 100%;
-      height: 100%;
-      border: 2px solid rgba(228, 191, 191, 0.2);
-      border-radius: 10px;
-      left: 0;
-      top: 0;
-      transition: all .4s ease;
+      bottom: 26px;
+      right: 20px;
+      color: rgba(255, 94, 69, .2);
     }
 
-    .checkbox:checked + .checkbox-label {
-      background-color: #ffffff;
-      box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
-      border-color: transparent;
-    }
-
-    .checkbox label::before {
-
+    span[class^="icon-"], span[class*=" icon-"] {
+      font-size: 55px;
+      align-self: center;
+      margin-right: 40px;
     }
 
     &:hover {
       cursor: pointer;
-      .checkbox-label {
-        background-color: #ffffff;
-        box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
-        border-color: transparent;
-      }
+      color: $color-global-font;
     }
+  }
+
+  .checkbox:checked + .checkbox-label {
+    background-color: #ffffff;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+    border-color: transparent;
+    color: $color-global-font;
   }
 
   &-step-header {
@@ -72,9 +114,12 @@
     padding-bottom: 25px;
     font-size: 14px;
     font-weight: 600;
+    width: 100%;
   }
 
   .step-want {
+    background-color: rgba(255, 247, 241, .5);
+    padding: 0 30px 30px;
     span[class^="icon-"], span[class*=" icon-"] {
       color: $color-secondary;
     }

@@ -1,11 +1,18 @@
-<div class="l-content estimate_form">
-  <div class="estimate_form-left">
-    <h2>
-      Leave some details
-    </h2>
-    <p> about yourself and your project</p>
-  </div>
-  <div class="estimate_form-right">
-    
+<div class="l-content">
+  <div class="estimate_form-wrapper">
+    <div class="estimate_form">
+      <div class="estimate_form-left">
+        <h2 class="banner-text">
+          Leave
+          <br>
+          some details
+        </h2>
+        <p> about yourself and your project</p>
+      </div>
+      <div class="estimate_form-right">
+        <!-- <script id="jotForm" type="text/javascript" src="https://form.jotformeu.com/jsform/91251977229364?estimateFields=puste"></script> -->
+        {% include estimate/jotform.html %}
+      </div>
+    </div>
   </div>
 </div>

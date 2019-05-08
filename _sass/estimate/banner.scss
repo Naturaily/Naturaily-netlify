@@ -22,11 +22,15 @@
     flex-direction: column;
     box-sizing: border-box;
     margin: auto;
-    padding: 80px 360px 65px 0px;
+    padding: 80px 340px 65px 20px;
 
     small {
       margin-top: auto;
       padding-bottom: 30px;
+    	opacity: 0.5;
+    	font-size: 14px;
+    	font-weight: 500;
+    	line-height: 24px;
     }
   }
 }
