@@ -18,8 +18,26 @@
       border-radius: 50%;
       background-color: $color-code-bg;
     }
+
     .icon-book {
       font-size: 80px;
+    }
+
+    @media (max-width: 991px) {
+      flex-direction: column;
+
+      .icon-book {
+        font-size: 46px;
+      }
+      
+      &-icon {
+        padding: 0;
+        width: 101px;
+        height: 101px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 
@@ -32,10 +50,6 @@
       font-size: 36px;
       font-weight: 200;
       line-height: 50px;
-    }
-
-    strong {
-      font-weight: 500;
     }
 
     p {
@@ -52,12 +66,16 @@
       margin-left: 9px;
     }
 
-    small {
+    &-desc {
     	opacity: 0.5;
     	font-size: 14px;
     	font-weight: 500;
       display: flex;
       margin-top: auto;
+    }
+
+    @media (max-width: 991px) {
+      padding: 0;
     }
   }
 
@@ -65,8 +83,12 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
+    width: 1320px;
     align-self: center;
+
+    @media (max-width: 1400px) {
+      width: 100%;
+    }
   }
 
   &-option {
@@ -100,6 +122,16 @@
     &:hover {
       cursor: pointer;
       color: $color-global-font;
+    }
+
+    @media (max-width: 991px) {
+      width: calc(50% - 15px);
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 575px) {
+      width: calc(100% - 15px);
+      margin-bottom: 15px;
     }
   }
 
