@@ -14,7 +14,11 @@
 
     &-icon {
       color: $color-secondary;
-      padding: 46px;
+      width: 173px;
+      height: 173px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
       border-radius: 50%;
       background-color: $color-code-bg;
     }
@@ -25,11 +29,12 @@
 
     @media (max-width: 991px) {
       flex-direction: column;
+      padding: 100px 0px 40px 30px;
 
       .icon-book {
         font-size: 46px;
       }
-      
+
       &-icon {
         padding: 0;
         width: 101px;
@@ -37,6 +42,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 20px;
       }
     }
   }
@@ -54,7 +60,7 @@
 
     p {
       font-size: 14px;
-      line-height: 5px;
+      line-height: 24px;
     }
 
     a {
@@ -70,12 +76,20 @@
     	opacity: 0.5;
     	font-size: 14px;
     	font-weight: 500;
-      display: flex;
+      display: inline-block;
       margin-top: auto;
     }
 
     @media (max-width: 991px) {
       padding: 0;
+
+      p {
+        margin: 10px 0px;
+      }
+
+      &-desc {
+
+      }
     }
   }
 
@@ -88,6 +102,7 @@
 
     @media (max-width: 1400px) {
       width: 100%;
+      padding-bottom: 15px;
     }
   }
 
@@ -145,11 +160,47 @@
   &-step-header {
     text-transform: uppercase;
     text-align: center;
+    position: relative;
     padding-top: 45px;
     padding-bottom: 25px;
     font-size: 14px;
     font-weight: 600;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    small {
+      height: 26px;
+      color: rgba(59, 34, 15, .5);
+      font-size: 11px;
+      line-height: 25px;
+      display: flex;
+      position: absolute;
+      right: 0;
+
+      &::before {
+        content: "";
+      	height: 4px;
+      	width: 4px;
+        border-radius: 50%;
+      	background-color: #FF5E45;
+        position: absolute;
+        left: -15px;
+        top: 11px;
+      }
+    }
+
+    @media (max-width: 991px) {
+    }
+
+    @media (max-width: 575px) {
+      padding-top: 0;
+      padding-bottom: 15px;
+      small {
+        right: 15px;
+      }
+    }
   }
 
   .step-want {
@@ -157,6 +208,14 @@
     padding: 0 30px 30px;
     span[class^="icon-"], span[class*=" icon-"] {
       color: $color-secondary;
+    }
+
+    @media (max-width: 991px) {
+      padding-bottom: 15px;
+    }
+
+    @media (max-width: 575px) {
+      background-color: transparent;
     }
   }
 

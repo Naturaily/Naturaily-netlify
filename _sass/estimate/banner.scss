@@ -3,7 +3,7 @@
     background-image: url("../assets/images/marcin.png"), url("../assets/images/estimate-top-left.svg"), url("../assets/images/estimate-top-right.svg"), linear-gradient(180deg, rgba(255, 252, 249, 0) 0%, rgba(255, 247, 241, 1) 100%);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: 85% 72px, left top, 110% 70px, 0 300px;
+    background-position: calc(100% - 120px) 72px, 0% top, calc(100% + 130px) 70px, 0 300px;
     height: 606px;
 
     p span {
@@ -32,5 +32,36 @@
     	font-weight: 500;
     	line-height: 24px;
     }
+  }
+
+  @media (max-width: 1400px) {
+    &_banner {
+      background-position: calc(100% - 10px) 72px, 0% top, calc(100% + 250px) 70px, 0 300px;
+      // height: 606px;
+    }
+
+    &_container {
+      padding-left: 90px;
+      padding-right: 270px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    &_banner {
+      background-position: calc(100% + 130px) 72px, 0% top, calc(100% + 350px) 70px, 0 300px;
+    }
+
+    &_container {
+      padding-left: 170px;
+      padding-right: 190px;
+    }
+  }
+
+  @media (max-width: 991px) {
+
+  }
+
+  @media (max-width: 575px) {
+
   }
 }
