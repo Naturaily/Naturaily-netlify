@@ -36,7 +36,7 @@
 
   @media (max-width: 1400px) {
     &_banner {
-      background-position: calc(100% - 10px) 72px, 0% top, calc(100% + 250px) 70px, 0 300px;
+      background-position: calc(100% - 10px) 72px, -50px top, calc(100% + 250px) 70px, 0 300px;
       // height: 606px;
     }
 
@@ -48,7 +48,7 @@
 
   @media (max-width: 1200px) {
     &_banner {
-      background-position: calc(100% + 130px) 72px, 0% top, calc(100% + 350px) 70px, 0 300px;
+      background-position: calc(100% + 130px) 72px, -100px top, calc(100% + 350px) 70px, 0 300px;
     }
 
     &_container {
@@ -58,10 +58,24 @@
   }
 
   @media (max-width: 991px) {
+    &_banner {
+      background-position: calc(100% + 130px) 72px, -300px top, calc(100% + 350px) 70px, 0 300px;
+    }
 
+    &_container {
+      padding-left: 25px;
+      padding-right: 435px;
+    }
   }
 
   @media (max-width: 575px) {
+    &_banner {
+      background-position: calc(100% + 70px) 100%, -450px top, calc(100% + 170px) 110%, 0 300px;
+      background-size: 330px, auto, 320px;
+    }
 
+    &_banner .banner-text {
+      margin-left: 0;
+    }
   }
 }
