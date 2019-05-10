@@ -91,6 +91,13 @@
 
       }
     }
+
+    @media (max-width: 991px) {
+
+      &-desc {
+        padding-right: 100px;
+      }
+    }
   }
 
   &-step {

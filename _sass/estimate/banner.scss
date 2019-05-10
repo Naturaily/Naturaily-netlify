@@ -63,6 +63,7 @@
     }
 
     &_container {
+      width: auto;
       padding-left: 25px;
       padding-right: 435px;
     }
@@ -70,12 +71,26 @@
 
   @media (max-width: 575px) {
     &_banner {
-      background-position: calc(100% + 70px) 100%, -450px top, calc(100% + 170px) 110%, 0 300px;
+      background-image: url("../assets/images/marcin.png"), url("../assets/images/red-dot.svg"), url("../assets/images/estimate-top-right.svg"), linear-gradient(180deg, rgba(255, 252, 249, 0) 0%, rgba(255, 247, 241, 1) 100%);
+      background-position: calc(100% + 70px) 100%, 85% 15%, calc(100% + 170px) 110%, 0 300px;
       background-size: 330px, auto, 320px;
     }
 
     &_banner .banner-text {
       margin-left: 0;
+      font-size: 42px;
+    }
+
+    &_container {
+      padding-right: 0;
+
+      p {
+        padding-right: 120px;
+      }
+
+      small {
+        padding-right: 150px;
+      }
     }
   }
 }
