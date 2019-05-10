@@ -98,6 +98,8 @@
   }
 
   @media (max-width: 991px) {
+    background-size: 70%;
+    
     &-container {
       padding-left: 20px;
 
@@ -113,8 +115,6 @@
   }
 
   @media (max-width: 575px) {
-
-    background-size: 70%;
 
     &-container {
       padding-right: 0;
