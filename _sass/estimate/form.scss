@@ -4,11 +4,12 @@
   flex-wrap: wrap;
   width: 1320px;
   align-self: center;
-  padding-top: 140px;
+  padding-top: 126px;
 
   &-right {
     flex: 1 1;
     padding-left: 115px;
+    padding-top: 14px;
     @media (max-width: 991px) {
       padding-left: 0;
     }
