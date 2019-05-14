@@ -50,6 +50,7 @@
   &-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-left: 95px;
 
     h2 {
@@ -72,12 +73,16 @@
       margin-left: 9px;
     }
 
+    strong {
+      font-weight: 400;
+    }
+
     &-desc {
     	opacity: 0.5;
     	font-size: 14px;
     	font-weight: 500;
       display: inline-block;
-      margin-top: auto;
+      margin-top: 0;
     }
 
     @media (max-width: 991px) {
@@ -185,6 +190,7 @@
       display: flex;
       position: absolute;
       right: 0;
+      text-transform: lowercase;
 
       &::before {
         content: "";

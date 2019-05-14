@@ -41,13 +41,15 @@
       width: 280px;
       padding-right: 20px;
       box-sizing: border-box;
+      display: flex;
+      align-items: center;
     }
 
     &:last-child {
       padding-top: 50px;
 
       img {
-        margin-left: 10px;
+        margin-left: 15px;
       }
     }
   }
@@ -77,12 +79,15 @@
   }
 
   small {
-    margin-top: auto;
     display: flex;
   	opacity: 0.5;
   	font-size: 14px;
   	font-weight: 500;
   	line-height: 24px;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 
   @media (max-width: 1400px) {
@@ -99,7 +104,7 @@
 
   @media (max-width: 991px) {
     background-size: 70%;
-    
+
     &-container {
       padding-left: 20px;
 
