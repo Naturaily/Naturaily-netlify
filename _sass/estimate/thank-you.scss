@@ -22,6 +22,7 @@
   &-socials {
     img {
       max-height: 15px;
+      max-width: 20px;
       margin: 0 20px;
       filter: grayscale(100%);
       opacity: .3;
@@ -29,6 +30,15 @@
       &:first-child {
         margin-left: 0;
       }
+
+      &:hover {
+        filter: grayscale(0);
+        opacity: 1;
+      }
+    }
+
+    a:hover {
+      text-decoration: none;
     }
   }
 
@@ -84,10 +94,6 @@
   	font-size: 14px;
   	font-weight: 500;
   	line-height: 24px;
-  }
-
-  a:hover {
-    text-decoration: none;
   }
 
   @media (max-width: 1400px) {
