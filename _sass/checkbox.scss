@@ -2,6 +2,12 @@
   position: relative;
   display: none;
 
+  &-label {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
   & + .checkbox-label {
     // display: inline-block;
     // position: relative;
