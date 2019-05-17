@@ -50,6 +50,9 @@
     }
   }
 
+  .menu-estimate {
+    display: none;
+  }
 }
 
 @media (min-width: 811px) {
@@ -302,6 +305,13 @@
             width: 100%;
             background: #ffc273;
             z-index: -1;
+          }
+
+          &-estimate {
+            display: flex;
+            margin-top: 100%;
+            justify-content: center;
+            bottom: 60px;
           }
         }
 
