@@ -46,7 +46,7 @@
         z-index: -1;
 
         img {
-          filter: blur(.9px);
+          filter: blur(.9px) saturate(80%);
         }
       }
     }
