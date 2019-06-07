@@ -143,26 +143,34 @@
 
 
   li {
-    display: inline;
+    display: flex;
     border-radius: 4px;
-    padding: 5px 0;
+    padding: 9px 12px;
     font-weight: 300;
     margin: 0 5px;
+    transition: background-color .2s ease;
 
     a {
       color: $color-global-font;
-      padding: 5px 12px;
-      margin-right: -4px;
+      transition: color .2s ease;
+      line-height: 22px;
+
       &:hover {
         text-decoration: none;
       }
     }
+
+    &.next a, &.previous a {
+      line-height: 18px;
+    }
+
     &:hover {
       background-color: $color-text-muted;
       a {
         color: $color-white;
       }
     }
+
     &.selected {
       background-color: $color-accent-yellow;
       a {

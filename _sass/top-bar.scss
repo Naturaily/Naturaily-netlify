@@ -7,7 +7,7 @@
   position: relative;
   z-index: 3;
   top: 56px;
-  transition: top .4s ease;
+  transition: top .2s ease;
 
   .scrolled & {
     top: 0;
@@ -59,7 +59,7 @@
         margin: 0 10px;
         filter: grayscale(100%);
         opacity: 0.3;
-        transition: filter .4s ease, opacity .4s ease;
+        transition: filter .2s ease, opacity .2s ease;
 
         &:hover {
           filter: grayscale(0);

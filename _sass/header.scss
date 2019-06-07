@@ -22,6 +22,7 @@
       a {
         color: $color-global-font;
         text-decoration: none;
+        transition: color .2s ease;
       }
 
       &.active {

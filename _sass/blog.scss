@@ -261,6 +261,7 @@ pre, code {
     margin: 0 15px;
     filter: grayscale(100%);
     opacity: 0.3;
+    transition: filter .2s ease, opacity .2s ease;
 
     &:hover {
       filter: grayscale(0);
