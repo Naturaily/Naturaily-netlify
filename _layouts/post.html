@@ -37,13 +37,13 @@ layout: default
       <div class="post-soc">
         <div class="tooltip post-soc-copy" onmouseout="mouseOutFn()">
           <input type="text" value="{{site.url}}{{page.url}}" id="copyUrl" class="custom-input" readonly>
-          <button onclick="copyToClipboard()" class="btn btn-copy"></button>
-          <span class="tooltip-text" id="copyTooltip">Copy to clipboard</span>
+          <button onclick="copyToClipboard()" class="btn btn-copy" data-share="copy"></button>
+          <span class="tooltip-text" id="copyTooltip" data-post-shared="{{page.title}}">Copy to clipboard</span>
         </div>
-        <a class="post-soc-shr" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
+        <a class="post-soc-shr" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow" data-share="twitter" data-post-shared="{{page.title}}">
           <img src="/assets/images/twitter-icon.png" alt="Twitter">
         </a>
-        <a class="post-soc-shr" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
+        <a class="post-soc-shr" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow" data-share="facebook" data-post-shared="{{page.title}}">
           <img src="/assets/images/facebook-icon.png" alt="Facebook">
         </a>
       </div>
