@@ -1,24 +1,25 @@
-- Wojciech Miśta
-- Tomasz Żdanuk
-- Agata Zięba
-- Błażej Pichur
-- Sebastian Kubiak
-- Marcin Sulikowski
-- Mikołaj Grygiel
-- Jan Wieczorkowski
-- Patryk Szeliga
-- Kamil Buczel
-- Marcin Mantke
-- Jacek Hiszpański
-- Agnieszka Bugajska
-- Sebastian Brych
-- Przemysław Świercz
-- Maciej Kucharski
-- Mateusz Barczak
-- Arek Poczobut
-- Bartek Zienkiewicz
-- Piotrek Musielak
-- Paweł Cybulski
-- Epifany Bojanowska
-- Klaudia Chudy
-- Beata Twardowska
+team:
+  - name: Wojciech Miśta
+  - name: Tomasz Żdanuk
+  - name: Agata Zięba
+  - name: Błażej Pichur
+  - name: Sebastian Kubiak
+  - name: Marcin Sulikowski
+  - name: Mikołaj Grygiel
+  - name: Jan Wieczorkowski
+  - name: Patryk Szeliga
+  - name: Kamil Buczel
+  - name: Marcin Mantke
+  - name: Jacek Hiszpański
+  - name: Agnieszka Bugajska
+  - name: Sebastian Brych
+  - name: Przemysław Świercz
+  - name: Maciej Kucharski
+  - name: Mateusz Barczak
+  - name: Arek Poczobut
+  - name: Bartek Zienkiewicz
+  - name: Piotrek Musielak
+  - name: Paweł Cybulski
+  - name: Epifany Bojanowska
+  - name: Klaudia Chudy
+  - name: Beata Twardowska

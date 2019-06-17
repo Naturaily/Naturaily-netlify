@@ -23,9 +23,9 @@ module Jekyll
     def generate(site)
       if site.layouts.key? 'author'
         dir = site.config['blog']['authors']['url'] || 'blog/authors/'
-        site.data["authors"].each do |author|
-          author_name = author.gsub(/\s+/, '-')
-          site.pages << AuthorPage.new(site, site.source, File.join(dir, author_name), author)
+        site.data["authors"]["team"].each do |author|
+          author_name = author["name"].gsub(/\s+/, '-')
+          site.pages << AuthorPage.new(site, site.source, File.join(dir, author_name), author["name"])
         end
       end
     end

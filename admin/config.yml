@@ -8,19 +8,6 @@ media_folder: "assets/images"
 
 collections:
   -
-    name: "test"
-    label: "Test"
-    files:
-      - label: "Test autorz"
-        name: "autorz"
-        file: "_data/autorz.yml"
-        fields:
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-  -
     name: "post"
     label: "Posts"
     label_singular: "Post"
@@ -36,6 +23,12 @@ collections:
       - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0200", widget: "datetime"}
       - {label: "Category(with spaces)", name: "category", widget: "string"}
       - {label: "Author name(name and surname, with spaces)", name: "author", widget: "string"}
+      - label: "Author"
+        name: "author_new"
+        widget: "relation"
+        collection: "authors"
+        searchFields: ["team", "name"]
+        valueField: "name"
       - {label: "Author avatar(optimally 100x100px)", name: "avatar", widget: "image"}
       - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
@@ -44,6 +37,19 @@ collections:
         widget: "list"
         allow_add: true
       - {label: "Body", name: "body", widget: "markdown"}
+  -
+    name: "test"
+    label: "Test"
+    files:
+      - label: "Test autorz"
+        name: "authors"
+        file: "_data/authors.yml"
+        fields:
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
   -
     name: "career"
     label: "Job offers"
