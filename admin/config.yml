@@ -24,11 +24,11 @@ collections:
       - {label: "Category(with spaces)", name: "category", widget: "string"}
       - {label: "Author name(name and surname, with spaces)", name: "author", widget: "string"}
       - label: "Author"
-        name: "author_new"
+        name: "authors"
         widget: "relation"
-        collection: "authors"
-        searchFields: ["team", "name"]
-        valueField: "name"
+        collection: "test"
+        searchFields: ["team"]
+        valueField: "team"
       - {label: "Author avatar(optimally 100x100px)", name: "avatar", widget: "image"}
       - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
