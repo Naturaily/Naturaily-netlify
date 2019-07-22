@@ -134,7 +134,7 @@ _client/shared/layouts/main_layout.html_
     <div class="row">
       <div class="col-lg-2"></div>
       <div class="col-lg-8">
-        {{> yield}}
+        {% raw %}{{> yield}}{% endraw %}
       </div>
       <div class="col-lg-2"></div>
     </div>
@@ -329,7 +329,7 @@ _client/posts/templates/new_post.html_
 ```html
 <template name="newPost">
   <h1>Form for new Post</h1>
-  {{> quickForm collection="Posts" id="submitPostForm" type="method" meteormethod="submitPost"}}
+  {% raw %}{{> quickForm collection="Posts" id="submitPostForm" type="method" meteormethod="submitPost"}}{% endraw %}
 </template>
 ```
 
@@ -376,11 +376,11 @@ _client/posts/templates/posts_list.html_
 
 ```html
 <template name="postsList">
-  {{#each posts}}
+  {% raw %}{{#each posts}}
     <hr>
     {{> postItem}}
     <hr>
-  {{/each}}
+  {{/each}}{% endraw %}
 </template>
 ```
 
@@ -391,9 +391,9 @@ _client/posts/templates/post_item.html_
 ```html
 <template name="postItem">
   <h3>
-    {{#linkTo route='singlePost'}}
+    {% raw %}{{#linkTo route='singlePost'}}
       {{title}}
-    {{/linkTo}}
+    {{/linkTo}}{% endraw %}
   </h3>
 </template>
 ```
@@ -440,8 +440,8 @@ _client/posts/templates/post_page.html_
 ```html
 <template name="postPage">
   <h2>{{title}}</h2>
-  <p>{{body}}</p>
-  <p>by {{author}}</p>
+  <p>{% raw %}{{body}}{% endraw %}</p>
+  <p>by {% raw %}{{author}}{% endraw %}</p>
 </template>
 ```
 
@@ -456,20 +456,20 @@ _client/shared/layouts/main_layout.html_
   <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
-        {{#linkTo route='root' class='navbar-brand'}}
+        {% raw %}{{#linkTo route='root' class='navbar-brand'}}
           Tutorial blog
-        {{/linkTo}}
+        {{/linkTo}}{% endraw %}
       </div>
       <ul class="nav navbar-nav">
         <li>
-          {{#linkTo route='root'}}
+          {% raw %}{{#linkTo route='root'}}
             Home
-          {{/linkTo}}
+          {{/linkTo}}{% endraw %}
         </li>
         <li>
-          {{#linkTo route='newPost'}}
+          {% raw %}{{#linkTo route='newPost'}}
             Add new post
-          {{/linkTo}}
+          {{/linkTo}}{% endraw %}
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -481,7 +481,7 @@ _client/shared/layouts/main_layout.html_
     <div class="row">
       <div class="col-lg-2"></div>
       <div class="col-lg-8">
-        {{> yield}}
+        {% raw %}{{> yield}}{% endraw %}
       </div>
       <div class="col-lg-2"></div>
     </div>
@@ -531,7 +531,7 @@ _client/shared/not_found.html_
 ```html
 <template name="notFound">
   <h1>Page not found</h1>
-  <p>Go back to our {{#linkTo route='root'}}main page{{/linkTo}}</p>
+  <p>Go back to our {% raw %}{{#linkTo route='root'}}main page{{/linkTo}}{% endraw %}</p>
 </template>
 ```
 
@@ -638,24 +638,24 @@ _client/shared/layouts/main_layout.html_
   <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
-        {{#linkTo route='root' class='navbar-brand'}}
+        {% raw %}{{#linkTo route='root' class='navbar-brand'}}
           Tutorial blog
-        {{/linkTo}}
+        {{/linkTo}}{% endraw %}
       </div>
       <ul class="nav navbar-nav">
         <li>
-          {{#linkTo route='root'}}
+          {% raw %}{{#linkTo route='root'}}
             Home
-          {{/linkTo}}
+          {{/linkTo}}{% endraw %}
         </li>
         <li>
-          {{#linkTo route='newPost'}}
+          {% raw %}{{#linkTo route='newPost'}}
             Add new post
-          {{/linkTo}}
+          {{/linkTo}}{% endraw %}
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-       {{> loginButtons}}
+       {% raw %}{{> loginButtons}}{% endraw %}
       </ul>
     </div>
   </nav>
@@ -663,7 +663,7 @@ _client/shared/layouts/main_layout.html_
     <div class="row">
       <div class="col-lg-2"></div>
       <div class="col-lg-8">
-        {{> yield}}
+        {% raw %}{{> yield}}{% endraw %}
       </div>
       <div class="col-lg-2"></div>
     </div>
