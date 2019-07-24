@@ -46,7 +46,7 @@
   &-main {
     height: 480px;
     margin: 0 -100px;
-    background-image: url(/assets/images/background-phone.png);
+    background-image: asset_url('background-phone.png');
   }
 
   &-other {
@@ -57,12 +57,12 @@
     margin: 20px -100px 0;
 
     .videos-cooperation {
-      background-image: url(/assets/images/background-pipedrive.png);
+      background-image: asset_url('background-pipedrive.png');
     }
 
     .videos-technology {
       background-position-x: -40px;
-      background-image: url(/assets/images/background-technology.png);
+      background-image: asset_url('background-technology.png');
     }
   }
 }

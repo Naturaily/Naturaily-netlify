@@ -3,14 +3,14 @@
     <a href="{{page.slide-left-link}}">
       {% asset arrow-orange2.png alt="arrow" class="slide-arrow" %}
       <span>{{page.slide-left}}</span>
-      <img src="loader.gif" data-src="{{page.slide-left-logo}}" alt="project logo" class="project-logo" asset>
+      <img src="{% asset loader.gif @path %}" data-src="{{page.slide-left-logo}}" alt="project logo" class="project-logo" asset>
     </a>
   </div>
   <div class="slide-right">
     <a href="{{page.slide-right-link}}">
       <span>{{page.slide-right}}</span>
       {% asset arrow-orange.png alt="arrow" class="slide-arrow" %}
-      <img src="loader.gif" data-src="{{page.slide-right-logo}}" alt="project logo" class="project-logo" asset>
+      <img src="{% asset loader.gif @path %}" data-src="{{page.slide-right-logo}}" alt="project logo" class="project-logo" asset>
     </a>
   </div>
 </div>

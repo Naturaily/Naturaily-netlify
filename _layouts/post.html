@@ -6,11 +6,11 @@ layout: default
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
       {% if page.image %}
-        <img src="loader.gif" data-src="{{page.image}}" alt="Post image" asset>
+        <img src="{% asset loader.gif @path %}" data-src="{{page.image}}" alt="Post image" asset>
       {% endif %}
       <div class="post-meta">
         {% if page.avatar %}
-          <img src="loader.gif" data-src="{{ page.avatar }}" alt="Author avatar" class="avatar" asset>
+          <img src="{% asset loader.gif @path %}" data-src="{{ page.avatar }}" alt="Author avatar" class="avatar" asset>
         {% endif %}
         <p class="author">
           {% if page.author %}

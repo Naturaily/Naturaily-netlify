@@ -40,19 +40,19 @@ layout: services-layout
     </p>
     {%- unless page.tech-name-first == nil -%}
       <div class="web-tile resources-tile" data-reveal-resources=''>
-        <img src="loader.gif" data-src="{{page.tech-logo-first}}" alt="Tech logo" asset>
+        <img src="{% asset loader.gif @path %}" data-src="{{page.tech-logo-first}}" alt="Tech logo" asset>
         <span class="tile-text">{{page.tech-name-first}}</span>
       </div>
     {%- endunless -%}
     {%- unless page.tech-name-second == nil -%}
       <div class="mobile-tile resources-tile" data-reveal-resources=''>
-        <img src="loader.gif" data-src="{{page.tech-logo-second}}" alt="Tech logo" asset>
+        <img src="{% asset loader.gif @path %}" data-src="{{page.tech-logo-second}}" alt="Tech logo" asset>
         <span class="tile-text">{{page.tech-name-second}}</span>
       </div>
     {%- endunless -%}
     {%- unless page.tech-name-third == nil -%}
       <div class="ux-tile resources-tile" data-reveal-resources=''>
-        <img src="loader.gif" data-src="{{page.tech-logo-third}}" alt="Tech logo" asset>
+        <img src="{% asset loader.gif @path %}" data-src="{{page.tech-logo-third}}" alt="Tech logo" asset>
         <span class="tile-text">{{page.tech-name-third}}</span>
       </div>
     {%- endunless -%}
@@ -191,12 +191,12 @@ layout: services-layout
       {% for competence in page.competences %}
         {% if competence.competence.tech-link %}
           <a href="{{competence.competence.tech-link}}" class="item left" data-reveal-technology=''>
-            <img src="loader.gif" data-src="{{competence.competence.tech-image}}" alt="Tech logo" class="carousel-logo" asset>
+            <img src="{% asset loader.gif @path %}" data-src="{{competence.competence.tech-image}}" alt="Tech logo" class="carousel-logo" asset>
             {{competence.competence.tech-name}}
           </a>
         {% else %}
           <div class="item left" data-reveal-technology=''>
-            <img src="loader.gif" data-src="{{competence.competence.tech-image}}" alt="Tech logo" class="carousel-logo" asset>
+            <img src="{% asset loader.gif @path %}" data-src="{{competence.competence.tech-image}}" alt="Tech logo" class="carousel-logo" asset>
             {{competence.competence.tech-name}}
           </div>
         {% endif %}

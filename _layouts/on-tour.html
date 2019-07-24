@@ -12,7 +12,7 @@ layout: on-tour-head
   <span class="tour-circle red"></span>
   <span class="tour-circle orange"></span>
   <span class="tour-circle blue"></span>
-  <img src="loader.gif" data-src='{% asset on-tour-circles.svg %} alt="circles" asset>
+  <img src="{% asset loader.gif @path %}" data-src='{% asset on-tour-circles.svg @path %}' alt="circles" asset>
 </div>
 
 <div class="l-content">
@@ -39,7 +39,7 @@ layout: on-tour-head
     <span class="tour-circle red"></span>
     <span class="tour-circle orange"></span>
     <span class="tour-circle blue"></span>
-    <img src="loader.gif" data-src='{% asset on-tour-circles.svg %} alt="circles" asset>
+    <img src="{% asset loader.gif @path %}" data-src='{% asset on-tour-circles.svg @path %}' alt="circles" asset>
   </div>
 </div>
 
@@ -52,7 +52,7 @@ layout: on-tour-head
 </div>
 
 <div data-right class="tour-map">
-  <img src="loader.gif" data-src='{% asset on-tour-map.png @path %}' alt="map" asset>
+  <img src="{% asset loader.gif @path %}" data-src='{% asset on-tour-map.png @path @path %}' alt="map" asset>
 </div>
 
 <div class="l-content">

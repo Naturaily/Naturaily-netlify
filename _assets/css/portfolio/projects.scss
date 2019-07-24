@@ -11,7 +11,7 @@
     background-size: cover;
 
     &-collectivity {
-      background-image: url(../assets/images/projects-background-green.png);
+      background-image: asset_url('projects-background-green.png');
 
       a {
         margin-top: 10px;
@@ -19,11 +19,11 @@
     }
 
     &-zapnito {
-      background-image: url(../assets/images/projects-background-blue.png);
+      background-image: asset_url('projects-background-blue.png');
     }
 
     &-snipsl {
-      background-image: url(../assets/images/projects-background-red.png);
+      background-image: asset_url('projects-background-red.png');
     }
 
     &-text {
@@ -42,7 +42,7 @@
 
   .project-banner {
     grid-column: 1;
-    background-image: url(../assets/images/projects-background-purple.png);
+    background-image: asset_url('projects-background-purple.png');
     padding: 40px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;

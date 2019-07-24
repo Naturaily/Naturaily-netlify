@@ -11,7 +11,7 @@
           </p>
           <a class="btn btn-secondary banner-link" href="{{project.project.link}}">See more</a>
         </div>
-        <img src="loader.gif" data-src="{{project.project.bg}}" alt="project background" class="project-image-lvcloud" asset>
+        <img src="{% asset loader.gif @path %}" data-src="{{project.project.bg}}" alt="project background" class="project-image-lvcloud" asset>
       </div>
     {% endfor %}
   </div>

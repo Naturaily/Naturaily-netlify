@@ -8,7 +8,7 @@
       {%- unless page.url == post.url -%}
         <div class="list-group-item">
           <a href="{{ post.url }}">
-            <img src="loader.gif" data-src="{{ post.image }}" alt="{{ post.title }}" asset>
+            <img src="{% asset loader.gif @path %}" data-src="{{ post.image }}" alt="{{ post.title }}" asset>
             {{ post.title }}
           </a>
         </div>

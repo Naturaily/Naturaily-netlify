@@ -4,7 +4,7 @@
   height: 100px;
   padding-top: 40%;
   grid-area: header;
-  background-image: url('../assets/images/blog-wave.png');
+  background-image: asset_url('blog-wave.png');
   background-position: 50% 0;
   background-size: 133%;
   background-repeat: no-repeat;
@@ -179,7 +179,7 @@
   font-size: 1.5rem;
   font-weight: 200;
   padding: 150px 0;
-  background-image: url(/assets/images/form-wave.png);
+  background-image: asset_url('form-wave.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 800px 650px;

@@ -63,7 +63,7 @@
   &-main {
     grid-column: 1 / 13;
     grid-row: 2 / 3;
-    background-image: url('../assets/images/projects-background-purple.png');
+    background-image: asset_url('projects-background-purple.png');
     grid-template-columns: 30px 1fr 30px;
     grid-template-rows: 20px 1fr 75px;
 
@@ -92,7 +92,7 @@
   &-second {
     grid-column: 1 / 13;
     grid-row: 3 / 4;
-    background-image: url('../assets/images/projects-background-blue.png');
+    background-image: asset_url('projects-background-blue.png');
     grid-template-columns: 30px 1fr 30px;
     grid-template-rows: 40px 1fr 30px 20px;
     .project-text {
@@ -104,7 +104,7 @@
   &-third {
     grid-column: 1 / 13;
     grid-row: 4 / 5;
-    background-image: url('../assets/images/projects-background-green.png');
+    background-image: asset_url('projects-background-green.png');
     grid-template-columns: 30px 1fr 30px;
     grid-template-rows: 40px 1fr 30px 20px;
     .project-text {

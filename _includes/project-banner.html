@@ -1,9 +1,9 @@
 <div class="deal-banner" style="background-image: url({{page.banner-bg}})">
   <div class="deal-image">
-    <img src="loader.gif" data-src="{{ page.project-screenshot }}" alt="Project screenshot" asset>
+    <img src="{% asset loader.gif @path %}" data-src="{{ page.project-screenshot }}" alt="Project screenshot" asset>
   </div>
   <div class="deal-text">
-    <img src="loader.gif" data-src="{{page.project-logo}}" alt="{{page.title}}" class="banner-logo {{ page.project-logo-class }}" asset>
+    <img src="{% asset loader.gif @path %}" data-src="{{page.project-logo}}" alt="{{page.title}}" class="banner-logo {{ page.project-logo-class }}" asset>
     <h1>
       {{page.banner-text}}
     </h1>
