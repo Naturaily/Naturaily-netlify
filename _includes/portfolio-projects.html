@@ -1,7 +1,7 @@
 <div class="portfolio-projects">
   <div class="project project-banner">
     <div class="project-image">
-      <img class="project-image-lvcloud" src="/assets/images/loader.gif" data-src="/assets/images/LVCloud.png" alt="lvcloud">
+      <img src="loader.gif" data-src='{% asset lvcloud.png @path %}' alt="lvcloud" class="project-image-lvcloud" asset>
     </div>
     <div class="project-text">
       <h2>
@@ -15,29 +15,29 @@
   </div>
   <a href="/project/artinfo" class="project project-snipsl">
     <div class="project-image">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/artinfo-laptop.png" alt="Artinfo">
+      <img src="loader.gif" data-src='{% asset artinfo-laptop.png @path %}' alt="Artinfo" asset>
     </div>
     <div class="project-text">
       Artinfo
-      <img src="/assets/images/btn-arrow.png" alt="arrow">
+      {% asset btn-arrow.png alt="arrow" %}
     </div>
   </a>
   <a href="/project/thecollectivity" class="project project-collectivity">
     <div class="project-image">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/collectivity.png" alt="collectivity">
+      <img src="loader.gif" data-src='{% asset collectivity.png @path %}' alt="collectivity" asset>
     </div>
     <div class="project-text">
       The Collectivity
-      <img src="/assets/images/btn-arrow.png" alt="arrow">
+      {% asset btn-arrow.png alt="arrow" %}
     </div>
   </a>
   <a href="/project/snipsl" class="project project-zapnito">
     <div class="project-image">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/snipsl.png" alt="snipsl">
+      <img src="loader.gif" data-src='{% asset snipsl.png @path %}' alt="snipsl" asset>
     </div>
     <div class="project-text">
       Snipsl
-      <img src="/assets/images/btn-arrow.png" alt="arrow">
+      {% asset btn-arrow.png alt="arrow" %}
     </div>
   </a>
 </div>

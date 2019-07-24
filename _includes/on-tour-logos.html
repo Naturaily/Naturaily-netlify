@@ -4,12 +4,12 @@
       Live shows at
     </span>
     <div class="logotypes-box">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/sxsw.png" alt="sxsw">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/internet_of_things.png" alt="internet_of_things">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/japan_it_week.png" alt="japan_it_week">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/web_summit.png" alt="web_summit">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/slush.png" alt="slush">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/dld.png" alt="dld">
+      <img src="loader.gif" data-src='{% asset sxsw.png @path %}' alt="sxsw" asset>
+      <img src="loader.gif" data-src='{% asset internet_of_things.png @path %}' alt="internet_of_things" asset>
+      <img src="loader.gif" data-src='{% asset japan_it_week.png @path %}' alt="japan_it_week" asset>
+      <img src="loader.gif" data-src='{% asset web_summit.png @path %}' alt="web_summit" asset>
+      <img src="loader.gif" data-src='{% asset slush.png @path %}' alt="slush" asset>
+      <img src="loader.gif" data-src='{% asset dld.png @path %}' alt="dld" asset>
     </div>
   </div>
   <div data-right class="logos-dates">
@@ -24,7 +24,7 @@
     <span class="tour-circle blue"></span>
     <a href="#dates" class="logos-dates-button btn btn-primary btn-arrow">
       our tour dates
-      <img src="/assets/images/btn-arrow.png" alt="arrow">
+      {% asset btn-arrow.png alt="arrow" %}
     </a>
   </div>
 </div>

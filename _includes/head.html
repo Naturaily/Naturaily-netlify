@@ -21,21 +21,22 @@
 
   <meta name="ahrefs-site-verification" content="3f8b258d3d14e1c5d540e03c2f03737d02ba06d8b501fe9fc25dd37667b0fd03">
 
+  {% asset jquery-3.2.1.min.js %}
+  {% asset slick.min.js %}
+  {% asset sticky-kit.js %}
+  {% asset jquery.smooth-scroll.js %}
+  {% asset js-cookie.js %}
+  {% asset clutch-widget.js %}
+  {% asset scrollreveal.js %}
 
   {% if page.url == "/on-tour" %}
-    <link rel="stylesheet" href="{{ "/assets/on-tour.css" | relative_url }}">
+    {% asset main-on-tour.scss %}
   {% else %}
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {% asset main.scss %}
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
-
-  <script src="/assets/js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="/assets/js/slick.min.js"></script>
-  <script src="/assets/js/sticky-kit.js"></script>
-  <script src="/assets/js/jquery.smooth-scroll.js"></script>
-  <script src="/assets/js/js-cookie.js"></script>
+  <link rel="icon" href="/assets/images/favicon.png @path %}' type="image/x-icon" />
 
   <script src="https://use.typekit.net/cah0hop.js"></script>
   <script>try{Typekit.load({ async: false });}catch(e){}</script>

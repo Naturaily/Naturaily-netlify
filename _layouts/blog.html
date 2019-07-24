@@ -9,12 +9,12 @@ layout: default
     <div class="post-preview">
       <a class="post-link" href="{{ post.url | relative_url }}">
         {% if post.image %}
-        <img class="post-image" src="/assets/images/loader.gif" data-src="{{post.image}}" alt="post image">
+        <img src="loader.gif" data-src="{{post.image}}" alt="post image" class="post-image" asset>
         {% endif %}
       </a>
       <div class="post-meta">
         {% if post.avatar %}
-          <img class="avatar" src="/assets/images/loader.gif" data-src="{{ post.avatar }}" alt="author avatar">
+          <img src="loader.gif" data-src="{{ post.avatar }}" alt="author avatar" class="avatar" asset>
         {% endif %}
         <p class="author">
           {% if post.author %}

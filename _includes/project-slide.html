@@ -1,16 +1,16 @@
 <div class="portfolio-slide">
   <div class="slide-left">
     <a href="{{page.slide-left-link}}">
-      <img class="slide-arrow" src="/assets/images/arrow-orange2.png" alt="arrow">
+      {% asset arrow-orange2.png alt="arrow" class="slide-arrow" %}
       <span>{{page.slide-left}}</span>
-      <img class="project-logo" src="/assets/images/loader.gif" data-src="{{page.slide-left-logo}}" alt="project logo">
+      <img src="loader.gif" data-src="{{page.slide-left-logo}}" alt="project logo" class="project-logo" asset>
     </a>
   </div>
   <div class="slide-right">
     <a href="{{page.slide-right-link}}">
       <span>{{page.slide-right}}</span>
-      <img class="slide-arrow" src="/assets/images/arrow-orange.png" alt="arrow">
-      <img class="project-logo" src="/assets/images/loader.gif" data-src="{{page.slide-right-logo}}" alt="project logo">
+      {% asset arrow-orange.png alt="arrow" class="slide-arrow" %}
+      <img src="loader.gif" data-src="{{page.slide-right-logo}}" alt="project logo" class="project-logo" asset>
     </a>
   </div>
 </div>

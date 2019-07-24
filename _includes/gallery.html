@@ -1,23 +1,23 @@
 <div class="gallery">
   <div id="galleryFirst">
-    <img class="small-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-8.jpg" style="float: right;" alt="home-gallery-8">
-    <img class="medium-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-9.jpg" style="margin-top: 30px;" alt="home-gallery-9">
-    <img class="small-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-6.jpg" style="margin-top: 30px;" alt="home-gallery-7">
+    <img src="loader.gif" data-src='{% asset home-gallery-8.jpg @path %}' style="float: right;" alt="home-gallery-8" class="small-img" asset>
+    <img src="loader.gif" data-src='{% asset home-gallery-9.jpg @path %}' style="margin-top: 30px;" alt="home-gallery-9" class="medium-img" asset>
+    <img src="loader.gif" data-src='{% asset home-gallery-6.jpg @path %}' style="margin-top: 30px;" alt="home-gallery-7" class="small-img" asset>
   </div>
   <div id="gallerySecond">
-    <img class="large-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-10.jpg" style="margin-top: 100px;" alt="home-gallery-10">
+    <img src="loader.gif" data-src='{% asset home-gallery-10.jpg @path %}' style="margin-top: 100px;" alt="home-gallery-10" class="large-img" asset>
   </div>
   <div id="galleryThird">
-    <img class="medium-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-2.jpg" style="margin-top: 30px;" alt="home-gallery-2">
-    <img class="small-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-4.jpg" style="margin-top: 30px;" alt="home-gallery-6">
+    <img src="loader.gif" data-src='{% asset home-gallery-2.jpg @path %}' style="margin-top: 30px;" alt="home-gallery-2" class="medium-img" asset>
+    <img src="loader.gif" data-src='{% asset home-gallery-4.jpg @path %}' style="margin-top: 30px;" alt="home-gallery-6" class="small-img" asset>
   </div>
   <div id="galleryFourth">
-    <img class="small-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-5.jpg" style="float: right;" alt="home-gallery-4">
-    <img class="medium-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-3.jpg" style="margin-top: 30px;" alt="home-gallery-3">
+    <img src="loader.gif" data-src='{% asset home-gallery-5.jpg @path %}' style="float: right;" alt="home-gallery-4" class="small-img" asset>
+    <img src="loader.gif" data-src='{% asset home-gallery-3.jpg @path %}' style="margin-top: 30px;" alt="home-gallery-3" class="medium-img" asset>
   </div>
   <div id="galleryFifth">
-    <img class="large-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-1.jpg" style="margin-top: 30px;" alt="home-gallery-1">
-    <img class="small-img" src="/assets/images/loader.gif" data-src="/assets/images/home-gallery-7.jpg" style="margin-top: 30px; float: right;" alt="home-gallery-5">
+    <img src="loader.gif" data-src='{% asset home-gallery-1.jpg @path %}' style="margin-top: 30px;" alt="home-gallery-1" class="large-img" asset>
+    <img src="loader.gif" data-src='{% asset home-gallery-7.jpg @path %}' style="margin-top: 30px; float: right;" alt="home-gallery-5" class="small-img" asset>
   </div>
   {% if page.url == "/" %}
     <a href="/about"><button type="button" class="btn btn-secondary">Take a closer look</button></a>

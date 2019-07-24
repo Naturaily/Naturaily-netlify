@@ -33,7 +33,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/1_Clean_Code_A_Handbook_of_Agile_Software_Craftsmanship.png">
+    <img class="android-image" src="/assets/images/1_Clean_Code_A_Handbook_of_Agile_Software_Craftsmanship.png @path %}'>
 
     <div class="recomended-book-text">
       <p>
@@ -55,7 +55,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/2_Practical_Object_Oriented_Design_in_Ruby.png">
+    <img class="android-image" src="/assets/images/2_Practical_Object_Oriented_Design_in_Ruby.png @path %}'>
 
     <div class="recomended-book-text">
       <p>
@@ -77,7 +77,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/3_The_Clean_Coder_A_Code_of_Conduct_for_Professional_Programmers .png">
+    <img class="android-image" src="/assets/images/3_The_Clean_Coder_A_Code_of_Conduct_for_Professional_Programmers .png @path %}'>
 
     <div class="recomended-book-text">
       <p>
@@ -99,7 +99,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/4_Refactoring_ Improving_the_Design_of_Existing_Code.png">
+    <img class="android-image" src="/assets/images/4_Refactoring_ Improving_the_Design_of_Existing_Code.png @path %}'>
 
     <div class="recomended-book-text">
       <p>
@@ -121,7 +121,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/5_Eloquent_JavaScript.png">
+    <img class="android-image" src="/assets/images/5_Eloquent_JavaScript.png @path %}'>
 
     <div class="recomended-book-text">
       <p>
@@ -143,7 +143,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/6_Management_3.0__Leading_Agile_Developers,_Developing_Agile_Leaders.png">
+    <img class="android-image" src="/assets/images/6_Management_3.0__Leading_Agile_Developers,_Developing_Agile_Leaders.png @path %}'>
 
     <div class="recomended-book-text">
       <p>
@@ -165,7 +165,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/7_CSS_Secrets_Better_Solutions_to_Everyday_Web_Design_Problems.png">
+    <img class="android-image" src="/assets/images/7_CSS_Secrets_Better_Solutions_to_Everyday_Web_Design_Problems.png @path %}'>
 
     <div class="recomended-book-text">
       <p>

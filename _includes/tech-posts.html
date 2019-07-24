@@ -3,7 +3,7 @@
     {% for post in site.tags.[page.posts-tag] limit: 6 %}
       <div class="carousel-item">
         <a href="{{ post.url }}" class="list-group-item">
-          <img src="/assets/images/loader.gif" data-src="{{ post.image }}" alt="{{ post.title }}">
+          <img src="loader.gif" data-src="{{ post.image }}" alt="{{ post.title }}" asset>
           <p>{{ post.title }}</p>
         </a>
       </div>

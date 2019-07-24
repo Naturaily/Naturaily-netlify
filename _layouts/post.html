@@ -6,11 +6,11 @@ layout: default
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
       {% if page.image %}
-        <img src="/assets/images/loader.gif" data-src="{{page.image}}" alt="Post image">
+        <img src="loader.gif" data-src="{{page.image}}" alt="Post image" asset>
       {% endif %}
       <div class="post-meta">
         {% if page.avatar %}
-          <img class="avatar" src="/assets/images/loader.gif" data-src="{{ page.avatar }}" alt="Author avatar">
+          <img src="loader.gif" data-src="{{ page.avatar }}" alt="Author avatar" class="avatar" asset>
         {% endif %}
         <p class="author">
           {% if page.author %}
@@ -41,10 +41,10 @@ layout: default
           <span class="tooltip-text" id="copyTooltip" data-post-shared="{{page.title}}">Copy to clipboard</span>
         </div>
         <a class="post-soc-shr" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow" data-share="twitter" data-post-shared="{{page.title}}">
-          <img src="/assets/images/twitter-icon.png" alt="Twitter">
+          {% asset twitter-icon.png alt="Twitter" %}
         </a>
         <a class="post-soc-shr" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow" data-share="facebook" data-post-shared="{{page.title}}">
-          <img src="/assets/images/facebook-icon.png" alt="Facebook">
+          {% asset facebook-icon.png alt="Facebook" %}
         </a>
       </div>
       {{ content }}
@@ -61,14 +61,14 @@ layout: default
   <div class="post-navigation">
     {% if page.next.url %}
       <a class="next" href="{{page.next.url}}" rel="next">
-        <img src="/assets/images/arrow-brown.png" alt="arrow">
+        {% asset arrow-brown.png alt="arrow" %}
         {{page.next.title}}
       </a>
     {% endif %}
     {% if page.previous.url %}
       <a class="prev" href="{{page.previous.url}}" rel="prev">
         {{page.previous.title}}
-        <img src="/assets/images/arrow-brown.png" alt="arrow">
+        {% asset arrow-brown.png alt="arrow" %}
       </a>
     {% endif %}
   </div>

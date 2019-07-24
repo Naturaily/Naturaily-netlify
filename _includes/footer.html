@@ -1,7 +1,7 @@
 <div class="l-footer-container">
   <footer class="footer">
 
-    <img class="footer-logo" src="/assets/images/logo_naturaily.svg" alt="Naturaily logo">
+    {% asset logo_naturaily.svg class="footer-logo" alt="Naturaily logo" %}
     <span class="footer-headline--services">Services</span>
     <span class="footer-headline--offer">Varia</span>
     <hr class="footer-hr">
@@ -34,16 +34,16 @@
     </span>
     <div class="footer-social">
       <a href="https://www.facebook.com/Naturaily/" target="_blank" rel="nofollow">
-        <img src="/assets/images/loader.gif" data-src="/assets/images/facebook-logo.png" alt="Facebook">
+        <img src="loader.gif" data-src='{% asset facebook-logo.png @path %}' alt="Facebook" asset>
       </a>
       <a href="https://twitter.com/naturailycom" target="_blank" rel="nofollow">
-        <img src="/assets/images/loader.gif" data-src="/assets/images/twitter-logo.png" alt="Twitter">
+        <img src="loader.gif" data-src='{% asset twitter-logo.png @path %}' alt="Twitter" asset>
       </a>
       <a href="https://www.linkedin.com/company/naturaily" target="_blank" rel="nofollow">
-        <img src="/assets/images/loader.gif" data-src="/assets/images/linkedin.png" alt="Linkedin">
+        <img src="loader.gif" data-src='{% asset linkedin.png @path %}' alt="Linkedin" asset>
       </a>
       <a href="https://github.com/naturaily" target="_blank" rel="nofollow">
-        <img class="footer-github" src="/assets/images/loader.gif" data-src="/assets/images/github.png" alt="Github">
+        <img src="loader.gif" data-src='{% asset github.png @path %}' alt="Github" class="footer-github" asset>
       </a>
     </div>
   </footer>

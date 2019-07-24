@@ -35,7 +35,7 @@ Basic information about sprite
 This is the simplest use of SASS variables - holding single value. First we create a configuration section for our generator.
 ```scss
 $class-prefix: "custom-icon--";
-$sprite-image-url: "images/sprite.png";
+$sprite-image-url: "images/sprite.png @path %}';
 $sprite-grid-size: 20px;
 ```
 With this configuration we are letting SASS know that our sprite is located in images/sprite.png and is made up of 20px by 20px grid. We also want all our classes to be prefixed with `custom-icon--`, ie. `custom-icon--settings`.
@@ -122,7 +122,7 @@ Complete listing of code:
 
 ```scss
 $class-prefix: "custom-icon--";
-$sprite-image-url: "images/sprite.png";
+$sprite-image-url: "images/sprite.png @path %}';
 $sprite-grid-size: 20px;
 
 $icon-list: (

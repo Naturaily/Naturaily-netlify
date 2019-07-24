@@ -15,8 +15,12 @@
     <div class="l-footer-container">
       {% include on-tour-footer.html %}
     </div>
-
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    {% asset jquery-3.2.1.min.js %}
+    {% asset slick.min.js %}
+    {% asset sticky-kit.js %}
+    {% asset jquery.smooth-scroll.js %}
+    {% asset js-cookie.js %}
+    {% asset scrollreveal.js %}
     <script type="text/javascript">
       {% include scroll-tour.js %}
     </script>

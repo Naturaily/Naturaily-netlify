@@ -35,7 +35,7 @@ The main principle of their work is quite simple: get _n_ records with _m_ offse
 
 ## Issues with ‘offset’ pagination
 
-<img src="/assets/images/value-based-pagination-offset.png" alt="value-based-pagination-offset" height="100%" width="100%">
+<img src="/assets/images/value-based-pagination-offset.png @path %}' alt="value-based-pagination-offset" height="100%" width="100%">
 
 For many basic situations this approach is good enough so don't be afraid to use it in your projects if it suits your needs! But... (there is always ‘a but’) in situations when:
 
@@ -50,7 +50,7 @@ SQL `OFFSET` is a very time-consuming method, the more records your database con
 
 One more real-life situation, where value-based pagination in Rails fits perfectly is SPA chat messages infinite scroll. In a situation when new messages arrive constantly without reloading the page, traditional pagination may have a problem with getting proper results on the first shot. I have tested this in real life app! Time based pagination seems to work really good in this scenario, at least it is much more reliable than a traditional pagination, for sure!
 
- <img src="/assets/images/value-based-pagination-where.png" alt="value-based-pagination-where" height="100%" width="100%"> 
+ <img src="/assets/images/value-based-pagination-where.png @path %}' alt="value-based-pagination-where" height="100%" width="100%"> 
 
 I've made a very simple benchmark of these two methods to test how big of a time difference we are talking about.
 

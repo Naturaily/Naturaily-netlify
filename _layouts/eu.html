@@ -7,11 +7,11 @@ layout: default
 <div class="l-content">
   <div class="eu-header">
     <div class="eu-logos">
-     <img src="/assets/images/loader.gif" data-src="/assets/images/eu-logo-1.png" alt="European Funds">
-     <img src="/assets/images/loader.gif" data-src="/assets/images/eu-logo-2.png" alt="Republic of Poland">
-     <img src="/assets/images/loader.gif" data-src="/assets/images/eu-logo-4.png" alt="European Union">
+     <img src="loader.gif" data-src='{% asset eu-logo-1.png @path %}' alt="European Funds" asset>
+     <img src="loader.gif" data-src='{% asset eu-logo-2.png @path %}' alt="Republic of Poland" asset>
+     <img src="loader.gif" data-src='{% asset eu-logo-4.png @path %}' alt="European Union" asset>
      <div class="eu-logos--mpg">
-       <img src="/assets/images/loader.gif" data-src="/assets/images/MPG.png" alt="Marka Polskiej Gospodarki">
+       <img src="loader.gif" data-src='{% asset MPG.png @path %}' alt="Marka Polskiej Gospodarki" asset>
      </div>
     </div>
     <div class="eu-description">
@@ -56,6 +56,6 @@ layout: default
         clients' needs and gain a strong position on foreign markets.
       </p>
     </div>
-    <img src="/assets/images/loader.gif" data-src="assets/images/eu-poster.jpg" alt="poster">
+    <img src="loader.gif" data-src="assets/images/eu-poster.jpg @path %}' alt="poster" asset>
   </div>
 </div>

@@ -90,14 +90,14 @@ Vue CLI 3.0 and PWA plugin would create default `manifest.json` file for you, bu
   "short_name": "pwa",
   "icons": [
     {
-      "src": "/img/icons/android-chrome-192x192.png",
+      "src": "/img/icons/android-chrome-192x192.png @path %}',
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image.png @path %}'
     },
     {
-      "src": "/img/icons/android-chrome-512x512.png",
+      "src": "/img/icons/android-chrome-512x512.png @path %}',
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image.png @path %}'
     }
   ],
   "start_url": "/index.html",

@@ -1,6 +1,6 @@
 .estimate {
   &_banner {
-    background-image: url("../assets/images/marcin.png"), url("../assets/images/estimate-top-left.svg"), url("../assets/images/estimate-top-right.svg"), linear-gradient(180deg, rgba(255, 252, 249, 0) 0%, rgba(255, 247, 241, 1) 100%);
+    background-image: url('../assets/images/marcin.png'), url('../assets/images/estimate-top-left.svg'), url('../assets/images/estimate-top-right.svg'), linear-gradient(180deg, rgba(255, 252, 249, 0) 0%, rgba(255, 247, 241, 1) 100%);
     background-repeat: no-repeat;
     background-size: 619px, auto, auto;
     background-position: calc(100% - 120px) 72px, 0% top, calc(100% + 130px) 70px, 0 300px;
@@ -72,7 +72,7 @@
 
   @media (max-width: 575px) {
     &_banner {
-      background-image: url("../assets/images/marcin.png"), url("../assets/images/red-dot.svg"), url("../assets/images/estimate-top-right.svg"), linear-gradient(180deg, rgba(255, 252, 249, 0) 0%, rgba(255, 247, 241, 1) 100%);
+      background-image: url('../assets/images/marcin.png'), url('../assets/images/red-dot.svg'), url('../assets/images/estimate-top-right.svg'), linear-gradient(180deg, rgba(255, 252, 249, 0) 0%, rgba(255, 247, 241, 1) 100%);
       background-position: calc(100% + 70px) 100%, 85% 15%, calc(100% + 170px) 110%, 0 300px;
       background-size: 330px, auto, 320px;
     }

@@ -108,7 +108,7 @@ There is another way of handling these overrides, this one will force you to kee
 
 ```ruby
 	<!-- replace_contents "#logo" namespaced -->
-	<%= image_tag "logo.png" %>
+	<%= image_tag "logo.png @path %}' %>
 ```
 
 And that’s it! You’ll get the same result as in the previous example.

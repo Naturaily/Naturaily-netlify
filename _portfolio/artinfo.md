@@ -94,7 +94,7 @@ testimonial:
   testimonial-photo: ''
   testimonial-text: ''
 slide-left: LVCloud
-slide-left-logo: /assets/images/LVCloud.png
+slide-left-logo: /assets/images/lvcloud.png
 slide-left-link: /project/lvcloud
 slide-right: Zapnito
 slide-right-logo: /assets/images/zapnito.png

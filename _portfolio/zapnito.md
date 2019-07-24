@@ -35,7 +35,7 @@ testimonial-brand: CTO Zapnito
 testimonial-logo: /assets/images/zapnito-logo-color.png
 testimonial-text: Naturaily worked on extending Zapnito’s functionality by developing new features and upgrade of our stack. They significantly helped us with the maintenance work. Naturaily’s responsiveness is exceptional. We were frequently updated with where things stand. While they could improve in terms of English language skills, we feel that they are an extended part of our team.
 slide-left: LVCloud
-slide-left-logo: /assets/images/LVCloud.png
+slide-left-logo: /assets/images/lvcloud.png
 slide-left-link: /project/lvcloud
 slide-right: Collectivity
 slide-right-logo: /assets/images/collectivity.png

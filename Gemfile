@@ -10,7 +10,9 @@ source 'https://rubygems.org'
 # Happy Jekylling!
 gem 'jekyll', '3.8.6'
 gem 'rouge'
-gem 'sassc-rails'
+gem 'uglifier', '4.1.2'
+gem 'sprockets', '3.7.2'
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "minima", "~> 2.0"
 
@@ -20,9 +22,10 @@ gem 'sassc-rails'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem 'jekyll-feed', '~> 0.6'
-   gem 'jekyll-paginate-v2'
-   gem 'jekyll-sitemap'
+  gem 'jekyll-assets'
+  gem 'jekyll-feed', '~> 0.6'
+  gem 'jekyll-paginate-v2'
+  gem 'jekyll-sitemap'
 
 end
 

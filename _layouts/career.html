@@ -17,7 +17,7 @@ layout: default
   </p>
   <button type="button" name="button" class="btn btn-primary btn-arrow" data-scroll-more>
     CHECK CURRENT POSITIONS
-    <img src="/assets/images/btn-arrow.png" alt="arrow">
+    {% asset btn-arrow.png alt="arrow" %}
   </button>
 </div>
 
@@ -40,7 +40,7 @@ layout: default
       together to meet them.
     </p>
     <div class="career-full-image full-width">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/career-image-1.jpg" alt="">
+      <img src="loader.gif" data-src='{% asset career-image-1.jpg @path %}' alt="" asset>
     </div>
     <h2 class="career-header margin-top">
       We notice potential
@@ -91,7 +91,7 @@ layout: default
       </blockquote>
     </div>
     <div class="career-person person-1">
-      <img class="career-image" src="/assets/images/loader.gif" data-src="/assets/images/career-image-2.jpg" alt="">
+      <img src="loader.gif" data-src='{% asset career-image-2.jpg @path %}' class="career-image" asset>
     </div>
   </div>
 </div>
@@ -102,7 +102,7 @@ layout: default
 
 <div class="wave main-wave-2">
   <div class="wave-tail"></div>
-  <img src="/assets/images/blue-wave.png" alt="blue-wave">
+  {% asset blue-wave.png alt="blue-wave" %}
 </div>
 
 <div class="l-content">
@@ -112,7 +112,7 @@ layout: default
       own workstation, it’s our special way of welcoming you into our ranks!
     </h2>
     <div class="career-full-image full-width">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/career-image-3.jpg" alt="">
+      <img src="loader.gif" data-src='{% asset career-image-3.jpg @path %}' alt="" asset>
     </div>
   </div>
 </div>
@@ -135,7 +135,7 @@ layout: default
       Rails and Internet of Things.
     </p>
     <div class="career-full-image full-width">
-      <img src="/assets/images/loader.gif" data-src="/assets/images/career-image-4.jpg" alt="">
+      <img src="loader.gif" data-src='{% asset career-image-4.jpg @path %}' alt="" asset>
     </div>
   </div>
 </div>
@@ -146,7 +146,7 @@ layout: default
 
 <div class="wave main-wave-3">
   <div class="wave-tail"></div>
-  <img src="/assets/images/cream-wave.png" alt="cream-wave">
+  {% asset cream-wave.png alt="cream-wave" %}
 </div>
 
 <div class="l-content">
@@ -165,7 +165,7 @@ layout: default
       </blockquote>
     </div>
     <div class="career-person person-2">
-      <img class="career-image" src="/assets/images/loader.gif" data-src="/assets/images/career-image-5.jpg" alt="">
+      <img src="loader.gif" data-src='{% asset career-image-5.jpg @path %}' alt="" class="career-image" asset>
     </div>
   </div>
 </div>
@@ -266,7 +266,7 @@ layout: default
 
 <div class="wave main-wave-2">
   <div class="wave-tail"></div>
-  <img src="/assets/images/blue-wave.png" alt="blue-wave">
+  {% asset blue-wave.png alt="blue-wave" %}
 </div>
 
 <div class="l-content">

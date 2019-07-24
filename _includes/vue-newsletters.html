@@ -2,23 +2,23 @@
 <div class="l-sites">
   <a class="site-link" href="http://vue-newsletter.com/" target="_blank" rel="nofollow">
     <div class="site-card">
-      <img class="site-logo" src="/assets/images/loader.gif" data-src="/assets/images/vue-newsletter-logo.png" alt="Vue">
+      <img src="loader.gif" data-src='{% asset vue-newsletter-logo.png @path %}' alt="Vue" class="site-logo" asset>
       <div class="site-text">
         <span>
           Vue.js Newsletter
         </span>
-        <img class="site-arrow" src="/assets/images/arrow-orange.png" alt="arrow">
+        {% asset arrow-orange.png alt="arrow" class="site-arrow" %}
       </div>
     </div>
   </a>
   <a class="site-link" href="https://vuejsdevelopers.com/newsletter/" target="_blank" rel="nofollow">
     <div class="site-card">
-      <img class="site-logo" src="/assets/images/loader.gif" data-src="/assets/images/vue-dev-logo.png" alt="Vue">
+      <img src="loader.gif" data-src='{% asset vue-dev-logo.png @path %}' alt="Vue" class="site-logo" asset>
       <div class="site-text">
         <span>
           Vue.js Developers Newsletter
         </span>
-        <img class="site-arrow" src="/assets/images/arrow-orange.png" alt="arrow">
+        {% asset arrow-orange.png alt="arrow" class="site-arrow" %}
       </div>
     </div>
   </a>

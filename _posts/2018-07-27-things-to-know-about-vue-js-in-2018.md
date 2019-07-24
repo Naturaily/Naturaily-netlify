@@ -30,13 +30,13 @@ Vue.js’ popularity is constantly growing and there are no signs of slowing dow
 
 Check out this [Star History](http://www.timqian.com/star-history/){:rel="nofollow"} graph. In 2018, the VueJS project has surpassed Facebook's React in terms of popularity on GitHub.
 
-<img src="/assets/images/vue-js-2018-github.png" alt="VueJS in 2018 Github" style="width:100%;height:100%;">
+<img src="/assets/images/vue-js-2018-github.png @path %}' alt="VueJS in 2018 Github" style="width:100%;height:100%;">
 
 The interest in the progressive framework has also grown on other levels, especially the StackOverflow community - there are more people learning Vue than ever before! In other words - **developers are thrilled to learn Vue.js**!
 
 While VueJS may be dominanting in tearms of how fast the project is growing, it's still far behind React when it comes to the [NPM downloads](https://npmcharts.com/){:rel="nofollow"}. Although the monthly downloads have doubled compared to the beginning of 2018, Vue is not in a position to take React down anytime soon.
 
-<img src="/assets/images/vue-js-2018-npm.png" alt="VueJS in 2018 Github" style="width:100%;height:100%;">
+<img src="/assets/images/vue-js-2018-npm.png @path %}' alt="VueJS in 2018 Github" style="width:100%;height:100%;">
 
 ## Why Vue.js got so popular?
 
@@ -48,7 +48,7 @@ The recent launch of Vue CLI 3 (you can learn more about it here [Vue CLI 3: New
 
 One of these projects was a piece of our own product. We combined the power of Ruby on Rails with Vue.js to create this amazing looking real-time auction website for pieces of art. Our dev team really enjoyed using Vue.js and we’ve been using it more and more ever since in various projects (make sure to check our [blog](https://naturaily.com/blog/) every now and then, more real-life use cases of Vue.js in production are coming soon!).
 
-<img src="/assets/images/artinfo.jpg" alt="VueJS in 2018 Artinfo" style="width:100%;height:100%;">
+<img src="/assets/images/artinfo.jpg @path %}' alt="VueJS in 2018 Artinfo" style="width:100%;height:100%;">
 
 Check it out if you’re interested  - [Live Artinfo](https://live.artinfo.pl/) (Polish only).
 
