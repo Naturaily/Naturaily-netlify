@@ -7,8 +7,8 @@ slug: sprite-icon-classes-sass
 date: '2013-09-04 10:38:01 +0000'
 category: Frontend development
 author: Maciej Kucharski
-avatar: /assets/images/maciek.png
-image: /assets/images/sass.jpg
+avatar: maciek.png
+image: sass.jpg
 text-preview: >-
   While we mostly use sass for it's variables, nesting and mixins, the language
   itself is way more powerful. A lot of features may not be used on your
@@ -35,7 +35,7 @@ Basic information about sprite
 This is the simplest use of SASS variables - holding single value. First we create a configuration section for our generator.
 ```scss
 $class-prefix: "custom-icon--";
-$sprite-image-url: "images/sprite.png @path %}';
+$sprite-image-url: "images/sprite.png";
 $sprite-grid-size: 20px;
 ```
 With this configuration we are letting SASS know that our sprite is located in images/sprite.png and is made up of 20px by 20px grid. We also want all our classes to be prefixed with `custom-icon--`, ie. `custom-icon--settings`.
@@ -122,7 +122,7 @@ Complete listing of code:
 
 ```scss
 $class-prefix: "custom-icon--";
-$sprite-image-url: "images/sprite.png @path %}';
+$sprite-image-url: "images/sprite.png";
 $sprite-grid-size: 20px;
 
 $icon-list: (

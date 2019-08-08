@@ -11,8 +11,8 @@ twitter-card: summary_large_image
 date: '2019-02-15 12:31:43 +0200'
 category: Startups
 author: Epifany Bojanowska
-avatar: /assets/images/epifany_bojanowska-2.jpg
-image: /assets/images/software-house.jpeg
+avatar: epifany_bojanowska-2.jpg
+image: software-house.jpeg
 text-preview: >-
   Whether you’re a part of a Start-Up or a grown up company, when your product
   needs a software solution, you’ll most likely need to make a decision on where
@@ -38,7 +38,7 @@ By partnering with a full-service software development company, you are essentia
 5. ### Risk management
    If you commission software from an outside company, rather than developing it in-house, the software house is responsible for delivering the product in a specified time and for a set amount of money. Every step of the development process is regulated in the contract, which in turn reduces the risk of faulty software and/or time delays (under the threat of penalty).
 
-![software-houses-warsaw](/assets/images/software-houses-warsaw.jpeg)
+![software-houses-warsaw](/_assets/images/software-houses-warsaw.jpeg)
 
 ## Why a software house from Poland:
 

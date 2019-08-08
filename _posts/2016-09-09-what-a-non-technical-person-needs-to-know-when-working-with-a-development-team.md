@@ -7,8 +7,8 @@ slug: working-with-development-team
 date: '2016-09-09 10:38:01 +0000'
 category: Remote work
 author: Sebastian Kubiak
-avatar: /assets/images/seba.jpg
-image: /assets/images/mister-yoda.jpg
+avatar: seba.jpg
+image: mister-yoda.jpg
 text-preview: Dive in and read the 7 precious tips from Master Yoda himself!
 tags:
   - Remote development team
@@ -27,20 +27,20 @@ We want to share some thoughts and advice to help you streamline this process an
 
 **_1.“Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.”_**
 
-  ![star-wars-7](/assets/images/starwars_naturaily.007.jpeg "star-wars-7")
+  ![star-wars-7](/_assets/images/starwars_naturaily.007.jpeg "star-wars-7")
 
   First of all, do not be afraid! **Don't be afraid of the things you don't know and don't fear** facing them. Do not be afraid to ask either. After all, you are using external competence. If needed, it is their job to bring you up to speed. **Do not stress out when you realize you do not know** or you do not understand something. Every cooperation can only be successful if based on trust and understanding. Nobody will scoff at your lack of knowledge. **Ask for and expect support,** and you will get it.
 
 **_2. "Much to learn you still have…"_**
 
-  ![star-wars-2](/assets/images/starwars_naturaily.002.jpeg "star-wars-2")
+  ![star-wars-2](/_assets/images/starwars_naturaily.002.jpeg "star-wars-2")
 
   ...but you do not have to learn everything!
   There will be many things completely new to you, but as soon as you realize that you do not have to know everything, you will be fine. You will become better at recognizing areas of expertise that are actually relevant and necessary for effective cooperation. Then, once again: rest assured you are working with people who know what they are doing and **focus on the exploration of knowledge which in fact is important for the success of your project.** Keeping focus on what's important can help you quickly reach the target and effectively implement consecutive stages of the project. Following this advice, rather than impatiently waiting for results, will make **the effects of collaboration more visible and** satisfying for everyone involved.
 
 **_3. “Attachment leads to jealousy. The shadow of greed, that is."_**
 
-  ![star-wars-4](/assets/images/starwars_naturaily.004.jpeg "star-wars-4")
+  ![star-wars-4](/_assets/images/starwars_naturaily.004.jpeg "star-wars-4")
 
   We love Agile and pay heed to its principles when implementing projects entrusted to us. We are flexible and it's our goal, above all, to ensure that your project is in line with your vision. **But do not get attached to this vision too much, though!**
 
@@ -48,13 +48,13 @@ We want to share some thoughts and advice to help you streamline this process an
 
 **_4. "You must feel the Force around you"_**
 
-  ![star-wars-1](/assets/images/starwars_naturaily.001.jpeg "star-wars-1")
+  ![star-wars-1](/_assets/images/starwars_naturaily.001.jpeg "star-wars-1")
 
   Trust the competence of those whose services you use and share the knowledge you already possess. **Do not deny things "just in case”.** Coding is a creative and intellectually demanding work. Showing confidence in the people who work for you will be rewarded aplenty in code quality. Stress, tensions and pressure never lead to anything good. Let the people whom you pay prove their worth. **Check, comment and allow feedback, but also listen to valid arguments, as they can come in handy. Always explain why something is important to you.** The adage “customer is king" quite naturally stands, but you must also keep in mind that the team which is working for you is there to protect you too. Consider this apt analogy: a dentist should not extract a healthy tooth, even if you wanted it and paid him/her for it.
 
 **_5. "Do. Or do not. There is no try."_**
 
-  ![star-wars-3](/assets/images/starwars_naturaily.003.jpeg "star-wars-3")
+  ![star-wars-3](/_assets/images/starwars_naturaily.003.jpeg "star-wars-3")
 
   We often hear: “okay, let's try”. But according to Yoda: **there is no trying, you just do it!** Do not try, **make concrete decisions:** do, and verify. If you want to avoid expensive experiments, but are not sure — discuss and seek advice. It is completely ok to change your mind when needed. The success of the project (rather than following its original specification) should be your ultimate goal. Keep in mind that companies producing software are run by people who also have some business acumen. Speaking to them may provide valuable insights.
 
@@ -62,7 +62,7 @@ We want to share some thoughts and advice to help you streamline this process an
 
 **_6. "To reach our goal, a straight path we will not follow."_**
 
-  ![star-wars-6](/assets/images/starwars_naturaily.006.jpeg "star-wars-6")
+  ![star-wars-6](/_assets/images/starwars_naturaily.006.jpeg "star-wars-6")
 
   Things will get tough. Well, not so tough, but it's all roses either. **Big things are always born in pain. These are every mother's and developer's words of wisdom.** There is a slim chance that everything will go smoothly. However, the road to success is a bumpy ride. Here again: right attitude is half the battle! Big things take time.
 
@@ -70,7 +70,7 @@ We want to share some thoughts and advice to help you streamline this process an
 
 **_7. “Trust, but verify.”_**
 
-  ![star-wars-5](/assets/images/starwars_naturaily.005.jpeg "star-wars-5")
+  ![star-wars-5](/_assets/images/starwars_naturaily.005.jpeg "star-wars-5")
 
   Remember that the people you work with are in fact dedicated individuals and lend their skills to support your efforts as best they can. **However, the onus is on you to have the knowledge in your business and always be at the top of the game.** In the very process of working on the vision of the product you may have gained some valuable knowledge and experience which the team may lack. So trust, but verify and talk. **Be open and be patient. Explain!**
 
@@ -78,7 +78,7 @@ We want to share some thoughts and advice to help you streamline this process an
 
 **_"A long time ago in a galaxy far, far away...."_**
 
-![star-wars-8](/assets/images/starwars_naturaily.008.jpeg "star-wars-8")
+![star-wars-8](/_assets/images/starwars_naturaily.008.jpeg "star-wars-8")
 
 > ...Implementation was fast and smooth. Customers were always happy and developers did not have to deal with bugs we have not seen any for over 2187 years. They got forgotten, lost in the electronic maze THX 1138 4EB along with the fixes. We have long lived and prospered on the light side of the Force, where invoices are paid on time.” ;)
 

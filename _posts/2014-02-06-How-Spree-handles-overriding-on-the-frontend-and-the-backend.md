@@ -8,8 +8,8 @@ slug: spree-override-views
 date: '2014-02-06 10:38:01 +0000'
 category: Spree development
 author: Mateusz Barczak
-avatar: /assets/images/mateusz.png
-image: /assets/images/spreecomerce.jpg
+avatar: mateusz.png
+image: spreecomerce.jpg
 text-preview: >-
   Couple months ago, after signing a contract to build an unusual e-commerce
   site, we were forced to make a choice. We’d build the site either from scratch
@@ -108,7 +108,7 @@ There is another way of handling these overrides, this one will force you to kee
 
 ```ruby
 	<!-- replace_contents "#logo" namespaced -->
-	<%= image_tag "logo.png @path %}' %>
+	<%= image_tag "logo.png" %>
 ```
 
 And that’s it! You’ll get the same result as in the previous example.

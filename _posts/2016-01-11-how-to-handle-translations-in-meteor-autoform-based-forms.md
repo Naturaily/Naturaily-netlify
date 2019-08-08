@@ -8,8 +8,8 @@ slug: meteor-autoform-translations
 date: '2016-01-11 10:38:01 +0000'
 category: JavaScript development
 author: Jan Wieczorkowski
-avatar: /assets/images/janpol.png
-image: /assets/images/meteor3.png
+avatar: janpol.png
+image: meteor3.png
 text-preview: >-
   In one of the projects I've been recently working on I needed i18n support for
   forms generated with AutoForm. For those who don’t know: Autoform is

@@ -7,8 +7,8 @@ slug: practical-agile-implementation
 date: '2016-03-31 10:38:01 +0000'
 category: Agile
 author: Sebastian Kubiak
-avatar: /assets/images/seba.jpg
-image: /assets/images/fire.jpg
+avatar: seba.jpg
+image: fire.jpg
 text-preview: >-
   We are a small (over a dozen people) remote development team. That kind of
   team has pretty standard and diversified portfolio of projects.

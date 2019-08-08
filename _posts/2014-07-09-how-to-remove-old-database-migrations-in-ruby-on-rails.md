@@ -8,8 +8,8 @@ twitter-card: summary_large_image
 date: '2019-01-11 10:38:01 +0200'
 category: Ruby on Rails development
 author: Jacek Hiszpański
-avatar: /assets/images/jacek.png
-image: /assets/images/migrations.jpg
+avatar: jacek.png
+image: migrations.jpg
 text-preview: >-
   Recently we’ve overtaken a big project for maintenance and further
   development. It’s a Rails application with many models, controllers and of

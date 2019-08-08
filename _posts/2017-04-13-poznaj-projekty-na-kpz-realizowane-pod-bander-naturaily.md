@@ -9,8 +9,8 @@ twitter-card: summary_large_image
 date: '2017-04-13 10:38:01 +0000'
 category: Events
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/kpz-pwr.jpg
+avatar: marcin.jpg
+image: kpz-pwr.jpg
 text-preview: >-
   KPZ to coroczna Konferencja Projektów Zespołowych realizowanych przez
   studentów III roku studiów inżynierskich na Wydziale Elektroniki Politechniki
@@ -52,7 +52,7 @@ Tyle tytułem teoretycznego wstępu.
 
 <div>
 
-  <img class="android-image" alt="Marcin-Mantke" src="/assets/images/kpz-marcin.jpg @path %}'>
+  <img class="android-image" alt="Marcin-Mantke" src="/_assets/images/kpz-marcin.jpg">
 
   <div class="kpz-subjects-text">
     <br>
@@ -67,7 +67,7 @@ Tyle tytułem teoretycznego wstępu.
 
 <div>
 
-  <img class="android-image" alt="Mikolaj-Grygiel" src="/assets/images/kpz-mikolaj.jpg @path %}'>
+  <img class="android-image" alt="Mikolaj-Grygiel" src="/_assets/images/kpz-mikolaj.jpg">
 
   <div class="kpz-subjects-text">
     <br>
@@ -84,11 +84,11 @@ Rolą chłopaków jest zarządzanie projektami, wsparcie merytoryczne zespołów
 Jeżeli interesuje Cię jak przebiegają prace nad poszczególnymi projektami, zajrzyj do kolejnych postów.
 
 <div class="kpz-subjects">
-  <a href="http://naturaily.com/blog/post/kpz-ledzenie-goci-targw-i-wystaw-za-pomoc-beaconw-poznaj-projekt"><img class="" src="/assets/images/kpz-1-temat.png @path %}' alt="temat-sledzenie-gosci" ></a>
-  <a href="http://naturaily.com/blog/post/kpz-system-wspomagajcy-prowadzenie-budetu-domowego-poznaj-projekt"><img class="" src="/assets/images/kpz-2-temat.png @path %}' alt="temat-aplikacja-internetowa" ></a>
+  <a href="http://naturaily.com/blog/post/kpz-ledzenie-goci-targw-i-wystaw-za-pomoc-beaconw-poznaj-projekt"><img class="" src="/_assets/images/kpz-1-temat.png" alt="temat-sledzenie-gosci" ></a>
+  <a href="http://naturaily.com/blog/post/kpz-system-wspomagajcy-prowadzenie-budetu-domowego-poznaj-projekt"><img class="" src="/_assets/images/kpz-2-temat.png" alt="temat-aplikacja-internetowa" ></a>
 </div>
 
 <div class="kpz-subjects">
-  <a href="http://naturaily.com/blog/post/kpz-pomiar-parametrw-rodowiskowych-w-inteligentnym-domu-poznaj-projekt"><img class="" src="/assets/images/kpz-3-temat.png @path %}' alt="temat-smart-home" ></a>
-  <a href="http://naturaily.com/blog/post/kpz-aplikacja-internetowa-wspomagajca-premiowanie-pracownikw-poznaj-projekt"><img class="" src="/assets/images/kpz-4-temat.png @path %}' alt="aplikacja-premiowanie" ></a>
+  <a href="http://naturaily.com/blog/post/kpz-pomiar-parametrw-rodowiskowych-w-inteligentnym-domu-poznaj-projekt"><img class="" src="/_assets/images/kpz-3-temat.png" alt="temat-smart-home" ></a>
+  <a href="http://naturaily.com/blog/post/kpz-aplikacja-internetowa-wspomagajca-premiowanie-pracownikw-poznaj-projekt"><img class="" src="/_assets/images/kpz-4-temat.png" alt="aplikacja-premiowanie" ></a>
 </div>

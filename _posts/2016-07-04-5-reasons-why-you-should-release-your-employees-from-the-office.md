@@ -7,8 +7,8 @@ slug: remote-work-pros
 date: '2016-07-04 10:38:01 +0000'
 category: Agile
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/release-employees.jpg
+avatar: marcin.jpg
+image: release-employees.jpg
 text-preview: >-
   We provide services remotely to customers around the world. The distance and
   additional hurdles in the form of different time zones and cultural
@@ -42,7 +42,7 @@ We have introduced a company-wide remote work day. From now on everyone in Natur
 
 Speaking of which: Greetings from my living room couch ;)
 
-![couch](/assets/images/couch-greetings.jpg "couch")
+![couch](/_assets/images/couch-greetings.jpg "couch")
 
 
 ## 1. Remote work fosters loyalty! ##

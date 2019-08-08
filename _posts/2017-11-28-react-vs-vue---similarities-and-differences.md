@@ -8,8 +8,8 @@ twitter-card: summary_large_image
 date: '2017-11-28 10:38:01 +0000'
 category: JavaScript development
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/vue-v-react.png
+avatar: wojtek.jpg
+image: vue-v-react.png
 text-preview: >-
   Both React and Vue have gained a lot of attention and interest from the
   developer's community for the past 3 years. Although their technical nature is
@@ -66,17 +66,17 @@ Let’s say that you’ve started a new project in your company and want your em
 
 Vue:
 
-![vue-code](/assets/images/vue.PNG "vue-code")
+![vue-code](/_assets/images/vue.PNG "vue-code")
 
 React:
 
-![react-code](/assets/images/react.PNG "react-code")
+![react-code](/_assets/images/react.PNG "react-code")
 
 ## Performance
 
 **Vue is perfect for small and performant applications**. Its development team shared a very interesting 3rd party benchmark conducted by rawgit.com. It shows the advantage of using Vue - in almost every case React appears to be slower than Vue.
 
-![benchmark](/assets/images/benchmark.png "benchmark")
+![benchmark](/_assets/images/benchmark.png "benchmark")
 
 As we mentioned before, both React and Vue.js use virtual DOM, however **in Vue.js it is much faster and performant than in React**. Evan You, the founder of Vue.js, paid close attention to well-known DOM’s performant issues. He stated, “_Vue 2.0 tackles this problem by combining virtual DOM with its reactive dependency tracking system, thus the system can automatically and efficiently determine when and what to re-render, freeing the developer from unnecessary optimization work._”
 Keep in mind that these facts are relevant only in edge cases when your app needs to be very fast. Normally, you shouldn’t be bothered by the tool’s performance because most of the apps don’t need to do operations like Creating rows routinely.
@@ -95,11 +95,11 @@ Vue’s team isn’t far behind. With the very similar philosophy in mind, they�
 
 Let’s start with **NPM downloads chart**. According to the statistics from npmcharts.com, it is very clear who’s the winner here. React has reached a milestone of 1.7M NPM downloads in November of 2017 alone. Judging by a number of downloads from the past few months we can see that this number is only going to get bigger. Meanwhile, Vue’s downloads are not as impressive as React’s - a little over 200,000.
 
-![Npm charts](/assets/images/npmcharts.PNG "Npm charts")
+![Npm charts](/_assets/images/npmcharts.PNG "Npm charts")
 
 Next up - StackOverflow. The case here is very similar. The percentage of questions tagged with “ReactJS” is over 4 times higher than “VueJS” showing that the interest in React has been growing much faster, especially throughout 2017.
 
-![Stack Overflow](/assets/images/stack-overflow.png "Stack Overflow")
+![Stack Overflow](/_assets/images/stack-overflow.png "Stack Overflow")
 
 ## **GitHub** contributors
 

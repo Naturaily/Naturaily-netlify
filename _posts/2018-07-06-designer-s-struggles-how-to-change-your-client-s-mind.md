@@ -9,8 +9,8 @@ layout: post
 date: '2018-07-16 02:10:29 +0000'
 category: UX/UI
 author: Agata Zięba
-avatar: /assets/images/agata.jpg
-image: /assets/images/designer.jpg
+avatar: agata.jpg
+image: designer.jpg
 text-preview: >-
   In my experience, when it comes to project design, clients tend to make
   unreasonable decisions based on their inner beliefs, convictions, and
@@ -78,7 +78,7 @@ Conducting detailed research on users that will give your client clear, quantita
 
    Note every small detail about the basis of the project that was made from the very beginning of the development process. It will help you defend the solutions by simply showing where they came from, what were their origins, what may influence them and what will be their result.
 
-![Designer's desk](/assets/images/designer-desk.jpg)
+![Designer's desk](/_assets/images/designer-desk.jpg)
 
 ## Conclusion
 

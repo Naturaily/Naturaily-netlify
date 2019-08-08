@@ -7,8 +7,8 @@ slug: ruby-on-rails-enum
 date: '2018-06-18 10:00:00 +0000'
 category: Ruby on Rails development
 author: Błażej Pichur
-avatar: /assets/images/blazej.png
-image: /assets/images/perfect-enum.jpg
+avatar: blazej.png
+image: perfect-enum.jpg
 text-preview: >-
   When your project starts you probably design ERD diagram or a similar one.
   Then, each time when a client passes new requirements to you it’s necessary to

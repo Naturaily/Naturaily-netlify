@@ -8,8 +8,8 @@ twitter-card: summary_large_image
 date: '2016-10-03 10:38:01 +0000'
 category: Ruby on Rails development
 author: Mikołaj Grygiel
-avatar: /assets/images/claus.jpg
-image: /assets/images/trailblazer.jpg
+avatar: claus.jpg
+image: trailblazer.jpg
 text-preview: >-
   In recent times view components became a really popular web design pattern.
   View component is standalone part of view, which can be used at many views.
@@ -32,7 +32,7 @@ I could just list adventages of cells, but you can find them in the ["documentat
 
 The example is a simple app with CRUD actions for below database.
 
-![trailblazer_one](/assets/images/trailblazer1.png)
+![trailblazer_one](/_assets/images/trailblazer1.png)
 
 Let’s start by creating the app with scaffolds.
   1. ```rails new cells-app```
@@ -53,7 +53,7 @@ We’ve created base app with scaffolds for company, department and employee. No
 
 So, finally we can go to most interesting part – cells implementation. If we list the ```app/views``` we will see that we already have a lot of views:
 
-<img class="post--trailblazer-image" src="/assets/images/trailblazer2.png @path %}' alt="trailblazer-master-tree-view">
+<img class="post--trailblazer-image" src="/_assets/images/trailblazer2.png" alt="trailblazer-master-tree-view">
 
 We will use code from these views in our cells.
 
@@ -75,7 +75,7 @@ We will replace each template with cell. Completed project you can find on ["Git
 
 Firstly, we need to create files structure. ```TableCell``` is built from one ruby file and four erb(html) files. Our cells’ directory should look like below.
 
-<img class="post--trailblazer-image" src="/assets/images/trailblazer3.png @path %}' alt="trailblazer-app-cells-view">
+<img class="post--trailblazer-image" src="/_assets/images/trailblazer3.png" alt="trailblazer-app-cells-view">
 
 ```table_cell.rb``` is the core of our cell, it contains all helpful methods.
 

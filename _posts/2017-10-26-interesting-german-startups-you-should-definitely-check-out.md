@@ -8,8 +8,8 @@ slug: interesting-german-startups
 date: '2017-10-26 10:38:01 +0000'
 category: Startups
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/more-berlin-startups.jpg
+avatar: wojtek.jpg
+image: more-berlin-startups.jpg
 text-preview: >-
   Here’s another portion of interesting, Germany-based startups that are
   definitely worth your attention. If you’re interested check our previous post

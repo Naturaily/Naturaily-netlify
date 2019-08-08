@@ -7,8 +7,8 @@ twitter-card: summary_large_image
 date: '2019-01-24 12:45:21 +0200'
 category: Ruby on Rails development
 author: Klaudia Chudy
-avatar: /assets/images/klaudusia.jpg
-image: /assets/images/chain-of-responsibility-pattern.jpg
+avatar: klaudusia.jpg
+image: chain-of-responsibility-pattern.jpg
 text-preview: >-
   While we were working on a project we stumbled upon some legacy code that
   consists of huge ‘if else’ statements. In this post we’ll show you how we

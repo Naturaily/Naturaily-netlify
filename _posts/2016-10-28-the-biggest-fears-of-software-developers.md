@@ -8,8 +8,8 @@ twitter-card: summary_large_image
 date: '2016-10-28 10:38:01 +0000'
 category: Startups
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/fears.png
+avatar: marcin.jpg
+image: fears.png
 text-preview: >-
   Software development is not a walk in the park. It’s rather a 24-hour run
   through a misty jungle full of spiderwebs and creepy creatures. Developers
@@ -25,67 +25,67 @@ Software development is not a walk in the park. It’s rather a 24-hour run thro
 
 ## 1. BUGs! BUGs! BUGs everywhere :/
 
-  ![bugs](/assets/images/1_BUGs.gif " ")
+  ![bugs](/_assets/images/1_BUGs.gif " ")
 
 ## 2. Imgur blocked!
 
-  ![imgur-blocked](/assets/images/2_imgur.gif " ")
+  ![imgur-blocked](/_assets/images/2_imgur.gif " ")
 
 ## 3. Humorless PM
 
-  ![humorless-pm](/assets/images/3_humorless pm.gif " ")
+  ![humorless-pm](/_assets/images/3_humorless pm.gif " ")
 
 ## 4. Fixing someone's else code
 
-  ![fixing-code](/assets/images/4_fixing.gif " ")
+  ![fixing-code](/_assets/images/4_fixing.gif " ")
 
 ## 5. Deploy on Friday evening
 
-  ![friday-deploy](/assets/images/5_deploy.gif " ")
+  ![friday-deploy](/_assets/images/5_deploy.gif " ")
 
 ## 6. When test fails when run together but passes alone
 
-  ![test-fails](/assets/images/6_tests.gif " ")
+  ![test-fails](/_assets/images/6_tests.gif " ")
 
 ## 7. Perl script using German
 
-  ![perl-script](/assets/images/7_german.gif " ")
+  ![perl-script](/_assets/images/7_german.gif " ")
 
 ## 8. Gitlab loading branches for hours
 
-  ![gitlab-loading](/assets/images/8.gif " ")
+  ![gitlab-loading](/_assets/images/8.gif " ")
 
 ## 9. ASAP (what does it even mean?!)
 
-  ![asap](/assets/images/9_asap.gif " ")
+  ![asap](/_assets/images/9_asap.gif " ")
 
 ## 10. COBOL programming
 
-  ![cobol](/assets/images/10_cobol.gif " ")
+  ![cobol](/_assets/images/10_cobol.gif " ")
 
 ## 11. Boredom
 
-  ![boredom](/assets/images/11_boredom.gif " ")
+  ![boredom](/_assets/images/11_boredom.gif " ")
 
 ## 12. Supporting Internet Explorer
 
-  ![IE](/assets/images/12_IE.gif " ")
+  ![IE](/_assets/images/12_IE.gif " ")
 
 ## 13. Remaining unrecognized
 
-  ![Remaining-unrecognized](/assets/images/13_unrecognized.jpg " ")
+  ![Remaining-unrecognized](/_assets/images/13_unrecognized.jpg " ")
 
 ## 14. Breaking finger!
 
-  ![breaking-fingers](/assets/images/14_fingers.gif " ")
+  ![breaking-fingers](/_assets/images/14_fingers.gif " ")
 
 ## 15. Ties!
 
-  ![ties](/assets/images/15_ties.gif " ")
+  ![ties](/_assets/images/15_ties.gif " ")
 
 ## 16. Hearing “There is a slight change in the requirements”
 
-  ![change-in-requirements](/assets/images/17_change.gif " ")
+  ![change-in-requirements](/_assets/images/17_change.gif " ")
 
 
 What's your biggest fear?

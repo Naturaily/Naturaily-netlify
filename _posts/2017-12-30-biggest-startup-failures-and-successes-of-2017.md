@@ -7,8 +7,8 @@ slug: startup-failures-successes-2017
 date: '2017-12-30 10:38:01 +0000'
 category: Startups
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/rise-and-fall.jpeg
+avatar: wojtek.jpg
+image: rise-and-fall.jpeg
 text-preview: >-
   We’re bringing you the biggest fails of 2017 as well as some startups that you
   should definitely keep an eye on.

@@ -10,8 +10,8 @@ twitter-card: summary_large_image
 date: '2018-10-25 11:00:01 +0200'
 category: Agile
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/four-reasons-why-qa-team.jpg
+avatar: wojtek.jpg
+image: four-reasons-why-qa-team.jpg
 text-preview: >
   The need for Quality Assurance Engineers has been strikingly increasing in the
   past years due to software applications being more demanded than ever. Here

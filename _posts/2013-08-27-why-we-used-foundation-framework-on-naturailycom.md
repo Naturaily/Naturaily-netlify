@@ -57,12 +57,12 @@ Mobile optimised images
 -----------------------
 Mobile devices often come with slower bandwidth. This can be a big issue, especially on portfolio-type sites like Naturaily’s where there are a lot of large images. So instead of using media queries and playing with background images we decided to decrease the load time on smaller devices by employing the Interchange plugin. It lets you define different image sources for any media query, device orientation and pixel density with ease. It comes with couple of named queries that you can use:
 ```html
-<img src="/path/to/small.jpg @path %}' data-interchange="[/path/to/small.jpg, (small)], [/path/to/medium-image.jpg, (medium)] ,[/path/to/large-image.jpg, (large)]">
-<img src="/path/to/landscape.jpg @path %}' data-interchange="[/path/to/landscape.jpg, (landscape)], [/path/to/portrait.jpg, (portrait)]">
+<img src="/path/to/small.jpg" data-interchange="[/path/to/small.jpg, (small)], [/path/to/medium-image.jpg, (medium)] ,[/path/to/large-image.jpg, (large)]">
+<img src="/path/to/landscape.jpg" data-interchange="[/path/to/landscape.jpg, (landscape)], [/path/to/portrait.jpg, (portrait)]">
 ```
 or you can just write your own:
 ```html
-<img src="/path/to/default.jpg @path %}' data-interchange="[/path/to/image.jpg, (screen and only (min-width: 1000px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2))]">
+<img src="/path/to/default.jpg" data-interchange="[/path/to/image.jpg, (screen and only (min-width: 1000px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2))]">
 ```
 
 Mobile friendly navbar

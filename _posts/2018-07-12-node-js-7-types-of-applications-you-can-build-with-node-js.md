@@ -9,8 +9,8 @@ layout: post
 date: '2018-07-30 10:18:26 +0000'
 category: JavaScript development
 author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
-image: /assets/images/node-js-applications.jpg
+avatar: wojciech.jpg
+image: node-js-applications.jpg
 text-preview: >-
   Node.js took IT world by storm, no surprise the number of Node.js applications
   is constantly growing. Here are our top picks of applications built using
@@ -33,7 +33,7 @@ So what types of apps can you build using Node.js? Without further ado, let me p
 
 ## Online payment system
 
-### [![node-js-paypal](/assets/images/node-js-paypal.png)](https://www.paypal.com/us/home){:rel=nofollow} Paypal
+### [![node-js-paypal](/_assets/images/node-js-paypal.png)](https://www.paypal.com/us/home){:rel=nofollow} Paypal
 
 Paypal was co-founded by very well-known entrepreneur Elon Musk. It provides online payment solutions to its users and it is a featured payment method on the e-commerce giant platform - eBay.
 
@@ -41,7 +41,7 @@ The service has over 227 million users and over 7.6 billion payment transactions
 
 ## Social platform
 
-### [![node-js-linkedin](/assets/images/node-js-linkedin.png)](https://www.linkedin.com/){:rel=nofollow} LinkedIn - Professional networking
+### [![node-js-linkedin](/_assets/images/node-js-linkedin.png)](https://www.linkedin.com/){:rel=nofollow} LinkedIn - Professional networking
 
 LinkedIn is the largest business-oriented social media platform. It has over 530 million members. Currently, it takes the 31th place in the Global Ranking by Alexa Internet. LinkedIn development team switched to Node.js for some parts of its back-end system what resulted in much more performant application than ever before.
 
@@ -49,7 +49,7 @@ LinkedIn is the largest business-oriented social media platform. It has over 530
 
 ~ **Kiran Prasad**, Mobile Director of Engineering for LinkedIn
 
-### ![node-js-storify](/assets/images/node-js-storify.png) Storify - social platform for timelines and stories
+### ![node-js-storify](/_assets/images/node-js-storify.png) Storify - social platform for timelines and stories
 
 Storify allowed users to create stories and timelines by using posts from other social media platforms such as Twitter, Facebook and YouTube.
 
@@ -62,7 +62,7 @@ Even though Storify ended its service on the 16th of May, 2018, it used to be a 
 
 ## Streaming service
 
-### [![node-js-netflix](/assets/images/node-js-netflix.png)](https://www.netflix.com/){:rel=nofollow} Netflix - Video on Demand
+### [![node-js-netflix](/_assets/images/node-js-netflix.png)](https://www.netflix.com/){:rel=nofollow} Netflix - Video on Demand
 
 Netflix is one of the biggest streaming services in the World. It is a home for over 5500 titles that are streamed 100 million (!!!) hours a day for around 120 million users in 190 countries.
 
@@ -72,7 +72,7 @@ Since Netflix’s migration from Java to Node.js they experienced significant im
 
 ## E-Commerce platform
 
-### [![node-js-ebay](/assets/images/node-js-ebay.png)](https://www.ebay.com/){:rel=nofollow} eBay
+### [![node-js-ebay](/_assets/images/node-js-ebay.png)](https://www.ebay.com/){:rel=nofollow} eBay
 
 With over 113 million unique visitors every month, 9.6B revenue in 2017 alone, I think it is clear that eBay is one of the e-commerce giants. According to eBay's developers, Node.js has become their front-end web stack and it powers many of their web flows. eBay Engineer Senthil Padmanabhan says that the modern web was built with Node.js in mind and it allows them to benefit from it.
 
@@ -80,13 +80,13 @@ He also mentions how numerous development tools, automation libraries and other 
 
 ## Online publishing platform
 
-### [![node-js-medium](/assets/images/node-js-medium.png)](https://medium.com/){:rel=nofollow} Medium
+### [![node-js-medium](/_assets/images/node-js-medium.png)](https://medium.com/){:rel=nofollow} Medium
 
 Medium is an extremely popular online publishing platform where anyone can publish posts, mostly related to the field they work in. In 2016 alone 7.5M articles were published. In that year, site noted over 60 million unique monthly visitors (140% increase compared to previous year).
 
 According to Stackshare, Medium initially leveraged Node.js to do most of the required work, which they later divided into certain sections for other tools. Node.js still remains as the core of the app, but it is being run in multiple instances.
 
-### [![node-js-wsj](/assets/images/node-js-wsj.png)](https://www.wsj.com/){:rel=nofollow} Wall Street Journal
+### [![node-js-wsj](/_assets/images/node-js-wsj.png)](https://www.wsj.com/){:rel=nofollow} Wall Street Journal
 
 The first time Wall Street Journal development team used Node.js was during the development of an experimental Facebook reader application. It turned out that Node.js met all their expectations.
 
@@ -94,7 +94,7 @@ Amazing results shed a different light on Node.js, developers started to take th
 
 ## E-learning platform
 
-### [![node-js-quizlet](/assets/images/node-js-quizlet.png)](https://quizlet.com/){:rel=nofollow} Quizlet
+### [![node-js-quizlet](/_assets/images/node-js-quizlet.png)](https://quizlet.com/){:rel=nofollow} Quizlet
 
 Quizlet is one of the largest online education platforms in the world. Quizlet takes a bit different approach to education. It teaches via flashcards, various games and quizzes. It has over 200 million flashcard sets generated by users and 30 million active learners.
 
@@ -102,7 +102,7 @@ Quizlet’s CEO Dave Margulius in an interview stated that Node.js allowed them 
 
 ## Project management
 
-### [![node-js-trello](/assets/images/node-js-trello.png)](https://trello.com/){:rel=nofollow} Trello
+### [![node-js-trello](/_assets/images/node-js-trello.png)](https://trello.com/){:rel=nofollow} Trello
 
 Trello is a visual collaboration tools in the world - in various comparisons between similar solutions, it takes the 3rd place and is right behind Slack and G Suite. It is a well-known tool among startups and companies that rely on cooperation. Over **1.1 million users visit Trello every day** and 150,000 join Trello every week.
 

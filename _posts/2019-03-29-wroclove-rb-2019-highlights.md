@@ -10,8 +10,8 @@ twitter-card: summary_large_image
 date: '2019-03-29 04:05:01 +0200'
 category: Events
 author: Beata Twardowska
-avatar: /assets/images/beata.jpg
-image: /assets/images/wrocloverb_highlights.jpeg
+avatar: beata.jpg
+image: wrocloverb_highlights.jpeg
 text-preview: >-
   Wroclove.rb’s main goal is to help Ruby professionals get better at what they
   do. How could we miss such an opportunity and not send a strong representation
@@ -23,7 +23,7 @@ You know you’re dealing with good developers when it’s the first, sunny week
 
 As the organizers say: Wroclove.rb’s main goal is to help Ruby professionals get better at what they do. How could we miss such an opportunity and not send a strong representation of Naturaily? Of course, we did!
 
-![Naturaily team](/assets/images/naturaily-team-wroclove-rb.jpg)
+![Naturaily team](/_assets/images/naturaily-team-wroclove-rb.jpg)
 
 Wroclove.rb in a nutshell:
 

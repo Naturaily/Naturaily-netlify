@@ -8,8 +8,8 @@ slug: react-native-things-to-know
 date: '2017-11-10 10:38:01 +0000'
 category: JavaScript development
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/react-native.jpg
+avatar: wojtek.jpg
+image: react-native.jpg
 text-preview: >-
   The popularity of React Native has skyrocketed for the past 2 years. Meet the
   framework developed by Facebook Team that stands behind Facebook, Instagram,
@@ -66,7 +66,7 @@ A video is worth a thousand words so here’s a comparison between Live Reload a
 **Debugging** - React Native introduces another layer to your application, making debugging more difficult, especially at the intersection of React and the host platform.
 
 
-![react-native-naturaily](/assets/images/react-native-naturaily.png "react-native-naturaily")
+![react-native-naturaily](/_assets/images/react-native-naturaily.png "react-native-naturaily")
 
 
 ## Alternatives to React Native:

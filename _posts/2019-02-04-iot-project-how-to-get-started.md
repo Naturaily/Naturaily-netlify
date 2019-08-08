@@ -10,8 +10,8 @@ twitter-card: summary_large_image
 date: '2019-02-04 09:55:56 +0200'
 category: IoT
 author: Epifany Bojanowska
-avatar: /assets/images/epifany_bojanowska-2.jpg
-image: /assets/images/iot_project_how_to_get_started.png
+avatar: epifany_bojanowska-2.jpg
+image: iot_project_how_to_get_started.png
 text-preview: >-
   So you’re thinking of developing your own IoT (Internet of Things) project but
   have no idea what the process looks like and where you should start? Check out
@@ -29,13 +29,13 @@ An IoT project is the act of connecting any physical object to the Internet to c
 
 Occasionally known as the **Industrial IoT**, the benefits of the IoT for business depend on the particular implementation, but the key is that enterprises should have access to more data about their own products and their own internal systems, and a greater ability to make changes as a result. IoT thrives in improving logistics of transport and production. It helps with tracking inventory, supply, demand and even consumer experience. It’s also extremely useful in developing Smart Cities where it enables monitoring of everything starting with public transport to waste management. It shows immense potential in the field of healthcare - like drug monitoring devices that could ensure patients are taking the correct doses of medication as well as measuring patient’s vitals remotely. Another domain where IoT is gaining popularity in agriculture and meteorology where it enables tracking and gathering information in remote places. 
 
-![smart_city_iot](/assets/images/1.png)
+![smart_city_iot](/_assets/images/1.png)
 
 ## The challenges of developing an IoT Project
 
 Most of the challenges of developing an IoT project stem from lack of knowledge and preparation. Some companies decide to develop it on their own to reduce cost and end up failing, in turn increasing the overall cost of development. Management often underestimate the complexity of the project and don’t take into account the necessary research, testing and time it takes to succeed. Like any project, an IoT one takes time and money to develop. So be prepared to invest both if you want to get it right. 
 
-![iot_project](/assets/images/2.png)
+![iot_project](/_assets/images/2.png)
 
 ## Step by step how to and what not to forget
 
@@ -69,7 +69,7 @@ For your IoT project you will need:
 * Q/A testing experts
 * UX/UI designers.
 
-![iot_project](/assets/images/3.png)
+![iot_project](/_assets/images/3.png)
 
 **Step 4** Build a prototype.
 

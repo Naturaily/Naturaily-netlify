@@ -9,8 +9,8 @@ layout: post
 date: '2018-09-17 12:00:15 +0200'
 category: Frontend development
 author: Bartek Zienkiewicz
-avatar: /assets/images/bartek.jpg
-image: /assets/images/frontend-development-easier-faster.jpg
+avatar: bartek.jpg
+image: frontend-development-easier-faster.jpg
 text-preview: >-
   In this post, I'll share some tips, tricks, and tools I use every day in
   frontend development. So buckle-up, and let’s jump into the vast world of the

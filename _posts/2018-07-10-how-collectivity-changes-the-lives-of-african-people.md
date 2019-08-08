@@ -11,8 +11,8 @@ layout: post
 date: '2018-09-10 11:35:00 +0200'
 category: Naturaily Client
 author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
-image: /assets/images/collectivity.jpg
+avatar: wojciech.jpg
+image: collectivity.jpg
 text-preview: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
   look at how Collectivity, with our help, improves knowledge sharing and

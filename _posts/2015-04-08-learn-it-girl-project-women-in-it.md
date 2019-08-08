@@ -8,8 +8,8 @@ slug: women-in-it
 date: '2015-04-08 10:38:01 +0000'
 category: Diversity
 author: Agnieszka Bugajska
-avatar: /assets/images/aga.png
-image: /assets/images/learn_it_girl.jpg
+avatar: aga.png
+image: learn_it_girl.jpg
 text-preview: >-
   There are many different non-profit international IT projects, where women can
   learn how to program in various programming languages such as JavaScrip, Java,

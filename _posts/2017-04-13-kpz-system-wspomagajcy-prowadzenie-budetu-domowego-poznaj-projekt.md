@@ -8,8 +8,8 @@ slug: kpz-projekt-wspomaganie-budzetu-domowego
 date: '2017-04-13 10:38:01 +0000'
 category: Events
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/kpz-2-system-do-budzetu-domowego.jpg
+avatar: marcin.jpg
+image: kpz-2-system-do-budzetu-domowego.jpg
 text-preview: >-
   Celem  projektu jest stworzenie systemu wspomagającego prowadzenie budżetu
   domowego, który będzie umożliwiał automatyczne dodawanie wydatków za pomocą

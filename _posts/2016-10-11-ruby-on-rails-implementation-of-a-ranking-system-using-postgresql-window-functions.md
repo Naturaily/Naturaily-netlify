@@ -9,8 +9,8 @@ slug: ranking-system-implementation-postgresql
 date: '2016-10-11 10:38:01 +0000'
 category: Ruby on Rails development
 author: Patryk Szeliga
-avatar: /assets/images/ciabos.jpg
-image: /assets/images/rails-elephant.jpg
+avatar: ciabos.jpg
+image: rails-elephant.jpg
 text-preview: >-
   Hello, this article will show, how easily you can add ranking functionality to
   your project.
@@ -126,7 +126,7 @@ end
 
 With templates specified earlier, we see something like this when we visit our ```Posts#index```:
 
-![ranking-1](/assets/images/ranking-1.png "ranking-1")
+![ranking-1](/_assets/images/ranking-1.png "ranking-1")
 
 Of course you might want something prettier than plain number.
 With a little effort, you can change it to something cool, for example stars.
@@ -146,7 +146,7 @@ With one small change in our partial file ```_post.html.erb```, like this:
 
 I've achieved result like this:
 
-![ranking-2](/assets/images/ranking-2.png "ranking-2")
+![ranking-2](/_assets/images/ranking-2.png "ranking-2")
 
 Pros of this approach:
 

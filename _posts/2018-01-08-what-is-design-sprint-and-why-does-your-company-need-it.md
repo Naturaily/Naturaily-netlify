@@ -7,8 +7,8 @@ slug: what-is-design-sprint
 date: '2018-01-08 10:38:01 +0000'
 category: Agile
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/google-sprint.jpg
+avatar: wojtek.jpg
+image: google-sprint.jpg
 text-preview: >-
   It is very common for clients to not know what kind of product they want to
   build exactly, especially when it comes to start-ups. At Naturaily, clients

@@ -7,8 +7,8 @@ slug: finance-banking-startups-uk-2017
 date: '2017-12-15 10:38:01 +0000'
 category: Startups
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/uk-banking.jpg
+avatar: wojtek.jpg
+image: uk-banking.jpg
 text-preview: >-
   Despite Brexit London still remains as one of the biggest hubs and places for
   your startup. This list covers the most interesting London-based finance

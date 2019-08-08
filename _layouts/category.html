@@ -11,13 +11,13 @@ layout: default
           {% for post in site.categories[page.filter_category] %}
             <div class="post-preview">
               <a class="post-link" href="{{ post.url | relative_url }}">
-                {% if post.image %}
-                  <img src="{% asset loader.gif @path %}" data-src="{{post.image}}" alt="Post image" class="post-image" asset>
+                {% if assets[page.image] %}
+                  <img src="{% asset loader.gif @path %}" data-src="{% asset '{{ page.image }}' @path %}" alt="Post image">
                 {% endif %}
               </a>
               <div class="post-meta">
-                {% if post.avatar %}
-                  <img src="{% asset loader.gif @path %}" data-src="{{ post.avatar }}" alt="Post author" class="avatar" asset>
+                {% if assets[page.avatar] %}
+                  <img src="{% asset loader.gif @path %}" data-src="{% asset '{{ page.avatar }}' @path %}" alt="Avatar" class="avatar">
                 {% endif %}
                 <p class="author">
                   {% if post.author %}

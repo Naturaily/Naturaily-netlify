@@ -9,8 +9,8 @@ twitter-card: summary_large_image
 date: '2018-11-09 12:50:51 +0200'
 category: Agile
 author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
-image: /assets/images/12-management-collaboration-tools-startups.jpg
+avatar: wojciech.jpg
+image: 12-management-collaboration-tools-startups.jpg
 text-preview: >-
   So you have founded a startup. It wasn’t easy, was it? How about making your
   work a little bit easier? Don’t let tedious and recurring tasks drive you away
@@ -39,7 +39,7 @@ Check it out here: [Monday](https://monday.com/){:rel=nofollow}
 
 ## Carrd.co - Easy website builder
 
-![carrd-co-website-builder-demo](/assets/images/carrd-co-demo.jpg)
+![carrd-co-website-builder-demo](/_assets/images/carrd-co-demo.jpg)
 
 Do you need a simple and beautiful website for cheap? Are you looking for easy-to-use tools that will help you create an amazing UI for your visitors? Check out `carrd.co`. It’s a free tool that allows users to create modern-looking websites with ease - no programming knowledge needed!  With additional 9$/year you get premium features such as SSL support [now crucial for SEO](https://moz.com/blog/half-page-one-google-results-https){:rel=nofollow}, custom domain name, Google Analytics integration and many more.
 
@@ -93,7 +93,7 @@ Now that we have those out of the way, let’s dive deep into some **obvious one
 
 ## Trello
 
-![trello-board-management-tool](/assets/images/trello-board.jpg)
+![trello-board-management-tool](/_assets/images/trello-board.jpg)
 
 Trello is a web-based project management application that can significantly improve the workflow of your team. Create cards, fill them with tasks and assign your team members to them. Simple, easy and convenient, just like an online whiteboard. This solution is extremely popular among not only development teams, but also schools and real estate agents.
 

@@ -7,8 +7,8 @@ slug: books-for-beginner-developers
 date: '2016-12-05 10:38:01 +0000'
 category: Startups
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/recommended-books.jpg
+avatar: marcin.jpg
+image: recommended-books.jpg
 text-preview: >-
   When you're a newbie in the complex code world and crave for knowledge, good
   resources are key to success. Blogs, forums, dev meetings - where to start?
@@ -33,7 +33,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/1_Clean_Code_A_Handbook_of_Agile_Software_Craftsmanship.png @path %}'>
+    <img class="android-image" src="/_assets/images/1_Clean_Code_A_Handbook_of_Agile_Software_Craftsmanship.png">
 
     <div class="recomended-book-text">
       <p>
@@ -55,7 +55,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/2_Practical_Object_Oriented_Design_in_Ruby.png @path %}'>
+    <img class="android-image" src="/_assets/images/2_Practical_Object_Oriented_Design_in_Ruby.png">
 
     <div class="recomended-book-text">
       <p>
@@ -77,7 +77,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/3_The_Clean_Coder_A_Code_of_Conduct_for_Professional_Programmers .png @path %}'>
+    <img class="android-image" src="/_assets/images/3_The_Clean_Coder_A_Code_of_Conduct_for_Professional_Programmers .png">
 
     <div class="recomended-book-text">
       <p>
@@ -99,7 +99,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/4_Refactoring_ Improving_the_Design_of_Existing_Code.png @path %}'>
+    <img class="android-image" src="/_assets/images/4_Refactoring_ Improving_the_Design_of_Existing_Code.png">
 
     <div class="recomended-book-text">
       <p>
@@ -121,7 +121,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/5_Eloquent_JavaScript.png @path %}'>
+    <img class="android-image" src="/_assets/images/5_Eloquent_JavaScript.png">
 
     <div class="recomended-book-text">
       <p>
@@ -143,7 +143,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/6_Management_3.0__Leading_Agile_Developers,_Developing_Agile_Leaders.png @path %}'>
+    <img class="android-image" src="/_assets/images/6_Management_3.0__Leading_Agile_Developers,_Developing_Agile_Leaders.png">
 
     <div class="recomended-book-text">
       <p>
@@ -165,7 +165,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/7_CSS_Secrets_Better_Solutions_to_Everyday_Web_Design_Problems.png @path %}'>
+    <img class="android-image" src="/_assets/images/7_CSS_Secrets_Better_Solutions_to_Everyday_Web_Design_Problems.png">
 
     <div class="recomended-book-text">
       <p>

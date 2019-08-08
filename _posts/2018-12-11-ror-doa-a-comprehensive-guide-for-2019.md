@@ -9,8 +9,8 @@ twitter-card: summary_large_image
 date: '2019-01-15 11:45:05 +0200'
 category: Ruby on Rails development
 author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
-image: /assets/images/ror_doa_2019.png
+avatar: wojciech.jpg
+image: ror_doa_2019.png
 text-preview: >-
   Let’s face it. Ruby on Rails is old. Really old. But judging by the changes
   that happen on the tech market it’s an extremely mature technology, so it
@@ -42,13 +42,13 @@ Now, a few years later we ask ourselves a question. Is Ruby on Rails really dead
 
 ### StackOverflow
 
-![ruby-on-rails-stackoverflow-trends](/assets/images/ruby-on-rails-stackoverflow-trends.jpg)
+![ruby-on-rails-stackoverflow-trends](/_assets/images/ruby-on-rails-stackoverflow-trends.jpg)
 
 Let’s start with some data from StackOverflow. We can clearly see a significant decrease in community engagement from Ruby and Ruby on Rails compared to Node.js. Yet, Node.js’ community is continuously growing and getting highly popular. Interest in Ruby on Rails framework and Ruby language is closer to 0% than ever before. 
 
 ### StackOverflow Developer Survey
 
-![ruby-on-rails-stackoverflow-survey-2018](/assets/images/ruby-on-rails-stackoverflow-survey-2018.jpg){:.float}
+![ruby-on-rails-stackoverflow-survey-2018](/_assets/images/ruby-on-rails-stackoverflow-survey-2018.jpg){:.float}
 
 StacOverflow's annual tradition is to ask developers what they think about certain programming languages themselves and the industry in general. With that, one of the questions was what programming language do they use at work and the results are visible above.
 
@@ -62,7 +62,7 @@ According to the results from the same survey, globally Ruby developers have a s
 
 Things look a bit different if we focus only on the United States.
 
-![ruby-on-rails-salary-indeed-com](/assets/images/ruby-on-rails-salary-indeed.jpg)
+![ruby-on-rails-salary-indeed-com](/_assets/images/ruby-on-rails-salary-indeed.jpg)
 
 You can clearly see that Ruby developer is still one of the highest paying jobs in this category but the number of available positions are getting lower and lower. There are nearly 2-times more open positions for a Node JS developer than there is for a Ruby on Rails developer. 
 
@@ -76,13 +76,13 @@ Chances are that you will be assembling your development team from scratch. From
 
 8th place in June of 2018.
 
-![redmonk-ruby](/assets/images/redmonk-ruby.png)
+![redmonk-ruby](/_assets/images/redmonk-ruby.png)
 
 RedMonk takes GitHub and StackOverflow interest in the language and then compares it with all other major languages. We can clearly see that Ruby is far from being dead as many of doomsayers tend to say. With Ruby being kind of at the top we can conclude that it is still a popular language used to develop tools and apps. But don’t get too excited. 
 
 **GitHub Stats**
 
-![github-osctoverse-ruby-on-rails](/assets/images/github-octoverse-ruby-on-rails.jpg){:.float}
+![github-osctoverse-ruby-on-rails](/_assets/images/github-octoverse-ruby-on-rails.jpg){:.float}
 
 This comparison shows how popular a certain language is among GitHub contributors - in other words, how many repositories are developed in a certain technology. It’s quite clear who’s the real winner. As we can see, fewer and fewer projects opt for Ruby. Even though it is still in the top 10 most popular languages out there, it’s used less and less each year.
 

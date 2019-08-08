@@ -8,8 +8,8 @@ slug: diet-rails
 date: '2014-08-19 10:38:01 +0000'
 category: Ruby on Rails development
 author: Przemysław Świercz
-avatar: /assets/images/swierszcz.png
-image: /assets/images/railsondiet.jpg
+avatar: swierszcz.png
+image: railsondiet.jpg
 text-preview: >-
   More and more apps are being created with an API support. Growing popularity
   of Angular.js and Backbone.js makes it even more important part of new

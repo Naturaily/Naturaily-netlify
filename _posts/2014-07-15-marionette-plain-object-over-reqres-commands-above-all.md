@@ -7,8 +7,8 @@ slug: marionette-tutorial-objects-commands
 date: '2014-07-15 10:38:01 +0000'
 category: JavaScript development
 author: Maciej Kucharski
-avatar: /assets/images/maciek.png
-image: /assets/images/marionette.jpg
+avatar: maciek.png
+image: marionette.jpg
 text-preview: >-
   A brief introduction to Marionette’s reqres ( request-response ) and commands
   would be that they are application (or module) level event aggregators that

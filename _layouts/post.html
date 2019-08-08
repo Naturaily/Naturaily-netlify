@@ -5,12 +5,12 @@ layout: default
 <div class="l-content l-blog">
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
-      {% if page.image %}
-        <img src="{% asset loader.gif @path %}" data-src="{{page.image}}" alt="Post image" asset>
-      {% endif %}
+        {% if assets[page.image] %}
+          <img src="{% asset loader.gif @path %}" data-src="{% asset '{{ page.image }}' @path %}" alt="Post image">
+        {% endif %}
       <div class="post-meta">
-        {% if page.avatar %}
-          <img src="{% asset loader.gif @path %}" data-src="{{ page.avatar }}" alt="Author avatar" class="avatar" asset>
+        {% if assets[page.avatar] %}
+          <img src="{% asset loader.gif @path %}" data-src="{% asset '{{ page.avatar }}' @path %}" alt="Avatar" class="avatar">
         {% endif %}
         <p class="author">
           {% if page.author %}

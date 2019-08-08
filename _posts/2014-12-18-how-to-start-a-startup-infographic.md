@@ -7,8 +7,8 @@ slug: how-to-start-startup
 date: '2014-12-18 10:38:01 +0000'
 category: Startups
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/startup-info.jpg
+avatar: marcin.jpg
+image: startup-info.jpg
 text-preview: >-
   Wondering how to start a startup? There are few ways. Building it on your own
   (if you have proper skills), going to the accelerators and outsourcing the
@@ -24,4 +24,4 @@ Wondering how to start a startup? There are few ways. Building it on your own (i
 
 
 
-![infostartup](/assets/images/info-startup.jpg "Info-startup")
+![infostartup](/_assets/images/info-startup.jpg "Info-startup")

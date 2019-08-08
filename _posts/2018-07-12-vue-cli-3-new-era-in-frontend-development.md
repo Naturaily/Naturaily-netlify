@@ -9,8 +9,8 @@ layout: post
 date: '2018-07-23 12:26:02 +0000'
 category: JavaScript development
 author: Tomasz Żdanuk
-avatar: /assets/images/tomasz.jpg
-image: /assets/images/vue-js-cli.jpg
+avatar: tomasz.jpg
+image: vue-js-cli.jpg
 text-preview: >-
   Vue.js gets better and better with each update but this time, the inclusion of
   zero config setup for Vue apps in Vue CLI 3 sets a new standard in the
@@ -67,7 +67,7 @@ Plugins which you can choose:
 * Unit Testing
 * E2E Testing
 
-![vue-cli-3-built-in-features](/assets/images/vue-cli-3-built-in-features.jpg)
+![vue-cli-3-built-in-features](/_assets/images/vue-cli-3-built-in-features.jpg)
 
 ### No need to eject
 
@@ -97,7 +97,7 @@ Globally installed Vue CLI 3 allows you to serve .js or .vue files, just using '
 
 Quite a cool feature in the new CLI is also Graphical User Interface. If you are not a huge fan of typing in the console and you prefer more "windows" style configuration that's probably a great feature for you.
 
-![vue-cli-3-gui](/assets/images/vue-cli-3-gui.jpg)
+![vue-cli-3-gui](/_assets/images/vue-cli-3-gui.jpg)
 
 ### Environment Variables and Modes
 

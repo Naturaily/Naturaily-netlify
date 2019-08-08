@@ -8,8 +8,8 @@ slug: ruby-on-rails-background-services
 date: '2016-11-04 10:38:01 +0000'
 category: Ruby on Rails development
 author: Jan Wieczorkowski
-avatar: /assets/images/janpol.png
-image: /assets/images/random_console.png
+avatar: janpol.png
+image: random_console.png
 text-preview: >-
   Some time ago [Marcin wrote about basic design patterns in Ruby on
   Rails](http://naturaily.com/blog/post/basic-design-patterns-in-ruby-on-rails).

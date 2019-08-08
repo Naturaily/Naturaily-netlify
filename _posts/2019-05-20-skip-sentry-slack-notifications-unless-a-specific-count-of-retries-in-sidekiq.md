@@ -13,14 +13,13 @@ twitter-card: >-
 date: '2019-05-20 09:36:13 +0200'
 category: Ruby on Rails development
 author: Arek Poczobut
-avatar: /assets/images/arek.jpg
-image: >-
-  /assets/images/how-to-skip-sentry-slack-notifications-until-a-specific-count-of-retries-in-sidekiq.jpg
+avatar: arek.jpg
+image: how-to-skip-sentry-slack-notifications-until-a-specific-count-of-retries-in-sidekiq.jpg
 text-preview: >-
   We’ve been working on integrations of many different warehouse systems with
   the Shopify platform. All data exchange between them utilizes Sidekiq workers’
   background jobs. Generally, we want to be notified about the first occurrence
-  of an error. So most exceptions are caught by Raven and sent to Sentry. 
+  of an error. So most exceptions are caught by Raven and sent to Sentry.
 tags:
   - Ruby on Rails development
 ---
@@ -38,7 +37,7 @@ Sidekiq.configure_server do |config|
 end
 ```
 
-We want to delay some specific network/api errors, so let’s define an array that contains some of them. 
+We want to delay some specific network/api errors, so let’s define an array that contains some of them.
 
 ```ruby
 SILENT_RETRY_ERRORS = [

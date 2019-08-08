@@ -9,8 +9,8 @@ layout: post
 date: '2018-08-27 11:55:08 +0200'
 category: Ruby on Rails development
 author: Arek Poczobut
-avatar: /assets/images/arek.jpg
-image: /assets/images/rails-elastic-aggregation-drapper.jpg
+avatar: arek.jpg
+image: rails-elastic-aggregation-drapper.jpg
 text-preview: >
   Have you ever wanted to calculate how many articles will be left in a certain
   category after search? In this blogpost, I will show you how to use elastic
@@ -253,7 +253,7 @@ Now we can take care of searching and aggregates.
 
 ### Oh look! We're halfway through the post! Here's a picture of a cute kitten:
 
-![cate](/assets/images/kitten.jpg)
+![cate](/_assets/images/kitten.jpg)
 
 Add a simple class for the search form:
 

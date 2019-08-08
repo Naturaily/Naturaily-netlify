@@ -8,8 +8,8 @@ layout: post
 date: '2018-09-03 09:29:02 +0200'
 category: Ruby on Rails development
 author: Tomasz Żdanuk
-avatar: /assets/images/tomasz.jpg
-image: /assets/images/value-based-pagination.jpg
+avatar: tomasz.jpg
+image: value-based-pagination.jpg
 text-preview: >-
   This is a quick tutorial that will show you how to properly handle value-based
   pagination in Ruby on Rails and where to use it.
@@ -35,7 +35,7 @@ The main principle of their work is quite simple: get _n_ records with _m_ offse
 
 ## Issues with ‘offset’ pagination
 
-<img src="/assets/images/value-based-pagination-offset.png @path %}' alt="value-based-pagination-offset" height="100%" width="100%">
+<img src="/_assets/images/value-based-pagination-offset.png" alt="value-based-pagination-offset" height="100%" width="100%">
 
 For many basic situations this approach is good enough so don't be afraid to use it in your projects if it suits your needs! But... (there is always ‘a but’) in situations when:
 
@@ -50,7 +50,7 @@ SQL `OFFSET` is a very time-consuming method, the more records your database con
 
 One more real-life situation, where value-based pagination in Rails fits perfectly is SPA chat messages infinite scroll. In a situation when new messages arrive constantly without reloading the page, traditional pagination may have a problem with getting proper results on the first shot. I have tested this in real life app! Time based pagination seems to work really good in this scenario, at least it is much more reliable than a traditional pagination, for sure!
 
- <img src="/assets/images/value-based-pagination-where.png @path %}' alt="value-based-pagination-where" height="100%" width="100%"> 
+ <img src="/_assets/images/value-based-pagination-where.png" alt="value-based-pagination-where" height="100%" width="100%"> 
 
 I've made a very simple benchmark of these two methods to test how big of a time difference we are talking about.
 
@@ -60,11 +60,11 @@ In the first scenario, I was requesting the last page in offset pagination, and 
 
 In **value based pagination** loading data time is constant, just take a look at screenshots.
 
-![value-based-pagination-offset-1](/assets/images/value-based-pagination-value-1.png)
+![value-based-pagination-offset-1](/_assets/images/value-based-pagination-value-1.png)
 
-![value-based-pagination-offset-2](/assets/images/value-based-pagination-value-2.png)
+![value-based-pagination-offset-2](/_assets/images/value-based-pagination-value-2.png)
 
-![value-based-pagination-offset-3](/assets/images/value-based-pagination-value-3.png)
+![value-based-pagination-offset-3](/_assets/images/value-based-pagination-value-3.png)
 
 As you've probably guessed, **offset pagination** is dependent on the amount and the location of data. 
 
@@ -72,11 +72,11 @@ If it is located at the end of the data set then the database has to go through 
 
 If the data is right at the beginning then the pagination can access it right away.
 
-![value-based-pagination-offset-1](/assets/images/value-based-pagination-offset-1.png)
+![value-based-pagination-offset-1](/_assets/images/value-based-pagination-offset-1.png)
 
-![value-based-pagination-offset-2](/assets/images/value-based-pagination-offset-2.png)
+![value-based-pagination-offset-2](/_assets/images/value-based-pagination-offset-2.png)
 
-![value-based-pagination-offset-3](/assets/images/value-based-pagination-offset-3.png)
+![value-based-pagination-offset-3](/_assets/images/value-based-pagination-offset-3.png)
 
 As you can see from the screenshots, for the very first pages, offset pagination has very similar results as the value based pagination. The biggest differences are on the end of the collection, to retrieve the last 200 elements, **offset pagination needed 262ms**, where `WHERE` pagination had constant **0.5ms results**. The difference is **huge**.
 

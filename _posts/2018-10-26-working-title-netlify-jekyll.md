@@ -9,8 +9,8 @@ twitter-card: summary_large_image
 date: '2018-10-31 10:40:17 +0200'
 category: Ruby on Rails development
 author: Paweł Cybulski
-avatar: /assets/images/lighto.jpg
-image: /assets/images/netlify-jekyll.jpg
+avatar: lighto.jpg
+image: netlify-jekyll.jpg
 text-preview: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
   result of that love.
@@ -55,21 +55,21 @@ So choosing Netlify seemed like a good idea though there still was the case of j
 
 What’s this Editorial Workflow all about actually? It gives our content creators ability to write content (posts, case studies, testimonials and such), request changes, edit it and then, when it’s ready, publish it. Thanks to the way Netlify CMS implements that, each post, testimonial, etc. can be published without any involvement from a developer, but the cool thing about this is that before going live our changes can be previewed on a separate site which is deployed by Netlify out of the box.
 
-![null](/assets/images/netlify-editorial-workflow.png)
+![null](/_assets/images/netlify-editorial-workflow.png)
 
 ## Admin
 
 To fully utilise Netlify and for Editorial Workflow to actually work we have to first make Netlify CMS work and making that happen can’t be simpler. We just have to add `admin` folder in our project, few files, some javascript snippet and we’re set. This gives us access to admin panel like so: [www.netlify-example.com/admin](http://www.netlify-example.com/admin){:rel="nofollow"}. In there we have a list of collections we can edit, workflow tab and assets uploaded. Thanks to Netlify we can manage who can access our admin page with [Identity](https://www.netlify.com/docs/identity/){:rel="nofollow"}.
 
-![netlify-admin](/assets/images/netlify-admin.jpg)
+![netlify-admin](/_assets/images/netlify-admin.jpg)
 
 ## Widgets
 
 In my opinion widgets are the main awesomeness of using Netlify CMS. They give use power to make any page editable through the admin panel, pretty much anything can be edited there. It gives our content creators an ability to set name of  url, title and description, add images, change layouts, and anything else you may think about.
 
-![null](/assets/images/netlify-widget-1.jpg)
+![null](/_assets/images/netlify-widget-1.jpg)
 
-![null](/assets/images/netlify-widget-2.jpg)
+![null](/_assets/images/netlify-widget-2.jpg)
 
 ## Is that all?
 

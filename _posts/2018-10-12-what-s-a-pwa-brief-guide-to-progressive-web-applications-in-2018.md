@@ -11,8 +11,8 @@ twitter-card: summary_large_image
 date: '2019-01-04 09:00:45 +0200'
 category: Frontend development
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/pwa-guide-2018.png
+avatar: wojtek.jpg
+image: pwa-guide-2018.png
 text-preview: >-
   Many say that PWAs will be the new standard in the future world of mobile
   apps, and they're probably right! With tech giants behind it, Progressive Web

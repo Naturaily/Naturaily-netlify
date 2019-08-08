@@ -9,8 +9,8 @@ twitter-card: summary_large_image
 date: '2018-12-10 12:28:16 +0200'
 category: Recruitment
 author: Epifany Bojanowska
-avatar: /assets/images/epifany_bojanowska-2.jpg
-image: /assets/images/5-tips-survive-open-space-office-work.jpg
+avatar: epifany_bojanowska-2.jpg
+image: 5-tips-survive-open-space-office-work.jpg
 text-preview: >
   There is no doubt that office design plays an important role in how a company
   operates daily. The layout of a workspace holds several vital implications for

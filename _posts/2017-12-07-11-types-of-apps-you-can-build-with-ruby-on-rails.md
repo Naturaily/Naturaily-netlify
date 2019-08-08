@@ -7,8 +7,8 @@ slug: ruby-on-rails-apps
 date: '2017-12-07 10:38:01 +0000'
 category: Ruby on Rails development
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
-image: /assets/images/ruby-is-cool.png
+avatar: wojtek.jpg
+image: ruby-is-cool.png
 text-preview: >-
   Wondering what platform to use for your next startup project? When it comes to
   building MVPs, Ruby on Rails still remains the king of frameworks but not only

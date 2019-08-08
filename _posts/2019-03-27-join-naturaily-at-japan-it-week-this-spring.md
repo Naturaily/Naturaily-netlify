@@ -10,8 +10,8 @@ twitter-card: summary_large_image
 date: '2019-03-27 12:30:12 +0200'
 category: Events
 author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
-image: /assets/images/japan_it_week_header_post.jpeg
+avatar: wojciech.jpg
+image: japan_it_week_header_post.jpeg
 text-preview: >-
   We're extremely excited to announce that the next stop on our ongoing
   Naturaily On Tour is the Japan IT Week! Join us at the most exciting Expo this
@@ -38,7 +38,7 @@ Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec
 
 ## LVCloud
 
-![LVCloud](/assets/images/lvcloud.png)
+![LVCloud](/_assets/images/lvcloud.png)
 
 We will be presenting our own [IoT development](https://naturaily.com/project/lvcloud) case study - LVCloud. It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed. 
 
@@ -47,4 +47,4 @@ You can learn more about LVCloud and our other projects in the [Portfolio](https
 ## Naturaily on Tour
 
 Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour). 
-![Naturaily on Tour Map](/assets/images/natu_on_tour_map.jpeg)
+![Naturaily on Tour Map](/_assets/images/natu_on_tour_map.jpeg)

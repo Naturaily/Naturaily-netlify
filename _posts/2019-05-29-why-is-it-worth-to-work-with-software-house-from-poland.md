@@ -11,8 +11,8 @@ twitter-card: >-
 date: '2019-05-29 08:46:38 +0200'
 category: Software development
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/why-is-it-worth-to-work-with-a-software-house-from-poland.png
+avatar: marcin.jpg
+image: why-is-it-worth-to-work-with-a-software-house-from-poland.png
 text-preview: >
   There are over 100,000 software companies around the world and some predict
   the number will increase to 1 million by 2027. A lot of them are software
@@ -34,7 +34,8 @@ tags:
 * We have the right **communication skills** and a good knowledge of English.
 * Our **hourly rates are very competitive** in comparison to the cost of hiring a development team from the US or Western Europe.
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate)
+[![Get an estimate](/_assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate)
+
 
 
 ## Challenges related to the in-house software development

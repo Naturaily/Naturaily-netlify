@@ -9,8 +9,8 @@ twitter-card: summary_large_image
 date: '2018-08-06 10:42:09 +0000'
 category: JavaScript development
 author: Tomasz Żdanuk
-avatar: /assets/images/tomasz.jpg
-image: /assets/images/pwa-vue-cli-3.jpg
+avatar: tomasz.jpg
+image: pwa-vue-cli-3.jpg
 text-preview: >-
   In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin
   as one of the greatest features in my opinion. In this post, I'd like to
@@ -90,14 +90,14 @@ Vue CLI 3.0 and PWA plugin would create default `manifest.json` file for you, bu
   "short_name": "pwa",
   "icons": [
     {
-      "src": "/img/icons/android-chrome-192x192.png @path %}',
+      "src": "/img/icons/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image.png @path %}'
+      "type": "image.png"
     },
     {
-      "src": "/img/icons/android-chrome-512x512.png @path %}',
+      "src": "/img/icons/android-chrome-512x512.png",
       "sizes": "512x512",
-      "type": "image.png @path %}'
+      "type": "image.png"
     }
   ],
   "start_url": "/index.html",

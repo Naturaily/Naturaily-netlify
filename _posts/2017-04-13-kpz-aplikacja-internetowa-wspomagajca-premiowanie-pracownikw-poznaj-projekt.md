@@ -9,8 +9,8 @@ slug: kpz-projekt-premiowanie-pracownikow
 date: '2017-04-13 10:38:01 +0000'
 category: Events
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/kpz-4-aplikacja-hr.jpg
+avatar: marcin.jpg
+image: kpz-4-aplikacja-hr.jpg
 text-preview: >-
   Celem projektu jest zaimplementowanie aplikacji internetowej, która ma zadanie
   wspierać firmy w działaniach z zakresu HR i employer brandingu, w tym

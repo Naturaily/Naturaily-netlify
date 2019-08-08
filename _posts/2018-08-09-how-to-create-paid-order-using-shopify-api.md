@@ -11,8 +11,8 @@ twitter-card: summary_large_image
 date: '2018-09-24 12:30:25 +0200'
 category: Ruby on Rails development
 author: Piotrek Musielak
-avatar: /assets/images/piotrek-musielak.jpg
-image: /assets/images/paid-order-shopify-api.jpg
+avatar: piotrek-musielak.jpg
+image: paid-order-shopify-api.jpg
 text-preview: >-
   Creating an order using Shopify API with status set to 'paid' might be
   somewhat a tough and tricky task. Surprisingly, this is not a practical or a

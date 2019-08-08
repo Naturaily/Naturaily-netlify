@@ -7,8 +7,8 @@ twitter-card: summary_large_image
 date: '2018-11-28 11:15:00 +0200'
 category: Native mobile development
 author: Epifany Bojanowska
-avatar: /assets/images/epifany_bojanowska-2.jpg
-image: /assets/images/ways-to-develop-mobile-apps.jpg
+avatar: epifany_bojanowska-2.jpg
+image: ways-to-develop-mobile-apps.jpg
 text-preview: >-
   So you have a mobile app you would like to build. The first question you need
   to ask yourself is what kind of app is it going to be? Native? Hybrid? Web?

@@ -7,8 +7,8 @@ slug: kpz-projekt-inteligentny-dom
 date: '2017-04-13 10:30:01 +0000'
 category: Events
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/kpz-3-pomiar-parametrow.jpg
+avatar: marcin.jpg
+image: kpz-3-pomiar-parametrow.jpg
 text-preview: >-
   Celem projektu jest stworzenie systemu mierzącego różne parametry, takie jak:
   temperatura i wilgotność powietrza oraz stężenie pyłów w powietrzu.

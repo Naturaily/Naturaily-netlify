@@ -8,8 +8,8 @@ twitter-card: summary_large_image
 date: '2016-11-09 10:38:01 +0000'
 category: Startups
 author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
-image: /assets/images/fin-tech.png
+avatar: marcin.jpg
+image: fin-tech.png
 text-preview: >-
   Fin-tech is a term which conveys the inevitable marriage of **fi**nance and
   **tech**. It also serves as a convenient handle for the technological
@@ -46,7 +46,7 @@ Under the hood, online payments involve a simple, predictable and secure settlem
 So, how does it really work? Typically, when a sum of money is transferred, automated clearinghouse exchanges messages between the sending and receiving banks, confirming that the value has been transferred before any money physically changes hands. The result? While the actual settlement process between banks may take up to several days, for the end users the payment is virtually unnoticeable, and the purchase takes mere seconds.
 
 
-![Paypal-online-payments](/assets/images/1_PayPalZ.png)
+![Paypal-online-payments](/_assets/images/1_PayPalZ.png)
 <p class="text-center">
   <a href="https://www.paypal.com/us/webapps/mpp/home">Source</a>
 </p>
@@ -58,7 +58,7 @@ Platforms like **TransferWise** offer a fast, reliable affordable way to send mo
 
 TransferWise can bypass horrendous international transfer fees imposed by banks, allowing for more affordable international money transfers. How is this even possible? It is all about a really smart algorithm. The idea is quite simple: instead of making one international transfer, two local transfers are made, allowing to avoid cross-country transfers and thus bypass unnecessary cost. Rather than transferring the sender's money directly to the recipient’s account abroad, TransferWise routes the money to the recipient of another transfer going in the opposite direction. Conversely, the recipient of the transfer receives a payment not from the actual sender initiating the transfer, but from the sender of the equivalent transfer in the opposite direction. This is how it works under the hood, but makes no visible difference to the user of the service.
 
-![transferwise-international-transfers](/assets/images/2 transferwise.PNG)
+![transferwise-international-transfers](/_assets/images/2 transferwise.PNG)
 <p class="text-center">
   <a href="https://transferwise.com">Source</a>
 </p>
@@ -77,7 +77,7 @@ Robo-advisers are no marketing gimmick or a temporary fad. They are the next big
 Robo-adviser newcomers still trail behind traditional banks and traditional asset managers in terms of combined assets, with less than $20 billion under robo management compared to the massive $17 trillion for traditional managers (yes, that’s a trillion). But importance of this sector of fin-tech can not be underestimated, as this number is said to double every couple of months, which cannot be said for the traditional asset management market.
 
 
-![betterment-smart-investments](/assets/images/3_betterment.PNG)
+![betterment-smart-investments](/_assets/images/3_betterment.PNG)
 <p class="text-center">
   <a href="https://www.betterment.com/why-betterment">Source</a>
 </p>
@@ -91,7 +91,7 @@ Fin-tech revolution has decentralised the financial market and spurred a wave of
 Having to wait for months on end for a client to pay your outstanding invoice is a strain on every small business, often putting it at the risk of insolvency. MarketInvoice is a smart service which helps small and medium-sized businesses to unlock these “frozen” funds from all unpaid invoices and convert them into working capital. The platform allows companies to trade outstanding invoices with investors who advance cash against these future payments in exchange for a fee. To date, the company has “unlocked” over £500 million in outstanding invoices, and that’s for UK businesses alone.
 
 
-![marketinvoice](/assets/images/4_marketinvoice.PNG)
+![marketinvoice](/_assets/images/4_marketinvoice.PNG)
 <p class="text-center">
   <a href="https://www.marketinvoice.com">Source</a>
 </p>
@@ -107,7 +107,7 @@ In 2014 over $16 billion was raised in crowdfunding capital worldwide. This numb
 Market regulators may be sceptical about the idea of crowdfunding and the risk of fraud that it entails. And rightly so! Individual investors may not have the business acumen to understand all the dangers associated with even the most lucrative seed-stage investments. And yes, it is also true that the ability of an average internet user to spot a real investment opportunity and immediately dismiss scam is quite poor… but this is partly what makes crowdfunding so beautiful and exciting. Crowdfunding, in essence, is just the extension of the idea of internet, and giving people the freedom, the power to discuss, create, decide and promote things as they feel fit. The difference: it involves money being put on the table.
 
 
-![seeders-crowdfunding](/assets/images/5_seedrs.PNG)
+![seeders-crowdfunding](/_assets/images/5_seedrs.PNG)
 <p class="text-center">
   <a href="https://www.seedrs.com">Source</a>
 </p>
@@ -123,7 +123,7 @@ Platforms like Lending Club (there are dozens of similar country-specific websit
 For borrowers, on the other hand, loan decisions are faster than in traditional banks, and the rates are more favorable. While traditional banks take days to weeks to make a decision on a business loan application, applicants for a loan simply fill out an online form and can get an instant decision based on a sophisticated algorithms analysing their creditworthiness.
 
 
-![lending-club-lending-and-borrowing-money](/assets/images/6_lending club.PNG)
+![lending-club-lending-and-borrowing-money](/_assets/images/6_lending club.PNG)
 <p class="text-center">
   <a href="https://www.lendingclub.com">Source</a>
 </p>
@@ -138,7 +138,7 @@ Virtual currency is a concept allowing for "a digital representation of value th
 
 Although virtual currency like Bitcoin used to be associated with illegal activities like money laundering, experts say it is actually better suited to help crime detection. Platforms like Bitcoin are no longer underground hacker-specific communities. Virtual currencies are becoming internationally recognised and embraced by big, respectable companies, in compliance with existing regulation.
 
-![coinbase-cryptocurrency](/assets/images/7_coinbase.jpg)
+![coinbase-cryptocurrency](/_assets/images/7_coinbase.jpg)
 <p class="text-center">
   <a href="https://www.coinbase.com">Source</a>
 </p>

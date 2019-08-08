@@ -9,8 +9,8 @@ twitter-card: summary_large_image
 date: '2016-08-18 10:38:01 +0000'
 category: Ruby on Rails development
 author: Marcin Mantke
-avatar: /assets/images/mantle.png
-image: /assets/images/patterns.jpg
+avatar: mantle.png
+image: patterns.jpg
 text-preview: >-
   Not only as programmers, but in day-to-day life, we encounter some problems.
   Every person has similiar difficulties, and our society has found universal

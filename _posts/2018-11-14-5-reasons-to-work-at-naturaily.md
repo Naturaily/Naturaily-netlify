@@ -9,8 +9,8 @@ twitter-card: summary_large_image
 date: '2018-11-23 11:20:14 +0200'
 category: Recruitment
 author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
-image: /assets/images/5-reasons-to-work-at-naturaily.jpg
+avatar: wojciech.jpg
+image: 5-reasons-to-work-at-naturaily.jpg
 text-preview: >-
   Are looking for a new job in the software development sector? Here are 5
   reasons why you will love working at Naturaily.
@@ -36,7 +36,7 @@ Each week we have Pizza Friday! That’s right! We love spending quality time to
 
 And the fun doesn’t end there. Each time we finish a project or a product we throw a celebration party. For such occasions we usually go out and have fun at museums or shooting ranges, it really depends on the theme.
 
-![null](/assets/images/why-work-at-naturaily-3.jpg)
+![null](/_assets/images/why-work-at-naturaily-3.jpg)
 
 ## Like to sleep-in? Work from home
 
@@ -50,7 +50,7 @@ On your first day at Naturaily, you will be equipped with a MacBook so you won�
 
 What would great hardware be without great software? We use all sorts of tools and applications to make our lives easier and more productive. From Slack and Appear.in, to always keep in touch with other team members, Adobe Cloud, InVision and Sketch for those beautiful UI designs, to PluralSight so that every team member can always learn and improve their skills.
 
-![null](/assets/images/why-work-at-naturaily.jpg)
+![null](/_assets/images/why-work-at-naturaily.jpg)
 
 ## Like informal atmosphere? Join us
 
