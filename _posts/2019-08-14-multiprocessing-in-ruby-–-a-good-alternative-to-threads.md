@@ -128,7 +128,9 @@ Creating a multi-process application is much harder than creating a multi-thread
 | **Initialization:** | It’s faster in creating and deleting threads                                              | It’s much more complex and needs more time for creating and deleting processes                       |
 | :-------------      | :-------------:                                                                           | :-----:                                                                                              |
 | **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.                 |
-| :-------------      | :-------------:                                                                           | :-----:                                                                                              |
+
+
+
 
 ### Too Many Existing Processes
 
