@@ -22,7 +22,7 @@ text-preview: >-
 tags:
   - Ruby on Rails development
 ---
-Parallel computing is a cure for performance issues. It allows to do several things at once, which sounds great in the context of background jobs. Inspired by [Python’s multiprocessing module](https://docs.python.org/3.7/library/multiprocessing.html){:rel="nofollow"}{:target="_blank"} I began to think about the parallelism in Ruby. Of course, there are several ways to get closer, but in this post I’ll try to focus on the “Process” class. But before we start, I recommend that you quickly recall the differences between a process and a thread:
+Parallel computing is a cure for performance issues. It allows to do several things at once, which sounds great in the context of background jobs. Inspired by [Python’s multiprocessing module](https://docs.python.org/3.7/library/multiprocessing.html){:rel="nofollow"}{:target="_blank"} I began to think about the parallelism in Ruby. Of course, there are several ways to get closer, but in this post I’ll try to focus on the `Process` class. But before we start, I recommend that you quickly recall the differences between a process and a thread:
 
 {% youtube Dhf-DYO1K78 %}
 
