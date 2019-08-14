@@ -47,7 +47,7 @@ I prepared 2 benchmarks based on a method that looks for 35-element of the Fibon
 Benchmark.measure { 10.times { fib(35) } }
 ```
 
-(CPU time | system CPU time | user and system CPU times | real time)
+CPU time|system CPU time|user and system CPU times|real time
 
 38.243695 0.647830  38.891525 ( 41.074481)
 
