@@ -117,17 +117,19 @@ It clearly shows – there are a lot of considerations along the way. Let’s tr
 
 Creating a multi-process application is much harder than creating a multi-threaded application. It makes sense when the number of new processes isn’t too big, their execution takes a long time (creating a process is a bit expensive – especially in MS Windows), we have a multi-core processor, we don’t want to share data between processes (or if we know how to share them safely) and when we don’t care about returning data from the process (which is a bit problematic). In general – each process should be independent, and the parent process should be the controller of these processes. Below you will find an example of a multi-process application.
 
-|                     | Thread                                                                                    | Process                                                                                                         |
-| ------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Memory**          | It uses less memory thanks to shared memory and working in the scope of a single process  | Everything (including shared memory) is isolated in the scope of the process, so it uses more memory            |
-| :-------------      | :-------------:                                                                           | :-----:                                                                                                         |
+|                     | Thread                                                                                    | Process                                                                                                                                            |
+| ------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Memory**          | It uses less memory thanks to shared memory and working in the scope of a single process  | Everything (including shared memory) is isolated in the scope of the process, so it uses more memory                                               |
+| :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
 | **Communication:**  | We can easily return value using shared memory                                            | Requires using ([IPC](https://opensource.com/article/19/4/interprocess-communication-linux-storage){:rel="nofollow"}{:target="_blank"}) as signals |
-| :-------------      | :-------------:                                                                           | :-----:                                                                                                         |
-| **Persistence:**    | It exists in one process, so it always ends with it                                       | There is a possibility to have “zombie” processes if the parent process are killed                              |
-| :-------------      | :-------------:                                                                           | :-----:                                                                                                         |
-| **Initialization:** | It’s faster in creating and deleting threads                                              | It’s much more complex and needs more time for creating and deleting processes                                  |
-| :-------------      | :-------------:                                                                           | :-----:                                                                                                         |
-| **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.                            |
+| :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
+| **Persistence:**    | It exists in one process, so it always ends with it                                       | There is a possibility to have “zombie” processes if the parent process are killed                                                                 |
+| :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
+| **Initialization:** | It’s faster in creating and deleting threads                                              | It’s much more complex and needs more time for creating and deleting processes                                                                     |
+| :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
+| **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.                                                               |
+
+
 
 ### Too Many Existing Processes
 
@@ -178,11 +180,11 @@ We have 21 ruby processes (1 parent and 20 subprocesses) – is it much? Actuall
 
 **Single-process script:**
 
-![Single-process script:](/assets/images/single-proces-script.png)
+![Single-process script](/assets/images/singleprocess.png)
 
 **Multi-processes script:**
 
-![Multi-processes script:](/assets/images/multi-processes-script.png)
+![Multi-processes script](/assets/images/multiprocess.png)
 
 At first glance, we can see that multi-processes script makes better use of the computing power of my computer. I mentioned earlier that my processor has 2 physical cores, we can see here 4 thanks to Hyperthreading – Intel technology that divides one core into 2 virtual ones.
 
