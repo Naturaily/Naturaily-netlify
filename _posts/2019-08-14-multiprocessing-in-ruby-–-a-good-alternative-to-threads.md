@@ -252,7 +252,7 @@ As you can see – two processes have the status R+ (running in the foreground) 
 
 Because Ruby can’t simply kill the completed process when other processes are still running (this is the responsibility of the **.wait** method) it makes it much harder to implement a process limiter, so we have to rely on the OS features and our brainpower.
 
-The Process module offers also **.detach** method that we can use instead of **.wait **– it works similarly with the difference that with **detach** we don’t wait for the child process. In our example we care about the result: we have to wait.
+The Process module offers also **.detach** method that we can use instead of **.wait** – it works similarly with the difference that with **detach** we don’t wait for the child process. In our example we care about the result: we have to wait.
 
 ### Kill Parent
 
