@@ -70,7 +70,7 @@ Benchmark.measure {
 
 The results are almost the same (the last column in bracket is the real time of execution). Why works it like this? Let’s dig a bit.
 
-[Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://wiki.python.org/moin/GlobalInterpreterLock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time. 
+[Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time. 
 
 Each Ruby process always has one dedicated GIL that handles this process. Probably your first thought is – can’t we just turn off GIL? But it is not as easy as it seems – Ruby needs GIL because it avoids executions that aren’t thread-safe – for instance by the execution of non-atomic operations.
 
@@ -268,7 +268,7 @@ The Process module offers also `.detach` method that we can use instead of `.wai
 
 ### Kill Parent
 
-I used kill to terminate my parent-process.
+=>I used kill to terminate my parent-process.
 
 `[1]    4707 terminated  ruby test.rb`
 
@@ -464,7 +464,7 @@ http://localhost:8020 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=
 
 The program above creates three new processes using the `.add` method defined in `ListenerCommand` class. After process fork, `ListenerCommand` adds the allocated port and pid of the process to the allocations hash.
 
-After that program begins to wait for all processes: `Process.waitall`. If all processes are killed – the program will finish. Also if the user attempts to kill the parent process, to avoid orphans processes, the program will catch **SignalException** exception and kill created processes.
+After that program begins to wait for all processes: `Process.waitall`. If all processes are killed – the program will finish. Also if the user attempts to kill the parent process, to avoid orphans processes, the program will catch `SignalException` exception and kill created processes.
 
 Of course, this is only a skeleton of application, for instance - what if other exceptions occur? We always should consider all possible cases.
 
