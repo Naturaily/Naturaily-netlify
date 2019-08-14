@@ -28,7 +28,7 @@ Parallel computing is a cure for performance issues. It allows to do several thi
 
 ## What Is Wrong With Ruby as Multi-threaded Programming Language?
 
-Ruby offers the “Thread” class that implements several methods for handling concurrent tasks. It sounds really promising on paper – opening new threads in which we can execute code and then wait until each thread finishes. Awesome, right?
+Ruby offers the `Thread` class that implements several methods for handling concurrent tasks. It sounds really promising on paper – opening new threads in which we can execute code and then wait until each thread finishes. Awesome, right?
 
 Unfortunately, it is not as amazing as it seems. Why? First of all, you need to know what it really looks like under the hood. 
 
