@@ -229,7 +229,7 @@ end
 execute
 ```
 
-**Process.waitall**, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"} `waits for all children, returning an array of pid/status pairs`. All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"'` as above.
+`Process.waitall`, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"} `waits for all children, returning an array of pid/status pairs`. All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"'` as above.
 
 Children-processes send the [SIGCHLD signal](https://github.com/ruby/ruby/blob/master/process.c){:rel="nofollow"}{:target="_blank"}  to the parent-process if they exist, are interrupted, or resumed after interruption. Unfortunately Ruby doesn’t have a method that can list all current processes. 
 
@@ -260,11 +260,11 @@ kamilsopata      20869   1.7  0.0  4300988   3808 s002  R+    7:14AM   0:04.19 r
 kamilsopata      20902   1.7  0.0  4300988   3856 s002  R+    7:14AM   0:04.16 ruby test.rb
 kamilsopata      20794   0.0  0.1  4300988  11708 s002  S+    7:14AM   0:00.20 ruby test.rb
 
-As you can see – two processes have the status R+ (running in the foreground) and 1 has S+ (sleeping in the foreground). This can be quite useful information, description of all statuses can be found by entering: **man ps**.
+As you can see – two processes have the status R+ (running in the foreground) and 1 has S+ (sleeping in the foreground). This can be quite useful information, description of all statuses can be found by entering: `man ps`.
 
-Because Ruby can’t simply kill the completed process when other processes are still running (this is the responsibility of the **.wait** method) it makes it much harder to implement a process limiter, so we have to rely on the OS features and our brainpower.
+Because Ruby can’t simply kill the completed process when other processes are still running (this is the responsibility of the `.wait` method) it makes it much harder to implement a process limiter, so we have to rely on the OS features and our brainpower.
 
-The Process module offers also **.detach** method that we can use instead of **.wait** – it works similarly with the difference that with **detach** we don’t wait for the child process. In our example we care about the result: we have to wait.
+The Process module offers also `.detach` method that we can use instead of `.wait` – it works similarly with the difference that with `detach` we don’t wait for the child process. In our example we care about the result: we have to wait.
 
 ### Kill Parent
 
@@ -278,7 +278,7 @@ Unfortunately, the parent-process doesn’t inform its children that it has been
 
 > Process groups allow the system to keep track of which processes are working together and hence should be managed together via job control. – Michael K. Johnson, Erik W. Troan, Linux Application Development
 
-Each process belongs to a group of processes. Thanks to this we can have better control the processes of our children. We can find a description of \`.setsid\` method in the [Process module documentation](https://ruby-doc.org/core-2.6.1/Process.html#method-c-setsid){:rel="nofollow"}{:target="_blank"} : “Establishes this process as a new session and process group leader, with no controlling tty. Returns the session id. Not available on all platforms.'' After setsid our process will be the session leader for this session group. Process Group ID (pgid) will also be set to the value of Process ID (pid). To demonstrate this, I wrote a simple script:
+Each process belongs to a group of processes. Thanks to this we can have better control the processes of our children. We can find a description of `.setsid` method in the [Process module documentation](https://ruby-doc.org/core-2.6.1/Process.html#method-c-setsid){:rel="nofollow"}{:target="_blank"} : “Establishes this process as a new session and process group leader, with no controlling tty. Returns the session id. Not available on all platforms.'' After setsid our process will be the session leader for this session group. Process Group ID (pgid) will also be set to the value of Process ID (pid). To demonstrate this, I wrote a simple script:
 
 ```ruby
 def compare_pids(context)
@@ -352,7 +352,7 @@ pid_child_1 exists?: false, pid_child_2 exists?: false
 After waitall:
 Process Group ID of child exists?: false, child pid exists?: false
 
-Please take a look at **pgid** in our forked process – the value is the same as the parent PID until we initialize a new session. This knowledge is quite important – we know that the PID value can also be a process group ID, so if we want to use **detach** or** kill **– we can provide **gpid** as well. This makes it much easier to manage our processes. When we called **Process.kill('HUP', -child_pgid)** ([negative value](https://ruby-doc.org/core-2.6.1/Process.html#method-c-kill){:rel="nofollow"}{:target="_blank"}  is used to kill process groups instead of processes) we killed all processes in our group. 
+Please take a look at `pgid` in our forked process – the value is the same as the parent PID until we initialize a new session. This knowledge is quite important – we know that the PID value can also be a process group ID, so if we want to use `detach` or `kill` – we can provide `gpid` as well. This makes it much easier to manage our processes. When we called `Process.kill('HUP', -child_pgid)` ([negative value](https://ruby-doc.org/core-2.6.1/Process.html#method-c-kill){:rel="nofollow"}{:target="_blank"}  is used to kill process groups instead of processes) we killed all processes in our group. 
 
 If you want to learn more about groups and processes, definitely check out Linux Application Development by Michael K. Johnson and  Erik W. Troan or at least [this](https://www.brianstorti.com/an_introduction_to_unix_processes/){:rel="nofollow"}{:target="_blank"}  cool article, where you can find a bunch of useful information about processes, zombies, daemons, exit codes and signals.
 
@@ -462,9 +462,9 @@ http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>
 http://localhost:8020 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8020"}
 ```
 
-The program above creates three new processes using the **.add** method defined in **ListenerCommand** class. After process fork, **ListenerCommand** adds the allocated port and pid of the process to the allocations hash.
+The program above creates three new processes using the `.add` method defined in `ListenerCommand` class. After process fork, `ListenerCommand` adds the allocated port and pid of the process to the allocations hash.
 
-After that program begins to wait for all processes: **Process.waitall**. If all processes are killed – the program will finish. Also if the user attempts to kill the parent process, to avoid orphans processes, the program will catch **SignalException** exception and kill created processes.
+After that program begins to wait for all processes: `Process.waitall`. If all processes are killed – the program will finish. Also if the user attempts to kill the parent process, to avoid orphans processes, the program will catch **SignalException** exception and kill created processes.
 
 Of course, this is only a skeleton of application, for instance - what if other exceptions occur? We always should consider all possible cases.
 
