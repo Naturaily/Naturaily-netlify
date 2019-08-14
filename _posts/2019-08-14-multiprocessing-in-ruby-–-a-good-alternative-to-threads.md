@@ -247,5 +247,217 @@ USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME C
 kamilsopata      20869   1.7  0.0  4300988   3808 s002  R+    7:14AM   0:04.19 ruby test.rb
 kamilsopata      20902   1.7  0.0  4300988   3856 s002  R+    7:14AM   0:04.16 ruby test.rb
 kamilsopata      20794   0.0  0.1  4300988  11708 s002  S+    7:14AM   0:00.20 ruby test.rb
+
+As you can see – two processes have the status R+ (running in the foreground) and 1 has S+ (sleeping in the foreground). This can be quite useful information, description of all statuses can be found by entering: **man ps**.
+
+Because Ruby can’t simply kill the completed process when other processes are still running (this is the responsibility of the **.wait** method) it makes it much harder to implement a process limiter, so we have to rely on the OS features and our brainpower.
+
+The Process module offers also **.detach** method that we can use instead of **.wait **– it works similarly with the difference that with **detach** we don’t wait for the child process. In our example we care about the result: we have to wait.
+
+### Kill Parent
+
+I used kill to terminate my parent-process.
+
+`[1]    4707 terminated  ruby test.rb`
+
+Unfortunately, the parent-process doesn’t inform its children that it has been terminated, so all processes work as if nothing happened – they become the so-called zombie processes. It can also be problematic – what if the process is a long-running job that does something and returns value? His work will be redundant + it consumes resources unnecessarily.
+
+### Groups
+
+> Process groups allow the system to keep track of which processes are working together and hence should be managed together via job control. – Michael K. Johnson, Erik W. Troan, Linux Application Development
+
+Each process belongs to a group of processes. Thanks to this we can have better control the processes of our children. We can find a description of \`.setsid\` method in the [Process module documentation](https://ruby-doc.org/core-2.6.1/Process.html#method-c-setsid){:rel="nofollow"}{:target="_blank"} : “Establishes this process as a new session and process group leader, with no controlling tty. Returns the session id. Not available on all platforms.'' After setsid our process will be the session leader for this session group. Process Group ID (pgid) will also be set to the value of Process ID (pid). To demonstrate this, I wrote a simple script:
+
+```ruby
+def compare_pids(context)
+  puts "#{context} - PID: #{Process.pid}, process group ID: #{Process.getpgrp}, session ID: #{Process.getsid}"
+end
+
+def exists?(pid)
+  system("ps #{pid} | grep ruby") ? true : false
+end
+
+compare_pids("From parent process")
+
+read_stream, write_stream = IO.pipe
+child = Process.fork do
+  compare_pids("From #1 forked process")
+  Process.setsid
+  compare_pids("From #1 forked process, after setsid")
+
+  pid_child_1 = Process.fork do
+    compare_pids("From #1.1 forked process")
+    sleep 100
+  end
+
+  pid_child_2 = Process.fork do
+    compare_pids("From #1.2 forked process")
+    sleep 100
+  end
+
+  write_stream.puts "#{pid_child_1}|#{pid_child_2}"
+  write_stream.close
+  Process.waitall
+end
+sleep 2
+
+results = read_stream.gets
+read_stream.close
+pid_child_1, pid_child_2 = results[(0..-2)].split("|")
+
+child_pgid = Process.getpgid(child)
+puts "From parent process:"
+puts "Process Group ID of child: #{child_pgid}, child pid: #{child}"
+puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
+puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exists?(pid_child_2)}"
+
+Process.kill('HUP', -child_pgid)
+puts "Killed child pgid: #{child_pgid}"
+puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
+puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exists?(pid_child_2)}"
+
+Process.waitall
+puts "After waitall:"
+puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 ```
 
+\=>
+From parent process - PID: 15496, process group ID: 15496, session ID: 9817
+From #1 forked process - PID: 15509, process group ID: 15496, session ID: 9817
+From #1 forked process, after setsid - PID: 15509, process group ID: 15509, session ID: 15509
+From #1.1 forked process - PID: 15510, process group ID: 15509, session ID: 15509
+From #1.2 forked process - PID: 15511, process group ID: 15509, session ID: 15509
+
+From parent process:
+Process Group ID of child: 15509, child pid: 15509
+Process Group ID of child exists?: true, child pid exists?: true
+pid_child_1 exists?: true, pid_child_2 exists?: true
+
+Killed child pgid: 15509
+Process Group ID of child exists?: true, child pid exists?: true
+pid_child_1 exists?: false, pid_child_2 exists?: false
+
+After waitall:
+Process Group ID of child exists?: false, child pid exists?: false
+
+Please take a look at **pgid** in our forked process – the value is the same as the parent PID until we initialize a new session. This knowledge is quite important – we know that the PID value can also be a process group ID, so if we want to use **detach** or** kill **– we can provide **gpid** as well. This makes it much easier to manage our processes. When we called **Process.kill('HUP', -child_pgid)** ([negative value](https://ruby-doc.org/core-2.6.1/Process.html#method-c-kill){:rel="nofollow"}{:target="_blank"}  is used to kill process groups instead of processes) we killed all processes in our group. 
+
+If you want to learn more about groups and processes, definitely check out Linux Application Development by Michael K. Johnson and  Erik W. Troan or at least [this](https://www.brianstorti.com/an_introduction_to_unix_processes/){:rel="nofollow"}{:target="_blank"}  cool article, where you can find a bunch of useful information about processes, zombies, daemons, exit codes and signals.
+
+### Real Life Example
+
+_listeners.rb:_
+
+```ruby
+require "rack"
+
+class ListenerCommand
+  def initialize
+    @allocations = {}
+  end
+
+  def add(port)
+    return if allocated_ports.include?(port)
+    pid = fork_process { Listener.new(port).run }
+    allocations[port] = pid
+  end
+
+  def allocated_ports
+    allocations.keys
+  end
+
+  def pids
+    allocations.values
+  end
+
+  private
+
+  attr_reader :allocations
+
+  def fork_process
+    Process.fork do
+      yield
+    end
+  end
+end
+
+class Listener
+  def initialize(port)
+    @port = port
+  end
+
+  def run
+    app = Proc.new do |env|
+        request = Rack::Request.new(env)
+        log(request)
+        ['200', {'Content-Type' => 'text/html'}, ['Ruby ♥.']]
+    end
+     
+    Rack::Handler::WEBrick.run(app, Port: port)
+  end
+
+  private
+  attr_reader :port
+
+  def log(request)
+    output = "#{request.base_url} visited at #{Time.now} with params: #{request.params}\n"
+    File.write("#{port}_log.txt", output, mode: "a")
+  end
+end
+```
+
+```ruby
+listeners = ListenerCommand.new
+
+listeners.add(8000)
+listeners.add(8010)
+listeners.add(8020)
+
+puts "Allocated ports: #{listeners.allocated_ports}"
+puts "PIDs: #{listeners.pids}"
+
+begin
+  Process.waitall
+rescue SignalException => e
+  listeners.pids.each do |pid|
+    Process.kill("HUP", pid)    
+  end
+end
+```
+
+\=>
+Allocated ports: \[8000, 8010, 8020]
+PIDs: \[5927, 5928, 5929]
+
+➜  `cat 8000_log.txt`
+
+```
+http://localhost:8000 visited at 2019-07-27 09:35:08 +0200 with params: {"blah"=>"hoo"}
+http://localhost:8000 visited at 2019-07-27 09:35:54 +0200 with params: {"port"=>"8000"}
+```
+
+➜  `cat 8010_log.txt`
+
+```
+http://localhost:8010 visited at 2019-07-27 09:40:17 +0200 with params: {"ruby"=>"yea"}
+http://localhost:8010 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8010"}
+```
+
+➜  `cat 8020_log.txt`
+
+```
+http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>"bar"}
+http://localhost:8020 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8020"}
+```
+
+The program above creates three new processes using the **.add** method defined in **ListenerCommand** class. After process fork, **ListenerCommand** adds the allocated port and pid of the process to the allocations hash.
+
+After that program begins to wait for all processes: **Process.waitall**. If all processes are killed – the program will finish. Also if the user attempts to kill the parent process, to avoid orphans processes, the program will catch **SignalException** exception and kill created processes.
+
+Of course, this is only a skeleton of application, for instance - what if other exceptions occur? We always should consider all possible cases.
+
+### Is Multi-processing a Good Alternative to Threads?
+
+Everyone should take some time to consider the question – does my project really need multiple processes? Multi-process applications can generate many more problems and are harder to implement. Make sure you are aware of what you do and why you do it.
+
+It’s also good to know a bit about the operation system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. **Thread.new** seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
