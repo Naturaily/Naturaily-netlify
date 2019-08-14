@@ -67,11 +67,12 @@ Benchmark.measure {
   threads.each { |thread| thread.join }
 }
 ```
-
+```
 38.623686   0.611559  39.235245 ( 40.751415)
 38.077194   0.579472  38.656666 ( 39.956344)
 38.445872   0.603536  39.049408 ( 40.273643)
-`AVG: 40.33s`
+
+`=>AVG: 40.33s`
 
 The results are almost the same (the last column in bracket is the real time of execution). Why works it like this? Let’s dig a bit.
 
@@ -102,11 +103,13 @@ Benchmark.measure {
 }
 ```
 
+```
 \=>
 0.001240   0.005190  63.827237 ( 17.158324)
 0.001579   0.007635  65.032995 ( 19.821757)
 0.001433   0.006900  64.022068 ( 18.152649)
-`AVG: 18.38s`
+```
+`=>AVG: 18.38s`
 
 In this way, the execution took 22 seconds less than when using a single process implementation. I think it is a pretty good result. The OS scheduled new processes depending on which thread and core will be used to execute the code, and for how long. I have 2 cores on my MacBook Pro – the performance increased twofold (execution time is twice as fast) – do you see the analogy? More cores = better performance (in simplification and on condition that other processes won’t block them).
 
@@ -260,10 +263,12 @@ To achieve it we can use process status, which we can find, for instance, in `ps
 ➜ `ps aux | grep test.rb`
 ```
 
+```
 USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
 kamilsopata      20869   1.7  0.0  4300988   3808 s002  R+    7:14AM   0:04.19 ruby test.rb
 kamilsopata      20902   1.7  0.0  4300988   3856 s002  R+    7:14AM   0:04.16 ruby test.rb
 kamilsopata      20794   0.0  0.1  4300988  11708 s002  S+    7:14AM   0:00.20 ruby test.rb
+```
 
 As you can see – two processes have the status R+ (running in the foreground) and 1 has S+ (sleeping in the foreground). This can be quite useful information, description of all statuses can be found by entering: `man ps`.
 
@@ -338,24 +343,30 @@ puts "After waitall:"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 ```
 
+```
 \=>
 From parent process - PID: 15496, process group ID: 15496, session ID: 9817
 From #1 forked process - PID: 15509, process group ID: 15496, session ID: 9817
 From #1 forked process, after setsid - PID: 15509, process group ID: 15509, session ID: 15509
 From #1.1 forked process - PID: 15510, process group ID: 15509, session ID: 15509
 From #1.2 forked process - PID: 15511, process group ID: 15509, session ID: 15509
+```
 
+```
 From parent process:
 Process Group ID of child: 15509, child pid: 15509
 Process Group ID of child exists?: true, child pid exists?: true
 pid_child_1 exists?: true, pid_child_2 exists?: true
-
+```
+```
 Killed child pgid: 15509
 Process Group ID of child exists?: true, child pid exists?: true
 pid_child_1 exists?: false, pid_child_2 exists?: false
-
+```
+```
 After waitall:
 Process Group ID of child exists?: false, child pid exists?: false
+```
 
 Please take a look at `pgid` in our forked process – the value is the same as the parent PID until we initialize a new session. This knowledge is quite important – we know that the PID value can also be a process group ID, so if we want to use `detach` or `kill` – we can provide `gpid` as well. This makes it much easier to manage our processes. When we called `Process.kill('HUP', -child_pgid)` ([negative value](https://ruby-doc.org/core-2.6.1/Process.html#method-c-kill){:rel="nofollow"}{:target="_blank"}  is used to kill process groups instead of processes) we killed all processes in our group. 
 
