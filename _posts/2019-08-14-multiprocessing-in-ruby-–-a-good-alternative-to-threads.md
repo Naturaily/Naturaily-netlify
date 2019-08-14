@@ -117,7 +117,12 @@ It clearly shows – there are a lot of considerations along the way. Let’s tr
 
 Creating a multi-process application is much harder than creating a multi-threaded application. It makes sense when the number of new processes isn’t too big, their execution takes a long time (creating a process is a bit expensive – especially in MS Windows), we have a multi-core processor, we don’t want to share data between processes (or if we know how to share them safely) and when we don’t care about returning data from the process (which is a bit problematic). In general – each process should be independent, and the parent process should be the controller of these processes. Below you will find an example of a multi-process application.
 
-\[tabela]
+|       | Thread         | Process  |
+| ------------- |:-------------:| -----:|
+| Memory      | It uses less memory thanks to shared memory and working in the scope of a single process | Everything (including shared memory) is isolated in the scope of the process, so it uses more memory |
+| ------------- |:-------------:| -----:|
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 ### Too Many Existing Processes
 
