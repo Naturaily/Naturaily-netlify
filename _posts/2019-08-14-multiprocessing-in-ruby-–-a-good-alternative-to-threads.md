@@ -71,7 +71,7 @@ Benchmark.measure {
 38.623686   0.611559  39.235245 ( 40.751415)
 38.077194   0.579472  38.656666 ( 39.956344)
 38.445872   0.603536  39.049408 ( 40.273643)
-
+```
 `=>AVG: 40.33s`
 
 The results are almost the same (the last column in bracket is the real time of execution). Why works it like this? Let’s dig a bit.
