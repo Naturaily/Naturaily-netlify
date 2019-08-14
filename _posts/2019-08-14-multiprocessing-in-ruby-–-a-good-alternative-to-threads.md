@@ -47,15 +47,18 @@ I prepared 2 benchmarks based on a method that looks for 35-element of the Fibon
 Benchmark.measure { 10.times { fib(35) } }
 ```
 
-CPU time|system CPU time|user and system CPU times|real time
+```
+(CPU time|system CPU time|user and system CPU times|real time)
 
 38.243695 0.647830  38.891525 ( 41.074481)
 
 36.667084 0.550266  37.217350 ( 38.464907)
 
 38.844508 0.711785  39.556293 ( 42.610056)
+```
 
-`AVG: 40.72s`
+=>`AVG: 40.72s`
+
 
 ```ruby
 Benchmark.measure { 
