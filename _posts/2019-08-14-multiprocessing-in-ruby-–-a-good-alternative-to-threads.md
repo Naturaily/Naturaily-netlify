@@ -229,7 +229,7 @@ end
 execute
 ```
 
-**Process.waitall**, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"}  \`waits for all children, returning an array of pid/status pairs\`. All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"'` as above.
+**Process.waitall**, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"} `waits for all children, returning an array of pid/status pairs`. All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"'` as above.
 
 Children-processes send the [SIGCHLD signal](https://github.com/ruby/ruby/blob/master/process.c){:rel="nofollow"}{:target="_blank"}  to the parent-process if they exist, are interrupted, or resumed after interruption. Unfortunately Ruby doesn’t have a method that can list all current processes. 
 
