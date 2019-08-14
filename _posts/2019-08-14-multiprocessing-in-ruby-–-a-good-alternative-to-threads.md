@@ -28,7 +28,7 @@ Parallel computing is a cure for performance issues. It allows to do several thi
 
 ## What Is Wrong With Ruby as Multi-threaded Programming Language?
 
-Ruby offers the “Thread” class that implements a number of methods for handling concurrent tasks. It sounds really promising on paper – opening new threads in which we can execute code and then wait until each thread finishes. Awesome, right?
+Ruby offers the “Thread” class that implements several methods for handling concurrent tasks. It sounds really promising on paper – opening new threads in which we can execute code and then wait until each thread finishes. Awesome, right?
 
 Unfortunately, it is not as amazing as it seems. Why? First of all, you need to know what it really looks like under the hood. 
 
@@ -103,8 +103,6 @@ Benchmark.measure {
 0.001433   0.006900  64.022068 ( 18.152649)
 `AVG: 18.38s`
 
-
-
 In this way, the execution took 22 seconds less than when using a single process implementation. I think it is a pretty good result. The OS scheduled new processes depending on which thread and core will be used to execute the code, and for how long. I have 2 cores on my MacBook Pro – the performance increased twofold (execution time is twice as fast) – do you see the analogy? More cores = better performance (in simplification and on condition that other processes won’t block them).
 
 ## Process Module – a Magic Cure?
@@ -119,5 +117,135 @@ It clearly shows – there are a lot of considerations along the way. Let’s tr
 
 Creating a multi-process application is much harder than creating a multi-threaded application. It makes sense when the number of new processes isn’t too big, their execution takes a long time (creating a process is a bit expensive – especially in MS Windows), we have a multi-core processor, we don’t want to share data between processes (or if we know how to share them safely) and when we don’t care about returning data from the process (which is a bit problematic). In general – each process should be independent, and the parent process should be the controller of these processes. Below you will find an example of a multi-process application.
 
-[tabela]
+\[tabela]
+
+### Too Many Existing Processes
+
+In the previous example I forked 10 additional processes that counted the 35th-element of the Fibonacci sequence. What happens if I change this to a greater number of processes?
+
+```ruby
+# ...
+20.times do
+  Process.fork do
+    write_stream.puts fib(35)
+  end
+end
+ # ....
+```
+
+When the program was running I called `ps`:
+
+```
+➜  work ps | grep ruby
+68743 ttys010    0:00.18 ruby test.rb
+68756 ttys010    0:00.47 ruby test.rb
+68757 ttys010    0:00.46 ruby test.rb
+68758 ttys010    0:00.47 ruby test.rb
+68759 ttys010    0:00.46 ruby test.rb
+68760 ttys010    0:00.43 ruby test.rb
+68761 ttys010    0:00.42 ruby test.rb
+68762 ttys010    0:00.42 ruby test.rb
+68763 ttys010    0:00.43 ruby test.rb
+68764 ttys010    0:00.43 ruby test.rb
+68765 ttys010    0:00.43 ruby test.rb
+68766 ttys010    0:00.43 ruby test.rb
+68767 ttys010    0:00.43 ruby test.rb
+68768 ttys010    0:00.43 ruby test.rb
+68769 ttys010    0:00.43 ruby test.rb
+68770 ttys010    0:00.43 ruby test.rb
+68771 ttys010    0:00.43 ruby test.rb
+68772 ttys010    0:00.44 ruby test.rb
+68773 ttys010    0:00.43 ruby test.rb
+68774 ttys010    0:00.44 ruby test.rb
+68775 ttys010    0:00.42 ruby test.rb
+```
+
+We have 21 ruby processes (1 parent and 20 subprocesses) – is it much? Actually we don’t know, because it depends on factors like hardware or current system load. Please take a look at the output from HTOP:
+
+**Idle:**
+
+![Idle](/assets/images/idle.png)
+
+**Single-process script:**
+
+![Single-process script:](/assets/images/single-proces-script.png)
+
+**Multi-processes script:**
+
+![Multi-processes script:](/assets/images/multi-processes-script.png)
+
+At first glance, we can see that multi-processes script makes better use of the computing power of my computer. I mentioned earlier that my processor has 2 physical cores, we can see here 4 thanks to Hyperthreading – Intel technology that divides one core into 2 virtual ones.
+
+So can there be too many tasks (processes) in the operating system scheduler? The OS provides some limitation (depending on the platform). Unix systems have a built-in command “ulimit” which defines 2 types of limits:
+
+* **Hard** – only root can set this and it can’t be exceeded,
+* **Soft** – can be exceeded if necessary.
+
+In Linux the limit of processes is set in the file /etc/security/limits.conf. On MacOS we can use \`launchctl limit maxproc\` (the first value is a soft limit, the second one is a hard limit). You can read more [here](https://wilsonmar.github.io/maximum-limits/){:rel="nofollow"}{:target="_blank"} .
+
+Common sense says we shouldn’t create too many subprocesses. The screenshot from HTOP when Multi-processes script was running is a good example – processes requiring a large amount of computing power can consume even 100% of the CPU, which can lead to the loss of stability of the entire system! On top of that, we should care of memory. Let’s say one simple sub-process needs 10MB of memory and we want to fork it 10 times (1 parent, 10 children) – don’t be surprised, it will take more than 100MB of memory.
+
+### Limitations
+
+Limiting processes in Ruby is a complex problem. I started from a simple function, but unfortunately with a failure:
+
+```ruby
+def execute
+  read, write = IO.pipe
+  30.times do
+    process_limiter
+    Process.fork do
+      write.puts fib(2)
+    end
+  end
+  Process.waitall
+  write.close
+  results = read.read
+  read.close
+end
+
+def process_limiter
+  while current_processes > 15 do
+    sleep(0.1) # there should be a better script to check if the number of children is decreasing
+  end
+end
+
+def current_processes
+  IO.popen('ps | grep "[r]uby"').read.split("\n").size  
+end
+
+execute
+```
+
+**Process.waitall**, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"}  “waits for all children, returning an array of pid/status pairs”. All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"'` as above.
+
+Children-processes send the [SIGCHLD signal](https://github.com/ruby/ruby/blob/master/process.c){:rel="nofollow"}{:target="_blank"}  to the parent-process if they exist, are interrupted, or resumed after interruption. Unfortunately Ruby doesn’t have a method that can list all current processes. 
+
+It would be great if we could check simple (pseudocode):
+
+```ruby
+Process.children
+```
+
+with output: 
+
+```
+[
+  [13013, #<Process::Status: pid 13013 exit 0>],
+  [13014, #<Process::Status: pid 13014 running>],
+  [13015, #<Process::Status: pid 13015 running>]
+]
+```
+
+To achieve it we can use process status, which we can find, for instance, in `ps aux`:
+
+```
+➜ `ps aux | grep test.rb`
+```
+
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+kamilsopata      20869   1.7  0.0  4300988   3808 s002  R+    7:14AM   0:04.19 ruby test.rb
+kamilsopata      20902   1.7  0.0  4300988   3856 s002  R+    7:14AM   0:04.16 ruby test.rb
+kamilsopata      20794   0.0  0.1  4300988  11708 s002  S+    7:14AM   0:00.20 ruby test.rb
+```
 
