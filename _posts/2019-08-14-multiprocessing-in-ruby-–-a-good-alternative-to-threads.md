@@ -51,9 +51,7 @@ Benchmark.measure { 10.times { fib(35) } }
 (CPU time|system CPU time|user and system CPU times|real time)
 
 38.243695 0.647830  38.891525 ( 41.074481)
-
 36.667084 0.550266  37.217350 ( 38.464907)
-
 38.844508 0.711785  39.556293 ( 42.610056)
 ```
 
