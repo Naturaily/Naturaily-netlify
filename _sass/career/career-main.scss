@@ -386,21 +386,74 @@
 
 
 
-// NEW CAREERS ??
+// NEW CAREERS //
 
 
+.banner {
+  width: 850px;
+  text-align: center;
+  margin: 0 auto;
 
+  .shadow-text {
+    left: 0;
+  }
+}
 
 .nav-lines {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 30px;
   text-align: right;
+  font-size: 12px;
   margin-left: 0;
+  list-style-type: decimal-leading-zero;
+  background-color: $color-code-bg;
+  line-height: 90px;
+
+  li {
+    text-align: center;
+  }
+
+  span {
+    font-size: 16px;
+  }
 }
 
 .dates-path {
   background-color: #FFF7F1;
+
+  h2 {
+    font-size: 36px;
+    width: 630px;
+    font-weight: 300;
+    padding-left: 27px;
+
+    a {
+      color: $color-accent-yellow;
+    }
+  }
+}
+
+.accordion {
+  padding-left: 200px;
+  padding-right: 100px;
+  &-item {
+    position: relative;
+    border-bottom: 1px solid $color-global-font;
+    color: $color-global-font;
+    line-height: 88px;
+    opacity: 0.5;
+    font-size: 24px;
+    padding-left: 150px;
+
+    span {
+      position: absolute;
+      left: 0;
+      top: 0;
+    	color: #C1C1C1;
+    	font-size: 12px;
+    }
+  }
 }
 
 .team-section {
@@ -422,10 +475,7 @@
 
 .accordion label {
   display:block;
-  padding: 0 15px;
-  color: #424242;
   cursor: pointer;
-  border-bottom: 1px solid #bdbdbd;
 }
 
 .accordion .hiddentext {
