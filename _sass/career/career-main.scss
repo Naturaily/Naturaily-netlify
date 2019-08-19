@@ -385,7 +385,6 @@
 }
 
 
-
 // NEW CAREERS //
 
 
@@ -393,16 +392,22 @@
   width: 850px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 100px;
 
   .shadow-text {
     left: 0;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 20px 0;
   }
 }
 
 .nav-lines {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin-bottom: 30px;
+  margin-bottom: 100px;
   text-align: right;
   font-size: 12px;
   margin-left: 0;
@@ -412,10 +417,13 @@
 
   li {
     text-align: center;
+    color: #c1c1c1;
   }
 
   span {
     font-size: 16px;
+    color: $color-global-font;
+    padding-left: 25px;
   }
 }
 
@@ -426,10 +434,19 @@
     font-size: 36px;
     width: 630px;
     font-weight: 300;
-    padding-left: 27px;
+    padding-left: 47px;
 
     a {
       color: $color-accent-yellow;
+      text-decoration: underline;
+    }
+  }
+
+  .tour-numbers {
+    word-spacing: initial;
+
+    span {
+      padding-right: 30px;
     }
   }
 }
@@ -459,19 +476,77 @@
 .team-section {
   display: flex;
   flex-direction: row;
+  margin-bottom: 100px;
 
   &-left {
     display: flex;
     flex-direction: column;
     width: 50%;
+    padding-right: 150px;
   }
 
   &-right {
     display: flex;
     flex-direction: column;
     width: 50%;
+    text-align: center;
+  }
+
+  img {
+    width: 510px;
+    height: auto;
+  }
+
+  h2, p {
+    padding-left: 47px;
+  }
+
+  .tour-numbers {
+    word-spacing: initial;
+
+    span {
+      padding-right: 30px;
+    }
   }
 }
+
+.process {
+  &-section {
+    @extend .team-section;
+    padding-left: 100px;
+  }
+
+  &-full {
+    display: flex;
+    width: 100%;
+    border: 1px solid #eae4df;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    margin-left: 100px;
+
+    ol {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding-right: 150px;
+      color: white;
+      list-style: none;
+    }
+
+    li {
+      width: 32px;
+      height: 32px;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: $color-accent-yellow;
+    }
+  }
+}
+
+
+
+// Accordion default styles //
 
 .accordion label {
   display:block;
