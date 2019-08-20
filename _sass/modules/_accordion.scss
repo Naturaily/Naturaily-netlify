@@ -2,18 +2,15 @@
   padding-left: 200px;
   padding-right: 100px;
 
-  .accordion .hiddentext {
+ &_content {
     color: #424242;
-    padding: 10px;
-    font-size: 0.8em;
-    line-height: 1.7em;
+    padding-left: 110px;
+    padding-top: 38px;
     opacity: 0;
     display: none;
-    text-align: left;
-    margin: 0px;
   }
 
-  #tm:checked ~ .hiddentext {
+  #tm:checked ~ &_content {
     display: block;
     opacity: 1;
   }
@@ -23,7 +20,7 @@
     position: relative;
   }
 
-  #tn:checked ~ .hiddentext {
+  #tn:checked ~ &_content {
     display: block;
     opacity: 1;
   }
@@ -33,7 +30,7 @@
     position: relative;
   }
 
-  #to:checked ~ .hiddentext {
+  #to:checked ~ &_content {
     display: block;
     opacity: 1;
   }
@@ -45,7 +42,6 @@
 
   &-item {
     display: flex;
-    width: 100%;
     justify-content: flex-start;
     align-items: center;
     border-bottom: 1px solid $color-global-font;
@@ -53,20 +49,27 @@
     height: 88px;
     opacity: 0.5;
     font-size: 24px;
-    padding-left: 150px;
+    cursor: pointer;
   }
 
   &_number {
   	color: #C1C1C1;
   	font-size: 12px;
+    padding-right: 100px;
   }
 
   &_chevron {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+
 
     &::before {
+      background-color: $color-white;
       font-size: 40px;
       border-radius: 50%;
-      background-color: $color-white;
       box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
     }
   }
