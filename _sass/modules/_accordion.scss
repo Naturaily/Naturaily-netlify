@@ -1,0 +1,73 @@
+.accordion {
+  padding-left: 200px;
+  padding-right: 100px;
+
+  .accordion .hiddentext {
+    color: #424242;
+    padding: 10px;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    opacity: 0;
+    display: none;
+    text-align: left;
+    margin: 0px;
+  }
+
+  #tm:checked ~ .hiddentext {
+    display: block;
+    opacity: 1;
+  }
+
+  input#tm {
+    display: none;
+    position: relative;
+  }
+
+  #tn:checked ~ .hiddentext {
+    display: block;
+    opacity: 1;
+  }
+
+  input#tn {
+    display: none;
+    position: relative;
+  }
+
+  #to:checked ~ .hiddentext {
+    display: block;
+    opacity: 1;
+  }
+
+  input#to {
+    display: none;
+    position: relative;
+  }
+
+  &-item {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid $color-global-font;
+    color: $color-global-font;
+    height: 88px;
+    opacity: 0.5;
+    font-size: 24px;
+    padding-left: 150px;
+  }
+
+  &_number {
+  	color: #C1C1C1;
+  	font-size: 12px;
+  }
+
+  &_chevron {
+
+    &::before {
+      font-size: 40px;
+      border-radius: 50%;
+      background-color: $color-white;
+      box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    }
+  }
+}

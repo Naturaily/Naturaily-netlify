@@ -1,0 +1,84 @@
+.section {
+  display: flex;
+  width: 100%;
+  padding: 100px 0;
+
+  &-navigation {
+    background-color: #FFFBF7;
+  }
+
+  &.path {
+    flex-direction: column;
+  }
+
+  &.team {
+    justify-content: space-between;
+  }
+
+  &.process {
+    flex-direction: column;
+  }
+
+  &_name {
+    color: $color-secondary;
+    font-size: 12px;
+    line-height: 24px;
+    padding-bottom: 60px;
+
+    &-number {
+    	color: #C1C1C1;
+      font-size: 12px;
+      line-height: 24px;
+      padding-right: 30px;
+    }
+  }
+
+
+  &_heading {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  &_paragraph {
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    max-width: 410px;
+
+    &-offset {
+      padding-left: 45px;
+    }
+
+    &.has-dot {
+      padding-left: 40px;
+      position: relative;
+    }
+
+    small {
+      font-size: 14px;
+      opacity: .5;
+    }
+
+    .dot {
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      background-color: $color-accent-yellow;
+      position: absolute;
+      left: 0;
+      top: 10px;
+    }
+  }
+
+  &--no-padding {
+    padding: 0;
+  }
+}
