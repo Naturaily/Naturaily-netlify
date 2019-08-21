@@ -6,11 +6,13 @@
   margin: 0 auto;
   list-style: none;
   line-height: 90px;
+  padding: 0;
 
   &_item {
     font-size: 16px;
     color: $color-global-font;
     display: inline-block;
+    text-decoration: none;
 
     &-number {
     	color: #C1C1C1;
@@ -24,7 +26,6 @@
     &.is-active, &:hover {
       color: $color-secondary;
       box-shadow: inset 0px -3px 0px $color-secondary;
-      text-decoration: none;
     }
   }
 }
