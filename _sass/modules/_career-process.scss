@@ -1,5 +1,5 @@
 .process {
-  &-full {
+  &_steps {
     display: flex;
     flex-direction: column;
     border: 1px solid #eae4df;
@@ -10,17 +10,15 @@
       display: flex;
       position: relative;
       justify-content: space-between;
-      padding-right: 150px;
       padding-left: 40px;
       margin: 0;
-      color: white;
       list-style: none;
       top: -16px;
 
       &::after {
         content: "";
         position: absolute;
-        top: 50%;
+        top: 16px;
         left: 0;
         width: 100%;
         border-bottom: 1px solid rgba(59,34,15,0.1);
@@ -28,30 +26,24 @@
       }
 
       li {
-        width: 32px;
-        height: 32px;
-        font-size: 16px;
-        border-radius: 50%;
-        background-color: $color-accent-yellow;
-        align-items: center;
-        display: flex;
-        justify-content: center;
+        width: 140px;
+        padding-right: 35px;
       }
     }
 
     ul {
       display: flex;
       position: relative;
-      justify-content: space-between;
       list-style: none;
       margin: 0;
-      background-color: $color-code-bg;
+      background-color: #FFFBF7;
       font-size: 14px;
       padding: 31px 60px 41px 31px;
 
       li {
-        width: 140px;
+        width: 138px;
         line-height: 40px;
+        margin-right: 37px;
         text-align: center;
         border: 1px solid #e9e7e5;
         background-color: #fff;
@@ -59,9 +51,52 @@
         color: #7e7166;
 
         &:first-child {
-          width: 330px;
+          width: 320px;
+          margin-right: 40px;
         }
       }
+    }
+
+    &-point {
+      color: white;
+      width: 32px;
+      height: 32px;
+      font-size: 16px;
+      border-radius: 50%;
+      background-color: $color-accent-yellow;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .paragraph {
+      padding-top: 35px;
+
+      small {
+        display: flex;
+        padding-top: 20px;
+      }
+    }
+  }
+  &_hr {
+    display: flex;
+    padding: 50px 125px 60px 70px;
+    border: 1px solid #eae4df;
+    border-radius: 0 0 8px 8px;
+    background-color: #FFFBF7;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    padding: 1px;
+
+    &-left, &-right {
+      display: flex;
+      width: 50%;
+    }
+
+    &-question {
+      height: 110px;
+      width: 520px;
+      border-radius: 8px;
+      background-color: rgba(224, 195, 154, 0.1);
     }
   }
 }

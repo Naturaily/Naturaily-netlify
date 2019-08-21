@@ -1,8 +1,18 @@
 .path {
   background-color: #FFF7F1;
   padding-left: 160px;
-  
+
   .section_heading {
     max-width: 630px;
+  }
+
+  &_accordion-left {
+    flex: 1;
+  }
+
+  &_accordion-right {
+    width: 266px;
+    padding-left: 45px;
+    flex: 0 1 auto;
   }
 }

@@ -3,15 +3,25 @@
   padding-right: 100px;
 
  &_content {
-    color: #424242;
+    color: rgba(61, 35, 16, 0.5);
     padding-left: 110px;
     padding-top: 38px;
     opacity: 0;
     display: none;
+    flex-wrap: wrap;
+
+    .paragraph {
+      min-width: 100%;
+
+      small {
+        display: inline-block;
+        max-width: 410px;
+      }
+    }
   }
 
   #tm:checked ~ &_content {
-    display: block;
+    display: flex;
     opacity: 1;
   }
 
@@ -21,7 +31,7 @@
   }
 
   #tn:checked ~ &_content {
-    display: block;
+    display: flex;
     opacity: 1;
   }
 
@@ -31,7 +41,7 @@
   }
 
   #to:checked ~ &_content {
-    display: block;
+    display: flex;
     opacity: 1;
   }
 
@@ -44,10 +54,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-bottom: 1px solid $color-global-font;
-    color: $color-global-font;
+    border-bottom: 1px solid rgba(61, 35, 16, 0.23);
+    color: rgba(61, 35, 16, 0.5);
     height: 88px;
-    opacity: 0.5;
     font-size: 24px;
     cursor: pointer;
   }
@@ -55,12 +64,12 @@
   &_number {
   	color: #C1C1C1;
   	font-size: 12px;
-    padding-right: 100px;
+    padding-right: 96px;
   }
 
   &_chevron {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -68,7 +77,7 @@
 
     &::before {
       background-color: $color-white;
-      font-size: 40px;
+      font-size: 30px;
       border-radius: 50%;
       box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
     }

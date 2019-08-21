@@ -16,6 +16,9 @@
 @import "modules/section";
 @import "modules/page-navigation";
 @import "modules/accordion";
+@import "modules/table";
+@import "modules/person";
+
 @import "modules/career-team";
 @import "modules/career-path";
 @import "modules/career-process";
@@ -397,6 +400,28 @@
 // NEW CAREERS //
 
 
+figure {
+  margin: 0;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.cash {
+  color: $color-secondary;
+  font-size: 24px;
+  padding-right: 20px;
+  font-weight: 300;
+
+  &-currency {
+    color: rgba(61, 35, 16, 0.5);
+    font-size: 14px;
+    position: relative;
+    bottom: 3px;
+  }
+}
+
 .banner {
   width: 850px;
   text-align: center;
@@ -410,78 +435,5 @@
   .btn {
     display: inline-block;
     margin: 20px 0;
-  }
-}
-
-.process {
-  &-section {
-    padding-left: 100px;
-  }
-
-  &-full {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #eae4df;
-    border-radius: 8px 8px 0 0;
-    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
-    margin-left: 100px;
-
-    ol {
-      display: flex;
-      position: relative;
-      justify-content: space-between;
-      padding-right: 150px;
-      padding-left: 40px;
-      margin: 0;
-      color: white;
-      list-style: none;
-      top: -16px;
-
-      &::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 0;
-        width: 100%;
-        border-bottom: 1px solid rgba(59,34,15,0.1);
-        z-index: -1;
-      }
-
-      li {
-        width: 32px;
-        height: 32px;
-        font-size: 16px;
-        border-radius: 50%;
-        background-color: $color-accent-yellow;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-      }
-    }
-
-    ul {
-      display: flex;
-      position: relative;
-      justify-content: space-between;
-      list-style: none;
-      margin: 0;
-      background-color: $color-code-bg;
-      font-size: 14px;
-      padding: 31px 60px 41px 31px;
-
-      li {
-        width: 140px;
-        line-height: 40px;
-        text-align: center;
-        border: 1px solid #e9e7e5;
-        background-color: #fff;
-        border-radius: 8px;
-        color: #7e7166;
-
-        &:first-child {
-          width: 330px;
-        }
-      }
-    }
   }
 }
