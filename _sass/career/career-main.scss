@@ -422,6 +422,28 @@ figure {
   }
 }
 
+h3 {
+	font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  margin: 0;
+}
+
+.link {
+  &--mail {
+	  border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    color: $color-secondary;
+    padding: 3px 5px;
+    line-height: 22px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
 .banner {
   width: 850px;
   text-align: center;
