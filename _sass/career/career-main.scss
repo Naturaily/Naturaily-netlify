@@ -22,6 +22,8 @@
 @import "modules/career-team";
 @import "modules/career-path";
 @import "modules/career-process";
+@import "modules/career-culture";
+@import "modules/career-benefits";
 
 .l-tour-header {
   grid-area: header;
@@ -406,6 +408,9 @@ figure {
 
 .image {
   max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+
 }
 
 .cash {

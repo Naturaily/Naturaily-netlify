@@ -16,6 +16,10 @@ div[class^="l-"] {
   width: 100%;
 }
 
+.l-center {
+  max-width: 1440px;
+}
+
 .l-offset-left {
   max-width: 1440px;
   padding-left: 160px;
@@ -24,8 +28,4 @@ div[class^="l-"] {
 .l-offset-right {
   max-width: 1440px;
   padding-right: 20px;
-}
-
-.l-full-offset-left {
-  max-width: 1440px;
 }

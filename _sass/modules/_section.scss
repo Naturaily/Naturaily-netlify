@@ -19,6 +19,17 @@
     flex-direction: column;
   }
 
+  &.culture {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &_content {
+    &--full {
+      width: 100%;
+    }
+  }
+
   &_name {
     color: $color-secondary;
     font-size: 12px;
