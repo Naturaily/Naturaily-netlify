@@ -53,6 +53,15 @@
     padding-left: 45px;
     margin: 0;
 
+    &--center {
+      display: flex;
+      width: 100%;
+      margin: 0 auto;
+      padding-left: 0;
+      text-align: center;
+      justify-content: center;
+    }
+
     a {
       text-decoration: underline;
     }
