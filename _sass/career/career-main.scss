@@ -13,6 +13,7 @@
 
 @import "layout/layout";
 @import "modules/heading";
+@import "modules/hero";
 @import "modules/section";
 @import "modules/page-navigation";
 @import "modules/accordion";
@@ -38,6 +39,54 @@ figure {
 
 a {
   text-decoration: none;
+}
+
+.btn-primary {
+
+  &.btn-arrow {
+    padding: 14px 22px 14px 40px;
+
+    img {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  max-width: 410px;
+  margin: 0;
+  color: rgba(61, 35, 16, 0.7);
+
+  &-offset {
+    padding-left: 45px;
+  }
+
+  &.has-dot {
+    padding-left: 40px;
+    position: relative;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  small {
+    font-size: 14px;
+    opacity: .5;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: $color-accent-yellow;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
 }
 
 .image {

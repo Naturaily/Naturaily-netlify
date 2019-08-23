@@ -1,0 +1,53 @@
+.hero {
+  position: relative;
+  text-align: center;
+  margin: 90px auto;
+
+  &_background-text {
+    position: absolute;
+    z-index: -2;
+    top: -110px;
+    width: 100%;
+    color: #FFF7F1;
+    font-size: 175px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &_box {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  &_box-heading {
+	  font-size: 36px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-bottom: 26px;
+    margin: 0 auto;
+  }
+
+  &_box-footer {
+    padding-top: 75px;
+  }
+
+  &_text {
+    width: 630px;
+    margin: 0 auto;
+  	color: rgba(59,34,15,0.7);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
