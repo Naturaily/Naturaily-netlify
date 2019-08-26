@@ -1,0 +1,27 @@
+<sections class="section skills">
+  <div class="section_content">
+    {% if page.responsibilities %}
+      <ul class="requirements">
+        {% for req in page.responsibilities %}
+        <li>{{ req }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+    {% if page.requirements %}
+      <ul class="requirements">
+        {% for req in page.requirements %}
+        <li>{{ req }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.nicehave %}
+      <ul class="requirements">
+        {% for req in page.nicehave %}
+        <li>{{ req }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</sections>

@@ -1,0 +1,11 @@
+<sections class="section perks">
+  <div class="section_content">
+    {% if page.offer %}
+      <ul class="requirements">
+        {% for req in page.offer %}
+        <li>{{ req }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</sections>

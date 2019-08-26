@@ -2,55 +2,31 @@
 layout: default
 ---
 
-{{page.title}}
 
+<div class="l-offset-left extra-offset">
+  {% include career-offer/position.html %}
+</div>
 
-{{page.location}}
+<div class="l-offset-left extra-offset">
+  {% include career-offer/about.html %}
+</div>
 
+<div class="l-offset-left extra-offset">
+  {% include career-offer/skills.html %}
+</div>
 
-{{page.who_we_are}}
-{% if page.responsibilities %}
-  <ul class="requirements">
-    {% for req in page.responsibilities %}
-    <li>{{ req }}</li>
-    {% endfor %}
-  </ul>
-  {% endif %}
+<div class="l-offset-left extra-offset">
+  {% include career-offer/more.html %}
+</div>
 
-{% if page.requirements %}
-  <ul class="requirements">
-    {% for req in page.requirements %}
-    <li>{{ req }}</li>
-    {% endfor %}
-  </ul>
-{% endif %}
+<div class="l-offset-left extra-offset">
+  {% include career-offer/perks.html %}
+</div>
 
-{% if page.nicehave %}
-  <ul class="requirements">
-    {% for req in page.nicehave %}
-    <li>{{ req }}</li>
-    {% endfor %}
-  </ul>
-{% endif %}
+<div class="l-offset-left extra-offset">
+  {% include career-offer/video.html %}
+</div>
 
-{% if page.offer %}
-  <ul class="requirements">
-    {% for req in page.offer %}
-    <li>{{ req }}</li>
-    {% endfor %}
-  </ul>
-{% endif %}
-
-
-{{page.title}}
-<ul>
-  {% for req in page.salary-range %}
-  <li>{{ req }}</li>
-  {% endfor %}
-</ul>
-<a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary" data-modal-trigger="job">
-  apply
-  <img src="/assets/images/btn-arrow.png" alt="arrow">
-</a>
-
-<script type="text/javascript" src="https://form.jotformeu.com/jsform/82173567298368"></script>
+<div class="l-offset-right">
+  {% include career-offer/form.html %}
+</div>

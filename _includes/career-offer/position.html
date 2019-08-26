@@ -1,0 +1,22 @@
+<sections class="section position">
+  <div class="section_desc">
+    <div class="section_name">
+      Job offer
+    </div>
+    <h2 class="section_heading">Little things that make our daily life a little bit easier</h2>
+    <a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary">
+      apply
+      <img src="/assets/images/btn-arrow.png" alt="arrow">
+    </a>
+  </div>
+  <div class="section_content">
+    {{page.title}}
+    <ul>
+      {% for req in page.salary-range %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+    {{page.location}}
+
+  </div>
+</sections>
