@@ -1,15 +1,102 @@
-<section class="section path">
+<section class="section offers">
   <div class="section_name">
-    <span class="section_name-number">
-      01
-    </span>
-    Developer’s Career Path
+    Check out
   </div>
   <h2 class="section_heading">
     <span class="text-greyed-out">Current</span> Openings
   </h2>
 
   <div class="section_content">
+    {% assign types_filtered = site.career | where: "published", "true"%}
+    {% assign types = types_filtered | map: "type" %}
+    {% assign carrer_types = types | uniq | join: ' ' %}
 
+    {% assign development_type = types_filtered | where: "type", "Development" %}
+    {% assign ux_type = types_filtered | where: "type", "UX/UI" %}
+    {% assign marketing_type = types_filtered | where: "type", "Sales&Marketing" %}
+    {% assign business_type = types_filtered | where: "type", "Business" %}
+    {% assign operations_type = types_filtered | where: "type", "Operations" %}
+    {% assign other_type = types_filtered | where: "type", "Other" %}
+
+    {% for carrer_type in carrer_types %}
+      {% if carrer_type contains "Development"  %}
+        <div class="l-full">
+          <p class="paragraph has-dot">
+            <span class="dot"></span>
+            Development
+          </p>
+          <div class="offers_tiles">
+            {% for job in development_type %}
+              {% include career-offers/offer-tile.html %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+      {% if carrer_type contains "UX/UI" %}
+        <div class="l-full">
+          <p class="paragraph has-dot">
+            <span class="dot"></span>
+            UX/UI
+          </p>
+          <div class="offers_tiles">
+            {% for job in ux_type %}
+              {% include career-offers/offer-tile.html %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+      {% if carrer_type contains "Sales&Marketing" %}
+        <div class="l-full">
+          <p class="paragraph has-dot">
+            <span class="dot"></span>
+            Sales&Marketing
+          </p>
+          <div class="offers_tiles">
+            {% for job in marketing_type %}
+              {% include career-offers/offer-tile.html %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+      {% if carrer_type contains "Business" %}
+        <div class="l-full">
+          <p class="paragraph has-dot">
+            <span class="dot"></span>
+            Business Development
+          </p>
+          <div class="offers_tiles">
+            {% for job in business_type %}
+              {% include career-offers/offer-tile.html %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+      {% if carrer_type contains "Operations" %}
+        <div class="l-full">
+          <p class="paragraph has-dot">
+            <span class="dot"></span>
+            Operations
+          </p>
+          <div class="offers_tiles">
+            {% for job in operations_type %}
+              {% include career-offers/offer-tile.html %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+      {% if carrer_type contains "Other" %}
+        <div class="l-full">
+          <p class="paragraph has-dot">
+            <span class="dot"></span>
+            Other
+          </p>
+          <div class="offers_tiles">
+            {% for job in other_type %}
+              {% include career-offers/offer-tile.html %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </section>
