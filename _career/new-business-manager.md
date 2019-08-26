@@ -6,7 +6,7 @@ description: >-
   large company&#44; working in a close cooperation with CEO. Small company
   means smaller teams making transparent communication and active participation
   in making possibly the best product.
-layout: career-details
+layout: career-offer
 image: /assets/images/naturaily-job-offer-new-business-manager-–-1.png
 location: Wrocław
 who_we_are: >+

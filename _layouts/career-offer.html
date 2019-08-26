@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{{page.title}}
+
+
+{{page.location}}
+
+
+{{page.who_we_are}}
+{% if page.responsibilities %}
+  <ul class="requirements">
+    {% for req in page.responsibilities %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+{% if page.requirements %}
+  <ul class="requirements">
+    {% for req in page.requirements %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.nicehave %}
+  <ul class="requirements">
+    {% for req in page.nicehave %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.offer %}
+  <ul class="requirements">
+    {% for req in page.offer %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+{{page.title}}
+<ul>
+  {% for req in page.salary-range %}
+  <li>{{ req }}</li>
+  {% endfor %}
+</ul>
+<a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary" data-modal-trigger="job">
+  apply
+  <img src="/assets/images/btn-arrow.png" alt="arrow">
+</a>
+
+<script type="text/javascript" src="https://form.jotformeu.com/jsform/82173567298368"></script>

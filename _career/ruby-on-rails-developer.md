@@ -4,7 +4,7 @@ title: Ruby on Rails Developer
 description: >-
   We are looking for talented Ruby on Rails Developer to help us build great
   digital products.
-layout: career-details
+layout: career-offer
 image: /assets/images/kopia-template-recrutation-01.png
 location: Wrocław
 who_we_are: >-

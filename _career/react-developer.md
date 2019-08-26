@@ -4,7 +4,7 @@ title: React Developer
 description: >-
   Working at Naturaily is a great opportunity to enhance your skills and spend
   time with honest and open people. Join us, let's build great things together!
-layout: career-details
+layout: career-offer
 image: /assets/images/naturaily-job-offer-react.png
 twitter-card: summary_large_image
 location: Wrocław
