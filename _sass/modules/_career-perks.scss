@@ -1,0 +1,28 @@
+.perks {
+
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &_list-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    padding-bottom: 70px;
+  }
+
+  .paragraph {
+    max-width: 190px;
+  }
+
+  icon {
+    font-size: 54px;
+    padding-bottom: 20px;
+  }
+
+  strong {
+    font-size: 16px;
+    color: $color-global-font;
+  }
+}

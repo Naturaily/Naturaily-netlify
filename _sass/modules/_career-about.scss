@@ -1,0 +1,13 @@
+.about {
+  padding-bottom: 0;
+  
+  &_mid {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section_content {
+    display: flex;
+    flex-direction: column;
+  }
+}

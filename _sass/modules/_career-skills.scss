@@ -1,0 +1,25 @@
+.skills {
+  &_list {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 270px;
+  }
+
+  &_list-item {
+    font-size: 14px;
+    line-height: 28px;
+    color: rgba(61, 35, 16, 0.7);
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    margin-left: 14px;
+    color: rgba(61, 35, 16, 0.7);
+  }
+
+  .section_content {
+    display: flex;
+    justify-content: space-between;
+  }
+}

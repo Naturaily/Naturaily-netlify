@@ -1,27 +1,36 @@
-<sections class="section skills">
+<section class="section extra-narrow skills">
   <div class="section_content">
     {% if page.responsibilities %}
-      <ul class="requirements">
-        {% for req in page.responsibilities %}
-        <li>{{ req }}</li>
-        {% endfor %}
-      </ul>
+      <div class="skills_list">
+        <h3>You can <span class="text-greyed-out">count on it</span>. Your tasks will include</h3>
+        <ul>
+          {% for req in page.responsibilities %}
+          <li class="skills_list-item">{{ req }}</li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
 
     {% if page.requirements %}
-      <ul class="requirements">
-        {% for req in page.requirements %}
-        <li>{{ req }}</li>
-        {% endfor %}
-      </ul>
+      <div class="skills_list">
+        <h3>Must have - <span class="text-greyed-out">we need the following skills</span>:</h3>
+        <ul>
+          {% for req in page.requirements %}
+          <li class="skills_list-item">{{ req }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     {% endif %}
 
     {% if page.nicehave %}
-      <ul class="requirements">
-        {% for req in page.nicehave %}
-        <li>{{ req }}</li>
-        {% endfor %}
-      </ul>
+      <div class="skills_list">
+        <h3>Desirable skills that <span class="text-greyed-out">will make you stand out</span>:</h3>
+        <ul>
+          {% for req in page.nicehave %}
+          <li class="skills_list-item">{{ req }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     {% endif %}
   </div>
-</sections>
+</section>

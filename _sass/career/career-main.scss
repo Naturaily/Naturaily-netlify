@@ -21,12 +21,19 @@
 @import "modules/person";
 @import "modules/carousel";
 
+// CAREERS SPECIFIC STYLES //
+
 @import "modules/career-team";
 @import "modules/career-path";
 @import "modules/career-process";
 @import "modules/career-culture";
 @import "modules/career-benefits";
 @import "modules/career-offers";
+@import "modules/career-position";
+@import "modules/career-about";
+@import "modules/career-skills";
+@import "modules/career-more";
+@import "modules/career-perks";
 
 
 
@@ -40,6 +47,11 @@ figure {
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
 }
 
 .btn-primary {

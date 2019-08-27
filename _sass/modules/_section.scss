@@ -24,6 +24,10 @@
     flex-wrap: wrap;
   }
 
+  &.extra-narrow {
+    max-width: 1070px;
+  }
+
   &_content {
     &--full {
       width: 100%;

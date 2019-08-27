@@ -27,6 +27,10 @@ div[class^="l-"] {
   &.extra-offset {
     padding-left: 180px;
   }
+
+  &.extra-narrow {
+    max-width: 1070px;
+  }
 }
 
 .l-offset-right {

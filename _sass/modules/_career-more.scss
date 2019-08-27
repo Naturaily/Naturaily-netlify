@@ -1,0 +1,9 @@
+.more {
+  &_boxes {
+    display: flex;
+  }
+
+  &_boxes-box {
+    flex-basis: 50%;
+  }
+}
