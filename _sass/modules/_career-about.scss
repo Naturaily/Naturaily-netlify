@@ -1,9 +1,21 @@
 .about {
-  padding-bottom: 0;
-  
+  padding: 0;
+
+  &_top.paragraph {
+    max-width: 840px;
+    color: $color-global-font;
+  }
+
   &_mid {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    max-width: 1070px;
+    padding-bottom: 40px;
+
+    .paragraph {
+      max-width: 480px;
+    }
   }
 
   .section_content {

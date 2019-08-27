@@ -1,4 +1,5 @@
 .perks {
+  padding-top: 80px;
 
   &_list {
     display: flex;
@@ -16,7 +17,7 @@
     max-width: 190px;
   }
 
-  icon {
+  .icon {
     font-size: 54px;
     padding-bottom: 20px;
   }

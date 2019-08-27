@@ -3,20 +3,27 @@
     <div class="section_name">
       Job offer
     </div>
-    <h2 class="section_heading">Little things that make our daily life a little bit easier</h2>
-    <a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary">
-      apply
-      <img src="/assets/images/btn-arrow.png" alt="arrow">
-    </a>
+
+    <div class="position_job-title">
+      <h2 class="section_heading">{{page.title}}</h2>
+      <a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary">
+        apply
+        <img src="/assets/images/btn-arrow.png" alt="arrow">
+      </a>
+    </div>
   </div>
   <div class="section_content">
-    {{page.title}}
-    <ul>
+    <p class="position_salary">
       {% for req in page.salary-range %}
-      <li>{{ req }}</li>
+        <span class="cash">
+          {{ req }}
+          <!-- <small class="cash-currency"> PLN net</small> -->
+        </span>
+        </p>
       {% endfor %}
-    </ul>
-    {{page.location}}
-
+    </p>
+    <span class="position_location">
+      {{page.location}}
+    </span>
   </div>
 </section>

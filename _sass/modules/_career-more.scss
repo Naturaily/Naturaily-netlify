@@ -1,9 +1,34 @@
 .more {
+  padding-top: 60px;
+  padding-bottom: 0;
+
   &_boxes {
     display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
   }
 
   &_boxes-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     flex-basis: 50%;
+    box-sizing: border-box;
+    height: 370px;
+    max-width: 520px;
+    border-radius: 8px;
+    padding: 0 110px 41px 49px;
+
+    &--left {
+      background-color: rgba(224, 195, 154, 0.1);
+    }
+
+    &--right {
+      background-color: rgba(154, 168, 224, 0.1);
+    }
+  }
+
+  .section_content {
+    width: 100%;
   }
 }

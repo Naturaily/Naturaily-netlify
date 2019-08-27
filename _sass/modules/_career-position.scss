@@ -1,5 +1,26 @@
 .position {
+  padding: 0;
+  padding-bottom: 50px;
+
+  &_job-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_salary {
+    display: inline-block;
+  }
+
+  &_location {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(61, 35, 16, 0.5);
+    background-color: #FFFBF7;
+    border-radius: 8px;
+    padding: 15px;
+  }
+
   .section_heading {
-    padding-left: 0;
+    padding: 0;
   }
 }

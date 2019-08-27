@@ -40,6 +40,9 @@
 
 // NEW CAREERS //
 
+body {
+  font-weight: 500;
+}
 
 figure {
   margin: 0;
@@ -52,6 +55,13 @@ a {
 h2 {
   font-size: 36px;
   font-weight: 300;
+}
+
+h3 {
+	font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  margin: 0;
 }
 
 .btn-primary {
@@ -119,15 +129,8 @@ h2 {
     color: rgba(61, 35, 16, 0.5);
     font-size: 14px;
     position: relative;
-    bottom: 3px;
+    bottom: 2px;
   }
-}
-
-h3 {
-	font-size: 24px;
-  font-weight: 300;
-  line-height: 36px;
-  margin: 0;
 }
 
 .link {

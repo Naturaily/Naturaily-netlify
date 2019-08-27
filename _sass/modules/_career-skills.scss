@@ -1,4 +1,6 @@
 .skills {
+  padding-bottom: 0;
+
   &_list {
     display: flex;
     flex-direction: column;
@@ -9,6 +11,8 @@
     font-size: 14px;
     line-height: 28px;
     color: rgba(61, 35, 16, 0.7);
+    list-style-position: outside;
+    padding-left: 20px;
   }
 
   ul {
@@ -16,6 +20,10 @@
     margin: 0;
     margin-left: 14px;
     color: rgba(61, 35, 16, 0.7);
+  }
+
+  h3 {
+    padding-bottom: 30px;
   }
 
   .section_content {
