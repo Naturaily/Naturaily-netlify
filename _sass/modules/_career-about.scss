@@ -14,7 +14,11 @@
     padding-bottom: 40px;
 
     .paragraph {
-      max-width: 480px;
+      max-width: 100%;
+      font-size: 14px;
+      font-weight: 500;
+      padding-right: 102px;
+      box-sizing: border-box;
     }
   }
 

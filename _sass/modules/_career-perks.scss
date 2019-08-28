@@ -15,6 +15,7 @@
 
   .paragraph {
     max-width: 190px;
+    font-size: 14px;
   }
 
   .icon {
@@ -24,6 +25,7 @@
 
   strong {
     font-size: 16px;
+    font-weight: 400;
     color: $color-global-font;
   }
 }

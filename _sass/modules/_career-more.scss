@@ -28,6 +28,17 @@
     }
   }
 
+  .paragraph {
+    font-size: 14px;
+
+    &.has-dot {
+	    font-size: 24px;
+      font-weight: 300;
+      line-height: 34px;
+      padding-right: 110px;
+    }
+  }
+
   .section_content {
     width: 100%;
   }
