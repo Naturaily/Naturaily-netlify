@@ -1,7 +1,14 @@
 .hero {
+  &--layout {
+    background-image: url("../assets/images/career_hero_left.png"), url("../assets/images/career_hero_right.png");
+    background-repeat: no-repeat;
+    background-position: 0px 140px, 100% 50px;
+    background-size: 379px 321px, 390px 520px;
+  }
+
   position: relative;
   text-align: center;
-  margin: 90px auto;
+  margin: 150px auto 90px;
 
   &_background-text {
     position: absolute;

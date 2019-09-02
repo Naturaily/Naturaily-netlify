@@ -1,7 +1,12 @@
 .l-main-container {
   display: flex !important;
   flex-direction: column;
-  max-width: 1600px !important;
+  max-width: 100% !important;
+}
+
+.header {
+  max-width: 1292px;
+  width: 100%;
   margin: 0 auto;
 }
 

@@ -20,36 +20,6 @@
     }
   }
 
-  #tm:checked ~ &_content {
-    display: flex;
-    opacity: 1;
-  }
-
-  input#tm {
-    display: none;
-    position: relative;
-  }
-
-  #tn:checked ~ &_content {
-    display: flex;
-    opacity: 1;
-  }
-
-  input#tn {
-    display: none;
-    position: relative;
-  }
-
-  #to:checked ~ &_content {
-    display: flex;
-    opacity: 1;
-  }
-
-  input#to {
-    display: none;
-    position: relative;
-  }
-
   &-item {
     display: flex;
     justify-content: flex-start;
@@ -80,6 +50,24 @@
       font-size: 30px;
       border-radius: 50%;
       box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    }
+  }
+
+  &-item {
+    position: relative;
+  }
+
+  input {
+    display: none;
+  }
+
+  input:checked {
+    + .accordion-item {
+
+    }
+    ~ .accordion_content {
+      display: flex;
+      opacity: 1;
     }
   }
 }
