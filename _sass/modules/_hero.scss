@@ -25,7 +25,7 @@
   &_box {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
   }
 
@@ -35,6 +35,9 @@
     line-height: 50px;
     padding-bottom: 26px;
     margin: 0 auto;
+    	  font-size: 28px;
+        font-weight: 200;
+        line-height: 40px;
   }
 
   &_box-footer {
@@ -42,7 +45,7 @@
   }
 
   &_text {
-    width: 630px;
+    max-width: 630px;
     margin: 0 auto;
   	color: rgba(59,34,15,0.7);
     font-size: 16px;
@@ -57,5 +60,26 @@
   .btn {
     display: inline-block;
     margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 810px) {
+  .hero {
+
+    &--layout {
+      background-position: 0px 140px, 100% 50px;
+      background-size: 160px 130px, 70px 100px;
+    }
+
+    &_box {
+      padding: 0 30px;
+    }
+
+    &_box-heading {
+  	  font-size: 28px;
+      font-weight: 200;
+      line-height: 40px;
+    }
   }
 }
