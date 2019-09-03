@@ -42,3 +42,42 @@ div[class^="l-"] {
   max-width: 1440px;
   padding-right: 20px;
 }
+
+
+@media (max-width: 810px) {
+  .l-main-container {
+
+  }
+
+  .header {
+
+  }
+
+  div[class^="l-"] {
+
+  }
+
+  .l-full {
+
+  }
+
+  .l-center {
+
+  }
+
+  .l-offset-left {
+    padding-left: 25px;
+
+    &.extra-offset {
+
+    }
+
+    &.extra-narrow {
+
+    }
+  }
+
+  .l-offset-right {
+    padding-right: 0;
+  }
+}

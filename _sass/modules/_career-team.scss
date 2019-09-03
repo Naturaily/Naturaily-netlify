@@ -12,3 +12,11 @@
     box-sizing: border-box;
   }
 }
+
+@media (max-width: 810px) {
+  .team {
+    img {
+      padding-top: 30px;
+    }
+  }
+}

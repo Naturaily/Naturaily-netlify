@@ -168,5 +168,11 @@ h3 {
 
 
 @media (max-width: 810px) {
+  .paragraph {
+    font-size: 14px;
 
+    &-offset {
+      padding-left: 25px;
+    }
+  }
 }

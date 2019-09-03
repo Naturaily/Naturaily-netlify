@@ -2,7 +2,7 @@
   &--layout {
     background-image: url("../assets/images/career_hero_left.png"), url("../assets/images/career_hero_right.png");
     background-repeat: no-repeat;
-    background-position: 0px 140px, 100% 50px;
+    background-position: 0px 170px, 100% 50px;
     background-size: 379px 321px, 390px 520px;
   }
 
@@ -68,7 +68,7 @@
   .hero {
 
     &--layout {
-      background-position: -140px 77%, 120% 50px;
+      background-position: -140px 77%, calc(100% - -45px) 60px;
       background-size: 200px 169px, 150px 200px;
     }
 

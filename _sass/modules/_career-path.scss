@@ -16,3 +16,10 @@
     flex: 0 1 auto;
   }
 }
+
+@media (max-width: 810px) {
+  .path {
+    margin: 0 10px 0 10px;
+    padding: 40px 0px 0px 15px;
+  }
+}
