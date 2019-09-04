@@ -74,6 +74,11 @@
 
 @media (max-width: 810px) {
   .accordion {
-    padding: 0 40px;
+    padding: 0 30px 0 25px;
+
+    &-item {
+      font-size: 20px;
+      font-weight: 300;
+    }
   }
 }

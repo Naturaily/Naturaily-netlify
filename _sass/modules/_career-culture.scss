@@ -1,4 +1,7 @@
 .culture {
+  &_image-text-block {
+    margin-left: 60px;
+  }
 
   .section_content {
     flex-grow: 1;
@@ -46,12 +49,40 @@
       padding-right: 30px;
       padding-bottom: 20px;
     }
-    .culture_image-text-block {
-      margin-left: 60px;
-    }
+
     &:last-child .culture_image-text-block {
       margin-left: 0;
       margin-right: 60px;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .culture {
+    &_image-text-block {
+      margin: 0;
+    }
+    .section_desc {
+      padding-right: 50px;
+    }
+
+    .section_content {
+      flex-direction: column;
+      padding-left: 25px;
+      overflow: hidden;
+
+      &--full {
+        padding-right: 0;
+        align-items: flex-start;
+      }
+    }
+
+    .image {
+      margin-bottom: 40px;
+
+      &:first-child {
+        // max-width: 150%;
+      }
     }
   }
 }

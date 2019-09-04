@@ -90,7 +90,7 @@ h3 {
   }
 
   &.has-dot {
-    padding-left: 40px;
+    padding-left: 15px;
     position: relative;
   }
 
@@ -166,6 +166,11 @@ h3 {
   }
 }
 
+.menu {
+  padding-left: 0;
+  overflow: hidden;
+}
+
 
 @media (max-width: 810px) {
   .paragraph {
@@ -173,6 +178,10 @@ h3 {
 
     &-offset {
       padding-left: 25px;
+    }
+
+    small {
+      opacity: 1;
     }
   }
 }
