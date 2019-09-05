@@ -90,7 +90,7 @@ h3 {
   }
 
   &.has-dot {
-    padding-left: 15px;
+    padding-left: 25px;
     position: relative;
   }
 
@@ -118,7 +118,6 @@ h3 {
   max-width: 100%;
   border-radius: 8px;
   overflow: hidden;
-
 }
 
 .cash {
@@ -182,6 +181,28 @@ h3 {
 
     small {
       opacity: 1;
+    }
+  }
+
+  .image {
+    &--oversized {
+      max-width: 160%;
+    }
+  }
+
+  .btn-primary {
+
+    &.btn-arrow {
+      padding: 15px 0px 15px 0;
+      align-items: center;
+      display: flex;
+      font-size: 13px;
+      justify-content: center;
+      width: 290px;
+
+      img {
+        margin-bottom: 0;
+      }
     }
   }
 }

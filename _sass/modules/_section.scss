@@ -79,6 +79,7 @@
 
 @media (max-width: 810px) {
   .section {
+    padding: 45px 0;
     &_name {
       padding-bottom: 20px;
 
@@ -88,7 +89,7 @@
     }
 
     &_heading {
-      font-size: 28px;
+      font-size: 26px;
       padding-left: 25px;
       line-height: 38px;
     }

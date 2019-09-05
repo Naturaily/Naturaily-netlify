@@ -33,3 +33,32 @@
     }
   }
 }
+
+@media (max-width: 810px) {
+  .person {
+    display: flex;
+    position: relative;
+
+    &_card {
+      display: flex;
+      padding-left: 110px;
+
+      .image {
+        height: 260px;
+        left: -27px;
+        margin: 0;
+        position: absolute;
+        width: auto;
+      }
+
+      .paragraph {
+        margin-top: 10px;
+      }
+
+      figcaption {
+        padding: 20px;
+        font-size: 12px;
+      }
+    }
+  }
+}
