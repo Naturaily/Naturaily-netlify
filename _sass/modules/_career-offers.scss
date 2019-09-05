@@ -75,3 +75,21 @@
     padding-left: 0;
   }
 }
+
+@media (max-width: 810px) {
+  .offers {
+    margin: 0 5px 0 10px;
+    padding: 40px 0px 30px 15px;
+
+    &_tiles {
+      flex-direction: column;
+      padding-bottom: 30px;
+    }
+
+    &_tile  {
+      margin: 0 auto;
+      margin-bottom: 30px;
+      width: 310px;
+    }
+  }
+}

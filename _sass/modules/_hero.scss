@@ -68,7 +68,7 @@
   .hero {
 
     &--layout {
-      background-position: -140px 77%, calc(100% - -45px) 60px;
+      background-position: -140px 81%, calc(100% - -45px) 60px;
       background-size: 200px 169px, 150px 200px;
     }
 
@@ -80,6 +80,11 @@
   	  font-size: 28px;
       font-weight: 200;
       line-height: 40px;
+    }
+
+    &_background-text {
+      font-size: 100px;
+      top: 35px;
     }
   }
 }
