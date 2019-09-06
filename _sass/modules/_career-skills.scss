@@ -31,3 +31,18 @@
     justify-content: space-between;
   }
 }
+
+@media (max-width: 810px) {
+  .skills {
+    flex-wrap: wrap;
+
+    &_list {
+      flex-basis: 100%;
+      padding-bottom: 30px;
+    }
+
+    .section_content {
+      flex-direction: column;
+    }
+  }
+}

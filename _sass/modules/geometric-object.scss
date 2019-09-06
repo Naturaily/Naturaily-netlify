@@ -1,0 +1,48 @@
+.geometric-figure {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  &_center {
+    display: flex;
+    width: 166px;
+    height: 166px;
+    box-shadow: 0px 0px 2px #FFB040;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+  }
+
+  &_left, &_right {
+    width: 81px;
+    height: 166px;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      width: 166px;
+      height: 166px;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  &_left {
+
+    &::after {
+      left: 0;
+      background-color: #FF5E45;
+    }
+  }
+
+  &_right {
+
+    &::after {
+      right: 0;
+      background-color: #FF5E45;
+    }
+  }
+}

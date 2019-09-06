@@ -1,15 +1,5 @@
 @import "header";
-@import "on-tour/banner";
-@import "on-tour/logos";
-@import "on-tour/videos";
-@import "on-tour/rythm";
-@import "on-tour/hits";
-@import "on-tour/cooperation";
-@import "on-tour/band";
-@import "on-tour/dates";
-@import "on-tour/form";
-@import "on-tour/photos";
-@import "on-tour/footer";
+
 
 @import "layout/layout";
 @import "modules/heading";
@@ -20,7 +10,7 @@
 @import "modules/table";
 @import "modules/person";
 @import "modules/carousel";
-
+@import "modules/geometric-object";
 // CAREERS SPECIFIC STYLES //
 
 @import "modules/career-team";

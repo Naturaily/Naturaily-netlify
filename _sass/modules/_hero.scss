@@ -68,8 +68,8 @@
   .hero {
 
     &--layout {
-      background-position: -140px 81%, calc(100% - -45px) 60px;
-      background-size: 200px 169px, 150px 200px;
+      background-position: -140px 81%, calc(100% - -28px) 77px;
+      background-size: 200px 169px, 100px 150px;
     }
 
     &_box {
@@ -80,6 +80,12 @@
   	  font-size: 28px;
       font-weight: 200;
       line-height: 40px;
+    }
+
+    &_text {
+      font-size: 14px;
+      font-weight: 300;
+      padding: 0 10px;
     }
 
     &_background-text {

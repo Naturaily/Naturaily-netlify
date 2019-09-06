@@ -25,3 +25,19 @@
     padding: 0;
   }
 }
+
+@media (max-width: 810px) {
+  .position {
+    padding-top: 120px;
+
+    &_job-title {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-right: 50px;
+    }
+
+    .section_heading {
+      padding-bottom: 20px;
+    }
+  }
+}
