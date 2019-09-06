@@ -21,3 +21,14 @@
     padding-left: 0;
   }
 }
+
+@media (max-width: 810px) {
+  .video {
+    padding: 20px;
+    flex-direction: column;
+
+    iframe {
+      max-width: 100%;
+    }
+  }
+}

@@ -29,3 +29,16 @@
     color: $color-global-font;
   }
 }
+
+@media (max-width: 810px) {
+  .perks {
+    &_list {
+      justify-content: space-around;
+    }
+
+    &_list-item {
+      flex-basis: 40%;
+      padding-bottom: 30px;
+    }
+  }
+}

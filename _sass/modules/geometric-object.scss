@@ -46,3 +46,22 @@
     }
   }
 }
+
+@media (max-width: 810px) {
+  .geometric-figure {
+    &_center {
+      width: 96px;
+      height: 96px;
+    }
+
+    &_left, &_right {
+      width: 48px;
+      height: 96px;
+
+      &::after {
+        width: 96px;
+        height: 96px;
+      }
+    }
+  }
+}

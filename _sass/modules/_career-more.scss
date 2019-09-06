@@ -72,3 +72,27 @@
     width: 100%;
   }
 }
+
+@media (max-width: 810px) {
+  .more {
+    &_boxes {
+      flex-direction: column;
+    }
+
+    &_boxes-box {
+      margin-bottom: 30px;
+      padding: 20px;
+      padding-top: 150px;
+    }
+
+    &--right {
+      .geometric-figure {
+        right: -83px;
+      }
+    }
+
+    .geometric-figure {
+      top: 35px;
+    }
+  }
+}
