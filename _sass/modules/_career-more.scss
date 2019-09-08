@@ -85,14 +85,18 @@
       padding-top: 150px;
     }
 
-    &--right {
+    &_boxes-box--right {
       .geometric-figure {
-        right: -83px;
+        right: -48px;
       }
     }
 
     .geometric-figure {
       top: 35px;
+    }
+
+    .paragraph.has-dot {
+      padding-right: 50px;
     }
   }
 }

@@ -33,7 +33,8 @@
 @media (max-width: 810px) {
   .perks {
     &_list {
-      justify-content: space-around;
+      justify-content: space-between;
+      padding-right: 25px;
     }
 
     &_list-item {

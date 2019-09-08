@@ -51,9 +51,14 @@
     }
 
     li {
+      display: none;
       align-items: center;
-      display: flex;
+      // display: flex;
       justify-content: space-between;
+
+      &:first-child {
+        display: flex;
+      }
     }
   }
 }

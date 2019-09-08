@@ -8,7 +8,6 @@
 
   &_mid {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     max-width: 1070px;
     padding-bottom: 40px;
@@ -25,5 +24,23 @@
   .section_content {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 810px) {
+  .about {
+    padding-right: 25px;
+
+    &_top.paragraph {
+
+    }
+
+    &_mid {
+      flex-direction: column;
+
+      .paragraph {
+        padding-right: 0;
+      }
+    }
   }
 }
