@@ -55,6 +55,22 @@ h3 {
   margin: 0;
 }
 
+
+li {
+  list-style: none;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: -14px;
+    top: 10px;
+    background-color: $color-accent-yellow;
+  }
+}
+
 .btn-primary {
 
   &.btn-arrow {
