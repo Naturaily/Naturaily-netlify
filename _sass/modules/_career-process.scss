@@ -40,7 +40,7 @@
       padding: 31px 60px 41px 31px;
 
       li {
-        width: 138px;
+        flex-basis: 20%;
         line-height: 40px;
         margin-right: 37px;
         text-align: center;
@@ -50,7 +50,7 @@
         color: #7e7166;
 
         &:first-child {
-          width: 320px;
+          flex-basis: 40%;
           margin-right: 40px;
         }
       }
@@ -66,6 +66,14 @@
       align-items: center;
       display: flex;
       justify-content: center;
+
+      &--last {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        top: -5px;
+        background-color: $color-secondary;
+      }
     }
 
     .paragraph {

@@ -8,9 +8,11 @@
 @import "modules/page-navigation";
 @import "modules/accordion";
 @import "modules/table";
+@import "modules/list";
 @import "modules/person";
 @import "modules/carousel";
 @import "modules/geometric-object";
+
 // CAREERS SPECIFIC STYLES //
 
 @import "modules/career-team";
@@ -53,22 +55,6 @@ h3 {
   font-weight: 300;
   line-height: 36px;
   margin: 0;
-}
-
-
-li {
-  list-style: none;
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    left: -14px;
-    top: 10px;
-    background-color: $color-accent-yellow;
-  }
 }
 
 .btn-primary {
