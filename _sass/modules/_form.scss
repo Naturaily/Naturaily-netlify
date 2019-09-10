@@ -1,0 +1,11 @@
+.form {
+  background-color: rgba(154, 168, 224, 0.1);
+  margin-top: 100px;
+  padding-left: 180px;
+
+  iframe {
+    max-width: 810px;
+    width: 100% !important;
+    min-width: initial !important;
+  }
+}

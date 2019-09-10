@@ -72,6 +72,10 @@
     flex-wrap: wrap;
   }
 
+  &.form {
+    flex-direction: column;
+  }
+
   &.extra-narrow {
     max-width: 1070px;
   }
