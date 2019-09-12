@@ -20,19 +20,22 @@ step-one-text: >-
   Shopify offers a lot of features but lacks e.g. ready-to-use solutions
   simplifying orders management (on the European market).<br><br> If you need
   something extra, like a shipping list generated in real time - you need a
-  dedicated application. <br><br> This included warehouse management system,
-  loyalty system, product data management system, gift cards and many more.
+  dedicated application. <br><br> Together wit Woolman, we designed the custom
+  external software integrations for some of the top e-commerce brands. This
+  included warehouse management system, loyalty system, product data management
+  system, gift cards and many more.
 step-one-image: /assets/images/shopify-woolman-screen-1.png
 step-two-title: Integrate existing external systems with e-stores on Shopify
 step-two-text: >-
-  Nordic Shipping App enables data exchange between the Shopify store and the
-  shipping company in real time. <br><br>This way, it is possible to generate
-  waybills and set new pickup points visible to customers while shopping.
-  <br><br>The second custom Shopify application is responsible for the
-  integration of data such as customer data, stock balance, order status,
-  product data, product prices, gift cards, asset updates, etc. <br><br>Thanks
-  to the integration, when new data is entered in one of the external systems,
-  it also automatically appears in the online store (and vice versa).<br><br>
+  One of the custom integration was Nordic Shipping App which enables data
+  exchange between the Shopify store and the shipping company in real time.
+  <br><br>This way, it is possible to generate waybills and set new pickup
+  points visible to customers while shopping. <br><br>The second custom Shopify
+  application is responsible for the integration of data such as customer data,
+  stock balance, order status, product data, product prices, gift cards, asset
+  updates, etc. <br><br>Thanks to the integration, when new data is entered in
+  one of the external systems, it also automatically appears in the online store
+  (and vice versa).<br><br>
 step-two-image: /assets/images/nordic-shipping-app.png
 step-three-title: External authentication and verification system
 step-three-text: >-
@@ -56,18 +59,27 @@ alt-stack-3: Oscar
 step-four-title: Fully integrated Shopify ecosystem
 step-four-text: >-
   Thanks to the custom integrations of the Shopify store, the customer has
-  become more effective by:
+  become more effective by:<br><br>
 
 
-  * sending orders from Shopify to Oscar system (with data translation from JSON
-  to .xml and field mapping);
+  <ul>
 
-  * integration of inventory and prices in online pharmacy store;
 
-  * automatic update of product images based on a media bank;
+  <li>sending orders from Shopify to Oscar system (with data translation from
+  JSON to .xml and field mapping);</li>
 
-  * automatic update of the privacy policy and regulations that the customer
-  must accept before finishing buying process
+
+  <li>integration of inventory and prices in online pharmacy store;</li>
+
+
+  <li>automatic update of product images based on a media bank;</li>
+
+
+  <li>automatic update of the privacy policy and regulations that the customer
+  must accept before finishing buying process</li>
+
+
+  </ul>
 
 
   As you can see, the integration possibilities between Shopify and external
