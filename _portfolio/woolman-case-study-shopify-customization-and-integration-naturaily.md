@@ -72,6 +72,9 @@ step-four-text: >-
 
   As you can see, the integration possibilities between Shopify and external
   systems are almost limitless.
+step-four-image-one: /assets/images/shopify-woolman-screen-1.png
+step-four-image-two: /assets/images/nordic-shipping-app.png
+step-four-image-three: /assets/images/suomi-authentification-system.png
 slide-left: LVCloud
 slide-left-logo: /assets/images/lvcloud-screen-3.png
 slide-left-link: /project/lvcloud
