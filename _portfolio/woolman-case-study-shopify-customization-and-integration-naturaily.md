@@ -14,7 +14,7 @@ banner-text: >-
   Shopify remains the most popular e-commerce platform in the world. Together
   with Woolman, we provided Shopify development and integration services,
   solving most complex cases for Shopify customers.
-banner-tech: 'List [ "Shopify, Suomi, Oscar" ]'
+banner-tech: 'Shopify, Suomi, Oscar'
 step-one-title: Shopify integration with external systems
 step-one-text: >-
   Shopify offers a lot of features but lacks e.g. ready-to-use solutions
