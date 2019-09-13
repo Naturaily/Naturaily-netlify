@@ -3,7 +3,8 @@
   &_figure-wrap {
     display: flex;
     flex: 1 100%;
-    padding-left: 160px;
+    padding: 0 160px;
+    justify-content: space-between;
 
     img {
       width: 100%;
@@ -11,17 +12,38 @@
     }
   }
 
+  &_paragraphs {
+    display: flex;
+  }
+
+  &_paragraphs .paragraph {
+    box-sizing: border-box;
+
+    &.paragraph-offset {
+      color: $color-global-font;
+      max-width: 100%;
+      flex: 1 0 53%;
+      padding-right: 60px;
+    }
+
+    &:last-child {
+      flex: 1 0 18%;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
 
   &_video {
     padding-left: 160px;
   }
 
   .btn {
-    padding-left: 45px;
+    margin-left: 45px;
   }
 
   .section_content {
     display: flex;
     flex-wrap: wrap;
   }
+
 }
