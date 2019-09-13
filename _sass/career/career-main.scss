@@ -29,7 +29,9 @@
 @import "modules/career-perks";
 @import "modules/career-video";
 
+// ABOUT SPECIFIC STYLES //
 
+@import "modules/about-who-we-are";
 
 
 // NEW CAREERS //
@@ -161,6 +163,10 @@ h3 {
 .menu {
   padding-left: 0;
   overflow: hidden;
+}
+
+.figures-wrapper {
+  display: flex;
 }
 
 

@@ -1,0 +1,27 @@
+.who-we-are {
+
+  &_figure-wrap {
+    display: flex;
+    flex: 1 100%;
+    padding-left: 160px;
+
+    img {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+
+
+  &_video {
+    padding-left: 160px;
+  }
+
+  .btn {
+    padding-left: 45px;
+  }
+
+  .section_content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

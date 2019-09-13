@@ -72,6 +72,10 @@
     flex-wrap: wrap;
   }
 
+  &.who-we-are {
+    flex-direction: column;
+  }
+
   &.form {
     flex-direction: column;
   }
