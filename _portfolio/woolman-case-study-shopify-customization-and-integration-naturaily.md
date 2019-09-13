@@ -25,7 +25,7 @@ step-one-text: >-
   included warehouse management system, loyalty system, product data management
   system, gift cards and many more.
 step-one-image: /assets/images/shopify-woolman-screen-1.png
-step-two-title: Integrate existing external systems with e-stores on Shopify
+step-two-title: Integrating existing external systems with e-stores on Shopify
 step-two-text: >-
   One of the custom integration was Nordic Shipping App which enables data
   exchange between the Shopify store and the shipping company in real time.
@@ -59,28 +59,27 @@ alt-stack-3: Oscar
 step-four-title: Fully integrated Shopify ecosystem
 step-four-text: >-
   Thanks to the custom integrations of the Shopify store, the customer has
-  become more effective by:<br><br>
+  become more effective by:\
 
+  <br><br>\
 
-  <ul>
+  - sending orders from Shopify to Oscar system (with data translation from JSON
+  to .xml and field mapping)\
 
+  <br><br>\
 
-  <li>sending orders from Shopify to Oscar system (with data translation from
-  JSON to .xml and field mapping);</li>
+  integration of inventory and prices in online pharmacy store\
 
+  <br><br>\
 
-  <li>integration of inventory and prices in online pharmacy store;</li>
+  automatic update of product images based on a media bank\
 
+  <br><br>\
 
-  <li>automatic update of product images based on a media bank;</li>
+  automatic update of the privacy policy and regulations that the customer must
+  accept before finishing buying process\
 
-
-  <li>automatic update of the privacy policy and regulations that the customer
-  must accept before finishing buying process</li>
-
-
-  </ul>
-
+  <br><br>\
 
   As you can see, the integration possibilities between Shopify and external
   systems are almost limitless.
