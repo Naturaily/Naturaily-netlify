@@ -32,6 +32,7 @@
 // ABOUT SPECIFIC STYLES //
 
 @import "modules/about-who-we-are";
+@import "modules/about-values";
 
 
 // NEW CAREERS //
@@ -63,12 +64,17 @@ h3 {
 .btn-primary {
 
   &.btn-arrow {
-    padding: 14px 22px 14px 40px;
+    padding: 16px 22px 16px 40px;
+    font-size: 13px;
 
     img {
       margin-bottom: 0;
     }
   }
+}
+
+a.text-secondary {
+  text-decoration: underline;
 }
 
 .paragraph {

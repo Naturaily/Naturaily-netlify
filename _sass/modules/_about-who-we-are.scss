@@ -3,17 +3,23 @@
   &_figure-wrap {
     display: flex;
     flex: 1 100%;
-    padding: 0 160px;
+    padding: 100px 0 70px 160px;
     justify-content: space-between;
 
     img {
-      width: 100%;
-      max-width: 500px;
+      width: 469px;
+      max-width: 469px;
+    }
+
+    h3 {
+      padding-top: 30px;
+      padding-bottom: 10px;
     }
   }
 
   &_paragraphs {
     display: flex;
+    padding-right: 160px;
   }
 
   &_paragraphs .paragraph {
@@ -22,19 +28,43 @@
     &.paragraph-offset {
       color: $color-global-font;
       max-width: 100%;
-      flex: 1 0 53%;
+      flex: 1 0 50%;
       padding-right: 60px;
     }
 
     &:last-child {
-      flex: 1 0 18%;
-      padding-left: 40px;
-      padding-right: 40px;
+      flex: 1 0 17.5%;
+      padding-left: 20px;
     }
   }
 
   &_video {
-    padding-left: 160px;
+    display: flex;
+    width: 100%;
+    margin-left: 160px;
+    box-sizing: border-box;
+
+
+    &-box {
+      box-sizing: border-box;
+      border: 1px solid rgba(59, 34, 15, .1);
+      border-left: 0;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      padding: 40px 80px 40px 60px;
+      max-width: 300px;
+    }
+
+    .paragraph {
+      padding-top: 20px;
+    }
+
+    iframe {
+	    height: 370px;
+      width: 630px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
   }
 
   .btn {
@@ -44,6 +74,7 @@
   .section_content {
     display: flex;
     flex-wrap: wrap;
+    padding-right: 160px;
   }
 
 }
