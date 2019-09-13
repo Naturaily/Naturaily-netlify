@@ -68,16 +68,16 @@ step-four-text: >-
 
   <br><br>\
 
-  integration of inventory and prices in online pharmacy store\
+  - integration of inventory and prices in online pharmacy store\
 
   <br><br>\
 
-  automatic update of product images based on a media bank\
+  - automatic update of product images based on a media bank\
 
   <br><br>\
 
-  automatic update of the privacy policy and regulations that the customer must
-  accept before finishing buying process\
+  - automatic update of the privacy policy and regulations that the customer
+  must accept before finishing buying process\
 
   <br><br>\
 
