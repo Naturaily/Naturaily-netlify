@@ -61,25 +61,31 @@ step-four-text: >-
   Thanks to the custom integrations of the Shopify store, the customer has
   become more effective by:\
 
-  <br><br>\
+  <br><br>
+
 
   1. Sending orders from Shopify to Oscar system (with data translation from
   JSON to .xml and field mapping).\
 
-  <br><br>\
+  <br><br>
+
 
   2. Integration of inventory and prices in online pharmacy store.\
 
-  <br><br>\
+  <br><br>
+
 
   3. Automatic update of product images based on a media bank.\
 
-  <br><br>\
+  <br><br>
+
 
   4. Automatic update of the privacy policy and regulations that the customer
   must accept before finishing buying process.\
 
   <br><br>\
+
+  \
 
   As you can see, the integration possibilities between Shopify and external
   systems are almost limitless.
@@ -93,3 +99,4 @@ slide-right: Zapnito
 slide-right-logo: /assets/images/zapnito.png
 slide-right-link: /project/zapnito
 ---
+
