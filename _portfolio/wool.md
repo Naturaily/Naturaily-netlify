@@ -59,33 +59,26 @@ alt-stack-3: Oscar
 step-four-title: Fully integrated Shopify ecosystem
 step-four-text: >-
   Thanks to the custom integrations of the Shopify store, the customer has
-  become more effective by:\
-
-  <br><br>
+  become more effective by:
 
 
-  \- Sending orders from Shopify to Oscar system (with data translation from
-  JSON to .xml and field mapping).\
-
-  <br><br>
+  - Sending orders from Shopify to Oscar system (with data translation from JSON
+  to .xml and field mapping).
 
 
-  \- Integration of inventory and prices in online pharmacy store.\
 
-  <br><br>
-
-
-  \- Automatic update of product images based on a media bank.\
-
-  <br><br>
+  - Integration of inventory and prices in online pharmacy store.
 
 
-  \- Automatic update of the privacy policy and regulations that the customer
-  must accept before finishing buying process.\
 
-  <br><br>\
+  - Automatic update of product images based on a media bank.
 
-  \
+
+
+  - Automatic update of the privacy policy and regulations that the customer
+  must accept before finishing buying process.
+
+
 
   As you can see, the integration possibilities between Shopify and external
   systems are almost limitless.
