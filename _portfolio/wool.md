@@ -8,7 +8,7 @@ layout: portfolio-details
 image: /assets/images/shopify-project.png
 twitter-card: summary_large_image
 project-screenshot: /assets/images/prezentacja-bez-tytułu-5-.png
-project-logo: /assets/images/woolman-logo.png
+project-logo: /assets/images/woolman-logo-v2-white-2400x1200-small_300x90-2x.png
 banner-bg: /assets/images/projects-background-red-1-.png
 banner-text: >-
   Shopify remains the most popular e-commerce platform in the world. Together
