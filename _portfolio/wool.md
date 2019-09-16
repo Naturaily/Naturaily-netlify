@@ -64,23 +64,23 @@ step-four-text: >-
   <br><br>
 
 
-  1. Sending orders from Shopify to Oscar system (with data translation from
+  \- Sending orders from Shopify to Oscar system (with data translation from
   JSON to .xml and field mapping).\
 
   <br><br>
 
 
-  2. Integration of inventory and prices in online pharmacy store.\
+  \- Integration of inventory and prices in online pharmacy store.\
 
   <br><br>
 
 
-  3. Automatic update of product images based on a media bank.\
+  \- Automatic update of product images based on a media bank.\
 
   <br><br>
 
 
-  4. Automatic update of the privacy policy and regulations that the customer
+  \- Automatic update of the privacy policy and regulations that the customer
   must accept before finishing buying process.\
 
   <br><br>\
