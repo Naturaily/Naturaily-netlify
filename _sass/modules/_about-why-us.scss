@@ -1,0 +1,26 @@
+.why-us {
+
+  &_desc {
+    flex-basis: 40%;
+
+    .paragraph {
+      max-width: 100%;
+      font-size: 14px;
+      color: rgba(61, 35, 16, 0.7);
+    }
+
+    h3 {
+      padding-bottom: 20px;
+    }
+  }
+
+  .section_heading {
+    display: flex;
+  }
+
+  h2 {
+    flex-basis: 30%;
+    margin: 0;
+    padding-right: 80px;
+  }
+}
