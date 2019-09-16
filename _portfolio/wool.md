@@ -66,13 +66,10 @@ step-four-text: >-
   to .xml and field mapping).
 
 
-
   - Integration of inventory and prices in online pharmacy store.
 
 
-
   - Automatic update of product images based on a media bank.
-
 
 
   - Automatic update of the privacy policy and regulations that the customer
