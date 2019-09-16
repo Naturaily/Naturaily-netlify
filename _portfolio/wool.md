@@ -5,9 +5,9 @@ description: >-
   customization.
 slug: woolman
 layout: portfolio-details
-image: /assets/images/shopify-woolman-2.png
+image: /assets/images/shopify-project.png
 twitter-card: summary_large_image
-project-screenshot: /assets/images/shopify-woolman-2.png
+project-screenshot: /assets/images/prezentacja-bez-tytułu-5-.png
 project-logo: /assets/images/woolman-logo.png
 banner-bg: /assets/images/projects-background-red-1-.png
 banner-text: >-
