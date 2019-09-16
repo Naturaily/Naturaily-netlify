@@ -62,30 +62,22 @@ step-four-text: >-
   become more effective by:
 
 
-  * Sending orders from Shopify to Oscar system (with data translation from JSON
+  - Sending orders from Shopify to Oscar system (with data translation from JSON
   to .xml and field mapping).
 
-  * Integration of inventory and prices in online pharmacy store.
 
-  * Automatic update of product images based on a media bank.
+  - Integration of inventory and prices in online pharmacy store.
 
-  * Automatic update of the privacy policy and regulations that the customer
+
+  - Automatic update of product images based on a media bank.
+
+
+  - Automatic update of the privacy policy and regulations that the customer
   must accept before finishing buying process.
 
 
   As you can see, the integration possibilities between Shopify and external
   systems are almost limitless.
-
-
-
-
-  1. 123
-
-  2. 123
-
-  3. 123
-
-  4. 123
 step-four-image-one: /assets/images/shopify-project-structure2.png
 step-four-image-two: /assets/images/nordic-shipping-app.png
 step-four-image-three: /assets/images/suomi-authentification-system.png
