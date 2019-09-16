@@ -24,7 +24,7 @@ step-one-text: >-
   external software integrations for some of the top e-commerce brands. This
   included warehouse management system, loyalty system, product data management
   system, gift cards and many more.
-step-one-image: /assets/images/shopify-woolman-screen-1.png
+step-one-image: /assets/images/shopify-project-structure2.png
 step-two-title: Integrating existing external systems with e-stores on Shopify
 step-two-text: >-
   One of the custom integration was Nordic Shipping App which enables data
