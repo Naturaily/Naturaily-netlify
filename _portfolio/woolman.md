@@ -88,4 +88,3 @@ slide-right: Zapnito
 slide-right-logo: /assets/images/zapnito.png
 slide-right-link: /project/zapnito
 ---
-

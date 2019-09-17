@@ -2,7 +2,7 @@
   <div class="step step-left">
     <span class="main-point">The need</span>
     <h2>{{ page.step-one-title }}</h2>
-    <p>{{ page.step-one-text }}</p>
+    {{ page.step-one-text | markdownify }}
     <img class="image-right" src="/assets/images/loader.gif" data-src="{{ page.step-one-image }}" alt="First project image">
   </div>
 </div>
@@ -11,7 +11,7 @@
   <div class="step step-right">
     <span class="main-point">The solution</span>
     <h2>{{ page.step-two-title }}</h2>
-    <p>{{ page.step-two-text }}</p>
+    {{ page.step-two-text | markdownify }}
     <img class="image-left" src="/assets/images/loader.gif" data-src="{{ page.step-two-image }}" alt="Second project image">
   </div>
 </div>
@@ -20,7 +20,7 @@
   <div class="step step-left">
     <span class="main-point">The tools</span>
     <h2>{{ page.step-three-title }}</h2>
-    <p>{{ page.step-three-text }}</p>
+    {{ page.step-three-text | markdownify }}
     <div class="stack">
       {% if page.src-stack-1 %}
         <img src="/assets/images/loader.gif" data-src="{{ page.src-stack-1 }}" alt="{{ page.alt-stack-1 }}" alt="project stack">
@@ -40,7 +40,7 @@
   <div class="step step-last">
     <span class="main-point">The results</span>
     <h2>{{ page.step-four-title }}</h2>
-    <p>{{ page.step-four-text }}</p>
+    {{ page.step-four-text | markdownify }}
     <div class="step-image">
       <img class="step-image-1" src="/assets/images/loader.gif" data-src="{{ page.step-four-image-one }}" alt="Fourth project image">
       <img class="step-image-2" src="/assets/images/loader.gif" data-src="{{ page.step-four-image-two }}" alt="Fifth project image">
