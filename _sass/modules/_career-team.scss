@@ -1,4 +1,4 @@
-.team {
+.career-team {
   .section_content {
     max-width: 610px;
     width: 100%;
@@ -14,11 +14,11 @@
 }
 
 @media (max-width: 810px) {
-  .team {
+  .career-team {
     .paragraph {
       display: none;
     }
-    
+
     img {
       padding-top: 30px;
     }

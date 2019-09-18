@@ -1,0 +1,37 @@
+.team {
+  &_photos {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    &-cell {
+      flex-basis: 12.72%;
+      padding: 10px;
+    }
+  }
+
+  .paragraph {
+    max-width: 650px;
+  }
+
+  .geometric-figure {
+    z-index: -1;
+    top: -85px;
+    right: -110px;
+
+    &_center {
+      width: 376px;
+      height: 376px;
+    }
+
+    &_right {
+      height: 376px;
+      width: 188px;
+
+      &::after {
+        width: 376px;
+        height: 376px;
+      }
+    }
+  }
+}

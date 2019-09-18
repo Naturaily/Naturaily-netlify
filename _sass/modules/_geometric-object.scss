@@ -6,13 +6,12 @@
 
   &_center {
     display: flex;
-    width: 166px;
-    height: 166px;
-    box-shadow: 0px 0px 1px 2px #FFB040;
+    width: 162px;
+    height: 162px;
+    border: 2px solid $color-accent-yellow;
     border-radius: 50%;
     right: 0;
     top: 0;
-    margin: 0 1.5px;
   }
 
   &_left, &_right {
@@ -35,7 +34,7 @@
 
     &::after {
       left: 0;
-      background-color: #FF5E45;
+      background-color: $color-secondary;
     }
   }
 
@@ -43,21 +42,39 @@
 
     &::after {
       right: 0;
-      background-color: #FF5E45;
+      background-color: $color-secondary;
     }
+  }
+}
+
+.inscribed-circle {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-color: $color-secondary;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 50%;
   }
 }
 
 @media (max-width: 810px) {
   .geometric-figure {
     &_center {
-      width: 96px;
-      height: 96px;
+      width: 92px;
+      height: 92px;
     }
 
     &_left, &_right {
-      width: 48px;
-      height: 96px;
+      width: 44px;
+      height: 92px;
 
       &::after {
         width: 96px;

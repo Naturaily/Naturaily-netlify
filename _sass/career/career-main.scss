@@ -13,6 +13,7 @@
 @import "modules/carousel";
 @import "modules/geometric-object";
 @import "modules/form";
+@import "modules/video-box";
 
 // CAREERS SPECIFIC STYLES //
 
@@ -37,6 +38,9 @@
 @import "modules/about-choose";
 @import "modules/about-strength";
 @import "modules/about-testimonials";
+@import "modules/about-team";
+@import "modules/about-join";
+@import "modules/about-estimate";
 
 
 // NEW CAREERS //
@@ -116,6 +120,10 @@ a.text-secondary {
     position: absolute;
     left: 0;
     top: 10px;
+  }
+
+  &.text-secondary {
+    color: $color-secondary;
   }
 }
 

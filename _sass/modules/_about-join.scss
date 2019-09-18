@@ -1,0 +1,23 @@
+.join {
+
+  .section_desc {
+    flex-basis: 45%;
+    padding-right: 200px;
+  }
+
+  .section_content {
+    padding-top: 10px;
+  }
+
+  .image {
+    position: absolute;
+    top: -125px;
+    z-index: -1;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 50px;
+  }
+}

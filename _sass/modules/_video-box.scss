@@ -1,0 +1,26 @@
+.video-box {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+
+
+  &_caption {
+    box-sizing: border-box;
+    border: 1px solid rgba(59, 34, 15, .1);
+    border-left: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 40px 65px 40px 55px;
+  }
+
+  .paragraph {
+    padding-top: 20px;
+  }
+
+  iframe {
+    height: 370px;
+    min-width: 660px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+}

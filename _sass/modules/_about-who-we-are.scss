@@ -38,35 +38,6 @@
     }
   }
 
-  &_video {
-    display: flex;
-    width: 100%;
-    margin-left: 160px;
-    box-sizing: border-box;
-
-
-    &-box {
-      box-sizing: border-box;
-      border: 1px solid rgba(59, 34, 15, .1);
-      border-left: 0;
-      border-top-right-radius: 8px;
-      border-bottom-right-radius: 8px;
-      padding: 40px 80px 40px 60px;
-      max-width: 300px;
-    }
-
-    .paragraph {
-      padding-top: 20px;
-    }
-
-    iframe {
-	    height: 370px;
-      width: 630px;
-      border-top-left-radius: 8px;
-      border-bottom-left-radius: 8px;
-    }
-  }
-
   .btn {
     margin-left: 45px;
   }
@@ -75,6 +46,15 @@
     display: flex;
     flex-wrap: wrap;
     padding-right: 160px;
+  }
+
+  .video-box {
+    margin-left: 160px;
+    padding-right: 30px;
+
+    &_caption {
+      max-width: 300px;
+    }
   }
 
 }

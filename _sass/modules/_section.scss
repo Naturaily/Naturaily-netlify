@@ -55,11 +55,11 @@
     padding: 0;
   }
 
-  &.path, &.offers, &.position, &.values, &.process, &.who-we-are, &.form, &.why-us, &.choose, &.testimonials {
+  &.path, &.offers, &.position, &.values, &.process, &.who-we-are, &.form, &.why-us, &.choose, &.testimonials, &.team {
     flex-direction: column;
   }
 
-  &.team {
+  &.career-team {
     justify-content: space-between;
   }
 
@@ -69,7 +69,7 @@
   }
 
   &.extra-narrow {
-    max-width: 1070px;
+    max-width: 1055px;
   }
 }
 
@@ -95,7 +95,7 @@
       margin: 45px 0;
     }
 
-    &.team {
+    &.career-team {
       flex-direction: column;
     }
   }

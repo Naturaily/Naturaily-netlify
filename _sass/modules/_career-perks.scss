@@ -1,5 +1,6 @@
 .perks {
   padding-top: 80px;
+  padding-left: 45px;
 
   &_list {
     display: flex;
@@ -20,6 +21,10 @@
   .paragraph {
     max-width: 190px;
     font-size: 14px;
+  }
+
+  .video-box_caption {
+    padding-right: 140px;
   }
 
   .icon {

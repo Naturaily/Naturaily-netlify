@@ -1,0 +1,53 @@
+.estimate {
+  padding-left: 160px;
+  padding-right: 100px;
+  background-color: #FFF7F1;
+
+  .section_content {
+    padding-left: 45px;
+  }
+
+  .section_heading {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .section_desc {
+    padding-left: 70px;
+    padding-top: 20px;
+
+  }
+
+  .section_name {
+    padding-top: 50px;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 300;
+    text-decoration: underline;
+    display: flex;
+    max-width: 370px;
+
+    &-number {
+      padding-top: 3px;
+      text-decoration: none;
+    }
+  }
+
+  .paragraph {
+    max-width: 320px;
+    padding-bottom: 40px;
+  }
+
+  .btn {
+    display: inline-block;
+  }
+
+  .image {
+    max-width: 370px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.08);
+    margin: 20px 0;
+    padding-top: 46px;
+  }
+}
