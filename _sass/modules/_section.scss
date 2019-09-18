@@ -55,7 +55,12 @@
     padding: 0;
   }
 
-  &.path, &.offers, &.position, &.values, &.process, &.who-we-are, &.form, &.why-us, &.choose, &.testimonials, &.team {
+  &.path, &.offers,
+  &.position, &.values,
+  &.process, &.who-we-are,
+  &.form, &.why-us,
+  &.choose, &.testimonials,
+  &.team, &.photos {
     flex-direction: column;
   }
 
