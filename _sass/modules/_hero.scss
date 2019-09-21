@@ -1,25 +1,47 @@
 .hero {
-  &--layout {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 150px auto 90px;
+
+  &--career {
     background-image: url("../assets/images/career_hero_left.png"), url("../assets/images/career_hero_right.png");
     background-repeat: no-repeat;
     background-position: 0px 170px, 100% 50px;
     background-size: 379px 321px, 390px 520px;
+    .hero_background-text {
+      top: -125px;
+      font-size: 175px;
+    }
   }
 
-  position: relative;
-  text-align: center;
-  margin: 150px auto 90px;
+  &--about {
+    background-image: url("../assets/images/about_hero_right.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 30%;
+    padding-bottom: 150px;
+
+    .hero_background-text {
+      // top: -95px;
+      // font-size: 145px;
+    }
+
+    .hero_background-text {
+      width: 800px;
+    }
+  }
 
   &_background-text {
     position: absolute;
     z-index: -2;
-    top: -115px;
-    left: 0;
     width: 100%;
     color: #FFF7F1;
-    font-size: 175px;
     font-weight: bold;
     text-align: center;
+    top: -115px;
+    font-size: 172px;
   }
 
   &_box {
@@ -35,9 +57,6 @@
     line-height: 50px;
     padding-bottom: 26px;
     margin: 0 auto;
-    	  font-size: 28px;
-        font-weight: 200;
-        line-height: 40px;
   }
 
   &_box-footer {
@@ -72,6 +91,23 @@
       background-size: 200px 169px, 100px 150px;
     }
 
+    &--career {
+      background-position: -140px 81%, calc(100% - -28px) 77px;
+      background-size: 200px 169px, 100px 150px;
+      .hero_background-text {
+        font-size: 100px;
+        top: 35px;
+      }
+    }
+
+    &--about {
+
+
+      .hero_background-text {
+
+      }
+    }
+
     &_box {
       padding: 0 30px;
     }
@@ -88,9 +124,5 @@
       padding: 0 10px;
     }
 
-    &_background-text {
-      font-size: 100px;
-      top: 35px;
-    }
   }
 }

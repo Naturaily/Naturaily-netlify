@@ -5,6 +5,11 @@
 
   &-navigation {
     background-color: #FFFBF7;
+
+    &.stuck {
+      position: fixed;
+      top: 0;
+    }
   }
 
   &_content {
