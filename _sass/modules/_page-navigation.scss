@@ -53,10 +53,9 @@
     li {
       display: none;
       align-items: center;
-      // display: flex;
       justify-content: space-between;
 
-      &:first-child {
+      &.is-visible {
         display: flex;
       }
     }

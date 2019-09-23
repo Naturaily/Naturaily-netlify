@@ -17,6 +17,8 @@ $(document).ready(function() {
     handler: function(direction) {
       var waypointNavItem = $('.section-navigation a[href=' + '"#' + (this.element.id) + '"' + ']')[0];
       $('.section-navigation a').removeClass('is-active')
+      $('.section-navigation a').parent().removeClass('is-visible')
+      $(waypointNavItem).parent().addClass('is-visible')
       $(waypointNavItem).addClass('is-active');
     }
   })
