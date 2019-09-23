@@ -23,15 +23,15 @@
       position: relative;
       bottom: 2px;
     }
-
-    &.is-active, &:hover {
-      color: $color-secondary;
-      box-shadow: inset 0px -3px 0px $color-secondary;
-    }
   }
 
   &_chevron {
     display: none;
+  }
+
+  li.is-active a, li:hover a {
+    color: $color-secondary;
+    box-shadow: inset 0px -3px 0px $color-secondary;
   }
 }
 
@@ -54,9 +54,11 @@
       display: none;
       align-items: center;
       justify-content: space-between;
+      order: 2;
 
       &.is-visible {
         display: flex;
+        order: 1;
       }
     }
   }
