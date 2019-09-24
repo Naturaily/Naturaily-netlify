@@ -60,11 +60,17 @@
   .paragraph {
     font-size: 14px;
 
+
     &.has-dot {
 	    font-size: 24px;
       font-weight: 300;
       line-height: 34px;
       padding-right: 110px;
+      color: $color-global-font;
+    }
+
+    .dot {
+      top: 15px;
     }
   }
 

@@ -3,7 +3,7 @@
     {% if page.responsibilities %}
       <div class="skills_list">
         <h3>You can <span class="text-greyed-out">count on it</span>. Your tasks will include</h3>
-        <ul>
+        <ul class="list">
           {% for req in page.responsibilities %}
           <li class="skills_list-item">{{ req }}</li>
           {% endfor %}
@@ -14,7 +14,7 @@
     {% if page.requirements %}
       <div class="skills_list">
         <h3>Must have - <span class="text-greyed-out">we need the following skills</span>:</h3>
-        <ul>
+        <ul class="list">
           {% for req in page.requirements %}
           <li class="skills_list-item">{{ req }}</li>
           {% endfor %}
@@ -25,7 +25,7 @@
     {% if page.nicehave %}
       <div class="skills_list">
         <h3>Desirable skills that <span class="text-greyed-out">will make you stand out</span>:</h3>
-        <ul>
+        <ul class="list">
           {% for req in page.nicehave %}
           <li class="skills_list-item">{{ req }}</li>
           {% endfor %}
