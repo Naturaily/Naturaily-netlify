@@ -47,7 +47,7 @@
 // NEW CAREERS //
 
 body {
-  font-weight: 500;
+  font-weight: 300;
 }
 
 figure {
@@ -65,7 +65,7 @@ h2 {
 
 h3 {
 	font-size: 24px;
-  font-weight: 300;
+  font-weight: 200;
   line-height: 36px;
   margin: 0;
 }
@@ -93,14 +93,14 @@ a.text-secondary {
   max-width: 410px;
   margin: 0;
   color: rgba(61, 35, 16, 0.7);
-  font-weight: 400;
+  font-weight: 300;
 
   &-offset {
     padding-left: 45px;
   }
 
   &.has-dot {
-    padding-left: 25px;
+    padding-left: 40px;
     position: relative;
   }
 
@@ -110,7 +110,11 @@ a.text-secondary {
 
   small {
     font-size: 14px;
-    opacity: .5;
+    color: rgba(59, 34, 15, 0.5);
+  }
+
+  strong {
+    font-weight: 500;
   }
 
   .dot {
@@ -136,15 +140,16 @@ a.text-secondary {
 
 .cash {
   color: $color-secondary;
-  font-size: 24px;
+  font-size: 32px;
   padding-right: 20px;
-  font-weight: 300;
+  font-weight: 200;
 
   &-currency {
     color: rgba(61, 35, 16, 0.5);
     font-size: 14px;
     position: relative;
-    bottom: 2px;
+    bottom: 6px;
+    font-weight: 300;
   }
 }
 

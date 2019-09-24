@@ -56,6 +56,12 @@
     width: 100%;
   }
 
+  .paragraph.has-dot {
+    padding-left: 25px;
+    color: $color-global-font;
+    font-size: 16px;
+  }
+
   .section_desc {
     max-width: 450px;
   }

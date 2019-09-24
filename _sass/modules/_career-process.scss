@@ -78,10 +78,14 @@
 
     .paragraph {
       padding-top: 35px;
+      font-weight: 400;
+      color: $color-global-font;
 
       small {
         display: flex;
         padding-top: 20px;
+        color: rgba(61, 35, 16, 0.7);
+        font-weight: 400;
       }
     }
   }
@@ -114,6 +118,10 @@
         padding-right: 60px;
         box-sizing: border-box;
       }
+
+      .link {
+        text-decoration: none;
+      }
     }
 
     &-meet {
@@ -144,6 +152,12 @@
 
     h3 {
       width: 202px;
+    }
+  }
+
+  .section_heading {
+    span {
+      display: block;
     }
   }
 }
