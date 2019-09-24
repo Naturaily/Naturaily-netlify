@@ -102,6 +102,10 @@ a.text-secondary {
   &.has-dot {
     padding-left: 40px;
     position: relative;
+
+    &.closer {
+      padding-left: 25px;
+    }
   }
 
   a {

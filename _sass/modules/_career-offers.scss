@@ -39,6 +39,8 @@
   &_tile-title {
   	font-size: 16px;
     line-height: 24px;
+    font-weight: 300;
+    color: $color-global-font;
   }
 
   &_tile-salary {
@@ -73,6 +75,14 @@
 
   .section_heading {
     padding-left: 0;
+  }
+
+  .section_content {
+    padding-top: 100px;
+  }
+
+  .paragraph.has-dot {
+    color: $color-global-font;
   }
 }
 
