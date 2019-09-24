@@ -51,3 +51,31 @@
     padding-top: 46px;
   }
 }
+
+@media (max-width: 810px) {
+  .estimate {
+    flex-direction: column;
+    max-width: calc(100% - 16px);
+    padding: 0 16px 0px 30px;
+    margin: 0 8px;
+
+    .section_content {
+      padding: 0;
+    }
+
+    .section_desc {
+      padding-left: 0;
+      padding-top: 30px;
+    }
+
+    .image {
+      max-width: 100%;
+      padding-top: 20px;
+      margin: 30px 0;
+    }
+
+    .btn.btn-primary {
+      margin: 0;
+    }
+  }
+}
