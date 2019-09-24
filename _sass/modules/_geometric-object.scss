@@ -52,6 +52,7 @@
   height: 350px;
   position: relative;
   background-color: $color-secondary;
+  border-radius: 8px;
 
   &::after {
     content: "";

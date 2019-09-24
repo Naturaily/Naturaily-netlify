@@ -24,3 +24,30 @@
     padding-right: 80px;
   }
 }
+
+@media (max-width: 810px) {
+  .why-us {
+    padding-top: 100px;
+
+    .section_heading {
+      flex-direction: column;
+      padding-right: 25px;
+    }
+
+    .section_content {
+      padding-right: 25px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 39px;
+      padding-bottom: 30px;
+      padding-right: 0;
+    }
+
+    h3 {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+}

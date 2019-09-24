@@ -1,13 +1,74 @@
 .strength {
-
+  padding-left: 40px;
 
   .perks_list {
-    padding-right: 160px;
+    padding-right: 0;
+
+    &-item {
+      padding-right: 90px;
+      box-sizing: border-box;
+    }
+
+    .paragraph {
+      font-size: 14px;
+    }
+
+    .icon {
+      font-size: 49px;
+    }
   }
 
   .section_content {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 160px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .video-box_caption {
+    padding-right: 135px;
+  }
+
+  h3 {
+    padding-bottom: 55px;
+  }
+
+  strong {
+    padding-bottom: 10px;
+    padding-top: 25px;
+    display: inline-block;
+  }
+}
+
+
+@media (max-width: 810px) {
+  .strength {
+    padding-left: 0;
+
+    .section_content {
+      padding-left: 5px;
+      padding-right: 0;
+    }
+
+    .perks_list {
+      padding: 0;
+
+      &-item {
+        flex-basis: 50%;
+        box-sizing: border-box;
+        padding-right: 36px;
+      }
+    }
+
+    .video-box {
+      display: none;
+    }
+
+    h3 {
+      font-size: 18px;
+      line-height: 25px;
+      min-width: 110px;
+      padding-bottom: 40px;
+    }
   }
 }

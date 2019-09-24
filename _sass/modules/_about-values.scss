@@ -1,12 +1,13 @@
 .values {
   background-color: rgba(154, 168, 224, 0.1);
   padding-left: 160px;
+  position: relative;
 
   .accordion {
     padding-left: 160px;
     padding-right: 170px;
   }
-  
+
   .accordion-item {
     cursor: initial;
     height: 130px;
@@ -37,12 +38,73 @@
       padding-top: 30px;
     }
   }
+
+  .image {
+    position: absolute;
+    top: 155px;
+    right: -20px;
+  }
 }
 
 
 @media (max-width: 810px) {
   .values {
+    max-width: calc(100% - 30px);
     margin: 0 5px 0 10px;
-    padding: 40px 0px 30px 15px;
+    padding: 40px 25px 280px 15px;
+
+    .section_content {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+
+    .image {
+      position: absolute;
+      top: initial;
+      right: initial;
+      bottom: 0;
+      max-width: initial;
+      align-self: center;
+    }
+
+    .paragraph {
+      padding-top: 0;
+    }
+
+    .accordion {
+      padding: 0;
+
+      &_number {
+        padding-right: 15px;
+        align-self: center;
+      }
+
+      &-item {
+        height: auto;
+      }
+
+      .paragraph {
+        font-size: 12px;
+        line-height: 16px;
+        color: rgba(59, 34, 15, 0.5);
+      }
+
+      div {
+        width: 75px;
+        font-size: 18px;
+        color: $color-global-font;
+      }
+    }
+
+    .paragraph {
+      font-size: 16px;
+      padding-top: 0px;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 39px;
+    }
   }
 }

@@ -24,11 +24,6 @@
     padding-bottom: 150px;
 
     .hero_background-text {
-      // top: -95px;
-      // font-size: 145px;
-    }
-
-    .hero_background-text {
       width: 800px;
     }
   }
@@ -53,7 +48,7 @@
 
   &_box-heading {
 	  font-size: 36px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 50px;
     padding-bottom: 26px;
     margin: 0 auto;
@@ -106,10 +101,15 @@
     }
 
     &--about {
-
+      background-position: 100% 130%;
+      background-size: 90%;
+      padding-bottom: 150px;
 
       .hero_background-text {
-
+        width: 100%;
+        font-size: 100px;
+        line-height: 71px;
+        top: 40px;
       }
     }
 

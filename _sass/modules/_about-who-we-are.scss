@@ -58,3 +58,65 @@
   }
 
 }
+
+
+@media (max-width: 810px) {
+  .who-we-are {
+    flex-direction: column;
+
+    &_paragraphs {
+      padding: 0;
+      padding: 0 25px;
+      padding-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    &_figure-wrap {
+      padding: 0;
+      padding-top: 65px;
+      padding-right: 25px;
+      flex-direction: column;
+
+      .image {
+        max-width: 100%
+      }
+
+      .paragraph {
+        padding: 15px 0px 45px;
+      }
+
+      h3 {
+        padding-top: 25px;
+        font-size: 20px;
+      }
+    }
+
+    .paragraph.paragraph-offset {
+      padding-left: 0;
+      padding-right: 0;
+      flex-basis: 100%;
+    }
+
+    .paragraph.text-greyed-out {
+      width: 50%;
+    }
+
+    .section_content {
+      padding-right: 0;
+      padding-left: 25px;
+    }
+
+    .btn.btn-primary {
+      margin: 0;
+    }
+
+    .video-box {
+      margin: 0;
+      padding-right: 25px;
+
+      &_caption {
+        max-width: 100%;
+      }
+    }
+  }
+}

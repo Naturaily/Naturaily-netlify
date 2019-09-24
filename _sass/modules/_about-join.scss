@@ -21,3 +21,44 @@
     margin-top: 50px;
   }
 }
+
+@media (max-width: 810px) {
+  .join {
+    flex-direction: column;
+    position: relative;
+    padding-top: 110px;
+
+    .section_desc {
+      padding-right: 25px;
+    }
+
+    .section_name {
+      padding-bottom: 370px;
+    }
+
+    .section_heading {
+      font-size: 28px;
+      padding-bottom: 20px;
+    }
+
+    .section_content {
+      position: absolute;
+      top: 155px;
+      padding-left: 25px;
+    }
+
+    .paragraph {
+      font-size: 16px;
+      padding-bottom: 40px;
+    }
+
+    .inscribed-circle {
+      width: 300px;
+      height: 300px;
+    }
+
+    .image {
+      top: -105px;
+    }
+  }
+}

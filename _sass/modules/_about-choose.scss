@@ -4,7 +4,7 @@
   border: 1px solid rgba(59, 34, 15, 0.1);
   border-radius: 8px;
 
-  &_cos {
+  &_item {
     display: flex;
     padding-bottom: 30px;
   }
@@ -69,5 +69,44 @@
   h3 {
     padding-right: 100px;
     min-width: 125px;
+  }
+}
+
+
+@media (max-width: 810px) {
+  .choose {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 70px;
+
+    &_item {
+      padding-bottom: 20px;
+    }
+
+    .section_heading {
+      padding-bottom: 30px;
+
+      h2 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-top: 20px;
+        padding: 0 10px;
+      }
+    }
+
+    .section_content {
+      padding-left: 0;
+    }
+
+    .geometric-figure {
+      display: none;
+    }
+
+    h3 {
+      font-size: 18px;
+      line-height: 25px;
+      min-width: 110px;
+      padding: 0;
+    }
   }
 }
