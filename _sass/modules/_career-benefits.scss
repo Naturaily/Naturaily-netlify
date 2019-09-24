@@ -3,12 +3,18 @@
   padding-right: 100px;
   background-color: #FFF7F1;
   flex-wrap: wrap;
+  box-sizing: border-box;
 
   &_carousel {
     position: relative;
     padding-left: 45px;
-    margin-top: 55px;margin-bottom: 120px;
+    margin-top: 55px;
+    margin-bottom: 120px;
+  }
 
+  &_images {
+    position: relative;
+    z-index: 0;
   }
 
   &_box {
@@ -38,6 +44,8 @@
     left: 0;
   	border-radius: 0 0 8px 8px;
     background-color: #FFF7F1;
+    box-sizing: border-box;
+    padding-left: 40px;
   }
 
   .btn {
@@ -54,6 +62,20 @@
 
   .section_content {
     width: 100%;
+  }
+
+  .slick-slide {
+    display: inline-block;
+  }
+  .slick-arrow {
+    font-size: 40px;
+    margin-right: 10px;
+    position: relative;
+    top: -10px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    cursor: pointer;
   }
 }
 

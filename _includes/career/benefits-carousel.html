@@ -1,49 +1,84 @@
-<div class="benefits_carousel" id="benefitsCarouselImages">
-  <img class="image" src="/assets/images/chain-of-responsibility-pattern.jpg" alt="">
+<div class="benefits_carousel">
+  <div id="benefitsCarouselImages" class="benefits_images">
+    <img class="image" src="/assets/images/chain-of-responsibility-pattern.jpg" alt="">
+    <img class="image" src="/assets/images/kpz-1-sledzenie.jpg" alt="">
+    <img class="image" src="/assets/images/meteor_blog.jpg" alt="">
+  </div>
 
   <div class="benefits_box">
-    <div class="section_name">
-      <span class="section_name-number"><strong>1</strong> of 9</span>
-    </div>
-    <p class="paragraph has-dot">
-      <span class="dot"></span>
-      Work-life Balance
-    </p>
-    <p class="paragraph">
-      Flexible hours and remote work one day a week.
-    </p>
+    <div id="benefitCarouselBox">
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>1</strong> of 3</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          Work-life Balance
+        </p>
+        <p class="paragraph">
+          Flexible hours and remote work one day a week.
+        </p>
+      </div>
 
-    <div class="benefits_box-footer">
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>2</strong> of 3</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          Work-life Balance
+        </p>
+        <p class="paragraph">
+          Flexible hours and remote work one day a week.
+        </p>
+      </div>
 
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>3</strong> of 3</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          Work-life Balance
+        </p>
+        <p class="paragraph">
+          Flexible hours and remote work one day a week.
+        </p>
+      </div>
     </div>
+
+    <div id="benefitsArrowsContainer" class="benefits_box-footer"></div>
   </div>
 </div>
 
 
 <script type="text/javascript">
 
-  //  $('#benefitsCarouselImages').slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   arrows: false,
-  //   fade: true,
-  //   asNavFor: '#benefitCarouselBox',
-  //   dots: true,
-  //   fade: true,
-  //   cssEase: 'linear',
-  //   speed: 1000
-  // });
-  //
-  // $('#benefitCarouselBox').slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   asNavFor: '#benefitsCarouselImages',
-  //   dots: true,
-  //   centerMode: true,
-  //   focusOnSelect: true
-  //   fade: true,
-  //   cssEase: 'linear',
-  //   speed: 1000
-  // });
+   $('#benefitsCarouselImages').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '#benefitCarouselBox',
+    dots: false,
+    fade: true,
+    cssEase: 'linear',
+    speed: 1000
+  });
+
+  $('#benefitCarouselBox').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    asNavFor: '#benefitsCarouselImages',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true,
+    fade: true,
+    cssEase: 'linear',
+    appendArrows: $("#benefitsArrowsContainer"),
+    prevArrow: '<span class="icon-chevron-left"></span>',
+    nextArrow: '<span class="icon-chevron-right"></span>',
+    speed: 1000
+  });
 
 </script>
