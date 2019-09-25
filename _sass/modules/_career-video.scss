@@ -24,8 +24,7 @@
 
 @media (max-width: 810px) {
   .video {
-    padding: 20px;
-    flex-direction: column;
+    display: none;
 
     iframe {
       max-width: 100%;

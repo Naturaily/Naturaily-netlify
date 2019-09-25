@@ -166,6 +166,8 @@
   .process {
     &_steps {
      padding: 60px 40px;
+     padding-bottom: 10px;
+     padding-right: 0;
 
       .paragraph {
         padding-top: 20px;
@@ -190,8 +192,11 @@
       }
 
       li {
-        width: 100px;
-        padding-right: 20px;
+        flex-basis: 50%;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+        width: auto;
       }
     }
     &_hr {
@@ -223,7 +228,8 @@
 
     .paragraph {
       width: 100%;
-      padding-top: 5px;
+      padding-top: 20px;
+      padding-bottom: 0;
       padding-right: 0;
     }
 
