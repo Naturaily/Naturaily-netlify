@@ -1,5 +1,6 @@
 @import "header";
 
+@import "slick";
 
 @import "layout/layout";
 @import "modules/heading";
@@ -238,4 +239,8 @@ a.text-secondary {
       }
     }
   }
+}
+
+.slick-initialized .slick-slide {
+  display: block;
 }

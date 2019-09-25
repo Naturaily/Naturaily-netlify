@@ -31,8 +31,34 @@
     box-shadow: 0 8px 32px 0 rgba(179,104,0,0.08);
     box-sizing: border-box;
 
+    .slick-list {
+      overflow: visible;
+    }
+
     .section_name {
-      padding-bottom: 100px;
+      margin-bottom: 80px;
+      padding-bottom: 20px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+        border: 1px solid #FF5E45;
+        width: 250%;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 9;
+        border: 1px solid #FFFFFF;
+        width: 700%;
+      }
     }
   }
 
@@ -71,7 +97,6 @@
   }
 
   .slick-slide {
-    display: inline-block;
   }
   .slick-arrow {
     font-size: 40px;
