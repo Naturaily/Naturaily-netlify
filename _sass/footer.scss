@@ -63,7 +63,7 @@
 
     &-heading {
       padding-bottom: 16px;
-      font-weight: 400;
+      font-weight: 600;
       color: $color-global-font;
       font-size: 14px;
     }
@@ -100,11 +100,79 @@
   a {
   	font-size: 14px;
     line-height: 24px;
-    font-weight: 300;
+    font-weight: 400;
     color: $color-global-font;
   }
 
   p {
     margin: 0;
+  }
+}
+
+@media (max-width: 810px) {
+  .footer {
+    padding: 0 20px;
+
+    &-body {
+      padding-right: 0;
+      flex-wrap: wrap;
+    }
+
+    &-regon {
+      max-width: 80%;
+    }
+
+    &_list {
+      flex: 0 auto;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      padding-right: 40px;
+
+      &--services {
+        flex-basis: auto;
+        margin-right: auto;
+      }
+
+      &--resources {
+        flex-basis: 33%;
+      }
+
+      &--jobs {
+        display: none;
+      }
+    }
+
+    &_contact {
+      margin: 0;
+      text-align: left;
+      padding-top: 25px;
+      flex-wrap: wrap;
+      flex-direction: row;
+
+      &-address {
+        order: 3;
+        flex-basis: 33%;
+      }
+
+      &-phone {
+        order: 2;
+        flex-basis: auto;
+        margin-right: auto;
+        padding-top: 0;
+      }
+
+      &-mail {
+        order: 1;
+        flex-basis: 100%;
+        margin-bottom: 30px;
+      }
+    }
+
+    &_social {
+      img {
+        max-height: 20px;
+        margin: 0 15px;
+      }
+    }
   }
 }
