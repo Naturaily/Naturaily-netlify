@@ -4,8 +4,10 @@
   max-width: 100% !important;
 }
 
-.l-footer-container {
-  justify-content: center;
+.l-footer {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .header {
