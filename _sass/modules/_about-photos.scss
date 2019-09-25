@@ -45,11 +45,19 @@
       width: 300px;
     }
   }
+}
 
-  @media (max-width: 991px) {
+@media (max-width: 810px) {
+  .photos {
+    .section_heading {
+      font-size: 28px;
+      padding-left: 50px;
+    }
     .gallery {
       grid-gap: 15px;
+      transform: scale(0.8);
+      margin-left: -80px;
+      overflow: visible;
     }
   }
-
 }

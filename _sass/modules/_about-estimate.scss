@@ -22,14 +22,13 @@
     padding-top: 50px;
     font-size: 24px;
     line-height: 33px;
-    font-weight: 300;
-    text-decoration: underline;
+    font-weight: 200;
     display: flex;
     max-width: 370px;
 
     &-number {
-      padding-top: 3px;
-      text-decoration: none;
+      padding-top: 5px;
+      color: rgba(59,34,15,0.7);
     }
   }
 
@@ -61,6 +60,14 @@
 
     .section_content {
       padding: 0;
+    }
+
+    .section_name {
+      font-size: 20px;
+
+      &-number {
+        padding-right: 35px;
+      }
     }
 
     .section_desc {
