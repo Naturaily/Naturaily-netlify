@@ -40,6 +40,10 @@
       padding-bottom: 20px;
       position: relative;
     }
+
+    strong {
+      color: $color-global-font;
+    }
   }
 
   &_box-footer {
@@ -126,6 +130,12 @@
 
     &_box-footer {
       background-color: transparent;
+    }
+
+
+    &_images {
+      // width: calc(100% + 55px);
+      // left: -25px;
     }
 
     .btn {

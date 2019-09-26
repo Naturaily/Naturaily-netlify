@@ -126,6 +126,16 @@
 
     &-meet {
       width: 201px;
+
+      &-person {
+        background-image: url("/assets/images/people/natalia-small.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex: 1;
+        margin: 0 60px 0px 30px;
+        border-radius: 8px;
+      }
     }
 
     &-question {
@@ -201,16 +211,23 @@
     }
     &_hr {
       flex-direction: column;
-      padding: 50px 50px 40px 20px;
+      padding: 50px 65px 40px 20px;
 
       &-left, &-right {
         width: 100%;
         flex-direction: column;
       }
 
+      &-right {
+        .paragraph {
+          padding-top: 30px;
+        }
+      }
+
       &-question {
         width: 100%;
         padding: 20px 20px 30px 30px;
+        margin-top: 40px;
         box-sizing: border-box;
 
         p.paragraph {
@@ -223,6 +240,21 @@
       &-meet {
         padding-bottom: 30px;
         width: auto;
+
+        &-person {
+          min-height: 270px;
+          margin: 0;
+        }
+      }
+
+      h3 {
+  	    font-size: 20px;
+        font-weight: 300;
+        line-height: 28px;
+
+        br {
+          display: none;
+        }
       }
     }
 

@@ -256,3 +256,23 @@ a.text-secondary {
   background-repeat: no-repeat;
   background-size: 0 100%;  transition: background-size .4s ease-in-out;
 }
+
+
+.floating-dot {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  &.burnt-sienna {
+    background-color: #ed6a4f;
+  }
+
+  &.casablanca {
+    background-color: #f4b356;
+  }
+
+  &.french-pass {
+    background-color: #b3f2fd;
+  }
+}
