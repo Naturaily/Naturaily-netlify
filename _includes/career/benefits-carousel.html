@@ -12,6 +12,9 @@
   </div>
 
   <div class="benefits_box">
+    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" data-progress-bar="">
+      <span class="progress-bar_label" data-progress-label="">
+    </div>
     <div id="benefitCarouselBox">
       <div>
         <div class="section_name">
@@ -145,17 +148,33 @@
     speed: 400
   });
 
-  $('#benefitCarouselBox').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    asNavFor: '#benefitsCarouselImages',
-    dots: false,
-    fade: true,
-    cssEase: 'linear',
-    appendArrows: $("#benefitsArrowsContainer"),
-    prevArrow: '<span class="icon-chevron-left"></span>',
-    nextArrow: '<span class="icon-chevron-right"></span>',
-    speed: 400
+  $(document).ready(function() {
+    var $slider = $('#benefitCarouselBox');
+    var $progressBar = $('[data-progress-bar]');
+    var $progressBarLabel = $( '[data-progress-label]' );
+
+    $slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+      var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
+
+      $progressBar
+        .css('background-size', calc + '% 100%')
+        .attr('aria-valuenow', calc );
+
+      $progressBarLabel.text( calc + '% completed' );
+    });
+
+    $slider.slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      asNavFor: '#benefitsCarouselImages',
+      dots: false,
+      fade: true,
+      cssEase: 'linear',
+      appendArrows: $("#benefitsArrowsContainer"),
+      prevArrow: '<span class="icon-chevron-left"></span>',
+      nextArrow: '<span class="icon-chevron-right"></span>',
+      speed: 400
+    });
   });
 
 </script>

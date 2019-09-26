@@ -244,3 +244,15 @@ a.text-secondary {
 .slick-initialized .slick-slide {
   display: block;
 }
+
+.progress-bar {
+  display: block;
+  width: 100%;
+  height: 1px;
+  overflow: hidden;
+
+  background-color: #FFFFFF;
+  background-image: linear-gradient(to right, #FF5E45, #FF5E45);
+  background-repeat: no-repeat;
+  background-size: 0 100%;  transition: background-size .4s ease-in-out;
+}

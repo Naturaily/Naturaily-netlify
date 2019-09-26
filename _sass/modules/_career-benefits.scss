@@ -39,26 +39,6 @@
       margin-bottom: 80px;
       padding-bottom: 20px;
       position: relative;
-
-      &::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        z-index: 10;
-        border: 1px solid #FF5E45;
-        width: 250%;
-      }
-
-      &::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        z-index: 9;
-        border: 1px solid #FFFFFF;
-        width: 700%;
-      }
     }
   }
 
@@ -96,8 +76,6 @@
     width: 100%;
   }
 
-  .slick-slide {
-  }
   .slick-arrow {
     font-size: 40px;
     margin-right: 10px;
@@ -107,6 +85,12 @@
     border-radius: 50%;
     box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
     cursor: pointer;
+  }
+
+  .progress-bar {
+    position: absolute;
+    width: 390%;
+    top: 88px;
   }
 }
 
