@@ -7,8 +7,10 @@
     padding-left: 110px;
     padding-top: 38px;
     opacity: 0;
-    display: none;
+    height: 0;
+    display: flex;
     flex-wrap: wrap;
+    transition: .4s all ease;
 
     .paragraph {
       min-width: 100%;
@@ -62,12 +64,9 @@
   }
 
   input:checked {
-    + .accordion-item {
-
-    }
     ~ .accordion_content {
-      display: flex;
       opacity: 1;
+      height: auto;
     }
   }
 }
