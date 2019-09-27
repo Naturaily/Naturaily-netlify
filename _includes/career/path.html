@@ -9,14 +9,14 @@
     We are equally willing to open our doors to <a href="#juniorDevBox" class="text-secondary"><label for="juniorDev">Juniors</label></a>, <a href="#midDevBox"class="text-secondary"><label for="midDev">Middles</label></a>, and <a href="#seniorDevBox" class="text-secondary"><label for="seniorDev">Seniors</label></a>
   </h2>
 
-  <div class="section_content">
-    <div class="accordion">
-      <input type="radio" id="juniorDev" name="dev-level">
-      <label id="juniorDevBox" for="juniorDev" class="accordion-item">
+  <div class="section_content" data-process-accordion>
+    <div class="accordion" data-accordion-item>
+      <input type="checkbox" id="juniorDev" name="dev-level">
+      <label id="juniorDevBox" for="juniorDev" class="accordion-item" data-accordion-label>
         <span class="accordion_number">01</span>Juniors
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
-      <div class="accordion_content">
+      <div class="accordion_content" data-accordion-content>
         <p class="paragraph">
           <small>
             Are you at the beginning of your career as a developer and not sure what to learn next and how to improve your skills? No worries. We are ready for you.
@@ -103,13 +103,13 @@
       </div>
     </div>
 
-    <div class="accordion">
-      <input type="radio" id="midDev" name="dev-level">
-      <label id="midDevBox" for="midDev" class="accordion-item">
+    <div class="accordion" data-accordion-item>
+      <input type="checkbox" id="midDev" name="dev-level">
+      <label id="midDevBox" for="midDev" class="accordion-item" data-accordion-label>
         <span class="accordion_number">02</span>Middles
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
-      <div class="accordion_content">
+      <div class="accordion_content" data-accordion-content>
         <p class="paragraph">
           <small>
             Time for the second level of initiation called <strong>The Skills Hunt</strong>. Below you will find a list of skills you need to master if you want to call yourself the Middle.
@@ -192,13 +192,13 @@
       </div>
     </div>
 
-    <div class="accordion">
-      <input type="radio" id="seniorDev" name="dev-level">
-      <label id="seniorDevBox" for="seniorDev" class="accordion-item">
+    <div class="accordion" data-accordion-item>
+      <input type="checkbox" id="seniorDev" name="dev-level">
+      <label id="seniorDevBox" for="seniorDev" class="accordion-item" data-accordion-label>
         <span class="accordion_number">03</span>Seniors
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
-      <div class="accordion_content">
+      <div class="accordion_content" data-accordion-content>
         <p class="paragraph">
           <small>
             This is the stage we call a <strong>Dev Master</strong>. Wondering if you are still a Middle or already a Senior? Check out the data below and find out.
@@ -300,3 +300,17 @@
     </div>
   </div>
 </section>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('[data-process-accordion]').on('click', '[data-accordion-label]', function() {
+      var that = $(this);
+      var parent = that.parent()[0];
+
+      $(parent).toggleClass('opened').siblings('[data-accordion-item]').removeClass('opened');
+    });
+  });
+
+
+</script>
