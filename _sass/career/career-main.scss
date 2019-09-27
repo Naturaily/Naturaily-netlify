@@ -258,21 +258,35 @@ a.text-secondary {
 }
 
 
-.floating-dot {
+
+.floating-dots {
   position: absolute;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
+	height: 471px;
+  width: 597px;
 
-  &.burnt-sienna {
-    background-color: #ed6a4f;
+  .floating-dots_dot {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+    &.burnt-sienna {
+      background-color: #ed6a4f;
+      top: 0;
+      right: 130px;
+    }
+
+    &.casablanca {
+      background-color: #f4b356;
+      left: 0;
+      bottom: 115px;
+    }
+
+    &.french-pass {
+      background-color: #b3f2fd;
+      bottom: 0;
+      right: 0;
+    }
   }
 
-  &.casablanca {
-    background-color: #f4b356;
-  }
-
-  &.french-pass {
-    background-color: #b3f2fd;
-  }
 }
