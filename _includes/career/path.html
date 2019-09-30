@@ -11,8 +11,8 @@
 
   <div class="section_content" data-process-accordion>
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="juniorDev" name="dev-level">
-      <label id="juniorDevBox" for="juniorDev" class="accordion-item" data-accordion-label>
+      <input type="checkbox" id="juniorDev" name="dev-level" data-accordion-check>
+      <label id="juniorDevBox" for="juniorDev" class="accordion-item">
         <span class="accordion_number">01</span>Juniors
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
@@ -104,8 +104,8 @@
     </div>
 
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="midDev" name="dev-level">
-      <label id="midDevBox" for="midDev" class="accordion-item" data-accordion-label>
+      <input type="checkbox" id="midDev" name="dev-level" data-accordion-check>
+      <label id="midDevBox" for="midDev" class="accordion-item">
         <span class="accordion_number">02</span>Middles
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
@@ -193,8 +193,8 @@
     </div>
 
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="seniorDev" name="dev-level">
-      <label id="seniorDevBox" for="seniorDev" class="accordion-item" data-accordion-label>
+      <input type="checkbox" id="seniorDev" name="dev-level" data-accordion-check>
+      <label id="seniorDevBox" for="seniorDev" class="accordion-item">
         <span class="accordion_number">03</span>Seniors
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
@@ -304,13 +304,20 @@
 
 <script type="text/javascript">
   $(document).ready(function() {
-    $('[data-process-accordion]').on('click', '[data-accordion-label]', function() {
+    $('[data-process-accordion]').on('change', '[data-accordion-check]', function() {
       var that = $(this);
-      var parent = that.parent()[0];
+      var parent = $(that.parent()[0]);
+      var contentHeight = parent.children("[data-accordion-content]").height();
 
-      $(parent).toggleClass('opened').siblings('[data-accordion-item]').removeClass('opened');
+      if (that.is(":checked")) {
+        parent.animate({ 'padding-bottom' : contentHeight,}, 400)
+              .siblings('[data-accordion-item]')
+              .animate({ 'padding-bottom' : 0,}, 400);
+      }
+      else {
+        parent.animate({ 'padding-bottom' : 0,}, 400);
+      }
     });
   });
-
 
 </script>

@@ -1,15 +1,20 @@
 .accordion {
-  padding-left: 200px;
-  padding-right: 100px;
+  margin-left: 200px;
+  margin-right: 100px;
+  position: relative;
+  overflow: hidden;
+  background:#FFF7F1;
 
  &_content {
     color: rgba(61, 35, 16, 0.5);
     padding-left: 110px;
-    height: 0;
     display: flex;
     flex-wrap: wrap;
     transition: .4s all ease;
-    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    left: 0;
 
     .paragraph {
       min-width: 100%;
@@ -34,6 +39,9 @@
     height: 88px;
     font-size: 24px;
     cursor: pointer;
+    position: relative;
+    background:#FFF7F1;
+    z-index: 1;
   }
 
   &_number {
@@ -68,7 +76,6 @@
 
   &.opened {
     .accordion_content {
-      height: auto;
     }
   }
 }
