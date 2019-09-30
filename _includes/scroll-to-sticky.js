@@ -13,11 +13,25 @@ $(document).ready(function() {
     $('html,body').animate({scrollTop:getRelatedContent(this).offset().top})
   });
 
-  var waypoints = $('.section').waypoint({
-    handler: function(direction) {
+
+
+  $('.section').waypoint(function(direction) {
+    if (direction === 'down') {
       var waypointNavItem = $('.section-navigation a[href=' + '"#' + (this.element.id) + '"' + ']')[0];
       $(waypointNavItem).parent().addClass('is-visible').addClass('is-active').siblings().removeClass('is-visible').removeClass('is-active');
     }
-  })
+  }, {
+    offset: 'bottom-in-view'
+  });
+
+  $('.section').waypoint(function(direction) {
+    if (direction === 'up') {
+      var waypointNavItem = $('.section-navigation a[href=' + '"#' + (this.element.id) + '"' + ']')[0];
+      $(waypointNavItem).parent().addClass('is-visible').addClass('is-active').siblings().removeClass('is-visible').removeClass('is-active');
+    }
+  }, {
+    offset: '0'
+  });
+
 
 });
