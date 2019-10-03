@@ -1,6 +1,6 @@
 .accordion {
-  margin-left: 200px;
-  margin-right: 100px;
+  padding-left: 200px;
+  padding-right: 100px;
   position: relative;
   overflow: hidden;
   background:#FFF7F1;
@@ -8,6 +8,8 @@
  &_content {
     color: rgba(61, 35, 16, 0.5);
     padding-left: 110px;
+    margin-left: 200px;
+    margin-right: 100px;
     display: flex;
     flex-wrap: wrap;
     transition: .4s all ease;
@@ -51,8 +53,6 @@
   }
 
   &_chevron {
-    width: 30px;
-    height: 30px;
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -61,8 +61,11 @@
     &::before {
       background-color: $color-white;
       font-size: 30px;
+      height: 31px;
       border-radius: 50%;
       box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+      transform: rotate(0deg);
+      transition: .4s transform ease;
     }
   }
 
@@ -75,7 +78,13 @@
   }
 
   &.opened {
-    .accordion_content {
+    .accordion-item {
+      color: $color-global-font;
+    }
+
+    .accordion_chevron::before {
+      color: rgba(61, 35, 16, 0.5);
+      transform: rotate(180deg);
     }
   }
 }

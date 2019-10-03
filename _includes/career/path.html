@@ -11,31 +11,31 @@
 
   <div class="section_content" data-process-accordion>
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="juniorDev" name="dev-level" data-accordion-check>
+      <input type="checkbox" id="juniorDev" name="dev-level" autocomplete="off" data-accordion-check>
       <label id="juniorDevBox" for="juniorDev" class="accordion-item">
         <span class="accordion_number">01</span>Juniors
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
       <div class="accordion_content" data-accordion-content>
-        <p class="paragraph">
-          <small>
-            Are you at the beginning of your career as a developer and not sure what to learn next and how to improve your skills? No worries. We are ready for you.
-          </small>
-        </p>
-
-        <p class="paragraph">
-          <small>
-            <strong>Prepare for Codemaggedon</strong> - coding school with practical classes only.
-          </small>
-        </p>
-
-        <p class="paragraph">
-          <small>
-            It is an amazing opportunity for you and other aspiring developers to grow and gain knowledge. Within a reasonable period of time, we will teach you all of the good programming practices, how to use new tools such as Docker and how to work effectively within your team. Also, we are huge Agile lovers so expect to learn this too. You will become a mid or even a senior in no time!
-          </small>
-        </p>
 
         <div class="path_accordion-left">
+          <p class="paragraph">
+            <small>
+              Are you at the beginning of your career as a developer and not sure what to learn next and how to improve your skills? No worries. We are ready for you.
+            </small>
+          </p>
+
+          <p class="paragraph">
+            <small>
+              <strong>Prepare for Codemaggedon</strong> - coding school with practical classes only.
+            </small>
+          </p>
+
+          <p class="paragraph">
+            <small>
+              It is an amazing opportunity for you and other aspiring developers to grow and gain knowledge. Within a reasonable period of time, we will teach you all of the good programming practices, how to use new tools such as Docker and how to work effectively within your team. Also, we are huge Agile lovers so expect to learn this too. You will become a mid or even a senior in no time!
+            </small>
+          </p>
           <table class="table">
             <thead class="table-head">
               <tr>
@@ -104,18 +104,18 @@
     </div>
 
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="midDev" name="dev-level" data-accordion-check>
+      <input type="checkbox" id="midDev" name="dev-level" autocomplete="off" data-accordion-check>
       <label id="midDevBox" for="midDev" class="accordion-item">
         <span class="accordion_number">02</span>Middles
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
       <div class="accordion_content" data-accordion-content>
-        <p class="paragraph">
-          <small>
-            Time for the second level of initiation called <strong>The Skills Hunt</strong>. Below you will find a list of skills you need to master if you want to call yourself the Middle.
-          </small>
-        </p>
         <div class="path_accordion-left">
+          <p class="paragraph">
+            <small>
+              Time for the second level of initiation called <strong>The Skills Hunt</strong>. Below you will find a list of skills you need to master if you want to call yourself the Middle.
+            </small>
+          </p>
           <table class="table">
             <thead class="table-head">
               <tr>
@@ -193,18 +193,18 @@
     </div>
 
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="seniorDev" name="dev-level" data-accordion-check>
+      <input type="checkbox" id="seniorDev" name="dev-level" autocomplete="off" data-accordion-check>
       <label id="seniorDevBox" for="seniorDev" class="accordion-item">
         <span class="accordion_number">03</span>Seniors
         <span class="icon-chevron-down accordion_chevron"></span>
       </label>
       <div class="accordion_content" data-accordion-content>
-        <p class="paragraph">
-          <small>
-            This is the stage we call a <strong>Dev Master</strong>. Wondering if you are still a Middle or already a Senior? Check out the data below and find out.
-          </small>
-        </p>
         <div class="path_accordion-left">
+          <p class="paragraph">
+            <small>
+              This is the stage we call a <strong>Dev Master</strong>. Wondering if you are still a Middle or already a Senior? Check out the data below and find out.
+            </small>
+          </p>
           <table class="table">
             <thead class="table-head">
               <tr>
@@ -307,15 +307,19 @@
     $('[data-process-accordion]').on('change', '[data-accordion-check]', function() {
       var that = $(this);
       var parent = $(that.parent()[0]);
-      var contentHeight = parent.children("[data-accordion-content]").height();
+      var contentHeight = parent.children('[data-accordion-content]').height();
 
-      if (that.is(":checked")) {
-        parent.animate({ 'padding-bottom' : contentHeight,}, 400)
+      if (that.is(':checked')) {
+        parent.addClass('opened')
+              .animate({ 'padding-bottom' : contentHeight,}, 400)
               .siblings('[data-accordion-item]')
+              .removeClass('opened')
               .animate({ 'padding-bottom' : 0,}, 400);
+        parent.siblings('[data-accordion-item]').children('[data-accordion-check]').prop('checked', false);
       }
       else {
-        parent.animate({ 'padding-bottom' : 0,}, 400);
+        parent.removeClass('opened')
+              .animate({ 'padding-bottom' : 0,}, 400);
       }
     });
   });
