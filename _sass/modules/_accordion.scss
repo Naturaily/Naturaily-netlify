@@ -33,16 +33,17 @@
   }
 
   &-item {
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
+    background:#FFF7F1;
     border-bottom: 1px solid rgba(61, 35, 16, 0.23);
     color: rgba(61, 35, 16, 0.5);
-    height: 88px;
-    font-size: 24px;
     cursor: pointer;
+    display: flex;
+    font-size: 24px;
+    height: 88px;
+    justify-content: flex-start;
     position: relative;
-    background:#FFF7F1;
+    transition: .4s color ease;
     z-index: 1;
   }
 
@@ -59,13 +60,18 @@
 
 
     &::before {
+      align-items: center;
       background-color: $color-white;
-      font-size: 30px;
-      height: 31px;
       border-radius: 50%;
       box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+      color: $color-global-font;
+      display: flex;
+      font-size: 10px;
+      height: 30px;
+      justify-content: center;
       transform: rotate(0deg);
       transition: .4s transform ease;
+      width: 30px;
     }
   }
 
@@ -83,7 +89,6 @@
     }
 
     .accordion_chevron::before {
-      color: rgba(61, 35, 16, 0.5);
       transform: rotate(180deg);
     }
   }
