@@ -8,6 +8,10 @@
 
   &_accordion-left {
     flex: 1;
+    
+    .paragraph:first-child {
+      padding-top: 38px;
+    }
   }
 
   &_accordion-right {
