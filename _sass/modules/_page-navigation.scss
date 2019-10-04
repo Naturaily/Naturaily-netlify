@@ -14,6 +14,27 @@
     color: $color-global-font;
     display: inline-block;
     text-decoration: none;
+    position: relative;
+    transition: all .4s ease;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 0px;
+      height: 3px;
+      transition: all .4s ease;
+      opacity: 0;
+      left: 0;
+      background-color: $color-secondary;
+    }
+
+    &:hover {
+      &:before {
+        width: 100%;
+        opacity: 1;
+      }
+    }
 
     &-number {
     	color: #C1C1C1;
@@ -32,7 +53,11 @@
 
   li.is-active a, li:hover a {
     color: $color-secondary;
-    box-shadow: inset 0px -3px 0px $color-secondary;
+
+    &::before {
+      width: 100%;
+      opacity: 1;
+    }
   }
 }
 
