@@ -49,10 +49,50 @@
     padding-right: 96px;
   }
 
+  &_more {
+    font-size: 12px;
+    width: 30px;
+    height: 18px;
+    margin-left: auto;
+    padding-right: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .4s;
+    transform-style: preserve-3d;
+
+    .opened & {
+      transform: rotateX(180deg);
+    }
+
+    &::before, &::after {
+      position: absolute;
+      background-color: #FFF7F1;
+      backface-visibility: hidden;
+      width: 100%;
+    }
+
+    &::before {
+      content: "more";
+    }
+
+    &::after {
+      content: "less";
+      transform: rotateX(180deg);
+      padding-left: 7px;
+    }
+  }
+
+  &_position {
+    margin: 0;
+    position: relative;
+    top: -2px;
+  }
+
   &_chevron {
     display: flex;
     justify-content: center;
-    margin-left: auto;
 
 
     &::before {

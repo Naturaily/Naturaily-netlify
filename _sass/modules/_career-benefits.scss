@@ -82,17 +82,19 @@
   }
 
   .slick-arrow {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    position: relative;
-    top: -10px;
+    align-items: center;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    color: $color-global-font;
     cursor: pointer;
+    display: flex;
+    height: 40px;
     justify-content: center;
-    align-items: center;
+    margin-right: 10px;
+    position: relative;
+    top: -10px;
+    width: 40px;
 
     &::before {
       font-size: 10px;
