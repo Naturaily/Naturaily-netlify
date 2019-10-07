@@ -100,10 +100,17 @@
       &.is-visible {
         display: flex;
         order: 2;
+
+        .page-navigation_chevron {
+          visibility: hidden;
+        }
       }
 
       &.is-visible.is-active {
         order: 1;
+        .page-navigation_chevron {
+          visibility: visible;
+        }
       }
     }
   }
