@@ -91,16 +91,6 @@ a.text-secondary {
   background-size: 100% 1px;
   cursor: pointer;
   text-decoration: none;
-  transition: background-size .2s ease-in, color .1s ease;
-
-  &:hover {
-    color: #fff;
-    background-size: 100% 88%;
-  }
-
-  label {
-    cursor: pointer;
-  }
 }
 
 .paragraph {
@@ -160,6 +150,22 @@ a.text-secondary {
 
   &.text-secondary {
     color: $color-secondary;
+  }
+}
+
+.hero_text {
+  a {
+    background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    text-decoration: none;
+    transition: background-size .2s ease-in, color .1s ease;
+
+    &:hover {
+      color: #fff;
+      background-size: 100% 88%;
+    }
   }
 }
 

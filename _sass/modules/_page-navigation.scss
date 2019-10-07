@@ -73,17 +73,36 @@
 
     &_chevron {
       display: flex;
-      font-size: 40px;
+      font-size: 10px;
+
+      &::before {
+        align-items: center;
+        background-color: $color-white;
+        border-radius: 50%;
+        box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+        color: $color-global-font;
+        display: flex;
+        font-size: 10px;
+        height: 40px;
+        justify-content: center;
+        transform: rotate(0deg);
+        transition: .4s transform ease;
+        width: 40px;
+      }
     }
 
     li {
       display: none;
       align-items: center;
       justify-content: space-between;
-      order: 2;
+      order: 3;
 
       &.is-visible {
         display: flex;
+        order: 2;
+      }
+
+      &.is-visible.is-active {
         order: 1;
       }
     }
