@@ -16,7 +16,6 @@ $(document).ready(function() {
   $('[data-page-navigation]').on('click', '[data-dropdown-show]', function(e){
 
     $( "[data-page-navigation] li" ).each(function() {
-      console.log( this );
 
     if ( this.classList.contains('is-visible') && !this.classList.contains('is-active') ) {
       $(this).removeClass('is-visible');
