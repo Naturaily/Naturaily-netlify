@@ -103,6 +103,16 @@
 
         .page-navigation_chevron {
           visibility: hidden;
+
+          .section-navigation:not(.stuck) & {
+            visibility: visible;
+          }
+        }
+
+        .stuck & {
+          &:first-child .page-navigation_chevron {
+            visibility: visible;
+          }
         }
       }
 
