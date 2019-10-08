@@ -115,7 +115,7 @@ a.text-secondary {
     }
   }
 
-  a {
+  a:not(.link) {
     background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
     background-position: 0 100%;
     background-repeat: no-repeat;
@@ -268,6 +268,18 @@ a.text-secondary {
       img {
         margin-bottom: 0;
       }
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+
+    &-logo {
+      display: block;
     }
   }
 }
