@@ -35,6 +35,10 @@
         filter: brightness(400%);
       }
     }
+
+    .image {
+      transition: .6s all ease;
+    }
   }
 
   &_tile-title {
