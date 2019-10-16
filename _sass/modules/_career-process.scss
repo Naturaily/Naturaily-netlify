@@ -88,6 +88,11 @@
         font-weight: 400;
       }
     }
+
+    abbr {
+      text-decoration: none;
+      color: $color-secondary;
+    }
   }
 
   &_hr {
@@ -244,6 +249,7 @@
         &-person {
           min-height: 270px;
           margin: 0;
+          background-size: contain;
         }
       }
 

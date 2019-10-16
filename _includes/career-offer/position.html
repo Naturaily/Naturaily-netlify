@@ -1,4 +1,5 @@
 <section class="section extra-narrow position">
+  <a class="hero_back" href="/career-offers"><img class="image" src="/assets/images/arrow-orange.png" alt="arrow">go back to all openings</a>
   <div class="section_desc">
     <div class="section_name">
       Job offer
@@ -6,7 +7,7 @@
 
     <div class="position_job-title">
       <h2 class="section_heading">{{page.title}}</h2>
-      <a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary">
+      <a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary btn-arrow">
         apply
         <img src="/assets/images/btn-arrow.png" alt="arrow">
       </a>
@@ -19,9 +20,9 @@
           {{ req }}
           <!-- <small class="cash-currency"> PLN net</small> -->
         </span>
-        </p>
       {% endfor %}
     </p>
+    <br>
     <span class="position_location">
       {{page.location}}
     </span>

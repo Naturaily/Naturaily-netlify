@@ -110,8 +110,8 @@
         }
 
         .stuck & {
-          &:first-child .page-navigation_chevron {
-            visibility: visible;
+          &:not(.is-active) .page-navigation_chevron {
+            visibility: hidden;
           }
         }
       }

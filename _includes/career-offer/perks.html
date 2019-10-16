@@ -1,13 +1,13 @@
 <section class="section extra-narrow perks">
   <div class="section_content">
     <h2>Working at <span class="text-greyed-out">Naturaily</span> is a great idea because</h2>
-    {% if page.offer %}
+    {% if page.offers %}
       <div class="perks_list">
-        {% for req in page.offer %}
+        {% for offer in page.offers %}
           <div class="perks_list-item">
-            <span class="icon icon-compass text-primary"></span>
-            <p class="paragraph"><strong>{{ req }}</strong></p>
-            <p class="paragraph">Benefit from flexible working hours, deep work option from any place and remote work  twice a week</p>
+            <span class="icon icon-{{ offer.offer.offer-icon }} text-primary"></span>
+            <p class="paragraph"><strong>{{ offer.offer.offer-title }}</strong></p>
+            <p class="paragraph">{{ offer.offer.offer-content }}</p>
           </div>
         {% endfor %}
       </div>

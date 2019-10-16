@@ -93,6 +93,12 @@
   .paragraph.has-dot {
     color: $color-global-font;
   }
+
+  .floating-dots {
+    right: 225px;
+    top: 200px;
+    transform: scaleX(-1) rotateZ(-15deg);
+  }
 }
 
 @media (max-width: 810px) {
