@@ -132,16 +132,31 @@
 
 @media (max-width: 810px) {
   .accordion {
-    margin: 0 20px 0 5px;
+    margin: 0 20px 0 25px;
+    padding: 0;
 
     &-item {
       font-size: 20px;
       font-weight: 300;
+      height: 79px;
     }
 
     &_content {
       padding-top: 28px;
       padding-left: 0;
+      margin: 0;
+    }
+
+    &_number {
+      padding-right: 35px;
+    }
+
+    &_more {
+      display: none;
+    }
+
+    &_chevron {
+      margin-left: auto;
     }
   }
 }

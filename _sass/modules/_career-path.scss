@@ -8,7 +8,7 @@
 
   &_accordion-left {
     flex: 1;
-    
+
     .paragraph:first-child {
       padding-top: 38px;
     }
@@ -25,7 +25,7 @@
 @media (max-width: 810px) {
   .path {
     margin: 0 5px 0 10px;
-    padding: 40px 10px 30px 40px;
+    padding: 40px 10px 30px 15px;
 
     &_accordion-left {
       padding-left: 0;
