@@ -1,5 +1,6 @@
 .perks {
   padding-top: 80px;
+  flex-direction: column;
 
   &_list {
     display: flex;
@@ -13,9 +14,15 @@
     padding-bottom: 70px;
   }
 
+  .section_heading {
+    padding-left: 0;
+    padding-bottom: 65px;
+  }
+
   .section_content {
     width: 100%;
   }
+
 
   .paragraph {
     max-width: 190px;

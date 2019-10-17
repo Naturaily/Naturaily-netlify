@@ -38,6 +38,16 @@
     left: -90px;
     top: 10px;
   }
+
+  .btn {
+    align-items: center;
+    display: flex;
+    min-width: 150px;
+    
+    img {
+      margin-left: auto;
+    }
+  }
 }
 
 @media (max-width: 810px) {
