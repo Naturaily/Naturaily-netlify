@@ -41,11 +41,13 @@
 
   .btn {
     align-items: center;
+    justify-content: center;
     display: flex;
     min-width: 150px;
-    
+
     img {
-      margin-left: auto;
+      position: relative;
+      right: -37px;
     }
   }
 }
