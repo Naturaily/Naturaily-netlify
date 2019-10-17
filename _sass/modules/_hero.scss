@@ -121,6 +121,13 @@
       }
     }
 
+    &--career-offers {
+      .hero_background-text {
+        font-size: 80px;
+        top: 40px;
+      }
+    }
+
     &--about {
       background-position: 100% 130%;
       background-size: 90%;
@@ -148,6 +155,10 @@
       font-size: 14px;
       font-weight: 300;
       padding: 0 10px;
+    }
+
+    &_back {
+      display: none;
     }
   }
 }

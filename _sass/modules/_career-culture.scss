@@ -101,6 +101,10 @@
       padding-bottom: 50px;
     }
 
+    &_image-text-block {
+      margin-right: 0;
+    }
+
     .section_desc {
       padding-right: 50px;
     }
@@ -133,6 +137,7 @@
     .paragraph {
       padding-bottom: 25px;
       padding-right: 0;
+      max-width: 100%;
     }
 
     .paragraph.has-dot {

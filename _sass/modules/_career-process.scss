@@ -13,6 +13,7 @@
       margin: 0;
       list-style: none;
       top: -16px;
+      padding-right: 60px;
 
       &::after {
         content: "";
@@ -27,6 +28,18 @@
       li {
         width: 140px;
         padding-right: 35px;
+        position: relative;
+
+        &:last-child strong {
+          padding-right: 60px;
+        }
+
+        .image {
+          position: absolute;
+          width: 65px;
+          top: 35px;
+          right: 45px;
+        }
       }
     }
 
@@ -212,6 +225,18 @@
         padding-bottom: 50px;
         box-sizing: border-box;
         width: auto;
+
+        &:last-child strong {
+          padding-right: 40px;
+        }
+
+        .image {
+          position: absolute;
+          width: 60px;
+          top: 25px;
+          right: 30px;
+        }
+
       }
     }
     &_hr {
