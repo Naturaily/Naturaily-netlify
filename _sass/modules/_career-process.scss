@@ -246,7 +246,7 @@
     }
     &_hr {
       flex-direction: column;
-      padding: 50px 65px 40px 20px;
+      padding: 50px 20px 40px 20px;
 
       &-left, &-right {
         width: 100%;
@@ -255,6 +255,7 @@
 
       &-right {
         .paragraph {
+          max-width: 100%;
           padding-top: 30px;
         }
       }

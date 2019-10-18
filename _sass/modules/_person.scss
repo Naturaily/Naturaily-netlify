@@ -42,14 +42,14 @@
 
     &_card {
       display: flex;
-      padding-left: 110px;
+      flex-direction: column;
+      padding-left: 0;
 
       .image {
-        height: 260px;
-        left: -27px;
         margin: 0;
-        position: absolute;
+        position: relative;
         width: auto;
+        margin-bottom: -160px;
       }
 
       .paragraph {
@@ -59,6 +59,7 @@
       figcaption {
         padding: 20px;
         font-size: 12px;
+        box-sizing: border-box;
       }
     }
   }
