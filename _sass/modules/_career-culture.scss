@@ -66,6 +66,10 @@
       color: $color-global-font;
     }
 
+    .paragraph .dot {
+      top: 6px;
+    }
+
     &:last-child .culture_image-text-block {
       margin-left: 0;
       margin-right: 60px;

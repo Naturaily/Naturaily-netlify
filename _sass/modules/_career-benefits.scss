@@ -24,7 +24,7 @@
     top: 50%;
     left: 0;
     margin-top: -200px;
-    padding: 45px;
+    padding: 25px 40px;
     padding-right: 110px;
     border-radius: 8px;
     background-color: #FFFFFF;
@@ -36,7 +36,7 @@
     }
 
     .section_name {
-      margin-bottom: 80px;
+      margin-bottom: 90px;
       padding-bottom: 20px;
       position: relative;
     }
@@ -69,6 +69,7 @@
 
   .paragraph.has-dot {
     padding-left: 25px;
+    padding-bottom: 40px;
     color: $color-global-font;
     font-size: 16px;
   }
@@ -101,10 +102,18 @@
     }
   }
 
+  .paragraph {
+    font-size: 14px;
+
+     .dot {
+      top: 6px;
+    }
+  }
+
   .progress-bar {
     position: absolute;
     width: 390%;
-    top: 88px;
+    top: 70px;
   }
 }
 
