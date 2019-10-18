@@ -7,7 +7,7 @@
 
     <div class="position_job-title">
       <h2 class="section_heading">{{page.title}}</h2>
-      <a id="scrollToForm" href="#jobsForm" type="button" class="btn btn-primary btn-arrow">
+      <a href="#92513454424353" type="button" class="btn btn-primary btn-arrow">
         apply
         <img src="/assets/images/btn-arrow.png" alt="arrow">
       </a>
@@ -15,8 +15,8 @@
   </div>
   <div class="section_content">
     <p class="position_salary">
-      {% if page.responsibilities %}
-        {% for salary in page.salary-range %}
+      {% if page.salaries %}
+        {% for salary in page.salaries %}
           <span class="cash">
             {{ salary.salary.sum }}
             <small class="cash-currency"> {{ salary.salary.contract }}</small>

@@ -1,33 +1,44 @@
 <section class="section extra-narrow skills">
   <div class="section_content">
-    {% if page.responsibilities %}
+    {% if page.what_we_expect %}
       <div class="skills_list">
         <h3>What we <span class="text-greyed-out">expect from you</span> is</h3>
         <ul class="list">
-          {% for responsibilitie in page.responsibilities %}
-            <li class="skills_list-item">{{ responsibilitie.responsibilitie.contents }}</li>
+          {% for expectation in page.what_we_expect %}
+            <li class="skills_list-item">{{ expectation.expectation.contents }}</li>
           {% endfor %}
         </ul>
       </div>
       {% endif %}
 
-    {% if page.requirements %}
+    {% if page.what_you_expect %}
       <div class="skills_list">
         <h3>What you can <span class="text-greyed-out">expect from us</span> is</h3>
         <ul class="list">
-          {% for requirement in page.requirements %}
-            <li class="skills_list-item">{{ requirement.requirement.contents }}</li>
+          {% for expectation in page.what_you_expect %}
+            <li class="skills_list-item">{{ expectation.expectation.contents }}</li>
           {% endfor %}
         </ul>
       </div>
     {% endif %}
 
-    {% if page.nicehaves %}
+    {% if page.we_need_you_to %}
       <div class="skills_list">
         <h3>We need <span class="text-greyed-out">you to be</span></h3>
         <ul class="list">
-          {% for nicehave in page.nicehaves %}
-            <li class="skills_list-item">{{ nicehave.nicehave.contents }}</li>
+          {% for expectation in page.we_need_you_to %}
+            <li class="skills_list-item">{{ expectation.expectation.contents }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if page.would_be_great %}
+      <div class="skills_list">
+        <h3>It would be great if <span class="text-greyed-out">you</span></h3>
+        <ul class="list">
+          {% for expectation in page.would_be_great %}
+            <li class="skills_list-item">{{ expectation.expectation.contents }}</li>
           {% endfor %}
         </ul>
       </div>

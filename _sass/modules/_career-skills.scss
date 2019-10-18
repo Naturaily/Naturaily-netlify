@@ -4,9 +4,10 @@
   &_list {
     display: flex;
     flex-direction: column;
-    flex-basis: 270px;
-
-
+    flex-basis: 50%;
+    padding-right: 90px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
   }
 
   &_list-item {
@@ -36,6 +37,7 @@
   .section_content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 
