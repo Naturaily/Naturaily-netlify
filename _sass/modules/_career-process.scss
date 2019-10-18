@@ -118,20 +118,14 @@
 
     &-left, &-right {
       display: flex;
-      width: 50%;
       justify-content: space-between;
-    }
-
-    &-left {
-
     }
 
     &-right {
       flex-wrap: wrap;
-      width: 520px;
 
       .paragraph {
-        width: 50%;
+        max-width: 50%;
         font-size: 14px;
         padding-right: 60px;
         box-sizing: border-box;
@@ -151,25 +145,32 @@
         background-repeat: no-repeat;
         background-size: cover;
         flex: 1;
-        margin: 0 60px 0px 30px;
+        margin: 0 30px 0px 30px;
+        height: 350px;
+        min-width: 250px;
         border-radius: 8px;
       }
     }
 
     &-question {
-      width: 520px;
+      width: 100%;
       margin-top: auto;
-      padding: 28px 20px 18px 30px;
+      padding: 30px;
       border-radius: 8px;
       background-color: rgba(224, 195, 154, 0.1);
 
-      .paragraph {
+      .paragraph.has-dot {
         max-width: 100%;
         width: 100%;
         font-weight: 300;
         padding-right: 0;
         padding-bottom: 0;
         line-height: 32px;
+        padding-left: 38px;
+      }
+
+      .paragraph .dot {
+        top: 12px;
       }
     }
 
@@ -187,6 +188,10 @@
     span {
       display: block;
     }
+  }
+
+  .section_name {
+    padding-bottom: 30px;
   }
 }
 
@@ -275,6 +280,7 @@
           min-height: 270px;
           margin: 0;
           background-size: contain;
+          background-position: left;
         }
       }
 
