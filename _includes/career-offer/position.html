@@ -15,12 +15,14 @@
   </div>
   <div class="section_content">
     <p class="position_salary">
-      {% for req in page.salary-range %}
-        <span class="cash">
-          {{ req }}
-          <!-- <small class="cash-currency"> PLN net</small> -->
-        </span>
-      {% endfor %}
+      {% if page.responsibilities %}
+        {% for salary in page.salary-range %}
+          <span class="cash">
+            {{ salary.salary.sum }}
+            <small class="cash-currency"> {{ salary.salary.contract }}</small>
+          </span>
+        {% endfor %}
+      {% endif %}
     </p>
     <br>
     <span class="position_location">

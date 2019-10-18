@@ -68,7 +68,9 @@ collections:
       - {label: "Meta Image", name: "image", widget: "image", required: false}
       - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
       - {label: "Location", name: "location", widget: "string"}
-      - {label: "Who we are", name: "who_we_are", widget: "text"}
+      - {label: "Who we are", name: "who_we_are", widget: "markdown"}
+      - {label: "About left section", name: "about_left", widget: "markdown"}
+      - {label: "About right section", name: "about_right", widget: "markdown"}
       - label: "Offer type"
         name: "type"
         widget: "select"
@@ -78,27 +80,55 @@ collections:
         name: "responsibilities"
         widget: "list"
         allow_add: true
-        required: false
+        fields:
+          - label: "Responsibilitie"
+            name: "responsibilitie"
+            widget: "object"
+            fields:
+              - {label: "Responsibilitie text", name: "contents", widget: "string"}
       - label: "Requirements"
         name: "requirements"
         widget: "list"
         allow_add: true
-        required: false
-      - label: "Nicehave"
-        name: "nicehave"
+        fields:
+          - label: "Requirement"
+            name: "requirement"
+            widget: "object"
+            fields:
+              - {label: "Requirement text", name: "contents", widget: "string"}
+      - label: "Nice haves"
+        name: "nicehaves"
         widget: "list"
         allow_add: true
-        required: false
-      - label: "Offer"
-        name: "offer"
+        fields:
+          - label: "Nice have"
+            name: "nicehave"
+            widget: "object"
+            fields:
+              - {label: "Nice have text", name: "contents", widget: "string"}
+      - label: "Offers"
+        name: "offers"
         widget: "list"
         allow_add: true
-        required: false
+        fields:
+          - label: "Offer"
+            name: "offer"
+            widget: "object"
+            fields:
+              - {label: "Offer icon", name: "offer-icon", widget: "string"}
+              - {label: "Offer title", name: "offer-title", widget: "string"}
+              - {label: "Offer content", name: "offer-content", widget: "string"}
       - label: "Salary range"
         name: "salary-range"
         widget: "list"
         allow_add: true
-        required: false
+        fields:
+          - label: "Salary"
+            name: "salary"
+            widget: "object"
+            fields:
+              - {label: "Sum", name: "sum", widget: "string"}
+              - {label: "Contract type", name: "contract", widget: "string"}
   -
     name: "portfolio"
     label: "Portfolio"
