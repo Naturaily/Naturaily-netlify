@@ -3,13 +3,13 @@
     <h2>Working at <span class="text-greyed-out">Naturaily</span> is a great idea because</h2>
   </div>
   <div class="section_content">
-    {% if page.offers %}
+    {% if page.benefits %}
       <div class="perks_list">
-        {% for offer in page.offers %}
+        {% for benefit in page.benefits %}
           <div class="perks_list-item">
-            <span class="icon icon-{{ offer.offer.offer-icon }} text-primary"></span>
-            <p class="paragraph"><strong>{{ offer.offer.offer-title }}</strong></p>
-            <p class="paragraph">{{ offer.offer.offer-content }}</p>
+            <span class="icon icon-{{ benefit.benefit.benefit-icon }} text-primary"></span>
+            <p class="paragraph"><strong>{{ benefit.benefit.benefit-title }}</strong></p>
+            <p class="paragraph">{{ benefit.benefit.benefit-content }}</p>
           </div>
         {% endfor %}
       </div>

@@ -3,7 +3,13 @@
     {{ job.title }}
   </h3>
   <p class="offers_tile-salary">
-    {{ job.salary }}
+    {% if job.salary-preview %}
+      {% for salary in job.salary-preview %}
+        <strong>{{ salary.salary.sum }}</strong>
+        <br>
+        {{ salary.salary.contract }}
+      {% endfor %}
+    {% endif %}
   </p>
   <span class="offers_tile-footer">
     Check the details

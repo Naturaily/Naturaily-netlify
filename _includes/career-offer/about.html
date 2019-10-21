@@ -2,17 +2,21 @@
   <div class="section_content">
 
     <p class="paragraph about_top">
-      {{page.who_we_are}}
+      {{page.who-we-are}}
     </p>
     <div class="about_mid">
       <p class="paragraph about_left">
-        {{page.about_left}}
+        {{page.about-left}}
       </p>
       <p class="paragraph about_right">
-        {{page.about_right}}
+        {{page.about-right}}
       </p>
     </div>
-    <img class="image about_image" src="/assets/images/career-image-4.jpg" alt="">
+    {% if page.about-image %}
+      <img class="image about_image" src="{{page.about-image}}" alt="">
+    {% else %}
+      <img class="image about_image" src="/assets/images/career-image-4.jpg" alt="">
+    {% endif %}
   </div>
 </section>
 

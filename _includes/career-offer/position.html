@@ -19,7 +19,7 @@
         {% for salary in page.salaries %}
           <span class="cash">
             {{ salary.salary.sum }}
-            <small class="cash-currency"> {{ salary.salary.contract }}</small>
+            <small class="cash-currency">{{ salary.salary.contract }}</small>
           </span>
         {% endfor %}
       {% endif %}

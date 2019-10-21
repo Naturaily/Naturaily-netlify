@@ -1,43 +1,43 @@
 <section class="section extra-narrow skills">
   <div class="section_content">
-    {% if page.what_we_expect %}
+    {% if page.what-we-expect %}
       <div class="skills_list">
         <h3>What we <span class="text-greyed-out">expect from you</span> is</h3>
         <ul class="list">
-          {% for expectation in page.what_we_expect %}
+          {% for expectation in page.what-we-expect %}
             <li class="skills_list-item">{{ expectation.expectation.contents }}</li>
           {% endfor %}
         </ul>
       </div>
       {% endif %}
 
-    {% if page.what_you_expect %}
+    {% if page.what-you-expect %}
       <div class="skills_list">
         <h3>What you can <span class="text-greyed-out">expect from us</span> is</h3>
         <ul class="list">
-          {% for expectation in page.what_you_expect %}
+          {% for expectation in page.what-you-expect %}
             <li class="skills_list-item">{{ expectation.expectation.contents }}</li>
           {% endfor %}
         </ul>
       </div>
     {% endif %}
 
-    {% if page.we_need_you_to %}
+    {% if page.we-need-you-to %}
       <div class="skills_list">
         <h3>We need <span class="text-greyed-out">you to be</span></h3>
         <ul class="list">
-          {% for expectation in page.we_need_you_to %}
+          {% for expectation in page.we-need-you-to %}
             <li class="skills_list-item">{{ expectation.expectation.contents }}</li>
           {% endfor %}
         </ul>
       </div>
     {% endif %}
 
-    {% if page.would_be_great %}
+    {% if page.would-be-great %}
       <div class="skills_list">
         <h3>It would be great if <span class="text-greyed-out">you</span></h3>
         <ul class="list">
-          {% for expectation in page.would_be_great %}
+          {% for expectation in page.would-be-great %}
             <li class="skills_list-item">{{ expectation.expectation.contents }}</li>
           {% endfor %}
         </ul>
