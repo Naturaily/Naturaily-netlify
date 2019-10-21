@@ -33,8 +33,14 @@
     }
 
     &_accordion-right {
-      width: 100%;
       padding: 0;
+      padding-top: 40px;
+      display: flex;
+      align-self: center;
+
+      .person_card {
+        max-width: 300px;
+      }
     }
 
     .table-area {

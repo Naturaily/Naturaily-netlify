@@ -104,6 +104,25 @@
 }
 
 
+@media (max-width:1280px) {
+  .hero {
+
+    &--career {
+      background-size: 200px;
+
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    &--career {
+      background-position: -140px 81%, calc(100% - -28px) 77px;
+      background-size: 200px 169px, 100px 150px;
+    }
+  }
+}
+
 @media (max-width: 810px) {
   .hero {
 
