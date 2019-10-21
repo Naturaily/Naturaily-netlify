@@ -1,6 +1,11 @@
-<section class="section form">
+<section id="jobForm" class="section form">
   <div class="section_heading">
     <h2>Send us <span class="text-greyed-out">your CV</span></h2>
   </div>
-  <script type="text/javascript" src="https://form.jotformeu.com/jsform/92513454424353"></script>
+  <script type="text/javascript" src="https://form.jotformeu.com/jsform/92513454424353?jobType={{page.title}}"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#scrollToForm').smoothScroll();
+    });
+  </script>
 </section>
