@@ -2,65 +2,54 @@
 layout: default
 ---
 
-<div class="about__wave"></div>
-
-<div class="l-content l-about-header">
-  <span class="big-point">
-    <h1>Who we are?</h1>
-  </span>
-  <h2>We work together, naturally.</h2>
+<div class="l-full hero--about">
+  {% include about/hero.html %}
 </div>
 
-<div class="l-content">
-  {% include about-old/about-collaborate.html %}
+<div class="l-full">
+  {% include about/nav.html %}
 </div>
-<div class="wave aboutus-wave-1">
-  <div class="wave-tail"></div>
-  <img src="/assets/images/blue-wave.png" alt="blue-wave">
+
+<div class="l-offset-left">
+  {% include about/who-we-are.html %}
 </div>
-<div class="l-content">
-  {% include about-old/about-whoarewe.html %}
+
+<div class="l-offset-right">
+  {% include about/values.html %}
 </div>
-<div class="l-content">
-  {% include about-old/about-faces.html %}
+
+<div class="l-offset-left">
+  {% include about/why-us.html %}
 </div>
-<div class="wave aboutus-wave-3">
-  <div class="wave-tail"></div>
-  <img src="/assets/images/cream-wave.png" alt="cream-wave">
+
+<div class="l-center--small">
+  {% include about/choose.html %}
 </div>
-<div class="l-content">
-  {% include about-old/about-values.html %}
+
+<div class="l-offset-left">
+  {% include about/strength.html %}
 </div>
-<div class="wave aboutus-wave-1">
-  <div class="wave-tail"></div>
-  <img src="/assets/images/blue-wave.png" alt="blue-wave">
+
+<div class="l-center">
+  {% include about/testimonials.html %}
 </div>
-<div class="l-content">
-  {% include about-old/about-values2.html %}
+
+<div class="l-offset-left">
+  {% include about/team.html %}
 </div>
-<div class="wave aboutus-wave-2">
-  <div class="wave-tail"></div>
-  <img src="/assets/images/cream-wave.png" alt="cream-wave">
+
+<div class="l-offset-left">
+  {% include about/join.html %}
 </div>
-<div class="l-content">
-  <div class="text-center about-gallery-titles">
-    <span class="main-point">Natu-life</span>
-    <h2>Check out how we're doing!</h2>
-  </div>
+
+<div class="l-offset-right">
+  {% include about/estimate.html %}
 </div>
-<div class="l-full-page aboutus-gallery">
-  {% include gallery.html %}
+
+<div class="l-full">
+  {% include about/photos.html %}
 </div>
-<div class="l-content">
-  <div class="aboutus-footer">
-    <h2>Like what you see?</h2>
-    <p>
-      What makes us unique is our respect for individuality. Do you want to join
-      a diverse, fun and honest team of developers?
-    </p>
-    <span>Join Naturaily!</span>
-    <a href="/careers" type="button" class="btn btn-secondary">
-      See job offers
-    </a>
-  </div>
-</div>
+
+<script type="text/javascript">
+  {% include page-navigation.js %}
+</script>

@@ -81,6 +81,25 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .testimonials {
+
+    &_testimony {
+      flex-direction: column;
+    }
+
+    &_testimony-contents {
+      margin: 0;
+    }
+
+    .image {
+      z-index: 1;
+      align-self: center;
+      margin-bottom: 30px;
+    }
+  }
+}
+
 
 @media (max-width: 810px) {
   .testimonials {

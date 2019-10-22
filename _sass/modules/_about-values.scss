@@ -33,7 +33,7 @@
   }
 
   .section_heading {
-    max-width: 700px;
+    max-width: calc(100% - 520px);
 
     .paragraph {
       max-width: 100%;
@@ -48,6 +48,18 @@
   }
 }
 
+@media (max-width: 1280px){
+  .values {
+
+    .accordion {
+      padding-left: 0;
+    }
+
+    .accordion-item {
+      height: auto;
+    }
+  }
+}
 
 @media (max-width: 810px) {
   .values {
@@ -99,9 +111,18 @@
       }
     }
 
+    .section_heading {
+      max-width: 100%;
+    }
+
     .paragraph {
       font-size: 16px;
       padding-top: 0px;
+    }
+
+    .video-box iframe {
+      max-height: 250px;
+      flex-basis: auto;
     }
 
     h2 {

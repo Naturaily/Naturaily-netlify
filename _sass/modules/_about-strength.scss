@@ -40,6 +40,26 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .strength {
+
+    .perks_list {
+      &-item {
+        flex-basis: 35%;
+      }
+    }
+
+    .video-box {
+      margin-left: 0;
+      width: 100%;
+
+      iframe {
+        min-width: initial;
+        flex: 1;
+      }
+    }
+  }
+}
 
 @media (max-width: 810px) {
   .strength {
