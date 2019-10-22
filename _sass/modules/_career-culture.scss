@@ -84,6 +84,7 @@
 
 @media (max-width: 810px) {
   .culture {
+    padding-left: 15px;
     &_image-text-block {
       margin: 0;
     }
@@ -103,6 +104,8 @@
     &_heading-paragraphs {
       flex-direction: column;
       padding-bottom: 50px;
+      padding-right: 45px;
+      padding-top: 20px;
     }
 
     &_image-text-block {
@@ -150,8 +153,10 @@
     }
 
     .floating-dots {
-      top: 5%;
-      left: -55%;
+      top: -5%;
+      left: -61%;
+      transform: rotatez(55deg);
+      width: 500px;
     }
   }
 }
