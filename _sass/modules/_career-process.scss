@@ -244,6 +244,7 @@
 
       }
     }
+
     &_hr {
       flex-direction: column;
       padding: 50px 20px 40px 20px;
@@ -255,20 +256,20 @@
 
       &-right {
         .paragraph {
-          max-width: 100%;
+          max-width: calc(100% - 35px);
           padding-top: 30px;
         }
       }
 
       &-question {
-        width: 100%;
-        padding: 20px 20px 30px 30px;
+        width: calc(100% - 30px);
+        padding: 20px 26px 30px 30px;
         margin-top: 40px;
         box-sizing: border-box;
 
-        p.paragraph {
+        .paragraph.has-dot {
           padding-top: 0;
-          padding-left: 20px;
+          padding-left: 30px;
           line-height: 23px;
         }
       }
@@ -278,7 +279,8 @@
         width: auto;
 
         &-person {
-          min-height: 270px;
+          width: calc(100% - 35px);
+          min-height: 320px;
           margin: 0;
           background-size: contain;
           background-position: left;
@@ -289,6 +291,7 @@
   	    font-size: 20px;
         font-weight: 300;
         line-height: 28px;
+        width: calc(100% - 60px);
 
         br {
           display: none;
