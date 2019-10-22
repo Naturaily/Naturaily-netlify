@@ -1,4 +1,5 @@
 .who-we-are {
+  position: relative;
 
   &_figure-wrap {
     display: flex;
@@ -54,6 +55,12 @@
     &_caption {
       max-width: 300px;
     }
+  }
+
+  .floating-dots {
+    transform: scaleX(-1) rotateZ(-14deg);
+    right: 0;
+    z-index: -1;
   }
 }
 
@@ -142,6 +149,10 @@
       &_caption {
         max-width: 100%;
       }
+    }
+
+    .floating-dots {
+      display: none;
     }
   }
 }

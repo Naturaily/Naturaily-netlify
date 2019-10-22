@@ -1,4 +1,5 @@
 .choose {
+  position: relative;
   padding: 120px;
   padding-bottom: 50px;
   border: 1px solid rgba(59, 34, 15, 0.1);
@@ -69,6 +70,15 @@
   h3 {
     padding-right: 100px;
     min-width: 125px;
+  }
+
+  .floating-dots {
+    transform: scaleX(-1) rotateZ(-14deg);
+    right: 120px;
+    z-index: -1;
+    width: 75%;
+    top: 45px;
+    height: 310px;
   }
 }
 
