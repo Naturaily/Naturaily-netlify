@@ -4,7 +4,7 @@ title: Junior Marketing Specialist
 description: >-
   We are looking for Junior Marketing Specialist to extend our two-person
   Marketing Team!
-layout: career-details
+layout: career-offer
 image: /assets/images/junior_marketing_specialist.png
 location: Wrocław
 who-we-are: >
