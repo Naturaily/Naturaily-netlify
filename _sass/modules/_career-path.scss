@@ -20,6 +20,16 @@
     padding-top: 50px;
     flex: 0 1 auto;
   }
+
+  .section_heading a {
+    cursor: pointer;
+    transition: background-size .2s ease-in, color .1s ease;
+
+    &:hover {
+      color: #fff;
+      background-size: 100% 88%;
+    }
+  }
 }
 
 @media (max-width: 810px) {
