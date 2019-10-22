@@ -256,7 +256,7 @@
 
       &-right {
         .paragraph {
-          max-width: calc(100% - 35px);
+          max-width: calc(100% - 30px);
           padding-top: 30px;
         }
       }
@@ -279,7 +279,7 @@
         width: auto;
 
         &-person {
-          width: calc(100% - 35px);
+          width: calc(100% - 30px);
           min-height: 320px;
           margin: 0;
           background-size: contain;
