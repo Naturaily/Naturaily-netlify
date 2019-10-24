@@ -7,10 +7,10 @@ description: >-
 layout: career-offer
 location: Wrocław/ Remote
 who-we-are: >-
-  Software house is a multi-element puzzle. For six years, we have been
+  **Software house is a multi-element puzzle. For six years, we have been
   successfully constructing the team of people with matching characters and
   skills, which resulted in a truly beautiful picture. Only one piece is
-  missing. We believe it is you, Naturaily.
+  missing. We believe it is you, Naturaily.**
 about-left: >-
   You need to know that we value individuality, professionalism, open
   communication and honesty. We strive to provide our clients with the best,
@@ -19,12 +19,12 @@ about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
   We are waiting for you!
-about-image: ''
+about-image: /assets/images/img_2886.jpg
 type: Development
 salary-preview:
   - salary:
-      contract: B2B
-      sum: 13 500 - 18 000 PLN net + VAT
+      contract: + VAT (B2B)
+      sum: 13 500 - 18 000 PLN net
 what-we-expect:
   - expectation:
       contents: 'to drive software architecture, design & development activities '
@@ -123,6 +123,7 @@ benefits:
       benefit-title: You will gain valuable experience
 salaries:
   - salary:
-      contract: B2B
-      sum: 13 500 - 18 000 PLN net + VAT
+      contract: + VAT (B2B)
+      sum: 13 500 - 18 000 PLN net
 ---
+
