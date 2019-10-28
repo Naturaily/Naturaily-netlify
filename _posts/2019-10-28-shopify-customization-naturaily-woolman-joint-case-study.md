@@ -63,9 +63,9 @@ The application was originally created by Woolman's team. Our task was to:
 * add new shipping companies,
 * rewrite the user interface using \`React\`
 
-The NSA has been used by many online retailers, including Suomalainen - the largest bookstore chain in Finland. Founded in 1912, that latter sells** 160,000 products** online and has **over a million clients**, as well as  several million gift cards. Within two months from the launch of integrations, the store handled over **7,000 orders**. Everything worked seamlessly.
+The NSA has been used by many online retailers, including Suomalainen - the largest bookstore chain in Finland. Founded in 1912, that latter sells **160,000 products** online and has **over a million clients**, as well as  several million gift cards. Within two months from the launch of integrations, the store handled over **7,000 orders**. Everything worked seamlessly.
 
-**The second custom Shopify application is responsible for the integration of data, such as customer data, stock balance, order status, product data, product prices, gift cards, asset updates, etc. **
+**The second custom Shopify application is responsible for the integration of data, such as customer data, stock balance, order status, product data, product prices, gift cards, asset updates, etc.**
 
 Thanks to the integration, when new data is entered in one of the external systems, it also automatically appears in the online store (and vice versa).
 
@@ -85,10 +85,9 @@ We receive data about all existing users coming from an external system and the 
 
 It sounds simple, but in reality, it is a difficult process, because there is a lot of data and not all of it is important, some is missing, external services may have different data validation than Shopify, etc.
 
-**The next integration has been implemented to enable customer identification with the use of **[**suomi.fi **](https://www.suomi.fi/frontpage){:rel="nofollow"}{:target="_blank"} **system.**
+**The next integration has been implemented to enable customer identification with the use of [suomi.fi](https://www.suomi.fi/frontpage){:rel="nofollow"}{:target="_blank"} system.**
 
-| Suomi.fi is an e-identification system that enables the citizens of Finland and the European Union to be recognized in a safe way by using various identification media, such as bank-id and mobile certificates. |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+Suomi.fi is an e-identification system that enables the citizens of Finland and the European Union to be recognized in a safe way by using various identification media, such as bank-id and mobile certificates. 
 
 The integration allows e-store customers to pass authentication very quickly. The whole process is time-saving, 100% safe and secured. To make it possible, we have used **SSO (single sign-on)** - a property of access control for multiple related, yet independent, software systems. With this property, an e-shopper logs in and logs out with a single click.
 
