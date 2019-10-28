@@ -52,7 +52,7 @@ Shopify offers a lot of features but lacks some important ones, such as ready-to
 
 ## Some of Shopify integrations made for Woolman & Naturaily’s joint clients
 
-**Nordic Shipping App (NSA) enables data exchange between the Shopify store and the shipping company in real time. **
+**Nordic Shipping App (NSA) enables data exchange between the Shopify store and the shipping company in real time.**
 
 This way, it is possible to **generate waybills** and **set new pickup points** that are visible to customers while shopping.
 
