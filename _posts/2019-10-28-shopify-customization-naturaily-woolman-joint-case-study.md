@@ -87,7 +87,7 @@ It sounds simple, but in reality, it is a difficult process, because there is a 
 
 **The next integration has been implemented to enable customer identification with the use of [suomi.fi](https://www.suomi.fi/frontpage){:rel="nofollow"}{:target="_blank"} system.**
 
-Suomi.fi is an e-identification system that enables the citizens of Finland and the European Union to be recognized in a safe way by using various identification media, such as bank-id and mobile certificates. 
+**\|**Suomi.fi is an e-identification system that enables the citizens of Finland and the European Union to be recognized in a safe way by using various identification media, such as bank-id and mobile certificates.|
 
 The integration allows e-store customers to pass authentication very quickly. The whole process is time-saving, 100% safe and secured. To make it possible, we have used **SSO (single sign-on)** - a property of access control for multiple related, yet independent, software systems. With this property, an e-shopper logs in and logs out with a single click.
 
@@ -108,10 +108,4 @@ and many more.
 
 As you can see, the integration possibilities between Shopify and external systems are almost limitless. If you want to increase the efficiency of your online store, improve order processing, increase conversion, facilitate sales management, minimize errors or achieve other goals - contact us and we will help you. Shopify app development is one of our specialties. 
 
-
-
-
-
-
-
-{% CTA (Get an estimate in just 7 days)[Contact us]<https://naturaily.com/get-an-estimate>|/assets/images/get-an-estimate.png| %}
+{% CTA (Get an estimate in just 7 days)\[Contact us]<https://naturaily.com/get-an-estimate>|/assets/images/get-an-estimate.png| %}
