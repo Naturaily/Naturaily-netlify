@@ -92,7 +92,7 @@ It sounds simple, but in reality, it is a difficult process, because there is a 
 
 The integration allows e-store customers to pass authentication very quickly. The whole process is time-saving, 100% safe and secured. To make it possible, we have used **SSO (single sign-on)** - a property of access control for multiple related, yet independent, software systems. With this property, an e-shopper logs in and logs out with a single click.
 
-In total, we have implemented dozens of different integrations. All of them are worth mentioning, but let me tell you about one more.  
+In total, we have implemented dozens of different integrations. All of them are worth mentioning, but let’s discuss one more.  
 
 This custom Shopify integration was made for one of our clients ([Vallila Interior](https://www.vallilainterior.fi/){:rel="nofollow"}{:target="_blank"}), whom have both an online store and stationery stores in different locations and want real time inventory updates.
 
