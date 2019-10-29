@@ -9,7 +9,8 @@ date: '2019-10-28 12:19:35 +0200'
 category: Shopify development
 author: Beata Twardowska
 avatar: /assets/images/beata.jpg
-image: /assets/images/multiprocessing-in-ruby-a-good-alternative-to-threads_.png
+image: >-
+  /assets/images/shopify-customization_-naturaily-amp_-woolman-joint-case-study.png
 text-preview: >-
   Shopify remains the most popular e-commerce platform in the world. With
   800,000 clients on board, who have made combined sales in excess of $100
@@ -87,7 +88,7 @@ It sounds simple, but in reality, it is a difficult process, because there is a 
 
 **The next integration has been implemented to enable customer identification with the use of [suomi.fi](https://www.suomi.fi/frontpage){:rel="nofollow"}{:target="_blank"} system.**
 
-|Suomi.fi is an e-identification system that enables the citizens of Finland and the European Union to be recognized in a safe way by using various identification media, such as bank-id and mobile certificates.|
+\|Suomi.fi is an e-identification system that enables the citizens of Finland and the European Union to be recognized in a safe way by using various identification media, such as bank-id and mobile certificates.|
 
 The integration allows e-store customers to pass authentication very quickly. The whole process is time-saving, 100% safe and secured. To make it possible, we have used **SSO (single sign-on)** - a property of access control for multiple related, yet independent, software systems. With this property, an e-shopper logs in and logs out with a single click.
 
