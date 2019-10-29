@@ -72,13 +72,13 @@ Thanks to the integration, when new data is entered in one of the external syste
 
 **The biggest challenge was data incompatibility.** Our job was to format the data so that it would be readable for Shopify. 
 
-{diagram 2}
+![](/assets/images/diagram-1.png)
 
 In simple terms, the application is a communication layer that processes data to the appropriate format. This way, the data exchange is smooth and the information contained in external systems and presented in the store are consistent.
 
 Have a look at how it works.
 
-{diagram 3}
+![](/assets/images/diagram-2.png)
 
 Data incompatibility example:
 
