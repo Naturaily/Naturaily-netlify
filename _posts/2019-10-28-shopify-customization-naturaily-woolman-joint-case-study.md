@@ -5,7 +5,7 @@ description: >-
   the existing external systems with e-stores on Shopify. 
 slug: shopify-customization-case-study
 layout: post
-date: '2019-10-28 12:19:35 +0200'
+date: '2019-10-30 12:19:35 +0200'
 category: Shopify development
 author: Beata Twardowska
 avatar: /assets/images/beata.jpg
@@ -47,7 +47,7 @@ Naturaily's task was to:
 
 Let’s start with a quick view on how the communication between Shopify’s API, Storefront and Integrations works.
 
-{diagram 1}
+![ The communication between Shopify’s API, Storefront and Integrations ](/assets/images/diagram_pierwszy.png)
 
 Shopify offers a lot of features but lacks some important ones, such as ready-to-use solutions for simplifying order management (on the European market), for instance. If you need something extra, like a shipping list generated in real time - you need a dedicated application. That is what we help our clients with >> **Shopify app development**. 
 
@@ -72,13 +72,13 @@ Thanks to the integration, when new data is entered in one of the external syste
 
 **The biggest challenge was data incompatibility.** Our job was to format the data so that it would be readable for Shopify. 
 
-![](/assets/images/diagram-1.png)
+![Data format](/assets/images/diagram_drugi.png)
 
 In simple terms, the application is a communication layer that processes data to the appropriate format. This way, the data exchange is smooth and the information contained in external systems and presented in the store are consistent.
 
 Have a look at how it works.
 
-![](/assets/images/diagram-2.png)
+![Communication](/assets/images/diagram_trzeci.png)
 
 Data incompatibility example:
 
@@ -109,4 +109,4 @@ and many more.
 
 As you can see, the integration possibilities between Shopify and external systems are almost limitless. If you want to increase the efficiency of your online store, improve order processing, increase conversion, facilitate sales management, minimize errors or achieve other goals - contact us and we will help you. Shopify app development is one of our specialties. 
 
-{% CTA (Get an estimate in just 7 days)[Contact us]</get-an-estimate>|/assets/images/get-an-estimate.png| %}
+{% CTA (Get an estimate in just 7 days)[Contact us]</get-an-estimate>|/assets/images/cta_get_an_estimate.png| %}
