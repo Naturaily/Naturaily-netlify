@@ -1,4 +1,7 @@
 ---
+authors:
+  label: Jan Wieczorkowski
+  value: author-8
 title: Why we used Foundation Framework on naturaily.com
 description: >-
   We will go over through some of the best features of the Foundation Framework
