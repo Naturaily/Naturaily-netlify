@@ -5,7 +5,7 @@ description: >-
   the existing external systems with e-stores on Shopify. 
 slug: shopify-customization-case-study
 layout: post
-date: '2019-10-30 12:19:35 +0200'
+date: '2019-10-30 09:19:35 +0200'
 category: Shopify development
 author: Beata Twardowska
 avatar: /assets/images/beata.jpg
