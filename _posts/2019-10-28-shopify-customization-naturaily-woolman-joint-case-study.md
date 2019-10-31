@@ -7,8 +7,9 @@ slug: shopify-customization-case-study
 layout: post
 date: '2019-10-30 09:19:35 +0200'
 category: Shopify development
-author: Beata Twardowska
-avatar: /assets/images/beata.jpg
+authors:
+  label: Beata Twardowska
+  value: author-24
 image: >-
   /assets/images/shopify-customization_-naturaily-amp_-woolman-joint-case-study.png
 text-preview: >-
@@ -47,7 +48,7 @@ Naturaily's task was to:
 
 Let’s start with a quick view on how the communication between Shopify’s API, Storefront and Integrations works.
 
-![ The communication between Shopify’s API, Storefront and Integrations ](/assets/images/diagram_pierwszy.png)
+![Communication between Shopify’s API, Storefront and Integrations](/assets/images/first_diagram_shopify.png)
 
 Shopify offers a lot of features but lacks some important ones, such as ready-to-use solutions for simplifying order management (on the European market), for instance. If you need something extra, like a shipping list generated in real time - you need a dedicated application. That is what we help our clients with >> **Shopify app development**. 
 
