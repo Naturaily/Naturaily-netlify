@@ -113,3 +113,7 @@ As you can see, the integration possibilities between Shopify and external syste
 {% CTA (Get an estimate in just 7 days)[Contact us]</get-an-estimate>|/assets/images/cta_get_an_estimate_800.png| %}
 
 [![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+
+
+
+![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
