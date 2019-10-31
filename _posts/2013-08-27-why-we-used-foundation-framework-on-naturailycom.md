@@ -7,9 +7,8 @@ slug: foundation-framework-naturaily
 date: '2013-08-27 10:38:01 +0000'
 category: Frontend development
 authors:
-  label: Maciej Kucharski
-  value: author-16
-  avatar: /assets/images/maciek.png
+  label: Sebastian Kubiak
+  value: author-5
 image: /assets/images/foundation.jpg
 text-preview: >-
   Gentle normalize.css ----------------------- Your usual reset.css leaves you
