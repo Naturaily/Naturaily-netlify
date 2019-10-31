@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Frontend Developer (Vue.js)
 description: >-
   There is one piece missing in the organization! We believe it is you,
@@ -129,3 +129,4 @@ salaries:
       contract: + VAT (B2B)
       sum: 7500 - 13 000 PLN net
 ---
+
