@@ -48,7 +48,7 @@ Naturaily's task was to:
 
 Let’s start with a quick view on how the communication between Shopify’s API, Storefront and Integrations works.
 
-![Communication between Shopify’s API, Storefront and Integrations](/assets/images/first_diagram_shopify.png)
+![Communication between Shopify’s API, Storefront and Integrations](/assets/images/1_diagram_shopify.png)
 
 Shopify offers a lot of features but lacks some important ones, such as ready-to-use solutions for simplifying order management (on the European market), for instance. If you need something extra, like a shipping list generated in real time - you need a dedicated application. That is what we help our clients with >> **Shopify app development**. 
 
@@ -73,13 +73,13 @@ Thanks to the integration, when new data is entered in one of the external syste
 
 **The biggest challenge was data incompatibility.** Our job was to format the data so that it would be readable for Shopify. 
 
-![Data format](/assets/images/diagram_drugi.png)
+![Data format](/assets/images/2_diagram_shopify.png)
 
 In simple terms, the application is a communication layer that processes data to the appropriate format. This way, the data exchange is smooth and the information contained in external systems and presented in the store are consistent.
 
 Have a look at how it works.
 
-![Communication](/assets/images/diagram_trzeci.png)
+![Communication](/assets/images/3_diagram_shopify.png)
 
 Data incompatibility example:
 
