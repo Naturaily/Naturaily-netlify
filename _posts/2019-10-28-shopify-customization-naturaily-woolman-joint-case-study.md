@@ -110,4 +110,4 @@ and many more.
 
 As you can see, the integration possibilities between Shopify and external systems are almost limitless. If you want to increase the efficiency of your online store, improve order processing, increase conversion, facilitate sales management, minimize errors or achieve other goals - contact us and we will help you. Shopify app development is one of our specialties. 
 
-{% CTA (Get an estimate in just 7 days)[Contact us]</get-an-estimate>|/assets/images/cta_get_an_estimate_new-1-.png| %}
+{% CTA (Get an estimate in just 7 days)[Contact us]</get-an-estimate>|/assets/images/cta_get_an_estimate_new.png| %}
