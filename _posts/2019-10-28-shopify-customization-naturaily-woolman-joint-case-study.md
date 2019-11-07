@@ -24,7 +24,7 @@ tags:
   - Integrations
   - Case study
 ---
-**Cooperation between Naturaily and Woolman in a nutshell:**
+**Cooperation between Naturaily and Woolman in a nutshell: XXX**
 
 * scope: back-end development
 * technology: react.js, rails (sidekiq, event based data model), GraphQL API, JSON API, Shopify Polaris
@@ -109,7 +109,5 @@ Thanks to this integration, customers can check the availability of their produc
 and many more.
 
 As you can see, the integration possibilities between Shopify and external systems are almost limitless. If you want to increase the efficiency of your online store, improve order processing, increase conversion, facilitate sales management, minimize errors or achieve other goals - contact us and we will help you. Shopify app development is one of our specialties. 
-
-
 
 [![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
