@@ -24,7 +24,7 @@ tags:
   - Integrations
   - Case study
 ---
-**Cooperation between Naturaily and Woolman in a nutshell: XXX**
+**Cooperation between Naturaily and Woolman in a nutshell:**
 
 * scope: back-end development
 * technology: react.js, rails (sidekiq, event based data model), GraphQL API, JSON API, Shopify Polaris
