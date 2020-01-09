@@ -106,7 +106,8 @@
   &.process, &.who-we-are,
   &.form, &.why-us,
   &.choose, &.testimonials,
-  &.team, &.photos {
+  &.team, &.photos, &.case-studies,
+  &.jamstack {
     flex-direction: column;
   }
 

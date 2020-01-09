@@ -243,7 +243,7 @@ From a few i18n packages available I chose tap:i18n. It’s not a requirement, b
 * Add a dropdown `<select>` list of available languages.
   Paste the code below after `h1` tag:
 
-  `{{> i18n_dropdown}}`
+  `{% raw %}{{> i18n_dropdown}}{% endraw %}`
 
 And now you can change language on your site. Check it out!
 

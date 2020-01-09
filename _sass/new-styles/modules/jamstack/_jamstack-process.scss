@@ -1,0 +1,83 @@
+.jamstack-process {
+    padding-left: 160px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #F4F6FB;
+
+    &-container {
+        padding-left: 45px;
+        &-header {
+            display: flex;
+            > p {
+                flex: 5;
+                line-height: 50px;
+                font-size: 36px;
+            }
+            > div {
+                flex: 6;
+                line-height: 24px;
+                font-size: 16px;
+                margin-top: 10px;
+                padding-left: 20px;
+                > p:last-child {
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+            }
+        }
+        &-list {
+            padding-left: 110px;
+            margin-top: 54px;
+            &-title {
+                font-size: 24px;
+                line-height: 36px;
+            }
+            > ul {
+                margin-top: 12px;
+                > li {
+                    display: flex;
+                    padding: 30px 0;
+                    border-bottom: 1px solid rgba(59, 34, 15, 0.2);
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                    > p {
+                        &:first-child {
+                            flex: 1;
+                            color: #C1C1C1;
+                            font-size: 12px;
+                            line-height: 24px;
+                        }
+                        &:nth-child(2) {
+                            flex: 2;
+                            line-height: 33px;
+                            font-size: 24px;
+                        }
+                        &:last-child {
+                            flex: 6;
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+            &:last-child {
+                background-color: #FFF;
+                padding-top: 54px;
+                margin-top: 61px;
+                padding-right: 90px;
+                width: calc(100% - 120px);
+            }
+        }
+    }
+}
+
+@media (max-width: 810px) {
+    .jamstack-process {
+        max-width: calc(100% - 15px);
+        margin: 0 5px 0 10px;
+        padding: 40px 5px 50px 10px;
+    }
+}

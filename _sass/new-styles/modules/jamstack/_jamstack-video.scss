@@ -1,0 +1,42 @@
+.jamstack-video {
+    padding-left: 205px;
+    padding-right: 100px;
+    margin-bottom: 150px;
+    iframe {
+        height: 270px;
+        min-width: 490px;
+        border-radius : 8px;
+    }
+    .video-box_caption {
+        border: none;
+        padding: 0 0 0 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        > p {
+            font-size: 36px;
+            line-height: 50px;
+            > span {
+                opacity: 0.5;
+            }
+        }
+        > a {
+            color: #FF5E45;
+            font-size: 11px;
+            display: flex;
+            margin-top: 40px;
+            > img {
+                margin-left: 10px;
+                height: 11px;
+            }
+        }
+    }
+}
+
+@media (max-width: 810px) {
+    .jamstack-footer {
+        max-width: calc(100% - 15px);
+        margin: 0 5px 0 10px;
+        padding: 40px 5px 50px 10px;
+    }
+}

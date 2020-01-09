@@ -9,7 +9,7 @@ layout: default
     <div class="row">
       <section>
         {% if page.filter_author %}
-          {% for post in posts |  %}
+          {% for post in posts %}
             <div class="post-preview">
               <a class="post-link" href="{{ post.url | relative_url }}">
                 {% if post.image %}

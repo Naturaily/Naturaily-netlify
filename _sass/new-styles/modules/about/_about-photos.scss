@@ -1,0 +1,26 @@
+.photos {
+  padding-bottom: 0;
+
+  .section_desc {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  .section_heading {
+    padding-left: 205px;
+  }
+
+  &-instagram {
+    max-width: 1100px;
+    margin: 0 auto 140px;
+  }
+}
+
+@media (max-width: 810px) {
+  .photos {
+    .section_heading {
+      font-size: 28px;
+      padding-left: 50px;
+    }
+  }
+}

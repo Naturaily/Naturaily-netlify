@@ -3,6 +3,7 @@
 @import "header";
 
 @import "slick";
+@import "slick-theme";
 
 @import "layout/layout";
 @import "modules/heading";
@@ -17,36 +18,47 @@
 @import "modules/geometric-object";
 @import "modules/form";
 @import "modules/video-box";
-@import "footer";
 
 // CAREERS SPECIFIC STYLES //
 
-@import "modules/career-team";
-@import "modules/career-path";
-@import "modules/career-process";
-@import "modules/career-culture";
-@import "modules/career-benefits";
-@import "modules/career-offers";
-@import "modules/career-position";
-@import "modules/career-about";
-@import "modules/career-skills";
-@import "modules/career-more";
-@import "modules/career-perks";
-@import "modules/career-video";
+@import "modules/career/career-team";
+@import "modules/career/career-path";
+@import "modules/career/career-process";
+@import "modules/career/career-culture";
+@import "modules/career/career-benefits";
+@import "modules/career/career-offers";
+@import "modules/career/career-position";
+@import "modules/career/career-about";
+@import "modules/career/career-skills";
+@import "modules/career/career-more";
+@import "modules/career/career-perks";
+@import "modules/career/career-video";
 
 // ABOUT SPECIFIC STYLES //
 
-@import "modules/about-who-we-are";
-@import "modules/about-values";
-@import "modules/about-why-us";
-@import "modules/about-choose";
-@import "modules/about-strength";
-@import "modules/about-testimonials";
-@import "modules/about-team";
-@import "modules/about-join";
-@import "modules/about-estimate";
-@import "modules/about-photos";
+@import "modules/about/about-who-we-are";
+@import "modules/about/about-values";
+@import "modules/about/about-why-us";
+@import "modules/about/about-choose";
+@import "modules/about/about-strength";
+@import "modules/about/about-testimonials";
+@import "modules/about/about-team";
+@import "modules/about/about-join";
+@import "modules/about/about-estimate";
+@import "modules/about/about-photos";
 
+// JAMSTACK SPECIFIC STYLES //
+
+@import "modules/jamstack/jamstack-case-studies";
+@import "modules/jamstack/jamstack-jamstack";
+@import "modules/jamstack/jamstack-benefits";
+@import "modules/jamstack/jamstack-faq";
+@import "modules/jamstack/jamstack-testimonials";
+@import "modules/jamstack/jamstack-process";
+@import "modules/jamstack/jamstack-services";
+@import "modules/jamstack/jamstack-footer";
+@import "modules/jamstack/jamstack-video";
+@import "modules/jamstack/jamstack-carousel";
 
 // NEW CAREERS //
 

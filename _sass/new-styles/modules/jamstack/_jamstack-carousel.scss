@@ -1,0 +1,110 @@
+.jamstack-carousel {
+    width: 100%;
+    margin-top: 35px;
+    .slick-dotted.slick-slider {
+        height: 340px;
+    }
+    .main-carousel .slick-list {
+        overflow: hidden;
+        padding: 30px 0;
+        height: 100%;
+    }
+    .main-carousel .slick-next, .main-carousel .slick-prev {
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 8px 32px 0 rgba(179, 104, 0, 0.12);
+        border-radius: 50%;
+        font-family: 'icomoon' !important;
+        &::before {
+            color: #3B220F;
+            padding-top: 10px;
+            width: 40px;
+            height: 30px;
+            left: 0;
+            right: 0;
+            background-color: #FFF;
+        }
+    }
+    .main-carousel .slick-next::before {
+        content: "\e930";
+    }
+    .main-carousel .slick-prev::before {
+        content: "\e92f";
+    }
+    .main-carousel .carousel-item {
+        background-color: #FFF7F1;
+        box-shadow: none;
+        margin: 0;
+        border-radius: 10px;
+        padding: 40px 90px 60px 90px;
+        cursor: default;
+    }
+    .main-carousel .carousel-item .item-info img {
+        margin: 0;
+        box-shadow: none;
+        border-radius: 5px;
+        max-width: 170px;
+    }
+    .main-carousel .slick-dots {
+        bottom: 20px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(59, 34, 15, 0.1);
+        li {
+            background-image: none;
+            background-color: #FF5E45;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            margin: 0 10px;
+            filter: grayscale(0%);
+            opacity: 1;
+            margin-bottom: 3px;
+        }
+        .slick-active {
+            width: 10px;
+            height: 10px;
+            margin-bottom: 0;
+        }
+    }
+    .slick-next {
+        right: 30px;
+    }
+    .slick-prev {
+        left: 30px;
+    }
+    .item-name {
+        margin-top: 20px;
+        margin-left: 20px;
+        position: relative;
+        &::before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: #FFB040;
+            position: absolute;
+            left: -20px;
+            top: 4px;
+            border-radius: 50%;
+        }
+    }
+    .item-job {
+        margin-left: 20px;
+    }
+    .main-carousel .carousel-item .item-info {
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        > img {
+            width: 170px;
+            height: 170px;
+        }
+    }
+    .main-carousel .carousel-item .item-opinion {
+        width: 60%;
+    }
+}
+
+@media (max-width: 810px) {
+    .jamstack-carousel {
+    }
+}

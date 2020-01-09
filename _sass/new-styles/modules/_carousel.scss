@@ -1,0 +1,463 @@
+.carousel-point {
+    margin: 70px 0 30px 0;
+  }
+  
+  .main-carousel {
+    .slick-prev {
+      z-index: 1;
+      width: 150px;
+      height: 600px;
+  
+  
+      &:hover {
+        cursor: w-resize;
+  
+      }
+  
+      &::before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        height: 600px;
+        width: 400px;
+        right: 125px;
+        border-radius: 100%;
+        top: 0;
+        background: red;
+        box-shadow: 150px 0px 300px #fff;
+      }
+  
+      &::after {
+        content: '';
+        position: absolute;
+      }
+    }
+    .slick-next {
+      z-index: 1;
+      width: 150px;
+      height: 600px;
+  
+  
+      &:hover {
+        cursor: e-resize;
+  
+      }
+  
+      &::before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        height: 600px;
+        width: 400px;
+        left: 125px;
+        border-radius: 100%;
+        top: 0;
+        background: red;
+        box-shadow: -150px 0px 300px #fff;
+      }
+  
+      &::after {
+        content: '';
+        position: absolute;
+  
+      }
+    }
+  
+    .slick-list {
+      padding: 30px 150px;
+      margin-bottom: 100px;
+      overflow: visible;
+      .slick-track .slick-slide:focus {
+        outline: none;
+      }
+    }
+  
+    .slick-dots {
+      bottom: -100px;
+  
+      li {
+        transition: all .2s ease;
+      }
+    }
+  
+    .slick-dots li button {
+      display: none;
+    }
+  
+    ul.slick-dots li.slick-active {
+       filter: grayscale(0%);
+       opacity: 1;
+    }
+  
+    .slick-dots li:nth-child(1) {
+      background-image: url('/assets/images/firefield.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 30px;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.3;
+  
+      &:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+    }
+  
+    .slick-dots li:nth-child(2) {
+      background-image: url('/assets/images/format.png');
+      background-size: 100px 50px;
+      width: 100px;
+      height: 40px;
+      margin-top: 3px;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.3;
+  
+      &:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+    }
+  
+    .slick-dots li:nth-child(3) {
+      background-image: url('/assets/images/apptegy.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 23px;
+      margin-top: 4px;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.3;
+  
+      &:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+    }
+  
+    .slick-dots li:nth-child(4) {
+      margin-bottom: -15px;
+      background-image: url('/assets/images/itm.png');
+      background-size: 100px 50px;
+      width: 100px;
+      height: 55px;
+      margin-top: 4px;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.3;
+  
+      &:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+    }
+  
+    .slick-dots li:nth-child(5) {
+      background-image: url('/assets/images/ea-tech-logo.png');
+      background-size: cover;
+      width: 50px;
+      height: 37px;
+      margin-top: 4px;
+      margin-bottom: -6px;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      opacity: 0.3;
+  
+      &:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+    }
+  
+    .carousel-item {
+      display: block;
+      box-shadow: 0 8px 32px 2px rgba(0,0,0,0.1);
+      border-radius: 4px;
+      margin: 20px 40px;
+      font-weight: 200;
+      padding: 10px 120px 90px 50px;
+  
+      &:hover {
+        cursor: pointer;
+      }
+  
+      .item-info {
+        width: 100%;
+        float: left;
+        text-align: center;
+  
+        .mike {
+          width: 120px;
+        }
+  
+        img {
+          max-width: 120px;
+          margin: -50px auto 15px;
+          border-radius: 50%;
+          box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+        }
+      }
+  
+      .item-opinion {
+        float: left;
+        width: 100%;
+  
+        .item-company {
+          max-width: 100px;
+          max-height: 50px;
+          padding: 25px 0;
+        }
+  
+        .format {
+          margin-left: -10px;
+          padding-bottom: 15px;
+        }
+  
+        .firefield {
+          margin-top: 5px;
+        }
+  
+        .apptegy {
+          margin-top: 15px;
+        }
+  
+        .read-more-state {
+          display: none;
+        }
+      }
+    }
+  }
+  
+  
+  @media (min-width: 992px) {
+    .carousel-point {
+      text-align: center;
+      margin: 130px 0 100px 0;
+    }
+  
+    .main-carousel .slick-list {
+      height: 250px;
+    }
+  
+    .main-carousel .carousel-item {
+      height: 200px;
+      margin: 0 20px;
+      width: 720px;
+  
+      .item-opinion {
+        width: 73%;
+        padding-left: 7%;
+      }
+      
+      .item-info {
+        margin-top: 15px;
+        padding-left: 3%;
+        width: 17%;
+      }
+    }
+  }
+  
+  @media (max-width: 1120px) {
+    .main-carousel {
+      .slick-list {
+        padding: 30px 80px;
+      }
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .main-carousel {
+  
+      .slick-prev::before {
+        box-shadow: 100px 0px 300px #fff;
+      }
+  
+      .slick-next::before {
+        box-shadow: -100px 0px 300px #fff;
+      }
+  
+      .slick-list {
+        padding: 20px 0;
+        height: 430px;
+      }
+  
+      .carousel-item .item-opinion p {
+        height: 120px;
+      }
+    }
+  }
+  
+  @media (max-width: 691px) {
+    .main-carousel {
+  
+      .slick-prev::before {
+        box-shadow: 50px 0px 300px #fff;
+      }
+  
+      .slick-next::before {
+        box-shadow: -50px 0px 300px #fff;
+      }
+  
+      .slick-list {
+        padding-bottom: 80px;
+        height: 350px;
+      }
+  
+      .slick-dots li {
+        margin: 0 10px;
+      }
+  
+      .carousel-item {
+        padding: 10px 15px 90px 15px;
+  
+        .item-opinion p {
+          height: 120px;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 511px) {
+    .main-carousel {
+  
+      .carousel-item {
+        padding: 10px;
+        padding-bottom: 20px;
+  
+        .item-opinion p {
+          height: 220px;
+        }
+  
+        .read-more-trigger {
+          display: none;
+        }
+      }
+  
+      .slick-list {
+        padding-bottom: 140px;
+        height: 370px;
+      }
+  
+      .slick-dots li {
+        margin: 0;
+      }
+  
+      .slick-dots li:nth-child(1) {
+        width: 50%;
+      }
+  
+      .slick-dots li:nth-child(3) {
+        width: 50%;
+      }
+    }
+  }
+  
+  @media (max-width: 459px) {
+    .main-carousel .slick-arrow {
+      width: 70px;
+    }
+  
+    .main-carousel .slick-list {
+      height: 350px;
+    }
+  
+    .main-carousel .open {
+      height: 420px;
+    }
+  
+    .main-carousel .carousel-item .item-opinion {
+      text-align: right;
+  
+      p {
+        text-align: left;
+        height: 170px;
+      }
+  
+      .read-more-wrap {
+        margin-bottom: 0;
+      }
+  
+      .read-more-target {
+        opacity: 0;
+        max-height: 0;
+        font-size: 0;
+        transition: .25s ease;
+      }
+  
+      .read-more-state:checked ~ .read-more-wrap .read-more-target {
+        opacity: 1;
+        font-size: inherit;
+        max-height: 999em;
+      }
+  
+      .read-more-state:checked ~ .read-more-wrap {
+        height: 250px;
+      }
+  
+      .read-more-state ~ .read-more-trigger:before {
+        content: 'read more';
+      }
+  
+      .read-more-state:checked ~ .read-more-trigger:before {
+        content: 'read less';
+      }
+  
+      .read-more-trigger {
+        cursor: pointer;
+        display: inline-block;
+        padding: 0 .5em;
+        color: #666;
+        font-size: .9em;
+        line-height: 2;
+      }
+    }
+  }
+  
+  @media (max-width: 408px) {
+    .main-carousel .slick-list {
+      height: 380px;
+    }
+  
+    .main-carousel .open {
+      height: 480px;
+    }
+  
+    .main-carousel .carousel-item .item-opinion {
+      p {
+        height: 200px;
+      }
+      .read-more-state:checked ~ .read-more-wrap {
+        height: 300px;
+      }
+    }
+  }
+  
+  @media (max-width: 369px) {
+    .main-carousel .slick-list {
+      height: 420px;
+    }
+  
+    .main-carousel .open {
+      height: 570px;
+    }
+  
+    .main-carousel .carousel-item .item-opinion {
+      p {
+        height: 250px;
+      }
+  
+      .read-more-state:checked ~ .read-more-wrap {
+        height: 375px;
+      }
+    }
+  }
+  
