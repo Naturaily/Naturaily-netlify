@@ -1,0 +1,125 @@
+.jamstack-case-studies {
+    padding-left: 160px;
+    padding-right: 100px;
+    background-color: rgba(154, 168, 224, 0.1);
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 100px;
+    position: relative;
+    flex-direction: column;
+
+    &-header {
+        display: flex;
+        &-left {
+            width: 60%;
+        }
+        &-right {
+            width: 50%;
+            > img {
+                max-width: 100%;
+            }
+        }
+    }
+
+    &_paragraph {
+        padding-left: 45px;
+        padding-right: 50px;
+        line-height: 38px;
+        max-width: 610px;
+        margin: 0;
+        font-weight: 300;
+        font-size: 24px;
+    }
+
+    &-person {
+        padding: 0 45px;
+        max-width: 200px;
+        margin-top: 24px;
+        > p {
+            line-height: 24px;
+            &:first-child {
+                padding-left: 30px;
+                font-size: 16px;
+                position: relative;
+                &::before {
+                    content: '';
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 4px;
+                    position: absolute;
+                    left: 0;
+                    top: 8px;
+                    background-color: #FFB040;
+                }
+            }
+            &:last-child {
+                font-size: 14px;
+            }
+        }
+    }
+
+    &-redirection {
+        padding: 25px 45px;
+        border-top: 1px solid rgba(59, 34, 15, 0.1);
+        width: 388px;
+        margin-top: 56px;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 13px;
+        > a {
+            cursor: pointer;
+            color: #FF5E45;
+            display: flex;
+            justify-content: space-between;
+            > img {
+                height: 11px;
+            }
+        }
+    }
+
+    &-list-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 45px;
+        > a {
+            width: 160px;
+        }
+        > p {
+            font-size: 24px;
+            line-height: 50px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+    }
+    &-list-options {
+        display: flex;
+        > div {
+            padding-right: 4%;
+            flex: 1;
+            > img {
+                height: 40px;
+                max-width: 100%;
+                width: auto;
+            }
+            > p {
+                font-size: 16px;
+                line-height: 24px;
+                &:nth-child(2) {
+                    margin-top: 23px;
+                    margin-bottom: 30px;
+                }
+                &:last-child {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 810px) {
+    .jamstack-case-studies {
+        max-width: calc(100% - 15px);
+        margin: 0 5px 0 10px;
+        padding: 40px 5px 50px 10px;
+    }
+}
