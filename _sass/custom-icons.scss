@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-advanced-search:before {
+  content: "\e93f";
+}
+.icon-security:before {
+  content: "\e93b";
+}
+.icon-scale:before {
+  content: "\e93c";
+}
+.icon-save-money:before {
+  content: "\e93e";
+}
+.icon-fast:before {
+  content: "\e93d";
+}
 .icon-cookie::before {
   content: "\e91e";
 }
