@@ -47,6 +47,19 @@
 @import "modules/about/estimate";
 @import "modules/about/photos";
 
+// JAMSTACK SPECIFIC STYLES //
+
+@import "modules/jamstack/jamstack-case-studies";
+@import "modules/jamstack/jamstack-jamstack";
+@import "modules/jamstack/jamstack-benefits";
+@import "modules/jamstack/jamstack-faq";
+@import "modules/jamstack/jamstack-testimonials";
+@import "modules/jamstack/jamstack-process";
+@import "modules/jamstack/jamstack-services";
+@import "modules/jamstack/jamstack-footer";
+@import "modules/jamstack/jamstack-video";
+@import "modules/jamstack/jamstack-carousel";
+
 body {
   font-weight: 300;
   font-family: acumin-pro;
