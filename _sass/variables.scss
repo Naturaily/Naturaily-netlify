@@ -44,9 +44,8 @@ $color-zapnito: #E85A52;
 }
 
 .text-greyed-out {
-  color: rgba(59,34,15,0.5);
+  color: rgba(59, 34, 15, 0.7);
 }
-
 
 .bg-accent-purple {
   background-color: $color-accent-purple;
@@ -65,11 +64,13 @@ $color-zapnito: #E85A52;
 .wave {
   grid-column: 1 / 4;
   position: relative;
+
   .wave-tail {
     position: absolute;
     width: 100%;
     bottom: 100%;
   }
+
   img {
     width: 100%;
   }
