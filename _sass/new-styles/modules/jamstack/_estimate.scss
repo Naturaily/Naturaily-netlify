@@ -1,0 +1,19 @@
+.jamstack-estimate {
+  .section_content .image {
+    margin-bottom: 0;
+  }
+
+  .section_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 810px) {
+  .jamstack-estimate {
+    .section_desc .btn {
+      margin-bottom: 30px;
+    }
+  }
+}
