@@ -1,3 +1,6 @@
+$cs-padding-lg: 44px;
+$cs-padding-sm: 24px;
+
 .jamstack-case-studies {
   flex-wrap: wrap;
   margin-top: 100px;
@@ -13,10 +16,10 @@
     justify-content: space-between;
     width: 100%;
 
-    .paragraph {
+    .paragraph.has-dot {
       margin-bottom: 10px;
-      padding-left: 45px;
-      color: #3B220F;
+      padding-left: $cs-padding-lg;
+      color: $color-global-font;
     }
 
     &-image {
@@ -31,7 +34,7 @@
 
   &_quote {
     margin-bottom: 25px;
-    padding-left: 45px;
+    padding-left: $cs-padding-lg;
     padding-right: 40px;
     font-size: 24px;
     font-weight: 200;
@@ -42,7 +45,7 @@
     }
 
     &-company {
-      padding-left: 45px;
+      padding-left: $cs-padding-lg;
       font-size: 14px;
     }
   }
@@ -50,7 +53,7 @@
   &_redirection {
     max-width: 380px;
     margin-top: 55px;
-    padding-left: 45px;
+    padding-left: $cs-padding-lg;
     padding-top: 35px;
     border-top: 1px solid $color-nav-border;
 
@@ -70,7 +73,7 @@
   &_list {
     display: flex;
     flex-direction: column;
-    padding-left: 45px;
+    padding-left: $cs-padding-lg;
 
     &-header {
       margin: 60px 0 40px;
@@ -89,7 +92,7 @@
     }
 
     &-logo {
-      height: 40px; // need improvings
+      height: 40px;
     }
 
     &-brand {
@@ -105,10 +108,104 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .jamstack-case-studies_list {
+    &-options {
+      flex-wrap: wrap;
+    }
+
+    &-option {
+      flex: initial;
+      width: 33%;
+      margin-bottom: 40px;
+      box-sizing: border-box;
+    }
+  }
+}
+
 @media (max-width: 810px) {
   .jamstack-case-studies {
     max-width: calc(100% - 15px);
     margin: 0 5px 0 10px;
     padding: 40px 5px 50px 10px;
+
+    .paragraph.has-dot {
+      padding-left: $cs-padding-sm;
+    }
+
+    &_header-image {
+      height: 260px;
+      width: 50%;
+    }
+
+    &_quote {
+      padding: 0 $cs-padding-sm;
+
+      &-company {
+        padding-left: $cs-padding-sm;
+      }
+    }
+
+    &_redirection {
+      max-width: 300px;
+      padding-left: $cs-padding-sm;
+
+      &-image {
+        margin-left: 30px;
+        vertical-align: baseline;
+      }
+    }
+
+    &_list {
+      padding-left: $cs-padding-sm;
+
+      &-option {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .jamstack-case-studies {
+
+    .paragraph.has-dot {
+      padding-bottom: 5px;
+    }
+
+    &_header {
+      flex-direction: column;
+
+      &-image {
+        position: relative;
+        top: -90px;
+        width: 100%;
+      }
+    }
+
+    &_quote {
+
+      &-wrapper{
+        width: 100%;
+      }
+    }
+
+    &_redirection {
+      position: relative;
+      top: 230px;
+      max-width: 100%;
+    }
+
+    &_list {
+
+      &-header {
+        margin-top: 20px;
+        line-height: 30px;
+      }
+
+      &-option {
+        width: 100%;
+      }
+    }
   }
 }
