@@ -1,4 +1,7 @@
 .jamstack-estimate {
+  margin-right: 80px;
+  padding-left: 200px;
+
   .section_content .image {
     margin-bottom: 0;
   }
@@ -10,8 +13,17 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .jamstack-estimate {
+    margin-right: 0;
+    padding-left: 160px;
+  }
+}
+
 @media (max-width: 810px) {
   .jamstack-estimate {
+    padding: 0 16px 0px 30px;
+
     .section_desc .btn {
       margin-bottom: 30px;
     }
