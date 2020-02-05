@@ -1,4 +1,7 @@
+$benefits-figure-lg: 315px;
+
 .jamstack-services {
+  flex-direction: column;
   flex-wrap: wrap;
   padding: 150px 100px 150px 160px;
 
@@ -62,12 +65,54 @@
       line-height: 24px;
     }
   }
+
+  .btn-primary {
+    max-width: 160px;
+    text-align: center;
+  }
+
+  &-figure {
+    .jamstack-services_container {
+      position: relative;
+    }
+
+    .geometric-figure {
+      top: -50px;
+      left: 985px;
+      width: 100%;
+
+      &_center {
+        height: $benefits-figure-lg;
+        width: $benefits-figure-lg;
+      }
+
+      &_right {
+        height: $benefits-figure-lg;
+        width: $benefits-figure-lg / 2;
+
+        &::after {
+          height: $benefits-figure-lg;
+          width: $benefits-figure-lg;
+        }
+      }
+    }
+
+    .floating-dots {
+      top: -590px;
+      left: 295px;
+      height: 1340px;
+      width: 610px;
+      transform: rotate(106deg);
+
+      .burnt-sienna {
+        right: 110px;
+      }
+    }
+  }
 }
 
 @media (max-width: 1200px) {
   .jamstack-services {
-    flex-direction: column;
-
     &_options {
       max-width: 510px;
       flex-wrap: wrap;
@@ -82,6 +127,20 @@
         margin-right: 0;
       }
     }
+
+    &-figure {
+      .geometric-figure {
+        top: -170px;
+        left: 580px;
+      }
+
+      .floating-dots {
+        top: -360px;
+        left: 130px;
+        height: 800px;
+        transform: rotate(115deg);
+      }
+    }
   }
 }
 
@@ -94,6 +153,24 @@
     &_container {
       padding-left: 25px;
     }
+
+    .btn.btn-primary {
+      max-width: 200px;
+      margin: 20px 0 0;
+    }
+
+    &-figure {
+      .geometric-figure {
+        top: -100px;
+        left: 540px;
+      }
+
+      .floating-dots {
+        top: -330px;
+        left: 130px;
+        height: 700px;
+      }
+    }
   }
 }
 
@@ -105,6 +182,10 @@
 
     &_description {
       margin-bottom: 40px;
+
+      br {
+        display: none;
+      }
     }
 
     &_options {
@@ -122,6 +203,18 @@
 
       &-header {
         margin: 10px 0;
+      }
+    }
+
+    &-figure {
+      .geometric-figure {
+        display: none;
+      }
+
+      .floating-dots {
+        top: -190px;
+        left: -20px;
+        height: 400px;
       }
     }
   }
