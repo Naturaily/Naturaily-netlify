@@ -1,94 +1,128 @@
 .jamstack-faq {
-    padding-left: 160px;
-    padding-right: 100px;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+  position: relative;
+  flex-wrap: wrap;
+  margin-bottom: 130px;
+  padding: 150px 100px 150px 160px;
+  background-color: $color-code-bg;
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  &_container {
+    display: flex;
+    margin-top: -20px;
+    padding-left: 45px;
+
+    &-left {
+      flex: 3;
+      line-height: 50px;
+      font-size: 36px;
+      padding-top: 20px;
+    }
+
+    &-right {
+      flex: 7;
+    }
+  }
+
+  &_element {
     position: relative;
-    flex-direction: column;
-    background-color: #FFF7F1;
-    margin-bottom: 130px;
+    overflow: hidden;
+    padding-bottom: 1px;
 
-    input[type="checkbox"] {
-        display: none;
+    &.opened img {
+      transform: rotate(270deg);
     }
 
-    &-container {
-        display: flex;
-        padding-left: 45px;
-        &-left {
-            flex: 3;
-            line-height: 50px;
-            font-size: 36px;
-            padding-top: 20px;
-        }
-        &-right {
-            flex: 7;
-        }
+    img {
+      z-index: 1;
+      position: absolute;
+      right: 0;
+      bottom: 35px;
+      height: 10px;
+      transform: rotate(90deg);
+      transition: transform .3s;
+    }
+  }
+
+  .accordion_number {
+    padding-left: 65px;
+    padding-right: 30px;
+  }
+
+  .accordion-item {
+    height: 80px;
+    border: none;
+    background-color: $color-code-bg;
+
+    &.borderless {
+      border-top: none;
+    }
+  }
+
+  .accordion_position {
+    color: $color-global-font;
+  }
+
+  .accordion_content {
+    margin: 0;
+    padding: 0 100px 25px 105px;
+    color: $color-global-font;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to left, $color-secondary 0,
+                                           $color-secondary 20px,
+                                           $color-nav-border 20px,
+                                           $color-nav-border 100%) 2;
+  }
+}
+
+@media (max-width: 1200px) {
+  .jamstack-faq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .section_name {
+      width: 100%;
     }
 
-    &-element {
-        display: flex;
-        position: relative;
-        overflow: hidden;
+    &_container {
+      flex-direction: column;
 
-        flex-direction: column;
-
-        &.opened img {
-            transform: rotate(-90deg);
-        }
-
-        &-text {
-            display: flex;
-            flex-direction: column;
-
-            > p:first-child {
-                position: relative;
-                background: white;
-                z-index: 0;
-            }
-
-            > p:nth-child(2) {
-                position: absolute;
-                bottom: 0;
-                z-index: -1;
-            }
-        }
-
-        > img {
-            position: absolute;
-            right: 0;
-            bottom: 20px;
-            height: 10px;
-            transform: rotate(90deg);
-            z-index: 1;
-        }
+      &-left, &-right {
+        flex: 1;
+        padding: 10px 0;
+      }
     }
-    .accordion_number {
-        padding: 0 50px;
-    }
-    .accordion-item {
-        border-top: 1px solid rgba(61, 35, 16, 0.23);
-        border-bottom: none;
-        &.borderless {
-            border-top: none;
-        }
-    }
-    .accordion_position {
-        color: #3B220F;
-    }
-    .accordion_content {
-        margin-left: 0;
-        color: #3B220F;
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 25px;
-    }
+  }
 }
 
 @media (max-width: 810px) {
-    .jamstack-faq {
-        max-width: calc(100% - 15px);
-        margin: 0 5px 0 10px;
-        padding: 40px 5px 50px 10px;
+  .jamstack-faq {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 5px 50px 10px;
+
+    &_container {
+      padding-left: 20px;
     }
+
+    .accordion {
+      &_number {
+        padding-left: 10px;
+        padding-right: 15px;
+      }
+
+      &_position {
+        padding-right: 20px;
+        line-height: 24px;
+      }
+
+      &_content {
+        padding: 0 20px 25px 10px;
+      }
+    }
+  }
 }
