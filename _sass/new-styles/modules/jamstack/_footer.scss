@@ -1,5 +1,5 @@
-$geometric-size-lg: 71px;
-$geometric-size-sm: 50px;
+$footer-figure-lg: 71px;
+$footer-figure-sm: 50px;
 
 .jamstack-footer {
   display: flex;
@@ -41,17 +41,17 @@ $geometric-size-sm: 50px;
       margin-right: 75px;
 
       &_center {
-        width: $geometric-size-lg;
-        height: $geometric-size-lg;
+        width: $footer-figure-lg;
+        height: $footer-figure-lg;
       }
 
       &_right {
-        width: $geometric-size-lg / 2;
-        height: $geometric-size-lg;
+        width: $footer-figure-lg / 2;
+        height: $footer-figure-lg;
 
         &::after {
-          width: $geometric-size-lg;
-          height: $geometric-size-lg;
+          width: $footer-figure-lg;
+          height: $footer-figure-lg;
         }
       }
     }
@@ -99,17 +99,17 @@ $geometric-size-sm: 50px;
 
       &-figure {
         &_center {
-          width: $geometric-size-sm;
-          height: $geometric-size-sm;
+          width: $footer-figure-sm;
+          height: $footer-figure-sm;
         }
 
         &_right {
-          width: $geometric-size-sm / 2;
-          height: $geometric-size-sm;
+          width: $footer-figure-sm / 2;
+          height: $footer-figure-sm;
 
           &::after {
-            width: $geometric-size-sm;
-            height: $geometric-size-sm;
+            width: $footer-figure-sm;
+            height: $footer-figure-sm;
           }
         }
       }
