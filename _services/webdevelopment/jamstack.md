@@ -1,6 +1,6 @@
 ---
-title: JAMstack development
+title: Fast JAMstack development | Naturaily team for hire
 layout: jamstack
 permalink: /services/webdevelopment/jamstack
-# description: Working at Naturaily is a great opportunity to enhance your skills and spend time with honest and open people. Join us, let's build great things together!
+description: JAMstack makes your website secure, well SEO optimized and incredibly fast. Build the website of tomorrow with Naturaily’s JAMstack experts.
 ---
