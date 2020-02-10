@@ -1,6 +1,7 @@
 .jamstack-testimonials {
   flex-direction: column;
   flex-wrap: wrap;
+  padding-top: 0;
   padding-left: 160px;
   padding-right: 100px;
   box-sizing: border-box;
@@ -69,7 +70,8 @@
     padding: 40px 5px 50px 10px;
 
     &_container, &_link {
-      padding: 0 25px;
+      padding: 0;
+      padding-left: 25px;
     }
   }
 }
