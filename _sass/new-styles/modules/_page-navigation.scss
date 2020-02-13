@@ -109,10 +109,6 @@
 
         .page-navigation_chevron {
           visibility: hidden;
-
-          .section-navigation:not(.stuck) & {
-            visibility: visible;
-          }
         }
 
         .stuck & {

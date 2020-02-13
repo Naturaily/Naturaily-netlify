@@ -11,7 +11,7 @@
 
   <div class="section_content" data-process-accordion>
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="juniorDev" name="dev-level" autocomplete="off" data-accordion-check>
+      <input type="checkbox" id="juniorDev" name="dev-level" autocomplete="off" data-accordion-check data-accordion-number="1">
       <label id="juniorDevBox" for="juniorDev" class="accordion-item">
         <span class="accordion_number">01</span>
         <p class="accordion_position">Juniors</p>
@@ -106,7 +106,7 @@
     </div>
 
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="regularDev" name="dev-level" autocomplete="off" data-accordion-check>
+      <input type="checkbox" id="regularDev" name="dev-level" autocomplete="off" data-accordion-check data-accordion-number="2">
       <label id="regularDevBox" for="regularDev" class="accordion-item">
         <span class="accordion_number">02</span>
         <p class="accordion_position">Regular</p>
@@ -205,7 +205,7 @@
     </div>
 
     <div class="accordion" data-accordion-item>
-      <input type="checkbox" id="seniorDev" name="dev-level" autocomplete="off" data-accordion-check>
+      <input type="checkbox" id="seniorDev" name="dev-level" autocomplete="off" data-accordion-check data-accordion-number="3">
       <label id="seniorDevBox" for="seniorDev" class="accordion-item">
         <span class="accordion_number">03</span>
         <p class="accordion_position">Senior</p>
@@ -317,10 +317,15 @@
 
 <script type="text/javascript">
   $(document).ready(function() {
-    $('[data-process-accordion]').on('change', '[data-accordion-check]', function() {
+    $('[data-process-accordion]').on('change', '[data-accordion-check]', function(e) {
       var that = $(this);
       var parent = $(that.parent()[0]);
       var contentHeight = parent.children('[data-accordion-content]').height();
+      var contentPosition = parseInt(e.target.getAttribute('data-accordion-number'), 10);
+
+      $('html, body').animate({
+          scrollTop: ($('[data-process-accordion]').offset().top + 80 * (contentPosition - 1)) - 90
+      });
 
       if (that.is(':checked')) {
         parent.addClass('opened')
