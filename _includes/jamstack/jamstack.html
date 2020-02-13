@@ -1,72 +1,68 @@
-<section id="02" class="section jamstack-jamstack">
+<section id="02" class="section jamstack">
+  <div class="floating-dots">
+    <span class="floating-dots_dot burnt-sienna"></span>
+    <span class="floating-dots_dot casablanca"></span>
+    <span class="floating-dots_dot french-pass"></span>
+  </div>
   <div class="section_name">
     <span class="section_name-number">
       02
     </span>
     JAMstack
   </div>
-  <div class="jamstack-jamstack-container">
-    <div class="jamstack-jamstack-container-left">
-      <p>What is JAMstack?</p>
-      <p class="jamstack-jamstack-hidden" id="text">JAMstack came alive to cover the pains of traditional workflows that rely on popular CMSes
+  <div id="jamstackContent" class="jamstack_container">
+    <div class="jamstack_left">
+      <div class="jamstack_left-header">
+        What
+        <br>
+        is JAMstack?
+      </div>
+      <div class="jamstack_left-more">
+        JAMstack came alive to cover the pains of traditional workflows that rely on popular CMSes
         like Wordpress or Drupal. Changing the focus from the backend to a powerful frontend, it offers great load times and no troubles
-        with system updates.</p>
-      <div id="button">
-        <button>READ MORE <img class="image" src="/assets/images/arrow-orange.png" alt="arrow"></button>
+        with system updates.
       </div>
     </div>
-    <div class="jamstack-jamstack-container-right">
-      <p class="jamstack-jamstack-container-right-title">JAMstack is a modern, revolutionary<br>way to build websites.</p>
-      <p class="jamstack-jamstack-container-right-heading">The JAM stands for JavaScript, APIs and Markup. It relies on the advantages of a
+    <div class="jamstack_right">
+      <p class="jamstack_right-header">
+        JAMstack is a modern, revolutionary
+        <br>
+        way to build websites.
+      </p>
+      <p class="jamstack_right-desc">
+        The JAM stands for JavaScript, APIs and Markup. It relies on the advantages of a
         static website, such as better performance and security, while still keeping the dynamic attributes of a database-oriented CMS without
-        the database. As an outcome, you get a faster site that ranks well in Google and gives your visitors and outstanding experience.</p>
-      <ul>
-        <li class="jamstack-jamstack-hidden" id="js">
-          <p>JavaScript</p>
-          <p>The dynamic programming is handled by JavaScript, which runs entirely on the client. You can use any frontend library but, for most
-            developers, it's Vue, React and Angular, as they have their own static site generators that can present data. There are also other
-            static site generators available to use - with Gatsby, Hugo and Jekyll being just a few of them.</p>
-        </li>
-        <li class="jamstack-jamstack-hidden" id="api">
-          <p>APIs</p>
-          <p>Any server-side and database processes, like content delivery or payment, require APIs, accessed with JavaScript. You can build custom
-            solutions or go for third-party services.</p>
-        </li>
-        <li class="jamstack-jamstack-hidden" id="markup">
-          <p>Markup</p>
-          <p>Markup is the daily bread and butter for content editors at static websites. During deployment, the templated markup is usually converted
-            into HTML, CSS or JavaScript using a static site generator. Usually, a typical JAMstack build consists of a static site generator, a headless
-            CMS for content management and a cloud hosting solution.</p>
-        </li>
-      </ul>
+        the database. As an outcome, you get a faster site that ranks well in Google and gives your visitors and outstanding experience.
+      </p>
+      <div class="jamstack_right-part">
+        <p class="jamstack_right-part-name">JavaScript</p>
+        <p class="jamstack_right-part-desc">The dynamic programming is handled by JavaScript, which runs entirely on the client. You can use any frontend library but, for most
+          developers, it's Vue, React and Angular, as they have their own static site generators that can present data. There are also other
+          static site generators available to use - with Gatsby, Hugo and Jekyll being just a few of them.</p>
+      </div>
+      <div class="jamstack_right-part">
+        <p class="jamstack_right-part-name">APIs</p>
+        <p class="jamstack_right-part-desc">Any server-side and database processes, like content delivery or payment, require APIs, accessed with JavaScript. You can build custom
+          solutions or go for third-party services.</p>
+      </div>
+      <div class="jamstack_right-part">
+        <p class="jamstack_right-part-name">Markup</p>
+        <p class="jamstack_right-part-desc">Markup is the daily bread and butter for content editors at static websites. During deployment, the templated markup is usually converted
+          into HTML, CSS or JavaScript using a static site generator. Usually, a typical JAMstack build consists of a static site generator, a headless
+          CMS for content management and a cloud hosting solution.</p>
+      </div>
     </div>
-  </div>
-  <div id="collapse" class="jamstack-jamstack-hidden">
-    <button>COLLAPSE <img class="image" src="/assets/images/arrow-orange.png" alt="arrow"></button>
+    <div class="jamstack_action-btn-wrapper" id="jamstackActionBtn">
+      <button class="jamstack_action-btn text-secondary"></button>
+      <img class="jamstack_action-btn-image" src="/assets/images/arrow-orange.png" alt="arrow" >
+    </div>
   </div>
 </section>
 
 <script type="text/javascript">
-  var button = $('#button');
-  var collapse = $('#collapse');
-  $(document).ready(function() {
-    button.on('click', function() {
-        button.removeClass('jamstack-jamstack-open').addClass('jamstack-jamstack-hidden');
-        collapse.removeClass('jamstack-jamstack-hidden').addClass('jamstack-jamstack-open');
-        $('#text').removeClass('jamstack-jamstack-hidden').addClass('jamstack-jamstack-open');
-        $('#js').removeClass('jamstack-jamstack-hidden').addClass('jamstack-jamstack-open');
-        $('#api').removeClass('jamstack-jamstack-hidden').addClass('jamstack-jamstack-open');
-        $('#markup').removeClass('jamstack-jamstack-hidden').addClass('jamstack-jamstack-open');
-    });
-  });
-  $(document).ready(function() {
-    collapse.on('click', function() {
-        collapse.removeClass('jamstack-jamstack-open').addClass('jamstack-jamstack-hidden');
-        button.removeClass('jamstack-jamstack-hidden').addClass('jamstack-jamstack-open');
-        $('#text').removeClass('jamstack-jamstack-open').addClass('jamstack-jamstack-hidden');
-        $('#js').removeClass('jamstack-jamstack-open').addClass('jamstack-jamstack-hidden');
-        $('#api').removeClass('jamstack-jamstack-open').addClass('jamstack-jamstack-hidden');
-        $('#markup').removeClass('jamstack-jamstack-open').addClass('jamstack-jamstack-hidden');
-    });
-  });
+  const $actionBtn = $('#jamstackActionBtn');
+  const $content = $('#jamstackContent');
+  const content_opened_class = 'jamstack_container--opened';
+
+  $actionBtn.click(() => $content.toggleClass(content_opened_class));
 </script>
