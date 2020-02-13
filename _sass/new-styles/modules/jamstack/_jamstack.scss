@@ -42,20 +42,17 @@
     &--opened {
       height: 760px;
 
-      .jamstack {
+      .jamstack_action-btn {
+        transform: rotateX(180deg);
 
-        &_action-btn {
-          transform: rotateX(180deg);
+        &-image {
+          transform: rotate(-90deg);
+        }
 
-          &-image {
-            transform: rotate(-90deg);
-          }
-
-          &-wrapper {
-            bottom: 0;
-            width: calc(100% + 45px);
-            transition: bottom .4s, width .4s .4s;
-          }
+        &-wrapper {
+          bottom: 0;
+          width: calc(100% + 45px);
+          transition: bottom .4s, width .4s .4s;
         }
       }
     }
@@ -203,7 +200,6 @@
 
 @media (max-width: 965px) {
   .jamstack {
-
     .floating-dots {
       width: 700px;
     }

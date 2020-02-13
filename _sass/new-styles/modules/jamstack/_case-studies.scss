@@ -92,7 +92,24 @@ $cs-padding-sm: 24px;
     }
 
     &-logo {
+      position: relative;
       height: 40px;
+
+      &.impossible-food {
+        top: 5px;
+        height: 28px;
+        margin-bottom: 12px;
+      }
+
+      &.braun {
+        top: -4px;
+      }
+
+      &.react {
+        top: -3px;
+        height: 46px;
+        margin-bottom: -6px;
+      }
     }
 
     &-brand {
@@ -168,7 +185,6 @@ $cs-padding-sm: 24px;
 
 @media (max-width: 576px) {
   .jamstack-case-studies {
-
     .paragraph.has-dot {
       padding-bottom: 5px;
     }
