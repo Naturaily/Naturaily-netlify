@@ -32,7 +32,7 @@ $(document).ready(function() {
       $(waypointNavItem).parent().addClass('is-visible').addClass('is-active').siblings().removeClass('is-visible').removeClass('is-active');
     }
   }, {
-    offset: 'bottom-in-view'
+    offset: 0
   });
 
   $('.section').waypoint(function(direction) {
@@ -41,7 +41,7 @@ $(document).ready(function() {
       $(waypointNavItem).parent().addClass('is-visible').addClass('is-active').siblings().removeClass('is-visible').removeClass('is-active');
     }
   }, {
-    offset: '0'
+    offset: '-100%'
   });
 
 
