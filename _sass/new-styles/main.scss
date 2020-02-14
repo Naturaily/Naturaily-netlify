@@ -60,6 +60,24 @@
 @import "modules/jamstack/carousel";
 @import "modules/jamstack/estimate";
 
+// SERVICES SPECIFIC STYLES //
+
+@import "modules/services/stories";
+@import "modules/services/services";
+@import "modules/services/consulting";
+@import "modules/services/web-development";
+@import "modules/services/web-development-services";
+@import "modules/services/opinion";
+@import "modules/services/stats";
+@import "modules/services/pwa";
+@import "modules/services/product-design";
+@import "modules/services/innovative-company";
+@import "modules/services/cloud";
+@import "modules/services/e-commerce";
+@import "modules/services/iot";
+@import "modules/services/support";
+@import "modules/services/footer";
+
 body {
   font-weight: 300;
   font-family: acumin-pro;
