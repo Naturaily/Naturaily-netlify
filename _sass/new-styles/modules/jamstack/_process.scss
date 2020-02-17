@@ -5,7 +5,7 @@ $process-figure: 280px;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 90px 100px 55px 160px;
-  background-color: #F4F6FB;
+  background-color: $color-light-blue-bg;
   overflow: hidden;
 
   &_container {
