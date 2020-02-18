@@ -189,3 +189,9 @@
     }
   }
 }
+
+@media (max-width: 447px) {
+  .services-support_more br {
+    display: none;
+  }
+}
