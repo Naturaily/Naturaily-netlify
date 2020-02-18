@@ -9,7 +9,7 @@
     <div class="services_header">
       Services
     </div>
-    <div class="services_service-wrapper">
+    <div class="services_service-wrapper" data-services-navigation>
       <a class="services_service" href="#01">
         <span class="services_service-number">
           01
@@ -77,3 +77,14 @@
     </div>
   </div>
 </section>
+
+<script>
+  function getRelatedContent(el) {
+    return $($(el).attr('href'));
+  }
+
+  $('[data-services-navigation]').on('click', 'a', function(e){
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: getRelatedContent(this).offset().top });
+  });
+</script>

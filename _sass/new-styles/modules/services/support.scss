@@ -15,7 +15,7 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 50px 100px 60px 160px;
+    padding: 50px 20px 60px 160px;
     box-sizing: border-box;
   }
 
@@ -53,13 +53,15 @@
   }
 
   &_more {
-    max-width: 470px;
-    margin-bottom: 160px;
+    width: 470px;
     font-size: 26px;
     line-height: 42px;
 
     &-wrapper {
       position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       padding: 127px 76px;
       padding-left: 97px;
       background-color: $color-white;
@@ -70,7 +72,7 @@
   &_background-image {
     position: absolute;
     top: 0;
-    right: -70px;
+    right: -145px;
     width: 465px;
   }
 }
@@ -141,6 +143,8 @@
     }
 
     &_main {
+      max-width: 370px;
+
       &-header {
         padding-left: 25px;
       }
@@ -176,8 +180,12 @@
       }
     }
 
-    &_more-wrapper {
-      padding: 25px;
+    &_more {
+      width: auto;
+
+      &-wrapper {
+        padding: 25px;
+      }
     }
 
     &_background-image {
