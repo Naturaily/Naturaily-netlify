@@ -103,6 +103,7 @@ $cs-padding-sm: 24px;
 
       &.braun {
         top: -4px;
+        left: -5px;
       }
 
       &.react {
@@ -199,10 +200,8 @@ $cs-padding-sm: 24px;
       }
     }
 
-    &_quote {
-      &-wrapper{
-        width: 100%;
-      }
+    &_quote-wrapper {
+      width: 100%;
     }
 
     &_redirection {
@@ -213,12 +212,14 @@ $cs-padding-sm: 24px;
 
     &_list {
       &-header {
+        max-width: 280px;
         margin-top: 20px;
         line-height: 30px;
       }
 
       &-option {
         width: 100%;
+        max-width: 310px;
       }
     }
   }
