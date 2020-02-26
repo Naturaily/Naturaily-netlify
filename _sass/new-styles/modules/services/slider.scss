@@ -22,7 +22,7 @@
 
   &_arrow {
     position: absolute;
-    top: 260px;
+    top: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
     }
 
     &-prev {
-      left: 230px;
+      left: 95px;
 
       &.hidden {
         left: -50px;
@@ -53,7 +53,7 @@
     }
 
     &-next {
-      left: 1170px;
+      left: 1010px;
 
       &.hidden {
         right: -40px;
@@ -94,7 +94,7 @@
     min-width: 250px;
     margin: 0 5px;
     background-image: url("../assets/images/services/slider-1.jpg");
-    background-size: 610px 450px;
+    background-size: 610px 490px;
     background-position: left;
     border-radius: 6px;
     overflow: hidden;
@@ -104,7 +104,10 @@
     &:hover {
       height: 490px;
       margin-top: -20px;
-      background-size: 610px 490px;
+
+      .services-slider_card-hover {
+        opacity: 1;
+      }
 
       .services-slider_card-preview {
         margin-bottom: -90px;
@@ -135,6 +138,53 @@
       }
     }
 
+    &-hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 250px;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      opacity: 0;
+      transition: all .4s, left 0s;
+
+      span {
+        position: relative;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: $color-secondary;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: -11px;
+          left: -11px;
+          width: 60px;
+          height: 60px;
+          border: 1px solid $color-text-muted;
+          border-radius: 50%;
+          animation-fill-mode: both;
+          animation-duration: 1s;
+          animation-name: bounceIn;
+          animation-iteration-count: infinite;
+        }
+
+        &::after {
+          content: '+';
+          position: absolute;
+          top: 5%;
+          left: 50%;
+          color: $color-white;
+          font-size: 28px;
+          transform: translate(-50%);
+        }
+      }
+    }
+
 
     &:first-child {
       margin-left: 0;
@@ -157,10 +207,19 @@
         margin-bottom: 32px;
       }
 
+      .services-slider_card-hover {
+        opacity: 0;
+        left: -250px;
+        transition: all .4s, left .4s .4s;
+      }
+
       &:hover {
         height: 450px;
         margin-top: 0;
-        background-size: 610px 450px;
+
+        .services-slider_card-hover {
+          opacity: 0;
+        }
 
         .services-slider_card-preview {
           margin-bottom: 0;
@@ -236,16 +295,22 @@
     align-items: center;
     height: 30px;
     width: 30px;
+    font-size: 14px;
     background-color: $color-white;
     border-radius: 50%;
     border: 0;
     opacity: 1;
-    transition: opacity .4s;
+    box-shadow: -2px 4px 6px $color-global-font;
+    transition: all .4s;
 
     &.hidden {
       top: -20px;
       opacity: 0;
       transition: top .4s .4s;
+    }
+
+    &:hover {
+      box-shadow: none;
     }
   }
 
@@ -325,12 +390,4 @@
     opacity: 1;
     transform: scale3d(1, 1, 1);
   }
-}
-
-.bounceIn {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  animation-duration: 0.75s;
-  animation-name: bounceIn;
-  animation-iteration-count: infinite;
 }
