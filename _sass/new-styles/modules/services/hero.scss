@@ -1,4 +1,5 @@
 .services-hero {
+  position: relative;
   height: 435px;
   width: 100%;
   max-width: 1440px;
@@ -25,6 +26,21 @@
     margin-bottom: 52px;
     line-height: 28px;
   }
+
+  &_image {
+    position: absolute;
+    top: -100px;
+    left: 725px;
+    max-width: 905px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .services-hero_image {
+    top: -20px;
+    left: 680px;
+    max-width: 750px;
+  }
 }
 
 @media (max-width: 810px) {
@@ -37,6 +53,12 @@
 
     .btn-primary.btn-arrow {
       margin: 0;
+    }
+
+    &_image {
+      max-width: 515px;
+      top: 180px;
+      left: 400px;
     }
   }
 }
@@ -53,6 +75,10 @@
 
     .btn-primary.btn-arrow {
       margin-bottom: 30px;
+    }
+
+    &_image {
+      display: none;
     }
   }
 }
