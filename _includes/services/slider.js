@@ -6,14 +6,13 @@ const $sliderCards = $('[slider-card]');
 const $sliderClose = $('[slider-close]');
 const sliderCardsLength = $sliderCards.length;
 const maxLeft = parseInt($slider.css('right'), 10);
-const middle = maxLeft / 2 - 50;
+const middle = maxLeft / 2 - 160;
 const maxRight = 0;
 const open_card_class = 'services-slider_card--opened';
 let currentPosition = false;
 let nextMove = middle;
 let prevMove = false;
 let inProgress = false;
-
 let closing = false;
 
 function closeAllCards() {
@@ -47,7 +46,6 @@ function moveTo(target) {
   $slider.animate({
     right: target
   }, 400, () => {
-
     currentPosition = target;
 
     changeMoves();
@@ -62,7 +60,6 @@ function specialMove() {
     left: 0,
     right: '-730px'
   }, 400, () => {
-
     $slider.css('left', 'auto');
 
     currentPosition = maxLeft;
