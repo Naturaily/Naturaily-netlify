@@ -14,9 +14,10 @@
   }
 
   &_header {
-    margin-bottom: 30px;
+    margin: 50px 0 30px;
     padding-left: 45px;
     font-size: 36px;
+    font-weight: 200;
     line-height: 50px;
   }
 
@@ -187,7 +188,6 @@
       }
     }
 
-
     &:first-child {
       margin-left: 0;
     }
@@ -208,6 +208,8 @@
 
         &-title {
           margin-bottom: 32px;
+          font-size: 24px;
+          font-weight: 200;
         }
 
         &-hover {
@@ -233,7 +235,8 @@
     }
 
     &-image {
-      max-width: 160px;
+      max-width: 200px;
+      max-height: 200px;
       margin-bottom: 20px;
     }
 
@@ -251,10 +254,9 @@
     &-title {
       margin-bottom: 82px;
       color: $color-white;
-      font-size: 24px;
-      font-weight: 200;
+      font-size: 20px;
       line-height: 38px;
-      transition: margin-bottom .4s
+      transition: all .4s;
     }
 
     &-hashtag {
@@ -373,9 +375,9 @@
 }
 
 @media (max-width: 1360px) {
-  .services-slider {
-    display: none;
-  }
+  // .services-slider {
+  //   display: none;
+  // }
 }
 
 @media (max-width: 1200px) {

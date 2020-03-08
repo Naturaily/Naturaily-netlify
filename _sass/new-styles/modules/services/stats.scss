@@ -57,9 +57,9 @@
     align-items: center;
     padding: 30px 0;
     padding-left: 90px;
-    border-bottom: 1px solid $color-nav-border;
+    border-top: 1px solid $color-nav-border;
 
-    &:last-child {
+    &:first-child {
       border: 0;
     }
   }
@@ -116,6 +116,7 @@
     &-wrapper {
       &--product-design {
         position: relative;
+        top: -50px;
 
         .services-stats_image {
           position: relative;
@@ -155,6 +156,7 @@
           position: relative;
           top: -40px;
           left: -70px;
+          max-width: 500px;
         }
 
         .geometric-figure {
@@ -332,6 +334,16 @@
 
 @media (max-width: 576px) {
   .services-stats {
+
+    &--border {
+      .services-stats_header {
+        padding-right: 10px;
+      }
+    }
+
+    &_header {
+      padding-right: 10px;
+    }
 
     &_details {
       width: auto;

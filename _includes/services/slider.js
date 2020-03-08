@@ -4,16 +4,32 @@ const $sliderNavPrev = $('[slider-nav="prev"]');
 const $sliderNavNext = $('[slider-nav="next"]');
 const $sliderCards = $('[slider-card]');
 const $sliderClose = $('[slider-close]');
-const sliderCardsLength = $sliderCards.length;
-const maxLeft = parseInt($slider.css('right'), 10);
-const middle = maxLeft / 2 - 160;
-const maxRight = 0;
+
 const open_card_class = 'services-slider_card--opened';
-let currentPosition = false;
-let nextMove = middle;
-let prevMove = false;
+
+const wrapperWidth = $('.services-slider_cards-wrapper').width();
+const sliderWidth = $slider.width();
+const maxPosition = wrapperWidth - sliderWidth;
+
+const cardWidth = -260;
+const openedCardWidth = 610;
+
+const positions = [];
+addPositions();
+positions.push(maxPosition);
+
 let inProgress = false;
-let closing = false;
+let isClosing = false;
+let currentElement = 0;
+
+function addPositions() {
+  for (let i = 0; i < $sliderCards.length; i++) {
+    const j = i * cardWidth;
+    if (j > maxPosition) {
+      positions.push(j);
+    }
+  }
+}
 
 function closeAllCards() {
   $sliderClose.addClass('hidden');
@@ -21,50 +37,20 @@ function closeAllCards() {
 }
 
 function updateNavButtons() {
-  if (!prevMove) $sliderNavPrev.addClass('hidden');
-  if (prevMove) $sliderNavPrev.removeClass('hidden');
-  if (!nextMove && nextMove !== 0) $sliderNavNext.addClass('hidden');
-  if (nextMove || nextMove === 0) $sliderNavNext.removeClass('hidden');
-}
-
-function changeMoves(target) {
-  if (!currentPosition && currentPosition !== 0 || currentPosition === maxLeft) {
-    prevMove = false;
-    nextMove = middle;
-
-    $slider.css('right', 'auto');
-  } else if (currentPosition === middle) {
-    prevMove = maxLeft;
-    nextMove = maxRight;
-  } else if (currentPosition === maxRight) {
-    prevMove = middle;
-    nextMove = false;
+  const currentLeftOffset = parseInt($slider.css('left'), 10);
+  if (currentLeftOffset === 0) {
+    $sliderNavPrev.addClass('hidden');
+  } else if (currentLeftOffset === maxPosition || currentLeftOffset === (maxPosition - 360)) {
+    $sliderNavNext.addClass('hidden');
+  } else {
+    $sliderNav.removeClass('hidden')
   }
 }
 
 function moveTo(target) {
   $slider.animate({
-    right: target
+    left: target
   }, 400, () => {
-    currentPosition = target;
-
-    changeMoves();
-    updateNavButtons();
-
-    inProgress = false;
-  });
-}
-
-function specialMove() {
-  $slider.animate({
-    left: 0,
-    right: '-730px'
-  }, 400, () => {
-    $slider.css('left', 'auto');
-
-    currentPosition = maxLeft;
-
-    changeMoves();
     updateNavButtons();
 
     inProgress = false;
@@ -72,38 +58,50 @@ function specialMove() {
 }
 
 $sliderNav.click((e) => {
-  const navType = $(e.currentTarget).attr('slider-nav') === 'next' ? nextMove : prevMove;
+  const navType = $(e.currentTarget).attr('slider-nav');
+  let target = null;
 
   if (!inProgress) {
+    if (navType === 'next') {
+      target = currentElement < positions.length - 1 ? positions[currentElement + 1] : maxPosition;
+      ++currentElement;
+    } else {
+      target = currentElement > 0 ? positions[currentElement - 1] : 0;
+      --currentElement;
+    }
+
     inProgress = true;
     closeAllCards();
-    moveTo(navType);
+    moveTo(target);
   }
 });
 
 $sliderClose.click((e) => {
   closeAllCards();
+  if (parseInt($slider.css('left'), 10) < maxPosition) moveTo(maxPosition);
   $(e.currentTarget).addClass('hidden');
-  closing = true;
+  isClosing = true;
 });
 
 $sliderCards.click((e) => {
-  const clickedElementIndex = $sliderCards.index($(e.currentTarget));
+  if (!isClosing) {
+    const indexOfClickedElem = $sliderCards.index($(e.currentTarget));
+    let target = (indexOfClickedElem * cardWidth) + (wrapperWidth / 2) - (openedCardWidth / 2);
+    currentElement = indexOfClickedElem < positions.length - 1 ? indexOfClickedElem : positions.length - 2;
 
-  if (!closing) {
-    if (clickedElementIndex <= 2) {
-      specialMove();
-    } else if (clickedElementIndex > 4) {
-      moveTo(maxRight);
-    } else {
-      moveTo(middle);
+    if (target < (maxPosition - 360)) {
+      target = maxPosition - 360;
+    } else if (target > 0) {
+      target = 0;
     }
 
+    inProgress = true;
+    moveTo(target);
+
     closeAllCards();
-    console.log(e);
     $(e.currentTarget).addClass(open_card_class);
     $(e.currentTarget).find('[slider-close]').removeClass('hidden');
   }
 
-  closing = false;
+  isClosing = false;
 });
