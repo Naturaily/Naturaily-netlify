@@ -242,9 +242,14 @@
     }
 
     &-image {
-      max-width: 200px;
-      max-height: 200px;
+      height: 200px;
       margin-bottom: 20px;
+
+      img {
+        position: relative;
+        top: 20px;
+        width: 240px;
+      }
     }
 
     &-preview {
@@ -335,7 +340,7 @@
       content: '+';
       position: absolute;
       top: 45%;
-      left: 55%;
+      left: 58%;
       font-size: 28px;
       font-weight: 200;
       transform: translate(-50%, -50%) rotate(45deg);

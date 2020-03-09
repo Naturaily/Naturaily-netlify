@@ -119,6 +119,11 @@
 
 @media (max-width: 1200px) {
   .services-full {
+    &_background-image img {
+      max-width: 1200px;
+      width: initial;
+    }
+
     &_container {
       flex-direction: column;
     }
