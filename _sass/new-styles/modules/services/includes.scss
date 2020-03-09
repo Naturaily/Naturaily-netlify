@@ -1,6 +1,6 @@
 .services-includes {
   display: flex;
-  height: 134px;
+  height: 125px;
   max-width: 1145px;
   margin: 0 -100px 160px 90px;
   border-bottom: 1px solid $color-nav-border;
@@ -10,13 +10,13 @@
                                          $color-nav-border 100%) 1;
 
   &--bigger {
-    height: 580px !important;
+    height: 510px !important;
     border-image: none;
 
     .services-includes {
       &_element {
         margin-right: 60px !important;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
 
         &:nth-child(2), &:nth-child(6) {
           margin-left: 110px;
@@ -39,7 +39,7 @@
     &--wrap {
       .services-includes {
         flex-wrap: wrap;
-        height: 215px;
+        height: 220px;
         margin-bottom: 175px;
 
         &_header {
@@ -57,7 +57,7 @@
   &_border {
     display: flex;
     flex-wrap: wrap;
-    height: 215px;
+    height: 200px;
     margin-bottom: 175px;
     border-bottom: 1px solid $color-nav-border;
   }
@@ -82,12 +82,15 @@
     }
 
     .icon {
+      display: flex;
+      align-items: center;
+      height: 70px;
       margin-left: -5px;
       color: $color-secondary;
     }
 
     &-name {
-      margin: 80px 0 58px;
+      margin: 65px 0 58px;
       font-size: 18px;
       line-height: 27px;
     }
@@ -102,6 +105,40 @@
         margin-left: 24px;
         vertical-align: baseline;
       }
+    }
+  }
+
+  &_logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+    img {
+      max-width: 100px;
+    }
+
+    .logo-jamstack {
+      max-width: 115px;
+    }
+
+    .react {
+      max-width: 130px;
+      margin-top: -2px;
+    }
+
+    .vue {
+      max-width: 105px;
+      margin-top: 6px;
+    }
+
+    .rails {
+      max-width: 100px;
+      margin-top: -18px;
+    }
+
+    .node {
+      max-width: 85px;
+      margin-top: -5px;
     }
   }
 }

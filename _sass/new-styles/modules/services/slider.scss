@@ -54,10 +54,10 @@
     }
 
     &-next {
-      left: 1010px;
+      right: 95px;
 
       &.hidden {
-        left: 1200px;
+        right: -50px;
       }
 
       .icon {
@@ -94,7 +94,6 @@
     width: 250px;
     min-width: 250px;
     margin: 0 5px;
-    background-image: url("../assets/images/services/slider-1.jpg");
     background-size: 610px 490px;
     background-position: left;
     border-radius: 6px;
@@ -115,6 +114,10 @@
           margin-bottom: -90px;
         }
       }
+    }
+
+    &--more {
+      margin-bottom: calc(75px - 19px);
     }
 
     .geometric-figure {
@@ -246,7 +249,7 @@
       justify-content: flex-end;
       width: 250px;
       min-width: 250px;
-      padding: 70px 40px;
+      padding: 70px 50px 70px 30px;
       margin-bottom: -110px;
       transition: margin-bottom .4s;
     }
@@ -257,6 +260,10 @@
       font-size: 20px;
       line-height: 38px;
       transition: all .4s;
+
+      &--more {
+        margin-bottom: 65px;
+      }
     }
 
     &-hashtag {
@@ -354,12 +361,17 @@
     &-link {
       display: flex;
       align-items: center;
-      max-width: 300px;
+      max-width: 450px;
       padding-left: 45px;
       color: $color-secondary;
-      font-size: 11px;
+      font-size: 13px;
       font-weight: 600;
       text-decoration: none;
+
+      &-badge {
+        max-width: 60px;
+        margin-right: 60px;
+      }
 
       &-clutch {
         height: 18px;
@@ -374,19 +386,42 @@
   }
 }
 
-@media (max-width: 1360px) {
-  // .services-slider {
-  //   display: none;
-  // }
-}
-
 @media (max-width: 1200px) {
+  .services-slider_arrow {
+    top: 70px;
+
+    &-next {
+      right: 10px;
+    }
+
+    &-prev {
+      left: 10px;
+    }
+  }
 }
 
 @media (max-width: 810px) {
+  .services-slider {
+
+    &_header {
+      margin-top: 100px;
+      padding-left: 35px;
+
+      br {
+        display: none;
+      }
+    }
+
+    &_container {
+      padding: 0 10px;
+    }
+  }
 }
 
 @media (max-width: 576px) {
+  .services-slider {
+    display: none;
+  }
 }
 
 @keyframes bounceIn {
