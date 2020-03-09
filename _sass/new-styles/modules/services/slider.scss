@@ -19,6 +19,10 @@
     font-size: 36px;
     font-weight: 200;
     line-height: 50px;
+
+    span {
+      color: rgba(59, 34, 15, 0.7);
+    }
   }
 
   &_arrow {
@@ -303,7 +307,7 @@
   &_close {
     position: absolute;
     top: 20px;
-    left: 40px;
+    left: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,12 +365,13 @@
     &-link {
       display: flex;
       align-items: center;
-      max-width: 450px;
+      max-width: 460px;
       padding-left: 45px;
       color: $color-secondary;
       font-size: 13px;
       font-weight: 600;
       text-decoration: none;
+      text-transform: uppercase;
 
       &-badge {
         max-width: 60px;
