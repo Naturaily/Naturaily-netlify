@@ -7,28 +7,45 @@ const $sliderClose = $('[slider-close]');
 
 const open_card_class = 'services-slider_card--opened';
 
-const wrapperWidth = $('.services-slider_cards-wrapper').width();
-const sliderWidth = $slider.width();
-const maxPosition = wrapperWidth - sliderWidth;
+let wrapperWidth = $('.services-slider_cards-wrapper').width();
+let sliderWidth = $slider.width();
+let maxPosition = wrapperWidth - sliderWidth;
 
-const cardWidth = -260;
+let cardWidth = `-${($('.services-slider_card').width() + 10)}`;
 const openedCardWidth = 610;
 
-const positions = [];
+let positions = [];
 addPositions();
-positions.push(maxPosition);
+if( window.innerWidth > 420) positions.push(maxPosition);
 
 let inProgress = false;
 let isClosing = false;
 let currentElement = 0;
 
+function updateValues() {
+  wrapperWidth = $('.services-slider_cards-wrapper').width();
+  sliderWidth = $slider.width();
+  maxPosition = wrapperWidth - sliderWidth;
+  cardWidth = `-${($('.services-slider_card').width() + 10)}`;
+
+  currentElement = 0;
+
+  positions = [];
+  addPositions();
+  if( window.innerWidth > 420) positions.push(maxPosition);
+
+  updateNavButtons();
+}
+
 function addPositions() {
   for (let i = 0; i < $sliderCards.length; i++) {
     const j = i * cardWidth;
-    if (j > maxPosition) {
+    if (j > maxPosition || window.innerWidth <= 420) {
       positions.push(j);
     }
   }
+
+  if (maxPosition === 0) maxPosition = positions[positions.length - 1];
 }
 
 function closeAllCards() {
@@ -38,6 +55,7 @@ function closeAllCards() {
 
 function updateNavButtons() {
   const currentLeftOffset = parseInt($slider.css('left'), 10);
+
   if (currentLeftOffset === 0) {
     $sliderNavPrev.addClass('hidden');
   } else if (currentLeftOffset === maxPosition || currentLeftOffset === (maxPosition - 360)) {
@@ -84,7 +102,7 @@ $sliderClose.click((e) => {
 });
 
 $sliderCards.click((e) => {
-  if (!isClosing) {
+  if (!isClosing && window.innerWidth > 576) {
     const indexOfClickedElem = $sliderCards.index($(e.currentTarget));
     let target = (indexOfClickedElem * cardWidth) + (wrapperWidth / 2) - (openedCardWidth / 2);
     currentElement = indexOfClickedElem < positions.length - 1 ? indexOfClickedElem : positions.length - 2;
@@ -104,4 +122,12 @@ $sliderCards.click((e) => {
   }
 
   isClosing = false;
+});
+
+$(window).resize(() => {
+  setTimeout(() => {
+    $sliderCards.removeClass(open_card_class);
+    updateValues();
+    moveTo(positions[0]);
+  }, 500);
 });
