@@ -97,8 +97,6 @@
     width: 250px;
     min-width: 250px;
     margin: 0 5px;
-    background-size: 610px 490px;
-    background-position: left;
     border-radius: 6px;
     overflow: hidden;
     transition: all .4s;
@@ -115,6 +113,10 @@
 
         &-preview {
           margin-bottom: -90px;
+        }
+
+        &-background {
+          top: 0;
         }
       }
     }
@@ -254,6 +256,10 @@
           &-preview {
             margin-bottom: 0;
           }
+
+          &-background {
+            top: -20px;
+          }
         }
       }
     }
@@ -295,6 +301,18 @@
     &-hashtag {
       font-size: 12px;
       line-height: 24px;
+    }
+
+    &-background {
+      position: absolute;
+      top: -20px;
+      display: inline-block;
+      height: 490px;
+      width: 610px;
+      background-size: 610px 490px;
+      background-position: left;
+      z-index: -1;
+      transition: top .4s;
     }
   }
 
@@ -473,7 +491,6 @@
       height: 580px;
       width: 100%;
       margin: 0 5px;
-      background: none !important;
 
       &-preview {
         margin: 0;
@@ -488,6 +505,10 @@
       }
 
       &-hover {
+        display: none;
+      }
+
+      &-background {
         display: none;
       }
 
