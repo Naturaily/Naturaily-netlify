@@ -40,6 +40,11 @@
       border-bottom-right-radius: 5px;
       border-right: 1px solid $color-nav-border;
     }
+
+    &-image {
+      max-height: 22px;
+      max-width: 100px;
+    }
   }
 
   &_link {
