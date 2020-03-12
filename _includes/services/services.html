@@ -1,0 +1,92 @@
+<section class="section services">
+  <div class="section_name">
+    <span class="section_name-number">
+      00
+    </span>
+    Our Offer
+  </div>
+  <div class="services_wrapper">
+    <div class="services_header">
+      Services
+    </div>
+    <div class="services_service-wrapper" data-services-navigation>
+      <a class="services_service" href="#01">
+        <span class="services_service-number">
+          01
+        </span>
+        <div class="services_service-name">
+          Consulting
+        </div>
+      </a>
+      <a class="services_service" href="#02">
+        <span class="services_service-number">
+          02
+        </span>
+        <div class="services_service-name">
+          Web development
+        </div>
+      </a>
+      <a class="services_service" href="#03">
+        <span class="services_service-number">
+          03
+        </span>
+        <div class="services_service-name">
+          PWA development
+        </div>
+      </a>
+      <a class="services_service" href="#04">
+        <span class="services_service-number">
+          04
+        </span>
+        <div class="services_service-name">
+          Product design
+        </div>
+      </a>
+      <a class="services_service" href="#05">
+        <span class="services_service-number">
+          05
+        </span>
+        <div class="services_service-name">
+          Cloud adoption
+        </div>
+      </a>
+      <a class="services_service" href="#06">
+        <span class="services_service-number">
+          06
+        </span>
+        <div class="services_service-name">
+          E-commerce
+        </div>
+      </a>
+      <a class="services_service" href="#07">
+        <span class="services_service-number">
+          07
+        </span>
+        <div class="services_service-name">
+          IoT development
+        </div>
+      </a>
+      <a class="services_service" href="#08">
+        <span class="services_service-number">
+          08
+        </span>
+        <div class="services_service-name">
+          Support
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<script>
+  function getRelatedContent(el) {
+    return $($(el).attr('href'));
+  }
+
+  $('[data-services-navigation]').on('click', 'a', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: getRelatedContent(this).offset().top
+    });
+  });
+</script>

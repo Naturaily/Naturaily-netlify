@@ -1,0 +1,250 @@
+.services-testimonials {
+  display: flex;
+  padding: 55px 170px 40px;
+  background-color: #FFFBF8;
+  border-radius: 8px;
+
+  &--medium-image {
+    align-items: flex-start;
+    padding: 40px 90px;
+  }
+
+  &--big-image {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 75px 90px;
+    background-color: $color-light-blue-bg;
+
+    .services-testimonials {
+      &_image {
+        width: 100%;
+        max-width: none;
+        margin: 0 0 55px;
+      }
+
+      &_opinion {
+        margin-right: 15px;
+        margin-bottom: 0;
+      }
+
+      &_footer {
+        margin-top: -25px;
+
+        .paragraph:last-child {
+          opacity: .5;
+        }
+      }
+    }
+  }
+
+  &_container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 100px auto 0;
+    padding-left: 40px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &_image {
+    max-width: 330px;
+    margin-right: 100px;
+    border-radius: 8px;
+  }
+
+  &_header {
+    margin-right: 15px;
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  &_opinion {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 36px;
+
+    p {
+    	font-size: 16px;
+    	line-height: 28px;
+    }
+  }
+
+  &_footer {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 50px;
+      margin-right: 60px;
+    }
+
+    .paragraph {
+      padding-left: 40px;
+      padding-bottom: 0;
+      color: $color-global-font;
+      font-size: 14px;
+      line-height: 24px;
+
+      &.has-dot {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media (max-width: 1360px) {
+  .services-testimonials {
+    padding-right: 90px;
+
+    &--medium-image {
+      padding-right: 30px;
+    }
+
+    &--big-image {
+      .services-testimonials_opinion {
+        margin-right: 0;
+      }
+    }
+
+    &_container {
+      padding-left: 80px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .services-testimonials {
+    max-width: 750px;
+    padding: 55px 90px 40px;
+
+    &--medium-image {
+      max-width: 840px;
+      padding: 40px 45px;
+    }
+
+    &--big-image {
+      max-width: 885px;
+      padding: 40px 45px;
+
+      .services-testimonials_footer {
+        margin-top: 20px;
+      }
+    }
+
+    &_container {
+      padding-left: 115px;
+    }
+
+    &_header {
+      margin-bottom: 20px;
+
+      br {
+        display: none;
+      }
+    }
+
+    &_opinion br {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .services-testimonials {
+    padding: 55px 45px 40px;
+
+    &--big-image {
+      .services-testimonials_image {
+        margin-bottom: 0;
+      }
+    }
+
+    &_image {
+      width: 150px;
+      margin-top: 10px;
+      margin-right: 30px;
+    }
+
+    &_header {
+      margin-top: 10px;
+      line-height: 40px;
+    }
+
+    &_container {
+      margin-top: 30px;
+      padding-left: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .services-testimonials {
+    &--medium-image {
+      position: relative;
+
+      .services-testimonials {
+        &_image {
+          position: absolute;
+          display: block;
+          bottom: 110px;
+        }
+
+        &_opinion {
+          font-size: 16px;
+          line-height: 28px;
+        }
+
+        &_footer {
+          margin-top: 150px;
+
+          .paragraph {
+            padding-left: 20px;
+
+            &.has-dot {
+              padding-left: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    &--small-image {
+      .services-testimonials_footer {
+        align-items: flex-start;
+      }
+
+      .dot {
+        display: none;
+      }
+
+      .paragraph {
+        padding-left: 0;
+
+        &.has-dot {
+          padding-left: 0;
+        }
+      }
+    }
+
+    &--big-image {
+      .services-testimonials_image {
+        max-width: 300px;
+        margin-bottom: 10px;
+      }
+    }
+
+    &_header {
+      margin-top: 0;
+    }
+
+    &_footer img {
+      margin-right: 20px;
+    }
+  }
+}
