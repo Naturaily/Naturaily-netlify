@@ -291,6 +291,7 @@
       color: $color-white;
       font-size: 20px;
       line-height: 38px;
+      text-shadow: 1px 1px rgba(0, 0, 0, .55);
       transition: all .4s;
 
       &--more {
@@ -299,8 +300,9 @@
     }
 
     &-hashtag {
-      font-size: 12px;
+      font-size: 13px;
       line-height: 24px;
+      text-shadow: 1px 0px rgba(0, 0, 0, 0.22);
     }
 
     &-background {
