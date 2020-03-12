@@ -83,8 +83,10 @@
     return $($(el).attr('href'));
   }
 
-  $('[data-services-navigation]').on('click', 'a', function(e){
+  $('[data-services-navigation]').on('click', 'a', function(e) {
     e.preventDefault();
-    $('html, body').animate({ scrollTop: getRelatedContent(this).offset().top });
+    $('html, body').animate({
+      scrollTop: getRelatedContent(this).offset().top
+    });
   });
 </script>

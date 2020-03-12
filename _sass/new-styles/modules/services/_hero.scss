@@ -47,6 +47,11 @@
   .services-hero {
     margin: 120px auto 40px;
 
+    &_header {
+      font-size: 36px;
+      line-height: initial;
+    }
+
     &_wrapper {
       padding-left: 45px;
     }

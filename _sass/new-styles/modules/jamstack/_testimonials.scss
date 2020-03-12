@@ -19,31 +19,31 @@
 
   &_companies {
     display: flex;
+    justify-content: space-between;
     height: 80px;
+    margin: 0 40px;
   }
 
   &_company {
-    flex: 1;
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 1px solid $color-nav-border;
-    border-right: none;
-
-    &:first-child {
-      border-top-left-radius: 5px;
-      border-bottom-left-radius: 5px;
-    }
-
-    &:last-child {
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
-      border-right: 1px solid $color-nav-border;
-    }
 
     &-image {
-      max-height: 22px;
+      max-height: 32px;
       max-width: 100px;
+
+      &.react {
+        max-height: 35px;
+      }
+
+      &.sanity {
+        max-height: 17px;
+      }
+
+      &.aws {
+        max-height: 22px;
+      }
     }
   }
 
@@ -68,6 +68,14 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .jamstack-testimonials {
+    &_companies {
+      margin: 0;
+    }
+  }
+}
+
 @media (max-width: 810px) {
   .jamstack-testimonials {
     max-width: calc(100% - 15px);
@@ -88,27 +96,13 @@
     }
 
     &_companies {
-      flex-direction: column;
+      flex-wrap: wrap;
       height: auto;
     }
 
     &_company {
-      flex: initial;
-      height: 55px;
-      border: 1px solid $color-nav-border;
-      border-bottom: 0;
-      border-radius: 0;
-
-      &:first-child {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-      }
-
-      &:last-child {
-        border-bottom: 1px solid $color-nav-border;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-      }
+      height: 60px;
+      width: 50%;
     }
 
     &_link {

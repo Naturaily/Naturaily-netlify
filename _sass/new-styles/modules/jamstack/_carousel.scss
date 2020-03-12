@@ -9,6 +9,21 @@
     margin-bottom: 65px;
   }
 
+  .item {
+    &-img--small {
+      display: none;
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+      border-radius: 4px;
+    }
+
+    &-person {
+      display: flex;
+      align-items: center;
+    }
+  }
+
   .main-carousel {
     .slick-list {
       height: 100%;
@@ -150,13 +165,13 @@
 
 @media (max-width: 1300px) {
   .jamstack-carousel {
+    .item-img--small {
+      display: block;
+    }
+
     .main-carousel {
       .item-info {
         display: none;
-      }
-
-      .item-name {
-        margin-top: 5px;
       }
 
       .carousel-item .item-opinion {
@@ -185,6 +200,10 @@
 
 @media (max-width: 687px) {
   .jamstack-carousel {
+    .item-person {
+      justify-content: space-between;
+    }
+
     .slick-dotted.slick-slider {
       height: auto;
     }

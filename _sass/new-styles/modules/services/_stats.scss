@@ -346,6 +346,8 @@
     flex-direction: column-reverse;
 
     &--border {
+      border: 0;
+
       .services-stats_header {
         padding-right: 10px;
       }

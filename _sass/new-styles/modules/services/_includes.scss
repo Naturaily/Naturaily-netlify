@@ -117,28 +117,30 @@
       max-width: 100px;
     }
 
-    .logo-jamstack {
-      max-width: 115px;
-    }
+    .logo {
+      &-jamstack {
+        max-width: 115px;
+      }
 
-    .react {
-      max-width: 130px;
-      margin-top: -2px;
-    }
+      &-react {
+        max-width: 130px;
+        margin-top: -2px;
+      }
 
-    .vue {
-      max-width: 105px;
-      margin-top: 6px;
-    }
+      &-vue {
+        max-width: 105px;
+        margin-top: 6px;
+      }
 
-    .rails {
-      max-width: 100px;
-      margin-top: -18px;
-    }
+      &-rails {
+        max-width: 100px;
+        margin-top: -18px;
+      }
 
-    .node {
-      max-width: 85px;
-      margin-top: -5px;
+      &-node {
+        max-width: 85px;
+        margin-top: -5px;
+      }
     }
   }
 }
