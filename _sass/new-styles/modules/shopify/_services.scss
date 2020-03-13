@@ -1,9 +1,3 @@
-@mixin servicesImage {
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
 .shopify-services {
   padding-left: 160px;
   padding-right: 100px;
@@ -39,21 +33,13 @@
       &-image {
         width: 45%;
         border-radius: 8px;
-        &.services1 {
-          @include servicesImage;
-          background-image: url('/assets/images/shopify/services1.png');
-        }
-        &.services2 {
-          @include servicesImage;
-          background-image: url('/assets/images/shopify/services2.png');
-        }
-        &.services3 {
-          @include servicesImage;
-          background-image: url('/assets/images/shopify/services3.png');
-        }
-        &.services4 {
-          @include servicesImage;
-          background-image: url('/assets/images/shopify/services4.png');
+
+        img {
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          max-width: 100%;
+          border-radius: 8px;
         }
       }
       &-container {
@@ -132,9 +118,13 @@
           max-width: 100%;
           padding-top: 0;
         }
-        > img {
-          max-width: 80%;
-          margin: auto;
+        &-image {
+          width: 60%;
+
+          img {
+            top: 0;
+            transform: translateY(0);
+          }
         }
         &-head {
           font-size: 18px;

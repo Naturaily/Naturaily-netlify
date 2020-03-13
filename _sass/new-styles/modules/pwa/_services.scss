@@ -171,7 +171,8 @@
   .pwa-services {
 
     .btn-primary.btn-arrow {
-      width: 175px;
+      margin: 0;
+      width: 230px;
     }
 
     &_list {
@@ -180,6 +181,7 @@
 
     &_footer {
       flex-direction: column;
+      align-items: flex-start;
 
       &-container {
         margin-bottom: 30px;

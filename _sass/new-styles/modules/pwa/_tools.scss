@@ -53,6 +53,10 @@ $tools-figure-lg: 227px;
 
     a {
       color: $color-secondary;
+
+      span {
+        color: $color-black;
+      }
     }
   }
 }

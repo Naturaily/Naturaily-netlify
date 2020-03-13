@@ -60,7 +60,8 @@
     .carousel-item {
       height: auto;
       margin: 0;
-      padding: 40px 115px 90px;
+      // padding: 40px 115px 90px;
+      padding: 40px 90px 90px;
       background-color: #FFF7F1;
       box-shadow: none;
       border-radius: 10px;
@@ -164,6 +165,8 @@
 
         p {
           height: auto;
+          line-height: 22px;
+          font-size: 14px;
         }
       }
     }

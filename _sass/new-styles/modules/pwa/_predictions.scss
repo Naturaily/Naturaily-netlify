@@ -20,7 +20,9 @@
     position: relative;
     margin-bottom: 60px;
     &:before {
-      content: url('/assets/images/pwa/jason.png');
+      content: '';
+      background-image: url('/assets/images/pwa/jason.png');
+      background-size: 36px 30px;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);

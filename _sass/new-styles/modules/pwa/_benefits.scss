@@ -244,6 +244,7 @@
 
     &_goals {
       flex-direction: column;
+      align-items: flex-start;
 
       p {
         margin-right: 0;
@@ -252,6 +253,7 @@
 
       .btn-primary.btn-arrow {
         width: 230px;
+        margin: 0;
       }
     }
 

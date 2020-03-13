@@ -11,12 +11,14 @@
     line-height: 38px;
     max-width: 520px;
     padding-bottom: 20px;
+
+    &-small {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
 
-  &_small {
-    font-size: 14px;
-    line-height: 24px;
-    margin-top: 10px;
+  &_link {
     margin-bottom: 20px;
   }
 }

@@ -40,33 +40,6 @@
     margin-bottom: 28px;
   }
 
-  &-person {
-    padding: 0 45px;
-    max-width: 200px;
-    margin-top: 24px;
-    > p {
-      line-height: 24px;
-      &:first-child {
-        padding-left: 30px;
-        font-size: 16px;
-        position: relative;
-        &::before {
-          content: '';
-          width: 8px;
-          height: 8px;
-          border-radius: 4px;
-          position: absolute;
-          left: 0;
-          top: 8px;
-          background-color: $color-accent-yellow;
-        }
-      }
-      &:last-child {
-        font-size: 14px;
-      }
-    }
-  }
-
   &-redirection {
     padding: 25px 45px;
     border-top: 1px solid $color-global-font-10;
@@ -112,15 +85,6 @@
 
     &-redirection {
       font-size: 8px;
-    }
-
-    &-person > p {
-      &:first-child {
-        font-size: 14px;
-      }
-      &:last-child {
-        font-size: 12px;
-      }
     }
   }
 }

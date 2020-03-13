@@ -20,26 +20,43 @@
   
     &_companies {
       display: flex;
-      height: 80px;
-    }
-  
-    &_company {
-      flex: 1;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      border: 1px solid $color-nav-border;
-      border-right: none;
-  
-      &:first-child {
+
+      &-top, &-bottom {
+        display: flex;
+        height: 80px;
+        width: 100%;
+        border: 1px solid $color-nav-border;
+      }
+
+      &-top {
+        justify-content: flex-end;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
       }
-  
-      &:last-child {
+
+      &-bottom {
+        justify-content: flex-start;
+        border-left: none;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-        border-right: 1px solid $color-nav-border;
+      }
+    }
+  
+    &_company {
+      justify-content: center;
+      width: calc(100% / 3);
+      align-items: center;
+      display: flex;
+      border-left: 1px solid $color-nav-border;
+
+      &:first-child {
+        border-left: none;
+      }
+
+      img {
+        width: auto;
+        max-width: 100%;
+        max-height: 30px;
       }
     }
   
@@ -64,6 +81,28 @@
     }
   }
   
+  @media (max-width: 1200px) {
+    .shopify-testimonials {
+
+      &_companies {
+        flex-direction: column;
+
+        &-top {
+          border-top-right-radius: 5px;
+          border-bottom-left-radius: 0;
+        }
+
+        &-bottom {
+          border-left: 1px solid $color-nav-border;
+          border-top: none;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
+      }
+    }
+  }
+
   @media (max-width: 810px) {
     .shopify-testimonials {
       max-width: calc(100% - 15px);
@@ -82,28 +121,28 @@
       &_header {
         margin-bottom: 30px;
       }
-  
+
       &_companies {
-        flex-direction: column;
-        height: auto;
-      }
-  
-      &_company {
-        flex: initial;
-        height: 55px;
-        border: 1px solid $color-nav-border;
-        border-bottom: 0;
-        border-radius: 0;
-  
-        &:first-child {
-          border-top-left-radius: 5px;
-          border-top-right-radius: 5px;
+
+        &-top, &-bottom {
+          flex-direction: column;
+          border: none;
+          border: 1px solid $color-nav-border;
+          height: 150px;
         }
-  
-        &:last-child {
+
+        &-top {
+          border-bottom: none;
+        }
+      }
+
+      &_company {
+        border-left: none;
+        width: 100%;
+        height: 50px;
+        
+        &:not(:last-child) {
           border-bottom: 1px solid $color-nav-border;
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
         }
       }
   
