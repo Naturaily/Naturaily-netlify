@@ -67,10 +67,21 @@
     margin: 0 5px 0 10px;
     padding: 40px 5px 50px 10px;
 
-    &-header-right {
-      flex: 2;
-      > img {
-        max-width: 200%;
+    &-header{
+      flex-direction: column-reverse;
+
+      &-right {
+        flex: 2;
+        margin-bottom: 20px;
+
+        > img {
+          max-width: 400px;
+          width: 100%;
+          position: relative;
+          transform: translate(-50%, 0);
+          top: 0;
+          left: 50%;
+        }
       }
     }
 
