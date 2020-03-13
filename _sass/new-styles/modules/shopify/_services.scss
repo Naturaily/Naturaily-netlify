@@ -5,6 +5,7 @@
   flex-direction: column;
   &-list {
     padding-left: 45px;
+    padding-right: 30px;
     position: relative;
     &-header {
       position: absolute;
@@ -97,6 +98,10 @@
     max-width: calc(100% - 15px);
     margin: 0 5px 0 10px;
     padding: 40px 15px 50px 10px;
+
+    &-button {
+      margin-left: 45px;
+    }
   }
 }
 
@@ -119,7 +124,8 @@
           padding-top: 0;
         }
         &-image {
-          width: 60%;
+          width: 100%;
+          max-width: 340px;
 
           img {
             top: 0;
@@ -134,7 +140,7 @@
         &-text {
           font-size: 14px;
           line-height: 16px;
-          margin-bottom: 10px;
+          margin-bottom: 25px;
         }
       }
     }
