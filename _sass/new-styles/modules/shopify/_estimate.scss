@@ -1,8 +1,40 @@
 .shopify-estimate {
+  margin-right: 80px;
+  padding-left: 200px;
 
   &_container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 810px) {
+  .shopify-estimate {
+    flex-direction: row;
+    padding: 0 16px 0px 30px;
+
+    .section_content {
+      max-width: 40%;
+      padding-right: 10%;
+    }
+
+    .section_desc .btn {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .shopify-estimate {
+    flex-direction: column;
+
+    .section_content {
+      max-width: 100%;
+    }
+
+    .section_desc {
+      padding-top: 0;
+    }
   }
 }
