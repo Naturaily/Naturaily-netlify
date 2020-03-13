@@ -16,7 +16,8 @@
       > img {
         max-width: 100%;
         position: absolute;
-        top: 25px;
+        top: 50%;
+        transform: translateY(-50%);
         left: 25px;
       }
     }
@@ -69,7 +70,7 @@
     &-header-right {
       flex: 2;
       > img {
-        max-width: 300%;
+        max-width: 200%;
       }
     }
 
