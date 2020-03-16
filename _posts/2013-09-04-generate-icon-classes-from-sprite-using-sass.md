@@ -1,5 +1,5 @@
 ---
-title: Generate Icon Classes from Sprite Using SASSs
+title: Generate Icon Classes from Sprite Using SASS
 description: >-
   This tutorial shows you how to shorten your code by automatic icon class
   generation for grid based sprites.
