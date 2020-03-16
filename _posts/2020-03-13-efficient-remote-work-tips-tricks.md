@@ -5,7 +5,7 @@ description: >-
   isolation for a long time. >>
 slug: efficient-remote-work-tips-tricks
 layout: post
-twitter-card: laal
+twitter-card: ''
 date: '2020-03-13 16:45:00 +0200'
 category: Remote work
 authors:
