@@ -17,7 +17,7 @@ text-preview: >-
   industry, but not all of us have had the opportunity to work remotely for an
   extended period of time. Therefore, we have prepared a short guide on what to
   do to stay productive and maintain a good mental condition while remaining in
-  isolation.
+  isolation. 
 tags:
   - Remote work
   - Work From Home
