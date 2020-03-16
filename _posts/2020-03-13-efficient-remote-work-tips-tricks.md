@@ -7,9 +7,9 @@ twitter-card: ''
 date: '2020-03-17 04:45:00 +0200'
 category: Remote work
 authors:
-  avatar: /assets/images/wojciech.jpg
-  label: Wojciech Miśta
-  value: author-1
+  avatar: /assets/images/beata.jpg
+  label: Beata Twardowska
+  value: author-24
 image: /assets/images/7_german.gif
 text-preview: >-
   All who can - switch to remote work mode. This is nothing new for the IT
