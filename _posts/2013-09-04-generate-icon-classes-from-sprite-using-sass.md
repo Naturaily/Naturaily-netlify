@@ -23,7 +23,7 @@ tags:
 ---
 While we mostly use sass for it's variables, nesting and mixins, the language itself is way more powerful. A lot of features may not be used on your everyday site, but there are times when they come in handy. Let's take a look on how one would approach automatic class generation for any grid based sprites and how this could vastly shorten your code.
 
-_A little heads up: this won't be very useful with shorthand, no-braces sass syntax (.sass) since it doesn't support multi-line lists. For this reason all code below will actually be SCSS._
+*A little heads up: this won't be very useful with shorthand, no-braces sass syntax (.sass) since it doesn't support multi-line lists. For this reason all code below will actually be SCSS.*
 
 ## What we will be making
 
@@ -101,7 +101,7 @@ Please note that in this case, the outermost parenthesis are not optional.
 
 ## Creating icons
 
-We'll write a snippet that will iterate over all icons in `$icon-list`, pluck variables from it, create a class and call `icon` mixin to style it.
+We'll write a snippet that will iterate over all icons in `$icon-list`, pluck variables from it, create  a class and call `icon` mixin to style it.
 
 ```scss
 @each $icon in $icon-list {
@@ -168,6 +168,4 @@ $icon-list: (
 }
 ```
 
-
-
-[![Join our team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Join our team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
