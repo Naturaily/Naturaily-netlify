@@ -22,8 +22,7 @@ tags:
   - Remote work
   - Work From Home
   - Stay in
-related_posts:
-  - Why Your Organization Fails To Implement IT Projects Successfully
+related_posts: []
 ---
 The whole world is facing circumstances unknown to modern society. In Poland, all nurseries, schools, universities, cinemas, theaters and more have been temporarily closed to prevent the spread of the coronavirus. US is also taking serious measures, such as the ban on all inbound flights from Europe for a month (excluding the UK and Ireland).
 
