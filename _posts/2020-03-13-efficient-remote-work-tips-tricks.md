@@ -1,5 +1,5 @@
 ---
-title: How to Get Things Done and Stay Okay While Working Remotely for a Long Time
+title: How to Get Things Done and Stay Okay Working Remotely for a Long Time
 description: >-
   How to stay productive and maintain a good mental condition while remaining in
   isolation for a long time. >>
