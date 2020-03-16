@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
-image: /assets/images/remotework_cover.jpg
+image: /assets/images/7_german.gif
 text-preview: >-
   All who can - switch to remote work mode. This is nothing new for the IT
   industry, but not all of us have had the opportunity to work remotely for an
