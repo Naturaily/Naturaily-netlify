@@ -3,7 +3,7 @@ title: How to Get Things Done and Stay Okay While Working Remotely for a Long Ti
 description: How to stay productive???
 slug: efficient-remote-work-tips-tricks
 layout: post
-twitter-card: ''
+twitter-card: SUMMARY
 date: '2020-03-17 04:45:00 +0200'
 category: Remote work
 authors:
