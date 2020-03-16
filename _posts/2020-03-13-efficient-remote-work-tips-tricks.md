@@ -25,7 +25,7 @@ tags:
 related_posts:
   - Why Your Organization Fails To Implement IT Projects Successfully
 ---
-The whole world is facing circumstances unknown to modern society. In Poland, all nurseries, schools, universities, cinemas, theaters and more have been temporarily closed to prevent the spread of the coronavirus. US is also taking serious measures, such as the ban on all inbound flights from Europe for a month (excluding the UK and Ireland).
+The whole world is facing circumstances unknown to modern society. In Poland, all nurseries, schools, universities, cinemas, theaters and more have been temporarily closed to prevent the spread of the coronavirus. US is also taking serious measures, such as the ban on all inbound flights from Europe for a month.
 
 All who can - switch to remote work mode. This is nothing new for the IT industry, but not all of us have had the opportunity to work remotely for an extended period of time. Therefore, **we have prepared a short guide on what to do to stay productive and maintain a good mental condition while remaining in isolation.**
 
