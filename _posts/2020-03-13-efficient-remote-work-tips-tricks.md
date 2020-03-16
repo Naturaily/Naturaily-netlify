@@ -1,8 +1,6 @@
 ---
 title: How to Get Things Done and Stay Okay While Working Remotely for a Long Time
-description: >-
-  How to stay productive and maintain a good mental condition while remaining in
-  isolation for a long time. >>
+description: How to stay productive???
 slug: efficient-remote-work-tips-tricks
 layout: post
 twitter-card: ''
