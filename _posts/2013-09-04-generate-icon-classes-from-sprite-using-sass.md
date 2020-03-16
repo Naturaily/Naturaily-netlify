@@ -70,7 +70,7 @@ We are going to use a small mixin, that will take $row and $column at which the 
 }
 ```
 
-Because each cell of our grid has equal height and width, we can get away with this fairly simple code. If that was not the case, like when we would need to specify custom offsets for each icon, we could refactor this logic into a function, for example:
+Because each cell of our grid has equal height and width, we can get away with this fairly simple code. If that was not the case, like when we would need to specify custom offsets for each icon, we could refactor this logic into a function, for example: 
 
 ```scss
 @function getPosition($move, $amout, $offset) {
