@@ -45,9 +45,9 @@ challenge-column-2: >
   handling online real-time bidding during auctions. Consequently, the main
   challenges were stability and fast data processing.
 challenge-image-1: /assets/images/portfolio/artinfo/challenge-mysql.png
-challenge-alt-2: mysql
+challenge-description-1: MySQL
 challenge-image-2: /assets/images/portfolio/artinfo/challenge-postgresql.png
-challenge-alt-2: postgresql
+challenge-description-2: PostgreSQL
 solution-title: Solution
 solution-subtitle: Solution
 solution-description: Some of the new Artinfo’s features
