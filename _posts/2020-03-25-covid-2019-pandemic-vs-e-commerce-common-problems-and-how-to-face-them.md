@@ -111,3 +111,64 @@ Interestingly, we’re also hearing arguments that, in the long term, online sho
 > *There are going to be people who thought, ‘I could never not touch an apple before I put in my basket’ who now have been forced to use FreshDirect or AmazonFresh and have now said, ‘That’s a pretty convenient experience. I might do that more.’ Or who have bought meal kits to make home-cooked meals and thought, ‘That’s a much better experience than I would have thought, and I waste less.’ This is a forced way to retrain a broad swath of consumers.*
 >
 > *It will be a net positive for all digital commerce, especially grocery and household supplies and things like that. You’ll see a bump from this and that behavior will persist going forward.*
+
+![Amish Jani](/assets/images/Blog_Amish_Jani.png "Amish Jani")
+
+<small class="text-center">Amish Jani </small> 
+
+## COVID-19 tips for e-commerce stores
+
+The impact of the coronavirus spread could be vast, affecting profits or even the existence of businesses.
+
+Below is a summary of what you should take into consideration to stay on the safe side.
+
+### 1. Focus on your communication
+
+Especially now, businesses need to be particularly careful about how they communicate. You need to remain honest with your customers, particularly with stock or delivery issues. Be open to sharing any struggles your company faces regarding the coronavirus, as people will understand and their support may even surprise you. The key is to inform your customers about the potential problems with the delivery or the supplies before it can leave them disappointed.
+
+You need to inform your customers about the coronavirus protection measures your company had introduced, such as contact-free delivery, and your general operations.
+
+**Your support team may be bombarded with plenty of questions and they may not have enough time to answer all inquiries. It’s a good idea to prepare a coronavirus-related FAQ to be one step ahead and give your customer the feeling that you’re actively doing your best to stay on top of the situation.**
+
+### 2. Provide flexibility in delivery
+
+Probably one of the most important questions you’re asking right now is “will my customers get what they ordered?”. At the moment, parcel delivery is not prohibited, however, there have been some protection measures implemented to fight the corona crisis. Carriers are protecting their staff strongly, enforcing hygiene and distancing measures, while border control is becoming stricter. As countries restrict tourism and non-essential travel, there may be some extra checks at the border crossings. Consequently, all of this can cause serious delays in shipments, especially in international ones.
+
+**For this period of time, you may not want to focus all your delivery needs on one carrier but look at several options, just to be sure that your deliveries are more or less constant when one company introduces more strict protection measures. For local deliveries, look into alternative options, such as bike couriers.**
+
+### 3. Keep your supply chain safe
+
+For many industries, shipment delays are a standard in situations such as the outbreak of the coronavirus. You need to take extra care to plan your orders and ask your suppliers to send them earlier. Also, consider ordering a bigger amount than usual, as you don’t really know how the situation is going to look like during your next order.\
+If more parts of the world start locking down due to coronavirus, your supply chain may be significantly impacted, depending on the import route your products take.
+
+**To stay safe, you need to stay in touch with your suppliers and carefully monitor the situation in their country. Nevertheless, start looking for back-up suppliers or alternative manufacturers. Another good idea is expanding your product range so that, even if you run out of a couple of products, the sales keep running.**
+
+### 4. Make sure your website is running at maximum capacity
+
+At this time, it’s possible that you are experiencing a significant increase in traffic to your e-commerce site. You need to make sure it is not overloaded and does not crash.
+
+The most important thing is to make sure that you’re using a proper Content Delivery Network, as well as fast and reliable hosting. Even if you did not consider your online store as the main sales channel before, prepare that it may become one now. And there are plenty of things you can do to improve its effectiveness:
+
+* **Better performance** - faster loading means better user experience, and better SEO positioning (and better SEO positioning has a good impact on Google Ads prices).
+* **Conversion boost** - try testing new graphic elements such as different color buttons, offer free shipping, introduce promotions and coupon codes, use live chat software and cart abandonment software.
+* **Progressive app** - that means more traffic and sales from mobile for your e-commerce business.
+* **Inventory management integrations** - including software like that in your toolset means quicker supply data uploads on your website, fewer errors in terms of orders and less disappointed customers.
+* **Carrier integrations** - consider it to carry the delivery process faster and always keep your hand on the pulse with a special system.
+
+Let’s face it, for many retailers online stores stopped being justa channel, an addition to their offline business. It becomes their core activity and their survival depends on how effective it works.
+
+Of all the e-commerce platforms, Shopify is the leader when it comes to web performance, reliable hosting and the number of integrations.
+
+> Thanks to our cloud-based infrastructure, Shopify Plus has a 99.98% overall uptime. Our storefront also loads [2.97X faster than other SaaS platforms](https://www.shopify.com/plus/compare/bigcommerce#Scalability){:rel="nofollow"}{:target="_blank"}.
+
+\|**[Consult our Shopify E-commerce Consultant for advice on how to make your store makes the most of this increased traffic](https://calendly.com/shopify-consulting/30min){:target="_blank"}.**|
+
+### 5. Monitor the situation on a daily basis
+
+Be prepared for any change. Make sure you get a picture of what is going on through reliable news sources, as well as from your team and from your suppliers themselves. Check the national and local regulations. Whatever rule applies today may drastically change tomorrow. Prepare yourself to be as flexible as possible and keep proactively informing your customers about any changes, shortages or delays in your e-commerce store.
+
+## Wrapping up
+
+There is no one prognosis about the impact that the COVID-2019 outbreak will have on the economy, sales, retail or e-commerce itself. One thing is sure - it will be a game-changer. Some industries will leave it with their heads up, while some will experience the unbearable losses. It will also have an impact on people’s shopping habits.
+
+Although it may seem that the situation is hopeless, it is the time for businesses to act and conform with digital in order not to die.
