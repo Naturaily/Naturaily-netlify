@@ -58,7 +58,7 @@ Plus, there’s a risk of long-term economic uncertainty, so your customers may 
 
 ## State of e-commerce: the second half of March
 
-With the lion’s share of consumers staying home, it makes perfect sense that e-commerce retailers will see an upsurge in traffic. E-commerce consultant Dan Barker highlights the impact of coronavirus across different retail categories [on his Twitter.](https://twitter.com/danbarker/status/1239307814549454849){:rel="nofollow"}{:target="_blank"} For example, furniture stores and garden furniture are doing pretty well. At the same time, all topics related to fashion have noted a major drop.
+With the lion’s share of consumers staying home, it makes perfect sense that e-commerce retailers will see an upsurge in traffic. E-commerce consultant Dan Barker highlights the impact of coronavirus across different retail categories [on his Twitter](https://twitter.com/danbarker/status/1239307814549454849){:rel="nofollow"}{:target="_blank"}. For example, furniture stores and garden furniture are doing pretty well. At the same time, all topics related to fashion have noted a major drop.
 
 ![](/assets/images/Blog_Furniture_stores_google_trends.png "Furniture industry ")
 
@@ -68,7 +68,7 @@ With the lion’s share of consumers staying home, it makes perfect sense that e
 
 <small class="text-center">Fashion industry interest dropping </small> 
 
-Let’s be honest with each other, the coronavirus situation will probably continue or even worsen in the next few weeks and beyond. It might not be the case that all sectors will benefit from this. Shelley E Kohan, [writing for Forbes](https://www.forbes.com/sites/shelleykohan/2020/03/06/a-change-in-consumer-behavior-from-coronavirus-fears-may-drive-us-e-commerce-sales-beyond-projections-of-12-of-total-retail-sales-in-2020/){:rel="nofollow"}{:target="_blank"} , noted that:
+Let’s be honest with each other, the coronavirus situation will probably continue or even worsen in the next few weeks and beyond. It might not be the case that all sectors will benefit from this. Shelley E Kohan, [writing for Forbes](https://www.forbes.com/sites/shelleykohan/2020/03/06/a-change-in-consumer-behavior-from-coronavirus-fears-may-drive-us-e-commerce-sales-beyond-projections-of-12-of-total-retail-sales-in-2020/){:rel="nofollow"}{:target="_blank"}, noted that:
 
 > *Categories more prone to increase during times of physical retraction of a population are health and beauty, grocery, and consumer product goods. Spending on fashion merchandise may decline while Americans look to make sure needed goods are well-stocked in their homes.*
 
@@ -82,13 +82,13 @@ As the virus began to do damage in the US (the article shows the data from the M
 
 ![](/assets/images/Blog_.Grocery_App.png "Grocery app")
 
-<small class="text-center">Source:[Apptopia](https://blog.apptopia.com/instacart-and-grocery-delivery-apps-set-consecutive-days-of-record-downloads){:rel="nofollow"}{:target="_blank"}</small> 
+<small class="text-center">Source: [Apptopia](https://blog.apptopia.com/instacart-and-grocery-delivery-apps-set-consecutive-days-of-record-downloads){:rel="nofollow"}{:target="_blank"}</small> 
 
 Sunday the 15th of March was a day of for record-breaking downloads for grocery delivery apps in the US, with Instacard experiencing a 2018% increase compared to February. Walmart Grocery saw a 160% increase in app downloads over the same period and Shipt experienced a 124% growth. The trend doesn’t seem to be slowing down, regarding the current circumstances, and brands need to do everything they can to follow the demand.
 
 ### The coronavirus increases sales for health products
 
-Except for groceries, the most obvious key driver of this short-term growth is health products.[Sendcloud](https://www.sendcloud.com/coronavirus-ecommerce/){:rel="nofollow"}{:target="_blank"} compiled the data to show the percentage increase in sales of the most wanted products in the week of February 22-29, compared to the previous week:
+Except for groceries, the most obvious key driver of this short-term growth is health products. [Sendcloud](https://www.sendcloud.com/coronavirus-ecommerce/){:rel="nofollow"}{:target="_blank"} compiled the data to show the percentage increase in sales of the most wanted products in the week of February 22-29, compared to the previous week:
 
 * *Hand sanitizer sales increased by 420%*
 * *Disinfectants sales increased by 178%*
@@ -161,7 +161,7 @@ Of all the e-commerce platforms, Shopify is the leader when it comes to web perf
 
 > Thanks to our cloud-based infrastructure, Shopify Plus has a 99.98% overall uptime. Our storefront also loads [2.97X faster than other SaaS platforms](https://www.shopify.com/plus/compare/bigcommerce#Scalability){:rel="nofollow"}{:target="_blank"}.
 
-\|**[Consult our Shopify E-commerce Consultant for advice on how to make your store makes the most of this increased traffic](https://calendly.com/shopify-consulting/30min){:target="_blank"}.**|
+|**[Consult our Shopify E-commerce Consultant for advice on how to make your store makes the most of this increased traffic](https://calendly.com/shopify-consulting/30min){:target="_blank"}.**|
 
 ### 5. Monitor the situation on a daily basis
 
