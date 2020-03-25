@@ -163,8 +163,8 @@ testimonial-subtitle: Testimonial
 testimonial-image: /assets/images/portfolio/artinfo/testimonial.png
 testimonial-alt: artinfo founder
 testimonial-quote: >
-  <span>Artinfo is a market leader</span>
-  and a trusted institution,
+  <span>Artinfo is a market leader</span><br>
+  and a trusted institution,<br>
   so we work only with the best
 testimonial-person: Rafał Kamecki
 testimonial-position: ArtInfo founder

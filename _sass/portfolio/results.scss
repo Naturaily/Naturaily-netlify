@@ -1,0 +1,61 @@
+.portfolioCase-results {
+  h3 {
+    color: #312E2B;
+  }
+
+  .portfolioCase-section__columns {
+    padding-bottom: 100px;
+
+    ul li {
+      padding: 10px 80px 10px 25px;
+    }
+
+    :first-child p {
+      font-size: 0.8em;
+      font-weight: 600;
+      color: #312E2B;
+
+      &::after {
+        content: ":";
+      }
+    }
+
+    :last-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      p {
+        padding: 25px 0;
+        font-size: 1.2em;
+        font-weight: 300;
+      }
+    }
+  }
+
+  &__numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0 -20px;
+
+    li {
+      padding: 10px 20px;
+
+      p:first-of-type {
+        height: 5em;
+      }
+
+      :last-child {
+        font-size: 0.85em;
+        color: #312E2B;
+      }
+    }
+
+    span {
+      font-weight: 300;
+      font-size: 3em;
+      color: #FF5E45;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.portfolioCase-testimonial {
+  img {
+    margin: 20px 0 60px;
+  }
+
+  .portfolioCase-section__columns {
+    :first-child > p {
+      font-size: 1.5em;
+      font-weight: 300;
+
+      span {
+        color: #FF5E45;
+      }
+    }
+
+    :last-child:not(.dot) {
+      padding-right: 25px;
+      font-size: 0.9em;
+      color: #312E2B;
+    }
+  }
+}
