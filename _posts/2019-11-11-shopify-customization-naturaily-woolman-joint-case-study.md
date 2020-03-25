@@ -6,7 +6,7 @@ description: >-
 slug: shopify-customization-joint-case-study
 layout: post
 date: '2019-11-11 07:00:55 +0200'
-category: Shopify development
+category: 'Shopify development, test'
 authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
