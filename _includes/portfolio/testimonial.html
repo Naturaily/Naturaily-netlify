@@ -1,0 +1,23 @@
+<span class="portfolioCase-section__step">
+  {{ page.testimonial-title }}
+</span>
+
+<h2 class="portfolioCase-section__title">
+  {{ page.testimonial-subtitle }}
+</h2>
+
+<img src="{{ page.testimonial-image }}" alt="{{ page.testimonial-alt }}"/>
+
+<div class="portfolioCase-section__columns">
+  <div>
+    <p>{{ page.testimonial-quote }}</p>
+    <div class="portfolioCase-credits">
+      <p>
+        <span class="dot"></span>
+        {{ page.testimonial-person }}
+      </p>
+      <p>{{ page.testimonial-position }}</p>
+    </div>
+  </div>
+  <div>{{ page.testimonial-text }}</div>
+</div>
