@@ -1,7 +1,7 @@
 ---
 title: 'COVID-2019 Pandemic vs E-commerce - Common Problems and How to Face Them '
 description: >-
-  Coronavirus global spread is predicted to take its toll on e-commerce,
+  Coronavirus' global spread is predicted to take its toll on e-commerce,
   changing shopping habits and demand for certain products. 
 slug: covid-2019-pandemic-vs-ecommerce-common-problems-and-how-to-face-them
 layout: post
@@ -161,7 +161,7 @@ Of all the e-commerce platforms, Shopify is the leader when it comes to web perf
 
 > Thanks to our cloud-based infrastructure, Shopify Plus has a 99.98% overall uptime. Our storefront also loads [2.97X faster than other SaaS platforms](https://www.shopify.com/plus/compare/bigcommerce#Scalability){:rel="nofollow"}{:target="_blank"}.
 
-|**[Consult our Shopify E-commerce Consultant for advice on how to make your store makes the most of this increased traffic.](https://calendly.com/shopify-consulting/30min){:target="_blank"}**|
+|**[Consult our Shopify E-commerce Specialist for advice on how to make the most out of increased traffic.](https://calendly.com/shopify-consulting/30min){:target="_blank"}**|
 
 ### 5. Monitor the situation on a daily basis
 
