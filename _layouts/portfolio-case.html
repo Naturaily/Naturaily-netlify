@@ -5,19 +5,16 @@ layout: default
 <div class="portfolioCase__background"></div>
 
 <div class="portfolioCase-header l-content">
-  <h1 class="portfolioCase-header__text">{{ page.header }}</h1>
+  <h1 class="portfolioCase-header__text">
+    {{ page.header }}
+  </h1>
   <div class="portfolioCase-header__image" style="background-image: url('{{ page.image-geometric }}')">
     <img src="{{ page.image }}" alt="{{ page.alt }}"/>
   </div>
 </div>
 
 <section class="portfolioCase-section l-content">
-  <span class="portfolioCase-section__step">{{ page.about-title }}</span>
-  <h2 class="portfolioCase-section__title">{{ page.about-subtitle }}</h2>
-  <div class="portfolioCase-section__columns">
-    <p>{{ page.about-column-1 }}</p>
-    <p>{{ page.about-column-2 }}</p>
-  </div>
+  {% include portfolio/about.html %}
 </section>
 
 <picture class="portfolioCase-separator l-full-page">
@@ -25,191 +22,21 @@ layout: default
 </picture>
 
 <section class="portfolioCase-section l-content">
-  <span class="portfolioCase-section__step">{{ page.goal-title }}</span>
-  <div class="portfolioCase-section__columns">
-    <div>
-      <h2 class="portfolioCase-section__title">{{ page.goal-subtitle }}</h2>
-      <p class="goal-text">{{ page.goal-text }}</p>
-      <div class="portfolioCase-credits">
-        <p><span class="dot"></span>{{ page.goal-person }}</p>
-        <p>{{ page.goal-position }}</p>
-      </div>
-    </div>
-    <div class="goal-image">
-      <img src="{{ page.goal-image }}" alt="{{ page.goal-alt }}"/>
-    </div>
-  </div>
+  {% include portfolio/goal.html %}
 </section>
 
 <section class="portfolioCase-section l-content">
-  <span class="portfolioCase-section__step"> {{ page.challenge-title }} </span>
-  <h2 class="portfolioCase-section__title"> {{ page.challenge-subtitle }}</h2>
-  <div class="portfolioCase-section__columns">
-    <p>{{ page.challenge-column-1 }}</p>
-    <p>{{ page.challenge-column-2 }}</p>
-  </div>
-  <div class="challenge-picture">
-    <div class="challenge-picture-image" style="background-image: url('{{ page.challenge-image-1 }}')">
-      <span>{{ page.challenge-description-1 }}</span>
-    </div>
-    <div class="challenge-picture-arrows">
-      <span>Arrow</span>
-      <span>Arrow</span>
-      <span>Arrow</span>
-      <span>Arrow</span>
-      <span>Arrow</span>
-    </div>
-    <div class="challenge-picture-image" style="background-image: url('{{ page.challenge-image-2 }}')">
-      <span>{{ page.challenge-description-2 }}</span>
-    </div>
-  </div>
+  {% include portfolio/challenge.html %}
 </section>
 
-<section class="portfolioCase-section with-background l-content">
-  <span class="portfolioCase-section__step"> {{ page.solution-title }} </span>
-  <h2 class="portfolioCase-section__title"> {{ page.solution-subtitle }}</h2>
-  <p class="portfolioCase-section__description"> {{ page.solution-description }}</p>
-  <div class="portfolioCase-section__columns">
-    <div>
-      <h3> {{ page.feature-title-1 }} </h3>
-      <ul> {{ page.feature-text-1 }} </ul>
-    </div>
-    <img src="{{ page.feature-image-1 }}"/>
-  </div>
-  <div class="portfolioCase-section__columns">
-    <img src="{{ page.feature-image-2 }}"/>
-    <div>
-      <h3> {{ page.feature-title-2 }} </h3>
-      <ul> {{ page.feature-text-2 }} </ul>
-    </div>
-  </div>
-  <div class="portfolioCase-section__columns">
-    <div>
-      <h3> {{ page.feature-title-3 }} </h3>
-      <ul> {{ page.feature-text-3 }} </ul>
-    </div>
-    <img src="{{ page.feature-image-3 }}"/>
-  </div>
-  <div class="portfolio-stack">
-    <h3> {{ page.stack-title }} </h3>
-      <ul class="portfolioCase-section__columns">
-        <li>
-          <img src="{{ page.stack-image-1 }}" alt="{{ page.stack-alt-1 }}"/>
-          <h4>{{ page.stack-title-1 }}</h4>
-          <p>{{ page.stack-description-1 }}</p>
-        </li>
-        <li>
-          <img src="{{ page.stack-image-2 }}" alt="{{ page.stack-alt-2 }}"/>
-          <h4>{{ page.stack-title-2 }}</h4>
-          <p>{{ page.stack-description-2 }}</p>
-        </li>
-        <li>
-          <img src="{{ page.stack-image-3 }}" alt="{{ page.stack-alt-3 }}"/>
-          <h4>{{ page.stack-title-3 }}</h4>
-          <p>{{ page.stack-description-3 }}</p>
-        </li>
-      </ul>
-  </div>
-  <div class="portfolio-experts">
-    <h3> {{ page.experts-title }} </h3>
-    <ul class="portfolioCase-section__columns">
-      <li>
-        <span>{{ page.experts-number-1 }}</span>
-        <span class="icon {{ page.experts-icon-1 }}"></span>
-        <p>{{ page.experts-name-1 }}</p>
-      </li>
-      <li>
-        <span>{{ page.experts-number-2 }}</span>
-        <span class="icon {{ page.experts-icon-2 }}"></span>
-        <p>{{ page.experts-name-2 }}</p>
-      </li>
-      <li>
-        <span>{{ page.experts-number-3 }}</span>
-        <span class="icon {{ page.experts-icon-3 }}"></span>
-        <p>{{ page.experts-name-3 }}</p>
-      </li>
-      <li>
-        <span>{{ page.experts-number-4 }}</span>
-        <span class="icon {{ page.experts-icon-4 }}"></span>
-        <p>{{ page.experts-name-4 }}</p>
-      </li>
-      <li>
-        <span>{{ page.experts-number-5 }}</span>
-        <span class="icon {{ page.experts-icon-5 }}"></span>
-        <p>{{ page.experts-name-5 }}</p>
-      </li>
-    </ul>
-  </div>
+<section class="portfolioCase-section portfolioCase-solution l-content">
+  {% include portfolio/solution.html %}
 </section>
 
-<section class="portfolioCase-section l-content">
-  <span class="portfolioCase-section__step"> {{ page.results-title }} </span>
-  <h2 class="portfolioCase-section__title"> {{ page.results-subtitle }}</h2>
-  <div class="portfolioCase-section__columns">
-    <div>
-      <p>{{ page.results-list-title }}</p>
-      <ul>{{ page.results-list }}</ul>
-    </div>
-    <div>
-      <p>{{ page.results-text }}</p>
-      <img src="{{ page.results-image }}" alt="{{page.results-alt}}"/>
-    </div>
-  </div>
-  <h3>{{ page.numbers-title }}</h3>
-  <ul>
-    <li>
-      <span>{{ page.numbers-value-1 }}</span>
-      <p>{{ page.numbers-name-1 }}</p>
-      <p>{{ page.numbers-description-1 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-2 }}</span>
-      <p>{{ page.numbers-name-2 }}</p>
-      <p>{{ page.numbers-description-2 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-3 }}</span>
-      <p>{{ page.numbers-name-3 }}</p>
-      <p>{{ page.numbers-description-3 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-4 }}</span>
-      <p>{{ page.numbers-name-4 }}</p>
-      <p>{{ page.numbers-description-4 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-5 }}</span>
-      <p>{{ page.numbers-name-5 }}</p>
-      <p>{{ page.numbers-description-5 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-6 }}</span>
-      <p>{{ page.numbers-name-6 }}</p>
-      <p>{{ page.numbers-description-6 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-7 }}</span>
-      <p>{{ page.numbers-name-7 }}</p>
-      <p>{{ page.numbers-description-7 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-8 }}</span>
-      <p>{{ page.numbers-name-8 }}</p>
-      <p>{{ page.numbers-description-8 }}</p>
-    </li>
-  </ul>
+<section class="portfolioCase-section portfolioCase-results l-content">
+  {% include portfolio/results.html %}
 </section>
 
-<section class="portfolioCase-section with-background l-content">
-  <span class="portfolioCase-section__step"> {{ page.testimonial-title }} </span>
-  <h2 class="portfolioCase-section__title"> {{ page.testimonial-subtitle }}</h2>
-  <img src="{{ page.testimonial-image }}" alt="{{ page.testimonial-alt }}"/>
-  <div>
-    <p>{{ page.testimonial-quote }}</p>
-    <div class="portfolioCase-credits">
-      <p><span class="dot"></span>{{ page.testimonial-person }}</p>
-      <p>{{ page.testimonial-position }}</p>
-    </div>
-  </div>
-  <div>{{ page.testimonial-text }}</div>
+<section class="portfolioCase-section portfolioCase-testimonial l-content">
+  {% include portfolio/testimonial.html %}
 </section>

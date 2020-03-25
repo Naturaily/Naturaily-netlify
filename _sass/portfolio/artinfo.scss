@@ -1,0 +1,86 @@
+.portfolioCase-section {
+  
+  .challenge-picture, .challenge-picture-arrows {
+    display: flex;
+    align-items: center;
+  }
+
+  .challenge-picture {
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: 1px solid rgba(59,34,15,0.1);
+
+    &::before  {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: calc(50% + 50px);
+      height: 1px;
+      width: 100%;
+      background-color: rgba(59,34,15,0.1);
+    }
+
+    &-image {
+      position: relative;
+      height: 200px;
+      width: 200px;
+      z-index: 2;
+      border-radius: 100%;
+      border: 1px solid rgba(59,34,15,0.1);
+      background-color: white;
+
+      span {
+        position: relative;
+        top: -50px;
+        font-size: 1.2em;
+        font-weight: 200;
+      }
+
+      img {
+        position: relative;
+      }
+    }
+
+    &-image:first-of-type {
+      left: -50px;
+
+      span {
+        left: 50px;
+      }
+
+      img {
+        top: 7px;
+        left: 20px;
+      }
+    }
+
+    &-image:last-of-type {
+      left: 50px;
+
+      span {
+        left: -10px;
+      }
+
+      img {
+        top: -50px;
+        left: 20px;
+      }
+    }
+
+    &-arrows {
+      justify-content: space-around;
+      width: 50%;
+
+      span {
+        width: 0;
+        height: 0;
+        z-index: 2;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid #FF5E45;
+      }
+    }
+  }
+}
