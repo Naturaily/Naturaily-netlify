@@ -1,6 +1,6 @@
 .portfolioCase-results {
   h3 {
-    color: #312E2B;
+    color: $color-portfolio-text;
   }
 
   .portfolioCase-section__columns {
@@ -10,10 +10,14 @@
       padding: 10px 80px 10px 25px;
     }
 
+    img {
+      max-width: 100%;
+    }
+
     :first-child p {
       font-size: 0.8em;
       font-weight: 600;
-      color: #312E2B;
+      color: $color-portfolio-text;
 
       &::after {
         content: ":";
@@ -40,22 +44,24 @@
     margin: 0 -20px;
 
     li {
-      padding: 10px 20px;
+      padding: 15px 20px;
+      line-height: 1.5;
 
       p:first-of-type {
-        height: 5em;
+        height: 6em;
+        padding-top: 15px;
       }
 
       :last-child {
         font-size: 0.85em;
-        color: #312E2B;
+        color: $color-portfolio-text;
       }
     }
 
     span {
       font-weight: 300;
       font-size: 3em;
-      color: #FF5E45;
+      color: $color-secondary;
     }
   }
 }

@@ -1,5 +1,4 @@
 .portfolioCase-section {
-  
   .challenge-picture, .challenge-picture-arrows {
     display: flex;
     align-items: center;
@@ -10,7 +9,7 @@
     position: relative;
     margin-top: 100px;
     padding-top: 100px;
-    border-top: 1px solid rgba(59,34,15,0.1);
+    border-top: 1px solid $color-global-font-10;
 
     &::before  {
       content: " ";
@@ -19,7 +18,7 @@
       top: calc(50% + 50px);
       height: 1px;
       width: 100%;
-      background-color: rgba(59,34,15,0.1);
+      background-color: $color-global-font-10;
     }
 
     &-image {
@@ -28,8 +27,8 @@
       width: 200px;
       z-index: 2;
       border-radius: 100%;
-      border: 1px solid rgba(59,34,15,0.1);
-      background-color: white;
+      border: 1px solid $color-global-font-10;
+      background-color: $color-white;
 
       span {
         position: relative;
@@ -79,7 +78,7 @@
         z-index: 2;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
-        border-left: 10px solid #FF5E45;
+        border-left: 10px solid $color-secondary;
       }
     }
   }

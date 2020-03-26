@@ -1,5 +1,6 @@
 .portfolioCase-testimonial {
   img {
+    max-width: 100%;
     margin: 20px 0 60px;
   }
 
@@ -9,14 +10,15 @@
       font-weight: 300;
 
       span {
-        color: #FF5E45;
+        color: $color-secondary;
       }
     }
 
     :last-child:not(.dot) {
       padding-right: 25px;
       font-size: 0.9em;
-      color: #312E2B;
+      line-height: 1.5;
+      color: $color-portfolio-text;
     }
   }
 }

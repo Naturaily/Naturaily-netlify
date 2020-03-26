@@ -1,5 +1,5 @@
 .portfolioCase-goal {
-  p {
+  .goal-text {
     padding-right: 100px;
   }
 
@@ -7,7 +7,7 @@
     text-align: right;
 
     img {
-      max-height: calc(100% - 30px);
+      max-width: 100%;
       margin-top: 30px;
     }
   }

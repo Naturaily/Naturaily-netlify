@@ -3,8 +3,9 @@ title: 'Artinfo - The Web App for Live Art Auctions'
 slug: artinfo
 layout: portfolio-case
 image: /assets/images/portfolio/artinfo/top.png
-image-geometric: /assets/images/portfolio/artinfo/geometric.png
 alt: artinfo
+image-geometric: /assets/images/portfolio/artinfo/geometric.png
+geometric-alt: geometric background
 header: Artinfo<br> <strong>The Web App</strong><br> for <strong>Live Art Auctions</strong>
 about-title: About
 about-subtitle: About ArtInfo
@@ -42,8 +43,8 @@ challenge-column-1: >
 challenge-column-2: >
   Simultaneously, we also started the new web application development process.
   The requirements were clear; we had to create an easy-to-use platform for
-  handling online real-time bidding during auctions. Consequently, the main
-  challenges were stability and fast data processing.
+  handling online real-time bidding during auctions. <strong>Consequently,
+  the main challenges were stability and fast data processing.</strong>
 challenge-image-1: /assets/images/portfolio/artinfo/challenge-mysql.png
 challenge-description-1: MySQL
 challenge-image-2: /assets/images/portfolio/artinfo/challenge-postgresql.png

@@ -1,31 +1,28 @@
-@import 'portfolio/artinfo';
-@import 'portfolio/goal';
-@import 'portfolio/solution';
-@import 'portfolio/results';
-@import 'portfolio/testimonial';
-
 .portfolioCase {
-  &__background {
-    grid-area: header;
-    padding-top: 550px;
-    background-color: #FFF7F1;
-  }
-
   &-header {
-    display: grid;
     position: relative;
     height: 450px;
+    top: -95px;
+    padding-top: 95px;
+    margin-bottom: -50px;
+    z-index: -1;
+    background-color: $color-code-orange-bg;
+
+    .portfolioCase-section__columns {
+      max-width: 1185px;
+      margin: 0 auto;
+    }
 
     &__text, &__text strong {
       font-weight: 200;
     }
 
     &__text {
-      position: relative;
-      top: 150px;
-      left: 150px;
+      padding-top: 150px;
+      padding-left: 150px;
       z-index: 2;
       font-size: 3em;
+      line-height: 1.5;
 
       strong {
         opacity: 0.7;
@@ -33,38 +30,45 @@
     }
 
     &__image {
-      position: absolute;
+      position: relative;
       right: 0;
       height: 100%;
-      background-size: 80%;
-      background-repeat: no-repeat;
 
-      img {
-        position: relative;
-        top: 50px;
-        left: 50px;
+      :first-child, :last-child {
+        position: absolute;
+      }
+
+      :first-child {
+        top: 20px;
+        left: -50px;
+        height: 60%;
+      }
+
+      :last-child {
+        bottom: -120px;
+        right: -40px;
         max-width: 100%;
-        max-height: 100%;
       }
     }
   }
 
   &-section {
     position: relative;
-    max-width: 1440px;
+    max-width: 1185px;
     margin: 0 auto;
     padding: 75px 150px;
+    box-sizing: border-box;
 
     &.portfolioCase-solution,
     &.portfolioCase-testimonial {
       margin-top: 75px;
       border-radius: 8px;
-      background-color: #FFF7F1;
+      background-color: $color-code-orange-bg;
     }
 
     &__step {
       font-size: 0.8em;
-      color: #FF5E45;
+      color: $color-secondary;
     }
 
     &__title {
@@ -75,7 +79,8 @@
 
     &__description {
       position: relative;
-      top: -35px;
+      top: -25px;
+      margin-bottom: -25px;
       opacity: 0.7;
       font-size: 1.2em;
     }
@@ -92,14 +97,15 @@
       p {
         padding: 0 25px;
         font-size: 0.9em;
+        line-height: 1.5;
       }
-
-
     }
 
     &__list {
-      color: #312E2B;
+      padding-top: 20px;
+      line-height: 1.5;
       list-style: none;
+      color: $color-portfolio-text;
 
       li::before {
         content: " ";
@@ -109,7 +115,7 @@
         margin-left: -1.3em;
         margin-right: 1em;
         border-radius: 100%;
-        background-color: #FF5E45;
+        background-color: $color-secondary;
       }
     }
 
@@ -123,28 +129,30 @@
       &.darker-dot {
         top: 90px;
         right: 250px;
-        background-color: #FF5E45;
+        background-color: $color-secondary;
       }
 
       &.lighter-dot {
         top: 250px;
         right: 0;
-        background-color: #FFB040;
+        background-color: $color-accent-yellow;
       }
     }
   }
 
   &-separator {
-    background-color: #FFB040;
+    margin-top: 50px;
+    background-color: $color-accent-yellow;
 
     img {
       position: relative;
       bottom: 50px;
+      width: 100%;
     }
   }
 
   &-credits {
-    padding: 15px;
+    padding: 50px 15px 15px;
 
     p {
       margin: 0;
@@ -170,7 +178,7 @@
       width: 10px;
       opacity: 1;
       border-radius: 100%;
-      background-color: #FFB040;
+      background-color: $color-accent-yellow;
     }
   }
 }
