@@ -1,0 +1,146 @@
+.portfolioCase-header {
+  position: relative;
+  height: 500px;
+  z-index: -1;
+  margin-bottom: 50px;
+  background-color: $color-code-orange-bg;
+
+  .portfolioCase-section__columns {
+    max-width: 1185px;
+    margin: 0 auto;
+  }
+
+  &__text, &__text strong {
+    font-weight: 200;
+  }
+
+  &__text {
+    padding: 90px 50px 0;
+    z-index: 2;
+    font-size: 2em;
+    line-height: 1.5;
+
+    strong {
+      opacity: 0.7;
+    }
+  }
+
+  &__image {
+    height: 100%;
+
+    :first-child, :last-child {
+      position: absolute;
+    }
+
+    :first-child {
+      top: 60px;
+      right: -50px;
+      height: 30%;
+    }
+
+    :last-child {
+      bottom: -50px;
+      right: 10px;
+      max-width: calc(100% - 10px);
+      max-height: 300px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolioCase-header {
+    &__text {
+      padding-top: 80px;
+      font-size: 2.5em;
+    }
+
+    &__image {
+      :first-child {
+        right: 10px;
+      }
+
+      :last-child {
+        bottom: -70px;
+        right: 10vw;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolioCase-header {
+    top: -95px;
+    height: 380px;
+    padding-top: 95px;
+    margin-bottom: -50px;
+
+    &__text {
+      padding-top: 150px;
+    }
+
+    &__image {
+      :first-child {
+        top: 120px;
+        left: auto;
+        right: 300px;
+        height: 40%;
+      }
+
+      :last-child {
+        bottom: -30px;
+        right: 10px;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolioCase-header {
+    height: 450px;
+
+    &__text {
+      position: relative;
+      top: 20px;
+      left: 50px;
+      padding-right: 0;
+      font-size: 3em;
+    }
+
+    &__image {
+      :first-child {
+        right: 280px;
+      }
+
+      :last-child {
+        bottom: -40px;
+        max-height: 350px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1175px) {
+  .portfolioCase-header {
+    &__text {
+      position: static;
+      padding-top: 150px;
+      padding-left: 150px;
+      font-size: 3em;
+    }
+
+    &__image {
+      position: relative;
+
+      :first-child {
+        top: 50px;
+        height: 70%;
+      }
+
+      :last-child {
+        bottom: -120px;
+        max-height: calc(100% + 95px);
+      }
+    }
+  }
+}
