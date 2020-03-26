@@ -1,0 +1,18 @@
+.portfolioCase-estimate {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+
+  .estimate-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 70px;
+    line-height: 1.5;
+
+    p {
+      font-size: 2em;
+      font-weight: 300;
+    }
+  }
+}
