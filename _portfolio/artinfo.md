@@ -100,7 +100,7 @@ experts-icon-3: icon-binoculars
 experts-name-3: UX/UI Designer
 experts-number-4: 4
 experts-icon-4: icon-binoculars
-experts-name-4: UX/UI Designer
+experts-name-4: QA Engineer
 experts-number-5: 5
 experts-icon-5: icon-binoculars
 experts-name-5: Project Manager
@@ -164,7 +164,7 @@ testimonial-subtitle: Testimonial
 testimonial-image: /assets/images/portfolio/artinfo/testimonial.png
 testimonial-alt: artinfo founder
 testimonial-quote: >
-  <span>Artinfo is a market leader</span><br>
+  <span>Artinfo is a market leader</span>
   and a trusted institution,<br>
   so we work only with the best
 testimonial-person: Rafał Kamecki
