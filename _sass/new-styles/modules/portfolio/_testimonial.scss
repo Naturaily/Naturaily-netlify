@@ -10,12 +10,13 @@
       font-weight: 300;
 
       span {
+        display: block;
         color: $color-secondary;
       }
     }
 
-    :last-child:not(.dot) {
-      padding-right: 25px;
+    :last-child:not(.credit-dot) {
+      padding: 25px;
       font-size: 0.9em;
       line-height: 1.5;
       color: $color-portfolio-text;
@@ -23,11 +24,16 @@
   }
 }
 
-@media (min-width: 811px) {
-}
-
 @media (min-width: 992px) {
-}
+  .portfolioCase-testimonial .portfolioCase-section__columns {
+    :first-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
-@media (min-width: 1175px) {
+    :last-child:not(.credit-dot) {
+      padding: 0 25px;
+    }
+  }
 }
