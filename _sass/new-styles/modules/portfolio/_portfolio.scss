@@ -59,8 +59,7 @@
       display: inline-block;
       width: 0.3em;
       height: 0.3em;
-      margin-left: -1.3em;
-      margin-right: 1em;
+      margin: 0 1em 3px -1.3em;
       border-radius: 100%;
       background-color: $color-secondary;
     }
@@ -94,7 +93,7 @@
 
   p {
     margin: 0;
-    padding: 0 30px;
+    padding: 0 30px !important;
   }
 
   :first-child {
