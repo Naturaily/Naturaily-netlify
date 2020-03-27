@@ -1,9 +1,9 @@
 ---
 published: true
-title: Test Engineer
+title: Quality Assurance Specialist
 description: >-
-  Working at Naturaily as Test Engineer means cooperating with all the
-  development teams assisting them in the commercial projects.
+  Working at Naturaily as Quality Assurance Specialist means cooperating with
+  all the development teams assisting them in the commercial projects.
 layout: career-offer
 location:
   - Wrocław
@@ -17,10 +17,10 @@ about-left: >-
   communication and honesty. We strive to provide our clients with the best,
   stable, reliable and beautiful digital products.**
 about-right: >-
-  **Working at Naturaily as Test Engineer means cooperating with all the
-  development teams assisting them in the commercial projects. Currently, we are
-  entering new markets so there are a lot of challenges to be faced. Are you
-  ready to help us succeed? We are waiting for you!**
+  **Working at Naturaily as Quality Assurance Specialist means cooperating with
+  all the development teams assisting them in the commercial projects.
+  Currently, we are entering new markets so there are a lot of challenges to be
+  faced. Are you ready to help us succeed? We are waiting for you!**
 type: Development
 salary-preview:
   - salary:
