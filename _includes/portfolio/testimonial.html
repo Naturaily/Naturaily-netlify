@@ -6,10 +6,10 @@
   {{ page.testimonial-subtitle }}
 </h2>
 
-<img src="{{ page.testimonial-image }}" alt="{{ page.testimonial-alt }}"/>
+<img src="{{ page.testimonial-image }}" alt="{{ page.testimonial-alt }}" portfolio-bottom />
 
 <div class="portfolioCase-section__columns">
-  <div>
+  <div portfolio-left>
     <p>{{ page.testimonial-quote }}</p>
     <div class="portfolioCase-credits">
       <p>
@@ -19,5 +19,7 @@
       <p>{{ page.testimonial-position }}</p>
     </div>
   </div>
-  <div>{{ page.testimonial-text }}</div>
+  <div portfolio-right>
+    {{ page.testimonial-text }}
+  </div>
 </div>
