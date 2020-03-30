@@ -3,7 +3,7 @@
 </span>
 
 <div class="portfolioCase-section__columns">
-  <div>
+  <div portfolio-left>
     <h2 class="portfolioCase-section__title">
       {{ page.results-subtitle }}
     </h2>
@@ -12,7 +12,7 @@
       {{ page.results-list }}
     </ul>
   </div>
-  <div>
+  <div portfolio-right>
     <p>{{ page.results-text }}</p>
     <img src="{{ page.results-image }}" alt="{{page.results-alt}}"/>
   </div>
@@ -20,7 +20,7 @@
 
 <div>
   <h3>{{ page.numbers-title }}</h3>
-  <ul class="portfolioCase-results__numbers">
+  <ul class="portfolioCase-results__numbers" portfolio-bottom>
     <li>
       <span>{{ page.numbers-value-1 }}</span>
       <p>{{ page.numbers-name-1 }}</p>

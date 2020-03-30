@@ -11,32 +11,32 @@
 </p>
 
 <div class="portfolioCase-section__columns portfolioCase-solution__feature">
-  <div>
+  <div portfolio-left>
     <h3> {{ page.feature-title-1 }} </h3>
     <ul class="portfolioCase-section__list"> {{ page.feature-text-1 }} </ul>
   </div>
-  <img src="{{ page.feature-image-1 }}"/>
+  <img src="{{ page.feature-image-1 }}"  portfolio-right />
 </div>
 
 <div class="portfolioCase-section__columns portfolioCase-solution__feature">
-  <img src="{{ page.feature-image-2 }}"/>
-  <div>
+  <img src="{{ page.feature-image-2 }}" portfolio-left />
+  <div portfolio-right>
     <h3> {{ page.feature-title-2 }} </h3>
     <ul class="portfolioCase-section__list"> {{ page.feature-text-2 }} </ul>
   </div>
 </div>
 
 <div class="portfolioCase-section__columns portfolioCase-solution__feature">
-  <div>
+  <div portfolio-left>
     <h3> {{ page.feature-title-3 }} </h3>
     <ul class="portfolioCase-section__list"> {{ page.feature-text-3 }} </ul>
   </div>
-  <img src="{{ page.feature-image-3 }}"/>
+  <img src="{{ page.feature-image-3 }}" portfolio-right />
 </div>
 
 <div class="portfolioCase-solution__stack">
   <h3> {{ page.stack-title }} </h3>
-  <ul class="portfolioCase-section__columns">
+  <ul class="portfolioCase-section__columns" portfolio-bottom>
     <li>
       <img src="{{ page.stack-image-1 }}" alt="{{ page.stack-alt-1 }}"/>
       <h4>{{ page.stack-title-1 }}</h4>
@@ -57,7 +57,7 @@
 
 <div class="portfolioCase-solution__experts">
   <h3> {{ page.experts-title }} </h3>
-  <ul class="portfolioCase-section__columns">
+  <ul class="portfolioCase-section__columns" portfolio-bottom>
     <li>
       <span>{{ page.experts-number-1 }}</span>
       <span class="icon {{ page.experts-icon-1 }}"></span>
