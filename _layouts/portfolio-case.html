@@ -2,45 +2,41 @@
 layout: default
 ---
 
-<div class="portfolioCase">
+<header class="l-full portfolio-header">
+  {% include portfolio/header.html %}
+</header>
 
-  <header class="portfolioCase-header">
-    {% include portfolio/header.html %}
-  </header>
+<section class="l-center portfolio-section">
+  {% include portfolio/about.html %}
+</section>
 
-  <section class="portfolioCase-section">
-    {% include portfolio/about.html %}
-  </section>
-
-  <div class="portfolioCase-separator">
-    <img src="{{ page.about-image }}" alt=""/>
-  </div>
-
-  <section class="portfolioCase-section">
-    {% include portfolio/goal.html %}
-  </section>
-
-  <section class="portfolioCase-section">
-    {% include portfolio/challenge.html %}
-  </section>
-
-  <section class="portfolioCase-section portfolioCase-solution">
-    {% include portfolio/solution.html %}
-  </section>
-
-  <section class="portfolioCase-section portfolioCase-results">
-    {% include portfolio/results.html %}
-  </section>
-
-  <section class="portfolioCase-section portfolioCase-testimonial">
-    {% include portfolio/testimonial.html %}
-  </section>
-
-  <section class="portfolioCase-section portfolioCase-estimate">
-    {% include portfolio/estimate.html %}
-  </section>
-
+<div class="portfolio-separator">
+  <img src="{{ page.about-image }}" alt=""/>
 </div>
+
+<section class="l-center portfolio-section">
+  {% include portfolio/goal.html %}
+</section>
+
+<section class="l-center portfolio-section">
+  {% include portfolio/challenge.html %}
+</section>
+
+<section class="l-center portfolio-section portfolio-solution">
+  {% include portfolio/solution.html %}
+</section>
+
+<section class="l-center portfolio-section portfolio-results">
+  {% include portfolio/results.html %}
+</section>
+
+<section class="l-center portfolio-section portfolio-testimonial">
+  {% include portfolio/testimonial.html %}
+</section>
+
+<section class="l-center estimate portfolio-section">
+  {% include portfolio/estimate.html %}
+</section>
 
 <script type="text/javascript">
   {% include portfolio/scroll.js %}
