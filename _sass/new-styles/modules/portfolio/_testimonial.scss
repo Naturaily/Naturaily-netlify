@@ -1,10 +1,10 @@
-.portfolioCase-testimonial {
+.portfolio-testimonial {
   img {
     max-width: 100%;
     margin: 20px 0 60px;
   }
 
-  .portfolioCase-section__columns {
+  .portfolio-section__columns {
     :first-child > p {
       font-size: 1.5em;
       font-weight: 300;
@@ -25,7 +25,7 @@
 }
 
 @media (min-width: 992px) {
-  .portfolioCase-testimonial .portfolioCase-section__columns {
+  .portfolio-testimonial .portfolio-section__columns {
     :first-child {
       display: flex;
       flex-direction: column;

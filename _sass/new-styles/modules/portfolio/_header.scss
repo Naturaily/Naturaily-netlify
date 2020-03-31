@@ -1,14 +1,10 @@
-.portfolioCase-header {
+.portfolio-header {
+  box-sizing: border-box;
   position: relative;
   height: 500px;
-  z-index: -1;
   margin-bottom: 50px;
+  z-index: -1;
   background-color: $color-code-orange-bg;
-
-  .portfolioCase-section__columns {
-    max-width: 1185px;
-    margin: 0 auto;
-  }
 
   &__text, &__text strong {
     font-weight: 200;
@@ -26,8 +22,6 @@
   }
 
   &__image {
-    height: 100%;
-
     .geometric-figure {
       top: 70px;
       right: 10px;
@@ -44,7 +38,7 @@
 }
 
 @media (min-width: 576px) {
-  .portfolioCase-header {
+  .portfolio-header {
     &__text {
       padding-top: 80px;
       font-size: 2.5em;
@@ -57,96 +51,107 @@
       }
 
       img {
-        bottom: -70px;
-        right: 10vw;
+        right: 10px;
       }
     }
   }
 }
 
 @media (min-width: 811px) {
-  .portfolioCase-header {
+  .portfolio-header {
     top: -95px;
-    height: 380px;
-    padding-top: 95px;
+    height: 400px;
+    padding: 95px 100px 0;
     margin-bottom: -50px;
 
+    &__content {
+      display: flex;
+      height: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    &__text, &__image {
+      position: relative;
+    }
+
     &__text {
-      padding-top: 150px;
+      width: 60%;
+      padding: 0;
+      font-size: 2em;
+
+      h1 {
+        position: absolute;
+        bottom: 30px;
+        left: 50px;
+      }
     }
 
     &__image {
+      width: 40%;
+
       .geometric-figure {
-        top: 150px;
-        right: 250px;
+        top: 0;
+        right: auto;
+        left: -150px;
       }
 
       img {
         bottom: -30px;
-        right: 10px;
-        max-width: 100%;
+        right: -50px;
+        max-width: 350px;
       }
     }
   }
 }
 
 @media (min-width: 992px) {
-  .portfolioCase-header {
+  .portfolio-header {
     height: 450px;
 
     &__text {
-      position: relative;
-      top: 20px;
-      left: 50px;
-      padding-right: 0;
-      font-size: 3em;
+      font-size: 2.5em;
     }
 
     &__image {
       .geometric-figure {
-        top: 170px;
-
         &_center, &_right::after {
-          height: 250px;
-          width: 250px;
+          height: 200px;
+          width: 200px;
         }
 
         &_right {
-          width: 125px;
+          width: 100px;
+          height: 200px;
         }
       }
 
       img {
-        bottom: -40px;
-        max-height: 350px;
+        right: -30px;
+        max-width: 450px;
       }
     }
   }
 }
 
 @media (min-width: 1175px) {
-  .portfolioCase-header {
-    .portfolioCase-section__columns {
-      position: relative;
+  .portfolio-header {
+    &__text, &__image {
+      width: 50%;
     }
 
     &__text {
-      position: static;
-      padding-top: 150px;
-      padding-left: 150px;
       font-size: 3em;
     }
 
     &__image {
       .geometric-figure {
-        top: 80px;
-        right: auto;
-        left: 530px;
+        left: -50px;
       }
 
       img {
-        position: relative;
-        top: 150px;
+        right: 0;
+        max-width: 100%;
       }
     }
   }

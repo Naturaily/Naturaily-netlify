@@ -1,0 +1,30 @@
+.portfolio-credits {
+  padding: 50px 15px 15px;
+
+  p {
+    margin: 0;
+    padding: 0 30px !important;
+  }
+
+  :first-child {
+    position: relative;
+    font-weight: 700;
+  }
+
+  :last-child {
+    opacity: 0.7;
+  }
+
+  .credit-dot {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transform: translateY(50%);
+    height: 10px;
+    width: 10px;
+    opacity: 1;
+    border-radius: 100%;
+    background-color: $color-accent-yellow;
+  }
+}
