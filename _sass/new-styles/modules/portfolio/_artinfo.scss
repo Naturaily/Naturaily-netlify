@@ -1,4 +1,4 @@
-.portfolioCase-section {
+.portfolio-section {
   .challenge-picture, .challenge-picture-arrows {
     display: flex;
     flex-direction: column;
@@ -72,6 +72,7 @@
       position: absolute;
       top: 270px;
       height: 150px;
+      transform: none !important;
 
       span {
         width: 0;
@@ -86,7 +87,7 @@
 }
 
 @media (min-width: 576px) {
-  .portfolioCase-section {
+  .portfolio-section {
     .challenge-picture, .challenge-picture-arrows {
       flex-direction: row;
     }
@@ -101,10 +102,8 @@
         width: 100%;
       }
 
-      &-image {
-        span {
-          top: -50px;
-        }
+      &-image span {
+        top: -50px;
       }
 
       &-image:first-of-type {
@@ -128,7 +127,7 @@
         justify-content: space-around;
         top: auto;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%) !important;
         width: 50%;
 
         span {
@@ -142,7 +141,7 @@
 }
 
 @media (min-width: 992px) {
-  .portfolioCase-section .challenge-picture {
+  .portfolio-section .challenge-picture {
     &-image {
       height: 200px;
       width: 200px;

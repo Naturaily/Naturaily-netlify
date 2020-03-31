@@ -1,43 +1,36 @@
-.portfolioCase-solution  {
-  h3, &__stack h4 {
-    line-height: 1.5em;
-  }
-
+.portfolio-solution  {
   h3 {
     font-size: 1.2em;
     font-weight: 200;
   }
 
-  &__feature, &__experts {
-    ul li {
-      font-size: 0.9em;
-    }
+  h3, &__stack h4 {
+    line-height: 1.5em;
   }
 
-  &__feature {
+  &__features .feature {
+    display: flex;
+    flex-direction: column;
     padding: 25px 0;
 
-    div, img {
+    &--image {
       position: relative;
-    }
-
-    div {
       padding: 30px 25px;
+
+      img {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+      }
     }
 
     ul li {
       padding: 10px;
+      font-size: 0.9em;
     }
 
-    img {
-      align-self: center;
-      width: calc(100% - 20px);
-      max-width: 350px;
-      margin: 0 auto;
-    }
-
-    &:nth-of-type(even) img {
-      order: 2;
+    &:nth-of-type(even) {
+      flex-direction: column-reverse;
     }
   }
 
@@ -48,7 +41,6 @@
     border-bottom: 1px solid $color-global-font-10;
 
     ul {
-      grid-template-columns: 1fr;
       margin-top: 25px;
       list-style: none;
 
@@ -77,8 +69,6 @@
     }
 
     ul {
-      grid-template-columns: 1fr;
-      grid-row-gap: initial;
       margin: 50px auto;
       max-width: 350px;
       list-style: none;
@@ -92,6 +82,7 @@
         position: relative;
         padding: 25px;
         padding-left: 50px;
+        font-size: 0.9em;
         color: $color-portfolio-text;
       }
     }
@@ -125,88 +116,97 @@
 }
 
 @media (min-width: 576px) {
-  .portfolioCase-solution  {
-    &__feature {
-      div {
-        padding-right: 150px;
-      }
+  .portfolio-solution {
+    .feature--image {
+      text-align: right;
 
       img {
-        justify-self: flex-end;
         width: 100%;
-        margin: 0;
       }
     }
 
-    &__stack {
-      ul li {
-        display: grid;
-        grid-template-columns: 0.5fr 0.8fr 1fr;
+    &__stack .portfolio-section__columns li {
+      display: flex;
+      flex-direction: row;
 
-        p {
-          padding-top: 0;
-        }
+      div, h4 {
+        width: 25%;
+      }
+
+      p {
+        width: 50%;
+        padding: 0;
+        padding-left: 10px;
       }
     }
   }
 }
 
 @media (min-width: 811px) {
-  .portfolioCase-solution  {
-    &__feature {
-      grid-column-gap: 50px;
+  .portfolio-solution  {
+    &__features .feature {
+      flex-direction: row !important;
+      align-items: center;
+      justify-content: space-between;
 
-      &.portfolioCase-section__columns  {
-        grid-template-columns: 1fr 1fr;
+      &--description, &--image {
+        position: relative;
+        width: 50%;
+        box-sizing: border-box;
       }
 
-      img {
-        width: calc(100% + 25px);
-        max-width: 500px;
-      }
+      &--image {
+        padding: 0;
 
-      &:nth-of-type(even) {
         img {
-          order: 0;
-          justify-self: flex-end;
-        }
-
-        div {
-          padding-right: 25px;
-          padding-left: 50px;
+          width: calc(100% + 50px);
         }
       }
 
       &:nth-of-type(odd) {
-        img {
-          justify-self: flex-start;
+        .feature--description {
+          padding-right: 50px;
+        }
+      }
+
+      &:nth-of-type(even) {
+        .feature--description {
+          left: 50px;
+          padding-left: 50px;
         }
 
-        div {
-          padding-right: 50px;
+        .feature--image {
+          right: 50px;
         }
       }
     }
 
-    &__stack ul {
-      grid-template-columns: 1fr 1fr 1fr;
+    &__stack .portfolio-section__columns {
+      flex-direction: row;
 
       li {
-        display: block;
+        flex-direction: column;
+        width: 33%;
+
+        div, h4, p {
+          width: 100%;
+        }
 
         p {
-          padding-top: 25px;
+          padding: 25px 0 0;
         }
       }
     }
 
     &__experts {
       ul {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        flex-direction: row;
         max-width: 100%;
 
         li {
+          display: flex;
           flex-direction: column;
+          width: 20%;
           padding: 30px 0 20px;
           font-size: 0.8em;
           text-align: center;
@@ -218,35 +218,26 @@
       }
 
       span:not(.icon) {
-        top: 0;
+        top: -5px;
         left: 50%;
+        margin-top: 5px;
       }
     }
   }
 }
 
 @media (min-width: 992px) {
-  .portfolioCase-solution__feature {
-    div {
-      padding: 40px 25px;
-    }
+  .portfolio-solution__features .feature {
+    padding: 40px 0;
 
-    &:nth-of-type(even) div {
-      padding-left: 100px;
-    }
-
-    &:nth-of-type(odd) div {
-      padding-right: 100px;
+    &--image img {
+      width: calc(100% + 100px);
     }
   }
 }
 
 @media (min-width: 1175px) {
-  .portfolioCase-solution  {
-    &__feature {
-      grid-column-gap: 100px;
-    }
-
+  .portfolio-solution  {
     &__experts {
       ul li {
         flex-direction: row;

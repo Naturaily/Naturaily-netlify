@@ -1,63 +1,71 @@
-<span class="portfolioCase-section__step">
+<span class="portfolio-section__step">
   {{ page.solution-title }}
 </span>
 
-<h2 class="portfolioCase-section__title">
+<h2 class="portfolio-section__title">
   {{ page.solution-subtitle }}
 </h2>
 
-<p class="portfolioCase-section__description">
+<p class="portfolio-section__description">
   {{ page.solution-description }}
 </p>
 
-<div class="portfolioCase-section__columns portfolioCase-solution__feature">
-  <div portfolio-left>
-    <h3> {{ page.feature-title-1 }} </h3>
-    <ul class="portfolioCase-section__list"> {{ page.feature-text-1 }} </ul>
+<div class="portfolio-solution__features">
+  <div class="feature portfolio-section__columns">
+    <div portfolio-left class="feature--description">
+      <h3>{{ page.feature-title-1 }}</h3>
+      <ul class="portfolio-section__list">{{ page.feature-text-1 }}</ul>
+    </div>
+    <div class="feature--image">
+      <img src="{{ page.feature-image-1 }}"  portfolio-right />
+    </div>
   </div>
-  <img src="{{ page.feature-image-1 }}"  portfolio-right />
+
+  <div class="feature portfolio-section__columns">
+    <div class="feature--image">
+      <img src="{{ page.feature-image-2 }}" portfolio-left />
+    </div>
+    <div portfolio-right class="feature--description">
+      <h3>{{ page.feature-title-2 }}</h3>
+      <ul class="portfolio-section__list">{{ page.feature-text-2 }}</ul>
+    </div>
+  </div>
+
+  <div class="feature portfolio-section__columns">
+    <div portfolio-left class="feature--description">
+      <h3>{{ page.feature-title-3 }}</h3>
+      <ul class="portfolio-section__list">{{ page.feature-text-3 }}</ul>
+    </div>
+    <div class="feature--image">
+      <img src="{{ page.feature-image-3 }}" portfolio-right />
+    </div>
+  </div>
 </div>
 
-<div class="portfolioCase-section__columns portfolioCase-solution__feature">
-  <img src="{{ page.feature-image-2 }}" portfolio-left />
-  <div portfolio-right>
-    <h3> {{ page.feature-title-2 }} </h3>
-    <ul class="portfolioCase-section__list"> {{ page.feature-text-2 }} </ul>
-  </div>
-</div>
-
-<div class="portfolioCase-section__columns portfolioCase-solution__feature">
-  <div portfolio-left>
-    <h3> {{ page.feature-title-3 }} </h3>
-    <ul class="portfolioCase-section__list"> {{ page.feature-text-3 }} </ul>
-  </div>
-  <img src="{{ page.feature-image-3 }}" portfolio-right />
-</div>
-
-<div class="portfolioCase-solution__stack">
-  <h3> {{ page.stack-title }} </h3>
-  <ul class="portfolioCase-section__columns" portfolio-bottom>
+<div class="portfolio-solution__stack">
+  <h3 class="portfolio-solution__header"> {{ page.stack-title }} </h3>
+  <ul class="portfolio-section__columns" portfolio-bottom>
     <li>
-      <img src="{{ page.stack-image-1 }}" alt="{{ page.stack-alt-1 }}"/>
+      <div><img src="{{ page.stack-image-1 }}" alt="{{ page.stack-alt-1 }}"/></div>
       <h4>{{ page.stack-title-1 }}</h4>
       <p>{{ page.stack-description-1 }}</p>
     </li>
     <li>
-      <img src="{{ page.stack-image-2 }}" alt="{{ page.stack-alt-2 }}"/>
+      <div><img src="{{ page.stack-image-2 }}" alt="{{ page.stack-alt-2 }}"/></div>
       <h4>{{ page.stack-title-2 }}</h4>
       <p>{{ page.stack-description-2 }}</p>
     </li>
     <li>
-      <img src="{{ page.stack-image-3 }}" alt="{{ page.stack-alt-3 }}"/>
+      <div><img src="{{ page.stack-image-3 }}" alt="{{ page.stack-alt-3 }}"/></div>
       <h4>{{ page.stack-title-3 }}</h4>
       <p>{{ page.stack-description-3 }}</p>
     </li>
   </ul>
 </div>
 
-<div class="portfolioCase-solution__experts">
-  <h3> {{ page.experts-title }} </h3>
-  <ul class="portfolioCase-section__columns" portfolio-bottom>
+<div class="portfolio-solution__experts">
+  <h3 class="portfolio-solution__header"> {{ page.experts-title }} </h3>
+  <ul class="portfolio-section__columns" portfolio-bottom>
     <li>
       <span>{{ page.experts-number-1 }}</span>
       <span class="icon {{ page.experts-icon-1 }}"></span>
