@@ -28,17 +28,13 @@
   &__image {
     height: 100%;
 
-    :first-child, :last-child {
+    .geometric-figure {
+      top: 70px;
+      right: 10px;
+    }
+
+    img {
       position: absolute;
-    }
-
-    :first-child {
-      top: 60px;
-      right: -50px;
-      height: 30%;
-    }
-
-    :last-child {
       bottom: -50px;
       right: 10px;
       max-width: calc(100% - 10px);
@@ -55,11 +51,12 @@
     }
 
     &__image {
-      :first-child {
-        right: 10px;
+      .geometric-figure {
+        top: 100px;
+        right: 80px;
       }
 
-      :last-child {
+      img {
         bottom: -70px;
         right: 10vw;
       }
@@ -79,14 +76,12 @@
     }
 
     &__image {
-      :first-child {
-        top: 120px;
-        left: auto;
-        right: 300px;
-        height: 40%;
+      .geometric-figure {
+        top: 150px;
+        right: 250px;
       }
 
-      :last-child {
+      img {
         bottom: -30px;
         right: 10px;
         max-width: 100%;
@@ -108,11 +103,20 @@
     }
 
     &__image {
-      :first-child {
-        right: 280px;
+      .geometric-figure {
+        top: 170px;
+
+        &_center, &_right::after {
+          height: 250px;
+          width: 250px;
+        }
+
+        &_right {
+          width: 125px;
+        }
       }
 
-      :last-child {
+      img {
         bottom: -40px;
         max-height: 350px;
       }
@@ -122,6 +126,10 @@
 
 @media (min-width: 1175px) {
   .portfolioCase-header {
+    .portfolioCase-section__columns {
+      position: relative;
+    }
+
     &__text {
       position: static;
       padding-top: 150px;
@@ -130,16 +138,15 @@
     }
 
     &__image {
-      position: relative;
-
-      :first-child {
-        top: 50px;
-        height: 70%;
+      .geometric-figure {
+        top: 80px;
+        right: auto;
+        left: 530px;
       }
 
-      :last-child {
-        bottom: -120px;
-        max-height: calc(100% + 95px);
+      img {
+        position: relative;
+        top: 150px;
       }
     }
   }
