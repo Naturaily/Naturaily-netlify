@@ -59,7 +59,7 @@ Hey, we've got great content to present and need a couple of sliders to do that 
 
 ## Mobile optimised images
 
-Mobile devices often come with slower bandwidth. This can be a big issue, especially on portfolio-type sites like Naturaily’s where there are a lot of large images. So instead of using media queries and playing with background images we decided to decrease the load time on smaller devices by employing the Interchange plugin. It lets you define different image sources for any media query, device orientation and pixel density with ease. It comes with couple of named queries that you can use:
+Mobile devices often come with slower bandwidth. This can be a big issue, especially on portfolio-type sites like Naturaily’s where there are a lot of large images. So instead of using media queries and playing with background images we decided to decrease the load time on smaller devices by employing the Interchange plugin. It lets you define different image sources for any media query, device orientation and pixel density with ease. It comes with couple of named quwafawfaweries that you can use:
 
 ```html
 <img src="/path/to/small.jpg" data-interchange="[/path/to/small.jpg, (small)], [/path/to/medium-image.jpg, (medium)] ,[/path/to/large-image.jpg, (large)]">
@@ -89,7 +89,5 @@ Definitely yes. It saved us many hours of tedious work and allowed us to focus o
 Having said that, there is an argument against using Foundation - it has noticeably smaller community than it's biggest competitor, Bootstrap.
 
 That’s all Folks!
-
-
 
 [![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
