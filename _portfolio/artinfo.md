@@ -178,4 +178,6 @@ testimonial-text: >
   <br><br>
   Opinions of Artinfo users are very positive, which is why I can safely say
   that we have succeeded.
+estimate-text-1: >
+  Do you want to build an analogous solution suited to your industry needs?
 ---

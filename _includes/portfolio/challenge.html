@@ -1,30 +1,27 @@
-<span class="portfolio-section__step">
-  {{ page.challenge-title }}
-</span>
+<div class="portfolio-section p-challenge">
+  <span class="portfolio-step">{{ page.challenge-title }}</span>
+  <h2 class="portfolio-title">{{ page.challenge-subtitle }}</h2>
 
-<h2 class="portfolio-section__title">
-  {{ page.challenge-subtitle }}
-</h2>
-
-<div class="portfolio-section__columns">
-  <p portfolio-left class="portfolio-section__text">
-    {{ page.challenge-column-1 }}
-  </p>
-  <p portfolio-right class="portfolio-section__text">
-    {{ page.challenge-column-2 }}
-  </p>
-</div>
-
-<div class="challenge-picture">
-  <div class="challenge-picture-image" portfolio-left>
-    <span>{{ page.challenge-description-1 }}</span>
-    <img src="{{ page.challenge-image-1 }}"/>
+  <div class="portfolio-columns">
+    <div portfolio-left class="portfolio-columns__left">
+      <p class="paragraph">{{ page.challenge-column-1 }}</p>
+    </div>
+    <div portfolio-right class="portfolio-columns__right">
+      <p portfolio-right class="paragraph">{{ page.challenge-column-2 }}</p>
+    </div>
   </div>
-  <div class="challenge-picture-arrows" portfolio-bottom>
-    <span></span><span></span><span></span><span></span><span></span>
-  </div>
-  <div class="challenge-picture-image" portfolio-right>
-    <span>{{ page.challenge-description-2 }}</span>
-    <img src="{{ page.challenge-image-2 }}"/>
+
+  <div class="p-challenge-picture">
+    <div portfolio-left class="p-challenge-picture__first">
+      <span class="label">{{ page.challenge-description-1 }}</span>
+      <img class="image" src="{{ page.challenge-image-1 }}"/>
+    </div>
+    <div portfolio-bottom class="p-challenge-picture__arrows">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div portfolio-right class="p-challenge-picture__last">
+      <span class="label">{{ page.challenge-description-2 }}</span>
+      <img class="image" src="{{ page.challenge-image-2 }}"/>
+    </div>
   </div>
 </div>

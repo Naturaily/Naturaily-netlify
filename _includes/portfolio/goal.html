@@ -1,26 +1,22 @@
-<span class="portfolio-section__step">
-  {{ page.goal-title }}
-</span>
+<div class="portfolio-section p-goal">
+  <span class="portfolio-step">{{ page.goal-title }}</span>
+  <h2 class="portfolio-title">{{ page.goal-subtitle }}</h2>
 
-<div class="portfolio-section__columns">
-
-  <div portfolio-left>
-    <h2 class="portfolio-section__title">
-      {{ page.goal-subtitle }}
-    </h2>
-    <p class="goal-text">
-      {{ page.goal-text }}
-    </p>
-    <div class="portfolio-credits">
-      <p>
-        <span class="credit-dot"></span>
-        {{ page.goal-person }}
-      </p>
-      <p>{{ page.goal-position }}</p>
+  <div class="portfolio-columns">
+    <div portfolio-left class="portfolio-columns__left">
+      <p class="paragraph">{{ page.goal-text }}</p>
+      <div class="portfolio-credits">
+        <p class="portfolio-credits__person">
+          <span class="credit-dot"></span>
+          {{ page.goal-person }}
+        </p>
+        <p class="portfolio-credits__position">
+          {{ page.goal-position }}
+        </p>
+      </div>
     </div>
-  </div>
-
-  <div class="goal-image" portfolio-right>
-    <img src="{{ page.goal-image }}" alt="{{ page.goal-alt }}"/>
+    <div portfolio-right class="portfolio-columns__right">
+      <img src="{{ page.goal-image }}" alt="{{ page.goal-alt }}"/>
+    </div>
   </div>
 </div>
