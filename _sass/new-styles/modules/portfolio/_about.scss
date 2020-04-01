@@ -1,0 +1,30 @@
+.p-about {
+  position: relative;
+  margin-bottom: 15px;
+
+  .dot {
+    display: none;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+
+    &.darker-dot {
+      top: 60px;
+      right: 250px;
+      background-color: $color-secondary;
+    }
+
+    &.lighter-dot {
+      top: 200px;
+      right: 30px;
+      background-color: $color-accent-yellow;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .p-about .dot {
+    display: block;
+  }
+}

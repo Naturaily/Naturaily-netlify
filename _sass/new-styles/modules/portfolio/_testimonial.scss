@@ -1,39 +1,70 @@
-.portfolio-testimonial {
+.p-testimonial {
+  margin-top: 75px;
+  border-radius: 8px;
+  background-color: $color-code-orange-bg;
+
   img {
     max-width: 100%;
     margin: 20px 0 60px;
   }
 
-  .portfolio-section__columns {
-    :first-child > p {
-      font-size: 1.5em;
-      font-weight: 300;
+  .portfolio-columns {
+    padding: 0 25px;
 
-      span {
-        display: block;
-        color: $color-secondary;
-      }
+    &__left {
+      max-width: 350px;
+      margin: 0 auto;
     }
 
-    :last-child:not(.credit-dot) {
-      padding: 25px;
+    &__right {
+      padding-top: 25px;
       font-size: 0.9em;
       line-height: 1.5;
       color: $color-portfolio-text;
     }
   }
+
+  &-text {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5;
+
+    span {
+      display: block;
+      color: $color-secondary;
+    }
+  }
 }
 
-@media (min-width: 992px) {
-  .portfolio-testimonial .portfolio-section__columns {
-    :first-child {
+@media (min-width: 576px) {
+  .p-testimonial .portfolio-columns {
+    padding-left: 0;
+
+    &__left {
+      margin-left: 0px;
+    }
+  }
+}
+
+
+@media (min-width: 811px) {
+  .p-testimonial .portfolio-columns {
+    padding-left: 25px;
+
+    &__left {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+
+      .portfolio-credits {
+        padding-bottom: 0;
+      }
     }
 
-    :last-child:not(.credit-dot) {
-      padding: 0 25px;
+    &__right {
+      padding: 0;
+      margin: 0;
+      padding-left: 25px;
     }
   }
 }

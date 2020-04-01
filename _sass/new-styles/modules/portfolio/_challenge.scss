@@ -1,0 +1,164 @@
+.p-challenge {
+  &-picture, &-picture__arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-picture {
+    justify-content: space-between;
+    position: relative;
+    height: 400px;
+    margin: 50px 0;
+    padding-top: 100px;
+    border-top: 1px solid $color-global-font-10;
+
+    &::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      left: 50%;
+      height: 100%;
+      width: 1px;
+      background-color: $color-global-font-10;
+    }
+
+    &__first, &__last {
+      position: relative;
+      height: 150px;
+      width: 150px;
+      z-index: 2;
+      border-radius: 100%;
+      border: 1px solid $color-global-font-10;
+      background-color: $color-white;
+
+      .label, .image {
+        position: relative;
+      }
+
+      .label {
+        font-size: 1.2em;
+        font-weight: 200;
+      }
+
+      .image {
+        position: relative;
+        width: 120px;
+        left: 15px;
+      }
+    }
+
+    &__first .label {
+      left: -75px;
+    }
+
+    &__last {
+      top: 100px;
+
+      .label {
+        left: -100px;
+      }
+
+      .image {
+        top: -30px;
+      }
+    }
+
+    &__arrows {
+      justify-content: space-around;
+      position: absolute;
+      top: 270px;
+      height: 150px;
+      transform: none !important;
+
+      span {
+        width: 0;
+        height: 0;
+        z-index: 2;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid $color-secondary;
+      }
+    }
+  }
+
+  .paragraph {
+    color: $color-portfolio-text;
+  }
+}
+
+@media (min-width: 576px) {
+  .p-challenge {
+    &-picture, &-picture__arrows {
+      flex-direction: row;
+    }
+
+    &-picture {
+      height: auto;
+
+      &::before  {
+        top: calc(50% + 50px);
+        left: 0;
+        height: 1px;
+        width: 100%;
+      }
+
+      &__first span, &__last span {
+        top: -50px;
+      }
+
+      &__first {
+        left: -50px;
+
+        .label {
+          left: 50px;
+        }
+      }
+
+      &__last {
+        top: 0;
+        left: 50px;
+
+        .label {
+          left: -10px;
+        }
+      }
+
+      &__arrows {
+        justify-content: space-around;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%) !important;
+        width: 50%;
+
+        span {
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          border-left: 10px solid $color-secondary;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .p-challenge {
+    &-picture {
+      margin-top: 100px;
+
+      &__first, &__last {
+        height: 200px;
+        width: 200px;
+
+        .image {
+          width: 150px;
+        }
+      }
+
+      &__first .image {
+        top: 15px;
+        left: 20px;
+      }
+    }
+  }
+}

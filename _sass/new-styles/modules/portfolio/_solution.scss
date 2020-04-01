@@ -1,21 +1,32 @@
-.portfolio-solution  {
-  h3 {
-    font-size: 1.2em;
-    font-weight: 200;
+.p-solution  {
+  margin-top: 75px;
+  border-radius: 8px;
+  background-color: $color-code-orange-bg;
+
+  .features, .stack, .experts {
+    &-header {
+      font-size: 1.2em;
+      font-weight: 200;
+    }
+
+    &-header, &-subheader {
+      line-height: 1.5em;
+    }
   }
 
-  h3, &__stack h4 {
-    line-height: 1.5em;
-  }
+  .features {
+    .portfolio-columns {
+      display: flex;
+      flex-direction: column;
+      padding: 50px 0;
 
-  &__features .feature {
-    display: flex;
-    flex-direction: column;
-    padding: 25px 0;
+      &.even {
+        flex-direction: column-reverse;
+      }
+    }
 
-    &--image {
+    .image {
       position: relative;
-      padding: 30px 25px;
 
       img {
         width: 100%;
@@ -24,51 +35,52 @@
       }
     }
 
-    ul li {
+    .portfolio-list li {
       padding: 10px;
       font-size: 0.9em;
     }
-
-    &:nth-of-type(even) {
-      flex-direction: column-reverse;
-    }
   }
 
-  &__stack {
-    margin: 100px -150px;
-    padding: 100px 150px;
+  .stack {
+    margin: 50px 0;
+    padding: 50px 0;
     border-top: 1px solid $color-global-font-10;
     border-bottom: 1px solid $color-global-font-10;
 
-    ul {
+    &-image {
+      height: 50px;
+      margin-bottom: 25px;
+
+      img {
+        width: auto;
+        height: 100%;
+      }
+    }
+
+    .paragraph {
+      padding: 30px 0 5px;
+      font-size: 0.8em;
+      line-height: 1.7em;
+      color: $color-portfolio-text;
+    }
+
+    .portfolio-columns {
       margin-top: 25px;
       list-style: none;
 
       li {
         padding: 25px;
       }
-
-      p {
-        padding: 30px 0 5px;
-        font-size: 0.8em;
-        line-height: 1.7em;
-        color: $color-portfolio-text;
-      }
-
-      img {
-        height: 50px;
-        margin-bottom: 25px;
-      }
     }
   }
 
-  &__experts {
-    h3 {
+  .experts {
+    &-header {
       color: $color-portfolio-header;
       opacity: 0.7;
     }
 
-    ul {
+    .portfolio-columns {
       margin: 50px auto;
       max-width: 350px;
       list-style: none;
@@ -87,12 +99,7 @@
       }
     }
 
-    p {
-      padding: 10px;
-      margin: 0;
-    }
-
-    span:not(.icon) {
+    &-number {
       position: absolute;
       left: 0;
       top: 50%;
@@ -112,12 +119,18 @@
       color: $color-accent-yellow;
       font-size: 3em;
     }
+
+    .paragraph {
+      padding: 10px;
+      margin: 0;
+    }
   }
 }
 
 @media (min-width: 576px) {
-  .portfolio-solution {
-    .feature--image {
+  .p-solution {
+    .features .image {
+      padding-top: 50px;
       text-align: right;
 
       img {
@@ -125,15 +138,17 @@
       }
     }
 
-    &__stack .portfolio-section__columns li {
-      display: flex;
-      flex-direction: row;
+    .stack {
+      .portfolio-columns li {
+        display: flex;
+        flex-direction: row;
+      }
 
-      div, h4 {
+      &-image, &-subheader {
         width: 25%;
       }
 
-      p {
+      .paragraph {
         width: 50%;
         padding: 0;
         padding-left: 10px;
@@ -143,19 +158,23 @@
 }
 
 @media (min-width: 811px) {
-  .portfolio-solution  {
-    &__features .feature {
+  .p-solution  {
+    .features .portfolio-columns {
       flex-direction: row !important;
       align-items: center;
       justify-content: space-between;
 
-      &--description, &--image {
+      .portfolio-list {
+        max-width: 350px;
+      }
+
+      .description, .image {
         position: relative;
         width: 50%;
         box-sizing: border-box;
       }
 
-      &--image {
+      .image {
         padding: 0;
 
         img {
@@ -163,43 +182,46 @@
         }
       }
 
-      &:nth-of-type(odd) {
-        .feature--description {
-          padding-right: 50px;
-        }
+      &.odd .description {
+        padding-right: 50px;
       }
 
-      &:nth-of-type(even) {
-        .feature--description {
+      &.even {
+        .description {
           left: 50px;
           padding-left: 50px;
         }
 
-        .feature--image {
+        .image {
           right: 50px;
         }
       }
     }
 
-    &__stack .portfolio-section__columns {
-      flex-direction: row;
+    .stack {
+      .portfolio-columns {
+        flex-direction: row;
 
-      li {
-        flex-direction: column;
-        width: 33%;
-
-        div, h4, p {
-          width: 100%;
+        li {
+          flex-direction: column;
+          width: 33%;
         }
+      }
 
-        p {
-          padding: 25px 0 0;
-        }
+      &-image, &-subheader, .paragraph {
+        width: 100%;
+      }
+
+      .paragraph {
+        padding: 25px 0 0;
       }
     }
 
-    &__experts {
-      ul {
+    .experts {
+      position: relative;
+      top: 5px;
+
+      .portfolio-columns {
         flex-direction: row;
         max-width: 100%;
 
@@ -213,45 +235,47 @@
         }
       }
 
-      p {
-        margin-top: 15px;
+      &-number {
+        top: -5px;
+        left: calc(50% - 5px);
+        margin: 5px;
       }
 
-      span:not(.icon) {
-        top: -5px;
-        left: 50%;
-        margin-top: 5px;
+      .paragraph {
+        margin-top: 15px;
+        line-height: 1.5;
+        font-size: 0.9em;
       }
     }
   }
 }
 
 @media (min-width: 992px) {
-  .portfolio-solution__features .feature {
-    padding: 40px 0;
+  .p-solution .features {
+    .odd, .even {
+      padding: 40px 0;
 
-    &--image img {
-      width: calc(100% + 100px);
+      .image img {
+        width: calc(100% + 100px);
+      }
     }
   }
 }
 
 @media (min-width: 1175px) {
-  .portfolio-solution  {
-    &__experts {
-      ul li {
-        flex-direction: row;
-        padding: 40px 20px;
-      }
+  .p-solution .experts  {
+    .portfolio-columns li {
+      flex-direction: row;
+      padding: 40px 20px;
+    }
 
-      p {
-        margin: 0;
-        text-align: left;
-      }
+    &-number {
+      transform: translate(-77px, -50%);
+    }
 
-      span:not(.icon) {
-        transform: translate(-60px, -50%);
-      }
+    .paragraph {
+      margin: 0;
+      text-align: left;
     }
   }
 }
