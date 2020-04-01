@@ -1,0 +1,57 @@
+.p-goal {
+  width: 100%;
+
+  .portfolio-columns__right {
+    text-align: right;
+
+    img {
+      width: 100%;
+      max-width: 450px;
+      margin-top: 30px;
+    }
+  }
+
+  .paragraph {
+    color: $color-portfolio-text;
+  }
+}
+
+@media (min-width: 811px) {
+  .p-goal {
+    .portfolio-columns  {
+      position: relative;
+      top: -100px;
+      margin-bottom: -100px;
+
+      &__right img {
+        width: 140%;
+        max-width: 600px;
+        margin-top: 30px;
+      }
+    }
+
+    .paragraph {
+      padding-top: 100px;
+      font-size: 0.9em;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .p-goal {
+    &-image {
+      img {
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1175px) {
+  .p-goal {
+    .paragraph {
+      padding-right: 100px;
+    }
+  }
+}

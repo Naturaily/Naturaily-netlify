@@ -1,65 +1,61 @@
-<span class="portfolio-section__step">
-  {{ page.results-title }}
-</span>
+<div class="portfolio-section p-results">
+  <span class="portfolio-step">{{ page.results-title }}</span>
 
-<div class="portfolio-section__columns">
-  <div portfolio-left>
-    <h2 class="portfolio-section__title">
-      {{ page.results-subtitle }}
-    </h2>
-    <p>{{ page.results-list-title }}</p>
-    <ul class="portfolio-section__list">
-      {{ page.results-list }}
+  <div class="portfolio-columns">
+    <div portfolio-left class="portfolio-columns__left">
+      <h2 class="portfolio-title">{{ page.results-subtitle }}</h2>
+      <p class="paragraph">{{ page.results-list-title }}</p>
+      <ul class="portfolio-list">{{ page.results-list }}</ul>
+    </div>
+    <div portfolio-right class="portfolio-columns__right">
+      <p class="paragraph">{{ page.results-text }}</p>
+      <img src="{{ page.results-image }}" alt="{{page.results-alt}}"/>
+    </div>
+  </div>
+
+  <div class="numbers">
+    <h3 class="numbers-title">{{ page.numbers-title }}</h3>
+    <ul portfolio-bottom class="numbers-list">
+      <li>
+        <span class="numbers-value">{{ page.numbers-value-1 }}</span>
+        <p class="numbers-text">{{ page.numbers-name-1 }}</p>
+        <p class="paragraph">{{ page.numbers-description-1 }}</p>
+      </li>
+      <li>
+        <span class="numbers-value">{{ page.numbers-value-2 }}</span>
+        <p class="numbers-text">{{ page.numbers-name-2 }}</p>
+        <p class="paragraph">{{ page.numbers-description-2 }}</p>
+      </li>
+      <li>
+        <span class="numbers-value">{{ page.numbers-value-3 }}</span>
+        <p class="numbers-text">{{ page.numbers-name-3 }}</p>
+        <p class="paragraph">{{ page.numbers-description-3 }}</p>
+      </li>
+      <li>
+        <span class="numbers-value">{{ page.numbers-value-4 }}</span>
+        <p class="numbers-text">{{ page.numbers-name-4 }}</p>
+        <p class="paragraph">{{ page.numbers-description-4 }}</p>
+      </li>
+      <li>
+        <span class="numbers-value">{{ page.numbers-value-5 }}</span>
+        <p class="numbers-text">{{ page.numbers-name-5 }}</p>
+        <p class="paragraph">{{ page.numbers-description-5 }}</p>
+      </li>
+      <li>
+        <span class="numbers-value">{{ page.numbers-value-6 }}</span>
+        <p class="numbers-text">{{ page.numbers-name-6 }}</p>
+        <p class="paragraph">{{ page.numbers-description-6 }}</p>
+      </li>
+      <li>
+        <span class="numbers-value">{{ page.numbers-value-7 }}</span>
+        <p class="numbers-text">{{ page.numbers-name-7 }}</p>
+        <p class="paragraph">{{ page.numbers-description-7 }}</p>
+      </li>
+      <li>
+        <span class="numbers-value">{{ page.numbers-value-8 }}</span>
+        <p class="numbers-text">{{ page.numbers-name-8 }}</p>
+        <p class="paragraph">{{ page.numbers-description-8 }}</p>
+      </li>
     </ul>
   </div>
-  <div portfolio-right>
-    <p>{{ page.results-text }}</p>
-    <img src="{{ page.results-image }}" alt="{{page.results-alt}}"/>
-  </div>
-</div>
-
-<div>
-  <h3>{{ page.numbers-title }}</h3>
-  <ul class="portfolio-results__numbers" portfolio-bottom>
-    <li>
-      <span>{{ page.numbers-value-1 }}</span>
-      <p>{{ page.numbers-name-1 }}</p>
-      <p>{{ page.numbers-description-1 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-2 }}</span>
-      <p>{{ page.numbers-name-2 }}</p>
-      <p>{{ page.numbers-description-2 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-3 }}</span>
-      <p>{{ page.numbers-name-3 }}</p>
-      <p>{{ page.numbers-description-3 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-4 }}</span>
-      <p>{{ page.numbers-name-4 }}</p>
-      <p>{{ page.numbers-description-4 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-5 }}</span>
-      <p>{{ page.numbers-name-5 }}</p>
-      <p>{{ page.numbers-description-5 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-6 }}</span>
-      <p>{{ page.numbers-name-6 }}</p>
-      <p>{{ page.numbers-description-6 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-7 }}</span>
-      <p>{{ page.numbers-name-7 }}</p>
-      <p>{{ page.numbers-description-7 }}</p>
-    </li>
-    <li>
-      <span>{{ page.numbers-value-8 }}</span>
-      <p>{{ page.numbers-name-8 }}</p>
-      <p>{{ page.numbers-description-8 }}</p>
-    </li>
-  </ul>
 </div>

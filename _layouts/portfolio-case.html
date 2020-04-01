@@ -2,41 +2,41 @@
 layout: default
 ---
 
-<header class="l-full portfolio-header">
+<header class="l-full">
   {% include portfolio/header.html %}
 </header>
 
-<section class="l-center portfolio-section">
+<div class="l-center--small">
   {% include portfolio/about.html %}
-</section>
+</div>
 
-<div class="portfolio-separator">
+<div class="l-full portfolio-separator">
   <img src="{{ page.about-image }}" alt=""/>
 </div>
 
-<section class="l-center portfolio-section">
+<div class="l-center--small">
   {% include portfolio/goal.html %}
-</section>
+</div>
 
-<section class="l-center portfolio-section">
+<div class="l-center--small">
   {% include portfolio/challenge.html %}
-</section>
+</div>
 
-<section class="l-center portfolio-section portfolio-solution">
+<div class="l-center--small">
   {% include portfolio/solution.html %}
-</section>
+</div>
 
-<section class="l-center portfolio-section portfolio-results">
+<div class="l-center--small">
   {% include portfolio/results.html %}
-</section>
+</div>
 
-<section class="l-center portfolio-section portfolio-testimonial">
+<div class="l-center--small">
   {% include portfolio/testimonial.html %}
-</section>
+</div>
 
-<section class="l-center estimate portfolio-section">
+<div class="l-center--small">
   {% include portfolio/estimate.html %}
-</section>
+</div>
 
 <script type="text/javascript">
   {% include portfolio/scroll.js %}

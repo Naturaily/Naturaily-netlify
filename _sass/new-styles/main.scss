@@ -100,13 +100,15 @@
 
 // PORTFOLIO SPECIFIC STYLES //
 
+@import "modules/portfolio/main";
 @import "modules/portfolio/header";
-@import "modules/portfolio/credits";
+@import "modules/portfolio/about";
+@import "modules/portfolio/goal";
+@import "modules/portfolio/challenge";
 @import "modules/portfolio/solution";
 @import "modules/portfolio/results";
 @import "modules/portfolio/testimonial";
-@import "modules/portfolio/artinfo";
-@import "modules/portfolio/portfolio";
+@import "modules/portfolio/estimate";
 
 body {
   font-weight: 300;
