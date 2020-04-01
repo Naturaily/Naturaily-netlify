@@ -1,6 +1,6 @@
 ---
-title: lalalalal
-description: dada mama
+title: Aderoo Aderoo
+description: lv vl lv vl
 slug: 'siemanko-w-mojej-kuchni '
 layout: post
 twitter-card: SUMMARY
