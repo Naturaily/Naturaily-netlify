@@ -3,6 +3,7 @@ title: lalalalal
 description: dada mama
 slug: 'siemanko-w-mojej-kuchni '
 layout: post
+twitter-card: SUMMARY
 date: '2020-04-01 05:36:19 +0200'
 category: buraki
 authors:
