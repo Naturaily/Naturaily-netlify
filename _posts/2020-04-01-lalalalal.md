@@ -13,8 +13,7 @@ image: /assets/images/2.jpg
 text-preview: 'Tak tak Tak tak Tak tak Tak tak Tak tak Tak tak Tak tak Tak tak '
 tags:
   - REACT VUE CZY vanilioweDzieci
-related_posts:
-  - From “Delta Force” to “Fire Rescue”. Practical Agile Implementation
+related_posts: []
 ---
 Dokończ zdanie:
 
