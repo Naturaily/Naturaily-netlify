@@ -17,7 +17,7 @@ text-preview: >
   language(s), you’re missing out on great opportunities. If you’re intimidated
   by the workload of making your app available for various markets, regions and
   languages, we hope these tips on how to localize your software without going
-  crazy have been helpful.
+  crazy will be helpful.
 tags:
   - Multilingual software
   - LingoHub
