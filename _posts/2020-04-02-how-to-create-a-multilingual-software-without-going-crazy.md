@@ -23,6 +23,8 @@ tags:
   - LingoHub
   - Localized software
 ---
+*This is a guest post written by one of our clients - Helmut Juskewycz, CEO & founder of LingoHub.*
+
 As English is the de facto language of the internet and of our apps, localization and translation are usually after-thoughts in our software development projects. 
 
 We simply overlook the potential of localizing our software for our target markets. 53% of all global internet users, for example, are based in Asia Pacific, followed by Europe with its diverse set of languages, accounting for 15% of all internet users. 
