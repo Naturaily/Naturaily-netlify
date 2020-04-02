@@ -11,7 +11,7 @@
   }
 
   &__text {
-    padding: 90px 50px 0;
+    padding: 120px 50px 0;
     z-index: 2;
     font-size: 2em;
     line-height: 1.5;
@@ -33,7 +33,7 @@
       bottom: -50px;
       right: 10px;
       max-width: calc(100% - 10px);
-      max-height: 300px;
+      max-height: 280px;
     }
   }
 }
@@ -43,7 +43,7 @@
     height: 555px;
 
     &__text {
-      padding-top: 90px;
+      padding-left: 100px;
       font-size: 2.5em;
     }
 
@@ -78,6 +78,11 @@
     padding: 95px 100px 0;
     margin-bottom: -50px;
 
+    &__text {
+      padding-top: 150px;
+      padding-left: 0;
+    }
+
     &__image {
       .geometric-figure {
         top: 100px;
@@ -86,7 +91,7 @@
 
       img {
         right: 30px;
-        max-height: 350px;
+        max-height: 300px;
       }
     }
   }
@@ -126,13 +131,7 @@
     }
 
     &__text {
-      padding: 0;
       font-size: 3em;
-
-      h1 {
-        position: absolute;
-        bottom: 100px;
-      }
     }
 
     &__image {
