@@ -65,7 +65,7 @@ Your software localization plan should include the following topics:
 
 ## Tip 2: Rethink your software development - A Continuous Translation approach for the win
 
-At LingoHub, we are strong believers in a Continuous Translation workflow. So, what is Continuous Translation, you might ask?
+At [LingoHub](https://lingohub.com/){:target="_blank"}, we are strong believers in a Continuous Translation workflow. So, what is Continuous Translation, you might ask?
 
 **The basic concept: Continuous Translation synchronizes software development and translation management.**
 
@@ -89,7 +89,7 @@ Continuous Translation is the counterpart to traditional translation cycles. The
 
 While many technology companies already have a carefully thought-through software development setup and process in place, we still tend to neglect the role of software localization and translations in our daily development life.
 
-As developers we like to automate tasks. So why not automate what can be automated in software localization? Manage your translations in one place and avoid the translation ping-pong: A translation management tool, such as [LingoHub](https://lingohub.com/){:target="_blank"}, helps you store and manage all your software translations in one place.
+As developers we like to automate tasks. So why not automate what can be automated in software localization? Manage your translations in one place and avoid the translation ping-pong: A translation management tool, such as LingoHub, helps you store and manage all your software translations in one place.
 
 While many companies still keep playing translation ping-pong (think of json files floating around), automating your basic translation management will help you in a couple of regards:
 
@@ -148,7 +148,7 @@ And, if you ever forget to actually provide translations, an [Autofill feature](
 
 If you are not catering to users beyond your own country’s borders and language(s), you’re missing out on great opportunities. If you’re intimidated by the workload of making your app available for various markets, regions and languages, we hope these tips on how to localize your software without going crazy have been helpful.
 
-Making software translations less painful and intimidating was actually the entire reason why we started LingoHub in the first place. If you’re curious to see how LingoHub - our translation management tool - works, feel free to give it a free trial. You can also reach me on Twitter at @hemju or @lingohub.
+Making software translations less painful and intimidating was actually the entire reason why we started [LingoHub](https://lingohub.com/){:target="_blank"} in the first place. If you’re curious to see how LingoHub - our translation management tool - works, [feel free to give it a free trial](https://translate.lingohub.com/sign_up){:target="_blank"}. You can also reach me on Twitter at [@hemju](https://twitter.com/hemju){:rel="nofollow"}{:target="_blank"} or [@lingohub](https://twitter.com/lingohub){:rel="nofollow"}{:target="_blank"}.
 
 |About the author: **Helmut Juskewycz** is CEO and founder of LingoHub which helps companies and software makers to localize their software. Helmut is an enthusiastic entrepreneur and developer at heart with a vast experience in the technology space. Naturaily is responsible for frontend development part of the project. We have been working on LingoHub for over a year now. Our main task was to rewrite the existing part of the app from Angular to Vue.js to increase the performace and make the app easier to optimize.|
 
