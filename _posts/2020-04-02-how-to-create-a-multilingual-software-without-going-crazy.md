@@ -153,4 +153,6 @@ Making software translations less painful and intimidating was actually the enti
 
 <br>
 
+|LingoHub is a platform that lets hundreds of teams manage their software translations easily. What they get is a complex yet simple app they can use for translating, storing and managing the content - all in one place. The tool offers a complex software translation service - from building a personalized Term Base to translating and file release.  To make the process even more painless, LingoHub integrates with lots of tools used by developers and professional translators.|
+
 [![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
