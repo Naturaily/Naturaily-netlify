@@ -8,9 +8,9 @@ layout: post
 date: '2020-04-02 08:06:00 +0200'
 category: Software development
 authors:
-  avatar: /assets/images/beata.jpg
-  label: Beata Twardowska
-  value: author-24
+  avatar: /assets/images/Helmut_LingoHub.png
+  label: Helmut Juskewycz
+  value: author-31
 image: '/assets/images/Blog_[Multilingual Software].png'
 text-preview: >
   If you are not catering to users beyond your own country’s borders and
@@ -23,11 +23,9 @@ tags:
   - LingoHub
   - Localized software
 ---
-*This is a guest post written by one of our clients - Helmut Juskewycz, CEO & founder of LingoHub.*
+**As English is the de facto language of the internet and of our apps, localization and translation are usually after-thoughts in our software development projects.** 
 
-As English is the de facto language of the internet and of our apps, localization and translation are usually after-thoughts in our software development projects. 
-
-We simply overlook the potential of localizing our software for our target markets. 53% of all global internet users, for example, are based in Asia Pacific, followed by Europe with its diverse set of languages, accounting for 15% of all internet users. 
+**We simply overlook the potential of localizing our software for our target markets. 53% of all global internet users, for example, are based in Asia Pacific, followed by Europe with its diverse set of languages, accounting for 15% of all internet users.** 
 
 In this article, we are going to show you how to create a multilingual product without going crazy and still delivering on time.
 
@@ -151,8 +149,8 @@ If you are not catering to users beyond your own country’s borders and languag
 
 Making software translations less painful and intimidating was actually the entire reason why we started LingoHub in the first place. If you’re curious to see how LingoHub - our translation management tool - works, feel free to give it a free trial. You can also reach me on Twitter at @hemju or @lingohub.
 
+|About the author
 
-
-\|LingoHub is a platform that lets hundreds of teams manage their software translations easily. What they get is a complex yet simple app they can use for translating, storing and managing the content - all in one place. The tool offers a complex software translation service - from building a personalized Term Base to translating and file release.  To make the process even more painless, LingoHub integrates with lots of tools used by developers and professional translators.|
+**Helmut Juskewycz** is CEO and founder of LingoHub which helps companies and software makers to localise their software. Helmut is an enthusiastic entrepreneur and developer at heart with a vast experience in the technology space.|
 
 [![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
