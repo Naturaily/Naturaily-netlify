@@ -90,7 +90,7 @@ Continuous Translation is the counterpart to traditional translation cycles. The
 
 While many technology companies already have a carefully thought-through software development setup and process in place, we still tend to neglect the role of software localization and translations in our daily development life.
 
-As developers we like to automate tasks. So why not automate what can be automated in software localization? Manage your translations in one place and avoid the translation ping-pong: A translation management tool, such as[LingoHub](https://lingohub.com/){:target="_blank"}, helps you store and manage all your software translations in one place.
+As developers we like to automate tasks. So why not automate what can be automated in software localization? Manage your translations in one place and avoid the translation ping-pong: A translation management tool, such as [LingoHub](https://lingohub.com/){:target="_blank"}, helps you store and manage all your software translations in one place.
 
 While many companies still keep playing translation ping-pong (think of json files floating around), automating your basic translation management will help you in a couple of regards:
 
