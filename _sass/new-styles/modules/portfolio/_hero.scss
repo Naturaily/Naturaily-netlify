@@ -1,8 +1,8 @@
-.portfolio-header {
+.p-hero {
   box-sizing: border-box;
   position: relative;
   height: 500px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   z-index: -1;
   background-color: $color-code-orange-bg;
 
@@ -25,6 +25,7 @@
     .geometric-figure {
       top: 70px;
       right: 10px;
+      z-index: -1;
     }
 
     img {
@@ -38,83 +39,19 @@
 }
 
 @media (min-width: 576px) {
-  .portfolio-header {
+  .p-hero {
+    height: 555px;
+
     &__text {
-      padding-top: 80px;
+      padding-top: 90px;
       font-size: 2.5em;
     }
 
     &__image {
       .geometric-figure {
-        top: 100px;
-        right: 80px;
-      }
-
-      img {
-        right: 10px;
-      }
-    }
-  }
-}
-
-@media (min-width: 811px) {
-  .portfolio-header {
-    top: -95px;
-    height: 400px;
-    padding: 95px 100px 0;
-    margin-bottom: -50px;
-
-    &__content {
-      display: flex;
-      height: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    &__text, &__image {
-      position: relative;
-    }
-
-    &__text {
-      width: 60%;
-      padding: 0;
-      font-size: 2em;
-
-      h1 {
-        position: absolute;
-        bottom: 30px;
-        left: 50px;
-      }
-    }
-
-    &__image {
-      width: 40%;
-
-      .geometric-figure {
-        top: 0;
-        right: auto;
-        left: -150px;
-      }
-
-      img {
-        bottom: -30px;
+        top: 50px;
         right: -50px;
-        max-width: 350px;
-      }
-    }
-  }
-}
 
-@media (min-width: 992px) {
-  .portfolio-header {
-    height: 450px;
-
-    &__text {
-      font-size: 2.5em;
-    }
-
-    &__image {
-      .geometric-figure {
         &_center, &_right::after {
           height: 200px;
           width: 200px;
@@ -127,32 +64,100 @@
       }
 
       img {
-        right: -30px;
-        max-width: 450px;
+        bottom: -30px;
+        right: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .p-hero {
+    top: -95px;
+    height: 680px;
+    padding: 95px 100px 0;
+    margin-bottom: -50px;
+
+    &__image {
+      .geometric-figure {
+        top: 100px;
+        right: 50px;
+      }
+
+      img {
+        right: 30px;
+        max-height: 350px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .p-hero {
+    &__text {
+      font-size: 2.5em;
+    }
+
+    &__image {
+      .geometric-figure {
+        top: 120px;
+        right: 100px;
+      }
+
+      img {
+        right: 100px;
       }
     }
   }
 }
 
 @media (min-width: 1175px) {
-  .portfolio-header {
+  .p-hero {
+    &__content {
+      display: flex;
+      height: 100%;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
     &__text, &__image {
+      position: relative;
       width: 50%;
     }
 
     &__text {
+      padding: 0;
       font-size: 3em;
+
+      h1 {
+        position: absolute;
+        bottom: 100px;
+      }
     }
 
     &__image {
       .geometric-figure {
-        left: -50px;
+        top: 40px;
+        right: auto;
+        left: -80px;
+
+        &_center, &_right::after {
+          height: 330px;
+          width: 330px;
+        }
+
+        &_right {
+          width: 165px;
+          height: 330px;
+        }
       }
 
       img {
-        right: 0;
-        max-width: 1000px;
-        max-height: 100%;
+        bottom: -30px;
+        right: auto;
+        left: -50px;
+        max-width: 200%;
+        max-height: 500px;
       }
     }
   }

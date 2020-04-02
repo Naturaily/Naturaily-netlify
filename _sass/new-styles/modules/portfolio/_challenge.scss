@@ -9,7 +9,7 @@
     justify-content: space-between;
     position: relative;
     height: 400px;
-    margin: 50px 0;
+    margin: 50px 0 70px;
     padding-top: 100px;
     border-top: 1px solid $color-global-font-10;
 
@@ -37,6 +37,8 @@
       }
 
       .label {
+        display: block;
+        left: 50%;
         font-size: 1.2em;
         font-weight: 200;
       }
@@ -49,14 +51,16 @@
     }
 
     &__first .label {
-      left: -75px;
+      top: -40px;
+      transform: translateX(-20%);
     }
 
     &__last {
       top: 100px;
 
       .label {
-        left: -100px;
+        top: 180px;
+        transform: translateX(-30%);
       }
 
       .image {
@@ -95,6 +99,7 @@
 
     &-picture {
       height: auto;
+      margin-bottom: 0;
 
       &::before  {
         top: calc(50% + 50px);
@@ -120,6 +125,7 @@
         left: 50px;
 
         .label {
+          top: -40px;
           left: -10px;
         }
       }

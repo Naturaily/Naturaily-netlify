@@ -55,6 +55,10 @@
         width: auto;
         height: 100%;
       }
+
+      &.wider img {
+        height: 80%;
+      }
     }
 
     .paragraph {
@@ -148,6 +152,10 @@
         width: 25%;
       }
 
+      &-image.wider img {
+        transform: translateX(-25%);
+      }
+
       .paragraph {
         width: 50%;
         padding: 0;
@@ -210,6 +218,10 @@
 
       &-image, &-subheader, .paragraph {
         width: 100%;
+      }
+
+      &-image.wider img {
+        transform: none;
       }
 
       .paragraph {
