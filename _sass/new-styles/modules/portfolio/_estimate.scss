@@ -1,9 +1,10 @@
 .p-estimate {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   background-color: $color-white;
   max-width: 350px;
   margin: 0 auto;
+  padding-bottom: 0;
 
   .section_content {
     text-align: center;

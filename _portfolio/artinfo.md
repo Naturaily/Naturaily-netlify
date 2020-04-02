@@ -4,8 +4,6 @@ slug: artinfo
 layout: portfolio-case
 image: /assets/images/portfolio/artinfo/top.png
 alt: artinfo
-image-geometric: /assets/images/portfolio/artinfo/geometric.png
-geometric-alt: geometric background
 header: Artinfo<br> <strong>The Web App</strong><br> for <strong>Live Art Auctions</strong>
 about-title: About
 about-subtitle: About ArtInfo
@@ -70,7 +68,7 @@ feature-text-3: >
   <li>check archived auction results</li>
 feature-image-3: /assets/images/portfolio/artinfo/solution3.png
 stack-title: Technological stack
-stack-image-1: /assets/images/ruby-logo.png
+stack-image-1: /assets/images/portfolio/artinfo/rails.png
 stack-alt-1: ruby on rails icon
 stack-title-1: Ruby on Rails<br> (backend)
 stack-description-1: >
@@ -82,7 +80,7 @@ stack-title-2: Vue.js<br> (frontend)
 stack-description-2: >
   We used this progressive javascript framework to develop the CMS, as well
   as employee, user and helper panels.
-stack-image-3: /assets/images/elastic-logo.png
+stack-image-3: /assets/images/portfolio/artinfo/elastic.png
 stack-alt-3: elastic search icon
 stack-title-3: Elastic<br> (search engine)
 stack-description-3: >
@@ -90,19 +88,19 @@ stack-description-3: >
   search results (artists, artworks or auction houses).
 experts-title: Naturaily experts involved in the project
 experts-number-1: 1
-experts-icon-1: icon-binoculars
+experts-icon-1: icon-man
 experts-name-1: Ruby on Rails Developers
 experts-number-2: 2
-experts-icon-2: icon-binoculars
+experts-icon-2: icon-man
 experts-name-2: Vue.js Developers
 experts-number-3: 3
-experts-icon-3: icon-binoculars
+experts-icon-3: icon-man
 experts-name-3: UX/UI Designer
 experts-number-4: 4
-experts-icon-4: icon-binoculars
+experts-icon-4: icon-man
 experts-name-4: QA Engineer
 experts-number-5: 5
-experts-icon-5: icon-binoculars
+experts-icon-5: icon-man
 experts-name-5: Project Manager
 results-title: Results
 results-subtitle: Results
@@ -161,12 +159,12 @@ numbers-description-8: >
   home, the office, and even on commute.
 testimonial-title: Testimonial
 testimonial-subtitle: Testimonial
-testimonial-image: /assets/images/portfolio/artinfo/testimonial.png
+testimonial-image: /assets/images/services/rafal.png
 testimonial-alt: artinfo founder
 testimonial-quote: >
-  <span>Artinfo is a market leader</span>
-  and a trusted institution,<br>
-  so we work only with the best
+  <span class="p-testimonial-text__secondary">Artinfo is a market leader</span>
+  <span>and a trusted institution,</span>
+  <span>so we work only with the best</span>
 testimonial-person: Rafał Kamecki
 testimonial-position: ArtInfo founder
 testimonial-text: >
