@@ -137,7 +137,7 @@ We at LingoHub are strong believers that your translation quality should not suf
 
 Utilizing quality control features, style guides and other QA possibilities from your translation management tool will allow you to increase your translation quality, too.
 
-For example, LingoChecks (our own quality control feature ) allows you to define criteria that all translated text is tested against. If any translation doesn’t meet your standards, you’ll get alerts that will inform you about it.
+For example, LingoChecks (our own quality control feature) allows you to define criteria that all translated text is tested against. If any translation doesn’t meet your standards, you’ll get alerts that will inform you about it.
 
 And, if you ever forget to actually provide translations, an [Autofill feature](https://help.lingohub.com/en/articles/3527465-understanding-autofill-feature){:target="_blank"} comes in handy. It will make sure that empty text segments are filled up with matching texts - either from your Translation Memory or by Machine Translation.
 
@@ -149,8 +149,6 @@ If you are not catering to users beyond your own country’s borders and languag
 
 Making software translations less painful and intimidating was actually the entire reason why we started LingoHub in the first place. If you’re curious to see how LingoHub - our translation management tool - works, feel free to give it a free trial. You can also reach me on Twitter at @hemju or @lingohub.
 
-|About the author
-
-**Helmut Juskewycz** is CEO and founder of LingoHub which helps companies and software makers to localise their software. Helmut is an enthusiastic entrepreneur and developer at heart with a vast experience in the technology space.|
+|About the author: **Helmut Juskewycz** is CEO and founder of LingoHub which helps companies and software makers to localise their software. Helmut is an enthusiastic entrepreneur and developer at heart with a vast experience in the technology space.|
 
 [![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
