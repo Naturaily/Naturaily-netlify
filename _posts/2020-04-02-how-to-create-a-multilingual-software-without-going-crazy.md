@@ -103,7 +103,7 @@ While many companies still keep playing translation ping-pong (think of json fil
 
 Machine Translation Engines (think of DeepL or Google Translate) have become really great and smart over the past few years. Therefore, they’ve become an interesting alternative for software teams to utilize. Still, there are a couple of things to consider when using a Machine Translation Engine for your translation efforts:
 
-* **Accelerate translator’s work:** Machine Translation Engines can accelerate your translation workflow. Let a translation engine do the work first, then let human translators tedit the machine-translated output.
+* **Accelerate translator’s work:** Machine Translation Engines can accelerate your translation workflow. Let a translation engine do the work first, then let human translators edit the machine-translated output.
 * **Use Machine Translation in addition to a translation memory:** A translation memory helps you translate text based on previously translated text. If no suggestions from the translation memory comes up, you can use machine translations to fill the gap.
 * **Machine Translation for user-generated content:** Machine Translation can be super-helpful if you need to create a lot of user-generated content quickly. Let a machine do this job for you.
 
