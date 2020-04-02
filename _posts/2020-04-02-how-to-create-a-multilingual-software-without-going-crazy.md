@@ -1,8 +1,8 @@
 ---
 title: How to Create a Multilingual Software without Going Crazy
 description: >-
-  Check out the guest post about localized software written by Helmut Juskewycz,
-  CEO & founder of LingoHub.
+  Check out the guest post about localized software written by our client -
+  Helmut Juskewycz, CEO & founder of LingoHub.
 slug: how-to-create-multilingual-software
 layout: post
 date: '2020-04-02 08:06:00 +0200'
@@ -22,6 +22,7 @@ tags:
   - Multilingual software
   - LingoHub
   - Localized software
+  - Vue.js development
 ---
 **As English is the de facto language of the internet and of our apps, localization and translation are usually after-thoughts in our software development projects.** 
 
@@ -149,6 +150,6 @@ If you are not catering to users beyond your own country’s borders and languag
 
 Making software translations less painful and intimidating was actually the entire reason why we started LingoHub in the first place. If you’re curious to see how LingoHub - our translation management tool - works, feel free to give it a free trial. You can also reach me on Twitter at @hemju or @lingohub.
 
-|About the author: **Helmut Juskewycz** is CEO and founder of LingoHub which helps companies and software makers to localise their software. Helmut is an enthusiastic entrepreneur and developer at heart with a vast experience in the technology space.|
+|About the author: **Helmut Juskewycz** is CEO and founder of LingoHub which helps companies and software makers to localize their software. Helmut is an enthusiastic entrepreneur and developer at heart with a vast experience in the technology space. Naturaily is responsible for frontend development part of the project. We have been working on LingoHub for over a year now. Our main task was to rewrite the existing part of the app from Angular to Vue.js to increase the performace and make the app easier to optimize.|
 
 [![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
