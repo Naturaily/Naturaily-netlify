@@ -151,8 +151,8 @@ If you are not catering to users beyond your own country’s borders and languag
 
 Making software translations less painful and intimidating was actually the entire reason why we started LingoHub in the first place. If you’re curious to see how LingoHub - our translation management tool - works, feel free to give it a free trial. You can also reach me on Twitter at @hemju or @lingohub.
 
-<br>
 
-|LingoHub is a platform that lets hundreds of teams manage their software translations easily. What they get is a complex yet simple app they can use for translating, storing and managing the content - all in one place. The tool offers a complex software translation service - from building a personalized Term Base to translating and file release.  To make the process even more painless, LingoHub integrates with lots of tools used by developers and professional translators.|
+
+\|LingoHub is a platform that lets hundreds of teams manage their software translations easily. What they get is a complex yet simple app they can use for translating, storing and managing the content - all in one place. The tool offers a complex software translation service - from building a personalized Term Base to translating and file release.  To make the process even more painless, LingoHub integrates with lots of tools used by developers and professional translators.|
 
 [![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
