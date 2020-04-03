@@ -87,19 +87,14 @@ stack-description-3: >
   We needed a fast and easy-to-configure search engine that will show real-time
   search results (artists, artworks or auction houses).
 experts-title: Naturaily experts involved in the project
-experts-number-1: 1
 experts-icon-1: icon-man
 experts-name-1: Ruby on Rails Developers
-experts-number-2: 2
 experts-icon-2: icon-man
 experts-name-2: Vue.js Developers
-experts-number-3: 3
 experts-icon-3: icon-man
 experts-name-3: UX/UI Designer
-experts-number-4: 4
 experts-icon-4: icon-man
 experts-name-4: QA Engineer
-experts-number-5: 5
 experts-icon-5: icon-man
 experts-name-5: Project Manager
 results-title: Results

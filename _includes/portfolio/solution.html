@@ -4,7 +4,7 @@
   <p class="portfolio-description">{{ page.solution-description }}</p>
 
   <div class="features">
-    <div class="portfolio-columns odd">
+    <div class="portfolio-columns portfolio-columns__odd">
       <div portfolio-left class="portfolio-columns__left description">
         <h3 class="features-header">{{ page.feature-title-1 }}</h3>
         <ul class="portfolio-list">{{ page.feature-text-1 }}</ul>
@@ -13,7 +13,7 @@
         <img src="{{ page.feature-image-1 }}" />
       </div>
     </div>
-    <div class="portfolio-columns even">
+    <div class="portfolio-columns portfolio-columns__even">
       <div portfolio-left class="portfolio-columns__left image">
         <img src="{{ page.feature-image-2 }}" />
       </div>
@@ -22,7 +22,7 @@
         <ul class="portfolio-list">{{ page.feature-text-2 }}</ul>
       </div>
     </div>
-    <div class="portfolio-columns odd">
+    <div class="portfolio-columns portfolio-columns__odd">
       <div portfolio-left class="portfolio-columns__left description">
         <h3 class="features-header">{{ page.feature-title-3 }}</h3>
         <ul class="portfolio-list">{{ page.feature-text-3 }}</ul>
@@ -37,7 +37,7 @@
     <h3 class="stack-header"> {{ page.stack-title }} </h3>
     <ul portfolio-bottom class="portfolio-columns">
       <li>
-        <div class="stack-image wider">
+        <div class="stack-image stack-image__wider">
           <img src="{{ page.stack-image-1 }}" alt="{{ page.stack-alt-1 }}"/>
         </div>
         <h4 class="stack-subheader">{{ page.stack-title-1 }}</h4>
@@ -64,27 +64,27 @@
     <h3 class="experts-header"> {{ page.experts-title }} </h3>
     <ul portfolio-bottom class="portfolio-columns">
       <li>
-        <span class="experts-number">{{ page.experts-number-1 }}</span>
+        <div class="experts-number"><span>1</span></div>
         <span class="icon {{ page.experts-icon-1 }}"></span>
         <p class="paragraph">{{ page.experts-name-1 }}</p>
       </li>
       <li>
-        <span class="experts-number">{{ page.experts-number-2 }}</span>
+        <div class="experts-number"><span>2</span></div>
         <span class="icon {{ page.experts-icon-2 }}"></span>
         <p class="paragraph">{{ page.experts-name-2 }}</p>
       </li>
       <li>
-        <span class="experts-number">{{ page.experts-number-3 }}</span>
+        <div class="experts-number"><span>3</span></div>
         <span class="icon {{ page.experts-icon-3 }}"></span>
         <p class="paragraph">{{ page.experts-name-3 }}</p>
       </li>
       <li>
-        <span class="experts-number">{{ page.experts-number-4 }}</span>
+        <div class="experts-number"><span>4</span></div>
         <span class="icon {{ page.experts-icon-4 }}"></span>
         <p class="paragraph">{{ page.experts-name-4 }}</p>
       </li>
       <li>
-        <span class="experts-number">{{ page.experts-number-5 }}</span>
+        <div class="experts-number"><span>5</span></div>
         <span class="icon {{ page.experts-icon-5 }}"></span>
         <p class="paragraph">{{ page.experts-name-5 }}</p>
       </li>

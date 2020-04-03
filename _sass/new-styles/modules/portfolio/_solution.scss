@@ -20,13 +20,14 @@
       flex-direction: column;
       padding: 50px 0;
 
-      &.even {
+      &__even {
         flex-direction: column-reverse;
       }
     }
 
     .image {
       position: relative;
+      overflow: visible;
 
       img {
         width: 100%;
@@ -58,7 +59,7 @@
         height: 100%;
       }
 
-      &.wider img {
+      &__wider img {
         height: 80%;
       }
     }
@@ -110,15 +111,21 @@
       left: 0;
       top: 50%;
       transform: translate(-50%, -50%);
-      height: 1.5em;
-      width: 1.5em;
-      padding: 3px;
-      font-size: 0.9em;
-      line-height: 1.45em;
-      text-align: center;
-      border-radius: 100%;
-      background-color: $color-accent-yellow;
-      color: $color-white;
+      padding: 10px;
+
+      span {
+        display: block;
+        padding: 3px;
+        height: 1.5em;
+        width: 1.5em;
+        padding: 3px;
+        font-size: 0.9em;
+        line-height: 1.5em;
+        text-align: center;
+        border-radius: 100%;
+        background-color: $color-accent-yellow;
+        color: $color-white;
+      }
     }
 
     .icon {
@@ -154,7 +161,7 @@
         width: 25%;
       }
 
-      &-image.wider img {
+      &-image__wider img {
         transform: translateX(-25%);
       }
 
@@ -170,7 +177,7 @@
 @media (min-width: 811px) {
   .p-solution  {
     .features .portfolio-columns {
-      flex-direction: row !important;
+      flex-direction: row;
       align-items: center;
       justify-content: space-between;
 
@@ -185,18 +192,25 @@
       }
 
       .image {
-        padding: 0;
+        display: flex;
+        padding: 5px;
 
         img {
           width: calc(100% + 50px);
         }
       }
 
-      &.odd .description {
-        padding-right: 50px;
+      &__odd  {
+        .description {
+          padding-right: 50px;
+        }
+
+        .image {
+          justify-content: flex-end;
+        }
       }
 
-      &.even {
+      &__even {
         .description {
           left: 50px;
           padding-left: 50px;
@@ -222,7 +236,7 @@
         width: 100%;
       }
 
-      &-image.wider img {
+      &-image__wider img {
         transform: none;
       }
 
@@ -266,7 +280,7 @@
 
 @media (min-width: 992px) {
   .p-solution .features {
-    .odd, .even {
+    &__odd, &__even {
       padding: 40px 0;
 
       .image img {
@@ -284,7 +298,7 @@
     }
 
     &-number {
-      transform: translate(-77px, -50%);
+      transform: translate(-215%, -50%);
     }
 
     .paragraph {

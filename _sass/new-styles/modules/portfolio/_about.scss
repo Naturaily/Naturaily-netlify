@@ -9,13 +9,13 @@
     width: 20px;
     border-radius: 100%;
 
-    &.darker-dot {
+    &__darker {
       top: 60px;
       right: 250px;
       background-color: $color-secondary;
     }
 
-    &.lighter-dot {
+    &__lighter {
       top: 200px;
       right: 30px;
       background-color: $color-accent-yellow;
