@@ -36,7 +36,7 @@ AngularJS code should be quite clear and easy to follow but this project is rema
 
 Angular is a typical framework. It has a lot of built-in features that don’t exist in Vue. We have to recreate them from the ground up or turn to external libraries as we go in the Vue project.
 
-## Why is the project migrating from AngularJS to Vue and TypeScript? 
+## Why is the project migrating from AngularJS to Vue and TypeScript?
 
 It’s difficult to maintain an application developed with old technology. It unnecessarily takes more of the developer’s valuable time. Fewer and fewer developers want to work on old code, especially if the code doesn’t have a clear and consistent architecture.
 
@@ -49,6 +49,7 @@ So far, Vue CLI provides built-in TypeScript tooling support. Unfortunately, it 
 ```typescript
 @Getter(‘info’) info: string;
 ```
+
 To give you a bit of context, here’s some code:
 
 ```typescript
@@ -89,7 +90,6 @@ There are a few issues we had during the migration from AngularJS application to
 
 If you have a JavaScript background, **getting used to TypeScript may take a little while**. It all comes down to how much time do you have to spend on looking for solutions to problems you **will** encounter during the development. You will have to dive deep into some forums to find solutions you need. But things get better as you get the hang of it, you will understand where certain errors come from and will be able to solve them quicker each time. 
 
-
 ## 3rd-party libraries
 
 On top of ‘regular’ Vue error search, we also have to take TypeScript under consideration. **Some libraries are not tested for TypeScript**, some don’t support it at all. We found that **3rd party libraries were the source of the vast majority of the issues we encountered in this project**. 
@@ -112,10 +112,16 @@ Our development team has a JavaScript background. Getting used to TypeScript too
 * Interfaces tell us a lot about the data. Documentation is not always available and you would have to check each and every endpoint via Postman or similar tool. Well-developed interfaces tell you everything you need to know, they essentially become your documentation. Plus, they make your code more consistent. 
 * While TypeScript has a lot to offer, after almost 15 years of experience in JavaScript, I don’t see it as a necessity. On the other hand, I realize that it’s definitely the direction the whole JavaScript ecosystem is heading, including large companies - you simply don’t want to be missing out on this topic. 
 
-## Should you migrate your AngularJS app to Vue with TypeScript? 
+## Should you migrate your AngularJS app to Vue with TypeScript?
 
 It mainly depends on the time you can spend on it. You have to take necessary hours of head scratching and Vue/TypeScript bugs search under consideration, especially if you don’t have a lot of prior experience with TypeScript. After a few months of development we came to a conclusion that many issues were caused by developers’ lack of knowledge on certain topics. First steps are difficult, but things get better with time. 
 
 I don’t recommend TypeScript for small projects or quick prototypes, JavaScript will be a much better option.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+<br>
+
+|If you want to know more about the project itself, [read following article written by Helmut Juskewycz, CEO & founder of LingoHub](https://naturaily.com/blog/how-to-create-multilingual-software).|
+
+<br>
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
