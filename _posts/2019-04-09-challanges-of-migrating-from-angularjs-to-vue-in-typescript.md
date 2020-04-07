@@ -47,7 +47,7 @@ The Product Owner has a lot of experience with Java. It’s easier for him to re
 So far, Vue CLI provides built-in TypeScript tooling support. Unfortunately, it doesn’t work with TS that great out of the box. We found that some helper libraries were necessary to work comfortably. To name a few, we’re actively using [`vue-property-decorator`](https://github.com/vuejs/vue-class-component){:rel="nofollow"}{:target="_blank"} and [`vuex-class`](https://github.com/ktsn/vuex-class){:rel="nofollow"}{:target="_blank"}. These libraries gave us the ability to use Decorators, making out code more readable. Decorators are basically telling the transpiler to create a method of a certain type. Here’s an example of a getter: 
 
 ```typescript
-@Getter(‘info’) info: string;
+@Getter('info') info: string;
 ```
 
 To give you a bit of context, here’s some code:
