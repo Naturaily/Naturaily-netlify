@@ -7,21 +7,25 @@
       <p class="paragraph">{{ page.challenge-column-1 }}</p>
     </div>
     <div portfolio-right class="portfolio-columns__right">
-      <p portfolio-right class="paragraph">{{ page.challenge-column-2 }}</p>
+      {% if page.challenge-column-2%}
+        <p portfolio-right class="paragraph">{{ page.challenge-column-2 }}</p>
+      {% endif %}
     </div>
   </div>
 
-  <div class="p-challenge-picture">
-    <div portfolio-left class="p-challenge-picture__first">
-      <span class="label">{{ page.challenge-description-1 }}</span>
-      <img class="image" src="{{ page.challenge-image-1 }}"/>
+  {% if page.challenge-image-1 %}
+    <div class="p-challenge-picture">
+      <div portfolio-left class="p-challenge-picture__first">
+        <span class="label">{{ page.challenge-description-1 }}</span>
+        <img class="image" src="{{ page.challenge-image-1 }}"/>
+      </div>
+      <div portfolio-bottom class="p-challenge-picture__arrows">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div portfolio-right class="p-challenge-picture__last">
+        <span class="label">{{ page.challenge-description-2 }}</span>
+        <img class="image" src="{{ page.challenge-image-2 }}"/>
+      </div>
     </div>
-    <div portfolio-bottom class="p-challenge-picture__arrows">
-      <span></span><span></span><span></span><span></span><span></span>
-    </div>
-    <div portfolio-right class="p-challenge-picture__last">
-      <span class="label">{{ page.challenge-description-2 }}</span>
-      <img class="image" src="{{ page.challenge-image-2 }}"/>
-    </div>
-  </div>
+  {% endif %}
 </div>

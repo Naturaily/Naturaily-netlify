@@ -1,94 +1,118 @@
-<div class="portfolio-section p-solution">
+<div class="portfolio-section p-solution {{ page.solution-class }}">
   <span class="portfolio-step">{{ page.solution-title }}</span>
   <h2 class="portfolio-title">{{ page.solution-subtitle }}</h2>
-  <p class="portfolio-description">{{ page.solution-description }}</p>
 
-  <div class="features">
-    <div class="portfolio-columns portfolio-columns__odd">
-      <div portfolio-left class="portfolio-columns__left description">
-        <h3 class="features-header">{{ page.feature-title-1 }}</h3>
-        <ul class="portfolio-list">{{ page.feature-text-1 }}</ul>
+  {% if page.solution-description %}
+    <p class="portfolio-description">{{ page.solution-description }}</p>
+  {% endif %}
+
+  {% if page.solution-column-1 %}
+    <div class="portfolio-columns solutions-intro">
+      <div class="portfolio-columns__left" portfolio-left>
+        <p class="paragraph">{{ page.solution-column-1 }}</p>
       </div>
-      <div portfolio-right class="portfolio-columns__right image">
-        <img src="{{ page.feature-image-1 }}" />
+      <div portfolio-right class="portfolio-columns__right" portfolio-right>
+        <img src="{{ page.solution-image }}" alt="page.solution-alt"/>
       </div>
     </div>
-    <div class="portfolio-columns portfolio-columns__even">
-      <div portfolio-left class="portfolio-columns__left image">
-        <img src="{{ page.feature-image-2 }}" />
-      </div>
-      <div portfolio-right class="portfolio-columns__right description">
-        <h3 class="features-header">{{ page.feature-title-2 }}</h3>
-        <ul class="portfolio-list">{{ page.feature-text-2 }}</ul>
-      </div>
-    </div>
-    <div class="portfolio-columns portfolio-columns__odd">
-      <div portfolio-left class="portfolio-columns__left description">
-        <h3 class="features-header">{{ page.feature-title-3 }}</h3>
-        <ul class="portfolio-list">{{ page.feature-text-3 }}</ul>
-      </div>
-      <div portfolio-right class="portfolio-columns__right image">
-        <img src="{{ page.feature-image-3 }}" />
-      </div>
-    </div>
-  </div>
+  {% endif %}
 
-  <div class="stack">
-    <h3 class="stack-header"> {{ page.stack-title }} </h3>
-    <ul portfolio-bottom class="portfolio-columns">
-      <li>
-        <div class="stack-image stack-image__wider">
-          <img src="{{ page.stack-image-1 }}" alt="{{ page.stack-alt-1 }}"/>
-        </div>
-        <h4 class="stack-subheader">{{ page.stack-title-1 }}</h4>
-        <p class="paragraph">{{ page.stack-description-1 }}</p>
-      </li>
-      <li>
-        <div class="stack-image">
-          <img src="{{ page.stack-image-2 }}" alt="{{ page.stack-alt-2 }}"/>
-        </div>
-        <h4 class="stack-subheader">{{ page.stack-title-2 }}</h4>
-        <p class="paragraph">{{ page.stack-description-2 }}</p>
-      </li>
-      <li>
-        <div class="stack-image">
-          <img src="{{ page.stack-image-3 }}" alt="{{ page.stack-alt-3 }}"/>
-        </div>
-        <h4 class="stack-subheader">{{ page.stack-title-3 }}</h4>
-        <p class="paragraph">{{ page.stack-description-3 }}</p>
-      </li>
-    </ul>
-  </div>
+  {% if page.solutions %}
+    <div class="solutions">
 
-  <div class="experts">
-    <h3 class="experts-header"> {{ page.experts-title }} </h3>
-    <ul portfolio-bottom class="portfolio-columns">
-      <li>
-        <div class="experts-number"><span>1</span></div>
-        <span class="icon {{ page.experts-icon-1 }}"></span>
-        <p class="paragraph">{{ page.experts-name-1 }}</p>
-      </li>
-      <li>
-        <div class="experts-number"><span>2</span></div>
-        <span class="icon {{ page.experts-icon-2 }}"></span>
-        <p class="paragraph">{{ page.experts-name-2 }}</p>
-      </li>
-      <li>
-        <div class="experts-number"><span>3</span></div>
-        <span class="icon {{ page.experts-icon-3 }}"></span>
-        <p class="paragraph">{{ page.experts-name-3 }}</p>
-      </li>
-      <li>
-        <div class="experts-number"><span>4</span></div>
-        <span class="icon {{ page.experts-icon-4 }}"></span>
-        <p class="paragraph">{{ page.experts-name-4 }}</p>
-      </li>
-      <li>
-        <div class="experts-number"><span>5</span></div>
-        <span class="icon {{ page.experts-icon-5 }}"></span>
-        <p class="paragraph">{{ page.experts-name-5 }}</p>
-      </li>
-    </ul>
-  </div>
+      {% for solution in page.solutions %}
+        <div class="portfolio-columns {{ solution.solution.class }}">
+          <div class="portfolio-columns__left description" {{ solution.solution.animation1 }}>
+            {% if solution.solution.title %}
+              <h3 class="solutions-header">{{ solution.solution.title }}</h3>
+            {% endif %}
+            <p class="paragraph">{{ solution.solution.text }}</p>
+          </div>
+          <div class="portfolio-columns__right image" {{ solution.solution.animation2 }}>
+            <img src="{{ solution.solution.image }}" alt="{{ solution.solution.alt }}"/>
+            <figure class="geometric-figure {{ solution.solution.geometric-class }}">
+              <div class="geometric-figure_center"></div>
+              <div class="geometric-figure_right"></div>
+            </figure>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+  {% endif %}
+
+  {% if page.features %}
+    <div class="features">
+
+      {% for feature in page.features %}
+        <div class="portfolio-columns {{ feature.feature.class }}">
+          <div class="portfolio-columns__left description" {{ feature.feature.animation1 }}>
+            <h3 class="features-header">{{ feature.feature.title }}</h3>
+            <ul class="portfolio-list">{{ feature.feature.list }}</ul>
+          </div>
+          <div class="portfolio-columns__right image" {{ feature.feature.animation2 }}>
+            <img src="{{ feature.feature.image }}" />
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+  {% endif %}
+
+  {% if page.stack %}
+    <div class="stack">
+      <h3 class="stack-header"> {{ page.stack-title }} </h3>
+      <ul portfolio-bottom class="portfolio-columns">
+
+        {% for technology in page.stack %}
+          <li>
+            <div class="stack-image {{ technology.technology.class }}">
+              <img src="{{ technology.technology.image }}" alt="{{ technology.technology.alt }}"/>
+            </div>
+            <h4 class="stack-subheader">{{ technology.technology.name }}</h4>
+            <p class="paragraph">{{ technology.technology.description }}</p>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  {% endif %}
+
+  {% if page.tools %}
+    <div class="stack stack__tools">
+      <h3 class="stack-header"> {{ page.tools-title }} </h3>
+      <ul portfolio-bottom class="portfolio-columns">
+
+        {% for tool in page.tools %}
+          <li>
+            <div class="stack-image {{ tool.tool.class }}">
+              <img src="{{ tool.tool.image }}" alt="{{ tool.tool.alt }}"/>
+            </div>
+            <h4 class="stack-subheader">{{ tool.tool.name }}</h4>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  {% endif %}
+
+  {% if page.experts %}
+    <div class="experts">
+      <h3 class="experts-header"> {{ page.experts-title }} </h3>
+      <ul portfolio-bottom class="portfolio-columns">
+
+        {% for expert in page.experts %}
+          <li>
+            <div class="experts-number">
+              <span>{{ expert.expert.number }}</span>
+            </div>
+            <span class="icon icon-man"></span>
+            <p class="paragraph">{{ expert.expert.name }}</p>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  {% endif %}
 
 </div>

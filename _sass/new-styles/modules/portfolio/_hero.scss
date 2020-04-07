@@ -26,6 +26,16 @@
       top: 70px;
       right: 10px;
       z-index: -1;
+
+      &__blue {
+        .geometric-figure_center {
+          border-color: $color-geometric-green;
+        }
+
+        .geometric-figure_right::after {
+          background-color: $color-geometric-blue;
+        }
+      }
     }
 
     img {

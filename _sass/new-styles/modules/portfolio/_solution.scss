@@ -1,9 +1,5 @@
-.p-solution  {
-  margin-top: 75px;
-  border-radius: 8px;
-  background-color: $color-code-orange-bg;
-
-  .features, .stack, .experts {
+.p-solution {
+  .solutions, .features, .stack, .experts {
     &-header {
       font-size: 1.2em;
       font-weight: 200;
@@ -14,7 +10,7 @@
     }
   }
 
-  .features {
+  .solutions, .features {
     .portfolio-columns {
       display: flex;
       flex-direction: column;
@@ -44,11 +40,26 @@
     }
   }
 
+  .solutions {
+    &-intro {
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
   .stack {
     margin: 50px 0;
     padding: 50px 0;
     border-top: 1px solid $color-global-font-10;
     border-bottom: 1px solid $color-global-font-10;
+
+    &__tools {
+      padding-top: 0;
+      margin-top: 0;
+      border-top: none;
+    }
 
     &-image {
       height: 50px;
@@ -72,10 +83,12 @@
     }
 
     .portfolio-columns {
+      flex-wrap: wrap;
       margin-top: 25px;
       list-style: none;
 
       li {
+        box-sizing: border-box;
         padding: 25px;
       }
     }
@@ -176,8 +189,8 @@
 
 @media (min-width: 811px) {
   .p-solution  {
+    .solutions .portfolio-columns,
     .features .portfolio-columns {
-      flex-direction: row;
       align-items: center;
       justify-content: space-between;
 
@@ -201,6 +214,8 @@
       }
 
       &__odd  {
+        flex-direction: row;
+
         .description {
           padding-right: 50px;
         }
@@ -211,6 +226,8 @@
       }
 
       &__even {
+        flex-direction: row-reverse;
+
         .description {
           left: 50px;
           padding-left: 50px;
