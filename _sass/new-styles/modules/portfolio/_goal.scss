@@ -1,46 +1,101 @@
 .p-goal {
   width: 100%;
 
-  .portfolio-columns__right {
-    text-align: right;
+  .paragraph {
+    color: $color-portfolio-text;
+  }
 
-    img {
-      width: 100%;
-      max-width: 450px;
+  &-main {
+    &__description {
+      line-height: 1.5;
+      color: $color-portfolio-text-second;
+    }
+
+    .portfolio-columns__right {
+      text-align: right;
+
+      img {
+        width: 100%;
+        max-width: 450px;
+      }
     }
   }
 
-  .paragraph {
-    color: $color-portfolio-text;
+  &-details {
+    &__image {
+      position: relative;
+      width: 215px;
+      height: 215px;
+      border-radius: 100%;
+      background-color: $color-geometric-blue;
+
+      img {
+        width: 70%;
+      }
+
+      &.alvin img {
+        transform: translate(25%, 25%);
+      }
+
+      &.visnet img {
+        transform: translate(25%, 35%);
+      }
+    }
+
+    .dot {
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      border-radius: 100%;
+      background-color: $color-secondary;
+    }
   }
 }
 
 @media (min-width: 811px) {
   .p-goal {
-    .portfolio-columns  {
-      position: relative;
-      top: -100px;
-      margin-bottom: -100px;
+    .paragraph {
+      font-size: 0.9em;
+    }
 
-      &__right img {
-        width: 140%;
-        max-width: 600px;
-        margin-top: 30px;
+    &-main {
+      &__description {
+        font-size: 1.2em;
+        font-weight: 200;
+      }
+
+      .portfolio-columns  {
+        position: relative;
+        top: -100px;
+        margin-bottom: -100px;
+
+        &__right img {
+          width: 140%;
+          max-width: 600px;
+          margin-top: 30px;
+        }
+      }
+
+      .paragraph {
+        padding-top: 100px;
       }
     }
 
-    .paragraph {
-      padding-top: 100px;
-      font-size: 0.9em;
-    }
-  }
-}
+    &-details {
+      margin-top: 100px;
 
-@media (min-width: 992px) {
-  .p-goal {
-    &-image {
-      img {
-        margin-top: 30px;
+      .portfolio-columns {
+        &__left {
+          padding-right: 15px;
+        }
+
+        &__right {
+          padding-left: 15px;
+        }
+      }
+
+      .paragraph {
+        padding-top: 50px;
       }
     }
   }
@@ -49,7 +104,7 @@
 
 @media (min-width: 1175px) {
   .p-goal {
-    .paragraph {
+    &-main .paragraph {
       padding-right: 100px;
     }
   }

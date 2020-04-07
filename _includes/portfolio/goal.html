@@ -2,21 +2,46 @@
   <span class="portfolio-step">{{ page.goal-title }}</span>
   <h2 class="portfolio-title">{{ page.goal-subtitle }}</h2>
 
-  <div class="portfolio-columns">
+  <div class="portfolio-columns p-goal-main">
     <div portfolio-left class="portfolio-columns__left">
-      <p class="paragraph">{{ page.goal-text }}</p>
-      <div class="portfolio-credits">
-        <p class="portfolio-credits__person">
-          <span class="credit-dot"></span>
-          {{ page.goal-person }}
-        </p>
-        <p class="portfolio-credits__position">
-          {{ page.goal-position }}
-        </p>
-      </div>
+      {% if page.goal-person %}
+        <p class="paragraph">{{ page.goal-text }}</p>
+        <div class="portfolio-credits">
+          <p class="portfolio-credits__person">
+            <span class="credit-dot"></span>
+            {{ page.goal-person }}
+          </p>
+          <p class="portfolio-credits__position">
+            {{ page.goal-position }}
+          </p>
+        </div>
+      {% else %}
+        <p class="p-goal-main__description">{{ page.goal-text }}</p>
+      {% endif %}
     </div>
     <div portfolio-right class="portfolio-columns__right">
-      <img src="{{ page.goal-image }}" alt="{{ page.goal-alt }}"/>
+      {% if page.goal-image %}
+        <img src="{{ page.goal-image }}" alt="{{ page.goal-alt }}" />
+      {% endif %}
     </div>
   </div>
+
+  {% if page.goal-column-1 %}
+    <div class="portfolio-columns p-goal-details">
+      <div portfolio-left class="portfolio-columns__left">
+        <span class="dot"></span>
+        <div class="p-goal-details__image {{ page.goal-image-class-1 }}">
+          <img src="{{ page.goal-image-1 }}" alt="{{ page.goal-alt-1 }}" />
+        </div>
+        <p class="paragraph">{{ page.goal-column-1 }}</p>
+      </div>
+      <div portfolio-right class="portfolio-columns__right">
+        <span class="dot"></span>
+        <div class="p-goal-details__image {{ page.goal-image-class-2 }}">
+          <img src="{{ page.goal-image-2 }}" alt="{{ page.goal-alt-2 }}" />
+        </div>
+        <p class="paragraph">{{ page.goal-column-2 }}</p>
+      </div>
+    </div>
+  {% endif %}
 </div>
