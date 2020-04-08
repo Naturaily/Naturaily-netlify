@@ -11,7 +11,8 @@
     }
 
     img {
-      max-width: 90%;
+      width: 90%;
+      max-width: 280px;
       margin-bottom: 50px;
     }
   }
@@ -41,22 +42,24 @@
 
   .dot-lvcloud {
     &__darker {
-      top: 0;
-      right: 50px;
+      top: -10px;
+      right: 30px;
       background-color: $color-accent-yellow;
     }
 
     &__lighter {
       bottom: 0;
-      left: 0;
+      left: 40px;
       background-color: $color-geometric-blue;
     }
   }
 }
 
 @media (min-width: 576px) {
-  .p-about .portfolio-columns__right img {
-    max-width: 350px;
+  .p-about .dot-lvcloud {
+    &__darker {
+      right: 70px;
+    }
   }
 }
 
@@ -67,7 +70,7 @@
 
       img {
         margin-top: -100px;
-        max-width: 90%;
+        width: 280px;
       }
     }
 
@@ -87,10 +90,6 @@
 
 @media (min-width: 992px) {
   .p-about {
-    .portfolio-columns__right img {
-      max-width: 300px;
-    }
-
     .dot-lvcloud__lighter {
       left: auto;
       right: 300px;

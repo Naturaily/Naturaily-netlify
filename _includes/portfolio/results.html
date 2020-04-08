@@ -4,15 +4,16 @@
   <div class="portfolio-columns">
     <div portfolio-left class="portfolio-columns__left">
       <h2 class="portfolio-title">{{ page.results-subtitle }}</h2>
-      <p class="paragraph">{{ page.results-list-title }}</p>
 
       {% if page.results-list %}
+        <p class="paragraph p-results-title">{{ page.results-list-title }}</p>
         <ul class="portfolio-list">{{ page.results-list }}</ul>
       {% else %}
+        <p class="paragraph">{{ page.results-paragraph }}</p>
       {% endif %}
 
     </div>
-    <div portfolio-right class="portfolio-columns__right">
+    <div portfolio-right class="portfolio-columns__right {% unless page.results-list %} reversed {% endunless %}">
       <p class="paragraph">{{ page.results-text }}</p>
       <img src="{{ page.results-image }}" alt="{{page.results-alt}}"/>
     </div>

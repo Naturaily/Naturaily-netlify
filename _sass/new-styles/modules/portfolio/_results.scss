@@ -6,31 +6,45 @@
       padding: 10px 25px 10px 40px;
     }
 
-    &__left {
-      .paragraph {
-        font-size: 0.8em;
-        font-weight: 600;
-        color: $color-portfolio-text;
-
-        &::after {
-          content: ":";
-        }
-      }
-    }
-
-    &__right {
-      padding: 0 25px;
-
+    &__left, &__right {
       .paragraph {
         padding: 25px 0 50px;
         line-height: 1.5;
         font-size: 1.2em;
         font-weight: 300;
       }
+    }
 
-      img {
-        max-width: 100%;
+    &__right {
+      padding: 0 25px;
+
+      .paragraph span {
+        font-size: 1em;
       }
+
+      &.reversed {
+        flex-direction: column-reverse;
+
+        .paragraph span {
+          display: block;
+          padding-bottom: 20px;
+          font-size: 0.75em;
+        }
+
+        img {
+          width: calc(100% + 50px);
+        }
+      }
+    }
+  }
+
+  &-title {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: $color-portfolio-text;
+
+    &::after {
+      content: ":";
     }
   }
 

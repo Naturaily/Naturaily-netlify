@@ -16,7 +16,7 @@ about-column-1: >
   asset management solutions for testing and monitoring power networks.
   The business is a world leader in electrical asset management, fault detection
   and failure prevention. It provides customers with a state-of-the-art
-  LV network automation solution – ALVIN.<br>
+  LV network automation solution – ALVIN.<br><br>
   The company was founded in 1966 and now has more than 200 employees around
   the world.
 about-image: /assets/images/portfolio/lvcloud/about-map.png
@@ -43,14 +43,14 @@ goal-alt-2: VisNet
 goal-column-2: >
   VisNet® Hub checks the voltage and current data on every LV feeder, giving
   insights about the load, faults and condition of respective devices across
-  the network. <br>
+  the network.<br><br>
   This data is critical to network operators in order to improve both network
   flexibility and efficiency, together with security and quality of supply,
   as low carbon technologies become more widespread. - If you want to know more
   about the device, you will find it <a class="text-secondary" href="#">here</a>.
 video-title: Video
 video-subtitle: Video
-video-url: --
+video-url: https://www.youtube.com/embed/hfQwaI5b768
 challenge-title: Challenge
 challenge-subtitle: The challenge
 challenge-column-1: >
@@ -72,7 +72,7 @@ solution-column-1: >
 solutions:
   - solution:
       title: How did the IoT application development process go?
-      image: /assets/images/portfolio/artinfo/solution1.png
+      image: /assets/images/portfolio/lvcloud/solution1.png
       alt: lvcloud mobile panel
       class: portfolio-columns__odd
       geometric-class: geometric-figure__schema1
@@ -92,7 +92,7 @@ solutions:
         Each device collects different types of data, including low voltage,
         high voltage, power, current, temperature of the device, temperature
         inside and outside the substation, and humidity.
-      image: /assets/images/portfolio/artinfo/solution1.png
+      image: /assets/images/portfolio/lvcloud/solution2.png
       alt: lvcloud mobile data charts
       class: portfolio-columns__even
       geometric-class: geometric-figure__schema2
@@ -105,7 +105,7 @@ solutions:
         platform. Parsed measurements are received by the main application
         and saved to a MongoDB database.
   - solution:
-      image: /assets/images/portfolio/artinfo/solution1.png
+      image: /assets/images/portfolio/lvcloud/solution3.png
       alt: lvcloud mobile panel
       class: portfolio-columns__odd
       geometric-class: geometric-figure__schema3
@@ -115,23 +115,30 @@ solutions:
         These huge amounts of data could be useless if they were unreadable
         and difficult to interpret. That’s why we have chosen
         <strong>Vue.js</strong> in the frontend development, with
-        <strong>Highcharts</strong> to present the data neatly.<br>
+        <strong>Highcharts</strong> to present the data neatly.<br><br>
         Our choice of Vue.js (combined with <strong>jQuery</strong> library)
         was also because of its performance and suitability to build stable,
         large-scale solutions. This combination guaranteed the acceleration
-        and facilitation of the development process.<br>
+        and facilitation of the development process.<br><br>
         If you want to know more about Highcharts itself, <a class="text-secondary"
         href="#">follow the link to one of our blog posts</a>.
-tab-title-1--: Architecture
-tab-picture-1--: ...
-tab-title-2--: Data collectors/parsers
-tab-picture-2--: ...
-tab-title-3--: Sample Commands Senders
-tab-picture-3--: ...
+tabs:
+  - tab:
+      id: architecture
+      title: Architecture
+      image: /assets/images/portfolio/lvcloud/tab1.png
+  - tab:
+      id: data
+      title: Data collectors/parsers
+      image: /assets/images/portfolio/lvcloud/tab2.png
+  - tab:
+      id: commands
+      title: Sample Commands Senders
+      image: /assets/images/portfolio/lvcloud/tab3.png
 features:
   - feature:
       title: Some of the LV Cloud features
-      image: /assets/images/portfolio/artinfo/solution1.png
+      image: /assets/images/portfolio/lvcloud/features1.png
       class: portfolio-columns__odd
       animation1: portfolio-left
       animation2: portfolio-right
@@ -145,7 +152,7 @@ features:
         <li>presenting the event log of the device and their waveforms</li>
   - feature:
       title: Features from the user's perspective
-      image: /assets/images/portfolio/artinfo/solution1.png
+      image: /assets/images/portfolio/lvcloud/features2.png
       class: portfolio-columns__even
       animation1: portfolio-right
       animation2: portfolio-left
@@ -250,8 +257,7 @@ experts:
       name: Project Manager
 results-title: Results
 results-subtitle: The results
-results-list-title: --
-results-list: >
+results-paragraph: >
   Developing smart grid solutions has helped many Distribution Network
   Operators, as well as the industry in general, begin to understand, plan
   and implement practical solutions for future networks.<br>
@@ -264,7 +270,7 @@ results-text: >
   a failure and when it's going to repair itself.</span>
   This helps to provide continuous energy supply, reduce the response time
   and avoid financial penalties for power outages.
-results-image: ...
+results-image: /assets/images/portfolio/lvcloud/results.png
 results-alt: transmission tower photo
 numbers-title: LVCloud in numbers
 numbers-image--: ...
@@ -317,11 +323,10 @@ companies-quote: >
   to respond to faults, restoring supplies for our customers more quickly.
 testimonial-title: Testimonial
 testimonial-subtitle: Testimonial
-testimonial-image: ...
+testimonial-image: /assets/images/portfolio/lvcloud/testimonial.png
 testimonial-quote: >
-  <span class="p-testimonial-text__secondary">Working with Naturaily</span>has been
-  <span>a pleasure from the very beginning</span>
-  <span>of the project</span>
+  <span class="p-testimonial-text__secondary">Working with Naturaily </span>
+  has been a pleasure from the very beginning of the project
 testimonial-person: Chris Lowsley
 testimonial-position: Director – LV Solutions at EA Technology
 testimonial-text: >
@@ -335,7 +340,7 @@ testimonial-text: >
   things right.
 estimate-text-1: >
   LV Cloud is an example of a highly performant & large-scale IoT application
-  <span>Do you wat to build an analogous solution suited to your industry
+  <span>Do you want to build an analogous solution suited to your industry
   needs?</span>
 
 ---
