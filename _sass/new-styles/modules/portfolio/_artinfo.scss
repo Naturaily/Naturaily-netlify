@@ -1,19 +1,19 @@
-.portfolio-section {
-  .challenge-picture, .challenge-picture-arrows {
+.p-challenge {
+  &-picture, &-picture__arrows {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .challenge-picture {
+  &-picture {
     justify-content: space-between;
     position: relative;
     height: 400px;
-    margin-top: 100px;
+    margin: 50px 0 70px;
     padding-top: 100px;
     border-top: 1px solid $color-global-font-10;
 
-    &::before  {
+    &::before {
       content: " ";
       display: block;
       position: absolute;
@@ -23,7 +23,7 @@
       background-color: $color-global-font-10;
     }
 
-    &-image {
+    &__first, &__last {
       position: relative;
       height: 150px;
       width: 150px;
@@ -32,42 +32,43 @@
       border: 1px solid $color-global-font-10;
       background-color: $color-white;
 
-      span {
+      .label, .image {
         position: relative;
+      }
+
+      .label {
+        display: block;
+        left: 50%;
         font-size: 1.2em;
         font-weight: 200;
       }
 
-      img {
+      .image {
         position: relative;
         width: 120px;
-      }
-    }
-
-    &-image:first-of-type {
-      img {
         left: 15px;
       }
-
-      span {
-        left: -75px;
-      }
     }
 
-    &-image:last-of-type {
+    &__first .label {
+      top: -40px;
+      transform: translateX(-20%);
+    }
+
+    &__last {
       top: 100px;
 
-      img {
-        top: -30px;
-        left: 15px;
+      .label {
+        top: 180px;
+        transform: translateX(-30%);
       }
 
-      span {
-        left: -100px;
+      .image {
+        top: -30px;
       }
     }
 
-    &-arrows {
+    &__arrows {
       justify-content: space-around;
       position: absolute;
       top: 270px;
@@ -84,16 +85,21 @@
       }
     }
   }
+
+  .paragraph {
+    color: $color-portfolio-text;
+  }
 }
 
 @media (min-width: 576px) {
-  .portfolio-section {
-    .challenge-picture, .challenge-picture-arrows {
+  .p-challenge {
+    &-picture, &-picture__arrows {
       flex-direction: row;
     }
 
-    .challenge-picture {
+    &-picture {
       height: auto;
+      margin-bottom: 0;
 
       &::before  {
         top: calc(50% + 50px);
@@ -102,28 +108,29 @@
         width: 100%;
       }
 
-      &-image span {
+      &__first span, &__last span {
         top: -50px;
       }
 
-      &-image:first-of-type {
+      &__first {
         left: -50px;
 
-        span {
+        .label {
           left: 50px;
         }
       }
 
-      &-image:last-of-type {
+      &__last {
         top: 0;
         left: 50px;
 
-        span {
+        .label {
+          top: -40px;
           left: -10px;
         }
       }
 
-      &-arrows {
+      &__arrows {
         justify-content: space-around;
         top: auto;
         left: 50%;
@@ -141,19 +148,23 @@
 }
 
 @media (min-width: 992px) {
-  .portfolio-section .challenge-picture {
-    &-image {
-      height: 200px;
-      width: 200px;
+  .p-challenge {
+    &-picture {
+      margin-top: 100px;
 
-      img {
-        width: 150px;
+      &__first, &__last {
+        height: 200px;
+        width: 200px;
+
+        .image {
+          width: 150px;
+        }
       }
-    }
 
-    &-image:first-of-type img {
-      top: 15px;
-      left: 20px;
+      &__first .image {
+        top: 15px;
+        left: 20px;
+      }
     }
   }
 }
