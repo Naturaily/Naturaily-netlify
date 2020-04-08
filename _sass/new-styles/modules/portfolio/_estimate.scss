@@ -6,6 +6,12 @@
   margin: 0 auto;
   padding-bottom: 0;
 
+  .section_heading span {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.7em;
+  }
+
   .section_content {
     text-align: center;
   }
