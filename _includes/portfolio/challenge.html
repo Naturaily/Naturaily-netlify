@@ -6,14 +6,16 @@
     <div portfolio-left class="portfolio-columns__left">
       <p class="paragraph">{{ page.challenge-column-1 }}</p>
     </div>
-    <div portfolio-right class="portfolio-columns__right">
-      {% if page.challenge-column-2%}
+
+    {% if page.challenge-column-2 %}
+      <div portfolio-right class="portfolio-columns__right">
         <p portfolio-right class="paragraph">{{ page.challenge-column-2 }}</p>
-      {% endif %}
-    </div>
+      </div>
+    {% endif %}
+
   </div>
 
-  {% if page.challenge-image-1 %}
+  {% if page.slug == "artinfo" %}
     <div class="p-challenge-picture">
       <div portfolio-left class="p-challenge-picture__first">
         <span class="label">{{ page.challenge-description-1 }}</span>
@@ -28,4 +30,5 @@
       </div>
     </div>
   {% endif %}
+
 </div>

@@ -21,7 +21,7 @@
     </div>
   {% endif %}
 
-  {% if page.solutions %}
+  {% if page.slug == "lvcloud" %}
     <div class="solutions">
 
       {% for solution in page.solutions %}
@@ -52,9 +52,6 @@
       {% endfor %}
 
     </div>
-  {% endif %}
-
-  {% if page.tabs %}
 
     <div portfolio-bottom class="tabs">
       <div class="tabs-menu"></div>
