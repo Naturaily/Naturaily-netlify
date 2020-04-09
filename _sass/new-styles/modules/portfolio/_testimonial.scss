@@ -1,6 +1,8 @@
 .p-testimonial {
   display: flex;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
 
   .portfolio-step, .portfolio-title {
     width: 100%;
@@ -28,6 +30,21 @@
 
   .portfolio-credits {
     padding: 15px 0;
+  }
+
+  .geometric-figure {
+    top: -140px;
+    right: 50px;
+
+    &_center, &_right::after {
+       height: 280px;
+       width: 280px;
+     }
+
+     &_right {
+       width: 140px;
+       height: 280px;
+     }
   }
 }
 

@@ -1,4 +1,8 @@
-<div class="portfolio-section p-solution {{ page.solution-class }}">
+<div
+  class="portfolio-section p-solution
+  {% if page.slug == 'lvcloud' %} portfolio-section__half-orange
+  {% else %} portfolio-section__orange {% endif %}"
+>
   <span class="portfolio-step">{{ page.solution-title }}</span>
   <h2 class="portfolio-title">{{ page.solution-subtitle }}</h2>
 
@@ -22,13 +26,22 @@
 
       {% for solution in page.solutions %}
         <div class="portfolio-columns {{ solution.solution.class }}">
-          <div class="portfolio-columns__left description" {{ solution.solution.animation1 }}>
+          <div class="description" {{ solution.solution.animation1 }}>
+
             {% if solution.solution.title %}
               <h3 class="p-solution-header">{{ solution.solution.title }}</h3>
             {% endif %}
+
             <p class="paragraph">{{ solution.solution.text }}</p>
+
+            {% if solution.solution.dots == true %}
+              <span class="dot dot__orange"></span>
+              <span class="dot dot__yellow"></span>
+              <span class="dot dot__blue"></span>
+            {% endif%}
+
           </div>
-          <div class="portfolio-columns__right image" {{ solution.solution.animation2 }}>
+          <div class="image" {{ solution.solution.animation2 }}>
             <img src="{{ solution.solution.image }}" alt="{{ solution.solution.alt }}"/>
             <figure class="geometric-figure {{ solution.solution.geometric-class }}">
               <div class="geometric-figure_center"></div>
@@ -43,11 +56,11 @@
 
   {% if page.tabs %}
 
-    <div class="tabs">
+    <div portfolio-bottom class="tabs">
       <div class="tabs-menu"></div>
 
       {% for tab in page.tabs %}
-        <input type="radio" id="{{ tab.tab.id }}" name="tabs" {% if tab.tab.id == "architecture" %} checked {% endif %}>
+        <input type="radio" id="{{ tab.tab.id }}" name="tabs" {% if tab.tab.id == "architecture" %}checked{% endif %}>
         <label for="{{ tab.tab.id }}">
           {{ tab.tab.title }}
           <span class="tabs-dot"></span>
@@ -86,7 +99,7 @@
 
       {% for technology in page.stack %}
         <li>
-          <div class="stack-image {{ technology.technology.class }}">
+          <div class="stack-image {{ technology.technology.image-class }}">
             <img src="{{ technology.technology.image }}" alt="{{ technology.technology.alt }}"/>
           </div>
           <h4 class="p-solution-subheader">{{ technology.technology.name }}</h4>
@@ -104,7 +117,7 @@
 
         {% for tool in page.tools %}
           <li>
-            <div class="stack-image {{ tool.tool.class }}">
+            <div class="stack-image {{ tool.tool.image-class }}">
               <img src="{{ tool.tool.image }}" alt="{{ tool.tool.alt }}"/>
             </div>
             <h4 class="p-solution-subheader">{{ tool.tool.name }}</h4>

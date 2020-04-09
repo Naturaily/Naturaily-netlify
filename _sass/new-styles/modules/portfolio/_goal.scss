@@ -71,21 +71,12 @@
         font-weight: 200;
       }
 
-      .portfolio-columns  {
-        position: relative;
-        top: -100px;
-        margin-bottom: -100px;
-
-        &__right img {
-          width: 140%;
-          max-width: 600px;
-          margin-top: 30px;
-        }
+      .portfolio-columns__right img {
+        width: 140%;
+        max-width: 600px;
+        margin-top: -75px;
       }
 
-      .paragraph {
-        padding-top: 100px;
-      }
     }
 
     &-details {

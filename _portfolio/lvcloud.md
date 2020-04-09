@@ -88,6 +88,7 @@ solutions:
         respond to it. Any necessary fixes are made without affecting other
         microservices.
   - solution:
+      dots: true
       title: >-
         Each device collects different types of data, including low voltage,
         high voltage, power, current, temperature of the device, temperature
@@ -180,7 +181,7 @@ stack:
       description: There is a separate microservice for each type of device written in Ruby.
   - technology:
       name: Sidekiq<br> (search engine)
-      image: /assets/images/ruby-logo.png
+      image: /assets/images/portfolio/lvcloud/icons/sidekiq.png
       alt: sidekiq icon
       description: The entire solution uses Sidekiq for background data processing.
   - technology:
@@ -204,6 +205,7 @@ stack:
   - technology:
       name: Kafka<br> (backend)
       image: /assets/images/portfolio/lvcloud/icons/kafka.png
+      image-class: stack-image__wider
       alt: kafka icon
       description: Streaming platform used to broadcast the data.
   - technology:
@@ -214,7 +216,6 @@ stack:
   - technology:
       name: Highcharts<br> (frontend)
       image: /assets/images/portfolio/lvcloud/icons/highcharts.png
-      image-class: stack-image__wider
       alt: highcharts icon
       description: >-
         Interactive JavaScript used to clearly present huge amounts of data coming
@@ -273,51 +274,40 @@ results-text: >
 results-image: /assets/images/portfolio/lvcloud/results.png
 results-alt: transmission tower photo
 numbers-title: LVCloud in numbers
-numbers-image--: ...
-numbers-value-1: 4
-numbers-name-1: types of devices
-numbers-description-1: --
-numbers-value-2: 600k - 1,5m
-numbers-name-2: measurements and events a day
-numbers-description-2: --
-numbers-value-3: 2400%
-numbers-name-3: connected devices
-numbers-description-3: --
-numbers-value-4: --
-numbers-name-4: --
-numbers-description-4: --
-numbers-value-5: --
-numbers-name-5: --
-numbers-description-5: --
-numbers-value-6: --
-numbers-name-6: --
-numbers-description-6: --
-numbers-value-7: --
-numbers-name-7: --
-numbers-description-7: --
-numbers-value-8: --
-numbers-name-8: --
-numbers-description-8: --
-companies-title--: One of the companies using LV Cloud solution
-company-icon-1--:
-company-description-1--: >
- manages the electricity network that powers everyday life for more than
- 8 million people
-company-icon-2--:
-company-description-2--: >
-  supplies energy to 3.9 million homes and businesses
-company-icon-3--:
-company-description-3--: >
-  has the network of more than 63,000 substations and some 60,000 miles
-  of overhead power lines and underground cables spanning 9,650 square miles
-company-icon-4--:
-company-description-4--: >
-  employs more than 2,700 people
+numbers-image: /assets/images/portfolio/lvcloud/results-numbers.png
+numbers-lv:
+  - number:
+      value: 4
+      name: types of devices
+  - number:
+      value: 600k - 1,5m
+      name: measurements and events a day
+  - number:
+      value: 2400%
+      name: connected devices
+companies-title: One of the companies using LV Cloud solution
+companies:
+  - company:
+      icon: icon-man
+      description: >-
+        manages the electricity network that powers everyday life for more than
+        8 million people
+  - company:
+      icon: icon-connect
+      description: supplies energy to 3.9 million homes and businesses
+  - company:
+      icon: icon-query-inner-join-right
+      description: >-
+        has the network of more than 63,000 substations and some 60,000 miles
+        of overhead power lines and underground cables spanning 9,650 square miles
+  - company:
+      icon: icon-navigation-toolbar-top
+      description: employs more than 2,700 people
 companies-subtitle: In their own words
 companies-quote: >
   We have invested in intelligent fuses and fault-location equipment on our
   low-voltage network to reduce the dependency on manual operation to restore
-  power, shortening power cut times for our customers. <br>
+  power, shortening power cut times for our customers.<br><br>
   On our high-voltage network we've carried out significant upgrades to our
   control system, enabling our network to reconfigure itself automatically
   to respond to faults, restoring supplies for our customers more quickly.

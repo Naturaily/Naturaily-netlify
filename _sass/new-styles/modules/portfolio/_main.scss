@@ -7,6 +7,23 @@
     background-color: $color-code-orange-bg;
   }
 
+  &__half-orange {
+    .features, div.stack, div.experts {
+      margin: 0 -100px;
+      padding: 50px 100px;
+      background-color: $color-code-orange-bg;
+    }
+
+    .features {
+      border-radius: 8px 8px 0 0;
+    }
+
+    div.experts {
+      margin-top: -5px;
+      border-radius: 0 0 8px 8px;
+    }
+  }
+
   .paragraph {
     max-width: 100%;
     color: $color-portfolio-text;
@@ -65,7 +82,7 @@
   img {
     position: relative;
     bottom: 25px;
-    margin-bottom: -100px;
+    margin-bottom: -50px;
     width: 100%;
   }
 
