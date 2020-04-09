@@ -7,13 +7,15 @@
       <p class="paragraph">{{ page.about-column-1 }}</p>
     </div>
     <div class="portfolio-columns__right">
-      {% if page.about-column-2 %}
-        <p class="paragraph">{{ page.about-column-2 }}</p>
-      {% else %}
+
+      {% if page.about-image %}
         <img src="{{ page.about-image }}" alt="{{ page.about-alt }}" />
+      {% else %}
+        <p class="paragraph">{{ page.about-column-2 }}</p>
       {% endif %}
-      <span class="{{page.about-dots-class}} {{page.about-dots-class}}__darker"></span>
-      <span class="{{page.about-dots-class}} {{page.about-dots-class}}__lighter"></span>
+
+      <span class="dot {{page.about-dots-class}} {{page.about-dots-class}}__darker"></span>
+      <span class="dot {{page.about-dots-class}} {{page.about-dots-class}}__lighter"></span>
     </div>
   </div>
 </div>

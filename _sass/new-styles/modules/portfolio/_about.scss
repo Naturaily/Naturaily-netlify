@@ -17,56 +17,54 @@
     }
   }
 
-  [class^="dot-"] {
+  .dot {
     position: absolute;
     height: 20px;
     width: 20px;
     border-radius: 100%;
-  }
 
-  .dot-artinfo {
-    display: none;
+    &-artinfo {
+      display: none;
 
-    &__darker {
-      top: -150px;
-      right: 150px;
-      background-color: $color-secondary;
+      &__darker {
+        top: -150px;
+        right: 150px;
+        background-color: $color-secondary;
+      }
+
+      &__lighter {
+        top: -10px;
+        right: -50px;
+        background-color: $color-accent-yellow;
+      }
     }
 
-    &__lighter {
-      top: -10px;
-      right: -50px;
-      background-color: $color-accent-yellow;
-    }
-  }
+    &-lvcloud {
+      &__darker {
+        top: -10px;
+        right: 30px;
+        background-color: $color-accent-yellow;
+      }
 
-  .dot-lvcloud {
-    &__darker {
-      top: -10px;
-      right: 30px;
-      background-color: $color-accent-yellow;
-    }
-
-    &__lighter {
-      bottom: 0;
-      left: 40px;
-      background-color: $color-geometric-blue;
+      &__lighter {
+        bottom: 0;
+        left: 40px;
+        background-color: $color-geometric-blue;
+      }
     }
   }
 }
 
 @media (min-width: 576px) {
-  .p-about .dot-lvcloud {
-    &__darker {
-      right: 70px;
-    }
+  .p-about .dot-lvcloud__darker {
+    right: 70px;
   }
 }
 
 @media (min-width: 811px) {
   .p-about {
     margin-bottom: 50px;
-    
+
     .portfolio-columns__right {
       text-align: right;
 
@@ -74,6 +72,10 @@
         margin-top: -100px;
         width: 280px;
       }
+    }
+
+    .dot-artinfo {
+      display: block;
     }
 
     .dot-lvcloud {
@@ -86,15 +88,12 @@
         bottom: 20px;
       }
     }
-
   }
 }
 
 @media (min-width: 992px) {
-  .p-about {
-    .dot-lvcloud__lighter {
-      left: auto;
-      right: 300px;
-    }
+  .p-about .dot-lvcloud__lighter {
+    left: auto;
+    right: 300px;
   }
 }

@@ -33,6 +33,7 @@
   }
 
   .geometric-figure {
+    display: none;
     top: -140px;
     right: 50px;
 
@@ -45,6 +46,12 @@
        width: 140px;
        height: 280px;
      }
+  }
+}
+
+@media (min-width: 811px) {
+  .p-testimonial .geometric-figure {
+    display: flex;
   }
 }
 
