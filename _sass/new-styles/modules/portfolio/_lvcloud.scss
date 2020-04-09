@@ -21,12 +21,12 @@
     &_center, &_right::after {
        height: 200px;
        width: 200px;
-     }
+    }
 
      &_right {
        width: 100px;
        height: 200px;
-     }
+    }
 
     &__schema1, &__schema2, &__schema3 {
       top: 50%;
@@ -258,23 +258,19 @@
 }
 
 @media (min-width: 576px) {
-  .p-results .companies {
-    q.paragraph {
-      padding: 100px 25px;
-      margin-bottom: -150px;
+  .p-results .companies q.paragraph {
+    padding: 100px 25px;
+    margin-bottom: -150px;
 
-      .icon-quote  {
-        top: 60px;
-      }
+    .icon-quote  {
+      top: 60px;
     }
   }
 }
 
 @media (min-width: 811px) {
-  .p-video {
-    iframe {
-      height: 500px;
-    }
+  .p-video iframe {
+    height: 500px;
   }
 
   .p-solution {
@@ -381,12 +377,6 @@
 }
 
 @media (min-width: 1175px) {
-  .p-video {
-    iframe {
-      height: 500px;
-    }
-  }
-
   .p-solution {
     .solutions .description .dot__yellow {
       top: -150px;
