@@ -3,12 +3,86 @@
   padding-top: 0;
   padding-bottom: 0;
 
-  iframe {
+  &-wrapper {
+    position: relative;
     width: 100%;
     height: 270px;
-    margin-top: 20px;
     border-radius: 8px;
-    border: 1px solid $color-global-font-10;
+  }
+
+  &-cover, &-cover__shadow, iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  input, iframe {
+    display: none;
+  }
+
+  input:checked ~ iframe {
+    display: block;
+  }
+
+  input:checked ~ .p-video-cover,
+  input:checked ~ .p-video-content {
+    display: none;
+  }
+
+  &-cover {
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+
+    &__shadow {
+      background-color: $color-white;
+      opacity: 0.6;
+    }
+  }
+
+  &-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 0 25px;
+
+    &__button {
+      display: block;
+      position: relative;
+      height: 60px;
+      width: 60px;
+      border-radius: 100%;
+      background-color: $color-secondary;
+      border: 2px solid $color-secondary;
+      color: $color-white;
+      transition: 0.25s;
+
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45%, -45%);
+      }
+
+      &:hover {
+        background-color: $color-white;
+        color: $color-secondary;
+        cursor: pointer;
+      }
+    }
+
+    .portfolio-title {
+      padding: 10px 0;
+      line-height: 1.5;
+      font-size: 1.5em;
+    }
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 
@@ -269,8 +343,19 @@
 }
 
 @media (min-width: 811px) {
-  .p-video iframe {
-    height: 500px;
+  .p-video{
+    &-wrapper {
+      height: 500px;
+    }
+
+    &-content {
+      padding: 0 100px;
+
+      .portfolio-title {
+        padding: 25px 0;
+        font-size: 2em;
+      }
+    }
   }
 
   .p-solution {
@@ -377,6 +462,10 @@
 }
 
 @media (min-width: 1175px) {
+  .p-video-wrapper {
+    height: 600px;
+  }
+  
   .p-solution {
     .solutions .description .dot__yellow {
       top: -150px;

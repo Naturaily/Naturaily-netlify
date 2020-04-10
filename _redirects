@@ -286,6 +286,7 @@
 # Portfolio redirects
 
 /project/artinfo                                             /portfolio/artinfo
+/project/lvcloud                                             /portfolio/lvcloud
 
 # General redirects
 

@@ -22,7 +22,7 @@ about-column-1: >
 about-image: /assets/images/portfolio/lvcloud/about-map.png
 about-alt: ea technology company map
 about-dots-class: dot-lvcloud
-separator-image: /assets/images/portfolio/artinfo/about.png
+separator-image: /assets/images/portfolio/lvcloud/separator.png
 separator-alt: lvcloud screens
 separator-class: portfolio-separator__lvcloud
 goal-title: Goal
@@ -51,6 +51,8 @@ goal-column-2: >
 video-title: Video
 video-subtitle: Video
 video-url: https://www.youtube.com/embed/hfQwaI5b768
+video-cover: /assets/images/portfolio/lvcloud/video.png
+video-text: Introducing the ALVIN <br>Reclose from EA Technology
 challenge-title: Challenge
 challenge-subtitle: The challenge
 challenge-column-1: >
@@ -293,7 +295,7 @@ companies:
         manages the electricity network that powers everyday life for more than
         8 million people
   - company:
-      icon: icon-connect
+      icon: icon-bulb
       description: supplies energy to 3.9 million homes and businesses
   - company:
       icon: icon-query-inner-join-right
@@ -301,7 +303,7 @@ companies:
         has the network of more than 63,000 substations and some 60,000 miles
         of overhead power lines and underground cables spanning 9,650 square miles
   - company:
-      icon: icon-navigation-toolbar-top
+      icon: icon-case
       description: employs more than 2,700 people
 companies-subtitle: In their own words
 companies-quote: >
