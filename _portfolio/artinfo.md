@@ -17,7 +17,8 @@ about-column-2: >
   More than just an information page, Artinfo is also a broker between auction
   houses and art lovers who wanted to take part in the auction. Bidding orders
   were received by phone, which generated a lot of work for the entire team.
-about-dots-class: dot-artinfo
+about-dot1-color: secondary
+about-dot2-color: yellow
 separator-image: /assets/images/portfolio/artinfo/about.png
 separator-alt: artinfo screens
 separator-class: portfolio-separator__artinfo
@@ -57,7 +58,7 @@ features:
   - feature:
       title: Live art auctions<br> (Artinfo Live)
       image: /assets/images/portfolio/artinfo/solution1.png
-      class: portfolio-columns__odd
+      class: portfolio__columns--odd
       animation1: portfolio-left
       animation2: portfolio-right
       list: >-
@@ -66,7 +67,7 @@ features:
   - feature:
       title: Sophisticated<br> search engine
       image: /assets/images/portfolio/artinfo/solution2.png
-      class: portfolio-columns__even
+      class: portfolio__columns--even
       animation1: portfolio-right
       animation2: portfolio-left
       list: >-
@@ -75,7 +76,7 @@ features:
   - feature:
       title: User admin panel
       image: /assets/images/portfolio/artinfo/solution3.png
-      class: portfolio-columns__odd
+      class: portfolio__columns--odd
       animation1: portfolio-left
       animation2: portfolio-right
       list: >-
@@ -88,7 +89,7 @@ stack:
   - technology:
       name: Ruby on Rails<br> (backend)
       image: /assets/images/portfolio/artinfo/rails.png
-      image-class: stack-image__wider
+      image-class: portfolio-stack__image--wider
       alt: ruby on rails icon
       description: >-
         This mature framework allowed us to develop the core structure of
@@ -192,7 +193,7 @@ testimonial-subtitle: Testimonial
 testimonial-image: /assets/images/services/rafal.png
 testimonial-alt: artinfo founder
 testimonial-quote: >
-  <span class="p-testimonial-text__secondary">Artinfo is a market leader</span>
+  <span class="portfolio-testimonial__quote--secondary">Artinfo is a market leader</span>
   <span>and a trusted institution,</span>
   <span>so we work only with the best</span>
 testimonial-person: Rafał Kamecki

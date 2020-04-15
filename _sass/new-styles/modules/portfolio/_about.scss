@@ -1,8 +1,8 @@
-.p-about {
+.portfolio-about {
   position: relative;
   margin-bottom: 15px;
 
-  .portfolio-columns__right {
+  .portfolio__columns--right {
     position: relative;
     text-align: center;
 
@@ -17,55 +17,46 @@
     }
   }
 
-  .dot {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-radius: 100%;
-
-    &-artinfo {
+  .portfolio__dot {
+    &--artinfo {
       display: none;
 
-      &__darker {
+      &.portfolio__dot--secondary {
         top: -150px;
         right: 150px;
-        background-color: $color-secondary;
       }
 
-      &__lighter {
+      &.portfolio__dot--yellow {
         top: -10px;
         right: -50px;
-        background-color: $color-accent-yellow;
       }
     }
 
-    &-lvcloud {
-      &__darker {
+    &--lvcloud {
+      &.portfolio__dot--yellow {
         top: -10px;
         right: 30px;
-        background-color: $color-accent-yellow;
       }
 
-      &__lighter {
+      &.portfolio__dot--blue {
         bottom: 0;
         left: 40px;
-        background-color: $color-geometric-blue;
       }
     }
   }
 }
 
 @media (min-width: 576px) {
-  .p-about .dot-lvcloud__darker {
+  .portfolio-about .portfolio__dot--lvcloud.portfolio__dot--secondary {
     right: 70px;
   }
 }
 
 @media (min-width: 811px) {
-  .p-about {
+  .portfolio-about {
     margin-bottom: 50px;
 
-    .portfolio-columns__right {
+    .portfolio__columns--right {
       text-align: right;
 
       img {
@@ -74,17 +65,17 @@
       }
     }
 
-    .dot-artinfo {
+    .portfolio__dot--artinfo {
       display: block;
     }
 
-    .dot-lvcloud {
-      &__darker {
+    .portfolio__dot--lvcloud {
+      &.portfolio__dot--yellow {
         top: -130px;
         right: 20px;
       }
 
-      &__lighter {
+      &.portfolio__dot--blue {
         bottom: 20px;
       }
     }
@@ -92,7 +83,7 @@
 }
 
 @media (min-width: 992px) {
-  .p-about .dot-lvcloud__lighter {
+  .portfolio-about .portfolio__dot--lvcloud.portfolio__dot--blue {
     left: auto;
     right: 300px;
   }

@@ -1,24 +1,26 @@
-.portfolio-section {
+.portfolio__section {
+  box-sizing: border-box;
+  width: 100%;
   padding: 70px 20px;
 
-  &__orange {
+  &--orange {
     margin-top: 75px;
     border-radius: 8px;
     background-color: $color-code-orange-bg;
   }
 
-  &__half-orange {
-    .features, div.stack, div.experts {
+  &--half-orange {
+    .portfolio-features, div.portfolio-stack, div.portfolio-experts {
       margin: 0 -100px;
       padding: 50px 100px;
       background-color: $color-code-orange-bg;
     }
 
-    .features {
+    .portfolio-features {
       border-radius: 8px 8px 0 0;
     }
 
-    div.experts {
+    div.portfolio-experts {
       margin-top: -5px;
       border-radius: 0 0 8px 8px;
     }
@@ -30,18 +32,18 @@
   }
 }
 
-.portfolio-step {
+.portfolio__step {
   font-size: 0.8em;
   color: $color-secondary;
 }
 
-.portfolio-title {
+.portfolio__title {
   margin: 0;
   padding: 30px 0 40px;
   font-weight: 300;
 }
 
-.portfolio-description {
+.portfolio__description {
   position: relative;
   top: -25px;
   margin-bottom: -25px;
@@ -49,16 +51,16 @@
   font-size: 1.2em;
 }
 
-.portfolio-columns {
+.portfolio__columns {
   display: flex;
   flex-direction: column;
 
-  &__left, &__right {
+  &--left, &--right {
     margin: 10px 0;
   }
 }
 
-.portfolio-list {
+.portfolio__list {
   padding-top: 20px;
   padding-left: 10px;
   line-height: 1.5;
@@ -76,7 +78,7 @@
   }
 }
 
-.portfolio-separator {
+.portfolio__separator {
   margin-top: 50px;
 
   img {
@@ -86,33 +88,33 @@
     width: 100%;
   }
 
-  &__artinfo {
+  &--artinfo {
     background-color: $color-accent-yellow;
   }
 
-  &__lvcloud {
+  &--lvcloud {
     background-color: $color-geometric-green;
   }
 }
 
-.portfolio-credits {
+.portfolio__credits {
   padding: 25px 0 15px;
 
-  &__person, &__position {
+  &-person, &-position {
     padding: 5px 40px !important;
     font-size: 0.9em;
   }
 
-  &__person {
+  &-person {
     position: relative;
     font-weight: 700;
   }
 
-  &__position {
+  &-position {
     opacity: 0.7;
   }
 
-  .credit-dot {
+  &-dot {
     display: block;
     position: absolute;
     top: 3px;
@@ -126,39 +128,58 @@
   }
 }
 
+.portfolio__dot {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+
+  &--secondary {
+    background-color: $color-secondary;
+  }
+
+  &--yellow {
+    background-color: $color-accent-yellow;
+  }
+
+  &--blue {
+    background-color: $color-geometric-blue;
+  }
+}
+
 @media (min-width: 576px) {
-  .portfolio-section {
+  .portfolio__section {
     padding: 100px;
   }
 }
 
 @media (min-width: 811px) {
-  .portfolio-section {
+  .portfolio__section {
     padding: 100px;
   }
 
-  .portfolio-columns {
+  .portfolio__columns {
     flex-direction: row;
     margin: 0 -25px;
 
-    &__left, &__right {
+    &--left, &--right {
       width: 50%;
       margin: 0 25px;
     }
   }
 
-  .portfolio-credits {
+  .portfolio__credits {
     padding-top: 50px;
   }
 
-  .portfolio-separator img {
+  .portfolio__separator img {
     bottom: 50px;
     margin-bottom: -125px;
   }
 }
 
 @media (min-width: 992px) {
-  .portfolio-section {
+  .portfolio__section {
     padding: 100px;
   }
 }
