@@ -1,20 +1,28 @@
-<div class="portfolio-section portfolio-section__orange p-testimonial">
-  <span class="portfolio-step">{{ page.testimonial-title }}</span>
-  <h2 class="portfolio-title">{{ page.testimonial-subtitle }}</h2>
+<div class="portfolio__section portfolio__section--orange portfolio-testimonial">
+  <span class="portfolio__step">{{ page.testimonial-title }}</span>
+  <h2 class="portfolio__title">{{ page.testimonial-subtitle }}</h2>
 
   <picture portfolio-bottom>
-    <img class="p-testimonial-image" src="{{ page.testimonial-image }}" alt="{{ page.testimonial-person }}"/>
+    <img
+      class="portfolio-testimonial__image"
+      src="{{ page.testimonial-image }}"
+      alt="{{ page.testimonial-person }}"
+    />
   </picture>
 
-  <p portfolio-left class="p-testimonial-text">{{ page.testimonial-quote }}</p>
-  <p portfolio-right class="paragraph">{{ page.testimonial-text }}</p>
+  <p portfolio-left class="portfolio-testimonial__quote">
+    {{ page.testimonial-quote }}
+  </p>
+  <p portfolio-right class="paragraph portfolio-testimonial__text">
+    {{ page.testimonial-text }}
+  </p>
 
-  <div class="portfolio-credits">
-    <p class="portfolio-credits__person">
-      <span class="credit-dot"></span>
+  <div class="portfolio__credits">
+    <p class="portfolio__credits-person">
+      <span class="portfolio__credits-dot"></span>
       {{ page.testimonial-person }}
     </p>
-    <p class="portfolio-credits__position">
+    <p class="portfolio__credits-position">
       {{ page.testimonial-position }}
     </p>
   </div>

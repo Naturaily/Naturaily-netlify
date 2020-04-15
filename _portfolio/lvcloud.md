@@ -21,7 +21,8 @@ about-column-1: >
   the world.
 about-image: /assets/images/portfolio/lvcloud/about-map.png
 about-alt: ea technology company map
-about-dots-class: dot-lvcloud
+about-dot1-color: yellow
+about-dot2-color: blue
 separator-image: /assets/images/portfolio/lvcloud/separator.png
 separator-alt: lvcloud screens
 separator-class: portfolio-separator__lvcloud
@@ -31,15 +32,13 @@ goal-text: >
   The goal was to create an IT system that will work as a user interface for
   a number of VisNet® Hub, ALVIN® equipment and a couple more devices.
 goal-image-1: /assets/images/portfolio/lvcloud/goal-alvin.png
-goal-image-class-1: alvin
-goal-alt-1: ALVIN
+goal-alt-1: alvin
 goal-column-1: >
   ALVIN® Reclose is the next generation of supply-restoration reclose
   equipment, providing Network Operators with invaluable support in reducing
   costs and delivering better customer service.
 goal-image-2: /assets/images/portfolio/lvcloud/goal-visnet.png
-goal-image-class-2: visnet
-goal-alt-2: VisNet
+goal-alt-2: visnet
 goal-column-2: >
   VisNet® Hub checks the voltage and current data on every LV feeder, giving
   insights about the load, faults and condition of respective devices across
@@ -76,8 +75,8 @@ solutions:
       title: How did the IoT application development process go?
       image: /assets/images/portfolio/lvcloud/solution1.png
       alt: lvcloud mobile panel
-      class: portfolio-columns__odd
-      geometric-class: geometric-figure__schema1
+      class: portfolio__columns--odd
+      geometric-class: geometric-figure--schema1
       animation1: portfolio-left
       animation2: portfolio-right
       text: >-
@@ -97,8 +96,8 @@ solutions:
         inside and outside the substation, and humidity.
       image: /assets/images/portfolio/lvcloud/solution2.png
       alt: lvcloud mobile data charts
-      class: portfolio-columns__even
-      geometric-class: geometric-figure__schema2
+      class: portfolio__columns--even
+      geometric-class: geometric-figure--schema2
       animation1: portfolio-right
       animation2: portfolio-left
       text: >-
@@ -110,8 +109,8 @@ solutions:
   - solution:
       image: /assets/images/portfolio/lvcloud/solution3.png
       alt: lvcloud mobile panel
-      class: portfolio-columns__odd
-      geometric-class: geometric-figure__schema3
+      class: portfolio__columns--odd
+      geometric-class: geometric-figure--schema3
       animation1: portfolio-left
       animation2: portfolio-right
       text: >-
@@ -142,7 +141,7 @@ features:
   - feature:
       title: Some of the LV Cloud features
       image: /assets/images/portfolio/lvcloud/features1.png
-      class: portfolio-columns__odd
+      class: portfolio__columns--odd
       animation1: portfolio-left
       animation2: portfolio-right
       list: >-
@@ -156,7 +155,7 @@ features:
   - feature:
       title: Features from the user's perspective
       image: /assets/images/portfolio/lvcloud/features2.png
-      class: portfolio-columns__even
+      class: portfolio__columns--even
       animation1: portfolio-right
       animation2: portfolio-left
       list: >-
@@ -171,7 +170,7 @@ stack:
   - technology:
       name: Ruby on Rails<br> (backend)
       image: /assets/images/portfolio/artinfo/rails.png
-      image-class: stack-image__wider
+      image-class: portfolio-stack__image--wider
       alt: ruby on rails icon
       description: >-
         The main application is written in Ruby on Rails. It is responsible for
@@ -194,7 +193,7 @@ stack:
   - technology:
       name: MongoDB<br> (database)
       image: /assets/images/portfolio/lvcloud/icons/mongoDB.png
-      image-class: stack-image__wider
+      image-class: portfolio-stack__image--wider
       alt: mongodb icon
       description: >-
         It is a mature and easily scalable document-oriented database used
@@ -207,7 +206,7 @@ stack:
   - technology:
       name: Kafka<br> (backend)
       image: /assets/images/portfolio/lvcloud/icons/kafka.png
-      image-class: stack-image__wider
+      image-class: portfolio-stack__image--wider
       alt: kafka icon
       description: Streaming platform used to broadcast the data.
   - technology:
@@ -225,7 +224,7 @@ stack:
   - technology:
       name: MQTT<br> (backend)
       image: /assets/images/portfolio/lvcloud/icons/mqtt.png
-      image-class: stack-image__wider
+      image-class: portfolio-stack__image--wider
       alt: mqtt icon
       description: >-
         A lightweight messaging protocol used by devices to communicate with
@@ -235,7 +234,7 @@ tools:
   - tool:
       name: Docker/Swarm
       image: /assets/images/portfolio/lvcloud/icons/docker.png
-      image-class: stack-image__wider
+      image-class: portfolio-stack__image--wider
       alt: docker icon
   - tool:
       name: Eclipse Mosquito

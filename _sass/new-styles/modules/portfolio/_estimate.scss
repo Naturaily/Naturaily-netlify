@@ -1,9 +1,9 @@
-.p-estimate {
+.portfolio-estimate {
   display: flex;
   flex-direction: column;
   background-color: $color-white;
   max-width: 350px;
-  margin: 0 auto;
+  margin: 50px auto 0;
   padding-bottom: 0;
 
   .section_heading span {
@@ -22,7 +22,7 @@
 }
 
 @media (min-width: 811px) {
-  .p-estimate {
+  .portfolio-estimate {
     flex-direction: row;
     max-width: 100%;
 
@@ -53,7 +53,7 @@
 }
 
 @media (min-width: 992px) {
-  .p-estimate {
+  .portfolio-estimate {
     .section_content {
       width: 40%;
     }
@@ -69,8 +69,8 @@
   }
 }
 
-@media (min-width: 1175px) {
-  .p-estimate .section_heading {
+@media (min-width: 1200px) {
+  .portfolio-estimate .section_heading {
     font-size: 2.5em;
   }
 }
