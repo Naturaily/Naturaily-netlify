@@ -1,323 +1,318 @@
-.p-solution {
-  &-header {
+.portfolio-features, .portfolio-stack, .portfolio-experts {
+  &__header {
     font-size: 1.2em;
     font-weight: 200;
   }
 
-  &-header, &-subheader {
+  &__header, &__subheader {
     line-height: 1.5em;
   }
+}
 
-  .features {
-    .portfolio-columns {
-      display: flex;
-      flex-direction: column;
-      padding: 50px 0;
-    }
+.portfolio-answer img {
+  max-width: 100%;
+}
 
-    .image {
-      position: relative;
-      overflow: visible;
+.portfolio-features {
+  &__image {
+    position: relative;
+    overflow: visible;
 
-      img {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        border: 1px solid $color-global-font-10;
-        border-radius: 8px;
-      }
-    }
-
-    .portfolio-list li {
-      padding: 10px;
-      font-size: 0.9em;
-    }
-  }
-
-  .stack {
-    margin: 50px 0;
-    padding: 50px 0;
-    border-top: 1px solid $color-global-font-10;
-    border-bottom: 1px solid $color-global-font-10;
-
-    &__tools {
-      padding-top: 0;
-      margin-top: 0;
-      border-top: none;
-    }
-
-    &-image {
-      height: 50px;
-      margin-bottom: 25px;
-
-      img {
-        width: auto;
-        height: 100%;
-      }
-
-      &__wider img {
-        width: 120px;
-        height: auto;
-      }
-    }
-
-    .paragraph {
-      padding: 30px 0 5px;
-      font-size: 0.8em;
-      line-height: 1.7em;
-      color: $color-portfolio-text;
-    }
-
-    .portfolio-columns {
-      flex-wrap: wrap;
-      margin-top: 25px;
-      list-style: none;
-
-      li {
-        box-sizing: border-box;
-        padding: 25px;
-      }
-    }
-  }
-
-  .experts {
-    .p-solution-header {
-      color: $color-portfolio-header;
-      opacity: 0.7;
-    }
-
-    .portfolio-columns {
-      margin: 50px auto;
-      max-width: 350px;
-      list-style: none;
-      background-color: $color-white;
-      border-radius: 8px;
+    img {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
       border: 1px solid $color-global-font-10;
+      border-radius: 8px;
+    }
+  }
 
-      li {
-        display: flex;
-        align-items: center;
-        position: relative;
-        padding: 25px;
-        padding-left: 50px;
-        font-size: 0.9em;
-        color: $color-portfolio-text;
-      }
+  .portfolio__columns {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  .portfolio__list li {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+}
+
+.portfolio-stack {
+  margin: 50px 0;
+  padding: 50px 0;
+  border-top: 1px solid $color-global-font-10;
+  border-bottom: 1px solid $color-global-font-10;
+
+  &--tools {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: none;
+  }
+
+  &__image {
+    height: 50px;
+    margin-bottom: 25px;
+
+    img {
+      width: auto;
+      height: 100%;
     }
 
-    &-number {
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      padding: 10px;
-
-      span {
-        display: block;
-        padding: 3px;
-        height: 1.5em;
-        width: 1.5em;
-        padding: 3px;
-        font-size: 0.9em;
-        line-height: 1.5em;
-        text-align: center;
-        border-radius: 100%;
-        background-color: $color-accent-yellow;
-        color: $color-white;
-      }
+    &--wider img {
+      width: 120px;
+      height: auto;
     }
+  }
 
-    .icon {
-      color: $color-accent-yellow;
-      font-size: 3em;
+  .paragraph {
+    padding: 30px 0 5px;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    color: $color-portfolio-text;
+  }
+
+  .portfolio__columns {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    list-style: none;
+
+    li {
+      box-sizing: border-box;
+      padding: 25px;
     }
+  }
+}
 
-    .paragraph {
-      padding: 10px;
-      margin: 0;
+.portfolio-experts {
+  &__header {
+    color: $color-portfolio-header;
+    opacity: 0.7;
+  }
+
+  &__number {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+
+    span {
+      display: block;
+      padding: 3px;
+      height: 1.5em;
+      width: 1.5em;
+      padding: 3px;
+      font-size: 0.9em;
+      line-height: 1.5em;
+      text-align: center;
+      border-radius: 100%;
+      background-color: $color-accent-yellow;
+      color: $color-white;
+    }
+  }
+
+  .icon {
+    color: $color-accent-yellow;
+    font-size: 3em;
+  }
+
+  .paragraph {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .portfolio__columns {
+    margin: 50px auto;
+    max-width: 350px;
+    list-style: none;
+    background-color: $color-white;
+    border-radius: 8px;
+    border: 1px solid $color-global-font-10;
+
+    li {
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding: 25px;
+      padding-left: 50px;
+      font-size: 0.9em;
+      color: $color-portfolio-text;
     }
   }
 }
 
 @media (min-width: 576px) {
-  .p-solution {
-    .features .image {
-      padding-top: 50px;
-      text-align: right;
+  .portfolio-features__image  {
+    padding-top: 50px;
+    text-align: right;
 
-      img {
-        width: 100%;
-      }
+    img {
+      width: 100%;
+    }
+  }
+
+  .portfolio-stack {
+    &__image, .portfolio-stack__subheader {
+      width: 25%;
     }
 
-    .stack {
-      .portfolio-columns li {
-        display: flex;
-        flex-direction: row;
-      }
+    &__image--wider img {
+      transform: translateX(-25%);
+    }
 
-      &-image, .p-solution-subheader {
-        width: 25%;
-      }
+    .portfolio__columns li {
+      display: flex;
+      flex-direction: row;
+    }
 
-      &-image__wider img {
-        transform: translateX(-25%);
-      }
-
-      .paragraph {
-        width: 50%;
-        padding: 0;
-        padding-left: 10px;
-      }
+    .paragraph {
+      width: 50%;
+      padding: 0;
+      padding-left: 10px;
     }
   }
 }
 
 @media (min-width: 811px) {
-  .p-solution  {
-    &-intro img {
+  .portfolio-answer img {
+    position: relative;
+    top: -50px;
+  }
+
+  .portfolio-features {
+    &__description, &__image {
       position: relative;
-      top: -50px;
+      width: 50%;
+      box-sizing: border-box;
     }
 
-    .solutions, .features {
-      .portfolio-columns {
-        align-items: center;
-        justify-content: space-between;
+    &__image {
+      display: flex;
+      padding: 5px;
 
-        .portfolio-list {
-          max-width: 350px;
-        }
-
-        .description, .image {
-          position: relative;
-          width: 50%;
-          box-sizing: border-box;
-        }
-
-        .image {
-          display: flex;
-        }
-
-        &__odd  {
-          flex-direction: row;
-
-          .description {
-            padding-right: 50px;
-          }
-
-          .image {
-            justify-content: flex-end;
-          }
-        }
-
-        &__even {
-          flex-direction: row-reverse;
-
-          .description {
-            left: 50px;
-            padding-left: 50px;
-          }
-
-          .image {
-            right: 50px;
-          }
-        }
+      img {
+        width: calc(100% + 50px);
       }
     }
 
-    .features .portfolio-columns {
-      .image {
-        padding: 5px;
-
-        img {
-          width: calc(100% + 50px);
-        }
-      }
+    .portfolio-list {
+      max-width: 350px;
     }
 
-    .stack {
-      .portfolio-columns {
+    .portfolio__columns {
+      align-items: center;
+      justify-content: space-between;
+
+      &--odd  {
         flex-direction: row;
 
-        li {
-          flex-direction: column;
-          width: 33%;
+        .portfolio-features__description {
+          padding-right: 50px;
+        }
+
+        .portfolio-features__image {
+          justify-content: flex-end;
         }
       }
 
-      &-image, .p-solution-subheader, .paragraph {
-        width: 100%;
-      }
+      &--even {
+        flex-direction: row-reverse;
 
-      &-image__wider img {
-        transform: none;
-      }
+        .portfolio-features__description {
+          left: 50px;
+          padding-left: 50px;
+        }
 
-      .paragraph {
-        padding: 25px 0 0;
+        .portfolio-features__image {
+          right: 50px;
+        }
+      }
+    }
+  }
+
+  .portfolio-stack {
+    &__image, .portfolio-solution__subheader, .paragraph {
+      width: 100%;
+    }
+
+    &__image--wider img {
+      transform: none;
+    }
+
+    .portfolio__columns {
+      flex-direction: row;
+
+      li {
+        flex-direction: column;
+        width: 33%;
       }
     }
 
-    .experts {
-      position: relative;
-      top: 5px;
+    .paragraph {
+      padding: 25px 0 0;
+    }
+  }
 
-      .portfolio-columns {
-        flex-direction: row;
-        max-width: 100%;
+  .portfolio-experts {
+    position: relative;
+    top: 5px;
 
-        li {
-          display: flex;
-          flex-direction: column;
-          width: 20%;
-          padding: 30px 0 20px;
-          font-size: 0.8em;
-          text-align: center;
-        }
-      }
+    &__number {
+      top: -5px;
+      left: calc(50% - 5px);
+      margin: 5px;
+    }
 
-      &-number {
-        top: -5px;
-        left: calc(50% - 5px);
-        margin: 5px;
-      }
+    .paragraph {
+      margin-top: 15px;
+      line-height: 1.5;
+      font-size: 0.9em;
+    }
 
-      .paragraph {
-        margin-top: 15px;
-        line-height: 1.5;
-        font-size: 0.9em;
+    .portfolio__columns {
+      flex-direction: row;
+      max-width: 100%;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        padding: 30px 0 20px;
+        font-size: 0.8em;
+        text-align: center;
       }
     }
   }
 }
 
 @media (min-width: 992px) {
-  .p-solution .features {
-    &__odd, &__even {
+  .portfolio-features .portfolio__columns {
+    &--odd, &--even {
       padding: 40px 0;
 
-      .image img {
+      .portfolio-features__image img {
         width: calc(100% + 100px);
       }
     }
   }
 }
 
-@media (min-width: 1175px) {
-  .p-solution .experts  {
-    .portfolio-columns li {
-      flex-direction: row;
-      padding: 40px 20px;
-    }
-
-    &-number {
+@media (min-width: 1200px) {
+  .portfolio-experts  {
+    &__number {
       transform: translate(-215%, -50%);
     }
 
     .paragraph {
       margin: 0;
       text-align: left;
+    }
+
+    .portfolio__columns li {
+      flex-direction: row;
+      padding: 40px 20px;
     }
   }
 }

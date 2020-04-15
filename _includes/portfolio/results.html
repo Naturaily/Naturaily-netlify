@@ -1,34 +1,34 @@
-<div class="portfolio-section p-results">
-  <span class="portfolio-step">{{ page.results-title }}</span>
+<div class="portfolio__section portfolio-results">
+  <span class="portfolio__step">{{ page.results-title }}</span>
 
-  <div class="portfolio-columns">
-    <div portfolio-left class="portfolio-columns__left">
-      <h2 class="portfolio-title">{{ page.results-subtitle }}</h2>
+  <div class="portfolio__columns portfolio-results__main">
+    <div portfolio-left class="portfolio__columns--left">
+      <h2 class="portfolio__title">{{ page.results-subtitle }}</h2>
 
       {% if page.results-list %}
-        <p class="paragraph p-results-title">{{ page.results-list-title }}</p>
-        <ul class="portfolio-list">{{ page.results-list }}</ul>
+        <p class="paragraph portfolio-results__title">{{ page.results-list-title }}</p>
+        <ul class="portfolio__list">{{ page.results-list }}</ul>
       {% else %}
         <p class="paragraph">{{ page.results-paragraph }}</p>
       {% endif %}
 
     </div>
-    <div portfolio-right class="portfolio-columns__right {% unless page.results-list %}reversed{% endunless %}">
+    <div portfolio-right class="portfolio__columns--right {% unless page.results-list %}portfolio__columns--reversed{% endunless %}">
       <p class="paragraph">{{ page.results-text }}</p>
       <img src="{{ page.results-image }}" alt="{{page.results-alt}}"/>
     </div>
   </div>
 
-  <div class="numbers {% if page.numbers-lv %}numbers__lv{% endif %}">
-    <h3 class="p-results-header">{{ page.numbers-title }}</h3>
+  <div class="portfolio-results__numbers {% if page.numbers-lv %}portfolio-results__numbers--lv{% endif %}">
+    <h3 class="portfolio-results__header">{{ page.numbers-title }}</h3>
 
     {% if page.numbers %}
 
-      <ul portfolio-bottom class="numbers-list">
+      <ul portfolio-bottom class="portfolio-results__numbers-list">
         {% for number in page.numbers %}
           <li>
-            <span class="numbers-value">{{ number.number.value }}</span>
-            <p class="numbers-text">{{ number.number.name }}</p>
+            <span class="portfolio-results__numbers-value">{{ number.number.value }}</span>
+            <p class="portfolio-results__numbers-text">{{ number.number.name }}</p>
             <p class="paragraph">{{ number.number.description }}</p>
           </li>
         {% endfor %}
@@ -36,18 +36,18 @@
 
     {% elsif page.numbers-lv %}
 
-      <div class="portfolio-columns">
-        <ul portfolio-left class="portfolio-columns__left">
+      <div class="portfolio__columns">
+        <ul portfolio-left class="portfolio__columns--left">
           {% for number in page.numbers-lv %}
             <li>
-              <span class="numbers-value">{{ number.number.value }}</span>
-              <p class="numbers__lv-text">{{ number.number.name }}</p>
+              <span class="portfolio-results__numbers-value">{{ number.number.value }}</span>
+              <p class="portfolio-results__numbers--lv-text">{{ number.number.name }}</p>
             </li>
           {% endfor %}
         </ul>
-        <div portfolio-right class="portfolio-columns__right">
+        <div portfolio-right class="portfolio__columns--right">
           <img src="{{ page.numbers-image }}" alt="{{ page-numbers-alt }}"/>
-          <figure class="geometric-figure geometric-figure__schema2">
+          <figure class="geometric-figure geometric-figure--schema2">
             <div class="geometric-figure_center"></div>
             <div class="geometric-figure_right"></div>
           </figure>
@@ -59,9 +59,9 @@
   </div>
 
   {% if page.companies %}
-    <div class="companies">
-      <h3 class="p-results-header">{{ page.companies-title }}</h3>
-      <ul portfolio-bottom class="companies-list">
+    <div class="portfolio-results__companies">
+      <h3 class="portfolio-results__header">{{ page.companies-title }}</h3>
+      <ul portfolio-bottom class="portfolio-results__companies-list">
         {% for company in page.companies %}
           <li>
             <span class="icon {{ company.company.icon }}"></span>
@@ -69,8 +69,8 @@
           </li>
         {% endfor %}
       </ul>
-      <h4 class="portfolio-step">{{ page.companies-subtitle }}</h4>
-      <q portfolio-bottom class="paragraph">
+      <h4 class="portfolio__step">{{ page.companies-subtitle }}</h4>
+      <q portfolio-bottom class="paragraph portfolio-results__companies-quote">
         <span class="icon-quote"></span>
         {{ page.companies-quote }}
       </q>

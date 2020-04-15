@@ -1,20 +1,20 @@
 {% if page.video-url %}
 
-  <div class="portfolio-section p-video">
-    <span class="portfolio-step">{{ page.video-title }}</span>
-    <h2 class="portfolio-title">{{ page.video-subtitle }}</h2>
+  <div class="portfolio__section portfolio-video">
+    <span class="portfolio__step">{{ page.video-title }}</span>
+    <h2 class="portfolio__title">{{ page.video-subtitle }}</h2>
 
-    <div portfolio-bottom class="p-video-wrapper">
-      <div class="p-video-cover" style="background-image: url('{{ page.video-cover }}')">
-        <div class="p-video-cover__shadow"></div>
+    <div portfolio-bottom class="portfolio-video__wrapper">
+      <div class="portfolio-video__cover" style="background-image: url('{{ page.video-cover }}')">
+        <div class="portfolio-video__cover-shadow"></div>
       </div>
 
-      <div class="p-video-content">
-        <label for="portfolio-video" class="p-video-content__button"><span>&#9654</span></label>
-        <p class="portfolio-title">{{ page.video-text }}</p>
+      <div class="portfolio-video__content">
+        <label for="portfolio-video" class="portfolio-video__content-button"><span>&#9654</span></label>
+        <p class="portfolio__title">{{ page.video-text }}</p>
       </div>
 
-      <input id="portfolio-video" type="radio" name="video"/>
+      <input id="portfolio-video" class="portfolio-video__radio" type="radio" name="video"/>
 
       <iframe
         src="{{ page.video-url }}"

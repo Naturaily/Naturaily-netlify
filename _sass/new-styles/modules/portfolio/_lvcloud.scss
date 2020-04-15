@@ -1,53 +1,53 @@
-.p-video {
+.portfolio-video {
   width: 100%;
   padding-top: 0;
   padding-bottom: 0;
 
-  &-wrapper {
+  &__wrapper {
     position: relative;
     width: 100%;
     height: 270px;
     border-radius: 8px;
   }
 
-  &-cover, &-cover__shadow, iframe {
+  &__cover, &__cover-shadow, iframe {
     width: 100%;
     height: 100%;
   }
 
-  input, iframe {
+  &__radio, iframe {
     display: none;
   }
 
-  input:checked ~ iframe {
+  &__radio:checked ~ iframe {
     display: block;
   }
 
-  input:checked ~ .p-video-cover,
-  input:checked ~ .p-video-content {
+  &__radio:checked ~ .p-video-cover,
+  &__radio:checked ~ .p-video-content {
     display: none;
   }
 
-  &-cover {
+  &__cover {
     position: absolute;
     z-index: -1;
     background-position: center;
     background-size: cover;
 
-    &__shadow {
+    &-shadow {
       background-color: $color-white;
       opacity: 0.6;
     }
   }
 
-  &-content {
+  &__content {
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
     padding: 0 25px;
 
-    &__button {
+    &-button {
       display: block;
       position: relative;
       height: 60px;
@@ -72,7 +72,7 @@
       }
     }
 
-    .portfolio-title {
+    .portfolio__title {
       padding: 10px 0;
       line-height: 1.5;
       font-size: 1.5em;
@@ -86,7 +86,8 @@
   }
 }
 
-.p-solution, .p-results {
+.portfolio-solutions,
+.portfolio-results {
   .geometric-figure {
     display: block;
     position: absolute;
@@ -102,13 +103,13 @@
        height: 200px;
     }
 
-    &__schema1, &__schema2, &__schema3 {
+    &--schema1, &--schema2, &--schema3 {
       top: 50%;
       left: 50%;
       right: auto;
     }
 
-    &__schema2 {
+    &--schema2 {
       transform: translate(-50%, -50%) scale(1.5);
 
       .geometric-figure_center {
@@ -122,113 +123,117 @@
   }
 }
 
-.p-solution {
-  &-intro img {
-    max-width: 100%;
+.portfolio-solutions {
+  .paragraph {
+    padding: 25px 0;
   }
 
-  .solutions {
-    .portfolio-columns {
-      display: flex;
-      flex-direction: column;
-      padding: 50px 0;
-    }
-
-    .paragraph {
-      padding: 25px 0;
-    }
-
-    .image, .description {
-      margin: 25px;
-    }
-
-    .description {
-      position: relative;
-
-      .dot {
-        display: none;
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        border-radius: 100%;
-
-        &__orange {
-          background-color: $color-secondary;
-          top: -50px;
-          right: 0;
-        }
-
-        &__yellow {
-          background-color: $color-accent-yellow;
-          top: -100px;
-          left: -150px;
-        }
-
-        &__blue {
-          background-color: $color-geometric-blue;
-          bottom: -50px;
-          left: -50px;
-        }
-      }
-    }
-
-    .image {
-      position: relative;
-      text-align: center;
-
-      img {
-        width: auto;
-        max-width: 100%;
-        max-height: 350px;
-      }
-    }
-
-    .portfolio-columns__odd {
-      .image img {
-        margin-left: 100px;
-      }
-    }
-
-    .geometric-figure {
-      &__schema1, &__schema3 {
-        .geometric-figure_right {
-          transform: translate(50%, -25%) rotate(90deg);
-        }
-      }
-
-      &__schema1 {
-        transform: translate(-60%, -40%);
-
-        .geometric-figure_center {
-          border-color: $color-geometric-blue-accent;
-        }
-
-        .geometric-figure_right::after {
-          background-color: $color-geometric-blue;
-        }
-      }
-
-      &__schema3 {
-        transform: translate(-60%, -60%) rotate(180deg);
-      }
-    }
-  }
-
-  .tabs {
+  .portfolio__columns {
     display: flex;
     flex-direction: column;
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0;
 
-    &-menu {
+    &--odd .portfolio-solutions__image img {
+      margin-left: 100px;
+    }
+  }
+
+  &__image, &__description {
+    margin: 25px;
+  }
+
+  &__image {
+    position: relative;
+    text-align: center;
+
+    img {
+      width: auto;
+      max-width: 100%;
+      max-height: 350px;
+    }
+  }
+
+  &__description {
+    position: relative;
+
+    .portfolio__dot {
+      display: none;
       position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 150vw;
-      height: 198px;
-      z-index: -1;
-      background-color: rgba(241,241,255,0.43);
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+
+      &--secondary {
+        top: -50px;
+        right: 0;
+      }
+
+      &--yellow {
+        top: -100px;
+        left: -150px;
+      }
+
+      &--blue {
+        bottom: -50px;
+        left: -50px;
+      }
+    }
+  }
+
+  .geometric-figure {
+    &--schema1 .geometric-figure_right,
+    &--schema3 .geometric-figure_right {
+      transform: translate(50%, -25%) rotate(90deg);
+    }
+
+    &--schema1 {
+      transform: translate(-60%, -40%);
+
+      .geometric-figure_center {
+        border-color: $color-geometric-blue-accent;
+      }
+
+      .geometric-figure_right::after {
+        background-color: $color-geometric-blue;
+      }
+    }
+
+    &--schema3 {
+      transform: translate(-60%, -60%) rotate(180deg);
+    }
+  }
+}
+
+.portfolio-tabs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &__bar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150vw;
+    height: 198px;
+    z-index: -1;
+    background-color: rgba(241,241,255,0.43);
+  }
+
+  &__label {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 66px;
+    width: 100%;
+    padding-left: 35px;
+    transition: 0.25s;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: inset 0 -3px 0 $color-secondary;
     }
 
     &-dot {
@@ -241,55 +246,39 @@
       background-color: $color-accent-yellow;
       border-radius: 100%;
     }
+  }
 
-    label {
-      box-sizing: border-box;
-      display: flex;
-      align-items: center;
-      position: relative;
-      height: 66px;
-      width: 100%;
-      padding-left: 35px;
-      transition: 0.25s;
-      cursor: pointer;
+  &__radio {
+    display: none;
 
-      &:hover {
-        box-shadow: inset 0 -3px 0 $color-secondary;
+    &:checked + .portfolio-tabs__label {
+      box-shadow: inset 0 -3px 0 $color-secondary;
+      color: $color-accent-yellow;
+
+      .portfolio-tabs__label-dot {
+        display: block;
       }
     }
+  }
 
-    input {
-      display: none;
+  &__tab {
+    display: none;
+    width: 100%;
+    padding: 50px 0;
 
-      &:checked + label {
-        box-shadow: inset 0 -3px 0 $color-secondary;
-        color: $color-accent-yellow;
-
-        .tabs-dot {
-          display: block;
-        }
-      }
+    img {
+      max-width: 100%;
     }
+  }
 
-    &-tab {
-      display: none;
-      width: 100%;
-      padding: 50px 0;
-
-      img {
-        max-width: 100%;
-      }
-    }
-
-    #architecture:checked ~ .tabs-tab__architecture,
-    #data:checked ~ .tabs-tab__data,
-    #commands:checked ~ .tabs-tab__commands {
-      display: block;
-    }
+  #architecture:checked ~ .portfolio-tabs__tab--architecture,
+  #data:checked ~ .portfolio-tabs__tab--data,
+  #commands:checked ~ .portfolio-tabs__tab--commands {
+    display: block;
   }
 }
 
-.p-results .companies {
+.portfolio-results__companies {
   &-list {
     margin: 0 -25px;
     padding: 50px 25px;
@@ -305,14 +294,11 @@
 
     .paragraph {
       padding-top: 20px;
+      color: $color-portfolio-text-second;
     }
   }
 
-  .paragraph {
-    color: $color-portfolio-text-second;
-  }
-
-  q.paragraph {
+  &-quote {
     display: block;
     position: relative;
     padding: 50px 25px;
@@ -332,7 +318,7 @@
 }
 
 @media (min-width: 576px) {
-  .p-results .companies q.paragraph {
+  .portfolio-results__companies-quote {
     padding: 100px 25px;
     margin-bottom: -150px;
 
@@ -343,85 +329,99 @@
 }
 
 @media (min-width: 811px) {
-  .p-video{
-    &-wrapper {
+  .portfolio-video {
+    &__wrapper {
       height: 500px;
     }
 
-    &-content {
+    &__content {
       padding: 0 100px;
 
-      .portfolio-title {
+      .portfolio__title {
         padding: 25px 0;
         font-size: 2em;
       }
     }
   }
 
-  .p-solution {
-    .solutions .portfolio-columns {
-      .image, .description {
-        margin: 0 25px;
-      }
-
-      .description .dot {
-        display: block;
-      }
-
-      &__odd .image, &__even .image {
-        justify-content: center;
-      }
-
-      &__odd  {
-        flex-direction: row;
-
-        .description {
-          padding-right: 0;
-        }
-      }
-
-      &__even {
-        flex-direction: row-reverse;
-
-        .description {
-          padding-left: 0;
-        }
-      }
+  .portfolio-solutions {
+    &__description, &__image {
+      position: relative;
+      width: 50%;
+      box-sizing: border-box;
     }
 
-    .tabs {
-      flex-direction: row;
-      flex-wrap: wrap;
+    &__image {
+      display: flex;
+    }
+
+    .portfolio__dot {
+      display: block;
+    }
+
+    .portfolio__columns {
+      align-items: center;
       justify-content: space-between;
 
-      &-menu {
-        height: 66px;
-      }
+      &--odd  {
+        flex-direction: row;
 
-      label {
-        width: auto;
-        padding-right: 35px;
-        font-size: 0.9em;
-      }
-
-      &-tab {
-        margin: 0 auto;
-        text-align: center;
-
-        img {
-          max-width: 600px;
+        .portfolio-solutions__description {
+          padding-right: 50px;
         }
 
-        &__architecture img {
-          position: relative;
-          left: -50px;
-          max-width: calc(100% + 100px);
+        .portfolio-solutions__image {
+          justify-content: flex-end;
+        }
+      }
+
+      &--even {
+        flex-direction: row-reverse;
+
+        .portfolio-solutions__description {
+          left: 50px;
+          padding-left: 50px;
+        }
+
+        .portfolio-solutions__image {
+          right: 50px;
         }
       }
     }
   }
 
-  .p-results .companies {
+  .portfolio-tabs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__bar {
+      height: 66px;
+    }
+
+    &__label {
+      width: auto;
+      padding-right: 35px;
+      font-size: 0.9em;
+    }
+
+    &__tab {
+      margin: 0 auto;
+      text-align: center;
+
+      img {
+        max-width: 600px;
+      }
+
+      &--architecture img {
+        position: relative;
+        left: -50px;
+        max-width: calc(100% + 100px);
+      }
+    }
+  }
+
+  .portfolio-results__companies {
     &-list {
       display: flex;
       flex-wrap: wrap;
@@ -435,11 +435,11 @@
       }
     }
 
-    .portfolio-step {
+    .portfolio__step {
       margin-top: 50px;
     }
 
-    q.paragraph {
+    &-quote {
       max-width: 750px;
       margin: 0 auto;
       margin-bottom: -150px;
@@ -456,27 +456,25 @@
 }
 
 @media (min-width: 992px) {
-  .p-results .companies-list li {
+  .portfolio-results__companies-list li {
     width: 25%;
   }
 }
 
-@media (min-width: 1175px) {
-  .p-video-wrapper {
+@media (min-width: 1200px) {
+  .portfolio-video__wrapper {
     height: 600px;
   }
-  
-  .p-solution {
-    .solutions .description .dot__yellow {
+
+  .portfolio-solution {
+    &__description .portfolio__dot--yellow {
       top: -150px;
       left: -250px;
     }
+  }
 
-    .tabs {
-      label {
-        width: 30%;
-        font-size: 1em;
-      }
-    }
+  .portfolio-tabs__label {
+    width: 30%;
+    font-size: 1em;
   }
 }
