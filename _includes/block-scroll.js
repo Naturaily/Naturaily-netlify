@@ -6,15 +6,9 @@ var didScroll,
 jQuery('#checkbox').on('click', function() {
 
   if (jQuery('.menu').hasClass('active')) {
-
     jQuery(".menu").removeClass('active');
-    jQuery('#Smallchat').css("visibility", "visible");
-
   } else {
-
     jQuery(".menu").addClass('active');
-    jQuery('#Smallchat').css("visibility", "hidden");
-
   }
 });
 
@@ -43,13 +37,11 @@ function hasScrolled() {
   if (st > lastScrollTop && st > navbarHeight){
     jQuery('#checkbox, #mobileSpan').removeClass('nav-down').addClass('nav-up');
     jQuery(".menu").removeClass('active');
-    jQuery('#Smallchat').css("visibility", "visible");
     jQuery("#mobileSpan").removeClass('open');
   } else {
     if(st + jQuery(window).height() < jQuery(document).height()) {
       jQuery('#checkbox, #mobileSpan').removeClass('nav-up').addClass('nav-down');
       jQuery(".menu").removeClass('active');
-      jQuery('#Smallchat').css("visibility", "visible");
       jQuery("#mobileSpan").removeClass('open');
     }
   }
