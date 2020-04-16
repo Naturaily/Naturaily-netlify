@@ -1,33 +1,44 @@
 .portfolio-results {
-  &__title {
-    font-size: 0.8em;
-    font-weight: 600;
-    color: $color-portfolio-text;
-
-    &::after {
-      content: ":";
-    }
-  }
-
   &__header {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 200;
-    line-height: 1.5em;
+    line-height: 1.5;
+
+    &--bold {
+      font-weight: 400;
+    }
   }
 
   &__main {
     padding-bottom: 100px;
 
-    .portfolio-list li {
+    &-title {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: $color-portfolio-text;
+
+      &::after {
+        content: ":";
+      }
+    }
+
+    .portfolio__list li {
       padding: 10px 25px 10px 40px;
+      font-size: 1.2em;
     }
 
     .paragraph {
       padding: 25px 0 50px;
       line-height: 1.5;
-      font-size: 1.2em;
+      font-size: 1.5em;
       font-weight: 300;
     }
+
+    .portfolio__columns--left .paragraph,
+    .portfolio__columns--reversed .paragraph {
+       color: $color-portfolio-text-second;
+    }
+
 
     .portfolio__columns--right {
       padding: 0 25px;
@@ -102,7 +113,8 @@
         padding: 25px 0;
 
         li {
-          padding: 30px 25px;
+          padding: 30px 0;
+          padding-left: 25px;
 
           &:nth-of-type(2) {
             border-top: 1px solid $color-global-font-10;
@@ -138,6 +150,10 @@
       }
     }
 
+    &-text, .paragraph {
+      max-width: 180px;
+    }
+
     &-text {
       height: 6em;
       padding-bottom: 0;
@@ -149,8 +165,8 @@
   .portfolio-results {
     &__main {
       .portfolio__list li {
+        max-width: 350px;
         padding-left: 15px;
-        padding-right: 80px;
       }
 
       &.portfolio__columns--right {
@@ -170,8 +186,14 @@
       }
     }
 
-    &__numbers-list li  {
-      width: 25%;
+    &__numbers{
+      &-list li  {
+        width: 25%;
+      }
+
+      &--lv .portfolio__columns--left li {
+        padding-left: 0;
+      }
     }
   }
 }

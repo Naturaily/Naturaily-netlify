@@ -84,7 +84,9 @@
       <div class="portfolio__columns {{ feature.feature.class }}">
         <div class="portfolio-features__description" {{ feature.feature.animation1 }}>
           <h3 class="portfolio-features__header">{{ feature.feature.title }}</h3>
-          <ul class="portfolio__list">{{ feature.feature.list }}</ul>
+          <ul class="portfolio__list {% if page.slug == 'lvcloud' %}portfolio__list--lvcloud{% endif %}">
+            {{ feature.feature.list }}
+          </ul>
         </div>
         <div class="portfolio-features__image" {{ feature.feature.animation2 }}>
           <img src="{{ feature.feature.image }}" />

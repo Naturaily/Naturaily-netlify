@@ -194,8 +194,7 @@ testimonial-image: /assets/images/services/rafal.png
 testimonial-alt: artinfo founder
 testimonial-quote: >
   <span class="portfolio-testimonial__quote--secondary">Artinfo is a market leader</span>
-  <span>and a trusted institution,</span>
-  <span>so we work only with the best</span>
+  and a trusted institution, so we work only with the best
 testimonial-person: Rafał Kamecki
 testimonial-position: ArtInfo founder
 testimonial-text: >
