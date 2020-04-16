@@ -81,10 +81,11 @@ solutions:
       animation2: portfolio-right
       text: >-
         To meet the challenges mentioned above and develop the performant IoT
-        enterprise-level solution, we built Ruby and Ruby on Rails applications
-        using a microservices architecture. There is a separate microservice
-        assigned to each type of device, which increases scalability and makes
-        the management, development and maintenance processes much easier.
+        enterprise-level solution, we built <strong>Ruby</strong>
+        and <strong>Ruby on Rails</strong> applications using a microservices
+        architecture. There is a separate microservice assigned to each type
+        of device, which increases scalability and makes the management,
+        development and maintenance processes much easier.
         Thanks to this approach, we can easily detect the error and quickly
         respond to it. Any necessary fixes are made without affecting other
         microservices.
@@ -102,10 +103,11 @@ solutions:
       animation2: portfolio-left
       text: >-
         There are between 600,000 and 1,500,000 events and measurements a day
-        sent from devices to the application with an MQTT broker. Microservices
-        receive, process and then broadcast the data via a Kafka streaming
-        platform. Parsed measurements are received by the main application
-        and saved to a MongoDB database.
+        sent from devices to the application with an <strong>MQTT</strong> broker.
+        Microservices receive, process and then broadcast the data
+        via a <strong>Kafka</strong> streaming platform. Parsed measurements
+        are received by the main application and saved to a <strong>MongoDB</strong>
+        database.
   - solution:
       image: /assets/images/portfolio/lvcloud/solution3.png
       alt: lvcloud mobile panel
@@ -122,8 +124,9 @@ solutions:
         was also because of its performance and suitability to build stable,
         large-scale solutions. This combination guaranteed the acceleration
         and facilitation of the development process.<br><br>
-        If you want to know more about Highcharts itself, <a class="text-secondary"
-        href="#">follow the link to one of our blog posts</a>.
+        If you want to know more about Highcharts itself,
+        <a class="text-secondary href="https://naturaily.com/blog/big-datasets-highcharts-vue">
+        follow the link to one of our blog posts</a>.
 tabs:
   - tab:
       id: architecture
@@ -193,7 +196,7 @@ stack:
   - technology:
       name: MongoDB<br> (database)
       image: /assets/images/portfolio/lvcloud/icons/mongoDB.png
-      image-class: portfolio-stack__image--wider
+      image-class: portfolio-stack__image--mongo
       alt: mongodb icon
       description: >-
         It is a mature and easily scalable document-oriented database used
@@ -206,7 +209,7 @@ stack:
   - technology:
       name: Kafka<br> (backend)
       image: /assets/images/portfolio/lvcloud/icons/kafka.png
-      image-class: portfolio-stack__image--wider
+      image-class: portfolio-stack__image--kafka
       alt: kafka icon
       description: Streaming platform used to broadcast the data.
   - technology:
@@ -257,12 +260,12 @@ experts:
   - expert:
       number: 5
       name: Project Manager
-results-title: Results
+results-title: The results
 results-subtitle: The results
 results-paragraph: >
   Developing smart grid solutions has helped many Distribution Network
   Operators, as well as the industry in general, begin to understand, plan
-  and implement practical solutions for future networks.<br>
+  and implement practical solutions for future networks.<br><br>
   LV Cloud application is already used by a couple of companies around
   the world. It helps them to minimize costs and allows informed decisions
   to be made exactly when needed.
@@ -316,7 +319,7 @@ testimonial-title: Testimonial
 testimonial-subtitle: Testimonial
 testimonial-image: /assets/images/portfolio/lvcloud/testimonial.png
 testimonial-quote: >
-  <span class="p-testimonial-text__secondary">Working with Naturaily </span>
+  <span class="portfolio-testimonial__quote--secondary">Working with Naturaily</span>
   has been a pleasure from the very beginning of the project
 testimonial-person: Chris Lowsley
 testimonial-position: Director – LV Solutions at EA Technology
@@ -326,7 +329,7 @@ testimonial-text: >
   of our product suite. The Naturaily team has a vision as well as a dynamic
   approach to getting the project completed. They have showed EA Technology
   how good they are, achieving outcomes that far exceeded the initial project
-  scope. <br>
+  scope. <br><br>
   Nothing is too much trouble for them and they are always willing to make
   things right.
 estimate-text-1: >

@@ -6,7 +6,7 @@
       <h2 class="portfolio__title">{{ page.results-subtitle }}</h2>
 
       {% if page.results-list %}
-        <p class="paragraph portfolio-results__title">{{ page.results-list-title }}</p>
+        <p class="portfolio-results__main-title">{{ page.results-list-title }}</p>
         <ul class="portfolio__list">{{ page.results-list }}</ul>
       {% else %}
         <p class="paragraph">{{ page.results-paragraph }}</p>
@@ -60,7 +60,9 @@
 
   {% if page.companies %}
     <div class="portfolio-results__companies">
-      <h3 class="portfolio-results__header">{{ page.companies-title }}</h3>
+      <h3 class="portfolio-results__header portfolio-results__header--bold">
+        {{ page.companies-title }}
+      </h3>
       <ul portfolio-bottom class="portfolio-results__companies-list">
         {% for company in page.companies %}
           <li>
@@ -70,7 +72,7 @@
         {% endfor %}
       </ul>
       <h4 class="portfolio__step">{{ page.companies-subtitle }}</h4>
-      <q portfolio-bottom class="paragraph portfolio-results__companies-quote">
+      <q portfolio-bottom class="portfolio-results__companies-quote">
         <span class="icon-quote"></span>
         {{ page.companies-quote }}
       </q>
