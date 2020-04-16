@@ -1,7 +1,7 @@
 .portfolio__section {
   box-sizing: border-box;
   width: 100%;
-  padding: 70px 20px;
+  padding: 70px 35px 70px 20px;
 
   &--orange {
     margin-top: 75px;
@@ -79,13 +79,11 @@
 }
 
 .portfolio__separator {
-  margin-top: 50px;
-
   img {
-    position: relative;
-    bottom: 25px;
-    margin-bottom: -50px;
-    width: 100%;
+    margin-top: -7%;
+    margin-bottom: -13%;
+    width: 200vw;
+    transform: translateX(-50px);
   }
 
   &--artinfo {
@@ -151,6 +149,12 @@
   .portfolio__section {
     padding: 100px;
   }
+
+  .portfolio__separator img {
+    margin-top: -5%;
+    margin-bottom: -10%;
+    width: 150vw;
+  }
 }
 
 @media (min-width: 811px) {
@@ -173,8 +177,10 @@
   }
 
   .portfolio__separator img {
-    bottom: 50px;
-    margin-bottom: -125px;
+    margin-top: -4%;
+    margin-bottom: -7%;
+    width: 100%;
+    transform: none;
   }
 }
 

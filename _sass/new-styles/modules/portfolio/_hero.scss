@@ -25,7 +25,7 @@
     .geometric-figure {
       top: 70px;
       right: 10px;
-      z-index: -1;
+      z-index: -2;
 
       &__blue {
         .geometric-figure_center {
@@ -44,6 +44,7 @@
       right: 10px;
       max-width: calc(100% - 10px);
       max-height: 280px;
+      z-index: -1;
     }
   }
 }
