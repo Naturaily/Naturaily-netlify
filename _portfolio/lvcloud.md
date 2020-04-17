@@ -126,15 +126,15 @@ solutions:
         follow the link to one of our blog posts</a>.
 tabs:
   - tab:
-      id: architecture
+      index: 1
       title: Architecture
       image: /assets/images/portfolio/lvcloud/tab1.png
   - tab:
-      id: data
+      index: 2
       title: Data collectors/parsers
       image: /assets/images/portfolio/lvcloud/tab2.png
   - tab:
-      id: commands
+      index: 3
       title: Sample Commands Senders
       image: /assets/images/portfolio/lvcloud/tab3.png
 features:

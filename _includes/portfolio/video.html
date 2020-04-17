@@ -5,16 +5,14 @@
     <h2 class="portfolio__title">{{ page.video-subtitle }}</h2>
 
     <div class="portfolio-video__wrapper">
-      <div class="portfolio-video__cover" style="background-image: url('{{ page.video-cover }}')">
+
+      <div id="video-cover" class="portfolio-video__cover" style="background-image: url('{{ page.video-cover }}')">
         <div class="portfolio-video__cover-shadow"></div>
+        <div class="portfolio-video__cover-content">
+          <button id="video-trigger"><span>&#9654</span></button>
+          <p class="portfolio__title">{{ page.video-text }}</p>
+        </div>
       </div>
-
-      <div class="portfolio-video__content">
-        <label for="portfolio-video" class="portfolio-video__content-button"><span>&#9654</span></label>
-        <p class="portfolio__title">{{ page.video-text }}</p>
-      </div>
-
-      <input id="portfolio-video" class="portfolio-video__radio" type="radio" name="video"/>
 
       <iframe
         src="{{ page.video-url }}"
@@ -24,5 +22,15 @@
       ></iframe>
     </div>
   </div>
+
+  <script type="text/javascript">
+    $(document).ready(() => {
+      $('#video-trigger').click(() => {
+        $('#video-cover').animate({ 'opacity' : 0 }, 600, function() {
+          $(this).css( 'display', 'none' )
+        })
+      })
+    })
+  </script>
 
 {% endif %}
