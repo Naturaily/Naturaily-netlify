@@ -59,8 +59,7 @@ features:
       title: Live art auctions<br> (Artinfo Live)
       image: /assets/images/portfolio/artinfo/solution1.png
       class: portfolio__columns--odd
-      animation1: portfolio-left
-      animation2: portfolio-right
+      animation: portfolio-right
       list: >-
         <li>take part in real-time bidding and buy the artwork online</li>
         <li>get instant access to the offers of many auction houses</li>
@@ -68,8 +67,7 @@ features:
       title: Sophisticated<br> search engine
       image: /assets/images/portfolio/artinfo/solution2.png
       class: portfolio__columns--even
-      animation1: portfolio-right
-      animation2: portfolio-left
+      animation: portfolio-left
       list: >-
         <li>check which artworks of your favorite artists are available</li>
         <li>look through many online catalogues from different auction houses</li>
@@ -77,8 +75,7 @@ features:
       title: User admin panel
       image: /assets/images/portfolio/artinfo/solution3.png
       class: portfolio__columns--odd
-      animation1: portfolio-left
-      animation2: portfolio-right
+      animation: portfolio-right
       list: >-
         <li>create a list of your favorite artists (the Wishlist) and receive e-mail
         notifications when their artworks appear in auctions</li>

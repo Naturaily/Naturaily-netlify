@@ -212,8 +212,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 50px;
 
   &__bar {
     position: absolute;
@@ -423,11 +421,13 @@
   }
 
   .portfolio-results__companies {
+    padding-top: 50px;
+
     &-list {
       display: flex;
       flex-wrap: wrap;
-      padding: 80px 0;
-      margin: -50px;
+      padding: 50px 0;
+      margin: 0 -50px;
 
       li {
         box-sizing: border-box;

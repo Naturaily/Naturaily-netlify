@@ -304,7 +304,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .portfolio-features .portfolio__columns {
     padding: 40px 25px;
 
@@ -312,9 +312,7 @@
       width: calc(100% + 100px);
     }
   }
-}
 
-@media (min-width: 1200px) {
   .portfolio-experts  {
     &__number {
       transform: translate(-215%, -50%);

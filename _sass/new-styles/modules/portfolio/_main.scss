@@ -4,7 +4,7 @@
   padding: 70px 35px 70px 20px;
 
   &--orange {
-    margin-top: 75px;
+    margin-top: 50px;
     border-radius: 8px;
     background-color: $color-code-orange-bg;
   }
@@ -147,7 +147,7 @@
 
 @media (min-width: 576px) {
   .portfolio__section {
-    padding: 100px;
+    padding: 75px 100px;
   }
 
   .portfolio__separator img {
@@ -158,10 +158,6 @@
 }
 
 @media (min-width: 811px) {
-  .portfolio__section {
-    padding: 100px;
-  }
-
   .portfolio__columns {
     flex-direction: row;
     margin: 0 -25px;
