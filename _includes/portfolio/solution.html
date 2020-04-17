@@ -55,12 +55,12 @@
 
     <div class="portfolio-tabs">
       <div class="portfolio-tabs__menu">
-        <ul class="portfolio-tabs__menu-list">
+        <ul id="tabs-nav" class="portfolio-tabs__menu-list">
           {% for tab in page.tabs %}
             <li
               data-index="{{ tab.tab.index }}"
               data-tab="tab-{{ tab.tab.index }}"
-              data-active="{% if tab.tab.index == 1 %}true{% else %}false{% endif %}"
+              data-activenav="{% if tab.tab.index == 1 %}true{% else %}false{% endif %}"
               class="tabs-item portfolio-tabs__menu-list__item"
             >
               {{ tab.tab.title }}
@@ -70,11 +70,11 @@
         </ul>
       </div>
 
-      <div class="portfolio-tabs__content">
+      <div id="tabs-container" class="portfolio-tabs__content">
         {% for tab in page.tabs %}
           <div
             id="tab-{{ tab.tab.index }}"
-            data-active="{% if tab.tab.index == 1 %}true{% else %}false{% endif %}"
+            data-activetab="{% if tab.tab.index == 1 %}true{% else %}false{% endif %}"
             class="tabs-tab portfolio-tabs__content-tab portfolio-tabs__content-tab--tab{{ tab.tab.index }}"
           >
             <img src="{{ tab.tab.image }}"/>
@@ -159,53 +159,9 @@
 
 
 {% if page.slug == "lvcloud" %}
-<script type="text/javascript">
-  $(document).ready(() => {
-    const tabsContainer = $(".portfolio-tabs__content");
-    let activeTab = $(".tabs-tab[data-active='true']")
 
-    setContainerHeight(activeTab.height());
+  <script type="text/javascript">
+    {% include portfolio/solution-tabs.js %}
+  </script>
 
-    $('.portfolio-tabs__menu-list').click((e) => {
-      if(e.target.tagName == 'LI' && e.target.dataset.active == 'false') {
-        const activeMenu = $(".tabs-item[data-active='true']")
-              activeIndex = activeMenu[0].dataset.index
-              newMenu = $(e.target)
-              newTab = $(`#${e.target.dataset.tab}`)
-              newIndex = e.target.dataset.index
-
-        activeTab = $(".tabs-tab[data-active='true']");
-        setContainerHeight(newTab.height());
-
-        if (newIndex > activeIndex) {
-          activeTab.animate({ 'left' : 0 }, 600, function() {
-            $(this).css( 'left', '200vw' )
-          });
-          newTab.css( 'left', '200vw' );
-          newTab.animate({ 'left' : '100vw' }, 600);
-        }
-        else {
-          activeTab.animate({ 'left' : '200vw' }, 600);
-          newTab.css( 'left', '0' );
-          newTab.animate({ 'left' : '100vw' }, 600);
-        }
-
-        activeMenu.children('span').animate({ 'opacity' : 0 }, 600);
-        newMenu.children('span').animate({ 'opacity' : 1 }, 600);
-
-        activeTab.attr('data-active', 'false');
-        activeMenu.attr('data-active', 'false');
-        newTab.attr('data-active', 'true');
-        newMenu.attr('data-active', 'true');
-      }
-    });
-
-    function setContainerHeight(tabHeight) {
-      let newHeight;
-
-      (window.innerWidth < 811) ? newHeight = (tabHeight + 430) : newHeight = (tabHeight + 280);
-      tabsContainer.animate({ 'height' : `${newHeight}px` }, 600);
-    }
-  })
-</script>
 {% endif %}

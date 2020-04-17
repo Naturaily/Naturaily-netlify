@@ -39,7 +39,7 @@
         height: 60px;
         width: 60px;
         border-radius: 100%;
-        background-color: $color-secondary;
+        background-image: linear-gradient(0deg, #FF5E45 0%, #FF2C2C 100%);
         border: 2px solid $color-secondary;
         color: $color-white;
         transition: 0.25s;
@@ -52,8 +52,7 @@
         }
 
         &:hover {
-          background-color: $color-white;
-          color: $color-secondary;
+          transform: scale(1.2);
           cursor: pointer;
         }
       }
@@ -228,11 +227,11 @@
           opacity: 0;
         }
 
-        &:hover, &[data-active='true'] {
+        &:hover, &[data-activeNav='true'] {
           box-shadow: inset 0 -3px 0 $color-secondary;
         }
 
-        &[data-active='true'] {
+        &[data-activeNav='true'] {
           color: $color-secondary;
 
           span {
@@ -260,7 +259,7 @@
         max-width: 100%;
       }
 
-      &[data-active='true'] {
+      &[data-activeTab='true'] {
         left: 100vw;
       }
     }
@@ -395,6 +394,7 @@
 
     &__content {
       top: 150px;
+      height: 980px;
 
       &-tab--tab2 img, &-tab--tab3 img {
         max-width: 700px;
