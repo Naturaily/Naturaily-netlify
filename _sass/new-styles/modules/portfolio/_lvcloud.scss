@@ -333,16 +333,6 @@
     }
   }
 
-  .portfolio-tabs {
-    &__menu-list__item span {
-      left: 0;
-    }
-
-    &__content-tab--tab2 img, &__content-tab--tab3 img {
-      max-width: 700px;
-    }
-  }
-
   .portfolio-solutions {
     &__description, &__image {
       position: relative;
@@ -393,13 +383,22 @@
 
       &__item {
         width: auto;
+        margin: 0 25px;
         padding: 30px 35px;
         font-size: 0.9em;
+
+        span {
+          left: 0;
+        }
       }
     }
 
     &__content {
       top: 150px;
+
+      &-tab--tab2 img, &-tab--tab3 img {
+        max-width: 700px;
+      }
     }
   }
 
