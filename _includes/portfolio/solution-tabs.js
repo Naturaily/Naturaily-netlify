@@ -5,8 +5,6 @@ $(document).ready(() => {
   const tabsNavItems = $('.portfolio-tabs__menu-list__item');
   let activeTab = $("[data-activetab='true']")
 
-  setContainerHeight(activeTab.height());
-
   tabsNavItems.each(function() {
     $(this).click(function() {
       if (this.dataset.activenav === 'false') {
