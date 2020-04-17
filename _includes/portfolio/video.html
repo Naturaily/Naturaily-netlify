@@ -15,6 +15,7 @@
       </div>
 
       <iframe
+        id="video-player"
         src="{{ page.video-url }}"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -24,13 +25,7 @@
   </div>
 
   <script type="text/javascript">
-    $(document).ready(() => {
-      $('#video-trigger').click(() => {
-        $('#video-cover').animate({ 'opacity' : 0 }, 600, function() {
-          $(this).css( 'display', 'none' )
-        })
-      })
-    })
+    {% include portfolio/video-cover.js %}
   </script>
 
 {% endif %}
