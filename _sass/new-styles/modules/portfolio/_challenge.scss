@@ -1,0 +1,21 @@
+.portfolio-challenge {
+  .portfolio__columns--left .paragraph {
+    margin-bottom: -125px;
+  }
+
+  .portfolio__columns--right .paragraph {
+    padding-top: 125px;
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-challenge {
+    .portfolio__columns--left .paragraph {
+      margin-bottom: -100px;
+    }
+
+    .portfolio__columns--right .paragraph {
+      padding-top: 0;
+    }
+  }
+}

@@ -104,6 +104,7 @@
 @import "modules/portfolio/hero";
 @import "modules/portfolio/about";
 @import "modules/portfolio/goal";
+@import "modules/portfolio/challenge";
 @import "modules/portfolio/solution";
 @import "modules/portfolio/results";
 @import "modules/portfolio/testimonial";
@@ -203,7 +204,7 @@ a.text-secondary {
   }
 
   strong {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .dot {

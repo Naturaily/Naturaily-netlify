@@ -3,7 +3,7 @@ $(document).ready(() => {
 
   function resizeForm() {
     if (width > 1200) {
-      window.sr = ScrollReveal({ reset: false, duration: 550, delay: 100 });
+      window.sr = ScrollReveal({ reset: false, duration: 600, delay: 200 });
 
       sr.reveal('[portfolio-bottom]', {
         origin: 'bottom',
