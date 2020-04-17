@@ -58,6 +58,7 @@
         <ul id="tabs-nav" class="portfolio-tabs__menu-list">
           {% for tab in page.tabs %}
             <li
+              data-type="tabs-nav"
               data-index="{{ tab.tab.index }}"
               data-tab="tab-{{ tab.tab.index }}"
               data-activenav="{% if tab.tab.index == 1 %}true{% else %}false{% endif %}"
