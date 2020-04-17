@@ -15,74 +15,55 @@
     height: 100%;
   }
 
-  &__radio, iframe {
-    display: none;
-  }
-
-  &__radio:checked ~ iframe {
-    display: block;
-  }
-
-  &__radio:checked ~ .p-video-cover,
-  &__radio:checked ~ .p-video-content {
-    display: none;
-  }
-
   &__cover {
     position: absolute;
-    z-index: -1;
     background-position: center;
     background-size: cover;
+    z-index: 2;
 
     &-shadow {
       background-color: $color-white;
       opacity: 0.6;
     }
-  }
 
-  &__content {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    padding: 0 25px;
+    &-content {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      padding: 0 25px;
 
-    &-button {
-      display: block;
-      position: relative;
-      height: 60px;
-      width: 60px;
-      border-radius: 100%;
-      background-color: $color-secondary;
-      border: 2px solid $color-secondary;
-      color: $color-white;
-      transition: 0.25s;
+      button {
+        display: block;
+        position: relative;
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        background-color: $color-secondary;
+        border: 2px solid $color-secondary;
+        color: $color-white;
+        transition: 0.25s;
 
-      span {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-45%, -45%);
+        span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-45%, -45%);
+        }
+
+        &:hover {
+          background-color: $color-white;
+          color: $color-secondary;
+          cursor: pointer;
+        }
       }
 
-      &:hover {
-        background-color: $color-white;
-        color: $color-secondary;
-        cursor: pointer;
+      .portfolio__title {
+        padding: 10px 0;
+        line-height: 1.5;
+        font-size: 1.5em;
       }
     }
-
-    .portfolio__title {
-      padding: 10px 0;
-      line-height: 1.5;
-      font-size: 1.5em;
-    }
-  }
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
   }
 }
 
@@ -213,71 +194,76 @@
   flex-direction: column;
   position: relative;
 
-  &__bar {
+  &__menu {
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 150vw;
-    height: 198px;
-    z-index: -1;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
     background-color: rgba(241,241,255,0.43);
-  }
 
-  &__label {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    position: relative;
-    height: 66px;
-    width: 100%;
-    padding-left: 35px;
-    transition: 0.25s;
-    cursor: pointer;
+    &-list {
+      display: flex;
+      flex-direction: column;
+      max-width: 1080px;
+      margin: 0 auto;
 
-    &:hover {
-      box-shadow: inset 0 -3px 0 $color-secondary;
-    }
+      &__item {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        padding: 30px;
+        padding-left: 50px;
+        transition: 0.6s;
+        cursor: pointer;
 
-    &-dot {
-      display: none;
-      position: absolute;
-      top: calc(50% - 5px);
-      left: 0;
-      width: 10px;
-      height: 10px;
-      background-color: $color-accent-yellow;
-      border-radius: 100%;
-    }
-  }
+        span {
+          display: block;
+          position: absolute;
+          top: calc(50% - 5px);
+          left: 20px;
+          width: 10px;
+          height: 10px;
+          background-color: $color-accent-yellow;
+          border-radius: 100%;
+          opacity: 0;
+        }
 
-  &__radio {
-    display: none;
+        &:hover, &[data-active='true'] {
+          box-shadow: inset 0 -3px 0 $color-secondary;
+        }
 
-    &:checked + .portfolio-tabs__label {
-      box-shadow: inset 0 -3px 0 $color-secondary;
-      font-weight: 500;
-      color: $color-secondary;
+        &[data-active='true'] {
+          color: $color-secondary;
 
-      .portfolio-tabs__label-dot {
-        display: block;
+          span {
+            opacity: 1;
+          }
+        }
       }
     }
   }
 
-  &__tab {
-    display: none;
-    width: 100%;
-    padding: 50px 0;
+  &__content {
+    position: relative;
+    top: 300px;
+    left: -100vw;
+    height: 750px;
+    overflow: visible !important;
 
-    img {
-      max-width: 100%;
+    &-tab {
+      position: absolute;
+      left: 200vw;
+      width: 100%;
+      text-align: center;
+
+      img {
+        max-width: 100%;
+      }
+
+      &[data-active='true'] {
+        left: 100vw;
+      }
     }
-  }
-
-  #architecture:checked ~ .portfolio-tabs__tab--architecture,
-  #data:checked ~ .portfolio-tabs__tab--data,
-  #commands:checked ~ .portfolio-tabs__tab--commands {
-    display: block;
   }
 }
 
@@ -337,13 +323,23 @@
       height: 500px;
     }
 
-    &__content {
+    &__cover-content {
       padding: 0 100px;
 
       .portfolio__title {
         padding: 25px 0;
         font-size: 2em;
       }
+    }
+  }
+
+  .portfolio-tabs {
+    &__menu-list__item span {
+      left: 0;
+    }
+
+    &__content-tab--tab2 img, &__content-tab--tab3 img {
+      max-width: 700px;
     }
   }
 
@@ -390,33 +386,20 @@
   }
 
   .portfolio-tabs {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    &__menu-list {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 100px;
 
-    &__bar {
-      height: 66px;
+      &__item {
+        width: auto;
+        padding: 30px 35px;
+        font-size: 0.9em;
+      }
     }
 
-    &__label {
-      width: auto;
-      padding-right: 35px;
-      font-size: 0.9em;
-    }
-
-    &__tab {
-      margin: 100px auto;
-      text-align: center;
-
-      img {
-        max-width: 600px;
-      }
-
-      &--architecture img {
-        position: relative;
-        left: -50px;
-        max-width: calc(100% + 100px);
-      }
+    &__content {
+      top: 150px;
     }
   }
 
@@ -460,6 +443,11 @@
   .portfolio-results__companies-list li {
     width: 25%;
   }
+
+  .portfolio-tabs__menu-list li {
+    width: 33%;
+    font-size: 1em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -472,10 +460,5 @@
       top: -150px;
       left: -250px;
     }
-  }
-
-  .portfolio-tabs__label {
-    width: 30%;
-    font-size: 1em;
   }
 }
