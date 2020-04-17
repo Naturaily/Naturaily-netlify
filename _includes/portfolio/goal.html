@@ -3,7 +3,7 @@
   <h2 class="portfolio__title">{{ page.goal-subtitle }}</h2>
 
   <div class="portfolio__columns portfolio-goal__main">
-    <div portfolio-left class="portfolio__columns--left">
+    <div class="portfolio__columns--left">
 
       {% if page.goal-person %}
         <p class="paragraph">{{ page.goal-text }}</p>
@@ -23,7 +23,7 @@
     </div>
 
     {% if page.goal-image %}
-      <div portfolio-right class="portfolio__columns--right portfolio-goal__main-image">
+      <div class="portfolio__columns--right portfolio-goal__main-image">
         <img src="{{ page.goal-image }}" alt="{{ page.goal-alt }}" />
       </div>
     {% endif %}
@@ -31,9 +31,9 @@
   </div>
 
   {% if page.slug == "lvcloud" %}
-    <div class="portfolio__columns portfolio-goal__{{page.slug}}">
+    <div portfolio-right class="portfolio__columns portfolio-goal__{{page.slug}}">
 
-      <div portfolio-left class="portfolio__columns--left">
+      <div class="portfolio__columns--left">
         <span class="portfolio__dot portfolio__dot--secondary"></span>
         <div class="portfolio-goal__{{page.slug}}-image">
           <img
@@ -47,7 +47,7 @@
         </p>
       </div>
 
-      <div portfolio-right class="portfolio__columns--right">
+      <div class="portfolio__columns--right">
         <span class="portfolio__dot portfolio__dot--secondary"></span>
         <div class="portfolio-goal__{{page.slug}}-image">
           <img

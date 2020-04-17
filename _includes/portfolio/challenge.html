@@ -7,12 +7,11 @@
       <p class="paragraph">{{ page.challenge-column-1 }}</p>
     </div>
 
-    {% if page.challenge-column-2 %}
-      <div portfolio-right class="portfolio__columns--right">
+    <div portfolio-right class="portfolio__columns--right">
+      {% if page.challenge-column-2 %}
         <p portfolio-right class="paragraph">{{ page.challenge-column-2 }}</p>
-      </div>
-    {% endif %}
-
+      {% endif %}
+    </div>
   </div>
 
   {% if page.slug == "artinfo" %}

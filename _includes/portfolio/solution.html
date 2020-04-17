@@ -12,10 +12,10 @@
 
   {% if page.solution-image %}
     <div class="portfolio__columns portfolio-answer">
-      <div class="portfolio__columns--left" portfolio-left>
+      <div class="portfolio__columns--left">
         <p class="paragraph">{{ page.solution-column-1 }}</p>
       </div>
-      <div class="portfolio__columns--right" portfolio-right>
+      <div class="portfolio__columns--right">
         <img src="{{ page.solution-image }}" alt="page.solution-alt" />
       </div>
     </div>
@@ -25,8 +25,8 @@
     <div class="portfolio-solutions">
 
       {% for solution in page.solutions %}
-        <div class="portfolio__columns {{ solution.solution.class }}">
-          <div class="portfolio-solutions__description" {{ solution.solution.animation1 }}>
+        <div {{ solution.solution.animation }} class="portfolio__columns {{ solution.solution.class }}">
+          <div class="portfolio-solutions__description">
 
             {% if solution.solution.title %}
               <h3 class="portfolio-solutions__header">{{ solution.solution.title }}</h3>
@@ -41,7 +41,7 @@
             {% endif%}
 
           </div>
-          <div class="portfolio-solutions__image" {{ solution.solution.animation2 }}>
+          <div class="portfolio-solutions__image">
             <img src="{{ solution.solution.image }}" alt="{{ solution.solution.alt }}"/>
             <figure class="geometric-figure {{ solution.solution.geometric-class }}">
               <div class="geometric-figure_center"></div>
@@ -53,7 +53,7 @@
 
     </div>
 
-    <div portfolio-bottom class="portfolio-tabs">
+    <div class="portfolio-tabs">
       <div class="portfolio-tabs__bar"></div>
 
       {% for tab in page.tabs %}
@@ -81,14 +81,14 @@
   <div class="portfolio-features">
 
     {% for feature in page.features %}
-      <div class="portfolio__columns {{ feature.feature.class }}">
-        <div class="portfolio-features__description" {{ feature.feature.animation1 }}>
+      <div {{ feature.feature.animation }} class="portfolio__columns {{ feature.feature.class }}">
+        <div class="portfolio-features__description">
           <h3 class="portfolio-features__header">{{ feature.feature.title }}</h3>
           <ul class="portfolio__list {% if page.slug == 'lvcloud' %}portfolio__list--lvcloud{% endif %}">
             {{ feature.feature.list }}
           </ul>
         </div>
-        <div class="portfolio-features__image" {{ feature.feature.animation2 }}>
+        <div class="portfolio-features__image">
           <img src="{{ feature.feature.image }}" />
         </div>
       </div>
@@ -98,7 +98,7 @@
 
   <div class="portfolio-stack">
     <h3 class="portfolio-stack__header"> {{ page.stack-title }} </h3>
-    <ul portfolio-bottom class="portfolio__columns">
+    <ul class="portfolio__columns">
 
       {% for technology in page.stack %}
         <li>
@@ -116,7 +116,7 @@
   {% if page.tools %}
     <div class="portfolio-stack portfolio-stack--tools">
       <h3 class="portfolio-stack__header"> {{ page.tools-title }} </h3>
-      <ul portfolio-bottom class="portfolio__columns">
+      <ul class="portfolio__columns">
 
         {% for tool in page.tools %}
           <li>
@@ -133,7 +133,7 @@
 
   <div class="portfolio-experts">
     <h3 class="portfolio-experts__header"> {{ page.experts-title }} </h3>
-    <ul portfolio-bottom class="portfolio__columns">
+    <ul class="portfolio__columns">
 
       {% for expert in page.experts %}
         <li>

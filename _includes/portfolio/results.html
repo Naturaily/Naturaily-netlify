@@ -24,7 +24,7 @@
 
     {% if page.numbers %}
 
-      <ul portfolio-bottom class="portfolio-results__numbers-list">
+      <ul class="portfolio-results__numbers-list">
         {% for number in page.numbers %}
           <li>
             <span class="portfolio-results__numbers-value">{{ number.number.value }}</span>
@@ -45,7 +45,7 @@
             </li>
           {% endfor %}
         </ul>
-        <div portfolio-right class="portfolio__columns--right">
+        <div class="portfolio__columns--right">
           <img src="{{ page.numbers-image }}" alt="{{ page-numbers-alt }}"/>
           <figure class="geometric-figure geometric-figure--schema2">
             <div class="geometric-figure_center"></div>
@@ -63,7 +63,7 @@
       <h3 class="portfolio-results__header portfolio-results__header--bold">
         {{ page.companies-title }}
       </h3>
-      <ul portfolio-bottom class="portfolio-results__companies-list">
+      <ul class="portfolio-results__companies-list">
         {% for company in page.companies %}
           <li>
             <span class="icon {{ company.company.icon }}"></span>
@@ -72,7 +72,7 @@
         {% endfor %}
       </ul>
       <h4 class="portfolio__step">{{ page.companies-subtitle }}</h4>
-      <q portfolio-bottom class="portfolio-results__companies-quote">
+      <q portfolio-right class="portfolio-results__companies-quote">
         <span class="icon-quote"></span>
         {{ page.companies-quote }}
       </q>

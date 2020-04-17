@@ -77,8 +77,7 @@ solutions:
       alt: lvcloud mobile panel
       class: portfolio__columns--odd
       geometric-class: geometric-figure--schema1
-      animation1: portfolio-left
-      animation2: portfolio-right
+      animation1: portfolio-right
       text: >-
         To meet the challenges mentioned above and develop the performant IoT
         enterprise-level solution, we built <strong>Ruby</strong>
@@ -99,8 +98,7 @@ solutions:
       alt: lvcloud mobile data charts
       class: portfolio__columns--even
       geometric-class: geometric-figure--schema2
-      animation1: portfolio-right
-      animation2: portfolio-left
+      animation: portfolio-left
       text: >-
         There are between 600,000 and 1,500,000 events and measurements a day
         sent from devices to the application with an <strong>MQTT</strong> broker.
@@ -113,8 +111,7 @@ solutions:
       alt: lvcloud mobile panel
       class: portfolio__columns--odd
       geometric-class: geometric-figure--schema3
-      animation1: portfolio-left
-      animation2: portfolio-right
+      animation1: portfolio-right
       text: >-
         These huge amounts of data could be useless if they were unreadable
         and difficult to interpret. That’s why we have chosen
@@ -145,8 +142,7 @@ features:
       title: Some of the LV Cloud features
       image: /assets/images/portfolio/lvcloud/features1.png
       class: portfolio__columns--odd
-      animation1: portfolio-left
-      animation2: portfolio-right
+      animation: portfolio-right
       list: >-
         <li>collecting and analyzing data supplied from devices</li>
         <li>alarms/warnings/notifications of disturbing changes</li>
@@ -159,8 +155,7 @@ features:
       title: Features from the user's perspective
       image: /assets/images/portfolio/lvcloud/features2.png
       class: portfolio__columns--even
-      animation1: portfolio-right
-      animation2: portfolio-left
+      animation: portfolio-left
       list: >-
         <li>a list of all the equipment commissioned within the system</li>
         <li>basic information about all the kit installed, such as color coded
