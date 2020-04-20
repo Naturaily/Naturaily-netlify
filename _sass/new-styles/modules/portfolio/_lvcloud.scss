@@ -227,11 +227,11 @@
           opacity: 0;
         }
 
-        &:hover, &[data-activeNav='true'] {
+        &:hover, &[data-active-nav="true"] {
           box-shadow: inset 0 -3px 0 $color-secondary;
         }
 
-        &[data-activeNav='true'] {
+        &[data-active-nav="true"] {
           color: $color-secondary;
 
           span {
@@ -259,7 +259,7 @@
         max-width: 100%;
       }
 
-      &[data-activeTab='true'] {
+      &[data-active-tab="true"] {
         left: 100vw;
       }
     }

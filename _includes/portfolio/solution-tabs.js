@@ -1,48 +1,50 @@
 $(document).ready(() => {
   const animationTime = 600;
-  const tabsContainer = $('#tabs-container');
-  const tabsNav = $('#tabs-nav');
-  const tabsNavItems = $("[data-type='tabs-nav']");
-  let activeTab = $("[data-activetab='true']")
+  const $tabsContainer = $('#tabs-container');
+  const $tabsNavItems = $('[data-type="tabs-nav"]');
+  let $activeTab = $('[data-active-tab="true"]');
+  let $activeNav = $('[data-active-nav="true"]');
 
-  tabsNavItems.click(function() {
-    if (this.dataset.activenav === 'false') {
-      const activeNav = $("[data-activenav='true']");
-      const activeIndex = activeNav[0].dataset.index;
-      const newNav = $(this);
-      const newTab = $(`#${this.dataset.tab}`);
-      const newIndex = this.dataset.index;
-      activeTab = $("[data-activetab='true']");
+  $tabsNavItems.click((event) => {
+    if (!$(event.target).data('active-nav')) {
+      const $newNav = $(event.target);
+      const $newTab = $(`#${$newNav.data('tab')}`);
+      const isLeftAnimation = $newNav.data('index') > $activeNav.data('index');
 
-      setContainerHeight(newTab.height());
+      setContainerHeight($newTab.height());
 
-      if (newIndex > activeIndex) {
-        activeTab.animate({ 'left': 0 }, animationTime, () => activeTab.css('left', '200vw'));
-        newTab
-          .css('left', '200vw')
-          .animate({ 'left': '100vw' }, animationTime);
-      } else {
-        activeTab.animate({ 'left': '200vw' }, animationTime);
-        newTab
-          .css('left', '0')
-          .animate({ 'left': '100vw' }, animationTime);
-      }
+      $activeNav
+        // it update cached value by jquery
+        .data('activeNav', false)
+        .attr('data-active-nav', false)
+        .children().animate({ opacity: 0 }, animationTime);
 
-      activeNav.children().animate({ 'opacity': 0 }, animationTime);
-      newNav.children('span').animate({ 'opacity': 1 }, animationTime);
+      $newNav
+        // it update cached value by jquery
+        .data('activeNav', true)
+        .attr('data-active-nav', true)
+        .children().animate({ opacity: 1 }, animationTime);
 
-      activeTab.attr('data-activeTab', 'false');
-      newTab.attr('data-activeTab', 'true');
+      $newTab
+        .css('left', isLeftAnimation ? '200vw' : 0)
+        .animate({ left: '100vw' }, animationTime)
+        .attr('data-active-tab', 'true');
 
-      activeNav.attr('data-activeNav', 'false');
-      newNav.attr('data-activeNav', 'true');
+      $activeTab
+        .animate({ left: isLeftAnimation ? 0 : '200vw' }, animationTime, () => {
+          $activeTab
+            .css('left', '200vw')
+            .attr('data-active-tab', 'false');
+
+          $activeTab = $('[data-active-tab="true"]');
+          $activeNav = $('[data-active-nav="true"]');
+        });
     }
   })
 
   function setContainerHeight(tabHeight) {
-    let newHeight;
+    const newHeight = window.innerWidth < 811 ? (tabHeight + 430) : (tabHeight + 280);
 
-    (window.innerWidth < 811) ? newHeight = (tabHeight + 430) : newHeight = (tabHeight + 280);
-    tabsContainer.animate({ 'height' : `${newHeight}px` }, animationTime);
+    $tabsContainer.animate({ height: `${newHeight}px` }, animationTime);
   }
 })
