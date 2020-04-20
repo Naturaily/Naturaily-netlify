@@ -5,7 +5,7 @@ $(document).ready(() => {
 
   videoTrigger.click(() => {
     videoCover.animate({'opacity' : 0}, 600, () => {
-      ${videoPlayer.attr('src')}?autoplay=1;
+      //$(videoPlayer.attr('src'))?autoplay=1;
       videoCover.css('display', 'none');
     })
   })

@@ -3,7 +3,9 @@ $(document).ready(() => {
   const tabsContainer = $('#tabs-container');
   const tabsNav = $('#tabs-nav');
   const tabsNavItems = $("[data-type='tabs-nav']");
-  let activeTab = $("[data-activetab='true']")
+  let activeTab = $("[data-activetab='true']");
+
+  activeTab.ready(setContainerHeight(activeTab.height()));
 
   tabsNavItems.click(function() {
     if (this.dataset.activenav === 'false') {
