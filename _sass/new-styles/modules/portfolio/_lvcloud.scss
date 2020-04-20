@@ -232,7 +232,7 @@
           opacity: 0;
         }
 
-        &[data-activeNav='true'] {
+        &[data-active-nav="true"] {
           color: $color-secondary;
           box-shadow: inset 0 -3px 0 $color-secondary;
 
@@ -248,7 +248,7 @@
     position: relative;
     top: 300px;
     left: -100vw;
-    height: 750px;
+    height: calc(67vw + 363px);
     overflow: visible !important;
 
     &-tab {
@@ -315,6 +315,10 @@
     .icon-quote  {
       top: 60px;
     }
+  }
+
+  .portfolio-tabs__content {
+    height: calc(88vw + 128px);
   }
 }
 
@@ -396,7 +400,7 @@
 
     &__content {
       top: 150px;
-      height: 980px;
+      height: calc(76vw + 46px);
 
       &-tab--tab2 img, &-tab--tab3 img {
         max-width: 700px;
@@ -465,5 +469,9 @@
       top: -150px;
       left: -250px;
     }
+  }
+
+  .portfolio-tabs__content {
+    height: 950px;
   }
 }
