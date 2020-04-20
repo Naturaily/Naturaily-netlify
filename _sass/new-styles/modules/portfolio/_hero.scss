@@ -1,4 +1,4 @@
-.p-hero {
+.portfolio-hero {
   box-sizing: border-box;
   position: relative;
   height: 500px;
@@ -13,7 +13,7 @@
   &__text {
     padding: 120px 50px 0;
     z-index: 2;
-    font-size: 2em;
+    font-size: 1.7em;
     line-height: 1.5;
 
     strong {
@@ -25,7 +25,17 @@
     .geometric-figure {
       top: 70px;
       right: 10px;
-      z-index: -1;
+      z-index: -2;
+
+      &__blue {
+        .geometric-figure_center {
+          border-color: $color-geometric-green;
+        }
+
+        .geometric-figure_right::after {
+          background-color: $color-geometric-blue;
+        }
+      }
     }
 
     img {
@@ -34,17 +44,18 @@
       right: 10px;
       max-width: calc(100% - 10px);
       max-height: 280px;
+      z-index: -1;
     }
   }
 }
 
 @media (min-width: 576px) {
-  .p-hero {
+  .portfolio-hero {
     height: 555px;
 
     &__text {
       padding-left: 100px;
-      font-size: 2.5em;
+      font-size: 2em;
     }
 
     &__image {
@@ -72,7 +83,7 @@
 }
 
 @media (min-width: 811px) {
-  .p-hero {
+  .portfolio-hero {
     top: -95px;
     height: 680px;
     padding: 95px 100px 0;
@@ -81,6 +92,7 @@
     &__text {
       padding-top: 150px;
       padding-left: 0;
+      font-size: 2.5em;
     }
 
     &__image {
@@ -90,7 +102,7 @@
       }
 
       img {
-        right: 30px;
+        right: 10px;
         max-height: 300px;
       }
     }
@@ -98,26 +110,21 @@
 }
 
 @media (min-width: 992px) {
-  .p-hero {
-    &__text {
-      font-size: 2.5em;
+  .portfolio-hero__image {
+    .geometric-figure {
+      top: 120px;
+      right: 100px;
     }
 
-    &__image {
-      .geometric-figure {
-        top: 120px;
-        right: 100px;
-      }
-
-      img {
-        right: 100px;
-      }
+    img {
+      right: 100px;
+      max-height: 330px;
     }
   }
 }
 
-@media (min-width: 1175px) {
-  .p-hero {
+@media (min-width: 1200px) {
+  .portfolio-hero {
     &__content {
       display: flex;
       height: 100%;

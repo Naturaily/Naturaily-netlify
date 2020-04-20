@@ -1,61 +1,82 @@
-<div class="portfolio-section p-results">
-  <span class="portfolio-step">{{ page.results-title }}</span>
+<div class="portfolio__section portfolio-results">
+  <span class="portfolio__step">{{ page.results-title }}</span>
 
-  <div class="portfolio-columns">
-    <div portfolio-left class="portfolio-columns__left">
-      <h2 class="portfolio-title">{{ page.results-subtitle }}</h2>
-      <p class="paragraph">{{ page.results-list-title }}</p>
-      <ul class="portfolio-list">{{ page.results-list }}</ul>
+  <div class="portfolio__columns portfolio-results__main">
+    <div portfolio-left class="portfolio__columns--left">
+      <h2 class="portfolio__title">{{ page.results-subtitle }}</h2>
+
+      {% if page.results-list %}
+        <p class="portfolio-results__main-title">{{ page.results-list-title }}</p>
+        <ul class="portfolio__list">{{ page.results-list }}</ul>
+      {% else %}
+        <p class="paragraph">{{ page.results-paragraph }}</p>
+      {% endif %}
+
     </div>
-    <div portfolio-right class="portfolio-columns__right">
+    <div portfolio-right class="portfolio__columns--right {% unless page.results-list %}portfolio__columns--reversed{% endunless %}">
       <p class="paragraph">{{ page.results-text }}</p>
       <img src="{{ page.results-image }}" alt="{{page.results-alt}}"/>
     </div>
   </div>
 
-  <div class="numbers">
-    <h3 class="numbers-title">{{ page.numbers-title }}</h3>
-    <ul portfolio-bottom class="numbers-list">
-      <li>
-        <span class="numbers-value">{{ page.numbers-value-1 }}</span>
-        <p class="numbers-text">{{ page.numbers-name-1 }}</p>
-        <p class="paragraph">{{ page.numbers-description-1 }}</p>
-      </li>
-      <li>
-        <span class="numbers-value">{{ page.numbers-value-2 }}</span>
-        <p class="numbers-text">{{ page.numbers-name-2 }}</p>
-        <p class="paragraph">{{ page.numbers-description-2 }}</p>
-      </li>
-      <li>
-        <span class="numbers-value">{{ page.numbers-value-3 }}</span>
-        <p class="numbers-text">{{ page.numbers-name-3 }}</p>
-        <p class="paragraph">{{ page.numbers-description-3 }}</p>
-      </li>
-      <li>
-        <span class="numbers-value">{{ page.numbers-value-4 }}</span>
-        <p class="numbers-text">{{ page.numbers-name-4 }}</p>
-        <p class="paragraph">{{ page.numbers-description-4 }}</p>
-      </li>
-      <li>
-        <span class="numbers-value">{{ page.numbers-value-5 }}</span>
-        <p class="numbers-text">{{ page.numbers-name-5 }}</p>
-        <p class="paragraph">{{ page.numbers-description-5 }}</p>
-      </li>
-      <li>
-        <span class="numbers-value">{{ page.numbers-value-6 }}</span>
-        <p class="numbers-text">{{ page.numbers-name-6 }}</p>
-        <p class="paragraph">{{ page.numbers-description-6 }}</p>
-      </li>
-      <li>
-        <span class="numbers-value">{{ page.numbers-value-7 }}</span>
-        <p class="numbers-text">{{ page.numbers-name-7 }}</p>
-        <p class="paragraph">{{ page.numbers-description-7 }}</p>
-      </li>
-      <li>
-        <span class="numbers-value">{{ page.numbers-value-8 }}</span>
-        <p class="numbers-text">{{ page.numbers-name-8 }}</p>
-        <p class="paragraph">{{ page.numbers-description-8 }}</p>
-      </li>
-    </ul>
+  <div class="portfolio-results__numbers {% if page.numbers-lv %}portfolio-results__numbers--lv{% endif %}">
+    <h3 class="portfolio-results__header">{{ page.numbers-title }}</h3>
+
+    {% if page.numbers %}
+
+      <ul class="portfolio-results__numbers-list">
+        {% for number in page.numbers %}
+          <li>
+            <span class="portfolio-results__numbers-value">{{ number.number.value }}</span>
+            <p class="portfolio-results__numbers-text">{{ number.number.name }}</p>
+            <p class="paragraph">{{ number.number.description }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+
+    {% elsif page.numbers-lv %}
+
+      <div class="portfolio__columns">
+        <ul portfolio-left class="portfolio__columns--left">
+          {% for number in page.numbers-lv %}
+            <li>
+              <span class="portfolio-results__numbers-value">{{ number.number.value }}</span>
+              <p class="portfolio-results__numbers--lv-text">{{ number.number.name }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+        <div class="portfolio__columns--right">
+          <img src="{{ page.numbers-image }}" alt="{{ page-numbers-alt }}"/>
+          <figure class="geometric-figure geometric-figure--schema2">
+            <div class="geometric-figure_center"></div>
+            <div class="geometric-figure_right"></div>
+          </figure>
+        </div>
+      </div>
+
+    {% endif %}
+
   </div>
+
+  {% if page.companies %}
+    <div class="portfolio-results__companies">
+      <h3 class="portfolio-results__header portfolio-results__header--bold">
+        {{ page.companies-title }}
+      </h3>
+      <ul class="portfolio-results__companies-list">
+        {% for company in page.companies %}
+          <li>
+            <span class="icon {{ company.company.icon }}"></span>
+            <p class="paragraph">{{ company.company.description }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+      <h4 class="portfolio__step">{{ page.companies-subtitle }}</h4>
+      <q portfolio-right class="portfolio-results__companies-quote">
+        <span class="icon-quote"></span>
+        {{ page.companies-quote }}
+      </q>
+    </div>
+  {% endif %}
+
 </div>

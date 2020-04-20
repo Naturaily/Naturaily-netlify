@@ -1,157 +1,157 @@
-.portfolio-section {
-  .challenge-picture, .challenge-picture-arrows {
+.portfolio-challenge__figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 400px;
+  margin: 50px 0 100px;
+  padding-top: 100px;
+  border-top: 1px solid $color-global-font-10;
+
+  .paragraph {
+    color: $color-portfolio-text;
+  }
+
+  &::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    background-color: $color-global-font-10;
+  }
+
+  &-step {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    z-index: 2;
+    border-radius: 100%;
+    border: 1px solid $color-global-font-10;
+    background-color: $color-white;
+
+    &__label, &__image {
+      position: relative;
+    }
+
+    &__label {
+      display: block;
+      left: 50%;
+      font-size: 1.2em;
+      font-weight: 200;
+    }
+
+    &__image {
+      position: relative;
+      width: 120px;
+      left: 15px;
+    }
+
+    &--first .portfolio-challenge__figure-step__label {
+      top: -40px;
+      transform: translateX(-20%);
+    }
+
+    &--last {
+      top: 100px;
+
+      .portfolio-challenge__figure-step__label {
+        top: 180px;
+        transform: translateX(-30%);
+      }
+
+      .portfolio-challenge__figure-step__image {
+        top: -30px;
+      }
+    }
+  }
+
+  &-arrows {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+    justify-content: space-around;
+    position: absolute;
+    top: 270px;
+    height: 150px;
+    transform: none !important;
 
-  .challenge-picture {
-    justify-content: space-between;
-    position: relative;
-    height: 400px;
-    margin-top: 100px;
-    padding-top: 100px;
-    border-top: 1px solid $color-global-font-10;
-
-    &::before  {
-      content: " ";
-      display: block;
-      position: absolute;
-      left: 50%;
-      height: 100%;
-      width: 1px;
-      background-color: $color-global-font-10;
-    }
-
-    &-image {
-      position: relative;
-      height: 150px;
-      width: 150px;
+    span {
+      width: 0;
+      height: 0;
       z-index: 2;
-      border-radius: 100%;
-      border: 1px solid $color-global-font-10;
-      background-color: $color-white;
-
-      span {
-        position: relative;
-        font-size: 1.2em;
-        font-weight: 200;
-      }
-
-      img {
-        position: relative;
-        width: 120px;
-      }
-    }
-
-    &-image:first-of-type {
-      img {
-        left: 15px;
-      }
-
-      span {
-        left: -75px;
-      }
-    }
-
-    &-image:last-of-type {
-      top: 100px;
-
-      img {
-        top: -30px;
-        left: 15px;
-      }
-
-      span {
-        left: -100px;
-      }
-    }
-
-    &-arrows {
-      justify-content: space-around;
-      position: absolute;
-      top: 270px;
-      height: 150px;
-      transform: none !important;
-
-      span {
-        width: 0;
-        height: 0;
-        z-index: 2;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-top: 10px solid $color-secondary;
-      }
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $color-secondary;
     }
   }
 }
 
 @media (min-width: 576px) {
-  .portfolio-section {
-    .challenge-picture, .challenge-picture-arrows {
-      flex-direction: row;
+  .portfolio-challenge__figure {
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 0;
+
+    &::before  {
+      top: calc(50% + 50px);
+      left: 0;
+      height: 1px;
+      width: 100%;
     }
 
-    .challenge-picture {
-      height: auto;
+    &-step--first {
+      left: -50px;
 
-      &::before  {
-        top: calc(50% + 50px);
-        left: 0;
-        height: 1px;
-        width: 100%;
-      }
-
-      &-image span {
+      .portfolio-challenge__figure-step__label {
         top: -50px;
-      }
-
-      &-image:first-of-type {
-        left: -50px;
-
-        span {
-          left: 50px;
-        }
-      }
-
-      &-image:last-of-type {
-        top: 0;
         left: 50px;
-
-        span {
-          left: -10px;
-        }
       }
+    }
 
-      &-arrows {
-        justify-content: space-around;
-        top: auto;
-        left: 50%;
-        transform: translateX(-50%) !important;
-        width: 50%;
+    &-step--last {
+      top: 0;
+      left: 50px;
 
-        span {
-          border-top: 10px solid transparent;
-          border-bottom: 10px solid transparent;
-          border-left: 10px solid $color-secondary;
-        }
+      .portfolio-challenge__figure-step__label {
+        top: -40px;
+        left: -10px;
+      }
+    }
+
+    &-arrows {
+      flex-direction: row;
+      justify-content: space-around;
+      top: auto;
+      left: 50%;
+      transform: translateX(-50%) !important;
+      width: 50%;
+
+      span {
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid $color-secondary;
       }
     }
   }
 }
 
 @media (min-width: 992px) {
-  .portfolio-section .challenge-picture {
-    &-image {
+  .portfolio-challenge__figure {
+    margin-top: 100px;
+
+    &-step--first, &-step--last {
       height: 200px;
       width: 200px;
 
-      img {
+      .portfolio-challenge__figure-step__image {
         width: 150px;
       }
     }
 
-    &-image:first-of-type img {
+    &-step--first .portfolio-challenge__figure-step__image {
       top: 15px;
       left: 20px;
     }

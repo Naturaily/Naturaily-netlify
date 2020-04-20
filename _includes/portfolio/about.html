@@ -1,16 +1,21 @@
-<div class="portfolio-section p-about">
-  <span class="portfolio-step">{{ page.about-title }}</span>
-  <h2 class="portfolio-title">{{ page.about-subtitle }}</h2>
+<div class="portfolio__section portfolio-about">
+  <span class="portfolio__step">{{ page.about-title }}</span>
+  <h2 class="portfolio__title">{{ page.about-subtitle }}</h2>
 
-  <div class="portfolio-columns">
-    <div class="portfolio-columns__left">
+  <div class="portfolio__columns">
+    <div class="portfolio__columns--left">
       <p class="paragraph">{{ page.about-column-1 }}</p>
     </div>
-    <div class="portfolio-columns__right">
-      <p class="paragraph">{{ page.about-column-2 }}</p>
+    <div class="portfolio__columns--right">
+
+      {% if page.about-image %}
+        <img src="{{ page.about-image }}" alt="{{ page.about-alt }}" />
+      {% else %}
+        <p class="paragraph">{{ page.about-column-2 }}</p>
+      {% endif %}
+
+      <span class="portfolio__dot portfolio__dot--{{page.slug}} portfolio__dot--{{page.about-dot1-color}}"></span>
+      <span class="portfolio__dot portfolio__dot--{{page.slug}} portfolio__dot--{{page.about-dot2-color}}"></span>
     </div>
   </div>
-
-  <span class="dot dot__darker"></span>
-  <span class="dot dot__lighter"></span>
 </div>

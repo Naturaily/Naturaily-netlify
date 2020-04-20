@@ -109,6 +109,8 @@
 @import "modules/portfolio/results";
 @import "modules/portfolio/testimonial";
 @import "modules/portfolio/estimate";
+@import "modules/portfolio/artinfo";
+@import "modules/portfolio/lvcloud";
 
 body {
   font-weight: 300;
@@ -202,7 +204,7 @@ a.text-secondary {
   }
 
   strong {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .dot {

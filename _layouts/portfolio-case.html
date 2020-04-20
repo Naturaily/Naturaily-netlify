@@ -10,12 +10,16 @@ layout: default
   {% include portfolio/about.html %}
 </div>
 
-<div class="l-full portfolio-separator">
-  <img src="{{ page.about-image }}" alt=""/>
+<div class="l-full portfolio__separator portfolio__separator--{{page.slug}}">
+  <img src="{{ page.separator-image }}" alt="{{ page.separator-alt }}"/>
 </div>
 
 <div class="l-center--small">
   {% include portfolio/goal.html %}
+</div>
+
+<div class="l-center--small">
+  {% include portfolio/video.html %}
 </div>
 
 <div class="l-center--small">

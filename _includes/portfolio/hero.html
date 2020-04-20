@@ -1,16 +1,16 @@
-<div class="p-hero">
-  <div class="p-hero__content">
+<div class="portfolio-hero">
+  <div class="portfolio-hero__content">
 
-    <div class="p-hero__text">
+    <div class="portfolio-hero__text">
       <h1>{{ page.header }}</h1>
     </div>
 
-    <div class="p-hero__image">
-      <figure class="geometric-figure">
+    <div class="portfolio-hero__image">
+      <figure class="geometric-figure {{ page.geometry-class }}">
         <div class="geometric-figure_center"></div>
         <div class="geometric-figure_right"></div>
       </figure>
-      <img portfolio-right src="{{ page.image }}" alt="{{ page.alt }}" class="" />
+      <img src="{{ page.image }}" alt="{{ page.alt }}" />
     </div>
 
   </div>

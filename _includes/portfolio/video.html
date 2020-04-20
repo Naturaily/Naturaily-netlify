@@ -1,0 +1,33 @@
+{% if page.video-url %}
+
+  <div class="portfolio__section portfolio-video">
+    <span class="portfolio__step">{{ page.video-title }}</span>
+    <h2 class="portfolio__title">{{ page.video-subtitle }}</h2>
+
+    <div class="portfolio-video__wrapper">
+
+      <div id="video-cover" class="portfolio-video__cover" style="background-image: url('{{ page.video-cover }}')">
+        <div class="portfolio-video__cover-shadow"></div>
+        <div class="portfolio-video__cover-content">
+          <button id="video-trigger" class="portfolio-video__cover-content__button">
+            <span class="portfolio-video__cover-content__arrow"></span>
+          </button>
+          <p class="portfolio__title">{{ page.video-text }}</p>
+        </div>
+      </div>
+
+      <iframe
+        id="video-player"
+        src="{{ page.video-url }}"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    {% include portfolio/video-cover.js %}
+  </script>
+
+{% endif %}

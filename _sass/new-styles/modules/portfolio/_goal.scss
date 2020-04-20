@@ -1,56 +1,105 @@
-.p-goal {
+.portfolio-goal {
   width: 100%;
-
-  .portfolio-columns__right {
-    text-align: right;
-
-    img {
-      width: 100%;
-      max-width: 450px;
-    }
-  }
 
   .paragraph {
     color: $color-portfolio-text;
   }
+
+  &__main {
+    &-description {
+      font-size: 1.2em;
+      font-weight: 200;
+      line-height: 1.5;
+      padding-bottom: 50px;
+    }
+
+    &-image {
+      text-align: right;
+
+      img {
+        width: 100%;
+        max-width: 450px;
+        margin-bottom: -50px;
+      }
+    }
+  }
+
+  &__lvcloud {
+    &-image {
+      position: relative;
+      width: 215px;
+      height: 215px;
+      margin: 0 auto;
+      border-radius: 100%;
+      background-color: $color-geometric-blue;
+
+      img {
+        width: 70%;
+      }
+
+      &--alvin {
+        transform: translate(25%, 25%);
+      }
+
+      &--visnet {
+        transform: translate(25%, 35%);
+      }
+    }
+
+    &-description {
+      padding-top: 50px;
+      text-align: left;
+    }
+
+    .portfolio__dot {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-110px);
+    }
+  }
 }
 
 @media (min-width: 811px) {
-  .p-goal {
-    .portfolio-columns  {
-      position: relative;
-      top: -100px;
-      margin-bottom: -100px;
-
-      &__right img {
+  .portfolio-goal {
+    &__main {
+      &-image img {
         width: 140%;
         max-width: 600px;
-        margin-top: 30px;
+        margin-top: -75px;
+        margin-bottom: 0;
+      }
+
+      &-description, .paragraph {
+        padding-right: 50px;
+      }
+
+      .portfolio__credits {
+        padding-top: 25px;
+        margin-bottom: -50px;
       }
     }
 
-    .paragraph {
-      padding-top: 100px;
-      font-size: 0.9em;
+    &__lvcloud {
+      &-image {
+        margin: 0;
+      }
+
+      .portfolio__dot {
+        left: initial;
+        transform: none;
+      }
     }
   }
 }
 
-@media (min-width: 992px) {
-  .p-goal {
-    &-image {
-      img {
-        margin-top: 30px;
-      }
-    }
+@media (min-width: 976px) {
+  .portfolio-goal__main .portfolio__credits {
+    margin-bottom: -100px;
   }
 }
 
-
-@media (min-width: 1175px) {
-  .p-goal {
-    .paragraph {
-      padding-right: 100px;
-    }
+@media (min-width: 1200px) {
+  .portfolio-goal__lvcloud-description {
+    padding-right: 100px;
   }
 }

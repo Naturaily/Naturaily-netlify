@@ -5,6 +5,7 @@ layout: portfolio-case
 image: /assets/images/portfolio/artinfo/top.png
 alt: artinfo
 header: Artinfo<br> <strong>The Web App</strong><br> for <strong>Live Art Auctions</strong>
+geometry-class: geometric-figure__secondary
 about-title: About
 about-subtitle: About ArtInfo
 about-column-1: >
@@ -16,8 +17,11 @@ about-column-2: >
   More than just an information page, Artinfo is also a broker between auction
   houses and art lovers who wanted to take part in the auction. Bidding orders
   were received by phone, which generated a lot of work for the entire team.
-about-image: /assets/images/portfolio/artinfo/about.png
-about-alt: artinfo screens
+about-dot1-color: secondary
+about-dot2-color: yellow
+separator-image: /assets/images/portfolio/artinfo/about.png
+separator-alt: artinfo screens
+separator-class: portfolio-separator__artinfo
 goal-title: Goal
 goal-subtitle: The goal
 goal-text: >
@@ -50,53 +54,75 @@ challenge-description-2: PostgreSQL
 solution-title: Solution
 solution-subtitle: Solution
 solution-description: Some of the new Artinfo’s features
-feature-title-1: Live art auctions<br> (Artinfo Live)
-feature-text-1: >
-  <li>take part in real-time bidding and buy the artwork online</li>
-  <li>get instant access to the offers of many auction houses</li>
-feature-image-1: /assets/images/portfolio/artinfo/solution1.png
-feature-title-2: Sophisticated<br> search engine
-feature-text-2: >
-  <li>check which artworks of your favorite artists are available</li>
-  <li>look through many online catalogues from different auction houses</li>
-feature-image-2: /assets/images/portfolio/artinfo/solution2.png
-feature-title-3: User admin panel
-feature-text-3: >
-  <li>create a list of your favorite artists (the Wishlist) and receive e-mail
-  notifications when their artworks appear in auctions</li>
-  <li>select and observe interesting art pieces</li>
-  <li>check archived auction results</li>
-feature-image-3: /assets/images/portfolio/artinfo/solution3.png
+features:
+  - feature:
+      title: Live art auctions<br> (Artinfo Live)
+      image: /assets/images/portfolio/artinfo/solution1.png
+      class: portfolio__columns--odd
+      animation: portfolio-right
+      list: >-
+        <li>take part in real-time bidding and buy the artwork online</li>
+        <li>get instant access to the offers of many auction houses</li>
+  - feature:
+      title: Sophisticated<br> search engine
+      image: /assets/images/portfolio/artinfo/solution2.png
+      class: portfolio__columns--even
+      animation: portfolio-left
+      list: >-
+        <li>check which artworks of your favorite artists are available</li>
+        <li>look through many online catalogues from different auction houses</li>
+  - feature:
+      title: User admin panel
+      image: /assets/images/portfolio/artinfo/solution3.png
+      class: portfolio__columns--odd
+      animation: portfolio-right
+      list: >-
+        <li>create a list of your favorite artists (the Wishlist) and receive e-mail
+        notifications when their artworks appear in auctions</li>
+        <li>select and observe interesting art pieces</li>
+        <li>check archived auction results</li>
 stack-title: Technological stack
-stack-image-1: /assets/images/portfolio/artinfo/rails.png
-stack-alt-1: ruby on rails icon
-stack-title-1: Ruby on Rails<br> (backend)
-stack-description-1: >
-  This mature framework allowed us to develop the core structure of
-  the application.
-stack-image-2: /assets/images/vue-logo.png
-stack-alt-2: vue.js icon
-stack-title-2: Vue.js<br> (frontend)
-stack-description-2: >
-  We used this progressive javascript framework to develop the CMS, as well
-  as employee, user and helper panels.
-stack-image-3: /assets/images/portfolio/artinfo/elastic.png
-stack-alt-3: elastic search icon
-stack-title-3: Elastic<br> (search engine)
-stack-description-3: >
-  We needed a fast and easy-to-configure search engine that will show real-time
-  search results (artists, artworks or auction houses).
+stack:
+  - technology:
+      name: Ruby on Rails<br> (backend)
+      image: /assets/images/portfolio/artinfo/rails.png
+      image-class: portfolio-stack__image--wider
+      alt: ruby on rails icon
+      description: >-
+        This mature framework allowed us to develop the core structure of
+        the application.
+  - technology:
+      name: Vue.js<br> (frontend)
+      image: /assets/images/vue-logo.png
+      alt: vue.js icon
+      description: >-
+        We used this progressive javascript framework to develop the CMS, as well
+        as employee, user and helper panels.
+  - technology:
+      name: Elastic<br> (search engine)
+      image: /assets/images/portfolio/artinfo/elastic.png
+      alt: elastic search icon
+      description: >-
+        We needed a fast and easy-to-configure search engine that
+        will show real-time search results (artists, artworks
+        or auction houses).
 experts-title: Naturaily experts involved in the project
-experts-icon-1: icon-man
-experts-name-1: Ruby on Rails Developers
-experts-icon-2: icon-man
-experts-name-2: Vue.js Developers
-experts-icon-3: icon-man
-experts-name-3: UX/UI Designer
-experts-icon-4: icon-man
-experts-name-4: QA Engineer
-experts-icon-5: icon-man
-experts-name-5: Project Manager
+experts:
+  - expert:
+      number: 1
+      name: Ruby on Rails Developers
+  - expert:
+      number: 2
+      name: Vue.js Developers
+  - expert:
+      number: 3
+      name: UX/UI Designer
+  - expert:
+      number: 4
+      name: QA Engineer
+  - expert:
+      number: 5
+      name: Project Manager
 results-title: Results
 results-subtitle: Results
 results-list-title: Other effects are
@@ -114,52 +140,58 @@ results-text: >
 results-image: /assets/images/portfolio/artinfo/results.png
 results-alt: piece of art photo
 numbers-title: ArtInfo in numbers
-numbers-value-1: 300
-numbers-name-1: Over 300 auctions with online bidding a year
-numbers-description-1: >
-  These are all auctions organized in Poland by 50 entities, including auction
-  houses, galleries, associations, and foundations.
-numbers-value-2: 30%
-numbers-name-2: Over 30% of all bidding orders are made via the application
-numbers-description-2: >
-  Thanks to this, the ArtInfo team receives significantly fewer calls during
-  each auction.
-numbers-value-3: +100
-numbers-name-3: More than 100 people take part in each auction
-numbers-description-3: >
-  For charity auctions, the number is even higher.
-numbers-value-4: 50%
-numbers-name-4: Over 50% of traffic comes from mobile devices
-numbers-description-4: >
-  Artinfo live has changed participation in auctions - now it can be done from
-  home, the office, and even on commute.
-numbers-value-5: 75k
-numbers-name-5: Over 75,000 unique users a month
-numbers-description-5: >
-  These are all auctions organized in Poland by 50 entities, including auction
-  houses, galleries, associations, and foundations.
-numbers-value-6: 16k
-numbers-name-6: Over 16,000 registered users
-numbers-description-6: >
-  Thanks to this, the Artinfo team receives significantly fewer calls during
-  each auction.
-numbers-value-7: 30k
-numbers-name-7: Almost 30,000 registered artists
-numbers-description-7: >
-  For charity auctions, the number is even higher.
-numbers-value-8: 25k €
-numbers-name-8: The online bids amount exceed 25,000 €
-numbers-description-8: >
-  ArtInfo live has changed participation in auctions - now it can be done from
-  home, the office, and even on commute.
+numbers:
+  - number:
+      value: 300
+      name: Over 300 auctions with online bidding a year
+      description: >-
+        These are all auctions organized in Poland by 50 entities, including
+        auction houses, galleries, associations, and foundations.
+  - number:
+      value: 30%
+      name: Over 30% of all bidding orders are made via the application
+      description: >-
+        Thanks to this, the ArtInfo team receives significantly fewer calls during
+        each auction.
+  - number:
+      value: +100
+      name: More than 100 people take part in each auction
+      description: For charity auctions, the number is even higher.
+  - number:
+      value: 50%
+      name: Over 50% of traffic comes from mobile devices
+      description: >-
+        Artinfo live has changed participation in auctions - now it can be done
+        from home, the office, and even on commute.
+  - number:
+      value: 75k
+      name: Over 75,000 unique users a month
+      description: >-
+        These are all auctions organized in Poland by 50 entities, including
+        auction houses, galleries, associations, and foundations.
+  - number:
+      value: 16k
+      name: Over 16,000 registered users
+      description: >-
+        Thanks to this, the Artinfo team receives significantly fewer calls during
+        each auction.
+  - number:
+      value: 30k
+      name: Almost 30,000 registered artists
+      description: For charity auctions, the number is even higher.
+  - number:
+      value: 25k €
+      name: The online bids amount exceed 25,000 €
+      description: >-
+        ArtInfo live has changed participation in auctions - now it can be done from
+        home, the office, and even on commute.
 testimonial-title: Testimonial
 testimonial-subtitle: Testimonial
 testimonial-image: /assets/images/services/rafal.png
 testimonial-alt: artinfo founder
 testimonial-quote: >
-  <span class="p-testimonial-text__secondary">Artinfo is a market leader</span>
-  <span>and a trusted institution,</span>
-  <span>so we work only with the best</span>
+  <span class="portfolio-testimonial__quote--secondary">Artinfo is a market leader</span>
+  and a trusted institution, so we work only with the best
 testimonial-person: Rafał Kamecki
 testimonial-position: ArtInfo founder
 testimonial-text: >

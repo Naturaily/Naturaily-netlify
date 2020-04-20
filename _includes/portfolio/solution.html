@@ -1,94 +1,168 @@
-<div class="portfolio-section p-solution">
-  <span class="portfolio-step">{{ page.solution-title }}</span>
-  <h2 class="portfolio-title">{{ page.solution-subtitle }}</h2>
-  <p class="portfolio-description">{{ page.solution-description }}</p>
+<div
+  class="portfolio__section
+  {% if page.slug == 'lvcloud' %} portfolio__section--half-orange
+  {% else %} portfolio__section--orange {% endif %}"
+>
+  <span class="portfolio__step">{{ page.solution-title }}</span>
+  <h2 class="portfolio__title">{{ page.solution-subtitle }}</h2>
 
-  <div class="features">
-    <div class="portfolio-columns portfolio-columns__odd">
-      <div portfolio-left class="portfolio-columns__left description">
-        <h3 class="features-header">{{ page.feature-title-1 }}</h3>
-        <ul class="portfolio-list">{{ page.feature-text-1 }}</ul>
+  {% if page.solution-description %}
+    <p class="portfolio__description">{{ page.solution-description }}</p>
+  {% endif %}
+
+  {% if page.solution-image %}
+    <div class="portfolio__columns portfolio-answer">
+      <div class="portfolio__columns--left">
+        <p class="paragraph">{{ page.solution-column-1 }}</p>
       </div>
-      <div portfolio-right class="portfolio-columns__right image">
-        <img src="{{ page.feature-image-1 }}" />
-      </div>
-    </div>
-    <div class="portfolio-columns portfolio-columns__even">
-      <div portfolio-left class="portfolio-columns__left image">
-        <img src="{{ page.feature-image-2 }}" />
-      </div>
-      <div portfolio-right class="portfolio-columns__right description">
-        <h3 class="features-header">{{ page.feature-title-2 }}</h3>
-        <ul class="portfolio-list">{{ page.feature-text-2 }}</ul>
+      <div class="portfolio__columns--right">
+        <img src="{{ page.solution-image }}" alt="page.solution-alt" />
       </div>
     </div>
-    <div class="portfolio-columns portfolio-columns__odd">
-      <div portfolio-left class="portfolio-columns__left description">
-        <h3 class="features-header">{{ page.feature-title-3 }}</h3>
-        <ul class="portfolio-list">{{ page.feature-text-3 }}</ul>
+  {% endif %}
+
+  {% if page.slug == "lvcloud" %}
+    <div class="portfolio-solutions">
+
+      {% for solution in page.solutions %}
+        <div {{ solution.solution.animation }} class="portfolio__columns {{ solution.solution.class }}">
+          <div class="portfolio-solutions__description">
+
+            {% if solution.solution.title %}
+              <h3 class="portfolio-solutions__header">{{ solution.solution.title }}</h3>
+            {% endif %}
+
+            <p class="paragraph">{{ solution.solution.text }}</p>
+
+            {% if solution.solution.dots == true %}
+              <span class="portfolio__dot portfolio__dot--secondary"></span>
+              <span class="portfolio__dot portfolio__dot--yellow"></span>
+              <span class="portfolio__dot portfolio__dot--blue"></span>
+            {% endif%}
+
+          </div>
+          <div class="portfolio-solutions__image">
+            <img src="{{ solution.solution.image }}" alt="{{ solution.solution.alt }}"/>
+            <figure class="geometric-figure {{ solution.solution.geometric-class }}">
+              <div class="geometric-figure_center"></div>
+              <div class="geometric-figure_right"></div>
+            </figure>
+          </div>
+        </div>
+      {% endfor %}
+
+    </div>
+
+    <div class="portfolio-tabs">
+      <div class="portfolio-tabs__menu">
+        <ul id="tabs-nav" class="portfolio-tabs__menu-list">
+          {% for tab in page.tabs %}
+            <li
+              data-type="tabs-nav"
+              data-index="{{ tab.tab.index }}"
+              data-tab="tab-{{ tab.tab.index }}"
+              data-active-nav="{% if tab.tab.index == 1 %}true{% else %}false{% endif %}"
+              class="tabs-item portfolio-tabs__menu-list__item"
+            >
+              {{ tab.tab.title }}
+              <span></span>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
-      <div portfolio-right class="portfolio-columns__right image">
-        <img src="{{ page.feature-image-3 }}" />
+
+      <div id="tabs-container" class="portfolio-tabs__content">
+        {% for tab in page.tabs %}
+          <div
+            id="tab-{{ tab.tab.index }}"
+            data-active-tab="{% if tab.tab.index == 1 %}true{% else %}false{% endif %}"
+            class="tabs-tab portfolio-tabs__content-tab portfolio-tabs__content-tab--tab{{ tab.tab.index }}"
+          >
+            <img src="{{ tab.tab.image }}"/>
+          </div>
+        {% endfor %}
       </div>
     </div>
+
+  {% endif %}
+
+  <div class="portfolio-features">
+
+    {% for feature in page.features %}
+      <div {{ feature.feature.animation }} class="portfolio__columns {{ feature.feature.class }}">
+        <div class="portfolio-features__description">
+          <h3 class="portfolio-features__header">{{ feature.feature.title }}</h3>
+          <ul class="portfolio__list {% if page.slug == 'lvcloud' %}portfolio__list--lvcloud{% endif %}">
+            {{ feature.feature.list }}
+          </ul>
+        </div>
+        <div class="portfolio-features__image">
+          <img src="{{ feature.feature.image }}" />
+        </div>
+      </div>
+    {% endfor %}
+
   </div>
 
-  <div class="stack">
-    <h3 class="stack-header"> {{ page.stack-title }} </h3>
-    <ul portfolio-bottom class="portfolio-columns">
-      <li>
-        <div class="stack-image stack-image__wider">
-          <img src="{{ page.stack-image-1 }}" alt="{{ page.stack-alt-1 }}"/>
-        </div>
-        <h4 class="stack-subheader">{{ page.stack-title-1 }}</h4>
-        <p class="paragraph">{{ page.stack-description-1 }}</p>
-      </li>
-      <li>
-        <div class="stack-image">
-          <img src="{{ page.stack-image-2 }}" alt="{{ page.stack-alt-2 }}"/>
-        </div>
-        <h4 class="stack-subheader">{{ page.stack-title-2 }}</h4>
-        <p class="paragraph">{{ page.stack-description-2 }}</p>
-      </li>
-      <li>
-        <div class="stack-image">
-          <img src="{{ page.stack-image-3 }}" alt="{{ page.stack-alt-3 }}"/>
-        </div>
-        <h4 class="stack-subheader">{{ page.stack-title-3 }}</h4>
-        <p class="paragraph">{{ page.stack-description-3 }}</p>
-      </li>
+  <div class="portfolio-stack">
+    <h3 class="portfolio-stack__header"> {{ page.stack-title }} </h3>
+    <ul class="portfolio__columns">
+
+      {% for technology in page.stack %}
+        <li>
+          <div class="portfolio-stack__image {{ technology.technology.image-class }}">
+            <img src="{{ technology.technology.image }}" alt="{{ technology.technology.alt }}"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">{{ technology.technology.name }}</h4>
+          <p class="paragraph">{{ technology.technology.description }}</p>
+        </li>
+      {% endfor %}
+
     </ul>
   </div>
 
-  <div class="experts">
-    <h3 class="experts-header"> {{ page.experts-title }} </h3>
-    <ul portfolio-bottom class="portfolio-columns">
-      <li>
-        <div class="experts-number"><span>1</span></div>
-        <span class="icon {{ page.experts-icon-1 }}"></span>
-        <p class="paragraph">{{ page.experts-name-1 }}</p>
-      </li>
-      <li>
-        <div class="experts-number"><span>2</span></div>
-        <span class="icon {{ page.experts-icon-2 }}"></span>
-        <p class="paragraph">{{ page.experts-name-2 }}</p>
-      </li>
-      <li>
-        <div class="experts-number"><span>3</span></div>
-        <span class="icon {{ page.experts-icon-3 }}"></span>
-        <p class="paragraph">{{ page.experts-name-3 }}</p>
-      </li>
-      <li>
-        <div class="experts-number"><span>4</span></div>
-        <span class="icon {{ page.experts-icon-4 }}"></span>
-        <p class="paragraph">{{ page.experts-name-4 }}</p>
-      </li>
-      <li>
-        <div class="experts-number"><span>5</span></div>
-        <span class="icon {{ page.experts-icon-5 }}"></span>
-        <p class="paragraph">{{ page.experts-name-5 }}</p>
-      </li>
+  {% if page.tools %}
+    <div class="portfolio-stack portfolio-stack--tools">
+      <h3 class="portfolio-stack__header"> {{ page.tools-title }} </h3>
+      <ul class="portfolio__columns">
+
+        {% for tool in page.tools %}
+          <li>
+            <div class="portfolio-stack__image {{ tool.tool.image-class }}">
+              <img src="{{ tool.tool.image }}" alt="{{ tool.tool.alt }}"/>
+            </div>
+            <h4 class="portfolio-stack__subheader">{{ tool.tool.name }}</h4>
+          </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  {% endif %}
+
+  <div class="portfolio-experts">
+    <h3 class="portfolio-experts__header"> {{ page.experts-title }} </h3>
+    <ul class="portfolio__columns">
+
+      {% for expert in page.experts %}
+        <li>
+          <div class="portfolio-experts__number">
+            <span>{{ expert.expert.number }}</span>
+          </div>
+          <span class="icon icon-man"></span>
+          <p class="paragraph">{{ expert.expert.name }}</p>
+        </li>
+      {% endfor %}
+
     </ul>
   </div>
 
 </div>
+
+
+{% if page.slug == "lvcloud" %}
+
+  <script type="text/javascript">
+    {% include portfolio/solution-tabs.js %}
+  </script>
+
+{% endif %}
