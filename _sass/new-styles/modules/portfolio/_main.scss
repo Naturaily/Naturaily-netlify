@@ -78,7 +78,9 @@
   }
 }
 
-.portfolio__separator {
+div.portfolio__separator {
+  display: block;
+
   img {
     margin-top: -7%;
     margin-bottom: -13%;
@@ -150,7 +152,7 @@
     padding: 75px 100px;
   }
 
-  .portfolio__separator img {
+  div.portfolio__separator img {
     margin-top: -5%;
     margin-bottom: -10%;
     width: 150vw;
@@ -172,7 +174,7 @@
     padding-top: 50px;
   }
 
-  .portfolio__separator img {
+  div.portfolio__separator img {
     margin-top: -4%;
     margin-bottom: -7%;
     width: 100%;

@@ -134,7 +134,7 @@
 
   .portfolio__columns {
     margin: 50px auto;
-    max-width: 350px;
+    max-width: 300px;
     list-style: none;
     background-color: $color-white;
     border-radius: 8px;
@@ -155,7 +155,7 @@
 @media (min-width: 576px) {
   .portfolio-features__image  {
     padding-top: 50px;
-    text-align: right;
+    text-align: center;
 
     img {
       width: 100%;
@@ -204,7 +204,6 @@
     }
 
     &__image {
-      display: flex;
       padding: 5px;
 
       img {
@@ -231,8 +230,11 @@
           padding-right: 50px;
         }
 
-        .portfolio-features__image {
-          justify-content: flex-end;
+        .portfolio-features__image img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          transform: translateY(-50%);
         }
       }
 
