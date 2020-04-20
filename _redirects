@@ -286,3 +286,7 @@
 # General redirects
 
 /tos                                                         /terms-of-service
+
+# Pages redirects
+
+/on-tour                                                     /
