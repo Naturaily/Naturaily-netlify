@@ -33,7 +33,7 @@
       transform: translateY(-50%);
       padding: 0 25px;
 
-      button {
+      &__button {
         display: block;
         position: relative;
         height: 60px;
@@ -44,17 +44,22 @@
         color: $color-white;
         transition: 0.25s;
 
-        span {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-45%, -45%);
-        }
-
         &:hover {
           transform: scale(1.2);
           cursor: pointer;
         }
+      }
+
+      &__arrow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45%, -45%);
+        width: 0;
+        height: 0;
+        border-left: 10px solid $color-white;
+        border-bottom: 7px solid transparent;
+        border-top: 7px solid transparent;
       }
 
       .portfolio__title {
@@ -227,12 +232,9 @@
           opacity: 0;
         }
 
-        &:hover, &[data-active-nav="true"] {
-          box-shadow: inset 0 -3px 0 $color-secondary;
-        }
-
-        &[data-active-nav="true"] {
+        &[data-activeNav='true'] {
           color: $color-secondary;
+          box-shadow: inset 0 -3px 0 $color-secondary;
 
           span {
             opacity: 1;
@@ -443,9 +445,13 @@
     width: 25%;
   }
 
-  .portfolio-tabs__menu-list li {
+  .portfolio-tabs__menu-list__item {
     width: 33%;
     font-size: 1em;
+
+    &:hover {
+      box-shadow: inset 0 -3px 0 $color-secondary;
+    }
   }
 }
 

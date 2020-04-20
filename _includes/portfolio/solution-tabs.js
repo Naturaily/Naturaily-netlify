@@ -4,6 +4,8 @@ $(document).ready(() => {
   const $tabsNavItems = $('[data-type="tabs-nav"]');
   let $activeTab = $('[data-active-tab="true"]');
   let $activeNav = $('[data-active-nav="true"]');
+  
+  $activeTab.ready(setContainerHeight($activeTab.height()));
 
   $tabsNavItems.click((event) => {
     if (!$(event.target).data('active-nav')) {
