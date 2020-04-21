@@ -102,6 +102,9 @@ include:
 
 permalink: /blog/:title
 
+sass:
+  style: compressed
+
 # Build settings
 
 markdown: kramdown

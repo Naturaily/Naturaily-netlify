@@ -21,12 +21,13 @@
 
   <meta name="ahrefs-site-verification" content="3f8b258d3d14e1c5d540e03c2f03737d02ba06d8b501fe9fc25dd37667b0fd03">
 
+  {% capture styles %}
+    {% include main.scss %}
+  {% endcapture %}
 
-  {% if page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" or page.url == "/about" or page.url contains "/services/webdevelopment/" or page.url contains "/services/ecommerce/" or page.url == "/services" %}
-    <link rel="stylesheet" href="{{ '/assets/main-new.css' | relative_url }}" async>
-  {% else %}
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" async>
-  {% endif %}
+  <style>
+    {{ styles | scssify }}
+  </style>
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
