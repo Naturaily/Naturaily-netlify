@@ -108,11 +108,14 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
 
+incremental: true
+
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-debug
+  - jekyll-include-cache
 
 
 exclude:
@@ -125,6 +128,7 @@ exclude:
   - vendor/ruby/
   - LICENSE.txt
   - README.md
+  - .jekyll-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
