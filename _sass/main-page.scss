@@ -11,3 +11,13 @@
 @import "main/carousel";
 @import "main/clutch";
 @import "main/form";
+
+.none {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .none {
+    display: block
+  }
+}
