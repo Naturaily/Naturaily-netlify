@@ -23,9 +23,9 @@
 
 
   {% if page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" or page.url == "/about" or page.url contains "/services/webdevelopment/" or page.url contains "/services/ecommerce/" or page.url == "/services" %}
-    <link rel="stylesheet" href="{{ '/assets/main-new.css' | relative_url }}" defer>
+    <link rel="stylesheet" href="{{ '/assets/main-new.css' | relative_url }}">
   {% else %}
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" defer>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
@@ -39,7 +39,7 @@
   <script src="/assets/js/jquery.waypoints.min.js" defer></script>
   <script src="/assets/js/sticky-waypoints.min.js" defer></script>
 
-  <link rel="stylesheet" href="https://use.typekit.net/cah0hop.css" defer>
+  <link rel="stylesheet" href="https://use.typekit.net/cah0hop.css">
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 

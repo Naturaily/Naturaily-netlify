@@ -1,22 +1,27 @@
-$('#maincarousel').slick({
-  slidesToShow: 1,
-  autoplay: true,
-  autoplaySpeed: 4000,
-  pauseOnHover: true,
-  dots: true,
-  speed: 300
-});
+console.log('w-------------------------');
 
-$('#post1').on('click', function() {
-  if ($('.slick-list').hasClass('open')) {
-    $(".slick-list").removeClass('open');
-  } else {
-    $(".slick-list").addClass('open');
-  }
-});
+window.onload = () => {
+  console.log('w-------------------------');
+  $('#maincarousel').slick({
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnHover: true,
+    dots: true,
+    speed: 300
+  });
 
-$('.slick-arrow, .slick-dots > li').on('click', function() {
-  if ($('.slick-list').hasClass('open')) {
-    $('#post1').click();
-  }
-});
+  $('#post1').on('click', function() {
+    if ($('.slick-list').hasClass('open')) {
+      $(".slick-list").removeClass('open');
+    } else {
+      $(".slick-list").addClass('open');
+    }
+  });
+
+  $('.slick-arrow, .slick-dots > li').on('click', function() {
+    if ($('.slick-list').hasClass('open')) {
+      $('#post1').click();
+    }
+  });
+};
