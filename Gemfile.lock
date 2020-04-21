@@ -135,7 +135,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.8.5)
+  jekyll (= 4.0.0)
   jekyll-debug
   jekyll-feed (~> 0.6)
   jekyll-paginate-v2
@@ -145,4 +145,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
