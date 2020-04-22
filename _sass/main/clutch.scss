@@ -1,12 +1,17 @@
 .clutch {
-  width: 620px;
+  width: 600px;
   margin: 0 auto;
   margin-bottom: 50px;
   margin-top: 50px;
   font-weight: 200;
   font-size: 1.5rem;
   display: grid;
-  grid-template-columns: 150px 230px 250px;
+  grid-template-columns: 150px 200px 250px;
+  align-items: center;
+
+  &-logo {
+    max-height: 35px;
+  }
 
   a {
     text-decoration: none;
@@ -28,8 +33,9 @@
     width: auto;
     grid-template-columns: 1fr;
     justify-items: center;
-    &-widget {
-      margin: 20px 0 20px 115px;
+
+    &-logo {
+      padding: 20px 0;
     }
   }
 }
