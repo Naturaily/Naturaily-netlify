@@ -102,10 +102,10 @@ include:
 
 permalink: /blog/:title
 
+# Build settings
+
 sass:
   style: compressed
-
-# Build settings
 
 markdown: kramdown
 kramdown:
@@ -119,15 +119,20 @@ plugins:
 
 
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - LICENSE.txt
-  - README.md
+
+include:
+  - .htaccess
+  - node_modules/uglifier/index.js
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
