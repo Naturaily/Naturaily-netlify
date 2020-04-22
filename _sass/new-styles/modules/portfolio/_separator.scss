@@ -1,0 +1,35 @@
+div.portfolio__separator {
+  display: block;
+
+  img {
+    margin-top: -7%;
+    margin-bottom: -13%;
+    width: 200vw;
+    transform: translateX(-50px);
+  }
+
+  &--artinfo {
+    background-color: $color-accent-yellow;
+  }
+
+  &--lvcloud {
+    background-color: $color-geometric-green;
+  }
+}
+
+@media (min-width: 576px) {
+  div.portfolio__separator img {
+    margin-top: -5%;
+    margin-bottom: -10%;
+    width: 150vw;
+  }
+}
+
+@media (min-width: 811px) {
+  div.portfolio__separator img {
+    margin-top: -4%;
+    margin-bottom: -7%;
+    width: 100%;
+    transform: none;
+  }
+}

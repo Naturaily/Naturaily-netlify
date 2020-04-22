@@ -1,0 +1,92 @@
+.portfolio-companies {
+  &__list {
+    margin: 0 -25px;
+    padding: 50px 25px;
+
+    li {
+      padding: 25px;
+    }
+
+    .icon {
+      color: $color-secondary;
+      font-size: 3em;
+    }
+
+    .paragraph {
+      padding-top: 20px;
+      color: $color-portfolio-text-second;
+    }
+  }
+
+  &__quote {
+    display: block;
+    position: relative;
+    padding: 50px 25px;
+    margin-bottom: -100px;
+    font-size: 1.2em;
+    line-height: 1.5;
+
+    .icon-quote {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      z-index: -1;
+      opacity: 0.1;
+      color: $color-accent-yellow;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-companies__quote {
+    padding: 100px 25px;
+    margin-bottom: -150px;
+
+    .icon-quote  {
+      top: 60px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-companies {
+    padding-top: 50px;
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 50px 0;
+      margin: 0 -50px;
+
+      li {
+        box-sizing: border-box;
+        width: 50%;
+        padding: 25px 50px;
+      }
+    }
+
+    .portfolio__step {
+      margin-top: 50px;
+    }
+
+    &__quote {
+      max-width: 750px;
+      margin: 0 auto;
+      margin-bottom: -150px;
+      padding: 100px;
+      font-size: 1.5em;
+
+      .icon-quote  {
+        top: 30px;
+        left: 40px;
+        font-size: 5em;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-companies__list li {
+    width: 25%;
+  }
+}

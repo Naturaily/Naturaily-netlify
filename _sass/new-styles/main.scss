@@ -101,16 +101,28 @@
 // PORTFOLIO SPECIFIC STYLES //
 
 @import "modules/portfolio/main";
+
 @import "modules/portfolio/hero";
 @import "modules/portfolio/about";
-@import "modules/portfolio/goal";
+@import "modules/portfolio/separator";
 @import "modules/portfolio/challenge";
-@import "modules/portfolio/solution";
+@import "modules/portfolio/features";
+@import "modules/portfolio/stack";
+@import "modules/portfolio/experts";
 @import "modules/portfolio/results";
 @import "modules/portfolio/testimonial";
 @import "modules/portfolio/estimate";
-@import "modules/portfolio/artinfo";
-@import "modules/portfolio/lvcloud";
+
+@import "modules/portfolio/artinfo/challenge";
+@import "modules/portfolio/artinfo/goal";
+
+@import "modules/portfolio/lvcloud/about";
+@import "modules/portfolio/lvcloud/companies";
+@import "modules/portfolio/lvcloud/goal";
+@import "modules/portfolio/lvcloud/solution";
+@import "modules/portfolio/lvcloud/tabs";
+@import "modules/portfolio/lvcloud/video";
+
 
 body {
   font-weight: 300;
