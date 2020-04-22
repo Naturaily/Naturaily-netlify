@@ -84,96 +84,14 @@
     display: none;
   }
 
-  ul.slick-dots li.slick-active {
-     filter: grayscale(0%);
-     opacity: 1;
-  }
+  ul.slick-dots li {
+    height: 10px;
+    width: 10px;
+    background-color: #EBE0D9;
+    border-radius: 100%;
 
-  .slick-dots li:nth-child(1) {
-    background-image: url('/assets/images/firefield.png');
-    background-size: 100px;
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 30px;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: 0.3;
-
-    &:hover {
-      filter: grayscale(0%);
-      opacity: 1;
-    }
-  }
-
-  .slick-dots li:nth-child(2) {
-    background-image: url('/assets/images/format.png');
-    background-size: 100px 50px;
-    width: 100px;
-    height: 40px;
-    margin-top: 3px;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: 0.3;
-
-    &:hover {
-      filter: grayscale(0%);
-      opacity: 1;
-    }
-  }
-
-  .slick-dots li:nth-child(3) {
-    background-image: url('/assets/images/apptegy.png');
-    background-size: 100px;
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 23px;
-    margin-top: 4px;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: 0.3;
-
-    &:hover {
-      filter: grayscale(0%);
-      opacity: 1;
-    }
-  }
-
-  .slick-dots li:nth-child(4) {
-    margin-bottom: -15px;
-    background-image: url('/assets/images/itm.png');
-    background-size: 100px 50px;
-    width: 100px;
-    height: 55px;
-    margin-top: 4px;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: 0.3;
-
-    &:hover {
-      filter: grayscale(0%);
-      opacity: 1;
-    }
-  }
-
-  .slick-dots li:nth-child(5) {
-    background-image: url('/assets/images/ea-tech-logo.png');
-    background-size: cover;
-    width: 50px;
-    height: 37px;
-    margin-top: 4px;
-    margin-bottom: -6px;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: 0.3;
-
-    &:hover {
-      filter: grayscale(0%);
-      opacity: 1;
+    &.slick-active {
+      background-color: $color-secondary;
     }
   }
 
@@ -256,7 +174,7 @@
       width: 73%;
       padding-left: 7%;
     }
-    
+
     .item-info {
       margin-top: 15px;
       padding-left: 3%;
@@ -312,7 +230,7 @@
     }
 
     .slick-dots li {
-      margin: 0 10px;
+      margin: 0 5px;
     }
 
     .carousel-item {
@@ -345,18 +263,6 @@
     .slick-list {
       padding-bottom: 140px;
       height: 370px;
-    }
-
-    .slick-dots li {
-      margin: 0;
-    }
-
-    .slick-dots li:nth-child(1) {
-      width: 50%;
-    }
-
-    .slick-dots li:nth-child(3) {
-      width: 50%;
     }
   }
 }
