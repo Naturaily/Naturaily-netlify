@@ -1,0 +1,39 @@
+.portfolio-goal--artinfo {
+  width: 100%;
+
+  .paragraph {
+    color: $color-portfolio-text;
+  }
+
+  .portfolio__columns--right {
+    text-align: right;
+
+    img {
+      width: 100%;
+      max-width: 450px;
+      margin-bottom: -50px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-goal .portfolio__columns {
+    &--right img {
+      width: 140%;
+      max-width: 600px;
+      margin-top: -75px;
+      margin-bottom: 0;
+    }
+
+    .portfolio__credits {
+      padding-top: 25px;
+      margin-bottom: -50px;
+    }
+  }
+}
+
+@media (min-width: 976px) {
+  .portfolio-goal .portfolio__columns .portfolio__credits {
+    margin-bottom: -100px;
+  }
+}

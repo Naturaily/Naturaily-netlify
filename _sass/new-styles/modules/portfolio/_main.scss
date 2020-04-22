@@ -78,25 +78,6 @@
   }
 }
 
-div.portfolio__separator {
-  display: block;
-
-  img {
-    margin-top: -7%;
-    margin-bottom: -13%;
-    width: 200vw;
-    transform: translateX(-50px);
-  }
-
-  &--artinfo {
-    background-color: $color-accent-yellow;
-  }
-
-  &--lvcloud {
-    background-color: $color-geometric-green;
-  }
-}
-
 .portfolio__credits {
   padding: 25px 0 15px;
 
@@ -147,15 +128,20 @@ div.portfolio__separator {
   }
 }
 
+.portfolio-features, .portfolio-stack, .portfolio-experts {
+  &__header {
+    font-size: 1.5em;
+    font-weight: 200;
+  }
+
+  &__header, &__subheader {
+    line-height: 1.5em;
+  }
+}
+
 @media (min-width: 576px) {
   .portfolio__section {
     padding: 75px 100px;
-  }
-
-  div.portfolio__separator img {
-    margin-top: -5%;
-    margin-bottom: -10%;
-    width: 150vw;
   }
 }
 
@@ -172,13 +158,6 @@ div.portfolio__separator {
 
   .portfolio__credits {
     padding-top: 50px;
-  }
-
-  div.portfolio__separator img {
-    margin-top: -4%;
-    margin-bottom: -7%;
-    width: 100%;
-    transform: none;
   }
 }
 
