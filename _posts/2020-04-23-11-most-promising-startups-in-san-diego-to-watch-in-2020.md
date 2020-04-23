@@ -100,7 +100,8 @@ Of course, the company is also aware of today’s stringent data rights and ensu
 
 Another health-based startup, Acutus Medical goes deep where LunaDNA goes broad. The company specialists in mapping techniques and solutions for various forms of atrial arrhythmias, which has a broad use in heart and cardio-related areas. It’s visualization methods enable electrophysiologists to get a clear understanding of a specific heart and its pulse.
 
-Needless to say, this has global benefits, which is why the company has recently expanded outside of the US, entering into the EU earlier this year.\
+Needless to say, this has global benefits, which is why the company has recently expanded outside of the US, entering into the EU earlier this year.
+
 *(Okay - technically this startup is based in Carlsbad, but it’s so close to San Diego that it basically counts!)*
 
 <iframe src="https://player.vimeo.com/video/310137226" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -140,7 +141,7 @@ In fact, [the company arranged a deal](https://www.sdbj.com/news/2019/sep/10/tel
 
 <br>
 
-|IoT development is one of our specialties. If you want to know more about enterprise-level IoT monitoring solution for energy grids that we are working on, [check out this case study](https://naturaily.com/project/lvcloud).|
+\|IoT development is one of our specialties. If you want to know more about enterprise-level IoT monitoring solution for energy grids that we are working on, [check out this case study](https://naturaily.com/project/lvcloud).|
 
 <br>
 
