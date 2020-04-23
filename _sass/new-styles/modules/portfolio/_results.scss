@@ -10,63 +10,47 @@
   }
 
   &__main {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 
     &-title {
       font-size: 0.9em;
       font-weight: 600;
       color: $color-portfolio-text;
-
-      &::after {
-        content: ":";
-      }
     }
 
     .portfolio__list li {
       padding: 10px 25px 10px 40px;
-      font-size: 1.2em;
+      font-size: 1em;
     }
 
-    .paragraph {
-      padding: 25px 0 50px;
-      line-height: 1.5;
-      font-size: 1.5em;
-      font-weight: 300;
+    &-text {
+      &--medium.paragraph {
+        line-height: 1.5;
+        font-size: 1.2em;
+        font-weight: 300;
+      }
+
+      &--small.paragraph {
+        font-size: 1em;
+      }
+    }
+
+    &-image {
+      margin: 25px -35px 50px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .portfolio__columns--right {
+      display: flex;
+      flex-direction: column-reverse;
     }
 
     .portfolio__columns--left .paragraph,
     .portfolio__columns--reversed .paragraph {
        color: $color-portfolio-text-second;
-    }
-
-
-    .portfolio__columns--right {
-      padding: 0 25px;
-
-      .paragraph span {
-        font-size: 1em;
-      }
-
-      img {
-        width: 100%;
-      }
-    }
-
-    .portfolio__columns--reversed {
-      display: flex;
-      flex-direction: column-reverse;
-      padding: 0;
-
-      .paragraph span {
-        display: block;
-        padding-bottom: 20px;
-        font-size: 0.75em;
-      }
-
-      img {
-        width: 100%;
-        padding-bottom: 25px;
-      }
     }
   }
 
@@ -93,70 +77,39 @@
       font-size: 0.85em;
       color: $color-portfolio-text;
     }
-
-    &--lv {
-      margin: -50px -50px 0;
-      padding: 100px 50px 0;
-      border-top: 1px solid $color-global-font-10;
-
-      .portfolio-results__numbers {
-        &-value {
-          font-weight: 200;
-        }
-
-        &-text {
-          padding-top: 20px;
-        }
-      }
-
-      .portfolio__columns--left {
-        padding: 25px 0;
-
-        li {
-          padding: 30px 0;
-          padding-left: 25px;
-
-          &:nth-of-type(2) {
-            border-top: 1px solid $color-global-font-10;
-            border-bottom: 1px solid $color-global-font-10;
-          }
-        }
-      }
-
-      .portfolio__columns--right {
-        position: relative;
-        margin-bottom: 100px;
-
-        img {
-          width: 100%;
-        }
-      }
-    }
   }
 }
 
 @media (min-width: 576px) {
-  .portfolio-results__numbers {
-    &-list {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 100%;
-      margin: 0 -15px;
-
-      li {
-        box-sizing: border-box;
-        width: 50%;
-        padding: 15px;
+  .portfolio-results {
+    &__main {
+      &-text--medium.paragraph {
+        font-size: 1.5em;
       }
     }
 
-    &-text, .paragraph {
-      max-width: 180px;
-    }
+    &__numbers {
+      &-list {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 -15px;
 
-    &-text {
-      height: 6em;
-      padding-bottom: 0;
+        li {
+          box-sizing: border-box;
+          width: 50%;
+          padding: 15px;
+        }
+      }
+
+      &-text, .paragraph {
+        max-width: 180px;
+      }
+
+      &-text {
+        height: 6em;
+        padding-bottom: 0;
+      }
     }
   }
 }
@@ -164,6 +117,12 @@
 @media (min-width: 811px) {
   .portfolio-results {
     &__main {
+      padding-bottom: 100px;
+
+      &-image {
+        margin: 0;
+      }
+
       .portfolio__list li {
         max-width: 350px;
         padding-left: 15px;
@@ -171,29 +130,13 @@
 
       &.portfolio__columns--right {
         padding: 0;
-        display: flex;
         flex-direction: column;
         justify-content: space-around;
       }
-
-      .portfolio__columns--reversed {
-        padding: 0 25px;
-
-        img {
-          width: calc(100% + 50px);
-          padding-bottom: 0;
-        }
-      }
     }
 
-    &__numbers{
-      &-list li  {
-        width: 25%;
-      }
-
-      &--lv .portfolio__columns--left li {
-        padding-left: 0;
-      }
+    &__numbers-list li  {
+      width: 25%;
     }
   }
 }

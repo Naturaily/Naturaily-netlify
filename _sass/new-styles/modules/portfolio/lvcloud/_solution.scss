@@ -35,8 +35,8 @@
   }
 }
 
-.portfolio-answer img {
-  max-width: 100%;
+.portfolio-answer {
+  margin-bottom: 50px;
 }
 
 .portfolio-solutions {
@@ -46,12 +46,12 @@
 
   .portfolio__columns {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 50px 0;
 
     &--odd .portfolio-solutions__image img {
-      margin-left: 100px;
-      max-height: 350px;
+      max-height: 370px;
+      transform: translateX(35px);
     }
 
     &--even .portfolio-solutions__image img {
@@ -59,16 +59,13 @@
     }
   }
 
-  &__image, &__description {
-    margin: 25px;
-  }
-
   &__image {
     position: relative;
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: -75px;
 
     img {
-      width: auto;
       max-width: 100%;
     }
   }
@@ -107,7 +104,7 @@
     }
 
     &--schema1 {
-      transform: translate(-60%, -40%);
+      transform: translate(-70%, -40%);
 
       .geometric-figure_center {
         border-color: $color-geometric-blue-accent;
@@ -131,6 +128,7 @@
     }
 
     img {
+      max-width: 100%;
       position: relative;
       left: 50px;
     }
@@ -141,6 +139,7 @@
       position: relative;
       width: 50%;
       box-sizing: border-box;
+      margin: 25px;
     }
 
     &__image {

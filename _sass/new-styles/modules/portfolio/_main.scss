@@ -1,7 +1,7 @@
 .portfolio__section {
   box-sizing: border-box;
   width: 100%;
-  padding: 70px 35px 70px 20px;
+  padding: 50px 35px;
 
   &--orange {
     margin-top: 50px;
@@ -56,7 +56,8 @@
   flex-direction: column;
 
   &--left, &--right {
-    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 10px 0;
   }
 }
 
@@ -139,6 +140,10 @@
   }
 }
 
+.invisible-sm {
+  display: none;
+}
+
 @media (min-width: 576px) {
   .portfolio__section {
     padding: 75px 100px;
@@ -152,12 +157,16 @@
 
     &--left, &--right {
       width: 50%;
-      margin: 0 25px;
+      padding: 0 25px;
     }
   }
 
   .portfolio__credits {
     padding-top: 50px;
+  }
+
+  .invisible-sm {
+    display: inline-block;
   }
 }
 

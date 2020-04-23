@@ -1,9 +1,9 @@
 .portfolio-hero {
   box-sizing: border-box;
   position: relative;
-  height: 500px;
-  margin-bottom: 40px;
+  height: 700px;
   z-index: -1;
+  overflow: hidden;
   background-color: $color-code-orange-bg;
 
   &__text, &__text strong {
@@ -11,9 +11,11 @@
   }
 
   &__text {
-    padding: 120px 50px 0;
+    max-width: 350px;
+    padding: 120px 0 0 20px;
+    margin: 0 auto;
     z-index: 2;
-    font-size: 1.7em;
+    font-size: 2em;
     line-height: 1.5;
 
     strong {
@@ -27,11 +29,21 @@
 
   &__image {
     .geometric-figure {
-      top: 70px;
-      right: 10px;
+      top: 330px;
+      left: calc(50% - 190px);
       z-index: -2;
 
-      &__blue {
+      &_center, &_right::after {
+        height: 150px;
+        width: 150px;
+      }
+
+      &_right {
+        width: 75px;
+        height: 150px;
+      }
+
+      &--blue {
         .geometric-figure_center {
           border-color: $color-geometric-green;
         }
@@ -42,13 +54,21 @@
       }
     }
 
-    img {
+    &-desktop, &-mobile {
       position: absolute;
-      bottom: -50px;
-      right: 10px;
-      max-width: calc(100% - 10px);
-      max-height: 280px;
+      max-width: 100%;
       z-index: -1;
+    }
+
+    &-desktop {
+      display: none;
+    }
+
+    &-mobile {
+      bottom: -140px;
+      right: 50%;
+      transform: translateX(50%);
+      max-height: 510px;
     }
   }
 }
@@ -58,29 +78,23 @@
     height: 555px;
 
     &__text {
+      max-width: inherit;
       padding-left: 100px;
       font-size: 2em;
     }
 
     &__image {
       .geometric-figure {
-        top: 50px;
-        right: -50px;
-
-        &_center, &_right::after {
-          height: 200px;
-          width: 200px;
-        }
-
-        &_right {
-          width: 100px;
-          height: 200px;
-        }
+        top: 80px;
+        left: 50%;
       }
 
-      img {
-        bottom: -30px;
-        right: 10px;
+      &-mobile {
+        bottom: 0;
+        right: auto;
+        left: 60%;
+        transform: rotate(15deg);
+        max-height: 450px;
       }
     }
   }
@@ -101,28 +115,61 @@
 
     &__image {
       .geometric-figure {
-        top: 100px;
-        right: 50px;
+        top: 110px;
+        left: auto;
+        right: 130px;
+
+        &_center, &_right::after {
+          height: 200px;
+          width: 200px;
+        }
+
+        &_right {
+          width: 100px;
+          height: 200px;
+        }
       }
 
-      img {
-        right: 10px;
-        max-height: 300px;
+      &-mobile {
+        left: auto;
+        right: 50px;
+        transform: rotate(10deg);
+        max-height: 550px;
       }
     }
   }
 }
 
 @media (min-width: 992px) {
-  .portfolio-hero__image {
-    .geometric-figure {
-      top: 120px;
-      right: 100px;
-    }
+  .portfolio-hero {
+    overflow: visible;
 
-    img {
-      right: 100px;
-      max-height: 330px;
+    &__image {
+      .geometric-figure {
+        top: 150px;
+        right: 240px;
+
+        &_center, &_right::after {
+          height: 250px;
+          width: 250px;
+        }
+
+        &_right {
+          width: 125px;
+          height: 290px;
+        }
+      }
+
+      &-desktop {
+        display: block;
+        bottom: 50px;
+        right: 10px;
+        max-height: 370px;
+      }
+
+      &-mobile {
+        display: none;
+      }
     }
   }
 }

@@ -5,8 +5,9 @@
 
   &__wrapper {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 270px;
+    margin: 0 -35px;
     border-radius: 8px;
   }
 
@@ -68,6 +69,13 @@
         font-size: 1.5em;
       }
     }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-video__wrapper {
+    width: 100%;
+    margin: 0;
   }
 }
 
