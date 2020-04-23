@@ -136,7 +136,9 @@ Given the rise of e-commerce solutions in the wake of the recent epidemic, Daasi
 
 Despite being around for 5 years, Platform Science is certainly taking the ‘slow and steady’ route. The company provides IoT fleet management telemetrics. Essentially, though the use of IoT-enabled hardware, it enables both fleet operators and individual drivers to track and manage vehicles as needed.
 
-Of course, many reporting products already exist - what we like about Platform Science is that it also enables reporting on driving safety and performance, generating as many insights as possible, rather than the basic factors. This makes it a strong choice as an enterprise-level product.\
+Of course, many reporting products already exist - what we like about Platform Science is that it also enables reporting on driving safety and performance, generating as many insights as possible, rather than the basic factors. This makes it a strong choice as an enterprise-level product.
+
+\
 In fact, [the company arranged a deal](https://www.sdbj.com/news/2019/sep/10/telematics-startup-platform-science-gains-big-new-/){:rel="nofollow"}{:target="_blank"} with Schneider National in the US, helping them to better move a 9.3 million mileage of annual freight operations.
 
 <br>
