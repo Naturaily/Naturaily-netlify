@@ -2,6 +2,7 @@
   &__image {
     position: relative;
     overflow: visible;
+    margin: 0 -35px;
 
     img {
       width: 100%;
@@ -31,6 +32,7 @@
   .portfolio-features__image  {
     padding-top: 50px;
     text-align: center;
+    margin: 0;
 
     img {
       width: 100%;
