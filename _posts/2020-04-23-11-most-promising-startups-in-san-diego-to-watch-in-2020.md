@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
-image: '/assets/images/Blog_[Multilingual Software].png'
+image: /assets/images/Blog_San_Diego_Startups_cover.png
 text-preview: >-
   San Diego has a lot going for it over its more famous contemporary
   counterpart. While it isn’t a globally recognized IT talent pool like ‘San
