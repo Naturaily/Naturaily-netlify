@@ -138,12 +138,11 @@ Despite being around for 5 years, Platform Science is certainly taking the ‘sl
 
 Of course, many reporting products already exist - what we like about Platform Science is that it also enables reporting on driving safety and performance, generating as many insights as possible, rather than the basic factors. This makes it a strong choice as an enterprise-level product.
 
-\
 In fact, [the company arranged a deal](https://www.sdbj.com/news/2019/sep/10/telematics-startup-platform-science-gains-big-new-/){:rel="nofollow"}{:target="_blank"} with Schneider National in the US, helping them to better move a 9.3 million mileage of annual freight operations.
 
 <br>
 
-\|IoT development is one of our specialties. If you want to know more about enterprise-level IoT monitoring solution for energy grids that we are working on, [check out this case study](https://naturaily.com/project/lvcloud).|
+|IoT development is one of our specialties. If you want to know more about enterprise-level IoT monitoring solution for energy grids that we are working on, [check out this case study](https://naturaily.com/project/lvcloud).|
 
 <br>
 
