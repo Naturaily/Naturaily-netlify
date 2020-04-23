@@ -80,7 +80,8 @@ What makes DiversyFund standout, more than it’s online ‘click-and-go’ desi
 
 Now, San Diego has the same answer for real estate investment - and it has the potential to go global, which is why it’s worth keeping an eye on!
 
-<iframe src="https://player.vimeo.com/video/280461512?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<div class='embed-container'><iframe src="https://player.vimeo.com/video/280461512?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 <br>
 
@@ -104,7 +105,7 @@ Needless to say, this has global benefits, which is why the company has recently
 
 *(Okay - technically this startup is based in Carlsbad, but it’s so close to San Diego that it basically counts!)*
 
-<iframe src="https://player.vimeo.com/video/310137226" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class='embed-container'><iframe src="https://player.vimeo.com/video/310137226" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 <br>
 
