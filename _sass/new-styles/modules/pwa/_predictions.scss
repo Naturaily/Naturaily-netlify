@@ -18,20 +18,16 @@
 
   &_signature {
     position: relative;
+    align-items: center;
     margin-bottom: 60px;
-    &:before {
-      content: '';
-      background-image: url('/assets/images/pwa/jason.png');
-      background-size: 36px 30px;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
+
+    img {
       height: 30px;
       width: 36px;
     }
 
     p {
-      padding-left: 80px;
+      padding-left: 44px;
       opacity: 0.5;
     }
   }
@@ -67,7 +63,7 @@
     &_container {
       padding-left: 25px;
 
-      div {
+      div:last-child {
         flex-direction: column;
       }
     }
@@ -89,14 +85,14 @@
 
     &_signature {
       margin-bottom: 40px;
-      &:before {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-  
+      // &:before {
+      //   position: absolute;
+      //   top: 50%;
+      //   transform: translateY(-50%);
+      // }
+
       p {
-        padding-left: 40px;
+        padding-left: 5px;
       }
     }
 

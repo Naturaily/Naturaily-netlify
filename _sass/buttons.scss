@@ -70,15 +70,11 @@
 }
 
 .btn-copy {
-  background-image: url(/assets/images/copy.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: contain;
-  width: 30px;
-  height: 30px;
-  box-shadow: none;
+  padding: 0;
+  color: $color-accent-yellow;
+  font-size: 30px;
   @include transition(.2s);
+
   &:hover {
     box-shadow: none;
     @include scale(1.1);

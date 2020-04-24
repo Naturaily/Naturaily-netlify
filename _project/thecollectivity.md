@@ -7,7 +7,7 @@ image: /assets/images/collectivity-screen-5.png
 twitter-card: summary_large_image
 project-screenshot: /assets/images/collectivity.png
 project-logo: /assets/images/collectivity-logo.png
-banner-bg: /assets/images/projects-background-green.png
+banner-bg: /assets/images/projects-background-green.jpg
 banner-text: >-
   Collectivity is a platform that allows people from all around the world to
   colaborate and share their professional expertise in order to improve health
