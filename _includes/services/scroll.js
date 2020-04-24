@@ -1,4 +1,4 @@
-$(document).ready(() => {
+window.addEventListener('load', () => {
   let width = document.documentElement.clientWidth;
 
   function resizeForm() {

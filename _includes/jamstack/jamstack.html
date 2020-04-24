@@ -60,9 +60,11 @@
 </section>
 
 <script type="text/javascript">
-  const $actionBtn = $('#jamstackActionBtn');
-  const $content = $('#jamstackContent');
-  const content_opened_class = 'jamstack_container--opened';
+  window.addEventListener('load', () => {
+    const $actionBtn = $('#jamstackActionBtn');
+    const $content = $('#jamstackContent');
+    const content_opened_class = 'jamstack_container--opened';
 
-  $actionBtn.click(() => $content.toggleClass(content_opened_class));
+    $actionBtn.click(() => $content.toggleClass(content_opened_class));
+  });
 </script>
