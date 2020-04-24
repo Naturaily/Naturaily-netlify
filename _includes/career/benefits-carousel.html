@@ -108,20 +108,19 @@
 
 
 <script type="text/javascript">
+  window.addEventListener('load', () => {
+     $('#benefitsCarouselImages').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '#benefitCarouselBox',
+      dots: false,
+      fade: true,
+      cssEase: 'linear',
+      speed: 400
+    });
 
-   $('#benefitsCarouselImages').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '#benefitCarouselBox',
-    dots: false,
-    fade: true,
-    cssEase: 'linear',
-    speed: 400
-  });
-
-  $(document).ready(function() {
     var $slider = $('#benefitCarouselBox');
     var $progressBar = $('[data-progress-bar]');
     var $progressBarLabel = $( '[data-progress-label]' );

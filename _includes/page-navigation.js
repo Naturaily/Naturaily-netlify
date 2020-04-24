@@ -1,5 +1,4 @@
-$(document).ready(function() {
-
+window.addEventListener('load', () => {
   var sticky = new Waypoint.Sticky({
     element: $('#stickyNav')[0]
   });
@@ -43,6 +42,4 @@ $(document).ready(function() {
   }, {
     offset: '-100%'
   });
-
-
 });
