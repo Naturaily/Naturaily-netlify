@@ -155,13 +155,13 @@ The most important thing is to make sure that you’re using a proper Content De
 * **Inventory management integrations** - including software like that in your toolset means quicker supply data uploads on your website, fewer errors in terms of orders and less disappointed customers.
 * **Carrier integrations** - consider it to carry the delivery process faster and always keep your hand on the pulse with a special system.
 
-Let’s face it, for many retailers online stores stopped being justa channel, an addition to their offline business. It becomes their core activity and their survival depends on how effective it works.
+Let’s face it, for many retailers online stores stopped being just a channel, an addition to their offline business. It becomes their core activity and their survival depends on how effective it works.
 
 Of all the e-commerce platforms, Shopify is the leader when it comes to web performance, reliable hosting and the number of integrations.
 
 > Thanks to our cloud-based infrastructure, Shopify Plus has a 99.98% overall uptime. Our storefront also loads [2.97X faster than other SaaS platforms](https://www.shopify.com/plus/compare/bigcommerce#Scalability){:rel="nofollow"}{:target="_blank"}.
 
-|**[Consult our Shopify & E-commerce Specialist for advice on how to make the most out of increased traffic.](https://calendly.com/shopify-consulting/30min){:target="_blank"}**|
+|**[Contact us if you want to make your online store more efficient and profitable.](https://naturaily.com/get-an-estimate){:target="_blank"}**|
 
 ### 5. Monitor the situation on a daily basis
 
