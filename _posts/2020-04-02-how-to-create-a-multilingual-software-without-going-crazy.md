@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/Helmut_LingoHub.png
   label: Helmut Juskewycz
   value: author-31
-image: '/assets/images/Blog_[Multilingual Software].png'
+image: '/assets/images/Blog_Multilingual_Software.png'
 text-preview: >
   If you are not catering to users beyond your own country’s borders and
   language(s), you’re missing out on great opportunities. If you’re intimidated
@@ -24,9 +24,9 @@ tags:
   - Localized software
   - Vue.js development
 ---
-**As English is the de facto language of the internet and of our apps, localization and translation are usually after-thoughts in our software development projects.** 
+**As English is the de facto language of the internet and of our apps, localization and translation are usually after-thoughts in our software development projects.**
 
-**We simply overlook the potential of localizing our software for our target markets. 53% of all global internet users, for example, are based in Asia Pacific, followed by Europe with its diverse set of languages, accounting for 15% of all internet users.** 
+**We simply overlook the potential of localizing our software for our target markets. 53% of all global internet users, for example, are based in Asia Pacific, followed by Europe with its diverse set of languages, accounting for 15% of all internet users.**
 
 In this article, we are going to show you how to create a multilingual product without going crazy and still delivering on time.
 
