@@ -37,14 +37,14 @@ layout: default
       <div class="post-soc">
         <div class="tooltip post-soc-copy" onmouseout="mouseOutFn()">
           <input type="text" value="{{site.url}}{{page.url}}" id="copyUrl" class="custom-input" readonly>
-          <button onclick="copyToClipboard()" class="btn btn-copy" data-share="copy"></button>
+          <button onclick="copyToClipboard()" class="btn btn-copy icon-clickboard" data-share="copy"></button>
           <span class="tooltip-text" id="copyTooltip" data-post-shared="{{page.title}}">Copy to clipboard</span>
         </div>
         <a class="post-soc-shr" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow" data-share="twitter" data-post-shared="{{page.title}}">
-          <img src="/assets/images/twitter-icon.png" alt="Twitter">
+          <img src="/assets/images/loader.gif" data-src="/assets/images/twitter-icon.png" alt="Twitter">
         </a>
         <a class="post-soc-shr" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow" data-share="facebook" data-post-shared="{{page.title}}">
-          <img src="/assets/images/facebook-icon.png" alt="Facebook">
+          <img src="/assets/images/loader.gif" data-src="/assets/images/facebook-icon.png" alt="Facebook">
         </a>
       </div>
       {{ content }}
@@ -82,6 +82,18 @@ layout: default
   </div>
 
 </div>
+
+<!-- Facebook Share -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=686865701396106&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- End Facebook Share -->
+
 <script type="text/javascript">
   {% include blog-sticky.js %}
 
@@ -98,6 +110,4 @@ layout: default
     var tooltip = document.getElementById("copyTooltip");
     tooltip.innerHTML = "Copy to clipboard";
   }
-
-
 </script>
