@@ -1,7 +1,7 @@
 
 <footer class="footer">
   <div class="footer-heading">
-    <img class="footer-logo" src="/assets/images/logo_naturaily.svg" alt="Naturaily logo">
+    <img class="footer-logo" src="/assets/images/loader.gif" data-src="/assets/images/logo_naturaily.svg" alt="Naturaily logo">
   </div>
 
   <div class="footer-body">
@@ -45,16 +45,16 @@
   <div class="footer-footer">
     <div class="footer_social">
       <a class="footer_social-item" href="https://www.facebook.com/Naturaily/" target="_blank" rel="nofollow">
-        <img src="/assets/images/facebook-logo.png" alt="Facebook">
+        <img src="/assets/images/loader.gif" data-src="/assets/images/facebook-logo.png" alt="Facebook">
       </a>
       <a class="footer_social-item" href="https://twitter.com/naturailycom" target="_blank" rel="nofollow">
-        <img src="/assets/images/twitter-logo.png" alt="Twitter">
+        <img src="/assets/images/loader.gif" data-src="/assets/images/twitter-logo.png" alt="Twitter">
       </a>
       <a class="footer_social-item" href="https://www.linkedin.com/company/naturaily" target="_blank" rel="nofollow">
-        <img src="/assets/images/linkedin.png" alt="Linkedin">
+        <img src="/assets/images/loader.gif" data-src="/assets/images/linkedin.png" alt="Linkedin">
       </a>
       <a class="footer_social-item" href="https://github.com/naturaily" target="_blank" rel="nofollow">
-        <img class="topbar-github" src="/assets/images/github.png" alt="Github">
+        <img class="topbar-github" src="/assets/images/loader.gif" data-src="/assets/images/github.png" alt="Github">
       </a>
     </div>
     <p class="footer-regon">
@@ -65,28 +65,30 @@
 
 
 <script type="text/javascript">
-  function getSelectionText() {
-    var text = '';
-    if (window.getSelection) {
-      text = window.getSelection().toString();
-    } else if (document.selection && document.selection.type != 'Control') {
-      text = document.selection.createRange().text;
+  window.addEventListener('load', () => {
+    function getSelectionText() {
+      var text = '';
+      if (window.getSelection) {
+        text = window.getSelection().toString();
+      } else if (document.selection && document.selection.type != 'Control') {
+        text = document.selection.createRange().text;
+      }
+      if (text.includes("735 220 414") || text.includes("533 294 604") || text.includes("hello@naturaily.com") ) {
+        return text;
+      }
+      else {
+        return false
+      }
     }
-    if (text.includes("735 220 414") || text.includes("533 294 604") || text.includes("hello@naturaily.com") ) {
-      return text;
-    }
-    else {
-      return false
-    }
-  }
 
-  document.addEventListener('copy', function(e){
-    var textCopied = getSelectionText();
-    if (typeof(textCopied) === "string") {
-      dataLayer.push({
-        'event': 'linkCopied',
-        'linkCopied': getSelectionText()
-      });
-    }
+    document.addEventListener('copy', function(e){
+      var textCopied = getSelectionText();
+      if (typeof(textCopied) === "string") {
+        dataLayer.push({
+          'event': 'linkCopied',
+          'linkCopied': getSelectionText()
+        });
+      }
+    });
   });
 </script>

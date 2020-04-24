@@ -7,7 +7,7 @@ image: /assets/images/art-scr-6.jpg
 twitter-card: summary_large_image
 project-screenshot: /assets/images/artinfo-laptop.png
 project-logo: /assets/images/artinfo.svg
-banner-bg: /assets/images/projects-background-red.png
+banner-bg: /assets/images/projects-background-red.jpg
 banner-text: >-
   Artinfo is a combination of a news website dedicated to the art market, as
   well as a sophisticated catalog of art pieces and auction houses
@@ -100,4 +100,3 @@ slide-right: Zapnito
 slide-right-logo: /assets/images/zapnito.png
 slide-right-link: /project/zapnito
 ---
-

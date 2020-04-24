@@ -157,10 +157,10 @@
 
   &_right {
     flex: 8;
-    background-image: url('/assets/images/pwa/visual.png');
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+    img {
+      max-height: 100%;
+    }
   }
 
   &_bottom {
@@ -216,6 +216,10 @@
       width: 50%;
       height: 100%;
       z-index: -1;
+
+      img {
+        padding-top: 40px;
+      }
     }
   }
 }

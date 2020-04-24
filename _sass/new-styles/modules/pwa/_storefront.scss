@@ -5,11 +5,13 @@
 
   &_image {
     flex: 7;
-    border-radius: 8px;
-    background-image: url('/assets/images/pwa/storefront.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    text-align: center;
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+      border-radius: 8px;
+    }
   }
 
   &_text {

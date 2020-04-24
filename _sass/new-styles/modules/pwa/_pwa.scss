@@ -54,25 +54,20 @@
       border-bottom: 1px solid rgba(59, 34, 15, 0.1);
     }
 
-    span, img {
-      color: $color-primary;
-      padding-right: 173px;
+    .icon {
       width: 45px;
-    }
-
-    img {
-      width: 46px;
-      height: 41px;
       margin: auto;
+      padding-right: 173px;
+      color: $color-primary;
+      font-size: 36px;
+
+      &-trust {
+        font-size: 44px;
+      }
     }
 
     div {
       width: 100%;
-    }
-
-    .icon {
-      font-size: 36px;
-      margin: auto;
     }
   }
 
@@ -96,12 +91,9 @@
 }
 
 @media (max-width: 1200px) {
-  .pwa-pwa {
-    &_item {
-  
-      span, img {
-        padding-right: 50px;
-      }
+  .pwa-pwa_item {
+    .icon {
+      padding-right: 50px;
     }
   }
 }
@@ -145,33 +137,21 @@
       }
     }
 
-    &_item {
-  
-      span, img {
-        padding-right: 30px;
-      }
-
-      img {
-        width: 46px;
-        height: 40px;
-      }
-  
-      .icon {
-        font-size: 36px;
-      }
+    &_item .icon {
+      padding-right: 30px;
     }
 
     &_entry {
       margin: 15px auto;
-  
+
       p {
-  
+
         &:first-child {
           font-size: 14px;
           line-height: 20px;
           margin-bottom: 5px;
         }
-  
+
         &:last-child {
           font-size: 12px;
           line-height: 20px;

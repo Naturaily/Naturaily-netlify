@@ -9,7 +9,7 @@ project-font-colour: purple
 project-screenshot: /assets/images/LVCloud.png
 project-logo: /assets/images/lvcloud-logo.png
 project-logo-class: lvcloud
-banner-bg: /assets/images/projects-background-purple.png
+banner-bg: /assets/images/projects-background-purple.jpg
 banner-text: >-
   LVCloud is an Internet of Things (IoT) application that monitors and takes
   care of the grid. Check out how we have combined new technologies, such as

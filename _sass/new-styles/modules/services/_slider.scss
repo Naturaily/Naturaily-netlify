@@ -513,8 +513,13 @@
         text-shadow: none;
       }
 
-      &-hover, &-background {
+      &-hover {
         display: none;
+      }
+
+      &-background {
+        display: none;
+        background-image: none !important;
       }
 
       &:hover {

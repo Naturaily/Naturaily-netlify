@@ -2,7 +2,7 @@
 title: React.js development
 description: >-
   Join us in building awesome solutions and great user experience for your
-  clients with React JS. 
+  clients with React JS.
 twitter-card: summary_large_image
 layout: service
 permalink: /services/react-js-development
@@ -10,13 +10,13 @@ posts-tag: Frontend development
 heading: React.js development
 desc: >-
   Join us in building awesome solutions and great user experience for your
-  clients with React JS. 
+  clients with React JS.
 tech-head: What is React?
 tech-desc-one: >-
   React.js is a JavaScript library that was created and later developed at
   Facebook. Since its launch in 2013, React took JavaScript community by storm.
   Now, this library has become a standard in modern front-end development as it
-  gained millions of developers and hundreds of contributors. 
+  gained millions of developers and hundreds of contributors.
 tech-desc-two: >-
   Facebook aside, large companies such as Netflix, Instagram, New York Times,
   and many more, have already utilized React in their projects, which has
@@ -35,7 +35,7 @@ advantage-desc-one: >-
   developers to efficiently create components of an application and reuse them
   in various slots of the project. This DRY approach pushes higher code quality
   while reducing the amount of required code, thus making the development
-  process much faster. 
+  process much faster.
 advantage-desc-two-title: Rich user experience
 advantage-desc-two: >-
   React, being a JavaScript library, has found its way onto many modern devices
@@ -48,13 +48,13 @@ advantage-desc-three: >-
   With the right tools and developers, React.js applications can easily become
   SEO friendly. React offers server-side rendering which returns the Virtual DOM
   to the client-side. As Google pushes fast website rendering times to maintain
-  good SERP rank, this feature ensures high SEO performance. 
+  good SERP rank, this feature ensures high SEO performance.
 advantage-desc-four-title: Performance
 advantage-desc-four: >-
   React’s goals is to provide the best web rendering performance. Given the
   amount of utility and features React has, it is very performant compared to
   other similar solutions. Snappy applications and very low loading times,
-  guaranteed. 
+  guaranteed.
 projects-slogan: >-
   Over 12 years of experience in web development, using good old technologies
   like Ruby on Rails and innovative JavaScript frameworks. We guarantee our
@@ -64,7 +64,7 @@ projects-head: 'Check out our projects:'
 projects:
   - project:
       bg: /assets/images/lvcloud.png
-      bg-image: /assets/images/projects-background-blue.png
+      bg-image: /assets/images/projects-background-blue.jpg
       title: LVCloud
       desc: >-
         LVCloud was designed to detect sudden changes such as increased humidity
@@ -87,4 +87,3 @@ competences:
       tech-name: Vue.js
 competences-text: React.js
 ---
-

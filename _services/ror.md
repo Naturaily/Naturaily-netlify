@@ -63,7 +63,7 @@ projects-head: 'Check out our projects in Ruby on Rails:'
 projects:
   - project:
       bg: /assets/images/snipsl.png
-      bg-image: /assets/images/projects-background-purple.png
+      bg-image: /assets/images/projects-background-purple.jpg
       title: LVCloud
       desc: >-
         LVCloud was designed to detect sudden changes such as increased humidity
@@ -72,7 +72,7 @@ projects:
       link: /project/lvcloud
   - project:
       bg: /assets/images/snipsl.png
-      bg-image: /assets/images/projects-background-green.png
+      bg-image: /assets/images/projects-background-green.jpg
       title: Snipsl
       desc: >-
         Naturaily Ruby on Rails development team helped Snipsl to fix and
