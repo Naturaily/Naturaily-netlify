@@ -142,7 +142,7 @@ In fact, [the company arranged a deal](https://www.sdbj.com/news/2019/sep/10/tel
 
 <br>
 
-\|IoT development is one of our specialties. If you want to know more about enterprise-level IoT monitoring solution for energy grids that we are working on, [check out this case study](https://naturaily.com/project/lvcloud).|
+|IoT development is one of our specialties. If you want to know more about enterprise-level IoT monitoring solution for energy grids that we are working on, [check out this case study](https://naturaily.com/project/lvcloud).|
 
 <br>
 
