@@ -1,75 +1,70 @@
 .portfolio-estimate {
   display: flex;
   flex-direction: column;
-  background-color: $color-white;
-  max-width: 350px;
-  margin: 50px auto 0;
+  position: relative;
+  padding-bottom: 50px;
 
-  .section_heading span {
-    display: block;
-    margin-top: 20px;
-    font-size: 0.7em;
+  &__image {
+    order: 2;
+    margin: 25px 0;
+
+    img {
+      width: 100%;
+      max-width: 450px;
+    }
   }
 
-  .section_content {
-    text-align: center;
-  }
+  &__content {
+    order: 1;
 
-  .btn.btn-primary {
-    margin: 20px 0 50px;
+    &-text {
+      font-size: 2em;
+      line-height: 1.5;
+
+      &--smaller {
+        display: block;
+        margin-top: 25px;
+        font-size: 0.7em;
+      }
+    }
+
+    &-button {
+      position: absolute;
+      bottom: 0;
+      margin: 20px 0 50px;
+    }
   }
 }
 
 @media (min-width: 811px) {
   .portfolio-estimate {
-    flex-direction: row;
-    max-width: 100%;
+    padding-bottom: 0;
 
-    .section_content, .section_desc {
-      width: 50%;
+    &__image {
+      order: 1;
     }
 
-    .section_content img {
-      max-width: 100%;
-    }
-
-    .section_desc {
+    &__content {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-    }
+      order: 2;
 
-    .section_heading {
-      font-size: 1.7em;
-      line-height: 1.5;
-    }
+      &-text {
+        font-size: 1.75em;
+      }
 
-    .btn.btn-primary {
-      margin: 0;
-      margin-bottom: 20px;
-    }
-  }
-}
-
-@media (min-width: 992px) {
-  .portfolio-estimate {
-    .section_content {
-      width: 40%;
-    }
-
-    .section_desc {
-      width: 60%;
-      max-width: 450px;
-    }
-
-    .section_heading {
-      font-size: 2em;
+      &-button {
+        position: static;
+        width: 190px;
+        margin-bottom: 25px;
+      }
     }
   }
 }
 
 @media (min-width: 1200px) {
-  .portfolio-estimate .section_heading {
-    font-size: 2.5em;
+  .portfolio-estimate__content-text {
+    font-size: 1.75em;
   }
 }
