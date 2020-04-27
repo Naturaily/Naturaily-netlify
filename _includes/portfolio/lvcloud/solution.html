@@ -159,96 +159,124 @@
 
   <div class="portfolio-stack">
     <h3 class="portfolio-stack__header">Technological stack</h3>
-    <ul class="portfolio__columns">
-      <li>
-        <div class="portfolio-stack__image portfolio-stack__image--wider">
-          <img src="/assets/images/portfolio/artinfo/rails.png" alt="ruby on rails icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Ruby on Rails<br> (backend)</h4>
-        <p class="paragraph">The main application is written in Ruby on Rails. It is responsible for data aggregation, saving and reading.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image">
-          <img src="/assets/images/ruby-logo.png" alt="ruby icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Ruby<br> (backend)</h4>
-        <p class="paragraph">There is a separate microservice for each type of device written in Ruby.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image">
-          <img src="/assets/images/portfolio/lvcloud/icons/sidekiq.png" alt="sidekiq icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Sidekiq<br> (search engine)</h4>
-        <p class="paragraph">The entire solution uses Sidekiq for background data processing.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image">
-          <img src="/assets/images/portfolio/lvcloud/icons/redis.png" alt="redis icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Redis<br> (backend)</h4>
-        <p class="paragraph">Stores data for processing.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image portfolio-stack__image--mongo">
-          <img src="/assets/images/portfolio/lvcloud/icons/mongoDB.png" alt="mongodb icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">MongoDB<br> (database)</h4>
-        <p class="paragraph">It is a mature and easily scalable document-oriented database used in the Main Application.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image">
-          <img src="/assets/images/portfolio/lvcloud/icons/postgresql.png" alt="postgresql icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">PostgreSQL<br> (database managment)</h4>
-        <p class="paragraph">A general-purpose object-relational database management system.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image portfolio-stack__image--kafka">
-          <img src="/assets/images/portfolio/lvcloud/icons/kafka.png" alt="kafka icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Kafka<br> (backend)</h4>
-        <p class="paragraph">Streaming platform used to broadcast the data.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image">
-          <img src="/assets/images/vue-logo.png" alt="vue.js icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Vue.js<br> (frontend)</h4>
-        <p class="paragraph">Progressive JavaScript framework used to build attractive user interfaces.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image portfolio-stack__image--wider">
-          <img src="/assets/images/portfolio/lvcloud/icons/highcharts.png" alt="highcharts icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Highcharts<br> (frontend)</h4>
-        <p class="paragraph">Interactive JavaScript used to clearly present huge amounts of data coming from devices to the user interface.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image portfolio-stack__image--wider">
-          <img src="/assets/images/portfolio/lvcloud/icons/mqtt.png" alt="mqtt icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">MQTT<br> (backend)</h4>
-        <p class="paragraph">A lightweight messaging protocol used by devices to communicate with the application</p>
-      </li>
-    </ul>
+    <div class="portfolio-carousel__wrapper" data-carousel="wrapper">
+      <ul class="portfolio__columns portfolio-carousel__tabs portfolio-carousel__tabs--ten" data-carousel="tabs">
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="0">
+          <div class="portfolio-stack__image portfolio-stack__image--wider">
+            <img src="/assets/images/portfolio/artinfo/rails.png" alt="ruby on rails icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Ruby on Rails<br> (backend)</h4>
+          <p class="paragraph">The main application is written in Ruby on Rails. It is responsible for data aggregation, saving and reading.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="1">
+          <div class="portfolio-stack__image">
+            <img src="/assets/images/ruby-logo.png" alt="ruby icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Ruby<br> (backend)</h4>
+          <p class="paragraph">There is a separate microservice for each type of device written in Ruby.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="2">
+          <div class="portfolio-stack__image">
+            <img src="/assets/images/portfolio/lvcloud/icons/sidekiq.png" alt="sidekiq icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Sidekiq<br> (search engine)</h4>
+          <p class="paragraph">The entire solution uses Sidekiq for background data processing.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="3">
+          <div class="portfolio-stack__image">
+            <img src="/assets/images/portfolio/lvcloud/icons/redis.png" alt="redis icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Redis<br> (backend)</h4>
+          <p class="paragraph">Stores data for processing.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="4">
+          <div class="portfolio-stack__image portfolio-stack__image--mongo">
+            <img src="/assets/images/portfolio/lvcloud/icons/mongoDB.png" alt="mongodb icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">MongoDB<br> (database)</h4>
+          <p class="paragraph">It is a mature and easily scalable document-oriented database used in the Main Application.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="5">
+          <div class="portfolio-stack__image">
+            <img src="/assets/images/portfolio/lvcloud/icons/postgresql.png" alt="postgresql icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">PostgreSQL<br> (database managment)</h4>
+          <p class="paragraph">A general-purpose object-relational database management system.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="6">
+          <div class="portfolio-stack__image portfolio-stack__image--kafka">
+            <img src="/assets/images/portfolio/lvcloud/icons/kafka.png" alt="kafka icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Kafka<br> (backend)</h4>
+          <p class="paragraph">Streaming platform used to broadcast the data.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="7">
+          <div class="portfolio-stack__image">
+            <img src="/assets/images/vue-logo.png" alt="vue.js icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Vue.js<br> (frontend)</h4>
+          <p class="paragraph">Progressive JavaScript framework used to build attractive user interfaces.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="8">
+          <div class="portfolio-stack__image portfolio-stack__image--wider">
+            <img src="/assets/images/portfolio/lvcloud/icons/highcharts.png" alt="highcharts icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Highcharts<br> (frontend)</h4>
+          <p class="paragraph">Interactive JavaScript used to clearly present huge amounts of data coming from devices to the user interface.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="9">
+          <div class="portfolio-stack__image portfolio-stack__image--wider">
+            <img src="/assets/images/portfolio/lvcloud/icons/mqtt.png" alt="mqtt icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">MQTT<br> (backend)</h4>
+          <p class="paragraph">A lightweight messaging protocol used by devices to communicate with the application</p>
+        </li>
+      </ul>
+      <div class="portfolio-carousel__dots" data-carousel="dots">
+        <div class="portfolio-carousel__dots-item portfolio-carousel__dots-item--active" data-carousel="dots-item" data-dots-index="0"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="1"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="2"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="3"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="4"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="5"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="6"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="7"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="8"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="9"></div>
+      </div>
+      <div class="portfolio-carousel__nav">
+        <div class="icon icon-chevron-left portfolio-carousel__nav-item portfolio-carousel__nav-item--disabled" data-carousel="nav-item" data-nav="prev"></div>
+        <div class="icon icon-chevron-right portfolio-carousel__nav-item" data-carousel="nav-item" data-nav="next"></div>
+      </div>
+    </div>
   </div>
 
   <div class="portfolio-stack portfolio-stack--tools">
     <h3 class="portfolio-stack__header">Used tools</h3>
-    <ul class="portfolio__columns">
-      <li>
-        <div class="portfolio-stack__image portfolio-stack__image--wider">
-          <img src="/assets/images/portfolio/lvcloud/icons/docker.png" alt="docker icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Docker/Swarm</h4>
-      </li>
-      <li>
-        <div class="portfolio-stack__image">
-          <img src="/assets/images/portfolio/lvcloud/icons/eclipse.png" alt="eclipse mosquito icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Eclipse Mosquito</h4>
-      </li>
-    </ul>
+    <div class="portfolio-carousel__wrapper" data-carousel="wrapper">
+      <ul class="portfolio__columns portfolio-carousel__tabs portfolio-carousel__tabs--two" data-carousel="tabs">
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="0">
+          <div class="portfolio-stack__image portfolio-stack__image--wider">
+            <img src="/assets/images/portfolio/lvcloud/icons/docker.png" alt="docker icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Docker/Swarm</h4>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="1">
+          <div class="portfolio-stack__image">
+            <img src="/assets/images/portfolio/lvcloud/icons/eclipse.png" alt="eclipse mosquito icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Eclipse Mosquito</h4>
+        </li>
+      </ul>
+      <div class="portfolio-carousel__dots" data-carousel="dots">
+        <div class="portfolio-carousel__dots-item portfolio-carousel__dots-item--active" data-carousel="dots-item" data-dots-index="0"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="1"></div>
+      </div>
+      <div class="portfolio-carousel__nav" data-carousel="nav">
+        <div class="icon icon-chevron-left portfolio-carousel__nav-item portfolio-carousel__nav-item--disabled" data-carousel="nav-item" data-nav="prev"></div>
+        <div class="icon icon-chevron-right portfolio-carousel__nav-item" data-carousel="nav-item" data-nav="next"></div>
+      </div>
+    </div>
   </div>
 
   <div class="portfolio-experts">

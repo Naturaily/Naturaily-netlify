@@ -1,20 +1,24 @@
 .portfolio-companies {
-  &__list {
-    margin: 0 -25px;
-    padding: 50px 25px;
+  &__wrapper {
+    padding: 50px 0 75px;
+  }
 
-    li {
-      padding: 25px;
-    }
+  &__list-item {
+    padding: 0 35px;
 
-    .icon {
-      color: $color-secondary;
-      font-size: 3em;
-    }
+    &__content {
+      padding-right: 40px;
 
-    .paragraph {
-      padding-top: 20px;
-      color: $color-portfolio-text-second;
+      .icon {
+        color: $color-secondary;
+        font-size: 3em;
+      }
+
+      .paragraph {
+        padding-top: 25px;
+        padding-bottom: 0;
+        color: $color-portfolio-text-second;
+      }
     }
   }
 
@@ -38,12 +42,24 @@
 }
 
 @media (min-width: 576px) {
-  .portfolio-companies__quote {
-    padding: 100px 25px;
-    margin-bottom: -150px;
+  .portfolio-companies {
+    &__list-item {
+      padding: 0 100px;
 
-    .icon-quote  {
-      top: 60px;
+      &__content {
+        padding-right: 0;
+        max-width: 300px;
+        margin: 0 auto;
+      }
+    }
+
+    &__quote {
+      padding: 100px 25px;
+      margin-bottom: -150px;
+
+      .icon-quote  {
+        top: 60px;
+      }
     }
   }
 }
@@ -58,7 +74,7 @@
       padding: 50px 0;
       margin: 0 -50px;
 
-      li {
+      &-item {
         box-sizing: border-box;
         width: 50%;
         padding: 25px 50px;
@@ -86,7 +102,7 @@
 }
 
 @media (min-width: 992px) {
-  .portfolio-companies__list li {
+  .portfolio-companies__list-item {
     width: 25%;
   }
 }

@@ -45,29 +45,40 @@
 
   <div class="portfolio-stack">
     <h3 class="portfolio-stack__header">Technological stack</h3>
-    <ul class="portfolio__columns">
-      <li>
-        <div class="portfolio-stack__image portfolio-stack__image--wider">
-          <img src="/assets/images/portfolio/artinfo/rails.png" alt="ruby on rails icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Ruby on Rails<br> (backend)</h4>
-        <p class="paragraph">This mature framework allowed us to develop the core structure of the application.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image">
-          <img src="/assets/images/vue-logo.png" alt="vue.js icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Vue.js<br> (frontend)</h4>
-        <p class="paragraph">We used this progressive javascript framework to develop the CMS, as well as employee, user and helper panels.</p>
-      </li>
-      <li>
-        <div class="portfolio-stack__image">
-          <img src="/assets/images/portfolio/artinfo/elastic.png" alt="elastic search icon"/>
-        </div>
-        <h4 class="portfolio-stack__subheader">Elastic<br> (search engine)</h4>
-        <p class="paragraph">We needed a fast and easy-to-configure search engine that will show real-time search results (artists, artworks or auction houses).</p>
-      </li>
-    </ul>
+    <div class="portfolio-carousel__wrapper" data-carousel="wrapper">
+      <ul class="portfolio__columns portfolio-carousel__tabs portfolio-carousel__tabs--three" data-carousel="tabs">
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="0">
+          <div class="portfolio-stack__image portfolio-stack__image--wider">
+            <img src="/assets/images/portfolio/artinfo/rails.png" alt="ruby on rails icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Ruby on Rails<br> (backend)</h4>
+          <p class="paragraph">This mature framework allowed us to develop the core structure of the application.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="1">
+          <div class="portfolio-stack__image">
+            <img src="/assets/images/vue-logo.png" alt="vue.js icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Vue.js<br> (frontend)</h4>
+          <p class="paragraph">We used this progressive javascript framework to develop the CMS, as well as employee, user and helper panels.</p>
+        </li>
+        <li class="portfolio-carousel__tabs-tab" data-carousel="tab" data-tab-index="2">
+          <div class="portfolio-stack__image">
+            <img src="/assets/images/portfolio/artinfo/elastic.png" alt="elastic search icon"/>
+          </div>
+          <h4 class="portfolio-stack__subheader">Elastic<br> (search engine)</h4>
+          <p class="paragraph">We needed a fast and easy-to-configure search engine that will show real-time search results (artists, artworks or auction houses).</p>
+        </li>
+      </ul>
+      <div class="portfolio-carousel__dots" data-carousel="dots">
+        <div class="portfolio-carousel__dots-item portfolio-carousel__dots-item--active" data-carousel="dots-item" data-dots-index="0"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="1"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="2"></div>
+      </div>
+      <div class="portfolio-carousel__nav" data-carousel="nav">
+        <div class="icon icon-chevron-left portfolio-carousel__nav-item" data-carousel="nav-item" data-nav="prev"></div>
+        <div class="icon icon-chevron-right portfolio-carousel__nav-item" data-carousel="nav-item" data-nav="next"></div>
+      </div>
+    </div>
   </div>
 
   <div class="portfolio-experts">

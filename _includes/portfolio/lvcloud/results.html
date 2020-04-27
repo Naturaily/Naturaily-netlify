@@ -58,34 +58,67 @@
     <h3 class="portfolio-results__header portfolio-results__header--bold">
       One of the companies using LV Cloud solution
     </h3>
-    <ul class="portfolio-companies__list">
-      <li>
-        <span class="icon icon-man"></span>
-        <p class="paragraph">
-          manages the electricity network that powers everyday life for more
-          than 8 million people
-        </p>
-      </li>
-      <li>
-        <span class="icon icon-bulb"></span>
-        <p class="paragraph">
-          supplies energy to 3.9 million homes and businesses
-        </p>
-      </li>
-      <li>
-        <span class="icon icon-query-inner-join-right"></span>
-        <p class="paragraph">
-          has the network of more than 63,000 substations and some 60,000 miles
-          of overhead power lines and underground cables spanning 9,650 square miles
-        </p>
-      </li>
-      <li>
-        <span class="icon icon-case"></span>
-        <p class="paragraph">
-          employs more than 2,700 people
-        </p>
-      </li>
-    </ul>
+    <div class="portfolio-carousel__wrapper portfolio-companies__wrapper" data-carousel="wrapper">
+      <ul
+        class="portfolio-companies__list portfolio-carousel__tabs portfolio-carousel__tabs--four"
+        data-carousel="tabs"
+      >
+        <li
+          class="portfolio-companies__list-item portfolio-carousel__tabs-tab"
+          data-carousel="tab" data-tab-index="0"
+        >
+          <div class="portfolio-companies__list-item__content">
+            <span class="icon icon-man"></span>
+            <p class="paragraph">
+              manages the electricity network that powers everyday life for more
+              than 8 million people
+            </p>
+          </div>
+        </li>
+        <li
+          class="portfolio-companies__list-item portfolio-carousel__tabs-tab"
+          data-carousel="tab" data-tab-index="1"
+        >
+          <div class="portfolio-companies__list-item__content">
+            <span class="icon icon-bulb"></span>
+            <p class="paragraph">
+              supplies energy to 3.9 million homes and businesses
+            </p>
+          </div>
+        </li>
+        <li
+          class="portfolio-companies__list-item portfolio-carousel__tabs-tab"
+          data-carousel="tab" data-tab-index="2"
+        >
+          <div class="portfolio-companies__list-item__content">
+            <span class="icon icon-query-inner-join-right"></span>
+            <p class="paragraph">
+              has the network of more than 63,000 substations and some 60,000 miles
+              of overhead power lines and underground cables spanning 9,650 square miles
+            </p>
+          </div>
+        </li>
+        <li
+          class="portfolio-companies__list-item portfolio-carousel__tabs-tab"
+          data-carousel="tab" data-tab-index="3"
+        >
+          <div class="portfolio-companies__list-item__content">
+            <span class="icon icon-case"></span>
+            <p class="paragraph">employs more than 2,700 people</p>
+          </div>
+        </li>
+      </ul>
+      <div class="portfolio-carousel__dots" data-carousel="dots">
+        <div class="portfolio-carousel__dots-item portfolio-carousel__dots-item--active" data-carousel="dots-item" data-dots-index="0"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="1"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="2"></div>
+        <div class="portfolio-carousel__dots-item" data-carousel="dots-item" data-dots-index="3"></div>
+      </div>
+      <div class="portfolio-carousel__nav" data-carousel="nav">
+        <div class="icon icon-chevron-left portfolio-carousel__nav-item" data-carousel="nav-item" data-nav="prev"></div>
+        <div class="icon icon-chevron-right portfolio-carousel__nav-item" data-carousel="nav-item" data-nav="next"></div>
+      </div>
+    </div>
     <h4 class="portfolio__step">In their own words</h4>
     <q portfolio-right class="portfolio-companies__quote">
       <span class="icon-quote"></span>
