@@ -1,17 +1,24 @@
 .portfolio-goal--artinfo {
+  position: relative;
   width: 100%;
+  padding-bottom: 125px;
 
-  .paragraph {
-    color: $color-portfolio-text;
+  .portfolio__columns--left {
+    .paragraph {
+      color: $color-portfolio-text;
+    }
+
+    .portfolio__credits {
+      position: absolute;
+      bottom: 0;
+    }
   }
 
   .portfolio__columns--right {
     margin: 0 -35px;
-    text-align: center;
 
     img {
       width: 100%;
-      max-width: 450px;
       margin-bottom: -50px;
     }
   }
@@ -24,17 +31,22 @@
 }
 
 @media (min-width: 811px) {
-  .portfolio-goal .portfolio__columns {
-    &--right img {
-      width: 140%;
-      max-width: 600px;
-      margin-top: -75px;
-      margin-bottom: 0;
-    }
+  .portfolio-goal--artinfo {
+    padding-bottom: 50px;
 
-    .portfolio__credits {
-      padding-top: 25px;
-      margin-bottom: -50px;
+    .portfolio__columns {
+      &--right img {
+        width: 140%;
+        max-width: 600px;
+        margin-top: -75px;
+        margin-bottom: 0;
+      }
+
+      .portfolio__credits {
+        position: static;
+        padding-top: 25px;
+        margin-bottom: -50px;
+      }
     }
   }
 }
