@@ -18,9 +18,13 @@
       color: $color-portfolio-text;
     }
 
-    .portfolio__list li {
-      padding: 10px 25px 10px 40px;
-      font-size: 1em;
+    .portfolio__list {
+      margin-left: -30px;
+
+      li {
+        padding: 10px 25px 10px 40px;
+        font-size: 1em;
+      }
     }
 
     &-text {
@@ -55,7 +59,7 @@
   }
 
   &__numbers {
-    margin-bottom: -50px;
+    margin-bottom: -25px;
     list-style: none;
 
     &-list li {
@@ -100,16 +104,30 @@
     &__main {
       padding-bottom: 100px;
 
+      &-title {
+        margin-top: 25px;
+      }
+
       &-image {
-        margin: 0;
+        margin: 25px -35px;
+
+        img {
+          position: relative;
+          left: 25px;
+          width: calc(100% - 25px);
+        }
       }
 
-      .portfolio__list li {
-        max-width: 350px;
-        padding-left: 15px;
+      .portfolio__list {
+        margin-left: 0;
+
+        li {
+          max-width: 350px;
+          padding-left: 15px;
+        }
       }
 
-      &.portfolio__columns--right {
+      .portfolio__columns--right {
         padding: 0;
         flex-direction: column;
         justify-content: space-around;
@@ -117,6 +135,8 @@
     }
 
     &__numbers {
+      margin-bottom: -50px;
+
       &-list {
         display: flex;
         flex-wrap: wrap;

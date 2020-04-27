@@ -3,23 +3,25 @@
   width: 100%;
   padding-bottom: 125px;
 
-  .portfolio__columns--left {
-    .paragraph {
-      color: $color-portfolio-text;
+  .portfolio__columns {
+    &--left {
+      .paragraph {
+        color: $color-portfolio-text;
+      }
+
+      .portfolio__credits {
+        position: absolute;
+        bottom: 0;
+      }
     }
 
-    .portfolio__credits {
-      position: absolute;
-      bottom: 0;
-    }
-  }
+    &--right {
+      margin: 0 -35px;
 
-  .portfolio__columns--right {
-    margin: 0 -35px;
-
-    img {
-      width: 100%;
-      margin-bottom: -50px;
+      img {
+        width: 100%;
+        margin-bottom: -50px;
+      }
     }
   }
 }
@@ -35,24 +37,34 @@
     padding-bottom: 50px;
 
     .portfolio__columns {
-      &--right img {
-        width: 140%;
-        max-width: 600px;
-        margin-top: -75px;
-        margin-bottom: 0;
+      &--left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .paragraph {
+          padding-right: 50px;
+        }
+
+        .portfolio__credits {
+          position: static;
+          padding: 25px 0 0;
+        }
       }
 
-      .portfolio__credits {
-        position: static;
-        padding-top: 25px;
-        margin-bottom: -50px;
+      &--right img {
+        width: 60vw;
+        max-width: 600px;
+        margin-top: -25px;
+        margin-bottom: 0;
       }
     }
   }
 }
 
-@media (min-width: 976px) {
-  .portfolio-goal .portfolio__columns .portfolio__credits {
-    margin-bottom: -100px;
+@media (min-width: 992px) {
+  .portfolio-goal--artinfo .portfolio__columns--right img {
+    width: 50vw;
+    margin-top: -75px;
   }
 }

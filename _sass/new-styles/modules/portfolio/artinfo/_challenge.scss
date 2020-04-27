@@ -6,8 +6,7 @@
   position: relative;
   height: 400px;
   margin: 25px 0 100px;
-  padding-top: 100px;
-  border-top: 1px solid $color-global-font-10;
+  padding-top: 50px;
 
   .paragraph {
     color: $color-portfolio-text;
@@ -74,7 +73,7 @@
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    top: 270px;
+    top: 220px;
     height: 150px;
     transform: none !important;
 
@@ -141,6 +140,8 @@
 @media (min-width: 992px) {
   .portfolio-challenge__figure {
     margin-top: 100px;
+    padding-top: 100px;
+    border-top: 1px solid $color-global-font-10;
 
     &-step--first, &-step--last {
       height: 200px;

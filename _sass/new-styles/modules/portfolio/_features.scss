@@ -3,6 +3,7 @@
     position: relative;
     overflow: visible;
     margin: 0 -35px;
+    padding-bottom: 35px;
 
     img {
       width: 100%;
@@ -15,8 +16,8 @@
 
   .portfolio__columns {
     display: flex;
-    flex-direction: column;
-    padding: 50px 0;
+    flex-direction: column-reverse;
+    padding: 50px 0 0;
   }
 
   .portfolio__list {
@@ -30,7 +31,7 @@
 
 @media (min-width: 576px) {
   .portfolio-features__image  {
-    padding-top: 50px;
+    // padding-top: 50px;
     text-align: center;
     margin: 0;
 
@@ -67,6 +68,7 @@
     .portfolio__columns {
       align-items: center;
       justify-content: space-between;
+      padding: 50px 0;
 
       &--odd  {
         flex-direction: row;

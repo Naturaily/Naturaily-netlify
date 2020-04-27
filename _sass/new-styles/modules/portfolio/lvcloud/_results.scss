@@ -18,8 +18,7 @@
 
   &__numbers--lv {
     margin: 0 -35px;
-    padding: 50px 35px 0;
-    border-top: 1px solid $color-global-font-10;
+    padding: 0 35px;
 
     .portfolio-results__numbers {
       &-value {
@@ -27,7 +26,9 @@
       }
 
       &-text {
-        padding-top: 20px;
+        height: auto;
+        max-width: 100%;
+        padding: 25px 0 0;
       }
     }
 
@@ -67,9 +68,18 @@
     }
 
     &__numbers--lv {
+      padding: 50px 35px 0;
+      border-top: 1px solid $color-global-font-10;
+
       .portfolio__columns--left li {
         padding-left: 25px;
         margin-right: 25px;
+      }
+
+      .portfolio__columns--right {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
       }
     }
   }
