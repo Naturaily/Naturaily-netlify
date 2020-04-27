@@ -55,11 +55,11 @@
   }
 
   &__numbers {
+    margin-bottom: -50px;
     list-style: none;
-    margin: 0 auto -100px;
 
     &-list li {
-      padding: 15px 20px 35px;
+      padding: 25px 35px;
       line-height: 1.5;
     }
 
@@ -74,6 +74,7 @@
     }
 
     .paragraph {
+      padding-bottom: 0;
       font-size: 0.85em;
       color: $color-portfolio-text;
     }
@@ -88,28 +89,8 @@
       }
     }
 
-    &__numbers {
-      &-list {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-        margin: 0 -15px;
-
-        li {
-          box-sizing: border-box;
-          width: 50%;
-          padding: 15px;
-        }
-      }
-
-      &-text, .paragraph {
-        max-width: 180px;
-      }
-
-      &-text {
-        height: 6em;
-        padding-bottom: 0;
-      }
+    &__numbers-list li {
+      padding: 25px 100px;
     }
   }
 }
@@ -135,8 +116,28 @@
       }
     }
 
-    &__numbers-list li  {
-      width: 25%;
+    &__numbers {
+      &-list {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 -15px;
+
+        li {
+          box-sizing: border-box;
+          width: 25%;
+          padding: 15px;
+        }
+      }
+
+      &-text, .paragraph {
+        max-width: 180px;
+      }
+
+      &-text {
+        height: 6em;
+        padding-bottom: 0;
+      }
     }
   }
 }

@@ -6,31 +6,38 @@ window.addEventListener('load', () => {
   function initCarousel() {
     const $targetCarousel = $(event.target).closest($('[data-carousel="wrapper"]'));
     const $carouselTabsContainer = $targetCarousel.find($('[data-carousel="tabs"]'));
-    const $carouselNav = $targetCarousel.find($('[data-carousel="nav"]'));
+    const $carouselDots = $targetCarousel.find($('[data-carousel="dots"]'));
+    const carouselSize = $carouselDots.children().length;
     const targetType = event.target.dataset.carousel;
 
-    (targetType === 'nav' || targetType === 'nav-item') ? dotsControl() : swipeControl();
+    if (targetType === 'dots' || targetType === 'dots-item') dotsControl()
+    else if (targetType === 'nav-item') navControl();
+    else swipeControl();
 
     function dotsControl() {
-      const newIndex = event.target.dataset.navIndex;
+      const newIndex = event.target.dataset.dotsIndex;
+      if (newIndex) changeTabPosition(newIndex);
+    }
 
-      if (newIndex) {
-        const newTabPosition = `-${newIndex * 100}vw`;
-        changeTabPosition(newTabPosition, newIndex);
-      }
+    function navControl() {
+      const currentTabIndex = parseInt($carouselDots.find('.portfolio-carousel__dots-item--active')[0].dataset.dotsIndex);
+      const newIndex = event.target.dataset.nav === 'prev' ? currentTabIndex - 1 : currentTabIndex + 1;
+
+      if (newIndex >= 0 && newIndex < carouselSize) changeTabPosition(newIndex);
     }
 
     function swipeControl() {
-      const targetTabIndex = parseInt($(event.target).closest($('[data-carousel="tab"]'))[0].dataset.tabIndex);
+      const targetTabIndex = parseInt($carouselDots.find('.portfolio-carousel__dots-item--active')[0].dataset.dotsIndex);
       const swipeStartPosition = (event.type === 'touchstart') ? event.touches[0].clientX : event.clientX;
+
       swiping(swipeStartPosition, targetTabIndex);
-      $carouselTabsContainer.one('mouseup touchend', () => {
+      $targetCarousel.one('mouseup touchend', () => {
         swipeEnd(swipeStartPosition, targetTabIndex);
       });
     }
 
     function swiping(startPosition, tabIndex) {
-      $carouselTabsContainer.on('mousemove touchmove', function() {
+      $targetCarousel.on('mousemove touchmove', function() {
         const currentPosition = (event.type === 'touchmove') ? event.touches[0].clientX : event.clientX;
         const positionChange = currentPosition - startPosition;
         const newTabPosition = (positionChange < 0)
@@ -41,24 +48,37 @@ window.addEventListener('load', () => {
     }
 
     function swipeEnd(startPosition, currentTabIndex) {
-      console.log('end')
       const endPosition = (event.type === 'touchend') ? event.changedTouches[0].clientX : event.clientX;
       const positionChange = startPosition - endPosition;
       const swipeToIndex = positionChange > 0 ? currentTabIndex+1 : currentTabIndex-1;
-      const newIndex = (Math.abs(positionChange) > 100 && swipeToIndex >= 0 && swipeToIndex < $carouselNav.children().length)
+      const newIndex = (Math.abs(positionChange) > 100 && swipeToIndex >= 0 && swipeToIndex < $carouselDots.children().length)
         ? swipeToIndex
         : currentTabIndex;
-      const newTabPosition = `-${newIndex * 100}vw`;
-      changeTabPosition(newTabPosition, newIndex);
-      $carouselTabsContainer.off('mousemove touchmove');
+      changeTabPosition(newIndex);
+      $targetCarousel.off('mousemove touchmove');
     }
 
-    function changeTabPosition(newTabPosition, newIndex) {
-      const $activeNavItem = $carouselNav.find('.portfolio-carousel__nav-item--active');
-      const $newActiveNavItem = $carouselNav.find($(`[data-nav-index="${newIndex}"]`));
+    function changeTabPosition(newIndex) {
+      const $activeDotsItem = $carouselDots.find('.portfolio-carousel__dots-item--active');
+      const $newActiveDotsItem = $carouselDots.find($(`[data-dots-index="${newIndex}"]`));
+      const newTabPosition = `-${newIndex * 100}vw`;
+      let $disabledNav = $targetCarousel.find('.portfolio-carousel__nav-item--disabled');
 
-      $activeNavItem.removeClass('portfolio-carousel__nav-item--active');
-      $newActiveNavItem.addClass('portfolio-carousel__nav-item--active');
+      $disabledNav.removeClass('portfolio-carousel__nav-item--disabled');
+
+      console.log(carouselSize)
+
+      if (newIndex == 0) {
+        $disabledNav = $targetCarousel.find($(`[data-nav="prev"]`));
+      } else if (newIndex == (carouselSize - 1) ) {
+        $disabledNav = $targetCarousel.find($(`[data-nav="next"]`));
+      } else {
+        $disabledNav = null;
+      }
+
+      if ($disabledNav != null) $disabledNav.addClass('portfolio-carousel__nav-item--disabled');
+      $activeDotsItem.removeClass('portfolio-carousel__dots-item--active');
+      $newActiveDotsItem.addClass('portfolio-carousel__dots-item--active');
       $carouselTabsContainer.animate({ left: newTabPosition }, 600);
     }
   }
