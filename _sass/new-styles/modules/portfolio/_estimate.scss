@@ -18,13 +18,16 @@
     order: 1;
 
     &-text {
+      max-width: 400px;
+      font-weight: 300;
       font-size: 2em;
       line-height: 1.5;
 
-      &--smaller {
+      &--smaller span {
         display: block;
         margin-top: 25px;
         font-size: 0.7em;
+        font-weight: 200;
       }
     }
 
@@ -32,6 +35,10 @@
       position: absolute;
       bottom: 0;
       margin: 20px 0 50px;
+
+      &.btn-primary.btn-arrow {
+        width: 220px;
+      }
     }
   }
 }
@@ -42,6 +49,7 @@
 
     &__image {
       order: 1;
+      width: 40%;
     }
 
     &__content {
@@ -49,22 +57,30 @@
       flex-direction: column;
       justify-content: space-between;
       order: 2;
+      width: 60%;
 
-      &-text {
+      &-text--smaller {
         font-size: 1.75em;
+
+        span {
+          font-size: 0.75em;
+        }
       }
 
       &-button {
         position: static;
-        width: 190px;
-        margin-bottom: 25px;
+        margin: 25px 0;
+
+        &.btn-primary.btn-arrow {
+          width: 190px;
+        }
       }
     }
   }
 }
 
 @media (min-width: 1200px) {
-  .portfolio-estimate__content-text {
-    font-size: 1.75em;
+  .portfolio-estimate__content-text--smaller {
+    font-size: 2em;
   }
 }
