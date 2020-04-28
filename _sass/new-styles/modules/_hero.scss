@@ -137,6 +137,7 @@
     }
 
     &--career {
+      background-image: url("../assets/images/career_hero_left_small.png"), url("../assets/images/career_hero_right_small.png");
       background-position: -140px 83%, calc(100% - -25px) 60px;
       background-size: 200px 169px, 90px auto;
 
@@ -146,6 +147,7 @@
     }
 
     &--about {
+      background-image: url("../assets/images/about_hero_right_small.png");
       background-position: 100% 100%;
       background-size: 30%;
       padding-bottom: 100px;
