@@ -42,4 +42,4 @@ window.addEventListener('load', () => {
   }, {
     offset: '-100%'
   });
-});
+}, { passive: true });

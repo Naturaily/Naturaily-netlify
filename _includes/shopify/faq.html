@@ -136,7 +136,7 @@
             Yes, you can freely try out Shopify for 14 days using the link below.
             <a
               href="https://www.shopify.com/free-trial?ref=redux&subid1=test&utm_content=get_a_free_consultation_today"
-              target="_blank"
+              target="_blank" rel="noopener"
               class="shopify-faq_link"
             >
               Link
@@ -264,5 +264,5 @@
           .animate({ 'padding-bottom' : 1 }, 300);
       }
     });
-  });
+  }, { passive: true });
 </script>

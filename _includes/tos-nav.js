@@ -61,4 +61,4 @@ window.addEventListener('load', () => {
       $(this).removeClass("active");
     });
   }
-});
+}, { passive: true });

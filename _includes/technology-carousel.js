@@ -6,4 +6,4 @@ window.addEventListener('load', () => {
     autoplay: true,
     autoplaySpeed: 1200,
   });
-});
+}, { passive: true });

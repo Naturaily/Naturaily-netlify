@@ -10,4 +10,4 @@ window.addEventListener('load', () => {
        jQuery(e.currentTarget).removeClass('not-dim');
      });
   });
-});
+}, { passive: true });

@@ -36,4 +36,4 @@ window.addEventListener('load', () => {
 
     resizeForm();
   }
-});
+}, { passive: true });

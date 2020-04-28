@@ -2,10 +2,16 @@
   <div class="section_heading">
     <h2>Send us <span class="text-greyed-out">your CV</span></h2>
   </div>
-  <script type="text/javascript" src="https://form.jotformeu.com/jsform/92513454424353?jobType={{page.title}}" defer></script>
+  <script type="text/javascript" src="https://form.jotformeu.com/jsform/92513454424353?jobType={{page.title}}"></script>
   <script type="text/javascript">
     window.addEventListener('load', () => {
-      $('#scrollToForm').smoothScroll();
-    });
+      $('#scrollToForm').click((e) => {
+      	e.preventDefault();
+
+      	$('body, html').animate({
+      		scrollTop: $($(e.target).attr('href')).offset().top
+      	}, 500);
+      });
+    }, { passive: true });
   </script>
 </section>

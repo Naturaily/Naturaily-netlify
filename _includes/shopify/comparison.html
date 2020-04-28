@@ -101,7 +101,7 @@
         </p>
       </div>
     </div>
-    <a href="/get-an-estimate" target="_blank" class="shopify-comparison-button">
+    <a href="/get-an-estimate" target="_blank" rel="noopener" class="shopify-comparison-button">
       ESTIMATE E-COMMERCE PROJECT
       <img src="/assets/images/arrow-orange.png" alt="arrow">
     </a>
@@ -135,5 +135,5 @@
       }
       $(e.target).addClass("active");
     })
-  });
+  }, { passive: true });
 </script>

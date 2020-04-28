@@ -44,16 +44,16 @@
 
   <div class="footer-footer">
     <div class="footer_social">
-      <a class="footer_social-item" href="https://www.facebook.com/Naturaily/" target="_blank" rel="nofollow">
+      <a class="footer_social-item" href="https://www.facebook.com/Naturaily/" target="_blank" rel="noopener" rel="nofollow">
         <img src="/assets/images/loader.gif" data-src="/assets/images/facebook-logo.png" alt="Facebook">
       </a>
-      <a class="footer_social-item" href="https://twitter.com/naturailycom" target="_blank" rel="nofollow">
+      <a class="footer_social-item" href="https://twitter.com/naturailycom" target="_blank" rel="noopener" rel="nofollow">
         <img src="/assets/images/loader.gif" data-src="/assets/images/twitter-logo.png" alt="Twitter">
       </a>
-      <a class="footer_social-item" href="https://www.linkedin.com/company/naturaily" target="_blank" rel="nofollow">
+      <a class="footer_social-item" href="https://www.linkedin.com/company/naturaily" target="_blank" rel="noopener" rel="nofollow">
         <img src="/assets/images/loader.gif" data-src="/assets/images/linkedin.png" alt="Linkedin">
       </a>
-      <a class="footer_social-item" href="https://github.com/naturaily" target="_blank" rel="nofollow">
+      <a class="footer_social-item" href="https://github.com/naturaily" target="_blank" rel="noopener" rel="nofollow">
         <img class="topbar-github" src="/assets/images/loader.gif" data-src="/assets/images/github.png" alt="Github">
       </a>
     </div>
@@ -89,6 +89,6 @@
           'linkCopied': getSelectionText()
         });
       }
-    });
-  });
+    }, { passive: true });
+  }, { passive: true });
 </script>

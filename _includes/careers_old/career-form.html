@@ -1,7 +1,7 @@
 <div class="l-career-form">
   <h2 class="text-center">Join Naturaily!</h2>
   <div class="pipedriveWebForms pipedrive-form">
-    <script type="text/javascript" src="https://form.jotformeu.com/jsform/90922105622348?jobType={{page.title}}" defer></script>
+    <script type="text/javascript" src="https://form.jotformeu.com/jsform/90922105622348?jobType={{page.title}}"></script>
   </div>
   <img class="form-wave" src="/assets/images/form-wave.jpg" alt="">
 </div>
@@ -9,6 +9,12 @@
 
 <script type="text/javascript">
   window.addEventListener('load', () => {
-    $('#scrollToForm').smoothScroll();
-  });
+    $('#scrollToForm').click((e) => {
+      e.preventDefault();
+
+      $('body, html').animate({
+        scrollTop: $($(e.target).attr('href')).offset().top
+      }, 500);
+    });
+  }, { passive: true });
 </script>

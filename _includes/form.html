@@ -8,5 +8,13 @@
 </div>
 
 <script type="text/javascript">
-  {% include scroll-to.js %}
+  window.addEventListener('load', () => {
+    $('[data-scroll-form]').click((e) => {
+      e.preventDefault();
+
+      $('body, html').animate({
+        scrollTop: $($(e.target).attr('href')).offset().top
+      }, 500);
+    });
+  }, { passive: true });
 </script>

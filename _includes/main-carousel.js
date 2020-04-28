@@ -21,4 +21,4 @@ window.addEventListener('load', () => {
       $('#post1').click();
     }
   });
-});
+}, { passive: true });

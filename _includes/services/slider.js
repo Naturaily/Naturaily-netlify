@@ -132,4 +132,4 @@ window.addEventListener('load', () => {
       moveTo(positions[0]);
     }, 500);
   });
-});
+}, { passive: true });
