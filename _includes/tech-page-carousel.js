@@ -8,4 +8,4 @@ window.addEventListener('load', () => {
     speed: 300,
     arrows: true
   });
-});
+}, { passive: true });

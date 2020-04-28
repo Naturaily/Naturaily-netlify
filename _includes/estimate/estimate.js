@@ -18,4 +18,4 @@ window.addEventListener('load', () => {
     let formSource = "https://form.jotformeu.com/jsform/91251977229364?estimateFields=" + valsString;
     jQuery("#input_9").val(valsString)
   });
-});
+}, { passive: true });

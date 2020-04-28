@@ -9,4 +9,4 @@ window.addEventListener('load', () => {
       $cookieBox.addClass('cookie-hide');
     });
   }
-});
+}, { passive: true });

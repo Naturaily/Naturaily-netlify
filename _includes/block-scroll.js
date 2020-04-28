@@ -48,4 +48,4 @@ window.addEventListener('load', () => {
 
     lastScrollTop = st;
   }
-});
+}, { passive: true });
