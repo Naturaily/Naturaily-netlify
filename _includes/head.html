@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -32,23 +32,15 @@
   {% endif %}
 
   <style>
+    @import url("https://use.typekit.net/cah0hop.css");
+  </style>
+
+  <style>
     {{ styles | scssify }}
   </style>
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
-
-  <script src="/assets/js/jquery-3.2.1.min.js" defer></script>
-  <script src="/assets/js/slick.min.js" defer></script>
-  <script src="/assets/js/sticky-kit.js" defer></script>
-  <script src="/assets/js/jquery.smooth-scroll.js" defer></script>
-  <script src="/assets/js/js-cookie.js" defer></script>
-  <script src="/assets/js/jquery.waypoints.min.js" defer></script>
-  <script src="/assets/js/sticky-waypoints.min.js" defer></script>
-
-  <link rel="stylesheet" href="https://use.typekit.net/cah0hop.css">
-
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 
   {% if '/categories' == page.url or page.url contains 'categories' %}
 
