@@ -26,6 +26,7 @@ group :jekyll_plugins do
    gem 'jekyll-sitemap'
    gem 'jekyll-debug'
    gem "jekyll-include-cache"
+   gem 'jekyll-pwa-plugin'
 
 end
 
