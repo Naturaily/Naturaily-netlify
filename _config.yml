@@ -36,6 +36,9 @@ collections:
     permalink: /join/:path
   portfolio:
     output: true
+    permalink: /portfolio/:path
+  project:
+    output: true
     permalink: /project/:path
   services:
     output: true

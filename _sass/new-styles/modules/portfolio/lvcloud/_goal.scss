@@ -1,0 +1,77 @@
+.portfolio-goal--lvcloud {
+  width: 100%;
+
+  .paragraph {
+    color: $color-portfolio-text;
+  }
+
+  .portfolio-goal {
+    &__description {
+      font-size: 1.2em;
+      font-weight: 200;
+      line-height: 1.5;
+      padding-bottom: 50px;
+    }
+
+    &__equipment {
+      &-image {
+        position: relative;
+        width: 215px;
+        height: 215px;
+        margin: 0 auto;
+        border-radius: 100%;
+        background-color: $color-geometric-blue;
+
+        img {
+          width: 70%;
+        }
+
+        &--alvin {
+          transform: translate(25%, 25%);
+        }
+
+        &--visnet {
+          transform: translate(25%, 35%);
+        }
+      }
+
+      &-description {
+        padding-top: 50px;
+        text-align: left;
+      }
+
+      .portfolio__dot {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-110px);
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-goal--lvcloud .portfolio-goal {
+    &__equipment {
+      &-image {
+        margin: 0;
+      }
+
+      .portfolio__dot {
+        left: initial;
+        transform: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-goal--lvcloud .portfolio-goal__equipment-description {
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-goal--lvcloud .portfolio-goal__equipment-description {
+    padding-right: 100px;
+  }
+}

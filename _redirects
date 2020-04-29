@@ -283,6 +283,11 @@
 /ruby-on-rails-development                                   /services/ruby-on-rails-development
 /vue-js-development                                          /services/vue-js-development
 
+# Portfolio redirects
+
+/project/artinfo                                             /portfolio/artinfo
+/project/lvcloud                                             /portfolio/lvcloud
+
 # General redirects
 
 /tos                                                         /terms-of-service

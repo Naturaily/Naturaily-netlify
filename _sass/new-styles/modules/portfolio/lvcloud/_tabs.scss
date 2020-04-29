@@ -1,0 +1,104 @@
+.portfolio-tabs {
+  display: none;
+}
+
+@media (min-width: 811px) {
+  .portfolio-tabs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &__menu {
+      position: absolute;
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+      background-color: rgba(241,241,255,0.43);
+
+      &-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 100px;
+        max-width: 1080px;
+        margin: 0 auto;
+
+        &__item {
+          display: flex;
+          align-items: center;
+          position: relative;
+          width: auto;
+          margin: 0 25px;
+          padding: 30px 35px;
+          font-size: 0.9em;
+          transition: 0.6s;
+          cursor: pointer;
+
+          span {
+            display: block;
+            position: absolute;
+            top: calc(50% - 5px);
+            left: 0;
+            width: 10px;
+            height: 10px;
+            background-color: $color-accent-yellow;
+            border-radius: 100%;
+            opacity: 0;
+          }
+
+          &[data-active-nav="true"] {
+            color: $color-secondary;
+            box-shadow: inset 0 -3px 0 $color-secondary;
+
+            span {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+
+    &__content {
+      position: relative;
+      top: 150px;
+      left: -100vw;
+      height: calc(76vw + 46px);
+      overflow: visible !important;
+
+      &-tab {
+        position: absolute;
+        left: 200vw;
+        width: 100%;
+        text-align: center;
+
+        img {
+          max-width: 100%;
+        }
+
+        &[data-active-tab="true"] {
+          left: 100vw;
+        }
+
+        &--tab2 img, &--tab3 img {
+          max-width: 700px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-tabs__menu-list__item {
+    width: 33%;
+    font-size: 1em;
+
+    &:hover {
+      box-shadow: inset 0 -3px 0 $color-secondary;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-tabs__content {
+    height: 950px;
+  }
+}

@@ -1,0 +1,116 @@
+.portfolio-experts {
+  margin-bottom: -50px;
+
+  &__number {
+    position: absolute;
+    left: 3px;
+    top: -15px;
+    padding: 10px;
+
+    span {
+      display: block;
+      padding: 3px;
+      height: 1.5em;
+      width: 1.5em;
+      padding: 3px;
+      font-size: 0.9em;
+      line-height: 1.5em;
+      text-align: center;
+      border-radius: 100%;
+      background-color: $color-accent-yellow;
+      color: $color-white;
+    }
+  }
+
+  .icon {
+    color: $color-secondary;
+    font-size: 2.5em;
+  }
+
+  .paragraph {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .portfolio__columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px -35px 0;
+    padding: 0 35px;
+    list-style: none;
+
+    li {
+      box-sizing: border-box;
+      display: flex;
+      position: relative;
+      width: 50%;
+      padding: 50px 10px;
+      font-size: 0.9em;
+      color: $color-portfolio-text;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-experts {
+    position: relative;
+    top: 5px;
+    margin-bottom: 0;
+
+    &__number {
+      top: -5px;
+      left: calc(50% - 5px);
+      transform: translate(-50%, -50%);
+      margin: 5px;
+      padding: 0;
+    }
+
+    .paragraph {
+      margin-top: 15px;
+      line-height: 1.5;
+      font-size: 0.9em;
+    }
+
+    .portfolio__columns {
+      flex-direction: row;
+      max-width: 100%;
+      margin: 50px 0 0;
+      padding: 0;
+      background-color: $color-white;
+      border: 1px solid $color-global-font-10;
+      border-radius: 8px;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        padding: 40px 0 20px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-experts  {
+    &__number {
+      left: 30px;
+    }
+
+    .paragraph {
+      margin: 0;
+      text-align: left;
+    }
+
+    .portfolio__columns {
+      padding-left: 15px;
+
+      li {
+        flex-direction: row;
+        align-items: center;
+        padding: 35px 20px 30px;
+      }
+    }
+  }
+}

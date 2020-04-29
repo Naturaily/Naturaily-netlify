@@ -1,0 +1,160 @@
+.portfolio-challenge__figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 400px;
+  margin: 25px 0 100px;
+  padding-top: 50px;
+
+  .paragraph {
+    color: $color-portfolio-text;
+  }
+
+  &::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    background-color: $color-global-font-10;
+  }
+
+  &-step {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    z-index: 2;
+    border-radius: 100%;
+    border: 1px solid $color-global-font-10;
+    background-color: $color-white;
+
+    &__label, &__image {
+      position: relative;
+    }
+
+    &__label {
+      display: block;
+      left: 50%;
+      font-size: 1.2em;
+      font-weight: 200;
+    }
+
+    &__image {
+      position: relative;
+      width: 120px;
+      left: 15px;
+    }
+
+    &--first .portfolio-challenge__figure-step__label {
+      top: -40px;
+      transform: translateX(-20%);
+    }
+
+    &--last {
+      top: 100px;
+
+      .portfolio-challenge__figure-step__label {
+        top: 180px;
+        transform: translateX(-30%);
+      }
+
+      .portfolio-challenge__figure-step__image {
+        top: -30px;
+      }
+    }
+  }
+
+  &-arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 220px;
+    height: 150px;
+    transform: none !important;
+
+    span {
+      width: 0;
+      height: 0;
+      z-index: 2;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $color-secondary;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-challenge__figure {
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 0;
+
+    &::before  {
+      top: calc(50% + 50px);
+      left: 0;
+      height: 1px;
+      width: 100%;
+    }
+
+    &-step--first {
+      left: -50px;
+
+      .portfolio-challenge__figure-step__label {
+        top: -50px;
+        left: 50px;
+      }
+    }
+
+    &-step--last {
+      top: 0;
+      left: 50px;
+
+      .portfolio-challenge__figure-step__label {
+        top: -40px;
+        left: -10px;
+      }
+    }
+
+    &-arrows {
+      flex-direction: row;
+      justify-content: space-around;
+      top: calc(50% - 25px);
+      left: 50%;
+      transform: translateX(-50%) !important;
+      width: 50%;
+
+      span {
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid $color-secondary;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-challenge__figure {
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: 1px solid $color-global-font-10;
+
+    &-step--first, &-step--last {
+      height: 200px;
+      width: 200px;
+
+      .portfolio-challenge__figure-step__image {
+        width: 150px;
+      }
+    }
+
+    &-step--first .portfolio-challenge__figure-step__image {
+      top: 15px;
+      left: 20px;
+    }
+  }
+}

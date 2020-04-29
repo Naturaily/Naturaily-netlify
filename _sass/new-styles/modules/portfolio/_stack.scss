@@ -1,0 +1,81 @@
+.portfolio-stack {
+  margin: 50px 0;
+  padding: 50px 0;
+  border-top: 1px solid $color-global-font-10;
+  border-bottom: 1px solid $color-global-font-10;
+
+  &--tools {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: none;
+  }
+
+  &__image {
+    height: 50px;
+    margin-bottom: 25px;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+
+    &--wider img, &--mongo img, &--kafka img {
+      height: auto;
+    }
+
+    &--wider img {
+      width: 110px;
+    }
+
+    &--mongo img {
+      width: 120px;
+    }
+
+    &--kafka img {
+      width: 100px;
+    }
+  }
+
+  .paragraph {
+    padding: 30px 0 5px;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    color: $color-portfolio-text;
+  }
+
+  .portfolio__columns {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    list-style: none;
+
+    li {
+      box-sizing: border-box;
+      padding: 25px 35px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-stack {
+    .portfolio__columns li {
+      padding: 25px 100px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-stack {
+    &__image--mongo img {
+      width: 130px;
+    }
+
+    .portfolio__columns li {
+      width: 33%;
+      padding: 25px;
+    }
+
+    .paragraph {
+      padding: 25px 0 0;
+    }
+  }
+}
