@@ -11,27 +11,25 @@ window.addEventListener('load', () => {
 
   $('#tosNav').stick_in_parent({ offset_top: 100 });
 
-  $(document).ready(function () {
-    checkCurrentSection();
-    $(document).on('scroll', checkCurrentSection);
-    $('a[href^="#"]').on('click', function (e) {
-      e.preventDefault();
-      $(document).off('scroll');
+  checkCurrentSection();
+  $(document).on('scroll', checkCurrentSection);
+  $('a[href^="#"]').on('click', function (e) {
+    e.preventDefault();
+    $(document).off('scroll');
 
-      $('a').each(function () {
-        $(this).removeClass('active');
-      })
-      $(this).addClass('active');
+    $('a').each(function () {
+      $(this).removeClass('active');
+    })
+    $(this).addClass('active');
 
-      var target = this.hash,
-          menu = target;
-          $target = $(target);
-      $('html, body').stop().animate({
-        'scrollTop': $target.offset().top + 2
-      }, 500, 'swing', function () {
-        window.location.hash = target;
-        $(document).on('scroll', checkCurrentSection);
-      });
+    var target = this.hash,
+        menu = target;
+        $target = $(target);
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top + 2
+    }, 500, 'swing', function () {
+      window.location.hash = target;
+      $(document).on('scroll', checkCurrentSection);
     });
   });
 

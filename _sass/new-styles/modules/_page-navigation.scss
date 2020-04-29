@@ -17,6 +17,10 @@
     position: relative;
     transition: all .4s ease;
 
+    &:focus {
+      outline: none;
+    }
+
     &:before {
       content: "";
       position: absolute;
