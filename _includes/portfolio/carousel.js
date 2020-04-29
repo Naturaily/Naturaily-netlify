@@ -71,7 +71,7 @@ window.addEventListener('load', () => {
       const $activeDot = $carouselDots.find('[data-dot-active="true"]');
       const currentIndex = parseInt($activeDot[0].dataset.dotIndex);
 
-      if (slideChangeGoing === false && (newIndex !== currentIndex || type === 'swipe') {
+      if (!slideChangeGoing && (newIndex !== currentIndex || type === 'swipe')) {
         slideChangeGoing = true;
         changeTabPosition(newIndex, $activeDot);
       }
