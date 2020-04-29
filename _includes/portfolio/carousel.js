@@ -1,5 +1,6 @@
 window.addEventListener('load', () => {
   const $carouselWrappers = $('[data-carousel="wrapper"]');
+  let slideChangeGoing = false;
 
   $carouselWrappers.on('mousedown touchstart', initCarousel);
 
@@ -10,24 +11,32 @@ window.addEventListener('load', () => {
     const carouselSize = $carouselDots.children().length;
     const targetType = event.target.dataset.carousel;
 
-    if (targetType === 'dots' || targetType === 'dots-item') dotsControl()
-    else if (targetType === 'nav-item') navControl();
-    else swipeControl();
+    if (targetType === 'dots-item') {
+      dotsControl()
+    } else if (targetType === 'nav-item') {
+      navControl();
+    } else {
+      swipeControl();
+    }
 
     function dotsControl() {
-      const newIndex = event.target.dataset.dotsIndex;
-      if (newIndex) changeTabPosition(newIndex);
+      const newIndex = event.target.dataset.dotIndex;
+      if (newIndex) {
+        checkChangeRequest(parseInt(newIndex));
+      }
     }
 
     function navControl() {
-      const currentTabIndex = parseInt($carouselDots.find('.portfolio-carousel__dots-item--active')[0].dataset.dotsIndex);
+      const currentTabIndex = parseInt($carouselDots.find('[data-dot-active="true"]')[0].dataset.dotIndex);
       const newIndex = event.target.dataset.nav === 'prev' ? currentTabIndex - 1 : currentTabIndex + 1;
 
-      if (newIndex >= 0 && newIndex < carouselSize) changeTabPosition(newIndex);
+      if (newIndex >= 0 && newIndex < carouselSize) {
+        checkChangeRequest(newIndex);
+      }
     }
 
     function swipeControl() {
-      const targetTabIndex = parseInt($carouselDots.find('.portfolio-carousel__dots-item--active')[0].dataset.dotsIndex);
+      const targetTabIndex = parseInt($carouselDots.find('[data-dot-active="true"]')[0].dataset.dotIndex);
       const swipeStartPosition = (event.type === 'touchstart') ? event.touches[0].clientX : event.clientX;
 
       swiping(swipeStartPosition, targetTabIndex);
@@ -51,35 +60,57 @@ window.addEventListener('load', () => {
       const endPosition = (event.type === 'touchend') ? event.changedTouches[0].clientX : event.clientX;
       const positionChange = startPosition - endPosition;
       const swipeToIndex = positionChange > 0 ? currentTabIndex+1 : currentTabIndex-1;
-      const newIndex = (Math.abs(positionChange) > 100 && swipeToIndex >= 0 && swipeToIndex < $carouselDots.children().length)
+      const newIndex = (Math.abs(positionChange) > 30 && swipeToIndex >= 0 && swipeToIndex < $carouselDots.children().length)
         ? swipeToIndex
         : currentTabIndex;
-      changeTabPosition(newIndex);
+      checkChangeRequest(newIndex, 'swipe');
       $targetCarousel.off('mousemove touchmove');
     }
 
-    function changeTabPosition(newIndex) {
-      const $activeDotsItem = $carouselDots.find('.portfolio-carousel__dots-item--active');
-      const $newActiveDotsItem = $carouselDots.find($(`[data-dots-index="${newIndex}"]`));
+    function checkChangeRequest(newIndex, type = 'default') {
+      const $activeDot = $carouselDots.find('[data-dot-active="true"]');
+      const currentIndex = parseInt($activeDot[0].dataset.dotIndex);
+
+      if (slideChangeGoing === false && (newIndex !== currentIndex || type === 'swipe') {
+        slideChangeGoing = true;
+        changeTabPosition(newIndex, $activeDot);
+      }
+    }
+
+    function changeTabPosition(newIndex, $activeDot) {
+      const $newActiveDot = $carouselDots.find($(`[data-dot-index="${newIndex}"]`));
       const newTabPosition = `-${newIndex * 100}vw`;
-      let $disabledNav = $targetCarousel.find('.portfolio-carousel__nav-item--disabled');
+      let $disabledNav = $targetCarousel.find('[data-nav-disabled="true"]');
 
-      $disabledNav.removeClass('portfolio-carousel__nav-item--disabled');
+      $disabledNav
+        .removeClass('portfolio-carousel__nav-item--disabled')
+        .attr('data-nav-disabled', 'false');
 
-      console.log(carouselSize)
-
-      if (newIndex == 0) {
+      if (newIndex === 0) {
         $disabledNav = $targetCarousel.find($(`[data-nav="prev"]`));
-      } else if (newIndex == (carouselSize - 1) ) {
+      } else if (newIndex === (carouselSize - 1) ) {
         $disabledNav = $targetCarousel.find($(`[data-nav="next"]`));
       } else {
         $disabledNav = null;
       }
 
-      if ($disabledNav != null) $disabledNav.addClass('portfolio-carousel__nav-item--disabled');
-      $activeDotsItem.removeClass('portfolio-carousel__dots-item--active');
-      $newActiveDotsItem.addClass('portfolio-carousel__dots-item--active');
-      $carouselTabsContainer.animate({ left: newTabPosition }, 600);
+      if ($disabledNav != null) {
+        $disabledNav
+          .addClass('portfolio-carousel__nav-item--disabled')
+          .attr('data-nav-disabled', 'true')
+      }
+
+      $activeDot
+        .removeClass('portfolio-carousel__dots-item--active')
+        .attr('data-dot-active', 'false');
+
+      $newActiveDot
+        .addClass('portfolio-carousel__dots-item--active')
+        .attr('data-dot-active', 'true');
+
+      $carouselTabsContainer.animate({ left: newTabPosition }, 600, () => {
+        slideChangeGoing = false;
+      });
     }
   }
-})
+}, { passive: true })

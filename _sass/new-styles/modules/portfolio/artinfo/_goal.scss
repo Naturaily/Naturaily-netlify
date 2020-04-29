@@ -29,6 +29,10 @@
 @media (min-width: 576px) {
   .portfolio-goal--artinfo .portfolio__columns--right {
     margin: 0;
+
+    img {
+      border-radius: 8px;
+    }
   }
 }
 

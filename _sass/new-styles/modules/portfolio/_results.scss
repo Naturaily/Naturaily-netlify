@@ -91,6 +91,10 @@
       &-text--medium.paragraph {
         font-size: 1.5em;
       }
+
+      &-image img {
+        border-radius: 8px;
+      }
     }
 
     &__numbers-list li {

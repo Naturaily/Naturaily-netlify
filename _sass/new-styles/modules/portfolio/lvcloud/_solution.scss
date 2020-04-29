@@ -75,25 +75,6 @@
 
     .portfolio__dot {
       display: none;
-      position: absolute;
-      width: 20px;
-      height: 20px;
-      border-radius: 100%;
-
-      &--secondary {
-        top: -50px;
-        right: 0;
-      }
-
-      &--yellow {
-        top: -100px;
-        left: -150px;
-      }
-
-      &--blue {
-        bottom: -50px;
-        left: -50px;
-      }
     }
   }
 
@@ -140,6 +121,28 @@
       width: 50%;
       box-sizing: border-box;
       margin: 25px;
+    }
+
+    &__description .portfolio__dot {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+
+      &--secondary {
+        top: -50px;
+        right: 0;
+      }
+
+      &--yellow {
+        top: -100px;
+        left: -150px;
+      }
+
+      &--blue {
+        bottom: -50px;
+        left: -25px;
+      }
     }
 
     &__image {
