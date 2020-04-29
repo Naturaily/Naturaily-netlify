@@ -23,7 +23,7 @@
   </div>
 
   <div class="portfolio-solutions">
-    <div portfolio-right class="portfolio__columns portfolio__columns--odd">
+    <div class="portfolio__columns portfolio__columns--odd">
       <div class="portfolio-solutions__description">
         <h3 class="portfolio-solutions__header">How did the IoT application development process go?</h3>
         <p class="paragraph">
@@ -50,8 +50,8 @@
         </figure>
       </div>
     </div>
-    <div portfolio-left class="portfolio__columns portfolio__columns--even">
-      <div class="portfolio-solutions__description">
+    <div class="portfolio__columns portfolio__columns--even">
+      <div portfolio-left class="portfolio-solutions__description">
         <h3 class="portfolio-solutions__header">
           Each device collects different types of data, including low voltage,
           high voltage, power, current, temperature of the device, temperature
@@ -81,8 +81,8 @@
         </figure>
       </div>
     </div>
-    <div portfolio-right class="portfolio__columns portfolio__columns--odd">
-      <div class="portfolio-solutions__description">
+    <div class="portfolio__columns portfolio__columns--odd">
+      <div portfolio-right class="portfolio-solutions__description">
         <p class="paragraph">
           These huge amounts of data could be useless if they were unreadable
           and difficult to interpret. That’s why we have chosen
@@ -111,28 +111,28 @@
     </div>
   </div>
 
-  <div class="portfolio-tabs invisible-sm">
+  <div id="lv-solution-tabs" class="portfolio-tabs invisible-sm">
     <div class="portfolio-tabs__menu">
-      <ul id="tabs-nav" class="portfolio-tabs__menu-list">
-        <li class="tabs-item portfolio-tabs__menu-list__item" data-type="tabs-nav" data-index="1" data-tab="tab-1" data-active-nav="true">
+      <ul class="portfolio-tabs__menu-list" data-type="nav-container">
+        <li class="tabs-item portfolio-tabs__menu-list__item" data-type="tabs-nav" data-nav-index="1" data-active-nav="true">
           Architecture <span></span>
         </li>
-        <li class="tabs-item portfolio-tabs__menu-list__item" data-type="tabs-nav" data-index="2" data-tab="tab-2">
+        <li class="tabs-item portfolio-tabs__menu-list__item" data-type="tabs-nav" data-nav-index="2" data-active-nav="false">
           Data collectors/parsers <span></span>
         </li>
-        <li class="tabs-item portfolio-tabs__menu-list__item" data-type="tabs-nav" data-index="3" data-tab="tab-3">
+        <li class="tabs-item portfolio-tabs__menu-list__item" data-type="tabs-nav" data-nav-index="3" data-active-nav="false">
           Sample Commands Senders <span></span>
         </li>
       </ul>
     </div>
-    <div id="tabs-container" class="portfolio-tabs__content">
-      <div id="tab-1" class="tabs-tab portfolio-tabs__content-tab portfolio-tabs__content-tab--tab1" data-active-tab="true">
+    <div class="portfolio-tabs__content" data-type="tabs-container">
+      <div class="tabs-tab portfolio-tabs__content-tab portfolio-tabs__content-tab--tab1" data-tab-index="1" data-active-tab="true">
         <img src="/assets/images/portfolio/lvcloud/tab1.png" alt="lvcloud architecture"/>
       </div>
-      <div id="tab-2" class="tabs-tab portfolio-tabs__content-tab portfolio-tabs__content-tab--tab2">
+      <div class="tabs-tab portfolio-tabs__content-tab portfolio-tabs__content-tab--tab2" data-tab-index="2" data-active-tab="false">
         <img src="/assets/images/portfolio/lvcloud/tab2.png" alt="lvcloud data collectors"/>
       </div>
-      <div id="tab-3" class="tabs-tab portfolio-tabs__content-tab portfolio-tabs__content-tab--tab3">
+      <div class="tabs-tab portfolio-tabs__content-tab portfolio-tabs__content-tab--tab3" data-tab-index="3" data-active-tab="false">
         <img src="/assets/images/portfolio/lvcloud/tab3.png" alt="lvcloud commands senders"/>
       </div>
     </div>
@@ -142,8 +142,8 @@
     <h3 class="portfolio-features__header portfolio-features__header--invisible-lg">
       Some of the LV Cloud features
     </h3>
-    <div portfolio-right class="portfolio__columns portfolio__columns--odd">
-      <div class="portfolio-features__description">
+    <div class="portfolio__columns portfolio__columns--odd">
+      <div portfolio-right class="portfolio-features__description">
         <h3 class="portfolio-features__header portfolio-features__header--invisible-sm">
           Some of the LV Cloud features
         </h3>
@@ -165,8 +165,8 @@
         />
       </div>
     </div>
-    <div portfolio-left class="portfolio__columns portfolio__columns--even">
-      <div class="portfolio-features__description">
+    <div class="portfolio__columns portfolio__columns--even">
+      <div portfolio-left class="portfolio-features__description">
         <h3 class="portfolio-features__header">Features from the user's perspective</h3>
         <ul class="portfolio__list portfolio__list--lvcloud">
           <li>a list of all the equipment commissioned within the system</li>

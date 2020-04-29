@@ -1,18 +1,22 @@
 window.addEventListener('load', () => {
   const animationTime = 600;
-  const $tabsContainer = $('#tabs-container');
-  const $tabsNavItems = $('[data-type="tabs-nav"]');
-  let $activeTab = $('[data-active-tab="true"]');
-  let $activeNav = $('[data-active-nav="true"]');
+  const $tabsWrapper = $('#lv-solution-tabs');
+  const $tabsContainer = $tabsWrapper.find($('[data-type="tabs-container"]'));
+  const $tabsNavItems = $tabsWrapper.find($('[data-type="tabs-nav"]'));
+
+  let $activeTab = $tabsWrapper.find($('[data-active-tab="true"]'));
+  let $activeNav = $tabsWrapper.find($('[data-active-nav="true"]'));
+  let activeIndex = $activeNav[0].dataset.navIndex;
+  let isAnimationGoing = false;
 
   $tabsNavItems.click((event) => {
-    if (!$(event.target).data('active-nav')) {
+    if (!$(event.target).data('active-nav') && !isAnimationGoing) {
+      isAnimationGoing = true;
       const $newNav = $(event.target);
-      const $newTab = $(`#${$newNav.data('tab')}`);
-      const isLeftAnimation = $newNav.data('index') > $activeNav.data('index');
+      const newIndex = $newNav[0].dataset.navIndex;
+      const $newTab = $tabsWrapper.find($(`[data-tab-index="${newIndex}"]`));
+      const isLeftAnimation = newIndex > activeIndex;
 
-      console.log($newNav.data('tab'))
-      console.log($newTab.height())
       setContainerHeight($newTab.height());
 
       $activeNav
@@ -38,15 +42,17 @@ window.addEventListener('load', () => {
             .css('left', '200vw')
             .attr('data-active-tab', 'false');
 
-          $activeTab = $('[data-active-tab="true"]');
-          $activeNav = $('[data-active-nav="true"]');
+          $activeTab = $tabsWrapper.find('[data-active-tab="true"]');
+          $activeNav = $tabsWrapper.find('[data-active-nav="true"]');
+          activeIndex = $activeNav[0].dataset.navIndex;
+
+          isAnimationGoing = false;
         });
     }
   })
 
   function setContainerHeight(tabHeight) {
     const newHeight = window.innerWidth < 811 ? (tabHeight + 430) : (tabHeight + 280);
-
     $tabsContainer.animate({ height: `${newHeight}px` }, animationTime);
   }
 }, { passive: true })
