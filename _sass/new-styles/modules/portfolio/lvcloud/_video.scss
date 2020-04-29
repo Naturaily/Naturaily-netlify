@@ -11,6 +11,10 @@
     border-radius: 8px;
   }
 
+  &__player {
+    height: 100%;
+  }
+
   &__cover, &__cover-shadow, iframe {
     width: 100%;
     height: 100%;
@@ -18,6 +22,7 @@
 
   &__cover {
     position: absolute;
+    background-image: url('/assets/images/portfolio/lvcloud/video-mobile.png');
     background-position: center;
     background-size: cover;
     z-index: 2;
@@ -44,11 +49,6 @@
         border: 2px solid $color-secondary;
         color: $color-white;
         transition: 0.25s;
-
-        &:hover {
-          transform: scale(1.2);
-          cursor: pointer;
-        }
       }
 
       &__arrow {
@@ -73,9 +73,15 @@
 }
 
 @media (min-width: 576px) {
-  .portfolio-video__wrapper {
-    width: 100%;
-    margin: 0;
+  .portfolio-video {
+    &__wrapper {
+      width: 100%;
+      margin: 0;
+    }
+
+    &__cover {
+      background-image: url('/assets/images/portfolio/lvcloud/video.png');
+    }
   }
 }
 
@@ -91,6 +97,11 @@
       .portfolio__title {
         padding: 25px 0;
         font-size: 2em;
+      }
+
+      &__button:hover {
+        transform: scale(1.2);
+        cursor: pointer;
       }
     }
   }

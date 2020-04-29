@@ -123,7 +123,7 @@
     &-arrows {
       flex-direction: row;
       justify-content: space-around;
-      top: auto;
+      top: calc(50% - 25px);
       left: 50%;
       transform: translateX(-50%) !important;
       width: 50%;

@@ -12,18 +12,20 @@
         <div class="geometric-figure_center"></div>
         <div class="geometric-figure_right"></div>
       </figure>
-      <img
-        class="portfolio-hero__image-mobile"
-        src="/assets/images/portfolio/artinfo/top-mobile.png"
-        data-src="/assets/images/portfolio/artinfo/top-mobile.png"
-        alt="artinfo"
-      />
-      <img
-        class="portfolio-hero__image-desktop"
-        src="/assets/images/portfolio/artinfo/top.png"
-        data-src="/assets/images/portfolio/artinfo/top.png"
-        alt="artinfo"
-      />
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          class="portfolio-hero__image-img"
+          srcset="/assets/images/portfolio/artinfo/top.png"
+          alt="ArtInfo desktop and mobile screens"
+        >
+        <img
+          class="portfolio-hero__image-img"
+          src="/assets/images/loader.gif"
+          data-src="/assets/images/portfolio/artinfo/top-mobile.png"
+          alt="ArtInfo mobile screen"
+        >
+      </picture>
     </div>
   </div>
 </div>

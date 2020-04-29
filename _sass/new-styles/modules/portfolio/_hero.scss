@@ -54,17 +54,10 @@
       }
     }
 
-    &-desktop, &-mobile {
+    &-img {
       position: absolute;
       max-width: 100%;
       z-index: -1;
-    }
-
-    &-desktop {
-      display: none;
-    }
-
-    &-mobile {
       bottom: -140px;
       right: 50%;
       transform: translateX(50%);
@@ -89,7 +82,7 @@
         left: 50%;
       }
 
-      &-mobile {
+      &-img {
         bottom: 0;
         right: auto;
         left: 60%;
@@ -130,7 +123,7 @@
         }
       }
 
-      &-mobile {
+      &-img {
         left: auto;
         right: 50px;
         transform: rotate(10deg);
@@ -160,15 +153,11 @@
         }
       }
 
-      &-desktop {
+      &-img {
         display: block;
         bottom: 50px;
         right: 10px;
         max-height: 370px;
-      }
-
-      &-mobile {
-        display: none;
       }
     }
   }
@@ -209,8 +198,8 @@
         }
       }
 
-      img {
-        bottom: -30px;
+      &-img {
+        bottom: -50px;
         right: auto;
         left: -50px;
         max-width: 200%;

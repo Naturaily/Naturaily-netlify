@@ -1,4 +1,4 @@
-$(document).ready(() => {
+window.addEventListener('load', () => {
   const animationTime = 600;
   const $tabsContainer = $('#tabs-container');
   const $tabsNavItems = $('[data-type="tabs-nav"]');
@@ -11,6 +11,8 @@ $(document).ready(() => {
       const $newTab = $(`#${$newNav.data('tab')}`);
       const isLeftAnimation = $newNav.data('index') > $activeNav.data('index');
 
+      console.log($newNav.data('tab'))
+      console.log($newTab.height())
       setContainerHeight($newTab.height());
 
       $activeNav
@@ -47,4 +49,4 @@ $(document).ready(() => {
 
     $tabsContainer.animate({ height: `${newHeight}px` }, animationTime);
   }
-})
+}, { passive: true })

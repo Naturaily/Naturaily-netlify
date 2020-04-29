@@ -11,10 +11,10 @@
     }
 
     &__tabs {
-      display: flex !important;
+      display: flex;
       flex-direction: row;
-      margin-left: -35px !important;
       position: relative;
+      margin-left: -35px;
 
       &-tab {
         flex-grow: 1;
@@ -22,23 +22,23 @@
       }
 
       &--two {
-        width: 200vw !important;
+        width: 200vw;
       }
 
       &--three {
-        width: 300vw !important;
+        width: 300vw;
       }
 
       &--four {
-        width: 400vw !important;
+        width: 400vw;
       }
 
       &--eight {
-        width: 800vw !important;
+        width: 800vw;
       }
 
       &--ten {
-        width: 1000vw !important;
+        width: 1000vw;
       }
     }
 
@@ -54,11 +54,11 @@
         width: 10px;
         margin: 5px;
         border-radius: 100%;
-        border: 1px solid $color-secondary;
-
+        background-color: $color-secondary;
+        opacity: 0.2;
 
         &--active {
-          background-color: $color-secondary;
+          opacity: 1;
         }
       }
     }
@@ -72,7 +72,7 @@
 @media only screen and (min-width: 576px) and (max-width: 811px) {
   .portfolio-carousel {
     &__tabs {
-      margin-left: -100px !important;
+      margin-left: -100px;
     }
 
     &__nav {
