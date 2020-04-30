@@ -29,13 +29,13 @@ An IoT project is the act of connecting any physical object to the Internet to c
 
 ## Do you need an IoT project?
 
-Occasionally known as the **Industrial IoT**, the benefits of the IoT for business depend on the particular implementation, but the key is that enterprises should have access to more data about their own products and their own internal systems, and a greater ability to make changes as a result. IoT thrives in improving logistics of transport and production. It helps with tracking inventory, supply, demand and even consumer experience. It’s also extremely useful in developing Smart Cities where it enables monitoring of everything starting with public transport to waste management. It shows immense potential in the field of healthcare - like drug monitoring devices that could ensure patients are taking the correct doses of medication as well as measuring patient’s vitals remotely. Another domain where IoT is gaining popularity in agriculture and meteorology where it enables tracking and gathering information in remote places. 
+Occasionally known as the **Industrial IoT**, the benefits of the IoT for business depend on the particular implementation, but the key is that enterprises should have access to more data about their own products and their own internal systems, and a greater ability to make changes as a result. IoT thrives in improving logistics of transport and production. It helps with tracking inventory, supply, demand and even consumer experience. It’s also extremely useful in developing Smart Cities where it enables monitoring of everything starting with public transport to waste management. It shows immense potential in the field of healthcare - like drug monitoring devices that could ensure patients are taking the correct doses of medication as well as measuring patient’s vitals remotely. Another domain where IoT is gaining popularity in agriculture and meteorology where it enables tracking and gathering information in remote places.
 
 ![smart_city_iot](/assets/images/smart-city.jpg)
 
 ## The challenges of developing an IoT Project
 
-Most of the challenges of developing an IoT project stem from lack of knowledge and preparation. Some companies decide to develop it on their own to reduce cost and end up failing, in turn increasing the overall cost of development. Management often underestimate the complexity of the project and don’t take into account the necessary research, testing and time it takes to succeed. Like any project, an IoT one takes time and money to develop. So be prepared to invest both if you want to get it right. 
+Most of the challenges of developing an IoT project stem from lack of knowledge and preparation. Some companies decide to develop it on their own to reduce cost and end up failing, in turn increasing the overall cost of development. Management often underestimate the complexity of the project and don’t take into account the necessary research, testing and time it takes to succeed. Like any project, an IoT one takes time and money to develop. So be prepared to invest both if you want to get it right.
 
 ![iot_project](/assets/images/2.png)
 
@@ -53,13 +53,13 @@ Most common use cases for IoT are:
 * environmental monitoring
 * data gathering
 
-When you establish the use case and audience of your project, you should start researching the software and hardware necessary. 
+When you establish the use case and audience of your project, you should start researching the software and hardware necessary.
 
 **Step 2** Research software and hardware.
 
 Take into account the location of the devices, how often you’ll be able to perform maintenance, its geographic coverage, connectivity, etc. Afterwards make sure you know what features you want it to have and how it should perform.
 
-When you know the answers to the above questions it’s time to pick out a team. 
+When you know the answers to the above questions it’s time to pick out a team.
 
 **Step 3** Assemble a team.
 
@@ -75,9 +75,9 @@ For your IoT project you will need:
 
 **Step 4** Build a prototype.
 
-Only after you've assembled a team or engineers, designer and testers you can start building a **prototype**. Developing it allows to discover the minimum parameters for your IoT project before the full deploy. 
+Only after you've assembled a team or engineers, designer and testers you can start building a **prototype**. Developing it allows to discover the minimum parameters for your IoT project before the full deploy.
 
-**Step 5** Quality Assurance. 
+**Step 5** Quality Assurance.
 
 A prototype should be thoroughly tested (both its software and hardware). Then it will probably...fail! But don’t worry, it’s just how the process works. You build something, test it, it fails and then you can improve it. It’s a crucial step to any project.
 
@@ -95,7 +95,7 @@ The success of your IoT project depends on its use case, market demand, research
 
 <br>
 
-|If you want to know more about developing IoT solutions, read the [case study of LVCloud](https://naturaily.com/project/lvcloud){:target="_blank"} - an Internet of Things (IoT) application that monitors and takes care of the grid.|
+|If you want to know more about developing IoT solutions, read the [case study of LVCloud](https://naturaily.com/portfolio/lvcloud){:target="_blank"} - an Internet of Things (IoT) application that monitors and takes care of the grid.|
 
 <br>
 

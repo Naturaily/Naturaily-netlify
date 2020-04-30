@@ -69,7 +69,7 @@ projects:
         LVCloud was designed to detect sudden changes such as increased humidity
         or worn out cables so that engineers could be informed about a possible
         malfunction as soon as possible.
-      link: /project/lvcloud
+      link: /portfolio/lvcloud
   - project:
       bg: /assets/images/snipsl.png
       bg-image: /assets/images/projects-background-green.jpg

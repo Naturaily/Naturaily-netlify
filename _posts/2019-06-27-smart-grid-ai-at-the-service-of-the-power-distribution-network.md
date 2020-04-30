@@ -40,13 +40,13 @@ In the smart grid, system-wide information about blackouts and energy usage is s
 
 Smart grids – although not quite here yet – are slowly inching closer to becoming a reality. The development of the smart grid is a natural consequence of the proliferation of IoT technologies: sensors, controllers, automation systems, actuators, etc.
 
-At Naturaily, we are already a part of the [smart grid revolution](https://naturaily.com/project/lvcloud){:target="_blank"}, pushing the concept closer towards a global adoption. Some of our clients have realized the potential of the smart grid, and are investing in smart grid management solutions. An example of such a company is [EA Technogy](https://www.eatechnology.com/){:rel="nofollow"}{:target="_blank"}, a UK-based provider of management solutions for owners and operators of electrical assets. LVCloud, a project which we proudly developed for them, is a prime showcase of the smart grid use.
+At Naturaily, we are already a part of the [smart grid revolution](https://naturaily.com/portfolio/lvcloud){:target="_blank"}, pushing the concept closer towards a global adoption. Some of our clients have realized the potential of the smart grid, and are investing in smart grid management solutions. An example of such a company is [EA Technogy](https://www.eatechnology.com/){:rel="nofollow"}{:target="_blank"}, a UK-based provider of management solutions for owners and operators of electrical assets. LVCloud, a project which we proudly developed for them, is a prime showcase of the smart grid use.
 
-|[LVCloud is an Internet of Things (IoT) application](https://naturaily.com/project/lvcloud){:target="_blank"} that monitors and takes care of the grid. The project combines various technologies such as machine learning and transforms them into a sophisticated app that can detect and solve power network malfunctions before they escalate into major problems.|
+|[LVCloud is an Internet of Things (IoT) application](https://naturaily.com/portfolio/lvcloud){:target="_blank"} that monitors and takes care of the grid. The project combines various technologies such as machine learning and transforms them into a sophisticated app that can detect and solve power network malfunctions before they escalate into major problems.|
 
 The software collects information from the so-called [reclosers ](https://en.wikipedia.org/wiki/Recloser){:rel="nofollow"}{:target="_blank"} and analyzes it to find traces of malfunction or damage. Any type of non-obvious problems such as excessive humidity caused by various incidents or bad condition of wires.
 
-[LVCloud](https://naturaily.com/project/lvcloud){:target="_blank"} also aggregates and interprets data from other devices: TDRs (Time-domain reflectometers) and ATLMs (ALVIN Transformer Load Monitors), and enables managing them. Engineers can access a web based dashboard and get email or text notifications in case of emergency.
+[LVCloud](https://naturaily.com/portfolio/lvcloud){:target="_blank"} also aggregates and interprets data from other devices: TDRs (Time-domain reflectometers) and ATLMs (ALVIN Transformer Load Monitors), and enables managing them. Engineers can access a web based dashboard and get email or text notifications in case of emergency.
 
 ![LVCloud ](/assets/images/lvcloud_800x450.png)
 

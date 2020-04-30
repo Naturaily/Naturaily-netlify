@@ -63,7 +63,7 @@ projects:
         LVCloud was designed to detect sudden changes such as increased humidity
         or worn out cables so that engineers could be informed about a possible
         malfunction as soon as possible.
-      link: /project/lvcloud
+      link: /portfolio/lvcloud
 blog-head: Vue is cool! Check out our blog
 blog-desc: Our Vue developers share their knowledge and experience on our blog.
 competences:

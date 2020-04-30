@@ -76,5 +76,5 @@ slide-left-logo: /assets/images/collectivity.png
 slide-left-link: /project/thecollectivity
 slide-right: LVCloud
 slide-right-logo: /assets/images/LVCloud.png
-slide-right-link: /project/lvcloud
+slide-right-link: /portfolio/lvcloud
 ---
