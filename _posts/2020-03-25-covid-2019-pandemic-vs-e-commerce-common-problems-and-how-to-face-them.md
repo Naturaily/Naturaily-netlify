@@ -161,7 +161,7 @@ Of all the e-commerce platforms, Shopify is the leader when it comes to web perf
 
 > Thanks to our cloud-based infrastructure, Shopify Plus has a 99.98% overall uptime. Our storefront also loads [2.97X faster than other SaaS platforms](https://www.shopify.com/plus/compare/bigcommerce#Scalability){:rel="nofollow"}{:target="_blank"}.
 
-|**[Contact us if you want to make your online store more efficient and profitable.](https://naturaily.com/get-an-estimate){:target="_blank"}**|
+\|**[Contact us if you want to make your online store more efficient and profitable.](https://naturaily.com/get-an-estimate){:target="_blank"}**|
 
 ### 5. Monitor the situation on a daily basis
 
