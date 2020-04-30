@@ -100,9 +100,6 @@ defaults:
     values:
       layout: 'services'
 
-include:
-  - _redirects
-
 permalink: /blog/:title
 
 pwa:
@@ -157,6 +154,7 @@ exclude:
 include:
   - .htaccess
   - node_modules/uglifier/index.js
+  - _redirects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
