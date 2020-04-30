@@ -83,7 +83,7 @@ step-four-image-two: /assets/images/nordic-shipping-app.png
 step-four-image-three: /assets/images/diagram_1.png
 slide-left: LVCloud
 slide-left-logo: /assets/images/lvcloud-screen-3.png
-slide-left-link: /project/lvcloud
+slide-left-link: /portfolio/lvcloud
 slide-right: Zapnito
 slide-right-logo: /assets/images/zapnito.png
 slide-right-link: /project/zapnito

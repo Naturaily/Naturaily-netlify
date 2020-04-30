@@ -21,7 +21,7 @@ text-preview: >-
 tags:
   - Events
 ---
-As a part of our [ongoing tour](https://naturaily.com/on-tour){:target="_blank"}, we’re pleased to announce that we will be attending the Japan IT Week this Spring! 
+As a part of our [ongoing tour](https://naturaily.com/on-tour){:target="_blank"}, we’re pleased to announce that we will be attending the Japan IT Week this Spring!
 
 
 ## Japan IT Week
@@ -34,7 +34,7 @@ Come and say hi!
 
 **Location:** Booth No. 19 - 25!
 
-Mid-spring Tokyo is a perfect time and place to learn the newest and hottest technologies, especially **IoT solutions** from hundreds of talented and creative teams that will be attending the Expo this edition! 
+Mid-spring Tokyo is a perfect time and place to learn the newest and hottest technologies, especially **IoT solutions** from hundreds of talented and creative teams that will be attending the Expo this edition!
 
 Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec=DDES){:rel="nofollow"}{:target="_blank"} and learn about how you can implement IoT technology in agriculture, medicine, factories, and logistics, how network and sensors construction is done by the *professionals*. Also, you will have a chance to check out novelties in the field of RFID and recognition technologies.
 
@@ -42,17 +42,17 @@ Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec
 
 ![LVCloud](/assets/images/lvcloud.png)
 
-We will be presenting our own [IoT development](https://naturaily.com/project/lvcloud){:target="_blank"} case study - LVCloud. It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed. 
+We will be presenting our own [IoT development](https://naturaily.com/portfolio/lvcloud){:target="_blank"} case study - LVCloud. It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed. 
 
 <br>
 
-|You can learn more about LVCloud and our other projects in the [Portfolio](https://naturaily.com/portfolio){:target="_blank"} section on our website.| 
+|You can learn more about LVCloud and our other projects in the [Portfolio](https://naturaily.com/portfolio){:target="_blank"} section on our website.|
 
 <br>
 
 ## Naturaily on Tour
 
-Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour). 
+Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour).
 
 ![Naturaily on Tour Map](/assets/images/natu_on_tour_map.jpeg)
 
