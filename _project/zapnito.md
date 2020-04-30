@@ -7,7 +7,7 @@ image: /assets/images/zapnito-screen-4.png
 twitter-card: summary_large_image
 project-screenshot: /assets/images/zapnito.png
 project-logo: /assets/images/zapnito-logo.png
-banner-bg: /assets/images/projects-background-red.png
+banner-bg: /assets/images/projects-background-red.jpg
 banner-text: Zapnito is a platform that allows organizations to monetize their professional expertise. In this case study, you will see how Naturaily improved it by helping in taking care of the service.
 banner-tech:
 - Ruby on Rails, Ember

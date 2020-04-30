@@ -91,3 +91,17 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .estimate {
+    flex-direction: column;
+
+    .section_content {
+      max-width: 100%;
+    }
+
+    .section_desc {
+      padding-top: 0;
+    }
+  }
+}

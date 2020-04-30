@@ -10,7 +10,9 @@
 </section>
 
 <script type="text/javascript">
-  $(window).scroll(function() {
-    $("body").addClass("scrolled");
-  });
+  window.addEventListener('load', () => {
+    $(window).scroll(() => {
+      $('body').addClass('scrolled');
+    });
+  }, { passive: true });
 </script>

@@ -57,7 +57,7 @@ projects-head: 'Check out our Vue projects:'
 projects:
   - project:
       bg: /assets/images/lvcloud.png
-      bg-image: /assets/images/projects-background-purple.png
+      bg-image: /assets/images/projects-background-purple.jpg
       title: LVCloud
       desc: >-
         LVCloud was designed to detect sudden changes such as increased humidity

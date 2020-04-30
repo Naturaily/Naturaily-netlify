@@ -73,8 +73,8 @@
           itemtype="https://schema.org/Answer"
         >
           <div itemprop="text">
-            We use Shopify & Shopify Plus as our main e&#8209;commerce platforms. We also support businesses in migrating 
-            their e&#8209;commerce stores, from BigCommerce, WooCommerce or Magento, to Shopify & Shopify Plus, maintaining 
+            We use Shopify & Shopify Plus as our main e&#8209;commerce platforms. We also support businesses in migrating
+            their e&#8209;commerce stores, from BigCommerce, WooCommerce or Magento, to Shopify & Shopify Plus, maintaining
             proper data/SEO structure and improving on page speed/conversion rates.
           </div>
         </div>
@@ -103,8 +103,8 @@
           itemtype="https://schema.org/Answer"
         >
           <div itemprop="text">
-            The effects in page speed or other elements differ case by case. We estimate the effects on the first 
-            free audit meeting, where we check for potential technological improvements in your store, leading to 
+            The effects in page speed or other elements differ case by case. We estimate the effects on the first
+            free audit meeting, where we check for potential technological improvements in your store, leading to
             higher conversion rates, revenues or time saved on manual tasks.
           </div>
         </div>
@@ -136,7 +136,7 @@
             Yes, you can freely try out Shopify for 14 days using the link below.
             <a
               href="https://www.shopify.com/free-trial?ref=redux&subid1=test&utm_content=get_a_free_consultation_today"
-              target="_blank"
+              target="_blank" rel="noopener"
               class="shopify-faq_link"
             >
               Link
@@ -203,8 +203,8 @@
           itemtype="https://schema.org/Answer"
         >
           <div itemprop="text">
-            After the start of the service, you'll receive a welcome email with all the details about the project and the communication. 
-            You will also be provided with access to a dedicated Slack channel and to the shared project board, which includes all the 
+            After the start of the service, you'll receive a welcome email with all the details about the project and the communication.
+            You will also be provided with access to a dedicated Slack channel and to the shared project board, which includes all the
             updates about the project's status/progress.
           </div>
         </div>
@@ -233,8 +233,8 @@
           itemtype="https://schema.org/Answer"
         >
           <div itemprop="text">
-            We work remotely using proper communication tools, such as video conferencing software, Slack, project management 
-            tools and time tracking/reporting. If you require our support on-site, we can send the team member on site or, if 
+            We work remotely using proper communication tools, such as video conferencing software, Slack, project management
+            tools and time tracking/reporting. If you require our support on-site, we can send the team member on site or, if
             required, find the right person in your location.
           </div>
         </div>
@@ -246,7 +246,7 @@
 </section>
 
 <script type="text/javascript">
-  $(document).ready(function() {
+  window.addEventListener('load', () => {
     $('[data-process-accordion]').on('change', '[data-accordion-check]', function() {
       const parent = $(this).parent();
       const contentHeight = parent.children('[data-accordion-content]').height();
@@ -264,5 +264,5 @@
           .animate({ 'padding-bottom' : 1 }, 300);
       }
     });
-  });
+  }, { passive: true });
 </script>

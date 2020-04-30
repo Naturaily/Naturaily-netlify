@@ -100,12 +100,30 @@ defaults:
     values:
       layout: 'services'
 
-include:
-  - _redirects
-
 permalink: /blog/:title
 
+pwa:
+  sw_filename: service-worker.js # Required
+  dest_js_directory: assets/js # Required
+  cache_name: my-cache # Optional
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
+  runtime_cache: # Optional
+    - route: /^api\/getdata/
+      strategy: networkFirst
+    - route: "'/api/pic'"
+      strategy: cacheFirst
+
 # Build settings
+
+sass:
+  style: compressed
 
 markdown: kramdown
 kramdown:
@@ -116,18 +134,27 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-debug
+  - jekyll-include-cache
+  - jekyll-pwa-plugin
 
+incremental: true
 
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - LICENSE.txt
-  - README.md
+
+include:
+  - .htaccess
+  - node_modules/uglifier/index.js
+  - _redirects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

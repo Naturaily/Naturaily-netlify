@@ -209,21 +209,23 @@
 </section>
 
 <script type="text/javascript">
-  $('[data-process-accordion]').on('change', '[data-accordion-check]', function() {
-    const $parent = $(this).parent();
-    const contentHeight = $parent.children('[data-accordion-content]').height();
-    const contentPadding = parseInt($parent.children('[data-accordion-content]').css('padding-bottom'), 10)
-    const contentHeightWithPadding = contentHeight + contentPadding;
+  window.addEventListener('load', () => {
+    $('[data-process-accordion]').on('change', '[data-accordion-check]', function() {
+      const $parent = $(this).parent();
+      const contentHeight = $parent.children('[data-accordion-content]').height();
+      const contentPadding = parseInt($parent.children('[data-accordion-content]').css('padding-bottom'), 10)
+      const contentHeightWithPadding = contentHeight + contentPadding;
 
-    if ($(this).is(':checked')) {
-      $parent.addClass('opened')
-            .animate({ 'padding-bottom' : contentHeightWithPadding }, 300)
-            .siblings('[data-accordion-item]').removeClass('opened')
-                                              .animate({ 'padding-bottom' : 1 }, 300)
-                                              .children('[data-accordion-check]').prop('checked', false);
-    } else {
-      $parent.removeClass('opened')
-            .animate({ 'padding-bottom' : 1 }, 300);
-    }
-  });
+      if ($(this).is(':checked')) {
+        $parent.addClass('opened')
+              .animate({ 'padding-bottom' : contentHeightWithPadding }, 300)
+              .siblings('[data-accordion-item]').removeClass('opened')
+                                                .animate({ 'padding-bottom' : 1 }, 300)
+                                                .children('[data-accordion-check]').prop('checked', false);
+      } else {
+        $parent.removeClass('opened')
+              .animate({ 'padding-bottom' : 1 }, 300);
+      }
+    });
+  }, { passive: true });
 </script>

@@ -5,33 +5,10 @@
 
   <body>
     {% include seo-tools.html %}
+    {% include cookie.html %}
     <div class="l-main-container tech-container" id="mainContainer">
 
-    <nav class="header">
-      <div class="header-logo">
-        <a href="/"><img src="/assets/images/logo_naturaily.svg" alt="Naturaily logo"></a>
-      </div>
-      <div class="site-nav">
-        <nav class="hamb" role="navigation">
-          <div class="menuToggle">
-            <ul class="menu">
-              <a class="naturaily" href="/"><img src="/assets/images/logo_naturaily.svg" alt="Naturaily logo"></a>
-              <div class="header-wave"></div>
-              <div class="header-color"></div>
-              <li class="menu-estimate"><a href="/get-an-estimate" class="btn btn-secondary">get an estimate</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <div class="header-right">
-        <a href="/get-an-estimate" class="btn btn-secondary header-btn">get an estimate</a>
-      </div>
-    </nav>
-
-    <script type="text/javascript">
-      {% include block-scroll.js %}
-    </script>
-
+      {% include header.html %}
 
       {{ content }}
 
@@ -40,13 +17,17 @@
       {% include footer.html %}
     </div>
 
-    <script type="text/javascript" src="https://static1.clutch.co/sites/all/modules/custom/clutch_widget/js/widget.js"></script>
+    <script src="/assets/js/jquery-3.5.0.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/js-cookie.js"></script>
     <script type="text/javascript">
-      $('[data-scroll-more]').click(() => {
-          $('html, body').animate({
-              scrollTop: $('.resources').offset().top
-          }, 200);
-      });
+      window.addEventListener('load', () => {
+        $('[data-scroll-more]').click(() => {
+            $('html, body').animate({
+                scrollTop: $('.resources').offset().top
+            }, 200);
+        });
+      }, { passive: true });
     </script>
     {% include lazyload.html %}
   </body>

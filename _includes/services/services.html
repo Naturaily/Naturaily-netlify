@@ -79,14 +79,16 @@
 </section>
 
 <script>
-  function getRelatedContent(el) {
-    return $($(el).attr('href'));
-  }
+  window.addEventListener('load', () => {
+    function getRelatedContent(el) {
+      return $($(el).attr('href'));
+    }
 
-  $('[data-services-navigation]').on('click', 'a', function(e) {
-    e.preventDefault();
-    $('html, body').animate({
-      scrollTop: getRelatedContent(this).offset().top
+    $('[data-services-navigation]').on('click', 'a', function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: getRelatedContent(this).offset().top
+      });
     });
   });
 </script>

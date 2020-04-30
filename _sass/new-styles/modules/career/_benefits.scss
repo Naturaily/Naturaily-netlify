@@ -13,14 +13,23 @@
   }
 
   &_images {
-    width: 100%;
-    min-height: 550px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
     position: relative;
+    height: 550px;
+    width: 100%;
+    border-radius: 8px;
     z-index: 0;
+
+    .slick-list {
+      border-radius: 8px;
+    }
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+    }
   }
 
   &_box {
@@ -133,11 +142,6 @@
       padding: 0;
     }
 
-
-    &_images {
-      min-height: 300px;
-    }
-
     &_box {
       position: relative;
       width: 100%;
@@ -170,6 +174,7 @@
 
     &_images {
       width: calc(100% + 35px);
+      min-height: 300px;
       height: 300px;
       left: -25px;
       position: relative;
