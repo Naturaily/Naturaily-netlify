@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jekyll/jekyll.git
-  revision: 42c0f5b89b810f0cdf794f6460ae69586fe4eb18
+  revision: 1888fc1db63d297059e48fa8c967adfae661f3ba
   specs:
     jekyll (4.0.0)
       addressable (~> 2.4)
@@ -181,4 +181,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.1.4
+   2.0.1
