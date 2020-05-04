@@ -27,6 +27,7 @@ group :jekyll_plugins do
    gem 'jekyll-debug'
    gem "jekyll-include-cache"
    gem 'jekyll-pwa-plugin'
+   gem 'jekyll-compress-images'
 
 end
 
