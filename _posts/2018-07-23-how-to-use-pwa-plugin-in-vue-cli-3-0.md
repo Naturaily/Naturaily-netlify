@@ -278,4 +278,4 @@ I hope the Apple will soon fully support PWA apps because that should help PWA i
 
 All what you have to worry about is preparing graphics and making decisions on what and how you want to cache, Vue PWA plugin will do the dirty work for you.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

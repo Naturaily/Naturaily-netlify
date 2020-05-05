@@ -125,4 +125,4 @@ And then, we can use this code in our views:
 
 Of course not, you silly! The world of design patterns is a lot lot bigger than that. Not every of them would be applicable in RoR application, though. Or that particular problem you have. But still, it's very good to know some design patterns, even their main ideas. Because maybe one day, you'll have some problem and it can be solved with design pattern you know or at least heard of. Or maybe you will develop your own design pattern, that will be described in books? ;)
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

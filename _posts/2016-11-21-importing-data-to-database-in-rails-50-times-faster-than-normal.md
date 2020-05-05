@@ -257,7 +257,7 @@ Ok, but my engineerial soul has one more question: Will the last method always b
 | import users                      | 0,073s   | 0,160s   | 1,200s   | 7,443s   | 80,004s  |
 | import users with sql validations | 0,002s   | 0,005s   | 0,0480s  | 0,376s   | 4,213s   |
 
-![timesaved](/assets/images/time-saving-stats.png "Time saved")
+{% image /assets/images/time-saving-stats.png timesaved timesaved %}
 
 
 Table and chart show that the best way is using ```ActiveRecord::Import``` with validations on database side.
@@ -265,4 +265,4 @@ Table and chart show that the best way is using ```ActiveRecord::Import``` with 
 
 I know it’s a really simple case, without any other validations, but you can treat it as a hint how to use SQL validations to speed up saving data to database.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

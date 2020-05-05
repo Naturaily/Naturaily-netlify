@@ -101,31 +101,31 @@ The sidebar, which is the main way of traversing through the app, has all the ne
 3. **Categories**
 4. **Calendar**
 
-![Nozbe](/assets/images/nozbe_1.png)
+{% image /assets/images/nozbe_1.png Nozbe Nozbe %}
 
 Adding a new task is simple. Every view has a big “**+**” sign in the bottom right corner (desktop apps have handy keyboard shortcuts for it).
 
-![Nozbe](/assets/images/nozbe_2.png)
+{% image /assets/images/nozbe_2.png Nozbe Nozbe %}
 
 When you press it, a new field will appear at the top of the selected view:
 
-![Nozbe](/assets/images/nozbe_3.png)
+{% image /assets/images/nozbe_3.png Nozbe Nozbe %}
 
 Now, you can start typing in your task or idea. You can add hashtags that will help you keep things organised.
 
-![Nozbe](/assets/images/nozbe_4.png)
+{% image /assets/images/nozbe_4.png Nozbe Nozbe %}
 
 You have probably noticed the hashtag #Tomorrow. Nozbe has a sophisticated system of tags that you can add to every task. You can assign dates with time, tags, projects and priority to every new entry. After confirming it, a new task will be created on top of the list:
 
-![Nozbe](/assets/images/nozbe_5.png)
+{% image /assets/images/nozbe_5.png Nozbe Nozbe %}
 
 Let’s try another one with a different date:
 
-![Nozbe](/assets/images/nozbe_6.png)
+{% image /assets/images/nozbe_6.png Nozbe Nozbe %}
 
 And after you confirm it:
 
-![Nozbe](/assets/images/nozbe_7.png)
+{% image /assets/images/nozbe_7.png Nozbe Nozbe %}
 
 The tool is an easy way to organise yourself. Even if you don’t use it on a regular basis, having this app at hand will teach you the habit of creating tasks. At least some of them, which seems not much – but having some of your daily goals written down is far better than none at all.
 
@@ -146,21 +146,21 @@ Let’s start with the menu. They are pretty much self-explanatory:
 5. **Tags** - All your tags
 6. **Trash** - Recently deleted notes
 
-![Notes](/assets/images/notes_1.png)
+{% image /assets/images/notes_1.png Notes Notes %}
 
 Clicking the **New Note** button creates a new in the default notebook. You can now change it, add some tags, a title and, as the tip suggests, start writing, drag files, or choose a Template for your note.
 
-![Notes](/assets/images/notes_2.png)
+{% image /assets/images/notes_2.png Notes Notes %}
 
 I will fill it up with some text to show some of its cool features:
 
-![Notes](/assets/images/notes_3.png)
+{% image /assets/images/notes_3.png Notes Notes %}
 
 It’s automatically saved in the cloud and it’s available across all your devices through the Evernote app.
 
 Notes are stored in notebooks, so let’s explore that part of Evernote:
 
-![Notes](/assets/images/notes_4.png)
+{% image /assets/images/notes_4.png Notes Notes %}
 
 From here, you can manage all your notebooks. You can add a new one, change the name or delete them if you wish so. Remember, removing a notebook removes all the associated notes as well. You can still retrieve them from **Trash**.
 
@@ -168,47 +168,47 @@ From here, you can manage all your notebooks. You can add a new one, change the 
 
 A double-click on a notebook takes you to the Notes browser where you can see all the notes associated with the selected notebook.
 
-![Evernote](/assets/images/notes_5.png)
+{% image /assets/images/notes_5.png Evernote Evernote %}
 
 Now, the best part: integrating Evernote with Nozbe. It’s an easy process. In your Nozbe app, go to _Settings > Integrations > Evernote_:
 
-![Evernote](/assets/images/notes_6.png)
+{% image /assets/images/notes_6.png Evernote Evernote %}
 
-![Evernote](/assets/images/notes_7.png)
+{% image /assets/images/notes_7.png Evernote Evernote %}
 
-![Evernote](/assets/images/notes_8.png)
+{% image /assets/images/notes_8.png Evernote Evernote %}
 
 Click the green button _“Connect your Evernote account with Nozbe”_. Follow the instructions on the site. After successfully connecting the apps, get back to Nozbe and hit _File > Sync_ (**CMD + s** on iOS). The green button will turn red.
 
-![Evernote](/assets/images/notes_9.png)
+{% image /assets/images/notes_9.png Evernote Evernote %}
 
 What’s the benefit? Well, let’s imagine you have a note that is a part of something you need to do. Let’s add a task in Nozbe. Then click it in the** Inbox**.
 
-![Evernote](/assets/images/notes_10.png)
+{% image /assets/images/notes_10.png Evernote Evernote %}
 
 Clicking the _“Add comment”_ section, takes you to a new view where you can add a comment, or… an Evernote note!
 
-![Evernote](/assets/images/notes_11.png)
+{% image /assets/images/notes_11.png Evernote Evernote %}
 
 Now, click the dropdown menu with “Text” text. You will see few options with the Evernote one as well.
 
-![Evernote](/assets/images/notes_12.png)
+{% image /assets/images/notes_12.png Evernote Evernote %}
 
 After clicking it, you will get a filtered list of all the notes you have on your Evernote account.
 
-![Evernote](/assets/images/notes_13.png)
+{% image /assets/images/notes_13.png Evernote Evernote %}
 
 Select what you need and let’s move on. **You can select multiple notes!**
 
-![Evernote](/assets/images/notes_14.png)
+{% image /assets/images/notes_14.png Evernote Evernote %}
 
 After clicking _“Save”_ button, you can see all the notes in the form of a comment with references to every note used:
 
-![Evernote](/assets/images/notes_15.png)
+{% image /assets/images/notes_15.png Evernote Evernote %}
 
 After clicking one of them, a window will appear with the full note:
 
-![Notes](/assets/images/notes_15_new.png)
+{% image /assets/images/notes_15_new.png Notes Notes %}
 
 Isn’t that great? Now you have the ability to not only take quick, lightweight notes and manage them properly, but you can also use them in your Nozbe task management system. This is especially useful if you have multiple meetings in one day. At the end of the day you can summarize them, create tasks with actions from notes and attach notes to every task without the need to shuffle all those browser tabs.
 
@@ -218,13 +218,13 @@ The last thing that we need in our custom information management system are draw
 
 I present to you the underdog, hidden deep under a submenu of Google Drive, an older cousin of Draw.io: **Google Drawings**.
 
-![Google Drawings](/assets/images/drawings_1.png)
+{% image /assets/images/drawings_1.png Google-Drawings Google-Drawings %}
 
 There’s everything you need for your brain and event storming sessions, simple database schemas and so on. You can even create some basic templates for your views.
 
 Don’t believe me? Just look:
 
-![Google Drawings](/assets/images/drawings_2.png)
+{% image /assets/images/drawings_2.png Google-Drawings Google-Drawings %}
 
 Think, how much time is wasted before you can sync the business requirements with the design and the developers? Now, before an actual designer will start working on the app, you can solve a lot of user flow issues just by trying out different things in here. You can conveniently record the whole event storming session with this simple tool. And it’s all in cloud, so there is virtually unlimited space for all your ideas.
 
@@ -242,4 +242,4 @@ I hope this will help you get a headstart on the road to great results: met dead
 
 Farewell
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

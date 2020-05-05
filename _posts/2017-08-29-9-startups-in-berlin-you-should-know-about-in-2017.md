@@ -100,4 +100,4 @@ SoundCloud has 40M users (2013) and 175 million unique monthly listeners (2014).
 
 Did we miss any interesting startups from Germany that are worth watching out for in 2017? Let us know in the comments!
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

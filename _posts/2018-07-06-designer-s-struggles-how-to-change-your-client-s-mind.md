@@ -81,7 +81,7 @@ Conducting detailed research on users that will give your client clear, quantita
 
    Note every small detail about the basis of the project that was made from the very beginning of the development process. It will help you defend the solutions by simply showing where they came from, what were their origins, what may influence them and what will be their result.
 
-![Designer's desk](/assets/images/designer-desk.jpg)
+{% image /assets/images/designer-desk.jpg designer's-desk designer's-desk %}
 
 ## Conclusion
 
@@ -102,4 +102,4 @@ Special thanks to:
 * [Luke Chesser](https://unsplash.com/@lukechesser){:rel="nofollow"}{:target="_blank"} on Unsplash
 * [rawpixel](https://unsplash.com/@rawpixel/collections){:rel="nofollow"}{:target="_blank"} on Unsplash
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

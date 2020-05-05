@@ -48,4 +48,4 @@ Second edition
 --------------
 This year, there is going to be the second edition of the ‘Learn IT, girl’ project. I definitely recommend to take part in the program. First of all, You can learn new programming languages You have never used. Its completely non-profit, so why don’t You find some time and code with Your mentor without any kind of paid promotion? You can extend your knowledge and find some new things. You don’t need to have any experience with a new language. What’s more, You can learn how to cooperate with other people. In the end of the project, every scholar will gain a diploma, which informs that she finished the course. If You would like to apply, just follow [‘Learn IT, girl’](https://sites.google.com/site/learnitgirl/). Every updates can also be found on ‘Learn IT, girl’ [blog](https://learnitgirl.wordpress.com/) or their [Facebook fan page](https://www.facebook.com/learnitgirl?fref=ts).
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 

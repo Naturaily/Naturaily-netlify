@@ -107,4 +107,4 @@ It is very easy, nothing fancy. However, there is a hidden message: you have to 
 
 Thank you! Bye!
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 

@@ -105,4 +105,4 @@ Want to **learn more about this project**? Read **[Collectivity case study](http
 
 <hr>
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

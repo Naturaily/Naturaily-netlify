@@ -42,17 +42,17 @@ We can easily understand things like: a fire started, the coffee machine broke. 
 
 Let us imagine programming a coffee machine. We have no idea about what a coffee machine does except that it gives coffee. We could start with something like this:
 
-![null](/assets/images/1_stick_it.png)
+{% image /assets/images/1_stick_it.png null null %}
 
 Okay, we see the beginning of a process and its end. We stand with a barista as a domain expert and he adds some few stick-its.
 
-![null](/assets/images/2_stick_it.png)
+{% image /assets/images/2_stick_it.png null null %}
 
 Okay, something fishy is going on here. You’re not an expert but this is really confusing. You ask – Is this right? Is the order right?
 
 The barista thinks for a second and comes up with a simple – “not really, let me fix it for you”:
 
-![null](/assets/images/3_stick_it.png)
+{% image /assets/images/3_stick_it.png null null %}
 
 Then the developer looks at the events and does some thinking. Finally, the question arises – what if there is no coffee?
 
@@ -60,7 +60,7 @@ The barista takes a deep breath gazing at the stick-its. He understands the prob
 
 The developer asks a few more questions and other problems pop out. The board looks like this:
 
-![null](/assets/images/4._stick_itpng.png)
+{% image /assets/images/4_stick_itpng.png null null %}
 
 The barista and the developer look at the board.
 
@@ -68,29 +68,29 @@ The barista and the developer look at the board.
 
 “Ok, let’s do it.”
 
-![null](/assets/images/5_stick_it.png)
+{% image /assets/images/5_stick_it.png null null %}
 
 “Does it look good?” Asks the developer.
 
 “Yeah. Let’s add espresso.” Says the barista.
 
-![null](/assets/images/6_stick_it.png)
+{% image /assets/images/6_stick_it.png null null %}
 
 They look at the board again. Without a word, they added more stick-its, change the order and, end up with something like:
 
-![null](/assets/images/7_stick_it.png)
+{% image /assets/images/7_stick_it.png null null %}
 
 “I think we have some redundancy here.” Says the developer. The barista nods and points at the ‘Coffee ground’ domain event and responds, “I think this has something in common, right?”
 
 They remove the redundancy the best way they could.
 
-![null](/assets/images/8_stick_it.png)
+{% image /assets/images/8_stick_it.png null null %}
 
 “Hey, right! This is it! Latte is just milk with some espresso. That means we can close the process of making espresso and use it as the basis for a latte.”  Says the barista.
 
 An interesting thing then happens. The business side of the story, a person who obviously knew all of the answers, realizes that a process can be streamlined by reorganizing it. The barista quickly shuffles the stick-its on the board:
 
-![null](/assets/images/9__stick_it.png)
+{% image /assets/images/9__stick_it.png null null %}
 
 Now, the cost of understanding the process is much smaller. They were also able to overcome the initial problem of communicating with each other, which **was the main goal in the first place**.
 
@@ -98,7 +98,7 @@ This is just a small example of how an **event storming session** can unfold its
 
 ## Building blocks
 
-![null](/assets/images/10__stick_it.png)
+{% image /assets/images/10__stick_it.png null null %}
 
 You already saw a few building blocks. As I was writing this article, I planned to use the collection above, yet I found out that in the middle of the process I need a new one, which we can call “business process”. Let’s go through them:
 
@@ -128,4 +128,4 @@ Sources:
 * [Event storming](https://www.eventstorming.com/){:rel="nofollow"}{:target="_blank"}
 * [Oracle](https://www.oracle.com/technetwork/articles/javase/devinsight-1-139780.html#1){:rel="nofollow"}{:target="_blank"}
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

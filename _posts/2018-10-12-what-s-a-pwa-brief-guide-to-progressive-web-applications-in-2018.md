@@ -147,4 +147,4 @@ As other mentioned above apps, Tinder Online was created to expand on new market
 
 Link: [https://tinder.com/](https://tinder.com/?lang=en){:rel="nofollow"}{:target="_blank"}
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

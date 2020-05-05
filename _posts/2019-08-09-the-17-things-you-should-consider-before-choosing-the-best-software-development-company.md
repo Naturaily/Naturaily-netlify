@@ -58,7 +58,7 @@ What is a team without experience? At Naturaily we have over **12 years of exper
 
 It’s a healthy practice to check the team’s previous and current clients, read their reviews and the products they have built. Clutch is a great place to start. We also recommend **asking the clients directly about the cooperation with the development team**. Because it is not their duty to provide you with such information, keep the questions as brief as possible. Ask them only the most crucial questions – regarding the communication with the team, the company’s ability to meet project goals, and the approach they demonstrated. Don’t get into the weeds. A client that decides to grace you with an answer may elaborate further when they feel like it.
 
-![Team's background](/assets/images/team-background_1.jpg)
+{% image /assets/images/team-background_1.jpg background background %}
 
 ## 2. Domain expertise
 
@@ -78,7 +78,8 @@ Once it’s delivered, you can finally monetize it (yay!). If you’d chosen Com
 
 Companies often offer some sort of a **free trial** to give clients more confidence signing the final deal. If the expectations are not met you can terminate the cooperation but keep in mind that after doing so you lose all progress achieved by the team. At Naturaily, the trial usually lasts 2 weeks.
 
-[![Check our company presentation](/assets/images/company-presentation_1600.png)](https://docsend.com/view/q8rascf){:target="_blank"}
+[{% image /assets/images/company-presentation_1600.png presentation presentation %}](https://docsend.com/view/q8rascf){:target="_blank"}
+
 
 ## 4. Technological stack
 
@@ -92,7 +93,7 @@ An ideal scenario would be a software house with all the necessary talents on bo
 
 At the same time, it’s worth noting that **you shouldn’t expect one company to take care of everything** – this is actually a bad sign if a single company dismissively agrees to all your demands. They’ll take care of the design, marketing, graphics etc. Companies should know their limitations, otherwise, it may lead to a bad outcome.
 
-![omprehensive services](/assets/images/comprehensive_services_2.jpg)
+{% image /assets/images/comprehensive_services_2.jpg services services %}
 
 ## 6. Communication
 
@@ -108,7 +109,7 @@ It’s totally understandable if you are hesitant towards sending your brief ove
 
 Reliable companies will sign this contract with no hesitation. Avoid companies that shy away from signing it. Some offer it before you even engage in more detailed discussions.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 ## 8. Make sure they are the right size for you
 
@@ -124,7 +125,7 @@ This is a measure of a company's honesty to potential clients.
 
 |If you want to know more about Clutch and how to verify its reviews - read our [Clutch reader's guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch){:target="_blank"}.|
 
-![Challenge](/assets/images/challenge.jpg)
+{% image /assets/images/challenge.jpg Challenge Challenge %}
 
 ## 10. Future-proof your relationship
 
@@ -148,7 +149,7 @@ Case studies present the details of the projects the company has worked on. They
 
 Specific metrics in case studies can give you a more precise idea of their interpretation of the word successful, backed by the actual representative of the client.
 
-![Case studies](/assets/images/case-study.jpg)
+{% image /assets/images/case-study.jpg CaseStudies CaseStudies %}
 
 ## 13. Start small, size up as you go
 
@@ -168,7 +169,7 @@ This may sound counter-intuitive, but yes-sayers spell problems. Look for a deve
 
 After all, you are looking for an **expert in their domain** – someone who will guide you through the development process rather than the other way round.
 
-![Avoid the yes-men](/assets/images/ezgif.com-video-to-gif.gif)
+{% image /assets/images/ezgif.com-video-to-gif.gif gif gif %}
 
 ## 16. The pricing model
 
@@ -192,4 +193,4 @@ Ideally, look for a partner that sees you not just as a business opportunity, bu
 
 Finding the right software development partner is never easy. The prospect of losing time and money is paralysing for many companies, and the fear often makes them go with the wrong, too big or too expensive partners. But there are great development companies out there – you only have to know which things to look at. We hope these steps will help you get through the process, dispel fears and put certain things in perspective, helping you make the right choice.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

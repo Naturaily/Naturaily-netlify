@@ -115,4 +115,4 @@ We just removed all migrations by adding new one with the whole structure. We ca
 
 Thanks all for now. Thank you and bye :)
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

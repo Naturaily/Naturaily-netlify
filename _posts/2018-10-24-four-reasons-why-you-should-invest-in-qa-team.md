@@ -67,4 +67,4 @@ Having a QA in your team will definitely result in improved workflow within your
 
 Regular software checks help you find bugs early in the development. It’s much easier and faster to fix an early issue rather than when the app is almost finished. The more complex an app is, the higher the chances are of something going wrong while debugging. Investing in a QA will help you save a lot of man hours, unnecessary stress and will ensure significant reducement in development costs. 
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
