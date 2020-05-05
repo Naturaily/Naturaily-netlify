@@ -70,4 +70,4 @@ If you have a large and varied to-do list, using the Pomodoro Technique can help
 
 If you find yourself having to work in an **open office** space for the first time, don’t be afraid. Talk to your colleagues to see how they’ve adjusted. Everyone has a different approach that may be beneficial to finding your groove. Be considerate of those around you and **you will do just fine**.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

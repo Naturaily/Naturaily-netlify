@@ -88,6 +88,6 @@ This solution might not fit every shop user needs. Remember, if you plan to use 
 
 Nevertheless, I hope you will find this small workaround interesting and also helpful.
 
-|If you want to know more about the most common problems of growing Shopify stores and how to solve them with the right native or custom integrations - [read this article](https://naturaily.com/blog/shopify-stores-problems){:target="_blank"} by Mateusz.| 
+|If you want to know more about the most common problems of growing Shopify stores and how to solve them with the right native or custom integrations - [read this article](https://naturaily.com/blog/shopify-stores-problems){:target="_blank"} by Mateusz.|
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

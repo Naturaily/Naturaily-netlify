@@ -63,7 +63,7 @@ In exchange for the **short amount of your time**, you’re going to get a lot -
 
 **Stuck** - Some projects and challenges are very difficult to start. Sometimes all you need is a fresh idea that would just kickstart the problem-solving. Workshops let you work with a team of experts and other people experienced in various fields. They will give you their feedback about your project which can be very helpful in boosting its momentum.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 
 Resources:

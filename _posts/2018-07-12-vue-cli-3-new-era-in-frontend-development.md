@@ -69,7 +69,7 @@ Plugins which you can choose:
 * Unit Testing
 * E2E Testing
 
-![vue-cli-3-built-in-features](/assets/images/vue-cli-3-built-in-features.jpg)
+{% image /assets/images/vue-cli-3-built-in-features.jpg vue-cli-3-built-in-features vue-cli-3-built-in-features %}
 
 ### No need to eject
 
@@ -99,7 +99,7 @@ Globally installed Vue CLI 3 allows you to serve .js or .vue files, just using '
 
 Quite a cool feature in the new CLI is also Graphical User Interface. If you are not a huge fan of typing in the console and you prefer more "windows" style configuration that's probably a great feature for you.
 
-![vue-cli-3-gui](/assets/images/vue-cli-3-gui.jpg)
+{% image /assets/images/vue-cli-3-gui.jpg vue-cli-3-gui vue-cli-3-gui %}
 
 ### Environment Variables and Modes
 
@@ -166,7 +166,7 @@ I really like the plugin structure and all the advantages coming from that archi
 
 Out of the box, PWA support is an amazing feature and an opportunity to create this type of apps more often. Thanks to CLI 3, you can focus only on the most important things, and let the CLI do the rest of tiring configuration work for you.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
 
 ### Sources
 

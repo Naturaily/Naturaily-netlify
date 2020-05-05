@@ -80,4 +80,4 @@ Check out our other Startup lists right here:
 - [9 Startups in Berlin You Should Know about in 2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017){:target="_blank"} 
 - [Interesting German Startups You Should Definitely Check Out!](http://naturaily.com/blog/post/interesting-german-startups-you-should-definitely-check-out){:target="_blank"} 
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

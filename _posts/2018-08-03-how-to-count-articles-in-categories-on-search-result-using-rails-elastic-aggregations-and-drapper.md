@@ -255,7 +255,7 @@ Now we can take care of searching and aggregates.
 
 ### Oh look! We're halfway through the post! Here's a picture of a cute kitten:
 
-![cate](/assets/images/kitten.jpg)
+{% image /assets/images/kitten.jpg cate cate %}
 
 Add a simple class for the search form:
 
@@ -497,4 +497,4 @@ That's all, you can check working example downloading repo:
   docker-compose run web rake db:create db:migrate db:seed
 ```
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

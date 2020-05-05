@@ -38,7 +38,7 @@ There are quite a few problems that are common among growing online stores. Whil
 
 ### ERP integration
 
-![null](/assets/images/robust_netsuite_integrator.png)
+{% image /assets/images/robust_netsuite_integrator.png null null %}
 
 E-commerce platforms like Shopify or BigCommerce may sometimes not fit well enough to the specific business requirements, like updating inventory stocks or managing more advanced areas of business operations. They will let you set up SKUs for the products presented in your offering and even set a fixed price of products available. However, once your store is larger, using separate software for managing inventory and operations will become a necessity.
 
@@ -48,7 +48,7 @@ With that in mind, using a 3rd party plugin (like Sage by [Onesaas](https://apps
 
 ### Deliveries integration
 
-![null](/assets/images/deliveries-integration.png)
+{% image /assets/images/deliveries-integration.png null null %}
 
 Larger sales mean more packages sold, more deliveries and a wider scale of logistics. This often means more documentation, more returns and much more communication with delivery providers. As a result, with communication issues arising, a store can face a dilemma of either employing more and more team members or automating some of the manual tasks.
 
@@ -56,7 +56,7 @@ With the right delivery providers’ Shopify integration, you can save tons of t
 
 ### Multi-channel distribution
 
-![null](/assets/images/codisto.png)
+{% image /assets/images/codisto.png null null %}
 
 When your store sells larger volumes of products or tries to reach a wider audience, you likely don’t sell through one channel only. With the scale provided by Amazon or Facebook, becoming visible on external marketplaces becomes more important than ever.
 
@@ -74,7 +74,7 @@ As there are hundreds of ways and experiments to grow your conversion rates, it 
 
 A growing number of product pages, categories and subpages will result in your website positioning higher in Google’s search results. This is when you’re going to see how effectively you optimized for the right [e-commerce store’s SEO structure](https://www.bigcommerce.com/blog/ecommerce-seo/){:rel="nofollow"}{:target="_blank"}, making it crawler-friendly.
 
-![null](/assets/images/website’s-seo-structure.png)
+{% image /assets/images/website’s-seo-structure.png null null %}
 
 When planning for SEO optimization, you’d need to look into two separate areas:
 
@@ -99,7 +99,7 @@ So, let’s look into some of the apps and custom Shopify integrations you could
 
 To integrate the ERP/CRM or any other system with a Shopify Store, a [middleware](https://en.wikipedia.org/wiki/Middleware){:rel="nofollow"}{:target="_blank"} is a solution. The responsibility of this middleware is to get the data from one system, transform the data to a proper format and send it to the other system. The integration process is automated. Most often, these kinds of middleware are implemented using Ruby on Rails.
 
-![Communication](/assets/images/diagram_1.png)
+{% image /assets/images/diagram_1.png Communication Communication %}
 
 Example resources that the Rails application may integrate are:
 
@@ -151,7 +151,7 @@ With the right analytical software installed on your website, you will be able t
 
 ### SEO optimization
 
-![null](/assets/images/product-desription.png)
+{% image /assets/images/product-desription.png null null %}
 
 Technical SEO optimization for e-commerce stores is a constant process. With crawlers constantly changing their patterns and behavior, e-commerce websites need to be constantly updated to meet Google’s more demanding needs.
 
@@ -168,4 +168,4 @@ Yet sometimes, native integrations and marketplace applications are not enough t
 
 Eventually, they can actually help you grow revenue, via wider multi-channel distribution, and save time with tasks such as synchronization & processes’ automation.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

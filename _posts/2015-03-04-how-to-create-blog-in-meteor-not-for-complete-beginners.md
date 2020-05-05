@@ -799,4 +799,4 @@ and maybe a little description of your app, if you decide to finish it.
 
 Good luck.
 
-![We're done](https://mrwgifs.com/wp-content/uploads/2013/04/Were-Done-Here-Bunny-Meyer-Reaction-Gif.gif)
+{% image https://mrwgifs.com/wp-content/uploads/2013/04/Were-Done-Here-Bunny-Meyer-Reaction-Gif.gif We're-done We're-done %}

@@ -27,7 +27,7 @@ related_posts:
     The Most Common Problems of Growing Shopify Stores and How to Solve Them
     with the Right Native or Custom Integrations
 ---
-Shopify is now the 3rd largest e-commerce platform in the world with a <a href="https://www.cloudways.com/blog/top-ecommerce-platforms/" target="_blank" >market share of 18%</a> and nearly 500k websites using Shopify, as well as 5,300 premium stores running on Shopify Plus. 
+Shopify is now the 3rd largest e-commerce platform in the world with a <a href="https://www.cloudways.com/blog/top-ecommerce-platforms/" target="_blank" >market share of 18%</a> and nearly 500k websites using Shopify, as well as 5,300 premium stores running on Shopify Plus.
 
 It has become a leading tool used by online entrepreneurs to launch their businesses, sell stuff online or support their offline, brick and mortar stores with an online channel.
 
@@ -41,11 +41,11 @@ What are the most common limitations of the Shopify platform, and how do they ge
 
 With 72 themes in total, a drag and drop editor and easy customization, setting up and developing the store based on your specific needs and preferences is not a big deal.
 
-However, for medium and large stores with higher demand when it comes to design and user experience, applying a predefined theme will likely not be enough anymore. 
+However, for medium and large stores with higher demand when it comes to design and user experience, applying a predefined theme will likely not be enough anymore.
 
 With the **limitations of liquid** (which requires some degree of specialized knowledge) and Shopify automatically adding particular elements to the theme, **frontend design can become quite a pain** with development hours not resulting in actual monetary effects.
 
-![Shopify’s predefined checkout at Gymshark](/assets/images/gymshark-checkout.png "Shopify’s predefined checkout at Gymshark (Source: gymshark.com)")
+{% image /assets/images/gymshark-checkout.png checkout checkout %}
 
 _Checkout at Gymshark.co Shopify store (Source: gymshark.co)._
 
@@ -65,7 +65,7 @@ Limited Shopify theme customization can also impact page speed optimization, whi
 
 Significant code alterations and image rendering are both essential steps on the road to successful loading time reductions. With Shopify theme limitations and liquid, **code minification becomes a challenge** or even impossible to apply in the real world.
 
-![Product page page speed for MVM Watches](/assets/images/page-speed-at-mvm-watches.png "Product page page speed for MVM Watches")
+{% image /assets/images/page-speed-at-mvm-watches.png page-speed page-speed %}
 
 _Page speed at MVMT Watches Shopify store's product page (Source: mvmtwatches.com)._
 
@@ -81,7 +81,7 @@ Page speed is at the heart of every e-commerce business. Not only will it make y
 
 With storefront, you get unlimited capabilities when it comes to code minification, image size optimization or creating smooth user experience animations. This can help you reduce the loading time by even 30%.
 
-![Storefront technology structure (source: Vue Storefront)](/assets/images/storefront-technology-structure.png "Storefront technology structure (source: Vue Storefront)")
+{% image /assets/images/storefront-technology-structure.png Storefront Storefront %}
 
 _Example Storefront integration structure (Source: vuestorefront.io)._
 
@@ -95,7 +95,7 @@ Implementing Google Structured Data snippets becomes easier, which will help you
 
 With Shopify checkout being significantly limited to the built-in admin modification (according to Shopify support, this is related to security reasons), a storefront integration will allow you to build a **completely custom checkout experience**.
 
-![Custom Shopify checkout based on Zadig & Voltaire](/assets/images/zadig-voltaire-checkout.png "Custom Shopify checkout based on Zadig & Voltaire (Source: zadig-et-voltaire.com)")
+{% image /assets/images/zadig-voltaire-checkout.png checkout checkout %}
 
 _Custom checkout created using storefront technology at Zadig&Voltaire online store (Source: zadig-et-voltaire.com)._
 
@@ -105,7 +105,7 @@ The average abandonment rate is close to 70%, which makes the checkout experienc
 
 With storefront/PWA implementation, you will support mobile and offline experience among your customers. The storefront will **automatically cache the information about your website** for offline usage. It will also let you download a mobile app to your iPhone/Android desktop.
 
-![PWA / offline mobile application for Kubota](/assets/images/pwa-applications-for-kubota.png "PWA / offline mobile application for Kubota (Source: divante.com)")
+{% image /assets/images/pwa-applications-for-kubota.png pwa pwa %}
 
 _An example of PWA application created for Kubota (Source: divante.co)._
 
@@ -125,8 +125,8 @@ Today’s technology requires being quick and reactive to market changes. With t
 
 Storefront is the solution designed to help e-commerce businesses succeed in the long run. It’s already used by some of the top e-commerce brands, such as Alibaba or Flipkart.
 
-With its open-source architecture, it is flexible enough and gets updated regularly to match the increasing consumers’ needs. 
+With its open-source architecture, it is flexible enough and gets updated regularly to match the increasing consumers’ needs.
 
 So, once you grow your store to the medium-size level, think about implementing it at your store to make sure you keep your business growing at a sustainable rate, staying up to date with new technology, and ensuring the best user experience for your customers. If you do, they’ll likely show their appreciation by converting into actual customers.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

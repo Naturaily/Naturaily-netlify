@@ -128,7 +128,7 @@ end
 
 With templates specified earlier, we see something like this when we visit our ```Posts#index```:
 
-![ranking-1](/assets/images/ranking-1.png "ranking-1")
+{% image /assets/images/ranking-1.png ranking-1 ranking-1 %}
 
 Of course you might want something prettier than plain number.
 With a little effort, you can change it to something cool, for example stars.
@@ -148,7 +148,7 @@ With one small change in our partial file ```_post.html.erb```, like this:
 
 I've achieved result like this:
 
-![ranking-2](/assets/images/ranking-2.png "ranking-2")
+{% image /assets/images/ranking-2.png ranking-2 ranking-2 %}
 
 Pros of this approach:
 
@@ -160,4 +160,4 @@ Pros of this approach:
 Cons:
   You tell me. Are there any?
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

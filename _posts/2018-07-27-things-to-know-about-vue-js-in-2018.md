@@ -24,7 +24,7 @@ tags:
 ---
 Vue.js, the so-called progressive framework took the JavaScript community by storm. Now, the state of Vue.js in 2018 puts it in a very strong position against the competition. Learn why in this blog post.
 
-## Read: [Vue in 2019 - where it is and where it's heading](https://naturaily.com/blog/vue-2019){:target="_blank"} 
+## Read: [Vue in 2019 - where it is and where it's heading](https://naturaily.com/blog/vue-2019){:target="_blank"}
 
 ## Popularity
 
@@ -64,7 +64,7 @@ Let’s not forget about other applications. **GitLab** has leveraged Vue.js bac
 
 There is basically no limitations in terms of how Vue.js can be implemented on the front-end side of your project. We advise you to check out [Made With Vue.js](https://madewithvuejs.com/){:rel="nofollow"}{:target="_blank"} to see how many **great apps** you can build with Vue.js. As you will notice, it is perfect for SPAs. A vue.js application can be easily ‘converted’ into PWAs using [plugins](https://naturaily.com/blog/pwa-vue-cli-3){:target="_blank"} or cross-platform mobile applications using [Weex](https://weex.apache.org/guide/index.html){:rel="nofollow"}{:target="_blank"} or recently released [Vue Native](https://vue-native.io/){:rel="nofollow"}{:target="_blank"} for native applications. These two improve the workflow of the developers because they can just reuse the already existing code and implement it on other platforms. It results in a much shorter time it takes to develop an application.
 
-![vue-js-china](/assets/images/vue-js-china.jpg)
+{% image /assets/images/vue-js-china.jpg vue-js-china vue-js-china %}
 
 It’s also worth mentioning that Vue.js stands really strong in the Chinese market partially because the creator of Vue.js, Evan You, is from China and there is no ‘big multi-billion western company’ standing behind it. This is why Vue.js is often used by Chinese giants such as Alibaba (Aliexpress' parent company), Baidu, Tencent, even Xiaomi and DJI instead of React or Angular.
 
@@ -74,4 +74,4 @@ Here’s a brief comparison between Vue.js and React we did a while back. Check 
 
 _Edit 09.01.2018: Updated links_
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

@@ -75,4 +75,4 @@ Peat Technology claims that their product is 95% accurate. The list of diseases 
 
 What do you think about list? What startups should we add here? Share your thoughts with us in the comments below!
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

@@ -272,4 +272,4 @@ From now on it's all up to you. If you've chosen only those middlewares and fram
 
 That's all for now. Till next time.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
