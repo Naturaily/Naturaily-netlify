@@ -125,6 +125,10 @@ imageoptim:
   threads: 4
   svgo: false
 
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
+
 # Build settings
 
 sass:
@@ -142,6 +146,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-pwa-plugin
   - jekyll-compress-images
+  - jekyll-minifier
 
 incremental: true
 
