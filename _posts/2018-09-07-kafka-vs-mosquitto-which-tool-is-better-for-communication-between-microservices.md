@@ -67,4 +67,4 @@ Check out both tools here:
 * [Eclipse Mosquitto](https://mosquitto.org/){:rel="nofollow"}{:target="_blank"}
 * [Apache Kafka](https://kafka.apache.org/){:rel="nofollow"}{:target="_blank"}
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 

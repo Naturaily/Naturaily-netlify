@@ -414,5 +414,5 @@ That’s all - **5 steps** to build a better implementation of **enums** in Rail
 
 Sometimes all steps will be necessary and another time only a few of them. You can adjust this solution to your needs. Hope that you have found something useful in this article. Let me know in the comments what’s your opinions about **enums**. Maybe you can recommend any further improvements?
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
 

@@ -33,11 +33,11 @@ The time inevitably comes – the planning starts, coders nervously watch in hor
 
 The silence that followed was so intense you could hear a pin drop. Developers sighed. _“Oh, and the owners need it before Friday this week”_, she added after a short moment. Now, the massacre starts...
 
-![null](/assets/images/image4.gif)
+{% image /assets/images/image4.gif null null %}
 
 ...Everybody’s in a bit of a panic. Joe, the Ruby on Rails guy is starting to think out loud about the code. He remembers it, he is one of the sinners that left that abomination – hiding, feeding on new data and becoming impossible to remove. Jenny, React.js developer, remembers old tales of the first, failed attempts at building an Angular front-end app. A lonely tear slides down her cheek as she realises she is the one to battle with the beast.
 
-![null](/assets/images/image1.gif)
+{% image /assets/images/image1.gif null null %}
 
 Then Joe, the eager guy, says:
 
@@ -47,7 +47,7 @@ Everyone seems suddenly excited about the idea. A few following hours are spent 
 
 And that’s a common scenario. Legacy code is made a bit worse with every commit, it reaches the point when it’s too expensive to change. Adding new features is sometimes awkward, tricky – or simply impossible. You get an idea to “refactor” it in a big way, then you start to plan the refactor, you start the refactor and end up with a brand new code… That needs to change because the business requirements changed.
 
-![null](/assets/images/image2.gif)
+{% image /assets/images/image2.gif null null %}
 
 What’s the problem? **Are we supposed to accept our lives as legacy code support team? The thing is… you’re biased.** You only see the bad parts of the old codebase. Of course, it’s clunky and full of bloaters. Some parts were touched, patched and changed too many times, yes. It is all true, alright, but there is a specific characteristic that makes your particular legacy code incredibly valuable. To demonstrate this, let me show an example.
 
@@ -104,4 +104,4 @@ Enjoy your small refactors!
 
 Farewell
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

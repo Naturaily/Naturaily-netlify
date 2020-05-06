@@ -169,4 +169,4 @@ What other solutions would you suggest for our case and why? We’re always happ
 
 **Special thanks to the reviewer of this post: Jakub Flasiński.**
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 

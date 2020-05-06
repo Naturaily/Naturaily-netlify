@@ -27,69 +27,69 @@ Software development is not a walk in the park. It’s rather a 24-hour run thro
 
 ## 1. BUGs! BUGs! BUGs everywhere :/
 
-  ![bugs](/assets/images/1_BUGs.gif " ")
+  {% image /assets/images/1_BUGs.gif bugs bugs %}
 
 ## 2. Imgur blocked!
 
-  ![imgur-blocked](/assets/images/2_imgur.gif " ")
+  {% image /assets/images/2_imgur.gif imgur imgur %}
 
 ## 3. Humorless PM
 
-  ![humorless-pm](/assets/images/3_humorless pm.gif " ")
+  {% image /assets/images/3_humorless pm.gif humorless humorless %}
 
 ## 4. Fixing someone's else code
 
-  ![fixing-code](/assets/images/4_fixing.gif " ")
+  {% image /assets/images/4_fixing.gif code code %}
 
 ## 5. Deploy on Friday evening
 
-  ![friday-deploy](/assets/images/5_deploy.gif " ")
+  {% image /assets/images/5_deploy.gif deploy deploy %}
 
 ## 6. When test fails when run together but passes alone
 
-  ![test-fails](/assets/images/6_tests.gif " ")
+  {% image /assets/images/6_tests.gif fails fails %}
 
 ## 7. Perl script using German
 
-  ![perl-script](/assets/images/7_german.gif " ")
+  {% image /assets/images/7_german.gif script script %}
 
 ## 8. Gitlab loading branches for hours
 
-  ![gitlab-loading](/assets/images/8.gif " ")
+  {% image /assets/images/8.gif gitlab gitlab %}
 
 ## 9. ASAP (what does it even mean?!)
 
-  ![asap](/assets/images/9_asap.gif " ")
+  {% image /assets/images/9_asap.gif asap asap %}
 
 ## 10. COBOL programming
 
-  ![cobol](/assets/images/10_cobol.gif " ")
+  {% image /assets/images/10_cobol.gif cobol cobol %}
 
 ## 11. Boredom
 
-  ![boredom](/assets/images/11_boredom.gif " ")
+  {% image /assets/images/11_boredom.gif boredom boredom %}
 
 ## 12. Supporting Internet Explorer
 
-  ![IE](/assets/images/12_IE.gif " ")
+  {% image /assets/images/12_IE.gif IE IE %}
 
 ## 13. Remaining unrecognized
 
-  ![Remaining-unrecognized](/assets/images/13_unrecognized.jpg " ")
+  {% image /assets/images/13_unrecognized.jpg Remaining Remaining %}
 
 ## 14. Breaking finger!
 
-  ![breaking-fingers](/assets/images/14_fingers.gif " ")
+  {% image /assets/images/14_fingers.gif fingers fingers %}
 
 ## 15. Ties!
 
-  ![ties](/assets/images/15_ties.gif " ")
+  {% image /assets/images/15_ties.gif ties ties %}
 
 ## 16. Hearing “There is a slight change in the requirements”
 
-  ![change-in-requirements](/assets/images/17_change.gif " ")
+  {% image /assets/images/17_change.gif requirements requirements %}
 
 
 What's your biggest fear?
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

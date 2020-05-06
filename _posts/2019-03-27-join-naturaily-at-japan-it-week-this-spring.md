@@ -40,9 +40,9 @@ Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec
 
 ## LVCloud
 
-![LVCloud](/assets/images/lvcloud.png)
+{% image /assets/images/lvcloud.png LVCloud LVCloud %}
 
-We will be presenting our own [IoT development](https://naturaily.com/portfolio/lvcloud){:target="_blank"} case study - LVCloud. It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed. 
+We will be presenting our own [IoT development](https://naturaily.com/portfolio/lvcloud){:target="_blank"} case study - LVCloud. It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed.
 
 <br>
 
@@ -54,8 +54,8 @@ We will be presenting our own [IoT development](https://naturaily.com/portfolio/
 
 Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour).
 
-![Naturaily on Tour Map](/assets/images/natu_on_tour_map.jpeg)
+{% image /assets/images/natu_on_tour_map.jpeg NaturailyOnTourMap NaturailyOnTourMap %}
 
 <br>
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

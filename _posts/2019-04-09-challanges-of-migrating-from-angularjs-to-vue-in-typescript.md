@@ -124,4 +124,4 @@ I don’t recommend TypeScript for small projects or quick prototypes, JavaScrip
 
 <br>
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

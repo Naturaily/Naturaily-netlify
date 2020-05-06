@@ -44,13 +44,13 @@ Now, a few years later we ask ourselves a question. Is Ruby on Rails really dead
 
 ### StackOverflow
 
-![ruby-on-rails-stackoverflow-trends](/assets/images/ruby-on-rails-stackoverflow-trends.jpg)
+{% image /assets/images/ruby-on-rails-stackoverflow-trends.jpg trends trends %}
 
 Let’s start with some data from StackOverflow. We can clearly see a significant decrease in community engagement from Ruby and Ruby on Rails compared to Node.js. Yet, Node.js’ community is continuously growing and getting highly popular. Interest in Ruby on Rails framework and Ruby language is closer to 0% than ever before.
 
 ### StackOverflow Developer Survey
 
-![ruby-on-rails-stackoverflow-survey-2018](/assets/images/ruby-on-rails-stackoverflow-survey-2018.jpg){:.float}
+{% image /assets/images/ruby-on-rails-stackoverflow-survey-2018.jpg survey survey %}
 
 StacOverflow's annual tradition is to ask developers what they think about certain programming languages themselves and the industry in general. With that, one of the questions was what programming language do they use at work and the results are visible above.
 
@@ -64,7 +64,7 @@ According to the results from the same survey, globally Ruby developers have a s
 
 Things look a bit different if we focus only on the United States.
 
-![ruby-on-rails-salary-indeed-com](/assets/images/ruby-on-rails-salary-indeed.jpg)
+{% image /assets/images/ruby-on-rails-salary-indeed.jpg indeed indeed %}
 
 You can clearly see that Ruby developer is still one of the highest paying jobs in this category but the number of available positions are getting lower and lower. There are nearly 2-times more open positions for a Node JS developer than there is for a Ruby on Rails developer.
 
@@ -78,13 +78,13 @@ Chances are that you will be assembling your development team from scratch. From
 
 8th place in June of 2018.
 
-![redmonk-ruby](/assets/images/redmonk-ruby.png)
+{% image /assets/images/redmonk-ruby.png redmonk redmonk %}
 
 RedMonk takes GitHub and StackOverflow interest in the language and then compares it with all other major languages. We can clearly see that Ruby is far from being dead as many of doomsayers tend to say. With Ruby being kind of at the top we can conclude that it is still a popular language used to develop tools and apps. But don’t get too excited.
 
 **GitHub Stats**
 
-![github-osctoverse-ruby-on-rails](/assets/images/github-octoverse-ruby-on-rails.jpg){:.float}
+{% image /assets/images/github-octoverse-ruby-on-rails.jpg osctoverse osctoverse %}
 
 This comparison shows how popular a certain language is among GitHub contributors - in other words, how many repositories are developed in a certain technology. It’s quite clear who’s the real winner. As we can see, fewer and fewer projects opt for Ruby. Even though it is still in the top 10 most popular languages out there, it’s used less and less each year.
 
@@ -113,7 +113,7 @@ If you’re a startup then you have probably heard or even are using **Basecamp*
 
 **Shopify**, a gigantic e-commerce platform.
 
-Recently we have developed a really interesting application for handling online real-time bidding during auctions. We have used Ruby on Rails on the backend and VueJS for frontend. It truly works like a charm. You can read more about it here [Artinfo - Portfolio](https://naturaily.com/portfolio/artinfo){:target="_blank"}. 
+Recently we have developed a really interesting application for handling online real-time bidding during auctions. We have used Ruby on Rails on the backend and VueJS for frontend. It truly works like a charm. You can read more about it here [Artinfo - Portfolio](https://naturaily.com/portfolio/artinfo){:target="_blank"}.
 
 > “GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength."
 >
@@ -263,4 +263,4 @@ Even though, after reading this post, using Ruby and Ruby on Rails may seem coun
 
 Recent and upcoming releases of Ruby on Rails sound very promising. Many of developers' complaints have been fixed, new exciting features are added with every new [version](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/){:rel="nofollow"}{:target="_blank"}. Hopefully Ruby and Rails will both rise again in the near future.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

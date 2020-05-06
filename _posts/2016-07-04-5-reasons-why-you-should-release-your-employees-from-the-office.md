@@ -30,7 +30,7 @@ The first thing a service company like ours does is, of course, rent office spac
 
 So… we gave it a shot!
 
-![couch](https://media.giphy.com/media/xT8qAY0Ix4lGwMSHBe/giphy.gif "couch")
+{% image https://media.giphy.com/media/xT8qAY0Ix4lGwMSHBe/giphy.gif couch couch %}
 
 
 
@@ -44,7 +44,7 @@ We have introduced a company-wide remote work day. From now on everyone in Natur
 
 Speaking of which: Greetings from my living room couch ;)
 
-![couch](/assets/images/couch-greetings.jpg "couch")
+{% image /assets/images/couch-greetings.jpg couch couch %}
 
 
 ## 1. Remote work fosters loyalty! ##
@@ -77,4 +77,4 @@ Speaking of which: Greetings from my living room couch ;)
 
    We're making our first steps in implementing remote work and are open to reading about your experiences. Is allowing telecommuting a good idea? If not, what are the consequences?
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

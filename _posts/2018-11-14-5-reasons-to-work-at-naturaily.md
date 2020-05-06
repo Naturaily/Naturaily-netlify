@@ -30,7 +30,7 @@ We put emphasis on personal development. At Naturaily we often send our employee
 
 ## From zero to hero
 
-Recently we’ve introduced a new path for Junior Developers that we call… **Codemaggedon**. It’s an amazing opportunity for you and other aspiring developers to grow and obtain knowledge. Within a reasonable time we will teach you all of the good programming practices, how to use new tools such as Docker and how to work effectively within your team. Also, we’re a huge Agile lovers so expect to learn this too! You will become a mid or even a senior in no time! 
+Recently we’ve introduced a new path for Junior Developers that we call… **Codemaggedon**. It’s an amazing opportunity for you and other aspiring developers to grow and obtain knowledge. Within a reasonable time we will teach you all of the good programming practices, how to use new tools such as Docker and how to work effectively within your team. Also, we’re a huge Agile lovers so expect to learn this too! You will become a mid or even a senior in no time!
 
 ## Like pizza? We’ll buy it
 
@@ -38,7 +38,7 @@ Each week we have Pizza Friday! That’s right! We love spending quality time to
 
 And the fun doesn’t end there. Each time we finish a project or a product we throw a celebration party. For such occasions we usually go out and have fun at museums or shooting ranges, it really depends on the theme.
 
-![null](/assets/images/why-work-at-naturaily-3.jpg)
+{% image /assets/images/why-work-at-naturaily-3.jpg null null %}
 
 ## Like to sleep-in? Work from home
 
@@ -52,7 +52,7 @@ On your first day at Naturaily, you will be equipped with a MacBook so you won�
 
 What would great hardware be without great software? We use all sorts of tools and applications to make our lives easier and more productive. From Slack and Appear.in, to always keep in touch with other team members, Adobe Cloud, InVision and Sketch for those beautiful UI designs, to PluralSight so that every team member can always learn and improve their skills.
 
-![null](/assets/images/why-work-at-naturaily.jpg)
+{% image /assets/images/why-work-at-naturaily.jpg null null %}
 
 ## Like informal atmosphere? Join us
 
@@ -62,4 +62,4 @@ After time-consuming and challenging tasks you can go relax in our chill room. I
 
 There is no hierarchy in our teams. We highly value equality. Everyone is allowed to speak their minds and is treated equally, no matter their position or experience.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

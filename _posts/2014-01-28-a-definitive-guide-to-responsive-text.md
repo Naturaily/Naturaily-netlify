@@ -2,7 +2,7 @@
 title: A Definitive Guide to Responsive Text
 description: >-
   Creating a responsive web design can sometimes make us forget about webpage's
-  most important piece - the text. Check out our guide to responsive text! 
+  most important piece - the text. Check out our guide to responsive text!
 slug: responsive-text-guide
 date: '2014-01-28 10:38:01 +0000'
 category: Frontend development
@@ -136,4 +136,4 @@ The responsive text approach is fairly simple - use relative units everywhere an
 
 That would be all for now. Till next time!
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

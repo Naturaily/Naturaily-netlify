@@ -34,7 +34,7 @@ Appreciate the insight of someone with expertise: the main reason why this probl
 
 No matter the reasons, there’ve been a few attempts to resolve the problem.
 
-![help-1](/assets/images/help-1.png "help-1")
+{% image /assets/images/help-1.png help help %}
 
 First of them were just as effective as popular Polish commentator, Jacek Gmoch’s ramblings about a football game. To cut the long story short: trying to show users everything in the app never turns out well. As a user, I rarely have so much time to download and learn an app as I would learning for my final exams or driving license. Getting in-app “tutorials” right requires even more testing, and may involve hiring additional people who can design such screens so that the user can actually understand them. If you have ever seen a developer struggle when speaking to a regular human being about a project he is working on, just try to imagine how it would go when he could use only arrows and text.
 
@@ -60,4 +60,4 @@ Still, it may not be enough. Android 6.0 Marshmallow lets users decide what perm
 
 In sum, the ultimate answer always lies in the middle and it’s best to rely on your users. This shows the importance of gathering data and being up to speed on UX and development practices.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

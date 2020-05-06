@@ -72,4 +72,4 @@ To sum up, we implement the following “Natudologies” actually:
 
 Remember, every organization is different and has its own history. How it evolved in your company?
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

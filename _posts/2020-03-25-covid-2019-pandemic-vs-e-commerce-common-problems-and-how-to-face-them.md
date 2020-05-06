@@ -2,7 +2,7 @@
 title: 'COVID-2019 Pandemic vs E-commerce - Common Problems and How to Face Them '
 description: >-
   Coronavirus' global spread is predicted to take its toll on e-commerce,
-  changing shopping habits and demand for certain products. 
+  changing shopping habits and demand for certain products.
 slug: covid-2019-pandemic-vs-ecommerce-common-problems-and-how-to-face-them
 layout: post
 date: '2020-03-25 02:53:41 +0200'
@@ -15,7 +15,7 @@ image: /assets/images/Blog_COVID-2019_Pandemic_vs_E-commerce.png
 text-preview: >-
   COVID-19 coronavirus is officially a global pandemic. As it’s spreading around
   the world at a fast pace, it is predicted to take its toll on both people and
-  businesses, including the e-commerce industry. 
+  businesses, including the e-commerce industry.
 tags:
   - Retail
   - E-commerce development
@@ -60,13 +60,13 @@ Plus, there’s a risk of long-term economic uncertainty, so your customers may 
 
 With the lion’s share of consumers staying home, it makes perfect sense that e-commerce retailers will see an upsurge in traffic. E-commerce consultant Dan Barker highlights the impact of coronavirus across different retail categories [on his Twitter](https://twitter.com/danbarker/status/1239307814549454849){:rel="nofollow"}{:target="_blank"}. For example, furniture stores and garden furniture are doing pretty well. At the same time, all topics related to fashion have noted a major drop.
 
-![](/assets/images/Blog_Furniture_stores_google_trends.png "Furniture industry ")
+{% image /assets/images/Blog_Furniture_stores_google_trends.png trends trends %}
 
-<small class="text-center">Furniture industry interest rising </small> 
+<small class="text-center">Furniture industry interest rising </small>
 
-![](/assets/images/Blog_Fashion_industry_google_trends.png "Fashion industry")
+{% image /assets/images/Blog_Fashion_industry_google_trends.png trends trends %}
 
-<small class="text-center">Fashion industry interest dropping </small> 
+<small class="text-center">Fashion industry interest dropping </small>
 
 Let’s be honest with each other, the coronavirus situation will probably continue or even worsen in the next few weeks and beyond. It might not be the case that all sectors will benefit from this. Shelley E Kohan, [writing for Forbes](https://www.forbes.com/sites/shelleykohan/2020/03/06/a-change-in-consumer-behavior-from-coronavirus-fears-may-drive-us-e-commerce-sales-beyond-projections-of-12-of-total-retail-sales-in-2020/){:rel="nofollow"}{:target="_blank"}, noted that:
 
@@ -80,7 +80,7 @@ However, while e-commerce retailers may benefit in the short-term, there are iss
 
 As the virus began to do damage in the US (the article shows the data from the March 15th, but now the number of infected Americans is dramatically increasing, with the number of app downloads getting much higher), grocery apps have experienced record numbers of daily downloads in March, according to app analytics portal[ Apptopia](https://blog.apptopia.com/instacart-and-grocery-delivery-apps-set-consecutive-days-of-record-downloads){:rel="nofollow"}{:target="_blank"}.
 
-![](/assets/images/Blog_.Grocery_App.png "Grocery app")
+{% image /assets/images/Blog_.Grocery_App.png app app %}
 
 <small class="text-center">Source: [Apptopia](https://blog.apptopia.com/instacart-and-grocery-delivery-apps-set-consecutive-days-of-record-downloads){:rel="nofollow"}{:target="_blank"}</small> 
 
@@ -112,9 +112,9 @@ Interestingly, we’re also hearing arguments that, in the long term, online sho
 >
 > *It will be a net positive for all digital commerce, especially grocery and household supplies and things like that. You’ll see a bump from this and that behavior will persist going forward.*
 
-![Amish Jani](/assets/images/Blog_Amish_Jani.png "Amish Jani")
+{% image /assets/images/Blog_Amish_Jani.png Amish Amish %}
 
-<small class="text-center">Amish Jani </small> 
+<small class="text-center">Amish Jani </small>
 
 ## COVID-19 tips for e-commerce stores
 
