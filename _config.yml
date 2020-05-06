@@ -103,7 +103,8 @@ defaults:
 permalink: /blog/:title
 
 pwa:
-  sw_filename: service-worker.js # Required
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
   dest_js_directory: assets/js # Required
   cache_name: my-cache # Optional
   precache_recent_posts_num: 5 # Optional
@@ -114,11 +115,6 @@ pwa:
   precache_glob_ignores: # Optional
     - sw-register.js
     - "fonts/**/*"
-  runtime_cache: # Optional
-    - route: /^api\/getdata/
-      strategy: networkFirst
-    - route: "'/api/pic'"
-      strategy: cacheFirst
 
 compress_images:
   images_path: "assets/images/**/*.{gif,png,jpg,jpeg,svg}"
