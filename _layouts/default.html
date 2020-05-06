@@ -25,5 +25,9 @@
     <script src="/assets/js/sticky-waypoints.min.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     {% include lazyload.html %}
+
+    {% if page.url contains "/blog" %}
+      <script src="/assets/js/disqus-loader.min.js"></script>
+    {% endif %}
   </body>
 </html>
