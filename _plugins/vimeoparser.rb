@@ -21,36 +21,15 @@ class Vimeo < Liquid::Tag
 
   def render(context)
     "<div class='embed-container'><iframe
-      data-vimeo
-      class=\"lazyload\"
       width=\"#{@width}\"
       height=\"#{@height}\"
       data-src=\"https://player.vimeo.com/video/#{@id}\"
+      loading=\"lazy\"
       frameborder=\"0\"
       webkitallowfullscreen
       mozallowfullscreen
       allowfullscreen
     ></iframe></div>
-
-    <script>
-      const vimeo = $('[data-vimeo]');
-
-      function handleLazyLoad() {
-        const storeSRC = vimeo.dataset.src;
-
-        vimeo.addEventListener('lazyloaded', () => {
-          delete vimeo.dataset.src;
-          vimeo.src = storeSRC;
-          initPlayer();
-        });
-      }
-
-      function initPlayer() {
-        const player = new Vimeo.Player(vimeo);
-      }
-
-      handleLazyLoad();
-    </script>
     "
   end
 
