@@ -1,6 +1,4 @@
 .portfolio-goal--awn {
-
-
   .portfolio__quote {
     color: $color-portfolio-text;
 
@@ -32,6 +30,7 @@
     }
   }
 }
+
 @media (min-width: 811px) {
   .portfolio-goal--awn {
     .portfolio__quote {
@@ -71,18 +70,6 @@
     .portfolio__columns--right img {
       width: calc(100% + 50px);
       max-width: 500px;
-    }
-  }
-}
-
-@media (min-width: 1200px) {
-  .portfolio-goal--awn {
-    .portfolio__quote {
-
-
-      .icon-quote {
-
-      }
     }
   }
 }

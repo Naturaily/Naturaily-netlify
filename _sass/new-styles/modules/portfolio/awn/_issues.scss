@@ -72,9 +72,14 @@
 }
 
 @media (min-width: 576px) {
-  .portfolio-issues__tabs-tab__image {
-    width: 100%;
-    margin: 25px 0;
+  .portfolio-issues__tabs-tab {
+    height: calc(0.4 * 100vw + 220px);
+
+    &__image {
+      width: 100%;
+      margin: 25px 0;
+      border-radius: 8px;
+    }
   }
 }
 
@@ -115,6 +120,10 @@
 
     &__tabs {
       padding-left: 30px;
+
+      &-tab {
+        height: 450px;
+      }
     }
 
     &__figure {
@@ -177,19 +186,18 @@
 @media (min-width: 992px) {
   .portfolio-issues {
     &__nav {
-      left: 60px;
+      left: 100px;
       padding-right: 100px;
     }
+
     &__tabs {
       padding-left: 80px;
     }
   }
 }
 
-@media (min-width: 992px) {
-  .portfolio-issues {
-    &__nav {
-      left: 100px;
-    }
+@media (min-width: 1200px) {
+  .portfolio-issues__tabs-tab {
+    height: 500px;
   }
 }
