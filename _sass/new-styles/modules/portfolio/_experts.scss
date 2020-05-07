@@ -84,10 +84,17 @@
       li {
         display: flex;
         flex-direction: column;
-        width: 20%;
         padding: 40px 0 20px;
         text-align: center;
       }
+    }
+
+    &--five .portfolio__columns li {
+      width: 20%;
+    }
+
+    &--four .portfolio__columns li {
+      width: 25%;
     }
   }
 }
