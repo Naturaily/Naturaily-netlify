@@ -14,8 +14,7 @@
     position: absolute;
     top: 110px;
     height: 1px;
-    background-color: $color-secondary;
-    opacity: 0.1;
+    background-color: $color-global-font-10;
   }
 
   &__list {
@@ -88,6 +87,8 @@
 
       &::after {
         display: block;
+        width: calc(100% + 100px);
+        left: -50px;
       }
 
       &-item {

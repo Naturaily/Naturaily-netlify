@@ -1,5 +1,6 @@
 .portfolio-experts {
   margin-bottom: -50px;
+  background-color: $color-code-orange-bg;
 
   &__number {
     position: absolute;
@@ -96,11 +97,15 @@
     &--four .portfolio__columns li {
       width: 25%;
     }
+
+    &--moved {
+      padding-top: 75px;
+    }
   }
 }
 
 @media (min-width: 1200px) {
-  .portfolio-experts  {
+  .portfolio-experts {
     &__number {
       left: 30px;
     }
