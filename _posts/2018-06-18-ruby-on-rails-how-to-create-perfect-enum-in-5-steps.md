@@ -44,6 +44,7 @@ To better understand the topic let’s add some real background. In our recent p
 Adding enum to an existing model is a really simple task. First of all, you need to create an appropriate migration. Notice that column type is set to integer and this is how Rails keeps **enums** values in the database.
 
 `rails g migration add_status_to_catalogs status:integer`
+
 ```
 class AddStatusToCatalogs < ActiveRecord::Migration[5.1]
   def change
@@ -51,12 +52,15 @@ class AddStatusToCatalogs < ActiveRecord::Migration[5.1]
   end
 end
 ```
+
 Next step is to declare **enum** attribute in the model.
+
 ```
 class Catalog < ActiveRecord::Base
   enum status: [:published, :unpublished, :not_set]
 end
 ```
+
 Run the migrations and that’s it! From now you can take advantage of the whole bunch of extra methods.
 
 For example, you can check if the current status is set to a specific value:
@@ -89,11 +93,13 @@ class Catalog < ActiveRecord::Base
   enum localization: [:home, :foreign, :none]
 end
 ```
+
 ```
 0 -> home
 1 -> foreign
 2 -> none
 ```
+
 That approach is not flexible at all. Imagine that requirements just have changed. From now "foreign" localization should be split into "America" and "Asia". In that case, you should remove old value and add two new ones. But... you cannot remove unused "foreign" type, because it violates an order of remaining values. To avoid this situation you should declare your **enum** as a `Hash`. There is not much to do:
 
 ```
@@ -101,6 +107,7 @@ class Catalog < ActiveRecord::Base
   enum localization: { home: 0, foreign: 1, none: 2 }
 end
 ```
+
 This declaration doesn’t depend on an order so you will be able to implement the changes and get rid of unused **enum** value.
 
 ## 2. Integrate ActiveRecord::Enum with PostgreSQL enum
@@ -117,6 +124,7 @@ We got an error as we expected:
 ActiveRecord::StatementInvalid: PG::InvalidTextRepresentation:
 ERROR: invalid input syntax for integer: "finished"
 ```
+
 This problem occurs only in the array format of `where clause` because the second value is put directly into `SQL where clause` and obviously "finished" is not an integer.
 
 A similar case can appear when you implement complex `SQL query` omitting `ActiveRecord` layer. When the query hasn’t access to the model then you lose meaningful information about values and stay with pure integers without sense. In that case, you need to put an extra effort to make these integers meaningful again.
@@ -133,8 +141,7 @@ Let’s see how it looks this time.
 
 `rails g migration add_status_to_catalogs status:catalog_status`
 
-You need to change attribute type. I don’t recommend creating types like "status". It is likely that another status will appear in the future.
-Next, you need to change migration a little. Most of all it must be **reversible** and could **execute SQL**.
+You need to change attribute type. I don’t recommend creating types like "status". It is likely that another status will appear in the future. Next, you need to change migration a little. Most of all it must be **reversible** and could **execute SQL**.
 
 ```
 class AddStatusToCatalogs < ActiveRecord::Migration[5.1]
@@ -179,11 +186,10 @@ end
 ## 4. Use prefix or suffix option in your enums
 
 **Vulnerabilities before change:**
-- Unintuitive scopes
 
-- Bad readability of helper methods
-
-- Prone to errors
+* Unintuitive scopes
+* Bad readability of helper methods
+* Prone to errors
 
 Referring to our recent project again, we had a few **enums** in our `Catalog` model:
 
@@ -212,6 +218,7 @@ Catalog.live
 Catalog.unpublished
 Catalog.in_progress
 ```
+
 Can you say with ease what these methods return? No, you need to remember all the time how the scopes look. It may be annoying, really.
 
 ```
@@ -220,14 +227,17 @@ Catalog.live_auction_type
 Catalog.status_unpublished
 Catalog.state_in_progress
 ```
+
 That looks much better.
 
 Let's suppose now that you need to add one more **enum** to your model. It should keep information about the order of each catalog inside the global catalog. The order of some catalogs may not be specified. Most important is to know which one is first and which is last. We can create another **enum**:
+
 ```
 class Catalog < ActiveRecord::Base
   enum order: { first: "first", last: "last", other: "other", none: "none" }
 end
 ```
+
 Let's open `rails console` to test new scopes:
 
 `Catalog.order`
@@ -239,6 +249,7 @@ We got an error. It’s self-explanatory.
  the model "Catalog", but this will generate a class method
  "first", which is already defined by Active Record.
 ```
+
 Ok, we can fix it:
 
 ```
@@ -246,6 +257,7 @@ class Catalog < ActiveRecord::Base
   enum order: { first_catalog: "first_catalog", last_catalog: "last_catalog", other: "other", none: "none" }
 end
 ```
+
 And again, another error:
 
 ```
@@ -310,7 +322,7 @@ Then in your corresponding model, you need to overwrite this attribute. In our p
 
 ```
 class Address < ApplicationRecord
-  enum voivodeship: array_to_enum_hash(Voivodeship::VOIVODESHIPS), _sufix: true
+  enum voivodeship: array_to_enum_hash(Voivodeship::VOIVODESHIPS), _suffix: true
 
   def voivodeship
     @voivodeship ||= Voivodeship.new(read_attribute(:voivodeship))
@@ -400,7 +412,7 @@ end
 
 ```
 class Catalog
-  enum status: array_to_enum_hash(CatalogStatus::STATUSES), _sufix: true
+  enum status: array_to_enum_hash(CatalogStatus::STATUSES), _suffix: true
 
   def status
     @status ||= CatalogStatus.new(read_attribute(:status))
@@ -414,5 +426,4 @@ That’s all - **5 steps** to build a better implementation of **enums** in Rail
 
 Sometimes all steps will be necessary and another time only a few of them. You can adjust this solution to your needs. Hope that you have found something useful in this article. Let me know in the comments what’s your opinions about **enums**. Maybe you can recommend any further improvements?
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
-
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
