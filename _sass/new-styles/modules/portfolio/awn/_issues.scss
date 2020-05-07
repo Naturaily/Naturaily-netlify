@@ -17,14 +17,15 @@
         span {
           position: absolute;
           left: 0;
-          top: 15px;
-          font-size: 0.8em;
+          top: 10px;
+          font-size: 0.7em;
         }
 
         .paragraph {
           padding: 0;
-          padding-left: 30px;
+          padding-left: 25px;
           font-size: 1em;
+          font-weight: 600;
         }
 
         &--active span, &--active .paragraph {
@@ -50,12 +51,16 @@
 
       span {
         position: absolute;
-        top: -34px;
+        top: -35px;
         left: 0;
-        font-size: 3em;
+        font-size: 3.2em;
         font-weight: 700;
         color: $color-accent-yellow;
         opacity: 0.4;
+      }
+
+      .portfolio__description {
+        font-weight: 600;
       }
     }
 
