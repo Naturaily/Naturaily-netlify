@@ -1,10 +1,10 @@
 .portfolio__section {
   box-sizing: border-box;
+  position: relative;
   width: 100%;
   padding: 50px 35px;
 
   &--orange {
-    margin-top: 50px;
     border-radius: 8px;
     background-color: $color-code-orange-bg;
   }
@@ -22,6 +22,7 @@
 
     div.portfolio-experts {
       margin-top: -5px;
+      margin-bottom: -50px;
       border-radius: 0 0 8px 8px;
     }
   }
@@ -77,6 +78,20 @@
     margin: 0 1em 3px -1.3em;
     border-radius: 100%;
     background-color: $color-secondary;
+  }
+}
+
+.portfolio__quote {
+  display: block;
+  position: relative;
+  font-size: 1.2em;
+  line-height: 1.5;
+
+  .icon-quote {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+    color: $color-accent-yellow;
   }
 }
 

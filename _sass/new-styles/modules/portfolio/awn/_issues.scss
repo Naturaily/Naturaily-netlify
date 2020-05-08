@@ -1,0 +1,208 @@
+.portfolio-issues {
+  &__nav {
+    margin-top: 50px;
+
+    &-list {
+      padding: 30px 0;
+
+      &__item {
+        position: relative;
+        padding: 10px 0;
+        cursor: pointer;
+
+        span, .paragraph {
+          transition: 0.6s;
+        }
+
+        span {
+          position: absolute;
+          left: 0;
+          top: 10px;
+          font-size: 0.7em;
+        }
+
+        .paragraph {
+          padding: 0;
+          padding-left: 25px;
+          font-size: 1em;
+          font-weight: 600;
+        }
+
+        &--active span, &--active .paragraph {
+          color: $color-accent-yellow;
+        }
+      }
+    }
+  }
+
+  &__tabs-tab {
+    padding: 50px 0;
+    display: none;
+    opacity: 0;
+
+    &--active {
+      display: block;
+      opacity: 1;
+    }
+
+    &__header {
+      position: relative;
+      padding-left: 15px;
+
+      span {
+        position: absolute;
+        top: -35px;
+        left: 0;
+        font-size: 3.2em;
+        font-weight: 700;
+        color: $color-accent-yellow;
+        opacity: 0.4;
+      }
+
+      .portfolio__description {
+        font-weight: 600;
+      }
+    }
+
+    &__image {
+      width: 100vw;
+      margin: 25px -35px;
+    }
+  }
+
+  .portfolio__description {
+    color: $color-portfolio-text-second;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-issues__tabs-tab {
+    height: calc(0.4 * 100vw + 220px);
+
+    &__image {
+      width: 100%;
+      margin: 25px 0;
+      border-radius: 8px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-issues {
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-bottom: -75px;
+      padding-bottom: 75px;
+
+      &::after {
+        content: " ";
+        position: absolute;
+        left: -100px;
+        bottom: 70px;
+        height: 1px;
+        width: calc(100% + 200px);
+        background-color: $color-global-font-10;
+      }
+    }
+
+    &__nav, &__tabs, .portfolio__step, .portfolio__title {
+      z-index: 2;
+    }
+
+    &__nav, &__tabs {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &__nav {
+      position: relative;
+      top: -50px;
+      padding-right: 50px;
+    }
+
+    &__tabs {
+      padding-left: 30px;
+
+      &-tab {
+        height: 450px;
+      }
+    }
+
+    &__figure {
+      &-circle {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        border-radius: 100%;
+        border: 1px solid $color-secondary;
+        opacity: 0.1;
+
+        &--small {
+          width: 200px;
+          height: 200px;
+        }
+
+        &--medium {
+          width: 400px;
+          height: 450px;
+        }
+
+        &--big {
+          width: 700px;
+          height: 700px;
+        }
+      }
+
+      &-dot {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 13px;
+        height: 13px;
+        z-index: 1;
+        border-radius: 100%;
+
+        &--secondary {
+          background-color: $color-secondary;
+          transform: translate(10px, -105px);
+        }
+
+        &--blue {
+          background-color: $color-geometric-blue;
+          transform: translate(-150px, 150px);
+        }
+
+        &--yellow {
+          background-color: $color-accent-yellow;
+          transform: translate(-160px, -320px);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-issues {
+    &__nav {
+      left: 100px;
+      padding-right: 100px;
+    }
+
+    &__tabs {
+      padding-left: 80px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-issues__tabs-tab {
+    height: 500px;
+  }
+}

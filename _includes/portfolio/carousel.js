@@ -2,7 +2,11 @@ window.addEventListener('load', () => {
   const $carouselWrappers = $('[data-carousel="wrapper"]');
   let slideChangeGoing = false;
 
-  $carouselWrappers.on('mousedown touchstart', initCarousel);
+  $carouselWrappers.on('mousedown touchstart', () => {
+    if ($(window).width() < 811) {
+      initCarousel();
+    }
+  });
 
   function initCarousel() {
     const $targetCarousel = $(event.target).closest($('[data-carousel="wrapper"]'));
