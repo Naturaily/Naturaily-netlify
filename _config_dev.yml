@@ -1,0 +1,125 @@
+title: Naturaily
+email: hello@naturaily.com
+description: >
+  Agile web and mobile development team building Ruby on Rails, React and
+  React Native applications for startups and enterprises. Let’s talk!
+baseurl: ''
+url: 'https://naturaily.com'
+twitter_username: naturaily
+github_username:  naturaily
+highlighter: rouge
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/:num/'
+  indexpage: 'index'
+  sort_reverse: true
+collections:
+  career:
+    output: true
+    permalink: /join/:path
+  portfolio:
+    output: true
+    permalink: /portfolio/:path
+  project:
+    output: true
+    permalink: /project/:path
+  services:
+    output: true
+    permalink: /services/index.html
+  authors:
+    output: true
+    permalink: blog/authors/:path
+  test:
+    output: true
+
+blog:
+  tags:
+    url: /blog/tags/
+    title_prefix: " "
+    layout: tag.html
+  categories:
+    url: /blog/categories/
+    title_prefix: " "
+    layout: category.html
+  authors:
+    url: /blog/authors/
+    title_prefix: " "
+    layout: author.html
+
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+      comments: true
+      description: ' '
+      category: ' '
+      author: ' '
+      tags: ' '
+      image: ' '
+      text-preview: ' '
+  -
+    scope:
+      path: ''
+      type: 'career'
+    values:
+      layout: 'career-details'
+      published: ''
+      description: ' '
+      type: ' '
+      salary: ' '
+      requirements: '   '
+      responsibilities: '   '
+      offer: '   '
+      benefits: '   '
+      salary-range: '   '
+  -
+    scope:
+      path: ''
+      type: 'services'
+    values:
+      layout: 'services'
+
+permalink: /blog/:title
+
+compress_images:
+  images_path: "assets/images/**/*.{gif,png,jpg,jpeg,svg}"
+
+imageoptim:
+  skip_missing_workers: true
+  nice: 5
+  threads: 4
+  svgo: false
+
+autopages:
+  enabled: false
+
+plugins:
+  - jekyll-debug
+  - jekyll-include-cache
+  - jekyll-compress-images
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - _compress_images_cache.yml
+  - _posts/
+  - _career/
+  - _data/
+
+include:
+  - .htaccess
+  - node_modules/uglifier/index.js
+  - _redirects
