@@ -132,6 +132,7 @@ jekyll-minifier:
 # Build settings
 
 sass:
+  sass_dir: _sass
   style: compressed
 
 markdown: kramdown
@@ -148,8 +149,6 @@ plugins:
   - jekyll-compress-images
   - jekyll-minifier
 
-incremental: true
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
@@ -161,6 +160,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - _compress_images_cache.yml
 
 include:
   - .htaccess
