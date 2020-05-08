@@ -26,6 +26,6 @@ Wondering how to start a startup? There are few ways. Building it on your own (i
 
 
 
-![infostartup](/assets/images/info-startup.jpg "Info-startup")
+{% image /assets/images/info-startup.jpg infostartup infostartup %}
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

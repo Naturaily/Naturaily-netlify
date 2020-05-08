@@ -36,7 +36,7 @@ tags:
 * We have the right **communication skills** and a good knowledge of English.
 * Our **hourly rates are very competitive** in comparison to the cost of hiring a development team from the US or Western Europe.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 <br>
 
@@ -87,4 +87,4 @@ I hope that the article helped you answer the question of whether to hire develo
 
 <br>
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

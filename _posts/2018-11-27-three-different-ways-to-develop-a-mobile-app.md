@@ -70,4 +70,4 @@ Once you develop and release your app, it will most likely grow and change, so t
 
 The golden rule for an app developer is: no matter what type of application, it has to make life easier. And all types of apps, be it native, hybrid or web, should primarily cater to the needs of the end user. **Each type of app has its pros and cons, and therefore sometimes the business requirements may dictate the choice of one or the other.**
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

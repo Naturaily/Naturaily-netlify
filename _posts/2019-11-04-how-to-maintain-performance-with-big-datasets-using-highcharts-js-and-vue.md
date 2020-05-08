@@ -2,7 +2,7 @@
 title: How to Maintain Performance with Big Datasets Using Highcharts.js and Vue
 description: >-
   Highcharts is a powerful tool that allows you to plot massive series of data
-  in a dynamic manner. 
+  in a dynamic manner.
 slug: big-datasets-highcharts-vue
 layout: post
 date: '2019-11-13 10:56:21 +0200'
@@ -48,7 +48,7 @@ Now that we have all the pieces, let's add them in the main.js file:
 import Highcharts from "highcharts";
 import HighchartsVue from "highcharts-vue";
 import boost from "highcharts/modules/boost";
- 
+
 Vue.use(HighchartsVue);
 boost(Highcharts);
 ```
@@ -57,7 +57,7 @@ You may be wondering, what this boost module is. I think that, to best explain i
 
 > [Boost](https://www.highcharts.com/docs/advanced-chart-features/boost-module){:rel="nofollow"}{:target="_blank"} is a stripped-down renderer-in-a-module for Highcharts and Highstock. It bypasses some of the standard Highcharts features (such as animation), and focuses on pushing as many points as possible as quickly as possible.
 
-So, to sum it up, this module will make our charts run faster, but at the cost of some minor drawbacks. For example, you won’t be able to use dotted lines for your series. But, don’t you worry,  the key parts are still fully functional. 
+So, to sum it up, this module will make our charts run faster, but at the cost of some minor drawbacks. For example, you won’t be able to use dotted lines for your series. But, don’t you worry,  the key parts are still fully functional.
 
 Disclaimer: As the boost module is still in development, it can cause several bugs. For example, when using timestamps as x value, `boost.useGPUTranslations` will cause points to render in wrong places while zoomed, so you will need to do additional research, or just ask on the Highcharts forums.
 
@@ -88,10 +88,10 @@ Now that we have some data to show, we can filtrate it. Even though this is a si
     <ChartFiltration />
   </div>
 </template>
- 
+
 <script>
 import ChartFiltration from "./components/ChartFiltration";
- 
+
 export default {
   components: { ChartFiltration }
 };
@@ -111,11 +111,11 @@ Nothing too fancy here, just some imports.
     Data is loading
   </div>
 </template>
- 
+
 <script>
 import { mapState } from "vuex";
 import Chart from "./Chart";
- 
+
 export default {
   name: "ChartFiltration",
   components: { Chart },
@@ -137,9 +137,9 @@ As you can see, when the component is being mounted, the fetch in the store will
 import Vue from "vue";
 import Vuex from "vuex";
 import axios from "axios";
- 
+
 Vue.use(Vuex);
- 
+
 const RESET_ERROR = null;
 const generateSeries = data => {
   return Object.keys(data).map(attribute => {
@@ -171,7 +171,7 @@ export default new Vuex.Store({
   actions: {
     async fetchData({ commit }) {
       commit("SET_ERROR", RESET_ERROR);
- 
+
       axios
         .get("/test.json")
         .then(res => {
@@ -185,7 +185,7 @@ export default new Vuex.Store({
 });
 ```
 
-In this article I simply want to show how to work with data in Highcharts. There is no need to use modules for the store, like we would in a real application and, therefore, this is why I will use a single store file. Let’s focus on `fetchData` action. I simulate the http call with axios. After the data has been “fetched”, we will commit the `SET_DATA` mutation. Highcharts has its specific way of building chart objects. Because there can’t be too much logic in mutations, we add an additional helper function to process our response properly. 
+In this article I simply want to show how to work with data in Highcharts. There is no need to use modules for the store, like we would in a real application and, therefore, this is why I will use a single store file. Let’s focus on `fetchData` action. I simulate the http call with axios. After the data has been “fetched”, we will commit the `SET_DATA` mutation. Highcharts has its specific way of building chart objects. Because there can’t be too much logic in mutations, we add an additional helper function to process our response properly.
 
 ```javascript
 const generateSeries = data => {
@@ -346,7 +346,7 @@ const generateSeries = data => {
 
 Let’s see how it looks in action:
 
-![Highcharts](/assets/images/highcharts.gif)
+{% image /assets/images/highcharts.gif Highcharts Highcharts %}
 
 As you can see, we had two series of 100k points, and they are working smoothly. In our project, sometimes we have 1 mln points to show at once, and performance is still superb. So, we can say with certainty that Highcharts fulfills its role, for sure.
 
@@ -356,4 +356,4 @@ You can find a working example [here](https://gitlab.naturaily.eu/andrzej.gatkow
 
 <br>
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

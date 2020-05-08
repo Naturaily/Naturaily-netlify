@@ -113,8 +113,8 @@
 
   <div id="lv-solution-tabs" class="portfolio-tabs invisible-sm">
     <div class="portfolio-tabs__menu">
-      <ul class="portfolio-tabs__menu-list" data-type="nav-container">
-        <li class="tabs-item portfolio-tabs__menu-list__item" data-type="tabs-nav" data-nav-index="1" data-active-nav="true">
+      <ul class="portfolio-tabs__menu-list">
+        <li class="tabs-item portfolio-tabs__menu-list__item portfolio-tabs__menu-list__item--active" data-type="tabs-nav" data-nav-index="1" data-active-nav="true">
           Architecture <span></span>
         </li>
         <li class="tabs-item portfolio-tabs__menu-list__item" data-type="tabs-nav" data-nav-index="2" data-active-nav="false">
@@ -355,7 +355,7 @@
     </div>
   </div>
 
-  <div class="portfolio-experts">
+  <div class="portfolio-experts portfolio-experts--five">
     <h3 class="portfolio-experts__header">Naturaily experts involved in the project</h3>
     <ul class="portfolio__columns">
       <li>
@@ -388,5 +388,5 @@
 </div>
 
 <script type="text/javascript">
-  {% include portfolio/lvcloud/solution-tabs.js %}
+  {% include portfolio/solution-tabs.js %}
 </script>

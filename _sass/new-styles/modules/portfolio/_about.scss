@@ -26,7 +26,7 @@
 
   &__separator {
     order: 2;
-    margin: 75px -35px -75px;
+    margin: 100px -35px -75px;
 
     img {
       position: relative;
@@ -35,7 +35,7 @@
       transform: translateX(-17%);
     }
 
-    &--artinfo {
+    &--artinfo, &--awn {
       background-color: $color-accent-yellow;
     }
 

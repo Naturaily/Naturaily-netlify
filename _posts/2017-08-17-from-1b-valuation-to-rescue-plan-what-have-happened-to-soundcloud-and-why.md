@@ -30,7 +30,7 @@ DJs can publish their work and get real feedback from the listeners allowing the
 
 SoundCloud has been the starting point of a successful career for a lot of artists such as Post Malone, Kehlani or Kygo.
 
-![soundcloud-founders](/assets/images/soundcloud-founders.jpg "Soundcloud Founders")
+{% image /assets/images/soundcloud-founders.jpg "Soundcloud Founders" soundcloud-founders soundcloud-founders %}
 Alexander Ljung and Eric Wahlforss - Founders of SoundCloud
 
 ## Beginning of the end?
@@ -49,7 +49,7 @@ SoundCloud has been described as a service created by artists for artists. One o
 
 It is safe to say that SoundCloud gained its popularity because of its rebel status. It is a perfect place to share music outside the big-label bubble. With the subscription plan called SoundCloud Go came another, less creators-friendly feature similar to “Content ID” system YouTube has. It gives music owners the ability to identify their songs used in mixes and then either collect profit or submit a takedown notice.
 
-![soundcloud-go](/assets/images/soundcloud-go.png "Soundcloud Go")
+{% image /assets/images/soundcloud-go.png soundcloud-go soundcloud-go %}
 
 ## Subscription plan - SoundCloud Go
 
@@ -71,4 +71,4 @@ Then she expressed her admiration for CEOs of SoundCloud saying that
 
 The recent report from Music Business Worldwide states that a pair of mystery investors have purchased SoundCloud’s stakes. Their identity is unknown, but MBW suggests that these two “saviors” are The Raine Group and Temasek Holdings – both investors value site at 300$M in total (SoundCloud was valued for $1B in 2014) and bought stakes that combined are worth around $150M-$160M. In other words, two companies are taking control over SoundCloud. Considering the fact that the platform had only enough funds to stay alive for about 50-day period makes this purchase a miracle. We will definitely see SoundCloud change in the near future. Maybe new investors will implement some fresh ideas into the service and help in getting it back on “the right track”.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

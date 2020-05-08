@@ -92,4 +92,4 @@ I highly recommend using bundlers such as Webpack or Parcel. They are great for 
 
 That’s all folks. If you have any questions or suggestions make sure to leave a comment down below! And remember: work smart, not hard. :)
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 

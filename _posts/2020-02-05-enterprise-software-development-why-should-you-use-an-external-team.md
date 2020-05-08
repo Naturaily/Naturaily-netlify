@@ -127,4 +127,4 @@ Yet it’s also worth remembering that bringing in external teams is also an opp
 
 Software development isn’t just about adapting the technology - it’s also about adapting the wider business as well. And a helping hand in this journey is never a bad way to learn.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

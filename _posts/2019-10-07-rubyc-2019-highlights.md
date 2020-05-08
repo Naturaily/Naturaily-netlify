@@ -34,7 +34,7 @@ Conference details:
 
 Our representatives: **Dominik** & **Stefan**
 
-![Ruby on rails developers at the RubyC conference](/assets/images/rubyc_1.png)
+{% image /assets/images/rubyc_1.png conference conference %}
 
 ## What impression did the conference make on them? Here's what they told us on their return.
 
@@ -174,12 +174,12 @@ You can watch Benoit's presentation here:
 
 Have you also been to RubyC in Kiev? If so, please let us know which presentations you found the most valuable and why. You can also watch all of them on [Svitla Systems’ Youtube Channel](https://www.youtube.com/channel/UC1nu2LV4_08GoZThHEindWA){:rel="nofollow"}{:target="_blank"}. Enjoy!
 
-![RubyC Kiev](/assets/images/rubyc_3.png)
+{% image /assets/images/rubyc_3.png RubyC-Kiev RubyC-Kiev %}
 
-![RubyC Kiev](/assets/images/rubyc_2.png)
+{% image /assets/images/rubyc_2.png RubyC-Kiev RubyC-Kiev %}
 
-![RubyC Kiev](/assets/images/rubyc_4.png)
+{% image /assets/images/rubyc_4.png RubyC-Kiev RubyC-Kiev %}
 
 <br>
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

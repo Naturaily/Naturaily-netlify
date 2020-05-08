@@ -1,0 +1,18 @@
+.portfolio-results--awn .portfolio-results__main {
+  &-intro {
+    color: $color-portfolio-text;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  &-image--with-figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-results--awn .portfolio-results__main-intro {
+    max-width: 400px;
+  }
+}

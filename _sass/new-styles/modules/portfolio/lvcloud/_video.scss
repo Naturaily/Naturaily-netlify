@@ -1,7 +1,7 @@
 .portfolio-video {
   width: 100%;
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 50px;
 
   &__wrapper {
     position: relative;
@@ -22,7 +22,7 @@
 
   &__cover {
     position: absolute;
-    background-image: url('/assets/images/portfolio/lvcloud/video-mobile.png');
+    background-image: url('/assets/images/portfolio/lvcloud/video-mobile.jpg');
     background-position: center;
     background-size: cover;
     z-index: 2;
@@ -80,7 +80,7 @@
     }
 
     &__cover {
-      background-image: url('/assets/images/portfolio/lvcloud/video.png');
+      background-image: url('/assets/images/portfolio/lvcloud/video.jpg');
     }
   }
 }

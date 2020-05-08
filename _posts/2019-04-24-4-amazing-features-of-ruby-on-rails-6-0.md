@@ -60,4 +60,4 @@ With this version of Rails a new code loader was introduced - Zeitwerk. It promi
 
 **Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release){:rel="nofollow"}{:target="_blank"}. 
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

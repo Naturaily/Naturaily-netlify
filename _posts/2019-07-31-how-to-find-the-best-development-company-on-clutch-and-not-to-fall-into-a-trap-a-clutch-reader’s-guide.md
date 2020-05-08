@@ -46,7 +46,7 @@ With several years in the industry under our belt, we feel entitled to shed some
 
 There are hardly any negative reviews on Clutch, and there is a good reason for that – for many companies Clutch is another tool helping to sell development services. As Clutch reviews have become increasingly important for clients, many IT services providers can no longer afford to have a bad rap and spend a lot of time buffing their profiles to perfection.
 
-![Everybody shines on Clutch](/assets/images/everybody-shines-on-clutch.gif)
+{% image /assets/images/everybody-shines-on-clutch.gif Clutch Clutch %}
 
 Of course, this is not to say Clutch reviews are only marketing waffle that’s completely at odds with reality. The reviews and ratings can (and should) be taken into consideration, but the ability to read between the lines certainly helps a lot.
 
@@ -54,7 +54,7 @@ Of course, this is not to say Clutch reviews are only marketing waffle that’s 
 
 If you are looking for something very generic like “web development” or “mobile app” you’ll be inundated with hundreds of matching results – and every company is great! It takes a lot of hard work to plough through all the elaborate bragga-bragga. This is where Clutch fails at its foundations – the more popular it is, the harder it is to choose a reliable partner from hundreds of samey-looking companies with stellar reviews.
 
-![Too much of the good thing](/assets/images/too-much-of-the-good-thing.gif)
+{% image /assets/images/too-much-of-the-good-thing.gif good-thing good-thing %}
 
 Of course, you can try to further adjust the search criteria by various industry verticals like locations, technology, etc., but even then the number of results may be unwieldy, except for some technical, narrow business niches.
 
@@ -64,7 +64,7 @@ To properly verify the quality of a company on Clutch, you should go the extra m
 
 ## Credibility of reviews
 
-![Credibility of reviews](/assets/images/credibility-of-reviews.gif)
+{% image /assets/images/credibility-of-reviews.gif reviews reviews %}
 
 We have no reason to doubt that the majority of Clutch reviews are still trustworthy. Clutch itself is known to put a lot of attention on getting reliable reviews: for example, they only contact companies directly to interview them (the reviewed company does not participate in the review process).
 
@@ -86,31 +86,31 @@ Another reason for projects not appearing in the profile is because software com
 
 ## Spying around a bit won’t kill you
 
-![Spying around a bit won’t kill you](/assets/images/spying-around-a-bit-won’t-kill-you.gif)
+{% image /assets/images/spying-around-a-bit-won’t-kill-you.gif Spying Spying %}
 
 Try to do some research. No worries, everybody does a little espionage now and then – it’s normal! Find a company that has done projects like the one you’d like to employ them for. If you have a chance to talk to the company’s team members, do it and ask some crucial questions to get an idea on what the company really is like, and how the projects actually progressed. If possible, reach out to their former employees – they may be even more willing to talk about the dark sides and problems. See if there are any LinkedIn connections that you already share with those folks – it might be helpful to pick their minds too. Consulting them may help you get you an honest opinion on the potential software partner.
 
 Also, try to reach out to the company that has given a review. Just say something along the lines of “Hi, I’ve read the review you gave to the company X at Clutch, could you tell me more about them? How was the cooperation? Is there anything I should be careful about? Did you have any problems with them? Would you recommend this company? Would you hire them for another project?”. It’s a good start. Of course, there is no guarantee you will get a response, but it doesn’t hurt to try.
 
-[![Check our company presentation](/assets/images/company-presentation_1600.png)](https://docsend.com/view/q8rascf){:target="_blank"}
+[{% image /assets/images/company-presentation_1600.png presentation presentation %}](https://docsend.com/view/q8rascf){:target="_blank"}
 
 ## Double check everything
 
 Going back to our rule number one: take everything you see on Clutch with a pinch of salt. Verify, verify and verify – when speaking with your potential partner, ask about the details of each project.
 
-![Double check everything](/assets/images/double-check-everything.gif)
+{% image /assets/images/double-check-everything.gif check check %}
 
 At Naturaily, unlike in many other software development companies, we try to treat each client with due diligence and professionalism. The CEO is engaged even in the early talks about each project. We also introduce potential team members to our clients to give them a hint of what kind of professionals they would be working with. And this level of openness usually pays off.
 
 When you contact us to discuss your project, we will be ready to provide you with in-depth portfolios and detailed testimonials of each of our specialists. If you want to, you will also get an opportunity to talk to them directly in your first calls.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 ## Reach out directly
 
 Try to reach out to decision-makers who are in charge of the teams that would develop your digital product – it’s best if you ping them directly. You can try to arrange a short call with the CEO or CTO of the company – it could yield more valuable insights than anything else you read or see on Clutch. In the video call, you can ask them to show their office and the people who work there. It would be also helpful for you to find out who they really are: what the office looks like: is it a comfortable place, do the people look happy? Solid, reliable companies respect their employees as much as they respect their clients ([_Delivering Happiness_](https://www.deliveringhappiness.com/){:rel="nofollow"}{:target="_blank"}, anyone?). And happy employees who care for the success of the company will do their best to build exactly the product you need.
 
-![Naturaily team](/assets/images/naturaily-team.png)
+{% image /assets/images/naturaily-team.png team team %}
 
 <small class="text-center">Naturaily team</small>
 
@@ -118,7 +118,7 @@ The client may not always want – or be contractually allowed to – share the 
 
 Also, a long list of anonymous reviews may be a warning sign in itself. Such a strategy could suggest a clever marketing agenda of a company wanting to get Clutch-worthy based on fake reviews and projects that never really took place.
 
-![Naturaily team](/assets/images/naturaily-team_2.png)
+{% image /assets/images/naturaily-team_2.png team team %}
 
 <small class="text-center">Naturaily team</small>
 

@@ -70,4 +70,4 @@ The community is currently standing strong behind React, and other libraries are
 
 When it comes to backend frameworks written in JavaScript, Node still has no competition, but look out for GraphQL - it might surprise you in the future!
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

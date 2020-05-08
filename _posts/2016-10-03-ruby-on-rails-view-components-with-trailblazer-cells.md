@@ -34,7 +34,7 @@ I could just list adventages of cells, but you can find them in the ["documentat
 
 The example is a simple app with CRUD actions for below database.
 
-![trailblazer_one](/assets/images/trailblazer1.png)
+{% image /assets/images/trailblazer1.png trailblazer_one trailblazer_one %}
 
 Let’s start by creating the app with scaffolds.
   1. ```rails new cells-app```
@@ -361,4 +361,4 @@ That’s all. The change at one file is propagated to all views. How cool is tha
 
 Of course, cells have more advantages, but I had only one goal in this article. I wanted to show you that with cells you can create flexible and reusable views at rails. I hope that now you can see it.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

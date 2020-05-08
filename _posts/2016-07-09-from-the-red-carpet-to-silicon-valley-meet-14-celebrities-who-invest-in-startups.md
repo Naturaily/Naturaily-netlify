@@ -40,7 +40,7 @@ Sportsmen, rock stars, pop singers and actors eagerly invest in startups, especi
 
 Kutcher said in an [interview](http://www.telegraph.co.uk/finance/newsbysector/mediatechnologyandtelecoms/digital-media/10540732/Ashton-Kutcher-reveals-the-art-of-technology-investment.html) with U.K.’s The Telegraph.
 
-![kutcher](/assets/images/ashton-kutcher.jpg)
+{% image /assets/images/ashton-kutcher.jpg kutcher kutcher %}
 
 **Paul Hewson**, better known as **Bono**, has co-founded an **Elevation Partners** - private equity firm focused on large-scale investments in media, entertainment, and technology in 2004. Some of his investments include:
 
@@ -52,7 +52,7 @@ Kutcher said in an [interview](http://www.telegraph.co.uk/finance/newsbysector/m
 
 There were also some failures, like a $117 million stake in SDI Media which was taken by debtors and a $325 million investment in smartphone maker Palm, which produced a modest $25 million gain.
 
-![bono](/assets/images/bono-2008.jpg)
+{% image /assets/images/bono-2008.jpg bono bono %}
 
 **Ellen DeGeneres** - this stand-up comedian and television host has also made some good investments, like:
 
@@ -60,7 +60,7 @@ There were also some failures, like a $117 million stake in SDI Media which was 
 
 She also has launched her own apps, like: Ellen's App, Ellentube App, Heads Up and Psych!.
 
-![ellen](/assets/images/ellen.jpg)
+{% image /assets/images/ellen.jpg ellen ellen %}
 
 **Jared Leto** - a musician and an oscar-winning actor who is also one of the silent investors of Silicon Valley, has made more than 50 investments so far, including:
 
@@ -95,7 +95,7 @@ Leto also admitted that he really wanted to invest in Instagram but it was too l
 * Meerkat
 * Casper
 
-![nasir](/assets/images/nasir-jones.png)
+{% image /assets/images/nasir-jones.png nasir nasir %}
 
 The group of famous, US-based investors is quite impressive. Only to mention a few more:
 
@@ -119,8 +119,8 @@ There is one exception - **Robert Lewandowski** - a football player and an undou
 * Shoplo – the platform for entrepreneurs who want to set up own online store.
 * Positionly – analytic tool for monitoring and optimizing the position of websites in search engines.
 
-![lewy](/assets/images/lewy.jpg)
+{% image /assets/images/lewy.jpg lewy lewy %}
 
 I am truly curious how does it look in other countries. And I know that we've got here an audience from all around the world: Singapore, Scandinavia, Germany, Canada, UK. So leave a comment and tell me if celebrities in your countries invest in startups or not. I would be grateful for the insights.
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

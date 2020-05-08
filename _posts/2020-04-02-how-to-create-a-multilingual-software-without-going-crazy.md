@@ -44,7 +44,7 @@ As you can see: The value of a localized product is manyfold.
 
 <br>
 
-![Multiligual world](/assets/images/Blog_multilingual_software_graphic.png)
+{% image /assets/images/Blog_multilingual_software_graphic.png graphic graphic %}
 
 <br>
 
@@ -71,7 +71,7 @@ At [LingoHub](https://lingohub.com/){:target="_blank"}, we are strong believers 
 
 > *Fully integrated translation workflows empower ship-ready products for all locales at the same time. Local users and customers will always use the latest version of your product in their native language.*
 
-![Software development cycle](/assets/images/Blog_multilingual_software_graphic2.png)
+{% image /assets/images/Blog_multilingual_software_graphic2.png graphic graphic %}
 
 Continuous Translation is the counterpart to traditional translation cycles. The following key differences lead to faster releases and a more productive setup:
 
@@ -152,4 +152,4 @@ Making software translations less painful and intimidating was actually the enti
 
 |About the author: **Helmut Juskewycz** is CEO and founder of LingoHub which helps companies and software makers to localize their software. Helmut is an enthusiastic entrepreneur and developer at heart with a vast experience in the technology space. Naturaily is responsible for frontend development part of the project. We have been working on LingoHub for over a year now. Our main task was to rewrite the existing part of the app from Angular to Vue.js to increase the performace and make the app easier to optimize.|
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

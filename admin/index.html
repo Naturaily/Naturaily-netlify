@@ -126,6 +126,56 @@ sitemap: false
   <script>
     CMS.registerEditorComponent({
 
+      id: "lazy",
+      label: "Lazy Image",
+      fields: [
+        {
+          label: 'Image',
+          name: 'image',
+          widget: 'image',
+          media_library: {
+            allow_multiple: false,
+          },
+        },
+        {
+          label: 'Alt [required, do not use space]',
+          name: 'alt',
+          widget: 'string',
+        },
+        {
+          label: 'Title [do not use space]',
+          name: 'title',
+          widget: 'string',
+        },
+      ],
+      pattern: /\{\% (\w*image\w*) (.*) \%\}/,
+
+      fromBlock: function(match) {
+        const matchStripped = match[0].replace(/\{\% image | \%\}/g, '').split(' ');
+
+        return {
+          image: matchStripped[0],
+          alt: matchStripped[1],
+          title: matchStripped[2],
+        };
+      },
+
+      toBlock: function(obj) {
+        return '\{\% image ' + `${obj.image || ''} ${obj.alt || ''} ${obj.title || ''}` + ' \%\}';
+      },
+
+      toPreview: function(obj, getAsset, fields) {
+        const imageField = fields?.find(f => f.get('widget') === 'image');
+        const src = getAsset(obj.image, imageField);
+
+        return '<img src="' + `${obj.image || ''}` + '" alt="' + `${obj.alt || ''}` + '" title="' + `${obj.title || ''}` + '" />';
+      }
+    });
+  </script>
+
+  <script>
+    CMS.registerEditorComponent({
+
       id: "youtube",
       label: "Youtube",
       fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
@@ -148,6 +198,30 @@ sitemap: false
     });
   </script>
 
+  <script>
+    CMS.registerEditorComponent({
+
+      id: "vimeo",
+      label: "Vimeo",
+      fields: [{name: 'id', label: 'Vimeo Video ID', widget: 'string'}],
+      pattern: /\{\% (\w*vimeo\w*) (.*) \%\}/,
+
+      fromBlock: function(match) {
+        const matchStripped = match[0].replace(/\{\% vimeo | \%\}/g, '');
+        return {
+          id: matchStripped
+        };
+      },
+
+      toBlock: function(obj) {
+        return '\{\% vimeo ' + obj.id + ' \%\}';
+      },
+
+      toPreview: function(obj) {
+        return '<iframe src="https://player.vimeo.com/video/' + obj.id + '" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+      }
+    });
+  </script>
 
   <script>
     CMS.registerEditorComponent({

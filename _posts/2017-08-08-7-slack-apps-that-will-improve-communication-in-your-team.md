@@ -64,7 +64,7 @@ https://calamari.io
 
 Using Slack’s huge app store it is possible to solve some of the trouble with using different services for every specific task by simply having them all in one place – services like live chat. You no longer have to use other platforms to chat with your customers or visitors – Smallchat lets you do to that and much more from Slack’s platform.
 
-![smallchat](/assets/images/smallchat.png)
+{% image /assets/images/smallchat.png smallchat smallchat %}
 
 Each conversation creates a new thread, allowing our team to manage them all from one place. Smallchat helps us with providing a better experience by creating a direct line of communication between our team and our customers.
 
@@ -74,7 +74,7 @@ https://small.chat
 
 To put in simple words – Droplr is a file-sharing tool created especially with Mac, Windows and Slack users in mind. It is perfect for effortless, quick and easy “drag & drop” file sharing with your friends or co-workers. Droplr allows you to take screenshots and then quickly mark them with annotations or notes.
 
-![droplr](/assets/images/droplr.jpg)
+{% image /assets/images/droplr.jpg droplr droplr %}
 
 Everything you share gets a short link that can be previewed in the browser, Microsoft Office, Twitter, Facebook, you name it. You can even share mockups from Photoshop or Illustrator using third-party Adobe integration!
 
@@ -84,7 +84,7 @@ https://droplr.com/
 
 Howdy – virtual employee, a powerful tool that allows automating tasks like meetings in our team. A team member asks Howdy to start a meeting. Howdy speaks in private channel to each participant of the meeting – their responses are collected into a report which is then sent to the leader of the team.
 
-![calamari](https://s3-eu-west-1.amazonaws.com/userlike-cdn-blog/chat-bots-entrepreneurs/howdy-train.gif)
+{% image https://s3-eu-west-1.amazonaws.com/userlike-cdn-blog/chat-bots-entrepreneurs/howdy-train.gif calamari calamari %}
 
 As an example, we use ‘checkin’ script which is scheduled for every day of the week to check if every employee is ready to work and what is their current work status. Howdy asks what each employee had to do, what has he or she done so far and what is his or hers workplan for today.
 
@@ -94,7 +94,7 @@ https://howdy.ai/
 
 Finally, probably the most important plugin we use on Slack platform – Giphy. With a simple command, it can search and find funny gifs and pictures for almost every occasion. We often use it in conversations between team members.
 
-![giphy](/assets/images/giphy.gif)
+{% image /assets/images/giphy.gif giphy giphy %}
 
 https://giphy.com
 
@@ -102,7 +102,7 @@ https://giphy.com
 
 We also would like to mention a very cool platform called Zapier, which connects apps we use every day like Gmail, Dropbox or even social media services with Slack. It improves our workflow by automating some of the tasks we had to do manually before like uploading Gmail attachments directly to Dropbox or sharing new posts on our blog to our Facebook/Twitter/LinkedIn page.
 
-![zapier](/assets/images/Zapier.gif)
+{% image /assets/images/Zapier.gif zapier zapier %}
 
 One of the rather unusual uses of Zapier is monitoring and analyzing your competition’s tweets and posts  – if you want to know more about it click [here](http://naturaily.com/blog/post/how-to-analyze-competitions-tweeting-patterns).
 
@@ -122,4 +122,4 @@ https://marker.io/
 
 
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

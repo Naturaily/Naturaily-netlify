@@ -1,4 +1,6 @@
 .portfolio-companies {
+  margin-top: 25px;
+
   &__wrapper {
     padding: 50px 0 75px;
   }
@@ -22,21 +24,13 @@
     }
   }
 
-  &__quote {
-    display: block;
-    position: relative;
-    padding: 50px 25px;
+  .portfolio__quote {
+    padding: 50px 25px 100px;
     margin-bottom: -100px;
-    font-size: 1.2em;
-    line-height: 1.5;
 
     .icon-quote {
-      position: absolute;
       top: 10px;
       left: 0;
-      z-index: -1;
-      opacity: 0.1;
-      color: $color-accent-yellow;
     }
   }
 }
@@ -44,6 +38,7 @@
 @media (min-width: 576px) {
   .portfolio-companies {
     &__list-item {
+      position: relative;
       padding: 0 100px;
 
       &__content {
@@ -53,9 +48,9 @@
       }
     }
 
-    &__quote {
+    .portfolio__quote {
       padding: 100px 25px;
-      margin-bottom: -150px;
+      margin-bottom: -100px;
 
       .icon-quote  {
         top: 60px;
@@ -85,11 +80,11 @@
       margin-top: 50px;
     }
 
-    &__quote {
+    .portfolio__quote {
       max-width: 750px;
       margin: 0 auto;
-      margin-bottom: -150px;
       padding: 100px;
+      padding-bottom: 0;
       font-size: 1.5em;
 
       .icon-quote  {

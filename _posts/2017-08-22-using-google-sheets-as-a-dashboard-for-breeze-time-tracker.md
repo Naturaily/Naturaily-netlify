@@ -100,4 +100,4 @@ We believe there are many areas where this approach could be efficient cost-wise
 
 Do you have any suggestions regarding our project? Did you do anything similar yourself? Go ahead and share your ideas with us in the comments!
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

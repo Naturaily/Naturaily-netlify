@@ -82,4 +82,4 @@ Atrium learned that it is quite uncommon for companies to introduce innovation i
 
 What do you think about 2017 as a year for startups? Did we miss anything on our list? Tell us in the comments down below!
 
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

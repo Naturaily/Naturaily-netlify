@@ -21,11 +21,11 @@ text-preview: >-
 tags:
   - Frontend development
 ---
-In this post we've gathered some our favorite libraries we often use in Vue development. We guarantee that they will significantly speed up the process of creating an application and at the same time make sure that it will look awesome. So without further ado, let's jump into the 11 libraries for Vue development you should be using in 2019. 
+In this post we've gathered some our favorite libraries we often use in Vue development. We guarantee that they will significantly speed up the process of creating an application and at the same time make sure that it will look awesome. So without further ado, let's jump into the 11 libraries for Vue development you should be using in 2019.
 
 <br>
 
-![null](/assets/images/vuetify.jpg)
+{% image /assets/images/vuetify.jpg null null %}
 
 ### Vuetify
 
@@ -33,11 +33,11 @@ In this post we've gathered some our favorite libraries we often use in Vue deve
 
 <iframe src="https://ghbtns.com/github-btn.html?user=vuetifyjs&repo=vuetify&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-Vuetify is a widely-loved and praised by developers component framework for Vue. It provides ready-to-use components created according to Google’s Material Design. This framework makes building an application a breeze. Plus, it supports all modern browsers, including IE11 and Safari 9+. 
+Vuetify is a widely-loved and praised by developers component framework for Vue. It provides ready-to-use components created according to Google’s Material Design. This framework makes building an application a breeze. Plus, it supports all modern browsers, including IE11 and Safari 9+.
 
 <br>
 
-![null](/assets/images/bootstrap-vue.jpg)
+{% image /assets/images/bootstrap-vue.jpg null null %}
 
 ### Bootstrap-vue
 
@@ -45,11 +45,11 @@ Vuetify is a widely-loved and praised by developers component framework for Vue.
 
 <iframe src="https://ghbtns.com/github-btn.html?user=bootstrap-vue&repo=bootstrap-vue&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 components and grid systems for Vue. It allows you to build great looking, responsive web applications with no necessary knowledge of CSS. 
+Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 components and grid systems for Vue. It allows you to build great looking, responsive web applications with no necessary knowledge of CSS.
 
 <br>
 
-![null](/assets/images/highcharts.jpg)
+{% image /assets/images/highcharts.jpg null null %}
 
 ### HighCharts
 
@@ -59,11 +59,11 @@ Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 comp
 
 <iframe src="https://ghbtns.com/github-btn.html?user=highcharts&repo=highcharts&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-One of the most popular JavaScript charting library out there, used by companies such as Facebook, Nokia, Yahoo and Verizon! HighCharts make implementing sophisticated charts in you Vue application a breeze. Even charts filled with a ton of data load and work surprisingly well! Plus, it's free for non-commercial use. 
+One of the most popular JavaScript charting library out there, used by companies such as Facebook, Nokia, Yahoo and Verizon! HighCharts make implementing sophisticated charts in you Vue application a breeze. Even charts filled with a ton of data load and work surprisingly well! Plus, it's free for non-commercial use.
 
 <br>
 
-![null](/assets/images/fontawesome.png)
+{% image /assets/images/fontawesome.png null null %}
 
 ### Fontawesome
 
@@ -73,11 +73,11 @@ One of the most popular JavaScript charting library out there, used by companies
 
 <iframe src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-FontAwesome is a great resource to get your icons and SVGs from. It has a wide library of free icons with an even larger pro icons storage. With almost 60 thousands stars on GitHub, it found its way into many technologies from web and mobile applications to desktop apps. If you want a hassle-free icon implementation, you should definitely give it a try in your next project. Check out Font-Awesome repo specifically made for Vue [here](https://github.com/FortAwesome/vue-fontawesome){:rel="nofollow"}{:target="_blank"}. 
+FontAwesome is a great resource to get your icons and SVGs from. It has a wide library of free icons with an even larger pro icons storage. With almost 60 thousands stars on GitHub, it found its way into many technologies from web and mobile applications to desktop apps. If you want a hassle-free icon implementation, you should definitely give it a try in your next project. Check out Font-Awesome repo specifically made for Vue [here](https://github.com/FortAwesome/vue-fontawesome){:rel="nofollow"}{:target="_blank"}.
 
 <br>
 
-![null](/assets/images/bulma-banner.png)
+{% image /assets/images/bulma-banner.png null null %}
 
 ### Bulma
 
@@ -87,11 +87,11 @@ FontAwesome is a great resource to get your icons and SVGs from. It has a wide l
 
 <iframe src="https://ghbtns.com/github-btn.html?user=jgthms&repo=bulma&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-Bulma is a CSS framework that is based on flexbox meaning that it is essentially environment agnostic - it can work with every JavaScript framework! 
+Bulma is a CSS framework that is based on flexbox meaning that it is essentially environment agnostic - it can work with every JavaScript framework!
 
 <br>
 
-![null](/assets/images/sweetmodal.gif)
+{% image /assets/images/sweetmodal.gif null null %}
 
 ### SweetModal
 
@@ -105,7 +105,7 @@ SweetModal allows for easy implementation of various kind of modals. Good lookin
 
 <br>
 
-![null](/assets/images/vue-i18n.jpg)
+{% image /assets/images/vue-i18n.jpg null null %}
 
 ### Vue-i18n
 
@@ -113,11 +113,11 @@ SweetModal allows for easy implementation of various kind of modals. Good lookin
 
 <iframe src="https://ghbtns.com/github-btn.html?user=kazupon&repo=vue-i18n&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-This plugin makes an internalization of your application a breeze. I18n has a simple and easy-to-use API with features such as component based localization, DateTime localization, Number localization and many more. 
+This plugin makes an internalization of your application a breeze. I18n has a simple and easy-to-use API with features such as component based localization, DateTime localization, Number localization and many more.
 
 <br>
 
-![null](/assets/images/masonry-css.jpg)
+{% image /assets/images/masonry-css.jpg null null %}
 
 ### Vue-masonry-css
 
@@ -127,11 +127,11 @@ This plugin makes an internalization of your application a breeze. I18n has a si
 
 <iframe src="https://ghbtns.com/github-btn.html?user=paulcollett&repo=vue-masonry-css&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-Have you ever wanted to implement a masonry layout in your Vue application? With Vue-masonry-css it’s easy! And thanks to removal of additional Virtual DOM layer, it’s very fast too! Not to mention, the implementation is truly effortless. 
+Have you ever wanted to implement a masonry layout in your Vue application? With Vue-masonry-css it’s easy! And thanks to removal of additional Virtual DOM layer, it’s very fast too! Not to mention, the implementation is truly effortless.
 
 <br>
 
-![null](/assets/images/vue-select.gif)
+{% image /assets/images/vue-select.gif null null %}
 
 ### Vue-select
 
@@ -139,11 +139,11 @@ Have you ever wanted to implement a masonry layout in your Vue application? With
 
 <iframe src="https://ghbtns.com/github-btn.html?user=sagalbot&repo=vue-select&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-Quick and easy way to implement drop-down list in your Vue application. jQuery free guaranteed! 
+Quick and easy way to implement drop-down list in your Vue application. jQuery free guaranteed!
 
 <br>
 
-![null](/assets/images/veevalidate.jpg)
+{% image /assets/images/veevalidate.jpg null null %}
 
 ### VeeValidate
 
@@ -153,11 +153,11 @@ Quick and easy way to implement drop-down list in your Vue application. jQuery f
 
 <iframe src="https://ghbtns.com/github-btn.html?user=baianat&repo=vee-validate&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-VeeValidate is a validation library that is similar to HTML5 validation. It allows you to validate HTML5 inputs as well as custom Vue components. On top of that, VeeValidate has some neat features such as async validation, delayed (debounced) validation, form localization and many more! 
+VeeValidate is a validation library that is similar to HTML5 validation. It allows you to validate HTML5 inputs as well as custom Vue components. On top of that, VeeValidate has some neat features such as async validation, delayed (debounced) validation, form localization and many more!
 
 <br>
 
-![null](/assets/images/paralaxy.gif)
+{% image /assets/images/paralaxy.gif null null %}
 
 ### Vue-Parallaxy
 
@@ -171,4 +171,4 @@ Great and easy way to implement the parallax effect in you project. Parallaxy is
 
 ### Would you add anything to our list? Make sure to share the GitHub link with us in the comments down below!
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

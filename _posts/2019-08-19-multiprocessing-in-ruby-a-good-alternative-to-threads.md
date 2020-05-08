@@ -186,13 +186,13 @@ We have 21 ruby processes (1 parent and 20 subprocesses) – is it much? Actuall
 Please take a look at the output from HTOP:
 
 **Idle:**
-![Idle](/assets/images/idle.png)
+{% image /assets/images/idle.png Idle Idle %}
 
 **Single-process script:**
-![Single-process script](/assets/images/singleprocess.png)
+{% image /assets/images/singleprocess.png single single %}
 
 **Multi-processes script:**
-![Multi-processes script](/assets/images/multiprocess.png)
+{% image /assets/images/multiprocess.png multi multi %}
 
 At first glance, we can see that multi-processes script makes better use of the computing power of my computer. I mentioned earlier that my processor has 2 physical cores, we can see here 4 thanks to Hyperthreading – Intel technology that divides one core into 2 virtual ones.
 
@@ -259,7 +259,7 @@ To achieve it we can use process status, which we can find, for instance, in `ps
 
 ➜ `ps aux | grep test.rb`
 
-![User](/assets/images/user.png)
+{% image /assets/images/user.png user user %}
 
 As you can see – two processes have the status R+ (running in the foreground) and 1 has S+ (sleeping in the foreground). This can be quite useful information, description of all statuses can be found by entering: `man ps`.
 
@@ -475,4 +475,4 @@ Everyone should take some time to consider the question – does my project real
 
 It’s also good to know a bit about the operating system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
