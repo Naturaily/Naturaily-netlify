@@ -164,10 +164,7 @@ sitemap: false
         return '\{\% image ' + `${obj.image || ''} ${obj.alt || ''} ${obj.title || ''}` + ' \%\}';
       },
 
-      toPreview: function(obj, getAsset, fields) {
-        const imageField = fields?.find(f => f.get('widget') === 'image');
-        const src = getAsset(obj.image, imageField);
-
+      toPreview: function(obj) {
         return '<img src="' + `${obj.image || ''}` + '" alt="' + `${obj.alt || ''}` + '" title="' + `${obj.title || ''}` + '" />';
       }
     });
