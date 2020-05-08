@@ -18,6 +18,14 @@ GIT
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
 
+GIT
+  remote: https://github.com/valerijaspasojevic/jekyll-compress-images.git
+  revision: af7c2e0527371a7b88d11d594cef9538b83230f1
+  specs:
+    jekyll-compress-images (1.2)
+      image_optim
+      image_optim_pack
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -73,9 +81,6 @@ GEM
       image_optim (~> 0.19)
     image_size (2.0.2)
     in_threads (1.5.4)
-    jekyll-compress-images (1.2)
-      image_optim
-      image_optim_pack
     jekyll-debug (0.0.2)
       liquid (>= 2.5, < 5.0)
       pry (~> 0.10)
@@ -182,7 +187,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll!
-  jekyll-compress-images
+  jekyll-compress-images!
   jekyll-debug
   jekyll-feed (~> 0.6)
   jekyll-include-cache

@@ -27,7 +27,7 @@ group :jekyll_plugins do
    gem 'jekyll-debug'
    gem "jekyll-include-cache"
    gem 'jekyll-pwa-plugin'
-   gem 'jekyll-compress-images'
+   gem 'jekyll-compress-images', :git => 'https://github.com/valerijaspasojevic/jekyll-compress-images.git'
    gem 'jekyll-minifier'
 
 end

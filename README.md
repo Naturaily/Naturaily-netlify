@@ -6,8 +6,14 @@
 3. Make sure you have netlify dev installed. Run `npm install netlify-cli -g`.
 
 # How to run
-Project can be started by `netlify dev` command.
+Project can be started by `netlify dev` (port 8888).
+If you have problems with build slowing down try `bundle exec jekyll clean`
 In case there are errors, follow instructions in console and install remaining packages.
+
+If you want to enable hot reload and increase build speed run project with `bundle exec jekyll serve -l --config _config_dev.yml` (port 4000).
+Warning: It'll disable unnecessary plugins for development and posts and jobs collections will be excluded. You can compare changes in `_config_dev.yml` file.
+
+For more info go to [jekyll documentation](https://jekyllrb.com/docs/)
 
 # Flow
 This project utilizes netlify, a platform allowing us to streamline deployment process and jekyll, static site generator (see [documentation](https://jekyllrb.com/docs/))
