@@ -1,0 +1,55 @@
+.portfolio-about--woolman {
+  margin-bottom: -100px;
+
+  .portfolio__dot {
+    &--yellow {
+      top: 30px;
+      right: 100px;
+    }
+
+    &--secondary {
+      top: 140px;
+      right: -10px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-about--woolman {
+    .portfolio__dot {
+      &--yellow {
+        top: 80px;
+      }
+
+      &--secondary {
+        top: 190px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-about--woolman {
+    margin-bottom: -50px;
+
+    .portfolio__dot {
+      &--yellow {
+        top: 100px;
+        right: 0;
+      }
+
+      &--secondary {
+        top: -130px;
+        right: 300px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 992px) {
+  .portfolio-about--woolman .portfolio__dot--secondary {
+    top: -100px;
+    right: 350px;
+  }
+}
