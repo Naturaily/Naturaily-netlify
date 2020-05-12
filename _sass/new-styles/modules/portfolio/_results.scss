@@ -34,6 +34,7 @@
       }
 
       &--big {
+        margin-bottom: 25px;
         font-size: 1.35em;
         color: $color-portfolio-text;
       }
@@ -170,6 +171,10 @@
       &-text {
         height: 6em;
         padding-bottom: 0;
+
+        &--big {
+          margin-bottom: 0;
+        }
       }
     }
   }
