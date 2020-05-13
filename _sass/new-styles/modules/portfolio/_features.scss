@@ -9,6 +9,10 @@
       width: 100%;
       margin: 0 auto;
     }
+
+    &--graphic {
+      margin: 0 25px;
+    }
   }
 
   .portfolio__columns {
@@ -35,6 +39,10 @@
       max-width: 500px;
       border-radius: 8px;
     }
+
+    &--graphic img {
+      max-width: 400px;
+    }
   }
 }
 
@@ -52,12 +60,16 @@
       img {
         width: calc(100% + 50px);
       }
+
+      &--graphic img {
+        width: 100%;
+      }
     }
 
     .portfolio__list {
       max-width: 300px;
 
-      &--lvcloud {
+      &--lvcloud, &--woolman {
         max-width: 380px;
       }
     }

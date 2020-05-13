@@ -28,10 +28,19 @@
     }
 
     &-text {
-      &--medium.paragraph {
+      &--big, &--medium.paragraph {
         line-height: 1.5;
-        font-size: 1.2em;
         font-weight: 300;
+      }
+
+      &--big {
+        margin-bottom: 25px;
+        font-size: 1.35em;
+        color: $color-portfolio-text;
+      }
+
+      &--medium.paragraph {
+        font-size: 1.2em;
       }
 
       &--small.paragraph {
@@ -162,7 +171,24 @@
       &-text {
         height: 6em;
         padding-bottom: 0;
+
+        &--big {
+          margin-bottom: 0;
+        }
       }
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-results__main-text--big {
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-results__main-text--big {
+    font-size: 1.5em;
+    padding-right: 100px;
   }
 }

@@ -23,11 +23,16 @@
       font-size: 2em;
       line-height: 1.5;
 
-      &--smaller span {
+      span {
         display: block;
         margin-top: 25px;
         font-size: 0.7em;
         font-weight: 200;
+      }
+
+      &--smaller {
+        font-size: 1.5em;
+        max-width: 100%;
       }
     }
 
@@ -40,6 +45,12 @@
         margin-bottom: 50px;
       }
     }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-estimate__content-text--smaller {
+    font-size: 1.8em;
   }
 }
 
@@ -60,6 +71,7 @@
       width: 60%;
 
       &-text--smaller {
+        max-width: 420px;
         font-size: 1.75em;
 
         span {
