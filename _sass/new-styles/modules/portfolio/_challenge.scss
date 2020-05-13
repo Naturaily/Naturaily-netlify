@@ -6,6 +6,10 @@
   .portfolio__columns--right .paragraph {
     padding-top: 75px;
   }
+
+  &__image {
+    display: none;
+  }
 }
 
 @media (min-width: 811px) {
@@ -20,6 +24,17 @@
 
     .portfolio__columns--right .paragraph {
       padding-top: 0;
+    }
+
+    &__image {
+      display: block;
+      margin: 75px -50px 0;
+      padding-top: 100px;
+      border-top: 1px solid $color-global-font-10;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }
