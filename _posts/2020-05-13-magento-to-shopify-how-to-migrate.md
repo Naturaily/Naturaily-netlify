@@ -32,7 +32,7 @@ This is something we’ve done countless times, so we’ve gotten pretty good at
 
 <br>
 
-# First off… why?
+## First off… why?
 
 Magento and Shopify are two of the world’s most popular e-commerce platforms, so it’s not always clear at first why someone may be willing to migrate. However, with our experience, we’ve noticed a number of reasons why this might be the case.
 
@@ -52,7 +52,7 @@ Now is also a good time to migrate as **support for Magento 1 is coming to a clo
 
 <br>
 
-# How To Migrate To Shopify
+## How To Migrate To Shopify
 
 <br>
 
