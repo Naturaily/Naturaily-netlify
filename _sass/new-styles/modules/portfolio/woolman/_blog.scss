@@ -87,18 +87,24 @@
   .portfolio-blog {
     padding-left: 75px;
 
-    &__image img {
-      left: -90px;
-      width: calc(100% + 90px);
-    }
-
-    &__text-link {
+    &__image, &__text-link {
       transition: 0.25s;
       cursor: pointer;
+    }
 
-      &:hover {
-        transform: scale(1.1);
+    &__image {
+      img {
+        left: -90px;
+        width: calc(100% + 90px);
       }
+
+      &-link:hover img {
+        transform: scale(1.05);
+      }
+    }
+
+    &__text-link:hover {
+      transform: scale(1.1);
     }
   }
 }
