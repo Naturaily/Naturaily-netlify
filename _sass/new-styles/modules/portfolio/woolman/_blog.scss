@@ -87,7 +87,7 @@
   .portfolio-blog {
     padding-left: 75px;
 
-    &__image, &__text-link {
+    &__image img, &__text-link {
       transition: 0.25s;
       cursor: pointer;
     }
