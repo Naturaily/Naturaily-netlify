@@ -51,6 +51,18 @@
       color: $color-portfolio-text;
     }
   }
+
+  &--double {
+    .portfolio-experts__second-group {
+      margin-top: -168px;
+    }
+  }
+}
+
+@media (min-width: 410px) {
+  .portfolio-experts--double .portfolio-experts__second-group {
+    margin-top: -144px;
+  }
 }
 
 @media (min-width: 811px) {
@@ -87,6 +99,10 @@
         flex-direction: column;
         padding: 40px 0 20px;
         text-align: center;
+
+        &.portfolio-experts__empty-slot {
+          display: none;
+        }
       }
     }
 

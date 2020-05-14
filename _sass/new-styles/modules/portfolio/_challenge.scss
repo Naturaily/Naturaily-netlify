@@ -10,6 +10,24 @@
   &__image {
     display: none;
   }
+
+  &--with-dots .portfolio__dot {
+    &--blue, &--yellow {
+      display: none;
+    }
+
+    &--secondary {
+      top: 30px;
+      right: 80px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-challenge--with-dots .portfolio__dot--secondary {
+    top: 50px;
+    right: 170px;
+  }
 }
 
 @media (min-width: 811px) {
@@ -35,6 +53,42 @@
       img {
         width: 100%;
       }
+    }
+
+    &--with-dots {
+      padding-bottom: 125px;
+
+      .portfolio__dot {
+        &--blue, &--yellow {
+          display: block;
+        }
+
+        &--secondary {
+          top: 20px;
+          right: auto;
+          left: 350px;
+        }
+
+        &--blue {
+          bottom: 75px;
+          right: 350px;
+        }
+
+        &--yellow {
+          left: 10px;
+          bottom: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-challenge--with-dots {
+    padding-bottom: 100px;
+
+    .portfolio__dot--blue {
+      right: 450px;
     }
   }
 }
