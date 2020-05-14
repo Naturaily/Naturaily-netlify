@@ -17,7 +17,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
 image: >-
-  /assets/images/smart-grid-ai-at-the-service-of-the-power-distribution-network.png
+  /assets/images/posts/smart-grid-ai-at-the-service-of-the-power-distribution-network.png
 text-preview: >-
   Slowly but steadily, artificial intelligence is making its way to new facets
   of our lives. Through the automation of various processes, the use of IoT

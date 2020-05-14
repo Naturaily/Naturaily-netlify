@@ -12,7 +12,7 @@ authors:
   label: Beata Twardowska
   value: author-24
 image: >-
-  /assets/images/Enterprise Software Development_Why Should You Use an External
+  /assets/images/posts/Enterprise Software Development_Why Should You Use an External
   Team.jpg
 text-preview: >-
   Whether it’s a small scale project or full enterprise software development,

@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/snapchat_entrepreneurs.jpeg
+image: /assets/images/posts/snapchat_entrepreneurs.jpeg
 text-preview: >-
   As you might have guessed I'm not one of those selfie-loving teenage boys (ok,
   maybe just a bit). Anyway, I decided to join Snapchat the other day (@suleiro

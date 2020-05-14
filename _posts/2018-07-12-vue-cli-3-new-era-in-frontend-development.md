@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/tomasz.jpg
   label: Tomasz Żdanuk
   value: author-2
-image: /assets/images/vue-js-cli.jpg
+image: /assets/images/posts/vue-js-cli.jpg
 text-preview: >-
   Vue.js gets better and better with each update but this time, the inclusion of
   zero config setup for Vue apps in Vue CLI 3 sets a new standard in the

@@ -14,7 +14,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-image: /assets/images/software-house.jpeg
+image: /assets/images/posts/software-house.jpeg
 text-preview: >-
   Whether you’re a part of a Start-Up or a grown up company, when your product
   needs a software solution, you’ll most likely need to make a decision on where

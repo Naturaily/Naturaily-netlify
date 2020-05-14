@@ -13,7 +13,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/companies-vue-js-applications.jpg
+image: /assets/images/posts/companies-vue-js-applications.jpg
 text-preview: >-
   The popularity of Vue.js is continuously growing at a rapid rate, so now it's
   a perfect time to take a look at companies and websites which have decided to

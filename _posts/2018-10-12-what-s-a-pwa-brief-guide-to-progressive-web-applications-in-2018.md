@@ -14,7 +14,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/pwa-guide-2018.png
+image: /assets/images/posts/pwa-guide-2018.png
 text-preview: >-
   Many say that PWAs will be the new standard in the future world of mobile
   apps, and they're probably right! With tech giants behind it, Progressive Web

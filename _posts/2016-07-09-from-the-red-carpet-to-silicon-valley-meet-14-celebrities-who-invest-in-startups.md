@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/leonardo-naturaily.jpg
+image: /assets/images/posts/leonardo-naturaily.jpg
 text-preview: >-
   Sportsmen, rock stars, pop singers and actors eagerly invest in startups,
   especially in the US where both tech and entertainment industries are huge.

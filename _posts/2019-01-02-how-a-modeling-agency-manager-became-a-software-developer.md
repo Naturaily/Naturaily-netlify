@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-image: /assets/images/modelin-agency-manager-software-developer.png
+image: /assets/images/posts/modelin-agency-manager-software-developer.png
 text-preview: >-
   While scouring the internet for an interesting topic for my newest company
   blog article I overheard a coworker say something that has stopped me in my

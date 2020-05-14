@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/fears.png
+image: /assets/images/posts/fears.png
 text-preview: >-
   Software development is not a walk in the park. It’s rather a 24-hour run
   through a misty jungle full of spiderwebs and creepy creatures. Developers

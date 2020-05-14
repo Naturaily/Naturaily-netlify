@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/recommended-books.jpg
+image: /assets/images/posts/recommended-books.jpg
 text-preview: >-
   When you're a newbie in the complex code world and crave for knowledge, good
   resources are key to success. Blogs, forums, dev meetings - where to start?
@@ -186,4 +186,4 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
 I'm sure all of you have your own favourite books, so feel free to add comments and share your recommendations.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

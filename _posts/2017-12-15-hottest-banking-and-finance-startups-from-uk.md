@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/uk-banking.jpg
+image: /assets/images/posts/uk-banking.jpg
 text-preview: >-
   Despite Brexit London still remains as one of the biggest hubs and places for
   your startup. This list covers the most interesting London-based finance
@@ -77,7 +77,7 @@ Recently (in September of 2017) Luno received a major funding of €9M in Series
 What would you add to our list? Share your thoughts in the comments!
 
 Check out our other Startup lists right here:
-- [9 Startups in Berlin You Should Know about in 2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017){:target="_blank"} 
-- [Interesting German Startups You Should Definitely Check Out!](http://naturaily.com/blog/post/interesting-german-startups-you-should-definitely-check-out){:target="_blank"} 
+- [9 Startups in Berlin You Should Know about in 2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017){:target="_blank"}
+- [Interesting German Startups You Should Definitely Check Out!](http://naturaily.com/blog/post/interesting-german-startups-you-should-definitely-check-out){:target="_blank"}
 
 [{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/berlin-startups.jpg
+image: /assets/images/posts/berlin-startups.jpg
 text-preview: >-
   Berlin is the second largest startup hub in Europe (right after London)! We
   took a closer look at German startups that are gaining more interest in 2017

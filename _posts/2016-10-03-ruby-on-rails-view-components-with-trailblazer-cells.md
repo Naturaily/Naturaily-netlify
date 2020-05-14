@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/claus.jpg
   label: Mikołaj Grygiel
   value: author-7
-image: /assets/images/trailblazer.jpg
+image: /assets/images/posts/trailblazer.jpg
 text-preview: >-
   In recent times view components became a really popular web design pattern.
   View component is standalone part of view, which can be used at many views.

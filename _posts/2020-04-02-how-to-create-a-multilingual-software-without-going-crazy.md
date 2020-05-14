@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/Helmut_LingoHub.png
   label: Helmut Juskewycz
   value: author-31
-image: '/assets/images/Blog_Multilingual_Software.png'
+image: '/assets/images/posts/Blog_Multilingual_Software.png'
 text-preview: >
   If you are not catering to users beyond your own country’s borders and
   language(s), you’re missing out on great opportunities. If you’re intimidated

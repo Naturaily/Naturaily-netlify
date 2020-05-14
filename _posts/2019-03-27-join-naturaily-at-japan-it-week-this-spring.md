@@ -13,7 +13,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/japan_it_week_header_post.jpeg
+image: /assets/images/posts/japan_it_week_header_post.jpeg
 text-preview: >-
   We're extremely excited to announce that the next stop on our ongoing
   Naturaily On Tour is the Japan IT Week! Join us at the most exciting Expo this

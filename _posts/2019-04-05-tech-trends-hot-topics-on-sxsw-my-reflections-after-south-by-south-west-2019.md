@@ -15,7 +15,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/naturaily-blog-sxsw.jpg
+image: /assets/images/posts/naturaily-blog-sxsw.jpg
 text-preview: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the
   biggest tech conferences around the world. Check out Marcin’s our CEO

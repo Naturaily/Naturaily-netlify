@@ -11,7 +11,7 @@ authors:
   value: author-8
   avatar: /assets/images/janpol.png
 
-image: /assets/images/ancient-hall.jpg
+image: /assets/images/posts/ancient-hall.jpg
 text-preview: >-
   Have you ever tried to setup Devise and Doorkeeper in the simplest possible
   way, without oauth applications etc? Here it is! In this article, I'll show

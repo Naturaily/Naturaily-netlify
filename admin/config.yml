@@ -31,7 +31,12 @@ collections:
         id_field: id
         display_fields: name
         avatar_field: avatar
-      - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
+      - label: "Post image(optimally 800x313px)"
+        name: "image"
+        widget: "image"
+        media_library:
+          config:
+            media_folder: '/{{media_folder}}/posts'
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
       - label: "Tags(with spaces and separated by commas, ex: 'React Js Development, Ruby on Rails development')"
         name: "tags"

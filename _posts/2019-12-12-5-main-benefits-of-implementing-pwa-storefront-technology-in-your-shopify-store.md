@@ -15,7 +15,7 @@ authors:
   label: Mateusz Pliszka
   value: author-28
 image: >-
-  /assets/images/5-main-benefits-of-implementing-pwa-storefront-technology-at-your-shopify-store-2.jpg
+  /assets/images/posts/5-main-benefits-of-implementing-pwa-storefront-technology-at-your-shopify-store-2.jpg
 text-preview: >-
   An online storefront is a frontend solution that can be connected to your
   Shopify store’s backend, letting you display the content in a smoother,

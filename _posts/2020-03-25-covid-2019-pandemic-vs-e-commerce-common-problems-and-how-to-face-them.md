@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/Weronika_profile.png
   label: Weronika Nużyńska
   value: author-30
-image: /assets/images/Blog_COVID-2019_Pandemic_vs_E-commerce.png
+image: /assets/images/posts/Blog_COVID-2019_Pandemic_vs_E-commerce.png
 text-preview: >-
   COVID-19 coronavirus is officially a global pandemic. As it’s spreading around
   the world at a fast pace, it is predicted to take its toll on both people and
@@ -82,7 +82,7 @@ As the virus began to do damage in the US (the article shows the data from the M
 
 {% image /assets/images/Blog_.Grocery_App.png app app %}
 
-<small class="text-center">Source: [Apptopia](https://blog.apptopia.com/instacart-and-grocery-delivery-apps-set-consecutive-days-of-record-downloads){:rel="nofollow"}{:target="_blank"}</small> 
+<small class="text-center">Source: [Apptopia](https://blog.apptopia.com/instacart-and-grocery-delivery-apps-set-consecutive-days-of-record-downloads){:rel="nofollow"}{:target="_blank"}</small>
 
 Sunday the 15th of March was a day of for record-breaking downloads for grocery delivery apps in the US, with Instacard experiencing a 2018% increase compared to February. Walmart Grocery saw a 160% increase in app downloads over the same period and Shipt experienced a 124% growth. The trend doesn’t seem to be slowing down, regarding the current circumstances, and brands need to do everything they can to follow the demand.
 

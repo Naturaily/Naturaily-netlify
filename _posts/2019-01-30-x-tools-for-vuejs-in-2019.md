@@ -13,7 +13,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/libraries-vue-2019.jpg
+image: /assets/images/posts/libraries-vue-2019.jpg
 text-preview: >-
   We guarantee that these JavaScript libraries will significantly speed up the
   development process of your very own Vue application and at the same time make

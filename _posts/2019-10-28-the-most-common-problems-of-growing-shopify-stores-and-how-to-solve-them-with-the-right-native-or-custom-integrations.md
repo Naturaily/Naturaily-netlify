@@ -15,7 +15,7 @@ authors:
   label: Mateusz Pliszka
   value: author-28
 image: >-
-  /assets/images/most-common-problems-of-growingshopify-stores-and-how-to-solve-themwith-the-right-native-or-customintegrations.png
+  /assets/images/posts/most-common-problems-of-growingshopify-stores-and-how-to-solve-themwith-the-right-native-or-customintegrations.png
 text-preview: >
   The issues which arise in larger e-commerce stores can be related to
   technology, logistics or communication. In our daily work here, we focus on

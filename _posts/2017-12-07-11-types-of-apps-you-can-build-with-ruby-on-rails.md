@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/ruby-is-cool.png
+image: /assets/images/posts/ruby-is-cool.png
 text-preview: >-
   Wondering what platform to use for your next startup project? When it comes to
   building MVPs, Ruby on Rails still remains the king of frameworks but not only

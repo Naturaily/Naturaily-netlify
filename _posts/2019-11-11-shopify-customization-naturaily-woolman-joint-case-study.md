@@ -12,7 +12,7 @@ authors:
   label: Beata Twardowska
   value: author-24
 image: >-
-  /assets/images/shopify-customization_-naturaily-amp_-woolman-joint-case-study.png
+  /assets/images/posts/shopify-customization_-naturaily-amp_-woolman-joint-case-study.png
 text-preview: >-
   Shopify remains the most popular e-commerce platform in the world. With
   800,000 clients on board, who have made combined sales in excess of $100

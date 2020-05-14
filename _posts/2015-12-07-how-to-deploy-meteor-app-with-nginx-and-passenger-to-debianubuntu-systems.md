@@ -10,7 +10,7 @@ authors:
   label: Jacek Hiszpański
   value: author-12
   avatar: /assets/images/jacek.png
-image: /assets/images/meteor2.jpg
+image: /assets/images/posts/meteor2.jpg
 text-preview: >-
   Meteor is getting more and more popular these days. Creating a web application
   is so easy. But what can we do if we want to push live our great project?

@@ -11,7 +11,7 @@ authors:
   value: author-6
   avatar: /assets/images/marcin.jpg
 
-image: /assets/images/analyze_competition.jpg
+image: /assets/images/posts/analyze_competition.jpg
 text-preview: >-
   Ever wondered what approach your competition has to Twitter? If so, I’ve got
   good news for you. It’s super easy to check what they post about and how often

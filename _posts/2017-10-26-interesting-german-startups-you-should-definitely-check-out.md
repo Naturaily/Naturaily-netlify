@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/more-berlin-startups.jpg
+image: /assets/images/posts/more-berlin-startups.jpg
 text-preview: >-
   Here’s another portion of interesting, Germany-based startups that are
   definitely worth your attention. If you’re interested check our previous post

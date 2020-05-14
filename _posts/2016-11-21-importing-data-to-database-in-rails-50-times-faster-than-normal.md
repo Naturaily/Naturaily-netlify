@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/claus.jpg
   label: Mikołaj Grygiel
   value: author-7
-image: /assets/images/speed_up.jpg
+image: /assets/images/posts/speed_up.jpg
 text-preview: >-
   Have you ever needed to save lots of records with unique attribute to database
   using ActiveRecord? Have you noticed how time consuming such task is? I would

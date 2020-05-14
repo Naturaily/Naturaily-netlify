@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/kamil.jpg
   label: Kamil Buczel
   value: author-10
-image: /assets/images/android-hipster.jpg
+image: /assets/images/posts/android-hipster.jpg
 text-preview: >-
   There are only a few things more deadly for apps than a situation when the
   user doesn’t know what to do. We’ve all been there, turning on some program,

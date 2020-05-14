@@ -13,7 +13,7 @@ authors:
   avatar: /assets/images/agata.jpg
   label: Agata Zięba
   value: author-3
-image: /assets/images/designer.jpg
+image: /assets/images/posts/designer.jpg
 text-preview: >-
   In my experience, when it comes to project design, clients tend to make
   unreasonable decisions based on their inner beliefs, convictions, and

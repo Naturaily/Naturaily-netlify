@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/ror_doa_2019.png
+image: /assets/images/posts/ror_doa_2019.png
 text-preview: >-
   Let’s face it. Ruby on Rails is old. Really old. But judging by the changes
   that happen on the tech market it’s an extremely mature technology, so it

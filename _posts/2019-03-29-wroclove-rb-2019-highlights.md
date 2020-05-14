@@ -13,7 +13,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
-image: /assets/images/wrocloverb_highlights.jpeg
+image: /assets/images/posts/wrocloverb_highlights.jpeg
 text-preview: >-
   Wroclove.rb’s main goal is to help Ruby professionals get better at what they
   do. How could we miss such an opportunity and not send a strong representation

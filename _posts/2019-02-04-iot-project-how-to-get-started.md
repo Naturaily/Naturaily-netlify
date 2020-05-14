@@ -13,7 +13,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-image: /assets/images/iot_project_how_to_get_started.png
+image: /assets/images/posts/iot_project_how_to_get_started.png
 text-preview: >-
   So you’re thinking of developing your own IoT (Internet of Things) project but
   have no idea what the process looks like and where you should start? Check out

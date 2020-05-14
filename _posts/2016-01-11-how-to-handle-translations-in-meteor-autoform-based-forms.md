@@ -12,7 +12,7 @@ authors:
   value: author-8
   avatar: /assets/images/janpol.png
 
-image: /assets/images/meteor3.png
+image: /assets/images/posts/meteor3.png
 text-preview: >-
   In one of the projects I've been recently working on I needed i18n support for
   forms generated with AutoForm. For those who don’t know: Autoform is

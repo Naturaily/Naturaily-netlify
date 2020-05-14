@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/arek.jpg
   label: Arek Poczobut
   value: author-18
-image: /assets/images/rails-elastic-aggregation-drapper.jpg
+image: /assets/images/posts/rails-elastic-aggregation-drapper.jpg
 text-preview: >
   Have you ever wanted to calculate how many articles will be left in a certain
   category after search? In this blogpost, I will show you how to use elastic

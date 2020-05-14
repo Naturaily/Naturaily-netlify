@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/seba.jpg
   label: Sebastian Kubiak
   value: author-5
-image: /assets/images/macierevicz.jpg
+image: /assets/images/posts/macierevicz.jpg
 text-preview: >-
   Some of our everyday issues and tasks can be solved or simplified with a
   little bit of ingenuity and right tools. With the increased number of projects

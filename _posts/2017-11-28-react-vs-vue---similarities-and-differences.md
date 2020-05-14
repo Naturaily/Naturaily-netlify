@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/vue-v-react.png
+image: /assets/images/posts/vue-v-react.png
 text-preview: >-
   Both React and Vue have gained a lot of attention and interest from the
   developer's community for the past 3 years. Although their technical nature is

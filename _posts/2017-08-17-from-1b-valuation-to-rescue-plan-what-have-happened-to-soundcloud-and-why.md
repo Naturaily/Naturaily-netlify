@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/soundcloud.jpg
+image: /assets/images/posts/soundcloud.jpg
 text-preview: >-
   Site loved by many almost collapsed after questionable choices made by
   management. Will SoundCloud learn from their own mistakes?

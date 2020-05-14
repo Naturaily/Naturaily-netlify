@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/rise-and-fall.jpeg
+image: /assets/images/posts/rise-and-fall.jpeg
 text-preview: >-
   We’re bringing you the biggest fails of 2017 as well as some startups that you
   should definitely keep an eye on.
@@ -64,7 +64,7 @@ They offer health monitoring using wearable sensors, support and access to their
 
 Check it out [here](http://goforward.com){:rel="nofollow"}{:target="_blank"}
 
-Twitter: [@GoForward](https://twitter.com/GoForward){:rel="nofollow"}{:target="_blank"} 
+Twitter: [@GoForward](https://twitter.com/GoForward){:rel="nofollow"}{:target="_blank"}
 
 ## Essential Phone - phone designed by the creator of Android
 

@@ -2,7 +2,7 @@
 title: The Top JavaScript Trends to Look Forward to In 2019
 description: >-
   If you’re wondering what 2019 will bring when it comes to top JavaScript
-  development check out our newest blog post about upcoming trends. 
+  development check out our newest blog post about upcoming trends.
 slug: javascript-trends-2019
 layout: post
 twitter-card: summary_large_image
@@ -12,15 +12,15 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-image: /assets/images/javascript-trends-2019.png
+image: /assets/images/posts/javascript-trends-2019.png
 text-preview: >-
   If you’re wondering what 2019 will bring when it comes to top JavaScript
-  development check out our newest blog post about upcoming trends. 
+  development check out our newest blog post about upcoming trends.
 tags:
   - JavaScript development
   - Frontend development
 ---
-According Stack Overflow Report, JavaScript has been one of the most popular languages for software development for many years, and we predict it’s not going to lose its position any time soon (thank you Captain Obvious - right?). 
+According Stack Overflow Report, JavaScript has been one of the most popular languages for software development for many years, and we predict it’s not going to lose its position any time soon (thank you Captain Obvious - right?).
 
 JavaScript frameworks and libraries listed below are usually the top choice for developers of web and mobile applications. One of the reasons why, is that frontend developers that are familliar with JavaScript can build backend applications with the lanugage they already know.
 
@@ -40,7 +40,7 @@ Programmers familiar with other JavaScript frameworks can pick up Vue very easil
 
 ##  Not giving up the throne just yet - ReactJS
 
-Supported by Facebook, React has been the most popular JavaScript frameworks over the past 5 years. Netflix, Flipboard, PayPal and BBC were the first organizations that utilized React’s potential. 
+Supported by Facebook, React has been the most popular JavaScript frameworks over the past 5 years. Netflix, Flipboard, PayPal and BBC were the first organizations that utilized React’s potential.
 
 According to their own [website](https://reactjs.org){:rel="nofollow"}{:target="_blank"} _React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes._
 
@@ -48,11 +48,11 @@ Due to its popularity and established position (mostly because of support from s
 
 ## From AngularJS to Angular 7
 
-Even if you're new to JavaScript you surely heard about Angular. Developed by Google, this framework is usually used to develop single page applications. 
+Even if you're new to JavaScript you surely heard about Angular. Developed by Google, this framework is usually used to develop single page applications.
 
 Every couple of months Google comes up with a new version - from Angular 1 through 7. They keep improving their product and have a devoted following in their community. **However** it is already being surpassed by forementioned Vue when it comes to popularity.
 
-## The backend of Node.js 
+## The backend of Node.js
 
 The list of javascript frameworks can't be complete without Node.js. It is the most popular framework among backend developers who work with this language. When it comes to the server-side of programming with JS - **Node has no competition**.
 

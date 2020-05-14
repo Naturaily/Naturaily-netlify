@@ -13,7 +13,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-image: /assets/images/8-frameworks-ruby-not-rails.jpg
+image: /assets/images/posts/8-frameworks-ruby-not-rails.jpg
 text-preview: >-
   It’s common for a Ruby developer to only have experience with Rails and
   describe themselves as a Ruby on Rails developer. Since David Heinemeier
@@ -30,7 +30,7 @@ It’s common for a **Ruby** developer to only have experience with Rails and de
 ### Sinatra
 
 Now I know, many of you will be outraged, saying that [Sinatra](https://github.com/sinatra/sinatra){:rel="nofollow"}{:target="_blank"}
-is technically not a framework but rather a **DSL** (domain-specific language) for building websites, web services and web applications in Ruby. On the other hand, there are also some of you, that will keep insisting that it is widely considered as a framework, and therefore we’ve included it in this list. Sinatra, written in 2000 lines of Ruby, is the biggest of the frameworks on the list, but still it emphasizes the minimalistic approach to development, offering only what is necessary to handle HTTP requests and deliver responses to clients. Sinatra’s syntax is easy to understand and quite straightforward, and it allows for rapid API development, site building or creating a Ruby-based web service. 
+is technically not a framework but rather a **DSL** (domain-specific language) for building websites, web services and web applications in Ruby. On the other hand, there are also some of you, that will keep insisting that it is widely considered as a framework, and therefore we’ve included it in this list. Sinatra, written in 2000 lines of Ruby, is the biggest of the frameworks on the list, but still it emphasizes the minimalistic approach to development, offering only what is necessary to handle HTTP requests and deliver responses to clients. Sinatra’s syntax is easy to understand and quite straightforward, and it allows for rapid API development, site building or creating a Ruby-based web service.
 
 ### Padrino
 
@@ -50,7 +50,7 @@ is technically not a framework but rather a **DSL** (domain-specific language) f
 
 ### Roda
 
-[Roda](https://github.com/jeremyevans/roda){:rel="nofollow"}{:target="_blank"} is a web framework built on top of **Rack**, created by Jeremy Evans, that started as a fork of Cuba and was inspired by Sinatra. Roda (and Cuba) have a very unique approach to routing compared to Rails, Sinatra and other Ruby web frameworks. In Roda you route incoming requests dynamically as they come. Roda ships with lots of plugins for everyday needs, it comes with over 60 built in it. 
+[Roda](https://github.com/jeremyevans/roda){:rel="nofollow"}{:target="_blank"} is a web framework built on top of **Rack**, created by Jeremy Evans, that started as a fork of Cuba and was inspired by Sinatra. Roda (and Cuba) have a very unique approach to routing compared to Rails, Sinatra and other Ruby web frameworks. In Roda you route incoming requests dynamically as they come. Roda ships with lots of plugins for everyday needs, it comes with over 60 built in it.
 
 ### Ramaze
 

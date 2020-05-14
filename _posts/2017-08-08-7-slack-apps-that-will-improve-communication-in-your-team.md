@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/slack.jpg
+image: /assets/images/posts/slack.jpg
 text-preview: >-
   Communication between our team members is the key to success. To provide
   better quality products to our customers we use professional platforms and

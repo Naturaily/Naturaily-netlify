@@ -16,7 +16,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/how-to-find-a-reliable-software-house-in-7-steps_.png
+image: /assets/images/posts/how-to-find-a-reliable-software-house-in-7-steps_.png
 text-preview: >-
   Whether you’re after a team that would build your future project from scratch
   or looking to hire an augmented team, finding a solid tech partner is always

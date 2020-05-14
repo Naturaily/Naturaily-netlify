@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/maciek.png
   label: Maciej Kucharski
   value: author-16
-image: /assets/images/responsivetext.jpg
+image: /assets/images/posts/responsivetext.jpg
 text-preview: >-
   When thinking RWD most of you picture fluid grids and responsive images,
   forgetting a quite important piece of the puzzle - the content. *Since content

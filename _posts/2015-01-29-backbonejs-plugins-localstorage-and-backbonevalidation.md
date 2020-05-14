@@ -12,7 +12,7 @@ authors:
   value: author-13
   avatar: /assets/images/aga.png
 
-image: /assets/images/backbone_lol.png
+image: /assets/images/posts/backbone_lol.png
 text-preview: >-
   What is Backbone Local.Storage? Backbone Local.Storage is a method which helps
   frontend developers to store the data locally. When someone starts making a

@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/janpol.png
   label: Jan Wieczorkowski
   value: author-8
-image: /assets/images/random_console.png
+image: /assets/images/posts/random_console.png
 text-preview: >-
   Some time ago [Marcin wrote about basic design patterns in Ruby on
   Rails](http://naturaily.com/blog/post/basic-design-patterns-in-ruby-on-rails).
@@ -107,4 +107,4 @@ It is very easy, nothing fancy. However, there is a hidden message: you have to 
 
 Thank you! Bye!
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

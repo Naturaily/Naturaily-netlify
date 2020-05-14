@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/mantle.png
   label: Marcin Mantke
   value: author-11
-image: /assets/images/patterns.jpg
+image: /assets/images/posts/patterns.jpg
 text-preview: >-
   Not only as programmers, but in day-to-day life, we encounter some problems.
   Every person has similiar difficulties, and our society has found universal

@@ -13,7 +13,7 @@ authors:
   avatar: /assets/images/kamil.jpg
   label: Kamil Buczel
   value: author-10
-image: /assets/images/first-steps.jpg
+image: /assets/images/posts/first-steps.jpg
 text-preview: >-
   Creating apps on Android seems like a pretty straightforward task. Just take
   working solutions and put them on mobile devices. On about 11 thousand
@@ -140,4 +140,4 @@ With mobile apps the situation is even worse. There are few things in the world 
   ** Which it really did… On the one of devices (oldy LG) I got some weird mallufoctiong as described [here](http://stackoverflow.com/questions/13526690/why-setcanceledontouchoutsidefalse-doesnt-work-in-alert-builder/13567411#13567411).
   And was in a place where you stop and have to weigh what is more important to you, potential problems on samsung device, compatibility with one of LG devices or trying to make everyone happy. Long story short - you can’t make everyone happy.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

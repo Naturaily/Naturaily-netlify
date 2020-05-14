@@ -11,7 +11,7 @@ authors:
   value: author-6
   avatar: /assets/images/marcin.jpg
 
-image: /assets/images/film_quotes.png
+image: /assets/images/posts/film_quotes.png
 text-preview: >-
   Some movies are full of great pieces of advice for entrepreneurs and startup
   builders. Below you will find some of my favourite examples.

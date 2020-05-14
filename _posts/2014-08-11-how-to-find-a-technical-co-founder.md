@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/cofounder.jpg
+image: /assets/images/posts/cofounder.jpg
 text-preview: >-
   Whether you're building a ONE BILLION startup or a smallish web developement
   agency, as an entrepreneur you have one tough task: finding a technical

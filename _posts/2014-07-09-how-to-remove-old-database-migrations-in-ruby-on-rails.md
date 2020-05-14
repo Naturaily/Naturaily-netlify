@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/jacek.png
   label: Jacek Hiszpański
   value: author-12
-image: /assets/images/migrations.jpg
+image: /assets/images/posts/migrations.jpg
 text-preview: >-
   Recently we’ve overtaken a big project for maintenance and further
   development. It’s a Rails application with many models, controllers and of

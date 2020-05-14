@@ -18,7 +18,7 @@ authors:
   avatar: /assets/images/leo_baz_profile.png
   label: Leo Baz
   value: author-26
-image: /assets/images/how-to-find-the-best-development-company-on-clutch.png
+image: /assets/images/posts/how-to-find-the-best-development-company-on-clutch.png
 text-preview: >-
   Clutch is the industry go-to place for reliable reviews of potential software
   development contractors. On paper, this sounds like a perfect way to x-ray

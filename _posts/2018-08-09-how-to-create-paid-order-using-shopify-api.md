@@ -14,7 +14,7 @@ authors:
   avatar: /assets/images/piotrek-musielak.jpg
   label: Piotrek Musielak
   value: author-20
-image: /assets/images/paid-order-shopify-api.jpg
+image: /assets/images/posts/paid-order-shopify-api.jpg
 text-preview: >-
   Creating an order using Shopify API with status set to 'paid' might be
   somewhat a tough and tricky task. Surprisingly, this is not a practical or a

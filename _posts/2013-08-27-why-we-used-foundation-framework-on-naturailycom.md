@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/maciek.png
   label: Maciej Kucharski
   value: author-16
-image: /assets/images/foundation.jpg
+image: /assets/images/posts/foundation.jpg
 text-preview: >-
   Gentle normalize.css ----------------------- Your usual reset.css leaves you
   with absolutely nothing - each and every style has to be written by yourself,

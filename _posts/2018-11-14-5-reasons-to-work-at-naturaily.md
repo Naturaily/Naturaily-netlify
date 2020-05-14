@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-image: /assets/images/5-reasons-to-work-at-naturaily.jpg
+image: /assets/images/posts/5-reasons-to-work-at-naturaily.jpg
 text-preview: >-
   Are looking for a new job in the software development sector? Here are 5
   reasons why you will love working at Naturaily.

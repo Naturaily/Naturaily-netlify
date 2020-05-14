@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/kamil_sopata_profile.png
   label: Kamil Sopata
   value: author-25
-image: /assets/images/multiprocessing-in-ruby-a-good-alternative-to-threads_.png
+image: /assets/images/posts/multiprocessing-in-ruby-a-good-alternative-to-threads_.png
 text-preview: >-
   Parallel computing is a cure for performance issues. It allows to do several
   things at once, which sounds great in the context of background jobs. Inspired

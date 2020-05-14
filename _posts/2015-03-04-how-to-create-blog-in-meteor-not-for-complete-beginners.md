@@ -11,7 +11,7 @@ authors:
   value: author-14
   avatar: /assets/images/no-image.png
 
-image: /assets/images/meteor_blog.jpg
+image: /assets/images/posts/meteor_blog.jpg
 text-preview: >-
   The purpose of this post is to show you how to create a very simple blog app
   in Meteor. Instead of writing everything from scratch, we're going to use

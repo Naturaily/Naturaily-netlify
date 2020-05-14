@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-image: /assets/images/ways-to-develop-mobile-apps.jpg
+image: /assets/images/posts/ways-to-develop-mobile-apps.jpg
 text-preview: >-
   So you have a mobile app you would like to build. The first question you need
   to ask yourself is what kind of app is it going to be? Native? Hybrid? Web?

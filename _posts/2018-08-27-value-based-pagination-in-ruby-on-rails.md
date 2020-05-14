@@ -11,7 +11,7 @@ authors:
   avatar: /assets/images/tomasz.jpg
   label: Tomasz Żdanuk
   value: author-2
-image: /assets/images/value-based-pagination.jpg
+image: /assets/images/posts/value-based-pagination.jpg
 text-preview: >-
   This is a quick tutorial that will show you how to properly handle value-based
   pagination in Ruby on Rails and where to use it.

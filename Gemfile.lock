@@ -98,6 +98,9 @@ GEM
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-pwa-plugin (2.2.3)
+    jekyll-responsive-image (1.5.5)
+      jekyll (>= 2.0, < 5.0)
+      rmagick (>= 2.0, < 5.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-sitemap (1.4.0)
@@ -153,6 +156,7 @@ GEM
       ffi (~> 1.0)
     rb-readline (0.5.5)
     rexml (3.2.4)
+    rmagick (4.1.2)
     rouge (3.18.0)
     safe_yaml (1.0.5)
     sassc (2.3.0)
@@ -194,6 +198,7 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-paginate-v2
   jekyll-pwa-plugin
+  jekyll-responsive-image
   jekyll-sitemap
   liquid-c
   rouge
@@ -201,4 +206,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

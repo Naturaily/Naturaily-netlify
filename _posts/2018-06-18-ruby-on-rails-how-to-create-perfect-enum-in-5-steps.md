@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/blazej.png
   label: Błażej Pichur
   value: author-4
-image: /assets/images/perfect-enum.jpg
+image: /assets/images/posts/perfect-enum.jpg
 text-preview: >-
   When your project starts you probably design ERD diagram or a similar one.
   Then, each time when a client passes new requirements to you it’s necessary to

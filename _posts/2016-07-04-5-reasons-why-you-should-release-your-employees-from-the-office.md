@@ -10,7 +10,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/release-employees.jpg
+image: /assets/images/posts/release-employees.jpg
 text-preview: >-
   We provide services remotely to customers around the world. The distance and
   additional hurdles in the form of different time zones and cultural
