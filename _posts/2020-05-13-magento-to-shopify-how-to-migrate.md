@@ -157,7 +157,7 @@ If you’re worried about migrating or integrating these functionalities, worry 
 
 Using these tools will take much of the hassle away from your Magento migration while also ensuring your new Shopify store performs as intended.
 
-[{% image /assets/images/blog_cs_shopify_cta.png Shopify_Integrations_case_study  %}](https://naturaily.com/portfolio/woolman){:target=”_blank”}
+[{% image /assets/images/blog_cs_awn_cta.png Consulting_Workshops_Ecommerce_Optimization  %}](https://naturaily.com/portfolio/awn){:target=”_blank”}
 
 <br>
 
