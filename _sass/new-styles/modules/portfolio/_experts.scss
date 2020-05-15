@@ -52,10 +52,8 @@
     }
   }
 
-  &--double {
-    .portfolio-experts__second-group {
-      margin-top: -168px;
-    }
+  &--double .portfolio-experts__second-group {
+    margin-top: -168px;
   }
 }
 

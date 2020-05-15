@@ -18,13 +18,10 @@
 }
 
 @media (min-width: 811px) {
-  .portfolio-goal--work-for-impact {
-
-    .portfolio__columns--right img {
-      position: relative;
-      top: -30px;
-      width: calc(100% + 150px);
-    }
+  .portfolio-goal--work-for-impact .portfolio__columns--right img {
+    position: relative;
+    top: -30px;
+    width: calc(100% + 150px);
   }
 }
 

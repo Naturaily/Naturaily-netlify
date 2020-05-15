@@ -196,11 +196,9 @@
 }
 
 @media (min-width: 992px) {
-  .portfolio-results__main-text {
-    &--big {
-      padding-right: 50px;
-      padding-top: 25px;
-    }
+  .portfolio-results__main-text--big {
+    padding-right: 50px;
+    padding-top: 25px;
   }
 }
 
