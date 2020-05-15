@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/Blog_COVID-2019_Pandemic_vs_E-commerce.png
+image: /assets/images/blog_magento_shopify_migration.png
 text-preview: >
   Migrating an e-commerce store is often seen as necessary evil; we all know the
   benefits, but the process itself is the most daunting factor. This is arguably
@@ -156,6 +156,8 @@ If you’re worried about migrating or integrating these functionalities, worry 
 * [Stock Sync](https://apps.shopify.com/stock-sync){:rel="nofollow"}{:target="_blank"} is a great solution for regularly updating your inventory and products.
 
 Using these tools will take much of the hassle away from your Magento migration while also ensuring your new Shopify store performs as intended.
+
+[![{% image /assets/images/blog_cs_shopify_cta.png Shopify_Integrations_case_study  %}](https://naturaily.com/portfolio/woolman)
 
 <br>
 
