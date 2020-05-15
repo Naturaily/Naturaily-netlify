@@ -149,6 +149,7 @@ plugins:
   - jekyll-pwa-plugin
   - jekyll-compress-images
   - jekyll-minifier
+  - jekyll-srcset
 
 exclude:
   - .sass-cache/

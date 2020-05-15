@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
-image: /assets/images/Why Organisations Fails at Implementing IT Projects.jpg
+image: /assets/images/posts/Why Organisations Fails at Implementing IT Projects.jpg
 text-preview: >
   According to a Gallup study, only 2.5% of companies complete 100% of their
   projects. The numbers are shocking but they show the scale of the problem.

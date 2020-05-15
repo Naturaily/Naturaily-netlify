@@ -9,13 +9,9 @@ layout: default
     <div class="post-preview">
       <a class="post-link" href="{{ post.url | relative_url }}">
         {% if post.image %}
-          {% assign url = post.image %}
-          {% assign url-filename = url | split: '.' | pop | join: '.' %}
-          {% assign url-extension = url | split: '.' | last %}
-
-          <source class="post-image"  alt="post image" srcset="{{ post.image }}" media="(min-width: 992px)">
-          <img class="post-image" alt="post image" src="{{ url-filename }}-400.{{ url-extension }}">
+          {% image_tag src="/assets/images/posts/Blog_San_Diego_Startups_cover.png" width="300" class="post-image" alt="post image" %}
         {% endif %}
+
       </a>
       <div class="post-meta">
         {% if post.authors.avatar %}

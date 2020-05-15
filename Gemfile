@@ -29,6 +29,7 @@ group :jekyll_plugins do
    gem 'jekyll-pwa-plugin'
    gem 'jekyll-compress-images', :git => 'https://github.com/valerijaspasojevic/jekyll-compress-images.git'
    gem 'jekyll-minifier'
+   gem 'jekyll-srcset'
 
 end
 
