@@ -152,7 +152,7 @@ Once all the product and customer information is loaded, we need to ensure we ha
 If you’re worried about migrating or integrating these functionalities, worry not: as always, third party tools are your friend! Here are our recommendations:
 
 * [EZ Exporter](https://apps.shopify.com/ez-exporter){:rel="nofollow"}{:target="_blank"} is a great app for integrating order exports.
-* [UPTracker](https://apps.shopify.com/uptracker){:rel="nofollow"}{:target="_blank"} and [Massfulfill](https://apps.shopify.com/massfulfill) can both handle shipping imports.
+* [UPTracker](https://apps.shopify.com/uptracker){:rel="nofollow"}{:target="_blank"} and [Massfulfill](https://apps.shopify.com/massfulfill){:rel="nofollow"}{:target="_blank"} can both handle shipping imports.
 * [Stock Sync](https://apps.shopify.com/stock-sync){:rel="nofollow"}{:target="_blank"} is a great solution for regularly updating your inventory and products.
 
 Using these tools will take much of the hassle away from your Magento migration while also ensuring your new Shopify store performs as intended.
