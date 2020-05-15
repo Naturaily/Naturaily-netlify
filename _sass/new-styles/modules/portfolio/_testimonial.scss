@@ -24,6 +24,10 @@
       &--lvcloud {
         transform: translate(-45px);
       }
+
+      &--work-for-impact {
+        transform: translate(-40%);
+      }
     }
 
     &-quote {
@@ -110,8 +114,12 @@
       }
 
       &-quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         order: 2;
         width: 45%;
+
       }
 
       &-text {
