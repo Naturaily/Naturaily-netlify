@@ -27,7 +27,7 @@
     margin: 0;
   }
 
-  .portfolio__columns {
+  &__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -45,16 +45,6 @@
       color: $color-portfolio-text;
     }
   }
-
-  &--double .portfolio-experts__second-group {
-    margin-top: -168px;
-  }
-}
-
-@media (min-width: 410px) {
-  .portfolio-experts--double .portfolio-experts__second-group {
-    margin-top: -144px;
-  }
 }
 
 @media (min-width: 811px) {
@@ -62,6 +52,10 @@
     position: relative;
     top: 5px;
     margin-bottom: 0;
+
+    &--moved {
+      padding-top: 75px;
+    }
 
     &__number {
       top: -5px;
@@ -76,41 +70,38 @@
       font-size: 0.9em;
     }
 
-    .portfolio__columns {
-      flex-direction: row;
-      max-width: 100%;
-      margin: 50px 0 0;
+    &__list {
+      margin: 25px 0 0;
       padding: 0;
-      background-color: $color-white;
-      border: 1px solid $color-global-font-10;
-      border-radius: 8px;
 
       li {
         display: flex;
         flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 0;
         padding: 40px 0 20px;
+        margin: 25px 0;
         text-align: center;
+        background-color: $color-white;
+        border-top: 1px solid $color-global-font-10;
+        border-bottom: 1px solid $color-global-font-10;
 
-        &.portfolio-experts__empty-slot {
-          display: none;
+        &:first-of-type, &:nth-of-type(6n+0) {
+          border-left: 1px solid $color-global-font-10;
+          border-radius: 8px 0 0 8px;
+        }
+
+        &:last-of-type, &:nth-of-type(5n+0) {
+          border-right: 1px solid $color-global-font-10;
+          border-radius: 0 8px 8px 0;
         }
       }
-    }
 
-    &--five .portfolio__columns li {
-      width: 20%;
-    }
-
-    &--four .portfolio__columns li {
-      width: 25%;
-    }
-
-    &--three .portfolio__columns li {
-      width: 33%;
-    }
-
-    &--moved {
-      padding-top: 75px;
+      &--full-width-five li {
+        flex-grow: 0;
+        flex-basis: auto;
+        width: 20%;
+      }
     }
   }
 }
@@ -118,7 +109,7 @@
 @media (min-width: 1200px) {
   .portfolio-experts {
     &__number {
-      left: 30px;
+      left: 45px;
     }
 
     .paragraph {
@@ -126,13 +117,13 @@
       text-align: left;
     }
 
-    .portfolio__columns {
-      padding-left: 15px;
+    &__list {
+      margin-left: -15px;
 
       li {
         flex-direction: row;
         align-items: center;
-        padding: 35px 20px 30px;
+        padding: 35px 10px 30px 35px;
       }
     }
   }
