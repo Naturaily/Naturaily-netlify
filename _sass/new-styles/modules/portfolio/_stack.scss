@@ -19,7 +19,7 @@
       height: 100%;
     }
 
-    &--wider img, &--mongo img, &--kafka img {
+    &--wider img, &--mongo img, &--kafka img, &--electron img, &--teamwork img {
       height: auto;
     }
 
@@ -37,7 +37,13 @@
 
     &--teamwork img {
       width: 200px;
-      height: auto;
+    }
+
+    &--electron img {
+      width: 220px;
+    }
+
+    &--electron img, &--teamwork img {
       margin-top: 10px;
     }
   }

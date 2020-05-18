@@ -8,23 +8,8 @@
   .project {
     grid-template-columns: 30px 1fr 30px;
     grid-template-rows: 40px 1fr 30px 20px;
+    background-image: url(../assets/images/projects-background-purple.jpg);
     background-size: cover;
-
-    &-collectivity {
-      background-image: url(../assets/images/projects-background-green.jpg);
-
-      a {
-        margin-top: 10px;
-      }
-    }
-
-    &-zapnito {
-      background-image: url(../assets/images/projects-background-blue.jpg);
-    }
-
-    &-snipsl {
-      background-image: url(../assets/images/projects-background-red.jpg);
-    }
 
     &-text {
       margin-top: 10px;
@@ -99,17 +84,12 @@
     }
 
     .project {
-
-      &-collectivity {
+      &--lower {
         margin-top: 60px;
       }
 
-      &-zapnito, &-snipsl {
+      &--higher {
         margin-bottom: 60px;
-      }
-
-      &-image img {
-        // width: auto;
       }
     }
   }
