@@ -77,8 +77,7 @@
       li {
         display: flex;
         flex-direction: column;
-        flex-grow: 1;
-        flex-basis: 0;
+        flex: 1;
         padding: 40px 0 20px;
         margin: 25px 0;
         text-align: center;
@@ -86,20 +85,19 @@
         border-top: 1px solid $color-global-font-10;
         border-bottom: 1px solid $color-global-font-10;
 
-        &:first-of-type, &:nth-of-type(6n+0) {
+        &:first-child, &:nth-child(6n) {
           border-left: 1px solid $color-global-font-10;
           border-radius: 8px 0 0 8px;
         }
 
-        &:last-of-type, &:nth-of-type(5n+0) {
+        &:last-child, &:nth-child(5n) {
           border-right: 1px solid $color-global-font-10;
           border-radius: 0 8px 8px 0;
         }
       }
 
       &--full-width-five li {
-        flex-grow: 0;
-        flex-basis: auto;
+        flex: 0 auto;
         width: 20%;
       }
     }
