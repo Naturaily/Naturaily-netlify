@@ -57,6 +57,17 @@
       }
     }
 
+    &-image--with-figure {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &-intro {
+      color: $color-portfolio-text;
+      font-size: 1em;
+      line-height: 1.5;
+    }
+
     .portfolio__columns--right {
       display: flex;
       flex-direction: column-reverse;
@@ -132,6 +143,10 @@
         }
       }
 
+      &-intro {
+        max-width: 400px;
+      }
+
       .portfolio__list {
         margin-left: 0;
 
@@ -183,6 +198,7 @@
 @media (min-width: 992px) {
   .portfolio-results__main-text--big {
     padding-right: 50px;
+    padding-top: 25px;
   }
 }
 
@@ -190,5 +206,6 @@
   .portfolio-results__main-text--big {
     font-size: 1.5em;
     padding-right: 100px;
+    padding-top: 50px;
   }
 }
