@@ -1,4 +1,4 @@
-.portfolio-goal--work-for-impact {
+.portfolio-goal--with-paragraph {
   margin-bottom: -25px;
 
   .portfolio__columns--right img {
@@ -9,7 +9,7 @@
 }
 
 @media (min-width: 576px) {
-  .portfolio-goal--work-for-impact .portfolio__columns--right img {
+  .portfolio-goal--with-paragraph .portfolio__columns--right img {
     width: 100%;
     margin: 0;
     border-radius: 8px;
@@ -18,15 +18,21 @@
 }
 
 @media (min-width: 811px) {
-  .portfolio-goal--work-for-impact .portfolio__columns--right img {
-    position: relative;
-    top: -30px;
-    width: calc(100% + 150px);
+  .portfolio-goal--with-paragraph  {
+    .portfolio__columns--right img {
+      position: relative;
+      top: -30px;
+      width: calc(100% + 150px);
+    }
+
+    .portfolio__credits {
+      display: none;
+    }
   }
 }
 
 @media (min-width: 992px) {
-  .portfolio-goal--work-for-impact {
+  .portfolio-goal--with-paragraph {
     margin-bottom: -100px;
 
     .paragraph {
@@ -43,7 +49,7 @@
 }
 
 @media (min-width: 1200px) {
-  .portfolio-goal--work-for-impact {
+  .portfolio-goal--with-paragraph {
     margin-bottom: -150px;
 
     .portfolio__columns--right img {

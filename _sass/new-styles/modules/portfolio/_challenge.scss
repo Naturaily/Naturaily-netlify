@@ -5,6 +5,10 @@
 
   .portfolio__columns--right .paragraph {
     padding-top: 75px;
+
+    a {
+      color: $color-secondary;
+    }
   }
 
   &__image {
