@@ -1,10 +1,10 @@
 .portfolio-challenge {
   .portfolio__columns--left .paragraph {
     margin-bottom: -75px;
-  }
 
-  &--with-figure .portfolio__columns--left .paragraph {
-    margin-bottom: 0;
+    &--retention-rocket {
+      margin-bottom: -80px;
+    }
   }
 
   .portfolio__columns--right .paragraph {
@@ -46,10 +46,10 @@
 
     .portfolio__columns--left .paragraph {
       margin-bottom: -100px;
-    }
 
-    &--with-figure .portfolio__columns--left .paragraph {
-      margin-bottom: 0;
+      &--retention-rocket {
+        margin-bottom: -25px;
+      }
     }
 
     .portfolio__columns--right .paragraph {
