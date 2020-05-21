@@ -4,16 +4,25 @@
   .portfolio__columns--right img {
     margin: 0 -35px;
     width: 130vw;
+  }
+
+  &.portfolio-goal--work-for-impact .portfolio__columns--right img {
     transform: translateX(-60px);
   }
 }
 
 @media (min-width: 576px) {
-  .portfolio-goal--with-paragraph .portfolio__columns--right img {
-    width: 100%;
-    margin: 0;
-    border-radius: 8px;
-    transform: none;
+  .portfolio-goal--with-paragraph {
+    &.portfolio-goal--work-for-impact .portfolio__columns--right img,
+    .portfolio__columns--right img {
+      transform: none;
+    }
+
+    .portfolio__columns--right img {
+      width: 100%;
+      margin: 0;
+      border-radius: 8px;
+    }
   }
 }
 
