@@ -21,6 +21,10 @@
         transform: translate(-30%);
       }
 
+      &--lingohub {
+        transform: translate(-25%);
+      }
+
       &--lvcloud {
         transform: translate(-45px);
       }
@@ -79,14 +83,14 @@
     right: 50px;
 
     &_center, &_right::after {
-       height: 280px;
-       width: 280px;
-     }
+      height: 280px;
+      width: 280px;
+    }
 
      &_right {
-       width: 140px;
-       height: 280px;
-     }
+      width: 140px;
+      height: 280px;
+    }
   }
 }
 

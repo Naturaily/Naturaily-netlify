@@ -1,10 +1,18 @@
 .portfolio-challenge {
   .portfolio__columns--left .paragraph {
     margin-bottom: -75px;
+
+    &--retention-rocket {
+      margin-bottom: -80px;
+    }
   }
 
   .portfolio__columns--right .paragraph {
     padding-top: 75px;
+
+    a {
+      color: $color-secondary;
+    }
   }
 
   &__image {
@@ -38,6 +46,10 @@
 
     .portfolio__columns--left .paragraph {
       margin-bottom: -100px;
+
+      &--retention-rocket {
+        margin-bottom: -25px;
+      }
     }
 
     .portfolio__columns--right .paragraph {

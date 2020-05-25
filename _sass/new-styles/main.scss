@@ -105,6 +105,7 @@
 
 @import "modules/portfolio/hero";
 @import "modules/portfolio/about";
+@import "modules/portfolio/goal";
 @import "modules/portfolio/challenge";
 @import "modules/portfolio/features";
 @import "modules/portfolio/stack";
@@ -112,6 +113,7 @@
 @import "modules/portfolio/results";
 @import "modules/portfolio/testimonial";
 @import "modules/portfolio/estimate";
+@import "modules/portfolio/other";
 
 @import "modules/portfolio/artinfo/challenge";
 @import "modules/portfolio/artinfo/goal";
@@ -128,11 +130,11 @@
 @import "modules/portfolio/lvcloud/tabs";
 @import "modules/portfolio/lvcloud/video";
 
+@import "modules/portfolio/retention-rocket/testimonial";
+
 @import "modules/portfolio/woolman/about";
 @import "modules/portfolio/woolman/blog";
 @import "modules/portfolio/woolman/hero";
-
-@import "modules/portfolio/work-for-impact/goal";
 
 
 body {

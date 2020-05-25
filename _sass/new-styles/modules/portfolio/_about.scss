@@ -24,6 +24,15 @@
     margin-bottom: -100px;
   }
 
+  &--without-separator {
+    margin-bottom: -100px;
+
+    .portfolio__columns--right {
+      padding-top: 0;
+      margin-bottom: 25px;
+    }
+  }
+
   &__separator {
     order: 2;
     margin: 100px -35px -75px;
@@ -42,6 +51,10 @@
     &--lvcloud {
       background-color: $color-geometric-green;
     }
+
+    &--lingohub {
+      background-color: $color-geometric-blue;
+    }
   }
 }
 
@@ -59,6 +72,10 @@
 @media (min-width: 811px) {
   .portfolio-about {
     margin-bottom: 50px;
+
+    &--without-separator {
+      margin-bottom: -50px;
+    }
 
     .portfolio__columns {
       flex-wrap: wrap;
@@ -113,6 +130,10 @@
   .portfolio-about {
     padding-bottom: 850px;
     margin-bottom: 0;
+
+    &--without-separator {
+      padding-bottom: 100px;
+    }
 
     &__separator {
       position: absolute;
