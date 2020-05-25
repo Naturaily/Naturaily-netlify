@@ -1,0 +1,69 @@
+.portfolio-goal--with-paragraph {
+  margin-bottom: -25px;
+
+  .portfolio__columns--right img {
+    margin: 0 -35px;
+    width: 130vw;
+  }
+
+  &.portfolio-goal--work-for-impact .portfolio__columns--right img {
+    transform: translateX(-60px);
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-goal--with-paragraph {
+    &.portfolio-goal--work-for-impact .portfolio__columns--right img,
+    .portfolio__columns--right img {
+      transform: none;
+    }
+
+    .portfolio__columns--right img {
+      width: 100%;
+      margin: 0;
+      border-radius: 8px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-goal--with-paragraph  {
+    .portfolio__columns--right img {
+      position: relative;
+      top: -30px;
+      width: calc(100% + 150px);
+    }
+
+    .portfolio__credits {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-goal--with-paragraph {
+    margin-bottom: -100px;
+
+    .paragraph {
+      padding-top: 25px;
+      padding-right: 50px;
+    }
+
+    .portfolio__columns--right img {
+      top: -50px;
+      width: calc(100% + 200px);
+      max-width: 550px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-goal--with-paragraph {
+    margin-bottom: -150px;
+
+    .portfolio__columns--right img {
+      top: -100px;
+      max-width: 600px;
+    }
+  }
+}

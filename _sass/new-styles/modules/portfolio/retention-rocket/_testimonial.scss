@@ -1,0 +1,116 @@
+.portfolio-testimonial--retention-rocket {
+  .geometric-figure {
+    display: none;
+  }
+
+  .portfolio-testimonial {
+    &__quote {
+      position: relative;
+      padding-top: 15px;
+      font-size: 1.6em;
+      line-height: 1.5;
+
+      .icon-quote {
+        position: absolute;
+        top: -15px;
+        left: 0;
+        opacity: 0.1;
+        color: $color-accent-yellow;
+      }
+    }
+
+    &__image {
+      width: 110vw;
+      margin: 25px 0 50px;
+      transform: translateX(-13%);
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-testimonial--retention-rocket .portfolio-testimonial__image {
+    width: 100%;
+    transform: none;
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-testimonial--retention-rocket {
+    overflow: hidden;
+
+    .geometric-figure {
+      display: flex;
+      top: -60px;
+      right: 80px;
+    }
+
+    .portfolio-testimonial {
+      &__content .portfolio__credits, &__quote, &__text {
+        width: 50%;
+        max-width: 430px;
+      }
+
+      &__content  {
+        position: relative;
+        flex-direction: column;
+
+        .portfolio__credits {
+          order: 3;
+          padding-top: 0;
+        }
+      }
+
+      &__quote {
+        order: 1;
+      }
+
+      &__text {
+        order: 2;
+        padding: 25px 0;
+      }
+
+      &__image {
+        position: absolute;
+        top: -25px;
+        left: calc(50% + 50px);
+        width: calc(50% + 55px);
+        max-width: 450px;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-testimonial--retention-rocket {
+    .geometric-figure {
+      top: -80px;
+      right: 140px;
+
+      &_center, &_right::after {
+        height: 200px;
+        width: 200px;
+      }
+
+      &_right {
+        width: 100px;
+        height: 200px;
+      }
+    }
+
+    .portfolio-testimonial {
+      &__quote {
+        box-sizing: border-box;
+        padding-left: 35px;
+      }
+
+      &__text {
+        padding: 50px 0;
+      }
+    }
+  }
+}
