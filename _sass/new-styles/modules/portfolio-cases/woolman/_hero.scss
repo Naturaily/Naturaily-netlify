@@ -1,0 +1,81 @@
+.case-hero--woolman {
+  .case-hero__image {
+    &-img {
+      max-width: auto;
+      max-height: 400px;
+      bottom: 0;
+    }
+
+    .geometric-figure {
+      top: 290px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .case-hero--woolman {
+    overflow: visible;
+
+    .case-hero__text {
+      padding-right: 150px;
+    }
+
+    .case-hero__image {
+      &-img {
+        max-height: 380px;
+        bottom: -40px;
+        left: auto;
+        right: 5%;
+        transform: rotate(-1deg);
+      }
+
+      .geometric-figure {
+        top: 70px;
+        left: auto;
+        right: -40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .case-hero--woolman .case-hero__image {
+    &-img {
+      max-height: 500px;
+      right: 5px;
+    }
+
+    .geometric-figure {
+      top: 140px;
+      right: 30px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .case-hero--woolman .case-hero__image {
+    &-img {
+      max-height: 580px;
+      bottom: -70px;
+    }
+
+    .geometric-figure {
+      top: 160px;
+      right: 220px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .case-hero--woolman .case-hero__image {
+    &-img {
+      max-height: 650px;
+      right: -50px;
+    }
+
+    .geometric-figure {
+      top: 30px;
+      right: 120px;
+    }
+  }
+}
