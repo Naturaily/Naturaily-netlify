@@ -1,0 +1,442 @@
+<div class="case__section case__section--half-orange">
+  <span class="case__step">Solution</span>
+  <h2 class="case__title">Solution</h2>
+
+  <div class="case__columns case-answer">
+    <div class="case__columns--left">
+      <p class="paragraph">
+        LV Cloud is a&nbsp;software solution that collects, processes and aggregates
+        data from different types of devices, including Reclosers, TDRs, GUARDs
+        and VisnetHubs. Based on the collected data, it is possible to trace
+        malfunctioning or physically damaged grids and immediately decide whether
+        it needs to be fixed by a&nbsp;team of engineers or if it will fix itself.
+        This brings many benefits to both energy companies and their clients.
+      </p>
+    </div>
+    <div class="case__columns--right invisible-sm">
+      <img
+        src="/assets/images/loader.gif"
+        data-src="/assets/images/portfolio-cases/lvcloud/solution-top.png"
+        alt="lv cloud app screen"
+      />
+    </div>
+  </div>
+
+  <div class="case-solutions">
+    <div class="case__columns case__columns--odd">
+      <div class="case-solutions__description">
+        <h3 class="case-solutions__header">How did the IoT application development process go?</h3>
+        <p class="paragraph">
+          To meet the challenges mentioned above and develop the performant IoT
+          enterprise-level solution, we built <strong>Ruby</strong>
+          and <strong>Ruby on Rails</strong> applications using a&nbsp;microservices
+          architecture. There is a&nbsp;separate microservice assigned to each type
+          of device, which increases scalability and makes the management,
+          development and maintenance processes much easier.
+          Thanks to this approach, we can easily detect the error and quickly
+          respond to it. Any necessary fixes are made without affecting other
+          microservices.
+        </p>
+      </div>
+      <div class="case-solutions__image">
+        <img
+          src="/assets/images/loader.gif"
+          data-src="/assets/images/portfolio-cases/lvcloud/solution1.png"
+          alt="lvcloud mobile panel"
+        />
+        <figure class="geometric-figure geometric-figure--schema1">
+          <div class="geometric-figure_center"></div>
+          <div class="geometric-figure_right"></div>
+        </figure>
+      </div>
+    </div>
+    <div class="case__columns case__columns--even">
+      <div class="case-solutions__description">
+        <h3 class="case-solutions__header">
+          Each device collects different types of data, including low voltage,
+          high voltage, power, current, temperature of the device, temperature
+          inside and outside the substation, and humidity.
+        </h3>
+        <p class="paragraph">
+          There are between 600,000 and 1,500,000 events and measurements a&nbsp;day
+          sent from devices to the application with an&nbsp;<strong>MQTT</strong> broker.
+          Microservices receive, process and then broadcast the data
+          via a&nbsp;<strong>Kafka</strong> streaming platform. Parsed measurements
+          are received by the main application and saved to a&nbsp;<strong>MongoDB</strong>
+          database.
+        </p>
+        <span class="case__dot case__dot--secondary invisible-sm"></span>
+        <span class="case__dot case__dot--yellow invisible-sm"></span>
+        <span class="case__dot case__dot--blue invisible-sm"></span>
+      </div>
+      <div class="case-solutions__image">
+        <img
+          src="/assets/images/loader.gif"
+          data-src="/assets/images/portfolio-cases/lvcloud/solution2.png"
+          alt="lvcloud mobile data charts"
+        />
+        <figure class="geometric-figure geometric-figure--schema2">
+          <div class="geometric-figure_center"></div>
+          <div class="geometric-figure_right"></div>
+        </figure>
+      </div>
+    </div>
+    <div class="case__columns case__columns--odd">
+      <div class="case-solutions__description">
+        <p class="paragraph">
+          These huge amounts of data could be useless if they were unreadable
+          and difficult to interpret. That’s why we have chosen
+          <strong>Vue.js</strong> in the frontend development, with
+          <strong>Highcharts</strong> to present the data neatly.<br><br>
+          Our choice of Vue.js (combined with <strong>jQuery</strong> library)
+          was also because of its performance and suitability to build stable,
+          large-scale solutions. This combination guaranteed the acceleration
+          and facilitation of the development process.<br><br>
+          If you want to know more about Highcharts itself,
+          <a class="text-secondary" href="https://naturaily.com/blog/big-datasets-highcharts-vue">
+          follow the link to one of our blog posts</a>.
+        </p>
+      </div>
+      <div class="case-solutions__image">
+        <img
+          src="/assets/images/loader.gif"
+          data-src="/assets/images/portfolio-cases/lvcloud/solution3.png"
+          alt="lvcloud mobile panel"
+        />
+        <figure class="geometric-figure geometric-figure--schema3">
+          <div class="geometric-figure_center"></div>
+          <div class="geometric-figure_right"></div>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div id="lv-solution-tabs" class="case-tabs invisible-sm">
+    <div class="case-tabs__menu">
+      <ul class="case-tabs__menu-list">
+        <li class="tabs-item case-tabs__menu-list__item case-tabs__menu-list__item--active" data-type="tabs-nav" data-nav-index="1" data-active-nav="true">
+          Architecture <span></span>
+        </li>
+        <li class="tabs-item case-tabs__menu-list__item" data-type="tabs-nav" data-nav-index="2" data-active-nav="false">
+          Data collectors/parsers <span></span>
+        </li>
+        <li class="tabs-item case-tabs__menu-list__item" data-type="tabs-nav" data-nav-index="3" data-active-nav="false">
+          Sample Commands Senders <span></span>
+        </li>
+      </ul>
+    </div>
+    <div class="case-tabs__content" data-type="tabs-container">
+      <div class="tabs-tab case-tabs__content-tab case-tabs__content-tab--tab1" data-tab-index="1" data-active-tab="true">
+        <img src="/assets/images/portfolio-cases/lvcloud/tab1.png" alt="lvcloud architecture"/>
+      </div>
+      <div class="tabs-tab case-tabs__content-tab case-tabs__content-tab--tab2" data-tab-index="2" data-active-tab="false">
+        <img src="/assets/images/portfolio-cases/lvcloud/tab2.png" alt="lvcloud data collectors"/>
+      </div>
+      <div class="tabs-tab case-tabs__content-tab case-tabs__content-tab--tab3" data-tab-index="3" data-active-tab="false">
+        <img src="/assets/images/portfolio-cases/lvcloud/tab3.png" alt="lvcloud commands senders"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-features">
+    <h3 class="case-features__header case-features__header--invisible-lg">
+      Some of the LV Cloud features
+    </h3>
+    <div class="case__columns case__columns--odd">
+      <div class="case-features__description">
+        <h3 class="case-features__header case-features__header--invisible-sm">
+          Some of the LV Cloud features
+        </h3>
+        <ul class="case__list case__list--wider">
+          <li>collecting and analyzing data supplied from devices</li>
+          <li>alarms/warnings/notifications of disturbing changes</li>
+          <li>failure references</li>
+          <li>accurate distinction of single events from prefaults</li>
+          <li>detailed information about events and prefaults</li>
+          <li>generating summaries and reports</li>
+          <li>presenting the event log of the device and their waveforms</li>
+        </ul>
+      </div>
+      <div class="case-features__image">
+        <img
+          src="/assets/images/loader.gif"
+          data-src="/assets/images/portfolio-cases/lvcloud/features1.png"
+          alt="lvcloud features screen"
+        />
+      </div>
+    </div>
+    <div class="case__columns case__columns--even">
+      <div class="case-features__description">
+        <h3 class="case-features__header">Features from the user's perspective</h3>
+        <ul class="case__list case__list--wider">
+          <li>a list of all the equipment commissioned within the system</li>
+          <li>basic information about all the kit installed, such as color coded status, if it’s active, last dial in data etc.</li>
+          <li>text messages triggered by events related to reclosers - opened, closed or blocked </li>
+          <li>the system displays the status of each device</li>
+        </ul>
+      </div>
+      <div class="case-features__image">
+        <img
+          src="/assets/images/loader.gif"
+          data-src="/assets/images/portfolio-cases/lvcloud/features2.png"
+          alt="lvcloud features screen"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="case-stack">
+    <h3 class="case-stack__header">Technological stack</h3>
+    <div class="case-carousel__wrapper" data-carousel="wrapper">
+      <ul class="case__columns case-carousel__tabs case-carousel__tabs--ten" data-carousel="tabs">
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="0">
+          <div class="case-stack__image case-stack__image--wider">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/rails.png"
+              alt="ruby on rails icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Ruby on Rails</strong>
+          </h4>
+          <p class="paragraph">
+            The main application is written in Ruby on Rails. It is responsible
+            for data aggregation, saving and reading.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="1">
+          <div class="case-stack__image">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/ruby-logo.png"
+              alt="ruby icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Ruby</strong>
+          </h4>
+          <p class="paragraph">
+            There is a separate microservice for each type of device written
+            in Ruby.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="2">
+          <div class="case-stack__image">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/sidekiq.png"
+              alt="sidekiq icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Sidekiq</strong>
+          </h4>
+          <p class="paragraph">
+            The entire solution uses Sidekiq for background data processing.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="3">
+          <div class="case-stack__image">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/redis.png"
+              alt="redis icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Redis</strong>
+          </h4>
+          <p class="paragraph">
+            Stores data for processing.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="4">
+          <div class="case-stack__image case-stack__image--mongo">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/mongoDB.png"
+              alt="mongodb icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>MongoDB</strong>
+          </h4>
+          <p class="paragraph">
+            It is a mature and easily scalable document-oriented database used
+            in the Main Application.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="5">
+          <div class="case-stack__image">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/postgresql.png"
+              alt="postgresql icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>PostgreSQL</strong>
+          </h4>
+          <p class="paragraph">
+            A general-purpose object-relational database management system.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="6">
+          <div class="case-stack__image case-stack__image--kafka">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/kafka.png"
+              alt="kafka icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Kafka</strong>
+          </h4>
+          <p class="paragraph">
+            Streaming platform used to broadcast the data.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="7">
+          <div class="case-stack__image">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/vue-logo.png"
+              alt="vue.js icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Vue.js</strong>
+          </h4>
+          <p class="paragraph">
+            Progressive JavaScript framework used to build attractive user
+            interfaces.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="8">
+          <div class="case-stack__image">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/highcharts.png"
+              alt="highcharts icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Highcharts</strong>
+          </h4>
+          <p class="paragraph">
+            Interactive JavaScript used to clearly present huge amounts of data
+            coming from devices to the user interface.
+          </p>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="9">
+          <div class="case-stack__image case-stack__image--wider">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/mqtt.png"
+              alt="mqtt icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>MQTT</strong>
+          </h4>
+          <p class="paragraph">
+            A lightweight messaging protocol used by devices to communicate
+            with the application.
+          </p>
+        </li>
+      </ul>
+      <div class="case-carousel__dots" data-carousel="dots">
+        <div class="case-carousel__dots-item case-carousel__dots-item--active" data-carousel="dots-item" data-dot-index="0" data-dot-active="true"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="1" data-dot-active="false"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="2" data-dot-active="false"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="3" data-dot-active="false"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="4" data-dot-active="false"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="5" data-dot-active="false"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="6" data-dot-active="false"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="7" data-dot-active="false"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="8" data-dot-active="false"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="9" data-dot-active="false"></div>
+      </div>
+      <div class="case-carousel__nav">
+        <div class="icon icon-chevron-left case-carousel__nav-item case-carousel__nav-item--disabled" data-carousel="nav-item" data-nav="prev" data-nav-disabled="true"></div>
+        <div class="icon icon-chevron-right case-carousel__nav-item" data-carousel="nav-item" data-nav="next" data-nav-disabled="false"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-stack case-stack--tools">
+    <h3 class="case-stack__header">Used tools</h3>
+    <div class="case-carousel__wrapper" data-carousel="wrapper">
+      <ul class="case__columns case-carousel__tabs case-carousel__tabs--two" data-carousel="tabs">
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="0">
+          <div class="case-stack__image case-stack__image--wider">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/docker.png"
+              alt="docker icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Docker/Swarm</strong>
+          </h4>
+        </li>
+        <li class="case-carousel__tabs-tab" data-carousel="tab" data-tab-index="1">
+          <div class="case-stack__image">
+            <img
+              src="/assets/images/loader.gif"
+              data-src="/assets/images/portfolio-cases/icons/eclipse.png"
+              alt="eclipse mosquito icon"
+            />
+          </div>
+          <h4 class="case-stack__subheader">
+            <strong>Eclipse Mosquito</strong>
+          </h4>
+        </li>
+      </ul>
+      <div class="case-carousel__dots" data-carousel="dots">
+        <div class="case-carousel__dots-item case-carousel__dots-item--active" data-carousel="dots-item" data-dot-index="0" data-dot-active="true"></div>
+        <div class="case-carousel__dots-item" data-carousel="dots-item" data-dot-index="1" data-dot-active="false"></div>
+      </div>
+      <div class="case-carousel__nav" data-carousel="nav">
+        <div class="icon icon-chevron-left case-carousel__nav-item case-carousel__nav-item--disabled" data-carousel="nav-item" data-nav="prev" data-nav-disabled="true"></div>
+        <div class="icon icon-chevron-right case-carousel__nav-item" data-carousel="nav-item" data-nav="next" data-nav-disabled="false"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-experts">
+    <h3 class="case-experts__header">Naturaily experts involved in the project</h3>
+    <ul class="case-experts__list">
+      <li>
+        <div class="case-experts__number">1</div>
+        <span class="icon icon-man"></span>
+        <p class="paragraph">Ruby on Rails Developers</p>
+      </li>
+      <li>
+        <div class="case-experts__number">2</div>
+        <span class="icon icon-man"></span>
+        <p class="paragraph">Vue.js Developers</p>
+      </li>
+      <li>
+        <div class="case-experts__number">3</div>
+        <span class="icon icon-man"></span>
+        <p class="paragraph">UX/UI Designer</p>
+      </li>
+      <li>
+        <div class="case-experts__number">4</div>
+        <span class="icon icon-man"></span>
+        <p class="paragraph">QA Engineer</p>
+      </li>
+      <li>
+        <div class="case-experts__number">5</div>
+        <span class="icon icon-man"></span>
+        <p class="paragraph">Project Manager</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+  {% include portfolio-cases/solution-tabs.js %}
+</script>

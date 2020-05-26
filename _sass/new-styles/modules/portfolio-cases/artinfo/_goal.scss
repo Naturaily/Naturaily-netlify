@@ -1,0 +1,74 @@
+.case-goal--artinfo {
+  position: relative;
+  width: 100%;
+  padding-bottom: 125px;
+
+  .case__columns {
+    &--left {
+      .paragraph {
+        color: $color-portfolio-text;
+      }
+
+      .case__credits {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+    &--right {
+      margin: 0 -35px;
+
+      img {
+        width: 100%;
+        margin-bottom: -50px;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .case-goal--artinfo .case__columns--right {
+    margin: 0;
+
+    img {
+      border-radius: 8px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .case-goal--artinfo {
+    padding-bottom: 50px;
+
+    .case__columns {
+      &--left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .paragraph {
+          padding-right: 50px;
+        }
+
+        .case__credits {
+          position: static;
+          padding: 25px 0 0;
+        }
+      }
+
+      &--right img {
+        width: 60vw;
+        max-width: 600px;
+        margin-top: -25px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .case-goal--artinfo .case__columns--right img {
+    width: 50vw;
+    margin-top: -75px;
+  }
+}

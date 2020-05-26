@@ -1,0 +1,211 @@
+.case-results {
+  &__header {
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.5;
+
+    &--bold {
+      font-weight: 400;
+    }
+  }
+
+  &__main {
+    padding-bottom: 50px;
+
+    &-title {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: $color-portfolio-text;
+    }
+
+    .case__list {
+      margin-left: -30px;
+
+      li {
+        padding: 10px 25px 10px 40px;
+        font-size: 1em;
+      }
+    }
+
+    &-text {
+      &--big, &--medium.paragraph {
+        line-height: 1.5;
+        font-weight: 300;
+      }
+
+      &--big {
+        margin-bottom: 25px;
+        font-size: 1.35em;
+        color: $color-portfolio-text;
+      }
+
+      &--medium.paragraph {
+        font-size: 1.2em;
+      }
+
+      &--small.paragraph {
+        font-size: 1em;
+      }
+    }
+
+    &-image {
+      position: relative;
+      margin: 25px -35px 50px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &-image--with-figure {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    &-intro {
+      color: $color-portfolio-text;
+      font-size: 1em;
+      line-height: 1.5;
+    }
+
+    .case__columns--right {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .case__columns--left .paragraph,
+    .case__columns--reversed .paragraph {
+       color: $color-portfolio-text-second;
+    }
+  }
+
+  &__numbers {
+    margin-bottom: -25px;
+    list-style: none;
+
+    &-list li {
+      padding: 25px 35px;
+      line-height: 1.5;
+    }
+
+    &-value {
+      font-weight: 300;
+      font-size: 3em;
+      color: $color-secondary;
+    }
+
+    &-text {
+      padding: 15px 0 20px;
+    }
+
+    .paragraph {
+      padding-bottom: 0;
+      font-size: 0.85em;
+      color: $color-portfolio-text;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .case-results {
+    &__main {
+      &-text--medium.paragraph {
+        font-size: 1.5em;
+      }
+
+      &-image img {
+        border-radius: 8px;
+      }
+    }
+
+    &__numbers-list li {
+      padding: 25px 100px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .case-results {
+    &__main {
+      padding-bottom: 100px;
+
+      &-title {
+        margin-top: 25px;
+      }
+
+      &-image {
+        margin: 25px -35px;
+
+        img {
+          position: relative;
+          left: 25px;
+          width: calc(100% - 25px);
+        }
+      }
+
+      &-intro {
+        max-width: 400px;
+      }
+
+      .case__list {
+        margin-left: 0;
+
+        li {
+          max-width: 350px;
+          padding-left: 15px;
+        }
+      }
+
+      .case__columns--right {
+        padding: 0;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+    }
+
+    &__numbers {
+      margin-bottom: -50px;
+
+      &-list {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 -15px;
+
+        li {
+          box-sizing: border-box;
+          width: 25%;
+          padding: 15px;
+        }
+      }
+
+      &-text, .paragraph {
+        max-width: 180px;
+      }
+
+      &-text {
+        height: 6em;
+        padding-bottom: 0;
+
+        &--big {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .case-results__main-text--big {
+    padding-right: 50px;
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .case-results__main-text--big {
+    font-size: 1.5em;
+    padding-right: 100px;
+    padding-top: 50px;
+  }
+}

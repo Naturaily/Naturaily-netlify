@@ -1,0 +1,92 @@
+.case-about--lvcloud {
+  .case-about {
+    &__description.paragraph {
+      padding-right: 25px;
+    }
+
+    &__separator {
+      order: 3;
+    }
+  }
+
+  .case__columns--left {
+    order: 1;
+  }
+
+  .case__columns--right {
+    order: 2;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  .case__dot--lvcloud {
+    &.case__dot--yellow {
+      top: 130px;
+      right: -5px;
+    }
+
+    &.case__dot--blue {
+      top: 50px;
+      right: 100px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .case-about--lvcloud .case__dot--lvcloud.case__dot--secondary {
+    right: 70px;
+  }
+}
+
+@media (min-width: 811px) {
+  .case-about--lvcloud {
+    .case-about__image {
+      text-align: right;
+
+      img {
+        margin-top: -75px;
+        width: 280px;
+      }
+    }
+
+    .case__dot--lvcloud {
+      &.case__dot--yellow {
+        top: -100px;
+        right: 0;
+      }
+
+      &.case__dot--blue {
+        top: auto;
+        bottom: 50px;
+        right: 340px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .case-about--lvcloud {
+    .case-about__image {
+      margin-bottom: 100px;
+      text-align: right;
+
+      img {
+        width: 300px;
+        margin-top: -150px;
+        transform: translateX(-25%);
+      }
+    }
+
+    .case__dot--lvcloud {
+      &.case__dot--yellow {
+        top: -150px;
+        right: 50px;
+      }
+
+      &.case__dot--blue {
+        bottom: -50px;
+        right: 430px;
+      }
+    }
+  }
+}

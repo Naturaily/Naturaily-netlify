@@ -1,0 +1,159 @@
+.case-about {
+  position: relative;
+  margin-bottom: 25px;
+
+  .case__dot--standard {
+    &.case__dot--secondary {
+      top: 130px;
+      right: -5px;
+    }
+
+    &.case__dot--yellow {
+      top: 50px;
+      right: 100px;
+    }
+  }
+
+  .case__columns--left {
+    order: 1;
+  }
+
+  .case__columns--right {
+    order: 3;
+    padding-top: 125px;
+    margin-bottom: -100px;
+  }
+
+  &--without-separator {
+    margin-bottom: -100px;
+
+    .case__columns--right {
+      padding-top: 0;
+      margin-bottom: 25px;
+    }
+  }
+
+  &__separator {
+    order: 2;
+    margin: 100px -35px -75px;
+
+    img {
+      position: relative;
+      bottom: 50px;
+      width: 300vw;
+      transform: translateX(-17%);
+    }
+
+    &--yellow {
+      background-color: $color-accent-yellow;
+    }
+
+    &--lvcloud {
+      background-color: $color-geometric-green;
+    }
+
+    &--lingohub {
+      background-color: $color-geometric-blue;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .case-about__separator {
+    margin-left: -100px;
+    margin-right: -100px;
+
+    img {
+      width: 200vw;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .case-about {
+    margin-bottom: 50px;
+
+    &--without-separator {
+      margin-bottom: -50px;
+    }
+
+    .case__columns {
+      flex-wrap: wrap;
+
+      &--left {
+        order: 1;
+      }
+
+      &--right {
+        order: 2;
+        position: relative;
+        padding-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .paragraph {
+      padding-right: 50px;
+    }
+
+    .case__dot--standard {
+      &.case__dot--secondary {
+        top: -130px;
+        right: 150px;
+      }
+
+      &.case__dot--yellow {
+        top: 0px;
+        right: -70px;
+      }
+    }
+
+    &__separator {
+      order: 3;
+      margin-top: 125px;
+
+      img {
+        width: 150vw;
+        transform: translateX(-13%);
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .case-about__separator {
+    margin: 100px -100px -100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .case-about {
+    padding-bottom: 850px;
+    margin-bottom: 0;
+
+    &--without-separator {
+      padding-bottom: 100px;
+    }
+
+    &__separator {
+      position: absolute;
+      bottom: 0;
+      width: 115vw;
+      margin: 0;
+      margin-left: calc(50% - 57vw);
+      text-align: center;
+
+      img {
+        bottom: 75px;
+        max-width: 2100px;
+        transform: translateX(-9%);
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .case-about__separator img {
+    transform: translateX(-4%);
+  }
+}
