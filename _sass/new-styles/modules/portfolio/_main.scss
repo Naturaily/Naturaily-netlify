@@ -1,0 +1,42 @@
+.portfolio {
+  &__step {
+    font-size: 1em;
+    color: $color-secondary;
+  }
+
+  &__header {
+    font-size: 1.75em;
+  }
+
+  &__tags {
+
+  }
+
+
+  &__button {
+    &--full {
+
+    }
+    &--empty {
+
+    }
+  }
+
+  &__numbers {
+    &-number {
+
+    }
+    &-text {
+
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio {
+    &__header {
+      font-size: 3em;
+      font-weight: 200;
+    }
+  }
+}
