@@ -1,6 +1,7 @@
 .portfolio {
   &__step {
-    font-size: 1em;
+    margin-bottom: 25px;
+    font-size: 0.8em;
     color: $color-secondary;
   }
 
@@ -9,34 +10,68 @@
   }
 
   &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: $color-global-font-70;
 
+    li {
+      padding-right: 20px;
+    }
   }
 
-
   &__button {
-    &--full {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 190px;
+    padding: 15px;
+    color: $color-secondary;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 2px solid $color-secondary;
+    transition: all 0.2s ease-in-out;
 
+    &-arrow {
+      height: 11px;
     }
-    &--empty {
 
+    &:hover {
+      transform: scale(1.1);
     }
   }
 
   &__numbers {
-    &-number {
+    li {
+      margin: 0 -25px;
+      padding: 35px 25px;
 
+      &:nth-of-type(2) {
+        border-top: 1px solid $color-global-font-10;
+        border-bottom: 1px solid $color-global-font-10;
+      }
     }
-    &-text {
 
+    &-number {
+      font-size: 2.5em;
+      font-weight: 200;
+      color: $color-secondary;
+    }
+
+    &-text {
+      margin-top: 35px;
+      color: $color-portfolio-text-second;
     }
   }
 }
 
 @media (min-width: 811px) {
-  .portfolio {
-    &__header {
-      font-size: 3em;
-      font-weight: 200;
-    }
+  .portfolio__header {
+    font-size: 3em;
+    font-weight: 200;
   }
 }
