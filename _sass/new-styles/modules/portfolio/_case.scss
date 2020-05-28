@@ -1,0 +1,152 @@
+.portfolio-cases {
+  width: 100%;
+  padding: 30px 20px;
+
+  &--less-space {
+    padding-top: 0;
+    margin-top: -25px;
+  }
+}
+
+.portfolio-case {
+  padding: 20px 0;
+
+  &__image {
+    margin: 0 -20px 35px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__header {
+    font-size: 2.2em;
+    font-weight: 500;
+    line-height: 1.5;
+
+    &--long {
+      font-size: 2.1em;
+    }
+  }
+
+  &__text {
+    margin: 25px 0 40px;
+    line-height: 1.5;
+  }
+
+  &__numbers {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-cases {
+    padding: 70px 75px;
+
+    &--less-space {
+      padding-top: 0;
+      margin-top: -75px;
+    }
+  }
+  .portfolio-case {
+    padding: 50px 0;
+
+    &__image {
+      margin: 0 0 35px;
+    }
+
+    &__text {
+      margin-bottom: 30px;
+    }
+
+    &__numbers {
+      display: flex;
+      margin: 0 -35px 10px;
+
+      &-number {
+        box-sizing: border-box;
+        width: 50%;
+        padding: 0 35px;
+
+        span {
+          font-size: 3em;
+          font-weight: 400;
+        }
+
+        .paragraph {
+          padding-top: 30px;
+          font-size: 1em;
+          color: $color-portfolio-text-second;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-cases {
+    display: flex;
+    padding: 100px 60px;
+  }
+
+  .portfolio-case {
+    width: 50%;
+    padding: 0 15px;
+
+    &__header--long {
+      height: 6em;
+    }
+
+    &__text {
+      height: 7em;
+
+      &--short {
+        height: 6em;
+      }
+    }
+
+    &__numbers {
+      width: 90%;
+      margin: 0 -10px 10px;
+
+      &-number {
+        padding: 0 10px;
+
+        span {
+          font-size: 2.8em;
+        }
+
+        .paragraph {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 980px) {
+  .portfolio-case__header--long {
+    height: 4.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-case__text {
+    height: 6em;
+
+    &--short {
+      height: 5.5em;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-cases {
+    margin: 0 -45px;
+    width: 90%;
+  }
+
+  .portfolio-case {
+    padding: 0 75px;
+  }
+}

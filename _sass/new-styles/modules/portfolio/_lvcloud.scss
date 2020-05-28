@@ -4,6 +4,14 @@
   z-index: 2;
   background-color: $color-code-grey-bg;
 
+  &__image {
+    display: none;
+  }
+
+  .portfolio__header {
+    font-weight: 300;
+  }
+
   &__text {
     margin: 40px 0 25px;
     font-size: 1.1em;
@@ -44,7 +52,7 @@
 
 @media (min-width: 576px) {
   .portfolio-lvcloud {
-    padding: 100px 75px 75px;
+    padding: 100px 75px;
 
     &__text {
       max-width: 410px;
@@ -81,7 +89,9 @@
 
 @media (min-width: 811px) {
   .portfolio-lvcloud {
-    padding-bottom: 175px;
+    position: relative;
+    padding-bottom: 200px;
+    overflow: hidden;
 
     .portfolio__step, .portfolio__header, .portfolio__tags, &__text, &__numbers {
       box-sizing: border-box;
@@ -90,6 +100,18 @@
 
     .portfolio__tags {
       max-width: 350px;
+    }
+
+    &__image {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: calc(-350px + 20%);
+      z-index: 1;
+
+      img {
+        width: 480px;
+      }
     }
 
     &__content {
@@ -108,12 +130,15 @@
       top: -35px;
       right: -50px;
       margin: 0;
+      z-index: 2;
     }
   }
 }
 
 @media (min-width: 992px) {
   .portfolio-lvcloud {
+    padding-bottom: 225px;
+
     .portfolio__tags {
       width: 40%;
     }
@@ -130,10 +155,9 @@
 
 @media (min-width: 1200px) {
   .portfolio-lvcloud {
-    padding-bottom: 200px;
-
     &__numbers {
       padding: 110px 130px 35px 50px;
+      right: 20px;
     }
 
     .portfolio__numbers {

@@ -6,19 +6,23 @@
   }
 
   &__header {
-    font-size: 1.75em;
+    font-size: 2em;
   }
 
   &__tags {
     display: flex;
     flex-wrap: wrap;
-    margin: 15px 0;
+    margin: 5px 0;
     font-size: 0.9em;
     line-height: 1.5;
     color: $color-global-font-70;
 
     li {
       padding-right: 20px;
+
+      &:last-of-type {
+        padding-right: 0;
+      }
     }
   }
 
