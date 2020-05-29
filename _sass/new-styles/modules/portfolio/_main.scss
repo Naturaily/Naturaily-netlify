@@ -9,7 +9,7 @@
     font-size: 2em;
     line-height: 1.5;
 
-    &--bold {
+    &.portfolio__header--bold {
       font-weight: 300;
     }
   }
@@ -78,7 +78,7 @@
   }
 }
 
-@media (min-width: 811px) {
+@media (min-width: 576px) {
   .portfolio__header {
     font-size: 3em;
     font-weight: 200;

@@ -162,10 +162,11 @@
       position: relative;
       max-width: 1252px;
       margin: 0 auto;
+      padding: 0 75px;
     }
 
     &__content {
-      margin-left: 0;
+      margin-left: -75px;
     }
 
     &__text {
@@ -174,14 +175,14 @@
 
     &__numbers {
       top: 275px;
-      left: 50%;
+      left: calc(50% - 25px);
       right: auto;
       transform: none;
-      padding: 15px 100px;
+      padding: 15px 50px;
 
       .portfolio__numbers {
         li {
-          padding: 35px 30px;
+          padding: 35px 80px;
         }
 
         &-number {
@@ -189,11 +190,9 @@
         }
       }
     }
-  }
-}
 
-@media (min-width: 1400px) {
-  .portfolio-artinfo__numbers .portfolio__numbers li {
-    padding: 35px 50px;
+    .portfolio__button {
+      margin-left: 0;
+    }
   }
 }
