@@ -1,0 +1,199 @@
+.portfolio-artinfo {
+  position: relative;
+  padding: 100px 0 0;
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    z-index: 1;
+
+    img {
+      width: 220vw;
+    }
+  }
+
+  &__content, &__numbers {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__content {
+    padding: 50px 20px;
+    border-radius: 8px 8px 0 0;
+    background-color: $color-code-orange-bg;
+  }
+
+  &__text {
+    margin-top: 25px;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+
+  &__numbers {
+    padding: 25px 20px;
+  }
+
+  .portfolio__button {
+    margin-left: 20px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-artinfo {
+    padding-top: 125px;
+
+    &__image img {
+      width: 150vw;
+    }
+
+    &__content {
+      padding: 75px;
+    }
+
+    &__numbers {
+      padding: 40px 75px;
+
+      .portfolio__numbers li {
+        margin: 0;
+        padding: 35px 0;
+      }
+    }
+
+    .portfolio__button {
+      margin-left: 75px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-artinfo {
+    position: relative;
+    margin-bottom: 50px;
+
+    &__image img {
+      width: auto;
+      height: 350px;
+    }
+
+    &__content {
+      box-sizing: border-box;
+      width: 50%;
+      padding-bottom: 140px;
+      margin-bottom: 50px;
+      border-radius: 8px;
+    }
+
+    &__text {
+      margin-top: 50px;
+      font-size: 1.6em;
+
+      &--secondary {
+        color: $color-secondary;
+      }
+    }
+
+    &__numbers {
+      position: absolute;
+      top: 350px;
+      right: 25%;
+      transform: translateX(50%);
+      padding: 25px;
+
+      .portfolio__numbers {
+        li {
+          display: flex;
+          flex: 1 0 auto;
+          align-items: center;
+          padding: 35px 25px;
+        }
+
+        &-number {
+          width: 130px;
+        }
+
+        &-text {
+          max-width: 225px;
+          margin: 0;
+          line-height: 1.5;
+        }
+      }
+    }
+
+    .portfolio__button {
+      position: relative;
+      margin-top: -150px;
+      z-index: 3;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-artinfo {
+    margin-bottom: 75px;
+
+    &__text {
+      margin-top: 100px;
+    }
+
+    &__numbers .portfolio__numbers li {
+      padding: 35px 50px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-artinfo {
+    width: 100%;
+
+    &__image {
+      width: 100vw;
+      text-align: center;
+      border-radius: 8px;
+
+      img {
+        height: 400px;
+      }
+    }
+
+    &__wrapper {
+      position: relative;
+      max-width: 1252px;
+      margin: 0 auto;
+    }
+
+    &__content {
+      margin-left: 0;
+    }
+
+    &__text {
+      margin-top: 130px;
+    }
+
+    &__numbers {
+      top: 275px;
+      left: 50%;
+      right: auto;
+      transform: none;
+      padding: 15px 100px;
+
+      .portfolio__numbers {
+        li {
+          padding: 35px 30px;
+        }
+
+        &-number {
+          width: 150px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .portfolio-artinfo__numbers .portfolio__numbers li {
+    padding: 35px 50px;
+  }
+}
