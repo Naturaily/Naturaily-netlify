@@ -1,0 +1,346 @@
+.portfolio-clutch {
+  position: relative;
+  padding: 50px 20px;
+  margin-top: -25px;
+  border-top: 1px solid $color-global-font-10;
+  border-bottom: 1px solid $color-global-font-10;
+
+  .portfolio__header {
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+
+    span {
+      opacity: 0.7;
+    }
+  }
+
+  &__text {
+    padding: 25px 0;
+    line-height: 1.8;
+    color: $color-portfolio-text;
+  }
+
+  &__check {
+    &-badge {
+      width: 100px;
+      margin-left: -15px;
+    }
+
+    &-logo {
+      width: 70px;
+      margin-left: 10px;
+    }
+
+    .portfolio__button {
+      padding-top: 10px;
+      padding-left: 0;
+      border: none;
+    }
+  }
+
+  &__reviews {
+    padding: 25px 0;
+
+    .portfolio__button {
+      width: 270px;
+      max-width: 270px;
+      margin-top: 25px;
+      background-color: $color-white;
+    }
+  }
+
+  &__review {
+    position: relative;
+    padding: 40px 0;
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+
+    &--hidden-sm, &--hidden-md {
+      display: none;
+    }
+
+    &-quote {
+      position: relative;
+      padding: 0 25px 0 40px;
+      font-size: 1.25em;
+      line-height: 1.5;
+      color: $color-portfolio-text;
+
+      .icon-quote {
+        position: absolute;
+        top: -30px;
+        left: -5px;
+        opacity: 0.1;
+        color: #FFB040;
+      }
+    }
+
+    &-credits {
+      position: relative;
+      padding: 30px 25px 0 120px;
+
+      &__person, &__position {
+        font-size: 0.9em;
+        line-height: 1.5;
+      }
+
+      &__person {
+        position: relative;
+        font-weight: 400;
+      }
+
+      &__position {
+        color: $color-portfolio-text;
+        opacity: 0.7;
+      }
+
+      &__dot {
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: -30px;
+        width: 10px;
+        height: 10px;
+        z-index: 1;
+        border-radius: 100%;
+        background-color: #FFB040;
+      }
+
+      &__avatar {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 60px;
+      }
+    }
+  }
+
+  .portfolio__figure {
+    &-circle, &-dot {
+      top: 220px;
+      right: 50px;
+    }
+
+    &-circle {
+      transform: translate(50%, -50%);
+
+      &--small {
+        width: 180px;
+        height: 180px;
+      }
+
+      &--medium {
+        width: 360px;
+        height: 360px;
+      }
+
+      &--big, &--large {
+        display: none;
+      }
+    }
+
+    &-dot {
+      width: 15px;
+      height: 15px;
+
+      &--secondary {
+        transform: translate(-30px, -90px);
+      }
+
+      &--yellow, &--blue {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-clutch {
+    margin: -75px 25px -50px;
+    padding: 50px;
+    overflow: hidden;
+    border: 1px solid $color-global-font-10;
+    border-radius: 8px;
+
+    &__text {
+      padding: 50px 0;
+    }
+
+    .portfolio__figure {
+      &-circle, &-dot {
+        top: 280px;
+        right: 100px;
+      }
+
+      &-circle--big {
+        display: block;
+        width: 540px;
+        height: 540px;
+      }
+
+      &-dot--yellow {
+        display: block;
+        transform: translate(-165px, 200px);
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-clutch {
+    display: flex;
+    align-items: center;
+    margin: 0 35px -25px;
+    padding: 75px 0 75px 40px;
+
+    &__intro, &__reviews {
+      box-sizing: border-box;
+      width: 50%;
+      z-index: 2;
+    }
+
+    &__header {
+      margin-top: -25px;
+    }
+
+    &__reviews {
+      max-height: 700px;
+      padding: 0 40px 0 0;
+      margin-top: -25px;
+      overflow-y: scroll;
+
+      .portfolio__button {
+        display: none;
+      }
+    }
+
+    &__review {
+      &--hidden-sm {
+        display: block;
+      }
+
+      &-quote {
+        padding-right: 0;
+
+        .icon-quote {
+          left: 5px;
+        }
+      }
+
+      &-credits {
+        padding: 25px 0 0 150px;
+
+        &__avatar {
+          left: 30px;
+        }
+      }
+    }
+
+    .portfolio__figure {
+      &-circle, &-dot {
+        top: 350px;
+        left: 25%;
+      }
+
+      &-circle {
+        transform: translate(-50%, -50%);
+
+        &--large {
+          display: block;
+          width: 720px;
+          height: 720px;
+        }
+      }
+
+      &-dot {
+        &--secondary {
+          transform: translate(-40px, -90px);
+        }
+
+        &--yellow {
+          transform: translate(-180px, 200px);
+        }
+
+        &--blue {
+          display: block;
+          transform: translate(165px, 50px);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-clutch {
+    &__text {
+      padding-right: 50px;
+    }
+
+    &__check {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &-logo {
+        height: 20px;
+      }
+
+      .portfolio__button {
+        padding: 10px 60px 10px 20px;
+
+        &-arrow {
+          margin-left: 15px;
+        }
+      }
+    }
+
+    &__reviews {
+      max-height: 800px;
+    }
+
+    .portfolio__figure {
+      &-circle, &-dot {
+        top: calc(50% - 25px);
+      }
+
+      &-dot {
+        &--yellow {
+          transform: translate(-227px, 150px);
+        }
+
+        &--blue {
+          transform: translate(170px, 25px);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-clutch {
+    margin-left: -15px;
+
+    &__intro {
+      padding-left: 50px;
+    }
+
+    &__text, &__reviews {
+      padding-right: 100px;
+    }
+
+    &__review {
+      padding-bottom: 100px;
+
+      &-credits__avatar {
+        left: 0;
+      }
+    }
+
+    &__check .portfolio__button {
+      padding-right: 120px;
+    }
+  }
+}

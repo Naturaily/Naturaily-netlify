@@ -76,6 +76,37 @@
       color: $color-portfolio-text-second;
     }
   }
+
+  &__figure {
+    &-circle, &-dot {
+      display: block;
+      position: absolute;
+    }
+
+    &-circle {
+      z-index: 0;
+      border-radius: 100%;
+      border: 1px solid $color-secondary;
+      opacity: 0.1;
+    }
+
+    &-dot {
+      z-index: 1;
+      border-radius: 100%;
+
+      &--secondary {
+        background-color: $color-secondary;
+      }
+
+      &--blue {
+        background-color: $color-geometric-blue;
+      }
+
+      &--yellow {
+        background-color: $color-accent-yellow;
+      }
+    }
+  }
 }
 
 @media (min-width: 576px) {

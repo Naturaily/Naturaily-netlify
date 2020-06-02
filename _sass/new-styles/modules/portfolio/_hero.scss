@@ -41,20 +41,14 @@
     }
   }
 
-  &__figure {
+  .portfolio__figure {
     &-circle, &-dot {
-      display: block;
-      position: absolute;
       top: 50%;
       left: 0;
     }
 
     &-circle {
       transform: translate(-50%, -50%);
-      z-index: 0;
-      border-radius: 100%;
-      border: 1px solid $color-secondary;
-      opacity: 0.1;
 
       &--small {
         width: 125px;
@@ -80,21 +74,16 @@
     &-dot {
       width: 10px;
       height: 10px;
-      z-index: 1;
-      border-radius: 100%;
 
       &--secondary {
-        background-color: $color-secondary;
         transform: translate(58px, -5px);
       }
 
       &--blue {
-        background-color: $color-geometric-blue;
         transform: translate(200px, 90px);
       }
 
       &--yellow {
-        background-color: $color-accent-yellow;
         transform: translate(185px, -125px);
       }
     }
@@ -137,7 +126,7 @@
       }
     }
 
-    &__figure {
+    .portfolio__figure {
       &-circle, &-dot {
         top: auto;
         bottom: 0;
@@ -171,7 +160,7 @@
       &-dot {
         height: 20px;
         width: 20px;
-
+        
         &--secondary {
           transform: translate(20px, -109px);
         }
