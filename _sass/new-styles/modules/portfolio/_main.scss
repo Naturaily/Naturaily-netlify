@@ -1,0 +1,117 @@
+.portfolio {
+  &__step {
+    margin-bottom: 25px;
+    font-size: 0.8em;
+    color: $color-secondary;
+  }
+
+  &__header {
+    font-size: 2em;
+    line-height: 1.5;
+
+    &.portfolio__header--bold {
+      font-weight: 300;
+    }
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: $color-global-font-70;
+
+    li {
+      padding-right: 20px;
+
+      &:last-of-type {
+        padding-right: 0;
+      }
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 190px;
+    padding: 15px;
+    color: $color-secondary;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 2px solid $color-secondary;
+    transition: all 0.2s ease-in-out;
+
+    &-arrow {
+      height: 11px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__numbers {
+    li {
+      margin: 0 -25px;
+      padding: 35px 25px;
+
+      &:nth-of-type(2) {
+        border-top: 1px solid $color-global-font-10;
+        border-bottom: 1px solid $color-global-font-10;
+      }
+    }
+
+    &-number {
+      font-size: 2.5em;
+      font-weight: 200;
+      color: $color-secondary;
+    }
+
+    &-text {
+      margin-top: 35px;
+      color: $color-portfolio-text-second;
+    }
+  }
+
+  &__figure {
+    &-circle, &-dot {
+      display: block;
+      position: absolute;
+    }
+
+    &-circle {
+      z-index: 0;
+      border-radius: 100%;
+      border: 1px solid $color-secondary;
+      opacity: 0.1;
+    }
+
+    &-dot {
+      z-index: 1;
+      border-radius: 100%;
+
+      &--secondary {
+        background-color: $color-secondary;
+      }
+
+      &--blue {
+        background-color: $color-geometric-blue;
+      }
+
+      &--yellow {
+        background-color: $color-accent-yellow;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio__header {
+    font-size: 3em;
+    font-weight: 200;
+  }
+}
