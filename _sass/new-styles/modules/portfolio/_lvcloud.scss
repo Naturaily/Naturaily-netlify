@@ -1,0 +1,181 @@
+.portfolio-lvcloud {
+  padding: 50px 20px;
+  width: 100vw;
+  z-index: 2;
+  background-color: $color-code-grey-bg;
+
+  &__image {
+    display: none;
+  }
+
+  &__text {
+    margin: 40px 0 25px;
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: $color-portfolio-text;
+  }
+
+  &__numbers {
+    position: relative;
+    padding: 25px 0;
+
+    .geometric-figure {
+      display: flex;
+      transform: rotate(90deg);
+      top: 25px;
+      right: -140px;
+
+      &_center {
+        border-color: $color-geometric-green;
+      }
+
+      &_right::after {
+        background-color: $color-geometric-blue;
+      }
+
+      &_center, &_right::after {
+        height: 180px;
+        width: 180px;
+      }
+
+      &_right {
+        height: 180px;
+        width: 90px;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-lvcloud {
+    padding: 100px 75px;
+
+    &__text {
+      max-width: 410px;
+    }
+
+    &__numbers {
+      margin: 50px 0;
+      padding: 25px 50px;
+      overflow: hidden;
+      background-color: $color-white;
+      border-radius: 8px;
+
+      .portfolio__numbers li {
+        margin: 0;
+        padding: 35px 0;
+        max-width: 300px;
+      }
+
+      .geometric-figure {
+        transform: rotate(-90deg);
+        right: -80px;
+
+        &_center {
+          background-color: $color-white;
+        }
+      }
+    }
+
+    .portfolio__button {
+      margin-top: 25px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-lvcloud {
+    position: relative;
+    padding-bottom: 200px;
+    overflow: hidden;
+
+    .portfolio__step, .portfolio__header, .portfolio__tags, &__text, &__numbers {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    .portfolio__tags {
+      max-width: 350px;
+    }
+
+    &__image {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: calc(-350px + 20%);
+      z-index: 1;
+
+      img {
+        width: 480px;
+      }
+    }
+
+    &__content {
+      position: relative;
+      max-width: 1260px;
+      margin: 0 auto;
+    }
+
+    &__text {
+      max-width: 480px;
+      margin: 40px 0;
+    }
+
+    &__numbers {
+      position: absolute;
+      top: -35px;
+      right: -50px;
+      margin: 0;
+      z-index: 2;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-lvcloud {
+    padding-bottom: 225px;
+
+    .portfolio__tags {
+      width: 40%;
+    }
+
+    &__text {
+      padding-right: 50px;
+    }
+
+    &__numbers {
+      right: -25px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-lvcloud {
+    &__numbers {
+      padding: 110px 130px 35px 50px;
+      right: 20px;
+    }
+
+    .portfolio__numbers {
+      li {
+        display: flex;
+        align-items: center;
+        padding: 35px;
+        max-width: 100%;
+      }
+
+      &-number {
+        width: 130px;
+      }
+
+      &-text {
+        margin-top: 0;
+        width: calc(100% - 130px);
+      }
+
+      .geometric-figure {
+        top: 0;
+      }
+    }
+  }
+}

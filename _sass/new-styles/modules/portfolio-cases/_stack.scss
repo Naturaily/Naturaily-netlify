@@ -1,0 +1,97 @@
+.case-stack {
+  margin: 50px 0;
+  padding: 50px 0;
+  border-top: 1px solid $color-global-font-10;
+  border-bottom: 1px solid $color-global-font-10;
+
+  &--tools {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: none;
+  }
+
+  &__image {
+    height: 50px;
+    margin-bottom: 25px;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+
+    &--wider img, &--mongo img, &--kafka img, &--electron img, &--teamwork img {
+      height: auto;
+    }
+
+    &--wider img {
+      width: 110px;
+    }
+
+    &--mongo img {
+      width: 120px;
+    }
+
+    &--kafka img {
+      width: 100px;
+    }
+
+    &--teamwork img {
+      width: 200px;
+    }
+
+    &--electron img {
+      width: 220px;
+    }
+
+    &--electron img, &--teamwork img {
+      margin-top: 10px;
+    }
+  }
+
+  &__subheader strong {
+    font-weight: 600;
+  }
+
+  .paragraph {
+    padding: 30px 0 5px;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    color: $color-portfolio-text;
+  }
+
+  .case__columns {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    list-style: none;
+
+    li {
+      box-sizing: border-box;
+      padding: 25px 35px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .case-stack {
+    .case__columns li {
+      padding: 25px 100px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .case-stack {
+    &__image--mongo img {
+      width: 130px;
+    }
+
+    .case__columns li {
+      width: 33%;
+      padding: 25px;
+    }
+
+    .paragraph {
+      padding: 25px 0 0;
+    }
+  }
+}

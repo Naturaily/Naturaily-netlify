@@ -2,18 +2,46 @@
 layout: default
 ---
 
-<div class="portfolio__wave"></div>
+<header class="l-full">
+  {% include portfolio/hero.html %}
+</header>
 
-<div class="l-content l-portfolio l-portfolio-top">
-  {% include portfolio-projects.html %}
+<div class="l-full">
+  {% include portfolio/lvcloud.html %}
 </div>
-<div class="l-content l-portfolio portfolio-clutch">
-  {% include clutch.html %}
+
+<div class="l-center">
+  {% include portfolio/cases1.html %}
 </div>
-<div class="l-content l-portfolio">
-  {% include portfolio-gallery.html %}
+
+<div class="l-full">
+  {% include portfolio/artinfo.html %}
 </div>
-<div class="wave aboutus-wave-1">
-  <div class="wave-tail"></div>
-  <img src="/assets/images/blue-wave.jpg" alt="blue-wave">
+
+<div class="l-center">
+  {% include portfolio/cases2.html %}
 </div>
+
+<div class="l-center">
+  {% include portfolio/cases3.html %}
+</div>
+
+<div class="l-center">
+  {% include portfolio/clutch.html %}
+</div>
+
+<div class="l-center">
+  {% include portfolio/nutshell.html %}
+</div>
+
+<div class="l-center">
+  {% include portfolio/partners.html %}
+</div>
+
+<div class="l-center">
+  {% include portfolio/estimate.html %}
+</div>
+
+<script type="text/javascript">
+  {% include portfolio/carousel.js %}
+</script>
