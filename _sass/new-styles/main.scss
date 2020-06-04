@@ -49,54 +49,48 @@
 
 // SERVICES SPECIFIC STYLES //
 
-@import "modules/services/full";
-@import "modules/services/hero";
-@import "modules/services/includes";
-@import "modules/services/right";
-@import "modules/services/services";
-@import "modules/services/slider";
-@import "modules/services/stats";
-@import "modules/services/testimonials";
+@import "modules/services/services/full";
+@import "modules/services/services/hero";
+@import "modules/services/services/includes";
+@import "modules/services/services/right";
+@import "modules/services/services/services";
+@import "modules/services/services/slider";
+@import "modules/services/services/stats";
+@import "modules/services/services/testimonials";
 
-// SHOPIFY SPECIFIC STYLES //
+@import "modules/services/ecommerce/shopify/footer";
+@import "modules/services/ecommerce/shopify/case-studies";
+@import "modules/services/ecommerce/shopify/services";
+@import "modules/services/ecommerce/shopify/results";
+@import "modules/services/ecommerce/shopify/technologies";
+@import "modules/services/ecommerce/shopify/about";
+@import "modules/services/ecommerce/shopify/testimonials";
+@import "modules/services/ecommerce/shopify/carousel";
+@import "modules/services/ecommerce/shopify/faq";
+@import "modules/services/ecommerce/shopify/estimate";
+@import "modules/services/ecommerce/shopify/comparison";
 
-@import "modules/shopify/footer";
-@import "modules/shopify/case-studies";
-@import "modules/shopify/services";
-@import "modules/shopify/results";
-@import "modules/shopify/technologies";
-@import "modules/shopify/about";
-@import "modules/shopify/testimonials";
-@import "modules/shopify/carousel";
-@import "modules/shopify/faq";
-@import "modules/shopify/estimate";
-@import "modules/shopify/comparison";
+@import "modules/services/webdevelopment/jamstack/case-studies";
+@import "modules/services/webdevelopment/jamstack/jamstack";
+@import "modules/services/webdevelopment/jamstack/faq";
+@import "modules/services/webdevelopment/jamstack/testimonials";
+@import "modules/services/webdevelopment/jamstack/process";
+@import "modules/services/webdevelopment/jamstack/services";
+@import "modules/services/webdevelopment/jamstack/footer";
+@import "modules/services/webdevelopment/jamstack/video";
+@import "modules/services/webdevelopment/jamstack/carousel";
+@import "modules/services/webdevelopment/jamstack/estimate";
 
-// JAMSTACK SPECIFIC STYLES //
-
-@import "modules/jamstack/case-studies";
-@import "modules/jamstack/jamstack";
-@import "modules/jamstack/faq";
-@import "modules/jamstack/testimonials";
-@import "modules/jamstack/process";
-@import "modules/jamstack/services";
-@import "modules/jamstack/footer";
-@import "modules/jamstack/video";
-@import "modules/jamstack/carousel";
-@import "modules/jamstack/estimate";
-
-// PWA SPECIFIC STYLES //
-
-@import "modules/pwa/case-studies";
-@import "modules/pwa/pwa";
-@import "modules/pwa/benefits";
-@import "modules/pwa/services";
-@import "modules/pwa/storefront";
-@import "modules/pwa/practice";
-@import "modules/pwa/tools";
-@import "modules/pwa/predictions";
-@import "modules/pwa/estimate";
-@import "modules/pwa/footer";
+@import "modules/services/webdevelopment/pwa/case-studies";
+@import "modules/services/webdevelopment/pwa/pwa";
+@import "modules/services/webdevelopment/pwa/benefits";
+@import "modules/services/webdevelopment/pwa/services";
+@import "modules/services/webdevelopment/pwa/storefront";
+@import "modules/services/webdevelopment/pwa/practice";
+@import "modules/services/webdevelopment/pwa/tools";
+@import "modules/services/webdevelopment/pwa/predictions";
+@import "modules/services/webdevelopment/pwa/estimate";
+@import "modules/services/webdevelopment/pwa/footer";
 
 // PORTFOLIO SPECIFIC STYLES //
 
