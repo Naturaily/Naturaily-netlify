@@ -49,6 +49,8 @@
 
 // SERVICES SPECIFIC STYLES //
 
+@import "modules/services/main";
+
 @import "modules/services/services/full";
 @import "modules/services/services/hero";
 @import "modules/services/services/includes";
@@ -69,6 +71,9 @@
 @import "modules/services/ecommerce/shopify/faq";
 @import "modules/services/ecommerce/shopify/estimate";
 @import "modules/services/ecommerce/shopify/comparison";
+
+@import "modules/services/webdevelopment/webdevelopment/hero";
+@import "modules/services/webdevelopment/webdevelopment/overview";
 
 @import "modules/services/webdevelopment/jamstack/case-studies";
 @import "modules/services/webdevelopment/jamstack/jamstack";
