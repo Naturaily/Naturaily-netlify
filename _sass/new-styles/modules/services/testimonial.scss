@@ -62,7 +62,7 @@
 
 @media (min-width: 576px) {
   .services-testimonial {
-    padding: 50px 75px;
+    padding: 50px 75px 75px;
 
     &__image {
       position: relative;
@@ -101,7 +101,7 @@
       justify-content: space-between;
 
       &-text {
-        max-width: 350px;
+        max-width: 450px;
       }
 
       &-credits {
@@ -114,6 +114,6 @@
 
 @media (min-width: 992px) {
   .services-testimonial {
-    padding-top: 75px;
+    padding: 75px 75px 100px;
   }
 }

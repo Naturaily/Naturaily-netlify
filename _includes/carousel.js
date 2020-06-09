@@ -104,9 +104,9 @@ window.addEventListener('load', () => {
         $activeDot.removeClass('portfolio-partners__dots-item--active');
         $newActiveDot.addClass('portfolio-partners__dots-item--active');
       } else {
-        $disabledNav.removeClass('case-carousel__nav-item--disabled');
-        $activeDot.removeClass('case-carousel__dots-item--active');
-        $newActiveDot.addClass('case-carousel__dots-item--active');
+        $disabledNav.removeClass('custom-carousel__nav-item--disabled');
+        $activeDot.removeClass('custom-carousel__dots-item--active');
+        $newActiveDot.addClass('custom-carousel__dots-item--active');
       }
 
       $disabledNav.attr('data-nav-disabled', 'false');
@@ -126,7 +126,7 @@ window.addEventListener('load', () => {
         if (isCarouselDesktop) {
           $disabledNav.addClass('portfolio-partners__nav-item--disabled');
         } else {
-          $disabledNav.addClass('case-carousel__nav-item--disabled');
+          $disabledNav.addClass('custom-carousel__nav-item--disabled');
         }
       }
 

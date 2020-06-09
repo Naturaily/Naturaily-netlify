@@ -1,11 +1,11 @@
-.case-carousel {
+.custom-carousel {
   &__dots, &__nav {
     display: none;
   }
 }
 
 @media only screen and (max-width: 811px) {
-  .case-carousel {
+  .custom-carousel {
     &__wrapper {
       position: relative;
     }
@@ -35,6 +35,10 @@
 
       &--five {
         width: 500vw;
+      }
+
+      &--six {
+        width: 600vw;
       }
 
       &--eight {
@@ -74,7 +78,7 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 811px) {
-  .case-carousel {
+  .custom-carousel {
     &__tabs {
       margin-left: -100px;
     }

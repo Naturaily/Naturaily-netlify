@@ -15,6 +15,7 @@
 @import "modules/list";
 @import "modules/person";
 @import "modules/carousel";
+@import "modules/custom-carousel";
 @import "modules/geometric-object";
 @import "modules/form";
 @import "modules/video-box";
@@ -53,6 +54,7 @@
 @import "modules/services/section";
 @import "modules/services/numbers";
 @import "modules/services/testimonial";
+@import "modules/services/faq";
 
 @import "modules/services/services/full";
 @import "modules/services/services/hero";
@@ -77,6 +79,7 @@
 
 @import "modules/services/webdevelopment/webdevelopment/hero";
 @import "modules/services/webdevelopment/webdevelopment/overview";
+@import "modules/services/webdevelopment/webdevelopment/benefits";
 
 @import "modules/services/webdevelopment/jamstack/case-studies";
 @import "modules/services/webdevelopment/jamstack/jamstack";
@@ -113,7 +116,6 @@
 @import "modules/portfolio/estimate";
 
 @import "modules/portfolio-cases/main";
-@import "modules/portfolio-cases/carousel";
 
 @import "modules/portfolio-cases/hero";
 @import "modules/portfolio-cases/about";
