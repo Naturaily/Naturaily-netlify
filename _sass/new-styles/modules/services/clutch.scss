@@ -1,0 +1,42 @@
+.services-clutch {
+  &__badge {
+    width: 130px;
+    margin-left: -15px;
+  }
+
+  &__logo {
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  .services__button--without-border {
+    max-width: 280px;
+    margin-left: -17px;
+  }
+}
+
+@media(min-width: 811px) {
+  .services-clutch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 0;
+
+    &__badge {
+      width: 100px;
+    }
+
+    &__logo {
+      width: 70px;
+    }
+
+    .services__button--without-border {
+      max-width: 300px;
+      margin-left: 50px;
+
+      .services__button-arrow {
+        margin-left: 15px;
+      }
+    }
+  }
+}
