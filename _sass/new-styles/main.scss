@@ -15,7 +15,8 @@
 @import "modules/list";
 @import "modules/person";
 @import "modules/carousel";
-@import "modules/custom-carousel";
+@import "modules/carousel-custom";
+@import "modules/carousel-partners";
 @import "modules/geometric-object";
 @import "modules/form";
 @import "modules/video-box";
@@ -51,11 +52,12 @@
 // SERVICES SPECIFIC STYLES //
 
 @import "modules/services/main";
-@import "modules/services/section";
-@import "modules/services/numbers";
-@import "modules/services/testimonial";
-@import "modules/services/faq";
+
 @import "modules/services/clutch";
+@import "modules/services/faq";
+@import "modules/services/numbers";
+@import "modules/services/section";
+@import "modules/services/testimonial";
 
 @import "modules/services/services/full";
 @import "modules/services/services/hero";
@@ -115,7 +117,6 @@
 @import "modules/portfolio/artinfo";
 @import "modules/portfolio/clutch";
 @import "modules/portfolio/nutshell";
-@import "modules/portfolio/partners";
 @import "modules/portfolio/estimate";
 
 @import "modules/portfolio-cases/main";

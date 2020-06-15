@@ -100,9 +100,9 @@ window.addEventListener('load', () => {
       let $disabledNav = $targetCarousel.find('[data-nav-disabled="true"]');
 
       if (isCarouselDesktop) {
-        $disabledNav.removeClass('portfolio-partners__nav-item--disabled');
-        $activeDot.removeClass('portfolio-partners__dots-item--active');
-        $newActiveDot.addClass('portfolio-partners__dots-item--active');
+        $disabledNav.removeClass('carousel-partners__nav-item--disabled');
+        $activeDot.removeClass('carousel-partners__dots-item--active');
+        $newActiveDot.addClass('carousel-partners__dots-item--active');
       } else {
         $disabledNav.removeClass('custom-carousel__nav-item--disabled');
         $activeDot.removeClass('custom-carousel__dots-item--active');
@@ -124,7 +124,7 @@ window.addEventListener('load', () => {
       if ($disabledNav != null) {
         $disabledNav.attr('data-nav-disabled', 'true')
         if (isCarouselDesktop) {
-          $disabledNav.addClass('portfolio-partners__nav-item--disabled');
+          $disabledNav.addClass('carousel-partners__nav-item--disabled');
         } else {
           $disabledNav.addClass('custom-carousel__nav-item--disabled');
         }

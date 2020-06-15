@@ -1,11 +1,32 @@
 .webdevelopment-partners {
   box-sizing: border-box;
   width: 100%;
-  padding: 50px 20px;
+  padding: 0 20px;
+
+  .carousel-partners {
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 50px -20px -25px;
+
+    &__header {
+      padding: 0 50px 0 0;
+    }
+  }
 }
 
 @media (min-width: 576px) {
   .webdevelopment-partners {
-    padding: 75px;
+    padding: 0 75px;
+
+    .carousel-partners {
+      margin: 75px -76px -50px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .webdevelopment-partners .carousel-partners {
+    width: 100%;
+    margin: 75px 0px -50px;
   }
 }

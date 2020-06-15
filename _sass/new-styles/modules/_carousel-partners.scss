@@ -1,4 +1,4 @@
-.portfolio-partners {
+.carousel-partners {
   position: relative;
   padding: 25px 20px 50px;
   overflow: hidden;
@@ -121,7 +121,7 @@
 }
 
 @media (min-width: 576px) {
-  .portfolio-partners {
+  .carousel-partners {
     padding: 0 75px 75px;
 
     &::before {
@@ -172,7 +172,7 @@
 }
 
 @media (min-width: 811px) {
-  .portfolio-partners {
+  .carousel-partners {
     overflow: hidden;
     padding: 0 0 75px;
     margin: 0 75px;
@@ -193,7 +193,7 @@
 }
 
 @media (min-width: 1200px) {
-  .portfolio-partners {
+  .carousel-partners {
     &__tabs {
       width: 200%;
 
