@@ -1,0 +1,163 @@
+.webdevelopment-experts {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 20px;
+
+  &__header, &__title, &__text {
+    line-height: 1.5;
+  }
+
+  &__header {
+    font-size: 1.6em;
+    font-weight: 400;
+    color: $color-portfolio-text-second;
+  }
+
+  &__number {
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 10px 20px;
+    padding: 3px;
+    font-size: 0.9em;
+    line-height: 1.45;
+    text-align: center;
+    border-radius: 100%;
+    background-color: $color-accent-yellow;
+    color: $color-white;
+  }
+
+  &__title, &__text {
+    padding: 10px 20px;
+    color: $color-portfolio-text;
+  }
+
+  &__title {
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  &__text {
+    font-size: 0.85em;
+  }
+
+  .custom-carousel__tabs {
+    margin: 25px -20px;
+  }
+
+  .geometric-figure {
+    display: none;
+  }
+}
+
+@media(min-width: 576px) {
+  .webdevelopment-experts {
+    padding: 25px 75px;
+
+    &__title, &__text {
+      padding: 10px 125px 10px 20px;
+    }
+
+    .custom-carousel__nav {
+      margin: 0 -75px;
+    }
+  }
+}
+
+@media(min-width: 811px) {
+  .webdevelopment-experts {
+    padding: 50px 75px;
+
+    &__title, &__text {
+      padding: 10px 0;
+    }
+
+    &__title {
+      height: 2.8em;
+    }
+
+    &__number {
+      position: absolute;
+      top: -75px;
+      left: 5px;
+    }
+
+    .custom-carousel__wrapper {
+      position: relative;
+    }
+
+    .custom-carousel__tabs {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 50px -50px;
+      padding: 50px 25px;
+      border: 1px solid $color-global-font-10;
+      border-radius: 8px;
+
+      &-tab {
+        box-sizing: border-box;
+        position: relative;
+        width: 25%;
+        padding: 0 25px;
+      }
+    }
+
+    .geometric-figure {
+      display: flex;
+      top: auto;
+      right: auto;
+      bottom: 60px;
+      left: 0;
+
+      &_center, &_right::after {
+        height: 80px;
+        width: 80px;
+      }
+
+      &_right {
+        width: 40px;
+        height: 80px;
+      }
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .webdevelopment-experts {
+    .custom-carousel__tabs {
+      padding-left: 200px;
+    }
+
+    .geometric-figure {
+      bottom: auto;
+      top: 70px;
+    }
+  }
+}
+
+@media(min-width: 1200px) {
+  .webdevelopment-experts {
+    .custom-carousel__tabs {
+      padding: 50px 75px 50px 225px;
+    }
+
+    .geometric-figure {
+      bottom: auto;
+      top: 70px;
+    }
+  }
+}
+
+@media(min-width: 1400px) {
+  .webdevelopment-experts {
+    .custom-carousel__tabs {
+      margin: 50px -50px 50px -100px;
+      padding-left: 280px;
+    }
+
+    .geometric-figure {
+      left: -25px;
+    }
+  }
+}

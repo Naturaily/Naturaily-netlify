@@ -35,6 +35,11 @@
         padding: 40px 0 30px;
       }
     }
+
+    .custom-carousel__nav {
+      top: calc(50% - 75px);
+      margin: 0 -75px;
+    }
   }
 }
 
