@@ -151,7 +151,7 @@ Today, many of the benefits that Liquid offers - namely dynamic content loading 
 * With a PWA, you’re also able to better embrace code optimization (as you’re not limited to a prebuilt Shopify theme) for better page speed, which helps with the technical SEO challenges mentioned previously.
 * Creating more modern functionalities is essential - with Liquid, you often have to create inelegant workarounds that only slow down performance or impact your performance in other areas.
 
-\|In fact, we’ve written about the [benefits of a Progressive Web App in Shopify Development](https://naturaily.com/blog/shopify-storefront){:target="_blank"} before and it still holds true.|
+|In fact, we’ve written about the [benefits of a Progressive Web App in Shopify Development](https://naturaily.com/blog/shopify-storefront){:target="_blank"} before and it still holds true.|
 
 ### Going International? Use a CDN
 
