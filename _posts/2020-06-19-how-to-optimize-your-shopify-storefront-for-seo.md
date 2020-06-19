@@ -64,7 +64,7 @@ When you see a page in a results page, the title and description that appears ar
 Meta titles and descriptions are easy to add in Shopify - you’ll find them under Online Store > Preferences - so just ensure they address users needs (blogs should be catchy titles, products should match what users are looking for, etc.) and follow the SEO best practices:
 
 * Your meta title should be no more than roughly 60 characters - anything longer risks truncation.
-* Try to include a primary keyword and, if you can, a secondary keyword in the title, with your brand/store name last. For example: ”Ladies Wool Coats | Winter Coats & Jackets | \[Brand Name] “
+* Try to include a primary keyword and, if you can, a secondary keyword in the title, with your brand/store name last. For example: ”Ladies Wool Coats &#124; Winter Coats & Jackets &#124; [Brand Name] “
 * The meta description can be around 160 characters, but modern research suggests this should be shorter to help stay mobile friendly. Add any additional keywords not covered in the meta title, where possible.
 
 If you need any extra help, there are numerous tools - like this [SERP simulator](https://mangools.com/free-seo-tools/serp-simulator){:rel="nofollow"}{:target="_blank"} - that are definitely useful!
