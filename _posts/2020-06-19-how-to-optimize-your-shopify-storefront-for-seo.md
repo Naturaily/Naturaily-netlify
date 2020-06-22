@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-image: /assets/images/Blog_San_Diego_Startups_cover.png
+image: /assets/images/blog_cover_shopify_seo_optimization.png
 text-preview: >
   Even the best e-commerce stores can fail if they’re not visible online. This
   is why getting search engine optimization (SEO) right for your Shopify
