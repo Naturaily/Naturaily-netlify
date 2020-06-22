@@ -1,0 +1,167 @@
+.page-estimate {
+  &.services-estimate {
+    margin: 50px 0 25px;
+  }
+
+  &--white {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 100px !important;
+  }
+
+  &--orange {
+    width: 100%;
+    padding: 50px 20px;
+    background-color: $color-code-orange-bg;
+
+    .page-estimate__content-text {
+      margin-bottom: 25px;
+
+      span {
+        font-weight: 200;
+      }
+    }
+  }
+
+  &__columns {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 50px;
+  }
+
+  &__image, &__image img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  &__image {
+    order: 2;
+    margin: 25px 0;
+    background-color: $color-white;
+    border-radius: 8px;
+  }
+
+  &__content {
+    order: 1;
+
+    &-text {
+      font-weight: 300;
+      font-size: 2em;
+      line-height: 1.5;
+
+      span {
+        display: block;
+        margin-top: 25px;
+        font-size: 0.7em;
+      }
+
+      &--smaller {
+        font-size: 1.5em;
+        max-width: 100%;
+      }
+    }
+
+    .btn-primary.btn-arrow {
+      position: absolute;
+      bottom: 0;
+      width: 220px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .page-estimate {
+    &--orange {
+      padding: 100px 75px;
+    }
+
+    &__content-text--smaller {
+      font-size: 1.8em;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .page-estimate {
+    padding-bottom: 25px;
+
+    &--orange {
+      padding-bottom: 75px;
+
+      .page-estimate {
+        &__image {
+          height: 100%;
+          margin-top: 10px;
+        }
+
+        &__content {
+          max-width: 500px;
+          padding-left: 70px;
+        }
+      }
+    }
+
+    &__columns {
+      flex-direction: row;
+      padding-bottom: 0;
+    }
+
+    &__image {
+      order: 1;
+      width: 40%;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      order: 2;
+      width: 60%;
+
+      &-text--smaller {
+        max-width: 420px;
+        font-size: 1.75em;
+
+        span {
+          font-size: 0.75em;
+        }
+      }
+
+      .btn-primary.btn-arrow {
+        position: static;
+        width: 170px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-estimate {
+    &.services-estimate {
+      margin: 75px 25px 25px -25px;
+    }
+
+    &__columns {
+      padding-left: 75px;
+    }
+
+    &__content-text--smaller {
+      font-size: 2em;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .page-estimate--orange {
+    margin-right: 75px;
+    border-radius: 8px;
+
+    &__content {
+      padding-left: 150px;
+    }
+  }
+}

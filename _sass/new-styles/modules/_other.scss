@@ -1,6 +1,12 @@
-.case-other {
+.other {
   margin-bottom: -25px;
   padding-bottom: 10px;
+
+  &.services-other {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 75px 20px 10px;
+  }
 
   &__content {
     position: relative;
@@ -49,7 +55,7 @@
 }
 
 @media (min-width: 576px) {
-  .case-other {
+  .other {
     padding-bottom: 50px;
 
     &__links {
@@ -67,8 +73,12 @@
 }
 
 @media (min-width: 811px) {
-  .case-other {
+  .other {
     margin-bottom: -50px;
+
+    &.services-other {
+      padding: 90px 75px 20px 100px;
+    }
 
     &__content {
       display: flex;
@@ -109,7 +119,7 @@
 }
 
 @media (min-width: 992px) {
-  .case-other {
+  .other {
     &__content {
       padding-left: 100px;
     }
@@ -117,7 +127,7 @@
 }
 
 @media (min-width: 1200px) {
-  .case-other {
+  .other {
     &__content {
       padding-left: 175px;
     }
