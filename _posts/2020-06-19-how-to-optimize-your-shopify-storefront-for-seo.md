@@ -25,6 +25,7 @@ tags:
   - Shopify optimization
   - PWA development
   - Storefront
+  - SEO
 ---
 **Even the best e-commerce stores can fail if they’re not visible online. This is why getting search engine optimization (SEO) right for your Shopify storefront is essential.**
 
