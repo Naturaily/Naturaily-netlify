@@ -93,6 +93,10 @@ would-be-great:
   - expectation:
       contents: 'have experience with SSR solutions (Next.js, Gatsby)'
   - expectation:
+      contents: >-
+        have knowledge of additional JavaScript framework (frontend -
+        Vue/Angular)
+  - expectation:
       contents: contribute to Open Source community
   - expectation:
       contents: have knowledge of app optimization and performance
@@ -102,8 +106,6 @@ would-be-great:
       contents: 'have experience with devOps work (docker, CI & CD tools)'
   - expectation:
       contents: have experience working in Agile environment
-  - expectation:
-      contents: have experience with TypeScript
 benefits:
   - benefit:
       benefit-content: >-
