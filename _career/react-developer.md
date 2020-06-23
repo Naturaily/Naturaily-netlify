@@ -78,6 +78,8 @@ we-need-you-to:
   - expectation:
       contents: 'experienced in working with the following: HTML5, CSS3, Webpack'
   - expectation:
+      contents: experienced in RWD and mobile-first approach
+  - expectation:
       contents: 'experienced with Git usage '
   - expectation:
       contents: experienced in Typescript
