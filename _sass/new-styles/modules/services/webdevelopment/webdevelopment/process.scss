@@ -159,17 +159,7 @@
 }
 
 @media(min-width: 1200px) {
-  .webdevelopment-process {
-    &__presentation {
-      padding-left: 100px;
-
-      &-header {
-        padding-right: 150px;
-      }
-    }
-
-    &__testimonial {
-      margin-left: 100px;
-    }
+  .webdevelopment-process__presentation-header {
+    padding-right: 150px;
   }
 }

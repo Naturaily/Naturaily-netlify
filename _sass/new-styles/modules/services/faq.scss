@@ -69,6 +69,10 @@
       display: none;
     }
   }
+
+  .geometric-figure {
+    display: none;
+  }
 }
 
 @media (min-width: 576px) {
@@ -83,7 +87,9 @@
 
 @media (min-width: 811px) {
   .services-faq {
+    position: relative;
     padding: 100px 75px;
+    overflow: hidden;
 
     &__number {
       margin-top: 10px;
@@ -96,6 +102,7 @@
     }
 
     &__header {
+      width: 230px;
       min-width: 230px;
     }
 
@@ -123,6 +130,31 @@
 
       &:last-of-type {
         border-bottom: none;
+      }
+    }
+
+    .geometric-figure {
+      display: flex;
+      position: absolute;
+      top: -110px;
+      right: 75px;
+
+      &_center, &_right::after {
+        width: 200px;
+        height: 200px;
+      }
+
+      &_center {
+        border-color: $color-geometric-blue-accent;
+      }
+
+      &_right {
+        width: 100px;
+        height: 200px;
+
+        &::after {
+          background-color: $color-geometric-blue;
+        }
       }
     }
   }
