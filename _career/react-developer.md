@@ -74,26 +74,22 @@ we-need-you-to:
   - expectation:
       contents: commercially experienced with React.js software development
   - expectation:
-      contents: >-
-        aware of of state management patterns and solutions (e.g. redux,
-        redux-saga)
+      contents: 'aware of state management patterns and solutions (e.g. redux, MobX)'
   - expectation:
-      contents: >-
-        experienced in working with following: HTML5, CSS3, Webpack, Lodash,
-        Underscore
-  - expectation:
-      contents: experienced in RWD and mobile first approach
+      contents: 'experienced in working with the following: HTML5, CSS3, Webpack'
   - expectation:
       contents: 'experienced with Git usage '
+  - expectation:
+      contents: experienced in Typescript
   - expectation:
       contents: eager to mentor other developers
   - expectation:
       contents: proficient in English - both in writing and speaking
 would-be-great:
   - expectation:
-      contents: have experience with consuming RESTful and JSON APIs
+      contents: 'have experience with consuming REST, GraphQL APIs'
   - expectation:
-      contents: have knowledge of JavaScript framework (frontend - Vue/Angular/Ember)
+      contents: 'have experience with SSR solutions (Next.js, Gatsby)'
   - expectation:
       contents: contribute to Open Source community
   - expectation:
