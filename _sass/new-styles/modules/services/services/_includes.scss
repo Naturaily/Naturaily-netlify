@@ -94,18 +94,6 @@
       font-size: 18px;
       line-height: 27px;
     }
-
-    &-link {
-      color: $color-secondary;
-      font-size: 13px;
-      font-weight: 500;
-
-      &-image {
-        height: 11px;
-        margin-left: 24px;
-        vertical-align: baseline;
-      }
-    }
   }
 
   &_logo {
@@ -251,10 +239,6 @@
   .services-includes_element {
     width: 100%;
     margin-right: 0;
-
-    &-link-image {
-      margin-left: 10px;
-    }
 
     br {
       display: none;

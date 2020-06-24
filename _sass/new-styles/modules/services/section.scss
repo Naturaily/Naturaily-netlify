@@ -1,10 +1,10 @@
 .services-section {
   width: 100%;
-  padding: 35px 0 0;
+  padding-top: 35px;
 
   &__image {
     width: 220vw;
-    margin: 0 -10px -150px -10px;
+    margin: 0 -10px -150px;
   }
 
   &__content {
@@ -42,7 +42,7 @@
 @media (min-width: 576px) {
   .services-section {
     width: 100%;
-    padding: 75px 0 0;
+    padding-top: 75px;
 
     &__image {
       width: 150vw;

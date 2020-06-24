@@ -1,5 +1,7 @@
 .services-testimonial {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 50px 20px;
 
@@ -65,7 +67,6 @@
   }
 
   &--grey {
-    position: relative;
     width: 100vw;
     margin: 50px -20px 25px;
     padding: 50px 20px;
@@ -73,11 +74,8 @@
 
     .services-testimonial {
       &__quote {
-        position: absolute;
-        top: 50px;
-        left: 20px;
-        width: calc(100% - 40px);
         flex-direction: column;
+        order: 1;
 
         &-credits {
           margin-top: 25px;
@@ -85,11 +83,16 @@
       }
 
       &__image {
-        margin-top: calc(390px - 30%);
+        order: 2;
+        margin-top: 25px;
       }
 
-      &__text--hidden-sm {
-        display: none;
+      &__text {
+        order: 3;
+
+        &--hidden-sm {
+          display: none;
+        }
       }
     }
   }
@@ -113,7 +116,7 @@
       .services-testimonial__quote {
         top: 50px;
         left: 75px;
-        width: calc(100% - 150px);
+        padding-right: 150px;
       }
     }
   }
@@ -121,7 +124,13 @@
 
 @media (min-width: 811px) {
   .services-testimonial {
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 75px;
+
+    &__image, &__quote, &__text {
+      box-sizing: border-box;
+    }
 
     &__image {
       left: 0;
@@ -129,13 +138,7 @@
       margin-bottom: 50px;
     }
 
-    &__content {
-      display: flex;
-      flex-direction: row;
-    }
-
     &__quote, &__text {
-      box-sizing: border-box;
       width: 50%;
       margin: 0;
       padding-right: 30px;
@@ -162,12 +165,12 @@
 
       .services-testimonial {
         &__quote {
-          position: static;
-          width: 50%;
+          order: 2;
+          padding: 0;
         }
 
         &__image {
-          margin-top: 0;
+          order: 1;
         }
 
         &__text--hidden-lg {

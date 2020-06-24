@@ -9,18 +9,32 @@ window.addEventListener('load', () => {
     const contentStatus = $triggeredContent[0].dataset.contentStatus;
 
     if (contentStatus === "visible") {
-      $triggeredArrow.removeClass('services-faq__icon--rotated');
-      $triggeredContent
-        .attr('data-content-status', 'hidden')
-        .slideUp(600, () => $triggeredContent.addClass('services-faq__text--hidden'));
-
-
-    } else if (contentStatus === "hidden") {
-      $triggeredArrow.addClass('services-faq__icon--rotated');
-      $triggeredContent
-        .slideDown(600)
-        .attr('data-content-status', 'visible')
-        .removeClass('services-faq__text--hidden');
+      hideContent($triggeredContent, $triggeredArrow);
+    } else {
+      const $visibleContent = $faqContainer.find(`[data-content-status="visible"]`);
+      const $rotatedArrow = $faqContainer.find(`[data-dot-status="rotated"]`);
+      
+      hideContent($visibleContent, $rotatedArrow);
+      showContent($triggeredContent, $triggeredArrow);
     }
   })
+
+  function hideContent($element, $arrow) {
+    $arrow
+      .removeAttr('data-dot-status')
+      .removeClass('services-faq__icon--rotated');
+    $element
+      .removeAttr('data-content-status')
+      .slideUp(600, () => $element.addClass('services-faq__text--hidden'));
+  }
+
+  function showContent($element, $arrow) {
+    $arrow
+      .attr('data-dot-status', 'rotated')
+      .addClass('services-faq__icon--rotated');
+    $element
+      .slideDown(600)
+      .attr('data-content-status', 'visible')
+      .removeClass('services-faq__text--hidden');
+  }
 })

@@ -26,18 +26,6 @@
     box-sizing: border-box;
   }
 
-  &_link {
-    color: $color-secondary;
-    font-size: 11px;
-    font-weight: 600;
-
-    &-image {
-      height: 11px;
-      margin-left: 20px;
-      vertical-align: baseline;
-    }
-  }
-
   &_main {
     display: flex;
     flex-direction: column;
