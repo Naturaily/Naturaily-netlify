@@ -10,7 +10,7 @@
       margin-bottom: 10px;
     }
 
-    .services__button {
+    .btn-white {
       margin-top: 25px;
     }
   }
@@ -76,7 +76,7 @@
       }
 
       &--even {
-        .services__step, .services__header, .webdevelopment-services__text, .services__button {
+        .services__step, .services__header, .webdevelopment-services__text, .btn-white {
           position: relative;
           left: 50%;
         }
@@ -116,7 +116,7 @@
           margin-left: 75px;
         }
 
-        .services__button {
+        .btn-white {
           margin-left: 47px;
         }
       }
@@ -157,8 +157,8 @@
           margin-left: 125px;
         }
 
-        .services__button {
-          margin-left: 122px;
+        .btn-white {
+          margin-left: 98px;
         }
       }
 

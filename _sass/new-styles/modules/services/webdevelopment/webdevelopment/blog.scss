@@ -105,8 +105,24 @@
       }
 
       &__nav {
-        top: calc(50% + 25px);
+        box-sizing: border-box;
+        top: 50%;
         margin: 0 -75px;
+        padding: 15px;
+
+        &-item {
+          padding: 10px;
+          font-size: 0.8em;
+          color: $color-portfolio-text;
+          background: $color-white;
+          border-radius: 100%;
+          box-shadow: 0 0 10px $color-global-font-10;
+          opacity: 1;
+
+          &--disabled {
+            opacity: 0.5;
+          }
+        }
       }
     }
   }
@@ -173,22 +189,10 @@
       &__nav {
         justify-content: space-between;
         position: absolute;
-        top: calc(50% - 75px);
-        width: calc(100vw - 100px);
-        margin: 0 -50px;
-
-        &-item {
-          padding: 10px;
-          font-size: 0.8em;
-          color: $color-portfolio-text;
-          background: $color-white;
-          border-radius: 100%;
-          box-shadow: 0 0 10px $color-global-font-10;
-
-          &--disabled {
-            opacity: 0.5;
-          }
-        }
+        transform: translateY(-50px);
+        width: 100vw;
+        padding: 0 50px;
+        margin-left: -100px;
       }
     }
   }
@@ -225,6 +229,7 @@
     .custom-carousel__nav {
       width: 1070px;
       margin: 0 -70px;
+      padding: 0;
     }
   }
 }

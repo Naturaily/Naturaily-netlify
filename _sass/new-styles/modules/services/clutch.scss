@@ -9,7 +9,7 @@
     margin-left: 10px;
   }
 
-  .services__button--without-border {
+  .btn-white {
     max-width: 280px;
     margin-left: -17px;
   }
@@ -30,11 +30,11 @@
       width: 70px;
     }
 
-    .services__button--without-border {
+    .btn-white {
       max-width: 300px;
       margin-left: 50px;
 
-      .services__button-arrow {
+      &_arrow {
         margin-left: 15px;
       }
     }
