@@ -105,7 +105,7 @@ The average abandonment rate is close to 70%, which makes the checkout experienc
 
 With storefront/PWA implementation, you will support mobile and offline experience among your customers. The storefront will **automatically cache the information about your website** for offline usage. It will also let you download a mobile app to your iPhone/Android desktop.
 
-{% image /assets/images/pwa-applications-for-kubota.png pwa pwa %}
+{% image /assets/images/services/webdevelopment/pwa-applications-for-kubota.png pwa pwa %}
 
 _An example of PWA application created for Kubota (Source: divante.co)._
 
