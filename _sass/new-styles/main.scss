@@ -15,10 +15,14 @@
 @import "modules/list";
 @import "modules/person";
 @import "modules/carousel";
+@import "modules/carousel-custom";
+@import "modules/carousel-partners";
 @import "modules/geometric-object";
 @import "modules/form";
 @import "modules/video-box";
 @import "modules/estimate";
+@import "modules/estimate-page";
+@import "modules/other";
 
 // CAREERS SPECIFIC STYLES //
 
@@ -49,6 +53,15 @@
 
 // SERVICES SPECIFIC STYLES //
 
+@import "modules/services/main";
+
+@import "modules/services/clutch";
+@import "modules/services/faq";
+@import "modules/services/list";
+@import "modules/services/numbers";
+@import "modules/services/section";
+@import "modules/services/testimonial";
+
 @import "modules/services/services/full";
 @import "modules/services/services/hero";
 @import "modules/services/services/includes";
@@ -69,6 +82,17 @@
 @import "modules/services/ecommerce/shopify/faq";
 @import "modules/services/ecommerce/shopify/estimate";
 @import "modules/services/ecommerce/shopify/comparison";
+
+@import "modules/services/webdevelopment/webdevelopment/hero";
+@import "modules/services/webdevelopment/webdevelopment/overview";
+@import "modules/services/webdevelopment/webdevelopment/benefits";
+@import "modules/services/webdevelopment/webdevelopment/services";
+@import "modules/services/webdevelopment/webdevelopment/partners";
+@import "modules/services/webdevelopment/webdevelopment/about";
+@import "modules/services/webdevelopment/webdevelopment/experts";
+@import "modules/services/webdevelopment/webdevelopment/scrumban";
+@import "modules/services/webdevelopment/webdevelopment/process";
+@import "modules/services/webdevelopment/webdevelopment/blog";
 
 @import "modules/services/webdevelopment/jamstack/case-studies";
 @import "modules/services/webdevelopment/jamstack/jamstack";
@@ -101,11 +125,8 @@
 @import "modules/portfolio/artinfo";
 @import "modules/portfolio/clutch";
 @import "modules/portfolio/nutshell";
-@import "modules/portfolio/partners";
-@import "modules/portfolio/estimate";
 
 @import "modules/portfolio-cases/main";
-@import "modules/portfolio-cases/carousel";
 
 @import "modules/portfolio-cases/hero";
 @import "modules/portfolio-cases/about";
@@ -116,8 +137,6 @@
 @import "modules/portfolio-cases/experts";
 @import "modules/portfolio-cases/results";
 @import "modules/portfolio-cases/testimonial";
-@import "modules/portfolio-cases/estimate";
-@import "modules/portfolio-cases/other";
 
 @import "modules/portfolio-cases/artinfo/challenge";
 @import "modules/portfolio-cases/artinfo/goal";

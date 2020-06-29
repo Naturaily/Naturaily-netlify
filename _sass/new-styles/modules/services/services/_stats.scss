@@ -37,7 +37,7 @@
         padding-left: 40px;
       }
 
-      &_cta {
+      .btn-bordered {
         margin-left: 40px;
       }
     }
@@ -87,26 +87,16 @@
     }
   }
 
-  &_cta {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 190px;
+  .btn-bordered {
     margin-top: 70px;
     margin-left: 90px;
-    padding: 18px 20px;
-    color: $color-secondary;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 30px;
-    border: 2px solid $color-secondary;
 
     &--more-space {
       margin-top: 100px;
     }
 
-    &-arrow {
-      height: 11px;
+    &--ecommerce {
+      margin-left: 40px;
     }
   }
 
@@ -260,7 +250,7 @@
       padding-right: 50px;
     }
 
-    &_cta {
+    .btn-bordered {
       margin-left: 45px;
     }
 
@@ -308,7 +298,7 @@
       }
     }
 
-    &_cta {
+    .btn-bordered {
       margin-top: 80px;
     }
 
@@ -420,7 +410,7 @@
       }
     }
 
-    &_cta {
+    .btn-bordered {
       margin-top: 50px;
     }
   }

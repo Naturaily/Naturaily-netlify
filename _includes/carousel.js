@@ -2,10 +2,12 @@ window.addEventListener('load', () => {
   const $carouselWrappers = $('[data-carousel="wrapper"]');
   let slideChangeGoing = false;
   let isCarouselDesktop;
+  let areTabsDisabled;
 
   $carouselWrappers.on('mousedown touchstart', () => {
     const $targetCarousel = $(event.target).closest($('[data-carousel="wrapper"]'));
     isCarouselDesktop = $targetCarousel.data('carouselDesktop') ? true : false;
+    areTabsDisabled = $targetCarousel.data('tabsDisabled') ? true : false;
 
     if ($(window).width() < 811 || isCarouselDesktop) {
       initCarousel($targetCarousel);
@@ -30,7 +32,7 @@ window.addEventListener('load', () => {
       dotsControl()
     } else if (targetType === 'nav-item') {
       navControl();
-    } else {
+    } else if ($(window).width() < 811) {
       swipeControl(carouselSize);
     }
 
@@ -99,14 +101,24 @@ window.addEventListener('load', () => {
       const newTabPosition = `-${newIndex * 100}${positionUnit}`;
       let $disabledNav = $targetCarousel.find('[data-nav-disabled="true"]');
 
-      if (isCarouselDesktop) {
-        $disabledNav.removeClass('portfolio-partners__nav-item--disabled');
-        $activeDot.removeClass('portfolio-partners__dots-item--active');
-        $newActiveDot.addClass('portfolio-partners__dots-item--active');
+      if (isCarouselDesktop && areTabsDisabled) {
+        const $allTabs = $carouselTabsContainer.find(`[data-carousel="tab"]`);
+        const $newActiveTab = $carouselTabsContainer.find($(`[data-tab-index="${newIndex}"]`));
+
+        $allTabs.addClass('webdevelopment-blog__posts-list__item--disabled');
+        $newActiveTab.removeClass('webdevelopment-blog__posts-list__item--disabled');
+        $disabledNav.removeClass('custom-carousel__nav-item--disabled');
+        $activeDot.removeClass('custom-carousel__dots-item--active');
+        $newActiveDot.addClass('custom-carousel__dots-item--active');
+      }
+      else if (isCarouselDesktop) {
+        $disabledNav.removeClass('carousel-partners__nav-item--disabled');
+        $activeDot.removeClass('carousel-partners__dots-item--active');
+        $newActiveDot.addClass('carousel-partners__dots-item--active');
       } else {
-        $disabledNav.removeClass('case-carousel__nav-item--disabled');
-        $activeDot.removeClass('case-carousel__dots-item--active');
-        $newActiveDot.addClass('case-carousel__dots-item--active');
+        $disabledNav.removeClass('custom-carousel__nav-item--disabled');
+        $activeDot.removeClass('custom-carousel__dots-item--active');
+        $newActiveDot.addClass('custom-carousel__dots-item--active');
       }
 
       $disabledNav.attr('data-nav-disabled', 'false');
@@ -123,10 +135,10 @@ window.addEventListener('load', () => {
 
       if ($disabledNav != null) {
         $disabledNav.attr('data-nav-disabled', 'true')
-        if (isCarouselDesktop) {
-          $disabledNav.addClass('portfolio-partners__nav-item--disabled');
+        if (isCarouselDesktop && !areTabsDisabled) {
+          $disabledNav.addClass('carousel-partners__nav-item--disabled');
         } else {
-          $disabledNav.addClass('case-carousel__nav-item--disabled');
+          $disabledNav.addClass('custom-carousel__nav-item--disabled');
         }
       }
 

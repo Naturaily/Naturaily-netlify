@@ -1,0 +1,56 @@
+<div class="webdevelopment-blog">
+  <p class="services__step">Web development blog</p>
+  <h2 class="services__header">Our web developers share their&nbsp;knowledge and experience</h2>
+
+  <div class="webdevelopment-blog__posts" data-carousel="wrapper" data-carousel-desktop="wrapper" data-tabs-disabled="true">
+    <ul class="webdevelopment-blog__posts-list" data-carousel="tabs">
+
+      {% for post in site.posts limit: 3 %}
+        {% assign index = forloop.index | minus: 1 %}
+        <li
+          class="webdevelopment-blog__posts-list__item {% if index != 1%}webdevelopment-blog__posts-list__item--disabled{% endif %}"
+          data-carousel="tab"
+          data-tab-index="{{ index }}"
+        >
+          <a class="webdevelopment-blog__image" href="{{ post.url }}">
+            <img src="/assets/images/loader.gif" data-src="{{ post.image }}" alt="{{ post.title }}"/>
+          </a>
+
+          {% if post.authors.label %}
+            <div class="webdevelopment-blog__author">
+              {% if post.authors.avatar %}
+                <img src="/assets/images/loader.gif" data-src="{{ post.authors.avatar }}" alt="author avatar"/>
+              {% endif %}
+              <div class="webdevelopment-blog__author-label">
+                <p>{{ post.authors.label }}</p>
+                <time>
+                  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                  {{ post.date | date: date_format }}
+                </time>
+              </div>
+            </div>
+          {% endif %}
+
+          <div class="webdevelopment-blog__post">
+            <a class="webdevelopment-blog__post-header" href="{{ post.url }}">{{ post.title }}</a>
+            {{ post.excerpt }}
+          </div>
+          <a class="btn-white" href="{{ post.url }}">
+            Read more
+            <img class="btn-white_arrow" src="/assets/images/arrow-orange.png" alt="arrow"/>
+          </a>
+        </li>
+      {% endfor %}
+
+    </ul>
+    <div class="custom-carousel__dots" data-carousel="dots">
+      <div class="custom-carousel__dots-item" data-carousel="dots-item" data-dots="lg" data-dot-index="0" data-dot-active="false"></div>
+      <div class="custom-carousel__dots-item custom-carousel__dots-item--active" data-dots="lg" data-carousel="dots-item" data-dot-index="1" data-dot-active="true"></div>
+      <div class="custom-carousel__dots-item" data-carousel="dots-item" data-dots="lg" data-dot-index="2" data-dot-active="false"></div>
+    </div>
+    <div class="custom-carousel__nav" data-carousel="nav">
+      <div class="icon icon-chevron-left custom-carousel__nav-item" data-carousel="nav-item" data-nav="prev" data-nav-disabled="false"></div>
+      <div class="icon icon-chevron-right custom-carousel__nav-item" data-carousel="nav-item" data-nav="next" data-nav-disabled="false"></div>
+    </div>
+  </div>
+</div>

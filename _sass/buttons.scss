@@ -81,6 +81,38 @@
   }
 }
 
+.btn-bordered, .btn-white {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  color: $color-secondary;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+
+  &_arrow {
+    height: 11px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.btn-bordered {
+  max-width: 190px;
+  border-radius: 30px;
+  border: 2px solid $color-secondary;
+}
+
+.btn-white {
+  max-width: 150px;
+  margin-left: -27px;
+  border: none;
+}
+
 @media (max-width: 575px) {
   .btn-primary {
     &.btn-arrow {
