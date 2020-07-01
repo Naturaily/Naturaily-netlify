@@ -1,11 +1,6 @@
 .portfolio-cases {
   width: 100%;
   padding: 30px 20px;
-
-  &--less-space {
-    padding-top: 0;
-    margin-top: -25px;
-  }
 }
 
 .portfolio-case {
@@ -42,12 +37,8 @@
 @media (min-width: 576px) {
   .portfolio-cases {
     padding: 70px 75px;
-
-    &--less-space {
-      padding-top: 0;
-      margin-top: -75px;
-    }
   }
+
   .portfolio-case {
     padding: 50px 0;
 
@@ -86,12 +77,14 @@
 @media (min-width: 811px) {
   .portfolio-cases {
     display: flex;
-    padding: 100px 60px;
+    flex-wrap: wrap;
+    padding: 50px 60px;
   }
 
   .portfolio-case {
+    box-sizing: border-box;
     width: 50%;
-    padding: 0 15px;
+    padding: 50px 15px;
 
     &__header--long {
       height: 6em;
@@ -147,6 +140,6 @@
   }
 
   .portfolio-case {
-    padding: 0 75px;
+    padding: 50px 75px;
   }
 }

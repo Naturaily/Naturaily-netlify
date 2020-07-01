@@ -32,17 +32,22 @@
       margin-left: 10px;
     }
 
-    .portfolio__button {
-      padding-top: 10px;
-      padding-left: 0;
-      border: none;
+    .btn-white {
+      justify-content: flex-start;
+      max-width: 180px;
+      margin: 0;
+      padding: 10px 0 15px;
+
+      &_arrow {
+        margin-left: 11px;
+      }
     }
   }
 
   &__reviews {
     padding: 25px 0;
 
-    .portfolio__button {
+    .btn-bordered {
       width: 270px;
       max-width: 270px;
       margin-top: 50px;
@@ -212,7 +217,7 @@
       margin-top: -25px;
       overflow-y: scroll;
 
-      .portfolio__button {
+      .btn-bordered {
         display: none;
       }
     }
@@ -288,7 +293,7 @@
         height: 20px;
       }
 
-      .portfolio__button {
+      .btn-white {
         padding: 10px 60px 10px 20px;
 
         &-arrow {
@@ -324,7 +329,7 @@
     margin-left: -15px;
 
     &__intro {
-      padding-left: 50px;
+      padding-left: 65px;
     }
 
     &__text, &__reviews {
@@ -339,7 +344,7 @@
       }
     }
 
-    &__check .portfolio__button {
+    &__check .btn-white {
       padding-right: 120px;
     }
   }
