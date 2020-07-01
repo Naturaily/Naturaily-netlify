@@ -1,0 +1,143 @@
+.portfolio-cases--more {
+  position: relative;
+  padding-top: 50px;
+  overflow: hidden;
+
+  .btn-shadowed {
+    position: absolute;
+    left: calc(50% - 95px);
+    bottom: 25px;
+    z-index: 1;
+    width: 190px;
+  }
+
+  .portfolio-cases__shadow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 70%);
+  }
+}
+
+.portfolio-case {
+  &--small .portfolio-case {
+    &__header {
+      font-size: 1.5em;
+      font-weight: 400;
+    }
+
+    &__text {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+    }
+  }
+
+  &--hidden-sm {
+    display: none;
+    opacity: 0;
+  }
+
+  &--shadowed-sm {
+    display: block;
+    opacity: 1;
+    margin-bottom: -400px;
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-cases--more {
+    padding: 100px 75px 0;
+  }
+
+  .portfolio-case--small {
+    padding: 25px 0;
+  }
+}
+
+@media (min-width: 811px) {
+  .portfolio-cases--more {
+    padding: 75px 20px 0;
+
+    .btn-shadowed {
+      position: relative;
+      margin-top: 50px;
+    }
+
+    .portfolio-cases__shadow {
+      display: none;
+    }
+  }
+
+  .portfolio-case {
+    &--small {
+      padding: 25px 15px;
+
+      .portfolio-case {
+        &__header {
+          font-size: 1.4em;
+          height: 3em;
+        }
+
+        &__text {
+          height: 5em;
+        }
+      }
+    }
+
+    &--shadowed-sm {
+      display: none;
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-case {
+    &--small {
+      width: 33.3%;
+
+      .portfolio-case__header {
+        height: 4em;
+      }
+
+      .portfolio-case__text {
+        height: 6em;
+      }
+    }
+
+    &--hidden-sm {
+      display: block;
+      opacity: 1;
+    }
+
+    &--hidden-lg {
+      display: none;
+      opacity: 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-cases--more {
+    margin: 0 -10px 0 -20px;
+    width: 100%;
+  }
+
+  .portfolio-case--small {
+    padding: 50px 25px;
+
+    .portfolio-case__header {
+      height: 3em;
+
+      &--long {
+        margin-right: -15px;
+      }
+    }
+
+    .portfolio-case__text {
+      height: 4.5em;
+    }
+  }
+}

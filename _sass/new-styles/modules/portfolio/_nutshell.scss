@@ -28,7 +28,7 @@
 
 @media (min-width: 576px) {
   .portfolio-nutshell {
-    padding: 100px 75px;
+    padding: 50px 75px 100px;
     width: 100%;
   }
 }
@@ -77,8 +77,6 @@
 
 @media (min-width: 1200px) {
   .portfolio-nutshell {
-    padding-left: 90px;
-
     &__image {
       top: 150px;
       right: 75px;
@@ -87,9 +85,5 @@
     &__numbers {
       margin: 50px 0 75px -50px;
     }
-  }
-
-  .portfolio-partners {
-    margin: 0 160px 0 90px;
   }
 }
