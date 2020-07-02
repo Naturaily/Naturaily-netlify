@@ -54,7 +54,7 @@ window.addEventListener('load', () => {
 
     expandShadowed($hiddenReviews.first());
     animateAccordion($hiddenReviews);
-    removeAccordion('reviews');
+    removeAccordion($reviewsButton, $reviewsShadow);
   };
 
   const mobileAccordion = () => {
@@ -77,14 +77,14 @@ window.addEventListener('load', () => {
       animateAccordion($casesToShow, classes.mobile);
     }
 
-    isSectionCollapsed ? $casesButton.removeAttr(attributes.collapsed) : removeAccordion();
+    isSectionCollapsed ? $casesButton.removeAttr(attributes.collapsed) : removeAccordion($casesButton, $casesShadow);
   };
 
   const desktopAccordion = () => {
     const $casesToShow = $casesContainer.find(attributes.hiddenCases);
 
     animateAccordion($casesToShow, classes.desktop);
-    removeAccordion();
+    removeAccordion($casesButton);
   };
 
   const animateAccordion = ($casesToShow, elementsClass = null) => {
@@ -103,11 +103,7 @@ window.addEventListener('load', () => {
     $shadowed.animate({ 'margin-bottom': 0 }, times.long);
   };
 
-  const removeAccordion = type => {
-    const accordionType = type == 'reviews';
-    const $button = accordionType ? $reviewsButton : $casesButton;
-    const $shadow = accordionType ? $reviewsShadow : $casesShadow;
-
+  const removeAccordion = ($button, $shadow) => {
     $button.css('display', 'none');
     if (accordionHasShadow) {
       $shadow.animate({ 'opacity': 0 }, times.long, () => $shadow.css('display', 'none'));
