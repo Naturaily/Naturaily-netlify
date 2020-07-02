@@ -5,80 +5,112 @@ window.addEventListener('load', () => {
 
   const $casesContainer = $('#cases-container');
   const $casesButton = $('#cases-trigger');
-  const $casesShadow = ($(window).width() < 811) ? $('#cases-shadow') : null;
+  const $casesShadow = $('#cases-shadow');
 
-  $reviewsButton.click(() => { showMoreReviews() })
-  $reviewsContainer.scroll(() => { fadeOutShadow() })
+  let accordionHasShadow = false;
+
+  const classes = {
+    mobile: 'sm',
+    mobileShadowed: 'portfolio-case--shadowed-sm',
+    desktop: 'lg',
+  };
+
+  const attributes = {
+    hiddenReviews: '[data-review="hidden"]',
+    hiddenCases: '[data-desktop="hidden"]',
+    firstCasesSet: '[data-mobile="first-hidden"]',
+    secondCasesSet: '[data-mobile="second-hidden"]',
+    collapsed: 'data-collapsed'
+  };
+
+  const times = {
+    short: 300,
+    long: 600
+  };
+
+  $reviewsButton.click(() => showMoreReviews());
+  $reviewsContainer.scroll(() => fadeOutShadow());
+
   $casesButton.unbind('click').bind('click', () => {
-    if ($(window).width() < 992) {
-      mobileAccordion($casesButton, $casesContainer, $casesShadow);
-    } else {
-      desktopAccordion($casesButton, $casesContainer);
-    }
+    const windowWidth = $(window).width();
+
+    accordionHasShadow = windowWidth < 811;
+    windowWidth < 992 ? mobileAccordion() : desktopAccordion();
   });
 
-  fadeOutShadow = ($container) => {
+  const fadeOutShadow = () => {
     const currentPosition = $reviewsContainer.scrollTop();
     const maxPosition = $reviewsContainer[0].scrollHeight - $reviewsContainer[0].clientHeight;
 
     if (currentPosition > maxPosition - 100) {
-      const opacity = (maxPosition - currentPosition)/100;
+      const opacity = (maxPosition - currentPosition) / 100;
       $reviewsShadow.css('opacity', opacity);
     }
-  }
+  };
 
-  showMoreReviews = () => {
-    const $clutchContainer = $('#portfolio-reviews');
-    const $hiddenReviews  = $reviewsContainer.find('[data-review="hidden"]');
+  const showMoreReviews = () => {
+    const $hiddenReviews  = $reviewsContainer.find(attributes.hiddenReviews);
+    accordionHasShadow = true;
 
     expandShadowed($hiddenReviews.first());
-    setTimeout(() => {
-      animateAccordion($hiddenReviews);
-      removeAccordion($reviewsButton, $reviewsShadow)
-    }, 300);
-  }
+    animateAccordion($hiddenReviews);
+    removeAccordion('reviews');
+  };
 
-  mobileAccordion = ($button, $cases, $shadow) => {
-    const isSectionCollapsed = $button[0].dataset.collapsed ? true : false;
-    const $casesToShow = isSectionCollapsed ? $cases.find('[data-mobile="first-hidden"]') : $cases.find('[data-mobile="second-hidden"]');
-    const $secondShadowedCase = $cases.find('[data-mobile="second-hidden"]').first();
+  const mobileAccordion = () => {
+    const $firstCasesSet = $casesContainer.find(attributes.firstCasesSet);
+    const $secondCasesSet = $casesContainer.find(attributes.secondCasesSet);
+    const $secondShadowedCase = $secondCasesSet.first();
 
-    if ($shadow) {
+    const isSectionCollapsed = $casesButton[0].dataset.collapsed;
+    const $casesToShow = isSectionCollapsed ? $firstCasesSet : $secondCasesSet;
+
+    if (accordionHasShadow) {
       expandShadowed($casesToShow.first());
+
       setTimeout(() => {
-        animateAccordion($casesToShow, 'sm');
-        $secondShadowedCase.addClass('portfolio-case--shadowed-sm');
-        animateAccordion($secondShadowedCase, 'sm');
-      }, 300);
+        animateAccordion($casesToShow, classes.mobile);
+        $secondShadowedCase.addClass(classes.mobileShadowed);
+        animateAccordion($secondShadowedCase, classes.mobile);
+      }, times.short);
     } else {
-      animateAccordion($casesToShow, 'sm');
+      animateAccordion($casesToShow, classes.mobile);
     }
 
-    (isSectionCollapsed) ? $button.removeAttr('data-collapsed') : removeAccordion($button, $shadow);
-  }
+    isSectionCollapsed ? $casesButton.removeAttr(attributes.collapsed) : removeAccordion();
+  };
 
-  desktopAccordion = ($button, $cases) => {
-    const $casesToShow = $cases.find('[data-desktop="hidden"]');
-    animateAccordion($casesToShow, 'lg');
-    removeAccordion($button);
-  }
+  const desktopAccordion = () => {
+    const $casesToShow = $casesContainer.find(attributes.hiddenCases);
 
-  animateAccordion = ($casesToShow, elementsClass = null) => {
+    animateAccordion($casesToShow, classes.desktop);
+    removeAccordion();
+  };
+
+  const animateAccordion = ($casesToShow, elementsClass = null) => {
     $casesToShow
-      .slideDown(600)
-      .animate({ 'opacity': 1 }, 600);
+      .slideDown(times.long)
+      .animate({ 'opacity': 1 }, times.long);
 
     if (elementsClass) {
-      $casesToShow.removeClass(`portfolio-case--hidden-${elementsClass}`);
+      const hiddenClass = `portfolio-case--hidden-${elementsClass}`;
+
+      $casesToShow.removeClass(hiddenClass);
     }
-  }
+  };
 
-  expandShadowed = ($shadowed) => {
-    $shadowed.animate({ 'margin-bottom': 0 }, 600)
-  }
+  const expandShadowed = $shadowed => {
+    $shadowed.animate({ 'margin-bottom': 0 }, times.long);
+  };
 
-  removeAccordion = ($button, $shadow = null) => {
+  const removeAccordion = type => {
+    const accordionType = type == 'reviews';
+    const $button = accordionType ? $reviewsButton : $casesButton;
+    const $shadow = accordionType ? $reviewsShadow : $casesShadow;
+
     $button.css('display', 'none');
-    ($shadow) ? $shadow.css('display', 'none') : '';
-  }
-})
+    if (accordionHasShadow) {
+      $shadow.animate({ 'opacity': 0 }, times.long, () => $shadow.css('display', 'none'));
+    }
+  };
+});

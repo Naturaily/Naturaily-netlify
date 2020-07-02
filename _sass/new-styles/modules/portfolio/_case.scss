@@ -87,14 +87,15 @@
     padding: 50px 15px;
 
     &__header--long {
-      height: 6em;
+      height: 105px;
+      font-size: 1.5em;
     }
 
     &__text {
-      height: 7em;
+      height: 112px;
 
       &--short {
-        height: 6em;
+        height: 96px;
       }
     }
 
@@ -117,18 +118,19 @@
   }
 }
 
-@media (min-width: 980px) {
-  .portfolio-case__header--long {
-    height: 4.5em;
-  }
-}
-
 @media (min-width: 992px) {
-  .portfolio-case__text {
-    height: 6em;
+  .portfolio-case {
+    &__header--long {
+      height: 160px;
+      font-size: 2.1em;
+    }
 
-    &--short {
-      height: 5.5em;
+    &__text {
+      height: 96px;
+
+      &--short {
+        height: 88px;
+      }
     }
   }
 }

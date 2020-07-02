@@ -17,7 +17,7 @@
     bottom: 0;
     width: 100%;
     height: 200px;
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #fff 60%);
+    background: linear-gradient(to bottom, $color-transparent 0%, $color-white 60%);
   }
 }
 
@@ -77,11 +77,11 @@
       .portfolio-case {
         &__header {
           font-size: 1.4em;
-          height: 3em;
+          height: 48px;
         }
 
         &__text {
-          height: 5em;
+          height: 80px;
         }
       }
     }
@@ -99,11 +99,11 @@
       width: 33.3%;
 
       .portfolio-case__header {
-        height: 4em;
+        height: 80px;
       }
 
       .portfolio-case__text {
-        height: 6em;
+        height: 96px;
       }
     }
 
@@ -130,7 +130,7 @@
     padding: 50px 25px;
 
     .portfolio-case__header {
-      height: 3em;
+      height: 64px;
 
       &--long {
         margin-right: -15px;
@@ -138,7 +138,7 @@
     }
 
     .portfolio-case__text {
-      height: 4.5em;
+      height: 72px;
     }
   }
 }
