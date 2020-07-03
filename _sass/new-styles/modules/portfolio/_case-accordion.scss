@@ -5,8 +5,9 @@
 
   .btn-shadowed {
     position: absolute;
-    left: calc(50% - 125px);
+    left: 50%;
     bottom: 50px;
+    transform: translateX(-50%);
     z-index: 1;
     width: 250px;
   }
