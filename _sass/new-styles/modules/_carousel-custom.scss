@@ -2,6 +2,11 @@
   &__dots, &__nav {
     display: none;
   }
+
+  &__tabs-tab--inactive {
+    opacity: 0.6;
+    pointer-events: none;
+  }
 }
 
 @media only screen and (max-width: 811px) {
@@ -48,6 +53,14 @@
       &--ten {
         width: 1000vw;
       }
+
+      &--with-bar {
+        margin: 0;
+
+        &.custom-carousel__tabs--three {
+          width: 180vw;
+        }
+      }
     }
 
     &__dots {
@@ -81,6 +94,10 @@
   .custom-carousel {
     &__tabs {
       margin-left: -100px;
+
+      &--with-bar.custom-carousel__tabs--three {
+        margin-left: -75px;
+      }
     }
 
     &__nav {
