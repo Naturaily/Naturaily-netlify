@@ -1,6 +1,6 @@
 .portfolio-clutch {
   position: relative;
-  padding: 50px 20px;
+  padding: 50px 20px 0;
   margin-top: -25px;
   border-top: 1px solid $color-global-font-10;
   border-bottom: 1px solid $color-global-font-10;
@@ -32,20 +32,29 @@
       margin-left: 10px;
     }
 
-    .portfolio__button {
-      padding-top: 10px;
-      padding-left: 0;
-      border: none;
+    .btn-white {
+      justify-content: flex-start;
+      max-width: 180px;
+      margin: 0;
+      padding: 10px 0 15px;
+
+      &_arrow {
+        margin-left: 11px;
+      }
     }
   }
 
   &__reviews {
-    padding: 25px 0;
+    padding: 25px 0 75px;
+    overflow: hidden;
 
-    .portfolio__button {
-      width: 270px;
-      max-width: 270px;
-      margin-top: 50px;
+    .btn-shadowed {
+      position: relative;
+      left: 50%;
+      bottom: -25px;
+      transform: translateX(-50%);
+      width: 250px;
+      z-index: 2;
       background-color: $color-white;
     }
   }
@@ -58,8 +67,12 @@
       padding-bottom: 0;
     }
 
-    &--hidden-sm, &--hidden-md {
+    &--hidden-sm {
       display: none;
+    }
+
+    &--shadowed {
+      margin-bottom: -100px;
     }
 
     &-quote {
@@ -118,6 +131,16 @@
     }
   }
 
+  &__shadow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom, $color-transparent 0%, $color-white 60%);
+  }
+
   .portfolio__figure {
     &-circle, &-dot {
       top: 220px;
@@ -160,10 +183,14 @@
 @media (min-width: 576px) {
   .portfolio-clutch {
     margin: -75px 25px -50px;
-    padding: 50px;
+    padding: 50px 50px 0;
     overflow: hidden;
     border: 1px solid $color-global-font-10;
     border-radius: 8px;
+
+    &__reviews {
+      padding: 75px 0 100px;
+    }
 
     &__text {
       padding: 50px 0;
@@ -194,7 +221,7 @@
     display: flex;
     align-items: center;
     margin: 0 35px -25px;
-    padding: 75px 0 75px 40px;
+    padding: 0 0 0 40px;
 
     &__intro, &__reviews {
       box-sizing: border-box;
@@ -202,17 +229,24 @@
       z-index: 2;
     }
 
+    &__intro {
+      margin: 100px 0 75px;
+    }
+
     &__header {
       margin-top: -25px;
     }
 
     &__reviews {
-      max-height: 700px;
+      position: absolute;
+      top: 25px;
+      right: 0;
+      height: 100%;
       padding: 0 40px 0 0;
       margin-top: -25px;
       overflow-y: scroll;
 
-      .portfolio__button {
+      .btn-shadowed {
         display: none;
       }
     }
@@ -220,6 +254,18 @@
     &__review {
       &--hidden-sm {
         display: block;
+      }
+
+      &--shadowed {
+        margin-bottom: 0;
+      }
+
+      &:first-of-type {
+        padding-top: 75px;
+      }
+
+      &:last-of-type {
+        padding-bottom: 75px;
       }
 
       &-quote {
@@ -237,6 +283,16 @@
           left: 30px;
         }
       }
+    }
+
+    &__shadow {
+      bottom: 50px;
+      left: auto;
+      right: 0;
+      bottom: 0;
+      width: 50%;
+      z-index: 3;
+      background: linear-gradient(to bottom, $color-transparent 0%, $color-white 90%);
     }
 
     .portfolio__figure {
@@ -288,7 +344,7 @@
         height: 20px;
       }
 
-      .portfolio__button {
+      .btn-white {
         padding: 10px 60px 10px 20px;
 
         &-arrow {
@@ -321,10 +377,11 @@
 
 @media (min-width: 1200px) {
   .portfolio-clutch {
-    margin-left: -15px;
+    margin-left: 20px;
 
     &__intro {
-      padding-left: 50px;
+      margin: 125px 0 100px;
+      padding-left: 15px;
     }
 
     &__text, &__reviews {
@@ -332,14 +389,14 @@
     }
 
     &__review {
-      padding-bottom: 100px;
+      padding-bottom: 90px;
 
       &-credits__avatar {
         left: 0;
       }
     }
 
-    &__check .portfolio__button {
+    &__check .btn-white {
       padding-right: 120px;
     }
   }

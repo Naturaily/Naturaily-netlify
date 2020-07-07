@@ -1,4 +1,4 @@
-<div class="portfolio-clutch">
+<div id="portfolio-clutch" class="portfolio-clutch">
   <div class="portfolio-clutch__intro">
     <h3 class="portfolio__header">
       Why it’s
@@ -32,9 +32,9 @@
           alt="clutch logo"
         />
       </div>
-      <a class="portfolio__button" href="https://clutch.co/profile/naturaily" rel="nofollow" target=”_blank>
+      <a class="btn-white" href="https://clutch.co/profile/naturaily" rel="nofollow" target=”_blank>
         Check our reviews
-        <img class="portfolio__button-arrow" src="/assets/images/arrow-orange.png" alt="arrow"/>
+        <img class="btn-white_arrow" src="/assets/images/arrow-orange.png" alt="arrow"/>
       </a>
     </div>
   </div>
@@ -83,7 +83,7 @@
          />
       </div>
     </div>
-    <div class="portfolio-clutch__review portfolio-clutch__review--hidden-sm" data-review="hidden">
+    <div class="portfolio-clutch__review portfolio-clutch__review--shadowed" data-review="hidden">
       <p class="portfolio-clutch__review-quote">
         <span class="icon-quote"></span>
         We're particularly happy with how easy they are to work with and
@@ -105,7 +105,7 @@
          />
       </div>
     </div>
-    <div class="portfolio-clutch__review portfolio-clutch__review--hidden--md" data-review="hidden">
+    <div class="portfolio-clutch__review portfolio-clutch__review--hidden-sm" data-review="hidden">
       <p class="portfolio-clutch__review-quote">
         <span class="icon-quote"></span>
         Working with Naturaily has been a&nbsp;pleasure from the very beginning
@@ -132,8 +132,9 @@
          />
       </div>
     </div>
-    <button id="portfolio-trigger" class="portfolio__button">See more</button>
+    <button id="portfolio-trigger" class="btn-shadowed">Load more</button>
   </div>
+  <div id="portfolio-shadow" class="portfolio-clutch__shadow"></div>
   <div class="portfolio__figure">
     <span class="portfolio__figure-circle portfolio__figure-circle--small"></span>
     <span class="portfolio__figure-circle portfolio__figure-circle--medium"></span>
@@ -146,5 +147,5 @@
 </div>
 
 <script type="text/javascript">
-  {% include portfolio/clutch.js %}
+  {% include portfolio/show-more.js %}
 </script>
