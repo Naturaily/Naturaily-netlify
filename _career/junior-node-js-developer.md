@@ -22,7 +22,7 @@ about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
   We are waiting for you!
-about-image: '/assets/images/[Junior_Node.js_Developer].png'
+about-image: '/assets/images/[Careers]_main_photo.png'
 type: Development
 salary-preview:
   - salary:
