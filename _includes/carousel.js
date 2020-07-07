@@ -5,10 +5,12 @@ window.addEventListener('load', () => {
   let $carouselDots;
   let $carouselBar;
   let $activeElement;
+  let windowWidth;
 
   const carousel = {
     size: null,
     scale: 100,
+    max_width: 811,
     animationTime: 600,
     change_going: false,
     current_tab_index: null,
@@ -21,8 +23,11 @@ window.addEventListener('load', () => {
   $carouselWrappers.on('mousedown touchstart', () => {
     $targetCarousel = $(event.target).closest($('[data-carousel="wrapper"]'));
     carousel.is_desktop = $targetCarousel.data('carouselDesktop') ? true : false;
+    carousel.progress_bar = $targetCarousel.data('progressBar') ? true : false;
+    carousel.max_width = carousel.progress_bar ? 576 : 811;
+    windowWidth = $(window).width();
 
-    if ($(window).width() < 811 || carousel.is_desktop) initCarousel();
+    if (windowWidth < carousel.max_width || carousel.is_desktop) initCarousel();
   });
 
   function initCarousel() {
@@ -36,9 +41,8 @@ window.addEventListener('load', () => {
   }
 
   function setCarouselParameters() {
-    carousel.progress_bar = $targetCarousel.data('progressBar') ? true : false;
     carousel.tabs_disabled = $targetCarousel.data('tabsDisabled') ? true : false;
-    carousel.scale = carousel.progress_bar ? 60 : 100;
+    carousel.scale = carousel.progress_bar ? 70 : 100;
 
     const $activeContainer = carousel.progress_bar ? $carouselTabsContainer : $carouselDots;
     const activeAttribute = carousel.progress_bar ? '[data-tab-active="true"]' : '[data-dot-active="true"]';
@@ -49,9 +53,9 @@ window.addEventListener('load', () => {
 
     if (carousel.progress_bar) {
       carousel.size = $carouselTabsContainer.children().length;
-    } else if ($(window).width() < 811) {
+    } else if (windowWidth < 811) {
       carousel.size = $carouselDots.children().length;
-    } else if ($(window).width() > 992) {
+    } else if (windowWidth > 992) {
       carousel.size = $carouselDots.find('[data-dots="lg"]').length;
     } else {
       carousel.size = $carouselDots.find('[data-dots="md"]').length + $carouselDots.find('[data-dots="lg"]').length;
@@ -63,7 +67,7 @@ window.addEventListener('load', () => {
       dotsControl()
     } else if (targetType === 'nav-item') {
       navControl();
-    } else if ($(window).width() < 811) {
+    } else if (windowWidth < 811) {
       swipeControl(event);
     }
   }
@@ -84,9 +88,11 @@ window.addEventListener('load', () => {
   function swipeControl(event) {
     const usingTouch = event.type === 'touchstart';
     const swipeStartPosition = usingTouch ? event.touches[0].clientX : event.clientX;
+    const tabWidth = 0.6 * windowWidth;
+    const rightSideClicked = swipeStartPosition > tabWidth;
 
-    swiping(swipeStartPosition, carousel.current_tab_index);
-    $targetCarousel.one('mouseup touchend', () => swipeEnd(swipeStartPosition));
+    swiping(swipeStartPosition);
+    $targetCarousel.one('mouseup touchend', () => swipeEnd(swipeStartPosition, rightSideClicked));
   }
 
   function swiping(startSwipePosition) {
@@ -95,7 +101,7 @@ window.addEventListener('load', () => {
       const currentSwipePosition = usingTouch ? event.touches[0].clientX : event.clientX;
       const swipePositionChange = currentSwipePosition - startSwipePosition;
 
-      const mobileCarousel = !($(window).width() > 576 && carousel.is_desktop);
+      const mobileCarousel = !(windowWidth > 576 && carousel.is_desktop);
       const tabPositionUnit = mobileCarousel ? 'vw' : '%';
       const swipeLeft = swipePositionChange < 0;
       const tabInitialPosition = `-${carousel.current_tab_index * carousel.scale}${tabPositionUnit}`;
@@ -106,17 +112,18 @@ window.addEventListener('load', () => {
     });
   }
 
-  function swipeEnd(startSwipePosition) {
+  function swipeEnd(startSwipePosition, rightSideClicked) {
     const usingTouch = event.type === 'touchend';
     const endSwipePosition =  usingTouch ? event.changedTouches[0].clientX : event.clientX;
     const swipePositionChange = startSwipePosition - endSwipePosition;
 
     const swipeLeft = swipePositionChange < 0;
     const swipeToIndex = swipeLeft ? carousel.current_tab_index - 1 : carousel.current_tab_index + 1;
+    const switchByTab = carousel.progress_bar && rightSideClicked && swipePositionChange < 5;
 
     const swipeEnough = Math.abs(swipePositionChange) > 30;
     const tabExists = (swipeToIndex >= 0 && swipeToIndex < carousel.size);
-    const newIndex = (swipeEnough && tabExists) ? swipeToIndex : carousel.current_tab_index;
+    const newIndex = (swipeEnough && tabExists) || switchByTab ? swipeToIndex : carousel.current_tab_index;
 
     checkChangeRequest(newIndex, 'swipe');
     $targetCarousel.off('mousemove touchmove');
@@ -132,7 +139,7 @@ window.addEventListener('load', () => {
   }
 
   function changeTabPosition(newIndex) {
-    const positionUnit = $(window).width() > 576 && carousel.is_desktop ? '%' : 'vw';
+    const positionUnit = windowWidth > 576 && carousel.is_desktop ? '%' : 'vw';
     const newTabPosition = `-${newIndex * carousel.scale}${positionUnit}`;
     const newBarWidth = `${(newIndex + 1) * carousel.progress_bar_scale}%`;
 
