@@ -1,15 +1,10 @@
 .portfolio-cases {
   width: 100%;
   padding: 30px 20px;
-
-  &--less-space {
-    padding-top: 0;
-    margin-top: -25px;
-  }
 }
 
 .portfolio-case {
-  padding: 20px 0;
+  padding: 25px 0;
 
   &__image {
     margin: 0 -20px 35px;
@@ -30,7 +25,7 @@
   }
 
   &__text {
-    margin: 25px 0 40px;
+    margin: 25px 0;
     line-height: 1.5;
   }
 
@@ -42,12 +37,8 @@
 @media (min-width: 576px) {
   .portfolio-cases {
     padding: 70px 75px;
-
-    &--less-space {
-      padding-top: 0;
-      margin-top: -75px;
-    }
   }
+
   .portfolio-case {
     padding: 50px 0;
 
@@ -86,22 +77,25 @@
 @media (min-width: 811px) {
   .portfolio-cases {
     display: flex;
-    padding: 100px 60px;
+    flex-wrap: wrap;
+    padding: 50px 60px;
   }
 
   .portfolio-case {
+    box-sizing: border-box;
     width: 50%;
-    padding: 0 15px;
+    padding: 50px 15px;
 
     &__header--long {
-      height: 6em;
+      height: 105px;
+      font-size: 1.5em;
     }
 
     &__text {
-      height: 7em;
+      height: 112px;
 
       &--short {
-        height: 6em;
+        height: 96px;
       }
     }
 
@@ -124,18 +118,19 @@
   }
 }
 
-@media (min-width: 980px) {
-  .portfolio-case__header--long {
-    height: 4.5em;
-  }
-}
-
 @media (min-width: 992px) {
-  .portfolio-case__text {
-    height: 6em;
+  .portfolio-case {
+    &__header--long {
+      height: 160px;
+      font-size: 2.1em;
+    }
 
-    &--short {
-      height: 5.5em;
+    &__text {
+      height: 96px;
+
+      &--short {
+        height: 88px;
+      }
     }
   }
 }
@@ -147,6 +142,6 @@
   }
 
   .portfolio-case {
-    padding: 0 75px;
+    padding: 50px 65px;
   }
 }
