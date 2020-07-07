@@ -1,11 +1,11 @@
 ---
 published: true
-title: Node.js Developer
+title: Junior Node.js Developer
 description: >-
   There is one piece missing in our organization! We believe it is you,
   Naturaily.
 layout: career-offer
-image: /assets/images/nodedeveloper.png
+image: '/assets/images/[Junior_Nodejs_Developer].png'
 location:
   - Wrocław
   - Remote
@@ -26,26 +26,20 @@ type: Development
 salary-preview:
   - salary:
       contract: (B2B)
-      sum: 11 500 - 17 000 PLN net + VAT
+      sum: 4600 - 7600 PLN net + VAT + 26 paid days off
 what-we-expect:
   - expectation:
-      contents: 'to drive software architecture, design & development activities '
+      contents: 'to learn & adopt new tools/technologies/programming languages'
   - expectation:
       contents: >-
-        to keep abreast of new technology trends & to identify opportunities and
-        risks
+        to communicate with the team and clients openly & respectfully
   - expectation:
-      contents: to learn &  adopt new tools/ technologies/ programming languages
+      contents: to extend & maintain DevTeam’s knowledge base
   - expectation:
-      contents: to communicate with the client on behalf of team
-  - expectation:
-      contents: to extend &  maintain DevTeam’s knowledge base
-  - expectation:
-      contents: to mentor other Developers
+      contents: initiate/take part in grass-root activities, both internal & external
   - expectation:
       contents: >-
-        to initiate/ to take part in grass-roots, both internal & external
-        activities
+        to be open to constructive criticism and taking advice from more experienced colleagues
 what-you-expect:
   - expectation:
       contents: >-
@@ -75,28 +69,22 @@ what-you-expect:
       contents: a MacBook
 we-need-you-to:
   - expectation:
-      contents: commercially experienced Node.js software development
+      contents: commercially experienced in backend development (at least 6 months)
   - expectation:
-      contents: 'knowledgeable of MySQL, PostgreSQL or noSQL databases'
+      contents: familiar with ES6/TypeScript
   - expectation:
-      contents: knowledgeable of JavaScript ES6+/ Typescript
+      contents: experienced in using SQL databases
   - expectation:
-      contents: 'experienced in working with following: ElasticSearch, Docker'
-  - expectation:
-      contents: aware of architectural & Object Oriented Programming design patterns
-  - expectation:
-      contents: 'experienced with Git usage '
-  - expectation:
-      contents: 'independent as a tech lead within a small team '
-  - expectation:
-      contents: eager to mentor other developers
-  - expectation:
-      contents: proficient in English - both in writing and speaking
+      contents: experienced in using git
 would-be-great:
   - expectation:
-      contents: have additional knowledge of React/Vue.js
+      contents: understand TDD
   - expectation:
-      contents: contribute to Open Source community
+      contents: were experienced with Shopify
+  - expectation:
+      contents: were experienced with Sequelize and Fastify
+  - expectation:
+      contents: were experienced with Google Cloud
 benefits:
   - benefit:
       benefit-content: >-
@@ -126,5 +114,5 @@ benefits:
 salaries:
   - salary:
       contract: (B2B)
-      sum: 11 500 - 17 000 PLN net + VAT
+      sum: 4600 - 7600 PLN net + VAT
 ---
