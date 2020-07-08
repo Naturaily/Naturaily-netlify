@@ -145,11 +145,13 @@ window.addEventListener('load', () => {
 
     const blogCarousel = carousel.is_desktop && carousel.tabs_disabled;
     const includeCarousel = carousel.progress_bar;
-    const carouselClass = (
-      blogCarousel ? 'webdevelopment-blog' :
-      includeCarousel ? 'services-include' :
-      null
-    );
+    let carouselClass = null;
+
+    if (blogCarousel) {
+      carouselClass = 'webdevelopment-blog';
+    } else if (includeCarousel) {
+      carouselClass = 'services-include';
+    }
 
     if (carouselClass) changeTabsAttributes(newIndex, carouselClass);
     if (includeCarousel) {
@@ -166,11 +168,13 @@ window.addEventListener('load', () => {
   function changeTabsAttributes(newIndex, type) {
     const $allTabs = $carouselTabsContainer.find(`[data-carousel="tab"]`);
     const $newActiveTab = $carouselTabsContainer.find($(`[data-tab-index="${newIndex}"]`));
-    const tabsClass = (
-      type === 'webdevelopment-blog' ? 'webdevelopment-blog__posts-list__item--disabled' :
-      type === 'services-include' ? 'custom-carousel__tabs-tab--inactive' :
-      null
-    );
+    let tabsClass = null;
+
+    if (type === 'webdevelopment-blog') {
+      tabsClass = 'webdevelopment-blog__posts-list__item--disabled';
+    } else if (type === 'services-include') {
+      tabsClass = 'custom-carousel__tabs-tab--inactive';
+    }
 
     $allTabs
       .addClass(tabsClass)
@@ -190,11 +194,13 @@ window.addEventListener('load', () => {
     const $newActiveDot = $carouselDots.find($(`[data-dot-index="${newIndex}"]`));
     const $previousNavBtn = $targetCarousel.find($(`[data-nav="prev"]`));
     const $nextNavBtn = $targetCarousel.find($(`[data-nav="next"]`));
-    const $newDisabledNav = (
-      (newIndex === firstIndex) ? $previousNavBtn :
-      (newIndex === lastIndex) ? $nextNavBtn :
-      null
-    );
+    let $newDisabledNav = null;
+
+    if (newIndex === firstIndex) {
+      $newDisabledNav = $previousNavBtn;
+    } else if (newIndex === lastIndex) {
+      $newDisabledNav = $nextNavBtn;
+    }
 
     $disabledNav
       .removeClass(`${carouselClass}__nav-item--disabled`)
