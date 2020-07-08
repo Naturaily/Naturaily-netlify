@@ -84,7 +84,7 @@
 
     &__faq {
       display: flex;
-      padding: 75px;
+      padding: 75px 75px 0;
 
       .services-faq__icon,
       .services-faq__item,
@@ -153,7 +153,7 @@
 
 @media(min-width: 1200px) {
   .iot-consulting__faq {
-    padding: 100px 75px;
+    padding: 100px 75px 50px;
 
     .services__header, .services-faq__list {
       width: 50%;
