@@ -31,6 +31,12 @@
     &--secondary {
       color: $color-secondary;
     }
+
+    &--small {
+      display: block;
+      margin-top: 25px;
+      font-size: 0.85em;
+    }
   }
 
   &__side {
@@ -85,6 +91,14 @@
 
     &__text {
       font-size: 1.6em;
+
+      &--small {
+        font-size: 0.65em;
+      }
+
+      &--more-space {
+        margin-top: 75px;
+      }
     }
 
     &__side {
