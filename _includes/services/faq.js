@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
     if ((faqType === 'standard' && mobileDevice) || faqType === 'custom') runFaq(e);
   });
 
-  function runFaq(e) {
+  const runFaq = e => {
     const $triggeredElement = $(e.target.closest(triggerAttribute));
 
     const index = $triggeredElement[0].dataset.index;
@@ -23,15 +23,15 @@ window.addEventListener('load', () => {
     if (contentStatus === "visible") {
       hideContent($content, $arrow);
     } else {
-      const $visibleContent = $faqContainer.find(`[data-content-status="visible"]`);
-      const $rotatedArrow = $faqContainer.find(`[data-arrow-status="rotated"]`);
+      const $visibleContent = $faqContainer.find('[data-content-status="visible"]');
+      const $rotatedArrow = $faqContainer.find('[data-arrow-status="rotated"]');
 
       hideContent($visibleContent, $rotatedArrow);
       showContent($content, $arrow);
     }
   }
 
-  function hideContent($element, $arrow) {
+  const hideContent = ($element, $arrow) => {
     $arrow
       .removeAttr('data-arrow-status')
       .removeClass('services-faq__icon--rotated');
@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
       .slideUp(600, () => $element.addClass('services-faq__text--hidden'));
   }
 
-  function showContent($element, $arrow) {
+  const showContent = ($element, $arrow) => {
     $arrow
       .attr('data-arrow-status', 'rotated')
       .addClass('services-faq__icon--rotated');
