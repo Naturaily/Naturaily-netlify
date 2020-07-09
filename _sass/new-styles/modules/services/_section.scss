@@ -14,6 +14,10 @@
     margin-right: 5px;
     border-radius: 8px;
     background-color: $color-code-orange-bg;
+
+    &--light {
+      background-color: $color-code-bg;
+    }
   }
 
   &__header, &__text, &__side {
@@ -107,6 +111,10 @@
       left: calc(50% + 25px);
       width: calc(50% - 25px);
       padding: 75px;
+
+      &--more-space {
+        top: 360px;
+      }
     }
   }
 }
@@ -118,6 +126,12 @@
     &__content {
       padding-bottom: 75px;
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .services-section__side--more-space {
+    top: 340px;
   }
 }
 
@@ -139,6 +153,10 @@
 
     &__side {
       top: 450px;
+
+      &--more-space {
+        top: 405px;
+      }
     }
   }
 }
