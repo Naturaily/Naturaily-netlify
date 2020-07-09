@@ -83,13 +83,14 @@
           flex: 0;
           min-width: 110px;
           padding: 0;
-          cursor: pointer;
 
           &__content h3, .icon {
             transition: 0.3s;
           }
 
-          &:hover {
+          &--link:hover {
+            cursor: pointer;
+
             .services-list__list-item__content h3 {
               color: $color-secondary;
             }
