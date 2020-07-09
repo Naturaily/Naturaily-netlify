@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
   const $faqTriggers = $(triggerAttribute);
   let $faqContainer;
 
-  $faqTriggers.click((e) => {
+  $faqTriggers.unbind('click').bind('click', (e) => {
     $faqContainer = $(e.target.closest('[data-type="faq-container"]'));
     const faqType = $faqContainer[0].dataset.faqType;
     const mobileDevice = $(window).width() < 811;
@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
     if ((faqType === 'standard' && mobileDevice) || faqType === 'custom') runFaq(e);
   });
 
-  const runFaq = e => {
+  const runFaq = (e) => {
     const $triggeredElement = $(e.target.closest(triggerAttribute));
 
     const index = $triggeredElement[0].dataset.index;
@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
       hideContent($visibleContent, $rotatedArrow);
       showContent($content, $arrow);
     }
-  }
+  };
 
   const hideContent = ($element, $arrow) => {
     $arrow
@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
     $element
       .removeAttr('data-content-status')
       .slideUp(600, () => $element.addClass('services-faq__text--hidden'));
-  }
+  };
 
   const showContent = ($element, $arrow) => {
     $arrow
@@ -48,5 +48,5 @@ window.addEventListener('load', () => {
       .slideDown(600)
       .attr('data-content-status', 'visible')
       .removeClass('services-faq__text--hidden');
-  }
+  };
 })
