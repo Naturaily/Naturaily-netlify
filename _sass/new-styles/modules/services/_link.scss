@@ -51,11 +51,11 @@
   .services-link {
     display: flex;
     align-items: center;
-    padding: 50px 75px 50px 250px;
+    height: 80px;
+    padding: 50px 75px 100px 250px;
 
     .geometric-figure {
-      top: 50%;
-      transform: translateY(-50%);
+      top: 55px;
       width: 150px;
     }
 
