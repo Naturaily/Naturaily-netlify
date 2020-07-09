@@ -1,0 +1,175 @@
+.iot-stack {
+  padding: 50px 20px;
+
+  &--less-space {
+    padding-bottom: 0;
+  }
+
+  &__wrapper {
+    width: calc(100vw - 40px);
+  }
+
+  &__list::after {
+    top: 90px;
+  }
+
+  &__pocket {
+    flex: 1 0;
+  }
+
+  &__details, &__pocket p {
+    margin-bottom: 25px;
+  }
+
+  &__details li, &__pocket p {
+    font-size: 0.85em;
+    line-height: 1.5;
+    color: $color-portfolio-text;
+    opacity: 0.7;
+  }
+
+  &__details li {
+    position: relative;
+    padding: 7px 0 7px 20px;
+
+    &::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 15px;
+      left: 0;
+      width: 5px;
+      height: 5px;
+      background-color: $color-accent-yellow;
+      border-radius: 100%;
+    }
+  }
+}
+
+@media(min-width: 576px) {
+  .iot-stack {
+    padding-left: 75px;
+    padding-right: 75px;
+
+    .custom-carousel__nav {
+      margin: 0 -75px;
+    }
+
+    .custom-carousel__dots {
+      width: calc(100vw - 150px);
+    }
+  }
+}
+
+@media(min-width: 811px) {
+  .iot-stack {
+    padding-bottom: 0;
+
+    &__wrapper {
+      width: 100%;
+    }
+
+    &__list {
+      margin: 80px -50px 0;
+
+      &--five {
+        margin-left: -20px;
+        margin-right: -20px;
+
+        .iot-stack__pocket {
+          width: 33.3%;
+          padding: 0 25px;
+
+          h3 {
+            height: 50px;
+          }
+
+          &::after {
+            left: 25px;
+          }
+
+          &:nth-of-type(3n)::after, &:nth-of-type(5n)::after {
+            width: calc(100% - 50px);
+          }
+        }
+      }
+
+      &--four .iot-stack__pocket {
+        width: 50%;
+
+        &:nth-of-type(3n)::after, &:nth-of-type(5n)::after {
+          width: 100%;
+        }
+
+        &:nth-of-type(2n)::after {
+          width: calc(100% - 100px);
+        }
+      }
+    }
+
+    &__pocket {
+      flex: initial;
+      margin-bottom: 25px;
+
+      h3 {
+        line-height: 1.5;
+      }
+    }
+
+    &__details {
+      margin-left: -20px;
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .iot-stack__list {
+    width: calc(100% + 40px);
+    margin: 50px -20px 0;
+
+    &--five .iot-stack__pocket:nth-of-type(3n)::after,
+    &--four .iot-stack__pocket:nth-of-type(2n)::after {
+      width: 100%;
+    }
+
+    .iot-stack__pocket h3 {
+      max-width: 140px;
+    }
+
+    &--five .iot-stack__pocket {
+      width: 20%;
+
+      h3 {
+        height: 70px;
+      }
+    }
+
+    &--four .iot-stack__pocket {
+      width: 25%;
+
+      h3 {
+        height: 50px;
+      }
+
+      &:nth-of-type(4n)::after {
+        width: calc(100% - 50px);
+      }
+    }
+  }
+}
+
+@media(min-width: 1200px) {
+  .iot-stack {
+    &__details {
+      margin-left: 0;
+    }
+
+    &__list--five {
+      margin-top: 75px;
+    }
+
+    &__list--four {
+      margin: 75px -30px 50px;
+    }
+  }
+}
