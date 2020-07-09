@@ -1,4 +1,4 @@
-.portfolio-lvcloud {
+.right-section {
   padding: 50px 20px;
   width: 100vw;
   z-index: 2;
@@ -13,25 +13,30 @@
     font-size: 1.1em;
     line-height: 1.5;
     color: $color-portfolio-text;
+
+    &--small {
+      font-size: 1em;
+    }
   }
 
-  &__numbers {
+  &__box {
     position: relative;
     padding: 25px 0;
 
+    &-text {
+      margin: 0 -20px -75px;
+      padding: 50px 20px;
+      font-size: 1.5em;
+      line-height: 1.5;
+      background-color: white;
+
+      &--secondary {
+        color: $color-secondary;
+      }
+    }
+
     .geometric-figure {
-      display: flex;
-      transform: rotate(90deg);
-      top: 25px;
-      right: -140px;
-
-      &_center {
-        border-color: $color-geometric-green;
-      }
-
-      &_right::after {
-        background-color: $color-geometric-blue;
-      }
+      display: none;
 
       &_center, &_right::after {
         height: 180px;
@@ -42,24 +47,48 @@
         height: 180px;
         width: 90px;
       }
+
+      &--blue {
+        display: flex;
+        top: 25px;
+        right: -140px;
+        transform: rotate(90deg);
+
+        .geometric-figure_center {
+          border-color: $color-geometric-green;
+        }
+
+        .geometric-figure_right::after {
+          background-color: $color-geometric-blue;
+        }
+      }
     }
   }
 }
 
 @media (min-width: 576px) {
-  .portfolio-lvcloud {
+  .right-section {
     padding: 100px 75px;
 
     &__text {
       max-width: 410px;
+
+      &--small {
+        max-width: 100%;
+      }
     }
 
-    &__numbers {
+    &__box {
       margin: 50px 0;
       padding: 25px 50px;
       overflow: hidden;
       background-color: $color-white;
       border-radius: 8px;
+
+      &-text {
+        margin: 0;
+        padding: 25px 0 100px;
+      }
 
       .portfolio__numbers li {
         margin: 0;
@@ -68,13 +97,38 @@
       }
 
       .geometric-figure {
-        transform: rotate(-90deg);
-        right: -80px;
+        display: flex;
 
         &_center {
           background-color: $color-white;
         }
+
+        &--blue {
+          transform: rotate(-90deg);
+          right: -80px;
+        }
+
+        &--small {
+          top: auto;
+          left: 50px;
+          right: auto;
+          bottom: -60px;
+
+          .geometric-figure_center, .geometric-figure_right::after {
+            width: 120px;
+            height: 120px;
+          }
+
+          .geometric-figure_right {
+            height: 120px;
+            width: 60px;
+          }
+        }
       }
+    }
+
+    &--less-space .right-section__box {
+      margin-bottom: 0;
     }
 
     .btn-bordered {
@@ -84,12 +138,12 @@
 }
 
 @media (min-width: 811px) {
-  .portfolio-lvcloud {
+  .right-section {
     position: relative;
     padding-bottom: 200px;
     overflow: hidden;
 
-    .portfolio__step, .portfolio__header, .portfolio__tags, &__text, &__numbers {
+    .portfolio__step, .portfolio__header, .portfolio__tags, &__text, &__box {
       box-sizing: border-box;
       width: 50%;
     }
@@ -119,21 +173,38 @@
     &__text {
       max-width: 480px;
       margin: 40px 0;
+
+      &--small {
+        margin-top: 75px;
+      }
     }
 
-    &__numbers {
+    &__box {
       position: absolute;
       top: -35px;
       right: -50px;
+      min-height: 475px;
       margin: 0;
       z-index: 2;
+    }
+
+    &--less-space {
+      padding-bottom: 155px;
+
+      .right-section__content {
+        max-width: 1130px;
+      }
     }
   }
 }
 
 @media (min-width: 992px) {
-  .portfolio-lvcloud {
+  .right-section {
     padding-bottom: 225px;
+
+    &--less-space {
+      padding-bottom: 100px;
+    }
 
     .portfolio__tags {
       width: 40%;
@@ -143,17 +214,21 @@
       padding-right: 50px;
     }
 
-    &__numbers {
+    &__box {
       right: -25px;
     }
   }
 }
 
 @media (min-width: 1200px) {
-  .portfolio-lvcloud {
-    &__numbers {
+  .right-section {
+    &__box {
       padding: 110px 130px 35px 50px;
       right: 20px;
+    }
+
+    &--less-space .right-section__box {
+      padding: 50px 75px 50px 50px;
     }
 
     .portfolio__numbers {
