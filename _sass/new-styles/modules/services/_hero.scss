@@ -141,3 +141,27 @@
     }
   }
 }
+
+@media(min-width: 1200px) {
+  .service-hero__image {
+    &--left {
+      height: 50%;
+    }
+
+    &--right {
+      height: 75%;
+    }
+  }
+}
+
+@media(min-width: 1400px) {
+  .service-hero__image {
+    &--left {
+      height: 55%;
+    }
+
+    &--right {
+      height: 85%;
+    }
+  }
+}
