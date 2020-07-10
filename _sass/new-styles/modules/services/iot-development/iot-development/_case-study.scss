@@ -1,0 +1,78 @@
+.iot-case-study {
+  width: 100%;
+  padding: 50px 20px;
+
+  .services__title {
+    font-weight: 400;
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 450px;
+    margin: 50px 0 10px;
+  }
+
+  &__text {
+    padding-bottom: 50px;
+    line-height: 1.5;
+    color: $color-portfolio-text;
+  }
+}
+
+@media(min-width: 576px) {
+  .iot-case-study {
+    padding: 50px 75px;
+  }
+}
+
+@media(min-width: 811px) {
+  .iot-case-study {
+    position: relative;
+
+    .services__step, .services__title, &__text, &__image {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &__image {
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      max-width: 50%;
+      padding-left: 75px;
+    }
+
+    &__text {
+      padding: 50px 25px 50px 0;
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .iot-case-study {
+    &__image {
+      top: 25px;
+    }
+
+    &__text {
+      padding: 75px 25px 75px 0;
+    }
+  }
+}
+
+@media(min-width: 1200px) {
+  .iot-case-study {
+    .services__step {
+      margin-bottom: 50px;
+    }
+
+    &__image {
+      top: 0;
+      right: 75px;
+    }
+
+    &__text {
+      padding-right: 160px;
+    }
+  }
+}
