@@ -6,6 +6,11 @@
     box-sizing: border-box;
     width: 100%;
     padding: 75px 20px 10px;
+
+    &--iot {
+      padding-top: 50px;
+      padding-bottom: 75px;
+    }
   }
 
   &__content {
@@ -58,6 +63,11 @@
   .other {
     padding-bottom: 50px;
 
+    &.services-other {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
     &__links {
       display: flex;
 
@@ -78,6 +88,12 @@
 
     &.services-other {
       padding: 90px 75px 40px 100px;
+
+      &--iot {
+        padding-bottom: 60px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid $color-global-font-10;
+      }
     }
 
     &__content {
@@ -128,6 +144,10 @@
 
 @media (min-width: 1200px) {
   .other {
+    &.services-other--iot {
+      margin-left: -20px;
+    }
+    
     &__content {
       padding-left: 175px;
     }
