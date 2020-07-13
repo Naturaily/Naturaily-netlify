@@ -29,7 +29,7 @@
 
   .paragraph {
     max-width: 100%;
-    color: $color-portfolio-text;
+    color: $color-page-text;
   }
 }
 
@@ -72,7 +72,7 @@
   padding-left: 10px;
   line-height: 1.5;
   list-style: none;
-  color: $color-portfolio-text;
+  color: $color-page-text;
 
   li::before {
     content: " ";
