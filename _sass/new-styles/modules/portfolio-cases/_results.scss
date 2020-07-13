@@ -15,7 +15,7 @@
     &-title {
       font-size: 0.9em;
       font-weight: 600;
-      color: $color-portfolio-text;
+      color: $color-page-text;
     }
 
     .case__list {
@@ -36,7 +36,7 @@
       &--big {
         margin-bottom: 25px;
         font-size: 1.35em;
-        color: $color-portfolio-text;
+        color: $color-page-text;
       }
 
       &--medium.paragraph {
@@ -63,7 +63,7 @@
     }
 
     &-intro {
-      color: $color-portfolio-text;
+      color: $color-page-text;
       font-size: 1em;
       line-height: 1.5;
     }
@@ -75,7 +75,7 @@
 
     .case__columns--left .paragraph,
     .case__columns--reversed .paragraph {
-       color: $color-portfolio-text-second;
+       color: $color-page-text-second;
     }
   }
 
@@ -101,7 +101,7 @@
     .paragraph {
       padding-bottom: 0;
       font-size: 0.85em;
-      color: $color-portfolio-text;
+      color: $color-page-text;
     }
   }
 }

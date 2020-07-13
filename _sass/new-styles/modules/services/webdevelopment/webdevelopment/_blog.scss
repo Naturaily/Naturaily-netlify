@@ -43,12 +43,12 @@
     &-label {
       padding-left: 15px;
       font-size: 0.9em;
-      color: $color-portfolio-text;
+      color: $color-page-text;
 
       p {
         padding-bottom: 5px;
         font-weight: 600;
-        color: $color-portfolio-text-second;
+        color: $color-page-text-second;
       }
     }
   }
@@ -62,14 +62,14 @@
       font-size: 2em;
       font-weight: 300;
       line-height: 1.5;
-      color: $color-portfolio-text-second;
+      color: $color-page-text-second;
     }
 
     p {
       padding: 25px 0;
       font-size: 0.9em;
       line-height: 1.5;
-      color: $color-portfolio-text;
+      color: $color-page-text;
     }
   }
 }
@@ -113,7 +113,7 @@
         &-item {
           padding: 10px;
           font-size: 0.8em;
-          color: $color-portfolio-text;
+          color: $color-page-text;
           background: $color-white;
           border-radius: 100%;
           box-shadow: 0 0 10px $color-global-font-10;
