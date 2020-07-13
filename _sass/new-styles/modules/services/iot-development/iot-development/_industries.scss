@@ -1,0 +1,126 @@
+.iot-industries {
+  width: 100%;
+  padding: 50px 20px;
+
+  .services__title, &__quote-text {
+    line-height: 1.5;
+  }
+
+  .services__title {
+    max-width: 700px;
+    font-weight: 400;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px -25px;
+
+    &-icon {
+      box-sizing: border-box;
+      width: 50%;
+      padding: 30px 25px;
+
+      .icon {
+        font-size: 3.5em;
+        color: $color-secondary;
+      }
+
+      &__text {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  &__quote {
+    position: relative;
+
+    .icon {
+      position: absolute;
+      top: -25px;
+      left: 0;
+      font-size: 4em;
+      color: $color-accent-yellow;
+      opacity: 0.1;
+    }
+
+    &-text {
+      position: relative;
+      z-index: 2;
+    }
+
+    &-credits {
+      margin-top: 25px;
+      font-size: 0.8em;
+      font-weight: 400;
+      color: $color-secondary;
+    }
+  }
+}
+
+@media(min-width: 576px) {
+  .iot-industries {
+    padding: 50px 75px;
+
+    &__list {
+      margin-bottom: 50px;
+
+      &-icon {
+        width: 33.3%;
+      }
+    }
+
+    &__quote .icon {
+      font-size: 6em;
+    }
+  }
+}
+
+@media(min-width: 811px) {
+  .iot-industries {
+    margin-bottom: -125px;
+
+    &__list {
+      margin-top: 50px;
+
+      &-icon {
+        width: 25%;
+      }
+    }
+
+    &__quote {
+      position: relative;
+      top: -140px;
+      right: -40%;
+      width: 60%;
+
+      .icon {
+        top: -70px;
+        left: -150px;
+        font-size: 19em;
+      }
+    }
+  }
+}
+
+
+@media(min-width: 992px) {
+  .iot-industries {
+    margin-bottom: -150px;
+
+    &__list-icon {
+      padding: 50px 25px;
+    }
+
+    &__quote {
+      top: -190px;
+      right: -45%;
+      width: 50%;
+
+      .icon {
+        left: -200px;
+      }
+    }
+  }
+}

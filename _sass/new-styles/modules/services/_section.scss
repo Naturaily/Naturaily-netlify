@@ -14,6 +14,10 @@
     margin-right: 5px;
     border-radius: 8px;
     background-color: $color-code-orange-bg;
+
+    &--light {
+      background-color: $color-code-bg;
+    }
   }
 
   &__header, &__text, &__side {
@@ -21,7 +25,7 @@
   }
 
   &__header, &__text {
-    color: $color-portfolio-text-second;
+    color: $color-page-text-second;
   }
 
   &__text {
@@ -31,11 +35,17 @@
     &--secondary {
       color: $color-secondary;
     }
+
+    &--small {
+      display: block;
+      margin-top: 25px;
+      font-size: 0.85em;
+    }
   }
 
   &__side {
     padding: 50px 20px 25px;
-    color: $color-portfolio-text;
+    color: $color-page-text;
   }
 }
 
@@ -85,6 +95,14 @@
 
     &__text {
       font-size: 1.6em;
+
+      &--small {
+        font-size: 0.65em;
+      }
+
+      &--more-space {
+        margin-top: 75px;
+      }
     }
 
     &__side {
@@ -93,6 +111,10 @@
       left: calc(50% + 25px);
       width: calc(50% - 25px);
       padding: 75px;
+
+      &--more-space {
+        top: 360px;
+      }
     }
   }
 }
@@ -104,6 +126,12 @@
     &__content {
       padding-bottom: 75px;
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .services-section__side--more-space {
+    top: 340px;
   }
 }
 
@@ -125,6 +153,10 @@
 
     &__side {
       top: 450px;
+
+      &--more-space {
+        top: 405px;
+      }
     }
   }
 }

@@ -39,30 +39,6 @@
       transform: translateY(-50%);
       padding: 0 25px;
 
-      &__button {
-        display: block;
-        position: relative;
-        height: 60px;
-        width: 60px;
-        border-radius: 100%;
-        background-image: linear-gradient(0deg, #FF5E45 0%, #FF2C2C 100%);
-        border: 2px solid $color-secondary;
-        color: $color-white;
-        transition: 0.25s;
-      }
-
-      &__arrow {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-45%, -45%);
-        width: 0;
-        height: 0;
-        border-left: 10px solid $color-white;
-        border-bottom: 7px solid transparent;
-        border-top: 7px solid transparent;
-      }
-
       .case__title {
         padding: 10px 0;
         line-height: 1.5;
@@ -97,11 +73,6 @@
       .case__title {
         padding: 25px 0;
         font-size: 2em;
-      }
-
-      &__button:hover {
-        transform: scale(1.2);
-        cursor: pointer;
       }
     }
   }

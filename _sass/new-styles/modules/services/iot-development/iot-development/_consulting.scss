@@ -1,0 +1,198 @@
+.iot-consulting {
+  margin-top: -50px;
+  padding-top: 0;
+
+  .services__header {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__faq {
+    position: relative;
+    background-color: $color-white;
+
+    &-icon {
+      display: block;
+      margin-bottom: 20px;
+      font-size: 3.5em;
+      color: $color-secondary;
+    }
+
+    .services-faq {
+      &__header {
+        padding-left: 0;
+        font-weight: 400;
+        cursor: pointer;
+      }
+
+      &__list {
+        margin-top: 25px;
+      }
+
+      &__icon {
+        top: 105px;
+      }
+    }
+
+    .services__dot {
+      &--secondary {
+        display: none;
+      }
+
+      &--yellow {
+        top: 100px;
+        right: 25px;
+      }
+
+      &--blue {
+        top: 220px;
+        left: 60%;
+      }
+    }
+  }
+}
+
+@media(min-width: 576px) {
+  .iot-consulting__faq {
+    padding: 25px 75px;
+
+    .services__dot {
+      &--yellow {
+        top: 25px;
+        right: 100px;
+      }
+
+      &--blue {
+        top: 175px;
+      }
+    }
+  }
+}
+
+@media(min-width: 811px) {
+  .iot-consulting {
+    margin-top: 0;
+
+    .services__header,
+    .services-faq__list {
+      box-sizing: border-box;
+    }
+
+    .services__header {
+      width: 40%;
+    }
+
+    &__faq {
+      display: flex;
+      padding: 75px 75px 0;
+
+      .services-faq__icon,
+      .services-faq__item,
+      .services__dot--secondary {
+        display: block;
+      }
+
+      &-icon {
+        margin: 0 50px 0 0;
+        font-size: 2.5em;
+      }
+
+      .services-faq {
+        &__header {
+          display: flex;
+          align-items: center;
+          width: 100%;
+        }
+
+        &__list {
+          width: 60%;
+          margin-top: -35px;
+        }
+
+        &__text {
+          padding-top: 25px;
+
+          &--hidden {
+            display: none;
+          }
+        }
+
+        &__icon {
+          top: calc(50% - 3px);
+          right: 25px;
+        }
+      }
+
+      .services__dot {
+        &--secondary {
+          top: 150px;
+          right: 25px;
+        }
+
+        &--yellow {
+          top: 35px;
+          left: 375px;
+          right: auto;
+        }
+
+        &--blue {
+          top: 300px;
+          left: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .iot-consulting__faq .services-faq__header {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+}
+
+@media(min-width: 1200px) {
+  .iot-consulting__faq {
+    padding: 100px 75px 50px;
+
+    .services__header, .services-faq__list {
+      width: 50%;
+    }
+
+    .services__header {
+      padding-left: 25px;
+      font-weight: 400;
+    }
+
+    .services-faq {
+      &__item {
+        margin-left: -73px;
+        padding-left: 0;
+      }
+
+      &__text {
+        padding: 50px 0 10px 110px;
+      }
+
+      &__icon {
+        right: 75px;
+      }
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 175px;
+      }
+
+      &--yellow {
+        top: 75px;
+        left: 500px;
+      }
+
+      &--blue {
+        top: 350px;
+        left: 425px;
+      }
+    }
+  }
+}

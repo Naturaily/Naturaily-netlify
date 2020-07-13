@@ -2,12 +2,12 @@
   <p class="services__step">FAQ</p>
   <h2 class="services__header">All you want to ask about web development</h2>
 
-  <ul id="services-faq" class="services-faq__list">
+  <ul class="services-faq__list" data-type="faq-container" data-faq-type="standard">
     <li class="services-faq__item" itemprop="mainEntity" itemtype="https://schema.org/Question">
       <span class="services-faq__number">01</span>
       <h3 class="services-faq__header" data-type="trigger" data-index="0" itemprop="name">
         What is frontend web development?
-        <span class="services-faq__icon services-faq__icon--rotated" data-dot-status="rotated"></span>
+        <span class="services-faq__icon services-faq__icon--rotated" data-arrow-status="rotated"></span>
       </h3>
       <p class="services-faq__text" data-content-index="0" data-content-status="visible" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
         The frontend development refers to the part of the web application
@@ -72,5 +72,5 @@
 </div>
 
 <script>
-  {% include services/webdevelopment/webdevelopment/faq.js %}
+  {% include services/faq.js %}
 </script>

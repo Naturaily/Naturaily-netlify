@@ -33,19 +33,23 @@
       }
 
       &__content {
-        margin-top: 50px;
+        padding-top: 50px;
 
         h3 {
           padding: 15px 0;
           font-size: 1em;
           font-weight: 400;
-          color: $color-portfolio-text-second;
+          color: $color-page-text-second;
         }
 
         p {
           font-size: 0.9em;
           line-height: 1.5;
-          color: $color-portfolio-text;
+          color: $color-page-text;
+        }
+
+        &-text {
+          opacity: 0.7;
         }
       }
     }
@@ -68,6 +72,10 @@
           display: block;
           width: calc(100vw - 150px);
           left: 75px;
+        }
+
+        &__content-text {
+          min-width: 140px;
         }
       }
     }
@@ -133,6 +141,10 @@
 
       &:nth-of-type(5n)::after {
         width: calc(100% - 25px);
+      }
+
+      &__content-text {
+        min-width: 160px;
       }
     }
   }

@@ -48,6 +48,14 @@
       &--ten {
         width: 1000vw;
       }
+
+      &--with-bar {
+        margin: 0;
+
+        &.custom-carousel__tabs--three {
+          width: 210vw;
+        }
+      }
     }
 
     &__dots {
