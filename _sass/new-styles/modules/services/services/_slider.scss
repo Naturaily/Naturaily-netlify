@@ -181,12 +181,20 @@
                   left 0s,
                   background-color .4s .4s;
 
-      span {
+      &_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
         height: 40px;
         width: 40px;
         border-radius: 50%;
         background-color: $color-secondary;
+
+        .icon {
+          font-size: 0.8em;
+          color: $color-white;
+        }
 
         &::before {
           content: '';
@@ -202,16 +210,6 @@
           animation-name: bounceIn;
           animation-iteration-count: infinite;
           animation-delay: .4s;
-        }
-
-        &::after {
-          content: '+';
-          position: absolute;
-          top: 5%;
-          left: 50%;
-          color: $color-white;
-          font-size: 28px;
-          transform: translate(-50%);
         }
       }
     }
@@ -372,18 +370,13 @@
       transition: top .4s .4s;
     }
 
-    &:hover {
-      box-shadow: none;
+    .icon {
+      font-size: 0.7em;
+      color: $color-portfolio-text;
     }
 
-    &::after {
-      content: '+';
-      position: absolute;
-      top: 45%;
-      left: 58%;
-      font-size: 28px;
-      font-weight: 200;
-      transform: translate(-50%, -50%) rotate(45deg);
+    &:hover {
+      box-shadow: none;
     }
   }
 
