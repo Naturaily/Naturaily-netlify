@@ -8,6 +8,12 @@
     width: 100%;
   }
 
+  &__header {
+    margin: 25px 0;
+    font-size: 1.75em;
+    font-weight: 300;
+  }
+
   &__list li {
     display: flex;
     align-items: center;
@@ -32,6 +38,14 @@
     color: $color-page-text-second;
     line-height: 1.5;
   }
+
+  .btn-bordered {
+    margin-top: 25px;
+  }
+
+  .services__dot {
+    display: none;
+  }
 }
 
 @media (min-width: 576px) {
@@ -42,10 +56,6 @@
       margin: 0 -50px;
       padding: 25px 50px;
     }
-
-    .services__button {
-      margin-top: 25px;
-    }
   }
 }
 
@@ -53,6 +63,7 @@
   .services-numbers {
     display: flex;
     flex-direction: row;
+    position: relative;
 
     &__content, &__image {
       box-sizing: border-box;
@@ -65,6 +76,25 @@
 
     &__list li {
       margin-right: 25px;
+    }
+
+    .services__dot {
+      display: block;
+
+      &--secondary {
+        top: 50px;
+        left: 25px;
+      }
+
+      &--yellow {
+        bottom: 50px;
+        left: 400px;
+      }
+
+      &--blue {
+        top: 25px;
+        left: 450px;
+      }
     }
   }
 }
@@ -81,13 +111,33 @@
       }
     }
 
+    &__header {
+      margin-top: 50px;
+    }
+
     &__list {
       margin-top: 25px;
       max-width: 450px;
     }
 
-    .services__button {
+    .btn-bordered {
       margin-top: 50px;
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 75px;
+      }
+
+      &--yellow {
+        bottom: 100px;
+        left: 450px;
+      }
+
+      &--blue {
+        top: 25px;
+        left: 550px;
+      }
     }
   }
 }
@@ -98,12 +148,36 @@
       max-width: 700px;
     }
 
+    &__header {
+      margin-top: 75px;
+    }
+
     &__list {
       margin-top: 50px;
     }
 
-    .services__button {
+    .btn-bordered {
       margin-top: 100px;
+
+      &--less-space {
+        margin-top: 50px;
+      }
     }
+    .services__dot {
+      &--secondary {
+        top: 100px;
+        left: 5px;
+      }
+
+      &--yellow {
+        left: 500px;
+      }
+
+      &--blue {
+        top: 50px;
+        left: 600px;
+      }
+    }
+
   }
 }
