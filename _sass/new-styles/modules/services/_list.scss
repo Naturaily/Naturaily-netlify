@@ -30,10 +30,29 @@
       .icon {
         font-size: 3.5em;
         color: $color-secondary;
+
+        &--shopify img, &--ror img {
+          position: relative;
+          margin-bottom: -10px;
+        }
+
+        &--shopify img {
+          top: -10px;
+          height: 60px;
+        }
+
+        &--ror img {
+          top: -15px;
+          height: 40px;
+        }
       }
 
       &__content {
         padding-top: 50px;
+
+        &--less-space {
+          padding-top: 38px;
+        }
 
         h3 {
           padding: 15px 0;
