@@ -13,7 +13,9 @@ who-we-are: >-
 about-left: >-
   You need to know that we value individuality, professionalism, open
   communication and honesty. We strive to provide our clients with the best,
-  stable, reliable and beautiful digital products.
+  stable, reliable and beautiful digital products. Check out the
+  [services](https://naturaily.com/services) we offer and some of our latest
+  [case studies](https://naturaily.com/portfolio).
 about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
@@ -21,8 +23,8 @@ about-right: >-
 type: Development
 salary-preview:
   - salary:
-      sum: 5000 - 7200 PLN net + VAT
       contract: B2B
+      sum: 5000 - 7200 PLN net + VAT + 26 paid days off
 what-we-expect:
   - expectation:
       contents: >-
@@ -69,6 +71,8 @@ what-you-expect:
       contents: a co-financed Multisport Card
   - expectation:
       contents: a MacBook
+  - expectation:
+      contents: 26 paid days off
 we-need-you-to:
   - expectation:
       contents: 'experienced in software development using HTML5, CSS3 (min. 2 years)'
@@ -95,27 +99,28 @@ would-be-great:
       contents: boost your work with creative and innovative thinking
 benefits:
   - benefit:
-      benefit-title: You will be proud of your work
       benefit-content: >-
         We place a high priority on high-quality code and lack of technical
         dept.
       benefit-icon: trust
+      benefit-title: You will be proud of your work
   - benefit:
-      benefit-title: You will work on a wide range of projects
       benefit-content: 'You will be involved in projects tailored to your level of expertise. '
       benefit-icon: networking-manager
+      benefit-title: You will work on a wide range of projects
   - benefit:
-      benefit-title: You will choose your work style
       benefit-content: 'You can be a part of a bigger team or work alone, if you prefer.'
       benefit-icon: light-on
+      benefit-title: You will choose your work style
   - benefit:
-      benefit-title: You will grow along with the company
       benefit-content: >-
         You can be a team leader in a chosen technology or you can share your
         knowledge & experience during in-company Tech-Friday. 
       benefit-icon: profit-chart
+      benefit-title: You will grow along with the company
 salaries:
   - salary:
-      sum: 5000 - 7200 PLN net + VAT
       contract: B2B
+      sum: 5000 - 7200 PLN net + VAT
 ---
+
