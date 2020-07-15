@@ -13,14 +13,16 @@ who-we-are: >-
   skills, which has resulted in a truly beautiful picture. Only one piece is
   missing. We believe it is you, Naturaily.**
 about-left: >-
-  **You need to know that we value individuality, professionalism, open
+  You need to know that we value individuality, professionalism, open
   communication and honesty. We strive to provide our clients with the best,
-  stable, reliable and beautiful digital products.**
+  stable, reliable and beautiful digital products. Check out the
+  [services](https://naturaily.com/services) we offer and some of our latest
+  [case studies](https://naturaily.com/portfolio).
 about-right: >-
-  **Working at Naturaily as Quality Assurance Specialist means cooperating with
+  Working at Naturaily as Quality Assurance Specialist means cooperating with
   all the development teams assisting them in the commercial projects.
   Currently, we are entering new markets so there are a lot of challenges to be
-  faced. Are you ready to help us succeed? We are waiting for you!**
+  faced. Are you ready to help us succeed? We are waiting for you!
 type: Development
 salary-preview:
   - salary:
@@ -68,6 +70,8 @@ what-you-expect:
       contents: a co-financed Multisport Card
   - expectation:
       contents: a MacBook
+  - expectation:
+      contents: 26 paid days off
 we-need-you-to:
   - expectation:
       contents: experienced in manual and automated testing of web applications
