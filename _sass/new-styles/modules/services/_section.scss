@@ -46,6 +46,35 @@
   &__side {
     padding: 50px 20px 25px;
     color: $color-page-text;
+
+    &-quote {
+      position: relative;
+      z-index: 1;
+      padding-left: 50px;
+      margin: 50px 0 25px;
+      font-size: 1.5em;
+
+      &--secondary {
+        color: $color-secondary;
+      }
+
+      .icon {
+        position: absolute;
+        top: -25px;
+        left: 0;
+        z-index: 0;
+        color: $color-accent-yellow;
+        opacity: 0.1;
+      }
+    }
+
+    .services-testimonial__quote-credits {
+      margin-top: 0;
+
+      &__person {
+        padding: 0 0 0 30px;
+      }
+    }
   }
 }
 
@@ -119,6 +148,15 @@
       &--more-space {
         top: 360px;
       }
+
+      &-quote {
+        padding: 0;
+        font-size: 1.2em;
+
+        .icon {
+          left: -25px;
+        }
+      }
     }
   }
 }
@@ -129,6 +167,15 @@
 
     &__content {
       padding-bottom: 75px;
+    }
+
+    &__side-quote {
+      margin-top: 65px;
+      padding-left: 50px;
+
+      .icon {
+        left: 0;
+      }
     }
   }
 }
