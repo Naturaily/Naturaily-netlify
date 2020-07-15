@@ -5,7 +5,7 @@ description: >-
   There is one piece missing in our organization! We believe it is you,
   Naturaily.
 layout: career-offer
-image: /assets/images/nodedeveloper.png
+image: /assets/images/Nodejs_Developer_Job_Offer.png
 location:
   - Wrocław
   - Remote
