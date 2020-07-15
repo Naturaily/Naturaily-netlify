@@ -5,7 +5,7 @@ description: >-
   We are looking for talented Ruby on Rails Developer to help us build great
   digital products.
 layout: career-offer
-image: /assets/images/kopia-template-recrutation-01.png
+image: /assets/images/Ruby-on-Rails_Developer_Job_Offer.png
 location:
   - Wrocław
 who-we-are: >
