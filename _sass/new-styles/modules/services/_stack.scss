@@ -1,8 +1,15 @@
-.iot-stack {
+.services-stack {
+  box-sizing: border-box;
+  width: 100%;
   padding: 50px 20px;
 
   &--less-space {
     padding-bottom: 0;
+  }
+
+  &__header {
+    font-size: 1.75em;
+    font-weight: 400;
   }
 
   &__wrapper {
@@ -47,7 +54,7 @@
 }
 
 @media(min-width: 576px) {
-  .iot-stack {
+  .services-stack {
     padding-left: 75px;
     padding-right: 75px;
 
@@ -62,7 +69,7 @@
 }
 
 @media(min-width: 811px) {
-  .iot-stack {
+  .services-stack {
     padding-bottom: 0;
 
     &__wrapper {
@@ -76,7 +83,7 @@
         margin-left: -20px;
         margin-right: -20px;
 
-        .iot-stack__pocket {
+        .services-stack__pocket {
           width: 33.3%;
           padding: 0 25px;
 
@@ -94,7 +101,7 @@
         }
       }
 
-      &--four .iot-stack__pocket {
+      &--four .services-stack__pocket {
         width: 50%;
 
         &:nth-of-type(3n)::after, &:nth-of-type(5n)::after {
@@ -123,20 +130,20 @@
 }
 
 @media(min-width: 992px) {
-  .iot-stack__list {
+  .services-stack__list {
     width: calc(100% + 40px);
     margin: 50px -20px 0;
 
-    &--five .iot-stack__pocket:nth-of-type(3n)::after,
-    &--four .iot-stack__pocket:nth-of-type(2n)::after {
+    &--five .services-stack__pocket:nth-of-type(3n)::after,
+    &--four .services-stack__pocket:nth-of-type(2n)::after {
       width: 100%;
     }
 
-    .iot-stack__pocket h3 {
+    .services-stack__pocket h3 {
       max-width: 140px;
     }
 
-    &--five .iot-stack__pocket {
+    &--five .services-stack__pocket {
       width: 20%;
 
       h3 {
@@ -144,7 +151,7 @@
       }
     }
 
-    &--four .iot-stack__pocket {
+    &--four .services-stack__pocket {
       width: 25%;
 
       h3 {
@@ -159,7 +166,7 @@
 }
 
 @media(min-width: 1200px) {
-  .iot-stack {
+  .services-stack {
     &__details {
       margin-left: 0;
     }
