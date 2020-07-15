@@ -29,7 +29,7 @@ type: Development
 salary-preview:
   - salary:
       contract: '+ VAT (B2B) '
-      sum: 7500 - 13 000 PLN net
+      sum: 7500 - 13 000 PLN net + 26 paid days off
 what-we-expect:
   - expectation:
       contents: to grow along with the company & be rewarded for following through
