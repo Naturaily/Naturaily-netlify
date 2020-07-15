@@ -17,7 +17,9 @@ who-we-are: >-
 about-left: >-
   You need to know that we value individuality, professionalism, open
   communication and honesty. We strive to provide our clients with the best,
-  stable, reliable and beautiful digital products.
+  stable, reliable and beautiful digital products. Check out the
+  [services](https://naturaily.com/services) we offer and some of our latest
+  [case studies](https://naturaily.com/portfolio).
 about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
@@ -29,17 +31,17 @@ salary-preview:
       sum: 4600 - 7600 PLN net + VAT + 26 paid days off
 what-we-expect:
   - expectation:
-      contents: 'to learn & adopt new tools/technologies/programming languages'
+      contents: to learn & adopt new tools/technologies/programming languages
   - expectation:
-      contents: >-
-        to communicate with the team and clients openly & respectfully
+      contents: to communicate with the team and clients openly & respectfully
   - expectation:
       contents: to extend & maintain DevTeam’s knowledge base
   - expectation:
-      contents: initiate/take part in grass-root activities, both internal & external
+      contents: 'initiate/take part in grass-root activities, both internal & external'
   - expectation:
       contents: >-
-        to be open to constructive criticism and taking advice from more experienced colleagues
+        to be open to constructive criticism and taking advice from more
+        experienced colleagues
 what-you-expect:
   - expectation:
       contents: >-
@@ -67,6 +69,8 @@ what-you-expect:
       contents: a co-financed Multisport Card
   - expectation:
       contents: a MacBook
+  - expectation:
+      contents: 26 paid days off
 we-need-you-to:
   - expectation:
       contents: commercially experienced in backend development (at least 6 months)
@@ -116,3 +120,4 @@ salaries:
       contract: (B2B)
       sum: 4600 - 7600 PLN net + VAT
 ---
+
