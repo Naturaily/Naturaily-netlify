@@ -3,6 +3,7 @@ published: true
 title: HTML/ CSS Developer
 description: We are looking for experienced HTML/CSS Developer!
 layout: career-offer
+image: /assets/images/HTML-CSS_Developer_Job_Offer.png
 location:
   - Wrocław
 who-we-are: >-
