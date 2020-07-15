@@ -26,7 +26,7 @@ about-right: >-
 type: Development
 salary-preview:
   - salary:
-      contract: + VAT (B2B)
+      contract: '+ VAT (B2B) '
       sum: 7500 - 13 000 PLN net
 what-we-expect:
   - expectation:
