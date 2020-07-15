@@ -49,11 +49,6 @@
       }
 
       &--blue {
-        display: flex;
-        top: 25px;
-        right: -140px;
-        transform: rotate(90deg);
-
         .geometric-figure_center {
           border-color: $color-geometric-green;
         }
@@ -61,6 +56,16 @@
         .geometric-figure_right::after {
           background-color: $color-geometric-blue;
         }
+      }
+
+      &--vertical {
+        transform: rotate(90deg);
+      }
+
+      &--portfolio {
+        display: flex;
+        top: 25px;
+        right: -140px;
       }
     }
   }
@@ -103,11 +108,6 @@
           background-color: $color-white;
         }
 
-        &--blue {
-          transform: rotate(-90deg);
-          right: -80px;
-        }
-
         &--small {
           top: auto;
           left: 50px;
@@ -123,6 +123,18 @@
             height: 120px;
             width: 60px;
           }
+        }
+
+        &--vertical {
+          transform: rotate(-90deg);
+        }
+
+        &--portfolio {
+          right: -80px;
+        }
+
+        &--ecommerce {
+          bottom: -40px;
         }
       }
     }
@@ -143,9 +155,15 @@
     padding-bottom: 200px;
     overflow: hidden;
 
-    .portfolio__step, .portfolio__header, .portfolio__tags, &__text, &__box {
+    .portfolio__step, .portfolio__header, .portfolio__tags,
+    .services__step, .services__header,
+    &__text, &__box {
       box-sizing: border-box;
       width: 50%;
+    }
+
+    .services__header {
+      max-width: 500px;
     }
 
     .portfolio__tags {
