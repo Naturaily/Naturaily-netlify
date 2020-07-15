@@ -76,6 +76,8 @@ what-you-expect:
       contents: a co-financed Multisport Card
   - expectation:
       contents: a MacBook
+  - expectation:
+      contents: 26 paid days off
 we-need-you-to:
   - expectation:
       contents: experienced in software development (min. 2 years)
