@@ -5,7 +5,7 @@ description: >-
   We are looking for Senior Ruby on Rails Developer to help us build great
   digital products.
 layout: career-offer
-image: /assets/images/senior_ror_developer_job_offer.png
+image: /assets/images/Senior-Ruby-on-Rails_Developer_Job_Offer.png
 location:
   - Wrocław
   - Remote
