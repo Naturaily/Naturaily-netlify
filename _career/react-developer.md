@@ -16,7 +16,9 @@ who-we-are: >-
 about-left: >-
   You need to know that we value individuality, professionalism, open
   communication and honesty. We strive to provide our clients with the best,
-  stable, reliable and beautiful digital products.
+  stable, reliable and beautiful digital products. Check out the
+  [services](https://naturaily.com/services) we offer and some of our latest
+  [case studies](https://naturaily.com/portfolio).
 about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
@@ -25,7 +27,7 @@ type: Development
 salary-preview:
   - salary:
       contract: (B2B)
-      sum: 6000 - 12 000 PLN net + VAT
+      sum: 6000 - 12 000 PLN net + VAT + 26 paid days off
 what-we-expect:
   - expectation:
       contents: >-
@@ -70,6 +72,8 @@ what-you-expect:
       contents: a co-financed Multisport Card
   - expectation:
       contents: a MacBook
+  - expectation:
+      contents: 26 paid days off
 we-need-you-to:
   - expectation:
       contents: commercially experienced with React.js software development
