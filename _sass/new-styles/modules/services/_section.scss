@@ -68,6 +68,10 @@
       }
     }
 
+    .btn-white {
+      margin-top: 15px;
+    }
+
     .services-testimonial__quote-credits {
       margin-top: 0;
 
@@ -135,6 +139,7 @@
 
       &--huge-space {
         margin-top: 125px;
+        margin-bottom: 50px;
       }
     }
 
@@ -169,6 +174,10 @@
       padding-bottom: 75px;
     }
 
+    &__text--huge-space {
+      margin-bottom: 25px;
+    }
+
     &__side-quote {
       margin-top: 65px;
       padding-left: 50px;
@@ -181,8 +190,14 @@
 }
 
 @media (min-width: 1200px) {
-  .services-section__side--more-space {
-    top: 340px;
+  .services-section{
+    &__text--huge-space {
+      margin-top: 140px;
+    }
+
+    &__side--more-space {
+      top: 340px;
+    }
   }
 }
 
