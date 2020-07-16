@@ -7,36 +7,14 @@
     line-height: 1.5;
   }
 
-  &__video {
-    position: relative;
-    width: 100vw;
-    height: 270px;
-    margin: 50px -20px;
-    border-radius: 8px;
+  &__image {
+    margin: 0 -20px;
+    cursor: pointer;
 
-    &-player {
-      height: 100%;
-    }
-
-    &-cover, iframe {
-      width: 100%;
-      height: 100%;
-    }
-
-    &-cover {
-      position: absolute;
-      background-image: url('/assets/images/services/iot-development/iot-development/video.png');
-      background-position: center;
-      background-size: cover;
-      z-index: 2;
-
-      &__content {
-        position: absolute;
-        top: 100px;
-        left: 38%;
-        transform: translateY(-50%);
-        padding: 0 25px;
-      }
+    img {
+      width: 100vw;
+      margin: 25px 0;
+      transition: 0.2s;
     }
   }
 
@@ -50,10 +28,13 @@
     padding: 0 75px 50px;
     margin-top: -50px;
 
-    &__video {
-      width: 100%;
-      height: 300px;
-      margin: 50px 0;
+    &__image {
+      margin: 0;
+
+      img {
+        width: 100%;
+        border-radius: 8px;
+      }
     }
   }
 }
@@ -69,17 +50,17 @@
     }
 
     &__header {
-      top: 75px;
+      top: 100px;
+    }
+
+    &__image {
+      display: block;
+      width: 50%;
+      margin: 0;
     }
 
     .btn-bordered {
-      top: -75px;
-    }
-
-    &__video {
-      width: 50%;
-      height: 200px;
-      margin: 0;
+      top: -100px;
     }
   }
 }
@@ -93,16 +74,19 @@
     }
 
     &__header {
-      top: 125px;
+      top: 150px;
+    }
+
+    &__image {
+      width: 60%;
+
+      &:hover img {
+        transform: scale(1.05);
+      }
     }
 
     .btn-bordered {
-      top: -125px;
-    }
-
-    &__video {
-      width: 60%;
-      height: 300px;
+      top: -150px;
     }
   }
 }
@@ -114,21 +98,15 @@
     }
 
     &__header {
-      top: 175px;
+      top: 190px;
+    }
+
+    &__image {
+      width: 65%;
     }
 
     .btn-bordered {
-      top: -175px;
-    }
-
-    &__video {
-      width: 65%;
-      height: 415px;
-
-      &-cover__content {
-        top: 140px;
-        left: 42%;
-      }
+      top: -190px;
     }
   }
 }
