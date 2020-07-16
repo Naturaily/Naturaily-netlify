@@ -3,6 +3,11 @@
   padding: 25px 20px 50px;
   overflow: hidden;
 
+  &--storefront {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
   &::before {
     content: " ";
     position: absolute;
@@ -33,6 +38,10 @@
     width: 800vw;
     padding: 50px 0 25px;
 
+    &--three {
+      width: 300vw;
+    }
+
     &-tab {
       display: flex;
       align-items: center;
@@ -52,6 +61,7 @@
         }
 
         img {
+          position: relative;
           height: auto;
           width: 100%;
           max-width: 130px;
@@ -62,19 +72,15 @@
           max-width: 60px;
         }
 
-        &--awn img {
+        &--awn img, &--alma img {
           max-width: 80px;
         }
 
-        &--zapnito img, &--diffia img {
+        &--zapnito img, &--diffia img, &--zadig img {
           max-width: 120px;
         }
 
-        &--firefield img, &--shuttlefare img, &--diffia img {
-          position: relative;
-        }
-
-        &--firefield img, &--shuttlefare img {
+        &--firefield img, &--shuttlefare img, &--stein img {
           top: -3px;
         }
 
@@ -86,8 +92,12 @@
           max-width: 140px;
         }
 
-        &--caroll img {
+        &--caroll img, &--stein img {
           max-width: 150px;
+        }
+
+        &--kubota img, &--kentaur img, &--philips img {
+          max-width: 90px;
         }
       }
     }
@@ -124,6 +134,10 @@
   .carousel-partners {
     padding: 0 75px 75px;
 
+    &--storefront {
+      margin: 50px 0 -25px;
+    }
+
     &::before {
       bottom: 120px;
       left: 75px;
@@ -142,6 +156,10 @@
 
     &__tabs {
       width: 800%;
+
+      &--three {
+        width: 300%;
+      }
     }
 
     &__nav {
@@ -177,6 +195,10 @@
     padding: 0 0 75px;
     margin: 0 75px;
 
+    &--storefront {
+      margin: 50px 75px -25px;
+    }
+
     &::before {
       left: 0;
       width: calc(100% - 2px);
@@ -184,6 +206,10 @@
 
     &__tabs {
       width: 400%;
+
+      &--three {
+        width: 200%;
+      }
     }
 
     &__nav, &__dots-item--sm {
@@ -192,12 +218,38 @@
   }
 }
 
+@media (min-width: 992px) {
+  .carousel-partners {
+    &--storefront {
+      margin-bottom: -75px;
+
+      .carousel-partners__dots {
+        display: none;
+      }
+    }
+
+    &__tabs--three {
+      width: 100%;
+      padding-bottom: 45px;
+    }
+  }
+}
+
 @media (min-width: 1200px) {
   .carousel-partners {
+    &--storefront {
+      margin-top: 75px;
+      margin-bottom: -50px;
+    }
+
     &__tabs {
       width: 200%;
 
-      &-tab--md{
+      &--three {
+        width: 100%;
+      }
+
+      &-tab--md {
         display: none;
       }
     }

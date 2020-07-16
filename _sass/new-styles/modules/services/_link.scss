@@ -3,6 +3,10 @@
   width: 100%;
   padding: 0 20px;
 
+  &--closer {
+    margin-top: -25px;
+  }
+
   &--sprints {
     bottom: 50px;
   }
@@ -27,6 +31,10 @@
 @media(min-width: 576px) {
   .services-link {
     padding: 25px 75px 25px 250px;
+
+    &--closer {
+      margin-top: -75px;
+    }
 
     &--sprints {
       bottom: 75px;
@@ -79,6 +87,10 @@
     height: 80px;
     padding: 50px 75px 100px 250px;
 
+    &--closer {
+      margin-top: -50px;
+    }
+
     &--sprints {
       bottom: 50px;
       padding-bottom: 50px;
@@ -104,13 +116,17 @@
   .services-link {
     padding-left: 325px;
 
+    &--closer {
+      margin-top: 0;
+    }
+
     &--sprints {
       bottom: 75px;
       margin-bottom: -25px;
     }
 
     &__text {
-      max-width: 350px;
+      max-width: 375px;
       padding-right: 150px;
       font-size: 2.25em;
     }

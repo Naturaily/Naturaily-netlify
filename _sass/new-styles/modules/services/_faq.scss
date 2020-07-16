@@ -68,6 +68,28 @@
     &--hidden {
       display: none;
     }
+
+    &-list {
+      margin-top: 25px;
+      font-size: 0.9em;
+
+      li {
+        position: relative;
+        padding: 7px 0 7px 35px;
+
+        &::before {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 15px;
+          left: 0;
+          width: 5px;
+          height: 5px;
+          background-color: $color-secondary;
+          border-radius: 100%;
+        }
+      }
+    }
   }
 
   .geometric-figure {
@@ -173,6 +195,10 @@
     margin: 0 -25px;
     padding: 100px;
     border-radius: 8px;
+
+    &--ecommerce {
+      margin: 0;
+    }
 
     &__header {
       min-width: 250px;
