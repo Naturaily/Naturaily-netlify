@@ -196,6 +196,10 @@
     padding: 100px;
     border-radius: 8px;
 
+    &--ecommerce {
+      margin: 0;
+    }
+
     &__header {
       min-width: 250px;
       padding: 0 75px 0 100px;

@@ -143,6 +143,10 @@
   .page-estimate {
     &.services-estimate {
       margin: 75px 25px 25px -25px;
+
+      &--ecommerce {
+        margin: 75px 0 25px;
+      }
     }
 
     &__columns {

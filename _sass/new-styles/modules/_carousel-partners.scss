@@ -220,8 +220,12 @@
 
 @media (min-width: 992px) {
   .carousel-partners {
-    &--storefront .carousel-partners__dots {
-      display: none;
+    &--storefront {
+      margin-bottom: -75px;
+
+      .carousel-partners__dots {
+        display: none;
+      }
     }
 
     &__tabs--three {
@@ -233,6 +237,11 @@
 
 @media (min-width: 1200px) {
   .carousel-partners {
+    &--storefront {
+      margin-top: 75px;
+      margin-bottom: -50px;
+    }
+
     &__tabs {
       width: 200%;
 
