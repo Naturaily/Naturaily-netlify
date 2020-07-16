@@ -1,0 +1,87 @@
+.ecommerce-cite {
+  position: relative;
+  width: 100%;
+  padding: 75px 20px 50px;
+  background-color: $color-code-orange-bg;
+
+  &__text {
+    position: relative;
+    z-index: 1;
+    font-size: 1.3em;
+    line-height: 1.5;
+    color: $color-page-text;
+
+    .icon {
+      position: absolute;
+      top: -25px;
+      z-index: 0;
+      color: $color-accent-yellow;
+      opacity: 0.1;
+    }
+
+    &--secondary {
+      color: $color-secondary;
+    }
+  }
+
+  &__credits {
+    display: flex;
+    padding-top: 25px;
+
+    &-avatar {
+      height: 70px;
+      width: 70px;
+      margin-right: 25px;
+      border-radius: 100%;
+    }
+  }
+
+  .geometric-figure {
+    display: none;
+  }
+}
+
+@media(min-width: 576px) {
+  .ecommerce-cite {
+    padding: 75px 75px 50px;
+  }
+}
+
+@media(min-width: 811px) {
+  .ecommerce-cite {
+    padding: 75px 100px;
+    overflow: hidden;
+
+    &__credits .services-testimonial__quote-credits {
+      margin-top: 0;
+    }
+
+    &__text .icon {
+      left: -35px;
+    }
+
+    .geometric-figure {
+      display: flex;
+      transform: rotate(-90deg);
+      right: 25px;
+      top: auto;
+      bottom: -50px;
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .ecommerce-cite {
+    padding: 75px 280px 50px 150px;
+
+    .geometric-figure {
+      bottom: 10px;
+    }
+  }
+}
+
+@media(min-width: 1200px) {
+  .ecommerce-cite {
+    border-radius: 8px;
+  }
+}
