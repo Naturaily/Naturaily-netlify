@@ -5,7 +5,7 @@ description: >-
   We are looking for Senior Ruby on Rails Developer to help us build great
   digital products.
 layout: career-offer
-image: /assets/images/Senior-Ruby-on-Rails_Developer_Job_Offer.png
+image: /assets/images/Senior-RubyonRails-Developer_Job_Offer.png
 location:
   - Wrocław
   - Remote
@@ -28,7 +28,7 @@ type: Development
 salary-preview:
   - salary:
       contract: + VAT (B2B)
-      sum: 11 500 - 16 000 PLN net + 26 paid days off
+      sum: 11 500 - 18 000 PLN net + 26 paid days off
 what-we-expect:
   - expectation:
       contents: |
@@ -152,6 +152,6 @@ benefits:
 salaries:
   - salary:
       contract: + VAT (B2B)
-      sum: 11 500 - 16 000 PLN net
+      sum: 11 500 - 18 000 PLN net
 ---
 
