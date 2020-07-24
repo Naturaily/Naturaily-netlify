@@ -81,7 +81,7 @@ we-need-you-to:
   - expectation:
       contents: experienced (3-4 years) in international B2B sales
   - expectation:
-      contents: well-versed in e e-commerce and software development industry
+      contents: well-versed in e-commerce and software development industry
   - expectation:
       contents: well-versed in Progressive Web Apps and pros of using it
   - expectation:
