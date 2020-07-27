@@ -4,7 +4,7 @@
     <ul
       class="services-list__list custom-carousel__tabs custom-carousel__tabs--with-bar custom-carousel__tabs--three"
       data-carousel="tabs"
-      data-services-navigation
+      data-scroll-navigation
     >
       <li
         class="services-list__list-item services-list__list-item--link custom-carousel__tabs-tab"
@@ -63,16 +63,5 @@
 </div>
 
 <script>
-  window.addEventListener('load', () => {
-    function getRelatedContent(el) {
-      return $($(el).attr('href'));
-    }
-
-    $('[data-services-navigation]').on('click', 'a', function(e) {
-      e.preventDefault();
-      $('html, body').animate({
-        scrollTop: getRelatedContent(this).offset().top
-      });
-    });
-  });
+  {% include scroll-nav.js %}
 </script>
