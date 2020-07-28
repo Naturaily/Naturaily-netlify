@@ -1,0 +1,80 @@
+.ecommerce-custom__technologies {
+  padding-top: 0;
+
+  .services__header {
+    max-width: 450px;
+    font-size: 1.75em;
+  }
+
+  .services-list__wrapper .custom-carousel__bar,
+  .services-list__list::after {
+    top: 75px;
+  }
+
+  &-logo {
+    height: 40px;
+
+    &--node {
+      height: 30px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media(min-width: 576px) {
+  .ecommerce-custom__technologies-logo {
+    height: 30px;
+    margin-top: 10px;
+
+    &--node {
+      height: 25px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+@media(min-width: 811px) {
+  .ecommerce-custom__technologies {
+    display: block;
+    padding-top: 25px;
+
+    .services-list__list {
+      margin-top: 50px;
+    }
+
+    &::after {
+      top: 250px;
+    }
+
+    &-logo {
+      height: 40px;
+
+      &--node {
+        height: 30px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .ecommerce-custom__technologies {
+    padding-top: 50px;
+
+    &::after {
+      top: 275px;
+    }
+  }
+}
+
+@media(min-width: 1200px) {
+  .ecommerce-custom__technologies{
+    &::after {
+      width: 1080px;
+    }
+
+    .services-list__list {
+      max-width: 1000px;
+    }
+  }
+}

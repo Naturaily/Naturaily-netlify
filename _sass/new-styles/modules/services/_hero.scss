@@ -8,6 +8,7 @@
   &--custom {
     display: flex;
     flex-direction: column;
+    padding-bottom: 25px;
   }
 
   &__text {
@@ -87,7 +88,7 @@
 @media(min-width: 576px) {
   .service-hero {
     &--custom {
-      padding: 120px 75px 0;
+      padding: 120px 75px 25px;
     }
 
     &__text-header {
@@ -114,6 +115,7 @@
 @media(min-width: 811px) {
   .service-hero {
     padding: 150px 75px 50px;
+    border-bottom: 1px solid $color-code-grey-bg;
 
     &__text {
       &-shadow {
@@ -142,16 +144,17 @@
 
     &__image {
       &--left, &--left-custom {
-        bottom: 0;
         height: 35%;
         left: -50px;
       }
 
       &--left {
         display: block;
+        bottom: 0;
 
         &-custom {
           position: absolute;
+          bottom: 25px;
           width: auto;
           margin: 0;
         }
@@ -176,6 +179,10 @@
 
 @media(min-width: 992px) {
   .service-hero {
+    &--custom {
+      padding-bottom: 75px;
+    }
+    
     &__text {
       &-shadow {
         top: 50px;
