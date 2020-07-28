@@ -1,6 +1,6 @@
 .ecommerce-custom__faq {
   position: relative;
-  background-color: $color-white;
+  background-color: $color-transparent;
 
   .services-faq {
     &__number {
@@ -61,11 +61,13 @@
 
 @media(min-width: 811px) {
   .ecommerce-custom__faq {
+    padding: 75px 75px 50px;
+
     .services-faq {
       &__list {
         display: flex;
         flex-wrap: wrap;
-        margin: 25px 0;
+        margin: 25px 0 0;
       }
 
       &__item, &__number {
@@ -149,7 +151,7 @@
       }
 
       &--blue {
-        bottom: 50px;
+        bottom: 0;
         right: 50%;
       }
     }
