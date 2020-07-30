@@ -21,7 +21,7 @@
   }
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
   .ecommerce-custom__technologies-logo {
     height: 30px;
     margin-top: 10px;
@@ -33,7 +33,7 @@
   }
 }
 
-@media(min-width: 811px) {
+@media (min-width: 811px) {
   .ecommerce-custom__technologies {
     display: block;
     padding-top: 25px;
@@ -57,7 +57,7 @@
   }
 }
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .ecommerce-custom__technologies {
     padding-top: 50px;
 
@@ -67,7 +67,7 @@
   }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .ecommerce-custom__technologies{
     &::after {
       width: 1080px;
