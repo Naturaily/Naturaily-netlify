@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
-  const $reviewsContainer = $('#portfolio-reviews');
-  const $reviewsButton = $('#portfolio-trigger');
-  const $reviewsShadow = $('#portfolio-shadow');
+  const $reviewsContainer = $('[data-clutch="reviews"]');
+  const $reviewsButton = $('[data-clutch="trigger"]');
+  const $reviewsShadow = $('[data-clutch="shadow"]');
 
   const $casesContainer = $('#cases-container');
   const $casesButton = $('#cases-trigger');
