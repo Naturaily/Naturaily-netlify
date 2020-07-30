@@ -1,0 +1,150 @@
+.ecommerce-custom__presentation {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding: 50px 20px;
+  background-color: $color-light-orange-bg;
+
+  .services__header, .services__header strong, &-text__header {
+    font-weight: 400;
+  }
+
+  &-image img {
+    width: 100vw;
+    margin: 35px -20px;
+    border-radius: 8px;
+  }
+
+  &-text {
+    &__header, &__list {
+      line-height: 1.5;
+    }
+
+    &__header {
+      margin-bottom: 20px;
+      font-size: 1.6em;
+    }
+
+    &__list-item {
+      position: relative;
+      padding: 7px 0 7px 35px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 5px;
+        height: 5px;
+        background-color: $color-secondary;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .geometric-figure {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .ecommerce-custom__presentation {
+    padding: 75px;
+
+    &-image img {
+      width: 100%;
+      margin: 35px 0;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .ecommerce-custom__presentation {
+    &-text, &-image {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    .services__header {
+      max-width: 500px;
+      margin-bottom: 50px;
+    }
+
+    &-text {
+      padding-left: 50px;
+    }
+
+    &-image {
+      position: absolute;
+      top: 335px;
+      right: 25px;
+      transform: translateY(-50%);
+      padding-left: 75px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .ecommerce-custom__presentation {
+    .services__header {
+      margin-bottom: 75px;
+    }
+
+    &-image {
+      top: 365px;
+      right: 75px;
+      padding-left: 150px;
+
+      img {
+        transition: 0.2s;
+      }
+
+      &:hover img {
+        transform: scale(1.05);
+      }
+    }
+
+    &-text {
+      padding: 0 25px 0 75px;
+    }
+
+    .geometric-figure {
+      display: flex;
+      position: absolute;
+      top: 275px;
+      left: -120px;
+      transform: rotate(90deg);
+      height: 166px;
+      width: 250px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .ecommerce-custom__presentation {
+    margin: 0 -25px;
+    padding: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .services__header {
+      margin-bottom: 100px;
+    }
+
+    &-image {
+      top: 420px;
+      right: 150px;
+      padding-left: 200px;
+    }
+
+    &-text {
+      padding-left: 100px;
+      max-width: 450px;
+    }
+
+    .geometric-figure {
+      top: 325px;
+    }
+  }
+}
