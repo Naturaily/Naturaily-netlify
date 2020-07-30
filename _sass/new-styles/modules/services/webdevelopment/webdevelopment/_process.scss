@@ -47,7 +47,7 @@
   }
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
   .webdevelopment-process {
     &__presentation-content, &__testimonial {
       padding: 75px;
@@ -65,7 +65,7 @@
   }
 }
 
-@media(min-width: 811px) {
+@media (min-width: 811px) {
   .webdevelopment-process {
     &__presentation-content, &__testimonial {
       display: flex;
@@ -129,7 +129,7 @@
   }
 }
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .webdevelopment-process {
     &__presentation-header {
       padding-right: 130px;
@@ -147,7 +147,7 @@
   }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .webdevelopment-process {
     &__presentation-header, &__testimonial-image {
       padding: 0 100px 0 50px;
