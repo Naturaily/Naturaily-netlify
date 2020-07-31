@@ -19,7 +19,7 @@
     }
   }
 
-  &__dot {
+  &__dot, &__figure-dot {
     position: absolute;
     height: 20px;
     width: 20px;
@@ -35,6 +35,20 @@
 
     &--blue {
       background-color: $color-geometric-blue;
+    }
+  }
+
+  &__figure {
+    &-circle, &-dot {
+      display: block;
+    }
+
+    &-circle {
+      position: absolute;
+      z-index: 0;
+      border-radius: 100%;
+      border: 1px solid $color-secondary;
+      opacity: 0.1;
     }
   }
 }

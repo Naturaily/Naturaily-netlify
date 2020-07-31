@@ -6,7 +6,7 @@
   border-bottom: 1px solid $color-global-font-10;
 
   &--custom-ecommerce {
-    margin-top: 25px;
+    margin-top: 15px;
   }
 
   .portfolio__header, .services__header {
@@ -193,7 +193,7 @@
     border-radius: 8px;
 
     &--custom-ecommerce {
-      margin-top: -25px;
+      margin-top: -15px;
     }
 
     &-reviews {
@@ -343,6 +343,10 @@
 
 @media (min-width: 992px) {
   .clutch {
+    &--custom-ecommerce {
+      margin-top: -25px;
+    }
+
     &-text {
       padding-right: 50px;
     }
