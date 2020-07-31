@@ -1,4 +1,4 @@
-.ecommerce-custom__technologies {
+.custom-ecommerce__technologies {
   padding-top: 0;
 
   .services__header {
@@ -22,7 +22,7 @@
 }
 
 @media (min-width: 576px) {
-  .ecommerce-custom__technologies-logo {
+  .custom-ecommerce__technologies-logo {
     height: 30px;
     margin-top: 10px;
 
@@ -34,7 +34,7 @@
 }
 
 @media (min-width: 811px) {
-  .ecommerce-custom__technologies {
+  .custom-ecommerce__technologies {
     display: block;
     padding-top: 25px;
 
@@ -58,7 +58,7 @@
 }
 
 @media (min-width: 992px) {
-  .ecommerce-custom__technologies {
+  .custom-ecommerce__technologies {
     padding-top: 50px;
 
     &::after {
@@ -68,7 +68,7 @@
 }
 
 @media (min-width: 1200px) {
-  .ecommerce-custom__technologies{
+  .custom-ecommerce__technologies{
     &::after {
       width: 1080px;
     }
