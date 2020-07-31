@@ -3,6 +3,7 @@
   position: relative;
   width: 100%;
   padding: 50px 20px;
+  margin-bottom: 50px;
   background-color: $color-light-orange-bg;
 
   .services__header, .services__header strong, &-text__header {
@@ -54,7 +55,7 @@
 
     &-image img {
       width: 100%;
-      margin: 35px 0;
+      margin: 50px 0;
     }
   }
 }
@@ -69,10 +70,6 @@
     .services__header {
       max-width: 500px;
       margin-bottom: 50px;
-    }
-
-    &-text {
-      padding-left: 50px;
     }
 
     &-image {
@@ -123,7 +120,7 @@
 
 @media (min-width: 1200px) {
   .ecommerce-custom__presentation {
-    margin: 0 -25px;
+    margin: 0 0 75px;
     padding: 100px;
     border-radius: 8px;
     overflow: hidden;
