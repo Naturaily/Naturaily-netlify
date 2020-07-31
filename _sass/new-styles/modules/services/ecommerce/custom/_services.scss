@@ -1,4 +1,4 @@
-.ecommerce-custom__faq {
+.custom-ecommerce__faq {
   position: relative;
   background-color: $color-transparent;
 
@@ -40,7 +40,7 @@
 }
 
 @media (min-width: 576px) {
-  .ecommerce-custom__faq .services__dot {
+  .custom-ecommerce__faq .services__dot {
     &--yellow {
       top: 175px;
       right: 175px;
@@ -60,7 +60,7 @@
 }
 
 @media (min-width: 811px) {
-  .ecommerce-custom__faq {
+  .custom-ecommerce__faq {
     padding: 75px 75px 50px;
 
     .services-faq {
@@ -125,7 +125,7 @@
 }
 
 @media (min-width: 992px) {
-  .ecommerce-custom__faq {
+  .custom-ecommerce__faq {
     display: flex;
     padding-top: 125px;
 
@@ -159,18 +159,18 @@
 }
 
 @media (min-width: 1200px) {
-  .ecommerce-custom__faq {
+  .custom-ecommerce__faq {
     .services-faq {
       &__item {
-        // padding: 35px 50px;
-        //
-        // &:nth-of-type(2n-1) {
-        //   padding-right: 35px;
-        // }
-        //
-        // &:nth-of-type(2n) {
-        //   padding-left: 35px;
-        // }
+        padding: 35px 50px;
+
+        &:nth-of-type(2n-1) {
+          padding-left: 65px;
+        }
+
+        &:nth-of-type(2n) {
+          padding-left: 50px;
+        }
       }
 
       &__header {
@@ -178,7 +178,7 @@
       }
 
       &__icon {
-        right: 50px;
+        right: 0;
       }
     }
 
@@ -195,7 +195,7 @@
 }
 
 @media (min-width: 1400px) {
-  .ecommerce-custom__faq .services__dot--yellow {
+  .custom-ecommerce__faq .services__dot--yellow {
     left: 0;
   }
 }
