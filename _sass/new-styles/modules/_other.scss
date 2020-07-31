@@ -11,6 +11,10 @@
       padding-top: 50px;
       padding-bottom: 75px;
     }
+
+    &--custom-ecommerce {
+      padding-top: 25px;
+    }
   }
 
   &__content {
@@ -66,6 +70,10 @@
     &.services-other {
       padding-left: 75px;
       padding-right: 75px;
+
+      &--custom-ecommerce {
+        padding-top: 75px;
+      }
     }
 
     &__links {
@@ -93,6 +101,10 @@
         padding-bottom: 60px;
         margin-bottom: 100px;
         border-bottom: 1px solid $color-global-font-10;
+      }
+
+      &--custom-ecommerce {
+        padding-top: 75px;
       }
     }
 
@@ -147,7 +159,7 @@
     &.services-other--iot {
       margin-left: -20px;
     }
-    
+
     &__content {
       padding-left: 175px;
     }
