@@ -103,13 +103,26 @@
 }
 
 @media (min-width: 1200px) {
-  .service-hero--custom-ecommerce .service-hero__image {
-    &--left {
-      height: 60%;
+  .service-hero--custom-ecommerce .service-hero {
+    &__text {
+      &-shadow {
+        top: 60px;
+      }
+
+      &-header {
+        max-width: 600px;
+      }
     }
 
-    &--right {
-      height: 95%;
+    &__image {
+      &--left {
+        height: 60%;
+      }
+
+      &--right {
+        top: 25px;
+        height: 100%;
+      }
     }
   }
 }
