@@ -1,4 +1,4 @@
-.ecommerce-custom__process {
+.custom-ecommerce__process {
   box-sizing: border-box;
   width: 100%;
   padding: 50px 20px;
@@ -19,13 +19,13 @@
 }
 
 @media (min-width: 576px) {
-  .ecommerce-custom__process {
+  .custom-ecommerce__process {
     padding: 125px 75px 75px;
   }
 }
 
 @media (min-width: 811px) {
-  .ecommerce-custom__process {
+  .custom-ecommerce__process {
     position: relative;
 
     .services__step, .services__header, &-text, &-image {
@@ -52,7 +52,7 @@
 }
 
 @media (min-width: 992px) {
-  .ecommerce-custom__process {
+  .custom-ecommerce__process {
     .services__step, .services__header, &-text {
       max-width: 550px;
       padding-right: 50px;
@@ -65,7 +65,7 @@
 }
 
 @media (min-width: 1200px) {
-  .ecommerce-custom__process {
+  .custom-ecommerce__process {
     padding: 175px 75px;
 
     &-image {
