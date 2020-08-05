@@ -1,7 +1,7 @@
 .webdevelopment-overview {
   box-sizing: border-box;
   width: 100vw;
-  padding: 20px;
+  padding: 0 20px 50px;
 
   &__image {
     width: 200vw;
@@ -22,7 +22,7 @@
 
 @media (min-width: 576px) {
   .webdevelopment-overview {
-    padding: 0 75px;
+    padding: 0 75px 75px;
 
     &__image {
       width: calc(100% + 100px);
