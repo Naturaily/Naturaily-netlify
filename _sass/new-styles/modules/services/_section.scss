@@ -17,6 +17,10 @@
     &--light {
       background-color: $color-code-bg;
     }
+
+    &--grey {
+      background-color: $color-code-grey-bg;
+    }
   }
 
   &__header, &__text, &__side {
@@ -177,10 +181,6 @@
 @media (min-width: 992px) {
   .services-section {
     padding-top: 25px;
-
-    &__content {
-      padding-bottom: 75px;
-    }
 
     &__text--ecommerce-storefront {
       margin-top: 35px;
