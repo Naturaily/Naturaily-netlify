@@ -168,12 +168,13 @@
         padding: 75px;
       }
 
-      &-quote {
-        padding: 0;
-        font-size: 1.2em;
+        &__quote {
+          padding: 0;
+          font-size: 1.2em;
 
-        .icon {
-          left: -25px;
+          .icon {
+            left: -25px;
+          }
         }
       }
     }
