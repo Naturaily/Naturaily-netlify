@@ -1,0 +1,156 @@
+.product-design__overview {
+  width: 100%;
+
+  &-image {
+    display: none;
+  }
+
+  &-content, &-side {
+    background-color: $color-code-grey-bg;
+  }
+
+  &-content {
+    position: relative;
+    z-index: 2;
+    padding: 80px 20px 0;
+  }
+
+  &-header, &-text, &-side {
+    line-height: 1.5;
+  }
+
+  &-header, &-text {
+    color: $color-page-text-second;
+  }
+
+  &-header {
+    font-size: 3em;
+    font-weight: 300;
+  }
+
+  &-text--secondary, &-side__text-quote--secondary {
+    color: $color-secondary;
+  }
+
+  &-text {
+    margin-top: 25px;
+    font-size: 1.6em;
+  }
+
+  &-side__text {
+    padding: 50px 20px;
+    color: $color-page-text;
+
+    &-quote {
+      position: relative;
+      z-index: 1;
+      margin: 40px 0 15px;
+      padding-left: 25px;
+      font-size: 1em;
+    }
+
+    .icon {
+      position: absolute;
+      top: -25px;
+      left: 0;
+      z-index: 0;
+      color: $color-accent-yellow;
+      opacity: 0.1;
+    }
+
+    .services-testimonial__quote-credits {
+      margin-top: 0;
+
+      &__person {
+        padding: 0 0 0 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__overview {
+    &-content {
+      padding: 80px 75px 0;
+    }
+
+    &-side__text {
+      padding: 50px 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__overview {
+    margin-bottom: 500px;
+    position: relative;
+
+    &-image {
+      display: block;
+      width: auto;
+      height: 350px;
+      margin-bottom: -250px;
+    }
+
+    &-content, &-side {
+      box-sizing: border-box;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 50%;
+      padding: 75px 50px;
+      border-radius: 8px;
+    }
+
+    &-header {
+      font-size: 3em;
+    }
+
+    &-text {
+      margin-top: 50px;
+      font-size: 1.6em;
+    }
+
+    &-side {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      max-width: 560px;
+      padding-top: 350px;
+      background-color: $color-transparent;
+
+      &__text {
+        padding: 75px 75px 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .product-design__overview {
+    &-image {
+      width: calc(100% + 100px);
+      margin: 0 0 -250px -50px;
+      border-radius: 8px;
+    }
+
+    &-text {
+      margin-top: 0;
+    }
+
+    &-content {
+      margin-left: -25px;
+      padding: 100px;
+    }
+
+    &-side__text {
+      padding: 110px 60px 0;
+    }
+  }
+}
