@@ -1,0 +1,173 @@
+.product-design__profits {
+  position: relative;
+  margin-top: 35px;
+
+  &-description, &-image, .services__dot {
+    display: none;
+  }
+
+  .services-faq {
+    &__list {
+      margin-top: 20px;
+    }
+
+    &__item {
+      position: relative;
+      padding: 35px 0 50px;
+      margin: 0;
+    }
+
+    &__header {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    &__number {
+      position: absolute;
+      top: 44px;
+      opacity: 0.3;
+    }
+
+    &__orange-arrow {
+      top: 15px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__profits {
+    margin-top: 75px;
+    padding: 50px 75px;
+
+    &-description, &-image, .services__dot {
+      display: block;
+    }
+
+    .services__step {
+      margin-bottom: 50px;
+    }
+
+    .services__header, &-description {
+      max-width: 430px;
+    }
+
+    .services__header {
+      font-weight: 200;
+    }
+
+    .services-faq__text, &-description {
+      color: $color-page-text-second;
+    }
+
+    .services-faq {
+      &__orange-arrow {
+        display: none;
+      }
+
+      &__number {
+        margin: 0;
+      }
+
+      &__list {
+        margin-left: 200px;
+      }
+
+      &__header {
+        min-width: 170px;
+        width: 170px;
+      }
+
+      &__text {
+        font-size: 0.9em;
+        opacity: 0.5;
+      }
+    }
+
+    &-description {
+      margin-top: 35px;
+      line-height: 1.5;
+      opacity: 0.7;
+    }
+
+    &-image {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      height: 220px;
+      width: auto;
+    }
+
+    .geometric-figure {
+      top: 420px;
+      right: auto;
+      left: 50px;
+      transform: rotate(-90deg);
+
+      &_center, &_right::after {
+        width: 130px;
+        height: 130px;
+      }
+
+      &_right {
+        height: 130px;
+        width: 65px;
+      }
+    }
+
+    .services__dot {
+      &--secondary {
+        left: 225px;
+        bottom: 35px;
+      }
+
+      &--blue {
+        right: 25px;
+        bottom: 300px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__profits {
+    margin-top: 120px;
+    margin-right: 45px;
+    overflow: visible;
+    border-radius: 0 8px 8px 0;
+
+    &-image {
+      height: 300px;
+      right: -45px;
+    }
+
+    .services-faq {
+      &__header {
+        padding-left: 110px;
+        padding-right: 40px;
+      }
+
+      &__list {
+        margin-top: 40px;
+      }
+    }
+
+    .geometric-figure {
+      top: 430px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__profits {
+    padding-left: 100px;
+    border-radius: 8px;
+
+    .services-faq__list {
+      margin-right: 80px;
+    }
+
+    .services__dot--blue {
+      right: 45px;
+    }
+  }
+}
