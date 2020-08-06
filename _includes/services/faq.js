@@ -8,7 +8,11 @@ window.addEventListener('load', () => {
     const faqType = $faqContainer[0].dataset.faqType;
     const mobileDevice = $(window).width() < 811;
 
-    if ((faqType === 'standard' && mobileDevice) || faqType === 'custom') runFaq(e);
+    if ((faqType === 'standard' && mobileDevice) || faqType === 'custom') {
+      runFaq(e);
+    }
+
+    console.log('clicked')
   });
 
   const runFaq = (e) => {
