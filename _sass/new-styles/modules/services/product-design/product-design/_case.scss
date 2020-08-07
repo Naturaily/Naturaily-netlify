@@ -1,0 +1,164 @@
+.product-design__case {
+  width: 100%;
+  margin-top: 50px;
+
+  .services__step, .services__header {
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+
+  .services__step {
+    font-size: 0.75em;
+  }
+
+  .services__header {
+    font-size: 1.5em;
+    color: $color-page-text-second;
+  }
+
+  &-image {
+    width: 100%;
+  }
+
+  &-text {
+    padding: 40px 20px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: $color-page-text-second;
+    opacity: 0.7;
+  }
+
+  .btn-white {
+    max-width: 230px;
+    margin-left: -13px;
+  }
+
+  &-carousel {
+    margin-top: 55px;
+    margin-left: 0;
+    border-top: 1px solid $color-global-font-10;
+
+    &__item {
+      display: flex;
+      flex-direction: row;
+      padding: 40px 20px 25px;
+
+      .icon {
+        width: 90px;
+        margin-top: 10px;
+        font-size: 40px;
+        color: $color-secondary;
+      }
+    }
+
+    &__number, &__text {
+      color: $color-page-text-second;
+    }
+
+    &__number {
+      margin-bottom: 15px;
+      font-size: 1em;
+      font-weight: 500;
+    }
+
+    &__text {
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__case {
+    .services__step, .services__header, &-text, &-carousel__item {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    &-image {
+      box-sizing: border-box;
+      padding: 0 75px;
+    }
+
+    .custom-carousel__nav {
+      top: 20px;
+      margin: 0;
+    }
+
+    .btn-white {
+      margin-left: 50px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__case {
+    position: relative;
+    margin-top: 75px;
+
+    .services__step, .services__header, &-text {
+      box-sizing: border-box;
+      width: 40%;
+      max-width: 490px;
+      padding-right: 0;
+    }
+
+    .services__step {
+      margin-bottom: 40px;
+    }
+
+    &-text {
+      padding-top: 0;
+      opacity: 1;
+      color: $color-page-text;
+
+      br {
+        display: none;
+      }
+    }
+
+    &-image {
+      position: absolute;
+      top: 0;
+      left: 43%;
+      width: 650px;
+      padding: 0;
+    }
+
+    .btn-white {
+      max-width: 200px;
+      margin-left: 73px;
+      border: 2px solid $color-secondary;
+      border-radius: 30px;
+    }
+
+    &-carousel {
+      display: flex;
+      flex-direction: row;
+      margin: 75px 35px 0;
+
+      &__item {
+        width: 33%;
+        padding: 45px 10px 25px 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__case {
+    margin-top: 150px;
+
+    .services__header {
+      font-size: 2.25em;
+    }
+
+    &-image {
+      width: 680px;
+    }
+
+    &-carousel {
+      margin-right: 100px;
+    }
+  }
+}
