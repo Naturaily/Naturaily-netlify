@@ -11,8 +11,6 @@ window.addEventListener('load', () => {
     if ((faqType === 'standard' && mobileDevice) || faqType === 'custom') {
       runFaq(e);
     }
-
-    console.log('clicked')
   });
 
   const runFaq = (e) => {
