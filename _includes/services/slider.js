@@ -1,47 +1,70 @@
 window.addEventListener('load', () => {
-  const sliderCloseAttr = 'slider-close';
-  const sliderNavAttr = 'slider-nav';
-  const dotIndexAttr = 'data-dot-index';
+  const attributes = {
+    close: 'slider-close',
+    nav: 'slider-nav',
+    dotIndex: 'data-dot-index'
+  }
 
   const $slider = $('#servicesSlider');
-  const $sliderClose = $(`[${sliderCloseAttr}]`);
-  const $sliderNav = $(`[${sliderNavAttr}]`);
+  const $sliderClose = $(`[${attributes.close}]`);
+  const $sliderNav = $(`[${attributes.nav}]`);
   const $sliderNavPrev = $('[slider-nav="prev"]');
   const $sliderNavNext = $('[slider-nav="next"]');
   const $sliderDots = $('[slider-dots]');
   const $sliderCards = $('[slider-card]');
   const $sliderWrapper = $('[slider-wrapper]');
 
-  const animationTime = 400;
   const sliderType = $slider[0].dataset.type;
 
-  const closeButtonClass = 'slider-close--hidden';
-  const hiddenNavClass = 'slider-arrow--hidden';
-  const openCardClass = sliderType === 'product-design' ? 'product-design__accordion-card--opened' : 'services-slider_card--opened';
+  const classes = {
+    closeBtn: 'slider-close--hidden',
+    hiddenNav: 'slider-arrow--hidden',
+    openCard: sliderType === 'product-design' ? 'product-design__accordion-card--opened' : 'services-slider_card--opened'
+  }
 
-  const windowWidth = window.innerWidth;
-  const openedCardWidth = 610;
-  let wrapperWidth = $sliderWrapper.width();
-  let sliderWidth = $slider.width();
-  let maxPosition = wrapperWidth - sliderWidth;
-  let cardWidth = `-${($($sliderCards[0]).width() + 10)}`;
+  const breakpoints = {
+    small: 420,
+    medium: 576,
+    big: 811
+  }
 
-  let inProgress = false;
-  let isClosing = false;
-  let currentElement = 0;
-  let positions = [];
+  let sliderParams = {
+    animationTime: 400,
+    breakpoint: sliderType === 'product-design' ? 576 : 420,
+    windowWidth: window.innerWidth,
+    wrapperWidth: $sliderWrapper.width(),
+    sliderWidth: $slider.width(),
+    cardWidth: `-${($($sliderCards[0]).width() + 10)}`,
+    maxPosition: $sliderWrapper.width() - $slider.width()
+  }
+
+  let sliderStatus = {
+    inProgress: false,
+    isClosing: false,
+    currentElement: 0,
+    positions: []
+  }
 
   const addPositions = () => {
     const cardsAmount = [...Array($sliderCards.length).keys()];
-    const allPositions = cardsAmount.map(key => key * cardWidth);
+    const allPositions = cardsAmount.map(key => key * sliderParams.cardWidth);
+    const isSliderBelowBreakpoint = sliderParams.windowWidth <= sliderParams.breakpoint;
 
-    positions = windowWidth <= 420 ? allPositions : allPositions.filter(position => position > maxPosition);
+    if (isSliderBelowBreakpoint) {
+      sliderStatus.positions = allPositions;
+    } else {
+      sliderStatus.positions = allPositions.filter(position => position > sliderParams.maxPosition);
+    }
 
-    if (maxPosition === 0) maxPosition = positions[positions.length - 1];
+    if (sliderParams.maxPosition === 0)  {
+      sliderParams.maxPosition = sliderStatus.positions[sliderStatus.positions.length - 1];
+    };
   }
 
   addPositions();
-  if (windowWidth > 420) positions.push(maxPosition);
+  if (sliderParams.windowWidth > sliderParams.breakpoint) {
+    sliderStatus.positions.push(sliderParams.maxPosition);
+  }
 
   $sliderNav.click((e) => { switchByNav(e) });
   $sliderClose.click((e) => { closeCard(e) });
@@ -53,128 +76,158 @@ window.addEventListener('load', () => {
   }
 
   const switchByNav = (e) => {
-    const navType = $(e.currentTarget).attr(sliderNavAttr);
-    let newPosition = null;
+    if (!sliderStatus.inProgress) {
+      const navType = $(e.currentTarget).attr(attributes.nav);
+      const isPositionMax = sliderStatus.currentElement > sliderStatus.positions.length - 1;
+      const isPositionMin = sliderStatus.currentElement < 0;
+      let newPosition = null;
 
-    if (!inProgress) {
       if (navType === 'next') {
-        newPosition = currentElement < positions.length - 1 ? positions[currentElement + 1] : maxPosition;
-        ++currentElement;
+        newPosition = isPositionMax ? sliderParams.maxPosition : sliderStatus.positions[sliderStatus.currentElement + 1];
+        ++sliderStatus.currentElement;
       } else {
-        newPosition = currentElement > 0 ? positions[currentElement - 1] : 0;
-        --currentElement;
+        newPosition = isPositionMin ? 0 : sliderStatus.positions[sliderStatus.currentElement - 1];
+        --sliderStatus.currentElement;
       }
 
-      inProgress = true;
+      sliderStatus.inProgress = true;
       closeAllCards();
       moveToPosition(newPosition);
     }
   }
 
   const switchByDot = (e) => {
-    const dotIndex = $(e.currentTarget).attr(dotIndexAttr);
+    const dotIndex = $(e.currentTarget).attr(attributes.dotIndex);
+    const shouldSliderSwitch = dotIndex !== sliderStatus.currentElement && !sliderStatus.inProgress;
 
-    if (dotIndex !== currentElement && !inProgress) {
-      let newPosition = null;
-
-      if (dotIndex > currentElement) {
-        newPosition = currentElement < positions.length - 1 ? positions[dotIndex] : maxPosition;
-      } else {
-        newPosition = currentElement > 0 ? positions[dotIndex] : 0;
+    if (shouldSliderSwitch) {
+      const newPosition = sliderStatus.positions[dotIndex];
+      const statusUpdate = {
+        currentElement: parseInt(dotIndex),
+        inProgress: true
       }
 
-      currentElement = parseInt(dotIndex);
-      inProgress = true;
+      sliderStatus = {...sliderStatus, ...statusUpdate};
       closeAllCards();
       moveToPosition(newPosition);
     }
   }
 
   const moveToPosition = (newPosition) => {
-    $slider.animate({ left: newPosition }, animationTime, () => {
-      updateNav();
+    const sliderHasDots = sliderType === 'product-design' && sliderParams.windowWidth < breakpoints.medium;
 
-      inProgress = false;
+    $slider.animate({ left: newPosition }, sliderParams.animationTime, () => {
+      updateNav();
+      sliderStatus.inProgress = false;
     });
 
-    if (sliderType === 'product-design') updateDots();
+    if (sliderHasDots) updateDots();
   }
 
   const updateDots = () => {
-    const $newActiveDot = $($sliderDots.find(`[${dotIndexAttr} = ${currentElement}]`)[0]);
+    const $newActiveDot = $($sliderDots.find(`[${attributes.dotIndex} = ${sliderStatus.currentElement}]`)[0]);
     const activeDotClass = 'custom-carousel__dots-item--active';
 
     $sliderDots.children()
-      .animate({ height: `5px`, width: `5px`}, animationTime / 2)
+      .animate({ height: `5px`, width: `5px`}, sliderParams.animationTime / 2)
       .removeClass(activeDotClass);
+
     $newActiveDot
-      .animate({ height: `10px`, width: `10px`}, animationTime / 2)
+      .animate({ height: `10px`, width: `10px`}, sliderParams.animationTime / 2)
       .addClass(activeDotClass);
   }
 
   const updateNav = () => {
     const currentLeftOffset = parseInt($slider.css('left'), 10);
+    const firstElement = sliderStatus.currentElement === 0;
+    const lastElement = currentLeftOffset === sliderParams.maxPosition || currentLeftOffset === sliderParams.maxPosition - 360 || sliderStatus.currentElement === $sliderCards.length - 1;
+    const isUpdateMobile = sliderParams.windowWidth <= sliderParams.breakpoint;
 
-    if (currentElement === 0) {
-      $sliderNavPrev.addClass(hiddenNavClass);
-      $sliderNavNext.removeClass(hiddenNavClass);
-    } else if (currentLeftOffset === maxPosition || currentLeftOffset === maxPosition - 360) {
-      $sliderNavPrev.removeClass(hiddenNavClass);
-      $sliderNavNext.addClass(hiddenNavClass);
-    } 
+    if (!isUpdateMobile) $sliderNav.removeClass(classes.hiddenNav);
+
+    if (firstElement) {
+      $sliderNavPrev.addClass(classes.hiddenNav);
+      if (isUpdateMobile) $sliderNavNext.removeClass(classes.hiddenNav);
+    } else if (lastElement) {
+      $sliderNavNext.addClass(classes.hiddenNav);
+      if (isUpdateMobile) $sliderNavPrev.removeClass(classes.hiddenNav);
+    }
   }
 
   const updateValues = () => {
-    wrapperWidth = $sliderWrapper.width();
-    sliderWidth = $slider.width();
-    maxPosition = wrapperWidth - sliderWidth;
-    cardWidth = `-${($sliderCards.width() + 10)}`;
-    currentElement = 0;
-    positions = [];
+    const paramsUpdate = {
+      breakpoint: sliderType === 'product-design' ? 576 : 420,
+      windowWidth: window.innerWidth,
+      wrapperWidth: $sliderWrapper.width(),
+      sliderWidth: $slider.width(),
+      cardWidth: `-${($sliderCards.width() + 10)}`,
+      maxPosition: $sliderWrapper.width() - $slider.width()
+    };
+
+    const statusUpdate = {
+      currentElement: 0,
+      positions: []
+    };
+
+    sliderParams = {...sliderParams, ...paramsUpdate};
+    sliderStatus = {...sliderStatus, ...statusUpdate};
 
     addPositions();
-    if(windowWidth > 420) positions.push(maxPosition);
+
+    if (sliderParams.windowWidth > breakpoints.small) {
+      sliderStatus.positions.push(sliderParams.maxPosition);
+    }
+
     updateNav();
   }
 
   const openCard = (e) => {
-    if (!isClosing && windowWidth > 576) {
+    const shouldCardOpen = !sliderStatus.isClosing && (sliderType === 'product-design' || sliderParams.windowWidth > 576);
+
+    if (shouldCardOpen) {
+      const areCardsCollapsed = sliderType === 'product-design' && sliderParams.windowWidth < 811;
+      const shouldCloseBtnOccur = sliderType !== 'product-design' || sliderParams.windowWidth > 811;
       const clickTarget = $(e.currentTarget);
       const indexOfClickedElem = $sliderCards.index(clickTarget);
-      let newPosition = (indexOfClickedElem * cardWidth) + (wrapperWidth / 2) - (openedCardWidth / 2);
+      const isElementMax = indexOfClickedElem > sliderStatus.positions.length - 1;
+      const openedCardWidth = areCardsCollapsed ? sliderParams.windowWidth : 610;
+      const statusUpdate = {
+        currentElement: isElementMax ? sliderStatus.positions.length - 2 : indexOfClickedElem,
+        inProgress: true
+      }
 
-      currentElement = indexOfClickedElem < positions.length - 1 ? indexOfClickedElem : positions.length - 2;
+      let newPosition = (indexOfClickedElem * sliderParams.cardWidth) + (sliderParams.wrapperWidth / 2) - (openedCardWidth / 2);
 
-      if (newPosition < (maxPosition - 360)) {
-        newPosition = maxPosition - 360;
+      if (newPosition < (sliderParams.maxPosition - 360)) {
+        newPosition = sliderParams.maxPosition - 360;
       } else if (newPosition > 0) {
         newPosition = 0;
       }
 
-      inProgress = true;
+      sliderStatus = {...sliderStatus, ...statusUpdate};
 
       moveToPosition(newPosition);
       closeAllCards();
 
-      clickTarget.addClass(openCardClass);
-      clickTarget.find(`[${sliderCloseAttr}]`).removeClass(closeButtonClass);
+      clickTarget.addClass(classes.openCard);
+      if (shouldCloseBtnOccur) clickTarget.find(`[${attributes.close}]`).removeClass(classes.closeBtn);
     }
 
-    isClosing = false;
+    sliderStatus.isClosing = false;
   }
 
   const closeCard = (e) => {
     const clickTarget = $(e.currentTarget);
 
     closeAllCards();
-    if (parseInt($slider.css('left'), 10) < maxPosition) moveToPosition(maxPosition);
-    clickTarget.addClass(closeButtonClass);
-    isClosing = true;
+    if (parseInt($slider.css('left'), 10) < sliderParams.maxPosition) moveToPosition(sliderParams.maxPosition);
+    clickTarget.addClass(classes.closeBtn);
+    sliderStatus.isClosing = true;
   }
 
   const closeAllCards = () => {
-    $sliderClose.addClass(closeButtonClass);
-    $sliderCards.removeClass(openCardClass);
+    $sliderClose.addClass(classes.closeBtn);
+    $sliderCards.removeClass(classes.openCard);
   }
 
   const resetSlider = () => {
@@ -182,9 +235,9 @@ window.addEventListener('load', () => {
     clearTimeout(endResize);
 
     window.endResize = setTimeout(function(){
-      $sliderCards.removeClass(openCardClass);
+      $sliderCards.removeClass(classes.openCard);
       updateValues();
-      moveToPosition(positions[0]);
-    }, animationTime);
+      moveToPosition(sliderStatus.positions[0]);
+    }, sliderParams.animationTime);
   }
 }, { passive: true });
