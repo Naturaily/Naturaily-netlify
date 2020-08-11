@@ -128,13 +128,8 @@ window.addEventListener('load', () => {
     const $newActiveDot = $($sliderDots.find(`[${attributes.dotIndex} = ${sliderStatus.currentElement}]`)[0]);
     const activeDotClass = 'custom-carousel__dots-item--active';
 
-    $sliderDots.children()
-      .animate({ height: `5px`, width: `5px`}, sliderParams.animationTime / 2)
-      .removeClass(activeDotClass);
-
-    $newActiveDot
-      .animate({ height: `10px`, width: `10px`}, sliderParams.animationTime / 2)
-      .addClass(activeDotClass);
+    $sliderDots.children().removeClass(activeDotClass);
+    $newActiveDot.addClass(activeDotClass);
   }
 
   const updateNav = () => {
