@@ -19,16 +19,28 @@
       margin-bottom: 10px;
     }
   }
+
+  .btn-white {
+    margin-top: 25px;
+    margin-left: -25px;
+  }
 }
 
 @media (min-width: 576px) {
-  .custom-ecommerce__technologies-logo {
-    height: 30px;
-    margin-top: 10px;
+  .custom-ecommerce__technologies {
+    &-logo {
+      height: 30px;
+      margin-top: 10px;
 
-    &--node {
-      height: 25px;
-      margin-bottom: 5px;
+      &--node {
+        height: 25px;
+        margin-bottom: 5px;
+      }
+    }
+
+    .btn-white {
+      max-width: 100%;
+      margin-left: -13px;
     }
   }
 }
@@ -53,6 +65,12 @@
         height: 30px;
         margin-bottom: 10px;
       }
+    }
+
+    .btn-white {
+      width: 150px;
+      max-width: 150px;
+      margin-left: -25px;
     }
   }
 }
