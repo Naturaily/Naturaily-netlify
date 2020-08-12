@@ -1,6 +1,6 @@
 .product-design__case {
   width: 100%;
-  margin-top: 50px;
+  margin: 50px 0 60px;
 
   .services__step, .services__header {
     margin-bottom: 30px;
@@ -94,7 +94,7 @@
 @media (min-width: 811px) {
   .product-design__case {
     position: relative;
-    margin-top: 75px;
+    margin: 75px 0 85px;
 
     .services__step, .services__header, &-text {
       box-sizing: border-box;
@@ -147,7 +147,7 @@
 
 @media (min-width: 992px) {
   .product-design__case {
-    margin-top: 150px;
+    margin: 150px 0 160px;
 
     .services__header {
       font-size: 2.25em;
