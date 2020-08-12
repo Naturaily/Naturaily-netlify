@@ -40,9 +40,10 @@
 
     &__image {
       position: absolute;
-      top: 250px;
+      top: 150px;
       right: 0;
       width: 60%;
+      margin-top: 0;
       text-align: right;
 
       img {
@@ -79,7 +80,6 @@
 @media (min-width: 1200px) {
   .portfolio-nutshell {
     &__image {
-      top: 150px;
       right: 75px;
     }
 

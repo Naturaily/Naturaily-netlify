@@ -102,6 +102,7 @@ plugins:
   - jekyll-debug
   - jekyll-include-cache
   - jekyll-compress-images
+  - jekyll-inline-svg
 
 exclude:
   - .sass-cache/
