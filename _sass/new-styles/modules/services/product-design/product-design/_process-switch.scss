@@ -17,6 +17,7 @@
       position: relative;
       width: 50vw;
       text-align: center;
+      cursor: pointer;
 
       &-arrow, &-number {
         position: absolute;
@@ -34,17 +35,31 @@
         border-left: 10px solid #FF5E45;
       }
 
+      &-number, &-title, &-icon__background {
+        transition: 0.4s;
+      }
+
       &-number {
         top: 0;
       }
 
-      &-icon {
-        width: 80px;
-        height: 80px;
+      &-icon__background {
+        fill: $color-secondary;
       }
 
       &-title {
         margin-top: 15px;
+      }
+
+      &:hover .product-design__process-nav__item,
+      &--active .product-design__process-nav__item {
+        &-icon__background {
+          fill: $color-accent-yellow;
+        }
+
+        &-title, &-number {
+          color: $color-accent-yellow;
+        }
       }
     }
 
@@ -104,6 +119,8 @@
   &-cards {
     display: flex;
     flex-direction: row;
+    position: relative;
+    left: -25%;
     width: 400%;
   }
 
