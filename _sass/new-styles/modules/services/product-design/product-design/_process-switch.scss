@@ -1,0 +1,225 @@
+.product-design__process {
+  position: relative;
+  padding-top: 50px;
+
+  &-nav {
+    height: 140px;
+    position: relative;
+
+    &__items {
+      display: flex;
+      position: absolute;
+      top: 0;
+      left: -25vw;
+    }
+
+    &__item {
+      position: relative;
+      width: 50vw;
+      text-align: center;
+
+      &-arrow, &-number {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50px);
+      }
+
+      &-arrow {
+        top: 34px;
+        width: 0;
+        height: 0;
+        z-index: 2;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 10px solid #FF5E45;
+      }
+
+      &-number {
+        top: 0;
+      }
+
+      &-icon {
+        width: 80px;
+        height: 80px;
+      }
+
+      &-title {
+        margin-top: 15px;
+      }
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 40px;
+      z-index: -1;
+      width: 100%;
+      height: 1px;
+      background-color: $color-secondary;
+    }
+  }
+
+  &-arrows {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 585px;
+    left: 0;
+    width: 100vw;
+    padding: 0 20px;
+  }
+
+  &-arrow {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 100%;
+    background-color: $color-white;
+
+    .icon {
+      position: absolute;
+      top: 13px;
+      font-size: 1em;
+      font-weight: 600;
+      color: $color-page-text;
+
+      &-chevron-left {
+        left: 13px;
+      }
+
+      &-chevron-right {
+        left: 15px;
+      }
+    }
+
+    &--hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  &-cards {
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+  }
+
+  &-card {
+    box-sizing: border-box;
+    width: 100vw;
+
+    &__header {
+      padding: 30px 20px 35px;
+      font-size: 2.25em;
+      font-weight: 400;
+      color: $color-page-text-second;
+    }
+
+    &__content {
+      padding: 35px 20px 30px;
+    }
+
+    &__text, &__list {
+      line-height: 1.5;
+      color: $color-page-text;
+    }
+
+    &__list {
+      padding: 10px 0;
+
+      li {
+        position: relative;
+        padding-left: 35px;
+
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 9px;
+          left: 10px;
+          height: 5px;
+          width: 5px;
+          background-color: $color-secondary;
+          border-radius: 100%;
+        }
+      }
+    }
+
+    &__image  {
+      height: 350px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &-switcher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+
+    &__counter {
+      position: relative;
+    }
+
+    &__number {
+      font-size: 1em;
+      font-weight: 400;
+      color: $color-page-text;
+
+      &--active {
+        margin-right: 55px;
+        color: $color-secondary;
+      }
+    }
+
+    &__separator {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 19px;
+      width: 45px;
+      height: 1px;
+      background-color: $color-page-text;
+    }
+  }
+
+  &-buttons {
+    margin-right: 35px;
+  }
+
+  &-button {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 100%;
+    background-color: $color-secondary;
+
+    .icon {
+      position: absolute;
+      top: 10px;
+      font-size: 0.8em;
+      font-weight: 600;
+      color: $color-white;
+
+      &-chevron-left {
+        left: 8px;
+      }
+
+      &-chevron-right {
+        left: 10px;
+      }
+    }
+
+    &--prev {
+      margin-right: 15px;
+    }
+  }
+}
