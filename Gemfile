@@ -28,6 +28,7 @@ group :jekyll_plugins do
    gem "jekyll-include-cache"
    gem 'jekyll-compress-images', :git => 'https://github.com/valerijaspasojevic/jekyll-compress-images.git'
    gem 'jekyll-minifier'
+   gem 'jekyll-inline-svg'
 
 end
 
