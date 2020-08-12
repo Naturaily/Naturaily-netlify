@@ -130,6 +130,7 @@ plugins:
   - jekyll-debug
   - jekyll-include-cache
   - jekyll-minifier
+  - jekyll-inline-svg
 
 exclude:
   - .sass-cache/

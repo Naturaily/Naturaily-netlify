@@ -11,7 +11,7 @@
   }
 }
 
-.btn-primary {
+.btn-primary, .btn-arrow {
   @include red-gradient-background();
   border-radius: 30px;
   color: $color-white;
@@ -24,9 +24,10 @@
   &.btn-arrow {
     padding: 18px 22px 18px 40px;
 
-    img {
-      margin-left: 15px;
-      margin-bottom: 2px;
+    .btn-arrow_arrow {
+      margin-left: 20px;
+      padding-top: 1px;
+      padding-right: 5px;
     }
   }
 
@@ -101,7 +102,13 @@
   }
 
   &_arrow {
+    display: flex;
+    align-items: center;
     height: 11px;
+
+    .arrow-line {
+      fill: $color-secondary;
+    }
   }
 }
 
@@ -116,6 +123,10 @@
 .btn-bordered {
   max-width: 190px;
   border: 2px solid $color-secondary;
+
+  &_arrow {
+    padding-top: 2px;
+  }
 }
 
 .btn-white {
