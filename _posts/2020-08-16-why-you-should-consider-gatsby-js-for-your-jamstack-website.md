@@ -23,6 +23,7 @@ tags:
 If you’re building a JAMstack site, there are a few key choices you need to make - not least of all the site generator that you use.
 
 There are a number of options to choose from but, since JAMstack development focuses on lean, fast loading & performance with a focus on static elements, the generator you choose becomes a key driver (or bottleneck) of this process.\
+\
 **That’s why we recommend Gatsby. We’ve used it before, we’re using it now and we’re very confident we’ll use it again! Let’s explore why Gatsby and JAMstack go so well together.**
 
 But first...
@@ -102,6 +103,8 @@ More specifically, the CMS should act like the database for the generator to dra
 
 ## Gatsby & JAMstack!
 
-There you have it. We’re not saying that other generators aren’t up to the task (indeed, there are numerous options on the market), but simply that we feel Gatsby makes a much stronger argument than the others. From our own experiences, it’s a tried and tested method that we’ve yet to supercede.
+There you have it. We’re not saying that other generators aren’t up to the task (indeed, there are numerous options on the market), but simply that we feel Gatsby makes a much stronger argument than the others. From our own experiences, it’s a tried and tested method that we’ve yet to supersede.
 
 The next time you’re developing a JAMstack project, why not give Gatsby a try?
+
+[{% image /assets/images/get-an-estimate.png Get_an_estimate  %}](https://naturaily.com/get-an-estimate){:target="_blank"}
