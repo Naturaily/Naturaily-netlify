@@ -42,8 +42,8 @@
   .product-design__right {
     padding: 100px 75px 75px;
 
-    &__box {
-      padding-top: 50px;
+    &-text .services__header {
+      font-size: 3em;
     }
   }
 }
@@ -131,6 +131,10 @@
 
 @media (min-width: 992px) {
   .product-design__right {
+    &-text .services__header {
+      font-size: 3em;
+    }
+
     &-box {
       right: 75px;
       margin-left: 125px;
