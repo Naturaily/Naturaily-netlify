@@ -43,7 +43,7 @@ window.addEventListener('load', () => {
     $cards = $switch.find('[switch-cards]');
     $counter = $switch.find('[switch-counter]');
     switchSize = $($cards).children().length;
-    isMobile = window.innerWidth < 576;
+    isMobile = window.innerWidth < 811;
 
     const $activeCard = $switch.find('[switch-active-card]');
     switchStatus.index = parseInt($activeCard[0].dataset.index);
@@ -72,6 +72,7 @@ window.addEventListener('load', () => {
     const $newActiveElem = $navContainer.find(`[data-index="${index}"]`)
     const activeClass = 'product-design__process-nav__item--active';
 
+    console.log(isMobile);
     if (isMobile) {
       const initialPosition = 25;
       const positionChange = 50;
