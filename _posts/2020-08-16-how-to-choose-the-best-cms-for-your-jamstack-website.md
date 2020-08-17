@@ -98,7 +98,7 @@ Does your website, for example, rely on React for the frontend? If so, many CMS�
 
 Like any technology, you need to consider how it interacts with the other options you are making. With JAMstack, we have some technologies already chosen, but every CMS will work with these web essentials. It’s the additional elements that you need to consider.
 
-If you’re using the likes of React and other frameworks based on it, it’s important to choose a CMS that’s either built to work with React in mind. Similarly, if you’re using any other advanced integrations, such as Magento or Shopify for e-commerce, this needs to be considered. Different CMSs are built with different integrations in mind and we certainly don’t believe there’s a golden CMS that’s perfect with everything.
+If you’re using the likes of React and other frameworks based on it, it’s important to choose a CMS that’s either built to work with React in mind. Similarly, if you’re using any other advanced integrations, such as Magento or Shopify for e-commerce, this needs to be considered. Different CMS are built with different integrations in mind and we certainly don’t believe there’s a golden CMS that’s perfect with everything.
 
 <br>
 
@@ -112,7 +112,7 @@ If possible, it’s ideal to have the CMS to act as the database, storing all th
 
 ## Users and Roles
 
-This might seem simple but it’s important. While JAMstack is well known for its scalability, we also need a CMS that does the same. Yet most CMSs come in the form of subscription packages - and therein lies the problem.
+This might seem simple but it’s important. While JAMstack is well known for its scalability, we also need a CMS that does the same. Yet most CMS come in the form of subscription packages - and therein lies the problem.
 
 A package that gives us limited user accounts - or even role management - bottlenecks the overall productivity. A team of 5 people can likely use any such CMS as needed but, what happens when you need 20-30 people with different levels of access? You might need to upgrade your CMS package, drastically denting the existing budget.
 
