@@ -33,27 +33,6 @@
   .btn-bordered {
     margin-left: 20px;
   }
-
-  &-link {
-    width: 100%;
-    padding: 0 20px 20px;
-
-    &__text {
-      max-width: 310px;
-      font-size: 1.5em;
-      line-height: 1.5;
-      color: $color-page-text-second;
-    }
-
-    .geometric-figure {
-      display: none;
-    }
-
-    .btn-primary.btn-arrow {
-      width: 230px;
-      margin: 30px 0 50px;
-    }
-  }
 }
 
 @media (min-width: 576px) {
@@ -69,35 +48,6 @@
 
     .btn-bordered {
       margin-left: 75px;
-    }
-
-    &-link {
-      position: relative;
-      padding: 0 75px 20px 250px;
-
-      .geometric-figure {
-        display: flex;
-        top: 15px;
-        left: 75px;
-
-        &_center, &_right::after {
-          height: 70px;
-          width: 70px;
-        }
-
-        &_center {
-          border-color: $color-geometric-blue-accent;
-        }
-
-        &_right {
-          width: 35px;
-          height: 70px;
-
-          &::after {
-            background-color: $color-geometric-blue;
-          }
-        }
-      }
     }
   }
 }
@@ -132,30 +82,6 @@
       width: 500px;
       padding: 0 0 25px;
     }
-
-    &-link {
-      display: flex;
-      align-items: center;
-      height: 80px;
-      padding: 0 75px 100px 250px;
-
-      .geometric-figure {
-        top: 25%;
-        transform: translateY(-50%) rotate(180deg);
-        width: 110px;
-      }
-
-      &__text {
-        padding-right: 75px;
-      }
-
-      .btn-primary.btn-arrow {
-        width: 160px;
-        min-width: 160px;
-        margin: 0;
-        z-index: 2;
-      }
-    }
   }
 }
 
@@ -170,22 +96,12 @@
     &-image {
       width: 100%;
     }
-
-    &-link {
-      padding-left: 325px;
-
-      &__text {
-        max-width: 360px;
-        padding-right: 75px;
-        font-size: 2.25em;
-      }
-    }
   }
 }
 
 @media (min-width: 1200px) {
   .product-design__dajemy {
-    margin-top: 200px;
+    margin-top: 150px;
 
     .services__header, &-text {
       max-width: 470px;
@@ -194,14 +110,6 @@
     &-slider {
       left: 50%;
       padding-right: 75px;
-    }
-
-    &-link {
-      padding-left: 375px;
-
-      .geometric-figure {
-        left: 175px;
-      }
     }
   }
 }
