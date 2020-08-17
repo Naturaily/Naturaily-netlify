@@ -28,21 +28,26 @@
       display: flex;
       top: 15px;
       left: 75px;
+      width: 110px;
 
       &_center, &_right::after {
         height: 70px;
         width: 70px;
       }
 
-      &_center {
-        border-color: $color-geometric-blue-accent;
-      }
-
       &_right {
         width: 35px;
         height: 70px;
+      }
 
-        &::after {
+      &--blue {
+        transform: rotate(180deg);
+
+        .geometric-figure_center {
+          border-color: $color-geometric-blue-accent;
+        }
+
+        .geometric-figure_right::after {
           background-color: $color-geometric-blue;
         }
       }
@@ -63,8 +68,11 @@
 
     .geometric-figure {
       top: 25%;
-      transform: translateY(-50%) rotate(180deg);
-      width: 110px;
+      transform: translateY(-50%);
+
+      &--blue {
+        transform: translateY(-50%) rotate(180deg);
+      }
     }
 
     .btn-primary.btn-arrow {
