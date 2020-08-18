@@ -1,0 +1,356 @@
+.product-design__design {
+  position: relative;
+  height: 530px;
+  margin-top: 30px;
+  padding: 30px 0 50px;
+  background-color: $color-code-grey-bg;
+
+  &-arrows {
+    display: none;
+  }
+
+  &-arrow, &-button {
+    transition: 0.4s;
+  }
+
+  &-wrapper {
+    width: 100vw;
+  }
+
+  &-cards {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0;
+    width: 300%;
+  }
+
+  &-card {
+    box-sizing: border-box;
+    width: 33.3%;
+    height: 500px;
+    padding-top: 80px;
+    overflow: hidden;
+
+    &__header {
+      margin-bottom: -150px;
+      padding: 20px;
+      font-size: 2em;
+      font-weight: 500;
+      color: $color-page-text-second;
+
+      &--prototyping {
+        margin-top: -80px;
+        margin-bottom: -70px;
+      }
+    }
+
+    &__content {
+      padding: 30px 20px;
+    }
+
+    &__text {
+      line-height: 1.5;
+      color: $color-page-text;
+
+      &--secondary {
+        color: $color-secondary;
+      }
+    }
+
+    &__image  {
+      box-sizing: border-box;
+      height: 360px;
+      overflow: hidden;
+
+      &--illustration {
+        padding-left: 5px;
+        text-align: center;
+
+        img {
+          width: 380px;
+        }
+      }
+
+      &--ui-design {
+        padding: 20px 0 0 50px;
+
+        img {
+          height: 100%;
+          width: auto;
+        }
+      }
+
+      &--prototyping {
+        text-align: center;
+
+        img {
+          height: 100%;
+          max-width: 420px;
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+
+  &-switcher, &-switcher__counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &-switcher {
+    padding: 0 20px;
+
+    &__counter {
+      position: relative;
+    }
+
+    &__number {
+      padding-left: 57px;
+      font-size: 1em;
+      font-weight: 400;
+      color: $color-page-text;
+      font-weight: 500;
+
+      &--active {
+        position: relative;
+        height: 16px;
+        width: 25px;
+        padding: 0;
+        overflow: hidden;
+
+        span {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+
+    &__separator {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 29px;
+      width: 45px;
+      height: 1px;
+      background-color: $color-page-text;
+    }
+  }
+
+  &-buttons {
+    margin-right: 30px;
+  }
+
+  &-button {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 100%;
+    background-color: $color-secondary;
+
+    .icon {
+      position: absolute;
+      top: 10px;
+      font-size: 0.8em;
+      font-weight: 600;
+      color: $color-white;
+
+      &-chevron-left {
+        left: 8px;
+      }
+
+      &-chevron-right {
+        left: 10px;
+      }
+    }
+
+    &--prev {
+      margin-right: 15px;
+    }
+
+    &--disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__design {
+    &-card {
+      &__header, &__content {
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+
+      &__image--ui-design {
+        text-align: center;
+      }
+    }
+
+    &-switcher {
+      padding: 0 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__design {
+    height: 400px;
+    width: 100vw;
+    margin: 0;
+    padding: 75px 50px 75px 0;
+    background-color: $color-white;
+    overflow: hidden;
+
+    &-wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: $color-code-grey-bg;
+      border-radius: 0 4px 4px 0;
+    }
+
+    &-card {
+      position: relative;
+      height: 400px;
+      padding: 0;
+      overflow: visible;
+
+      &__header {
+        margin: 0;
+        padding: 75px 75px 20px;
+      }
+
+      &__text {
+        color: $color-global-font-70;
+      }
+
+      &__content {
+        box-sizing: border-box;
+        width: 40%;
+        max-width: 540px;
+        padding: 20px 25px 30px 75px;
+      }
+
+      &__image {
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translateY(-50%);
+        width: 60%;
+        height: 115%;
+        padding: 0;
+
+        img {
+          height: 100%;
+          width: auto;
+          max-width: 100%;
+        }
+      }
+    }
+
+    &-switcher {
+      margin-top: -75px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__design {
+    padding: 120px 50px 100px 0;
+
+    &-card__image {
+      &--illustration, &--prototyping {
+        height: 125%;
+      }
+
+      &--ui-design {
+        height: 115%;
+      }
+    }
+
+    &-arrows {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 440px;
+      right: 30px;
+      z-index: 1;
+      width: 50vw;
+    }
+
+    &-arrow {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-radius: 100%;
+      background-color: $color-white;
+      box-shadow: 0 0 10px $color-btn-shadow-darker;
+      transition: 0.4s;
+
+      .icon {
+        position: absolute;
+        top: 15px;
+        font-size: 0.8em;
+        font-weight: 600;
+        color: $color-secondary;
+
+        &-chevron-left {
+          left: 13px;
+        }
+
+        &-chevron-right {
+          left: 15px;
+        }
+      }
+
+      &--hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      &:hover {
+        box-shadow: 0 0 10px $color-secondary;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__design {
+    left: -25px;
+    height: 500px;
+    padding: 150px 25px 120px 0;
+
+    &-card__header, &-card__content, &-switcher {
+      padding-left: 100px;
+    }
+
+    &-wrapper {
+
+    }
+
+    &-card {
+      height: 500px;
+
+      &__header {
+        padding-top: 100px;
+      }
+    }
+
+    &-arrows {
+      top: 570px;
+      right: 5px;
+    }
+
+    &-switcher {
+      margin-top: -100px;
+    }
+  }
+}
