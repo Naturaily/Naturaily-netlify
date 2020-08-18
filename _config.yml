@@ -102,23 +102,6 @@ defaults:
 
 permalink: /blog/:title
 
-pwa:
-  sw_src_filepath: service-worker.js # Optional
-  sw_dest_filename: service-worker.js # Optional
-  dest_js_directory: assets/js # Required
-  cache_name: my-cache # Optional
-  precache_recent_posts_num: 5 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "fonts/**/*"
-
-compress_images:
-  images_path: "assets/images/**/*.{gif,png,jpg,jpeg,svg}"
-
 imageoptim:
   skip_missing_workers: true
   nice: 5
@@ -146,9 +129,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-debug
   - jekyll-include-cache
-  - jekyll-pwa-plugin
-  - jekyll-compress-images
   - jekyll-minifier
+  - jekyll-inline-svg
 
 exclude:
   - .sass-cache/

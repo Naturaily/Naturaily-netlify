@@ -50,7 +50,7 @@
 
 @media (min-width: 576px) {
   .services-numbers {
-    padding: 50px 75px 0;
+    padding: 0 75px;
 
     &__list li {
       margin: 0 -50px;
@@ -101,7 +101,7 @@
 
 @media (min-width: 992px) {
   .services-numbers {
-    padding-top: 50px;
+    padding-top: 25px;
 
     &__image {
       text-align: right;
@@ -178,6 +178,5 @@
         left: 600px;
       }
     }
-
   }
 }

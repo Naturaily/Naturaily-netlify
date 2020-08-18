@@ -90,6 +90,10 @@
         }
       }
     }
+
+    a {
+      color: $color-secondary;
+    }
   }
 
   .geometric-figure {
@@ -178,6 +182,10 @@
           background-color: $color-geometric-blue;
         }
       }
+    }
+
+    &--custom-ecommerce .services__header {
+      max-width: 550px;
     }
   }
 }

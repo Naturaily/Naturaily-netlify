@@ -24,6 +24,7 @@
 @import "modules/estimate";
 @import "modules/estimate-page";
 @import "modules/other";
+@import "modules/clutch";
 
 // CAREERS SPECIFIC STYLES //
 
@@ -78,6 +79,12 @@
 
 @import "modules/services/ecommerce/ecommerce/choose-us";
 @import "modules/services/ecommerce/ecommerce/cite";
+
+@import "modules/services/ecommerce/custom/hero";
+@import "modules/services/ecommerce/custom/services";
+@import "modules/services/ecommerce/custom/technologies";
+@import "modules/services/ecommerce/custom/process";
+@import "modules/services/ecommerce/custom/presentation";
 
 @import "modules/services/ecommerce/shopify/footer";
 @import "modules/services/ecommerce/shopify/case-studies";
@@ -137,7 +144,6 @@
 @import "modules/portfolio/case";
 @import "modules/portfolio/case-accordion";
 @import "modules/portfolio/artinfo";
-@import "modules/portfolio/clutch";
 @import "modules/portfolio/nutshell";
 
 @import "modules/portfolio-cases/main";
@@ -246,20 +252,6 @@ a.text-secondary {
     }
   }
 
-  a:not(.link) {
-    background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
-    text-decoration: none;
-    transition: background-size .2s ease-in, color .1s ease;
-
-    &:hover {
-      color: #fff;
-      background-size: 100% 88%;
-    }
-  }
-
   small {
     font-size: 14px;
     color: rgba(59, 34, 15, 0.5);
@@ -284,19 +276,19 @@ a.text-secondary {
   }
 }
 
-.hero_text {
-  a {
-    background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
-    text-decoration: none;
-    transition: background-size .2s ease-in, color .1s ease;
+.paragraph a:not(link),
+.hero_text a,
+.services-faq__text a {
+  background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  text-decoration: none;
+  transition: background-size .2s ease-in, color .1s ease;
 
-    &:hover {
-      color: #fff;
-      background-size: 100% 88%;
-    }
+  &:hover {
+    color: #fff;
+    background-size: 100% 88%;
   }
 }
 

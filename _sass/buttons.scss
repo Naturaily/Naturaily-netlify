@@ -24,9 +24,9 @@
   &.btn-arrow {
     padding: 18px 22px 18px 40px;
 
-    img {
-      margin-left: 15px;
-      margin-bottom: 2px;
+    svg {
+      margin-left: 20px;
+      padding-right: 5px;
     }
   }
 
@@ -100,8 +100,14 @@
     transform: scale(1.1);
   }
 
-  &_arrow {
+  svg {
+    display: flex;
+    align-items: center;
     height: 11px;
+
+    .arrow-line {
+      fill: $color-secondary;
+    }
   }
 }
 
@@ -116,6 +122,10 @@
 .btn-bordered {
   max-width: 190px;
   border: 2px solid $color-secondary;
+
+  svg {
+    padding-top: 2px;
+  }
 }
 
 .btn-white {

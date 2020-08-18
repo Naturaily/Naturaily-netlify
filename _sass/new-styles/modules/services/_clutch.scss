@@ -15,7 +15,7 @@
   }
 }
 
-@media(min-width: 811px) {
+@media (min-width: 811px) {
   .services-clutch {
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@
       max-width: 300px;
       margin-left: 50px;
 
-      &_arrow {
+      svg {
         margin-left: 15px;
       }
     }

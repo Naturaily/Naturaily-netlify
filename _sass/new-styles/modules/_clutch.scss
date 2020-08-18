@@ -1,11 +1,15 @@
-.portfolio-clutch {
+.clutch {
   position: relative;
   padding: 50px 20px 0;
   margin-top: -25px;
   border-top: 1px solid $color-global-font-10;
   border-bottom: 1px solid $color-global-font-10;
 
-  .portfolio__header {
+  &--custom-ecommerce {
+    margin-top: 15px;
+  }
+
+  .portfolio__header, .services__header {
     position: relative;
     z-index: 2;
     font-weight: 400;
@@ -15,36 +19,37 @@
     }
   }
 
-  &__text {
+  &-text {
     padding: 25px 0;
     line-height: 1.8;
     color: $color-page-text;
   }
 
-  &__check {
-    &-badge {
+  &-check {
+    &__badge {
       width: 100px;
       margin-left: -15px;
     }
 
-    &-logo {
+    &__logo {
       width: 70px;
       margin-left: 10px;
     }
 
     .btn-white {
       justify-content: flex-start;
+      width: 180px;
       max-width: 180px;
       margin: 0;
       padding: 10px 0 15px;
 
-      &_arrow {
+      svg {
         margin-left: 11px;
       }
     }
   }
 
-  &__reviews {
+  &-reviews {
     padding: 25px 0 75px;
     overflow: hidden;
 
@@ -59,7 +64,7 @@
     }
   }
 
-  &__review {
+  &-review {
     position: relative;
     padding: 40px 0;
 
@@ -75,7 +80,7 @@
       margin-bottom: -100px;
     }
 
-    &-quote {
+    &__quote {
       position: relative;
       padding: 0 25px 0 40px;
       font-size: 1.25em;
@@ -91,26 +96,26 @@
       }
     }
 
-    &-credits {
+    &__credits {
       position: relative;
       padding: 30px 25px 0 120px;
 
-      &__person, &__position {
+      &-person, &-position {
         font-size: 0.9em;
         line-height: 1.5;
       }
 
-      &__person {
+      &-person {
         position: relative;
         font-weight: 400;
       }
 
-      &__position {
+      &-position {
         color: $color-page-text;
         opacity: 0.7;
       }
 
-      &__dot {
+      &-dot {
         display: block;
         position: absolute;
         top: 6px;
@@ -122,7 +127,7 @@
         background-color: #FFB040;
       }
 
-      &__avatar {
+      &-avatar {
         position: absolute;
         top: 25px;
         left: 0;
@@ -131,7 +136,7 @@
     }
   }
 
-  &__shadow {
+  &-shadow {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -141,7 +146,7 @@
     background: linear-gradient(to bottom, $color-transparent 0%, $color-white 60%);
   }
 
-  .portfolio__figure {
+  .portfolio__figure, .services__figure {
     &-circle, &-dot {
       top: 220px;
       right: 50px;
@@ -181,22 +186,30 @@
 }
 
 @media (min-width: 576px) {
-  .portfolio-clutch {
+  .clutch {
     margin: -75px 25px -50px;
     padding: 50px 50px 0;
     overflow: hidden;
     border: 1px solid $color-global-font-10;
     border-radius: 8px;
 
-    &__reviews {
+    &--custom-ecommerce {
+      margin-top: -15px;
+    }
+
+    &-reviews {
       padding: 75px 0 100px;
     }
 
-    &__text {
+    &-review__quote .icon-quote {
+      left: 0;
+    }
+
+    &-text {
       padding: 50px 0;
     }
 
-    .portfolio__figure {
+    .portfolio__figure, .services__figure {
       &-circle, &-dot {
         top: 280px;
         right: 100px;
@@ -217,27 +230,27 @@
 }
 
 @media (min-width: 811px) {
-  .portfolio-clutch {
+  .clutch {
     display: flex;
     align-items: center;
     margin: 0 35px -25px;
     padding: 0 0 0 40px;
 
-    &__intro, &__reviews {
+    &-intro, &-reviews {
       box-sizing: border-box;
       width: 50%;
       z-index: 2;
     }
 
-    &__intro {
+    &-intro {
       margin: 100px 0 75px;
     }
 
-    &__header {
+    &-header {
       margin-top: -25px;
     }
 
-    &__reviews {
+    &-reviews {
       position: absolute;
       top: 25px;
       right: 0;
@@ -251,7 +264,7 @@
       }
     }
 
-    &__review {
+    &-review {
       &--hidden-sm {
         display: block;
       }
@@ -268,7 +281,7 @@
         padding-bottom: 75px;
       }
 
-      &-quote {
+      &__quote {
         padding-right: 0;
 
         .icon-quote {
@@ -276,16 +289,16 @@
         }
       }
 
-      &-credits {
+      &__credits {
         padding: 25px 0 0 150px;
 
-        &__avatar {
+        &-avatar {
           left: 30px;
         }
       }
     }
 
-    &__shadow {
+    &-shadow {
       bottom: 50px;
       left: auto;
       right: 0;
@@ -295,7 +308,7 @@
       background: linear-gradient(to bottom, $color-transparent 0%, $color-white 90%);
     }
 
-    .portfolio__figure {
+    .portfolio__figure, .services__figure {
       &-circle, &-dot {
         top: 350px;
         left: 25%;
@@ -330,17 +343,21 @@
 }
 
 @media (min-width: 992px) {
-  .portfolio-clutch {
-    &__text {
+  .clutch {
+    &--custom-ecommerce {
+      margin-top: -25px;
+    }
+
+    &-text {
       padding-right: 50px;
     }
 
-    &__check {
+    &-check {
       display: flex;
       align-items: center;
       justify-content: space-between;
 
-      &-logo {
+      &__logo {
         height: 20px;
       }
 
@@ -353,11 +370,11 @@
       }
     }
 
-    &__reviews {
+    &-reviews {
       max-height: 800px;
     }
 
-    .portfolio__figure {
+    .portfolio__figure, .services__figure {
       &-circle, &-dot {
         top: calc(50% - 25px);
       }
@@ -376,27 +393,32 @@
 }
 
 @media (min-width: 1200px) {
-  .portfolio-clutch {
+  .clutch {
     margin-left: 20px;
 
-    &__intro {
+    .services__header {
+      padding-right: 50px;
+      font-size: 3em;
+    }
+
+    &-intro {
       margin: 125px 0 100px;
       padding-left: 15px;
     }
 
-    &__text, &__reviews {
+    &-text, &-reviews {
       padding-right: 100px;
     }
 
-    &__review {
+    &-review {
       padding-bottom: 90px;
 
-      &-credits__avatar {
+      &__credits-avatar {
         left: 0;
       }
     }
 
-    &__check .btn-white {
+    &-check .btn-white {
       padding-right: 120px;
     }
   }

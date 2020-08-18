@@ -20,13 +20,13 @@
   }
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
   .iot-case-study {
     padding: 50px 75px;
   }
 }
 
-@media(min-width: 811px) {
+@media (min-width: 811px) {
   .iot-case-study {
     position: relative;
 
@@ -49,7 +49,7 @@
   }
 }
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .iot-case-study {
     &__image {
       top: 25px;
@@ -61,7 +61,7 @@
   }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .iot-case-study {
     .services__step {
       margin-bottom: 50px;
