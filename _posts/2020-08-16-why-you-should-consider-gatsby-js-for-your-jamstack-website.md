@@ -3,7 +3,7 @@ title: Why You Should Consider Gatsby JS for Your JAMstack Website
 description: Let’s explore why Gatsby and JAMstack go so well together.
 slug: why-you-should-consider-gatsby-js-for-your-jamstack-website
 layout: post
-date: '2020-08-16 03:20:48 +0200'
+date: '2020-08-18 10:00:00 +0200'
 category: JAMstack development
 authors:
   avatar: /assets/images/marcin.jpg
@@ -69,6 +69,7 @@ Of course, this is great for websites, but it’s also great for PWAs, which see
 The most popular technologies don’t just exist because of their official development team - it’s through an active and supportive community that the technology is adapted to suit the wider needs of the industry. Gatsby is no exception to this.
 
 It’s very well supported, with developers contributing the likes of new plugins, transformers and more. Whatever you need, if it isn’t part of the official Gatsby package, there’s a good chance someone has already worked on a solution.\
+\
 Alongside its official support, this means there are relatively few challenges Gatsby can’t overcome. Want to add third-party support, pull source data from different sources (such as using a content management system in your JAMstack package) and even using markup (another JAMstack friendly option) with the data? The community has ensured Gatsby is able to do all of that.
 
 <br>
