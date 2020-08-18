@@ -215,6 +215,10 @@
           transform: translateX(-50%);
         }
       }
+
+      &--desktop {
+        display: none;
+      }
     }
 
     &__separator {
@@ -374,6 +378,26 @@
         height: 100%;
         margin-left: 0;
         padding: 0 25px;
+      }
+    }
+
+    &-switcher {
+      &__number {
+        &--active {
+          width: 25px;
+        }
+
+        &--mobile {
+          display: none;
+        }
+
+        &--desktop {
+          display: block;
+        }
+      }
+
+      &__separator {
+        left: 29px;
       }
     }
   }
