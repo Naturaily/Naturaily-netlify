@@ -8,8 +8,17 @@ window.addEventListener('load', () => {
     counter: '[switch-counter]',
     activeCard: '[switch-active-card]',
     index: 'data-index'
-  }
+  };
 
+  let switchData = {
+    index: null,
+    animating: false,
+    size: null,
+    type: null,
+    isMobile: false
+  };
+
+  const animationTime = 500;
   const $allNavs = $(attributes.nav);
   const $allArrows = $(attributes.arrows);
   const $allButtons = $(attributes.buttons);
@@ -20,19 +29,9 @@ window.addEventListener('load', () => {
   let $cards;
   let $counter;
 
-  const animationTime = 500;
-  let isMobile;
-  let switchSize;
-  let switchType;
-
-  let switchStatus = {
-    index: null,
-    animating: false
-  }
-
-  $allNavs.click(() => { switchNav(); });
-  $allArrows.click(() => { switchArrow(); });
-  $allButtons.click(() => { switchArrow(); });
+  $allNavs.click(() => switchNav());
+  $allArrows.click(() => switchArrow());
+  $allButtons.click(() => switchArrow());
 
   const switchNav = () => {
     const newIndex = parseInt($(event.currentTarget)[0].dataset.index);
@@ -45,8 +44,8 @@ window.addEventListener('load', () => {
     setParameters();
 
     const switchDirection = $(event.currentTarget)[0].dataset.direction;
-    const newIndex = (switchDirection === 'prev') ? switchStatus.index - 1 : switchStatus.index + 1;
-    const shouldSwitch = switchDirection && newIndex >= 0 && newIndex < switchSize;
+    const newIndex = switchDirection === 'prev' ? switchData.index - 1 : switchData.index + 1;
+    const shouldSwitch = switchDirection && newIndex >= 0 && newIndex < switchData.size;
 
     if (shouldSwitch) moveToCard(newIndex);
   };
@@ -59,30 +58,34 @@ window.addEventListener('load', () => {
     $buttons = $switch.find(attributes.buttons);
     $counter = $switch.find(attributes.counter);
 
-    switchType = $switch[0].dataset.switchType;
-    switchSize = $($cards).children().length;
-    isMobile = window.innerWidth < 811;
-
     const $activeCard = $switch.find(attributes.activeCard);
-    switchStatus.index = parseInt($activeCard[0].dataset.index);
+    const dataUpdate = {
+      index: parseInt($activeCard[0].dataset.index),
+      type: $switch[0].dataset.switchType,
+      size: $($cards).children().length,
+      isMobile: window.innerWidth < 811
+    };
+
+    switchData = {...switchData, ...dataUpdate};
   };
 
   const moveToCard = (index) => {
-    if (index !== switchStatus.index && !switchStatus.animating) {
+    if (index !== switchData.index && !switchData.animating) {
       const newPosition = -100 * index;
-      const changeDirection = index > switchStatus.index ? 'right' : 'left';
-
-      switchStatus = {
+      const changeDirection = index > switchData.index ? 'right' : 'left';
+      const dataUpdate = {
         index: index,
         animating: true
-      }
+      };
 
-      $($cards).animate({ left: `${newPosition}%` }, animationTime, () => { switchStatus.animating = false });
+      switchData = {...switchData, ...dataUpdate};
+
+      $($cards).animate({ left: `${newPosition}%` }, animationTime, () => { switchData.animating = false });
       if ($nav) updateNav(index);
       updateCards(index);
       updateArrows(index);
       updateCounter(index, changeDirection);
-    }
+    };
   };
 
   const updateNav = (index) => {
@@ -90,17 +93,17 @@ window.addEventListener('load', () => {
     const $newActiveElem = $navContainer.find(`[${attributes.index}="${index}"]`)
     const activeClass = 'product-design__process-nav__item--active';
 
-    if (isMobile) {
+    if (switchData.isMobile) {
       const initialPosition = 25;
       const positionChange = 50;
       const newPosition = initialPosition - index * positionChange;
 
       $($navContainer).animate({ left: `${newPosition}%` }, animationTime);
-    }
+    };
 
     $nav.removeClass(activeClass);
     $newActiveElem.addClass(activeClass);
-  }
+  };
 
   const updateCards = (index) => {
     const activeAttr = 'switch-active-card';
@@ -109,7 +112,7 @@ window.addEventListener('load', () => {
 
     $activeCard.removeAttr(activeAttr);
     $newActiveCard.attr(activeAttr, activeAttr);
-  }
+  };
 
   const updateArrows = (index) => {
     const $prevArrow = $($arrows[0]);
@@ -120,13 +123,13 @@ window.addEventListener('load', () => {
     let arrowHiddenClass;
     let buttonHiddenClass;
 
-    if (switchType === 'process') {
+    if (switchData.type === 'process') {
       arrowHiddenClass = 'product-design__process-arrow--hidden';
       buttonHiddenClass = 'product-design__process-button--disabled';
-    } else if (switchType === 'design') {
+    } else if (switchData.type === 'design') {
       arrowHiddenClass = 'product-design__design-arrow--hidden';
       buttonHiddenClass = 'product-design__design-button--disabled';
-    }
+    };
 
     $buttons.removeClass(buttonHiddenClass);
 
@@ -134,7 +137,7 @@ window.addEventListener('load', () => {
       $prevArrow.addClass(arrowHiddenClass);
       $nextArrow.removeClass(arrowHiddenClass);
       $prevBtn.addClass(buttonHiddenClass);
-    } else if (index === switchSize - 1) {
+    } else if (index === switchData.size - 1) {
       $nextArrow.addClass(arrowHiddenClass);
       $prevArrow.removeClass(arrowHiddenClass);
       $nextBtn.addClass(buttonHiddenClass);
@@ -142,15 +145,18 @@ window.addEventListener('load', () => {
   };
 
   const updateCounter = (index, direction) => {
-    const initialPosition = (direction === 'right') ? '-5px' : '20px';
-    const secondPosition = (direction === 'right') ? '20px' : '-5px';
+    const isMoveRight = direction === 'right';
+    const initialPosition = isMoveRight ? '-5px' : '20px';
+    const secondPosition = isMoveRight ? '20px' : '-5px';
     const finalPosition = '50%';
-    const newInnerHTML = (switchType === 'process' && isMobile) ? index + 1 : `0${index + 1}`;
+
+    const isNumberSingle = switchData.type === 'process' && switchData.isMobile;
+    const newInnerHTML = isNumberSingle ? index + 1 : `0${index + 1}`;
 
     $counter.animate({ left: initialPosition }, animationTime / 2, () => {
       $counter.css('left', secondPosition);
       $counter[0].innerHTML = newInnerHTML;
       $counter.animate({ left: finalPosition }, animationTime / 2);
     });
-  }
-})
+  };
+});
