@@ -140,7 +140,7 @@ With the right multi-channel integration, you will be able to:
 
 When working on optimizing the conversion rates for your store, you should always be using data as the basis for all your decision-making.
 
-A good first step to any optimization is installing a visitor tracking and [analytical software](https://picksaas.com/blog/ecommerce-analytics-tools/){:rel="nofollow"}{:target="_blank"} to collect the data for you.
+A good first step to any optimization is installing a visitor tracking and analytical software to collect the data for you.
 
 You can use software like Hotjar or Heap Analytics to collect the heatmap/scrolling data, alongside Google Optimize to do front-end changes and introduce A/B testing.
 
