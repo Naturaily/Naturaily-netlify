@@ -1,24 +1,38 @@
 window.addEventListener('load', () => {
-  const $navs = $('[switch-nav]');
-  const $arrows = $('[switch-arrow]');
-  const $buttons = $('[switch-button]');
+  const attributes = {
+    switch: '[switch]',
+    nav: '[switch-nav]',
+    arrows: '[switch-arrow]',
+    buttons: '[switch-button]',
+    cards: '[switch-cards]',
+    counter: '[switch-counter]',
+    activeCard: '[switch-active-card]',
+    index: 'data-index'
+  }
+
+  const $allNavs = $(attributes.nav);
+  const $allArrows = $(attributes.arrows);
+  const $allButtons = $(attributes.buttons);
   let $switch;
   let $nav;
+  let $arrows;
+  let $buttons;
   let $cards;
   let $counter;
 
   const animationTime = 500;
   let isMobile;
   let switchSize;
+  let switchType;
 
   let switchStatus = {
     index: null,
     animating: false
   }
 
-  $navs.click(() => { switchNav(); });
-  $arrows.click(() => { switchArrow(); });
-  $buttons.click(() => { switchArrow(); });
+  $allNavs.click(() => { switchNav(); });
+  $allArrows.click(() => { switchArrow(); });
+  $allButtons.click(() => { switchArrow(); });
 
   const switchNav = () => {
     const newIndex = parseInt($(event.currentTarget)[0].dataset.index);
@@ -38,14 +52,18 @@ window.addEventListener('load', () => {
   };
 
   const setParameters = () => {
-    $switch = $(event.target).closest($('[switch]'));
-    $nav = $switch.find('[switch-nav]');
-    $cards = $switch.find('[switch-cards]');
-    $counter = $switch.find('[switch-counter]');
+    $switch = $(event.target).closest($(attributes.switch));
+    $nav = $switch.find(attributes.nav);
+    $cards = $switch.find(attributes.cards);
+    $arrows = $switch.find(attributes.arrows);
+    $buttons = $switch.find(attributes.buttons);
+    $counter = $switch.find(attributes.counter);
+
+    switchType = $switch[0].dataset.switchType;
     switchSize = $($cards).children().length;
     isMobile = window.innerWidth < 811;
 
-    const $activeCard = $switch.find('[switch-active-card]');
+    const $activeCard = $switch.find(attributes.activeCard);
     switchStatus.index = parseInt($activeCard[0].dataset.index);
   };
 
@@ -69,10 +87,9 @@ window.addEventListener('load', () => {
 
   const updateNav = (index) => {
     const $navContainer = $nav.parent();
-    const $newActiveElem = $navContainer.find(`[data-index="${index}"]`)
+    const $newActiveElem = $navContainer.find(`[${attributes.index}="${index}"]`)
     const activeClass = 'product-design__process-nav__item--active';
 
-    console.log(isMobile);
     if (isMobile) {
       const initialPosition = 25;
       const positionChange = 50;
@@ -88,7 +105,7 @@ window.addEventListener('load', () => {
   const updateCards = (index) => {
     const activeAttr = 'switch-active-card';
     const $activeCard = $cards.find(`[${activeAttr}]`)
-    const $newActiveCard = $cards.find(`[data-index=${index}]`);
+    const $newActiveCard = $cards.find(`[${attributes.index}=${index}]`);
 
     $activeCard.removeAttr(activeAttr);
     $newActiveCard.attr(activeAttr, activeAttr);
@@ -97,11 +114,19 @@ window.addEventListener('load', () => {
   const updateArrows = (index) => {
     const $prevArrow = $($arrows[0]);
     const $nextArrow = $($arrows[1]);
-    const arrowHiddenClass = 'product-design__process-arrow--hidden';
-
     const $prevBtn = $($buttons[0]);
     const $nextBtn = $($buttons[1]);
-    const buttonHiddenClass = 'product-design__process-button--disabled';
+
+    let arrowHiddenClass;
+    let buttonHiddenClass;
+
+    if (switchType === 'process') {
+      arrowHiddenClass = 'product-design__process-arrow--hidden';
+      buttonHiddenClass = 'product-design__process-button--disabled';
+    } else if (switchType === 'design') {
+      arrowHiddenClass = 'product-design__design-arrow--hidden';
+      buttonHiddenClass = 'product-design__design-button--disabled';
+    }
 
     $buttons.removeClass(buttonHiddenClass);
 
@@ -120,10 +145,11 @@ window.addEventListener('load', () => {
     const initialPosition = (direction === 'right') ? '-5px' : '20px';
     const secondPosition = (direction === 'right') ? '20px' : '-5px';
     const finalPosition = '50%';
+    const newInnerHTML = (switchType === 'process' && isMobile) ? index + 1 : `0${index + 1}`;
 
     $counter.animate({ left: initialPosition }, animationTime / 2, () => {
       $counter.css('left', secondPosition);
-      $counter[0].innerHTML = index + 1;
+      $counter[0].innerHTML = newInnerHTML;
       $counter.animate({ left: finalPosition }, animationTime / 2);
     });
   }
