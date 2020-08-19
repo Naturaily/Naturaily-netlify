@@ -1,0 +1,72 @@
+.product-design__faq {
+  padding-top: 50px;
+  padding-bottom: 25px;
+
+  .services-faq {
+    &__list {
+      margin-top: 25px;
+    }
+
+    &__item {
+      position: relative;
+    }
+
+    &__number {
+      position: absolute;
+      top: 27px;
+      left: 25px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__faq {
+    padding-top: 75px;
+    padding-bottom: 60px;
+
+    .services__step {
+      margin-bottom: 40px;
+    }
+
+    .services__header {
+      max-width: 380px;
+    }
+
+    .services-faq {
+      &__list {
+        margin-top: 70px;
+      }
+
+      &__text-list {
+        margin: 15px 0;
+
+        li {
+          padding-top: 5px;
+          padding-bottom: 5px;
+
+          &::before {
+            top: 13px;
+          }
+        }
+      }
+
+      &__number {
+        top: 37px;
+        left: 0;
+        opacity: 0.3;
+      }
+
+      &__header {
+        width: 250px;
+        min-width: 250px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__faq-wrapper {
+    max-width: 1130px;
+    margin: 0 auto;
+  }
+}
