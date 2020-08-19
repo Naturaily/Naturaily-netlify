@@ -2,12 +2,6 @@
   position: relative;
   padding-top: 50px;
 
-  &-nav__item-number, &-nav__item-title, &-nav__item-icon__background,
-  &-arrow,
-  &-button {
-    transition: 0.4s;
-  }
-
   &-nav {
     width: 100vw;
     height: 160px;
@@ -38,6 +32,10 @@
       width: 50vw;
       text-align: center;
       cursor: pointer;
+
+      &-number, &-title, &-icon__background {
+        transition: 0.4s;
+      }
 
       &-arrow, &-number {
         position: absolute;
@@ -80,199 +78,59 @@
     }
   }
 
-  &-arrows {
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 500px;
-    left: 0;
-    z-index: 1;
-    width: 100vw;
-    padding: 0 20px;
-  }
-
-  &-arrow {
-    position: relative;
-    width: 42px;
-    height: 42px;
-    border: none;
-    border-radius: 100%;
-    background-color: $color-white;
-
-    .icon {
-      position: absolute;
-      top: 13px;
-      font-size: 1em;
-      font-weight: 600;
-      color: $color-page-text;
-
-      &-chevron-left {
-        left: 13px;
-      }
-
-      &-chevron-right {
-        left: 15px;
-      }
+  .product-design__switch {
+    &-arrows {
+      top: 500px;
+      padding: 0 20px;
     }
 
-    &--hidden {
-      opacity: 0;
-      pointer-events: none;
-    }
-  }
-
-  &-wrapper {
-    width: 100vw;
-  }
-
-  &-cards {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 0;
-    width: 400%;
-  }
-
-  &-card {
-    box-sizing: border-box;
-    width: 25%;
-
-    &__header {
-      display: none;
+    &-cards {
+      width: 400%;
     }
 
-    &__content {
-      padding: 35px 20px 30px;
-    }
+    &-card {
+      width: 25%;
 
-    &__text, &__list {
-      line-height: 1.5;
-      color: $color-page-text;
-    }
-
-    &__list {
-      padding: 10px 0;
-
-      li {
-        position: relative;
-        padding-left: 35px;
-
-        &::before {
-          content: '';
-          display: block;
-          position: absolute;
-          top: 9px;
-          left: 10px;
-          height: 5px;
-          width: 5px;
-          background-color: $color-secondary;
-          border-radius: 100%;
-        }
-      }
-    }
-
-    &__image  {
-      height: 350px;
-      overflow: hidden;
-
-      img {
-        width: 100%;
-      }
-    }
-  }
-
-  &-switcher, &-switcher__counter {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  &-switcher {
-    padding: 0 20px;
-
-    &__counter {
-      position: relative;
-    }
-
-    &__number {
-      padding-left: 57px;
-      font-size: 1em;
-      font-weight: 400;
-      color: $color-page-text;
-
-      &--active {
-        position: relative;
-        height: 16px;
-        width: 15px;
-        padding: 0;
-        overflow: hidden;
-        color: $color-secondary;
-
-        span {
-          position: absolute;
-          left: 50%;
-          transform: translateX(-50%);
-        }
-      }
-
-      &--desktop {
+      &__header {
         display: none;
       }
-    }
 
-    &__separator {
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 20px;
-      width: 45px;
-      height: 1px;
-      background-color: $color-page-text;
-    }
-  }
-
-  &-buttons {
-    margin-right: 30px;
-  }
-
-  &-button {
-    position: relative;
-    height: 30px;
-    width: 30px;
-    border: none;
-    border-radius: 100%;
-    background-color: $color-secondary;
-
-    .icon {
-      position: absolute;
-      top: 10px;
-      font-size: 0.8em;
-      font-weight: 600;
-      color: $color-white;
-
-      &-chevron-left {
-        left: 8px;
+      &__content {
+        padding: 35px 20px 30px;
       }
 
-      &-chevron-right {
-        left: 10px;
+      &__text, &__list {
+        line-height: 1.5;
+        color: $color-page-text;
+      }
+
+      &__image  {
+        height: 350px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
       }
     }
 
-    &--prev {
-      margin-right: 15px;
-    }
+    &-switcher {
+      padding: 0 20px;
 
-    &--disabled {
-      opacity: 0.5;
-      pointer-events: none;
+      &__number--active {
+        width: 15px;
+        color: $color-secondary;
+      }
+
+      &__separator {
+        left: 20px;
+      }
     }
   }
 }
 
 @media (min-width: 576px) {
-  .product-design__process {
+  .product-design__process .product-design__switch {
     &-card {
       &__image {
         height: 450px;
@@ -330,74 +188,65 @@
       }
     }
 
-    &-wrapper {
-      width: 100%;
-      overflow: hidden;
-    }
-
-    &-arrows, &-card__image {
-      max-width: 450px;
-    }
-
-    &-arrows {
-      top: 675px;
-      left: 50%;
-      width: 50%;
-      padding: 0 5px;
-    }
-
-    &-arrow {
-      box-shadow: 0 0 10px $color-black;
-    }
-
-    &-card {
-      position: relative;
-
-      &__header {
-        display: block;
-        padding: 30px 75px 35px;
-        font-size: 2.25em;
-        font-weight: 400;
-        color: $color-page-text-second;
+    .product-design__switch {
+      &-wrapper {
+        overflow: hidden;
       }
 
-      &__content, &__image {
-        box-sizing: border-box;
-        width: 50%;
+      &-arrows, &-card__image {
+        max-width: 450px;
       }
 
-      &__content {
-        max-width: 540px;
-        padding: 20px 25px 30px 75px;
-      }
-
-      &__image {
-        position: absolute;
-        top: 75px;
+      &-arrows {
+        top: 675px;
         left: 50%;
-        height: 100%;
-        margin-left: 0;
-        padding: 0 25px;
+        width: 50%;
+        padding: 0 5px;
       }
-    }
 
-    &-switcher {
-      &__number {
-        &--active {
+      &-arrow {
+        box-shadow: 0 0 10px $color-black;
+      }
+
+      &-card {
+        position: relative;
+
+        &__header {
+          display: block;
+          padding: 30px 75px 35px;
+          font-size: 2.25em;
+          font-weight: 400;
+          color: $color-page-text-second;
+        }
+
+        &__content, &__image {
+          box-sizing: border-box;
+          width: 50%;
+        }
+
+        &__content {
+          max-width: 540px;
+          padding: 20px 25px 30px 75px;
+        }
+
+        &__image {
+          position: absolute;
+          top: 75px;
+          left: 50%;
+          height: 100%;
+          margin-left: 0;
+          padding: 0 25px;
+        }
+      }
+
+      &-switcher {
+        &__number--active {
           width: 25px;
         }
 
-        &--mobile {
-          display: none;
+        &__separator {
+          left: 29px;
         }
-
-        &--desktop {
-          display: block;
-        }
-      }
-
-      &__separator {
-        left: 29px;
       }
     }
   }
@@ -411,21 +260,23 @@
       height: 190px;
     }
 
-    &-arrows, &-card__image {
-      max-width: 490px;
-    }
-
-    &-card {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      &__image {
-        top: 0;
+    .product-design__switch {
+      &-arrows, &-card__image {
+        max-width: 490px;
       }
 
-      &__content {
-        padding-bottom: 45px;
+      &-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__image {
+          top: 0;
+        }
+
+        &__content {
+          padding-bottom: 45px;
+        }
       }
     }
   }
@@ -437,7 +288,8 @@
       padding: 0 150px 0 50px;
     }
 
-    &-arrows, &-card__image {
+    .product-design__switch-arrows,
+    .product-design__switch-card__image {
       left: 640px;
     }
   }
