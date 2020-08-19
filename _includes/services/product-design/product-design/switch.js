@@ -117,19 +117,11 @@ window.addEventListener('load', () => {
   const updateArrows = (index) => {
     const $prevArrow = $($arrows[0]);
     const $nextArrow = $($arrows[1]);
+    const arrowHiddenClass = 'product-design__switch-arrow--hidden';
+
     const $prevBtn = $($buttons[0]);
     const $nextBtn = $($buttons[1]);
-
-    let arrowHiddenClass;
-    let buttonHiddenClass;
-
-    if (switchData.type === 'process') {
-      arrowHiddenClass = 'product-design__process-arrow--hidden';
-      buttonHiddenClass = 'product-design__process-button--disabled';
-    } else if (switchData.type === 'design') {
-      arrowHiddenClass = 'product-design__design-arrow--hidden';
-      buttonHiddenClass = 'product-design__design-button--disabled';
-    };
+    const buttonHiddenClass = 'product-design__switch-button--disabled';
 
     $buttons.removeClass(buttonHiddenClass);
 
@@ -150,7 +142,7 @@ window.addEventListener('load', () => {
     const secondPosition = isMoveRight ? '20px' : '-5px';
     const finalPosition = '50%';
 
-    const isNumberSingle = switchData.type === 'process' && switchData.isMobile;
+    const isNumberSingle = (switchData.type === 'process' && switchData.isMobile) || (switchData.type === 'workshop' && !switchData.isMobile);
     const newInnerHTML = isNumberSingle ? index + 1 : `0${index + 1}`;
 
     $counter.animate({ left: initialPosition }, animationTime / 2, () => {
