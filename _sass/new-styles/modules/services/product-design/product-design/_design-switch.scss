@@ -1,6 +1,6 @@
 .product-design__design {
   position: relative;
-  height: 530px;
+  height: 585px;
   margin: 30px 0 70px;
   padding: 30px 0 50px;
   background-color: $color-code-grey-bg;
@@ -16,13 +16,13 @@
 
     &-card {
       width: 33.3%;
-      height: 500px;
+      height: 510px;
       overflow: hidden;
 
       &__header {
         padding: 80px 20px 0;
         margin-bottom: -100px;
-        font-weight: 500;
+        font-weight: 400;
 
         &--prototyping {
           padding-top: 20px;
@@ -36,7 +36,7 @@
 
       &__image  {
         box-sizing: border-box;
-        height: 360px;
+        height: 370px;
         overflow: hidden;
 
         &--illustration {
@@ -44,7 +44,7 @@
           text-align: center;
 
           img {
-            width: 380px;
+            width: 390px;
           }
         }
 
@@ -70,7 +70,7 @@
     }
 
     &-switcher {
-      padding: 0 20px;
+      padding: 40px 20px 0;
 
       &__number {
         font-weight: 500;
