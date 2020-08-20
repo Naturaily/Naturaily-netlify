@@ -1,6 +1,6 @@
 .product-design__right {
   width: 100vw;
-  padding: 70px 20px 50px;
+  padding: 70px 20px 80px;
   background-color: $color-code-grey-bg;
 
   &-image {
@@ -17,7 +17,7 @@
 
     &__paragraph {
       font-size: 1.5em;
-      line-height: 1.5;
+      line-height: 1.75;
       color: $color-page-text;
 
       &--secondary {
@@ -26,25 +26,25 @@
     }
   }
 
+  &-box .geometric-figure, .geometric-figure {
+    display: none;
+  }
+
   &-box {
     padding-top: 30px;
 
     &__text {
       font-size: 1em;
-      line-height: 1.5;
+      line-height: 1.6;
       color: $color-page-text-second;
-    }
-
-    .geometric-figure {
-      display: none;
     }
   }
 
   &--visual-design {
     padding: 50px 20px 75px;
 
-    &-text .services__header {
-      padding: 15px 0 60px;
+    .product-design__right-box__text {
+      color: $color-page-text;
     }
   }
 }

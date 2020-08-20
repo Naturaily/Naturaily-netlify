@@ -3,9 +3,9 @@
   display: inline-block;
   height: 475px;
   width: 100%;
-  max-width: 1380px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 50px 0 75px;
+  padding: 35px 0 75px;
   overflow: hidden;
 
   .slider-arrow {
@@ -13,17 +13,17 @@
     top: 100px;
 
     &--prev {
-      left: 95px;
+      left: 45px;
     }
 
     &--next {
-      right: 75px;
+      right: 45px;
     }
   }
 
-  &-dots {
+  .custom-carousel__dots {
     position: absolute;
-    bottom: 60px;
+    bottom: 35px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -204,5 +204,24 @@
         right: 60px;
       }
     }
+  }
+}
+
+@media (min-width: 1400px) {
+  .product-design__accordion .slider-arrow {
+    &--prev {
+      left: 225px;
+    }
+
+    &--next {
+      right: auto;
+      left: 1275px;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .product-design__accordion .slider-arrow--prev {
+    left: 485px;
   }
 }
