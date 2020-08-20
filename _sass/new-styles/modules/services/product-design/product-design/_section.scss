@@ -64,7 +64,7 @@
       top: -30px;
       left: 0;
       z-index: 0;
-      color: $color-accent-yellow;
+      color: $color-secondary;
       opacity: 0.1;
     }
 
@@ -111,7 +111,14 @@
 @media (min-width: 811px) {
   .product-design__section {
     position: relative;
-    padding-bottom: 100px;
+    height: 100%;
+    margin-bottom: 75px;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+    }
 
     &-image {
       display: block;
@@ -120,19 +127,17 @@
       margin-bottom: -250px;
     }
 
-    &-content {
+    &-content, &-side {
       box-sizing: border-box;
+      width: 50%;
+    }
+
+    &-content {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 100%;
-      width: 50%;
       padding: 75px;
       border-radius: 8px;
-    }
-
-    &--orange .product-design__section-content {
-      height: 95%;
     }
 
     &-header {
@@ -140,10 +145,6 @@
     }
 
     &-text {
-      margin-top: 50px;
-    }
-
-    &-description {
       margin-top: 0;
     }
 
@@ -152,32 +153,43 @@
     }
 
     &-side {
-      box-sizing: border-box;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      height: 100%;
-      width: 50%;
       max-width: 560px;
-      padding-top: 350px;
+      padding-top: 250px;
 
       &__text {
         padding: 75px 75px 0;
       }
+    }
+
+    &--orange .product-design__section-side__text {
+      padding-top: 60px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__section {
+    margin-bottom: 120px;
+
+    &--orange {
+      margin-bottom: 75px;
     }
   }
 }
 
 @media (min-width: 1200px) {
   .product-design__section {
-    &-image {
-      width: calc(100% + 100px);
-      margin: 0 0 -250px -50px;
-      border-radius: 8px;
+    &-wrapper {
+      position: relative;
+      max-width: 1280px;
+      margin: 0 auto;
     }
 
-    &-text {
-      margin-top: 0;
+    &-image {
+      width: 1600px;
+      height: 430px;
+      margin: 0 auto -300px;
+      border-radius: 8px;
     }
 
     &-content {
@@ -185,8 +197,27 @@
       padding: 100px;
     }
 
-    &-side__text {
-      padding: 110px 60px 0;
+    &-description {
+      margin-top: 75px;
     }
+
+    &-side {
+      padding: 350px 50px 0 100px;
+      margin-left: 50px;
+
+      &__text {
+       padding: 0;
+      }
+    }
+
+    &--orange .product-design__section-side__text {
+      padding-top: 25px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .product-design__section-side {
+    padding: 350px 0 0 130px;
   }
 }
