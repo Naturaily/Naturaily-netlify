@@ -12,7 +12,7 @@
     margin-bottom: 35px;
   }
 
-  &-description, &-image, .services__dot {
+  &-description, &-image, .services__dot, .services__step--desktop {
     display: none;
   }
 
@@ -51,13 +51,28 @@
   }
 }
 
+@media (min-width: 576px) {
+  .product-design__profits {
+    .services__step, .services__header, .services-faq__list {
+      padding: 0 75px;
+    }
+
+    .services-faq__item {
+      padding-right: 0;
+    }
+  }
+}
+
 @media (min-width: 811px) {
   .product-design__profits {
-    margin-top: 75px;
-    padding: 50px 75px;
+    padding: 50px 0;
 
-    &-description, &-image, .services__dot {
+    &-description, &-image, .services__dot, .services__step--desktop {
       display: block;
+    }
+
+    &-index, .services__step--mobile {
+      display: none;
     }
 
     .services__step {
@@ -89,6 +104,10 @@
         margin-left: 200px;
       }
 
+      &__item {
+        padding-bottom: 35px;
+      }
+
       &__header {
         min-width: 170px;
         width: 170px;
@@ -102,6 +121,7 @@
 
     &-description {
       margin-top: 35px;
+      padding-left: 75px;
       line-height: 1.5;
       opacity: 0.7;
     }
@@ -147,7 +167,6 @@
 
 @media (min-width: 992px) {
   .product-design__profits {
-    margin-top: 120px;
     margin-right: 45px;
     overflow: visible;
     border-radius: 0 8px 8px 0;
@@ -176,7 +195,7 @@
 
 @media (min-width: 1200px) {
   .product-design__profits {
-    padding-left: 100px;
+    padding-left: 25px;
     border-radius: 8px;
 
     .services-faq__list {
