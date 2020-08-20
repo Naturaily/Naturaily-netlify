@@ -12,6 +12,7 @@
   }
 
   .services__header {
+    margin-bottom: 50px;
     font-size: 1.5em;
     color: $color-page-text-second;
   }
@@ -23,14 +24,19 @@
   &-text {
     padding: 40px 20px;
     font-size: 0.9em;
-    line-height: 1.5;
+    line-height: 1.7;
     color: $color-page-text-second;
     opacity: 0.7;
   }
 
   .btn-white {
-    max-width: 230px;
-    margin-left: -13px;
+    max-width: 320px;
+    margin-left: -25px;
+    margin-bottom: 55px;
+
+    &--desktop {
+      display: none;
+    }
   }
 
   &-carousel {

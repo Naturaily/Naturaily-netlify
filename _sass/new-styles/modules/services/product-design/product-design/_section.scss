@@ -9,12 +9,6 @@
     background-color: $color-code-grey-bg;
   }
 
-  &--orange {
-    .product-design__section-content, .product-design__section-side {
-      background-color: $color-light-orange-bg;
-    }
-  }
-
   &-content {
     position: relative;
     z-index: 2;
@@ -41,16 +35,20 @@
   }
 
   &-text, &-description {
-    margin-top: 25px;
     font-size: 1.6em;
   }
 
+  &-text {
+    margin-top: 40px;
+  }
+
   &-description {
+    margin-top: 35px;
     line-height: 1.8;
   }
 
   &-side__text {
-    padding: 50px 20px;
+    padding: 55px 20px 45px;
     color: $color-page-text;
 
     &-quote {
@@ -63,7 +61,7 @@
 
     .icon {
       position: absolute;
-      top: -25px;
+      top: -30px;
       left: 0;
       z-index: 0;
       color: $color-accent-yellow;
@@ -76,6 +74,24 @@
       &__person {
         padding: 0 0 0 30px;
       }
+
+      &__dot {
+        top: 6px;
+      }
+    }
+  }
+
+  &--orange {
+    .services__step {
+      margin-bottom: 35px;
+    }
+
+    .product-design__section-content, .product-design__section-side {
+      background-color: $color-light-orange-bg;
+    }
+
+    .product-design__section-side__text {
+      padding-top: 45px;
     }
   }
 }

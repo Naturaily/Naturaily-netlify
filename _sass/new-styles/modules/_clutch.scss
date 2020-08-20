@@ -5,12 +5,8 @@
   border-top: 1px solid $color-global-font-10;
   border-bottom: 1px solid $color-global-font-10;
 
-  &--custom-ecommerce {
+  &--custom-ecommerce, &--product-design {
     margin-top: 15px;
-  }
-
-  &--product-design {
-    margin-top: 0;
   }
 
   .portfolio__header, .services__header {
