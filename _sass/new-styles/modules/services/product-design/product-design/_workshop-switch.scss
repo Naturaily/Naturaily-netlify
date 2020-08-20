@@ -9,7 +9,7 @@
     }
 
     &-arrow {
-      box-shadow: 0 0 10px $color-black;
+      box-shadow: 7px 7px 20px $color-btn-shadow-brown;
     }
 
     &-cards {
@@ -143,6 +143,10 @@
 @media (min-width: 992px) {
   .product-design__workshop {
     padding: 140px 0;
+
+    .product-design__switch-arrow:hover {
+      box-shadow: 7px 7px 20px $color-btn-shadow-brown-hover;
+    }
   }
 }
 

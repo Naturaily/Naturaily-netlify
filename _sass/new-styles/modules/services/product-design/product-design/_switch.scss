@@ -43,7 +43,7 @@
     }
 
     &--orange {
-      box-shadow: 0 0 10px $color-btn-shadow-darker;
+      box-shadow: -2px 2px 10px $color-btn-shadow-orange;
 
       .icon {
         top: 15px;
@@ -52,7 +52,7 @@
       }
 
       &:hover {
-        box-shadow: 0 0 10px $color-secondary;
+        box-shadow: -2px 2px 10px $color-secondary;
       }
     }
   }
