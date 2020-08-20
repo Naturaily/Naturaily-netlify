@@ -102,7 +102,7 @@
       .geometric-figure {
         display: flex;
         position: absolute;
-        bottom: -50px;
+        bottom: -40px;
         right: 25px;
         transform: rotate(180deg);
 
@@ -138,37 +138,39 @@
       }
     }
 
-    .geometric-figure {
-      display: flex;
-      position: absolute;
-      top: auto;
-      bottom: -160px;
-      left: -50px;
+    &--visual-design {
+      .product-design__right {
+        &-text {
+          .services__step {
+            margin-top: 40px;
+          }
 
-      &_center, &_right::after {
-        height: 180px;
-        width: 180px;
-      }
-
-      &_right {
-        height: 180px;
-        width: 90px;
-      }
-    }
-
-    &--visual-design .product-design__right {
-      &-text {
-        .services__step {
-          margin-top: 40px;
+          &__paragraph {
+            margin-bottom: 100px;
+          }
         }
 
-        &__paragraph {
-          margin-bottom: 100px;
+        &-box {
+          padding: 100px 75px 100px 50px;
         }
       }
 
-      &-box {
-        padding: 100px 75px 100px 50px;
+      .geometric-figure {
+        display: flex;
+        position: absolute;
+        top: auto;
+        bottom: -160px;
+        left: -50px;
+
+        &_center, &_right::after {
+          height: 180px;
+          width: 180px;
+        }
+
+        &_right {
+          height: 180px;
+          width: 90px;
+        }
       }
     }
   }
@@ -189,12 +191,14 @@
       right: -80px;
     }
 
-    .geometric-figure {
-      bottom: -130px;
-    }
+    &--visual-design {
+      .product-design__right-box {
+        padding: 150px 75px;
+      }
 
-    &--visual-design .product-design__right-box {
-      padding: 150px 75px;
+      .geometric-figure {
+        bottom: -130px;
+      }
     }
   }
 }
@@ -213,19 +217,28 @@
     &-box {
       padding: 100px 75px 210px 100px;
       margin-left: 100px;
+
+      .geometric-figure {
+        bottom: -20px;
+      }
+    }
+
+    &-image, &-image img {
+      width: 480px;
     }
 
     &-image {
       right: -100px;
-      width: 480px;
     }
 
-    .geometric-figure {
-      bottom: -110px;
-    }
+    &--visual-design {
+      .product-design__right-box {
+        padding: 200px 100px;
+      }
 
-    &--visual-design .product-design__right-box {
-      padding: 200px 100px;
+      .geometric-figure {
+        bottom: -110px;
+      }
     }
   }
 }
@@ -233,10 +246,10 @@
 @media (min-width: 1400px) {
   .product-design__right {
     &-image {
-      right: -125px;
+      right: -160px;
     }
 
-    .geometric-figure {
+    &--visual-design .geometric-figure {
       bottom: -100px;
       left: -225px;
     }

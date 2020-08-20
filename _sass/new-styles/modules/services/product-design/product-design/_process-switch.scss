@@ -199,14 +199,14 @@
       }
 
       &-arrows {
-        top: 675px;
+        top: 630px;
         left: 50%;
         width: 50%;
         padding: 0 5px;
       }
 
       &-arrow {
-        box-shadow: 0 0 10px $color-black;
+        box-shadow: 7px 7px 20px $color-btn-shadow-brown;
       }
 
       &-card {
@@ -264,6 +264,10 @@
     .product-design__switch {
       &-arrows, &-card__image {
         max-width: 490px;
+      }
+
+      &-arrow:hover {
+        box-shadow: 7px 7px 20px $color-btn-shadow-brown-hover;
       }
 
       &-card {

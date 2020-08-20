@@ -185,13 +185,7 @@
 
     .product-design__switch {
       &-card__image {
-        &--illustration, &--prototyping {
-          height: 125%;
-        }
-
-        &--ui-design {
-          height: 115%;
-        }
+        height: 115%;
       }
 
       &-arrows {
