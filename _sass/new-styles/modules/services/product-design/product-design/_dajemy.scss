@@ -1,6 +1,6 @@
 .product-design__dajemy {
   width: 100%;
-  margin: 70px 0;
+  margin: 70px 0 80px;
 
   .services__header {
     padding: 0 20px;
@@ -20,7 +20,7 @@
   &-image {
     box-sizing: border-box;
     width: 100%;
-    padding: 25px 0 25px 20px;
+    padding: 25px 0 10px 20px;
   }
 
   &-text {
@@ -32,6 +32,7 @@
 
   .btn-bordered {
     margin-left: 20px;
+    padding: 18px 25px;
   }
 }
 

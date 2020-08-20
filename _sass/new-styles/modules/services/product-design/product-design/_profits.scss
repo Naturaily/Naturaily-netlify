@@ -1,19 +1,36 @@
 .product-design__profits {
   position: relative;
   margin-top: 35px;
+  padding: 65px 0 35px;
+
+  .services__step, .services__header {
+    padding: 0 20px;
+  }
+
+  .services__step {
+    position: relative;
+    margin-bottom: 35px;
+  }
 
   &-description, &-image, .services__dot {
     display: none;
   }
 
+  &-index {
+    margin-right: 15px;
+    color: $color-page-text;
+    opacity: 0.3;
+  }
+
   .services-faq {
     &__list {
       margin-top: 20px;
+      padding-left: 20px;
     }
 
     &__item {
       position: relative;
-      padding: 35px 0 50px;
+      padding: 35px 25px 50px 0;
       margin: 0;
     }
 
