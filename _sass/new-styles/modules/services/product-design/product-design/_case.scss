@@ -132,10 +132,18 @@
     }
 
     .btn-white {
-      max-width: 200px;
+      max-width: 180px;
       margin-left: 73px;
       border: 2px solid $color-secondary;
       border-radius: 30px;
+
+      &--mobile {
+        display: none;
+      }
+
+      &--desktop {
+        display: flex;
+      }
     }
 
     &-carousel {
@@ -166,5 +174,11 @@
     &-carousel {
       margin-right: 100px;
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__case-image {
+    top: 15px;
   }
 }
