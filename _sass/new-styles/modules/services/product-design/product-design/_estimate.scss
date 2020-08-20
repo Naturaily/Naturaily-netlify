@@ -101,7 +101,10 @@
     }
 
     .btn-primary.btn-arrow {
+      display: block;
+      width: 190px;
       margin: 25px 0 0 70px;
+      padding-left: 50px;
     }
   }
 }
