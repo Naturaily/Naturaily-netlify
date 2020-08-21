@@ -75,6 +75,16 @@
           color: $color-accent-yellow;
         }
       }
+
+      &:hover .product-design__process-nav__item-path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: animateNav 5s linear forwards;
+
+        &--short {
+          animation: animateNav 10s linear forwards;
+        }
+      }
     }
   }
 
@@ -297,5 +307,11 @@
     .product-design__switch-card__image {
       left: 640px;
     }
+  }
+}
+
+@keyframes animateNav {
+  to {
+    stroke-dashoffset: 0;
   }
 }
