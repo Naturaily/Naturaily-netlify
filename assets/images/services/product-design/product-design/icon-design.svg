@@ -13,7 +13,7 @@
             <circle stroke="#191919" stroke-width="1.2" fill="#FFFFFF" fill-rule="nonzero" cx="25" cy="63" r="2"></circle>
             <polygon stroke="#191919" stroke-width="1.2" transform="translate(35.843624, 76.014074) rotate(-40.000000) translate(-35.843624, -76.014074) " points="30.8692723 75.6587618 40.8179756 75.6587618 40.8179756 76.369386 30.8692723 76.369386"></polygon>
             <polygon stroke="#191919" stroke-width="1.2" transform="translate(38.686173, 4.241195) rotate(-40.000000) translate(-38.686173, -4.241195) " points="33.7118218 3.8858827 43.6605251 3.8858827 43.6605251 4.59650687 33.7118218 4.59650687"></polygon>
-            <path d="M27,61 L39.0593806,50.8836592 L30.6939806,43.6069326 L46.5,28" stroke="#191919" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3"></path>
+            <path class="product-design__process-nav__item-path product-design__process-nav__item-path--short" d="M27,61 L39.0593806,50.8836592 L30.6939806,43.6069326 L46.5,28" stroke="#191919" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3"></path>
             <polygon stroke="#191919" stroke-width="1.2" fill="#FFFFFF" fill-rule="nonzero" points="52 22 49.9673961 33 41 25.8202906"></polygon>
           </g>
         </g>
