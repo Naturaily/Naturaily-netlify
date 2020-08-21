@@ -10,7 +10,7 @@
             <g transform="translate(4.000000, 17.000000)">
               <rect fill="#FFFFFF" fill-rule="nonzero" x="0" y="1" width="71" height="50"></rect>
               <rect class="product-design__process-nav__item-icon__background" fill="#FF5E44" fill-rule="nonzero" x="0" y="5" width="71" height="32"></rect>
-              <rect fill="#FFFFFF" fill-rule="nonzero" x="14" y="12" width="44" height="39"></rect>
+              <rect class="product-design__process-nav__item-path" fill="#FFFFFF" fill-rule="nonzero" x="14" y="12" width="44" height="39"></rect>
               <rect fill="#FFFFFF" fill-rule="nonzero" x="21" y="27" width="8" height="2"></rect>
               <line x1="21" y1="21" x2="29" y2="21" fill="none"></line>
               <line x1="43" y1="16" x2="55" y2="16" fill="none"></line>
