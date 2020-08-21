@@ -6,8 +6,9 @@ window.addEventListener('load', () => {
     buttons: '[switch-button]',
     cards: '[switch-cards]',
     counter: '[switch-counter]',
-    activeCard: '[switch-active-card]',
-    index: 'data-index'
+    activeCard: 'switch-active-card',
+    index: 'data-index',
+    animatedSvg: 'data-animating'
   };
 
   let switchData = {
@@ -58,7 +59,7 @@ window.addEventListener('load', () => {
     $buttons = $switch.find(attributes.buttons);
     $counter = $switch.find(attributes.counter);
 
-    const $activeCard = $switch.find(attributes.activeCard);
+    const $activeCard = $switch.find(`[${attributes.activeCard}]`);
     const dataUpdate = {
       index: parseInt($activeCard[0].dataset.index),
       type: $switch[0].dataset.switchType,
@@ -106,21 +107,26 @@ window.addEventListener('load', () => {
   };
 
   const updateCards = (index) => {
-    const activeAttr = 'switch-active-card';
-    const $activeCard = $cards.find(`[${activeAttr}]`)
+    const $activeCard = $cards.find(`[${attributes.activeCard}]`)
     const $newActiveCard = $cards.find(`[${attributes.index}=${index}]`);
+    const $animatedSvg = $activeCard.find(`[${attributes.animatedSvg}]`);
+    const $newAnimatedSvg = $newActiveCard.find(`[${attributes.animatedSvg}]`);
 
-    $activeCard.removeAttr(activeAttr);
-    $newActiveCard.attr(activeAttr, activeAttr);
+    const animatedSvgClass = 'product-design__switch-card__image--animated';
+
+    $activeCard.removeAttr(attributes.activeCard);
+    $newActiveCard.attr(attributes.activeCard, attributes.activeCard);
+    if ($animatedSvg[0]) $animatedSvg.removeClass(animatedSvgClass);
+    if ($newAnimatedSvg[0]) $newAnimatedSvg.addClass(animatedSvgClass);
   };
 
   const updateArrows = (index) => {
     const $prevArrow = $($arrows[0]);
     const $nextArrow = $($arrows[1]);
-    const arrowHiddenClass = 'product-design__switch-arrow--hidden';
-
     const $prevBtn = $($buttons[0]);
     const $nextBtn = $($buttons[1]);
+
+    const arrowHiddenClass = 'product-design__switch-arrow--hidden';
     const buttonHiddenClass = 'product-design__switch-button--disabled';
 
     $buttons.removeClass(buttonHiddenClass);
