@@ -248,6 +248,144 @@ That said, what it does have is native integrations for both Shopify and Magento
 | Easy to set up and configure                 |                                             |
 | SEO previews                                 |                                             |
 
-
-
 ## Netlify CMS
+
+* Supports: Gatsby, Hugo, Jekyll, Next.js, Nuxt.js, Middleman
+* Unique features: Git-based
+* Usability for developers: easy installation
+* Usability for content teams: basic interface, instant access without GitHub account, fast, web-based UI & custom-styled previews
+* Cost: Free option available, with packages ranging from €45 to €1,500 per month
+
+### **For Content Teams**
+
+As for as content options go, Netlify CMS certainly hits all the core needs. Alongside rich-text editing, there is a lot of drag-and-drop versatility that makes it easy to create new pages from various components - something that most content teams will find intuitive. It also enables real-time previews, which helps ensure content is working as intended before being published - something that’s important with JAMstack and headless backends, as we’re creating our own frontends, rather than relying on existing templates, after all.
+
+Furthermore, content is collated in different Collections - Netlify’s answer to different types of content - for easy templating. Paired with the workflow tab, this ensures the admin panel is very simple and easy to use, but it does require additional development help for more advanced tasks, such as creating new collections.
+
+In terms of content widgets (the forms and modules of this particular CMS), there are around 16 options, but more are being developed. So, from rich text and forms to media and maps, as well as core essentials such as objects and strings, Netlify has it covered.
+
+### **For Development Teams**
+
+As an open-source CMS, there is certainly a lot of potential, but this also means you may have to customise something that would be available already in the larger, more expensive options. On the other hand, this freedom also results in few restrictions and a competent development team will have no problem making it work with their frontend plans if they’re willing to put the time in.
+
+Netlify is also another git-based CMS so the same arguments for Forestry also apply here: git-based options make it easy to use, with rollback and automation thanks to Git, but can cause extra work if you want to pull anything from additional sources. Similarly, it’s also not great for large scale operations that want fast and very frequent updates.
+
+It’s also relatively open, so if you want to create custom widgets, it typically isn’t a problem. In fact, the customisation is relatively free, but it rests heavily on the development side. This is often the nature of open-source projects, so it shouldn’t come as a surprise.
+
+Note: One thing we want to add here is that this particular option is available as the open-source [Netlify CMS](https://www.netlifycms.org/){:rel="nofollow"}{:target="_blank"} on its own - perhaps the more developer-friendly option, as well as a wider range of services, including hosting and analytics. Content-focused teams will have a better time with the wider [Netlify services](https://www.netlify.com/){:rel="nofollow"}{:target="_blank"}, but it’s naturally where the expensive packages start to appear.
+
+| Pros                                                                              | Cons                                                                      |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Git-based, but can support API through Git wrappers                               | Wider services can be expensive                                           |
+| Clear and simple User Interface                                                   | Open source means the documentation can vary in quality                   |
+| Supports virtually all static generators, including Gatsby                        | Not possible to schedule posts in default version                         |
+| Open-source, so developers can configure with ease - great extension capabilities | Free, open-source version will require developers to get the best results |
+| Available with wider services, if needed                                          |                                                                           |
+| Real time previews                                                                |                                                                           |
+
+## Strapi
+
+* Supports: node.js, PostgreSQL, MongoDB, SQLite, MySQL, MariaDBREST, GraphQL
+
+  * Frontend: Gatsby, Vue.js, Nuxt.js, Next.js, React, Angular, Flutter
+  * Hosting: Heroku, Digital ocean, Platform.sh, Netlify
+  * Service providers: cloudinary, sendgrid, Algoria, Mailgun, redis, Sentry
+  * Custom ecommerce functionality: shopify, Algoria, Paypal, Stripe, Braintree
+* Usability for developers: quick setup, customizable API
+* Usability for content teams: basic interface, flexibility, easily manage SEO + metadata
+* Cost: Community Edition is free, but an Enterprise Edition is in the works
+
+### For Content Teams
+
+One look at the interface and it’s clear that, like other entries on this list, we have another product aiming to be a powerful WordPress alternative. The interface is clean and inherently familiar, from creating different content types to managing user roles within Strapi itself.
+
+That said, it’s worth nothing that Strapi is still in development and, while funded, this means it’s not without the occasional limitation or hiccup. As such, we wouldn’t recommend it as a ‘plug and play’ solution, but its user-friendliness makes it a worthwhile consideration nonetheless.
+
+### For Development Teams
+
+As we just mentioned, Strapi certainly isn’t the most in-depth product on the market. Yet it’s open-source nature, combined with the fact that it’s based on Node.js, makes it highly useful for our JAMstack needs. It’s also compatible with a wider range of database and SQL solutions, so developers will have no problems integrating it with the website or creating the exact data structure their current project requires.
+
+It’s also supported by a wide community, which means there’s always a good chance you’ll get help somewhere... or someone is already working on an extension that can help your own project.
+
+The biggest drawback with Strapi is the pricing model itself. The free version only supports a limited number of users and roles - and it looks like the Enterprise edition will be the premium version that unlocks wider support. In other words, don’t choose Strapi for large enterprises with a wide range of access needs, but do keep it in mind for small scale situations where only a handful of people need to use it; that’s where it will really shine.
+
+| Pros                                                                              | Cons                                                    |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Clear and simple User Interface                                                   | Open source means the documentation can vary in quality |
+| Open-source, so developers can configure with ease - great extension capabilities | Larger enterprise edition is still in the works         |
+| Based on Node.js                                                                  |                                                         |
+
+## TinaCMS
+
+* Supports: React, Gatsby, Next.js, REST, GraphQL, JavaScript, PHP, Android, iOS, Python, Java Ruby, .Net
+* Unique features: real-time visual editor
+* Usability for developers: clean and clear panels, API & JSON
+* Usability for content teams: basic interface, field-based editing
+* Cost: Free and open source, but an Enterprise Edition is in the works
+
+### For Content Teams
+
+The most unique aspect of TinaCMS is that it doesn’t have a back-office editor to speak of - there’s no true admin panel like WordPress or the other options on this list. Tina wants you to work on the page itself, editing and saving changes in real time. There are many out there who surely appreciate this approach, seeing their edits made in real-time on the page itself.
+
+However, for those that prefer to work in a more traditional admin panel, or the ability to schedule uploads, TinaCMS might not be right for you.Because there isn’t a backend to speak of, you still need some additional support for the content process. Information needs to be stored somewhere, for example, and unpublished works aren’t one of Tina’s priorities.
+
+### For Development Teams
+
+If you look up TinaCMS online you’ll find two points, one being that it’s a good, versatile CMS and the other that it’s not a CMS at all. Fun fact: TinaCMS actually stands for “Tina is not a CMS”.
+
+So, what is it?
+
+Tina stylises itself as a “open-source site editing toolkit for React-based sites like Gatsby & Next.js”. For content-focused people, it’s essentially a visual editor. For developers, it sits somewhere between the project’s frontend and datasources (in this case, content). This ultimately means we also need the means to upload content, whether it’s through markdown or yml files). Source files are rewritten from the live editor - rather than making changes in the source files and pushing them to production. This is significantly less user friendly than other entries on the list.
+
+From a technical point of view, it also only supports React-based frameworks, such as Gatsby and Next.js. So where does it shine?
+
+Well, if your role is somewhere between developer and content specialist - ie, you’re building a small website and you’re the only person managing it from a technical and content point of view, TinaCMS has a broader range of flexibility. What it lacks in content options it enables through its visual editor and technical elements.
+
+It’s also worth pointing out that it’s more of an experiment than a flagship product (it’s actually backed, in part, by Forestry). Still, if you're a React enthusiast and don’t mind these confines, TinaCMS might just have a lot to offer you.
+
+| Pros                            | Cons                                                                             |
+| ------------------------------- | -------------------------------------------------------------------------------- |
+| Supports React-based frameworks | No support outside of React options                                              |
+| Also supports Gatsby            | Not very user friendly for content teams                                         |
+| Live editor                     | Operates very differently from other CMS, so will take time to get familiar with |
+|                                 | Not a good solution if you want to use the CMS as a database                     |
+
+## Headless WordPress
+
+* Supports: React, Gatsby, Next.js, REST, GraphQL, JavaScript, PHP, Android, iOS, Python, Java Ruby, .Net
+* Unique features: Keeps WordPress interface
+* Usability for developers: large community, many plugins available
+* Usability for content teams: basic interface, field-based editing
+* Cost: Various solutions available
+
+### **For Content Teams**
+
+Considering most CMS on this list do their best to imitate the look and feel of WordPress, content teams would find few faults with the headless WordPress system. There really isn’t much more to say - WordPress set the standard for how a CMS should look for content teams and it’s still very much the most widely used option today.
+
+In fact, WordPress is so popular that there’s a very high chance it’s the first CMS most content specialists ever use. Its innate familiarity is something that many other options on this list try to evoke for easy usability, but it nonetheless gives headless WordPress a distinct advantage - in the backend, it’s the very same CMS content teams are use to, so there’s no problem adapting or learning a new system.
+
+### **For Development Teams**
+
+WordPress was built with themes included and the removal of that thematic ‘head’ is a relatively new idea. It’s not an official, supported product so it requires a development team that’s willing to put the time and effort in, all to create something that exists in various other forms already.
+
+Similarly, we also need to address the JAMstack issue. WordPress is built on PHP and, while many defend the latter as a web-friendly solution, it means adding another language to the tech stack. From a development point of view? If WordPress is kept in the backend and only sends data via API, this shouldn’t get in the way of a JAMstack frontend.
+
+| Pros                                             | Cons                     |
+| ------------------------------------------------ | ------------------------ |
+| Uses API - Jamstack friendly                     | Not supported officially |
+| Very familiar interface and UI for Content Teams | Requires PHP             |
+
+
+
+## Headless CMS Comparison
+
+To compare these options, it really helps to put them side-by-side. Here, we wanted to go through some of the most essential elements:
+
+* Does it use API or Git?
+* Is there a free option available, whether open source, trial-based or otherwise limited. Doing so will let you experiment, at the very least.
+* Price range per month. Assuming you want the support or the full functionality, this is the kind of costs you can be looking at each month.
+* The number of users on the free and paid version. Larger companies have larger content teams and, thus, will need a solution that supports more roles.
+* Gatsby compatible - it’s one of the best site generators and perfect for JAMstack, so we considered this heavily.
+* Service Level Agreement (SLA) availability. With premium plans, an SLA is commonplace and keeps you safe if something goes wrong, whereas open-source solutions require you to maintain, update and look after the service.
+
+## **Headless CMS for JAMstack Summary**
