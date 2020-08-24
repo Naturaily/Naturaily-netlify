@@ -401,6 +401,7 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 | TinaCMS            | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Limited            | No (Enterprise Edition is in early access) |
 | Headless WordPress | API         | N/A*         | N/A*                  | N/A*                                 | N/A*                     | N/A*               | N/A*                                       |
 
+*Headless WordPress is often custom, so results can be varied.
 
 
-\*Headless WordPress is often custom, so results can be varied.
+[{% image /assets/images/get-an-estimate.png Get-an-estimate et-an-estimateG %}](https://naturaily.com/get-an-estimate){:target=”_blank”}
