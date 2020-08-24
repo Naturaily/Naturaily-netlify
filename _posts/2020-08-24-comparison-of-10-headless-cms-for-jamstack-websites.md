@@ -29,17 +29,17 @@ The above story then leads to an inevitable question: which Headless CMS is righ
 
 There are numerous options available, so there isn’t one clear answer unfortunately. It’s better to understand what some of the best headless options have to offer and how they align with your particular goals. JAMstack developers have their own preferences, and the right CMS can either greatly help - or greatly hinder - your workflow.
 
-## **What is JAMstack?**
+## What is JAMstack?
 
 If you want something fast and secure, a JAMstack website is the way to go. Short for JavaScript, APIs and Markup, [JAMstack development](https://naturaily.com/services/webdevelopment/jamstack) keeps to web-friendly roots. While it sacrifices heavier elements, instead relying on static websites and the increased performance, whether it’s speed, security or SEO readability, that comes with them.
 
-## **What is Headless CMS?**
+## What is Headless CMS?
 
 In most typical content management systems (CMS), there is an attached frontend. If we use WordPress, as an example, the website’s frontend is dedicated and restricted by WordPress. Not only does this limit the content side of operations - new pages need to match the narrow confines of existing templates - it greatly hinders the frontend in terms of design, performance and optimization.
 
 Headless gets around this by removing the aforementioned head entirely. As a purely backend operation, headless CMS uses API to attach to the frontend - which means developers can create whatever website is needed to display the content. In other words, it treats the CMS more like a database, with content pulled on request.
 
-### **Git or API?**
+### Git or API?
 
 If we were to split Headless CMS into two categories, we have Git and API-based systems.
 
@@ -49,7 +49,7 @@ However, when we look at the further differences, it’s important to note that 
 
 On the downside, we’re limited to any Git-based restrictions. If we want to pull from additional sources, like apps or other sites, we can’t do this directly via Git - at least not easily or effectively. Likewise, for projects with huge volumes of content, or those with rapid, frequent changes (such as changing stock figures, for example), this approach also becomes less appealing.
 
-## **The PB&J of Fast & Dynamic Websites**
+## The PB&J of Fast & Dynamic Websites
 
 If you combine both JAMstack and Headless CMS, it’s easy to see the benefits. The former wants to stay fast and flexible through API, which is exactly what the latter specialises in.
 
@@ -58,7 +58,7 @@ E-commerce is the perfect example. Product information is essential and you need
 
 *(Well, there’s a little more to it than that, but that’s a topic for another time.)*
 
-## **Choosing The Right Headless CMS**
+## Choosing The Right Headless CMS
 
 Deciding on JAMstack is easy, but there’s more than one content management system out there and, what’s more, many of the leading WordPress alternatives are headless. And a lot of them are pretty good at it, too, which makes the choice all the more difficult.
 
@@ -74,7 +74,7 @@ However, there are things we look at as much as possible:
 
 **Costs:** Very few CMS are free (and we have a few here). Knowing what options are available and how far the tiers scale up will help you plan ahead.
 
-## **ContentFul**
+## ContentFul
 
 * Supports: JavaScript, PHP, Android, iOS, Python, Java, Ruby, .Net
 * Unique features: none - it’s just really good all-round
@@ -121,7 +121,7 @@ Another key feature are the datasources. By creating datasources, the most repet
 
 Overall, we find this particularly useful with the likes of Shopify. Here, we can take the existing platform provided by Shopify and rearrange elements visually, as needed, in Storyblok. It’s not the most technical, but it is quick and effective for similar results.
 
-### **For Development Teams**
+### For Development Teams
 
 Let’s address the elephant in the room: a visual editor means that Storyblok isn’t entirely headless. At least not in the way that development teams would like. This work model is great for content teams, but it means that the CMS isn’t truly acting like a database. For larger operations, where automation is more important, Storyblok will start to be a less attractive option.
 
@@ -142,7 +142,7 @@ On the plus side, there are webhooks and triggers, all of which can be set in th
 * Usability for content teams: phone and other touch devices supported, real-time, paste formatted texts direct from Google Docs, Word & Web, Extensible UI
 * Cost: Free option available, with packages ranging from $199 per month
 
-### **For Content Teams**
+### For Content Teams
 
 Sanity markets itself as one of the most flexible solutions and, while this is great in terms of development and web design, it arguably hinders content teams the most. If Storyblok is a headless CMS option designed to enable the content side as much as possible, Sanity is the polar opposite: it has much more freedom, but this requires more technical know-how.
 
@@ -175,13 +175,13 @@ Where it falls short, however, is in a lack of support for webhooks. This, paire
 * Usability for content teams: basic interface, field-based editing
 * Cost: Free option available, with packages ranging from $29 per month (5 users on base package)
 
-### **For Content Teams**
+### For Content Teams
 
 At first glance, Forestry is a little barebones. However, the layout is immediately reminiscent of WordPress, so this shouldn't hold experienced content members back. What’s more, it also allows customisation on the sidebar and, with simple text boxes and fields, it enables a quick content creation process - a big plus for websites that focus on frequent production.
 
 The fact that it’s Git-based also means that it works extremely well with static websites - which for content teams often means better SEO, among other benefits.
 
-### **For Development Teams**
+### For Development Teams
 
 Let’s address the most obvious difference: Forestry is Git-based, not API-based. As mentioned earlier, this comes at a trade-off - we’re sacrificing the option to easily implement additional sources (as well as more frequent updates) for a significantly more developer-friendly solution.
 
@@ -202,13 +202,13 @@ But it’s also easy to set-up - not only because of Git, but because it goes we
 * Usability for content teams: extensible interface, real-time updates, friendly for content creators & editors
 * Cost: Free option available, with packages ranging from €199 to €1,500 per month (discounts for annual purchases)
 
-### **For Content Teams**
+### For Content Teams
 
 Similar to Forestry, this is another Headless CMS that has a backend heavily inspired by WordPress - because it works. However, DatoCMS is a little more immediately welcoming than Forestry.
 
 What’s more, while the initial content input seems similarly simple, the addition of plugins and further customisations means the CMS can be catered to more specific needs without too much difficulty.
 
-### **For Development Teams**
+### For Development Teams
 
 If you want a CMS that’s easy to use and is highly agreeable with a wide range of other technologies, DatoCMS has a lot to offer. Even the free plan supports GraphQL API, and integrating with site generators like Gatsby or libraries like Next.js or React (used in Gatsby, of course) isn’t a problem.
 
@@ -228,13 +228,13 @@ If you want a CMS that’s easy to use and is highly agreeable with a wide range
 * Usability for content teams: basic interface, handy document tagging system
 * Cost: Free option available, with packages ranging from $7 to $500 per month (discounts for annual purchases)
 
-### **For Content Teams**
+### For Content Teams
 
 Prismic’s clear UI can be seen from the immediate get-go. You can get anywhere in a handful of clicks, but this also comes at a cost: in this case, a simple lack of depth. Simply put, Prismic offers the most options in being able to publish and schedule content with ease but otherwise has a limited text editor. The lack of extensions can cause problems for more advanced content needs.
 
 However, it does integrate nicely with Magento and Shopify, so it can prove valuable for e-commerce setups with less advanced or complex content needs.
 
-### **For Development Teams**
+### For Development Teams
 
 To be honest, while Prismic thrives in a ‘plug and go’ set-up, it doesn’t offer much expansion or adaptability. For many sites, this won’t be a problem, but more advanced sites, or simply those with some specific functions, might find the lack of plugins to be a severely limiting factor.
 
@@ -256,7 +256,7 @@ That said, what it does have is native integrations for both Shopify and Magento
 * Usability for content teams: basic interface, instant access without GitHub account, fast, web-based UI & custom-styled previews
 * Cost: Free option available, with packages ranging from €45 to €1,500 per month
 
-### **For Content Teams**
+### For Content Teams
 
 As for as content options go, Netlify CMS certainly hits all the core needs. Alongside rich-text editing, there is a lot of drag-and-drop versatility that makes it easy to create new pages from various components - something that most content teams will find intuitive. It also enables real-time previews, which helps ensure content is working as intended before being published - something that’s important with JAMstack and headless backends, as we’re creating our own frontends, rather than relying on existing templates, after all.
 
@@ -264,7 +264,7 @@ Furthermore, content is collated in different Collections - Netlify’s answer t
 
 In terms of content widgets (the forms and modules of this particular CMS), there are around 16 options, but more are being developed. So, from rich text and forms to media and maps, as well as core essentials such as objects and strings, Netlify has it covered.
 
-### **For Development Teams**
+### For Development Teams
 
 As an open-source CMS, there is certainly a lot of potential, but this also means you may have to customise something that would be available already in the larger, more expensive options. On the other hand, this freedom also results in few restrictions and a competent development team will have no problem making it work with their frontend plans if they’re willing to put the time in.
 
@@ -299,7 +299,7 @@ Note: One thing we want to add here is that this particular option is available 
 
 One look at the interface and it’s clear that, like other entries on this list, we have another product aiming to be a powerful WordPress alternative. The interface is clean and inherently familiar, from creating different content types to managing user roles within Strapi itself.
 
-That said, it’s worth nothing that Strapi is still in development and, while funded, this means it’s not without the occasional limitation or hiccup. As such, we wouldn’t recommend it as a ‘plug and play’ solution, but its user-friendliness makes it a worthwhile consideration nonetheless.
+That said, it’s worth noting that Strapi is still in development and, while funded, this means it’s not without the occasional limitation or hiccup. As such, we wouldn’t recommend it as a ‘plug and play’ solution, but its user-friendliness makes it a worthwhile consideration nonetheless.
 
 ### For Development Teams
 
@@ -358,13 +358,13 @@ It’s also worth pointing out that it’s more of an experiment than a flagship
 * Usability for content teams: basic interface, field-based editing
 * Cost: Various solutions available
 
-### **For Content Teams**
+### For Content Teams
 
 Considering most CMS on this list do their best to imitate the look and feel of WordPress, content teams would find few faults with the headless WordPress system. There really isn’t much more to say - WordPress set the standard for how a CMS should look for content teams and it’s still very much the most widely used option today.
 
 In fact, WordPress is so popular that there’s a very high chance it’s the first CMS most content specialists ever use. Its innate familiarity is something that many other options on this list try to evoke for easy usability, but it nonetheless gives headless WordPress a distinct advantage - in the backend, it’s the very same CMS content teams are use to, so there’s no problem adapting or learning a new system.
 
-### **For Development Teams**
+### For Development Teams
 
 WordPress was built with themes included and the removal of that thematic ‘head’ is a relatively new idea. It’s not an official, supported product so it requires a development team that’s willing to put the time and effort in, all to create something that exists in various other forms already.
 
@@ -386,17 +386,21 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 * Gatsby compatible - it’s one of the best site generators and perfect for JAMstack, so we considered this heavily.
 * Service Level Agreement (SLA) availability. With premium plans, an SLA is commonplace and keeps you safe if something goes wrong, whereas open-source solutions require you to maintain, update and look after the service.
 
-## **Headless CMS for JAMstack Summary**
+## Headless CMS for JAMstack Summary
 
-|                    	| API or Git? 	| Free Option? 	| Price Range Per Month 	| No. of Users                         	| No. of Roles             	| Gatsby Compatible? 	| SLA Enterprise/Premium Plans?              	|
-|--------------------	|-------------	|--------------	|-----------------------	|--------------------------------------	|--------------------------	|--------------------	|--------------------------------------------	|
-| Contentful         	| API         	| Yes          	| $489 +                	| 5 on free, 25 on paid plans          	| 2 on free, 4 on paid     	| Yes                	| Yes                                        	|
-| Storyblok          	| API         	| Yes          	| $7 to $21, per user   	| 1 on free, 30-80 on paid plans       	| Custom (on higher plans) 	| Yes                	| Yes                                        	|
-| Sanity             	| API         	| Yes          	| $199 +                	| 3 on free, 20 on paid plans          	| Undefined                	| Yes                	| Yes                                        	|
-| Forestry           	| Git         	| Yes          	| $29 - $749            	| 3 on free, 5-10 on paid plans        	| Custom                   	| Yes                	| Yes                                        	|
-| DatoCMS            	| API         	| Yes          	| €199 to €1,500        	| 1 on free, 10 on paid plans          	| Undefined                	| Yes                	| Yes                                        	|
-| Prismic            	| API         	| Yes          	| $7 to $500            	| 1 on free, 3-Unlimited on paid plans 	| Only on larger plans     	| Yes                	| Yes                                        	|
-| Netlify CMS        	| Git         	| Yes          	| €45 to €1,500         	| Unlimited                            	| Unlimited                	| Yes                	| Yes (but not on open-source CMS only)      	|
-| Strapi             	| API         	| Yes          	| Free                  	| Unlimited                            	| Unlimited                	| Yes                	| Yes                                        	|
-| TinaCMS            	| API         	| Yes          	| Free                  	| Unlimited                            	| Unlimited                	| Limited            	| No (Enterprise Edition is in early access) 	|
-| Headless WordPress 	| API         	| N/A*         	| N/A*                  	| N/A*                                 	| N/A*                     	| N/A*               	| N/A*                                       	|
+|                    | API or Git? | Free Option? | Price Range Per Month | No. of Users                         | No. of Roles             | Gatsby Compatible? | SLA Enterprise/Premium Plans?              |
+| ------------------ | ----------- | ------------ | --------------------- | ------------------------------------ | ------------------------ | ------------------ | ------------------------------------------ |
+| Contentful         | API         | Yes          | $489 +                | 5 on free, 25 on paid plans          | 2 on free, 4 on paid     | Yes                | Yes                                        |
+| Storyblok          | API         | Yes          | $7 to $21, per user   | 1 on free, 30-80 on paid plans       | Custom (on higher plans) | Yes                | Yes                                        |
+| Sanity             | API         | Yes          | $199 +                | 3 on free, 20 on paid plans          | Undefined                | Yes                | Yes                                        |
+| Forestry           | Git         | Yes          | $29 - $749            | 3 on free, 5-10 on paid plans        | Custom                   | Yes                | Yes                                        |
+| DatoCMS            | API         | Yes          | €199 to €1,500        | 1 on free, 10 on paid plans          | Undefined                | Yes                | Yes                                        |
+| Prismic            | API         | Yes          | $7 to $500            | 1 on free, 3-Unlimited on paid plans | Only on larger plans     | Yes                | Yes                                        |
+| Netlify CMS        | Git         | Yes          | €45 to €1,500         | Unlimited                            | Unlimited                | Yes                | Yes (but not on open-source CMS only)      |
+| Strapi             | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Yes                | Yes                                        |
+| TinaCMS            | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Limited            | No (Enterprise Edition is in early access) |
+| Headless WordPress | API         | N/A*         | N/A*                  | N/A*                                 | N/A*                     | N/A*               | N/A*                                       |
+
+
+
+\*Headless WordPress is often custom, so results can be varied.
