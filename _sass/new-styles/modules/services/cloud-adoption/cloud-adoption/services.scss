@@ -1,0 +1,166 @@
+.cloud-adoption__services {
+  width: 100%;
+  padding: 40px 0 60px;
+
+  .services__step, .services__header {
+    padding: 0 20px;
+  }
+
+  .services__step {
+    font-size: 0.75em;
+  }
+
+  .services__header {
+    font-size: 3em;
+    font-weight: 200;
+  }
+
+  &-nav {
+    margin-top: 25px;
+  }
+
+  &-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 30px 20px 20px;
+    border-top: 1px solid $color-global-font-10;
+
+    &:nth-of-type(1) {
+      border-top: none;
+    }
+
+    &__number {
+      padding-right: 15px;
+      font-size: 0.75em;
+      color: $color-page-text-grey;
+    }
+
+    &__text {
+      font-size: 2.25em;
+      line-height: 1.1;
+      color: $color-page-text-second;
+    }
+  }
+
+  .services__dot {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .cloud-adoption__services {
+    .services__step, .services__header {
+      padding: 0 75px;
+    }
+
+    &-nav {
+      padding: 0 50px;
+    }
+
+    &-link {
+      padding: 25px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .cloud-adoption__services {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    .services__step, .services__header {
+      padding-right: 15px;
+    }
+
+    &-text {
+      box-sizing: border-box;
+      width: 195px;
+    }
+
+    &-nav {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 25px;
+      padding: 0;
+    }
+
+    &-link {
+      box-sizing: border-box;
+      width: 50%;
+      padding: 35px 50px;
+
+      &:nth-of-type(2) {
+        border-top: none;
+      }
+
+      &__text {
+        font-size: 2em;
+      }
+    }
+
+    .services__dot {
+      display: block;
+
+      &--secondary {
+        top: 170px;
+        left: 230px;
+      }
+
+      &--yellow {
+        top: 225px;
+        left: 25px;
+      }
+
+      &--blue {
+        bottom: 35px;
+        left: 65%;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .cloud-adoption__services-link {
+    transition: 0.4s;
+
+    &__number {
+      padding-right: 55px;
+    }
+
+    &__text {
+      max-width: 290px;
+      font-size: 2.25em;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cloud-adoption__services {
+    &-link {
+      &:nth-of-type(2n - 1) {
+        padding-left: 75px;
+      }
+
+      &:nth-of-type(2n) {
+        padding-right: 75px;
+      }
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 155px;
+      }
+
+      &--blue {
+        left: 760px;
+      }
+    }
+  }
+}
