@@ -1,0 +1,135 @@
+.cloud-adoption__section {
+  width: 100%;
+
+  &-image {
+    width: auto;
+    height: 350px;
+    transform: translateX(-300px);
+    margin-bottom: -290px;
+  }
+
+  &-content {
+    position: relative;
+    z-index: 2;
+    margin-left: 15px;
+    padding: 40px 0 40px 15px;
+    background-color: $color-light-orange-bg;
+    border-radius: 8px 0 0 8px;
+  }
+
+  &-header {
+    font-size: 2.25em;
+    line-height: 1.4;
+    color: $color-page-text-second;
+  }
+
+  &-text {
+    margin-top: 75px;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+
+  &-side__text {
+    padding: 30px;
+    padding-right: 0;
+    line-height: 1.8;
+    color: $color-page-text;
+  }
+}
+
+@media (min-width: 576px) {
+  .cloud-adoption__section {
+    &-image {
+      margin-bottom: -230px;
+    }
+
+    &-content {
+      padding: 50px;
+      margin: 0 25px;
+      border-radius: 8px;
+    }
+
+    &-side__text {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .cloud-adoption__section {
+    position: relative;
+    height: 100%;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: row;
+      height: 100%;
+    }
+
+    &-image {
+      display: block;
+      width: 1600px;
+      height: auto;
+      margin: 0 auto -300px;
+      transform: none;
+      border-radius: 8px;
+    }
+
+    &-content, &-side {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 75px 50px;
+    }
+
+    &-header {
+      font-size: 3em;
+    }
+
+    &-text {
+      font-size: 1.6em;
+      font-weight: 300;
+    }
+
+    &-side__text {
+      padding: 340px 50px 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cloud-adoption__section {
+    &-wrapper {
+      position: relative;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &-content {
+      margin-left: -15px;
+      padding: 80px 80px 70px 90px;
+    }
+
+    &-side__text {
+      padding: 340px 90px 0;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .cloud-adoption__section {
+    &-content {
+      padding: 80px 80px 110px 90px;
+    }
+
+    &-side__text {
+      padding: 390px 0 0 160px;
+    }
+  }
+}
