@@ -29,6 +29,7 @@
 
     &__header, &__text {
       font-size: 1.1em;
+      font-weight: 300;
       line-height: 1.7;
       color: $color-page-text-second;
     }
@@ -67,23 +68,25 @@
   }
 
   .services__dot {
-    &--blue,  &--yellow {
-      display: block;
+    &--secondary {
+      display: none;
     }
 
-    &--blue {
-      top: 190px;
-      right: 120px;
+    &--yellow, &--blue {
+      display: block;
     }
 
     &--yellow {
       top: 100px;
       right: 10px;
     }
+
+    &--blue {
+      top: 190px;
+      right: 120px;
+    }
   }
 }
-
-
 
 @media (min-width: 576px) {
   .cloud-adoption__carousel {
@@ -124,14 +127,14 @@
     }
 
     .services__dot {
-      &--blue {
-        top: 150px;
-        right: 250px;
-      }
-
       &--yellow {
         top: 0;
         right: 100px;
+      }
+
+      &--blue {
+        top: 150px;
+        right: 250px;
       }
     }
   }
@@ -142,9 +145,10 @@
     padding-top: 30px;
 
     .services__dot {
-      &--blue {
-        top: 520px;
-        right: 33%;
+      &--secondary {
+        display: block;
+        top: 180px;
+        left: 400px;
       }
 
       &--yellow {
@@ -153,9 +157,9 @@
         left: 15px;
       }
 
-      &--secondary {
-        top: 180px;
-        left: 400px;
+      &--blue {
+        top: 520px;
+        right: 33%;
       }
     }
   }
@@ -166,16 +170,22 @@
     padding-top: 75px;
 
     &-header {
-      width: 400px;
+      width: 270px;
       padding: 25px;
       margin-bottom: -110px;
+      font-size: 1.75em;
+      font-weight: 400;
     }
 
     &-wrapper {
       width: auto;
       margin: 0 30px;
-      padding-left: 370px;
+      padding-left: 270px;
       padding-right: 0;
+
+      &::after {
+        top: 120px;
+      }
     }
 
     &-content__text {
@@ -183,27 +193,45 @@
       font-size: 1.1em;
     }
 
+    .custom-carousel__tabs-tab {
+      padding-top: 20px;
+    }
+
     .services__dot {
-      &--blue {
-        top: 380px;
-        right: 23%;
+      &--secondary {
+        top: 170px;
+        left: 280px;
       }
 
       &--yellow {
-        top: 300px;
+        top: 280px;
       }
 
-      &--secondary {
-        top: 200px;
-        left: 370px;
+      &--blue {
+        top: 350px;
+        right: 28%;
       }
     }
   }
 }
 
 @media (min-width: 1200px) {
-  .cloud-adoption__carousel .services__dot--blue {
-    right: 29%;
+  .cloud-adoption__carousel {
+    &-wrapper {
+      max-width: 1130px;
+      padding-left: 330px;
+    }
+
+    .services__dot {
+      &--secondary {
+        left: 330px;
+      }
+
+      &--blue {
+        left: 820px;
+        right: auto;
+      }
+    }
   }
 }
 
@@ -221,17 +249,23 @@
     }
 
     .services__dot {
-      &--blue {
-        right: 430px;
+      &--secondary {
+        left: 260px;
       }
 
       &--yellow {
-        left: -70px;
+        left: -50px;
       }
 
-      &--secondary {
-        left: 350px;
+      &--blue {
+        left: 790px;
       }
     }
+  }
+}
+
+@media (min-width: 1600px) {
+  .cloud-adoption__carousel .services__dot--yellow {
+    left: -120px;
   }
 }
