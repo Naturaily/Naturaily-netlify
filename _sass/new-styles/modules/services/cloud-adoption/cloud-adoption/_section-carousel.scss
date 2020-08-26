@@ -1,0 +1,237 @@
+.cloud-adoption__carousel {
+  position: relative;
+  width: 100%;
+
+  &-header {
+    padding: 40px 30px;
+    font-size: 2.25em;
+    line-height: 1.4;
+    font-weight: 300;
+    color: $color-page-text-second;
+  }
+
+  &-wrapper {
+    position: relative;
+    width: 100vw;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 126px;
+      width: 100%;
+      height: 1px;
+      background-color: $color-global-font-10;
+    }
+  }
+
+  &-content {
+    padding-left: 10px;
+
+    &__header, &__text {
+      font-size: 1.1em;
+      line-height: 1.7;
+      color: $color-page-text-second;
+    }
+
+    &__header {
+      margin-top: 75px;
+      margin-bottom: 25px;
+    }
+  }
+
+  &-tabs {
+    display: flex;
+    position: relative;
+    width: 210vw;
+
+    .icon {
+      font-size: 3.75em;
+      color: $color-secondary;
+    }
+  }
+
+  &-bar {
+    position: absolute;
+    top: 125px;
+    width: 33.3%;
+    height: 3px;
+    background-color: $color-secondary;
+  }
+
+  .custom-carousel__tabs-tab {
+    padding: 30px 20px;
+
+    &--inactive {
+      opacity: 0.5;
+    }
+  }
+
+  .services__dot {
+    &--blue,  &--yellow {
+      display: block;
+    }
+
+    &--blue {
+      top: 190px;
+      right: 120px;
+    }
+
+    &--yellow {
+      top: 100px;
+      right: 10px;
+    }
+  }
+}
+
+
+
+@media (min-width: 576px) {
+  .cloud-adoption__carousel {
+    &-header {
+      max-width: 500px;
+      padding: 40px 75px;
+    }
+
+    &-wrapper {
+      box-sizing: border-box;
+      padding: 0 50px;
+
+      &::after {
+        left: 0;
+      }
+    }
+
+    &-tabs {
+      box-sizing: border-box;
+      width: 100%;
+      left: 0;
+    }
+
+    &-content__text {
+      font-size: 1em;
+    }
+
+    &-bar {
+      display: none;
+    }
+
+    .custom-carousel__tabs-tab {
+      width: 33.3%;
+
+      &--inactive {
+        opacity: 1;
+      }
+    }
+
+    .services__dot {
+      &--blue {
+        top: 150px;
+        right: 250px;
+      }
+
+      &--yellow {
+        top: 0;
+        right: 100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .cloud-adoption__carousel {
+    padding-top: 30px;
+
+    .services__dot {
+      &--blue {
+        top: 520px;
+        right: 33%;
+      }
+
+      &--yellow {
+        top: 370px;
+        right: auto;
+        left: 15px;
+      }
+
+      &--secondary {
+        top: 180px;
+        left: 400px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .cloud-adoption__carousel {
+    padding-top: 75px;
+
+    &-header {
+      width: 400px;
+      padding: 25px;
+      margin-bottom: -110px;
+    }
+
+    &-wrapper {
+      width: auto;
+      margin: 0 30px;
+      padding-left: 370px;
+      padding-right: 0;
+    }
+
+    &-content__text {
+      max-width: 170px;
+      font-size: 1.1em;
+    }
+
+    .services__dot {
+      &--blue {
+        top: 380px;
+        right: 23%;
+      }
+
+      &--yellow {
+        top: 300px;
+      }
+
+      &--secondary {
+        top: 200px;
+        left: 370px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cloud-adoption__carousel .services__dot--blue {
+    right: 29%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cloud-adoption__carousel {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    &-header {
+      padding-left: 0;
+    }
+
+    &-wrapper {
+      margin-left: 0;
+    }
+
+    .services__dot {
+      &--blue {
+        right: 430px;
+      }
+
+      &--yellow {
+        left: -70px;
+      }
+
+      &--secondary {
+        left: 350px;
+      }
+    }
+  }
+}
