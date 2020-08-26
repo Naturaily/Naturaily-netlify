@@ -164,7 +164,8 @@
 
     .services__dot {
       &--secondary {
-        top: 155px;
+        top: 150px;
+        left: 250px;
       }
 
       &--yellow {
@@ -173,7 +174,7 @@
       }
 
       &--blue {
-        left: 760px;
+        left: 770px;
       }
     }
   }
@@ -181,12 +182,12 @@
 
 @media (min-width: 1400px) {
   .cloud-adoption__services .services__dot--yellow {
-    left: -50px;
+    left: -60px;
   }
 }
 
 @media (min-width: 1600px) {
   .cloud-adoption__services .services__dot--yellow {
-    left: -105px;
+    left: -120px;
   }
 }
