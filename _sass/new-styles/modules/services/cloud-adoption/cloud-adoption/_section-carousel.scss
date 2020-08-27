@@ -8,6 +8,11 @@
     line-height: 1.4;
     font-weight: 300;
     color: $color-page-text-second;
+
+    &--small {
+      font-size: 1.75em;
+      line-height: 1.8;
+    }
   }
 
   &-wrapper {
@@ -73,29 +78,30 @@
 
   .services__dot {
     &--consulting.services__dot--secondary,
-    &--post-migration.services__dot--secondary {
+    &--post-migration.services__dot--secondary,
+    &--optimization {
       display: none;
     }
 
-    &--consulting.services__dot {
-      &--yellow {
+    &--consulting {
+      &.services__dot--yellow {
         top: 100px;
         right: 10px;
       }
 
-      &--blue {
+      &.services__dot--blue {
         top: 190px;
         right: 120px;
       }
     }
 
-    &--post-migration.services__dot {
-      &--yellow {
+    &--post-migration {
+      &.services__dot--yellow {
         top: 25px;
         right: 50px;
       }
 
-      &--blue {
+      &.services__dot--blue {
         top: 250px;
         right: 170px;
       }
@@ -141,16 +147,17 @@
       }
     }
 
-    .services__dot--consulting.services__dot,
-    .services__dot--post-migration.services__dot {
-      &--yellow {
-        top: 0;
-        right: 100px;
-      }
+    .services__dot {
+      &--consulting, &--post-migration {
+        &.services__dot--yellow {
+          top: 0;
+          right: 100px;
+        }
 
-      &--blue {
-        top: 150px;
-        right: 250px;
+        &.services__dot--blue {
+          top: 150px;
+          right: 250px;
+        }
       }
     }
   }
@@ -160,23 +167,34 @@
   .cloud-adoption__carousel {
     padding-top: 30px;
 
-    .services__dot--consulting.services__dot,
-    .services__dot--post-migration.services__dot {
-      &--secondary {
-        display: block;
-        top: 180px;
-        left: 400px;
-      }
+    &-header {
+      padding-bottom: 20px;
+      font-size: 1.75em;
+      font-weight: 400;
+    }
 
-      &--yellow {
-        top: 370px;
-        right: auto;
-        left: 15px;
-      }
+    .services__dot--optimization {
+      display: block;
+    }
 
-      &--blue {
-        top: 520px;
-        right: 33%;
+    .services__dot {
+      &--consulting, &--post-migration, &--optimization {
+        &.services__dot--secondary {
+          display: block;
+          top: 130px;
+          left: 400px;
+        }
+
+        &.services__dot--yellow {
+          top: 320px;
+          right: auto;
+          left: 15px;
+        }
+
+        &.services__dot--blue {
+          top: 470px;
+          right: 33%;
+        }
       }
     }
   }
@@ -190,8 +208,6 @@
       width: 270px;
       padding: 25px;
       margin-bottom: -110px;
-      font-size: 1.75em;
-      font-weight: 400;
     }
 
     &-wrapper {
@@ -214,20 +230,21 @@
       padding-top: 20px;
     }
 
-    .services__dot--consulting.services__dot,
-    .services__dot--post-migration.services__dot {
-      &--secondary {
-        top: 170px;
-        left: 280px;
-      }
+    .services__dot {
+      &--consulting, &--post-migration, &--optimization {
+        &.services__dot--secondary {
+          top: 170px;
+          left: 280px;
+        }
 
-      &--yellow {
-        top: 280px;
-      }
+        &.services__dot--yellow {
+          top: 280px;
+        }
 
-      &--blue {
-        top: 350px;
-        right: 28%;
+        &.services__dot--blue {
+          top: 350px;
+          right: 28%;
+        }
       }
     }
   }
@@ -240,21 +257,21 @@
       padding-left: 330px;
     }
 
-    .services__dot--consulting.services__dot,
-    .services__dot--post-migration.services__dot {
-      &--secondary {
-        left: 320px;
-      }
+    .services__dot {
+      &--consulting, &--post-migration, &--optimization {
+        &.services__dot--secondary {
+          left: 320px;
+        }
 
-      &--blue {
-        left: 830px;
-        right: auto;
+        &.services__dot--blue {
+          left: 830px;
+          right: auto;
+        }
       }
     }
 
-    &--migration {
-      .cloud-adoption__carousel-wrapper,
-      .cloud-adoption__carousel-header {
+    &--migration .cloud-adoption__carousel {
+      &-wrapper, &-header {
         margin-left: 60px;
       }
     }
@@ -275,23 +292,32 @@
     }
 
     .services__dot {
-      &--secondary {
-        left: 260px;
-      }
+      &--consulting, &--post-migration, &--optimization {
+        &.services__dot--secondary {
+          top: 170px;
+          left: 300px;
+        }
 
-      &--yellow {
-        left: -50px;
-      }
+        &.services__dot----yellow {
+          top: 300px;
+          left: -50px;
+        }
 
-      &--blue {
-        left: 790px;
+        &.services__dot----blue {
+          top: 380px;
+          left: 790px;
+        }
       }
     }
   }
 }
 
 @media (min-width: 1600px) {
-  .cloud-adoption__carousel .services__dot--yellow {
-    left: -120px;
+  .cloud-adoption__carousel .services__dot {
+    &--consulting, &--post-migration, &--optimization {
+      &.services__dot--yellow {
+        left: -120px;
+      }
+    }
   }
 }

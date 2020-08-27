@@ -16,10 +16,6 @@
     line-height: 1.4;
     color: $color-page-text;
 
-    &--secondary {
-      color: $color-secondary;
-    }
-
     .icon {
       position: absolute;
       top: -20px;
@@ -83,8 +79,14 @@
       padding-bottom: 100px;
     }
 
-    &-text .icon {
-      left: -50px;
+    &-text {
+      &--secondary {
+        color: $color-secondary;
+      }
+
+      .icon {
+        left: -50px;
+      }
     }
 
     &-credits {
