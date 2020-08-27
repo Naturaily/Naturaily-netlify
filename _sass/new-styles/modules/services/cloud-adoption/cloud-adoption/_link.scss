@@ -24,6 +24,19 @@
       width: 35px;
       height: 70px;
     }
+
+    &--blue {
+      transform: rotate(180deg);
+      width: 110px;
+
+      .geometric-figure_center {
+        border-color: $color-geometric-blue-accent;
+      }
+
+      .geometric-figure_right::after {
+        background-color: $color-geometric-blue;
+      }
+    }
   }
 
   .btn-primary.btn-arrow {
@@ -43,18 +56,6 @@
       left: 75px;
       width: 110px;
       margin-bottom: 0;
-
-      &--blue {
-        transform: rotate(180deg);
-
-        .geometric-figure_center {
-          border-color: $color-geometric-blue-accent;
-        }
-
-        .geometric-figure_right::after {
-          background-color: $color-geometric-blue;
-        }
-      }
     }
   }
 }
