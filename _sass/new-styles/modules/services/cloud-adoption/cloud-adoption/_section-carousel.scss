@@ -49,6 +49,10 @@
       font-size: 3.75em;
       color: $color-secondary;
     }
+
+    img {
+      height: 60px;
+    }
   }
 
   &-bar {
@@ -68,22 +72,33 @@
   }
 
   .services__dot {
-    &--secondary {
+    &--consulting.services__dot--secondary,
+    &--post-migration.services__dot--secondary {
       display: none;
     }
 
-    &--yellow, &--blue {
-      display: block;
+    &--consulting.services__dot {
+      &--yellow {
+        top: 100px;
+        right: 10px;
+      }
+
+      &--blue {
+        top: 190px;
+        right: 120px;
+      }
     }
 
-    &--yellow {
-      top: 100px;
-      right: 10px;
-    }
+    &--post-migration.services__dot {
+      &--yellow {
+        top: 25px;
+        right: 50px;
+      }
 
-    &--blue {
-      top: 190px;
-      right: 120px;
+      &--blue {
+        top: 250px;
+        right: 170px;
+      }
     }
   }
 }
@@ -126,7 +141,8 @@
       }
     }
 
-    .services__dot {
+    .services__dot--consulting.services__dot,
+    .services__dot--post-migration.services__dot {
       &--yellow {
         top: 0;
         right: 100px;
@@ -144,7 +160,8 @@
   .cloud-adoption__carousel {
     padding-top: 30px;
 
-    .services__dot {
+    .services__dot--consulting.services__dot,
+    .services__dot--post-migration.services__dot {
       &--secondary {
         display: block;
         top: 180px;
@@ -197,7 +214,8 @@
       padding-top: 20px;
     }
 
-    .services__dot {
+    .services__dot--consulting.services__dot,
+    .services__dot--post-migration.services__dot {
       &--secondary {
         top: 170px;
         left: 280px;
@@ -218,18 +236,26 @@
 @media (min-width: 1200px) {
   .cloud-adoption__carousel {
     &-wrapper {
-      max-width: 1130px;
+      max-width: 1180px;
       padding-left: 330px;
     }
 
-    .services__dot {
+    .services__dot--consulting.services__dot,
+    .services__dot--post-migration.services__dot {
       &--secondary {
-        left: 330px;
+        left: 320px;
       }
 
       &--blue {
-        left: 820px;
+        left: 830px;
         right: auto;
+      }
+    }
+
+    &--migration {
+      .cloud-adoption__carousel-wrapper,
+      .cloud-adoption__carousel-header {
+        margin-left: 60px;
       }
     }
   }
