@@ -1,0 +1,90 @@
+.cloud-adoption__quote {
+  padding: 0 30px 20px 50px;
+
+  &-text {
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.3;
+    color: $color-page-text;
+
+    &--secondary {
+      color: $color-secondary;
+    }
+
+    .icon {
+      position: absolute;
+      top: -20px;
+      left: -18px;
+      font-size: 2.6em;
+      color: $color-accent-yellow;
+      opacity: 0.1;
+    }
+  }
+
+  &-credits {
+    margin-top: 25px;
+    padding-left: 10px;
+
+    &__person, &__position {
+      font-size: 0.9em;
+      line-height: 1.7em;
+      color: $color-page-text-second;
+    }
+
+    &__person {
+      position: relative;
+      font-weight: 500;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: -25px;
+        width: 8px;
+        height: 8px;
+        background-color: $color-accent-yellow;
+        border-radius: 100%;
+      }
+    }
+
+    &__position {
+      opacity: 0.5;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .cloud-adoption__quote {
+    padding: 0 75px;
+
+    &-credits {
+      margin-top: 35px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .cloud-adoption__quote {
+    padding: 75px 75px 0 130px;
+
+    &-text .icon {
+      left: -50px;
+    }
+
+    &-credits {
+      padding-left: 25px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .cloud-adoption__quote {
+    padding-left: 190px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cloud-adoption__quote {
+    padding: 75px 150px 0 210px;
+  }
+}
