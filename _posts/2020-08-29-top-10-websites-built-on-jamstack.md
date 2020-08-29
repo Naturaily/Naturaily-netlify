@@ -148,7 +148,7 @@ This is particularly noticeable when using various tools and calculators. By kee
 
 **CMS:** Netlify
 
-A London fashion retailer,[Ingmarson](https://ingmarson.com/){:rel="nofollow"}{:target="_blank"} is one of many great examples of JAMstack development with ecommerce. The site runs everything from product listings and virtual baskets to the checkout process itself.
+A London fashion retailer, [Ingmarson](https://ingmarson.com/){:rel="nofollow"}{:target="_blank"} is one of many great examples of JAMstack development with ecommerce. The site runs everything from product listings and virtual baskets to the checkout process itself.
 
 A combination of Gatsby and Netlify, it’s a site that knows how to use the best technology for user-friendly means.
 
