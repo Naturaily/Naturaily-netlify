@@ -1,0 +1,361 @@
+.cloud-adoption__companies {
+  width: 100%;
+  padding: 80px 0 40px;
+  background-color: $color-light-orange-bg;
+
+  &-header {
+    padding: 0 30px;
+    font-size: 3em;
+    line-height: 1.3;
+    font-weight: 300;
+  }
+
+  &-carousel {
+    position: relative;
+    width: 100vw;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 126px;
+      width: 100%;
+      height: 1px;
+      background-color: $color-global-font-10;
+    }
+
+    &__content {
+      padding-left: 10px;
+    }
+
+    &__header, &__text {
+      font-size: 1.1em;
+      font-weight: 300;
+      line-height: 1.7;
+      color: $color-page-text-second;
+    }
+
+    &__header {
+      height: 3em;
+      margin-top: 75px;
+      margin-bottom: 25px;
+    }
+
+    &__tabs {
+      display: flex;
+      position: relative;
+      width: 210vw;
+
+      .icon {
+        font-size: 3.75em;
+        color: $color-secondary;
+      }
+
+      img {
+        height: 60px;
+      }
+    }
+
+    .custom-carousel__tabs-tab {
+      padding: 40px 10px 50px 25px;
+
+      &--inactive {
+        opacity: 0.5;
+      }
+    }
+
+    &__bar {
+      position: absolute;
+      top: 125px;
+      width: 33.3%;
+      height: 3px;
+      background-color: $color-secondary;
+    }
+
+    .services__dot {
+      &--yellow, &--blue {
+        display: none;
+      }
+
+      &--secondary {
+        top: 70px;
+        left: 220px;
+      }
+    }
+  }
+
+  &-quote {
+    position: relative;
+    padding: 0 30px 60px 50px;
+
+    &__text {
+      font-size: 1.5em;
+      line-height: 1.3;
+      font-weight: 200;
+    }
+
+    &__source {
+      position: relative;
+      margin-top: 25px;
+      font-size: 0.9em;
+      line-height: 1.7;
+      font-weight: 600;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: -25px;
+        width: 8px;
+        height: 8px;
+        background-color: $color-accent-yellow;
+        border-radius: 100%;
+      }
+    }
+
+    .icon {
+      position: absolute;
+      top: -25px;
+      left: 30px;
+      font-size: 3.8em;
+      color: $color-accent-yellow;
+      opacity: 0.1;
+    }
+  }
+
+  .geometric-figure {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .cloud-adoption__companies {
+    &-header, &-quote {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    &-carousel {
+      box-sizing: border-box;
+      padding: 0 60px;
+
+      &::after {
+        top: 160px;
+        left: 0;
+      }
+
+      &__tabs {
+        box-sizing: border-box;
+        width: 100%;
+        left: 0;
+      }
+
+      &__header {
+        height: 2.7em;
+        font-size: 1em;
+      }
+
+      &__text {
+        font-size: 0.9em;
+      }
+
+      &__bar {
+        display: none;
+      }
+
+      .custom-carousel__tabs-tab {
+        width: 33.3%;
+        padding: 60px 10px;
+
+        &--inactive {
+          opacity: 1;
+        }
+      }
+
+      .services__dot--secondary {
+        top: 40px;
+        left: 85%;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .cloud-adoption__companies {
+    position: relative;
+
+    &-header {
+      max-width: 570px;
+    }
+
+    &-carousel {
+      padding: 0 50px;
+
+      &__header {
+        height: 3em;
+        font-size: 1.1em;
+      }
+
+      &__text {
+        font-size: 1em;
+      }
+
+      .custom-carousel__tabs-tab {
+        padding: 60px 20px;
+      }
+
+      .services__dot {
+        &--secondary {
+          top: 40px;
+          left: 400px;
+        }
+
+        &--yellow, &--blue {
+          display: block;
+        }
+
+        &--yellow {
+          top: 230px;
+          left: 15px;
+        }
+
+        &--blue {
+          top: 350px;
+          right: 35%;
+        }
+      }
+    }
+
+    &-quote {
+      padding-left: 130px;
+
+      &__source {
+        margin-left: 25px;
+      }
+
+      .icon {
+        top: -30px;
+        left: 80px;
+      }
+    }
+
+    .geometric-figure {
+      display: flex;
+      top: auto;
+      bottom: -70px;
+      right: 15px;
+      transform: rotate(-90deg);
+      width: 250px;
+      height: 170px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .cloud-adoption__companies {
+    &-carousel {
+      width: auto;
+      margin: 20px 25px 40px;
+      padding: 0 10px;
+
+      &__header  {
+        height: auto;
+
+        br {
+          display: none;
+        }
+      }
+
+      &__text {
+        max-width: 285px;
+        font-size: 1.1em;
+      }
+
+      .custom-carousel__tabs-tab {
+        padding: 60px 35px;
+      }
+
+      .services__dot {
+        &--secondary {
+          top: 115px;
+          left: 220px;
+        }
+
+        &--yellow {
+          top: 210px;
+          left: -15px;
+        }
+
+        &--blue {
+          top: 250px;
+          right: 32%;
+        }
+      }
+    }
+
+    &-quote {
+      margin-left: 60px;
+    }
+
+    .geometric-figure {
+      bottom: 15px;
+      left: 830px;
+      right: auto;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cloud-adoption__companies {
+    &-carousel .services__dot {
+      &--secondary {
+        left: 290px;
+      }
+
+      &--blue {
+        left: 780px;
+        right: auto;
+      }
+    }
+
+    &-quote {
+      margin-left: 95px;
+    }
+
+    .geometric-figure {
+      left: auto;
+      right: 60px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .cloud-adoption__companies {
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius: 8px;
+
+    &-carousel .services__dot {
+      &--secondary {
+        left: 270px;
+      }
+
+      &--yellow {
+        left: -75px;
+      }
+
+      &--blue {
+        left: 840px;
+      }
+    }
+
+    &-quote {
+      margin-left: 105px;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .cloud-adoption__companies-carousel .services__dot--yellow {
+    left: -150px;
+  }
+}
