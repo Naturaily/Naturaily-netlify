@@ -96,12 +96,15 @@ Developers will find plenty to like about ContentFul, as it also supports a wide
 
 ContentFul also takes all of the fields created in the content section and converts them into both API and JSON attributes, as needed. As long as your website is using these (and of course you are - you’re using JAMstack) developers and content means can often work side by side with no problems at all.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                | Cons                                          |
 | ----------------------------------- | --------------------------------------------- |
 | Clear & intuitive user interface    | Expensive plans, especially at higher levels  |
 | Many content types supported        | Building with blocks also has its limitations |
 | Building via blocks for faster work |                                               |
 | Media assets supported              |                                               |
+
+</div>
 
 ## Storyblok
 
@@ -129,10 +132,13 @@ Sure, the datasources are one way of working around this, but it’s not as effe
 
 On the plus side, there are webhooks and triggers, all of which can be set in the content panels. While this meets most needs, it does result in a different work process - one suited for less code-heavy developers.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                    | Cons                                                       |
 | --------------------------------------- | ---------------------------------------------------------- |
 | Visual editor - great for content teams | Poor support for Gatsby with no office image support       |
 | Supports multi-languages by default     | Not suitable if you require the CMS to act as the database |
+
+</div>
 
 ## Sanity
 
@@ -158,6 +164,7 @@ It’s also built on react and, naturally, is highly compatible with the ever po
 
 Where it falls short, however, is in a lack of support for webhooks. This, paired with a longer implementation time, means we only recommend it for experienced and capable developers.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                    | Cons                                              |
 | ----------------------- | ------------------------------------------------- |
 | Supports React          | Some problems with webhooks - developers required |
@@ -166,6 +173,8 @@ Where it falls short, however, is in a lack of support for webhooks. This, paire
 | Numerous plugins        |                                                   |
 | Visual previews         |                                                   |
 | Very developer-friendly |                                                   |
+
+</div>
 
 ## Forestry
 
@@ -187,12 +196,15 @@ Let’s address the most obvious difference: Forestry is Git-based, not API-base
 
 But it’s also easy to set-up - not only because of Git, but because it goes well with flat files. If you’re focusing on such static designs - and if you’re reading about JAMstack, we think you are - then Forestry is in its natural element.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                                                | Cons                                      |
 | ------------------------------------------------------------------- | ----------------------------------------- |
 | Git-based, great for developers                                     | Not great on more dynamic websites        |
 | Works well with flat files and static generators - including Gatsby | Git-based restrictions                    |
 | Instant previews                                                    | No support for multi-media folders        |
 |                                                                     | User interface could use some improvement |
+
+</div>
 
 ## DatoCMS
 
@@ -212,6 +224,7 @@ What’s more, while the initial content input seems similarly simple, the addit
 
 If you want a CMS that’s easy to use and is highly agreeable with a wide range of other technologies, DatoCMS has a lot to offer. Even the free plan supports GraphQL API, and integrating with site generators like Gatsby or libraries like Next.js or React (used in Gatsby, of course) isn’t a problem.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                            | Cons                                          |
 | ----------------------------------------------- | --------------------------------------------- |
 | Simple UI                                       | Limited features (it’s built by a small team) |
@@ -219,6 +232,8 @@ If you want a CMS that’s easy to use and is highly agreeable with a wide range
 | Supports popular JS libraries, especially React | Difficult to import & export from the CMS     |
 | Easy to set up and configure                    |                                               |
 | SEO previews                                    |                                               |
+
+</div>
 
 ## Prismic
 
@@ -240,6 +255,7 @@ To be honest, while Prismic thrives in a ‘plug and go’ set-up, it doesn’t 
 
 That said, what it does have is native integrations for both Shopify and Magento - so it’s a worthwhile consideration for e-commerce.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                         | Cons                                        |
 | -------------------------------------------- | ------------------------------------------- |
 | Simple User Interface                        | Does not offer text editor extensions       |
@@ -247,6 +263,8 @@ That said, what it does have is native integrations for both Shopify and Magento
 | Native integrations with Shopify and Magento | Plugin limitations                          |
 | Easy to set up and configure                 |                                             |
 | SEO previews                                 |                                             |
+
+</div>
 
 ## Netlify CMS
 
@@ -274,6 +292,7 @@ It’s also relatively open, so if you want to create custom widgets, it typical
 
 Note: One thing we want to add here is that this particular option is available as the open-source [Netlify CMS](https://www.netlifycms.org/){:rel="nofollow"}{:target="_blank"} on its own - perhaps the more developer-friendly option, as well as a wider range of services, including hosting and analytics. Content-focused teams will have a better time with the wider [Netlify services](https://www.netlify.com/){:rel="nofollow"}{:target="_blank"}, but it’s naturally where the expensive packages start to appear.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                                                              | Cons                                                                      |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | Git-based, but can support API through Git wrappers                               | Wider services can be expensive                                           |
@@ -282,6 +301,8 @@ Note: One thing we want to add here is that this particular option is available 
 | Open-source, so developers can configure with ease - great extension capabilities | Free, open-source version will require developers to get the best results |
 | Available with wider services, if needed                                          |                                                                           |
 | Real time previews                                                                |                                                                           |
+
+</div>
 
 ## Strapi
 
@@ -309,11 +330,14 @@ It’s also supported by a wide community, which means there’s always a good c
 
 The biggest drawback with Strapi is the pricing model itself. The free version only supports a limited number of users and roles - and it looks like the Enterprise edition will be the premium version that unlocks wider support. In other words, don’t choose Strapi for large enterprises with a wide range of access needs, but do keep it in mind for small scale situations where only a handful of people need to use it; that’s where it will really shine.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                                                              | Cons                                                    |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | Clear and simple User Interface                                                   | Open source means the documentation can vary in quality |
 | Open-source, so developers can configure with ease - great extension capabilities | Larger enterprise edition is still in the works         |
 | Based on Node.js                                                                  |                                                         |
+
+</div>
 
 ## TinaCMS
 
@@ -343,12 +367,15 @@ Well, if your role is somewhere between developer and content specialist - ie, y
 
 It’s also worth pointing out that it’s more of an experiment than a flagship product (it’s actually backed, in part, by Forestry). Still, if you're a React enthusiast and don’t mind these confines, TinaCMS might just have a lot to offer you.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                            | Cons                                                                             |
 | ------------------------------- | -------------------------------------------------------------------------------- |
 | Supports React-based frameworks | No support outside of React options                                              |
 | Also supports Gatsby            | Not very user friendly for content teams                                         |
 | Live editor                     | Operates very differently from other CMS, so will take time to get familiar with |
 |                                 | Not a good solution if you want to use the CMS as a database                     |
+
+</div>
 
 ## Headless WordPress
 
@@ -370,10 +397,13 @@ WordPress was built with themes included and the removal of that thematic ‘hea
 
 Similarly, we also need to address the JAMstack issue. WordPress is built on PHP and, while many defend the latter as a web-friendly solution, it means adding another language to the tech stack. From a development point of view? If WordPress is kept in the backend and only sends data via API, this shouldn’t get in the way of a JAMstack frontend.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                             | Cons                     |
 | ------------------------------------------------ | ------------------------ |
 | Uses API - Jamstack friendly                     | Not supported officially |
 | Very familiar interface and UI for Content Teams | Requires PHP             |
+
+</div>
 
 ## Headless CMS Comparison
 
@@ -388,7 +418,8 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 
 ## Headless CMS for JAMstack Summary
 
-|                    | API or Git? | Free Option? | Price Range Per Month | No. of Users                         | No. of Roles             | Gatsby Compatible? | SLA Enterprise/Premium Plans?              |
+<div class="table-responsive" markdown="block">
+|                    | API or Git? | Free Option? | Price Range Per Month | No. of Users                         | No. of Roles             | Gatsby Compatible? | SLA Enterprise/ Premium Plans?              |
 | ------------------ | ----------- | ------------ | --------------------- | ------------------------------------ | ------------------------ | ------------------ | ------------------------------------------ |
 | Contentful         | API         | Yes          | $489 +                | 5 on free, 25 on paid plans          | 2 on free, 4 on paid     | Yes                | Yes                                        |
 | Storyblok          | API         | Yes          | $7 to $21, per user   | 1 on free, 30-80 on paid plans       | Custom (on higher plans) | Yes                | Yes                                        |
@@ -400,6 +431,8 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 | Strapi             | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Yes                | Yes                                        |
 | TinaCMS            | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Limited            | No (Enterprise Edition is in early access) |
 | Headless WordPress | API         | N/A*         | N/A*                  | N/A*                                 | N/A*                     | N/A*               | N/A*                                       |
+
+</div>
 
 *Headless WordPress is often custom, so results can be varied.
 
