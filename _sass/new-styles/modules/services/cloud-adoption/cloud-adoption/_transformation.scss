@@ -1,0 +1,153 @@
+.cloud-adoption__transformation {
+  width: 100%;
+
+  &-header, &-subheader, &-text {
+    color: $color-page-text-second;
+  }
+
+  &-header {
+    max-width: 400px;
+    padding: 0 30px;
+    font-size: 1.75em;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  &-subheader {
+    margin: 25px 30px 60px;
+  }
+
+  &-carousel {
+    position: relative;
+    width: 100vw;
+  }
+
+  &-carousel::after,
+  .custom-carousel__tabs-tab::after {
+    content: "";
+    position: absolute;
+    top: 116px;
+    width: 100%;
+    height: 1px;
+    background-color: $color-global-font-10;
+  }
+
+  &-text {
+    max-width: 150px;
+    padding: 40px 0 0 10px;
+    font-size: 1em;
+    line-height: 1.5;
+
+    &--wide {
+      max-width: 100%;
+    }
+  }
+
+  &-tabs {
+    display: flex;
+    position: relative;
+    width: 350vw;
+
+    .icon {
+      font-size: 3.5em;
+      color: $color-secondary;
+    }
+  }
+
+  &-bar {
+    position: absolute;
+    top: 115px;
+    width: 20%;
+    height: 3px;
+    background-color: $color-secondary;
+  }
+
+  .custom-carousel__tabs-tab {
+    padding: 40px 20px;
+
+    &--inactive {
+      opacity: 0.5;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .cloud-adoption__transformation {
+    &-header {
+      padding: 0 75px;
+    }
+
+    &-subheader {
+      margin-left: 75px;
+    }
+
+    &-text {
+      padding-left: 0;
+    }
+
+    &-carousel, &-tabs {
+      width: auto;
+    }
+
+    &-carousel::after, &-bar {
+      display: none;
+    }
+
+    &-tabs {
+      box-sizing: border-box;
+      flex-flow: row wrap;
+      left: 0;
+      padding: 0 70px;
+    }
+
+    .custom-carousel__tabs-tab {
+      box-sizing: border-box;
+      flex: 33% 0 0;
+      position: relative;
+      padding: 30px 5px;
+
+      &--inactive {
+        opacity: 1;
+      }
+
+      &::after {
+        display: block;
+        top: 105px;
+      }
+
+      &:last-of-type::after {
+        width: 200%;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .cloud-adoption__transformation {
+    padding-bottom: 50px;
+
+    &-subheader {
+      margin-bottom: 35px;
+    }
+
+    &-text, &-text--wide {
+      max-width: 140px;
+    }
+
+    &-tabs {
+      flex-wrap: nowrap;
+    }
+
+    .custom-carousel__tabs-tab {
+      flex-basis: 20%;
+
+      &:last-of-type::after {
+        width: 100%;
+      }
+    }
+  }
+}
