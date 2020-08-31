@@ -1,0 +1,115 @@
+.cloud-adoption__case {
+  width: 100%;
+  padding: 85px 0;
+
+  .services__step, &-header, &-text {
+    padding: 0 30px;
+  }
+
+  .services__step {
+    font-size: 0.75em;
+  }
+
+  &-header {
+    font-size: 2.25em;
+    line-height: 1.4;
+    font-weight: 400;
+    color: $color-page-text-second;
+  }
+
+  &-text {
+    font-size: 1em;
+    line-height: 1.8;
+    color: $color-page-text;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  &-image {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 65px 15px 40px;
+  }
+
+  .btn-bordered {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  .cloud-adoption__case {
+    .services__step, &-header, &-text, &-image {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    .btn-bordered {
+      margin-left: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .cloud-adoption__case {
+    position: relative;
+    z-index: 2;
+    background-color: $color-white;
+
+    .services__step, &-header, &-text {
+      box-sizing: border-box;
+      width: 50%;
+      max-width: 470px;
+      padding-right: 0;
+    }
+
+    .services__step {
+      margin-bottom: 35px;
+    }
+
+    &-text {
+      margin-top: 60px;
+    }
+
+    &-image {
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      transform: translateY(-46%);
+      width: 500px;
+      padding: 0;
+    }
+
+    .btn-bordered {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .cloud-adoption__case {
+    padding: 100px 0;
+
+    &-image {
+      left: 530px;
+      width: 550px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cloud-adoption__case-image {
+    left: auto;
+    right: 75px;
+    width: 600px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cloud-adoption__case-image {
+    right: 0;
+    width: 625px;
+  }
+}
