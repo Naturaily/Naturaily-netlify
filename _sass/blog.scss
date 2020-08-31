@@ -115,10 +115,6 @@ pre, code {
       max-width: 100%;
       max-height: 250px;
     }
-
-    .disqus {
-      margin: 50px 0;
-    }
   }
 
   &-meta {
@@ -318,6 +314,27 @@ pre, code {
       padding: 10px;
     }
   }
+
+  .table {
+    &-layout-fixed table {
+      table-layout: fixed;
+      width: 100%;
+    }
+
+    &-responsive {
+      overflow-x: auto;
+      width: 320px;
+
+      table {
+        table-layout: fixed;
+        width: 1000px;
+      }
+    }
+  }
+
+  .disqus {
+    margin: 50px 0;
+  }
 }
 
 .meetus-social {
@@ -338,7 +355,17 @@ pre, code {
   }
 }
 
+@media (min-width: 350px) {
+  .post .table-responsive {
+    width: 350px;
+  }
+}
 
+@media (min-width: 470px) {
+  .post .table-responsive {
+    width: 450px;
+  }
+}
 
 @media (min-width: 576px) {
   .post {
@@ -365,6 +392,10 @@ pre, code {
         margin-top: 50px;
         margin-bottom: 50px;
       }
+    }
+
+    .table-responsive {
+      width: 540px;
     }
   }
 }
@@ -449,6 +480,16 @@ pre, code {
     &-content blockquote {
       margin: 25px 90px 25px 60px;
     }
+
+    .table {
+      &-layout-fixed table {
+        width: 500px;
+      }
+
+      &-responsive {
+        width: 500px;
+      }
+    }
   }
 }
 
@@ -469,8 +510,14 @@ pre, code {
 }
 
 @media (min-width: 1200px) {
-  .post-content iframe {
-    max-height: 400px;
+  .post {
+    &-content iframe {
+      max-height: 400px;
+    }
+
+    .table-responsive {
+      width: 660px;
+    }
   }
 }
 
@@ -481,6 +528,10 @@ pre, code {
 
   .post {
     padding-left: 0;
+
+    .table-responsive, .table-responsive table {
+      width: 100%;
+    }
   }
 }
 
