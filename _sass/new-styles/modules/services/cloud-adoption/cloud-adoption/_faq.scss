@@ -1,0 +1,59 @@
+.cloud-adoption__faq {
+  padding-top: 85px;
+  padding-bottom: 50px;
+
+  .services-faq {
+    &__list {
+      margin-top: 30px;
+    }
+
+    &__item {
+      position: relative;
+    }
+
+    &__number {
+      position: absolute;
+      top: 27px;
+      left: 25px;
+      color: $color-page-text-grey;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .cloud-adoption__faq {
+    margin-top: 75px;
+    padding: 80px 75px;
+
+    .services__step {
+      margin-bottom: 45px;
+    }
+
+    .services__header {
+      max-width: 380px;
+    }
+
+    .services-faq {
+      &__list {
+        margin-top: 75px;
+      }
+
+      &__number {
+        top: 37px;
+        left: 0;
+      }
+
+      &__header {
+        width: 250px;
+        min-width: 250px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .cloud-adoption__faq-wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}
