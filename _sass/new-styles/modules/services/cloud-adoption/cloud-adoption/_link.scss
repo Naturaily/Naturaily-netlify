@@ -72,10 +72,10 @@
 
     .geometric-figure {
       top: 50%;
-      transform: translateY(-50%);
+      transform: translateY(-30%);
 
       &--blue {
-        transform: translateY(-50%) rotate(180deg);
+        transform: translateY(-30%) rotate(180deg);
       }
     }
 
@@ -104,6 +104,11 @@
 
     .geometric-figure {
       left: 125px;
+      transform: translateY(-50%);
+
+      &--blue {
+        transform: translateY(-50%) rotate(180deg);
+      }
     }
   }
 }
