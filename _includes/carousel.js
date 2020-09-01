@@ -11,6 +11,7 @@ window.addEventListener('load', () => {
     size: null,
     scale: 100,
     max_width: 811,
+    full_width: false,
     animationTime: 600,
     change_going: false,
     current_tab_index: null,
@@ -42,7 +43,8 @@ window.addEventListener('load', () => {
 
   function setCarouselParameters() {
     carousel.tabs_disabled = $targetCarousel.data('tabsDisabled') ? true : false;
-    carousel.scale = carousel.progress_bar ? 70 : 100;
+    carousel.full_width = $targetCarousel.data('fullWidth') ? true : false;
+    carousel.scale = carousel.progress_bar && !carousel.full_width ? 70 : 100;
 
     const $activeContainer = carousel.progress_bar ? $carouselTabsContainer : $carouselDots;
     const activeAttribute = carousel.progress_bar ? '[data-tab-active="true"]' : '[data-dot-active="true"]';
