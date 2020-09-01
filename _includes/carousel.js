@@ -123,11 +123,11 @@ window.addEventListener('load', () => {
 
     const swipeLeft = swipePositionChange < 0;
     const swipeToIndex = swipeLeft ? carousel.current_tab_index - 1 : carousel.current_tab_index + 1;
-    const switchByTab = carousel.progress_bar && rightSideClicked && swipePositionChange < 5;
+    const switchByTab = carousel.progress_bar && !carousel.full_width && rightSideClicked && swipePositionChange < 5;
 
     const swipeEnough = Math.abs(swipePositionChange) > 30;
     const tabExists = (swipeToIndex >= 0 && swipeToIndex < carousel.size);
-    const newIndex = (swipeEnough && tabExists) || switchByTab ? swipeToIndex : carousel.current_tab_index;
+    const newIndex = tabExists && (swipeEnough || switchByTab) ? swipeToIndex : carousel.current_tab_index;
 
     checkChangeRequest(newIndex, 'swipe');
     $targetCarousel.off('mousemove touchmove');
