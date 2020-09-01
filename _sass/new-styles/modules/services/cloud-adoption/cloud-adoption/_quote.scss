@@ -6,6 +6,11 @@
     padding-bottom: 120px;
   }
 
+  &--optimization {
+    padding-top: 25px;
+    padding-bottom: 75px;
+  }
+
   &--migration {
     padding-bottom: 65px;
   }
@@ -23,6 +28,10 @@
       font-size: 2.6em;
       color: $color-accent-yellow;
       opacity: 0.1;
+    }
+
+    &--secondary {
+      color: $color-secondary;
     }
   }
 

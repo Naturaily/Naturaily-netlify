@@ -12,7 +12,7 @@
     position: relative;
     z-index: 2;
     margin-left: 15px;
-    padding: 40px 0 40px 15px;
+    padding: 40px 10px 40px 15px;
     background-color: $color-light-orange-bg;
     border-radius: 8px 0 0 8px;
   }
@@ -27,6 +27,10 @@
     margin-top: 75px;
     font-size: 1.1em;
     line-height: 1.6;
+
+    &--smaller {
+      display: none;
+    }
   }
 
   &-side {
@@ -38,6 +42,11 @@
 
     &__text {
       padding-right: 0;
+
+      &--mobile {
+        display: block;
+        padding-bottom: 30px;
+      }
     }
 
     &__list {
@@ -201,6 +210,7 @@
         position: relative;
         width: 50%;
         padding-right: 0;
+        padding-bottom: 20px;
       }
 
       &__header {
@@ -215,8 +225,8 @@
         }
 
         &--yellow {
-          bottom: -40px;
-          right: 100px;
+          bottom: -240px;
+          right: 230px;
         }
 
         &--blue {
@@ -229,20 +239,33 @@
 }
 
 @media (min-width: 992px) {
-  .cloud-adoption__section-description {
-    &__wrapper {
-      padding: 170px 0 30px 75px;
+  .cloud-adoption__section {
+    &-description {
+      &__wrapper {
+        padding: 170px 0 30px 75px;
+      }
+
+      &__text {
+        padding-right: 50px;
+        max-width: 500px;
+      }
+
+      .services__dot--yellow {
+        bottom: -215px;
+        left: 84%;
+        right: auto;
+      }
     }
 
-    &__text {
-      padding-right: 50px;
-      max-width: 500px;
+    &-text--smaller {
+      display: block;
+      max-width: 450px;
+      padding-top: 40px;
+      font-size: 0.6em;
     }
 
-    .services__dot--yellow {
-      bottom: -215px;
-      left: 82%;
-      right: auto;
+    &-side__text--mobile {
+      display: none;
     }
   }
 }
@@ -260,8 +283,14 @@
       padding: 80px 80px 70px 90px;
     }
 
-    &-side__text {
-      padding: 340px 90px 0;
+    &-side {
+      &__text {
+        padding: 340px 90px 0;
+      }
+
+      &__list {
+        padding-left: 200px;
+      }
     }
   }
 }
