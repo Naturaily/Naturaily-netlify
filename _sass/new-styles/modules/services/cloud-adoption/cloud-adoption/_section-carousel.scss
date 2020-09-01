@@ -9,7 +9,7 @@
     font-weight: 400;
     color: $color-page-text-second;
 
-    &--small {
+    &--small, &--migration {
       font-size: 1.75em;
       line-height: 1.8;
     }
@@ -171,6 +171,10 @@
         }
       }
     }
+
+    &--migration .cloud-adoption__carousel-header {
+      max-width: 100%;
+    }
   }
 }
 
@@ -262,6 +266,27 @@
         }
       }
     }
+
+    &--migration {
+      .cloud-adoption__carousel {
+        &-header {
+          box-sizing: border-box;
+          width: 100%;
+          margin-bottom: 0;
+          padding: 25px 75px 35px;
+        }
+
+        &-wrapper {
+          margin: 0 75px;
+          padding-left: 0;
+        }
+      }
+
+      .custom-carousel__tabs-tab {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
   }
 }
 
@@ -282,12 +307,6 @@
           left: 830px;
           right: auto;
         }
-      }
-    }
-
-    &--migration .cloud-adoption__carousel {
-      &-wrapper, &-header {
-        margin-left: 60px;
       }
     }
   }
