@@ -41,7 +41,7 @@
 
   &-link .btn-primary.btn-arrow {
     width: 210px;
-    padding-left: 20px;
+    padding: 18px 0 18px 20px;
   }
 }
 
@@ -85,6 +85,7 @@
       display: flex;
       width: 160px;
       padding-left: 40px;
+      padding-right: 20px;
     }
   }
 }
