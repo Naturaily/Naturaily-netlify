@@ -94,11 +94,14 @@
     }
 
     &__source {
+      display: block;
       position: relative;
       margin-top: 25px;
       font-size: 0.9em;
       line-height: 1.7;
       font-weight: 600;
+      color: $color-page-text-second;
+      transition: 0.4s;
 
       &::before {
         content: "";
@@ -109,6 +112,10 @@
         height: 8px;
         background-color: $color-accent-yellow;
         border-radius: 100%;
+      }
+
+      &:hover {
+        color: $color-secondary;
       }
     }
 
