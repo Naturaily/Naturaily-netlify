@@ -9,7 +9,7 @@
     font-weight: 400;
     color: $color-page-text-second;
 
-    &--small, &--migration {
+    &--small {
       font-size: 1.75em;
       line-height: 1.8;
     }
@@ -111,6 +111,15 @@
       }
     }
   }
+
+  &--migration .cloud-adoption__carousel-header {
+    font-size: 1.75em;
+    line-height: 1.4;
+
+    br {
+      display: none;
+    }
+  }
 }
 
 @media (min-width: 576px) {
@@ -210,6 +219,15 @@
           top: 470px;
           right: 33%;
         }
+      }
+    }
+
+    &--migration .cloud-adoption__carousel-header {
+      margin-bottom: 25px;
+      line-height: 1.7;
+
+      br {
+        display: block;
       }
     }
   }
