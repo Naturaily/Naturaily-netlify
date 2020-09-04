@@ -1,12 +1,12 @@
 .node-hero {
   position: relative;
   width: 100%;
-  padding: 120px 0 45px;
+  margin: 120px 0 45px;
   text-align: center;
 
   &__shadow {
     position: absolute;
-    top: 250px;
+    top: 130px;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
@@ -42,14 +42,14 @@
 
 @media (min-width: 340px) {
   .node-hero__shadow {
-    top: 130px;
+    top: 10px;
   }
 }
 
 @media (min-width: 576px) {
   .node-hero {
     &__shadow {
-      top: 100px;
+      top: -20px;
     }
 
     &__header, &__paragraph {
@@ -70,10 +70,10 @@
 
 @media (min-width: 811px) {
   .node-hero {
-    padding-top: 150px;
+    margin-top: 150px;
 
     &__shadow {
-      top: 115px;
+      top: -35px;
       font-size: 11em;
     }
 
@@ -91,5 +91,11 @@
       width: 180px;
       padding-left: 45px;
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .node-hero {
+    margin-bottom: 110px;
   }
 }
