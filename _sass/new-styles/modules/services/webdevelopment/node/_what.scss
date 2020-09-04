@@ -1,0 +1,192 @@
+.node-what {
+  position: relative;
+  width: 100%;
+  padding: 65px 0;
+
+  &__step, &__header, &__subheader, &__text {
+    padding: 0 20px;
+  }
+
+  &__step {
+    font-size: 0.75em;
+    color: $color-secondary;
+
+    &-number {
+      margin-right: 20px;
+      color: $color-page-text-grey;
+    }
+  }
+
+  &__header {
+    margin: 40px 0 45px;
+    line-height: 1.4;
+  }
+
+  &__subheader, &__text {
+    color: $color-page-text-second;
+    opacity: 0.7;
+  }
+
+  &__subheader {
+    margin: 35px 0;
+    font-size: 1.5em;
+    line-height: 1.45;
+
+    br {
+      display: none;
+    }
+  }
+
+  &__text {
+    font-size: 0.9em;
+    line-height: 1.7;
+  }
+
+  .services__dot {
+    z-index: -1;
+
+    &--secondary {
+      bottom: 23%;
+      right: 80px;
+    }
+
+    &--yellow {
+      top: 285px;
+      right: 25px;
+    }
+
+    &--blue {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .node-what {
+    &__step, &__header, &__subheader, &__text {
+      padding: 0 75px;
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 360px;
+        bottom: auto;
+        right: 150px;
+      }
+
+      &--yellow {
+        top: 170px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .node-what {
+    padding: 90px 0;
+
+    &__header, &__left .node-what__text {
+      padding-right: 10px;
+    }
+
+    &__subheader, &__right .node-what__text {
+      padding-left: 40px;
+    }
+
+    &__wrapper {
+      display: flex;
+    }
+
+    &__left {
+      width: 45%;
+    }
+
+    &__right {
+      width: 55%;
+    }
+
+    &__header {
+      margin-bottom: 82px;
+    }
+
+    &__subheader {
+      margin: 45px 0 25px;
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 90px;
+      }
+
+      &--yellow {
+        top: 290px;
+      }
+
+      &--blue {
+        display: block;
+        top: 325px;
+        left: 370px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .node-what {
+    padding: 180px 0;
+
+    &__subheader, &__right .node-what__text {
+      padding-left: 35px;
+    }
+
+    &__header {
+      margin-bottom: 48px;
+    }
+
+    &__subheader br {
+      display: block;
+    }
+
+    &__left .node-what__text {
+      max-width: 300px;
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 150px;
+      }
+
+      &--yellow {
+        right: -75px;
+      }
+
+      &--blue {
+        left: 420px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .node-what {
+    &__header, &__left .node-what__text {
+      padding-left: 120px;
+    }
+
+    &__step-number {
+      margin-right: 30px;
+    }
+
+    &__left {
+      width: 40%;
+    }
+
+    &__right {
+      width: 60%;
+
+      .node-what__text {
+        max-width: 590px;
+      }
+    }
+  }
+}
