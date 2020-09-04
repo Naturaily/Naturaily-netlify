@@ -37,20 +37,36 @@
         }
       }
 
+      &__icon, &__orange-arrow {
+        position: absolute;
+        right: 5px;
+        transition: 0.6s;
+      }
+
       &__icon {
         display: block;
-        position: absolute;
         top: 17px;
-        right: 5px;
         width: 0;
         height: 0;
         border-top: 5px solid transparent;
         border-bottom: 5px solid transparent;
         border-left: 8px solid #3B220F;
-        transition: 0.6s;
 
         &--rotated {
           transform: rotate(90deg);
+        }
+      }
+
+      &__orange-arrow {
+        transform: rotate(90deg);
+        width: 20px;
+
+        .arrow-line {
+          fill: $color-secondary;
+        }
+
+        &.services-faq__icon--rotated {
+          transform: rotate(-90deg);
         }
       }
     }
