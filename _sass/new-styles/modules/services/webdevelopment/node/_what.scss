@@ -19,6 +19,7 @@
 
   &__header {
     margin: 40px 0 45px;
+    font-size: 2.25em;
     line-height: 1.4;
   }
 
@@ -135,8 +136,16 @@
   .node-what {
     padding: 180px 0;
 
+    &__header, &__left .node-what__text {
+      padding-left: 120px;
+    }
+
     &__subheader, &__right .node-what__text {
       padding-left: 35px;
+    }
+
+    &__step-number {
+      margin-right: 30px;
     }
 
     &__header {
@@ -169,14 +178,6 @@
 
 @media (min-width: 1200px) {
   .node-what {
-    &__header, &__left .node-what__text {
-      padding-left: 120px;
-    }
-
-    &__step-number {
-      margin-right: 30px;
-    }
-
     &__left {
       width: 40%;
     }
