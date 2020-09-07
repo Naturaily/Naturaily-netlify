@@ -1,10 +1,18 @@
 .product-design__workshop {
   position: relative;
+  width: 100%;
   padding: 45px 0 70px;
 
   .product-design__switch {
+    &-header {
+      padding: 0 20px;
+      font-size: 2.25em;
+      font-weight: 400;
+      color: $color-page-text-second;
+    }
+
     &-arrows {
-      top: 260px;
+      top: 350px;
       padding: 0 20px;
     }
 
@@ -19,12 +27,8 @@
     &-card {
       width: 33.3%;
 
-      &__header, &__content {
-        padding: 0 20px;
-      }
-
       &__content {
-        padding-bottom: 30px;
+        padding: 0 20px 30px;
       }
 
       &__image  {
@@ -56,7 +60,7 @@
     padding: 100px 0 50px;
 
     .product-design__switch {
-      &-card__header, &-card__content, &-switcher {
+      &-header, &-card__content, &-switcher {
         padding: 0 75px;
       }
 
@@ -67,8 +71,12 @@
       }
 
       &-arrows {
-        top: 380px;
+        top: 430px;
         padding: 0 55px;
+      }
+
+      &-switcher {
+        margin-top: 25px;
       }
     }
   }
@@ -76,10 +84,13 @@
 
 @media (min-width: 811px) {
   .product-design__workshop {
-    width: 100vw;
     padding-bottom: 100px;
 
     .product-design__switch {
+      &-header {
+        margin-bottom: 25px;
+      }
+
       &-arrows, &-card__image {
         box-sizing: border-box;
         width: 60%;
@@ -87,45 +98,42 @@
       }
 
       &-arrows {
-        top: 410px;
-        left: auto;
-        right: 25px;
-        padding: 0 5px 0 50px;
+        top: 420px;
+        left: 40%;
+        padding: 0 35px 0 15px;
       }
 
       &-card {
+        display: flex;
         position: relative;
-        padding: 0 75px 50px;
+        padding: 0 75px;
         overflow: hidden;
-
-        &__header {
-          padding: 0;
-        }
 
         &__content {
           box-sizing: border-box;
           width: 40%;
+          order: 1;
           max-width: 370px;
           padding: 50px 25px 50px 0;
         }
 
         &__image {
-          position: absolute;
-          top: 50%;
-          right: 50px;
-          transform: translateY(-45%);
-          height: 100%;
+          box-sizing: border-box;
+          position: relative;
+          order: 2;
+          right: -20px;
+          width: 60%;
           margin: 0;
-          padding-left: 100px;
 
           img {
-            width: 630px;
+            height: 330px;
+            width: auto;
           }
         }
       }
 
       &-switcher {
-        margin-top: -40px;
+        margin-top: 15px;
 
         &__number--active {
           width: 15px;
@@ -144,8 +152,29 @@
   .product-design__workshop {
     padding: 140px 0;
 
-    .product-design__switch-arrow:hover {
-      box-shadow: 7px 7px 20px $color-btn-shadow-brown-hover;
+    .product-design__switch {
+      &-arrows {
+        top: 470px;
+        padding-left: 40px;
+      }
+
+      &-arrow:hover {
+        box-shadow: 7px 7px 20px $color-btn-shadow-brown-hover;
+      }
+
+      &-card {
+        &__image  {
+        margin-left: 60px;
+
+          img {
+            height: 350px;
+          }
+        }
+
+        &__text {
+          max-width: 300px;
+        }
+      }
     }
   }
 }
@@ -156,20 +185,10 @@
       overflow: hidden;
     }
 
-    &-arrows, &-card__image {
-      left: 40%;
-      right: auto;
-      padding: 0;
-    }
-
     &-arrows {
-      max-width: 650px;
-      margin-left: -20px;
-    }
-
-    &-card__image img {
-      max-width: 610px;
-      width: 610px;
+      left: 450px;
+      min-width: 765px;
+      padding: 0 50px;
     }
   }
 }
