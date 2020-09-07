@@ -6,9 +6,12 @@ window.addEventListener('load', () => {
     buttons: '[switch-button]',
     cards: '[switch-cards]',
     counter: '[switch-counter]',
+    switcher: '[switch-switcher]',
+    content: '[switch-content]',
     activeCard: 'switch-active-card',
     index: 'data-index',
-    animatedSvg: 'data-animating'
+    animatedSvg: 'data-animating',
+    autoHeight: 'data-auto-height'
   };
 
   let switchData = {
@@ -16,7 +19,8 @@ window.addEventListener('load', () => {
     animating: false,
     size: null,
     type: null,
-    isMobile: false
+    isMobile: false,
+    autoHeight: false
   };
 
   const animationTime = 500;
@@ -64,7 +68,8 @@ window.addEventListener('load', () => {
       index: parseInt($activeCard[0].dataset.index),
       type: $switch[0].dataset.switchType,
       size: $($cards).children().length,
-      isMobile: window.innerWidth < 811
+      isMobile: window.innerWidth < 811,
+      autoHeight: $switch[0].dataset.autoHeight
     };
 
     switchData = {...switchData, ...dataUpdate};
@@ -107,7 +112,7 @@ window.addEventListener('load', () => {
   };
 
   const updateCards = (index) => {
-    const $activeCard = $cards.find(`[${attributes.activeCard}]`)
+    const $activeCard = $cards.find(`[${attributes.activeCard}]`);
     const $newActiveCard = $cards.find(`[${attributes.index}=${index}]`);
     const $animatedSvg = $activeCard.find(`[${attributes.animatedSvg}]`);
     const $newAnimatedSvg = $newActiveCard.find(`[${attributes.animatedSvg}]`);
@@ -155,6 +160,16 @@ window.addEventListener('load', () => {
       $counter.css('left', secondPosition);
       $counter[0].innerHTML = newInnerHTML;
       $counter.animate({ left: finalPosition }, animationTime / 2);
+      if (switchData.isMobile && switchData.autoHeight) adjustHeight();
     });
+
+    const adjustHeight = (initialIndex = 0) => {
+      const $switcher = $switch.find(attributes.switcher);
+      const $initialContent = $cards.find(`[${attributes.index}="${initialIndex}"]`).find(attributes.content);
+      const $newContent = $cards.find(`[${attributes.activeCard}]`).find(attributes.content);
+      const marginChange = $newContent.height() - $initialContent.height();
+
+      $switcher.animate({ 'margin-top': marginChange }, animationTime);
+    };
   };
 });
