@@ -75,16 +75,6 @@
           color: $color-accent-yellow;
         }
       }
-
-      &:hover .product-design__process-nav__item-path {
-        stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
-        animation: animateNav 5s linear forwards;
-
-        &--short {
-          animation: animateNav 10s linear forwards;
-        }
-      }
     }
   }
 
@@ -120,6 +110,21 @@
 
         img {
           width: 100%;
+        }
+      }
+
+      a {
+        background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 0px;
+        color: $color-secondary;
+        text-decoration: none;
+        transition: background-size .2s ease-in, color .1s ease;
+
+        &:hover {
+          color: $color-white;
+          background-size: 100% 88%;
         }
       }
     }
@@ -299,8 +304,20 @@
 
 @media (min-width: 1200px) {
   .product-design__process {
-    &-nav__items {
-      padding: 0 150px 0 50px;
+    &-nav {
+      &__items {
+        padding: 0 150px 0 50px;
+      }
+
+      &-item:hover .product-design__process-nav__item-path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: animateNav 5s linear forwards;
+
+        &--short {
+          animation: animateNav 10s linear forwards;
+        }
+      }
     }
 
     .product-design__switch-arrows,
