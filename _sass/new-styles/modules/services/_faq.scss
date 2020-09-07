@@ -61,6 +61,10 @@
         transform: rotate(90deg);
         width: 20px;
 
+        .arrow-line {
+          fill: $color-secondary;
+        }
+
         &.services-faq__icon--rotated {
           transform: rotate(-90deg);
         }
