@@ -9,6 +9,15 @@
     margin-top: 15px;
   }
 
+  &--node {
+    margin-top: 80px;
+    margin-bottom: 75px;
+
+    .services__header {
+      max-width: 300px;
+    }
+  }
+
   .portfolio__header, .services__header {
     position: relative;
     z-index: 2;
@@ -205,6 +214,11 @@
       margin-top: -15px;
     }
 
+    &--node {
+      margin-top: 80px;
+      margin-bottom: 75px;
+    }
+
     &-reviews {
       padding: 75px 0 100px;
     }
@@ -243,6 +257,15 @@
     align-items: center;
     margin: 0 35px -25px;
     padding: 0 0 0 40px;
+
+    &--node {
+      margin: 90px 0;
+      padding: 0 75px;
+
+      .clutch-intro {
+        padding-right: 50px;
+      }
+    }
 
     &-intro, &-reviews {
       box-sizing: border-box;
@@ -354,6 +377,10 @@
   .clutch {
     &--custom-ecommerce {
       margin-top: -25px;
+    }
+
+    &--node {
+      margin: 110px 0;
     }
 
     &-text {
