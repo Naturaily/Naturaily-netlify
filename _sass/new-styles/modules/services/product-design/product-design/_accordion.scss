@@ -146,39 +146,41 @@
       transition: opacity .4s, left 0s;
     }
 
-    &-card--opened {
-      width: 610px;
-      min-width: 610px;
-      cursor: auto;
+    &-card {
+      &--opened {
+        width: 610px;
+        min-width: 610px;
+        cursor: auto;
 
-      .product-design__accordion {
-        &-title {
-          font-size: 1.5em;
-          font-weight: 200;
-        }
+        .product-design__accordion {
+          &-title {
+            font-size: 1.5em;
+            font-weight: 200;
+          }
 
-        &-hover {
-          opacity: 0;
-          left: -250px;
+          &-hover {
+            opacity: 0;
+            left: -250px;
+          }
         }
       }
-    }
 
-    &-card:hover {
-      height: 490px;
-      margin-top: -20px;
+      &:not(.product-design__accordion-card--opened):hover {
+        height: 490px;
+        margin-top: -20px;
 
-      .product-design__accordion {
-        &-title {
-          bottom: 85px;
-        }
+        .product-design__accordion {
+          &-title {
+            bottom: 85px;
+          }
 
-        &-hover {
-          opacity: 1;
-        }
+          &-hover {
+            opacity: 1;
+          }
 
-        &-background {
-          top: 0;
+          &-background {
+            top: 0;
+          }
         }
       }
     }
@@ -194,7 +196,7 @@
     }
 
     .slider-arrow {
-      top: 200px;
+      top: 145px;
 
       &--prev {
         left: 60px;
@@ -222,6 +224,6 @@
 
 @media (min-width: 1600px) {
   .product-design__accordion .slider-arrow--prev {
-    left: 485px;
+    left: 275px;
   }
 }
