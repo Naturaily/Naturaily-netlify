@@ -1,6 +1,7 @@
 .product-design__link {
   width: 100%;
-  padding: 0 20px 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
 
   &-text {
     max-width: 310px;
@@ -23,7 +24,9 @@
 @media (min-width: 576px) {
   .product-design__link {
     position: relative;
-    padding: 0 75px 20px 250px;
+    margin-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 75px;
 
     .geometric-figure {
       display: flex;
@@ -60,15 +63,16 @@
   .product-design__link {
     display: flex;
     align-items: center;
-    height: 80px;
-    padding: 0 75px 100px 250px;
+    margin-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 75px;
 
     &-text {
       padding-right: 75px;
     }
 
     .geometric-figure {
-      top: 25%;
+      top: 50%;
       transform: translateY(-50%);
 
       &--blue {
@@ -103,7 +107,10 @@
 
 @media (min-width: 1200px) {
   .product-design__link {
-    padding: 10px 75px 115px 375px;
+    margin-top: 10px;
+    margin-bottom: 115px;
+    padding-left: 375px;
+    padding-right: 75px;
 
     .geometric-figure {
       left: 175px;
