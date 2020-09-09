@@ -215,7 +215,7 @@
       }
 
       &-arrows {
-        top: 630px;
+        top: 640px;
         left: 50%;
         width: 50%;
         padding: 0 5px;
@@ -231,7 +231,8 @@
         &__header {
           display: block;
           padding: 30px 75px 35px;
-          font-size: 2.25em;
+          font-size: 36px;
+          line-height: 50px;
           font-weight: 400;
           color: $color-page-text-second;
         }
@@ -274,12 +275,18 @@
     padding-top: 0;
 
     &-nav {
-      height: 190px;
+      height: 180px;
     }
 
     .product-design__switch {
-      &-arrows, &-card__image {
+      &-card__image {
         max-width: 490px;
+      }
+
+      &-arrows {
+        top: 610px;
+        max-width: 510px;
+        margin-left: -10px;
       }
 
       &-arrow:hover {
@@ -292,7 +299,7 @@
         justify-content: center;
 
         &__image {
-          top: 0;
+          top: 25px;
         }
 
         &__content {
@@ -307,7 +314,7 @@
   .product-design__process {
     &-nav {
       &__items {
-        padding: 0 150px 0 50px;
+        padding: 0 140px 0 80px;
       }
 
       &-item:hover .product-design__process-nav__item-path {
