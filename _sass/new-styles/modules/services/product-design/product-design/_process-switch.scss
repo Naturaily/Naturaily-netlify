@@ -100,7 +100,8 @@
       }
 
       &__text, &__list {
-        line-height: 1.5;
+        font-size: 16px;
+        line-height: 26px;
         color: $color-page-text;
       }
 
@@ -270,7 +271,7 @@
 
 @media (min-width: 992px) {
   .product-design__process {
-    padding-top: 40px;
+    padding-top: 0;
 
     &-nav {
       height: 190px;

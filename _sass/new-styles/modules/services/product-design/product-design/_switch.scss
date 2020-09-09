@@ -24,7 +24,7 @@
     .icon {
       position: absolute;
       top: 13px;
-      font-size: 1em;
+      font-size: 16px;
       font-weight: 600;
       color: $color-page-text;
 
@@ -47,7 +47,7 @@
 
       .icon {
         top: 15px;
-        font-size: 0.8em;
+        font-size: 12px;
         color: $color-secondary;
       }
 
@@ -72,13 +72,15 @@
     box-sizing: border-box;
 
     &__header {
-      font-size: 2.25em;
+      font-size: 36px;
+      line-height: 50px;
       font-weight: 400;
       color: $color-page-text-second;
     }
 
     &__text, &__list {
-      line-height: 1.5;
+      font-size: 16px;
+      line-height: 28px;
       color: $color-page-text;
     }
 
@@ -125,7 +127,8 @@
 
     &__number {
       padding-left: 57px;
-      font-size: 1em;
+      font-size: 16px;
+      line-height: 19px;
       font-weight: 400;
       color: $color-page-text;
 
@@ -172,7 +175,7 @@
     .icon {
       position: absolute;
       top: 10px;
-      font-size: 0.8em;
+      font-size: 12px;
       font-weight: 600;
       color: $color-white;
 

@@ -4,7 +4,8 @@
   .services__header {
     padding-left: 20px;
     padding-right: 35px;
-    font-size: 3em;
+    font-size: 48px;
+    line-height: 58px;
     font-weight: 400;
     color: $color-page-text-second;
   }
@@ -14,8 +15,8 @@
   }
 
   &-text {
-    font-size: 1em;
-    line-height: 1.8;
+    font-size: 16px;
+    line-height: 28.8px;
     color: $color-page-text;
 
     &--secondary {
