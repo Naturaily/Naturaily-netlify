@@ -12,6 +12,11 @@
     margin-bottom: 35px;
   }
 
+  .services__header {
+    line-height: 50px;
+    font-weight: 200;
+  }
+
   &-description, &-image, .services__dot, .services__step--desktop {
     display: none;
   }
@@ -36,7 +41,9 @@
 
     &__header {
       margin: 0;
-      font-size: 1.5em;
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: 200;
     }
 
     &__number {
@@ -83,10 +90,6 @@
       max-width: 430px;
     }
 
-    .services__header {
-      font-weight: 200;
-    }
-
     .services-faq__text, &-description {
       color: $color-page-text-second;
     }
@@ -114,7 +117,8 @@
       }
 
       &__text {
-        font-size: 0.9em;
+        font-size: 14px;
+        line-height: 24px;
         opacity: 0.5;
       }
     }
@@ -122,7 +126,8 @@
     &-description {
       margin-top: 35px;
       padding-left: 75px;
-      line-height: 1.5;
+      font-size: 16px;
+      line-height: 24px;
       opacity: 0.7;
     }
 
@@ -167,6 +172,7 @@
 
 @media (min-width: 992px) {
   .product-design__profits {
+    margin-top: 0;
     margin-right: 45px;
     overflow: visible;
     border-radius: 0 8px 8px 0;
