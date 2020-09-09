@@ -15,16 +15,13 @@
     padding: 80px 20px 0;
   }
 
-  &-header, &-text, &-side {
-    line-height: 1.5;
-  }
-
   &-header, &-text, &-description {
     color: $color-page-text-second;
   }
 
   &-header {
-    font-size: 3em;
+    font-size: 48px;
+    line-height: 64px;
     font-weight: 300;
   }
 
@@ -35,28 +32,30 @@
   }
 
   &-text, &-description {
-    font-size: 1.6em;
+    font-size: 26px;
   }
 
   &-text {
     margin-top: 40px;
+    line-height: 41.6px;
   }
 
   &-description {
     margin-top: 35px;
-    line-height: 1.8;
+    line-height: 52px;
   }
 
   &-side__text {
     padding: 55px 20px 45px;
     color: $color-page-text;
+    font-size: 16px;
+    line-height: 28.8px;
 
     &-quote {
       position: relative;
       z-index: 1;
       margin: 40px 0 15px;
       padding-left: 25px;
-      font-size: 1em;
     }
 
     .icon {
@@ -64,7 +63,7 @@
       top: -30px;
       left: 0;
       z-index: 0;
-      color: $color-secondary;
+      color: $color-accent-yellow;
       opacity: 0.1;
     }
 
@@ -140,10 +139,6 @@
       border-radius: 8px;
     }
 
-    &-header {
-      font-size: 3em;
-    }
-
     &-text {
       margin-top: 0;
     }
@@ -171,8 +166,13 @@
   .product-design__section {
     margin-bottom: 120px;
 
+    &-header--thin {
+      max-width: 400px;
+      font-weight: 200;
+    }
+
     &--orange {
-      margin-bottom: 75px;
+      margin-bottom: 80px;
     }
   }
 }
@@ -194,7 +194,7 @@
 
     &-content {
       margin-left: -25px;
-      padding: 100px;
+      padding: 80px 70px 75px 90px;
     }
 
     &-description {
