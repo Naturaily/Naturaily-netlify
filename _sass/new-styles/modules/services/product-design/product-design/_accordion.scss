@@ -69,8 +69,8 @@
     bottom: 65px;
     width: 100%;
     text-align: center;
-    font-size: 1.25em;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 24px;
     color: $color-white;
     transition: all .4s;
   }
@@ -122,14 +122,14 @@
 
       &__title {
         align-self: flex-start;
-        font-size: 1.2em;
+        font-size: 20px;
         font-weight: 400;
       }
 
       &__desc {
         align-self: baseline;
-        font-size: 1em;
-        line-height: 1.5;
+        font-size: 16px;
+        line-height: 24px;
       }
     }
 
@@ -154,7 +154,7 @@
 
         .product-design__accordion {
           &-title {
-            font-size: 1.5em;
+            font-size: 24px;
             font-weight: 200;
           }
 
