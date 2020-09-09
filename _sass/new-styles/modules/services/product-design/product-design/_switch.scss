@@ -218,3 +218,39 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .product-design__switch-arrow {
+    width: 55px;
+    height: 55px;
+
+    .icon {
+      top: 20px;
+
+      &-chevron-left {
+        left: 18px;
+      }
+
+      &-chevron-right {
+        left: 20px;
+      }
+    }
+
+    &--orange {
+      width: 40px;
+      height: 40px;
+
+      .icon {
+        top: 15px;
+
+        &-chevron-left {
+          left: 13px;
+        }
+
+        &-chevron-right {
+          left: 15px;
+        }
+      }
+    }
+  }
+}

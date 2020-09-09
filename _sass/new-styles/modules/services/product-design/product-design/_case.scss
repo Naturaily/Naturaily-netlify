@@ -52,27 +52,25 @@
       padding: 40px 20px 25px;
 
       .icon {
-        width: 90px;
-        margin-top: 10px;
-        font-size: 40px;
+        width: 30px;
+        margin: 5px 50px 0 0;
+        font-size: 30px;
         color: $color-secondary;
       }
     }
 
-    &__number, &__text {
-      color: $color-page-text-second;
-    }
-
     &__number {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       font-size: 16px;
       line-height: 24px;
       font-weight: 500;
+      color: $color-page-text-second;
     }
 
     &__text {
       font-size: 14px;
       line-height: 24px;
+      color: $color-page-text-second;
       opacity: 0.7;
     }
   }
@@ -130,7 +128,7 @@
     &-image {
       position: absolute;
       top: 0;
-      left: 43%;
+      left: 44%;
       width: 650px;
       padding: 0;
     }
@@ -168,23 +166,19 @@
     margin: 150px 0 160px;
 
     .services__header {
+      margin-bottom: 40px;
       font-size: 36px;
       line-height: 50px;
       font-weight: 400;
     }
 
     &-image {
-      width: 680px;
+      width: 730px;
     }
 
     &-carousel {
+      margin-top: 100px;
       margin-right: 100px;
     }
-  }
-}
-
-@media (min-width: 1200px) {
-  .product-design__case-image {
-    top: 15px;
   }
 }
