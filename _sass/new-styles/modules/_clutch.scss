@@ -5,7 +5,7 @@
   border-top: 1px solid $color-global-font-10;
   border-bottom: 1px solid $color-global-font-10;
 
-  &--custom-ecommerce, &--product-design {
+  &--custom-ecommerce {
     margin-top: 15px;
   }
 
@@ -205,10 +205,6 @@
       margin-top: -15px;
     }
 
-    &--product-design {
-      margin-top: 0;
-    }
-
     &-reviews {
       padding: 75px 0 100px;
     }
@@ -351,20 +347,6 @@
         }
       }
     }
-
-    &--product-design {
-      margin: 0;
-      margin-right: 50px;
-      padding-left: 75px;
-
-      .clutch-intro {
-        padding-right: 25px;
-      }
-
-      .services__header {
-        max-width: 350px;
-      }
-    }
   }
 }
 
@@ -372,10 +354,6 @@
   .clutch {
     &--custom-ecommerce {
       margin-top: -25px;
-    }
-
-    &--product-design {
-      margin-top: 40px;
     }
 
     &-text {
@@ -409,14 +387,12 @@
         top: calc(50% - 25px);
       }
 
-      &-dot {
-        &--yellow {
-          transform: translate(-227px, 150px);
-        }
+      &-dot--yellow {
+        transform: translate(-227px, 150px);
+      }
 
-        &--blue {
-          transform: translate(170px, 25px);
-        }
+      &-dot--blue {
+        transform: translate(170px, 25px);
       }
     }
   }
@@ -450,19 +426,6 @@
 
     &-check .btn-white {
       padding-right: 120px;
-    }
-
-    &--product-design {
-      margin-left: -25px;
-      padding-left: 100px;
-
-      .clutch-intro {
-        padding-right: 50px;
-      }
-
-      .clutch-reviews {
-        padding-left: 25px;
-      }
     }
   }
 }
