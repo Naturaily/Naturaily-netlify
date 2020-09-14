@@ -211,5 +211,18 @@
     .services__dot--blue {
       right: 45px;
     }
+
+    &-image {
+      opacity: 0;
+      transform: translateX(300px) rotate(20deg);
+      transition: transform 1.5s ease,
+                  opacity 2s ease;
+      will-change: transform, opacity;
+
+      &.animated {
+        opacity: 1;
+        transform: none;
+      }
+    }
   }
 }
