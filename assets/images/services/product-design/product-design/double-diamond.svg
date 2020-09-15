@@ -1,0 +1,39 @@
+<svg width="902px" height="439px" viewBox="0 0 902 439" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g transform="translate(-344.000000, -8670.000000)">
+      <g transform="translate(269.000000, 8328.000000)">
+        <g transform="translate(75.000000, 343.000000)">
+          <polygon data-draw="path" stroke="#000000" stroke-width="1.2" fill="#BBE7B1" transform="translate(296.475000, 218.405848) rotate(45.000000) translate(-296.475000, -218.405848) " points="189.578077 111.508925 403.332353 111.548495 403.371923 325.302771 189.617647 325.263201"></polygon>
+          <polygon data-draw="path" stroke="#000000" stroke-width="1.2" fill="#BBE7B1" transform="translate(598.901471, 218.405848) rotate(45.000000) translate(-598.901471, -218.405848) " points="492.004548 111.508925 705.758824 111.548495 705.798394 325.302771 492.044118 325.263201"></polygon>
+          <circle fill="#FF5E45" cx="447" cy="219" r="10"></circle>
+          <circle fill="#FF5E45" cx="749" cy="219" r="10"></circle>
+          <circle fill="#FF5E45" cx="145" cy="219" r="10"></circle>
+          <line x1="598.5" y1="0" x2="598.5" y2="437" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6"></line>
+          <line x1="296.5" y1="0" x2="296.5" y2="437" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-dasharray="6"></line>
+          <text class="product-design__diamond-image__text">
+            <tspan x="180.172" y="406">DISCOVER</tspan>
+          </text>
+          <text class="product-design__diamond-image__text product-design__diamond-image__text--secondary">
+            <tspan x="30.708" y="227">PROBLEM</tspan>
+          </text>
+          <text class="product-design__diamond-image__text product-design__diamond-image__text--secondary">
+            <tspan x="778" y="227">SOLUTION</tspan>
+          </text>
+          <text class="product-design__diamond-image__text">
+            <tspan x="404.354" y="86">PROBLEM</tspan>
+            <tspan x="396.542" y="104">DEFINITION</tspan>
+          </text>
+          <text class="product-design__diamond-image__text">
+            <tspan x="322" y="406">DEFINE</tspan>
+          </text>
+          <text class="product-design__diamond-image__text">
+            <tspan x="490.254" y="406">DEVELOP</tspan>
+          </text>
+          <text class="product-design__diamond-image__text">
+            <tspan x="624" y="406">DELIVER</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
