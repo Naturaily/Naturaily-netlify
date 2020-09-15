@@ -86,9 +86,11 @@ window.addEventListener('load', () => {
 
       switchData = {...switchData, ...dataUpdate};
 
-      $($cards).animate({ left: `${newPosition}%` }, animationTime, () => { switchData.animating = false });
+      $($cards).animate({ left: `${newPosition}%` }, animationTime, () => {
+        switchData.animating = false;
+        updateCards(index);
+      });
       if ($nav) updateNav(index);
-      updateCards(index);
       updateArrows(index);
       updateCounter(index, changeDirection);
     };
@@ -116,13 +118,12 @@ window.addEventListener('load', () => {
     const $newActiveCard = $cards.find(`[${attributes.index}=${index}]`);
     const $animatedSvg = $activeCard.find(`[${attributes.animatedSvg}]`);
     const $newAnimatedSvg = $newActiveCard.find(`[${attributes.animatedSvg}]`);
-
-    const animatedSvgClass = 'product-design__switch-card__image--animated';
+    const animatedClass = 'switch-animated';
 
     $activeCard.removeAttr(attributes.activeCard);
     $newActiveCard.attr(attributes.activeCard, attributes.activeCard);
-    if ($animatedSvg[0]) $animatedSvg.removeClass(animatedSvgClass);
-    if ($newAnimatedSvg[0]) $newAnimatedSvg.addClass(animatedSvgClass);
+    if ($animatedSvg[0]) $animatedSvg.removeClass(animatedClass);
+    if ($newAnimatedSvg[0]) $newAnimatedSvg.addClass(animatedClass);
   };
 
   const updateArrows = (index) => {

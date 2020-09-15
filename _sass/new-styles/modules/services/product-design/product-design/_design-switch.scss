@@ -40,10 +40,12 @@
         overflow: hidden;
 
         &--illustration {
-          padding-left: 5px;
-          text-align: center;
+          position: relative;
 
           img {
+            position: absolute;
+            top: 0;
+            left: 5px;
             width: 390px;
           }
         }
@@ -77,6 +79,7 @@
 
         &--active {
           width: 25px;
+          height: 19px;
         }
       }
 
@@ -95,20 +98,27 @@
         padding-right: 75px;
       }
 
-      &__image--ui-design {
-        text-align: center;
+      &__image {
+        &--illustration img {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        &--ui-design {
+          text-align: center;
+        }
       }
     }
 
     &-switcher {
-      padding: 0 75px;
+      padding: 25px 75px 0;
     }
   }
 }
 
 @media (min-width: 811px) {
   .product-design__design {
-    height: 400px;
+    height: 425px;
     width: 100vw;
     margin: 0;
     padding: 75px 0 100px 0;
@@ -124,7 +134,7 @@
 
       &-card {
         position: relative;
-        height: 400px;
+        height: 425px;
         padding: 0;
         overflow: visible;
 
@@ -159,11 +169,15 @@
             width: auto;
             max-width: 100%;
           }
+
+          &--illustration img {
+            top: -10px;
+          }
         }
       }
 
       &-switcher {
-        margin-top: -75px;
+        margin-top: -100px;
 
         &__number {
           &--desktop {
@@ -217,6 +231,54 @@
         &__header {
           padding-top: 100px;
         }
+
+        &__image {
+          &--illustration {
+            img {
+              opacity: 0;
+            }
+
+            &.animated.switch-animated img.product-design__switch-card__image {
+              &--first {
+                animation: show .5s .05s forwards;
+              }
+
+              &--second {
+                animation: show .5s .4s forwards;
+              }
+
+              &--third {
+                animation: show .5s .6s forwards;
+              }
+            }
+          }
+
+          &--prototyping {
+            .product-design__switch-card__image {
+              &--first, &--second, &--third, &--fourth {
+                opacity: 0;
+              }
+            }
+
+            &.animated.switch-animated .product-design__switch-card__image {
+              &--first {
+                animation: show .4s .05s forwards;
+              }
+
+              &--second {
+                animation: show .4s .4s forwards;
+              }
+
+              &--third {
+                animation: show .4s .7s forwards;
+              }
+
+              &--fourth {
+                animation: show .4s 1s forwards;
+              }
+            }
+          }
+        }
       }
 
       &-arrows {
@@ -228,5 +290,11 @@
         margin-top: -100px;
       }
     }
+  }
+}
+
+@keyframes show {
+  to {
+    opacity: 1;
   }
 }
