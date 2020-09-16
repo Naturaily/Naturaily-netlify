@@ -1,27 +1,32 @@
-<div class="product-design__diamond">
-  <h2 class="services__header">Double diamond</h2>
-  <div class="product-design__diamond-content">
-    <p class="product-design__diamond-text">
-      Double Diamond model has been invented by the British Design Council,
-      back in 2005.
-      <br>
-      It is
-      <span class="product-design__diamond-text--secondary">extremely useful</span>
-      when we face a problem, a difficult task or  a promising opportunity.
-    </p>
-    <p class="product-design__diamond-text">
-      As you can see below DD process has four main stages: Discover,
-      Define, Develop and Delivery.
-      <br>
-      This non-linear type of workflow helps us to
-      <span class="product-design__diamond-text--secondary">organize</span>
-      our thoughts and
-      <span class="product-design__diamond-text--secondary">improve</span>
-      the creative process.
-    </p>
-  </div>
-  <div class="product-design__diamond-wrapper" data-draw="on-scroll">
+<div class="product-design__diamond" data-draw="on-scroll">
+  <div class="product-design__wrapper" data-draw="wrapper">
+    <h2 class="services__header" data-draw="header">
+      Double diamond
+    </h2>
+    <div class="product-design__diamond-content" data-draw="content">
+      <p class="product-design__diamond-text">
+        Double Diamond model has been invented by the British Design Council,
+        back in 2005.
+        <br>
+        It is
+        <span class="product-design__diamond-text--secondary">extremely useful</span>
+        when we face a problem, a difficult task or  a promising opportunity.
+      </p>
+      <p class="product-design__diamond-text">
+        As you can see below DD process has four main stages: Discover,
+        Define, Develop and Delivery.
+        <br>
+        This non-linear type of workflow helps us to
+        <span class="product-design__diamond-text--secondary">organize</span>
+        our thoughts and
+        <span class="product-design__diamond-text--secondary">improve</span>
+        the creative process.
+      </p>
+    </div>
     {% svg /assets/images/services/product-design/product-design/double-diamond.svg class="product-design__diamond-image" data-draw="svg" %}
-    <div class="product-design__diamond-scroll" data-draw="scroll"></div>
   </div>
 </div>
+
+<script type="text/javascript">
+  {% include services/product-design/product-design/drawOnScroll.js %}
+</script>
