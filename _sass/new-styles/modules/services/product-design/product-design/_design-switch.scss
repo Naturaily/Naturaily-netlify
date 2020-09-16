@@ -51,11 +51,22 @@
         }
 
         &--ui-design {
-          padding: 20px 0 0 50px;
+          position: relative;
 
-          img {
+          img, svg {
+            position: absolute;
+            top: 0;
             height: 100%;
             width: auto;
+          }
+
+          img {
+            left: 50px;
+            z-index: 2;
+          }
+
+          svg {
+            right: 32px;
           }
         }
 
@@ -99,13 +110,16 @@
       }
 
       &__image {
-        &--illustration img {
+        &--illustration img, &--ui-design img, &--ui-design svg {
           left: 50%;
+        }
+
+        &--illustration img, &--ui-design img {
           transform: translateX(-50%);
         }
 
-        &--ui-design {
-          text-align: center;
+        &--ui-design svg {
+          transform: translateX(-45%);
         }
       }
     }
@@ -172,6 +186,14 @@
 
           &--illustration img {
             top: -10px;
+          }
+
+          &--ui-design svg {
+            box-sizing: border-box;
+            left: auto;
+            right: 0;
+            transform: none;
+            padding: 30px 0;
           }
         }
       }
@@ -253,6 +275,33 @@
             }
           }
 
+          &--ui-design {
+            .product-design__switch-card__image {
+              &--first, &--second, &--third, &--fourth {
+                opacity: 0;
+                transform: translateY(-25px);
+              }
+            }
+
+            &.animated.switch-animated .product-design__switch-card__image {
+              &--first {
+                animation: rain .4s .05s forwards;
+              }
+
+              &--second {
+                animation: rain .4s .4s forwards;
+              }
+
+              &--third {
+                animation: rain .4s .7s forwards;
+              }
+
+              &--fourth {
+                animation: rain .4s 1s forwards;
+              }
+            }
+          }
+
           &--prototyping {
             .product-design__switch-card__image {
               &--first, &--second, &--third, &--fourth {
@@ -296,5 +345,12 @@
 @keyframes show {
   to {
     opacity: 1;
+  }
+}
+
+@keyframes rain {
+  to {
+    opacity: 1;
+    transform: none;
   }
 }
