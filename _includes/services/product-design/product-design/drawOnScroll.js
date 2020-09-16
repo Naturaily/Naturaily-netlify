@@ -1,12 +1,13 @@
 window.addEventListener('load', () => {
-  const scroll = window.requestAnimationFrame || function(callback){ window.setTimeout(callback, 1000/60)};
   const $item = $('[data-draw="on-scroll"]')[0];
+  const $wrapper = $($($item).find('[data-draw="wrapper"]')[0]);
   const $svg = $($($item).find('[data-draw="svg"]')[0]);
-  const $scroll = $($item).find('[data-draw="scroll"]')[0];
+  const elPosition = $($item).offset().top;
 
-  const drawingState = {
-    isDrawn: false,
-    windowWidth: $(window).width()
+  let drawingState = {
+    drawingWidth: $(window).width() > 1200,
+    sectionStart: $($item).offset().top - 100,
+    sectionEnd: $($item).offset().top + 4200
   };
 
   const drawPaths = {
@@ -49,25 +50,37 @@ window.addEventListener('load', () => {
     }
   };
 
+  if (drawingState.drawingWidth) {
+    $wrapper.stick_in_parent({ offset_top: 100 });
+  };
+
   const draw = () => {
-    const length = drawPaths.top.getTotalLength() + 50;
-    const scrollPercent = $($item).scrollTop() / $($item).height();
-    const draw = length * scrollPercent;
+    const scrollPosition = $(window).scrollTop();
+    const drawingArea = scrollPosition > drawingState.sectionStart && scrollPosition < drawingState.sectionEnd;
 
-    Object.entries(showElems).forEach(entry => {
-      const item = entry[1];
+    if (drawingState.drawingWidth && drawingArea) {
+      const scrollTop = scrollPosition - drawingState.sectionStart;
+      const sectionHeight = drawingState.sectionEnd - drawingState.sectionStart;
+      const scrollPercent = scrollTop / sectionHeight;
 
-      if (scrollPercent >= item.end) {
-        show (item);
-      } else if (scrollPercent <= item.start) {
-        hide (item);
-      } else {
-        dynamic (item, scrollPercent);
-      }
-    });
+      const length = drawPaths.top.getTotalLength() + 50;
+      const draw = length * scrollPercent;
 
-    drawPaths.top.style.strokeDashoffset = length - draw;
-    drawPaths.bottom.style.strokeDashoffset = length - draw;
+      Object.entries(showElems).forEach(entry => {
+        const item = entry[1];
+
+        if (scrollPercent >= item.end) {
+          show (item);
+        } else if (scrollPercent <= item.start) {
+          hide (item);
+        } else {
+          dynamic (item, scrollPercent);
+        }
+      });
+
+      drawPaths.top.style.strokeDashoffset = length - draw;
+      drawPaths.bottom.style.strokeDashoffset = length - draw;
+    }
   };
 
   const show = (item) => {
@@ -89,13 +102,15 @@ window.addEventListener('load', () => {
   };
 
   const updateState = () => {
-    drawingState.isDrawn = false;
-    drawingState.windowWidth = $(window).width();
+    const stateUpdate = {
+      drawingWidth: $(window).width() > 1200,
+      sectionStart: $($item).offset().top - 100,
+      sectionEnd: $($item).offset().top + 2200
+    }
+
+    drawingState = { ...drawingState, ...stateUpdate };
   }
 
   $(window).resize(() => updateState());
-
-  if (drawingState.isDrawn === false && drawingState.windowWidth > 1200) {
-    $($item).scroll(() => draw());
-  }
+  $(window).scroll(() => draw());
 });
