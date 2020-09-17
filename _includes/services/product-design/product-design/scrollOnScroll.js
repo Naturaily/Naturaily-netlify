@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
   let scrollingState = {
     scrollingWidth: $(window).width() > 1200,
     sectionStart: $($item).offset().top - 100,
-    sectionEnd: $($item).offset().top + 1300
+    sectionEnd: $($item).offset().top + 4310
   };
 
   if (scrollingState.scrollingWidth) {
@@ -17,11 +17,11 @@ window.addEventListener('load', () => {
   const scroll = () => {
     const scrollPosition = $(window).scrollTop();
     const scrollingArea = scrollPosition > scrollingState.sectionStart && scrollPosition < scrollingState.sectionEnd;
+    const maxImgScroll = -4320;
 
     if (scrollingState.scrollingWidth && scrollingArea) {
       const scrollTop = scrollPosition - scrollingState.sectionStart;
       const sectionHeight = scrollingState.sectionEnd - scrollingState.sectionStart;
-      const maxImgScroll = -1300;
       const scrollPercent = scrollTop / sectionHeight;
 
       $img.css('top', scrollPercent * maxImgScroll);
@@ -29,6 +29,8 @@ window.addEventListener('load', () => {
 
     if (scrollPosition < scrollingState.sectionStart) {
       $img.css('top', 0);
+    } else if (scrollPosition > scrollingState.sectionEnd) {
+      $img.css('top', maxImgScroll);
     }
   };
 
