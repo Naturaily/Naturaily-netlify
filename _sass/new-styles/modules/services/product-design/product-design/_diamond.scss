@@ -92,7 +92,7 @@
     position: relative;
     width: 100%;
     height: 5000px;
-    padding-bottom: 50px;
+    padding-bottom: 130px;
 
     .services__header, &-content {
       max-width: 1130px;
@@ -113,6 +113,8 @@
     }
 
     &-image {
+      margin-top: 30px;
+      
       &__text--hidden, &__dot--hidden {
         opacity: 0;
       }

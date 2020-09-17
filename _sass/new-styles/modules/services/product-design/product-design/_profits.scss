@@ -214,10 +214,8 @@
 
     &-image {
       opacity: 0;
-      transform: translateX(300px) rotate(20deg);
-      transition: transform 1.5s ease,
-                  opacity 2s ease;
-      will-change: transform, opacity;
+      transform: translateX(300px) scale(0.5);
+      transition: transform 1s ease, opacity 1.5s ease;
 
       &.animated {
         opacity: 1;
