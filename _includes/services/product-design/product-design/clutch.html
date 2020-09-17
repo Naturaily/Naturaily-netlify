@@ -1,4 +1,4 @@
-<div class="clutch product-design__clutch">
+<div class="clutch product-design__clutch" data-move="on-scroll">
   <div class="clutch-intro">
     <h3 class="product-design__clutch-header">
       Why it’s <span>worth working</span> with us
@@ -33,7 +33,7 @@
       </a>
     </div>
   </div>
-  <div class="clutch-reviews" data-clutch="reviews">
+  <div class="clutch-reviews" data-clutch="reviews" data-move="scroll">
     <div class="clutch-review">
       <p class="clutch-review__quote">
         <span class="icon-quote"></span>
@@ -132,17 +132,21 @@
     </button>
   </div>
   <div class="clutch-shadow" data-clutch="shadow"></div>
-  <div class="services__figure">
+  <div class="services__figure" data-show="on-scroll">
     <span class="services__figure-circle services__figure-circle--small"></span>
     <span class="services__figure-circle services__figure-circle--medium"></span>
     <span class="services__figure-circle services__figure-circle--big"></span>
     <span class="services__figure-circle services__figure-circle--large"></span>
-    <span class="services__figure-dot services__figure-dot--secondary"></span>
-    <span class="services__figure-dot services__figure-dot--blue"></span>
-    <span class="services__figure-dot services__figure-dot--yellow"></span>
+    <span class="services__figure-dot services__figure-dot--secondary" data-move="secondary"></span>
+    <span class="services__figure-dot services__figure-dot--blue" data-move="blue"></span>
+    <span class="services__figure-dot services__figure-dot--yellow"data-move="yellow"></span>
   </div>
 </div>
 
 <script type="text/javascript">
   {% include show-more.js %}
+</script>
+
+<script type="text/javascript">
+  {% include services/product-design/product-design/moveOnScroll.js %}
 </script>
