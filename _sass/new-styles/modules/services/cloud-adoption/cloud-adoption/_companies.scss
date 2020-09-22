@@ -31,7 +31,7 @@
       font-size: 1.1em;
       font-weight: 300;
       line-height: 1.7;
-      color: $color-page-text-second;
+      color: $color-global-font;
     }
 
     &__header {
@@ -100,7 +100,7 @@
       font-size: 0.9em;
       line-height: 1.7;
       font-weight: 600;
-      color: $color-page-text-second;
+      color: $color-global-font;
       transition: 0.4s;
 
       &::before {
