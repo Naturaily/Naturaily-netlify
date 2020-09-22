@@ -1,8 +1,8 @@
 window.addEventListener('load', () => {
   const $item = $('[data-move="on-scroll"]')[0];
   const $scroll = $($($item).find('[data-move="scroll"]')[0]);
-  const scrollWidth = $(window).width() > 1200;
   const maxScroll = 590;
+  let scrollWidth = $(window).width() > 1200;
 
   const movingDots = {
     secondary: {
