@@ -230,7 +230,12 @@
         left: auto;
         right: 30px;
         z-index: 1;
-        width: 55vw;
+        width: 50vw;
+      }
+
+      &-arrow--prev {
+        opacity: 0;
+        pointer-events: none;
       }
     }
   }

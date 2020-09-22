@@ -39,7 +39,7 @@ window.addEventListener('load', () => {
       scrollingWidth: $(window).width() > 1200,
       sectionStart: $($item).offset().top - 100,
       sectionEnd: $($item).offset().top + 2200
-    }
+    };
 
     scrollingState = { ...scrollingState, ...stateUpdate };
   }

@@ -103,18 +103,13 @@
       }
     }
 
-    .services__header {
-      position: sticky;
-      top: 75px;
-    }
-
     &-content {
       padding-right: 100px;
     }
 
     &-image {
       margin-top: 30px;
-      
+
       &__text--hidden, &__dot--hidden {
         opacity: 0;
       }
