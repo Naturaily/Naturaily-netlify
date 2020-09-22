@@ -106,10 +106,10 @@ window.addEventListener('load', () => {
       drawingWidth: $(window).width() > 1200,
       sectionStart: $($item).offset().top - 100,
       sectionEnd: $($item).offset().top + 2200
-    }
+    };
 
     drawingState = { ...drawingState, ...stateUpdate };
-  }
+  };
 
   $(window).resize(() => updateState());
   $(window).scroll(() => draw());
