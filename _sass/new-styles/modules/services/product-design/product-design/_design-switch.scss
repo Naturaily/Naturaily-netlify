@@ -260,32 +260,35 @@
         }
 
         &__image {
-          .product-design__switch-card__image {
-            opacity: 0;
-          }
-
-          &--illustration.animated.switch-animated .product-design__switch-card__image {
-            animation: show .5s forwards;
-
-            &--first {
-              animation-delay: .05s;
+          &--illustration {
+            .product-design__switch-card__image {
+              opacity: 0;
             }
 
-            &--second {
-              animation-delay: .4s;
-            }
+            &.animated.switch-animated .product-design__switch-card__image {
+              animation: show .5s forwards;
 
-            &--third {
-              animation-delay: .6s;
+              &--first {
+                animation-delay: .05s;
+              }
+
+              &--second {
+                animation-delay: .4s;
+              }
+
+              &--third {
+                animation-delay: .6s;
+              }
             }
           }
 
           &--ui-design {
-            .product-design__switch-card__image {
+            .product-design__switch-card__drop {
               transform: translateY(-25px);
+              opacity: 0;
             }
 
-            &.animated.switch-animated .product-design__switch-card__image {
+            &.animated.switch-animated .product-design__switch-card__drop {
               animation: rain .4s forwards;
 
               &--first {
@@ -306,23 +309,29 @@
             }
           }
 
-          &--prototyping.animated.switch-animated .product-design__switch-card__image {
-            animation: show .4s forwards;
-
-            &--first {
-              animation-delay: .05s;
+          &--prototyping {
+            .product-design__switch-card__arrow {
+              opacity: 0;
             }
 
-            &--second {
-              animation-delay: .4s;
-            }
+            &.animated.switch-animated .product-design__switch-card__arrow {
+              animation: show .4s forwards;
 
-            &--third {
-              animation-delay: .7s;
-            }
+              &--first {
+                animation-delay: .05s;
+              }
 
-            &--fourth {
-              animation-delay: 1s;
+              &--second {
+                animation-delay: .4s;
+              }
+
+              &--third {
+                animation-delay: .7s;
+              }
+
+              &--fourth {
+                animation-delay: 1s;
+              }
             }
           }
         }
