@@ -292,20 +292,20 @@
 
       &.animated .services__figure {
         &-circle {
-          &--small::after {
+          &::after {
             animation: drawCircle .8s forwards;
           }
 
           &--medium::after {
-            animation: drawCircle .8s .2s forwards;
+            animation-delay: .2s;
           }
 
           &--big::after {
-            animation: drawCircle .8s .5s forwards;
+            animation-delay: .5s;
           }
 
           &--large::after {
-            animation: drawCircle .8s .7s forwards;
+            animation-delay: .7s;
           }
         }
 

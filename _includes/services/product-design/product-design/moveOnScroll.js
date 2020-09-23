@@ -1,24 +1,24 @@
 window.addEventListener('load', () => {
-  const $item = $('[data-move="on-scroll"]')[0];
-  const $scroll = $($($item).find('[data-move="scroll"]')[0]);
+  const $item = $($('[data-move="on-scroll"]')[0]);
+  const $scroll = $($item.find('[data-move="scroll"]')[0]);
   const maxScroll = 590;
   let scrollWidth = $(window).width() > 1200;
 
   const movingDots = {
     secondary: {
-      item: $($($item).find('[data-move="secondary"]')[0]),
+      item: $($item.find('[data-move="secondary"]')[0]),
       x: 130,
       rotMin: -100,
       rotMax: -60
     },
     yellow: {
-      item: $($($item).find('[data-move="yellow"]')[0]),
+      item: $($item.find('[data-move="yellow"]')[0]),
       x: 420,
       rotMin: 120,
       rotMax: 250
     },
     blue: {
-      item: $($($item).find('[data-move="blue"]')[0]),
+      item: $($item.find('[data-move="blue"]')[0]),
       x: 275,
       rotMin: 10,
       rotMax: 110
@@ -35,9 +35,9 @@ window.addEventListener('load', () => {
       const newTransform = `rotate(${newRot}deg) translateX(${dot.x}px) rotate(${newRot}deg)`;
 
       $(dot.item).css({
-        'animation' : 'none',
-        'opacity' : 1,
-        'transform' : newTransform
+        'animation': 'none',
+        'opacity': 1,
+        'transform': newTransform
       });
     });
   };
