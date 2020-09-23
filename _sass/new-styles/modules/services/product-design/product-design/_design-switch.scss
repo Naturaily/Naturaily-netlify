@@ -260,76 +260,69 @@
         }
 
         &__image {
-          &--illustration {
-            img {
-              opacity: 0;
+          .product-design__switch-card__image {
+            opacity: 0;
+          }
+
+          &--illustration.animated.switch-animated .product-design__switch-card__image {
+            animation: show .5s forwards;
+
+            &--first {
+              animation-delay: .05s;
             }
 
-            &.animated.switch-animated img.product-design__switch-card__image {
-              &--first {
-                animation: show .5s .05s forwards;
-              }
+            &--second {
+              animation-delay: .4s;
+            }
 
-              &--second {
-                animation: show .5s .4s forwards;
-              }
-
-              &--third {
-                animation: show .5s .6s forwards;
-              }
+            &--third {
+              animation-delay: .6s;
             }
           }
 
           &--ui-design {
             .product-design__switch-card__image {
-              &--first, &--second, &--third, &--fourth {
-                opacity: 0;
-                transform: translateY(-25px);
-              }
+              transform: translateY(-25px);
             }
 
             &.animated.switch-animated .product-design__switch-card__image {
+              animation: rain .4s forwards;
+
               &--first {
-                animation: rain .4s .05s forwards;
+                animation-delay: .05s;
               }
 
               &--second {
-                animation: rain .4s .4s forwards;
+                animation-delay: .4s;
               }
 
               &--third {
-                animation: rain .4s .7s forwards;
+                animation-delay: .7s;
               }
 
               &--fourth {
-                animation: rain .4s 1s forwards;
+                animation-delay: 1s;
               }
             }
           }
 
-          &--prototyping {
-            .product-design__switch-card__image {
-              &--first, &--second, &--third, &--fourth {
-                opacity: 0;
-              }
+          &--prototyping.animated.switch-animated .product-design__switch-card__image {
+            animation: show .4s forwards;
+
+            &--first {
+              animation-delay: .05s;
             }
 
-            &.animated.switch-animated .product-design__switch-card__image {
-              &--first {
-                animation: show .4s .05s forwards;
-              }
+            &--second {
+              animation-delay: .4s;
+            }
 
-              &--second {
-                animation: show .4s .4s forwards;
-              }
+            &--third {
+              animation-delay: .7s;
+            }
 
-              &--third {
-                animation: show .4s .7s forwards;
-              }
-
-              &--fourth {
-                animation: show .4s 1s forwards;
-              }
+            &--fourth {
+              animation-delay: 1s;
             }
           }
         }

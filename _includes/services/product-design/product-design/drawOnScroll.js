@@ -1,13 +1,13 @@
 window.addEventListener('load', () => {
-  const $item = $('[data-draw="on-scroll"]')[0];
-  const $wrapper = $($($item).find('[data-draw="wrapper"]')[0]);
-  const $svg = $($($item).find('[data-draw="svg"]')[0]);
-  const elPosition = $($item).offset().top;
+  const $item = $($('[data-draw="on-scroll"]')[0]);
+  const $wrapper = $($item.find('[data-draw="wrapper"]')[0]);
+  const $svg = $($item.find('[data-draw="svg"]')[0]);
+  const elPosition = $item.offset().top;
 
   let drawingState = {
     drawingWidth: $(window).width() > 1200,
-    sectionStart: $($item).offset().top - 100,
-    sectionEnd: $($item).offset().top + 4200
+    sectionStart: $item.offset().top - 100,
+    sectionEnd: $item.offset().top + 4200
   };
 
   const drawPaths = {
@@ -70,11 +70,11 @@ window.addEventListener('load', () => {
         const item = entry[1];
 
         if (scrollPercent >= item.end) {
-          show (item);
+          show(item);
         } else if (scrollPercent <= item.start) {
-          hide (item);
+          hide(item);
         } else {
-          dynamic (item, scrollPercent);
+          dynamic(item, scrollPercent);
         }
       });
 
@@ -104,8 +104,8 @@ window.addEventListener('load', () => {
   const updateState = () => {
     const stateUpdate = {
       drawingWidth: $(window).width() > 1200,
-      sectionStart: $($item).offset().top - 100,
-      sectionEnd: $($item).offset().top + 2200
+      sectionStart: $item.offset().top - 100,
+      sectionEnd: $item.offset().top + 2200
     };
 
     drawingState = { ...drawingState, ...stateUpdate };

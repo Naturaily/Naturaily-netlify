@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
   const animatedClass = 'animated';
 
   const loop = () => {
-    $itemsToShow.each(function(index) {
+    $itemsToShow.each((index) => {
       const $item = $itemsToShow[index];
 
       if (isElementInViewport($item)) {
@@ -17,16 +17,14 @@ window.addEventListener('load', () => {
     scroll(loop);
   }
 
-  const isElementInViewport = (item) => {
-    const rect = item.getBoundingClientRect();
+  const isElementInViewport = ($item) => {
+    const rect = $item.getBoundingClientRect();
+    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+    const checkTopViewport = rect.top <= 0 && rect.bottom >= 0;
+    const checkMiddleViewport = rect.bottom >= viewportHeight && rect.top <= viewportHeight;
+    const checkBottomViewport = rect.top >= 0 && rect.bottom <= viewportHeight;
 
-    return (
-      (rect.top <= 0 && rect.bottom >= 0)
-      ||  (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
-          rect.top <= (window.innerHeight || document.documentElement.clientHeight))
-      ||  (rect.top >= 0 &&
-          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
-    );
+    return (checkTopViewport || checkMiddleViewport || checkBottomViewport);
   };
 
   loop();
