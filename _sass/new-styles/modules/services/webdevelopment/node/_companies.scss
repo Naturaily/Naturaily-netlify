@@ -1,0 +1,226 @@
+.node-companies {
+  padding: 45px 0 80px;
+  background-color: $color-code-orange-bg;
+
+  &__step, &__text {
+    padding: 0 20px;
+  }
+
+  &__step {
+    position: relative;
+    font-size: 12px;
+    line-height: 24px;
+    color: $color-secondary;
+
+    &-number {
+      display: none;
+    }
+  }
+
+  &__header {
+    font-size: 36px;
+    line-height: 50px;
+    color: $color-global-font;
+    padding: 40px 20px 30px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-global-font;
+    opacity: 0.7;
+  }
+
+  &__carousel {
+    position: relative;
+    width: 100vw;
+    padding: 85px 0 20px;
+
+    &-tabs {
+      display: flex;
+      position: relative;
+      width: 210vw;
+      height: 210px;
+
+      .custom-carousel__tabs-tab {
+        box-sizing: border-box;
+        width: 70vw;
+        min-width: 70vw;
+        padding: 0 20px;
+      }
+    }
+
+    &-image {
+      width: 130px;
+    }
+
+    &-text {
+      padding-top: 25px;
+      font-size: 16px;
+      line-height: 24px;
+      color: $color-global-font;
+    }
+
+    &::after, &-bar {
+      position: absolute;
+      bottom: 0;
+    }
+
+    &::after {
+      content: "";
+      transform: translateY(-1px);
+      width: 100%;
+      height: 1px;
+      background-color: $color-global-font-10;
+    }
+
+    &-bar {
+      width: 20%;
+      height: 3px;
+      background-color: $color-secondary;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 270px;
+    margin: 30px 20px 0;
+    background: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%) no-repeat 0 100%;
+    background-size: 100% 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-size .2s ease-in, color .1s ease;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 500;
+    color: $color-secondary;
+
+    svg {
+      display: flex;
+      align-items: center;
+      height: 11px;
+
+      .arrow-line {
+        fill: $color-secondary;
+      }
+    }
+
+    &:hover {
+      color: $color-white;
+      background-size: 100% 100%;
+
+      svg .arrow-line {
+        fill: $color-white;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .node-companies {
+    width: 100%;
+    padding-top: 75px;
+
+    &__step, &__header, &__text {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    &__carousel {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 50px 50px 0;
+
+      &-tabs {
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        margin: 0 -20px;
+        padding: 0 25px;
+
+        .custom-carousel__tabs-tab {
+          flex: 0 0 auto;
+          width: 50%;
+          min-width: auto;
+          padding-bottom: 40px;
+        }
+      }
+
+      &::after, &-bar {
+        display: none;
+      }
+    }
+
+    &__link {
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .node-companies {
+    margin: 90px 0 50px;
+
+    &__step-number {
+      display: inline-block;
+      margin-right: 30px;
+      color: $color-page-text-grey;
+    }
+
+    &__header, &__text {
+      max-width: 720px;
+    }
+
+    &__carousel-tabs .custom-carousel__tabs-tab {
+      width: 33%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .node-companies {
+    margin: 130px 0 80px;
+    padding: 100px 0;
+
+    &__header, &__text {
+      padding-left: 120px;
+    }
+
+    &__carousel {
+      padding-left: 100px;
+
+      &-tabs .custom-carousel__tabs-tab {
+        width: 20%;
+        padding-bottom: 20px;
+      }
+    }
+
+    &__link {
+      margin-left: 120px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .node-companies {
+    &__wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &__carousel {
+      padding-right: 95px;
+
+      &-tabs {
+        padding: 0;
+
+        .custom-carousel__tabs-tab {
+          padding: 0 40px 40px;
+        }
+      }
+    }
+  }
+}
