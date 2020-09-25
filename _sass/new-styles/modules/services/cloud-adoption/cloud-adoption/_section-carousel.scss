@@ -7,7 +7,7 @@
     font-size: 2.25em;
     line-height: 1.4;
     font-weight: 400;
-    color: $color-page-text-second;
+    color: $color-global-font;
 
     &--small {
       font-size: 1.75em;
@@ -36,7 +36,7 @@
       font-size: 1.1em;
       font-weight: 300;
       line-height: 1.7;
-      color: $color-page-text-second;
+      color: $color-global-font;
     }
 
     &__header {

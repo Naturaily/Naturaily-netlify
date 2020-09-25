@@ -8,7 +8,7 @@
   &__header {
     font-size: 1.6em;
     font-weight: 400;
-    color: $color-page-text-second;
+    color: $color-global-font;
 
     &--secondary {
       color: $color-secondary;
@@ -24,7 +24,7 @@
     padding: 15px 0 25px;
     font-size: 1.25em;
     font-weight: 300;
-    color: $color-page-text-second;
+    color: $color-global-font;
   }
 
   &__text {

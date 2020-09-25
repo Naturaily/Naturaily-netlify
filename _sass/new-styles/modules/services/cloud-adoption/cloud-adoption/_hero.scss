@@ -30,7 +30,7 @@
     padding: 0 30px;
     font-size: 1.75em;
     line-height: 1.4;
-    color: $color-page-text-second;
+    color: $color-global-font;
   }
 
   &-paragraph {
@@ -78,7 +78,7 @@
       padding: 25px 0 60px;
       line-height: 1.5;
       opacity: 0.7;
-      color: $color-page-text-second;
+      color: $color-global-font;
     }
 
     &-link .btn-primary.btn-arrow {
