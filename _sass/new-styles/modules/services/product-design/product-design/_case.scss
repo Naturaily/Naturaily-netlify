@@ -16,7 +16,7 @@
     margin-bottom: 50px;
     font-size: 24px;
     line-height: 38.4px;
-    color: $color-page-text-second;
+    color: $color-global-font;
   }
 
   &-image {
@@ -27,7 +27,7 @@
     padding: 40px 20px;
     font-size: 14px;
     line-height: 24px;
-    color: $color-page-text-second;
+    color: $color-global-font;
     opacity: 0.7;
   }
 
@@ -64,13 +64,13 @@
       font-size: 16px;
       line-height: 24px;
       font-weight: 500;
-      color: $color-page-text-second;
+      color: $color-global-font;
     }
 
     &__text {
       font-size: 14px;
       line-height: 24px;
-      color: $color-page-text-second;
+      color: $color-global-font;
       opacity: 0.7;
     }
   }

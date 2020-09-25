@@ -20,7 +20,7 @@
   &-header {
     font-size: 2.25em;
     line-height: 1.4;
-    color: $color-page-text-second;
+    color: $color-global-font;
   }
 
   &-text {
@@ -82,7 +82,7 @@
       font-size: 1.75em;
       line-height: 1.8;
       font-weight: 400;
-      color: $color-page-text-second;
+      color: $color-global-font;
     }
 
     &__text {

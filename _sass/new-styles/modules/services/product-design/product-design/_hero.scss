@@ -29,7 +29,7 @@
     &__header {
       font-size: 36px;
       line-height: 50px;
-      color: $color-page-text-second;
+      color: $color-global-font;
     }
 
     &__paragraph {
@@ -37,7 +37,7 @@
       margin: 25px auto;
       font-size: 16px;
       line-height: 24px;
-      color: $color-page-text-second;
+      color: $color-global-font;
       opacity: 0.7;
     }
   }
