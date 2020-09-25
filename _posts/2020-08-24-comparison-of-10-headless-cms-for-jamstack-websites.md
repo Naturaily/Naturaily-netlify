@@ -430,7 +430,7 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 | Netlify CMS        | Git         | Yes          | €45 to €1,500         | Unlimited                            | Unlimited                | Yes                | Yes (but not on open-source CMS only)      |
 | Strapi             | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Yes                | Yes                                        |
 | TinaCMS            | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Limited            | No (Enterprise Edition is in early access) |
-| Headless WordPress | API         | N/A\*         | N/A\*                  | N/A\*                                 | N/A\*                     | N/A\*               | N/A\*                                       |
+| Headless WordPress | API         | N/A\\*         | N/A\\*                  | N/A\\*                                 | N/A\\*                     | N/A\\*               | N/A\\*                                       |
 
 </div>
 
