@@ -106,37 +106,159 @@ ContentFul also takes all of the fields created in the content section and conve
 
 </div>
 
-## Storyblok
+## DatoCMS
 
-* Supports: Vue.js, Gridsome, Laravel, Nuxt.js, Gatsby.js, React, Svelte, Next.js, Ruby, django, PHP, Java, csharp, Swift, Kotlin
-* Unique features: Visual Editor
-* Usability for developers:clean and clear panels, API & JSON
-* Usability for content teams:clean and clear panels, field-based editing
-* Cost: Free option available, with packages ranging from $7 - $21 per user, per month
+* Supports: GraphQL API, Gatsby, Hugo, Next.js, Nuxt.js, Jekyll, React, Vue.js, Middleman
+* Unique features: Git-based
+* Usability for developers: clean and clear panels, API & JSON
+* Usability for content teams: extensible interface, real-time updates, friendly for content creators & editors
+* Cost: Free option available, with packages ranging from €199 to €1,500 per month (discounts for annual purchases)
 
 ### For Content Teams
 
-The biggest and most noticeable difference with Storyblok, compared to other Headless CMS and WordPress alternatives, is the visual editor. This makes it easier for editors to make changes themselves, in a similar way to website builders such as Elemetor or Wix (but this comes at a cost for developers, which we’ll get to soon).
+Similar to Forestry, this is another Headless CMS that has a backend heavily inspired by WordPress - because it works. However, DatoCMS is a little more immediately welcoming than Forestry.
 
-Storyblok also offers its own content models to select from. There are the usual suspects, such as text fields, headers, media and more, but there’s also the ability to include plugins and custom fields created by the team behind Storyblok.
-
-Another key feature are the datasources. By creating datasources, the most repetitive information can be referred back to a central source ensuring it’s consistent wherever it appears. Whether its repetitive options (colour, size etc) on an e-commerce or ensuring the newsletter form stays the same everywhere you put it (on every blog, for example), the datasources take a little time to set-up at the start, but save time moving forward.
-
-Overall, we find this particularly useful with the likes of Shopify. Here, we can take the existing platform provided by Shopify and rearrange elements visually, as needed, in Storyblok. It’s not the most technical, but it is quick and effective for similar results.
+What’s more, while the initial content input seems similarly simple, the addition of plugins and further customisations means the CMS can be catered to more specific needs without too much difficulty.
 
 ### For Development Teams
 
-Let’s address the elephant in the room: a visual editor means that Storyblok isn’t entirely headless. At least not in the way that development teams would like. This work model is great for content teams, but it means that the CMS isn’t truly acting like a database. For larger operations, where automation is more important, Storyblok will start to be a less attractive option.
-
-Sure, the datasources are one way of working around this, but it’s not as effective as API. With API and JAMstack, information is updated everywhere due to being reloaded on new requests.
-
-On the plus side, there are webhooks and triggers, all of which can be set in the content panels. While this meets most needs, it does result in a different work process - one suited for less code-heavy developers.
+If you want a CMS that’s easy to use and is highly agreeable with a wide range of other technologies, DatoCMS has a lot to offer. Even the free plan supports GraphQL API, and integrating with site generators like Gatsby or libraries like Next.js or React (used in Gatsby, of course) isn’t a problem.
 
 <div class="table-layout-fixed" markdown="block">
-| Pros                                    | Cons                                                       |
-| --------------------------------------- | ---------------------------------------------------------- |
-| Visual editor - great for content teams | Poor support for Gatsby with no office image support       |
-| Supports multi-languages by default     | Not suitable if you require the CMS to act as the database |
+| Pros                                            | Cons                                          |
+| ----------------------------------------------- | --------------------------------------------- |
+| Simple UI                                       | Limited features (it’s built by a small team) |
+| Support for site generators - including Gatsby  | Not the easiest solution to expand            |
+| Supports popular JS libraries, especially React | Difficult to import & export from the CMS     |
+| Easy to set up and configure                    |                                               |
+| SEO previews                                    |                                               |
+
+</div>
+
+## Forestry
+
+* Supports: Static Site Generators: Gatsby, Hugo, Grissom, Jekyll, 11ty, VUepress, Hexo, Next.js, Nuxt.js Host; Vercel, AWS, GitHub pages, Netlify
+* Unique features: Git-based
+* Usability for developers: works will all popular static site generators, one of the most popular git-based CMS, can change content in code editor with push changes through git
+* Usability for content teams: basic interface, field-based editing
+* Cost: Free option available, with packages ranging from $29 per month (5 users on base package)
+
+### For Content Teams
+
+At first glance, Forestry is a little barebones. However, the layout is immediately reminiscent of WordPress, so this shouldn't hold experienced content members back. What’s more, it also allows customisation on the sidebar and, with simple text boxes and fields, it enables a quick content creation process - a big plus for websites that focus on frequent production.
+
+The fact that it’s Git-based also means that it works extremely well with static websites - which for content teams often means better SEO, among other benefits.
+
+### For Development Teams
+
+Let’s address the most obvious difference: Forestry is Git-based, not API-based. As mentioned earlier, this comes at a trade-off - we’re sacrificing the option to easily implement additional sources (as well as more frequent updates) for a significantly more developer-friendly solution.
+
+But it’s also easy to set-up - not only because of Git, but because it goes well with flat files. If you’re focusing on such static designs - and if you’re reading about JAMstack, we think you are - then Forestry is in its natural element.
+
+<div class="table-layout-fixed" markdown="block">
+| Pros                                                                | Cons                                      |
+| ------------------------------------------------------------------- | ----------------------------------------- |
+| Git-based, great for developers                                     | Not great on more dynamic websites        |
+| Works well with flat files and static generators - including Gatsby | Git-based restrictions                    |
+| Instant previews                                                    | No support for multi-media folders        |
+|                                                                     | User interface could use some improvement |
+
+</div>
+
+## Headless WordPress
+
+* Supports: React, Gatsby, Next.js, REST, GraphQL, JavaScript, PHP, Android, iOS, Python, Java Ruby, .Net
+* Unique features: Keeps WordPress interface
+* Usability for developers: large community, many plugins available
+* Usability for content teams: basic interface, field-based editing
+* Cost: Various solutions available
+
+### For Content Teams
+
+Considering most CMS on this list do their best to imitate the look and feel of WordPress, content teams would find few faults with the headless WordPress system. There really isn’t much more to say - WordPress set the standard for how a CMS should look for content teams and it’s still very much the most widely used option today.
+
+In fact, WordPress is so popular that there’s a very high chance it’s the first CMS most content specialists ever use. Its innate familiarity is something that many other options on this list try to evoke for easy usability, but it nonetheless gives headless WordPress a distinct advantage - in the backend, it’s the very same CMS content teams are use to, so there’s no problem adapting or learning a new system.
+
+### For Development Teams
+
+WordPress was built with themes included and the removal of that thematic ‘head’ is a relatively new idea. It’s not an official, supported product so it requires a development team that’s willing to put the time and effort in, all to create something that exists in various other forms already.
+
+Similarly, we also need to address the JAMstack issue. WordPress is built on PHP and, while many defend the latter as a web-friendly solution, it means adding another language to the tech stack. From a development point of view? If WordPress is kept in the backend and only sends data via API, this shouldn’t get in the way of a JAMstack frontend.
+
+<div class="table-layout-fixed" markdown="block">
+| Pros                                             | Cons                     |
+| ------------------------------------------------ | ------------------------ |
+| Uses API - Jamstack friendly                     | Not supported officially |
+| Very familiar interface and UI for Content Teams | Requires PHP             |
+
+</div>
+
+## Netlify CMS
+
+* Supports: Gatsby, Hugo, Jekyll, Next.js, Nuxt.js, Middleman
+* Unique features: Git-based
+* Usability for developers: easy installation
+* Usability for content teams: basic interface, instant access without GitHub account, fast, web-based UI & custom-styled previews
+* Cost: Free option available, with packages ranging from €45 to €1,500 per month
+
+### For Content Teams
+
+As for as content options go, Netlify CMS certainly hits all the core needs. Alongside rich-text editing, there is a lot of drag-and-drop versatility that makes it easy to create new pages from various components - something that most content teams will find intuitive. It also enables real-time previews, which helps ensure content is working as intended before being published - something that’s important with JAMstack and headless backends, as we’re creating our own frontends, rather than relying on existing templates, after all.
+
+Furthermore, content is collated in different Collections - Netlify’s answer to different types of content - for easy templating. Paired with the workflow tab, this ensures the admin panel is very simple and easy to use, but it does require additional development help for more advanced tasks, such as creating new collections.
+
+In terms of content widgets (the forms and modules of this particular CMS), there are around 16 options, but more are being developed. So, from rich text and forms to media and maps, as well as core essentials such as objects and strings, Netlify has it covered.
+
+### For Development Teams
+
+As an open-source CMS, there is certainly a lot of potential, but this also means you may have to customise something that would be available already in the larger, more expensive options. On the other hand, this freedom also results in few restrictions and a competent development team will have no problem making it work with their frontend plans if they’re willing to put the time in.
+
+Netlify is also another git-based CMS so the same arguments for Forestry also apply here: git-based options make it easy to use, with rollback and automation thanks to Git, but can cause extra work if you want to pull anything from additional sources. Similarly, it’s also not great for large scale operations that want fast and very frequent updates.
+
+It’s also relatively open, so if you want to create custom widgets, it typically isn’t a problem. In fact, the customisation is relatively free, but it rests heavily on the development side. This is often the nature of open-source projects, so it shouldn’t come as a surprise.
+
+Note: One thing we want to add here is that this particular option is available as the open-source [Netlify CMS](https://www.netlifycms.org/){:rel="nofollow"}{:target="_blank"} on its own - perhaps the more developer-friendly option, as well as a wider range of services, including hosting and analytics. Content-focused teams will have a better time with the wider [Netlify services](https://www.netlify.com/){:rel="nofollow"}{:target="_blank"}, but it’s naturally where the expensive packages start to appear.
+
+<div class="table-layout-fixed" markdown="block">
+| Pros                                                                              | Cons                                                                      |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Git-based, but can support API through Git wrappers                               | Wider services can be expensive                                           |
+| Clear and simple User Interface                                                   | Open source means the documentation can vary in quality                   |
+| Supports virtually all static generators, including Gatsby                        | Not possible to schedule posts in default version                         |
+| Open-source, so developers can configure with ease - great extension capabilities | Free, open-source version will require developers to get the best results |
+| Available with wider services, if needed                                          |                                                                           |
+| Real time previews                                                                |                                                                           |
+
+</div>
+
+## Prismic
+
+* Supports: Node, React, Next, Gatsby, Vue, Nuxt, JavaScript, Laravel, Ruby, Java, .Net, PHP
+* Unique features: Git-based
+* Usability for developers: multi-language support, image optimization
+* Usability for content teams: basic interface, handy document tagging system
+* Cost: Free option available, with packages ranging from $7 to $500 per month (discounts for annual purchases)
+
+### For Content Teams
+
+Prismic’s clear UI can be seen from the immediate get-go. You can get anywhere in a handful of clicks, but this also comes at a cost: in this case, a simple lack of depth. Simply put, Prismic offers the most options in being able to publish and schedule content with ease but otherwise has a limited text editor. The lack of extensions can cause problems for more advanced content needs.
+
+However, it does integrate nicely with Magento and Shopify, so it can prove valuable for e-commerce setups with less advanced or complex content needs.
+
+### For Development Teams
+
+To be honest, while Prismic thrives in a ‘plug and go’ set-up, it doesn’t offer much expansion or adaptability. For many sites, this won’t be a problem, but more advanced sites, or simply those with some specific functions, might find the lack of plugins to be a severely limiting factor.
+
+That said, what it does have is native integrations for both Shopify and Magento - so it’s a worthwhile consideration for e-commerce.
+
+<div class="table-layout-fixed" markdown="block">
+| Pros                                         | Cons                                        |
+| -------------------------------------------- | ------------------------------------------- |
+| Simple User Interface                        | Does not offer text editor extensions       |
+| Easy for content teams to use                | Pricing is per-user, punishing larger teams |
+| Native integrations with Shopify and Magento | Plugin limitations                          |
+| Easy to set up and configure                 |                                             |
+| SEO previews                                 |                                             |
 
 </div>
 
@@ -176,131 +298,37 @@ Where it falls short, however, is in a lack of support for webhooks. This, paire
 
 </div>
 
-## Forestry
+## Storyblok
 
-* Supports: Static Site Generators: Gatsby, Hugo, Grissom, Jekyll, 11ty, VUepress, Hexo, Next.js, Nuxt.js Host; Vercel, AWS, GitHub pages, Netlify
-* Unique features: Git-based
-* Usability for developers: works will all popular static site generators, one of the most popular git-based CMS, can change content in code editor with push changes through git
-* Usability for content teams: basic interface, field-based editing
-* Cost: Free option available, with packages ranging from $29 per month (5 users on base package)
-
-### For Content Teams
-
-At first glance, Forestry is a little barebones. However, the layout is immediately reminiscent of WordPress, so this shouldn't hold experienced content members back. What’s more, it also allows customisation on the sidebar and, with simple text boxes and fields, it enables a quick content creation process - a big plus for websites that focus on frequent production.
-
-The fact that it’s Git-based also means that it works extremely well with static websites - which for content teams often means better SEO, among other benefits.
-
-### For Development Teams
-
-Let’s address the most obvious difference: Forestry is Git-based, not API-based. As mentioned earlier, this comes at a trade-off - we’re sacrificing the option to easily implement additional sources (as well as more frequent updates) for a significantly more developer-friendly solution.
-
-But it’s also easy to set-up - not only because of Git, but because it goes well with flat files. If you’re focusing on such static designs - and if you’re reading about JAMstack, we think you are - then Forestry is in its natural element.
-
-<div class="table-layout-fixed" markdown="block">
-| Pros                                                                | Cons                                      |
-| ------------------------------------------------------------------- | ----------------------------------------- |
-| Git-based, great for developers                                     | Not great on more dynamic websites        |
-| Works well with flat files and static generators - including Gatsby | Git-based restrictions                    |
-| Instant previews                                                    | No support for multi-media folders        |
-|                                                                     | User interface could use some improvement |
-
-</div>
-
-## DatoCMS
-
-* Supports: GraphQL API, Gatsby, Hugo, Next.js, Nuxt.js, Jekyll, React, Vue.js, Middleman
-* Unique features: Git-based
-* Usability for developers: clean and clear panels, API & JSON
-* Usability for content teams: extensible interface, real-time updates, friendly for content creators & editors
-* Cost: Free option available, with packages ranging from €199 to €1,500 per month (discounts for annual purchases)
+* Supports: Vue.js, Gridsome, Laravel, Nuxt.js, Gatsby.js, React, Svelte, Next.js, Ruby, django, PHP, Java, csharp, Swift, Kotlin
+* Unique features: Visual Editor
+* Usability for developers:clean and clear panels, API & JSON
+* Usability for content teams:clean and clear panels, field-based editing
+* Cost: Free option available, with packages ranging from $7 - $21 per user, per month
 
 ### For Content Teams
 
-Similar to Forestry, this is another Headless CMS that has a backend heavily inspired by WordPress - because it works. However, DatoCMS is a little more immediately welcoming than Forestry.
+The biggest and most noticeable difference with Storyblok, compared to other Headless CMS and WordPress alternatives, is the visual editor. This makes it easier for editors to make changes themselves, in a similar way to website builders such as Elemetor or Wix (but this comes at a cost for developers, which we’ll get to soon).
 
-What’s more, while the initial content input seems similarly simple, the addition of plugins and further customisations means the CMS can be catered to more specific needs without too much difficulty.
+Storyblok also offers its own content models to select from. There are the usual suspects, such as text fields, headers, media and more, but there’s also the ability to include plugins and custom fields created by the team behind Storyblok.
 
-### For Development Teams
+Another key feature are the datasources. By creating datasources, the most repetitive information can be referred back to a central source ensuring it’s consistent wherever it appears. Whether its repetitive options (colour, size etc) on an e-commerce or ensuring the newsletter form stays the same everywhere you put it (on every blog, for example), the datasources take a little time to set-up at the start, but save time moving forward.
 
-If you want a CMS that’s easy to use and is highly agreeable with a wide range of other technologies, DatoCMS has a lot to offer. Even the free plan supports GraphQL API, and integrating with site generators like Gatsby or libraries like Next.js or React (used in Gatsby, of course) isn’t a problem.
-
-<div class="table-layout-fixed" markdown="block">
-| Pros                                            | Cons                                          |
-| ----------------------------------------------- | --------------------------------------------- |
-| Simple UI                                       | Limited features (it’s built by a small team) |
-| Support for site generators - including Gatsby  | Not the easiest solution to expand            |
-| Supports popular JS libraries, especially React | Difficult to import & export from the CMS     |
-| Easy to set up and configure                    |                                               |
-| SEO previews                                    |                                               |
-
-</div>
-
-## Prismic
-
-* Supports: Node, React, Next, Gatsby, Vue, Nuxt, JavaScript, Laravel, Ruby, Java, .Net, PHP
-* Unique features: Git-based
-* Usability for developers: multi-language support, image optimization
-* Usability for content teams: basic interface, handy document tagging system
-* Cost: Free option available, with packages ranging from $7 to $500 per month (discounts for annual purchases)
-
-### For Content Teams
-
-Prismic’s clear UI can be seen from the immediate get-go. You can get anywhere in a handful of clicks, but this also comes at a cost: in this case, a simple lack of depth. Simply put, Prismic offers the most options in being able to publish and schedule content with ease but otherwise has a limited text editor. The lack of extensions can cause problems for more advanced content needs.
-
-However, it does integrate nicely with Magento and Shopify, so it can prove valuable for e-commerce setups with less advanced or complex content needs.
+Overall, we find this particularly useful with the likes of Shopify. Here, we can take the existing platform provided by Shopify and rearrange elements visually, as needed, in Storyblok. It’s not the most technical, but it is quick and effective for similar results.
 
 ### For Development Teams
 
-To be honest, while Prismic thrives in a ‘plug and go’ set-up, it doesn’t offer much expansion or adaptability. For many sites, this won’t be a problem, but more advanced sites, or simply those with some specific functions, might find the lack of plugins to be a severely limiting factor.
+Let’s address the elephant in the room: a visual editor means that Storyblok isn’t entirely headless. At least not in the way that development teams would like. This work model is great for content teams, but it means that the CMS isn’t truly acting like a database. For larger operations, where automation is more important, Storyblok will start to be a less attractive option.
 
-That said, what it does have is native integrations for both Shopify and Magento - so it’s a worthwhile consideration for e-commerce.
+Sure, the datasources are one way of working around this, but it’s not as effective as API. With API and JAMstack, information is updated everywhere due to being reloaded on new requests.
 
-<div class="table-layout-fixed" markdown="block">
-| Pros                                         | Cons                                        |
-| -------------------------------------------- | ------------------------------------------- |
-| Simple User Interface                        | Does not offer text editor extensions       |
-| Easy for content teams to use                | Pricing is per-user, punishing larger teams |
-| Native integrations with Shopify and Magento | Plugin limitations                          |
-| Easy to set up and configure                 |                                             |
-| SEO previews                                 |                                             |
-
-</div>
-
-## Netlify CMS
-
-* Supports: Gatsby, Hugo, Jekyll, Next.js, Nuxt.js, Middleman
-* Unique features: Git-based
-* Usability for developers: easy installation
-* Usability for content teams: basic interface, instant access without GitHub account, fast, web-based UI & custom-styled previews
-* Cost: Free option available, with packages ranging from €45 to €1,500 per month
-
-### For Content Teams
-
-As for as content options go, Netlify CMS certainly hits all the core needs. Alongside rich-text editing, there is a lot of drag-and-drop versatility that makes it easy to create new pages from various components - something that most content teams will find intuitive. It also enables real-time previews, which helps ensure content is working as intended before being published - something that’s important with JAMstack and headless backends, as we’re creating our own frontends, rather than relying on existing templates, after all.
-
-Furthermore, content is collated in different Collections - Netlify’s answer to different types of content - for easy templating. Paired with the workflow tab, this ensures the admin panel is very simple and easy to use, but it does require additional development help for more advanced tasks, such as creating new collections.
-
-In terms of content widgets (the forms and modules of this particular CMS), there are around 16 options, but more are being developed. So, from rich text and forms to media and maps, as well as core essentials such as objects and strings, Netlify has it covered.
-
-### For Development Teams
-
-As an open-source CMS, there is certainly a lot of potential, but this also means you may have to customise something that would be available already in the larger, more expensive options. On the other hand, this freedom also results in few restrictions and a competent development team will have no problem making it work with their frontend plans if they’re willing to put the time in.
-
-Netlify is also another git-based CMS so the same arguments for Forestry also apply here: git-based options make it easy to use, with rollback and automation thanks to Git, but can cause extra work if you want to pull anything from additional sources. Similarly, it’s also not great for large scale operations that want fast and very frequent updates.
-
-It’s also relatively open, so if you want to create custom widgets, it typically isn’t a problem. In fact, the customisation is relatively free, but it rests heavily on the development side. This is often the nature of open-source projects, so it shouldn’t come as a surprise.
-
-Note: One thing we want to add here is that this particular option is available as the open-source [Netlify CMS](https://www.netlifycms.org/){:rel="nofollow"}{:target="_blank"} on its own - perhaps the more developer-friendly option, as well as a wider range of services, including hosting and analytics. Content-focused teams will have a better time with the wider [Netlify services](https://www.netlify.com/){:rel="nofollow"}{:target="_blank"}, but it’s naturally where the expensive packages start to appear.
+On the plus side, there are webhooks and triggers, all of which can be set in the content panels. While this meets most needs, it does result in a different work process - one suited for less code-heavy developers.
 
 <div class="table-layout-fixed" markdown="block">
-| Pros                                                                              | Cons                                                                      |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Git-based, but can support API through Git wrappers                               | Wider services can be expensive                                           |
-| Clear and simple User Interface                                                   | Open source means the documentation can vary in quality                   |
-| Supports virtually all static generators, including Gatsby                        | Not possible to schedule posts in default version                         |
-| Open-source, so developers can configure with ease - great extension capabilities | Free, open-source version will require developers to get the best results |
-| Available with wider services, if needed                                          |                                                                           |
-| Real time previews                                                                |                                                                           |
+| Pros                                    | Cons                                                       |
+| --------------------------------------- | ---------------------------------------------------------- |
+| Visual editor - great for content teams | Poor support for Gatsby with no office image support       |
+| Supports multi-languages by default     | Not suitable if you require the CMS to act as the database |
 
 </div>
 
@@ -377,34 +405,6 @@ It’s also worth pointing out that it’s more of an experiment than a flagship
 
 </div>
 
-## Headless WordPress
-
-* Supports: React, Gatsby, Next.js, REST, GraphQL, JavaScript, PHP, Android, iOS, Python, Java Ruby, .Net
-* Unique features: Keeps WordPress interface
-* Usability for developers: large community, many plugins available
-* Usability for content teams: basic interface, field-based editing
-* Cost: Various solutions available
-
-### For Content Teams
-
-Considering most CMS on this list do their best to imitate the look and feel of WordPress, content teams would find few faults with the headless WordPress system. There really isn’t much more to say - WordPress set the standard for how a CMS should look for content teams and it’s still very much the most widely used option today.
-
-In fact, WordPress is so popular that there’s a very high chance it’s the first CMS most content specialists ever use. Its innate familiarity is something that many other options on this list try to evoke for easy usability, but it nonetheless gives headless WordPress a distinct advantage - in the backend, it’s the very same CMS content teams are use to, so there’s no problem adapting or learning a new system.
-
-### For Development Teams
-
-WordPress was built with themes included and the removal of that thematic ‘head’ is a relatively new idea. It’s not an official, supported product so it requires a development team that’s willing to put the time and effort in, all to create something that exists in various other forms already.
-
-Similarly, we also need to address the JAMstack issue. WordPress is built on PHP and, while many defend the latter as a web-friendly solution, it means adding another language to the tech stack. From a development point of view? If WordPress is kept in the backend and only sends data via API, this shouldn’t get in the way of a JAMstack frontend.
-
-<div class="table-layout-fixed" markdown="block">
-| Pros                                             | Cons                     |
-| ------------------------------------------------ | ------------------------ |
-| Uses API - Jamstack friendly                     | Not supported officially |
-| Very familiar interface and UI for Content Teams | Requires PHP             |
-
-</div>
-
 ## Headless CMS Comparison
 
 To compare these options, it really helps to put them side-by-side. Here, we wanted to go through some of the most essential elements:
@@ -430,11 +430,10 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 | Netlify CMS        | Git         | Yes          | €45 to €1,500         | Unlimited                            | Unlimited                | Yes                | Yes (but not on open-source CMS only)      |
 | Strapi             | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Yes                | Yes                                        |
 | TinaCMS            | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Limited            | No (Enterprise Edition is in early access) |
-| Headless WordPress | API         | N/A*         | N/A*                  | N/A*                                 | N/A*                     | N/A*               | N/A*                                       |
+| Headless WordPress | API         | N/A\*         | N/A\*                  | N/A\*                                 | N/A\*                     | N/A\*               | N/A\*                                       |
 
 </div>
 
-*Headless WordPress is often custom, so results can be varied.
-
+\*Headless WordPress is often custom, so results can be varied.
 
 [{% image /assets/images/get-an-estimate.png Get-an-estimate et-an-estimateG %}](https://naturaily.com/get-an-estimate){:target=”_blank”}
