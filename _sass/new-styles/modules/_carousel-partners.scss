@@ -80,15 +80,16 @@
       position: relative;
       height: 10px;
       width: 10px;
+      transform: scale(0.5);
       margin: 5px;
       border-radius: 100%;
       background-color: $color-secondary;
-      opacity: 0.2;
+      opacity: 1;
       cursor: pointer;
-      transition: 0.2s;
+      transition: transform 0.2s;
 
       &:hover, &--active {
-        opacity: 1;
+        transform: none;
       }
     }
   }
@@ -140,17 +141,18 @@
       margin: 0 -75px;
 
       &-item {
+        width: 32px;
         padding: 50px 21px;
-        font-size: 2em;
+        font-size: 24px;
         color: $color-secondary;
         background-color: $color-white;
 
         &::before {
-          opacity: 0.5;
+          opacity: 1;
         }
 
         &--disabled::before {
-          opacity: 0.2;
+          opacity: 0.6;
         }
       }
     }
