@@ -90,6 +90,10 @@
       }
     }
 
+    &__step-number {
+      margin-right: 30px;
+    }
+
     &__header {
       max-width: 390px;
       padding-right: 25px;
@@ -98,7 +102,27 @@
 }
 
 @media (min-width: 992px) {
-  .node-about__right {
-    padding-left: 0;
+  .node-about {
+    &__header {
+      padding-left: 120px;
+    }
+
+    &__logo {
+      margin-left: 120px;
+    }
+
+    &__right {
+      padding-left: 0;
+    }
+
+    .carousel-partners {
+      margin: 0 120px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .node-about .carousel-partners__tabs-tab__image img {
+    max-width: 110px;
   }
 }
