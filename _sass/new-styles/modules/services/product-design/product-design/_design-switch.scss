@@ -196,6 +196,11 @@
         z-index: 1;
         width: 50vw;
       }
+
+      &-arrow--prev {
+       opacity: 0;
+       pointer-events: none;
+     }
     }
   }
 }

@@ -317,13 +317,14 @@
         padding: 0 140px 0 80px;
       }
 
-      &-item:hover .product-design__process-nav__item-path {
-        stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
-        animation: animateNav 5s linear forwards;
+      &__item {
+        &-figure {
+          transition: .4s;
+        }
 
-        &--short {
-          animation: animateNav 10s linear forwards;
+        &:hover .product-design__process-nav__item-figure,
+        &--active .product-design__process-nav__item-figure {
+          transform: translate(2px, -2px);
         }
       }
     }

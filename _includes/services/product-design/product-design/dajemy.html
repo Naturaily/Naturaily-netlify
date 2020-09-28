@@ -2,12 +2,23 @@
   <h2 class="services__header">
     Modern website build on JAMstack
   </h2>
-  <img
-    class="product-design__dajemy-image"
-    src="/assets/images/loader.gif"
-    data-src="/assets/images/services/product-design/product-design/dajemy-slowo-1.png"
-    alt="dajemy slowo case"
-  />
+  <div class="product-design__dajemy-image" data-show="on-scroll">
+    <img
+      class="product-design__dajemy-image__all"
+      src="/assets/images/loader.gif"
+      data-src="/assets/images/services/product-design/product-design/dajemy-slowo-1.png"
+      alt="dajemy slowo case"
+    />
+    <div class="product-design__dajemy-image__inside">
+      <img
+        class="product-design__dajemy-image__inside-img"
+        src="/assets/images/loader.gif"
+        data-src="/assets/images/services/product-design/product-design/dajemy-slowo-inside.png"
+        alt="dajemy slowo inside"
+      />
+    </div>
+    {% svg /assets/images/services/product-design/product-design/cursor.svg %}
+   </div>
   <p class="product-design__dajemy-text">
     Dajemyslowo is a marketing agency focused on delivering high-quality
     textual and visual content.
@@ -25,3 +36,7 @@
     {% svg /assets/images/btn-arrow.svg %}
   </a> -->
 </div>
+
+<script type="text/javascript">
+  {% include services/product-design/product-design/showOnScroll.js %}
+</script>
