@@ -3,26 +3,12 @@
   padding: 90px 0 70px;
   background-color: $color-light-blue-bg;
 
-  &__step, &__header, &__text {
+  .node-step, .node-header, &__text {
     padding: 0 20px;
   }
 
-  &__step {
-    font-size: 12px;
-    line-height: 24px;
-    color: $color-secondary;
-
-    &-number {
-      margin-right: 20px;
-      color: $color-page-text-grey;
-    }
-  }
-
-  &__header {
+  .node-header {
     margin: 60px 0 40px;
-    font-size: 36px;
-    line-height: 50px;
-    color: $color-global-font;
   }
 
   &__text {
@@ -79,7 +65,7 @@
 
 @media (min-width: 576px) {
   .node-process {
-    &__step, &__header, &__text {
+    .node-step, .node-header, &__text {
       padding: 0 75px;
     }
 
@@ -101,11 +87,7 @@
 
 @media (min-width: 811px) {
   .node-process {
-    &__step-number {
-      margin-right: 30px;
-    }
-
-    &__header {
+    .node-header {
       margin-top: 40px;
       max-width: 780px;
     }
@@ -138,7 +120,7 @@
   .node-process {
     position: relative;
 
-    &__header, &__text {
+    .node-header, &__text {
       padding-left: 120px;
     }
     &__box {
@@ -162,9 +144,13 @@
   }
 }
 
-@media (min-width: 992px) {
-  .node-process__wrapper {
-    max-width: 1280px;
-    margin: 0 auto;
+@media (min-width: 1200px) {
+  .node-process {
+    border-radius: 8px;
+
+    &__wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
   }
 }

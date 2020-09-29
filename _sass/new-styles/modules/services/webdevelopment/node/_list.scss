@@ -2,24 +2,12 @@
   width: 100%;
   padding: 60px 0 30px;
 
-  &__step, &__header {
+  .node-step, .node-header {
     padding: 0 20px;
   }
 
-  &__step {
-    font-size: 0.75em;
-    color: $color-secondary;
-
-    &-number {
-      margin-right: 20px;
-      color: $color-page-text-grey;
-    }
-  }
-
-  &__header {
+  .node-header {
     margin: 35px 0 50px;
-    font-size: 2.25em;
-    line-height: 1.4;
   }
 
   .services-faq {
@@ -41,7 +29,8 @@
 
     &__header {
       margin: 0;
-      font-size: 1.5em;
+      font-size: 24px;
+      line-height: 33px;
 
       svg {
         fill: $color-secondary;
@@ -65,7 +54,7 @@
 
 @media (min-width: 576px) {
   .node-list {
-    &__step, &__header, .services-faq__item {
+    .node-step, .node-header, .services-faq__item {
       padding-left: 75px;
       padding-right: 75px;
     }
@@ -78,7 +67,7 @@
     padding: 90px 0 50px;
     overflow: hidden;
 
-    &__header {
+    .node-header {
       max-width: 500px;
       margin: 50px 0;
     }
@@ -129,11 +118,7 @@
 
 @media (min-width: 992px) {
   .node-list {
-    &__step-number {
-      margin-right: 30px;
-    }
-
-    &__header {
+    .node-header {
       max-width: 600px;
       padding-left: 120px;
     }
