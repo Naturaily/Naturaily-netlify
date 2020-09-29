@@ -1,0 +1,153 @@
+.node-services {
+  // &-carousel {
+  //   position: relative;
+  //   width: 100vw;
+  //
+  //   &::after {
+  //     content: "";
+  //     position: absolute;
+  //     top: 126px;
+  //     width: 100%;
+  //     height: 1px;
+  //     background-color: $color-global-font-10;
+  //   }
+  //
+  //   &__content {
+  //     padding-left: 10px;
+  //   }
+  //
+  //   &__header, &__text {
+  //     font-size: 1.1em;
+  //     font-weight: 300;
+  //     line-height: 1.7;
+  //     color: $color-global-font;
+  //   }
+  //
+  //   &__header {
+  //     height: 48px;
+  //     margin-top: 75px;
+  //     margin-bottom: 25px;
+  //   }
+  //
+  //   &__tabs {
+  //     display: flex;
+  //     position: relative;
+  //     width: 300vw;
+  //
+  //     .icon {
+  //       font-size: 3.75em;
+  //       color: $color-secondary;
+  //     }
+  //
+  //     img {
+  //       height: 60px;
+  //     }
+  //   }
+  //
+  //   .custom-carousel__tabs-tab {
+  //     padding: 40px 10px 50px 25px;
+  //
+  //     &--inactive {
+  //       opacity: 0.5;
+  //     }
+  //   }
+  //
+  //   &__bar {
+  //     position: absolute;
+  //     top: 125px;
+  //     width: 33.3%;
+  //     height: 3px;
+  //     background-color: $color-secondary;
+  //   }
+  // }
+}
+
+@media (min-width: 576px) {
+  // .cloud-adoption__companies {
+  //   &-carousel {
+  //     box-sizing: border-box;
+  //     padding: 0 60px;
+  //
+  //     &::after {
+  //       top: 160px;
+  //       left: 0;
+  //     }
+  //
+  //     &__tabs {
+  //       box-sizing: border-box;
+  //       width: 100%;
+  //       left: 0;
+  //     }
+  //
+  //     &__header {
+  //       height: 43px;
+  //       font-size: 1em;
+  //     }
+  //
+  //     &__text {
+  //       font-size: 0.9em;
+  //     }
+  //
+  //     &__bar {
+  //       display: none;
+  //     }
+  //
+  //     .custom-carousel__tabs-tab {
+  //       width: 33.3%;
+  //       padding: 60px 10px;
+  //
+  //       &--inactive {
+  //         opacity: 1;
+  //       }
+  //     }
+  //   }
+  // }
+}
+
+@media (min-width: 811px) {
+  // .cloud-adoption__companies {
+  //   &-carousel {
+  //     padding: 0 50px;
+  //
+  //     &__header {
+  //       height: 48px;
+  //       font-size: 1.1em;
+  //     }
+  //
+  //     &__text {
+  //       font-size: 1em;
+  //     }
+  //
+  //     .custom-carousel__tabs-tab {
+  //       padding: 60px 20px;
+  //     }
+  //   }
+  // }
+}
+
+@media (min-width: 992px) {
+  // .cloud-adoption__companies {
+  //   &-carousel {
+  //     width: auto;
+  //     margin: 20px 25px 40px;
+  //     padding: 0 10px;
+  //
+  //     &__header  {
+  //       height: auto;
+  //
+  //       br {
+  //         display: none;
+  //       }
+  //     }
+  //
+  //     &__text {
+  //       max-width: 285px;
+  //       font-size: 1.1em;
+  //     }
+  //
+  //     .custom-carousel__tabs-tab {
+  //       padding: 60px 35px;
+  //     }
+  //   }
+  // }
+}
