@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
   let $activeElement;
   let windowWidth;
 
-  const carousel = {
+  let carousel = {
     size: null,
     scale: 100,
     max_width: 811,
@@ -17,6 +17,7 @@ window.addEventListener('load', () => {
     current_tab_index: null,
     is_desktop: false,
     tabs_disabled: false,
+    node: false,
     progress_bar: false,
     progress_bar_scale: 33.3
   }
@@ -42,9 +43,14 @@ window.addEventListener('load', () => {
   }
 
   function setCarouselParameters() {
-    carousel.tabs_disabled = $targetCarousel.data('tabsDisabled') ? true : false;
-    carousel.full_width = $targetCarousel.data('fullWidth') ? true : false;
-    carousel.scale = carousel.progress_bar && !carousel.full_width ? 70 : 100;
+    const parametersUpdate = {
+      tabs_disabled: $targetCarousel.data('tabsDisabled') ? true : false,
+      node: $targetCarousel.data('node') ? true : false,
+      full_width: $targetCarousel.data('fullWidth') ? true : false,
+      scale: carousel.progress_bar && !carousel.full_width ? 70 : 100
+    }
+
+    carousel = { ...carousel, ...parametersUpdate };
 
     const $activeContainer = carousel.progress_bar ? $carouselTabsContainer : $carouselDots;
     const activeAttribute = carousel.progress_bar ? '[data-tab-active="true"]' : '[data-dot-active="true"]';
@@ -147,11 +153,14 @@ window.addEventListener('load', () => {
     const newTabPosition = `-${newIndex * carousel.scale}${positionUnit}`;
     const newBarWidth = `${(newIndex + 1) * carousel.progress_bar_scale}%`;
 
-    const blogCarousel = carousel.is_desktop && carousel.tabs_disabled;
+    const webdevelopmentCarousel = carousel.is_desktop && carousel.tabs_disabled;
+    const nodeCarousel = webdevelopmentCarousel && carousel.node;
     const includeCarousel = carousel.progress_bar;
     let carouselClass = null;
 
-    if (blogCarousel) {
+    if (nodeCarousel) {
+      carouselClass = 'node-blog';
+    } else if (webdevelopmentCarousel) {
       carouselClass = 'webdevelopment-blog';
     } else if (includeCarousel) {
       carouselClass = 'services-include';
@@ -174,7 +183,9 @@ window.addEventListener('load', () => {
     const $newActiveTab = $carouselTabsContainer.find($(`[data-tab-index="${newIndex}"]`));
     let tabsClass = null;
 
-    if (type === 'webdevelopment-blog') {
+    if (type === 'node-blog') {
+      tabsClass = 'node-blog__posts-list__item--disabled';
+    } else if (type === 'webdevelopment-blog') {
       tabsClass = 'webdevelopment-blog__posts-list__item--disabled';
     } else if (type === 'services-include') {
       tabsClass = 'custom-carousel__tabs-tab--inactive';
