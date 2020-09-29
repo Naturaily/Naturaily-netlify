@@ -24,56 +24,6 @@
     }
   }
 
-  &_arrow {
-    position: absolute;
-    top: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    border: 0;
-    border-radius: 50%;
-    background-color: $color-secondary;
-    opacity: 1;
-    z-index: 1;
-    transition: opacity .4s;
-
-    .icon {
-      color: $color-white;
-      font-size: 22px;
-    }
-
-    &-prev {
-      left: 95px;
-
-      &.hidden {
-        left: -50px;
-      }
-
-      .icon {
-        margin-right: 5px;
-      }
-    }
-
-    &-next {
-      right: 95px;
-
-      &.hidden {
-        right: -50px;
-      }
-
-      .icon {
-        margin-right: -5px;
-      }
-    }
-
-    &.hidden {
-      opacity: 0;
-      transition: left .4s .4s;
-    }
-  }
-
   &_cards {
     position: absolute;
     top: 20px;
@@ -180,38 +130,6 @@
       transition: opacity .4s,
                   left 0s,
                   background-color .4s .4s;
-
-      &_button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        background-color: $color-secondary;
-
-        .icon {
-          font-size: 0.8em;
-          color: $color-white;
-        }
-
-        &::before {
-          content: '';
-          position: absolute;
-          top: -11px;
-          left: -11px;
-          width: 60px;
-          height: 60px;
-          border: 1px solid $color-text-muted;
-          border-radius: 50%;
-          animation-fill-mode: both;
-          animation-duration: 1.3s;
-          animation-name: bounceIn;
-          animation-iteration-count: infinite;
-          animation-delay: .4s;
-        }
-      }
     }
 
     &:first-child {
@@ -347,39 +265,6 @@
     }
   }
 
-  &_close {
-    position: absolute;
-    top: 20px;
-    left: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    width: 30px;
-    font-size: 14px;
-    background-color: $color-white;
-    border-radius: 50%;
-    border: 0;
-    opacity: 1;
-    box-shadow: -2px 4px 6px $color-global-font;
-    transition: all .4s;
-
-    &.hidden {
-      top: -20px;
-      opacity: 0;
-      transition: top .4s .4s;
-    }
-
-    .icon {
-      font-size: 0.7em;
-      color: $color-page-text;
-    }
-
-    &:hover {
-      box-shadow: none;
-    }
-  }
-
   &_link {
     display: flex;
     justify-content: space-between;
@@ -425,6 +310,19 @@
         height: 11px;
         margin-left: 28px;
       }
+    }
+  }
+
+  .slider-arrow {
+    position: absolute;
+    top: 55px;
+
+    &--prev {
+      left: 95px;
+    }
+
+    &--next {
+      right: 95px;
     }
   }
 }
@@ -475,10 +373,6 @@
       margin: 50px 0 0;
     }
 
-    &_arrow {
-      top: 118px;
-    }
-
     &_cards-wrapper {
       height: 600px;
     }
@@ -525,10 +419,6 @@
       }
     }
 
-    &_close {
-      display: none;
-    }
-
     &_content {
       height: 100%;
       width: auto;
@@ -542,6 +432,24 @@
 
       &-badge, &-clutch {
         margin-bottom: 15px;
+      }
+    }
+
+    .slider {
+      &-close {
+        display: none;
+      }
+
+      &-arrow {
+        top: 118px;
+
+        &--prev {
+          left: 10px;
+        }
+
+        &--next {
+          right: 10px;
+        }
       }
     }
   }
@@ -567,29 +475,5 @@
       width: calc(100% - 2px);
       box-sizing: border-box;
     }
-  }
-}
-
-@keyframes bounceIn {
-  0% {
-    opacity: .7;
-    transform: scale3d(0.5, 0.5, 0.5);
-  }
-  20% {
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-  40% {
-    transform: scale3d(0.9, 0.9, 0.9);
-  }
-  60% {
-    opacity: 1;
-    transform: scale3d(1.03, 1.03, 1.03);
-  }
-  80% {
-    transform: scale3d(0.97, 0.97, 0.97);
-  }
-  to {
-    opacity: 1;
-    transform: scale3d(1, 1, 1);
   }
 }

@@ -1,0 +1,337 @@
+.product-design__process {
+  position: relative;
+  padding-top: 50px;
+
+  &-nav {
+    width: 100vw;
+    height: 160px;
+    position: relative;
+
+    &__items {
+      display: flex;
+      position: absolute;
+      top: 0;
+      left: 25%;
+      width: 200%;
+
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 25vw;
+        z-index: -1;
+        width: calc(100% - 50vw);
+        height: 1px;
+        background-color: $color-secondary;
+      }
+    }
+
+    &__item {
+      position: relative;
+      width: 50vw;
+      text-align: center;
+      cursor: pointer;
+
+      &-number, &-title, &-icon__background {
+        transition: 0.4s;
+      }
+
+      &-arrow, &-number {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50px);
+      }
+
+      &-arrow {
+        top: 34px;
+        width: 0;
+        height: 0;
+        z-index: 2;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 10px solid #FF5E45;
+      }
+
+      &-number {
+        top: 0;
+      }
+
+      &-icon__background {
+        fill: $color-secondary;
+      }
+
+      &-title {
+        margin-top: 15px;
+      }
+
+      &:hover .product-design__process-nav__item,
+      &--active .product-design__process-nav__item {
+        &-icon__background {
+          fill: $color-accent-yellow;
+        }
+
+        &-title, &-number {
+          color: $color-accent-yellow;
+        }
+      }
+    }
+  }
+
+  .product-design__switch {
+    &-arrows {
+      top: 500px;
+      padding: 0 20px;
+    }
+
+    &-cards {
+      width: 400%;
+    }
+
+    &-card {
+      width: 25%;
+
+      &__header {
+        display: none;
+      }
+
+      &__content {
+        padding: 35px 20px 30px;
+      }
+
+      &__text, &__list {
+        font-size: 16px;
+        line-height: 26px;
+        color: $color-page-text;
+      }
+
+      &__image  {
+        height: 350px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      a {
+        background-image: linear-gradient(120deg, $color-secondary 0%, $color-secondary 100%);
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 0px;
+        color: $color-secondary;
+        text-decoration: none;
+        transition: background-size .2s ease-in, color .1s ease;
+
+        &:hover {
+          color: $color-white;
+          background-size: 100% 88%;
+        }
+      }
+    }
+
+    &-switcher {
+      padding: 0 20px;
+
+      &__number--active {
+        width: 15px;
+        color: $color-secondary;
+      }
+
+      &__separator {
+        left: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__process .product-design__switch {
+    &-card {
+      &__image {
+        height: 450px;
+        margin: 0 75px;
+        border-radius: 8px;
+      }
+
+      &__content {
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+    }
+
+    &-switcher {
+      padding: 0 75px;
+    }
+
+    &-arrows {
+      top: 600px;
+      padding: 0 100px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__process {
+    width: 100vw;
+    padding-top: 0;
+
+    &-nav {
+      width: 100%;
+
+      &__items {
+        box-sizing: border-box;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 1130px;
+        padding: 0 75px;
+
+        &::after {
+          display: none;
+        }
+      }
+
+      &__item:nth-of-type(-n+3)::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        z-index: -1;
+        width: 100%;
+        height: 1px;
+        background-color: $color-secondary;
+      }
+    }
+
+    .product-design__switch {
+      &-wrapper {
+        overflow: hidden;
+      }
+
+      &-arrows, &-card__image {
+        max-width: 450px;
+      }
+
+      &-arrows {
+        top: 640px;
+        left: 50%;
+        width: 50%;
+        padding: 0 5px;
+      }
+
+      &-arrow {
+        box-shadow: 7px 7px 20px $color-btn-shadow-brown;
+      }
+
+      &-card {
+        position: relative;
+
+        &__header {
+          display: block;
+          padding: 30px 75px 35px;
+          font-size: 36px;
+          line-height: 50px;
+          font-weight: 400;
+          color: $color-global-font;
+        }
+
+        &__content, &__image {
+          box-sizing: border-box;
+          width: 50%;
+        }
+
+        &__content {
+          max-width: 540px;
+          padding: 20px 25px 30px 75px;
+        }
+
+        &__image {
+          position: absolute;
+          top: 75px;
+          left: 50%;
+          height: 100%;
+          margin-left: 0;
+          padding: 0 25px;
+        }
+      }
+
+      &-switcher {
+        &__number--active {
+          width: 25px;
+        }
+
+        &__separator {
+          left: 29px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__process {
+    padding-top: 0;
+
+    &-nav {
+      height: 180px;
+    }
+
+    .product-design__switch {
+      &-card__image {
+        max-width: 490px;
+      }
+
+      &-arrows {
+        top: 610px;
+        max-width: 510px;
+        margin-left: -10px;
+      }
+
+      &-arrow:hover {
+        box-shadow: 7px 7px 20px $color-btn-shadow-brown-hover;
+      }
+
+      &-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__image {
+          top: 25px;
+        }
+
+        &__content {
+          padding-bottom: 45px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__process {
+    &-nav {
+      &__items {
+        padding: 0 140px 0 80px;
+      }
+
+      &__item {
+        &-figure {
+          transition: .4s;
+        }
+
+        &:hover .product-design__process-nav__item-figure,
+        &--active .product-design__process-nav__item-figure {
+          transform: translate(2px, -2px);
+        }
+      }
+    }
+
+    .product-design__switch-arrows,
+    .product-design__switch-card__image {
+      left: 640px;
+    }
+  }
+}

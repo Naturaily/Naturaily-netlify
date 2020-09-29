@@ -1,0 +1,184 @@
+.product-design__case {
+  width: 100%;
+  margin: 50px 0 60px;
+
+  .services__step, .services__header {
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+
+  .services__step {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .services__header {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 38.4px;
+    color: $color-global-font;
+  }
+
+  &-image {
+    width: 100%;
+  }
+
+  &-text {
+    padding: 40px 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-global-font;
+    opacity: 0.7;
+  }
+
+  .btn-white {
+    max-width: 320px;
+    margin-left: -25px;
+    margin-bottom: 55px;
+
+    &--desktop {
+      display: none;
+    }
+  }
+
+  &-carousel {
+    margin-top: 55px;
+    margin-left: 0;
+    border-top: 1px solid $color-global-font-10;
+
+    &__item {
+      display: flex;
+      flex-direction: row;
+      padding: 40px 20px 25px;
+
+      .icon {
+        width: 30px;
+        margin: 5px 50px 0 0;
+        font-size: 30px;
+        color: $color-secondary;
+      }
+    }
+
+    &__number {
+      margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      color: $color-global-font;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-global-font;
+      opacity: 0.7;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__case {
+    .services__step, .services__header, &-text, &-carousel__item {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    &-image {
+      box-sizing: border-box;
+      padding: 0 75px;
+    }
+
+    .custom-carousel__nav {
+      top: 20px;
+      margin: 0;
+    }
+
+    .btn-white {
+      margin-left: 50px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__case {
+    position: relative;
+    margin: 75px 0 85px;
+
+    .services__step, .services__header, &-text {
+      box-sizing: border-box;
+      width: 40%;
+      max-width: 490px;
+      padding-right: 0;
+    }
+
+    .services__step {
+      margin-bottom: 40px;
+    }
+
+    &-text {
+      padding-top: 0;
+      opacity: 1;
+      color: $color-page-text;
+
+      br {
+        display: none;
+      }
+    }
+
+    &-image {
+      position: absolute;
+      top: 0;
+      left: 44%;
+      width: 650px;
+      padding: 0;
+    }
+
+    .btn-white {
+      max-width: 180px;
+      margin-left: 73px;
+      border: 2px solid $color-secondary;
+      border-radius: 30px;
+
+      &--mobile {
+        display: none;
+      }
+
+      &--desktop {
+        display: flex;
+      }
+    }
+
+    &-carousel {
+      display: flex;
+      flex-direction: row;
+      margin: 75px 35px 0;
+
+      &__item {
+        width: 33%;
+        padding: 45px 10px 25px 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__case {
+    margin: 150px 0 160px;
+
+    .services__header {
+      margin-bottom: 40px;
+      font-size: 36px;
+      line-height: 50px;
+      font-weight: 400;
+    }
+
+    &-image {
+      width: 730px;
+    }
+
+    &-carousel {
+      margin-top: 100px;
+      margin-right: 100px;
+    }
+  }
+}

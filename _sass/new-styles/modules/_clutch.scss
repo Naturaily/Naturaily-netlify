@@ -53,14 +53,22 @@
     padding: 25px 0 75px;
     overflow: hidden;
 
-    .btn-shadowed {
+    .btn-shadowed, .btn-bordered {
       position: relative;
       left: 50%;
       bottom: -25px;
       transform: translateX(-50%);
-      width: 250px;
       z-index: 2;
       background-color: $color-white;
+    }
+
+    .btn-shadowed {
+      width: 250px;
+    }
+
+    .btn-bordered {
+      width: 270px;
+      max-width: 270px;
     }
   }
 
@@ -259,7 +267,7 @@
       margin-top: -25px;
       overflow-y: scroll;
 
-      .btn-shadowed {
+      .btn-shadowed, .btn-bordered {
         display: none;
       }
     }
@@ -330,7 +338,7 @@
         }
 
         &--yellow {
-          transform: translate(-180px, 200px);
+          transform: translate(-185px, 195px);
         }
 
         &--blue {
@@ -379,14 +387,12 @@
         top: calc(50% - 25px);
       }
 
-      &-dot {
-        &--yellow {
-          transform: translate(-227px, 150px);
-        }
+      &-dot--yellow {
+        transform: translate(-227px, 150px);
+      }
 
-        &--blue {
-          transform: translate(170px, 25px);
-        }
+      &-dot--blue {
+        transform: translate(170px, 25px);
       }
     }
   }

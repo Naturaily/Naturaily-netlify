@@ -1,0 +1,243 @@
+.product-design__right {
+  width: 100vw;
+  padding: 70px 20px 80px;
+  background-color: $color-code-grey-bg;
+
+  &-image {
+    display: none;
+  }
+
+  &-text {
+    .services__header {
+      padding: 25px 0 50px;
+      font-size: 48px;
+      line-height: 72px;
+      font-weight: 200;
+      color: $color-page-text;
+    }
+
+    &__paragraph {
+      font-size: 24px;
+      line-height: 36px;
+      color: $color-page-text;
+
+      &--secondary {
+        color: $color-secondary;
+      }
+    }
+  }
+
+  &-box .geometric-figure, .geometric-figure {
+    display: none;
+  }
+
+  &-box {
+    padding-top: 30px;
+
+    &__text {
+      font-size: 16px;
+      line-height: 26px;
+      color: $color-global-font;
+    }
+  }
+
+  &--visual-design {
+    padding: 50px 20px 75px;
+
+    .product-design__right-box__text {
+      color: $color-page-text;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__right {
+    padding: 100px 75px 75px;
+
+    &--visual-design {
+      padding-top: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__right {
+    position: relative;
+    padding: 50px 0;
+    overflow: hidden;
+
+    &-text, &-box {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: relative;
+    }
+
+    &-text {
+      padding-left: 75px;
+
+      &__paragraph {
+        max-width: 410px;
+        margin-bottom: 50px;
+      }
+    }
+
+    &-box {
+      position: relative;
+      right: -50px;
+      z-index: 2;
+      padding: 50px 75px 150px 50px;
+      overflow: hidden;
+      background-color: $color-white;
+      border-radius: 8px;
+
+      &__text {
+        z-index: 3;
+      }
+
+      .geometric-figure {
+        display: flex;
+        position: absolute;
+        bottom: -40px;
+        right: 25px;
+        transform: rotate(180deg);
+
+        &_center, &_right::after {
+          height: 170px;
+          width: 170px;
+        }
+
+        &_center {
+          border-color: $color-geometric-blue-accent;
+        }
+
+        &_right {
+          height: 170px;
+          width: 85px;
+
+          &::after {
+            background-color: $color-geometric-blue;
+          }
+        }
+      }
+    }
+
+    &-image {
+      display: block;
+      position: absolute;
+      top: -50px;
+      right: -185px;
+      z-index: 1;
+
+      img {
+        width: 460px;
+      }
+    }
+
+    &--visual-design {
+      .product-design__right {
+        &-text {
+          .services__step {
+            margin-top: 40px;
+          }
+
+          &__paragraph {
+            margin-bottom: 100px;
+          }
+        }
+
+        &-box {
+          padding: 100px 75px 100px 50px;
+        }
+      }
+
+      .geometric-figure {
+        display: flex;
+        position: absolute;
+        top: auto;
+        bottom: -160px;
+        left: -50px;
+
+        &_center, &_right::after {
+          height: 220px;
+          width: 220px;
+        }
+
+        &_right {
+          height: 220px;
+          width: 110px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__right {
+    &-box {
+      right: 75px;
+      margin-left: 125px;
+    }
+
+    &-image {
+      right: -80px;
+    }
+
+    &--visual-design .product-design__right-box {
+      padding: 150px 75px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__right {
+    &-content {
+      max-width: 1280px;
+      margin: 0 auto;
+
+      .geometric-figure {
+        right: 55px;
+      }
+    }
+
+    &-box {
+      right: 15px;
+      margin-left: 0;
+      padding: 100px 75px 210px 100px;
+
+      .geometric-figure {
+        bottom: -20px;
+      }
+    }
+
+    &-image, &-image img {
+      width: 480px;
+    }
+
+    &-image {
+      right: -100px;
+    }
+
+    &--visual-design .product-design__right-box {
+      padding: 200px 100px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .product-design__right {
+    &-image {
+      right: -160px;
+    }
+
+    &--visual-design .geometric-figure {
+      bottom: -115px;
+      left: -280px;
+    }
+  }
+}

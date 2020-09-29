@@ -1,7 +1,7 @@
 .webdevelopment-about {
   box-sizing: border-box;
   width: 100%;
-  padding: 0 20px;
+  padding: 0 20px 75px;
 
   &__text {
     line-height: 1.5;
@@ -10,7 +10,7 @@
     &--bigger {
       padding: 25px 0 35px;
       font-size: 1.6em;
-      color: $color-page-text-second;
+      color: $color-global-font;
     }
 
     &--secondary {
@@ -26,7 +26,7 @@
 
 @media (min-width: 576px) {
   .webdevelopment-about {
-    padding: 0 75px;
+    padding: 0 75px 75px;
 
     .custom-carousel__nav {
       margin: 0 -75px;

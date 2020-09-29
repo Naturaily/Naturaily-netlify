@@ -1,0 +1,119 @@
+.product-design__link {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+
+  &-text {
+    max-width: 310px;
+    font-size: 24px;
+    line-height: 37px;
+    color: $color-global-font;
+  }
+
+  .geometric-figure {
+    display: none;
+  }
+
+  .btn-primary.btn-arrow {
+    width: 230px;
+    margin: 30px 0 50px;
+    padding: 20px 0 20px 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__link {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 75px;
+
+    .geometric-figure {
+      display: flex;
+      top: 15px;
+      left: 75px;
+      width: 110px;
+
+      &_center, &_right::after {
+        height: 70px;
+        width: 70px;
+      }
+
+      &_right {
+        width: 35px;
+        height: 70px;
+      }
+
+      &--blue {
+        transform: rotate(180deg);
+
+        .geometric-figure_center {
+          border-color: $color-geometric-blue-accent;
+        }
+
+        .geometric-figure_right::after {
+          background-color: $color-geometric-blue;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 75px;
+
+    &-text {
+      padding-right: 75px;
+    }
+
+    .geometric-figure {
+      top: 50%;
+      transform: translateY(-50%);
+
+      &--blue {
+        transform: translateY(-50%) rotate(180deg);
+      }
+    }
+
+    .btn-primary.btn-arrow {
+      display: block;
+      width: 190px;
+      min-width: 190px;
+      margin: 0;
+      padding-left: 50px;
+      z-index: 2;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__link {
+    padding-left: 325px;
+
+    &-text {
+      max-width: 360px;
+      padding-right: 75px;
+      font-size: 36px;
+      line-height: 50px;
+      font-weight: 200;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__link {
+    margin-top: 10px;
+    margin-bottom: 115px;
+    padding-left: 375px;
+    padding-right: 75px;
+
+    .geometric-figure {
+      left: 175px;
+    }
+  }
+}

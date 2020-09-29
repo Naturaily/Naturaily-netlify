@@ -1,0 +1,215 @@
+.product-design__profits {
+  position: relative;
+  margin-top: 35px;
+  padding: 65px 0 35px;
+
+  .services__step, .services__header {
+    padding: 0 20px;
+  }
+
+  .services__step {
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+  .services__header {
+    line-height: 50px;
+    font-weight: 200;
+  }
+
+  &-description, &-image, .services__dot, .services__step--desktop {
+    display: none;
+  }
+
+  &-index {
+    margin-right: 15px;
+    color: $color-page-text;
+    opacity: 0.3;
+  }
+
+  .services-faq {
+    &__list {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    &__item {
+      position: relative;
+      padding: 35px 25px 50px 0;
+      margin: 0;
+    }
+
+    &__header {
+      margin: 0;
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: 200;
+    }
+
+    &__number {
+      position: absolute;
+      top: 44px;
+      opacity: 0.3;
+    }
+
+    &__orange-arrow {
+      top: 15px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__profits {
+    .services__step, .services__header, .services-faq__list {
+      padding: 0 75px;
+    }
+
+    .services-faq__item {
+      padding-right: 0;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__profits {
+    padding: 50px 0;
+
+    &-description, &-image, .services__dot, .services__step--desktop {
+      display: block;
+    }
+
+    &-index, .services__step--mobile {
+      display: none;
+    }
+
+    .services__step {
+      margin-bottom: 50px;
+    }
+
+    .services__header, &-description {
+      max-width: 430px;
+    }
+
+    .services-faq__text, &-description {
+      color: $color-global-font;
+    }
+
+    .services-faq {
+      &__orange-arrow {
+        display: none;
+      }
+
+      &__number {
+        margin: 0;
+      }
+
+      &__list {
+        margin-left: 200px;
+      }
+
+      &__item {
+        padding-bottom: 35px;
+      }
+
+      &__header {
+        min-width: 180px;
+        width: 180px;
+      }
+
+      &__text {
+        font-size: 14px;
+        line-height: 24px;
+        opacity: 0.5;
+      }
+    }
+
+    &-description {
+      margin-top: 35px;
+      padding-left: 75px;
+      font-size: 16px;
+      line-height: 24px;
+      opacity: 0.7;
+    }
+
+    &-image {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      height: 220px;
+      width: auto;
+    }
+
+    .geometric-figure {
+      top: 420px;
+      right: auto;
+      left: 50px;
+      transform: rotate(-90deg);
+
+      &_center, &_right::after {
+        width: 130px;
+        height: 130px;
+      }
+
+      &_right {
+        height: 130px;
+        width: 65px;
+      }
+    }
+
+    .services__dot {
+      &--secondary {
+        left: 225px;
+        bottom: 35px;
+      }
+
+      &--blue {
+        right: 25px;
+        bottom: 300px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__profits {
+    margin-top: 0;
+    margin-right: 45px;
+    overflow: visible;
+    border-radius: 0 8px 8px 0;
+
+    &-image {
+      height: 300px;
+      right: -45px;
+    }
+
+    .services-faq {
+      &__header {
+        padding-left: 110px;
+        padding-right: 40px;
+      }
+
+      &__list {
+        margin-top: 40px;
+      }
+    }
+
+    .geometric-figure {
+      top: 430px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__profits {
+    padding-left: 25px;
+    border-radius: 8px;
+
+    .services-faq__list {
+      margin-right: 125px;
+    }
+
+    .services__dot--blue {
+      right: 45px;
+    }
+  }
+}

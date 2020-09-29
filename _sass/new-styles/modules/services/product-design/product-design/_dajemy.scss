@@ -1,0 +1,147 @@
+.product-design__dajemy {
+  width: 100%;
+  margin: 70px 0 80px;
+
+  .services__header {
+    padding: 0 20px;
+    font-size: 42px;
+    line-height: 58.4px;
+    font-weight: 400;
+    color: $color-global-font;
+  }
+
+  &-image {
+    &__all {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 25px 0 0 20px;
+    }
+
+    &__inside, &__cursor {
+      display: none;
+    }
+  }
+
+  &-text {
+    padding: 50px 20px 40px;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: $color-page-text;
+  }
+
+  .btn-bordered {
+    margin-left: 20px;
+    padding: 18px 25px;
+  }
+}
+
+@media (min-width: 576px) {
+  .product-design__dajemy {
+    .services__header, &-text, &-image__all {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    .btn-bordered {
+      margin-left: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .product-design__dajemy {
+    position: relative;
+    margin: 150px 0 100px;
+
+    .services__header, &-text, &-slider {
+      box-sizing: border-box;
+      width: 50%
+    }
+
+    .services__header, &-text {
+      max-width: 500px;
+      padding-right: 0;
+    }
+
+    .services__header {
+      font-size: 28px;
+      line-height: 50.4px;
+      font-weight: 300;
+    }
+
+    &-image__all {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(50px, -54%);
+      width: 500px;
+      padding: 0;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .product-design__dajemy-image__all {
+    transform: translateY(-50%);
+    width: 610px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .product-design__dajemy {
+    margin-top: 150px;
+    margin-bottom: 180px;
+
+    .services__header, &-text {
+      max-width: 470px;
+    }
+
+    &-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+
+      &__inside, &__cursor {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 257px;
+      }
+
+      &__inside {
+        transform: translate(85px, -50%);
+        width: 245px;
+        height: 515px;
+        overflow: scroll;
+        border-radius: 30px;
+
+        &-img {
+          position: relative;
+          width: 245px;
+          height: auto;
+        }
+      }
+
+      &__cursor {
+        transform: translate(310px) rotate(-40deg);
+        width: 80px;
+        height: 80px;
+        opacity: 1;
+      }
+
+
+      &.animated .product-design__dajemy-image__cursor {
+        animation: moveCursor .65s .3s ease-out forwards;
+      }
+    }
+  }
+}
+
+@keyframes moveCursor {
+  to {
+    transform: translate(310px, -220px) rotate(-40deg);
+    opacity: 0;
+  }
+}

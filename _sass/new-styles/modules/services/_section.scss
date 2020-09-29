@@ -1,11 +1,5 @@
 .services-section {
   width: 100%;
-  padding-top: 35px;
-
-  &--less-space {
-    margin-top: -25px;
-    padding-top: 0;
-  }
 
   &__image {
     width: 220vw;
@@ -23,6 +17,10 @@
     &--light {
       background-color: $color-code-bg;
     }
+
+    &--grey {
+      background-color: $color-code-grey-bg;
+    }
   }
 
   &__header, &__text, &__side {
@@ -30,7 +28,7 @@
   }
 
   &__header, &__text {
-    color: $color-page-text-second;
+    color: $color-global-font;
   }
 
   &__text {
@@ -49,11 +47,9 @@
   }
 
   &__side {
-    padding: 50px 20px 25px;
-    color: $color-page-text;
-
-    &--with-quote {
-      padding-bottom: 0;
+    &-text {
+      padding: 50px 20px 25px;
+      color: $color-page-text;
     }
 
     &-quote {
@@ -94,11 +90,6 @@
 @media (min-width: 576px) {
   .services-section {
     width: 100%;
-    padding-top: 75px;
-
-    &--less-space {
-      padding-top: 0;
-    }
 
     &__image {
       width: 150vw;
@@ -109,12 +100,8 @@
       padding: 75px 50px 50px;
     }
 
-    &__side {
+    &__side-text {
       padding: 50px 125px 50px 75px;
-
-      &--with-quote {
-        padding-bottom: 0;
-      }
     }
   }
 }
@@ -124,10 +111,6 @@
     position: relative;
     padding: 0;
     margin-bottom: 25px;
-
-    &--less-space {
-      margin-top: 0;
-    }
 
     &__image {
       width: auto;
@@ -140,7 +123,11 @@
     }
 
     &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       width: 50%;
+      padding: 75px 50px;
     }
 
     &__header {
@@ -148,31 +135,37 @@
     }
 
     &__text {
+      margin-top: 50px;
       font-size: 1.6em;
 
       &--small {
         font-size: 0.65em;
       }
 
-      &--more-space {
-        margin-top: 75px;
+      &--iot-development, &--ecommerce-storefront {
+        margin-top: 65px;
       }
 
-      &--huge-space {
-        margin-top: 125px;
-        margin-bottom: 50px;
+      &--iot-consulting {
+        margin-top: 135px;
+      }
+
+      &--ecommerce-shopify {
+        margin-top: 150px;
       }
     }
 
     &__side {
       position: absolute;
-      top: 340px;
-      left: calc(50% + 25px);
-      width: calc(50% - 25px);
-      padding: 75px;
+      bottom: 0;
+      left: 50%;
+      width: 50%;
+      height: 100%;
+      margin-left: 25px;
+      padding-top: 350px;
 
-      &--more-space {
-        top: 360px;
+      &-text {
+        padding: 75px;
       }
 
       &-quote {
@@ -191,16 +184,12 @@
   .services-section {
     padding-top: 25px;
 
-    &__content {
-      padding-bottom: 75px;
-    }
-
-    &__text--huge-space {
-      margin-bottom: 25px;
+    &__text--ecommerce-storefront {
+      margin-top: 35px;
     }
 
     &__side-quote {
-      margin-top: 65px;
+      margin-top: 35px;
       padding-left: 50px;
 
       .icon {
@@ -211,13 +200,13 @@
 }
 
 @media (min-width: 1200px) {
-  .services-section{
-    &__text--huge-space {
-      margin-top: 140px;
+  .services-section__text {
+    &--iot-development {
+      margin-top: 105px;
     }
 
-    &__side--more-space {
-      top: 340px;
+    &--ecommerce-shopify {
+      margin-top: 120px;
     }
   }
 }
@@ -235,14 +224,14 @@
 
     &__content {
       margin-left: -25px;
-      padding: 100px 100px 125px;
+      padding: 100px;
     }
 
     &__side {
-      top: 450px;
+      padding-top: 425px;
 
-      &--more-space {
-        top: 405px;
+      &-text {
+        padding: 85px 100px;
       }
     }
   }
