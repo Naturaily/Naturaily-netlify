@@ -1,7 +1,7 @@
 .node-about {
   position: relative;
   width: 100%;
-  padding: 60px 0 70px;
+  padding: 60px 0 20px;
 
   &__logo {
     display: none;
@@ -35,6 +35,8 @@
 
 @media (min-width: 576px) {
   .node-about {
+    padding-bottom: 0;
+    
     .node-step, .node-header, &__right {
       padding: 0 75px;
     }
