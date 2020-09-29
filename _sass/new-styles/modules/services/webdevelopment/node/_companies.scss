@@ -35,13 +35,13 @@
       position: relative;
       width: 210vw;
       height: 100%;
+    }
 
-      .custom-carousel__tabs-tab {
-        box-sizing: border-box;
-        width: 70vw;
-        min-width: 70vw;
-        padding: 0 20px;
-      }
+    .custom-carousel__tabs-tab {
+      box-sizing: border-box;
+      width: 70vw;
+      min-width: 70vw;
+      padding: 0 20px;
     }
 
     &-image {
@@ -75,40 +75,9 @@
     }
   }
 
-  &__link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .node-link {
     width: 270px;
     margin: 30px 20px 0;
-    background: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%) no-repeat 0 100%;
-    background-size: 100% 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: background-size .2s ease-in, color .1s ease;
-    font-size: 11px;
-    line-height: 13px;
-    font-weight: 500;
-    color: $color-secondary;
-
-    svg {
-      display: flex;
-      align-items: center;
-      height: 11px;
-
-      .arrow-line {
-        fill: $color-secondary;
-      }
-    }
-
-    &:hover {
-      color: $color-white;
-      background-size: 100% 100%;
-
-      svg .arrow-line {
-        fill: $color-white;
-      }
-    }
   }
 }
 
@@ -133,13 +102,13 @@
         width: 100%;
         margin: 0 -20px;
         padding: 0 25px;
+      }
 
-        .custom-carousel__tabs-tab {
-          flex: 0 0 auto;
-          width: 50%;
-          min-width: auto;
-          padding-bottom: 40px;
-        }
+      .custom-carousel__tabs-tab {
+        flex: 0 0 auto;
+        width: 50%;
+        min-width: auto;
+        padding-bottom: 40px;
       }
 
       &::after, &-bar {
@@ -147,7 +116,7 @@
       }
     }
 
-    &__link {
+    .node-link {
       margin-top: 10px;
       margin-left: 75px;
     }
@@ -166,7 +135,7 @@
       max-width: 720px;
     }
 
-    &__carousel-tabs .custom-carousel__tabs-tab {
+    .custom-carousel__tabs-tab {
       width: 33%;
     }
   }
@@ -184,13 +153,13 @@
     &__carousel {
       padding-left: 100px;
 
-      &-tabs .custom-carousel__tabs-tab {
+      .custom-carousel__tabs-tab {
         width: 20%;
         padding-bottom: 20px;
       }
     }
 
-    &__link {
+    .node-link {
       margin-left: 120px;
     }
   }
@@ -210,10 +179,10 @@
 
       &-tabs {
         padding: 0;
+      }
 
-        .custom-carousel__tabs-tab {
-          padding: 0 40px 40px;
-        }
+      .custom-carousel__tabs-tab {
+        padding: 0 40px 40px;
       }
     }
   }
