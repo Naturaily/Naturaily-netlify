@@ -2,25 +2,19 @@
   padding: 45px 0 80px;
   background-color: $color-code-orange-bg;
 
-  &__step, &__text {
+  .node-step, &__text {
     padding: 0 20px;
   }
 
-  &__step {
+  .node-step {
     position: relative;
-    font-size: 12px;
-    line-height: 24px;
-    color: $color-secondary;
 
     &-number {
       display: none;
     }
   }
 
-  &__header {
-    font-size: 36px;
-    line-height: 50px;
-    color: $color-global-font;
+  .node-header {
     padding: 40px 20px 30px;
   }
 
@@ -123,7 +117,7 @@
     width: 100%;
     padding-top: 75px;
 
-    &__step, &__header, &__text {
+    .node-step, .node-header, &__text {
       padding-left: 75px;
       padding-right: 75px;
     }
@@ -164,13 +158,11 @@
   .node-companies {
     margin: 90px 0 50px;
 
-    &__step-number {
+    .node-step-number {
       display: inline-block;
-      margin-right: 30px;
-      color: $color-page-text-grey;
     }
 
-    &__header, &__text {
+    .node-header, &__text {
       max-width: 720px;
     }
 
@@ -185,7 +177,7 @@
     margin: 130px 0 80px;
     padding: 100px 0;
 
-    &__header, &__text {
+    .node-header, &__text {
       padding-left: 120px;
     }
 
@@ -206,6 +198,8 @@
 
 @media (min-width: 1200px) {
   .node-companies {
+    border-radius: 8px;
+
     &__wrapper {
       max-width: 1280px;
       margin: 0 auto;

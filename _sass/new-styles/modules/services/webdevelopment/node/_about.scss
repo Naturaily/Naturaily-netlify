@@ -7,26 +7,12 @@
     display: none;
   }
 
-  &__step, &__header, &__right {
+  .node-step, .node-header, &__right {
     padding: 0 20px;
   }
 
-  &__step {
-    font-size: 12px;
-    line-height: 24px;
-    color: $color-secondary;
-
-    &-number {
-      margin-right: 20px;
-      color: $color-page-text-grey;
-    }
-  }
-
-  &__header {
+  .node-header {
     margin: 40px 0 25px;
-    font-size: 36px;
-    line-height: 50px;
-    color: $color-global-font;
   }
 
   &__right {
@@ -49,7 +35,7 @@
 
 @media (min-width: 576px) {
   .node-about {
-    &__step, &__header, &__right {
+    .node-step, .node-header, &__right {
       padding: 0 75px;
     }
 
@@ -90,11 +76,7 @@
       }
     }
 
-    &__step-number {
-      margin-right: 30px;
-    }
-
-    &__header {
+    .node-header {
       max-width: 390px;
       padding-right: 25px;
     }
@@ -103,7 +85,7 @@
 
 @media (min-width: 992px) {
   .node-about {
-    &__header {
+    .node-header {
       padding-left: 120px;
     }
 

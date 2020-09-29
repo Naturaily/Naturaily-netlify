@@ -1,0 +1,24 @@
+.node {
+  &-step {
+    font-size: 12px;
+    line-height: 24px;
+    color: $color-secondary;
+
+    &__number {
+      margin-right: 20px;
+      color: $color-page-text-grey;
+    }
+  }
+
+  &-header {
+    font-size: 36px;
+    line-height: 50px;
+    color: $color-global-font;
+  }
+}
+
+@media (min-width: 811px) {
+  .node-step__number {
+    margin-right: 30px;
+  }
+}

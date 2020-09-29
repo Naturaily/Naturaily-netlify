@@ -3,24 +3,12 @@
   width: 100%;
   padding: 65px 0;
 
-  &__step, &__header, &__subheader, &__text {
+  .node-step, .node-header, &__subheader, &__text {
     padding: 0 20px;
   }
 
-  &__step {
-    font-size: 0.75em;
-    color: $color-secondary;
-
-    &-number {
-      margin-right: 20px;
-      color: $color-page-text-grey;
-    }
-  }
-
-  &__header {
+  .node-header {
     margin: 40px 0 45px;
-    font-size: 2.25em;
-    line-height: 1.4;
   }
 
   &__subheader, &__text {
@@ -30,8 +18,8 @@
 
   &__subheader {
     margin: 35px 0;
-    font-size: 1.5em;
-    line-height: 1.45;
+    font-size: 24px;
+    line-height: 36px;
 
     br {
       display: none;
@@ -39,8 +27,8 @@
   }
 
   &__text {
-    font-size: 0.9em;
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 24px;
   }
 
   .services__dot {
@@ -64,7 +52,7 @@
 
 @media (min-width: 576px) {
   .node-what {
-    &__step, &__header, &__subheader, &__text {
+    .node-step, .node-header, &__subheader, &__text {
       padding: 0 75px;
     }
 
@@ -86,7 +74,7 @@
   .node-what {
     padding: 90px 0;
 
-    &__header, &__left .node-what__text {
+    .node-header, &__left .node-what__text {
       padding-right: 10px;
     }
 
@@ -136,7 +124,7 @@
   .node-what {
     padding: 180px 0;
 
-    &__header, &__left .node-what__text {
+    .node-header, &__left .node-what__text {
       padding-left: 120px;
     }
 
@@ -144,11 +132,7 @@
       padding-left: 35px;
     }
 
-    &__step-number {
-      margin-right: 30px;
-    }
-
-    &__header {
+    .node-header {
       margin-bottom: 48px;
     }
 
