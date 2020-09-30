@@ -10,7 +10,7 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
-    font-size: 7.5em;
+    font-size: 120px;
     font-weight: 700;
     color: $color-code-orange-bg;
   }
@@ -22,14 +22,15 @@
 
   &__header {
     padding: 0 30px;
-    font-size: 2.25em;
-    line-height: 1.4;
+    font-size: 36px;
+    line-height: 50px;
     font-weight: 200;
   }
 
   &__paragraph {
     padding: 30px 15px 40px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 24px;
     opacity: 0.7;
   }
 
@@ -74,7 +75,7 @@
 
     &__shadow {
       top: -35px;
-      font-size: 11em;
+      font-size: 175px;
     }
 
     &__header {
