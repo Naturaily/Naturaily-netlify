@@ -66,26 +66,6 @@
 
     &__item {
       min-width: 19%;
-    }
-  }
-}
-
-@media (min-width: 992px) {
-  .node-nav {
-    &__wrapper {
-      justify-content: space-between;
-      max-width: 1200px;
-      margin: 0 auto;
-      padding-left: 0;
-    }
-
-    &__item {
-      min-width: auto;
-      padding: 0 10px;
-
-      &-number {
-        margin-right: 10px;
-      }
 
       &-text::after {
         content: "";
@@ -105,6 +85,26 @@
         &::after {
           width: 100%;
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .node-nav {
+    &__wrapper {
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-left: 0;
+    }
+
+    &__item {
+      min-width: auto;
+      padding: 0 10px;
+
+      &-number {
+        margin-right: 10px;
       }
     }
   }
