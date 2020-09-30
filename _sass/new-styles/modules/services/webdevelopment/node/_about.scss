@@ -36,7 +36,7 @@
 @media (min-width: 576px) {
   .node-about {
     padding-bottom: 0;
-    
+
     .node-step, .node-header, &__right {
       padding: 0 75px;
     }
@@ -61,12 +61,6 @@
     &__left, &__right {
       box-sizing: border-box;
       width: 50%;
-    }
-
-    &__left {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
     }
 
     &__right {
