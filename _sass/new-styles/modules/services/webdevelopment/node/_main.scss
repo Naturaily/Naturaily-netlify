@@ -49,6 +49,12 @@
       }
     }
   }
+
+  &-what, &-list, &-companies, &-about, &-process, &-services, &-faq {
+    &.section {
+      display: block;
+    }
+  }
 }
 
 @media (min-width: 811px) {
