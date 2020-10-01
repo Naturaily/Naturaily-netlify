@@ -39,7 +39,7 @@ window.addEventListener('load', () => {
       .removeClass('services-faq__icon--rotated');
     $element
       .removeAttr('data-content-status')
-      .slideUp(600, () => $element.addClass('services-faq__text--hidden'));
+      .slideUp(300, () => $element.addClass('services-faq__text--hidden'));
   };
 
   const showContent = ($element, $arrow) => {
@@ -47,7 +47,7 @@ window.addEventListener('load', () => {
       .attr('data-arrow-status', 'rotated')
       .addClass('services-faq__icon--rotated');
     $element
-      .slideDown(600)
+      .slideDown(300)
       .attr('data-content-status', 'visible')
       .removeClass('services-faq__text--hidden');
   };

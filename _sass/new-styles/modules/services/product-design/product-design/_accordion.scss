@@ -110,7 +110,7 @@
     &-content {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: center;
       position: relative;
       width: 200px;
@@ -123,6 +123,7 @@
 
       &__title {
         align-self: flex-start;
+        margin-bottom: 20px;
         font-size: 20px;
         font-weight: 400;
       }

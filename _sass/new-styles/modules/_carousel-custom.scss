@@ -88,6 +88,26 @@
 
     &__dots {
       display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      &-item {
+        display: block;
+        position: relative;
+        height: 10px;
+        width: 10px;
+        transform: scale(0.5);
+        margin: 5px;
+        border-radius: 100%;
+        background-color: $color-secondary;
+        opacity: 1;
+        cursor: pointer;
+        transition: transform 0.2s;
+
+        &--active {
+          transform: none;
+        }
+      }
     }
 
     &__nav {
@@ -112,12 +132,12 @@
 
       &-item {
         padding: 50px 15px;
-        font-size: 1.5em;
+        font-size: 24px;
         color: $color-secondary;
         opacity: 1;
 
         &--disabled {
-          opacity: 0.4;
+          opacity: 0.6;
         }
       }
     }

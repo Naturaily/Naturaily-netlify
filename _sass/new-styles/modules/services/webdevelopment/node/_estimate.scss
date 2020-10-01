@@ -1,0 +1,133 @@
+.node-estimate {
+  width: 100%;
+  padding-top: 70px;
+
+  &__header {
+    padding-bottom: 25px;
+    font-size: 24px;
+    line-height: 38px;
+    color: $color-global-font;
+  }
+
+  &__paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    color: $color-global-font;
+  }
+
+  .page-estimate {
+    &__content-text {
+      padding: 0 20px;
+      font-size: 16px;
+    }
+
+    &__image, &__image img {
+      max-width: 100%;
+    }
+
+    &__image {
+      box-sizing: border-box;
+      padding: 25px 20px 15px;
+    }
+  }
+
+  .btn-primary.btn-arrow {
+    margin-left: 20px;
+    padding: 20px 0 20px 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .node-estimate {
+    margin-top: 50px;
+    padding-bottom: 70px;
+    background-color: $color-code-orange-bg;
+
+    &__header {
+      padding-bottom: 25px;
+      font-size: 36px;
+      line-height: 50px;
+    }
+
+    &__paragraph {
+      font-size: 14px;
+      line-height: 24px;
+      opacity: 0.7;
+    }
+
+    .page-estimate {
+      &__content-text, &__image {
+        padding-left: 75px;
+        padding-right: 75px;
+      }
+
+      &__image {
+        padding: 50px 75px;
+        margin: 0;
+        background-color: $color-code-orange-bg;
+
+        img {
+          padding-top: 30px;
+          background-color: $color-white;
+          border-radius: 8px;
+        }
+      }
+    }
+
+    .btn-primary.btn-arrow {
+      margin-left: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .node-estimate {
+    margin-top: 70px;
+    padding: 75px;
+
+    &__header {
+      width: 390px;
+      padding-bottom: 30px;
+    }
+
+    .page-estimate {
+      &__content-text {
+        padding: 0;
+        padding-left: 70px;
+      }
+
+      &__image {
+        max-width: 370px;
+        padding: 0;
+        box-shadow: 0 30px 40px -35px $color-btn-shadow;
+      }
+    }
+
+    .btn-primary.btn-arrow {
+      display: block;
+      width: 190px;
+      margin: 25px 0 0 70px;
+      padding-left: 50px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .node-estimate {
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+    .page-estimate__columns {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .node-estimate {
+    margin-left: -20px;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+}

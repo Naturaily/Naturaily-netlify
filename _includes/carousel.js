@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
   let $activeElement;
   let windowWidth;
 
-  const carousel = {
+  let carousel = {
     size: null,
     scale: 100,
     max_width: 811,
@@ -17,6 +17,7 @@ window.addEventListener('load', () => {
     current_tab_index: null,
     is_desktop: false,
     tabs_disabled: false,
+    node: false,
     progress_bar: false,
     progress_bar_scale: 33.3
   }
@@ -31,7 +32,7 @@ window.addEventListener('load', () => {
     if (windowWidth < carousel.max_width || carousel.is_desktop) initCarousel();
   });
 
-  function initCarousel() {
+  const initCarousel = () => {
     $carouselTabsContainer = $targetCarousel.find($('[data-carousel="tabs"]'));
     $carouselDots = $targetCarousel.find($('[data-carousel="dots"]'));
     $carouselBar = $targetCarousel.find($('[data-carousel="bar"]'));
@@ -39,12 +40,17 @@ window.addEventListener('load', () => {
 
     setCarouselParameters();
     setCarouselControl(targetType, event);
-  }
+  };
 
-  function setCarouselParameters() {
-    carousel.tabs_disabled = $targetCarousel.data('tabsDisabled') ? true : false;
-    carousel.full_width = $targetCarousel.data('fullWidth') ? true : false;
-    carousel.scale = carousel.progress_bar && !carousel.full_width ? 70 : 100;
+  const setCarouselParameters = () => {
+    const parametersUpdate = {
+      tabs_disabled: $targetCarousel.data('tabsDisabled') ? true : false,
+      node: $targetCarousel.data('node') ? true : false,
+      full_width: $targetCarousel.data('fullWidth') ? true : false,
+      scale: carousel.progress_bar && !carousel.full_width ? 70 : 100
+    };
+
+    carousel = { ...carousel, ...parametersUpdate };
 
     const $activeContainer = carousel.progress_bar ? $carouselTabsContainer : $carouselDots;
     const activeAttribute = carousel.progress_bar ? '[data-tab-active="true"]' : '[data-dot-active="true"]';
@@ -64,9 +70,9 @@ window.addEventListener('load', () => {
     }
 
     carousel.progress_bar_scale = carousel.size === 5 ? 20 : 33.3;
-  }
+  };
 
-  function setCarouselControl(targetType, event) {
+  const setCarouselControl = (targetType, event) => {
     if (targetType === 'dots-item') {
       dotsControl()
     } else if (targetType === 'nav-item') {
@@ -74,22 +80,22 @@ window.addEventListener('load', () => {
     } else if (windowWidth < 811) {
       swipeControl(event);
     }
-  }
+  };
 
-  function dotsControl() {
+  const dotsControl = () => {
     const newIndex = event.target.dataset.dotIndex;
 
     if (newIndex) checkChangeRequest(parseInt(newIndex));
-  }
+  };
 
-  function navControl() {
+  const navControl = () => {
     const previousNav = (event.target.dataset.nav === 'prev');
     const newIndex = previousNav ? carousel.current_tab_index - 1 : carousel.current_tab_index + 1;
 
     if (newIndex >= 0 && newIndex < carousel.size) checkChangeRequest(newIndex);
-  }
+  };
 
-  function swipeControl(event) {
+  const swipeControl = (event) => {
     const usingTouch = event.type === 'touchstart';
     const swipeStartPosition = usingTouch ? event.touches[0].clientX : event.clientX;
     const tabWidth = 0.6 * windowWidth;
@@ -97,9 +103,9 @@ window.addEventListener('load', () => {
 
     swiping(swipeStartPosition);
     $targetCarousel.one('mouseup touchend', () => swipeEnd(swipeStartPosition, rightSideClicked));
-  }
+  };
 
-  function swiping(startSwipePosition) {
+  const swiping = (startSwipePosition) => {
     $targetCarousel.on('mousemove touchmove', function() {
       const usingTouch = event.type === 'touchmove';
       const currentSwipePosition = usingTouch ? event.touches[0].clientX : event.clientX;
@@ -114,9 +120,9 @@ window.addEventListener('load', () => {
 
       $carouselTabsContainer.css('left', newTabPosition);
     });
-  }
+  };
 
-  function swipeEnd(startSwipePosition, rightSideClicked) {
+  const swipeEnd = (startSwipePosition, rightSideClicked) => {
     const usingTouch = event.type === 'touchend';
     const endSwipePosition =  usingTouch ? event.changedTouches[0].clientX : event.clientX;
     const swipePositionChange = startSwipePosition - endSwipePosition;
@@ -131,27 +137,30 @@ window.addEventListener('load', () => {
 
     checkChangeRequest(newIndex, 'swipe');
     $targetCarousel.off('mousemove touchmove');
-  }
+  };
 
-  function checkChangeRequest(newIndex, type = 'default') {
+  const checkChangeRequest = (newIndex, type = 'default') => {
     const isChangeProper = (newIndex !== carousel.current_tab_index || type === 'swipe');
 
     if (!carousel.change_going && isChangeProper) {
       carousel.change_going = true;
       changeTabPosition(newIndex);
     }
-  }
+  };
 
-  function changeTabPosition(newIndex) {
+  const changeTabPosition = (newIndex) => {
     const positionUnit = windowWidth > 576 && carousel.is_desktop ? '%' : 'vw';
     const newTabPosition = `-${newIndex * carousel.scale}${positionUnit}`;
     const newBarWidth = `${(newIndex + 1) * carousel.progress_bar_scale}%`;
 
-    const blogCarousel = carousel.is_desktop && carousel.tabs_disabled;
+    const webdevelopmentCarousel = carousel.is_desktop && carousel.tabs_disabled;
+    const nodeCarousel = webdevelopmentCarousel && carousel.node;
     const includeCarousel = carousel.progress_bar;
     let carouselClass = null;
 
-    if (blogCarousel) {
+    if (nodeCarousel) {
+      carouselClass = 'node-blog';
+    } else if (webdevelopmentCarousel) {
       carouselClass = 'webdevelopment-blog';
     } else if (includeCarousel) {
       carouselClass = 'services-include';
@@ -167,14 +176,16 @@ window.addEventListener('load', () => {
     $carouselTabsContainer.animate({ left: newTabPosition }, carousel.animationTime, () => {
       carousel.change_going = false;
     });
-  }
+  };
 
-  function changeTabsAttributes(newIndex, type) {
+  const changeTabsAttributes = (newIndex, type) => {
     const $allTabs = $carouselTabsContainer.find(`[data-carousel="tab"]`);
     const $newActiveTab = $carouselTabsContainer.find($(`[data-tab-index="${newIndex}"]`));
     let tabsClass = null;
 
-    if (type === 'webdevelopment-blog') {
+    if (type === 'node-blog') {
+      tabsClass = 'node-blog__posts-list__item--disabled';
+    } else if (type === 'webdevelopment-blog') {
       tabsClass = 'webdevelopment-blog__posts-list__item--disabled';
     } else if (type === 'services-include') {
       tabsClass = 'custom-carousel__tabs-tab--inactive';
@@ -186,9 +197,9 @@ window.addEventListener('load', () => {
     $newActiveTab
       .removeClass(tabsClass)
       .attr('data-tab-active', 'true');
-  }
+  };
 
-  function changeNavAttributes(newIndex) {
+  const changeNavAttributes = (newIndex) => {
     const customCarousel = (carousel.is_desktop && carousel.tabs_disabled) || !carousel.is_desktop;
     const carouselClass = customCarousel ? 'custom-carousel' : 'carousel-partners';
     const firstIndex = 0;
@@ -221,5 +232,5 @@ window.addEventListener('load', () => {
         .attr('data-nav-disabled', 'true')
         .addClass(`${carouselClass}__nav-item--disabled`);
     }
-  }
+  };
 }, { passive: true })

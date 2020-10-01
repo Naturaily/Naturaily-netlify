@@ -1,0 +1,88 @@
+<div class="node-blog">
+  <p class="node-step">
+    <span class="node-step__number">07</span>
+    Node.js developers
+  </p>
+  <h2 class="node-blog__header">
+    Learn more about Node.js technology
+  </h2>
+  <div
+    class="node-blog__posts"
+    data-carousel="wrapper"
+    data-carousel-desktop="wrapper"
+    data-tabs-disabled="true"
+    data-node="true"
+  >
+
+    <ul class="node-blog__posts-list" data-carousel="tabs">
+
+      {% assign node_tag = "Node js development" %}
+
+      {% for tag in site.tags %}
+        {% if tag contains node_tag %}
+          {% for post in tag[1] limit: 3 %}
+            {% assign index = forloop.index | minus: 1 %}
+
+            <li
+              class="node-blog__posts-list__item {% if index != 0%}node-blog__posts-list__item--disabled{% endif %}"
+              data-carousel="tab"
+              data-tab-index="{{ index }}"
+            >
+              <a class="node-blog__image" href="{{ post.url }}">
+                <img src="/assets/images/loader.gif" data-src="{{ post.image }}" alt="{{ post.title }}"/>
+              </a>
+
+              <div class="node-blog__data">
+                {% if post.authors.label %}
+                  <div class="node-blog__author">
+                    {% if post.authors.avatar %}
+                      <img src="/assets/images/loader.gif" data-src="{{ post.authors.avatar }}" alt="author avatar"/>
+                    {% endif %}
+                    <div class="node-blog__author-label">
+                      <p>{{ post.authors.label }}</p>
+                      <time>
+                        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                        {{ post.date | date: date_format }}
+                      </time>
+                    </div>
+                  </div>
+                {% endif %}
+
+                <div class="node-blog__tags">
+
+                  {% for tag in post.tags %}
+                    {% assign tag_slug = tag | slugify: "raw" %}
+                    {% capture tag_url %}
+                      {{ site.baseurl | append: '/blog/tags/' | append: tag_slug | append: '/' }}
+                    {% endcapture %}
+                    <a class="node-blog__tags-link" href="{{ tag_url }}">{{ tag }}</a>
+                  {% endfor %}
+
+                </div>
+              </div>
+
+              <div class="node-blog__post">
+                <a class="node-blog__post-header" href="{{ post.url }}">{{ post.title }}</a>
+                {{ post.excerpt }}
+              </div>
+              <a class="node-blog__post-link" href="{{ post.url }}">
+                read more
+              </a>
+            </li>
+
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+    </ul>
+    <div class="custom-carousel__dots" data-carousel="dots">
+      <div class="custom-carousel__dots-item custom-carousel__dots-item--active" data-carousel="dots-item" data-dots="lg" data-dot-index="0" data-dot-active="true"></div>
+      <div class="custom-carousel__dots-item" data-carousel="dots-item" data-dots="lg" data-dot-index="1" data-dot-active="false"></div>
+      <div class="custom-carousel__dots-item" data-carousel="dots-item" data-dots="lg" data-dot-index="2" data-dot-active="false"></div>
+    </div>
+    <div class="custom-carousel__nav" data-carousel="nav">
+      <div class="icon icon-chevron-left custom-carousel__nav-item custom-carousel__nav-item--disabled" data-carousel="nav-item" data-nav="prev" data-nav-disabled="true"></div>
+      <div class="icon icon-chevron-right custom-carousel__nav-item" data-carousel="nav-item" data-nav="next" data-nav-disabled="false"></div>
+    </div>
+  </div>
+</div>
