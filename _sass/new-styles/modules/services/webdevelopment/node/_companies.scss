@@ -28,7 +28,7 @@
   &__carousel {
     position: relative;
     width: 100vw;
-    padding: 85px 0 20px;
+    padding: 85px 0 35px;
 
     &-tabs {
       display: flex;
@@ -46,6 +46,7 @@
 
     &-image {
       width: 130px;
+      height: 52px;
     }
 
     &-text {
