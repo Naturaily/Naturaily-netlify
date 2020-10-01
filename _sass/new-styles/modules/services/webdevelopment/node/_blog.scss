@@ -23,7 +23,7 @@
 
     &__posts {
       position: relative;
-      margin: 0 175px 0 75px;
+      margin: 0 200px 0 35px;
 
       &-list {
         display: flex;
@@ -210,8 +210,12 @@
       padding-left: 120px;
     }
 
-    &__posts-list {
-      max-height: 700px;
+    &__posts {
+      margin: 0 175px 0 75px;
+
+      &-list {
+        max-height: 700px;
+      }
     }
 
     &__tags {
@@ -235,8 +239,8 @@
 
     .custom-carousel__nav {
       top: 240px;
-      left: -70px;
-      width: calc(100% + 130px);
+      left: -60px;
+      width: calc(100% + 120px);
     }
   }
 }
