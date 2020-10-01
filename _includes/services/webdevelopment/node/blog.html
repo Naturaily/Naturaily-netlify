@@ -24,7 +24,7 @@
             {% assign index = forloop.index | minus: 1 %}
 
             <li
-              class="node-blog__posts-list__item {% if index != 1%}node-blog__posts-list__item--disabled{% endif %}"
+              class="node-blog__posts-list__item {% if index != 0%}node-blog__posts-list__item--disabled{% endif %}"
               data-carousel="tab"
               data-tab-index="{{ index }}"
             >
@@ -76,12 +76,12 @@
 
     </ul>
     <div class="custom-carousel__dots" data-carousel="dots">
-      <div class="custom-carousel__dots-item" data-carousel="dots-item" data-dots="lg" data-dot-index="0" data-dot-active="false"></div>
-      <div class="custom-carousel__dots-item custom-carousel__dots-item--active" data-dots="lg" data-carousel="dots-item" data-dot-index="1" data-dot-active="true"></div>
+      <div class="custom-carousel__dots-item custom-carousel__dots-item--active" data-carousel="dots-item" data-dots="lg" data-dot-index="0" data-dot-active="true"></div>
+      <div class="custom-carousel__dots-item" data-carousel="dots-item" data-dots="lg" data-dot-index="1" data-dot-active="false"></div>
       <div class="custom-carousel__dots-item" data-carousel="dots-item" data-dots="lg" data-dot-index="2" data-dot-active="false"></div>
     </div>
     <div class="custom-carousel__nav" data-carousel="nav">
-      <div class="icon icon-chevron-left custom-carousel__nav-item" data-carousel="nav-item" data-nav="prev" data-nav-disabled="false"></div>
+      <div class="icon icon-chevron-left custom-carousel__nav-item custom-carousel__nav-item--disabled" data-carousel="nav-item" data-nav="prev" data-nav-disabled="true"></div>
       <div class="icon icon-chevron-right custom-carousel__nav-item" data-carousel="nav-item" data-nav="next" data-nav-disabled="false"></div>
     </div>
   </div>
