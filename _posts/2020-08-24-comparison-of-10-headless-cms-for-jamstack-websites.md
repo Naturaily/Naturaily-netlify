@@ -1,9 +1,9 @@
 ---
-title: Comparison of 10 Headless CMS for JAMstack Websites
+title: Comparison of 15 Headless CMS for JAMstack Websites
 description: >-
   Which Headless CMS is right for my JAMstack development? Take a look at the
   following comparison
-slug: comparison-of-10-headless-cms-for-jamstack-websites
+slug: comparison-of-15-headless-cms-for-jamstack-websites
 layout: post
 date: '2020-08-24 03:29:40 +0200'
 category: JAMstack development
@@ -74,6 +74,62 @@ However, there are things we look at as much as possible:
 
 **Costs:** Very few CMS are free (and we have a few here). Knowing what options are available and how far the tiers scale up will help you plan ahead.
 
+## ButterCMS
+
+* Supports: API-based, so most options, including Gatsby.js, JavaScript, React, Node.js, Vue.js, Angular & more
+* Unique features: multi-site support on higher plans
+* Usability for developers: API-based platform, highly compatible
+* Usability for content teams: clean and clear panels, field-based editing
+* Cost: Free option available, with packages ranging from €49 to €249 per month (discounts for annual purchases)
+
+### For Content Teams
+
+[ButterCMS](https://buttercms.com/){:rel="nofollow"}{:target="_blank"} is a classic headless CMS option in that it goes out of its way to evoke a WordPress-esque feeling. In other words, content specialists will feel right at home here.
+
+In terms of features, ButterCMS has everything you need, but nothing much to stand out over the rest. It’s WYSIWYG editor (essentially a visual editor) is pretty bare-bones.
+
+What’s more, ButterCMS also offers a migration service for WordPress blogs in its plan, which is a relief for companies with large, existing backlogs of content. There’s also support for multiple sites in the larger plans, too.
+
+### For Development Teams
+
+First of all, ButterCMS is based purely on API and webhooks, making it ideal for pretty much any website as far as compatibility goes. Of course, the API-first approach is ideal for JAMstack. You’re free to use whichever language or framework you like - and the company even has a growing range of documentation to help.
+
+This, combined with a testing environment, CDN support, and the previously mentioned multi-site support make ButterCMS a possible option for larger development teams that need to cover multiple websites.
+
+| Pros                                | Cons                                                       |
+| ----------------------------------- | ---------------------------------------------------------- |
+| Larger plans support multiple sites | A limited number of posts and pages in early pricing plans |
+| API-based for high compatibility    | Poor visual editor                                         |
+| Clear interface                     |                                                            |
+
+## Cockpit
+
+* Supports: API, JSON, JavaScript, PHP, SQLite, MongoDB
+* Unique features: none - another good all-rounder
+* Usability for developers: API-based platform, open-source
+* Usability for content teams: clean and clear panels, field-based editing, support multiple devices
+* Cost: Free (open source)
+
+### For Content Teams
+
+In their own words, [Cockpit](https://getcockpit.com/){:rel="nofollow"}{:target="_blank"} is “simple, but powerful”. Its interface is clean and simple to get to work with - writers will have no problem here.
+
+The biggest downside worth noting is that, as a purely headless CMS, Cockpit has no focus on visuals. This means there’s no visual editor or anything to help preview the pages. For this, you’ll need to work with your web team.
+
+### For Developers
+
+Cockpit isn’t the most advanced CMS, but it is quite charming in its own way and ideal for headless architecture. It has an API-first approach and only stores the content, acting as the CDN on your website, with options to use MongoDB and other database solutions, should you prefer it.
+
+The lack of visual editing is also part of this process. If you have a static site generator or frontend already prepared, Cockpit will fit right in.
+
+However, Cockpit is completely open-source (with no paid support given) which comes with both pros and cons. Because it’s open, you’re free to code new solutions whenever you feel necessary, which ensures plenty of freedom. On the other hand, this means little support is given when you find a problem.
+
+| Pros               | Cons                    |
+| ------------------ | ----------------------- |
+| Open-source        | Little official support |
+| API-first approach | No visual editor        |
+| Fairly compatible  |                         |
+
 ## ContentFul
 
 * Supports: JavaScript, PHP, Android, iOS, Python, Java, Ruby, .Net
@@ -106,6 +162,61 @@ ContentFul also takes all of the fields created in the content section and conve
 
 </div>
 
+## CosmicJS
+
+* Supports: RESTful and GraphGL API, JavaScript and various JS options, such as React, Node.js, Vue.js, Angular & more.
+* Unique features: automated backups, numerous third-party integrations included
+* Usability for developers: Cloud hosting included, API-based platform,
+* Usability for content teams: clean and clear panels, field-based editing, integrated with Slack
+* Cost: Free option available, with packages ranging from $99 to €299 per month
+
+### For Content Teams
+
+[CosmicJS](https://www.cosmicjs.com/){:rel="nofollow"}{:target="_blank"} is a very user-friendly solution. It’s similar to WordPress (although not as advanced or cluttered) so most teams will have no problems learning their way around. Creating content, adding media, and scheduling are all included, naturally, but we find that automated backups are an essential bonus that many other options forget about. Because Cloud support is even provided on the free tier, CosmicJS is able to include this essential feature on all packages.
+
+As an added bonus, it also includes prebuilt integrations for the likes of Slack and HubSpot, so it’s possible to add further marketing support beyond your content. If you’re going the e-commerce route, Stripe is also ready-to-go!
+
+### For Developers
+
+If you’ve been in website development for 5 minutes, you know that any ending in “JS” is going the JavaScript route. For many, this is a plus - it means we’re able to utilize a wider range of web-friendly technologies, such as react and vue.js. As mentioned previously, these let us add dynamic elements when needed, while the headless nature of the CMS overall meets our wider JAMstack website development needs.
+
+Furthermore, CosmicJS includes AWS integrations from the get-go and also includes Cloud hosting in every option. On the downside, on-premise support is only available at the higher enterprise-level packages, so if you don’t like the Cloud, you don’t have much support here.
+
+| Pros                                                              | Cons                                                           |
+| ----------------------------------------------------------------- | -------------------------------------------------------------- |
+| Includes integrations for AWS, Slack, Stripe, Algolia and HubSpot | On-site or other options not supported in non-enterprise tiers |
+| Compatible with a lot of JS technology                            | Tiers have very specific limitations                           |
+| Automated backups                                                 |                                                                |
+| API-focused                                                       |                                                                |
+
+## Craft CMS
+
+* Supports: API-based (including GraphGL and JSON)
+* Unique features: multi-site support, localization
+* Usability for developers: API-based platform, headless mode
+* Usability for content teams: field-based editing, image editor, live previews, customized dashboards and roles
+* Cost: Free option available, with packages starting from $59 per year (+$299 upfront fee)
+
+### For Content Teams
+
+[Craft CMS](https://craftcms.com/){:rel="nofollow"}{:target="_blank"} is designed with the content creation process as its priority, so writers, marketing teams and more will find plenty of useful additions here. It supports a wide range of content, as well as customisation and multiple sites from one Craft center.
+
+If you add the likes of localization features, live content preview generations and even a native image-editor, Craft CMS really starts to show its value. Include customized dashboards and user roles and you have a solution for wider growing websites with more complex teams.
+
+### For Developers
+
+The biggest feature of Craft CMS is its “headless mode”, enabling it to switch between a more traditional platform and a headless option. Needless to say, if we’re focusing on JAMstack development, we’re keeping this switched on.
+
+This mode enables front-end routing optimized for fast performance. By default, this uses JSON over HTML, but all of this can still be further configured if your project needs it. In other words, it’s a CMS that makes it very easy to develop in the way that you require.
+
+| Pros                  | Cons                                                         |
+| --------------------- | ------------------------------------------------------------ |
+| Headless mode         | The pricing model is per project (with smaller annual costs) |
+| API-focused           |                                                              |
+| User management       |                                                              |
+| Custom dashboards     |                                                              |
+| Built-in image editor |                                                              |
+
 ## DatoCMS
 
 * Supports: GraphQL API, Gatsby, Hugo, Next.js, Nuxt.js, Jekyll, React, Vue.js, Middleman
@@ -134,6 +245,36 @@ If you want a CMS that’s easy to use and is highly agreeable with a wide range
 | SEO previews                                    |                                               |
 
 </div>
+
+## Directus
+
+* Supports: API, Vue.js, SQL
+* Unique features: omnichannel support, lots of official support
+* Usability for developers: API-based platform, open-source
+* Usability for content teams: clean and clear panels, highly adaptable
+* Cost: Free, with additional support services available
+
+### For Content Teams
+
+What [Directus](https://directus.io/){:rel="nofollow"}{:target="_blank"} might lack in initial glamour, it brings in versatility. The CMS is designed to support numerous solutions, from traditional websites to kiosks and other interactive digital builds.
+
+As such, when it comes to JAMstack website development, Directus will support you in whatever content you’re creating - including multilingual support, tables, text, media, and more.
+
+### For Developers
+
+Directus arguably stands out in that it really takes its open-source nature seriously. All the essential elements, such as the API, SDK, and app, are available for free, giving developers a strong foundation for any type of set-up (naturally, as a CMS, the JAMstack approach is what we’re focusing on here).
+
+Secondly, Directus pulls from SQL databases directly, so we can really lean into the headless architecture of JAMstack.
+
+And if that wasn’t enough, it’s also in its 8th version, so you know it’s being regularly updated. If you’re wondering how an open-source project stays funded, Directus complements this with additional services, such as Cloud hosting, which may prove a highly useful option for some.
+
+| Pros                         | Cons                                                                   |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| Open-source                  | Hosting not included in free tiers                                     |
+| Highly supported             | Open-source may still require unique development for the best results. |
+| SDK, API & App all available |                                                                        |
+| Omnichannel support          |                                                                        |
+| Pulls from SQL directly      |                                                                        |
 
 ## Forestry
 
@@ -418,19 +559,23 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 
 ## Headless CMS for JAMstack Summary
 
-<div class="table-responsive" markdown="block">
-|                    | API or Git? | Free Option? | Price Range Per Month | No. of Users                         | No. of Roles             | Gatsby Compatible? | SLA Enterprise/ Premium Plans?              |
-| ------------------ | ----------- | ------------ | --------------------- | ------------------------------------ | ------------------------ | ------------------ | ------------------------------------------ |
-| Contentful         | API         | Yes          | $489 +                | 5 on free, 25 on paid plans          | 2 on free, 4 on paid     | Yes                | Yes                                        |
-| Storyblok          | API         | Yes          | $7 to $21, per user   | 1 on free, 30-80 on paid plans       | Custom (on higher plans) | Yes                | Yes                                        |
-| Sanity             | API         | Yes          | $199 +                | 3 on free, 20 on paid plans          | Undefined                | Yes                | Yes                                        |
-| Forestry           | Git         | Yes          | $29 - $749            | 3 on free, 5-10 on paid plans        | Custom                   | Yes                | Yes                                        |
-| DatoCMS            | API         | Yes          | €199 to €1,500        | 1 on free, 10 on paid plans          | Undefined                | Yes                | Yes                                        |
-| Prismic            | API         | Yes          | $7 to $500            | 1 on free, 3-Unlimited on paid plans | Only on larger plans     | Yes                | Yes                                        |
-| Netlify CMS        | Git         | Yes          | €45 to €1,500         | Unlimited                            | Unlimited                | Yes                | Yes (but not on open-source CMS only)      |
-| Strapi             | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Yes                | Yes                                        |
-| TinaCMS            | API         | Yes          | Free                  | Unlimited                            | Unlimited                | Limited            | No (Enterprise Edition is in early access) |
-| Headless WordPress | API         | N/A\\*         | N/A\\*                  | N/A\\*                                 | N/A\\*                     | N/A\\*               | N/A\\*                                       |
+|                    | API or Git? | Free Option? | Price Range Per Month                 | No. of Users                         | No. of Roles             | Gatsby Compatible? | SLA Enterprise/Premium Plans?              |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| ------------------ | ----------- | ------------ | ------------------------------------- | ------------------------------------ | ------------------------ | ------------------ | ------------------------------------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Contentful         | API         | Yes          | $489 +                                | 5 on free, 25 on paid plans          | 2 on free, 4 on paid     | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Storyblok          | API         | Yes          | $7 to $21, per user                   | 1 on free, 30-80 on paid plans       | Custom (on higher plans) | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Sanity             | API         | Yes          | $199 +                                | 3 on free, 20 on paid plans          | Undefined                | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Forestry           | Git         | Yes          | $29 - $749                            | 3 on free, 5-10 on paid plans        | Custom                   | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| DatoCMS            | API         | Yes          | €199 to €1,500                        | 1 on free, 10 on paid plans          | Undefined                | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Prismic            | API         | Yes          | $7 to $500                            | 1 on free, 3-Unlimited on paid plans | Only on larger plans     | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Netlify CMS        | Git         | Yes          | €45 to €1,500                         | Unlimited                            | Unlimited                | Yes                | Yes (but not on open-source CMS only)      |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Strapi             | API         | Yes          | Free                                  | Unlimited                            | Unlimited                | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| TinaCMS            | API         | Yes          | Free                                  | Unlimited                            | Unlimited                | Limited            | No (Enterprise Edition is in early access) |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Headless WordPress | API         | N/A*         | N/A*                                  | N/A*                                 | N/A*                     | N/A*               | N/A*                                       |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| ButterCMS          | API         | Yes          | €49 to €249                           | Unlimited                            | 3 (more on request)      | Yes                | Yes (on Enterprise Plans)                  |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Cockpit            | API         | Yes          | Free                                  | Unlimited                            | Custom (open-source)     | Yes                | No (Enterprise Edition is in early access) |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Directus           | API         | Yes          | Free (additional services cost extra) | Unlimited                            | Custom                   | Yes                | No (Cloud-support only)                    |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| CosmicJS           | API         | Yes          | $99 to $299                           | 1 on free 5-10 on paid plans         | 3                        | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Craft CMS          | API         | Yes          | $59 (but one-off $299 per project)    | 1 on free, unlimted on paid plans    | Custom                   | Yes                | Yes                                        |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
 
 </div>
 
