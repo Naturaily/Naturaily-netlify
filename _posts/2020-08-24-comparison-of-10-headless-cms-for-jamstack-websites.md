@@ -575,9 +575,9 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 | Cockpit            | API         | Yes          | Free                                  | Unlimited                            | Custom (open-source)     | Yes                | No (Enterprise Edition is in early access) |
 | Directus           | API         | Yes          | Free (additional services cost extra) | Unlimited                            | Custom                   | Yes                | No (Cloud-support only)                    |
 | CosmicJS           | API         | Yes          | $99 to $299                           | 1 on free 5-10 on paid plans         | 3                        | Yes                | Yes                                        |
-| Craft CMS          | API         | Yes          | $59 (but one-off $299 per project)    | 1 on free, unlimted on paid plans    | Custom                   | Yes                | Yes                                        |
+| Craft CMS          | API         | Yes          | $59 (but one-off $299 per project)    | 1 on free, unlimited on paid plans   | Custom                   | Yes                | Yes                                        |
 
-</div>
+
 
 \*Headless WordPress is often custom, so results can be varied.
 
