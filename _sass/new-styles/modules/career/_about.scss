@@ -18,11 +18,40 @@
       padding-right: 102px;
       box-sizing: border-box;
     }
+
+    .about {
+      &_right {
+        width: 50%;
+        padding-right: 160px;
+
+        ol {
+          margin-left: 15px;
+          list-style: decimal;
+        }
+      }
+
+      &_left {
+        width: 50%;
+        padding-right: 155px;
+
+        :last-child {
+          margin-top: 10px;
+        }
+      }
+    }
   }
 
   .section_content {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about_mid .about {
+    &_left, &_right {
+      padding-right: 50px;
+    }
   }
 }
 
@@ -36,6 +65,10 @@
 
     &_mid {
       flex-direction: column;
+
+      .about_left, .about_right {
+        width: auto;
+      }
 
       .paragraph {
         padding-right: 0;
