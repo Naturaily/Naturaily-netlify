@@ -15,6 +15,26 @@ who-we-are: >-
   skills, which resulted in a truly beautiful picture. Only one piece is
   missing. We believe it is you, Naturaily.
 about-left: >-
+  **How does the recruitment process go at Naturaily?**\
+
+  \
+
+  If your application touches our hearts, expect:\
+
+  1. A phone call from Jakub, our Head of Marketing & Growth\
+
+  2. A face-to-face meeting with the Jakub & board - we have to get to know each
+  other and check if there is a match.\
+
+  3. A quick practical task.\
+
+  4. An offer or a phone call with the feedback and thanks for participating in
+  our recruitment process.
+
+
+  **If your expectations coincide with ours and you want to start a fun,
+  challenging adventure - send your CV today!**
+about-right: >-
   You need to know that we value individuality, professionalism, open
   communication and honesty. We strive to provide our clients with the best,
   stable, reliable and beautiful digital products. Check out the
@@ -25,31 +45,10 @@ about-left: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
   We are waiting for you!
-about-right: >-
-  **How does the recruitment process go at Naturaily?**\
-
-  \
-
-  If your application touches our hearts, expect:
-
-
-  1. A phone call from Jakub, our Head of Marketing & Growth
-
-  2. A face-to-face meeting with the Jakub & board - we have to get to know each
-  other and check if there is a match.
-
-  3. A quick practical task.
-
-  4. An offer or a phone call with the feedback and thanks for participating in
-  our recruitment process.
-
-
-  **If your expectations coincide with ours and you want to start a fun,
-  challenging adventure - send your CV today!**
 type: Sales&Marketing
 salary-preview:
   - salary:
-      contract: B2B
+      contract: + VAT (B2B)
       sum: 5 000 - 7 000 PLN net + 26 paid days off
 what-we-expect:
   - expectation:
