@@ -20,10 +20,34 @@ about-left: >-
   stable, reliable and beautiful digital products. Check out the
   [services](https://naturaily.com/services) we offer and some of our latest
   [case studies](https://naturaily.com/portfolio).
-about-right: >-
+
+
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea of how to spread the
   word? We are waiting for you!
+about-right: >-
+  **How does the recruitment process go at Naturaily?**
+
+
+  If your application touches our hearts, expect:
+
+
+  1. A phone call from Jakub, our Head of Marketing & Growth 
+
+
+  2. A face-to-face meeting with the Jakub & board -  we have to get to know
+  each other and check if there is a match.
+
+
+  3. A quick practical task.
+
+
+  4. An offer or a phone call with the feedback and thanks for participating in
+  our recruitment process.
+
+
+  **If your expectations coincide with ours and you want to start a fun,
+  challenging adventure - send your CV today!**
 type: Sales&Marketing
 salary-preview:
   - salary:
