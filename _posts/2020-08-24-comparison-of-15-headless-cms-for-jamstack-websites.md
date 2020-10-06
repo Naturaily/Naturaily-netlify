@@ -96,11 +96,14 @@ First of all, ButterCMS is based purely on API and webhooks, making it ideal for
 
 This, combined with a testing environment, CDN support, and the previously mentioned multi-site support make ButterCMS a possible option for larger development teams that need to cover multiple websites.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                | Cons                                                       |
 | ----------------------------------- | ---------------------------------------------------------- |
 | Larger plans support multiple sites | A limited number of posts and pages in early pricing plans |
 | API-based for high compatibility    | Poor visual editor                                         |
 | Clear interface                     |                                                            |
+
+</div>
 
 ## Cockpit
 
@@ -124,11 +127,14 @@ The lack of visual editing is also part of this process. If you have a static si
 
 However, Cockpit is completely open-source (with no paid support given) which comes with both pros and cons. Because it’s open, you’re free to code new solutions whenever you feel necessary, which ensures plenty of freedom. On the other hand, this means little support is given when you find a problem.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros               | Cons                    |
 | ------------------ | ----------------------- |
 | Open-source        | Little official support |
 | API-first approach | No visual editor        |
 | Fairly compatible  |                         |
+
+</div>
 
 ## ContentFul
 
@@ -182,12 +188,15 @@ If you’ve been in website development for 5 minutes, you know that any ending 
 
 Furthermore, CosmicJS includes AWS integrations from the get-go and also includes Cloud hosting in every option. On the downside, on-premise support is only available at the higher enterprise-level packages, so if you don’t like the Cloud, you don’t have much support here.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                                                              | Cons                                                           |
 | ----------------------------------------------------------------- | -------------------------------------------------------------- |
 | Includes integrations for AWS, Slack, Stripe, Algolia and HubSpot | On-site or other options not supported in non-enterprise tiers |
 | Compatible with a lot of JS technology                            | Tiers have very specific limitations                           |
 | Automated backups                                                 |                                                                |
 | API-focused                                                       |                                                                |
+
+</div>
 
 ## Craft CMS
 
@@ -209,6 +218,7 @@ The biggest feature of Craft CMS is its “headless mode”, enabling it to swit
 
 This mode enables front-end routing optimized for fast performance. By default, this uses JSON over HTML, but all of this can still be further configured if your project needs it. In other words, it’s a CMS that makes it very easy to develop in the way that you require.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                  | Cons                                                         |
 | --------------------- | ------------------------------------------------------------ |
 | Headless mode         | The pricing model is per project (with smaller annual costs) |
@@ -216,6 +226,8 @@ This mode enables front-end routing optimized for fast performance. By default, 
 | User management       |                                                              |
 | Custom dashboards     |                                                              |
 | Built-in image editor |                                                              |
+
+</div>
 
 ## DatoCMS
 
@@ -268,6 +280,7 @@ Secondly, Directus pulls from SQL databases directly, so we can really lean into
 
 And if that wasn’t enough, it’s also in its 8th version, so you know it’s being regularly updated. If you’re wondering how an open-source project stays funded, Directus complements this with additional services, such as Cloud hosting, which may prove a highly useful option for some.
 
+<div class="table-layout-fixed" markdown="block">
 | Pros                         | Cons                                                                   |
 | ---------------------------- | ---------------------------------------------------------------------- |
 | Open-source                  | Hosting not included in free tiers                                     |
@@ -275,6 +288,8 @@ And if that wasn’t enough, it’s also in its 8th version, so you know it’s 
 | SDK, API & App all available |                                                                        |
 | Omnichannel support          |                                                                        |
 | Pulls from SQL directly      |                                                                        |
+
+</div>
 
 ## Forestry
 
@@ -559,7 +574,8 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 
 ## Headless CMS for JAMstack Summary
 
-|                    | API or Git? | Free Option? | Price Range Per Month                 | No. of Users                         | No. of Roles             | Gatsby Compatible? | SLA Enterprise/Premium Plans?              |
+<div class="table-responsive" markdown="block">
+|                    | API or Git? | Free Option? | Price Range Per Month                 | No. of Users                         | No. of Roles             | Gatsby Compatible? | SLA Enterprise/ Premium Plans?              |
 | ------------------ | ----------- | ------------ | ------------------------------------- | ------------------------------------ | ------------------------ | ------------------ | ------------------------------------------ |
 | Contentful         | API         | Yes          | $489 +                                | 5 on free, 25 on paid plans          | 2 on free, 4 on paid     | Yes                | Yes                                        |
 | Storyblok          | API         | Yes          | $7 to $21, per user                   | 1 on free, 30-80 on paid plans       | Custom (on higher plans) | Yes                | Yes                                        |
@@ -576,6 +592,8 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 | Directus           | API         | Yes          | Free (additional services cost extra) | Unlimited                            | Custom                   | Yes                | No (Cloud-support only)                    |
 | CosmicJS           | API         | Yes          | $99 to $299                           | 1 on free 5-10 on paid plans         | 3                        | Yes                | Yes                                        |
 | Craft CMS          | API         | Yes          | $59 (but one-off $299 per project)    | 1 on free, unlimited on paid plans   | Custom                   | Yes                | Yes                                        |
+
+</div>
 
 
 
