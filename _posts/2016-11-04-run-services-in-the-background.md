@@ -14,7 +14,7 @@ authors:
 image: /assets/images/random_console.png
 text-preview: >-
   Some time ago [Marcin wrote about basic design patterns in Ruby on
-  Rails](https://naturaily.com/blog/post/basic-design-patterns-in-ruby-on-rails).
+  Rails](https://naturaily.com/blog/ruby-on-rails-design-patterns).
   I’d like to go back to Service pattern in this post. I really like it, it's a
   good idea to place application’s business logic there. At Naturaily we use it
   quite often.
@@ -24,7 +24,7 @@ tags:
 
 
 
-Some time ago [Marcin wrote about basic design patterns in Ruby on Rails](https://naturaily.com/blog/post/basic-design-patterns-in-ruby-on-rails). I’d like to go back to Service pattern in this post. I really like it, it's a good idea to place application’s business logic there. At Naturaily we use it quite often.
+Some time ago [Marcin wrote about basic design patterns in Ruby on Rails](https://naturaily.com/blog/ruby-on-rails-design-patterns). I’d like to go back to Service pattern in this post. I really like it, it's a good idea to place application’s business logic there. At Naturaily we use it quite often.
 
 It happens that we need to run our service in the background. What's the easiest way to achieve this? Wrap our Service in a Job of course! Right... But we don't want to end up with dozens of very similar jobs. So... Here’s the solution. Let’s create universal Job for all the services.
 

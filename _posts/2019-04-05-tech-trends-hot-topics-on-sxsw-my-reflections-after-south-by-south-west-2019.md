@@ -6,7 +6,7 @@ description: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the
   biggest tech conferences around the world. Check out Marcin’s our CEO
   afterthoughts on the event.
-slug: tech-trends-and-hot-topics-on-SXSW
+slug: tech-trends-and-hot-topics-on-sxsw
 layout: post
 twitter-card: summary_large_image
 date: '2019-04-05 10:41:22 +0200'
@@ -41,7 +41,7 @@ One of them was Steadyapp.com - an application helping to find an additional, ca
 
 ## Great opportunity to network with interesting open-minded people
 
-Implementing the whole year's [Naturaily on Tour](https://naturaily.com/on-tour){:rel="nofollow"}{:target="_blank"}, at South by South West 2019, we also appeared as exhibitors and at our stand we had plenty of opportunities to have brief and prolonged conversations with the fair visitors. SXSW is a huge festival focused on the entertainment, cultural and technological industries in a broad sense. For over a week, the whole city becomes a huge stage for thousands of events, concerts, meet-ups, and events in companies that have their headquarters in Austin. Open Doors Days in company offices of the start-up technology industry was a great opportunity for fantastic meetings. We would like to give special thanks to [ObjectRocket](https://www.objectrocket.com/){:rel="nofollow"}{:target="_blank"}, [Skaffolder](https://www.skaffolder.com/#/home){:rel="nofollow"}{:target="_blank"}, [Alpha](https://alphahq.com/){:rel="nofollow"}{:target="_blank"} and [GetSportSpot](https://getsportspot.com/){:rel="nofollow"}{:target="_blank"} for a very kind reception and to **Emmalyn Shaw** (Managing Partner at Flourish) for a nice talk.
+Implementing the whole year's Naturaily on Tour, at South by South West 2019, we also appeared as exhibitors and at our stand we had plenty of opportunities to have brief and prolonged conversations with the fair visitors. SXSW is a huge festival focused on the entertainment, cultural and technological industries in a broad sense. For over a week, the whole city becomes a huge stage for thousands of events, concerts, meet-ups, and events in companies that have their headquarters in Austin. Open Doors Days in company offices of the start-up technology industry was a great opportunity for fantastic meetings. We would like to give special thanks to [ObjectRocket](https://www.objectrocket.com/){:rel="nofollow"}{:target="_blank"}, [Skaffolder](https://www.skaffolder.com/#/home){:rel="nofollow"}{:target="_blank"}, [Alpha](https://alphahq.com/){:rel="nofollow"}{:target="_blank"} and [GetSportSpot](https://getsportspot.com/){:rel="nofollow"}{:target="_blank"} for a very kind reception and to **Emmalyn Shaw** (Managing Partner at Flourish) for a nice talk.
 
 The festival takes place in almost every possible urban space, and local bars and clubs become a meeting place for specific tech-scenes from all over the world. **BerlinSaloon** convinced us with its exceptional hospitality and became our main networking base. Thanks to a multitude of side events and the presence of interesting people, also from the European technological scene, we often visited the BerlinSaloon, which was also co-organized by Mazovia Cluster ICT.
 

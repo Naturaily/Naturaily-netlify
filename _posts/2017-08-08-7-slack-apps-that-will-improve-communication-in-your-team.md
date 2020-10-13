@@ -104,7 +104,7 @@ We also would like to mention a very cool platform called Zapier, which connects
 
 {% image /assets/images/Zapier.gif zapier zapier %}
 
-One of the rather unusual uses of Zapier is monitoring and analyzing your competition’s tweets and posts  – if you want to know more about it click [here](https://naturaily.com/blog/post/how-to-analyze-competitions-tweeting-patterns).
+One of the rather unusual uses of Zapier is monitoring and analyzing your competition’s tweets and posts  – if you want to know more about it click [here](https://naturaily.com/blog/analyzing-competitions-tweeting-patterns).
 
 As you can see, Slack is a platform without which our everyday work would be almost impossible. What are your favorite Slack apps and integrations? Share them with us in the comments!
 
