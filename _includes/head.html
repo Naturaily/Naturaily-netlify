@@ -8,7 +8,7 @@
   {% if page.robots %}
     <meta name="robots" content="{{page.robots}}" />
   {% elsif paginator.previous_page %}
-    <meta name="robots" content="NOINDEX, NOFOLLOW" />
+    <link rel="canonical" href="/blog/" />
   {% endif %}
 
   <meta name="google-site-verification" content="hN08h2wKl7pGAbXTpkyglvv4VdgIBfm5TAGozNPUhJM" />
