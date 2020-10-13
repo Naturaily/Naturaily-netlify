@@ -4,7 +4,7 @@
       {% for category in site.categories %}
         {% capture category_name %}{{ category | first }}{% endcapture %}
         <li class="{% if page.category == category_name %}active{% endif %}">
-          <a href="/blog/categories/{{ category_name | replace: " ", "-" | downcase }}/">{{ category_name }} </a>
+          <a href='/blog/categories/{{ category_name | replace: " ", "-" | downcase }}/'>{{ category_name }}</a>
         </li>
       {% endfor %}
     </ul>

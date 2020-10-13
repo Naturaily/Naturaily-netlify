@@ -16,7 +16,7 @@ text-preview: >-
   Here’s another portion of interesting, Germany-based startups that are
   definitely worth your attention. If you’re interested check our previous post
   about [9 startups in Berlin you should know about in
-  2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017).
+  2017](https://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017).
 tags:
   - Startups
 ---
@@ -24,7 +24,7 @@ tags:
 
 
 
-Here’s another portion of interesting, Germany-based startups that are definitely worth your attention. If you’re interested check our previous post about [9 startups in Berlin you should know about in 2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017).
+Here’s another portion of interesting, Germany-based startups that are definitely worth your attention. If you’re interested check our previous post about [9 startups in Berlin you should know about in 2017](https://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017).
 
 ## [Konetik](http://www.konetik.com/) – vehicle tracking for your company
 

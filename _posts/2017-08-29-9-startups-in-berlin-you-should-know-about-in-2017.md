@@ -91,7 +91,7 @@ In February 2017, ResearchGate announced that it raised $52.6M in Series D round
 
 ## <a href="http://www.soundcloud.com/" class="inline-image" target="_blank"><img src="/assets/images/soundcloud.png"  alt="SoundCloud"></a> - the most popular music streaming service
 
-SoundCloud got popular years before anyone has heard about Spotify or Tidal. People praised it for its “rebelliousness” and free to listen user-generated content. Recently, multiple reports suggest that the site is in trouble because of the lack of funding and proper monetizing model making the future of the service unknown. We covered some of the mistakes made by SoundCloud’s management in this [article](http://naturaily.com/blog/post/from-1b-valuation-to-rescue-plan-what-have-happened-to-soundcloud-and-why).
+SoundCloud got popular years before anyone has heard about Spotify or Tidal. People praised it for its “rebelliousness” and free to listen user-generated content. Recently, multiple reports suggest that the site is in trouble because of the lack of funding and proper monetizing model making the future of the service unknown. We covered some of the mistakes made by SoundCloud’s management in this [article](https://naturaily.com/blog/post/from-1b-valuation-to-rescue-plan-what-have-happened-to-soundcloud-and-why).
 
 SoundCloud is definitely on our “watch-list” of 2017.
 
