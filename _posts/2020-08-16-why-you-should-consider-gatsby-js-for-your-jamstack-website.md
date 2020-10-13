@@ -18,7 +18,6 @@ text-preview: >
 tags:
   - JAMstack
   - Gatsby JS
-  - ''
 ---
 If you’re building a JAMstack site, there are a few key choices you need to make - not least of all the site generator that you use.
 

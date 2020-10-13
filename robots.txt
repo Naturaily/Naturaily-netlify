@@ -3,3 +3,4 @@ User-agent: *
 Disallow: /admin/
 Disallow: /404.html
 Disallow: /500.html
+Disallow: /european-union
