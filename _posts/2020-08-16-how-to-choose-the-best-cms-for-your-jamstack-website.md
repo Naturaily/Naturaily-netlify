@@ -17,11 +17,10 @@ text-preview: >
   the way to go. While this might sound limiting, this couldn’t be further from
   the truth. With the right selection, we really can have the best of both
   worlds. This is why we turn to the JAMstack method time and time again, but
-  the choice of CMS is one of the most common issues we get asked about. 
+  the choice of CMS is one of the most common issues we get asked about.
 tags:
   - JAMstack
   - CMS
-  - ''
 ---
 **When it comes to building websites, fast, speedy and overall performance is the way to go. While this might sound limiting, this couldn’t be further from the truth. With the right selection, we really can have the best of both worlds.**
 
