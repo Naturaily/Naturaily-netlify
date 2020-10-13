@@ -76,7 +76,7 @@ Alongside its official support, this means there are relatively few challenges G
 
 ## Gatsby & JAMstack Development
 
-Now let’s look at Gatsby more in the context of JAMstack. All of the above benefits, of course, mirror the needs of JAMstack development itself, but here’s why we turn to Gatsby over other generators time and time again.
+Now let’s look at Gatsby more in the context of JAMstack. All of the above benefits, of course, mirror the needs of [JAMstack development](https://naturaily.com/services/webdevelopment/jamstack){:target="_blank"} itself, but here’s why we turn to Gatsby over other generators time and time again.
 
 ### Performance Is a Priority
 
