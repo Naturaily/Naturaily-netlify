@@ -89,7 +89,7 @@ To get similar features to Vue in React you need React DOM (37.4Kb) and React wi
 
 ## Mobile platforms
 
-Facebook, the company behind React, expanded the possibilities of their JavaScript Library by building a framework that allows creating cross-platform UI native apps - React Native. Recently, it has gained a lot of popularity and praise due to the fact that React developers can create UI native apps for every major platform with the knowledge and skills they already have. You can read more about React Native [here](http://naturaily.com/blog/post/things-you-need-to-know-about-react-native).
+Facebook, the company behind React, expanded the possibilities of their JavaScript Library by building a framework that allows creating cross-platform UI native apps - React Native. Recently, it has gained a lot of popularity and praise due to the fact that React developers can create UI native apps for every major platform with the knowledge and skills they already have. You can read more about React Native [here](https://naturaily.com/blog/post/things-you-need-to-know-about-react-native).
 
 Vue’s team isn’t far behind. With the very similar philosophy in mind, they’ve partnered with the Chinese e-commerce giant - Alibaba - and created Weex. Developers can leverage their existing knowledge of VueJS to build native apps for iOS, Android, and the Web.
 

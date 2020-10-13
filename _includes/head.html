@@ -53,7 +53,7 @@
 
         {% if  page.filter_category contains tag_list %}
 
-          <link rel="canonical" href="https://naturaily.com/blog/tags/{{ page.filter_category | replace: " ", "-" | downcase }}" />
+          <link rel="canonical" href='https://naturaily.com/blog/categories/{{ page.filter_category | replace: " ", "-" | downcase }}/' />
 
           {% break %}
         {% endif %}
