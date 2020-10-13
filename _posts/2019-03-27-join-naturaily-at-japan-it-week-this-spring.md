@@ -21,7 +21,7 @@ text-preview: >-
 tags:
   - Events
 ---
-As a part of our [ongoing tour](https://naturaily.com/on-tour){:target="_blank"}, we’re pleased to announce that we will be attending the Japan IT Week this Spring!
+As a part of our ongoing tour, we’re pleased to announce that we will be attending the Japan IT Week this Spring!
 
 
 ## Japan IT Week
@@ -52,7 +52,7 @@ We will be presenting our own [IoT development](https://naturaily.com/portfolio/
 
 ## Naturaily on Tour
 
-Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour).
+Our Naturaily On Tour is not stopping here! Find out where we’re going next.
 
 {% image /assets/images/natu_on_tour_map.jpeg NaturailyOnTourMap NaturailyOnTourMap %}
 
