@@ -49,7 +49,7 @@ On September 1st the company announced on their [website](https://www.juicero.co
 ## SoundCloud - rescue plan that saved the service from fail
 
 <p>
-You probably came across SoundCloud in the past. It is a great service for emerging musicians as well as users who enjoy listening to independent artists. Unfortunately, a series of unreasonable choices made by the CEO’s of SoundCloud almost lead to the closure of the most popular music streaming service. You can read our detailed article about it here: <a class="inline-anchor" href="http://naturaily.com/blog/post/from-1b-valuation-to-rescue-plan-what-have-happened-to-soundcloud-and-why" alt="SMACC" target="_blank">From $1B valuation to rescue plan. What have happened to SoundCloud and why?</a>
+You probably came across SoundCloud in the past. It is a great service for emerging musicians as well as users who enjoy listening to independent artists. Unfortunately, a series of unreasonable choices made by the CEO’s of SoundCloud almost lead to the closure of the most popular music streaming service. You can read our detailed article about it here: <a class="inline-anchor" href="https://naturaily.com/blog/post/from-1b-valuation-to-rescue-plan-what-have-happened-to-soundcloud-and-why" alt="SMACC" target="_blank">From $1B valuation to rescue plan. What have happened to SoundCloud and why?</a>
 </p>
 
 Moving away from fails of 2017 let’s check out some of the most innovative startups that have emerged this year.
@@ -64,7 +64,7 @@ They offer health monitoring using wearable sensors, support and access to their
 
 Check it out [here](http://goforward.com){:rel="nofollow"}{:target="_blank"}
 
-Twitter: [@GoForward](https://twitter.com/GoForward){:rel="nofollow"}{:target="_blank"} 
+Twitter: [@GoForward](https://twitter.com/GoForward){:rel="nofollow"}{:target="_blank"}
 
 ## Essential Phone - phone designed by the creator of Android
 
@@ -76,7 +76,7 @@ Bezel-less phones are surely the future of the mobile platform and judging by th
 
 ## Atrium - making legal service better and faster
 
-The face of Atrium - [Justin Kan](http://naturaily.com/blog/post/10-entrepreneurs-you-need-to-follow-on-snapchat){:target="_blank"}, co-founder of Atrium is better known for the past services that he has created - TwitchTV and JustinTV. The team behind Atrium consists of experienced entrepreneurs and startup lawyers, both working on one goal - building technology-first law company of the future. They want to build a technology that would let clients get better and faster service from lawyers.
+The face of Atrium - [Justin Kan](https://naturaily.com/blog/post/10-entrepreneurs-you-need-to-follow-on-snapchat){:target="_blank"}, co-founder of Atrium is better known for the past services that he has created - TwitchTV and JustinTV. The team behind Atrium consists of experienced entrepreneurs and startup lawyers, both working on one goal - building technology-first law company of the future. They want to build a technology that would let clients get better and faster service from lawyers.
 
 Atrium learned that it is quite uncommon for companies to introduce innovation in software to their services. It is mainly caused because of the difficulties in learning new technology by lawyers and the lack of time to look for new solutions for existing in law companies issues. Atrium wants to change these problems by offering help in automating legal workflow within law firms what will result in better communication, client experience and speed of the service.
 
