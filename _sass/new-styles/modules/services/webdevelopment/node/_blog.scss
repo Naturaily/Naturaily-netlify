@@ -51,7 +51,7 @@
       border-radius: 8px;
     }
 
-    &__data, &__author, &__tags {
+    &__data, &__author {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -219,6 +219,9 @@
     }
 
     &__tags {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
       max-width: 50%;
 
       &-link {
