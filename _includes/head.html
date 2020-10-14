@@ -42,23 +42,17 @@
     {{ styles | scssify }}
   </style>
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href='{{ "/feed.xml" | relative_url }}'>
   <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
 
-  {% if '/categories' == page.url or page.url contains 'categories' %}
-
-    {% if site.categories[page.filter_category] %}
-      {% for post in site.categories[page.filter_category] %}
-        {% assign tag_list = post.tags | join: ' ' %}
-
-        {% if  page.filter_category contains tag_list %}
-
-          <link rel="canonical" href='https://naturaily.com/blog/categories/{{ page.filter_category | replace: " ", "-" | downcase }}/' />
-
-          {% break %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+  {% if page.url contains 'blog/categories'%}
+    {% unless page.filter_category == 'UX/UI' or page.filter_category == 'Naturaily Client' or page.filter_category == 'E-commerce' or page.filter_category == 'JAMstack-development' %}
+      <link rel="canonical" href='/blog/tags/{{ page.filter_category | replace: " ", "-" | downcase }}/'/>
+    {% endunless %}
+  {% elsif page.url contains 'blog/tags' %}
+    <link rel="canonical" href='/blog/tags/{{ page.filter_tag | replace: " ", "-" | downcase }}/'/>
+  {% elsif paginator.previous_page %}
+    <link rel="canonical" href="/blog/" />
   {% endif %}
 
 </head>
