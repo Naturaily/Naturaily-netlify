@@ -7,8 +7,6 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.robots %}
     <meta name="robots" content="{{page.robots}}" />
-  {% elsif paginator.previous_page %}
-    <link rel="canonical" href="/blog/" />
   {% endif %}
 
   <meta name="google-site-verification" content="hN08h2wKl7pGAbXTpkyglvv4VdgIBfm5TAGozNPUhJM" />
