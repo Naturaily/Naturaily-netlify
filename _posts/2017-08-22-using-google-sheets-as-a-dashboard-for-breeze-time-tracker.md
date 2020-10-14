@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/seba.jpg
   label: Sebastian Kubiak
   value: author-5
+  slug: sebastian-kubiak
 image: /assets/images/macierevicz.jpg
 text-preview: >-
   Some of our everyday issues and tasks can be solved or simplified with a

@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/ciabos.jpg
   label: Patryk Szeliga
   value: author-9
+  slug: patryk-szeliga
 image: /assets/images/rails-elephant.jpg
 text-preview: >-
   Hello, this article will show, how easily you can add ranking functionality to

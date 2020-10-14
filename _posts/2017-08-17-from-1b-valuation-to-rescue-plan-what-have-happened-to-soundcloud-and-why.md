@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/soundcloud.jpg
 text-preview: >-
   Site loved by many almost collapsed after questionable choices made by

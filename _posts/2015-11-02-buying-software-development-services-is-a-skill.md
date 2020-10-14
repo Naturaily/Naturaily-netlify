@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/hipster2.jpg
 text-preview: Don't believe the software development myths. Read on to learn why.
 tags:

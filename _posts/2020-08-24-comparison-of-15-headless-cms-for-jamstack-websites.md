@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: '/assets/images/[blog_cover]_Headless-CMS-JAMstack.png'
 text-preview: >
   Whether it’s for SEO or to stay user-friendly, more and more people are

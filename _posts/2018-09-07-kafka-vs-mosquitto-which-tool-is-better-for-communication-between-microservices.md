@@ -15,6 +15,7 @@ authors:
   avatar: /assets/images/mantle.png
   label: Marcin Mantke
   value: author-11
+  slug: marcin-mantke
 image: /assets/images/kafka-mosquitto-microservices.jpg
 text-preview: >-
   Recently microservices architecture is becoming more and more popular. In this
@@ -67,4 +68,4 @@ Check out both tools here:
 * [Eclipse Mosquitto](https://mosquitto.org/){:rel="nofollow"}{:target="_blank"}
 * [Apache Kafka](https://kafka.apache.org/){:rel="nofollow"}{:target="_blank"}
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

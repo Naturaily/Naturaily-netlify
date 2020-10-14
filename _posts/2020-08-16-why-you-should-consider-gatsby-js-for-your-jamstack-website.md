@@ -9,6 +9,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: '/assets/images/[blog_cover]_Why-Gatsby-for-JAMstack-Websites.png'
 text-preview: >
   Since JAMstack development focuses on lean, fast loading & performance with

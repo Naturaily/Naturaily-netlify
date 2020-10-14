@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/ror_doa_2019.png
 text-preview: >-
   Let’s face it. Ruby on Rails is old. Really old. But judging by the changes

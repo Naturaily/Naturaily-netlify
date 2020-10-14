@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/uk-banking.jpg
 text-preview: >-
   Despite Brexit London still remains as one of the biggest hubs and places for

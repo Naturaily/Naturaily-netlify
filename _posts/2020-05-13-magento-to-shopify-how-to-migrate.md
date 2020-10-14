@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/blog_magento_shopify_migration.png
 text-preview: >
   Migrating an e-commerce store is often seen as necessary evil; we all know the

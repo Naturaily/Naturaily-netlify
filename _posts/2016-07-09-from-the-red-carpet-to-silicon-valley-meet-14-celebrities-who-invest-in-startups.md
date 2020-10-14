@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/leonardo-naturaily.jpg
 text-preview: >-
   Sportsmen, rock stars, pop singers and actors eagerly invest in startups,

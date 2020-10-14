@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/mantle.png
   label: Marcin Mantke
   value: author-11
+  slug: marcin-mantke
 image: /assets/images/patterns.jpg
 text-preview: >-
   Not only as programmers, but in day-to-day life, we encounter some problems.

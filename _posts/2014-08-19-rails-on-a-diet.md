@@ -3,7 +3,7 @@ title: Rails on a Diet
 description: >-
   So you're working with Ruby on Rails but you don't know how to make it more
   'lightweight'? In this Ruby on Rails tutorial, we are going to take Rails on a
-  diet. 
+  diet.
 slug: diet-rails
 date: '2014-08-19 10:38:01 +0000'
 category: Ruby on Rails development
@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/swierszcz.png
   label: Przemysław Świercz
   value: author-15
+  slug: przemyslaw-swiercz
 image: /assets/images/railsondiet.jpg
 text-preview: >-
   More and more apps are being created with an API support. Growing popularity
@@ -272,4 +273,4 @@ From now on it's all up to you. If you've chosen only those middlewares and fram
 
 That's all for now. Till next time.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

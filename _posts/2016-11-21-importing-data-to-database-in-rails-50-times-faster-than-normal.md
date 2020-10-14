@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/claus.jpg
   label: Mikołaj Grygiel
   value: author-7
+  slug: mikolaj-grygiel
 image: /assets/images/speed_up.jpg
 text-preview: >-
   Have you ever needed to save lots of records with unique attribute to database

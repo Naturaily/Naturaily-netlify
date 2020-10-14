@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/arek.jpg
   label: Arek Poczobut
   value: author-18
+  slug: arek-poczobut
 image: /assets/images/rails-elastic-aggregation-drapper.jpg
 text-preview: >
   Have you ever wanted to calculate how many articles will be left in a certain

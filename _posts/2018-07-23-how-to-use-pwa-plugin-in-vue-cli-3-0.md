@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/tomasz.jpg
   label: Tomasz Żdanuk
   value: author-2
+  slug: tomasz-zdanuk
 image: /assets/images/services/webdevelopment/pwa-vue-cli-3.jpg
 text-preview: >-
   In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin

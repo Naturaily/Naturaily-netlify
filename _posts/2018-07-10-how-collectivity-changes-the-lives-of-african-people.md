@@ -14,6 +14,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/collectivity.jpg
 text-preview: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper

@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/andrzej_profile.png
   label: Andrzej Gatkowski
   value: author-29
+  slug: andrzej-gatkowski
 image: >-
   /assets/images/how-to-maintain-performance-with-big-datasets-using-highcharts.js-and-vue.jpg
 text-preview: >-

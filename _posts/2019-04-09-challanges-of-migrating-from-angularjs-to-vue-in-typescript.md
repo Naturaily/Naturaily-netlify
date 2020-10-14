@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/bartek.jpg
   label: Bartek Zienkiewicz
   value: author-19
+  slug: bartek-zienkiewicz
 image: >-
   /assets/images/migrating-from-angularjs-to-vuejs-using-typescript-a-case-study.png
 text-preview: >-
@@ -108,7 +109,7 @@ Our development team has a JavaScript background. Getting used to TypeScript too
 * **TypeScript forces developers to keep the code clean**. Also, it unlearns building huge methods for everything.
 * It’s worth keeping track of the new version of the libraries you use. Some packages can go through 3 versions in a matter of weeks. You definitely don’t want to miss this out. The same thing about Vue and linters, plugins, and TypeScript itself. Test them before implementing.
 * We’re using the official TypeScript guide as the basis of our code. The process of writing the code is not that different from typical JavaScript development. We advise new TypeScript developers to configure ESLint according to guidelines.
-* Interfaces were a huge time-consuming barrier. We have to create a lot of new files. Yes, it sounds very daunting but we can import and reuse them from anywhere within our project. Every project has a different approach to this, eg. we have an access to Swagger in our project and you may not, thus there may be differences in interface implementation. 
+* Interfaces were a huge time-consuming barrier. We have to create a lot of new files. Yes, it sounds very daunting but we can import and reuse them from anywhere within our project. Every project has a different approach to this, eg. we have an access to Swagger in our project and you may not, thus there may be differences in interface implementation.
 * Interfaces tell us a lot about the data. Documentation is not always available and you would have to check each and every endpoint via Postman or similar tool. Well-developed interfaces tell you everything you need to know, they essentially become your documentation. Plus, they make your code more consistent.
 * While TypeScript has a lot to offer, after almost 15 years of experience in JavaScript, I don’t see it as a necessity. On the other hand, I realize that it’s definitely the direction the whole JavaScript ecosystem is heading, including large companies - you simply don’t want to be missing out on this topic.
 

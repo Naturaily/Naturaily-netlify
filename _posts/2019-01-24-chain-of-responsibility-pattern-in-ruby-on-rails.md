@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/klaudusia.jpg
   label: Klaudia Chudy
   value: author-23
+  slug: klaudia-chudy
 image: /assets/images/chain-of-responsibility-pattern.jpg
 text-preview: >-
   While we were working on a project we stumbled upon some legacy code that
@@ -169,4 +170,4 @@ What other solutions would you suggest for our case and why? We’re always happ
 
 **Special thanks to the reviewer of this post: Jakub Flasiński.**
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

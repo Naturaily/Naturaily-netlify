@@ -13,6 +13,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/libraries-vue-2019.jpg
 text-preview: >-
   We guarantee that these JavaScript libraries will significantly speed up the

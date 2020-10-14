@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/release-employees.jpg
 text-preview: >-
   We provide services remotely to customers around the world. The distance and

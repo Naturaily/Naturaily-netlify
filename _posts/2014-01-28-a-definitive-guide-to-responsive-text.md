@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/maciek.png
   label: Maciej Kucharski
   value: author-16
+  slug: maciej-kucharski
 image: /assets/images/responsivetext.jpg
 text-preview: >-
   When thinking RWD most of you picture fluid grids and responsive images,

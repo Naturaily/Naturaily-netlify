@@ -14,7 +14,7 @@ layout: default
         {% endif %}
         <p class="author">
           {% if page.authors.label %}
-            <a href="/blog/authors/{{ page.authors.label | replace: " ", "-" | downcase }}/">{{ page.authors.label }}</a>
+            <a href="/blog/authors/{{ page.authors.slug }}/">{{ page.authors.label }}</a>
           {% endif %}
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

@@ -10,7 +10,7 @@ authors:
   label: Jan Wieczorkowski
   value: author-8
   avatar: /assets/images/janpol.png
-
+  slug: jan-wieczorkowski
 image: /assets/images/ancient-hall.jpg
 text-preview: >-
   Have you ever tried to setup Devise and Doorkeeper in the simplest possible

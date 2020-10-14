@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/entrepreneurship-podcasts.jpg
 text-preview: >-
   This post will guide you through the world of podcasts. Our list is composed

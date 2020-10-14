@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
+  slug: beata-twardowska
 image: >-
   /assets/images/shopify-customization_-naturaily-amp_-woolman-joint-case-study.png
 text-preview: >-

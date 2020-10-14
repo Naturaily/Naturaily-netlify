@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
+  slug: beata-twardowska
 image: >-
   /assets/images/Enterprise Software Development_Why Should You Use an External
   Team.jpg

@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/fears.png
 text-preview: >-
   Software development is not a walk in the park. It’s rather a 24-hour run

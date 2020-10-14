@@ -11,6 +11,7 @@ authors:
   label: Mateusz Barczak
   value: author-17
   avatar: /assets/images/mateusz.png
+  slug: mateusz-barczak
 image: /assets/images/spreecomerce.jpg
 text-preview: >-
   Couple months ago, after signing a contract to build an unusual e-commerce

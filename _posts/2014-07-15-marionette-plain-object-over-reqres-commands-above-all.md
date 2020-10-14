@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/maciek.png
   label: Maciej Kucharski
   value: author-16
+  slug: maciej-kucharski
 image: /assets/images/marionette.jpg
 text-preview: >-
   A brief introduction to Marionette’s reqres ( request-response ) and commands
@@ -112,4 +113,4 @@ Second version is of course more concise and readable.
 
 Although I gave Marionette a rough time, you shouldn't get discouraged. The apis are just a minor part of the framework and the dificulties you might have with them are vastly outweighted by all the awesomeness Marionette brings to the table. At Naturaily we love and cherish Marionette and believe it to be the best of libraries built on top of Backbone and maybe even the very best framework for single page applications available.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

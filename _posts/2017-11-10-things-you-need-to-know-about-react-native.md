@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/react-native.jpg
 text-preview: >-
   The popularity of React Native has skyrocketed for the past 2 years. Meet the

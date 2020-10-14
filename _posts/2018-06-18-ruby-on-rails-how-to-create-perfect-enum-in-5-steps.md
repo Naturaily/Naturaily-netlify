@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/blazej.png
   label: Błażej Pichur
   value: author-4
+  slug: blazej-pichur
 image: /assets/images/perfect-enum.jpg
 text-preview: >-
   When your project starts you probably design ERD diagram or a similar one.

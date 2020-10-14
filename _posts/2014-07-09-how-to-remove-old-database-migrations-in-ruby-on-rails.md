@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/jacek.png
   label: Jacek Hiszpański
   value: author-12
+  slug: jacek-hiszpanski
 image: /assets/images/migrations.jpg
 text-preview: >-
   Recently we’ve overtaken a big project for maintenance and further

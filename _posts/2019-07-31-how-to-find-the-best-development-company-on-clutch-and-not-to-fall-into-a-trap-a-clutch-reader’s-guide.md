@@ -6,7 +6,7 @@ description: >-
   With several years in the industry under our belt, we feel entitled to shed
   some light on how Clutch works and offer a few tips for companies wanting to
   find a reliable software development partner.
-slug: how-to-find-best-development-company-on-Clutch
+slug: how-to-find-best-development-company-on-clutch
 layout: post
 twitter-card: >-
   With several years in the industry under our belt, we feel entitled to shed
@@ -18,6 +18,7 @@ authors:
   avatar: /assets/images/leo_baz_profile.png
   label: Leo Baz
   value: author-26
+  slug: leo-baz
 image: /assets/images/how-to-find-the-best-development-company-on-clutch.png
 text-preview: >-
   Clutch is the industry go-to place for reliable reviews of potential software
