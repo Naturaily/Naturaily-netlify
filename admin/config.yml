@@ -72,6 +72,9 @@ collections:
               - label: Author avatar(optimally 100x100px)
                 name: avatar
                 widget: image
+              - label: Slug(no uppercase, spaces and polish letters)
+                name: slug
+                widget: string
   -
     name: "career"
     label: "Job offers"

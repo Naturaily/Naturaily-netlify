@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/fin-tech.png
 text-preview: >-
   Fin-tech is a term which conveys the inevitable marriage of **fin**ance and

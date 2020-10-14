@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/bartek.jpg
   label: Bartek Zienkiewicz
   value: author-19
+  slug: bartek-zienkiewicz
 image: /assets/images/frontend-development-easier-faster.jpg
 text-preview: >-
   In this post, I'll share some tips, tricks, and tools I use every day in
@@ -92,4 +93,4 @@ I highly recommend using bundlers such as Webpack or Parcel. They are great for 
 
 That’s all folks. If you have any questions or suggestions make sure to leave a comment down below! And remember: work smart, not hard. :)
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

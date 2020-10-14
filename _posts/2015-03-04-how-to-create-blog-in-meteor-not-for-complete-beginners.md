@@ -10,7 +10,7 @@ authors:
   label: Sebastian Brych
   value: author-14
   avatar: /assets/images/no-image.png
-
+  slug: sebastian-brych
 image: /assets/images/meteor_blog.jpg
 text-preview: >-
   The purpose of this post is to show you how to create a very simple blog app

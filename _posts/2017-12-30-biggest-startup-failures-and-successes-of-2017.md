@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/rise-and-fall.jpeg
 text-preview: >-
   We’re bringing you the biggest fails of 2017 as well as some startups that you

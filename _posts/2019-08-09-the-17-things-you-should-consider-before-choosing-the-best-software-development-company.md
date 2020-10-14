@@ -16,6 +16,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/how-to-find-a-reliable-software-house-in-7-steps_.png
 text-preview: >-
   Whether you’re after a team that would build your future project from scratch

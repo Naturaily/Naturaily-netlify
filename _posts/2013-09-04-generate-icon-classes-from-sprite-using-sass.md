@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/maciek.png
   label: Maciej Kucharski
   value: author-16
+  slug: maciej-kucharski
 image: /assets/images/sass.jpg
 text-preview: >-
   While we mostly use sass for it's variables, nesting and mixins, the language

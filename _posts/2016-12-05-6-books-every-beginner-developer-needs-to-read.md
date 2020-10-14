@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/recommended-books.jpg
 text-preview: >-
   When you're a newbie in the complex code world and crave for knowledge, good
@@ -186,4 +187,4 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
 I'm sure all of you have your own favourite books, so feel free to add comments and share your recommendations.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

@@ -15,6 +15,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/naturaily-blog-sxsw.jpg
 text-preview: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the

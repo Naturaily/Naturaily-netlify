@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/How_to_build_website_in_2020.png
 text-preview: >
   These days, we need to look at many areas, from speed, performance and SEO, to

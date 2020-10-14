@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/Helmut_LingoHub.png
   label: Helmut Juskewycz
   value: author-31
+  slug: helmut-juskewycz
 image: '/assets/images/Blog_Multilingual_Software.png'
 text-preview: >
   If you are not catering to users beyond your own country’s borders and

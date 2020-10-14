@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/kamil.jpg
   label: Kamil Buczel
   value: author-10
+  slug: kamil-buczel
 image: /assets/images/android-hipster.jpg
 text-preview: >-
   There are only a few things more deadly for apps than a situation when the

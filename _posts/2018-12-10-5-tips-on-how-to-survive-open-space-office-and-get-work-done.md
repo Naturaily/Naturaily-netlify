@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
+  slug: epifany-bojanowska
 image: /assets/images/5-tips-survive-open-space-office-work.jpg
 text-preview: >
   There is no doubt that office design plays an important role in how a company
@@ -54,11 +55,11 @@ Remember to **breathe** deeply when you're outside, too, to get as much air into
 
 ### 4. Technology
 
-Sometimes all it takes is a little technology to help you withstand the challenges of an open office. Can't stand your colleagues' constant chatter? Try wearing **noise-cancelling headphones** while you work. You can also look for a website that has a variety of **white noise** and environmental sounds to use for background. If you prefer music at work, a [study](https://www.telegraph.co.uk/business/2016/06/02/this-is-the-kind-of-music-you-should-listen-to-at-work){:rel="nofollow"}{:target="_blank"} showed that, for best results, listen to classical music if you're dealing with numbers; pop music for data entry or deadlines and dance music when proofreading or problem-solving. 
+Sometimes all it takes is a little technology to help you withstand the challenges of an open office. Can't stand your colleagues' constant chatter? Try wearing **noise-cancelling headphones** while you work. You can also look for a website that has a variety of **white noise** and environmental sounds to use for background. If you prefer music at work, a [study](https://www.telegraph.co.uk/business/2016/06/02/this-is-the-kind-of-music-you-should-listen-to-at-work){:rel="nofollow"}{:target="_blank"} showed that, for best results, listen to classical music if you're dealing with numbers; pop music for data entry or deadlines and dance music when proofreading or problem-solving.
 
 ### 5. The Pomodoro Technique
 
-**The Pomodoro Technique** is a time management method developed by **Francesco Cirillo** in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. The technique has been widely popularized by dozens of apps and websites providing timers and instructions. 
+**The Pomodoro Technique** is a time management method developed by **Francesco Cirillo** in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. The technique has been widely popularized by dozens of apps and websites providing timers and instructions.
 
 **The process is simple**:
 

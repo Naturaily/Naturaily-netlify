@@ -13,6 +13,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/japan_it_week_header_post.jpeg
 text-preview: >-
   We're extremely excited to announce that the next stop on our ongoing

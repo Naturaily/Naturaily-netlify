@@ -2,93 +2,124 @@ authors:
   - avatar: /assets/images/wojciech.jpg
     id: author-1
     name: Wojciech Miśta
+    slug: wojciech-mista
   - avatar: /assets/images/tomasz.jpg
     id: author-2
     name: Tomasz Żdanuk
+    slug: tomasz-zdanuk
   - avatar: /assets/images/agata.jpg
     id: author-3
     name: Agata Zięba
+    slug: agata-zieba
   - avatar: /assets/images/blazej.png
     id: author-4
     name: Błażej Pichur
+    slug: blazej-pichur
   - avatar: /assets/images/seba.jpg
     id: author-5
     name: Sebastian Kubiak
+    slug: sebastian-kubiak
   - avatar: /assets/images/marcin.jpg
     id: author-6
     name: Marcin Sulikowski
+    slug: marcin-sulikowski
   - avatar: /assets/images/claus.jpg
     id: author-7
     name: Mikołaj Grygiel
+    slug: mikolaj-grygiel
   - avatar: /assets/images/janpol.png
     id: author-8
     name: Jan Wieczorkowski
+    slug: jan-wieczorkowski
   - avatar: /assets/images/ciabos.jpg
     id: author-9
     name: Patryk Szeliga
+    slug: patryk-szeliga
   - avatar: /assets/images/kamil.jpg
     id: author-10
     name: Kamil Buczel
+    slug: kamil-buczel
   - avatar: /assets/images/mantle.png
     id: author-11
     name: Marcin Mantke
+    slug: marcin-mantke
   - avatar: /assets/images/jacek.png
     id: author-12
     name: Jacek Hiszpański
+    slug: jacek-hiszpanski
   - avatar: /assets/images/aga.png
     id: author-13
     name: Agnieszka Bugajska
+    slug: agnieszka-bugajska
   - avatar: /assets/images/no-image.png
     id: author-14
     name: Sebastian Brych
+    slug: sebastian-brych
   - avatar: /assets/images/swierszcz.png
     id: author-15
     name: Przemysław Świercz
+    slug: przemyslaw-swiercz
   - avatar: /assets/images/maciek.png
     id: author-16
     name: Maciej Kucharski
+    slug: maciej-kucharski
   - avatar: /assets/images/mateusz.png
     id: author-17
     name: Mateusz Barczak
+    slug: mateusz-barczak
   - avatar: /assets/images/arek.jpg
     id: author-18
     name: Arek Poczobut
+    slug: arek-poczobut
   - avatar: /assets/images/bartek.jpg
     id: author-19
     name: Bartek Zienkiewicz
+    slug: bartek-zienkiewicz
   - avatar: /assets/images/piotrek-musielak.jpg
     id: author-20
     name: Piotrek Musielak
+    slug: piotrek-musielak
   - avatar: /assets/images/lighto.jpg
     id: author-21
     name: Paweł Cybulski
+    slug: pawel-cybulski
   - avatar: /assets/images/epifany_bojanowska-2.jpg
     id: author-22
     name: Epifany Bojanowska
+    slug: epifany-bojanowska
   - avatar: /assets/images/klaudusia.jpg
     id: author-23
     name: Klaudia Chudy
+    slug: klaudia-chudy
   - avatar: /assets/images/beata.jpg
     id: author-24
     name: Beata Twardowska
+    slug: beata-twardowska
   - avatar: /assets/images/kamil_sopata_profile.png
     id: author-25
     name: Kamil Sopata
+    slug: kamil-sopata
   - avatar: /assets/images/leo_baz_profile.png
     id: author-26
     name: Leo Baz
+    slug: leo-baz
   - avatar: /assets/images/michal_kosyk_profile.png
     id: author-27
     name: Michał Kosyk
+    slug: michal-kosyk
   - avatar: /assets/images/mateusz-pliszka.jpg
     id: author-28
     name: Mateusz Pliszka
+    slug: mateusz-pliszka
   - avatar: /assets/images/andrzej_profile.png
     id: author-29
     name: Andrzej Gatkowski
+    slug: andrzej-gatkowski
   - avatar: /assets/images/Weronika_profile.png
     id: author-30
     name: Weronika Nużyńska
+    slug: weronika-nuzynska
   - avatar: /assets/images/Helmut_LingoHub.png
     id: author-31
     name: Helmut Juskewycz
+    slug: helmut-juskewycz

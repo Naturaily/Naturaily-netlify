@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
+  slug: epifany-bojanowska
 image: /assets/images/ways-to-develop-mobile-apps.jpg
 text-preview: >-
   So you have a mobile app you would like to build. The first question you need

@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/michal_kosyk_profile.png
   label: Michał Kosyk
   value: author-27
+  slug: michal-kosyk
 image: /assets/images/stick-it_-and-the-power-of-event-storming-1-.png
 text-preview: >
   Miscommunication between business people and engineers is a common issue.

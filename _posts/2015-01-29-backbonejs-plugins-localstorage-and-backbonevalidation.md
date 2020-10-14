@@ -11,7 +11,7 @@ authors:
   label: Agnieszka Bugajska
   value: author-13
   avatar: /assets/images/aga.png
-
+  slug: agnieszka-bugajska
 image: /assets/images/backbone_lol.png
 text-preview: >-
   What is Backbone Local.Storage? Backbone Local.Storage is a method which helps

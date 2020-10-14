@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
+  slug: epifany-bojanowska
 image: /assets/images/modelin-agency-manager-software-developer.png
 text-preview: >-
   While scouring the internet for an interesting topic for my newest company

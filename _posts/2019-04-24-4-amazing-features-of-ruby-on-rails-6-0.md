@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/klaudusia.jpg
   label: Klaudia Chudy
   value: author-23
+  slug: klaudia-chudy
 image: /assets/images/4-best-features-of-ruby-on-rails-6.0.png
 text-preview: >-
   Rails 6.0. is finally released. We’re excited to see all the new stuff Rails
@@ -19,7 +20,7 @@ text-preview: >-
 tags:
   - Ruby on Rails development
 ---
-Rails 6.0. is finally released. We’re excited to see all the new stuff Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Rails 6.0 bring back the [enormous popularity RoR once had](https://naturaily.com/blog/who-gives-f-about-rails){:target="_blank"}? 
+Rails 6.0. is finally released. We’re excited to see all the new stuff Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Rails 6.0 bring back the [enormous popularity RoR once had](https://naturaily.com/blog/who-gives-f-about-rails){:target="_blank"}?
 
 **Here are our most anticipated features of the new version of Rails 6.0!**
 
@@ -37,7 +38,7 @@ parallelize(workers: 10)
 
 ## Native Webpacker Support
 
-Webpacker was introduced a while back with the 5.1 version of Ruby on Rails. It makes using JavaScript pre-processor easier. 
+Webpacker was introduced a while back with the 5.1 version of Ruby on Rails. It makes using JavaScript pre-processor easier.
 
 We usually use it for JavaScript code, it works really well but it can also be used for CSS, images, fonts and assets as well. From now on, Sprockets is being replaced and Webpacker is the default JavaScript bundler for Rails through the new app/javascript directory.
 
@@ -45,19 +46,19 @@ Currently, in modern applications, using traditional rails views is not so often
 
 ## Multiple database support
 
-Another great feature of upcoming Rails 6.0 is the support for multiple simultaneous database connections. It’s a new, simple API for making that happen without the need to reach deeply into Active Record. 
+Another great feature of upcoming Rails 6.0 is the support for multiple simultaneous database connections. It’s a new, simple API for making that happen without the need to reach deeply into Active Record.
 
-Official RoR blog suggests using two databases to for example split the workflow between two replica databases for a performance boost or records segmentation into databases for scaling. We can definitely see multiple database support as an improvement in building microservices architecture. 
+Official RoR blog suggests using two databases to for example split the workflow between two replica databases for a performance boost or records segmentation into databases for scaling. We can definitely see multiple database support as an improvement in building microservices architecture.
 
-One of the real life examples where this feature could be really useful is our in-house project - Artinfo. In this project, there are two database connections, one for old users and one for those who just signed up. Now with Rails 6, this implementation would be much easier. 
+One of the real life examples where this feature could be really useful is our in-house project - Artinfo. In this project, there are two database connections, one for old users and one for those who just signed up. Now with Rails 6, this implementation would be much easier.
 
 
 
 ## Zeitwerk
 
-With this version of Rails a new code loader was introduced - Zeitwerk. It promises to load your project’s classes and modules on demand, no need to write `require` calls. Zeitwerk uses absolute file names making the loader more efficient. Your classes and modules are available everywhere. The team behind the loader claims that it is thread-safe and matches Ruby’s semantics for constants. 
+With this version of Rails a new code loader was introduced - Zeitwerk. It promises to load your project’s classes and modules on demand, no need to write `require` calls. Zeitwerk uses absolute file names making the loader more efficient. Your classes and modules are available everywhere. The team behind the loader claims that it is thread-safe and matches Ruby’s semantics for constants.
 
 
-**Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release){:rel="nofollow"}{:target="_blank"}. 
+**Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release){:rel="nofollow"}{:target="_blank"}.
 
 [{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

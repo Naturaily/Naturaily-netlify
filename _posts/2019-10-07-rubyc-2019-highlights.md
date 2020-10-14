@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
+  slug: beata-twardowska
 image: /assets/images/rubyc-2019-highlights.jpg
 text-preview: >-
   RubyC is a European conference devoted to Ruby, Rails and other related

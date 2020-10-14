@@ -14,6 +14,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/services/webdevelopment/pwa-guide-2018.png
 text-preview: >-
   Many say that PWAs will be the new standard in the future world of mobile

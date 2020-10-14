@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/ruby-is-cool.png
 text-preview: >-
   Wondering what platform to use for your next startup project? When it comes to

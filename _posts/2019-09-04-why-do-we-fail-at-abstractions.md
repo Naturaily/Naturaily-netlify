@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/michal_kosyk_profile.png
   label: Michał Kosyk
   value: author-27
+  slug: michal-kosyk
 image: /assets/images/why-do-we-fail-at-abstractions_.png
 text-preview: >
   We have all been there. We got a task to introduce totally new functionality.
@@ -247,4 +248,4 @@ Use this knowledge to battle the unnecessary complexity of concretisation and re
 
 Farewell
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

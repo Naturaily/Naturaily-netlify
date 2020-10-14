@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/janpol.png
   label: Jan Wieczorkowski
   value: author-8
+  slug: jan-wieczorkowski
 image: /assets/images/random_console.png
 text-preview: >-
   Some time ago [Marcin wrote about basic design patterns in Ruby on

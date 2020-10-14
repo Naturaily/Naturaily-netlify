@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/berlin-startups.jpg
 text-preview: >-
   Berlin is the second largest startup hub in Europe (right after London)! We

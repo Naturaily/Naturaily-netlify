@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/lighto.jpg
   label: Paweł Cybulski
   value: author-21
+  slug: pawel-cybulski
 image: /assets/images/netlify-jekyll.jpg
 text-preview: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
