@@ -14,6 +14,7 @@ authors:
   avatar: /assets/images/mateusz-pliszka.jpg
   label: Mateusz Pliszka
   value: author-28
+  slug: mateusz-pliszka
 image: >-
   /assets/images/most-common-problems-of-growingshopify-stores-and-how-to-solve-themwith-the-right-native-or-customintegrations.png
 text-preview: >

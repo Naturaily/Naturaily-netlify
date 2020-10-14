@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/snapchat_entrepreneurs.jpeg
 text-preview: >-
   As you might have guessed I'm not one of those selfie-loving teenage boys (ok,

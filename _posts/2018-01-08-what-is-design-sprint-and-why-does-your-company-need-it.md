@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/google-sprint.jpg
 text-preview: >-
   It is very common for clients to not know what kind of product they want to

@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/12-management-collaboration-tools-startups.jpg
 text-preview: >-
   So you have founded a startup. It wasn’t easy, was it? How about making your

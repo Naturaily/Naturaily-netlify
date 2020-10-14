@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/node-js-applications.jpg
 text-preview: >-
   Node.js took IT world by storm, no surprise the number of Node.js applications

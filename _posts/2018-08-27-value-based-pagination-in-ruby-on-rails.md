@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/tomasz.jpg
   label: Tomasz Żdanuk
   value: author-2
+  slug: tomasz-zdanuk
 image: /assets/images/value-based-pagination.jpg
 text-preview: >-
   This is a quick tutorial that will show you how to properly handle value-based

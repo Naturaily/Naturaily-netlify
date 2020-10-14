@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
+  slug: beata-twardowska
 image: /assets/images/Why Organisations Fails at Implementing IT Projects.jpg
 text-preview: >
   According to a Gallup study, only 2.5% of companies complete 100% of their
@@ -41,7 +42,7 @@ Yet all the flaws that cause the failure of implementing technological projects 
 
 In order to do so, you need to identify them prior to starting the implementation process. And, to help you succeed, we’ve prepared **a list of 9 factors that contribute to the failure of IT projects in large organizations.**
 
-**In short:** 
+**In short:**
 
 **1. Lack of involvement from senior management**
 

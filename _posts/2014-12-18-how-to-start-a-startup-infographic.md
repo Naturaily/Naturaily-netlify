@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/startup-info.jpg
 text-preview: >-
   Wondering how to start a startup? There are few ways. Building it on your own

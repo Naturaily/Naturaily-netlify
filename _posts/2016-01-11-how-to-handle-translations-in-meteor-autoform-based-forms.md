@@ -11,7 +11,7 @@ authors:
   label: Jan Wieczorkowski
   value: author-8
   avatar: /assets/images/janpol.png
-
+  slug: jan-wieczorkowski
 image: /assets/images/meteor3.png
 text-preview: >-
   In one of the projects I've been recently working on I needed i18n support for

@@ -14,6 +14,7 @@ authors:
   avatar: /assets/images/piotrek-musielak.jpg
   label: Piotrek Musielak
   value: author-20
+  slug: piotrek-musielak
 image: /assets/images/paid-order-shopify-api.jpg
 text-preview: >-
   Creating an order using Shopify API with status set to 'paid' might be

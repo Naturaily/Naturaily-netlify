@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
+  slug: beata-twardowska
 image: /assets/images/remotework_cover.jpg
 text-preview: >-
   All who can - switch to remote work mode. This is nothing new for the IT

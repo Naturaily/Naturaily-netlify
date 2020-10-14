@@ -13,6 +13,7 @@ authors:
   avatar: /assets/images/blazej.png
   label: Błażej Pichur
   value: author-4
+  slug: blazej-pichur
 image: /assets/images/public-private-protected-ruby.jpg
 text-preview: >-
   Public, private and protected access - all of the programmers are familiar
@@ -251,4 +252,4 @@ In the end, as I promised - answers to the statements:
 
 I’ve written this article because for me it was also surprising how **public, private and protected access actually work** in Ruby. The simplest things are the hardest to understand, or at least they can be. I really hope that this article was helpful for you. Or perhaps, you were aware of the access rules before reading it. Share your thoughts in the comments, I’m very curious of them. You can take a look at the  [docs](https://ruby-doc.com/docs/ProgrammingRuby/html/tut_classes.html){:rel="nofollow"}{:target="_blank"} too. You will find all these details there :)
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"} 
+[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}

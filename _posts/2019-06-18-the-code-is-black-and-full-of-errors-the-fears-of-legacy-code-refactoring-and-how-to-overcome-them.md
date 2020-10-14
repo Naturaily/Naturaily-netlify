@@ -16,6 +16,7 @@ authors:
   avatar: /assets/images/michal_kosyk_profile.png
   label: Michał Kosyk
   value: author-27
+  slug: michal-kosyk
 image: /assets/images/legacy-code-refactor.png
 text-preview: >-
   In the darkest corners of every app development process dwell lines of code

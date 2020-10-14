@@ -12,6 +12,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: /assets/images/blog_cover_shopify_seo_optimization.png
 text-preview: >
   Even the best e-commerce stores can fail if they’re not visible online. This

@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/vue-v-react.png
 text-preview: >-
   Both React and Vue have gained a lot of attention and interest from the

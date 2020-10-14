@@ -14,6 +14,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
+  slug: epifany-bojanowska
 image: /assets/images/software-house.jpeg
 text-preview: >-
   Whether you’re a part of a Start-Up or a grown up company, when your product

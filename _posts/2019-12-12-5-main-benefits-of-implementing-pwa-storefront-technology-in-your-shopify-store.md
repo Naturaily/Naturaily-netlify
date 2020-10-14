@@ -14,6 +14,7 @@ authors:
   avatar: /assets/images/mateusz-pliszka.jpg
   label: Mateusz Pliszka
   value: author-28
+  slug: mateusz-pliszka
 image: >-
   /assets/images/5-main-benefits-of-implementing-pwa-storefront-technology-at-your-shopify-store-2.jpg
 text-preview: >-

@@ -13,6 +13,7 @@ authors:
   avatar: /assets/images/agata.jpg
   label: Agata Zięba
   value: author-3
+  slug: agata-zieba
 image: /assets/images/designer.jpg
 text-preview: >-
   In my experience, when it comes to project design, clients tend to make

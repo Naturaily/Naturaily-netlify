@@ -9,6 +9,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
+  slug: beata-twardowska
 image: /assets/images/Top10_JAMstack_Websites.png
 text-preview: >
   Did you know Leonardo DiCaprio uses JAMstack? And he’s not the only one!

@@ -10,6 +10,7 @@ authors:
   label: Jacek Hiszpański
   value: author-12
   avatar: /assets/images/jacek.png
+  slug: jacek-hiszpanski
 image: /assets/images/meteor2.jpg
 text-preview: >-
   Meteor is getting more and more popular these days. Creating a web application

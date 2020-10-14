@@ -13,6 +13,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/vuejs-2018.jpg
 text-preview: >-
   Vue.js, the so-called progressive framework took the JavaScript community by

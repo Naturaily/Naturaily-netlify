@@ -13,6 +13,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/companies-vue-js-applications.jpg
 text-preview: >-
   The popularity of Vue.js is continuously growing at a rapid rate, so now it's

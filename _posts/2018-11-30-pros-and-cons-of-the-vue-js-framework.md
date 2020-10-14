@@ -13,6 +13,7 @@ authors:
   avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
+  slug: epifany-bojanowska
 image: /assets/images/pros-cons-vue-js.png
 text-preview: >-
   Despite being relatively new, the Vue.js framework is growing more and more

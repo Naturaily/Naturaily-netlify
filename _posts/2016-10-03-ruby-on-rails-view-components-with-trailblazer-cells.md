@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/claus.jpg
   label: Mikołaj Grygiel
   value: author-7
+  slug: mikolaj-grygiel
 image: /assets/images/trailblazer.jpg
 text-preview: >-
   In recent times view components became a really popular web design pattern.

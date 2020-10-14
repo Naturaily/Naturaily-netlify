@@ -13,6 +13,7 @@ authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
+  slug: wojciech-mista
 image: /assets/images/vue-vs-react-business-perspective-v2.jpg
 text-preview: >-
   At some point you have to choose the technological stack for your application.

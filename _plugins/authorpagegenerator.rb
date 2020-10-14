@@ -24,7 +24,7 @@ module Jekyll
       if site.layouts.key? 'author'
         dir = site.config['blog']['authors']['url'] || 'blog/authors/'
         site.data["authors"]["authors"].each do |author|
-          author_name = author["name"].gsub(/\s+/, '-')
+          author_name = author["slug"]
           site.pages << AuthorPage.new(site, site.source, File.join(dir, author_name), author["name"])
         end
       end

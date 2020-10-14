@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/aga.png
   label: Agnieszka Bugajska
   value: author-13
+  slug: agnieszka-bugajska
 image: /assets/images/learn_it_girl.jpg
 text-preview: >-
   There are many different non-profit international IT projects, where women can

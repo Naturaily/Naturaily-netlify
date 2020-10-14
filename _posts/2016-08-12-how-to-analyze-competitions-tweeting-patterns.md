@@ -10,7 +10,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg
-
+  slug: marcin-sulikowski
 image: /assets/images/analyze_competition.jpg
 text-preview: >-
   Ever wondered what approach your competition has to Twitter? If so, I’ve got

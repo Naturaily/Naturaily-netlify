@@ -16,6 +16,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: >-
   /assets/images/smart-grid-ai-at-the-service-of-the-power-distribution-network.png
 text-preview: >-

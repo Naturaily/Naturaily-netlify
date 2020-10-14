@@ -10,6 +10,7 @@ authors:
   avatar: /assets/images/seba.jpg
   label: Sebastian Kubiak
   value: author-5
+  slug: sebastian-kubiak
 image: /assets/images/mister-yoda.jpg
 text-preview: Dive in and read the 7 precious tips from Master Yoda himself!
 tags:
