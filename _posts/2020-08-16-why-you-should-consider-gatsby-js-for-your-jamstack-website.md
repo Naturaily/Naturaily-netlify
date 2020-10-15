@@ -10,7 +10,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: '/assets/images/[blog_cover]_Why-Gatsby-for-JAMstack-Websites.png'
+image: '/assets/images/blog_cover_Why-Gatsby-for-JAMstack-Websites.png'
 text-preview: >
   Since JAMstack development focuses on lean, fast loading & performance with
   focus on static elements, the generator you choose becomes a key driver (or
