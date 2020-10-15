@@ -12,7 +12,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: '/assets/images/[blog_cover]_Best-CMS-for-JAMstack.png'
+image: '/assets/images/blog_cover_Best-CMS-for-JAMstack.png'
 text-preview: >
   When it comes to building websites, fast, speedy and overall performance is
   the way to go. While this might sound limiting, this couldn’t be further from
