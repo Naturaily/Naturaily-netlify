@@ -1,6 +1,9 @@
 ---
-title: Three Different Ways to Develop a Mobile App
-description: Hybirid? Native? PWA? Which one should you choose to develop a mobile app.
+title: Check out three different ways to develop a mobile app
+description: >-
+  Hybrid? Native? PWA? Which one should you choose to develop a mobile app? We hope the guide
+  below will help you make an informed decision that will benefit the user experience and not
+  elevate the costs and time of development.
 slug: three-ways-to-develop-mobile-apps
 layout: post
 twitter-card: summary_large_image

@@ -1,7 +1,5 @@
 ---
-title: >-
-  First Steps in a Wide, Vast App World. Android Developer Guidance on User
-  Experience and Process Thinking
+title: Android developer guidance on UX and process thinking
 description: >-
   How not to get lost with different screen resolutions, densities and device
   parameters? Take a look at our UX and process thinking guide in Android

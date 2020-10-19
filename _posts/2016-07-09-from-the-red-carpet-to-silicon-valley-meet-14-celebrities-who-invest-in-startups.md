@@ -1,7 +1,5 @@
 ---
-title: >-
-  From the Red Carpet to Silicon Valley. Meet 14 Celebrities Who Invest in
-  Startups!
+title: Meet 14 celebrities who invest in startups - Jared Leto, Bono...
 description: >-
   Startup celebrities! Sportsmen, rock stars, pop singers and actors eagerly
   invest in startups. Who invested in what and was it worth it?

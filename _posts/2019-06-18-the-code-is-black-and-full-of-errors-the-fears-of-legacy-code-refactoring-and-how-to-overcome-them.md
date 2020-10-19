@@ -1,7 +1,5 @@
 ---
-title: >-
-  The Code Is Black and Full of Errors. The Fears of Legacy Code Refactoring and
-  How to Overcome Them
+title: The fears of legacy code refactoring and how to overcome them
 description: >-
   In the darkest corners of every app development process dwell lines of code
   that make even the bravest of developers wake up at night drenched with sweat.

@@ -1,8 +1,9 @@
 ---
 title: How to create blog in Meteor (NOT for complete beginners!)
 description: >-
-  Let's speed up the development of your very own blog app in MeteorJS with this
-  tutorial!
+  The purpose of this post is to show you how to create a very simple blog app in Meteor.
+  Instead of writing everything from scratch, we’re going to use packages that can help you
+  speed up your development cycle and be more productive.
 slug: meteor-blog-tutorial
 date: '2015-03-04 10:38:01 +0000'
 category: JavaScript development

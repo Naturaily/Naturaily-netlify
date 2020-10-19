@@ -1,5 +1,5 @@
 ---
-title: 'COVID-2019 Pandemic vs E-commerce - Common Problems and How to Face Them '
+title: COVID-2019 vs e-commerce - common problems & how to face them
 description: >-
   Coronavirus' global spread is predicted to take its toll on e-commerce,
   changing shopping habits and demand for certain products.

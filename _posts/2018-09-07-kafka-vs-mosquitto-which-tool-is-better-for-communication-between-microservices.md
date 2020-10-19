@@ -1,7 +1,5 @@
 ---
-title: >-
-  Kafka vs Mosquitto - Which Tool is Better for Communication Between
-  Microservices?
+title: Kafka vs Mosquitto - communication between microservices
 description: >-
   Recently microservices architecture is becoming more and more popular. In this
   post, we'll compare the two most popular messaging brokers - Kafka and MQTT

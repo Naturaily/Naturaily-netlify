@@ -1,7 +1,10 @@
 ---
 published: true
-title: Sales Executive
-description: We are looking for Sales Executive to help us grow our business.
+title: Sales Executive - check the job offer and apply
+description: >-
+  You need to know that we value individuality, professionalism, open communication and honesty.
+  What we expect from you is to find potential clients, initiate contact and start cooperation
+  discussions… Check the details >>
 layout: career-offer
 image: /assets/images/Sales-Executive_Job_Offer.png
 location:
@@ -151,4 +154,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 9 000 - 14 000 PLN net
 ---
-

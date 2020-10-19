@@ -1,8 +1,9 @@
 ---
-title: How to Maintain Performance with Big Datasets Using Highcharts.js and Vue
+title: Maintain performance with big datasets using Highcharts.js
 description: >-
-  Highcharts is a powerful tool that allows you to plot massive series of data
-  in a dynamic manner.
+  Used by “80% of the largest companies in the world”, Highcharts is a powerful tool that allows
+  you to plot a massive series of data in a dynamic manner. As it’s free for non-commercial use,
+  you can easily check for yourself if it’s going to suit your tastes.
 slug: big-datasets-highcharts-vue
 layout: post
 date: '2019-11-13 10:56:21 +0200'

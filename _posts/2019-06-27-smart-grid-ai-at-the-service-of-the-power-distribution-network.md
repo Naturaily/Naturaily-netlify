@@ -1,9 +1,9 @@
 ---
-title: Smart Grid - AI at the Service of the Power Distribution Network
+title: Smart grid - AI at the service of the power distribution network
 description: >-
-  The term "smart grid" describes an electrical grid that is integrated with an
-  AI-enabled, two-way communication network, helping to ensure more efficient
-  transmission of electricity and its faster restoration after power blackouts.
+  At Naturaily, we are already a part of the smart grid revolution, pushing the concept closer
+  towards global adoption. Some of our clients have realized the potential of the smart grid,
+  and are investing in smart grid management solutions.
 slug: smart-grid-ai-in-power-distribution-network
 layout: post
 twitter-card: >-
