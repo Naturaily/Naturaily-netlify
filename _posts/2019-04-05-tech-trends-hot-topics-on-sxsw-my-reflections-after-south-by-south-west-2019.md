@@ -1,7 +1,5 @@
 ---
-title: >-
-  Tech Trends & Hot Topics on SXSW. My Reflections after South by South West
-  2019
+title: Sulikowski - My Reflections after South by South West 2019
 description: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the
   biggest tech conferences around the world. Check out Marcin’s our CEO

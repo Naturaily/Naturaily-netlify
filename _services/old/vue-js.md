@@ -1,8 +1,9 @@
 ---
 title: Vue.js development
 description: >-
-  We create advanced software with Vue.js - lightweight and performant
-  applications
+  Visit our website to find out what is Vue.js, why is it worth to choose Vue.js development,
+  and how Naturaily can help you with that. Our team of Vue.js developers is ready to build
+  your digital product.
 layout: service
 permalink: /services/vue-js-development
 posts-tag: Vue js development

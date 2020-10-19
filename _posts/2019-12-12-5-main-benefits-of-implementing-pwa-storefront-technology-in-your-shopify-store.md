@@ -1,7 +1,5 @@
 ---
-title: >-
-  5 Main Benefits of Implementing PWA/storefront Technology in Your Shopify
-  Store
+title: 5 benefits of using PWA/storefront technology in Shopify store
 description: >-
   An online storefront is a frontend solution that can be connected to your
   Shopify store’s backend, letting you display the content in a smoother,

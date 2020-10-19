@@ -1,9 +1,10 @@
 ---
 published: true
-title: Ruby on Rails Developer
+title: Ruby on Rails Developer - check the job offer and apply
 description: >-
-  We are looking for talented Ruby on Rails Developer to help us build great
-  digital products.
+  Naturaily is a tech company with over 10 years of experience in ruby on rails development.
+  We have created dozens of great digital products and now we are looking for Ruby on Rails
+  Developer to help us build some more.
 layout: career-offer
 image: /assets/images/Ruby-on-Rails_Developer_Job_Offer.png
 location:
@@ -143,4 +144,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 6500 - 11 000 PLN net
 ---
-

@@ -1,8 +1,9 @@
 ---
-title: Comparison of 15 Headless CMS for JAMstack Websites
+title: Comparison of 15 headless CMS for JAMstack websites
 description: >-
-  Which Headless CMS is right for my JAMstack development? Take a look at the
-  following comparison
+  Which Headless CMS is right for my JAMstack development? Take a look at the following
+  comparison of Butter CMS, Cockpit, ContentFul, CosmicJS, Craft CMS, Dato CMS, Directus,
+  Forestry and many more.
 slug: comparison-of-15-headless-cms-for-jamstack-websites
 layout: post
 date: '2020-08-24 03:29:40 +0200'

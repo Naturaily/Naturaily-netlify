@@ -1,5 +1,5 @@
 ---
-title: What a Non-technical Person Needs to Know When Working with a Development Team
+title: Cooperation between a non-technical person and a development team
 description: >-
   Are you working with a development team for the first time? Dive in and read
   the 7 precious tips from Master Yoda himself!

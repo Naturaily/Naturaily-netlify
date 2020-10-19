@@ -1,9 +1,10 @@
 ---
 published: true
-title: Frontend Developer (Vue.js)
+title: Frontend Developer (Vue.js) - check the job offer and apply
 description: >-
-  There is one piece missing in the organization! We believe it is you,
-  Naturaily.
+  We need you to be: experienced in software development (min. 2 years), acquainted with
+  the following technologies: JS ES6+, Vue.js, HTML, CSS/SCSS, aware of front-end performance
+  optimization, eager to mentor other developers >>
 layout: career-offer
 image: /assets/images/Frontend_Developer_Vuejs_Job_Offer.png
 location:
@@ -134,4 +135,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 7500 - 13 000 PLN net
 ---
-

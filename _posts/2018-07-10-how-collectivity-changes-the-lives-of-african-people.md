@@ -1,7 +1,5 @@
 ---
-title: >-
-  How Collectivity Improves Knowledge Sharing and Co-production in the Global
-  Health Sector
+title: How Collectivity improves knowledge sharing and co-production
 description: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
   look at how Collectivity, with our help, improves knowledge sharing and

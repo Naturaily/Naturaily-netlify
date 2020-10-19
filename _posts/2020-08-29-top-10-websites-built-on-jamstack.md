@@ -1,6 +1,9 @@
 ---
-title: Top 10 Websites Built on JAMstack
-description: Here are 10 fantastic examples of JAMstack in action.
+title: Top 10 websites built on JAMstack
+description: >-
+  Here are 10 fantastic examples of JAMstack in action: Peloton, Logger MTS, Louis Vuitton,
+  Leonardo DiCaprio Foundation, TakeShape.io, Fabuwood, Right From Basics, Easyship, Ingmarson,
+  JFK Terminal 4. Learn more about each project.
 slug: top-10-websites-built-on-jamstack
 layout: post
 date: '2020-08-29 08:15:40 +0200'

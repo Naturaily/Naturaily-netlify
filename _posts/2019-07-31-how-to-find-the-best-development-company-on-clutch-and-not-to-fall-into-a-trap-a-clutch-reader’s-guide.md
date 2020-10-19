@@ -1,7 +1,5 @@
 ---
-title: >-
-  How to Find the Best Development Company on Clutch and Not to Fall Into a
-  Trap! A Clutch Reader’s Guide
+title: How to find the best development company on Clutch
 description: >-
   With several years in the industry under our belt, we feel entitled to shed
   some light on how Clutch works and offer a few tips for companies wanting to
