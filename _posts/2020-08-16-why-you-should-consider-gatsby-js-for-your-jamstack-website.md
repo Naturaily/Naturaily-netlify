@@ -1,6 +1,9 @@
 ---
-title: Why You Should Consider Gatsby JS for Your JAMstack Website
-description: Let’s explore why Gatsby and JAMstack go so well together.
+title: Why you should consider Gatsby JS for your JAMstack website
+description: >-
+  There are a number of options to choose from but, since JAMstack development focuses on lean,
+  fast loading & performance with a focus on static elements, the generator you choose becomes
+  a key driver of this process. That’s why we recommend Gatsby.
 slug: why-you-should-consider-gatsby-js-for-your-jamstack-website
 layout: post
 date: '2020-08-18 10:00:00 +0200'

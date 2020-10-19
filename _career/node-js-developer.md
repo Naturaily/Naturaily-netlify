@@ -1,9 +1,10 @@
 ---
 published: true
-title: Node.js Developer
+title: Node.js Developer - check the job offer and apply
 description: >-
-  There is one piece missing in our organization! We believe it is you,
-  Naturaily.
+  Software house is a multi-element puzzle. For seven years, we have been successfully constructing
+  the team of people with matching characters and skills, which resulted in a truly beautiful
+  picture. Only one piece is missing. We believe it is you, Naturaily.
 layout: career-offer
 image: /assets/images/Nodejs_Developer_Job_Offer.png
 location:
@@ -132,4 +133,3 @@ salaries:
       contract: (B2B)
       sum: 11 500 - 17 000 PLN net + VAT
 ---
-

@@ -1,7 +1,5 @@
 ---
-title: >-
-  The Most Common Problems of Growing Shopify Stores and How to Solve Them with
-  the Right Native or Custom Integrations
+title: Integrations - answer to most common problems of Shopify stores
 description: >-
   There are quite a few problems that are common among growing online stores.
   Some of them can be solved by implementing the right technological

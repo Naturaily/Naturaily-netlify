@@ -1,10 +1,10 @@
 ---
-title: >-
-  The 17 Things You Should Consider Before Choosing the Best Software
-  Development Company
+title: What to consider before choosing the best software development company
 description: >-
-  We take a look at the most typical objections you could have when partnering
-  with a software house.
+  Whether you’re after a team that would build your future project from scratch or looking
+  to hire an augmented team, finding a solid tech partner is always quite a challenge.
+  So we take a look at the most typical objections you could have when partnering with
+  a software house.
 slug: choosing-the-best-software-development-company
 layout: post
 twitter-card: >-

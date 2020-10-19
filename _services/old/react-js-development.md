@@ -1,8 +1,9 @@
 ---
 title: React.js development
 description: >-
-  Join us in building awesome solutions and great user experience for your
-  clients with React JS.
+  Visit our website to find out what is React.js, why is it worth to choose React.js development,
+  and how Naturaily can help you with that. Our team of React developers is ready to start
+  working with you.
 twitter-card: summary_large_image
 layout: service
 permalink: /services/react-js-development

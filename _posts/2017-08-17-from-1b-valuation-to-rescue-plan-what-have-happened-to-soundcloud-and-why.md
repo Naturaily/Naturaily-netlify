@@ -1,5 +1,5 @@
 ---
-title: From $1B Valuation to Rescue Plan. What Have Happened to SoundCloud and Why?
+title: Analysis - what have happened to SoundCloud and why?
 description: >-
   Website loved by many almost collapsed after questionable choices made by its
   management. Will SoundCloud learn from their own mistakes?

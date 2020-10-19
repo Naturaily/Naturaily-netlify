@@ -1,7 +1,5 @@
 ---
-title: >-
-  First Steps in a Wide, Vast App World. Android Developer Guidance on Showing
-  Help Screens
+title: Android developer guidance on showing help screens
 description: >-
   Creating user-friendly experience in your Android applications can be tricky
   and difficult. Luckily, this guide is here to help!

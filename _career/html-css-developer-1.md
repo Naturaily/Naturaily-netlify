@@ -1,7 +1,10 @@
 ---
 published: true
-title: HTML/ CSS Developer
-description: We are looking for experienced HTML/CSS Developer!
+title: HTML/CSS Developer - check the job offer and apply
+description: >-
+  We need you to be: commercially experienced in software development using HTML5,
+  CSS3 (min. 2 years), acquainted with Bootstrap/Foundation UI, knowledgeable about
+  HTML/CSS validation, experienced with CSS preprocessors - LESS/SASS >>
 layout: career-offer
 image: /assets/images/HTML-CSS_Developer_Job_Offer.png
 location:
@@ -30,7 +33,7 @@ what-we-expect:
   - expectation:
       contents: >-
         to work closely with Software Developers in order to create high quality
-        and usability IT systems 
+        and usability IT systems
   - expectation:
       contents: to design and implement RWD user interfaces
   - expectation:
@@ -116,7 +119,7 @@ benefits:
   - benefit:
       benefit-content: >-
         You can be a team leader in a chosen technology or you can share your
-        knowledge & experience during in-company Tech-Friday. 
+        knowledge & experience during in-company Tech-Friday.
       benefit-icon: profit-chart
       benefit-title: You will grow along with the company
 salaries:
@@ -124,4 +127,3 @@ salaries:
       contract: B2B
       sum: 5000 - 7200 PLN net + VAT
 ---
-

@@ -1,8 +1,9 @@
 ---
-title: Why You Should Use Jekyll and Netlify CMS for Your Site
+title: Why you should use Jekyll and Netlify CMS for your site
 description: >-
-  Is love at first sight even a thing? I believe it is! And our new site is a
-  result of that love.
+  We’ve started thinking about a new site quite some time ago but from the start, we had some
+  ideas of what it should look like. Here’s what we wanted: super fast loading time, scalable
+  architecture, reliable hosting, secure, easy to develop, and flexible.
 slug: why-jekyll-netlify-cms
 layout: post
 twitter-card: summary_large_image

@@ -1,6 +1,10 @@
 ---
-title: 'Collectivity case study: NGO web app development | Naturaily'
-description: Case study on developing a successful web-based app for NGO.
+title: Collectivity case study - NGO web app development | Naturaily
+description: >-
+  Collectivity is a platform that allows people from all around the world to colaborate
+  and share their professional expertise in order to improve health systems. Check out
+  our case study to see how Naturaily contributed to changing the African health
+  systems for the better.
 slug: thecollectivity
 layout: portfolio-details
 image: /assets/images/collectivity-screen-5.png
@@ -8,6 +12,7 @@ twitter-card: summary_large_image
 project-screenshot: /assets/images/collectivity.png
 project-logo: /assets/images/collectivity-logo.png
 banner-bg: /assets/images/projects-background-green.jpg
+banner-header: Case study on developing a successful web-based app for NGO.
 banner-text: >-
   Collectivity is a platform that allows people from all around the world to
   colaborate and share their professional expertise in order to improve health

@@ -81,7 +81,7 @@ Let’s use Gatsby as an example. It keeps your site as static as possible, but 
 
 We’ve already mentioned that JAMstack development tries to avoid databases as much as possible, but you still often need a CMS or some other way to store and send content to the website.
 
-Fortunately, [a headless CMS pairs well with JAMstack](https://naturaily.com/blog/comparison-of-10-headless-cms-for-jamstack-websites) - but only if it’s headless. Without the dedicated frontend, we’re free to use our static generators and convert the text - through the likes of markdown - through our own means.
+Fortunately, [a headless CMS pairs well with JAMstack](https://naturaily.com/blog/comparison-of-15-headless-cms-for-jamstack-websites) - but only if it’s headless. Without the dedicated frontend, we’re free to use our static generators and convert the text - through the likes of markdown - through our own means.
 
 ## What about Ecommerce?
 
