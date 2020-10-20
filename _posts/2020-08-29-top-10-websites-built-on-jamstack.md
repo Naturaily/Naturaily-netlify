@@ -176,4 +176,4 @@ JAMstack developers, take note: great websites don’t need to come at a cost. T
 
 Through the correct use of content management systems, site generators and a focus on web friendly technology (hello, JavaScript, Markdown and HTML!), it’s very easy to get a great looking and functionally hyper-performant website out there.
 
-[{% image /assets/images/get-an-estimate.png Get_an_estimate  %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

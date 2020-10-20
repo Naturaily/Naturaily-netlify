@@ -151,4 +151,4 @@ There’s no one right answer - if there was, this post would have only been a c
 
 We hope that helps but, of course, we can always answer any questions you might have!
 
-[{% image /assets/images/get-an-estimate.png Get_an_estimate  %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
