@@ -103,4 +103,4 @@ So there you have it, our answer for building a website in today’s competitive
 
 It’s also a great option for future expansion. Not only does it avoid hardcoding as much as possible, as it instead utilizes backend Content Delivery Networks or CMS with markdown, the performance-optimized approach means expansion (whether on-page or through new pages entirely) doesn’t immediately compound the technical issues… because said issues don’t exist in the first place!
 
-[{% image /assets/images/get-an-estimate.png Get_an_estimate  %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

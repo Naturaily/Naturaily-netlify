@@ -111,4 +111,4 @@ There you have it. We’re not saying that other generators aren’t up to the t
 
 The next time you’re developing a JAMstack project, why not give Gatsby a try?
 
-[{% image /assets/images/get-an-estimate.png Get_an_estimate  %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
