@@ -1,7 +1,7 @@
 .react-what {
   position: relative;
   width: 100%;
-  padding: 20px 0;
+  padding: 20px 0 40px;
 
   .react-step, .react-header, &__subheader, &__text {
     padding: 0 20px;
@@ -118,6 +118,18 @@
       margin: 45px 0 25px;
     }
 
+    .btn-white {
+      margin: 0;
+      margin-top: 80px;
+      padding: 50px 72px 0;
+      border-top: 2px solid $color-global-font-10;
+      cursor: pointer;
+
+      &:hover {
+        transform: none;
+      }
+    }
+
     .services__dot {
       &--secondary {
         top: 90px;
@@ -158,6 +170,10 @@
 
     &__left .react-what__text {
       max-width: 300px;
+    }
+
+    .btn-white {
+      padding: 50px 107px 0;
     }
 
     .services__dot {
