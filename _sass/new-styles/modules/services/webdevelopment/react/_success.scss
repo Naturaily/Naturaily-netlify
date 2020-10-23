@@ -1,0 +1,272 @@
+.react-success {
+  width: 100%;
+  margin: 50px 0 60px;
+
+  .react-step, &__header {
+    padding: 0 20px;
+  }
+
+  .react-step {
+    margin-bottom: 30px;
+  }
+
+  &__header {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 38.4px;
+    color: $color-global-font;
+  }
+
+  &__image {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-global-font-70;
+
+    &--narrow {
+      margin-top: 25px;
+    }
+  }
+
+  .btn-white {
+    max-width: 320px;
+    margin: 40px 0 55px -30px;
+    font-size: 11px;
+    line-height: 13px;
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+  &__carousel {
+    margin-top: 55px;
+    margin-left: 0;
+    border-top: 1px solid $color-global-font-10;
+
+    &-item {
+      display: flex;
+      flex-direction: row;
+      padding: 40px 20px 25px;
+
+      .icon {
+        width: 30px;
+        margin: 5px 50px 0 0;
+        font-size: 30px;
+        color: $color-secondary;
+      }
+    }
+
+    &-number {
+      margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      color: $color-global-font;
+    }
+
+    &-text {
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-global-font-70;
+    }
+  }
+
+  &__testimonials {
+    position: relative;
+    margin-top: 40px;
+    padding: 45px 20px 90px;
+    background-color: $color-code-grey-bg;
+
+    &-quote {
+      font-size: 16px;
+      line-height: 24px;
+      color: $color-global-font-70;
+    }
+
+    &-image {
+      padding: 30px 25px 30px 0;
+
+      img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 8px;
+      }
+    }
+
+    &-credits {
+      position: absolute;
+      bottom: 40px;
+      left: 20px;
+
+      &__person, &__position {
+        padding-left: 25px;
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      &__person {
+        position: relative;
+        font-weight: 600;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 9px;
+          left: 0;
+          width: 8px;
+          height: 8px;
+          border-radius: 100%;
+          background-color: $color-accent-yellow;
+        }
+      }
+
+      &__position {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .react-success {
+    .react-step, &__header, &__text, &__carousel-item, &__testimonials, &__image {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    .custom-carousel__nav {
+      top: 20px;
+      margin: 0;
+    }
+
+    .btn-white {
+      margin-left: 25px;
+    }
+
+    &__testimonials-credits {
+      left: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .react-success {
+    position: relative;
+    margin: 100px 0;
+
+    .react__step, &__header, &__text {
+      box-sizing: border-box;
+      width: 45%;
+      padding-right: 0;
+    }
+
+    &__header {
+      max-width: 460px;
+    }
+
+    &__text {
+      max-width: 510px;
+
+      &--narrow {
+        max-width: 330px;
+      }
+    }
+
+    &__image {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 650px;
+      padding: 0;
+    }
+
+    .btn-white {
+      max-width: 340px;
+      margin-top: 85px;
+      margin-left: 35px;
+      padding: 0;
+      padding-top: 35px;
+      border-top: 1px solid $color-global-font-10;
+    }
+
+    &__carousel {
+      display: flex;
+      flex-direction: row;
+      margin: 75px 35px 60px;
+
+      &-item {
+        width: 33%;
+        padding: 45px 10px 25px 40px;
+      }
+    }
+
+    &__testimonials {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 0;
+      padding: 40px 75px;
+
+      &-image {
+        box-sizing: border-box;
+        order: 1;
+        width: 30%;
+        padding: 0;
+      }
+
+      &-text {
+        box-sizing: border-box;
+        order: 2;
+        padding-left: 80px;
+        width: 70%;
+      }
+
+      &-credits {
+        position: static;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .react-success {
+    margin: 140px 0 150px;
+
+    &__header, &__text {
+      padding-left: 120px;
+    }
+
+    &__image {
+      width: 730px;
+    }
+
+    .btn-white {
+      margin-left: 80px;
+    }
+
+    &__carousel {
+      margin: 100px 80px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .react-success__testimonials {
+    box-sizing: border-box;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 40px 110px;
+    border-radius: 8px;
+
+    &-text {
+      padding-left: 110px;
+    }
+  }
+}

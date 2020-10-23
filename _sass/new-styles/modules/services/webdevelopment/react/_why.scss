@@ -2,11 +2,11 @@
   width: 100%;
   padding: 60px 0 30px;
 
-  .node-step, .node-header {
+  .react-step, .react-header {
     padding: 0 20px;
   }
 
-  .node-header {
+  .react-header {
     margin: 35px 0 50px;
   }
 
@@ -58,7 +58,7 @@
 
 @media (min-width: 576px) {
   .react-why {
-    .node-step, .node-header {
+    .react-step, .react-header {
       padding-left: 75px;
       padding-right: 75px;
     }
@@ -76,7 +76,7 @@
     padding: 90px 0 50px;
     overflow: hidden;
 
-    .node-header {
+    .react-header {
       max-width: 500px;
       margin: 50px 0;
     }
@@ -128,7 +128,7 @@
 
 @media (min-width: 992px) {
   .react-why {
-    .node-header {
+    .react-header {
       max-width: 600px;
       padding-left: 120px;
     }
