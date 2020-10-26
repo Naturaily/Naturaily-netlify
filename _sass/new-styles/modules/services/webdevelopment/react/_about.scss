@@ -1,7 +1,7 @@
 .react-about {
   position: relative;
   width: 100%;
-  padding: 60px 0 20px;
+  padding: 60px 0 0;
 
   &__logo {
     display: none;
@@ -12,7 +12,7 @@
   }
 
   .react-header {
-    margin: 40px 0 25px;
+    margin: 60px 0 25px;
   }
 
   &__right {
@@ -212,6 +212,10 @@
 
     &-text {
       padding-left: 110px;
+    }
+
+    &-quote {
+      margin-bottom: 100px;
     }
   }
 }

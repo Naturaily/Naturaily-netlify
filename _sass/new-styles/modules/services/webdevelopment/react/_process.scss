@@ -1,0 +1,163 @@
+.react-process {
+  width: 100%;
+  padding: 45px 0 30px;
+  background-color: $color-light-blue-bg;
+
+  .react-step, .react-header, &__text {
+    padding: 0 20px;
+  }
+
+  .react-header {
+    margin: 25px 0 30px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-global-font-70;
+  }
+
+  &__box {
+    margin-top: 60px;
+    padding: 35px 10px;
+    background-color: $color-white;
+    color: $color-global-font;
+
+    &-text {
+      padding: 0 10px;
+      font-size: 18px;
+      line-height: 25px;
+
+      p {
+        max-width: 180px;
+      }
+
+      &__list {
+        margin: 40px 0 30px;
+        padding-left: 50px;
+
+        li {
+          position: relative;
+          font-size: 14px;
+          line-height: 28px;
+          opacity: 0.7;
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 12px;
+            left: -25px;
+            height: 5px;
+            width: 5px;
+            background-color: $color-secondary;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+
+    &-cover img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+
+  .services__dot {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .react-process {
+    .react-step, .react-header, &__text {
+      padding: 0 75px;
+    }
+
+    &__box {
+      margin: 50px 75px 0;
+      padding: 30px;
+      border-radius: 8px;
+
+      &-text {
+        margin-top: 30px;
+      }
+
+      &-cover img {
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .react-process {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    .react-header {
+      margin-top: 40px;
+      max-width: 780px;
+    }
+
+    &__text {
+      max-width: 725px;
+    }
+
+    &__box {
+      display: flex;
+      align-items: center;
+
+      &-text, &-cover {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-cover {
+        transition: transform .2s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .react-process {
+    position: relative;
+
+    .react-header, &__text {
+      padding-left: 120px;
+    }
+    &__box {
+      margin: 50px 120px 0;
+      padding-left: 90px;
+    }
+
+    .services__dot {
+      display: block;
+
+      &--secondary {
+        top: 250px;
+        right: 60px;
+      }
+
+      &--blue {
+        top: 320px;
+        left: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .react-process {
+    border-radius: 8px;
+
+    &__wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+  }
+}
