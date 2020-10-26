@@ -1,6 +1,6 @@
 .react-success {
   width: 100%;
-  margin: 50px 0 60px;
+  margin: 50px 0 0;
 
   .react-step, &__header {
     padding: 0 20px;
@@ -159,6 +159,7 @@
   .react-success {
     position: relative;
     margin: 100px 0;
+    padding: 0;
 
     .react__step, &__header, &__text {
       box-sizing: border-box;
