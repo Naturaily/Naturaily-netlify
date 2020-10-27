@@ -1,0 +1,192 @@
+.react-examples {
+  padding: 65px 0 60px;
+  background-color: $color-code-orange-bg;
+
+  .react-step, &__text {
+    padding: 0 20px;
+  }
+
+  .react-header {
+    padding: 40px 20px 30px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-global-font-70;
+  }
+
+  &__carousel {
+    position: relative;
+    width: 100vw;
+    padding: 45px 0 35px;
+
+    &-tabs {
+      display: flex;
+      position: relative;
+      width: 210vw;
+      height: 100%;
+    }
+
+    .custom-carousel__tabs-tab {
+      box-sizing: border-box;
+      width: 70vw;
+      min-width: 70vw;
+      padding: 0 20px;
+    }
+
+    .icon {
+      font-size: 65px;
+      color: $color-secondary;
+    }
+
+    &-image {
+      width: 200px;
+      height: 45px;
+      margin: 60px 0 35px;
+    }
+
+    &-text, &-list li {
+      font-size: 16px;
+      line-height: 24px;
+      color: $color-global-font;
+    }
+
+    &-text {
+      padding-top: 20px;
+    }
+
+    &::after, &-bar {
+      position: absolute;
+      bottom: 0;
+    }
+
+    &::after {
+      content: "";
+      transform: translateY(-1px);
+      width: 100%;
+      height: 1px;
+      background-color: $color-global-font-10;
+    }
+
+    &-bar {
+      width: 20%;
+      height: 3px;
+      background-color: $color-secondary;
+    }
+  }
+
+  .react-link {
+    width: 270px;
+    margin: 30px 20px 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .react-examples {
+    width: 100%;
+    padding-top: 75px;
+
+    .react-step, .react-header, &__text {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    &__carousel {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 50px 50px 0;
+
+      &-tabs {
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        margin: 0 -20px;
+        padding: 0 25px;
+      }
+
+      .custom-carousel__tabs-tab {
+        flex: 0 0 auto;
+        width: 50%;
+        min-width: auto;
+        padding-bottom: 40px;
+      }
+
+      &::after, &-bar {
+        display: none;
+      }
+    }
+
+    .react-link {
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .react-examples {
+    .react-step-number {
+      display: inline-block;
+    }
+
+    .react-header, &__text {
+      max-width: 720px;
+    }
+
+    .custom-carousel__tabs-tab {
+      width: 33%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .react-examples {
+    padding: 100px 0;
+
+    .react-header, &__text {
+      padding-left: 120px;
+    }
+
+    &__carousel {
+      padding-left: 100px;
+
+      .custom-carousel__tabs-tab {
+        width: 20%;
+        padding-bottom: 20px;
+      }
+
+      &-text {
+        width: 150px;
+        height: 45px;
+      }
+    }
+
+    .react-link {
+      margin-left: 120px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .react-examples {
+    border-radius: 8px;
+
+    &__wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &__carousel {
+      padding-right: 95px;
+
+      &-tabs {
+        padding: 0;
+      }
+
+      .custom-carousel__tabs-tab {
+        padding: 0 40px 40px;
+      }
+    }
+  }
+}

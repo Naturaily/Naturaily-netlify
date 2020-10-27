@@ -16,6 +16,10 @@
 /blog/authors/Michał-Kosyk                                   /blog/authors/michal-kosyk/
 /blog/authors/Weronika-Nużyńska                              /blog/authors/weronika-nuzynska/
 
+# Pages redirects
+
+/services/react-js-development                               /services/webdevelopment/react-js-development
+
 # Temporary
 
 /portfolio/work-for-impact                                   /portfolio
