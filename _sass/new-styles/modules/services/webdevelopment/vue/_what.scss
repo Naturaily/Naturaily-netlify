@@ -1,0 +1,206 @@
+.vue-what {
+  position: relative;
+  width: 100%;
+  padding: 65px 0 40px;
+
+  .vue-step, .vue-header, &__intro, &__text {
+    padding: 0 20px;
+  }
+
+  .vue-header {
+    margin: 40px 0 60px;
+  }
+
+  &__subheader {
+    margin: 35px 0;
+    font-size: 24px;
+    line-height: 36px;
+    color: $color-global-font;
+
+    br {
+      display: none;
+    }
+  }
+
+  &__intro, &__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-global-font-70;
+  }
+
+  &__text {
+    margin-top: 35px;
+
+    &--more {
+      display: none;
+      margin-top: 25px;
+    }
+  }
+
+  .btn-white {
+    margin: 50px 0 0 -7px;
+    padding-top: 35px;
+    font-size: 11px;
+    line-height: 13px;
+    border-top: 1px solid $color-global-font-10;
+
+    &--invisible {
+      display: none;
+    }
+  }
+
+  .services__dot {
+    z-index: -1;
+
+    &--secondary {
+      top: 50%;
+      right: 150px;
+    }
+
+    &--yellow {
+      top: 200px;
+      right: 40px;
+    }
+
+    &--blue {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .vue-what {
+    .vue-step, .vue-header, &__intro, &__text {
+      padding: 0 75px;
+    }
+
+    .btn-white {
+      margin-left: 47px;
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 320px;
+      }
+
+      &--yellow {
+        top: 100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .vue-what {
+    padding: 90px 0;
+
+    .vue-header, .vue-what__text {
+      padding-right: 10px;
+    }
+
+    .vue-what__text {
+      margin-top: 150px;
+      padding-left: 40px;
+
+      &--more {
+        margin-top: 25px;
+      }
+    }
+
+    &__wrapper {
+      display: flex;
+    }
+
+    &__left {
+      width: 45%;
+    }
+
+    &__right {
+      width: 55%;
+    }
+
+    &__header {
+      margin-bottom: 82px;
+    }
+
+    &__subheader {
+      margin: 45px 0 25px;
+    }
+
+    .btn-white {
+      margin: 0;
+      margin-top: 80px;
+      padding: 50px 72px 0;
+      cursor: pointer;
+
+      &:hover {
+        transform: none;
+      }
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 90px;
+      }
+
+      &--yellow {
+        top: 290px;
+      }
+
+      &--blue {
+        display: block;
+        top: 325px;
+        left: 370px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .vue-what {
+    padding: 180px 0;
+
+    .vue-header, .vue-what__intro {
+      padding-left: 120px;
+    }
+
+    .vue-what__text {
+      max-width: 450px;
+      padding-left: 35px;
+    }
+
+    .btn-white {
+      padding: 50px 107px 0;
+    }
+
+    .services__dot {
+      &--secondary {
+        top: 150px;
+      }
+
+      &--yellow {
+        right: -75px;
+      }
+
+      &--blue {
+        left: 420px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .vue-what {
+    &__left {
+      width: 40%;
+    }
+
+    &__right {
+      width: 60%;
+    }
+
+    .vue-what__text {
+      max-width: 580px;
+    }
+  }
+}
