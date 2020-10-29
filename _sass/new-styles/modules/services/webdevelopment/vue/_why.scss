@@ -1,0 +1,155 @@
+.vue-why {
+  width: 100%;
+  padding: 80px 0 40px;
+
+  .vue-step, .vue-header {
+    padding: 0 20px;
+  }
+
+  .vue-header {
+    margin: 35px 0 50px;
+  }
+
+  .services-faq {
+    &__list {
+      margin-top: 60px;
+    }
+
+    &__item {
+      position: relative;
+      padding: 30px 10px 45px 0;
+      margin: 0;
+      margin-left: 20px;
+    }
+
+    &__number {
+      position: absolute;
+      top: 37px;
+      color: $color-page-text-grey;
+    }
+
+    &__header {
+      margin: 0;
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: 200;
+
+      svg {
+        fill: $color-secondary;
+      }
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-global-font;
+      opacity: 0.5;
+    }
+
+    &__orange-arrow {
+      top: 15px;
+    }
+  }
+
+  .geometric-figure {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .vue-why {
+    .vue-step, .vue-header {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    .services-faq__item {
+      margin-left: 75px;
+      padding-right: 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .vue-why {
+    position: relative;
+    padding: 80px 0;
+    overflow: hidden;
+
+    .vue-header {
+      max-width: 500px;
+      margin: 50px 0;
+    }
+
+    .services-faq {
+      &__list {
+        margin: 0;
+        padding: 0 75px;
+      }
+
+      &__item {
+        padding: 30px 0 60px;
+      }
+
+      &__number {
+        top: 35px;
+        margin-top: 0;
+      }
+
+      &__header {
+        width: 180px;
+        min-width: 180px;
+        padding-left: 100px;
+        padding-right: 40px;
+      }
+
+      &__orange-arrow {
+        display: none;
+      }
+    }
+
+    .geometric-figure {
+      display: flex;
+      top: -170px;
+      right: 65px;
+
+      &_center, &_right::after {
+        width: 280px;
+        height: 280px;
+      }
+
+      &_right {
+        height: 280px;
+        width: 140px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .vue-why {
+    .vue-header {
+      max-width: 600px;
+      padding-left: 120px;
+    }
+
+    .services-faq__list {
+      padding-left: 225px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .vue-why {
+    margin: 0;
+
+    &__wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .services-faq__text {
+      padding-right: 25px;
+    }
+  }
+}
