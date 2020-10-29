@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
-  const $triggerBtn = $('#reactMoreTrigger');
-  const $hiddenText = $('#reactMoreText');
+  const $triggerBtn = $('#webdevelopmentMoreTrigger');
+  const $hiddenText = $('#webdevelopmentMoreText');
 
   $triggerBtn.click(() => {
     $triggerBtn.addClass('btn-white--invisible');
