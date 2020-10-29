@@ -1,0 +1,283 @@
+.vue-success {
+  width: 100%;
+  padding: 60px 0 0;
+
+  .vue-step, &__header {
+    padding: 0 20px;
+  }
+
+  .vue-step {
+    margin-bottom: 30px;
+
+    &__number {
+      display: none;
+    }
+  }
+
+  &__header {
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 42.4px;
+    font-weight: 400;
+    color: $color-global-font;
+  }
+
+  &__image {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: $color-page-text;
+
+    &--narrow {
+      margin-top: 25px;
+    }
+  }
+
+  .btn-white {
+    max-width: 320px;
+    margin: 60px 0 55px -30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 11px;
+    line-height: 13px;
+    border-top: 1px solid $color-global-font-10;
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+  &__testimonial {
+    position: relative;
+    margin-top: 40px;
+    padding: 80px 20px 60px;
+    background-color: $color-light-orange-bg;
+
+    .vue-step, .vue-header {
+      display: none;
+    }
+
+    &-quote {
+      &__text {
+        font-size: 28px;
+        line-height: 40px;
+        color: $color-global-font;
+
+        &--secondary, &--secondary-mobile {
+          color: $color-secondary;
+        }
+
+        &--desktop {
+          display: none;
+        }
+      }
+    }
+
+    &-credits {
+      margin-top: 25px;
+
+      &__person, &__position {
+        padding-left: 25px;
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      &__person {
+        position: relative;
+        font-weight: 600;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 9px;
+          left: 0;
+          width: 8px;
+          height: 8px;
+          border-radius: 100%;
+          background-color: $color-accent-yellow;
+        }
+      }
+
+      &__position {
+        opacity: 0.5;
+      }
+    }
+
+    &-image {
+      position: relative;
+      left: -90px;
+      width: 280vw;
+      max-width: 1200px;
+      margin: 45px 0 50px;
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 28.8px;
+      color: $color-page-text;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .vue-success {
+    .vue-step, &__header, &__text, &__image, &__testimonial {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    .btn-white {
+      margin-left: 25px;
+    }
+
+    &__testimonial-image {
+      left: 0;
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .vue-success {
+    position: relative;
+    padding: 0;
+
+    .vue__step, &__header, &__text {
+      box-sizing: border-box;
+      width: 45%;
+      padding-right: 0;
+    }
+
+    .vue-step__number {
+      display: inline-block;
+    }
+
+    &__wrapper {
+      margin: 100px 0;
+    }
+
+    &__header {
+      margin-bottom: 40px;
+      font-weight: 200;
+    }
+
+    &__text {
+      max-width: 550px;
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-global-font-70;
+    }
+
+    &__image {
+      position: absolute;
+      top: 110px;
+      left: 50%;
+      width: 600px;
+      padding: 0;
+    }
+
+    .btn-white {
+      max-width: 340px;
+      margin-top: 85px;
+      margin-left: 35px;
+      padding: 0;
+      padding-top: 35px;
+      border-top: 1px solid $color-global-font-10;
+    }
+
+    &__testimonial {
+      padding: 90px 75px 100px;
+      background-color: $color-code-orange-bg;
+
+      .vue-step, .vue-header {
+        display: block;
+      }
+
+      .vue-step {
+        margin-bottom: 40px;
+        padding-left: 0;
+      }
+
+      &-content {
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      &-image {
+        order: 1;
+        margin: 70px 0 55px;
+      }
+
+      &-quote {
+        order: 2;
+        width: 40%;
+
+        &__text--desktop {
+          display: inline;
+        }
+
+        &__text--secondary-mobile {
+          color: $color-global-font;
+        }
+      }
+
+      &-credits {
+        margin-top: 35px;
+      }
+
+      &-text {
+        box-sizing: border-box;
+        order: 3;
+        width: 60%;
+        padding-left: 50px;
+
+        &--mobile {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .vue-success {
+    &__wrapper {
+      max-width: 1280px;
+      margin: 160px auto 180px;
+    }
+
+    &__header, &__text {
+      padding-left: 120px;
+    }
+
+    &__image {
+      width: 620px;
+    }
+
+    .btn-white {
+      margin-left: 80px;
+    }
+
+    &__testimonial {
+      border-radius: 8px;
+
+      .vue-step, .vue-header, &-content {
+        max-width: 1050px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 45px;
+      }
+
+      &-text {
+        padding-left: 90px;
+      }
+    }
+  }
+}
