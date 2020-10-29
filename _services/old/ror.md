@@ -88,7 +88,7 @@ competences:
       tech-image: /assets/images/services/webdevelopment/pwa-logo.png
   - competence:
       tech-name: Vue
-      tech-link: https://naturaily.com/services/vue-js-development
+      tech-link: https://naturaily.com/services/webdevelopment/vue-js-development
       tech-image: /assets/images/vue-logo.png
   - competence:
       tech-name: React
