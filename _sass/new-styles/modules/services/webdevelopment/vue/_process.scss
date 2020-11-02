@@ -1,0 +1,160 @@
+.vue-process {
+  width: 100%;
+  padding: 90px 0 55px;
+  background-color: $color-light-blue-bg;
+
+  .vue-step, .vue-header, &__text {
+    padding: 0 20px;
+  }
+
+  .vue-header {
+    margin: 60px 0 40px;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-global-font-70;
+  }
+
+  &__box {
+    margin-top: 60px;
+    padding-top: 70px;
+    background-color: $color-white;
+    color: $color-global-font;
+
+    &-text {
+      padding: 0 20px;
+      font-size: 18px;
+      line-height: 25px;
+
+      &__header {
+        max-width: 180px;
+        font-weight: 200;
+      }
+
+      &__list {
+        margin: 45px 0 30px;
+        padding-left: 30px;
+
+        li {
+          position: relative;
+          font-size: 14px;
+          line-height: 28px;
+          opacity: 0.7;
+
+          &::before {
+            content: "";
+            position: absolute;
+            top: 12px;
+            left: -25px;
+            height: 5px;
+            width: 5px;
+            background-color: $color-secondary;
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+
+    &-cover img {
+      width: 100%;
+    }
+  }
+
+  .services__dot {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .vue-process {
+    .vue-step, .vue-header, &__text {
+      padding: 0 75px;
+    }
+
+    &__box {
+      margin: 50px 75px 0;
+      padding: 30px;
+      border-radius: 8px;
+
+      &-text {
+        margin-top: 30px;
+      }
+
+      &-cover img {
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .vue-process {
+    .vue-header {
+      margin-top: 40px;
+      max-width: 500px;
+    }
+
+    &__text {
+      max-width: 725px;
+    }
+
+    &__box {
+      display: flex;
+      align-items: center;
+
+      &-text, &-cover {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-cover {
+        transition: transform .2s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .vue-process {
+    position: relative;
+
+    .vue-header, &__text {
+      padding-left: 120px;
+    }
+    &__box {
+      margin: 50px 120px 0;
+      padding-left: 90px;
+    }
+
+    .services__dot {
+      display: block;
+
+      &--secondary {
+        top: 300px;
+        right: 60px;
+      }
+
+      &--blue {
+        top: 370px;
+        left: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .vue-process {
+    border-radius: 8px;
+
+    &__wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+  }
+}
