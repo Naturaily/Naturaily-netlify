@@ -11,8 +11,8 @@ category: Ruby on Rails development
 authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
-  value: author-1
   slug: wojciech-mista
+  value: author-1
 image: /assets/images/ror_doa_2019.png
 text-preview: >-
   Let’s face it. Ruby on Rails is old. Really old. But judging by the changes
@@ -104,7 +104,10 @@ According to data gathered by Infinium, Fewer and fewer Gems are being created e
 
 Well, quite a lot actually.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is pretty amazing. Both GitHub and Shopify are huge, billion dollar companies running on the original apps made over a decade ago. And they now both on the latest Rails, helping to push the framework forward 🙏🌟👏 <a href="https://t.co/DsWqCjyFjK">https://t.co/DsWqCjyFjK</a></p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/1030528476250562569?ref_src=twsrc%5Etfw">August 17, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> "This is pretty amazing. Both GitHub and Shopify are huge, billion dollar companies running on the original apps made over a decade ago. And they now both on the latest Rails, helping to push the framework forward 🙏🌟👏"
+> [https://t.co/DsWqCjyFjK](https://t.co/DsWqCjyFjK){:rel="nofollow"}{:target="_blank"}
+>
+> ~DHH (@dhh), [August 17, 2018](https://twitter.com/dhh/status/1030528476250562569?ref_src=twsrc%5Etfw){:rel="nofollow"}{:target="_blank"}
 
 Currently **GitHub** has over 22 million users and a whooping 61 million repositories worldwide. Wow. It is the biggest code repository in the world.
 
@@ -234,7 +237,10 @@ It wasn’t all that great. The development team run into some challenges. They 
 
 **Future of Ruby Language**
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Link: Ruby is alive and well and thinking about the next 25 years | TechRadar: <a href="https://t.co/ywNBrVjabC">https://t.co/ywNBrVjabC</a></p>&mdash; Yukihiro Matsumoto (@yukihiro_matz) <a href="https://twitter.com/yukihiro_matz/status/978646733927297024?ref_src=twsrc%5Etfw">March 27, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> "Link: Ruby is alive and well and thinking about the next 25 years."
+> TechRadar: [https://t.co/ywNBrVjabC](https://t.co/ywNBrVjabC){:rel="nofollow"}{:target="_blank"}
+>
+> ~Yukihiro Matsumoto (@yukihiro_matz), [March 27, 2018](https://twitter.com/yukihiro_matz/status/978646733927297024?ref_src=twsrc%5Etfw){:rel="nofollow"}{:target="_blank"}
 
 Few years back, Yukihiro ‘Matz’ Matsumoto - The creator of Ruby programming language, has announced that he’s working on the new version of Ruby code-named ‘3x3’. It is supposedly going to be 3-times faster than Ruby 2.0. Unfortunately, the release date is unknown. It is believed that this version is scheduled to be released by the end of 2020.
 
