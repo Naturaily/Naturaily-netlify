@@ -1,0 +1,117 @@
+.vue-about {
+  position: relative;
+  width: 100%;
+  padding: 60px 0 0;
+
+  &__logo {
+    display: none;
+  }
+
+  .vue-step, .vue-header, &__right {
+    padding: 0 20px;
+  }
+
+  .vue-header {
+    margin: 60px 0 25px;
+  }
+
+  &__right {
+    margin-bottom: 15px;
+    color: $color-global-font;
+
+    &-header {
+      margin-bottom: 40px;
+      font-size: 24px;
+      line-height: 34px;
+      font-weight: 200;
+    }
+
+    &-text {
+      font-size: 14px;
+      line-height: 24px;
+      opacity: 0.7;
+    }
+  }
+
+  .carousel-partners {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .vue-about {
+    padding-bottom: 0;
+
+    .vue-step, .vue-header, &__right, &__testimonials {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    &__wrapper {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .vue-about {
+    padding-top: 100px;
+
+    &__logo {
+      display: block;
+      margin-left: 75px;
+    }
+
+    &__wrapper {
+      display: flex;
+      margin-bottom: 80px;
+    }
+
+    &__left, &__right {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &__right {
+      margin: 47px 0 0;
+      padding-left: 50px;
+
+      &-text {
+        padding-bottom: 15px;
+      }
+    }
+
+    .vue-header {
+      max-width: 390px;
+      padding-right: 25px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .vue-about {
+    padding-top: 150px;
+
+    .vue-header {
+      padding-left: 120px;
+    }
+
+    &__logo {
+      margin-left: 120px;
+    }
+
+    &__right {
+      padding-left: 0;
+    }
+
+    .carousel-partners {
+      margin: 0 80px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .vue-about .carousel-partners__tabs-tab__image img {
+    max-width: 110px;
+  }
+}
