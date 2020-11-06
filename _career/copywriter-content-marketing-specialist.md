@@ -1,6 +1,7 @@
 ---
 published: true
-title: Copywriter & Content Marketing Specialist
+title: Copywriter & Content Marketing Specialist - don’t wait - apply
+short-title: Copywriter & Content Marketing Specialist
 description: >-
   We are looking for Copywriter & Content Marketing Specialist to help us create
   valuable content for our website and social media channels.
@@ -32,7 +33,7 @@ about-right: >-
   If your application touches our hearts, expect:
 
 
-  1. A phone call from Jakub, our Head of Marketing & Growth 
+  1. A phone call from Jakub, our Head of Marketing & Growth
 
 
   2. A face-to-face meeting with the Jakub & board -  we have to get to know
@@ -151,4 +152,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 5 000 - 7 000 PLN net
 ---
-

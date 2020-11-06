@@ -84,7 +84,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Published", name: "published", widget: "boolean", default: true}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title(optimally 50-60 characters)", name: "title", widget: "string"}
+      - {label: "Short Title", name: "short-title", widget: "string"}
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "career-offer"}
       - {label: "Meta Image", name: "image", widget: "image", required: false}

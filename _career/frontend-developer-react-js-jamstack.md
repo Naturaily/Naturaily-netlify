@@ -1,6 +1,7 @@
 ---
 published: true
-title: 'Frontend Developer (React.js, JAMstack)'
+title: Frontend Developer (React.js, JAMstack) - don’t wait - apply
+short-title: Frontend Developer (React.js, JAMstack)
 description: >-
   We are looking for Frontend Developer to help us build websites and e-commerce
   stores using modern technology that gives a SEO advantage and great user
@@ -34,7 +35,7 @@ what-we-expect:
   - expectation:
       contents: >-
         Development of fast and safe websites  & progressive web apps (JAMstack
-        based) 
+        based)
   - expectation:
       contents: 'Development of  beautiful, award-winning websites with React'
   - expectation:
@@ -172,4 +173,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 8000 - 12 000 PLN net
 ---
-

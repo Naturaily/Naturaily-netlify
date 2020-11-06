@@ -1,6 +1,7 @@
 ---
 published: true
 title: Ruby on Rails Developer - check the job offer and apply
+short-title: Ruby on Rails Developer
 description: >-
   Naturaily is a tech company with over 10 years of experience in ruby on rails development.
   We have created dozens of great digital products and now we are looking for Ruby on Rails
