@@ -1,6 +1,7 @@
 ---
 published: true
 title: Frontend Developer (Vue.js) - check the job offer and apply
+short-title: Frontend Developer (Vue.js)
 description: >-
   We need you to be: experienced in software development (min. 2 years), acquainted with
   the following technologies: JS ES6+, Vue.js, HTML, CSS/SCSS, aware of front-end performance
