@@ -1,6 +1,7 @@
 ---
 published: true
 title: Junior Node.js Developer - check the job offer and apply
+short-title: Junior Node.js Developer
 description: >-
   We need you to be: commercially experienced in backend development (at least 6 months),
   familiar with ES6/TypeScript, experienced in using SQL databases, experienced in using git >>

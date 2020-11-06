@@ -1,6 +1,7 @@
 ---
 published: true
 title: Sales Executive - check the job offer and apply
+short-title: Sales Executive
 description: >-
   You need to know that we value individuality, professionalism, open communication and honesty.
   What we expect from you is to find potential clients, initiate contact and start cooperation
