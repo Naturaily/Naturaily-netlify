@@ -58,7 +58,8 @@
   {% elsif page.url contains 'blog/tags' %}
     <link rel="canonical" href='/blog/tags/{{ page.filter_tag | replace: " ", "-" | downcase }}/'/>
   {% elsif paginator.previous_page %}
-    <link rel="canonical" href="/blog/" />
+    <meta name="robots" content="index"/>
+    <link rel="canonical" href="/blog/"/>
   {% endif %}
 
 </head>
