@@ -28,7 +28,7 @@
 
   &-text {
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     font-size: 18px;
     line-height: 26px;
     color: $color-black;
@@ -63,7 +63,7 @@
     &__options {
       display: flex;
       flex-flow: row wrap;
-      margin: 15px -5px 35px;
+      margin: 15px -5px 20px;
     }
 
     &__option {
@@ -82,6 +82,12 @@
         &--checked {
           background-color: $color-white;
           box-shadow: 0 0 6px $color-estimate-shadow;
+
+          .estimate-form__option-label__color {
+            fill: $color-secondary;
+            fill-opacity: 1;
+            opacity: 1;
+          }
         }
       }
 
@@ -90,6 +96,11 @@
         flex-direction: column;
         align-items: center;
         cursor: pointer;
+
+        &__color {
+          fill: $color-estimate-shadow;
+          transition: .2s;
+        }
 
         svg {
           margin-bottom: 25px;
@@ -114,6 +125,12 @@
       &:hover .estimate-form__option-wrapper {
         background-color: $color-white;
         box-shadow: 0 0 6px $color-estimate-shadow;
+
+        .estimate-form__option-label__color {
+          fill: $color-secondary;
+          fill-opacity: 1;
+          opacity: 1;
+        }
       }
     }
 
@@ -124,9 +141,10 @@
 
       &-label {
         display: block;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         font-size: 18px;
         line-height: 32px;
+        font-weight: 500;
         color: $color-black;
 
         span {
@@ -163,25 +181,47 @@
       }
 
       &-privacy {
-        margin-top: 15px;
+        margin-top: 20px;
         font-size: 12px;
         line-height: 15px;
         font-weight: 400;
         color: $color-black;
 
         &__link {
+          background-image: linear-gradient(120deg, $color-estimate-accent 0%, $color-estimate-accent 100%);
+          background-position: 0 100%;
+          background-repeat: no-repeat;
+          background-size: 100% 1px;
           color: $color-estimate-accent;
+          transition: .2s;
+
+          &:hover {
+            background-size: 100% 88%;
+            color: $color-white
+          }
         }
 
         .btn-primary.btn-arrow {
-          margin: 15px 0 50px;
+          width: 210px;
+          margin: 20px 0 50px;
+          padding: 19px;
+          padding-left: 40px;
+          font-size: 13px;
+          box-shadow: 0 8px 24px 0 $color-estimate-btn-shadow;
         }
       }
     }
   }
 
   &-contact {
+    margin-bottom: 75px;
+
+    &__field {
+      margin-bottom: 15px;
+    }
+
     &__method {
+      margin-bottom: 5px;
       font-size: 14px;
       line-height: 26px;
       color: $color-estimate-text;
@@ -190,10 +230,30 @@
     &__link {
       font-size: 28px;
       line-height: 26px;
+      font-weight: 500;
+      color: $color-black;
+      transition: .2s;
 
       &:hover {
-        color: $color-estimate-text;
+        color: $color-estimate-accent;
       }
+    }
+  }
+
+  &-dot {
+    width: 22px;
+    height: 22px;
+
+    &--secondary {
+      background-color: $color-secondary;
+    }
+
+    &--yellow {
+      background-color: $color-accent-yellow;
+    }
+
+    &--green {
+      background-color: $color-estimate-dot-green;
     }
   }
 
@@ -244,6 +304,68 @@
 
     &:hover .estimate-form__option-radio {
       border-color: $color-estimate-light-shadow;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .estimate {
+    &-intro, &-form {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    &-form__option-label span {
+      height: 18px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .estimate {
+    &-form {
+      &__option {
+        width: 25%;
+
+        &-label span {
+          height: 30px;
+        }
+      }
+
+      &__data {
+        &-personal {
+          display: flex;
+
+          &__item {
+            box-sizing: border-box;
+            width: 50%;
+
+            &:first-of-type {
+              padding-right: 15px;
+            }
+
+            &:last-of-type {
+              padding-left: 15px;
+            }
+          }
+        }
+
+        &-privacy {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 30px;
+          margin-bottom: 30px;
+
+          &__text {
+            max-width: 330px;
+          }
+
+          .btn-primary.btn-arrow {
+            margin: 0;
+          }
+        }
+      }
     }
   }
 }
