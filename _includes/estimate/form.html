@@ -1,14 +1,66 @@
 <div class="l-content">
-  <div class="estimate_form-wrapper">
+  <div class="estimate_steps-header">
+    <div class="estimate_steps-text">
+      <h1>Let's do this</h1>
+      <p class="estimate_steps-text-desc">
+        Fill out this simple form. Our team will contact you promptly to discuss next steps.
+      </p>
+    </div>
+  </div>
+  <div class="estimate_steps" data-estimate="">
+    <div class="estimate_steps-step step-want">
+      <p class="estimate_steps-step-header">I'm interested in</p>
+      <p>*pick one or more</p>
+      <input
+        class="checkbox"
+        type="checkbox"
+        name="want"
+        value="Develop a new project"
+        id="Develop"
+        autocomplete="off"
+      />
+      <label class="checkbox-label estimate_steps-option" for="Develop">
+        Development
+        <span class="icon"></span>
+      </label>
+      <input
+        class="checkbox"
+        type="checkbox"
+        name="want"
+        value="Improve an existing project"
+        id="Improve"
+        autocomplete="off"
+      />
+      <label class="checkbox-label estimate_steps-option" for="Improve">
+        Design
+        <span class="icon"></span>
+      </label>
+      <input
+        class="checkbox"
+        type="checkbox"
+        name="want"
+        value="Expand my development team"
+        id="Expand"
+        autocomplete="off"
+      />
+      <label class="checkbox-label estimate_steps-option" for="Expand">
+        Development + design
+        <span class="icon"></span>
+      </label>
+      <input
+        class="checkbox"
+        type="checkbox"
+        name="want"
+        value="Other"
+        id="WantOther"
+        autocomplete="off"
+      />
+      <label class="checkbox-label estimate_steps-option" for="WantOther">
+        Other
+        <span class="icon"></span>
+      </label>
+    </div>
     <div id="estimationForm" class="estimate_form">
-      <div class="estimate_form-left">
-        <h2 class="banner-text">
-          Leave
-          <br>
-          some details
-        </h2>
-        <p> about yourself and your project</p>
-      </div>
       <div class="estimate_form-right">
         <!-- <script id="jotForm" type="text/javascript" src="https://form.jotformeu.com/jsform/91251977229364?estimateFields=puste"></script> -->
         {% include estimate/jotform.html %}
