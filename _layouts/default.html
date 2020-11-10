@@ -13,9 +13,12 @@
       {{ content }}
 
     </div>
-    <div class="l-footer">
-      {% include footer.html %}
-    </div>
+
+    {% unless page.url contains "/get-an-estimate" %}
+      <div class="l-footer">
+        {% include footer.html %}
+      </div>
+    {% endunless %}
 
     <script src="/assets/js/jquery-3.5.0.min.js"></script>
     <script src="/assets/js/slick.min.js"></script>

@@ -40,9 +40,13 @@
       </div>
     </nav>
   </div>
-  <div class="header-right">
-    <a href="/get-an-estimate" class="btn btn-secondary header-btn">get an estimate</a>
-  </div>
+
+  {% unless page.url contains "/get-an-estimate" %}
+    <div class="header-right">
+      <a href="/get-an-estimate" class="btn btn-secondary header-btn">get an estimate</a>
+    </div>
+  {% endunless %}
+
 </nav>
 
 <script type="text/javascript">
