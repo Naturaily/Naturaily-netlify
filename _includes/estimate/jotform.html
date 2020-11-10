@@ -47,7 +47,7 @@
 </script>
 
 <form
-	class="jotform-form"
+	class="jotform-form estimate-form__data"
 	action="https://submit.jotformeu.com/submit/91251977229364/"
 	method="post"
 	name="form_91251977229364"
@@ -55,83 +55,123 @@
 	accept-charset="utf-8"
 >
   <input type="hidden" name="formID" value="91251977229364"/>
-  <div role="main" class="form-all">
+  <div role="main" class="form-all estimate-form__data-wrapper">
 		<div class="form-section page-section">
-    	<div class="inputs-wrap">
-      	<div class="form-line form-line-column jf-required" data-type="control_textbox" id="id_1">
-        	<label class="form-label form-label-top" id="label_1" for="input_1">
-          <span class="form-required">*</span>
-        </label>
-        <div id="cid_1" class="form-input-wide jf-required">
-          <input
-						type="text"
-						id="input_1"
-						name="q1_estimate_name"
-						data-type="input-textbox"
-						class="form-textbox validate[required]"
-						size="20"
-						value=""
-						placeholder="Your name"
-						data-component="textbox"
+    	<div class="inputs-wrap estimate-form__data-personal">
+      	<div
+					class="form-line form-line-column jf-required estimate-form__data-personal__item"
+					data-type="control_textbox"
+					id="id_1"
+				>
+        	<label
+						class="form-label form-label-top estimate-form__data-label"
+						id="label_1"
+						for="input_1"
+					>
+						Name<span>*</span>
+        	</label>
+	        <div id="cid_1" class="form-input-wide jf-required form-label form-label-top">
+	          <input
+							type="text"
+							id="input_1"
+							name="q1_estimate_name"
+							data-type="input-textbox"
+							class="form-textbox validate[required] estimate-form__data-input"
+							size="20"
+							value=""
+							placeholder="Your name"
+							data-component="textbox"
+							required=""
+							autocomplete="off"
+						/>
+	        </div>
+      	</div>
+	      <div
+					class="form-line form-line-column jf-required estimate-form__data-personal__item"
+					data-type="control_textbox"
+					id="id_2"
+				>
+	        <label
+						class="form-label form-label-top estimate-form__data-label"
+						id="label_2"
+						for="input_2"
+					>
+	          E-mail<span>*</span>
+	        </label>
+	        <div id="cid_2" class="form-input-wide jf-required">
+	          <input
+							type="text"
+							id="input_2"
+							name="q2_estimate_email"
+							data-type="input-textbox"
+							class="form-textbox validate[required, Email] estimate-form__data-input"
+							size="20"
+							value=""
+							placeholder="example@mail.com"
+							data-component="textbox"
+							required=""
+							autocomplete="off"
+						/>
+	        </div>
+	      </div>
+    	</div>
+	    <div
+				class="form-line form-line-textarea jf-required form-textarea estimate-form__data-description"
+				data-type="control_textarea"
+				id="id_3"
+			>
+	      <label
+					class="form-label form-label-left estimate-form__data-label"
+					id="label_3"
+					for="input_3"
+				>
+	      	Project description<span>*</span>
+	      </label>
+	      <div id="cid_3" class="form-input">
+	        <textarea
+	        	id="input_3"
+						class="form-textarea estimate-form__data-textarea"
+						name="q3_job_description"
+						cols="40"
+						rows="8"
+						data-component="textarea"
+						placeholder="Tell us more"
 						required=""
 						autocomplete="off"
-					/>
-        </div>
-      </div>
-      <div class="form-line form-line-column jf-required" data-type="control_textbox" id="id_2">
-        <label class="form-label form-label-top" id="label_2" for="input_2">
-          <span class="form-required">*</span>
-        </label>
-        <div id="cid_2" class="form-input-wide jf-required">
-          <input
-						type="text"
-						id="input_2"
-						name="q2_estimate_email"
-						data-type="input-textbox"
-						class="form-textbox validate[required, Email]"
-						size="20"
-						value=""
-						placeholder="example@mail.com"
-						data-component="textbox"
-						required=""
-						autocomplete="off"
-					/>
-        </div>
-      </div>
-    </div>
-    <div class="form-line form-line-textarea" data-type="control_textarea" id="id_3">
-      <label class="form-label form-label-left" id="label_3" for="input_3">  </label>
-      <div id="cid_3" class="form-input">
-        <textarea
-        	id="input_3"
-					class="form-textarea"
-					name="q3_job_description"
-					cols="40"
-					rows="8"
-					data-component="textarea"
-					placeholder="Tell us more"
-					autocomplete="off"
-				></textarea>
-      </div>
-    </div>
-    <div class="form-line form-line-column form-col-1 form-line-text" data-type="control_text" id="id_8">
+					></textarea>
+	      </div>
+	    </div>
+    <div
+			class="form-line form-line-column form-col-1 form-line-text estimate-form__data-privacy"
+			data-type="control_text"
+			id="id_8"
+		>
       <div id="cid_8" class="form-input-wide">
         <div id="text_8" class="form-html" data-component="text">
           <p>
 						Your data are safe with us. We take your privacy seriously and we will never share
 						your data with anyone. Read on our
-						<a href="https://naturaily.com/terms-of-service" target="_blank" rel="nofollow">
+						<a
+							class="estimate-form__data-privacy__link"
+							href="https://naturaily.com/terms-of-service"
+							target="_blank"
+							rel="nofollow"
+						>
 							Privacy Policy
 						</a>
-						to learn more
+						to learn more.
 					</p>
-          </div>
         </div>
       </div>
       <div class="form-line" data-type="control_button" id="id_5">
         <div id="cid_5" class="form-input-wide">
           <div style="text-align:center" class="form-buttons-wrapper">
-            <button id="input_5" type="submit" class="btn btn-primary btn-arrow" data-component="button">
+            <button
+							id="input_5"
+							type="submit"
+							class="btn btn-primary btn-arrow"
+							data-component="button"
+						>
               Let's talk
 							{% svg /assets/images/btn-arrow.svg %}
             </button>
