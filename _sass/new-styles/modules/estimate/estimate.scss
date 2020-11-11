@@ -369,3 +369,37 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .estimate {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+    &-text {
+      max-width: 360px;
+    }
+
+    &-intro {
+      width: 45%;
+    }
+
+    &-form {
+      width: 55%;
+      padding-left: 0;
+
+      &__options {
+        margin-bottom: 25px;
+      }
+    }
+
+    &-contact {
+      position: absolute;
+      bottom: 0;
+      left: 75px;
+      margin-bottom: 20px;
+    }
+  }
+}
