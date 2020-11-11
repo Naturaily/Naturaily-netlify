@@ -74,7 +74,7 @@
 
       &-wrapper {
         position: relative;
-        padding: 15px;
+        padding: 28px 15px 15px;
         border-radius: 17px;
         background-color: $color-estimate-field;
         transition: .2s;
@@ -181,6 +181,10 @@
         height: 57px;
       }
 
+      &-textarea {
+        padding-top: 10px;
+      }
+
       &-privacy {
         margin-top: 20px;
         font-size: 12px;
@@ -202,13 +206,18 @@
           }
         }
 
-        .btn-primary.btn-arrow {
-          width: 210px;
-          margin: 20px 0 50px;
-          padding: 19px;
-          padding-left: 40px;
-          font-size: 13px;
-          box-shadow: 0 8px 24px 0 $color-estimate-btn-shadow;
+        &__button {
+          display: flex;
+          justify-content: flex-end;
+
+          .btn-primary.btn-arrow {
+            width: 210px;
+            margin: 20px 0 50px;
+            padding: 19px;
+            padding-left: 40px;
+            font-size: 13px;
+            box-shadow: 0 8px 24px 0 $color-estimate-btn-shadow;
+          }
         }
       }
     }
@@ -406,7 +415,7 @@
     position: relative;
     width: 100%;
     margin-top: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
     &-text {
       max-width: 360px;
@@ -429,6 +438,7 @@
       position: absolute;
       bottom: 20px;
       left: 75px;
+      width: 300px;
       margin-bottom: 0;
       padding: 0;
     }
