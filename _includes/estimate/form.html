@@ -1,18 +1,97 @@
-<div class="l-content">
-  <div class="estimate_form-wrapper">
-    <div id="estimationForm" class="estimate_form">
-      <div class="estimate_form-left">
-        <h2 class="banner-text">
-          Leave
-          <br>
-          some details
-        </h2>
-        <p> about yourself and your project</p>
+<div class="estimate">
+  <div class="estimate-intro">
+    <h1 class="estimate-header">Let's do this</h1>
+    <p class="estimate-text">
+      Fill out this simple form. Our team will contact you promptly to discuss next steps.
+    </p>
+  </div>
+  <div class="estimate-form" data-estimate="">
+    <p class="estimate-form__text">
+      I'm interested in
+      <span class="estimate-form__text--small">
+        *pick one
+      </span>
+    </p>
+    <div class="estimate-form__options">
+      <div class="estimate-form__option">
+        <div class="estimate-form__option-wrapper" data-option>
+          <input
+            class="estimate-form__option-radio"
+            type="radio"
+            name="estimate-options"
+            value="Development"
+            id="Development"
+            autocomplete="off"
+          />
+          <label class="estimate-form__option-label" for="Development">
+            {% svg /assets/images/estimate/development.svg width="80" %}
+            <span>Development</span>
+          </label>
+        </div>
       </div>
-      <div class="estimate_form-right">
-        <!-- <script id="jotForm" type="text/javascript" src="https://form.jotformeu.com/jsform/91251977229364?estimateFields=puste"></script> -->
-        {% include estimate/jotform.html %}
+      <div class="estimate-form__option">
+        <div class="estimate-form__option-wrapper" data-option>
+          <input
+            class="estimate-form__option-radio"
+            type="radio"
+            name="estimate-options"
+            value="Design"
+            id="Design"
+            autocomplete="off"
+          />
+          <label class="estimate-form__option-label" for="Design">
+            {% svg /assets/images/estimate/design.svg width="80" %}
+            <span>Design</span>
+          </label>
+        </div>
+      </div>
+      <div class="estimate-form__option">
+        <div class="estimate-form__option-wrapper" data-option>
+          <input
+            class="estimate-form__option-radio"
+            type="radio"
+            name="estimate-options"
+            value="Development and design"
+            id="WantBoth"
+            autocomplete="off"
+          />
+          <label class="estimate-form__option-label" for="WantBoth">
+            {% svg /assets/images/estimate/both.svg width="80" %}
+            <span>Development +&nbsp;Design</span>
+          </label>
+        </div>
+      </div>
+      <div class="estimate-form__option">
+        <div class="estimate-form__option-wrapper" data-option>
+          <input
+            class="estimate-form__option-radio"
+            type="radio"
+            name="estimate-options"
+            value="Other"
+            id="WantOther"
+            autocomplete="off"
+          />
+          <label class="estimate-form__option-label" for="WantOther">
+            {% svg /assets/images/estimate/other.svg width="80" %}
+            <span>Other</span>
+          </label>
+        </div>
       </div>
     </div>
+    <!-- <script id="jotForm" type="text/javascript" src="https://form.jotformeu.com/jsform/91251977229364?estimateFields=puste"></script> -->
+    {% include estimate/jotform.html %}
   </div>
+  <div class="estimate-contact">
+    <div class="estimate-contact__field">
+      <h2 class="estimate-contact__method">Phone</h2>
+      <a class="estimate-contact__link" href="tel:+48735220414">+48 735 220 414</a>
+    </div>
+    <div class="estimate-contact__field">
+      <h2 class="estimate-contact__method">E-mail</h2>
+      <a class="estimate-contact__link" href="mailto:hello@naturaily.com">hello@naturaily.com</a>
+    </div>
+  </div>
+  <span class="estimate-dot estimate-dot--secondary"></span>
+  <span class="estimate-dot estimate-dot--yellow"></span>
+  <span class="estimate-dot estimate-dot--green"></span>
 </div>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="67" viewBox="0 0 67 67">
+  <defs><circle id="93bwyjttca" cx="33.5" cy="33.5" r="33.5"/></defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(-800 -308) translate(754 226) translate(46 82)">
+      <mask id="jlpkicnsyb" fill="#fff">
+        <use xlink:href="#93bwyjttca"/>
+      </mask>
+      <use class="estimate-form__option-label__color" fill="#FF5E45" xlink:href="#93bwyjttca"/>
+      <g fill-rule="nonzero" stroke="#191919" mask="url(#jlpkicnsyb)">
+        <g transform="translate(2.627 13.137)">
+          <path fill="#FFF" d="M0 0H61.745V45.98H0z"/>
+          <path class="estimate-form__option-label__color" fill="#FF5E45" d="M0 3.941H61.745V32.843H0z"/>
+          <path fill="#FFF" d="M0 0H61.745V3.941H0z"/>
+          <circle cx="1.971" cy="1.971" r="1" fill="#F33440" stroke-width=".5"/>
+          <circle cx="4.598" cy="1.971" r="1" fill="#FFF" stroke-width=".5"/>
+          <circle cx="8.539" cy="1.971" r="1" fill="#FFF" stroke-width=".5"/>
+        </g>
+      </g>
+    </g>
+    <text fill="#000" fill-opacity=".87" font-family="Helvetica" font-size="2" letter-spacing=".015" transform="translate(-800 -308) translate(754 226) translate(46 82)">
+      <tspan x="5" y="24">import React from &apos;react&apos;;</tspan> <tspan x="5" y="26">import {Text, View} from &apos;react-native&apos;;</tspan>
+    </text>
+    <text fill="#FFF" fill-opacity=".87" font-family="Helvetica" font-size="2" letter-spacing=".015" transform="translate(-800 -308) translate(754 226) translate(46 82)">
+      <tspan x="5" y="33">import {Header} from &apos;./Header&apos;;</tspan> <tspan x="5" y="35">import {heading} from &apos;./Typography&apos;;</tspan>
+    </text>
+  </g>
+</svg>

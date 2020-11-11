@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(-1310 -310) translate(754 226) translate(0 54) translate(556 30)">
+      <circle class="estimate-form__option-label__color" cx="32" cy="32" r="32" fill="#FF5E44" fill-rule="nonzero" opacity=".64"/>
+      <g transform="translate(13 13)">
+        <g stroke="#191919" stroke-width="1.5">
+          <path fill="#FFF" fill-rule="nonzero" d="M34.042 16.087c0 8.442-6.736 15.283-15.042 15.283-8.306 0-15.042-6.841-15.042-15.283S10.694.804 19 .804c8.306 0 15.042 6.841 15.042 15.283z" transform="translate(0 2.413)"/>
+          <path stroke-dasharray="6" stroke-linecap="round" d="M37.638.614c2.028 2.454-4.672 11.551-14.965 20.318C12.38 29.7 2.39 34.818.362 32.364c-2.028-2.454 4.672-11.55 14.965-20.318S35.61-1.84 37.638.614z" transform="translate(0 2.413)"/>
+          <path d="M5.07 10.75C1.085 5.978-.86 2.092.363.614 2.391-1.84 12.38 3.278 22.672 12.046c1.724 1.468 3.347 2.945 4.844 4.398m5.11 5.424c4.19 4.936 6.264 8.981 5.012 10.496-1.805 2.184-9.914-1.629-18.93-8.673-1.117-.871-2.247-1.793-3.38-2.759-1.585-1.348-3.083-2.705-4.477-4.044l-.492-.399" transform="translate(0 2.413)"/>
+        </g>
+        <ellipse cx="6.333" cy="3.217" fill="#FFF" stroke="#000" stroke-width="1.2" rx="2.567" ry="2.617"/>
+        <ellipse cx="32.458" cy="34.587" fill="#FFF" stroke="#000" stroke-width="1.2" rx="1.775" ry="1.813"/>
+      </g>
+    </g>
+  </g>
+</svg>

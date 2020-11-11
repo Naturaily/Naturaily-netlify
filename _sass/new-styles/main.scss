@@ -21,7 +21,6 @@
 @import "modules/geometric-object";
 @import "modules/form";
 @import "modules/video-box";
-@import "modules/estimate";
 @import "modules/estimate-page";
 @import "modules/other";
 @import "modules/clutch";
@@ -52,6 +51,11 @@
 @import "modules/about/team";
 @import "modules/about/join";
 @import "modules/about/photos";
+
+// GET AN ESTIMATE SPECIFIC STYLES //
+
+@import "modules/estimate/estimate";
+@import "modules/estimate/thank-you";
 
 // SERVICES SPECIFIC STYLES //
 
