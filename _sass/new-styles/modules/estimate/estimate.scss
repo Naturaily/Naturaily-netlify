@@ -1,7 +1,8 @@
 .estimate {
+  position: relative;
   margin-top: 120px;
 
-  &-intro, &-form {
+  &-intro, &-form, &-contact {
     box-sizing: border-box;
     width: 100vw;
     padding-left: 20px;
@@ -241,18 +242,26 @@
   }
 
   &-dot {
+    position: absolute;
     width: 22px;
     height: 22px;
+    border-radius: 100%;
 
     &--secondary {
+      top: -50px;
+      right: 25px;
       background-color: $color-secondary;
     }
 
     &--yellow {
+      top: 160px;
+      left: 50%;
       background-color: $color-accent-yellow;
     }
 
     &--green {
+      bottom: 180px;
+      right: 50px;
       background-color: $color-estimate-dot-green;
     }
   }
@@ -310,13 +319,17 @@
 
 @media (min-width: 576px) {
   .estimate {
-    &-intro, &-form {
+    &-intro, &-form, &-contact {
       padding-left: 75px;
       padding-right: 75px;
     }
 
     &-form__option-label span {
       height: 18px;
+    }
+
+    &-dot--secondary, &-dot--green {
+      right: 75px;
     }
   }
 }
@@ -367,6 +380,23 @@
         }
       }
     }
+
+    &-dot {
+      &--secondary {
+        top: -100px;
+        right: 150px;
+      }
+
+      &--yellow {
+        top: 140px;
+        left: 40%;
+      }
+
+      &--green {
+        bottom: 100px;
+        right: 100px;
+      }
+    }
   }
 }
 
@@ -397,9 +427,27 @@
 
     &-contact {
       position: absolute;
-      bottom: 0;
+      bottom: 20px;
       left: 75px;
-      margin-bottom: 20px;
+      margin-bottom: 0;
+      padding: 0;
+    }
+
+    &-dot {
+      &--secondary {
+        top: -50px;
+        right: 450px;
+      }
+
+      &--yellow {
+        top: 360px;
+        left: 30%;
+      }
+
+      &--green {
+        bottom: 250px;
+        right: 0;
+      }
     }
   }
 }

@@ -41,7 +41,7 @@
     </nav>
   </div>
 
-  {% unless page.url contains "/get-an-estimate" %}
+  {% unless page.url == "/get-an-estimate" or page.url == "/thank-you" %}
     <div class="header-right">
       <a href="/get-an-estimate" class="btn btn-secondary header-btn">get an estimate</a>
     </div>
