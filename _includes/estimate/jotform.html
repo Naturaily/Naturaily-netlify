@@ -1,49 +1,7 @@
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.11152" type="text/javascript"></script>
-
 <script type="text/javascript">
-	JotForm.init(function(){
-		setTimeout(function() {
-			$('input_1').hint('Your name');
-		}, 20);
-		setTimeout(function() {
-			$('input_2').hint('example@mail.com');
-		}, 20);
-		JotForm.setCustomHint('input_3', 'Tell us more');
-		JotForm.highlightInputs = false;
-});
-
-	JotForm.prepareCalculationsOnTheFly(
-		[
-			null,
-			{"name":"job_name","qid":"1","subLabel":"","text":"","type":"control_textbox"},
-			{"name":"job_email","qid":"2","text":"","type":"control_textbox"},
-			{"name":"job_description","qid":"3","text":"","type":"control_textarea"},
-			null,
-			{"name":"send","qid":"5","text":"Send","type":"control_button"},
-			null,
-			null,
-			{"name":"clickTo","qid":"8","text":"By submiting this form you agree to our Terms of service.","type":"control_text"},
-			{"description":"","name":"estimateFields","qid":"9","subLabel":"","text":"Estimate Fields","type":"control_textbox"}
-		]
-	);
-
-	setTimeout(function() {
-		JotForm.paymentExtrasOnTheFly(
-			[
-				null,
-				{"name":"job_name","qid":"1","subLabel":"","text":"","type":"control_textbox"},
-				{"name":"job_email","qid":"2","text":"","type":"control_textbox"},
-				{"name":"job_description","qid":"3","text":"","type":"control_textarea"},
-				null,
-				{"name":"send","qid":"5","text":"Send","type":"control_button"},
-				null,
-				null,
-				{"name":"clickTo","qid":"8","text":"By submiting this form you agree to our Terms of service.","type":"control_text"},
-				{"description":"","name":"estimateFields","qid":"9","subLabel":"","text":"Estimate Fields","type":"control_textbox"}
-			]
-		);
-	}, 20);
+	{% include estimate/jotform.js %}
 </script>
 
 <form
@@ -162,7 +120,7 @@
 	      </div>
       	<div class="form-line" data-type="control_button" id="id_5">
 	        <div id="cid_5" class="form-input-wide">
-	          <div style="text-align:center" class="form-buttons-wrapper">
+	          <div class="form-buttons-wrapper estimate-form__data-privacy__button">
 	            <button
 								id="input_5"
 								type="submit"
@@ -202,8 +160,5 @@
 
 <script type="text/javascript">
 	JotForm.ownerView=true;
-</script>
-
-<script type="text/javascript">
 	JotForm.forwardToEu=true;
 </script>
