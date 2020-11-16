@@ -1,27 +1,34 @@
+# Outbound linking
+
+/blog/authors/wojciech-mi%C5%9Bta/                                  /blog/authors/wojciech-mista/
+/blog/post/how-to-create-blog-in-meteor-not-for-complete-beginners  /blog/meteor-blog-tutorial
+/blog/post/ruby-on-rails---how-to-create-perfect-enum-in-5-steps    /blog/ruby-on-rails-enum
+/jobs/senior-frontend-engineer                                      /career-offers
+
 # Posts redirects
 
-/blog/tools-components-vuejs-2019                            /blog/vuejs-libraries-2019
-/blog/comparison-of-10-headless-cms-for-jamstack-websites    /blog/comparison-of-15-headless-cms-for-jamstack-websites
+/blog/tools-components-vuejs-2019                                   /blog/vuejs-libraries-2019
+/blog/comparison-of-10-headless-cms-for-jamstack-websites           /blog/comparison-of-15-headless-cms-for-jamstack-websites
 
 # Authors redirects
 
-/blog/authors/Wojciech-Miśta                                 /blog/authors/wojciech-mista/
-/blog/authors/Mikołaj-Grygiel                                /blog/authors/mikolaj-grygiel/
-/blog/authors/Jacek-Hiszpański                               /blog/authors/jacek-hiszpanski/
-/blog/authors/Błażej-Pichur                                  /blog/authors/blazej-pichur/
-/blog/authors/Przemysław-Świercz                             /blog/authors/przemyslaw-swiercz/
-/blog/authors/Mikołaj-Grygiel                                /blog/authors/mikolaj-grygiel/
-/blog/authors/Jacek-Hiszpański                               /blog/authors/jacek-hiszpanski/
-/blog/authors/Paweł-Cybulski                                 /blog/authors/pawel-cybulski/
-/blog/authors/Michał-Kosyk                                   /blog/authors/michal-kosyk/
-/blog/authors/Weronika-Nużyńska                              /blog/authors/weronika-nuzynska/
+/blog/authors/Wojciech-Miśta                                        /blog/authors/wojciech-mista/
+/blog/authors/Mikołaj-Grygiel                                       /blog/authors/mikolaj-grygiel/
+/blog/authors/Jacek-Hiszpański                                      /blog/authors/jacek-hiszpanski/
+/blog/authors/Błażej-Pichur                                         /blog/authors/blazej-pichur/
+/blog/authors/Przemysław-Świercz                                    /blog/authors/przemyslaw-swiercz/
+/blog/authors/Mikołaj-Grygiel                                       /blog/authors/mikolaj-grygiel/
+/blog/authors/Jacek-Hiszpański                                      /blog/authors/jacek-hiszpanski/
+/blog/authors/Paweł-Cybulski                                        /blog/authors/pawel-cybulski/
+/blog/authors/Michał-Kosyk                                          /blog/authors/michal-kosyk/
+/blog/authors/Weronika-Nużyńska                                     /blog/authors/weronika-nuzynska/
 
 # Pages redirects
 
-/services/react-js-development                               /services/webdevelopment/react-js-development
-/services/vue-js-development                                 /services/webdevelopment/vue-js-development
-/ruby-on-rails-development                                   /services/ruby-on-rails-development
+/services/react-js-development                                      /services/webdevelopment/react-js-development
+/services/vue-js-development                                        /services/webdevelopment/vue-js-development
+/ruby-on-rails-development                                          /services/ruby-on-rails-development
 
 # Temporary
 
-/portfolio/work-for-impact                                   /portfolio
+/portfolio/work-for-impact                                          /portfolio
