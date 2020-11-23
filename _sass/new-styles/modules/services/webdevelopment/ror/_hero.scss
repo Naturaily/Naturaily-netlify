@@ -72,6 +72,7 @@
 @media (min-width: 811px) {
   .ror-hero {
     margin-top: 150px;
+    margin-bottom: 135px;
 
     &__shadow {
       top: -35px;
@@ -101,11 +102,5 @@
       width: 180px;
       padding-left: 45px;
     }
-  }
-}
-
-@media (min-width: 992px) {
-  .ror-hero {
-    margin-bottom: 135px;
   }
 }
