@@ -1,0 +1,64 @@
+.ror {
+  &-step {
+    font-size: 12px;
+    line-height: 24px;
+    color: $color-secondary;
+
+    &__number {
+      margin-right: 20px;
+      color: $color-page-text-grey;
+    }
+  }
+
+  &-header {
+    font-size: 36px;
+    line-height: 50px;
+    color: $color-global-font;
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%) no-repeat 0 100%;
+    background-size: 100% 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-size .2s ease-in, color .1s ease;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 500;
+    color: $color-secondary;
+
+    svg {
+      display: flex;
+      align-items: center;
+      height: 11px;
+
+      .arrow-line {
+        fill: $color-secondary;
+      }
+    }
+
+    &:hover {
+      color: $color-white;
+      background-size: 100% 100%;
+
+      svg .arrow-line {
+        fill: $color-white;
+      }
+    }
+  }
+
+  &-what, &-list {
+    &.section {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .ror-step__number {
+    margin-right: 30px;
+  }
+}
