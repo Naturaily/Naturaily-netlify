@@ -1,0 +1,135 @@
+.ror-success {
+  width: 100%;
+
+  .ror-step, &__header {
+    padding: 0 20px;
+  }
+
+  .ror-step__number {
+    display: none;
+  }
+
+  &__header {
+    margin: 30px 0 60px;
+    font-size: 24px;
+    line-height: 42.4px;
+    font-weight: 300;
+    color: $color-global-font;
+  }
+
+  &__image {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0 15px;
+  }
+
+  &__text {
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 28.8px;
+    color: $color-page-text;
+  }
+
+  .btn-white {
+    max-width: 320px;
+    margin: 60px 0 55px -30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 11px;
+    line-height: 13px;
+    border-top: 1px solid $color-global-font-10;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .ror-success {
+    .ror-step, &__header, &__text, &__image, &__testimonial {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
+
+    .btn-white {
+      margin-left: 25px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .ror-success {
+    position: relative;
+    padding: 0;
+
+    .ror-step, &__header, &__text {
+      box-sizing: border-box;
+      width: 45%;
+      padding-right: 0;
+    }
+
+    .ror-step__number {
+      display: inline-block;
+    }
+
+    &__wrapper {
+      width: 100%;
+      margin: 100px 0;
+    }
+
+    &__header {
+      max-width: 450px;
+      margin-bottom: 35px;
+      font-weight: 200;
+    }
+
+    &__text {
+      max-width: 550px;
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-global-font-70;
+    }
+
+    &__image {
+      position: absolute;
+      top: 110px;
+      left: 50%;
+      width: 550px;
+      padding: 0;
+    }
+
+    .btn-white {
+      max-width: 390px;
+      margin-top: 80px;
+      margin-left: 35px;
+      padding: 0;
+      padding-top: 35px;
+      border-top: 1px solid $color-global-font-10;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .ror-success {
+    &__wrapper {
+      width: 1280px;
+      max-width: 1280px;
+      margin: 160px auto 180px;
+    }
+
+    &__header, &__text {
+      padding-left: 120px;
+    }
+
+    &__image {
+      top: 55px;
+      width: 630px;
+    }
+
+    .btn-white {
+      margin-left: 80px;
+    }
+  }
+}
