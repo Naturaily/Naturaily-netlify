@@ -15,6 +15,11 @@
     line-height: 42.4px;
     font-weight: 300;
     color: $color-global-font;
+
+    &--artinfo {
+      margin-bottom: 50px;
+      font-weight: 200;
+    }
   }
 
   &__image {
@@ -29,6 +34,10 @@
     font-size: 16px;
     line-height: 28.8px;
     color: $color-page-text;
+
+    &--arinfo {
+      color: $color-global-font-70;
+    }
   }
 
   .btn-white {
@@ -116,7 +125,7 @@
     &__wrapper {
       width: 1280px;
       max-width: 1280px;
-      margin: 160px auto 180px;
+      margin: 160px auto 120px;
     }
 
     &__header, &__text {
@@ -125,7 +134,12 @@
 
     &__image {
       top: 55px;
-      width: 630px;
+      width: 650px;
+
+      &--artinfo {
+        top: 75px;
+        width: 680px;
+      }
     }
 
     .btn-white {
