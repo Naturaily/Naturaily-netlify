@@ -125,7 +125,11 @@
     &__wrapper {
       width: 1280px;
       max-width: 1280px;
-      margin: 160px auto 120px;
+      margin: 160px auto 180px;
+
+      &--artinfo {
+        margin-bottom: 120px;
+      }
     }
 
     &__header, &__text {
