@@ -1,4 +1,5 @@
 .ror-examples {
+  margin-bottom: 75px;
   padding: 45px 0 65px;
   background-color: $color-code-orange-bg;
 
@@ -150,6 +151,8 @@
 
 @media (min-width: 811px) {
   .ror-examples {
+    margin-bottom: 0;
+
     .ror-step__number {
       display: inline-block;
     }
