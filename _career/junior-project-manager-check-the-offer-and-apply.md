@@ -103,8 +103,8 @@ would-be-great:
   - expectation:
       contents: >-
         have a basic knowledge & experience of project management software
-        (Jira, Asana or similar), Agile approach, software development life
-        cycle
+        (Jira, Asana or similar), eCommerce solutions (Shopify, Magento etc.),
+        Agile approach, software development life cycle
   - expectation:
       contents: are open-minded and independent
   - expectation:
