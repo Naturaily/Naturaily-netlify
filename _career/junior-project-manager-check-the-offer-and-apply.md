@@ -71,7 +71,7 @@ what-you-expect:
   - expectation:
       contents: integration meetings
   - expectation:
-      contents: the flexibility of working hours with ability to work full remotely
+      contents: the flexibility of working hours with ability to work fully remote
   - expectation:
       contents: >-
         a nice office in the heart of Wrocław surrounded by cafés, restaurants,
