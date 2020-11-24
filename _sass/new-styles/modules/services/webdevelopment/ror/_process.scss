@@ -348,9 +348,22 @@
     position: relative;
     border-radius: 8px;
 
+    .ror-header, &__text, &__experts-header, &__tools-header, &__presentation {
+      padding-left: 120px;
+    }
+
     &__wrapper {
-      max-width: 1190px;
+      max-width: 1280px;
       margin: 0 auto;
+    }
+
+    &__experts-carousel {
+       margin-left: 90px;
+       margin-right: 90px;
+    }
+
+    &__tools-carousel .custom-carousel__tabs {
+      padding: 0 85px;
     }
   }
 }
