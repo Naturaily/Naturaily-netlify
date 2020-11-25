@@ -69,7 +69,13 @@ window.addEventListener('load', () => {
       carousel.size = $carouselDots.find('[data-dots="md"]').length + $carouselDots.find('[data-dots="lg"]').length;
     }
 
-    carousel.progress_bar_scale = carousel.size === 5 ? 20 : 33.3;
+    if (carousel.size === 5) {
+      carousel.progress_bar_scale = 20;
+    } else if (carousel.size === 4) {
+      carousel.progress_bar_scale = 25;
+    } else {
+      carousel.progress_bar_scale = 33.3;
+    };
   };
 
   const setCarouselControl = (targetType, event) => {
