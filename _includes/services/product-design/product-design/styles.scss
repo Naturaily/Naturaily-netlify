@@ -1,0 +1,41 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/section";
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/clutch";
+@import "new-styles/modules/carousel-custom";
+@import "new-styles/modules/estimate-page";
+@import "new-styles/modules/other";
+
+@import "new-styles/modules/services/main";
+@import "new-styles/modules/services/clutch";
+@import "new-styles/modules/services/faq";
+@import "new-styles/modules/services/slider";
+
+@import "new-styles/modules/services/product-design/product-design/hero";
+@import "new-styles/modules/services/product-design/product-design/accordion";
+@import "new-styles/modules/services/product-design/product-design/section";
+@import "new-styles/modules/services/product-design/product-design/profits";
+@import "new-styles/modules/services/product-design/product-design/case";
+@import "new-styles/modules/services/product-design/product-design/dajemy";
+@import "new-styles/modules/services/product-design/product-design/link";
+@import "new-styles/modules/services/product-design/product-design/right";
+@import "new-styles/modules/services/product-design/product-design/diamond";
+@import "new-styles/modules/services/product-design/product-design/clutch";
+@import "new-styles/modules/services/product-design/product-design/switch";
+@import "new-styles/modules/services/product-design/product-design/process-switch";
+@import "new-styles/modules/services/product-design/product-design/design-switch";
+@import "new-styles/modules/services/product-design/product-design/workshop-switch";
+@import "new-styles/modules/services/product-design/product-design/faq";
+@import "new-styles/modules/services/product-design/product-design/estimate";
