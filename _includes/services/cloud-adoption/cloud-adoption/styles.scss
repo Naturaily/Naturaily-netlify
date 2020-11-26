@@ -1,0 +1,33 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/carousel-custom";
+@import "new-styles/modules/estimate-page";
+@import "new-styles/modules/other";
+
+@import "new-styles/modules/services/main";
+@import "new-styles/modules/services/faq";
+
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/hero";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/services";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/section";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/section-carousel";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/link";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/quote";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/optimization";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/companies";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/use-case";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/transformation";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/faq";
+@import "new-styles/modules/services/cloud-adoption/cloud-adoption/estimate";
