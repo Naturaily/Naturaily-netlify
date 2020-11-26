@@ -1,0 +1,26 @@
+{% if page.url == "/services/webdevelopment/vue-js-development" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/vue/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment/node-js-development" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/node/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment/react-js-development" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/react/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" or page.url == "/about" or page.url contains "/services/webdevelopment" or page.url contains "/services/ecommerce" or page.url contains "/services/product-design" or page.url == "/services/iot-development" or page.url == "/services/cloud-adoption" or page.url == "/services" or page.url contains "/portfolio" or page.url == "/get-an-estimate" or page.url == "/thank-you" %}
+  {% capture styles %}
+    {% include new.scss %}
+  {% endcapture %}
+
+{% else %}
+  {% capture styles %}
+    {% include main.scss %}
+  {% endcapture %}
+
+{% endif %}
