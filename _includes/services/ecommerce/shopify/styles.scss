@@ -1,0 +1,31 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+@import "slick";
+@import "slick-theme";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/section";
+@import "new-styles/modules/hero";
+@import "new-styles/modules/page-navigation";
+@import "new-styles/modules/geometric-object";
+
+@import "new-styles/modules/services/ecommerce/shopify/footer";
+@import "new-styles/modules/services/ecommerce/shopify/case-studies";
+@import "new-styles/modules/services/ecommerce/shopify/services";
+@import "new-styles/modules/services/ecommerce/shopify/results";
+@import "new-styles/modules/services/ecommerce/shopify/technologies";
+@import "new-styles/modules/services/ecommerce/shopify/about";
+@import "new-styles/modules/services/ecommerce/shopify/testimonials";
+@import "new-styles/modules/services/ecommerce/shopify/carousel";
+@import "new-styles/modules/services/ecommerce/shopify/faq";
+@import "new-styles/modules/services/ecommerce/shopify/estimate";
+@import "new-styles/modules/services/ecommerce/shopify/comparison";
