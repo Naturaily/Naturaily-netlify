@@ -19,6 +19,7 @@
   &__carousel {
     position: relative;
     width: 100vw;
+    overflow: hidden;
 
     &-tabs {
       display: flex;
