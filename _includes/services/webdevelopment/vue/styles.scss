@@ -1,0 +1,36 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/section";
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/clutch";
+@import "new-styles/modules/carousel-custom";
+@import "new-styles/modules/carousel-partners";
+@import "new-styles/modules/estimate-page";
+@import "new-styles/modules/other";
+
+@import "new-styles/modules/services/main";
+@import "new-styles/modules/services/clutch";
+@import "new-styles/modules/services/faq";
+
+@import "new-styles/modules/services/webdevelopment/vue/main";
+@import "new-styles/modules/services/webdevelopment/vue/hero";
+@import "new-styles/modules/services/webdevelopment/vue/nav";
+@import "new-styles/modules/services/webdevelopment/vue/what";
+@import "new-styles/modules/services/webdevelopment/vue/why";
+@import "new-styles/modules/services/webdevelopment/vue/success";
+@import "new-styles/modules/services/webdevelopment/vue/about";
+@import "new-styles/modules/services/webdevelopment/vue/process";
+@import "new-styles/modules/services/webdevelopment/vue/services";
+@import "new-styles/modules/services/webdevelopment/vue/faq";
+@import "new-styles/modules/services/webdevelopment/vue/estimate";
