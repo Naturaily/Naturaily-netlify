@@ -68,6 +68,11 @@
     {% include /services/ecommerce/custom/styles.scss %}
   {% endcapture %}
 
+{% elsif page.url == "/portfolio" %}
+  {% capture styles %}
+    {% include /portfolio/styles.scss %}
+  {% endcapture %}
+
 {% elsif page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" or page.url == "/about" or page.url contains "/services/ecommerce" or page.url == "/services" or page.url contains "/portfolio" or page.url == "/get-an-estimate" or page.url == "/thank-you" %}
   {% capture styles %}
     {% include new.scss %}
