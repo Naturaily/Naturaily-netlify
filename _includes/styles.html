@@ -83,12 +83,42 @@
     {% include /portfolio-cases/awn/styles.scss %}
   {% endcapture %}
 
-{% elsif page.url == "/portfolio/artinfo" %}
+{% elsif page.url == "/portfolio/lingohub" %}
   {% capture styles %}
-    {% include /portfolio-cases/awn/styles.scss %}
+    {% include /portfolio-cases/lingohub/styles.scss %}
   {% endcapture %}
 
-{% elsif page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" or page.url == "/about" or page.url contains "/services/ecommerce" or page.url == "/services" or page.url contains "/portfolio" or page.url == "/get-an-estimate" or page.url == "/thank-you" %}
+{% elsif page.url == "/portfolio/lvcloud" %}
+  {% capture styles %}
+    {% include /portfolio-cases/lvcloud/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/retention-rocket" %}
+  {% capture styles %}
+    {% include /portfolio-cases/retention-rocket/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/woolman" %}
+  {% capture styles %}
+    {% include /portfolio-cases/woolman/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/work-for-impact" %}
+  {% capture styles %}
+    {% include /portfolio-cases/work-for-impact/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/get-an-estimate" %}
+  {% capture styles %}
+    {% include /estimate/estimate.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/thank-you" %}
+  {% capture styles %}
+    {% include /estimate/thank-you.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" or page.url == "/about" %}
   {% capture styles %}
     {% include new.scss %}
   {% endcapture %}
