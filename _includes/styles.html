@@ -43,6 +43,11 @@
     {% include /services/webdevelopment/pwa/styles.scss %}
   {% endcapture %}
 
+  {% elsif page.url == "/services/ecommerce" %}
+    {% capture styles %}
+      {% include /services/ecommerce/ecommerce/styles.scss %}
+    {% endcapture %}
+
 {% elsif page.url == "/services/ecommerce/shopify-development" %}
   {% capture styles %}
     {% include /services/ecommerce/shopify/styles.scss %}

@@ -98,9 +98,14 @@
     cursor: pointer;
     color: $color-secondary;
     font-weight: 600;
-    > img {
+    
+    > svg {
       height: 11px;
       margin-left: 65px;
+
+      .arrow-line {
+        fill: $color-secondary;
+      }
     }
   }
 }
