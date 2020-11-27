@@ -38,6 +38,11 @@
     {% include /services/webdevelopment/react/styles.scss %}
   {% endcapture %}
 
+{% elsif page.url == "/services/webdevelopment/ruby-on-rails-development" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/ror/styles.scss %}
+  {% endcapture %}
+
 {% elsif page.url == "/services/webdevelopment/jamstack" %}
   {% capture styles %}
     {% include /services/webdevelopment/jamstack/styles.scss %}
