@@ -1,4 +1,9 @@
-{% if page.url == "/services/product-design" %}
+{% if page.url == "/services" %}
+  {% capture styles %}
+    {% include /services/services/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/product-design" %}
   {% capture styles %}
     {% include /services/product-design/product-design/styles.scss %}
   {% endcapture %}
