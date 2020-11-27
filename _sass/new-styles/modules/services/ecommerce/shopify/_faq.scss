@@ -58,11 +58,11 @@
     overflow: hidden;
     padding-bottom: 1px;
 
-    &.opened img {
+    &.opened svg {
       transform: rotate(270deg);
     }
 
-    img {
+    svg {
       z-index: 1;
       position: absolute;
       right: 0;
@@ -70,6 +70,10 @@
       height: 10px;
       transform: rotate(90deg);
       transition: transform .3s;
+
+      .arrow-line {
+        fill: $color-secondary;
+      }
     }
   }
 
