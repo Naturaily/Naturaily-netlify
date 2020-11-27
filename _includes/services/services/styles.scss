@@ -1,0 +1,33 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/section";
+@import "new-styles/modules/hero";
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/clutch";
+@import "new-styles/modules/accordion";
+@import "new-styles/modules/carousel";
+@import "new-styles/modules/estimate-page";
+
+@import "new-styles/modules/services/slider";
+
+@import "new-styles/modules/services/services/full";
+@import "new-styles/modules/services/services/hero";
+@import "new-styles/modules/services/services/includes";
+@import "new-styles/modules/services/services/right";
+@import "new-styles/modules/services/services/services";
+@import "new-styles/modules/services/services/slider";
+@import "new-styles/modules/services/services/stats";
+@import "new-styles/modules/services/services/testimonials";
+
+@import "new-styles/modules/services/webdevelopment/jamstack/estimate";
