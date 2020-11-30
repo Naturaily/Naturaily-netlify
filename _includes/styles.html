@@ -118,7 +118,22 @@
     {% include /estimate/thank-you.scss %}
   {% endcapture %}
 
-{% elsif page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" or page.url == "/about" %}
+{% elsif page.url == "/careers" %}
+  {% capture styles %}
+    {% include /career/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/career-offers"%}
+  {% capture styles %}
+    {% include /career-offers/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url contains "/join" %}
+  {% capture styles %}
+    {% include /career-offer/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/about" %}
   {% capture styles %}
     {% include new.scss %}
   {% endcapture %}
