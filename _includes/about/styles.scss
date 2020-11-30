@@ -1,0 +1,30 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/header";
+@import "new-styles/global";
+
+@import "new-styles/modules/heading";
+@import "new-styles/modules/hero";
+@import "new-styles/modules/section";
+@import "new-styles/modules/page-navigation";
+@import "new-styles/modules/accordion";
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/video-box";
+
+@import "new-styles/modules/about/who-we-are";
+@import "new-styles/modules/about/values";
+@import "new-styles/modules/about/why-us";
+@import "new-styles/modules/about/choose";
+@import "new-styles/modules/about/strength";
+@import "new-styles/modules/about/testimonials";
+@import "new-styles/modules/about/team";
+@import "new-styles/modules/about/join";
+@import "new-styles/modules/about/photos";
