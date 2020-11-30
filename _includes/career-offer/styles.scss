@@ -1,0 +1,26 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/header";
+@import "new-styles/global";
+
+@import "new-styles/modules/heading";
+@import "new-styles/modules/hero";
+@import "new-styles/modules/section";
+@import "new-styles/modules/list";
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/form";
+
+@import "new-styles/modules/career/position";
+@import "new-styles/modules/career/about";
+@import "new-styles/modules/career/skills";
+@import "new-styles/modules/career/more";
+@import "new-styles/modules/career/perks";
+@import "new-styles/modules/career/video";
