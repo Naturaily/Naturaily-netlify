@@ -6,17 +6,15 @@
   <body>
     {% include seo-tools.html %}
     {% include home/topbar.html %}
-    <!--googleoff: all-->
-       {% include eu-bar.html %}
-    <!--googleon: all-->
+    {% include home/eubar.html %}
+
     <div class="l-main-container">
-
       {% include home/header.html %}
-
       {{ content }}
-
     </div>
+
     {% include cookie.html %}
+
     <div class="l-footer">
       {% include footer.html %}
     </div>
@@ -27,6 +25,8 @@
     <script src="/assets/js/js-cookie.js"></script>
     <script src="/assets/js/jquery.waypoints.min.js"></script>
     <script src="/assets/js/sticky-waypoints.min.js"></script>
+
     {% include lazyload.html %}
+
   </body>
 </html>
