@@ -30,7 +30,19 @@
   <meta name="ahrefs-site-verification" content="3f8b258d3d14e1c5d540e03c2f03737d02ba06d8b501fe9fc25dd37667b0fd03">
   <meta name="facebook-domain-verification" content="30igvpnkh6n969lg3q2burlswi0prb"/>
 
+<<<<<<< HEAD
   {% include styles.html %}
+=======
+  {% if page.url == "/" or page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" or page.url == "/about" or page.url contains "/services/webdevelopment" or page.url contains "/services/ecommerce" or page.url contains "/services/product-design" or page.url == "/services/iot-development" or page.url == "/services/cloud-adoption" or page.url == "/services" or page.url contains "/portfolio" or page.url == "/get-an-estimate" or page.url == "/thank-you" %}
+    {% capture styles %}
+      {% include new.scss %}
+    {% endcapture %}
+  {% else %}
+    {% capture styles %}
+      {% include main.scss %}
+    {% endcapture %}
+  {% endif %}
+>>>>>>> Remove old home, files structure, topbar structure and styles
 
   <style>
     @import url("https://use.typekit.net/cah0hop.css");

@@ -1,0 +1,77 @@
+<nav class="header home-header">
+  <div class="site-nav">
+    <nav class="hamb" role="navigation">
+      <div class="menuToggle">
+        <input type="checkbox" id="checkbox"/>
+        <div class="mobile-span" id="mobileSpan">
+          <span></span> <span></span> <span></span> <span></span>
+        </div>
+        <ul class="home-header__menu menu">
+          <a class="home-header__logo naturaily" href="/">
+            {% svg /assets/images/logo_naturaily.svg %}
+          </a>
+          <li class="home-header__menu-item">
+            <a href="/services">Services</a>
+          </li>
+          <li class="home-header__menu-item">
+            <a href="/portfolio">Portfolio</a>
+          </li>
+          <li class="home-header__menu-item">
+            <a href="/about">About</a>
+          </li>
+          <li class="home-header__menu-item">
+            <a href="/blog/">Blog</a>
+          </li>
+          <li class="home-header__menu-item">
+            <a href="/careers">Careers</a>
+          </li>
+          <div class="header-social">
+            <a href="https://www.facebook.com/Naturaily/" rel="nofollow" target="_blank">
+              <img
+                src="/assets/images/loader.gif"
+                data-src="/assets/images/facebook-logo.png"
+                alt="Facebook"
+              />
+            </a>
+            <a href="https://twitter.com/naturailycom" rel="nofollow" target="_blank">
+              <img
+                src="/assets/images/loader.gif"
+                data-src="/assets/images/twitter-logo.png"
+                alt="Twitter"
+              />
+            </a>
+            <a href="https://www.linkedin.com/company/naturaily" rel="nofollow" target="_blank">
+              <img
+                src="/assets/images/loader.gif"
+                data-src="/assets/images/linkedin.png"
+                alt="Linkedin"
+              />
+            </a>
+            <a href="https://github.com/naturaily" rel="nofollow" target="_blank">
+              <img
+                class="header-github"
+                src="/assets/images/loader.gif"
+                data-src="/assets/images/github.png"
+                alt="Github"
+              />
+            </a>
+          </div>
+          <li class="menu-estimate">
+            <a href="/get-an-estimate" class="btn btn-secondary">
+              Get an estimate
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="header-right">
+    <a href="/get-an-estimate" class="btn btn-secondary header-btn">
+      Get an estimate
+    </a>
+  </div>
+</nav>
+
+<script type="text/javascript">
+  {% include block-scroll.js %}
+</script>

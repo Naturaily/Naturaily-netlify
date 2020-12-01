@@ -1,0 +1,548 @@
+@import "reset";
+
+@import "header";
+
+@import "slick";
+@import "slick-theme";
+
+@import "layout/layout";
+@import "modules/heading";
+@import "modules/hero";
+@import "modules/section";
+@import "modules/section-right";
+@import "modules/page-navigation";
+@import "modules/accordion";
+@import "modules/table";
+@import "modules/list";
+@import "modules/person";
+@import "modules/carousel";
+@import "modules/carousel-custom";
+@import "modules/carousel-partners";
+@import "modules/geometric-object";
+@import "modules/form";
+@import "modules/video-box";
+@import "modules/estimate-page";
+@import "modules/other";
+@import "modules/clutch";
+
+// CAREERS SPECIFIC STYLES //
+
+@import "modules/career/team";
+@import "modules/career/path";
+@import "modules/career/process";
+@import "modules/career/culture";
+@import "modules/career/benefits";
+@import "modules/career/offers";
+@import "modules/career/position";
+@import "modules/career/about";
+@import "modules/career/skills";
+@import "modules/career/more";
+@import "modules/career/perks";
+@import "modules/career/video";
+
+// ABOUT SPECIFIC STYLES //
+
+@import "modules/about/who-we-are";
+@import "modules/about/values";
+@import "modules/about/why-us";
+@import "modules/about/choose";
+@import "modules/about/strength";
+@import "modules/about/testimonials";
+@import "modules/about/team";
+@import "modules/about/join";
+@import "modules/about/photos";
+
+// GET AN ESTIMATE SPECIFIC STYLES //
+
+@import "modules/estimate/estimate";
+@import "modules/estimate/thank-you";
+
+// SERVICES SPECIFIC STYLES //
+
+@import "modules/services/main";
+
+@import "modules/services/hero";
+@import "modules/services/include";
+@import "modules/services/clutch";
+@import "modules/services/faq";
+@import "modules/services/link";
+@import "modules/services/list";
+@import "modules/services/numbers";
+@import "modules/services/section";
+@import "modules/services/slider";
+@import "modules/services/stack";
+@import "modules/services/testimonial";
+
+@import "modules/services/services/full";
+@import "modules/services/services/hero";
+@import "modules/services/services/includes";
+@import "modules/services/services/right";
+@import "modules/services/services/services";
+@import "modules/services/services/slider";
+@import "modules/services/services/stats";
+@import "modules/services/services/testimonials";
+
+@import "modules/services/ecommerce/ecommerce/choose-us";
+@import "modules/services/ecommerce/ecommerce/cite";
+
+@import "modules/services/ecommerce/custom/hero";
+@import "modules/services/ecommerce/custom/services";
+@import "modules/services/ecommerce/custom/technologies";
+@import "modules/services/ecommerce/custom/process";
+@import "modules/services/ecommerce/custom/presentation";
+
+@import "modules/services/ecommerce/shopify/footer";
+@import "modules/services/ecommerce/shopify/case-studies";
+@import "modules/services/ecommerce/shopify/services";
+@import "modules/services/ecommerce/shopify/results";
+@import "modules/services/ecommerce/shopify/technologies";
+@import "modules/services/ecommerce/shopify/about";
+@import "modules/services/ecommerce/shopify/testimonials";
+@import "modules/services/ecommerce/shopify/carousel";
+@import "modules/services/ecommerce/shopify/faq";
+@import "modules/services/ecommerce/shopify/estimate";
+@import "modules/services/ecommerce/shopify/comparison";
+
+@import "modules/services/iot-development/iot-development/consulting";
+@import "modules/services/iot-development/iot-development/methodology";
+@import "modules/services/iot-development/iot-development/industries";
+@import "modules/services/iot-development/iot-development/case-study";
+@import "modules/services/iot-development/iot-development/presentation";
+
+@import "modules/services/webdevelopment/webdevelopment/hero";
+@import "modules/services/webdevelopment/webdevelopment/overview";
+@import "modules/services/webdevelopment/webdevelopment/benefits";
+@import "modules/services/webdevelopment/webdevelopment/services";
+@import "modules/services/webdevelopment/webdevelopment/partners";
+@import "modules/services/webdevelopment/webdevelopment/about";
+@import "modules/services/webdevelopment/webdevelopment/experts";
+@import "modules/services/webdevelopment/webdevelopment/scrumban";
+@import "modules/services/webdevelopment/webdevelopment/process";
+@import "modules/services/webdevelopment/webdevelopment/blog";
+
+@import "modules/services/webdevelopment/jamstack/case-studies";
+@import "modules/services/webdevelopment/jamstack/jamstack";
+@import "modules/services/webdevelopment/jamstack/faq";
+@import "modules/services/webdevelopment/jamstack/testimonials";
+@import "modules/services/webdevelopment/jamstack/process";
+@import "modules/services/webdevelopment/jamstack/services";
+@import "modules/services/webdevelopment/jamstack/footer";
+@import "modules/services/webdevelopment/jamstack/video";
+@import "modules/services/webdevelopment/jamstack/carousel";
+@import "modules/services/webdevelopment/jamstack/estimate";
+
+@import "modules/services/webdevelopment/pwa/case-studies";
+@import "modules/services/webdevelopment/pwa/pwa";
+@import "modules/services/webdevelopment/pwa/benefits";
+@import "modules/services/webdevelopment/pwa/services";
+@import "modules/services/webdevelopment/pwa/storefront";
+@import "modules/services/webdevelopment/pwa/practice";
+@import "modules/services/webdevelopment/pwa/tools";
+@import "modules/services/webdevelopment/pwa/predictions";
+@import "modules/services/webdevelopment/pwa/estimate";
+@import "modules/services/webdevelopment/pwa/footer";
+
+@import "modules/services/webdevelopment/node/main";
+@import "modules/services/webdevelopment/node/hero";
+@import "modules/services/webdevelopment/node/nav";
+@import "modules/services/webdevelopment/node/what";
+@import "modules/services/webdevelopment/node/list";
+@import "modules/services/webdevelopment/node/clutch";
+@import "modules/services/webdevelopment/node/companies";
+@import "modules/services/webdevelopment/node/about";
+@import "modules/services/webdevelopment/node/process";
+@import "modules/services/webdevelopment/node/services";
+@import "modules/services/webdevelopment/node/blog";
+@import "modules/services/webdevelopment/node/faq";
+@import "modules/services/webdevelopment/node/estimate";
+
+@import "modules/services/webdevelopment/react/main";
+@import "modules/services/webdevelopment/react/hero";
+@import "modules/services/webdevelopment/react/nav";
+@import "modules/services/webdevelopment/react/what";
+@import "modules/services/webdevelopment/react/why";
+@import "modules/services/webdevelopment/react/success";
+@import "modules/services/webdevelopment/react/examples";
+@import "modules/services/webdevelopment/react/about";
+@import "modules/services/webdevelopment/react/process";
+@import "modules/services/webdevelopment/react/services";
+@import "modules/services/webdevelopment/react/clutch";
+@import "modules/services/webdevelopment/react/faq";
+@import "modules/services/webdevelopment/react/estimate";
+
+@import "modules/services/webdevelopment/vue/main";
+@import "modules/services/webdevelopment/vue/hero";
+@import "modules/services/webdevelopment/vue/nav";
+@import "modules/services/webdevelopment/vue/what";
+@import "modules/services/webdevelopment/vue/why";
+@import "modules/services/webdevelopment/vue/success";
+@import "modules/services/webdevelopment/vue/about";
+@import "modules/services/webdevelopment/vue/process";
+@import "modules/services/webdevelopment/vue/services";
+@import "modules/services/webdevelopment/vue/faq";
+@import "modules/services/webdevelopment/vue/estimate";
+
+@import "modules/services/webdevelopment/ror/main";
+@import "modules/services/webdevelopment/ror/hero";
+@import "modules/services/webdevelopment/ror/what";
+@import "modules/services/webdevelopment/ror/benefits";
+@import "modules/services/webdevelopment/ror/success";
+@import "modules/services/webdevelopment/ror/examples";
+@import "modules/services/webdevelopment/ror/about";
+@import "modules/services/webdevelopment/ror/process";
+@import "modules/services/webdevelopment/ror/services";
+@import "modules/services/webdevelopment/ror/faq";
+@import "modules/services/webdevelopment/ror/estimate";
+
+@import "modules/services/cloud-adoption/cloud-adoption/hero";
+@import "modules/services/cloud-adoption/cloud-adoption/services";
+@import "modules/services/cloud-adoption/cloud-adoption/section";
+@import "modules/services/cloud-adoption/cloud-adoption/section-carousel";
+@import "modules/services/cloud-adoption/cloud-adoption/link";
+@import "modules/services/cloud-adoption/cloud-adoption/quote";
+@import "modules/services/cloud-adoption/cloud-adoption/optimization";
+@import "modules/services/cloud-adoption/cloud-adoption/companies";
+@import "modules/services/cloud-adoption/cloud-adoption/use-case";
+@import "modules/services/cloud-adoption/cloud-adoption/transformation";
+@import "modules/services/cloud-adoption/cloud-adoption/faq";
+@import "modules/services/cloud-adoption/cloud-adoption/estimate";
+
+@import "modules/services/product-design/product-design/hero";
+@import "modules/services/product-design/product-design/accordion";
+@import "modules/services/product-design/product-design/section";
+@import "modules/services/product-design/product-design/profits";
+@import "modules/services/product-design/product-design/case";
+@import "modules/services/product-design/product-design/dajemy";
+@import "modules/services/product-design/product-design/link";
+@import "modules/services/product-design/product-design/right";
+@import "modules/services/product-design/product-design/diamond";
+@import "modules/services/product-design/product-design/clutch";
+@import "modules/services/product-design/product-design/switch";
+@import "modules/services/product-design/product-design/process-switch";
+@import "modules/services/product-design/product-design/design-switch";
+@import "modules/services/product-design/product-design/workshop-switch";
+@import "modules/services/product-design/product-design/faq";
+@import "modules/services/product-design/product-design/estimate";
+
+// PORTFOLIO SPECIFIC STYLES //
+
+@import "modules/portfolio/main";
+@import "modules/portfolio/hero";
+@import "modules/portfolio/case";
+@import "modules/portfolio/case-accordion";
+@import "modules/portfolio/artinfo";
+@import "modules/portfolio/nutshell";
+
+@import "modules/portfolio-cases/main";
+
+@import "modules/portfolio-cases/hero";
+@import "modules/portfolio-cases/about";
+@import "modules/portfolio-cases/goal";
+@import "modules/portfolio-cases/challenge";
+@import "modules/portfolio-cases/features";
+@import "modules/portfolio-cases/stack";
+@import "modules/portfolio-cases/experts";
+@import "modules/portfolio-cases/results";
+@import "modules/portfolio-cases/testimonial";
+
+@import "modules/portfolio-cases/artinfo/challenge";
+@import "modules/portfolio-cases/artinfo/goal";
+
+@import "modules/portfolio-cases/awn/goal";
+@import "modules/portfolio-cases/awn/issues";
+@import "modules/portfolio-cases/awn/workshops";
+
+@import "modules/portfolio-cases/lvcloud/about";
+@import "modules/portfolio-cases/lvcloud/companies";
+@import "modules/portfolio-cases/lvcloud/goal";
+@import "modules/portfolio-cases/lvcloud/results";
+@import "modules/portfolio-cases/lvcloud/solution";
+@import "modules/portfolio-cases/lvcloud/tabs";
+@import "modules/portfolio-cases/lvcloud/video";
+
+@import "modules/portfolio-cases/retention-rocket/testimonial";
+
+@import "modules/portfolio-cases/woolman/about";
+@import "modules/portfolio-cases/woolman/blog";
+@import "modules/portfolio-cases/woolman/hero";
+
+
+// HOME SPECIFIC STYLES //
+
+@import "modules/home/topbar";
+@import "modules/home/header";
+
+body {
+  font-weight: 300;
+  font-family: acumin-pro;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 200;
+}
+
+h3 {
+	font-size: 24px;
+  font-weight: 200;
+  line-height: 36px;
+  margin: 0;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.btn-primary {
+
+  &.btn-arrow {
+    padding: 16px 22px 16px 40px;
+    font-size: 13px;
+
+    img {
+      margin-bottom: 0;
+    }
+  }
+}
+
+a.text-secondary {
+  background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  max-width: 410px;
+  margin: 0;
+  color: rgba(61, 35, 16, 0.7);
+  font-weight: 300;
+
+  &-offset {
+    padding-left: 45px;
+  }
+
+  &.has-dot {
+    padding-left: 40px;
+    position: relative;
+
+    &.closer {
+      padding-left: 25px;
+    }
+  }
+
+  small {
+    font-size: 14px;
+    color: rgba(59, 34, 15, 0.5);
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: $color-accent-yellow;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+
+  &.text-secondary {
+    color: $color-secondary;
+  }
+}
+
+.paragraph a:not(link),
+.hero_text a,
+.services-faq__text a {
+  background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  text-decoration: none;
+  transition: background-size .2s ease-in, color .1s ease;
+
+  &:hover {
+    color: #fff;
+    background-size: 100% 88%;
+  }
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cash {
+  color: $color-secondary;
+  font-size: 32px;
+  padding-right: 20px;
+  font-weight: 200;
+
+  &-currency {
+    color: rgba(61, 35, 16, 0.5);
+    font-size: 14px;
+    position: relative;
+    bottom: 1px;
+    padding-left: 10px;
+    font-weight: 300;
+  }
+}
+
+.link {
+  &--mail {
+	  border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    color: $color-secondary;
+    padding: 3px 5px;
+    line-height: 22px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.banner {
+  width: 850px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  .shadow-text {
+    left: 0;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 20px 0;
+  }
+}
+
+.menu {
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.figures-wrapper {
+  display: flex;
+}
+
+.sticky-wrapper {
+  width: 100%;
+}
+
+
+@media (max-width: 810px) {
+  .paragraph {
+    font-size: 14px;
+
+    &-offset {
+      padding-left: 25px;
+    }
+
+    small {
+      opacity: 1;
+    }
+  }
+
+  .image {
+    &--oversized {
+      max-width: 160%;
+    }
+  }
+
+  .btn-primary {
+
+    &.btn-arrow {
+      padding: 15px 0px 15px 0;
+      align-items: center;
+      display: flex;
+      font-size: 13px;
+      justify-content: center;
+      width: 290px;
+      margin: 0 auto;
+
+      img {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+
+    &-logo {
+      display: block;
+    }
+  }
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.progress-bar {
+  display: block;
+  width: 100%;
+  height: 1px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(to right, #FF5E45, #FF5E45);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size .4s ease-in-out;
+}
+
+.floating-dots {
+  position: absolute;
+	height: 471px;
+  width: 597px;
+
+  .floating-dots_dot {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+    &.burnt-sienna {
+      background-color: #ed6a4f;
+      top: 0;
+      right: 130px;
+    }
+
+    &.casablanca {
+      background-color: #f4b356;
+      left: 0;
+      bottom: 115px;
+    }
+
+    &.french-pass {
+      background-color: #b3f2fd;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
