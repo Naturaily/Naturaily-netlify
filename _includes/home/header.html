@@ -1,76 +1,63 @@
-<nav class="header home-header">
-  <div class="site-nav">
-    <nav class="hamb" role="navigation">
-      <div class="menuToggle">
+<div class="home-header">
+  <div class="home-header__wrapper">
+    <a class="home-header__logo" href="/">
+      {% svg /assets/images/logo_naturaily.svg %}
+    </a>
+    <nav class="home-header__nav" role="navigation">
+      <div class="home-header__nav-box">
         <input type="checkbox" id="checkbox"/>
-        <div class="mobile-span" id="mobileSpan">
-          <span></span> <span></span> <span></span> <span></span>
+        <div class="home-header__nav-hamburger" id="mobileSpan">
+          <span class="home-header__nav-bar home-header__nav-bar--first"></span>
+          <span class="home-header__nav-bar home-header__nav-bar--second"></span>
+          <span class="home-header__nav-bar home-header__nav-bar--third"></span>
+          <span class="home-header__nav-bar home-header__nav-bar--fourth"></span>
         </div>
-        <ul class="home-header__menu menu">
-          <a class="home-header__logo naturaily" href="/">
-            {% svg /assets/images/logo_naturaily.svg %}
-          </a>
-          <li class="home-header__menu-item">
-            <a href="/services">Services</a>
-          </li>
-          <li class="home-header__menu-item">
-            <a href="/portfolio">Portfolio</a>
-          </li>
-          <li class="home-header__menu-item">
-            <a href="/about">About</a>
-          </li>
-          <li class="home-header__menu-item">
-            <a href="/blog/">Blog</a>
-          </li>
-          <li class="home-header__menu-item">
-            <a href="/careers">Careers</a>
-          </li>
-          <div class="header-social">
+        <div class="home-header__menu" data-menu>
+          <ul>
+            <a class="home-header__menu-logo" href="/">
+              {% svg /assets/images/logo_naturaily.svg %}
+            </a>
+            <li class="home-header__menu-item">
+              <a href="/services">Services</a>
+            </li>
+            <li class="home-header__menu-item">
+              <a href="/portfolio">Portfolio</a>
+            </li>
+            <li class="home-header__menu-item">
+              <a href="/about">About</a>
+            </li>
+            <li class="home-header__menu-item">
+              <a href="/blog/">Blog</a>
+            </li>
+            <li class="home-header__menu-item">
+              <a href="/careers">Careers</a>
+            </li>
+          </ul>
+          <div class="home-header__social">
             <a href="https://www.facebook.com/Naturaily/" rel="nofollow" target="_blank">
-              <img
-                src="/assets/images/loader.gif"
-                data-src="/assets/images/facebook-logo.png"
-                alt="Facebook"
-              />
+              {% svg /assets/images/facebook.svg class="home-header__social-image" %}
             </a>
             <a href="https://twitter.com/naturailycom" rel="nofollow" target="_blank">
-              <img
-                src="/assets/images/loader.gif"
-                data-src="/assets/images/twitter-logo.png"
-                alt="Twitter"
-              />
+              {% svg /assets/images/twitter.svg class="home-header__social-image" %}
             </a>
             <a href="https://www.linkedin.com/company/naturaily" rel="nofollow" target="_blank">
-              <img
-                src="/assets/images/loader.gif"
-                data-src="/assets/images/linkedin.png"
-                alt="Linkedin"
-              />
+              {% svg /assets/images/linkedin.svg class="home-header__social-image" %}
             </a>
             <a href="https://github.com/naturaily" rel="nofollow" target="_blank">
-              <img
-                class="header-github"
-                src="/assets/images/loader.gif"
-                data-src="/assets/images/github.png"
-                alt="Github"
-              />
+              {% svg /assets/images/github.svg class="home-header__social-image" %}
             </a>
           </div>
-          <li class="menu-estimate">
-            <a href="/get-an-estimate" class="btn btn-secondary">
-              Get an estimate
-            </a>
-          </li>
-        </ul>
+          <a href="/get-an-estimate" class="btn btn-primary">
+            Get an estimate
+          </a>
+        </div>
       </div>
     </nav>
-  </div>
-  <div class="header-right">
-    <a href="/get-an-estimate" class="btn btn-secondary header-btn">
+    <a href="/get-an-estimate" class="btn btn-white">
       Get an estimate
     </a>
   </div>
-</nav>
+</div>
 
 <script type="text/javascript">
   {% include block-scroll.js %}
