@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Copywriter & Content Marketing Specialist - don’t wait - apply
 short-title: Copywriter & Content Marketing Specialist
 description: >-
@@ -152,3 +152,4 @@ salaries:
       contract: + VAT (B2B)
       sum: 5 000 - 7 000 PLN net
 ---
+
