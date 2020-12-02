@@ -1,5 +1,74 @@
 .home-hero {
+  padding-top: 170px;
   width: 100%;
-  height: 1000px;
   background-color: $color-secondary;
+  border-radius: 0 0 54px 0;
+  transition: .2s;
+
+  &__header, &__image, &__text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &__header {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 200;
+    color: $color-white;
+  }
+
+  &__image {
+    width: 160px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    position: relative;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 200;
+    color: $color-white;
+
+    &-arrow {
+      position: absolute;
+      top: 19px;
+      right: 20px;
+      transform: rotate(90deg);
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+    &-item {
+      box-sizing: border-box;
+      width: 50%;
+      padding: 6px 8px;
+      font-size: 16px;
+      line-height: 24px;
+
+      &__frame {
+        display: inline-block;
+        padding: 7px 13px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 200;
+        border: 1px solid $color-home-border;
+        border-radius: 16px;
+        color: $color-white;
+      }
+
+      &--design {
+        order: 1;
+      }
+    }
+  }
+}
+
+.scrolled .home-hero {
+  padding-top: 120px;
 }

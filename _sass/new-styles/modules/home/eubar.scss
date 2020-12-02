@@ -5,7 +5,7 @@
   width: 100%;
   border-bottom: 1px solid $color-home-border;
   background-color: $color-secondary;
-  transition: top .2s ease;
+  transition: .2s;
 
   &__wrapper {
     box-sizing: border-box;
@@ -44,19 +44,10 @@
       text-decoration: none;
     }
   }
-
-  .scrolled & {
-    top: -100%;
-  }
 }
 
-.home-header {
-  padding-top: 56px;
-  transition: padding-top .2s ease;
-
-  .scrolled & {
-    padding-top: 0;
-  }
+.scrolled .home-eubar {
+  transform: translateY(-100%);
 }
 
 @media (min-width: 811px) {
@@ -80,10 +71,10 @@
     &__image {
       max-height: 15px;
     }
+  }
 
-    .scrolled & {
-      top: -200px;
-    }
+  .scrolled .home-eubar {
+    transform: translateY(-100%);
   }
 }
 

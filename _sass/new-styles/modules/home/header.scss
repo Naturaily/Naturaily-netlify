@@ -1,6 +1,6 @@
 .home-header {
   position: relative;
-  padding: 0 20px;
+  padding: 50px 20px 0;
   background-color: $color-secondary;
   font-weight: 200;
   text-align: left;
@@ -133,7 +133,8 @@
     position: absolute;
     top: 15px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, 120px);
+    transition: .2s;
 
     svg  {
       width: 120px;
@@ -170,6 +171,14 @@
     transform: translateX(-50%);
     width: 115px;
     font-size: 13px;
+  }
+}
+
+.scrolled .home-header {
+  padding-top: 0;
+
+  &__logo {
+    transform: translateX(-50%);
   }
 }
 
