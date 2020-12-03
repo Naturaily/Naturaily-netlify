@@ -1,6 +1,6 @@
-.pwa-estimate {
+.about-estimate {
   width: 100%;
-  padding-top: 25px;
+  padding-top: 70px;
 
   &__header {
     padding-bottom: 25px;
@@ -14,15 +14,10 @@
     }
   }
 
-  &__paragraph {
-    font-size: 16px;
-    line-height: 24px;
-    color: $color-global-font-70;
-  }
-
   .page-estimate {
     &__content-text {
       padding: 0 20px;
+      font-size: 16px;
     }
 
     &__image, &__image img {
@@ -36,14 +31,48 @@
   }
 
 
-  .btn-primary.btn-arrow {
-    margin-left: 20px;
-    padding: 20px 0 20px 15px;
+  &__cta {
+    display: inline-block;
+    margin-top: 25px;
+    padding-left: 20px;
+
+    &-text {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+      color: $color-global-font-70;
+    }
+
+    &-infopack {
+      font-size: 24px;
+      font-weight: 200;
+      line-height: 36px;
+      background-image: linear-gradient(120deg, $color-secondary 0%, $color-secondary 100%);
+      background-position: 0 100%;
+      background-repeat: no-repeat;
+      background-size: 100% 1px;
+      text-decoration: none;
+      color: $color-secondary;
+      transition: background-size .2s ease-in, color .1s ease;
+      cursor: pointer;
+
+      &:hover {
+        color: $color-white;
+        background-size: 100% 88%;
+      }
+    }
+
+    .btn-primary.btn-arrow {
+      position: relative;
+      padding: 20px 0 20px 15px;
+    }
+
   }
 }
 
 @media (min-width: 576px) {
-  .pwa-estimate {
+  .about-estimate {
     padding-top: 50px;
     background-color: $color-code-orange-bg;
 
@@ -72,10 +101,11 @@
 }
 
 @media (min-width: 811px) {
-  .pwa-estimate {
+  .about-estimate {
     padding: 75px;
 
     &__header {
+      width: 390px;
       padding-bottom: 30px;
     }
 
@@ -91,24 +121,27 @@
       }
     }
 
-    .btn-primary.btn-arrow {
-      display: block;
-      width: 190px;
-      margin-left: 70px;
-      padding-left: 35px;
+    &__cta {
+      width: 240px;
+      padding-left: 75px;
+
+      .btn-primary.btn-arrow {
+        display: block;
+        width: 190px;
+        padding-left: 35px;
+      }
+
+      &-text {
+        margin-top: 0;
+      }
     }
   }
 }
 
 @media (min-width: 992px) {
-  .pwa-estimate {
+  .about-estimate {
     padding-top: 120px;
     padding-bottom: 100px;
-
-    &__header {
-      width: 530px;
-      max-width: 530px;
-    }
 
     .page-estimate__columns {
       max-width: 1080px;
@@ -118,7 +151,7 @@
 }
 
 @media (min-width: 1200px) {
-  .pwa-estimate {
+  .about-estimate {
     border-radius: 8px;
 
     .page-estimate__image {
