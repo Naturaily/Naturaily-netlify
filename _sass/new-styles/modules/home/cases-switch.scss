@@ -1,0 +1,254 @@
+.home-switch {
+  position: relative;
+  padding-top: 55px;
+
+  &__next, &--hidden {
+    display: none;
+  }
+
+  &__arrow--rotated {
+    transform: rotate(180deg);
+  }
+
+  &__background {
+    position: absolute;
+    top: 145px;
+    left: 160px;
+    height: 200px;
+    width: 500px;
+    background-color: $color-home-background;
+    border-radius: 8px;
+  }
+
+  &__header {
+    margin-bottom: 55px;
+    padding: 0 20px;
+    font-size: 32px;
+    line-height: 72px;
+    font-weight: 200;
+    color: $color-global-font;
+  }
+
+  &__project, &__title, &__description, &__specs, &__testimonials {
+    padding-left: 15px;
+  }
+
+  &__project {
+    font-size: 14px;
+    line-height: 16px;
+    color: $color-text-muted;
+
+    &--secondary {
+      color: $color-secondary;
+    }
+  }
+
+  &__title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    line-height: 36.4px;
+    color: $color-page-text;
+  }
+
+  &__description {
+    font-size: 14px;
+    line-height: 20px;
+    color: $color-page-text;
+  }
+
+  &__specs, &__testimonials {
+    &-header {
+      position: relative;
+      padding: 10px 0;
+      font-size: 14px;
+      line-height: 16px;
+      color: $color-home-text-grey;
+
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: rotate(-90deg);
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+        background-color: $color-white;
+        border-radius: 100%;
+      }
+    }
+  }
+
+  &__specs {
+    margin-top: 15px;
+
+    &-list {
+      margin-bottom: 35px;
+
+      &__item {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+
+        .icon {
+          width: 50px;
+          font-size: 25px;
+          color: $color-secondary;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 24px;
+          color: $color-page-text;
+        }
+      }
+    }
+  }
+
+  &__testimonials {
+    margin-bottom: 20px;
+
+    &-text {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 200px;
+      color: $color-page-text;
+    }
+
+    &-credits {
+      display: flex;
+      margin-bottom: 50px;
+      font-size: 14px;
+      line-height: 24px;
+
+      img {
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+      }
+
+      &__person, &__position {
+        padding-left: 32px;
+      }
+
+      &__person {
+        margin: 10px 0;
+        font-weight: 500;
+
+      }
+    }
+  }
+
+  &__image {
+    box-sizing: border-box;
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .btn-primary {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 13px;
+      width: 170px;
+      padding: 18px 40px;
+
+      svg {
+        margin-left: 15px;
+      }
+    }
+  }
+
+  &__wrapper {
+    width: 100vw;
+    padding-left: 10px;
+  }
+
+  &__cards {
+    display: flex;
+    position: relative;
+    width: 300%;
+  }
+
+  &__card {
+    box-sizing: border-box;
+    width: 33.3%;
+    padding: 40px;
+    padding-left: 25px;
+    border-radius: 8px 0 0 8px;
+    background-color: $color-home-grey;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    padding-left: 25px;
+    padding-right: 20px;
+    background-color: $color-home-grey;
+    border-top: 2px solid $color-home-border-grey;
+
+    &-buttons {
+      height: 100%;
+    }
+
+    &-counter {
+      display: flex;
+      align-items: center;;
+      font-size: 14px;
+      line-height: 20px;
+
+      &__current {
+        margin-right: 5px;
+      }
+
+      &__all {
+        opacity: 0.7;
+      }
+    }
+
+    &-text {
+      font-size: 13px;
+      line-height: 16px;
+      color: $color-secondary;
+      text-transform: uppercase;
+    }
+
+    &-button {
+      height: 100%;
+      padding: 0 20px;
+      border: none;
+      background-color: $color-transparent;
+
+      &--prev svg {
+        margin-right: 10px;
+      }
+
+      &--next {
+        border-left: 2px solid $color-home-border-grey;
+
+        svg {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    &-arrow {
+      &--rotated {
+        transform: rotate(180deg);
+      }
+      .arrow-line {
+        fill: $color-secondary;
+      }
+    }
+  }
+}

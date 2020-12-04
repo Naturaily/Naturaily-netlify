@@ -24,7 +24,11 @@ window.addEventListener('load', () => {
       case 'home':
         faqClasses.rotated = 'home-hero__text-arrow--rotated';
         faqClasses.hidden = 'home-hero__list--hidden';
+      case 'home-switch':
+        faqClasses.rotated = 'home-switch__arrow--rotated';
+        faqClasses.hidden = 'home-switch--hidden';
       case 'home':
+      case 'home-switch':
       case 'standard':
         if (mobileDevice) { runFaq(e); }
         break;
