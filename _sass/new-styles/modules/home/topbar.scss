@@ -8,10 +8,12 @@
     position: relative;
     top: 0;
     transform: translateY(66px);
+    width: 100%;
     z-index: 3;
     transition: top .2s ease;
 
     &__wrapper {
+      box-sizing: border-box;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -21,8 +23,6 @@
       margin: 0 auto;
       font-weight: 200;
       color: $color-white;
-      background-color: $color-secondary;
-      border-bottom: 1px solid $color-home-border;
     }
 
     &__content, &__social {
@@ -79,6 +79,6 @@
 
 @media (min-width: 1200px) {
   .home-topbar__social {
-    padding-right: 60px;
+    padding-right: 40px;
   }
 }
