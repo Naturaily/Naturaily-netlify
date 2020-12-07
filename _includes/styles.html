@@ -1,0 +1,146 @@
+{% if page.url == "/about" %}
+  {% capture styles %}
+    {% include /about/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/get-an-estimate" %}
+  {% capture styles %}
+    {% include /estimate/estimate.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/thank-you" %}
+  {% capture styles %}
+    {% include /estimate/thank-you.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/careers" %}
+  {% capture styles %}
+    {% include /career/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/career-offers"%}
+  {% capture styles %}
+    {% include /career-offers/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url contains "/join" %}
+  {% capture styles %}
+    {% include /career-offer/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio" %}
+  {% capture styles %}
+    {% include /portfolio/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/artinfo" %}
+  {% capture styles %}
+    {% include /portfolio-cases/artinfo/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/awn" %}
+  {% capture styles %}
+    {% include /portfolio-cases/awn/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/lingohub" %}
+  {% capture styles %}
+    {% include /portfolio-cases/lingohub/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/lvcloud" %}
+  {% capture styles %}
+    {% include /portfolio-cases/lvcloud/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/retention-rocket" %}
+  {% capture styles %}
+    {% include /portfolio-cases/retention-rocket/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/woolman" %}
+  {% capture styles %}
+    {% include /portfolio-cases/woolman/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/portfolio/work-for-impact" %}
+  {% capture styles %}
+    {% include /portfolio-cases/work-for-impact/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services" %}
+  {% capture styles %}
+    {% include /services/services/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/product-design" %}
+  {% capture styles %}
+    {% include /services/product-design/product-design/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/iot-development" %}
+  {% capture styles %}
+    {% include /services/iot-development/iot-development/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/cloud-adoption" %}
+  {% capture styles %}
+    {% include /services/cloud-adoption/cloud-adoption/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/webdevelopment/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment/vue-js-development" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/vue/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment/node-js-development" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/node/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment/react-js-development" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/react/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment/ruby-on-rails-development" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/ror/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment/jamstack" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/jamstack/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/webdevelopment/pwa" %}
+  {% capture styles %}
+    {% include /services/webdevelopment/pwa/styles.scss %}
+  {% endcapture %}
+
+  {% elsif page.url == "/services/ecommerce" %}
+    {% capture styles %}
+      {% include /services/ecommerce/ecommerce/styles.scss %}
+    {% endcapture %}
+
+{% elsif page.url == "/services/ecommerce/shopify-development" %}
+  {% capture styles %}
+    {% include /services/ecommerce/shopify/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/services/ecommerce/custom-development" %}
+  {% capture styles %}
+    {% include /services/ecommerce/custom/styles.scss %}
+  {% endcapture %}
+
+{% else %}
+  {% capture styles %}
+    {% include main.scss %}
+  {% endcapture %}
+
+{% endif %}

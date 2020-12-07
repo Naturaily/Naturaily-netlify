@@ -1,0 +1,25 @@
+.case-results__main-image .geometric-figure {
+  display: block;
+  position: absolute;
+  z-index: -1;
+
+  &_center {
+    height: 200px;
+    width: 200px;
+  }
+
+  &--schema2 {
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%) scale(1.5);
+
+    .geometric-figure_center {
+      background-color: $color-accent-yellow;
+    }
+
+    .geometric-figure_right {
+      display: none;
+    }
+  }
+}

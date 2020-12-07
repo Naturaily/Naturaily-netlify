@@ -1,0 +1,274 @@
+body {
+  font-weight: 300;
+  font-family: acumin-pro;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 36px;
+  margin: 0;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.btn-primary {
+
+  &.btn-arrow {
+    padding: 16px 22px 16px 40px;
+    font-size: 13px;
+
+    img {
+      margin-bottom: 0;
+    }
+  }
+}
+
+a.text-secondary {
+  background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  max-width: 410px;
+  margin: 0;
+  color: rgba(61, 35, 16, 0.7);
+  font-weight: 300;
+
+  &-offset {
+    padding-left: 45px;
+  }
+
+  &.has-dot {
+    padding-left: 40px;
+    position: relative;
+
+    &.closer {
+      padding-left: 25px;
+    }
+  }
+
+  small {
+    font-size: 14px;
+    color: rgba(59, 34, 15, 0.5);
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: $color-accent-yellow;
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+
+  &.text-secondary {
+    color: $color-secondary;
+  }
+}
+
+.paragraph a:not(link),
+.hero_text a,
+.services-faq__text a {
+  background-image: linear-gradient(120deg, #FF5E45 0%, #FF5E45 100%);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  text-decoration: none;
+  transition: background-size .2s ease-in, color .1s ease;
+
+  &:hover {
+    color: #fff;
+    background-size: 100% 88%;
+  }
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cash {
+  color: $color-secondary;
+  font-size: 32px;
+  padding-right: 20px;
+  font-weight: 200;
+
+  &-currency {
+    color: rgba(61, 35, 16, 0.5);
+    font-size: 14px;
+    position: relative;
+    bottom: 1px;
+    padding-left: 10px;
+    font-weight: 300;
+  }
+}
+
+.link {
+  &--mail {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+    color: $color-secondary;
+    padding: 3px 5px;
+    line-height: 22px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.banner {
+  width: 850px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  .shadow-text {
+    left: 0;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 20px 0;
+  }
+}
+
+.menu {
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.figures-wrapper {
+  display: flex;
+}
+
+.sticky-wrapper {
+  width: 100%;
+}
+
+
+@media (max-width: 810px) {
+  .paragraph {
+    font-size: 14px;
+
+    &-offset {
+      padding-left: 25px;
+    }
+
+    small {
+      opacity: 1;
+    }
+  }
+
+  .image {
+    &--oversized {
+      max-width: 160%;
+    }
+  }
+
+  .btn-primary {
+
+    &.btn-arrow {
+      padding: 15px 0px 15px 0;
+      align-items: center;
+      display: flex;
+      font-size: 13px;
+      justify-content: center;
+      width: 290px;
+      margin: 0 auto;
+
+      img {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    width: 100%;
+
+    &-logo {
+      display: block;
+    }
+  }
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.progress-bar {
+  display: block;
+  width: 100%;
+  height: 1px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(to right, #FF5E45, #FF5E45);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size .4s ease-in-out;
+}
+
+.floating-dots {
+  position: absolute;
+  height: 471px;
+  width: 597px;
+
+  .floating-dots_dot {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+    &.burnt-sienna {
+      background-color: #ed6a4f;
+      top: 0;
+      right: 130px;
+    }
+
+    &.casablanca {
+      background-color: #f4b356;
+      left: 0;
+      bottom: 115px;
+    }
+
+    &.french-pass {
+      background-color: #b3f2fd;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}

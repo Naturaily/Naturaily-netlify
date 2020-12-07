@@ -1,62 +1,128 @@
 .pwa-estimate {
+  width: 100%;
+  padding-top: 25px;
 
-  &_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  &_text {
+  &__header {
+    padding-bottom: 25px;
     font-size: 24px;
     line-height: 38px;
-    max-width: 520px;
-    padding-bottom: 20px;
+    color: $color-global-font;
 
-    &-small {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
+    .text-secondary {
+      display: inline;
+      font-size: 24px;
     }
   }
 
-  &_link {
-    margin-bottom: 20px;
+  &__paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-global-font-70;
   }
-}
 
-@media (max-width: 1200px) {
-  .pwa-estimate {
-    margin-right: 0;
-    padding-left: 160px;
-  }
-}
-
-@media (max-width: 810px) {
-  .pwa-estimate {
-    flex-direction: row;
-    padding: 0 16px 0px 30px;
-
-    .section_content {
-      max-width: 40%;
-      padding-right: 10%;
+  .page-estimate {
+    &__content-text {
+      padding: 0 20px;
     }
 
-    .section_desc .btn {
-      margin-bottom: 30px;
-    }
-  }
-}
-
-@media (max-width: 576px) {
-  .pwa-estimate {
-    flex-direction: column;
-
-    .section_content {
+    &__image, &__image img {
       max-width: 100%;
     }
 
-    .section_desc {
-      padding-top: 0;
+    &__image {
+      box-sizing: border-box;
+      padding: 25px 20px 15px;
+    }
+  }
+
+
+  .btn-primary.btn-arrow {
+    margin-left: 20px;
+    padding: 20px 0 20px 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .pwa-estimate {
+    padding-top: 50px;
+    background-color: $color-code-orange-bg;
+
+    &__header {
+      padding-bottom: 25px;
+      font-size: 36px;
+      line-height: 50px;
+
+      .text-secondary {
+        font-size: 36px;
+      }
+    }
+
+    .page-estimate__image {
+      padding-top: 50px;
+      margin: 0;
+      background-color: $color-code-orange-bg;
+
+      img {
+        padding-top: 30px;
+        background-color: $color-white;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .pwa-estimate {
+    padding: 75px;
+
+    &__header {
+      padding-bottom: 30px;
+    }
+
+    .page-estimate {
+      &__content-text {
+        padding: 0;
+        padding-left: 70px;
+      }
+
+      &__image {
+        max-width: 370px;
+        padding: 0;
+      }
+    }
+
+    .btn-primary.btn-arrow {
+      display: block;
+      width: 190px;
+      margin-left: 70px;
+      padding-left: 35px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .pwa-estimate {
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+    &__header {
+      width: 530px;
+      max-width: 530px;
+    }
+
+    .page-estimate__columns {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .pwa-estimate {
+    border-radius: 8px;
+
+    .page-estimate__image {
+      box-shadow: 0 30px 40px -35px $color-btn-shadow;
     }
   }
 }

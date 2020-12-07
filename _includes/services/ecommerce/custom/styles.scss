@@ -1,0 +1,37 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/carousel-custom";
+@import "new-styles/modules/carousel-partners";
+@import "new-styles/modules/clutch";
+@import "new-styles/modules/estimate-page";
+@import "new-styles/modules/other";
+
+@import "new-styles/modules/services/main";
+@import "new-styles/modules/services/clutch";
+@import "new-styles/modules/services/faq";
+@import "new-styles/modules/services/hero";
+@import "new-styles/modules/services/include";
+@import "new-styles/modules/services/link";
+@import "new-styles/modules/services/list";
+@import "new-styles/modules/services/numbers";
+@import "new-styles/modules/services/section";
+@import "new-styles/modules/services/stack";
+@import "new-styles/modules/services/testimonial";
+
+@import "new-styles/modules/services/ecommerce/custom/hero";
+@import "new-styles/modules/services/ecommerce/custom/services";
+@import "new-styles/modules/services/ecommerce/custom/technologies";
+@import "new-styles/modules/services/ecommerce/custom/process";
+@import "new-styles/modules/services/ecommerce/custom/presentation";

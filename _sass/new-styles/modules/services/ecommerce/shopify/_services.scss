@@ -58,9 +58,14 @@
     cursor: pointer;
     color: $color-secondary;
     font-weight: 600;
-    > img {
+    
+    > svg {
       height: 11px;
       margin-left: 100px;
+
+      .arrow-line {
+        fill: $color-secondary;
+      }
     }
   }
 }
@@ -115,7 +120,7 @@
         flex-direction: column;
         margin-bottom: 45px;
         height: auto;
-        
+
         &.reverse {
           flex-direction: column;
         }

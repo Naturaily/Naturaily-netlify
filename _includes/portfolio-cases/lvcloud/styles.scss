@@ -1,0 +1,38 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/clutch";
+@import "new-styles/modules/carousel-custom";
+@import "new-styles/modules/carousel-partners";
+@import "new-styles/modules/estimate-page";
+@import "new-styles/modules/other";
+
+@import "new-styles/modules/portfolio-cases/main";
+@import "new-styles/modules/portfolio-cases/hero";
+@import "new-styles/modules/portfolio-cases/about";
+@import "new-styles/modules/portfolio-cases/goal";
+@import "new-styles/modules/portfolio-cases/challenge";
+@import "new-styles/modules/portfolio-cases/features";
+@import "new-styles/modules/portfolio-cases/stack";
+@import "new-styles/modules/portfolio-cases/experts";
+@import "new-styles/modules/portfolio-cases/results";
+@import "new-styles/modules/portfolio-cases/testimonial";
+
+@import "new-styles/modules/portfolio-cases/lvcloud/about";
+@import "new-styles/modules/portfolio-cases/lvcloud/companies";
+@import "new-styles/modules/portfolio-cases/lvcloud/goal";
+@import "new-styles/modules/portfolio-cases/lvcloud/results";
+@import "new-styles/modules/portfolio-cases/lvcloud/solution";
+@import "new-styles/modules/portfolio-cases/lvcloud/tabs";
+@import "new-styles/modules/portfolio-cases/lvcloud/video";
