@@ -1,4 +1,9 @@
-{% if page.url == "/about" %}
+{% if page.url == "/" %}
+  {% capture styles %}
+    {% include /home/styles.scss %}
+  {% endcapture %}
+
+{% elsif page.url == "/about" %}
   {% capture styles %}
     {% include /about/styles.scss %}
   {% endcapture %}
