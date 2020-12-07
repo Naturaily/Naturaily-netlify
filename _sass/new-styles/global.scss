@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
+  font-size: 24px;
   font-weight: 200;
   line-height: 36px;
   margin: 0;
@@ -134,7 +134,7 @@ a.text-secondary {
 
 .link {
   &--mail {
-	  border-radius: 8px;
+    border-radius: 8px;
     background-color: #FFFFFF;
     box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
     color: $color-secondary;
@@ -244,7 +244,7 @@ a.text-secondary {
 
 .floating-dots {
   position: absolute;
-	height: 471px;
+  height: 471px;
   width: 597px;
 
   .floating-dots_dot {
