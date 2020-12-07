@@ -36,7 +36,7 @@ window.addEventListener('load', () => {
 
     if (st > lastScrollTop && st > navbarHeight){
       jQuery('#checkbox, #mobileSpan').removeClass('nav-down').addClass('nav-up');
-      jQuery(".menu").removeClass('active');
+      jQuery("[data-menu]").removeClass('active');
       jQuery("#mobileSpan").removeClass('open');
     } else {
       if(st + jQuery(window).height() < jQuery(document).height()) {

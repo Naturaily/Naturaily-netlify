@@ -1,4 +1,6 @@
 .home-header {
+  width: 100%;
+
   .btn-white {
     display: none;
   }
@@ -270,6 +272,10 @@
 
 @media (min-width: 992px) {
   .home-header {
+    &__wrapper {
+      background-color: $color-transparent;
+    }
+
     &__menu-item {
       padding: 10px 30px;
     }
