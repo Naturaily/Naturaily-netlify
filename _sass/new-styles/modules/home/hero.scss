@@ -97,20 +97,13 @@
 
 @media (min-width: 576px) {
   .home-hero {
-    &__text {
-      max-width: 480px;
+    &__wrapper {
+      padding-left: 75px;
+      padding-right: 75px;
     }
 
-    &__list {
-      max-width: 560px;
-
-      &-item {
-        width: 33.3%;
-
-        &--design {
-          order: unset;
-        }
-      }
+    &__text {
+      max-width: 480px;
     }
   }
 }
@@ -121,7 +114,7 @@
     top: -1px;
 
     &__wrapper {
-      padding-top: 50px;
+      padding: 50px 0;
     }
 
     &__header, &__clutch {
@@ -174,26 +167,18 @@
         transform: translateX(120px);
       }
     }
-
-    &__list {
-      max-width: 370px;
-      margin-top: 0;
-      margin-left: -7px;
-
-      &-item {
-        width: 50%;
-
-        &--design {
-          order: 1;
-        }
-      }
-    }
   }
 }
 
 @media (min-width: 992px) {
+  .home-hero, .home-hero__background, .home-hero__wrapper {
+    height: 100vh;
+    min-height: 900px;
+    max-height: 1200px;
+  }
+
   .home-hero {
-    height: 100vw;
+    margin-bottom: -120px;
 
     &__background {
       position: absolute;
@@ -201,9 +186,6 @@
       left: -15%;
       z-index: -1;
       width: 115%;
-      min-height: 900px;
-      height: 100vh;
-      max-height: 1200px;
       margin: 0 auto;
       background-color: $color-secondary;
       border-radius: 0 0 54px;
@@ -212,7 +194,6 @@
     &__wrapper {
       position: relative;
       max-width: 1320px;
-      height: 100vh;
       margin: 0 auto;
       padding-top: 30px;
       background-color: $color-transparent;
