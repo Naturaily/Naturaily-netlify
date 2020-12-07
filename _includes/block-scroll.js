@@ -5,10 +5,10 @@ window.addEventListener('load', () => {
       navbarHeight = jQuery('#checkbox, #mobileSpan').outerHeight();
 
   jQuery('#checkbox').on('click', function() {
-    if (jQuery('.menu').hasClass('active')) {
-      jQuery(".menu").removeClass('active');
+    if (jQuery('[data-menu]').hasClass('active')) {
+      jQuery('[data-menu]').removeClass('active');
     } else {
-      jQuery(".menu").addClass('active');
+      jQuery('[data-menu]').addClass('active');
     }
   });
 
