@@ -23,7 +23,7 @@
 
   &__header {
     margin-bottom: 55px;
-    padding: 0 20px;
+    padding: 0 10px;
     font-size: 32px;
     line-height: 72px;
     font-weight: 200;
@@ -152,6 +152,7 @@
 
     img {
       width: 100%;
+      border-radius: 8px;
     }
 
     .btn-primary {
@@ -177,7 +178,7 @@
   &__cards {
     display: flex;
     position: relative;
-    width: 300%;
+    width: calc(300% + 5px);
   }
 
   &__card {
@@ -262,13 +263,13 @@
     }
 
     &__header, &__nav {
-      padding-left: 75px;
-      padding-right: 75px;
+      padding-left: 65px;
+      padding-right: 65px;
     }
 
     &__card {
       padding-left: 65px;
-      padding-right: 75px;
+      padding-right: 85px;
     }
   }
 }
@@ -299,6 +300,7 @@
   .home-switch {
     width: 100vw;
     margin: 0 auto;
+    padding-top: 100px;
     overflow: hidden;
 
     &__background {
@@ -322,7 +324,8 @@
     }
 
     &__header {
-      margin-top: 40px;
+      font-size: 48px;
+      line-height: 72px;
     }
 
     &__card, &__nav {
@@ -477,6 +480,11 @@
 @media (min-width: 1200px) {
   .home-switch {
     padding-top: 85px;
+
+    &__header {
+      padding-left: 75px;
+      padding-right: 75px;
+    }
 
     &__content {
       margin-right: 60px;
