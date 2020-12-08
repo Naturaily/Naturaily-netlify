@@ -41,7 +41,7 @@
     margin-top: 15px;
     padding-right: 50px;
     text-align: center;
-    background: linear-gradient(270deg, #fff 50%, #FF5E45 0%, #FF2C2C 100%);
+    background: linear-gradient(270deg, $color-white 50%, $color-secondary 0%, $color-primary 100%);
     background-position: 100% 0%;
     background-size: 200%;
     transition: background-position .4s, box-shadow .2s;
