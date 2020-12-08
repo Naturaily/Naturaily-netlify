@@ -302,20 +302,23 @@
     overflow: hidden;
 
     &__background {
+      top: 40px;
       left: 33.3%;
-      height: 95%;
+      height: 100%;
       z-index: -1;
     }
 
     &__wrapper {
+      position: relative;
       padding-left: 0;
       max-width: 1440px;
       margin: 0 auto;
-      overflow: hidden;
     }
 
     &__content {
       position: relative;
+      overflow: hidden;
+      border-radius: 8px 8px 0 0;
     }
 
     &__header {
@@ -335,22 +338,27 @@
       &-column {
         box-sizing: border-box;
         position: relative;
+        z-index: 3;
         width: 33.4%;
         padding: 60px 30px 60px 0;
+        background-color: $color-home-grey;
 
         &:last-of-type {
+          z-index: 0;
           padding: 0;
         }
       }
     }
 
     &__nav {
+      box-sizing: border-box;
       position: absolute;
-      bottom: 0;
       right: 0;
-      width: 30%;
-      padding: 0;
-      border-top: none;
+      bottom: 0;
+      width: 33%;
+      padding-left: 50px;
+      padding-right: 0;
+      background-color: $color-home-grey-darker;
 
       &-button--prev {
         display: none;
@@ -422,7 +430,6 @@
       left: 0;
       height: 120px;
       background-color: $color-home-grey;
-      border-bottom: 2px solid $color-home-border-grey;
 
       &-image {
         position: relative;
@@ -462,7 +469,6 @@
         font-size: 18px;
         line-height: 25.5px;
         color: $color-page-text;
-        font-weight: 200;
       }
     }
   }
@@ -472,12 +478,7 @@
   .home-switch {
     padding-top: 85px;
 
-    &__background {
-      top: 180px;
-      height: 90%;
-    }
-
-    &__card, &__nav {
+    &__content {
       margin-right: 60px;
     }
 
@@ -488,7 +489,13 @@
 }
 
 @media (min-width: 1400px) {
-  .home-switch__card-column {
-    padding-right: 80px;
+  .home-switch {
+    &__background {
+      width: 76%;
+    }
+
+    &__card-column {
+      padding-right: 80px;
+    }
   }
 }
