@@ -150,7 +150,7 @@ With Next.js Commerce, e-commerce developers get an all-in-one starter kit for b
 
 **Next.js commerce is still in its infancy and little is known about its issues.** For a hands-on demo of the example Next.js Commerce theme, go [here](https://demo.vercel.store/){:rel="nofollow"}{:target="_blank"}.
 
-### Magento PWA studio
+### [Magento PWA studio](https://magento.com/resources/pwa-studio-overview){:rel="dofollow"}{:target="_blank"}
 
 Magento PWA Studio allows you to create PWA storefronts on the Magento e-commerce platform. It’s a set of PWA tools and resources helping developers build front-ends and create PWA extensions and components.
 
