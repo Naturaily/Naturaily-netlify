@@ -201,14 +201,15 @@
   }
 
   .home-hero {
-    margin-bottom: -120px;
+    max-width: 1600px;
+    margin: 0 auto -120px;
 
     &__background {
       position: absolute;
       top: -190px;
-      left: -15%;
+      left: 0;
       z-index: -1;
-      width: 115%;
+      width: 1530px;
       margin: 0 auto;
       background-color: $color-secondary;
       border-radius: 0 0 54px;
