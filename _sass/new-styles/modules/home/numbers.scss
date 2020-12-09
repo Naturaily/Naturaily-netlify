@@ -1,0 +1,148 @@
+.home-numbers {
+  &__list {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 35px;
+    background-color: $color-secondary;
+
+    &-item {
+      box-sizing: border-box;
+      flex: 1 0 50%;
+      padding: 0 20px;
+    }
+  }
+
+  &__number, &__description {
+    text-align: center;
+    font-weight: 200;
+    color: $color-white;
+  }
+
+  &__number {
+    display: block;
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  &__description {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  &__image {
+    width: 100%;
+
+    img {
+      width: 115%;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .home-numbers {
+    &__list {
+      flex-wrap: nowrap;
+      margin-right: 75px;
+      border-radius: 0 8px 0 0;
+
+      &-item {
+        flex: 0 0 20%;
+      }
+    }
+
+    &__image {
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      &-accent {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 70%;
+        height: 45px;
+        background-color: $color-home-accent;
+        border-radius: 0 8px 0 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .home-numbers {
+    position: relative;
+    width: 100%;
+    max-width: 1720px;
+    margin: 0 auto;
+    background-color: $color-home-grey;
+    overflow: hidden;
+
+    &__background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 95%;
+      max-width: 1500px;
+      height: 191px;
+      margin-right: 75px;
+      background-color: $color-secondary;
+      border-radius: 0 8px 0 0;
+    }
+
+    &__list {
+      position: relative;
+      z-index: 1;
+      max-width: 1050px;
+      margin: 0 auto;
+      padding-left: 75px;
+      padding-right: 75px;
+      background: $color-transparent;
+    }
+
+    &__image {
+      width: 100%;
+      height: 400px;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        top: -70px;
+        left: -50px;
+        width: 110%;
+      }
+
+      &-accent {
+        height: 70px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-numbers__image {
+    height: 470px;
+
+    img {
+      top: -100px;
+      left: -100px;
+    }
+
+    &-accent {
+      height: 90px;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .home-numbers__image {
+    height: 650px;
+
+    img {
+      top: -100px;
+      left: -100px;
+    }
+  }
+}
