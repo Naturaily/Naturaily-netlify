@@ -1,16 +1,15 @@
 window.addEventListener('load', () => {
   const attributes = {
     switch: '[switch]',
-    nav: '[switch-nav]',
-    arrows: '[switch-arrow]',
     buttons: '[switch-button]',
+    links: '[switch-link]',
     cards: '[switch-cards]',
     counter: '[switch-counter]',
     switcher: '[switch-switcher]',
     content: '[switch-content]',
     activeCard: 'switch-active-card',
     index: 'data-index',
-    animatedSvg: 'data-animating',
+    linkIndex: 'data-link-index',
     autoHeight: 'data-auto-height'
   };
 
@@ -24,44 +23,50 @@ window.addEventListener('load', () => {
   };
 
   const animationTime = 500;
-  const $allNavs = $(attributes.nav);
-  const $allArrows = $(attributes.arrows);
   const $allButtons = $(attributes.buttons);
+  const $allLinks = $(attributes.links);
   let $switch;
-  let $nav;
   let $arrows;
   let $buttons;
   let $cards;
   let $counter;
+  let $links;
 
-  $allNavs.click(() => switchNav());
-  $allArrows.click(() => switchArrow());
   $allButtons.click(() => switchArrow());
-
-  const switchNav = () => {
-    const newIndex = parseInt($(event.currentTarget)[0].dataset.index);
-
-    setParameters();
-    moveToCard(newIndex);
-  };
+  $allLinks.click(() => switchLink());
 
   const switchArrow = () => {
     setParameters();
 
-    const switchDirection = $(event.currentTarget)[0].dataset.direction;
-    const newIndex = switchDirection === 'prev' ? switchData.index - 1 : switchData.index + 1;
-    const shouldSwitch = switchDirection && newIndex >= 0 && newIndex < switchData.size;
+    let switchDirection = $(event.currentTarget)[0].dataset.direction;
+    let newIndex = switchDirection === 'prev' ? switchData.index - 1 : switchData.index + 1;
 
-    if (shouldSwitch) moveToCard(newIndex);
+    if (newIndex < 0) {
+      newIndex = switchData.size - 1;
+      switchDirection = 'prev';
+    } else if (newIndex >= switchData.size) {
+      newIndex = 0;
+      switchDirection = 'next';
+    }
+
+    moveToCard(newIndex, switchDirection);
+  };
+
+  const switchLink = () => {
+    setParameters();
+
+    const targetIndex = parseInt($(event.currentTarget)[0].dataset.index);
+    const switchDirection = switchData.index > targetIndex ? 'prev' : 'next';
+
+    moveToCard(targetIndex, switchDirection);
   };
 
   const setParameters = () => {
     $switch = $(event.target).closest($(attributes.switch));
-    $nav = $switch.find(attributes.nav);
     $cards = $switch.find(attributes.cards);
-    $arrows = $switch.find(attributes.arrows);
     $buttons = $switch.find(attributes.buttons);
     $counter = $switch.find(attributes.counter);
+    $links = $switch.find(attributes.links);
 
     const $activeCard = $switch.find(`[${attributes.activeCard}]`);
     const dataUpdate = {
@@ -75,10 +80,9 @@ window.addEventListener('load', () => {
     switchData = {...switchData, ...dataUpdate};
   };
 
-  const moveToCard = (index) => {
+  const moveToCard = (index, direction) => {
     if (index !== switchData.index && !switchData.animating) {
       const newPosition = -100 * index;
-      const changeDirection = index > switchData.index ? 'right' : 'left';
       const dataUpdate = {
         index: index,
         animating: true
@@ -87,78 +91,38 @@ window.addEventListener('load', () => {
       switchData = {...switchData, ...dataUpdate};
 
       $($cards).animate({ left: `${newPosition}%` }, animationTime, () => { switchData.animating = false });
-      if ($nav) updateNav(index);
+      if ($links) { updateLinks(index); }
       updateCards(index);
-      updateArrows(index);
-      updateCounter(index, changeDirection);
+      updateCounter(index, direction);
     };
   };
 
-  const updateNav = (index) => {
-    const $navContainer = $nav.parent();
-    const $newActiveElem = $navContainer.find(`[${attributes.index}="${index}"]`)
-    const activeClass = 'product-design__process-nav__item--active';
+  const updateLinks = (index) => {
+    const $targetLink = $allLinks.parent().find(`[data-index="${index}"]`);
+    const activeLinkClass = 'home-testimonials__switch-menu__item--active';
 
-    if (switchData.isMobile) {
-      const initialPosition = 25;
-      const positionChange = 50;
-      const newPosition = initialPosition - index * positionChange;
-
-      $($navContainer).animate({ left: `${newPosition}%` }, animationTime);
-    };
-
-    $nav.removeClass(activeClass);
-    $newActiveElem.addClass(activeClass);
-  };
+    $allLinks.removeClass(activeLinkClass);
+    $targetLink.addClass(activeLinkClass);
+  }
 
   const updateCards = (index) => {
     const $activeCard = $cards.find(`[${attributes.activeCard}]`);
     const $newActiveCard = $cards.find(`[${attributes.index}=${index}]`);
-    const $animatedSvg = $activeCard.find(`[${attributes.animatedSvg}]`);
-    const $newAnimatedSvg = $newActiveCard.find(`[${attributes.animatedSvg}]`);
-
-    const animatedSvgClass = 'product-design__switch-card__image--animated';
 
     $activeCard.removeAttr(attributes.activeCard);
     $newActiveCard.attr(attributes.activeCard, attributes.activeCard);
-    if ($animatedSvg[0]) $animatedSvg.removeClass(animatedSvgClass);
-    if ($newAnimatedSvg[0]) $newAnimatedSvg.addClass(animatedSvgClass);
   };
 
-  const updateArrows = (index) => {
-    const $prevArrow = $($arrows[0]);
-    const $nextArrow = $($arrows[1]);
-    const $prevBtn = $($buttons[0]);
-    const $nextBtn = $($buttons[1]);
-
-    const arrowHiddenClass = 'product-design__switch-arrow--hidden';
-    const buttonHiddenClass = 'product-design__switch-button--disabled';
-
-    $buttons.removeClass(buttonHiddenClass);
-
-    if (index === 0) {
-      $prevArrow.addClass(arrowHiddenClass);
-      $nextArrow.removeClass(arrowHiddenClass);
-      $prevBtn.addClass(buttonHiddenClass);
-    } else if (index === switchData.size - 1) {
-      $nextArrow.addClass(arrowHiddenClass);
-      $prevArrow.removeClass(arrowHiddenClass);
-      $nextBtn.addClass(buttonHiddenClass);
-    };
-  };
 
   const updateCounter = (index, direction) => {
     const isMoveRight = direction === 'right';
-    const initialPosition = isMoveRight ? '-5px' : '20px';
-    const secondPosition = isMoveRight ? '20px' : '-5px';
+    const initialPosition = isMoveRight ? '0' : '20px';
+    const secondPosition = isMoveRight ? '20px' : '0';
     const finalPosition = '50%';
-
-    const isNumberSingle = (switchData.type === 'process' && switchData.isMobile) || (switchData.type === 'workshop' && !switchData.isMobile);
-    const newInnerHTML = isNumberSingle ? index + 1 : `0${index + 1}`;
 
     $counter.animate({ left: initialPosition }, animationTime / 2, () => {
       $counter.css('left', secondPosition);
-      $counter[0].innerHTML = newInnerHTML;
+      $counter[0].innerHTML = index + 1;
       $counter.animate({ left: finalPosition }, animationTime / 2);
       if (switchData.isMobile && switchData.autoHeight) adjustHeight();
     });
