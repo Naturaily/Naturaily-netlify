@@ -301,10 +301,9 @@
     width: 100vw;
     margin: 0 auto;
     padding-top: 100px;
-    overflow: hidden;
 
     &__background {
-      top: 40px;
+      top: 50px;
       left: 33.3%;
       height: 100%;
       z-index: -1;
@@ -313,17 +312,23 @@
     &__wrapper {
       position: relative;
       padding-left: 0;
-      max-width: 1440px;
+      max-width: 1600px;
       margin: 0 auto;
+      overflow: hidden;
     }
 
     &__content {
       position: relative;
+      max-width: 1440px;
+      margin: 0 auto;
       overflow: hidden;
       border-radius: 8px 8px 0 0;
     }
 
     &__header {
+      max-width: 1280px;
+      margin: 0 auto 55px;
+      padding-left: 60px;
       font-size: 48px;
       line-height: 72px;
     }
@@ -487,7 +492,7 @@
     }
 
     &__content {
-      margin-right: 60px;
+      margin-right: 80px;
     }
 
     &__card-column {

@@ -75,7 +75,7 @@
   .home-numbers {
     position: relative;
     width: 100%;
-    max-width: 1720px;
+    max-width: 1600px;
     margin: 0 auto;
     background-color: $color-home-grey;
     overflow: hidden;
@@ -104,14 +104,14 @@
 
     &__image {
       width: 100%;
-      height: 400px;
+      height: 425px;
       overflow: hidden;
 
       img {
         position: absolute;
         top: -70px;
-        left: -50px;
-        width: 110%;
+        left: -70px;
+        width: 115%;
       }
 
       &-accent {
@@ -123,7 +123,7 @@
 
 @media (min-width: 1200px) {
   .home-numbers__image {
-    height: 470px;
+    height: 490px;
 
     img {
       top: -100px;
