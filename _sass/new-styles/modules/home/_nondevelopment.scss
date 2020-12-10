@@ -72,7 +72,20 @@
     &__line {
       display: flex;
       align-items: flex-start;
-      border-bottom: 1px solid $color-home-border-grey;
+
+      &:first-of-type {
+        border-bottom: none;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background: $color-home-border-light;
+      }
     }
 
     &__header, &__list, &__link {
@@ -99,8 +112,8 @@
       width: 50%;
 
       .icon {
-        width: 112px;
-        min-width: 112px;
+        width: 100px;
+        min-width: 100px;
       }
     }
 
@@ -112,8 +125,22 @@
       padding-left: 0;
     }
 
+    &__line {
+      position: relative;
+      border: none;
+
+      &:first-of-type {
+        border: none;
+      }
+
+      &::after {
+        left: 100px;
+        max-width: 1105px;
+      }
+    }
+
     &__link {
-      max-width: 245px;
+      max-width: 150px;
     }
   }
 }
