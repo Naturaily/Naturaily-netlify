@@ -1,0 +1,156 @@
+.home-blog {
+  padding: 50px 40px 55px;
+  background: $color-page-text;
+
+  &__post {
+    margin-bottom: 55px;
+
+    &-mask {
+      display: none;
+    }
+
+    &-image {
+      position: relative;
+      width: 100%;
+      height: 170px;
+      border-radius: 8px;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        max-width: 130%;
+      }
+    }
+
+    &-title {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 16px;
+      line-height: 24px;
+      color: $color-white;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 200;
+      color: $color-white;
+      opacity: 0.7;
+
+      strong {
+        font-weight: 200;
+      }
+    }
+  }
+
+  .btn-bordered {
+    background: linear-gradient(270deg, $color-page-text 50%, $color-white 0%, $color-white 100%);
+    background-position: 100% 0%;
+    background-size: 200%;
+    border: 2px solid $color-white;
+    color: $color-white;
+    transition: background-position .4s, color .2s;
+
+    .arrow-line {
+      fill: $color-white;
+      transition: fill .2s;
+    }
+
+    &:hover {
+      transform: none;
+      background-position: 0% 0%;
+      color: $color-page-text;
+      box-shadow: none;
+
+      .arrow-line {
+        fill: $color-page-text;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .home-blog {
+    padding-left: 75px;
+    padding-right: 75px;
+
+    &__post-image {
+      height: 240px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .home-blog {
+    padding-left: 70px;
+    padding-right: 70px;
+
+    &__posts {
+      display: flex;
+    }
+
+    &__post {
+      flex: 1 1 33.3%;
+      padding: 0 5px;
+
+      &-image {
+        height: 180px;
+
+        img {
+          left: -110px;
+          height: 100%;
+          width: auto;
+          max-width: 600px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .home-blog {
+    position: relative;
+    width: 100%;
+    padding: 100px 55px 70px 55px;
+    background: $color-transparent;
+
+    &__background {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      z-index: -1;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 1280px;
+      height: 100%;
+      border-radius: 16px;
+      background: $color-page-text;
+    }
+
+    &__wrapper {
+      max-width: 1130px;
+      margin: 0 auto;
+    }
+
+    &__post {
+      padding: 0 20px;
+
+      &-title {
+        z-index: 1;
+        min-height: 50px;
+        max-width: 250px;
+      }
+    }
+
+    .btn-bordered {
+      z-index: 1;
+      max-width: 220px;
+      margin-top: 30px;
+      margin-left: 25px;
+      padding-left: 40px;
+    }
+  }
+}

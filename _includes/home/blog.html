@@ -1,0 +1,38 @@
+<div class="home-blog">
+  <div class="home-blog__background"></div>
+  <div class="home-blog__wrapper">
+    <ul class="home-blog__posts">
+
+      {% for post in site.posts limit: 3 %}
+
+        <li class="home-blog__post">
+          <div class="home-blog__post-mask">
+            <a class="btn btn-white" href="{{ post.url }}">
+              Learn more
+              {% svg /assets/images/btn-arrow.svg %}
+            </a>
+          </div>
+          <div class="home-blog__post-image">
+            <img
+              class="home-blog__post-image"
+              src="/assets/images/loader.gif"
+              data-src="{{ post.image }}"
+              alt="{{ post.title }}"
+            />
+          </div>
+
+          <h3 class="home-blog__post-title">
+            {{ post.title }}
+          </h3>
+          {{ post.excerpt }}
+        </li>
+
+      {% endfor %}
+
+    </ul>
+    <a href="/blog" class="btn btn-bordered">
+      See all blog posts
+      {% svg /assets/images/btn-arrow.svg %}
+    </a>
+  </div>
+</div>
