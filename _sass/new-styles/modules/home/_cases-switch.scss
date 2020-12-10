@@ -160,12 +160,29 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 13px;
       width: 170px;
       padding: 18px 40px;
+      font-size: 13px;
+      background: linear-gradient(270deg, $color-secondary 0%, $color-primary 50%, $color-white 0%, $color-white 100%);
+      background-position: 100% 0%;
+      background-size: 200%;
+      transition: background-position .4s, color .2s;
+
+      .arrow-line {
+        transition: fill .2s;
+      }
 
       svg {
         margin-left: 15px;
+      }
+
+      &:hover {
+        background-position: 0% 0%;
+        color: $color-secondary;
+
+        .arrow-line {
+          fill: $color-secondary;
+        }
       }
     }
   }
