@@ -139,7 +139,12 @@
 
 @media (min-width: 992px) {
   .home-jamstack {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 210px;
+
     &__header {
+      padding-left: 100px;
       font-size: 28px;
       line-height: 39.2px;
     }
@@ -166,8 +171,16 @@
     }
 
     &__image {
-      bottom: 70px;
+      bottom: 120px;
       width: 670px;
     }
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .home-jamstack__image {
+    left: -160px;
+    width: 720px;
   }
 }
