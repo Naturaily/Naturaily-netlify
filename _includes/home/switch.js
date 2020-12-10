@@ -91,7 +91,7 @@ window.addEventListener('load', () => {
       switchData = {...switchData, ...dataUpdate};
 
       $($cards).animate({ left: `${newPosition}%` }, animationTime, () => { switchData.animating = false });
-      if ($links) { updateLinks(index); }
+      if ($links) updateLinks(index);
       updateCards(index);
       updateCounter(index, direction);
     };
