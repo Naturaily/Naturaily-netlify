@@ -182,7 +182,7 @@
         background-position: 100% 0%;
         background-size: 200%;
         transition: background-position .4s, color .2s;
-        cursor: default;
+        cursor: pointer;
 
         &:hover {
           background-position: 0% 0%;
