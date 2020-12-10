@@ -108,6 +108,8 @@
 
 @media (min-width: 992px) {
   .home-nondevelopment {
+    padding-right: 0;
+
     &__header {
       width: 50%;
 
@@ -122,6 +124,8 @@
     }
 
     &__list {
+      position: relative;
+      left: -35px;
       padding-left: 0;
     }
 
@@ -135,12 +139,17 @@
 
       &::after {
         left: 100px;
-        max-width: 1105px;
+        max-width: 1180px;
       }
     }
 
     &__link {
-      max-width: 150px;
+      max-width: 170px;
+
+      .btn-white {
+        max-width: 160px;
+        padding-left: 35px;
+      }
     }
   }
 }
