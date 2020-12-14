@@ -129,13 +129,29 @@
 
     &__image {
       display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 360px;
+      height: 420px;
+      overflow: hidden;
 
       &-mask, &-photo {
         display: block;
         position: absolute;
         top: 0;
+      }
+
+      &-mask {
+        left: 0;
+        z-index: 3;
+        width: 100%;
+      }
+
+      &-photo {
         left: -100px;
-        width: 460px;
+        z-index: 2;
+        height: 100%;
       }
     }
 
@@ -250,8 +266,10 @@
       line-height: 72px;
     }
 
-    &__image-mask, &__image-photo {
-      left: -180px;
+    &__image {
+      left: -40px;
+      width: 420px;
+      height: 500px;
     }
 
     &__text {
@@ -274,7 +292,13 @@
 }
 
 @media (min-width: 1400px) {
-  .home-hero__text {
-    padding-left: 15px;
+  .home-hero {
+    &__text {
+      padding-left: 15px;
+    }
+
+    &__image {
+      left: -140px;
+    }
   }
 }
