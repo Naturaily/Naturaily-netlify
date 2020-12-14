@@ -135,16 +135,16 @@
     &__image {
       display: block;
       position: absolute;
-      top: -150px;
+      top: 0;
       left: 0;
       width: 360px;
-      height: 570px;
+      height: 420px;
       overflow: hidden;
 
       &-mask, &-photo {
         display: block;
         position: absolute;
-        top: 150px;
+        top: 0;
       }
 
       &-mask {
@@ -154,11 +154,9 @@
       }
 
       &-photo {
-        box-sizing: border-box;
         left: -100px;
         z-index: 2;
         height: 100%;
-        padding-bottom: 150px;
       }
     }
 
@@ -276,7 +274,7 @@
     &__image {
       left: -40px;
       width: 420px;
-      height: 650px;
+      height: 500px;
     }
 
     &__text {
