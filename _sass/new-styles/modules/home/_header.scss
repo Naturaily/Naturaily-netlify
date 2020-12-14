@@ -254,8 +254,18 @@
       display: block;
       padding: 14px 40px;
       font-weight: 300;
-      background-color: $color-white;
+      background: linear-gradient(270deg, $color-white 0%, $color-white 50%, $color-secondary 0%, $color-primary 100%);
+      background-position: 100% 0%;
+      background-size: 200%;
+      transition: background-position .4s, color .2s, box-shadow .4s;
       border-radius: 30px;
+
+      &:hover {
+        transform: none;
+        background-position: 0% 0%;
+        box-shadow: $color-home-border 10px 10px 100px;
+        color: $color-white;
+      }
     }
   }
 
