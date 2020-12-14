@@ -51,6 +51,11 @@
     opacity: 0;
     display: none;
   }
+
+  &--home {
+    opacity: 0;
+    animation: showCookies .5s ease-in-out 5.5s forwards;
+  }
 }
 
 @media screen and (max-width: 689px) {
@@ -73,5 +78,17 @@
     &-btn {
       color: $color-global-font;
     }
+  }
+}
+
+@keyframes showCookies {
+  from {
+    transform: translate(-50%, 100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(-50%);
+    opacity: 1;
   }
 }
