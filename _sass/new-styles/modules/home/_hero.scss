@@ -24,6 +24,11 @@
     line-height: 40px;
     font-weight: 200;
     color: $color-white;
+
+    &-line {
+      display: block;
+      position: relative;
+    }
   }
 
   &__clutch {
@@ -130,16 +135,16 @@
     &__image {
       display: block;
       position: absolute;
-      top: 0;
+      top: -150px;
       left: 0;
       width: 360px;
-      height: 420px;
+      height: 570px;
       overflow: hidden;
 
       &-mask, &-photo {
         display: block;
         position: absolute;
-        top: 0;
+        top: 150px;
       }
 
       &-mask {
@@ -149,9 +154,11 @@
       }
 
       &-photo {
+        box-sizing: border-box;
         left: -100px;
         z-index: 2;
         height: 100%;
+        padding-bottom: 150px;
       }
     }
 
@@ -269,7 +276,7 @@
     &__image {
       left: -40px;
       width: 420px;
-      height: 500px;
+      height: 650px;
     }
 
     &__text {
