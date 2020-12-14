@@ -11,5 +11,5 @@ headerTimeline
   .from("[gsap-hero-photo]", { duration: 4, opacity: 0, x: -50, scale: 0.9, ease: "expo" }, "-=1.3")
   .from("[gsap-hero-clutch]", { duration: 1.5, opacity: 0, scale: 0.3, ease: "back" }, "-=3")
   .from("[gsap-hero-star]", { duration: 0.7, opacity: 0, scale: 0.3, y: 20, stagger: .25, ease: "elastic" }, "-=3.2")
-  .from("[gsap-hero-areas]", { duration: 0.7, opacity: 0, left: -100 }, "-=2")
+  .from("[gsap-hero-areas]", { duration: 0.7, opacity: 0, left: -100 }, "-=2.3")
   .from("[gsap-hero-tile]", { duration: 0.7, opacity: 0, y: 150, stagger: .15 }, "-=2");
