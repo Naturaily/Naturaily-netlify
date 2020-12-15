@@ -44,6 +44,5 @@ numbersTimeline
 ScrollTrigger.create({
   trigger: "[gsap-numbers-tiles]",
   animation: numbersTimeline,
-  markers: true,
   toggleActions: "restart none restart none"
 });
