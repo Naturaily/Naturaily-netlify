@@ -197,11 +197,9 @@
     &__background {
       position: absolute;
       top: 0;
-      left: 50%;
+      left: 0;
       z-index: -1;
-      transform: translateX(-50%);
       width: 100%;
-      max-width: 1280px;
       height: 100%;
       border-radius: 16px;
       background: $color-page-text;
@@ -229,5 +227,12 @@
       margin-left: 25px;
       padding-left: 40px;
     }
+  }
+}
+
+@media (min-width: 1400px) {
+  .home-blog__background {
+    max-width: 1280px;
+    margin-left: 75px;
   }
 }
