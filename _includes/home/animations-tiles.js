@@ -22,7 +22,6 @@ for (const section in tilesSections) {
   ScrollTrigger.create({
     trigger: tilesSections[section].trigger,
     animation: tilesSections[section].timeline,
-    markers: true,
     toggleActions: "restart none restart none"
   });
 }
