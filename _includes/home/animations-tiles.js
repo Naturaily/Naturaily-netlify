@@ -15,7 +15,7 @@ technologiesTimeline
 blogTimeline
   .from("[gsap-blog-background]", { duration: 1, width: 0 })
   .from("[gsap-blog-tile]", { duration: .6, opacity: 0, y: 50, stagger: .2 }, "-=.7")
-  .from("[gsap-blog-link]", { duration: .7, opacity: 0, scale: 0.9, y: 10, ease: "elastic" }, "+=.5");
+  .from("[gsap-blog-link]", { duration: .5, opacity: 0, scale: 0.8 }, "+=.3");
 
 for (const section in tilesSections) {
   ScrollTrigger.create({
