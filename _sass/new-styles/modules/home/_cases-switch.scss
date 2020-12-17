@@ -317,7 +317,7 @@
   .home-switch {
     width: 100vw;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 120px;
 
     &__background {
       top: 50px;
@@ -501,8 +501,6 @@
 
 @media (min-width: 1200px) {
   .home-switch {
-    padding-top: 85px;
-
     &__header {
       padding-left: 75px;
       padding-right: 75px;

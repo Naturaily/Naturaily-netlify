@@ -72,6 +72,7 @@
     &__line {
       display: flex;
       align-items: flex-start;
+      position: relative;
 
       &:first-of-type {
         border-bottom: none;
@@ -130,7 +131,6 @@
     }
 
     &__line {
-      position: relative;
       border: none;
 
       &:first-of-type {
