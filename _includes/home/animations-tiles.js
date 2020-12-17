@@ -1,27 +1,28 @@
-const casesTilesTimeline    = gsap.timeline();
-const technologiesTimeline  = gsap.timeline();
-const blogTimeline          = gsap.timeline();
-const animationParams       = { duration: 0.6, opacity: 0, y: 50, stagger: .2, delay: .3 };
+const casesTilesTimeline = gsap.timeline();
+const technologiesTimeline = gsap.timeline();
+const blogTimeline = gsap.timeline();
 
 const tilesSections = {
-  cases:          { trigger: "[gsap-cases-tiles]", timeline: casesTilesTimeline },
-  technologies:   { trigger: "[gsap-technologies]", timeline: technologiesTimeline },
-  blog:           { trigger: "[gsap-blog]", timeline: blogTimeline }
+  cases: { trigger: "[gsap-cases-tiles]", timeline: casesTilesTimeline },
+  technologies: { trigger: "[gsap-technologies]", timeline: technologiesTimeline },
+  blog: { trigger: "[gsap-blog]", timeline: blogTimeline }
 };
 
 casesTilesTimeline
-  .from("[gsap-cases-tile]", animationParams);
+  .from("[gsap-cases-tile]", { duration: .8, opacity: 0, y: 40, stagger: .2 });
 technologiesTimeline
-  .from("[gsap-technologies-tile]", animationParams);
+  .from("[gsap-technologies-tile]", { duration: .7, opacity: 0, y: 70, stagger: .2 });
 blogTimeline
   .from("[gsap-blog-background]", { duration: 1, width: 0 })
-  .from("[gsap-blog-tile]", animationParams, "-=.7")
-  .from("[gsap-blog-link]", { duration: 0.7, opacity: 0, scale: 0.9, y: 10, ease: "elastic" }, "+=.5");
+  .from("[gsap-blog-tile]", { duration: .6, opacity: 0, y: 50, stagger: .2 }, "-=.7")
+  .from("[gsap-blog-link]", { duration: .7, opacity: 0, scale: 0.9, y: 10, ease: "elastic" }, "+=.5");
 
 for (const section in tilesSections) {
   ScrollTrigger.create({
     trigger: tilesSections[section].trigger,
-    animation: tilesSections[section].timeline,
-    toggleActions: "restart none restart none"
+    end: "top+=250 bottom",
+    onEnter: () => tilesSections[section].timeline.restart(),
+    onLeave: () => tilesSections[section].timeline.play(),
+    onEnterBack: () => tilesSections[section].timeline.reverse(1)
   });
 }
