@@ -65,6 +65,7 @@
       height: 170px;
       border-radius: 8px;
       overflow: hidden;
+      transition: border-radius .2s;
 
       img {
         position: absolute;
@@ -113,6 +114,10 @@
       &-title {
         transform: translateX(30px);
         color: $color-page-text;
+      }
+
+      &-image {
+        border-radius: 8px 8px 0 0;
       }
     }
   }
