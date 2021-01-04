@@ -6,7 +6,7 @@ const num4 = { var: 0 };
 const num5 = { var: 0 };
 
 numbersTimeline
-  .from("[gsap-numbers-background]", { duration: 1, width: 0 })
+  .from("[gsap-numbers-background]", { duration: 1, backgroundPosition: "100% 0" })
   .from("[gsap-numbers-tile]", { duration: .7, opacity: 0, y: 30, stagger: .3 }, "-=.4")
   .to(num1, { var: 7, duration: .5, onUpdate: () => counter1.innerHTML = num1.var.toFixed() }, "-=1.8")
   .to(num2, { var: 60, duration: .5, onUpdate: () => counter2.innerHTML = num2.var.toFixed() }, "-=1.5")

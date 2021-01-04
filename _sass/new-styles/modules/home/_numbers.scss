@@ -88,7 +88,9 @@
       max-width: 1440px;
       height: 191px;
       margin-right: 75px;
-      background-color: $color-secondary;
+      background: linear-gradient(270deg, $color-white 50%, $color-secondary 0%, $color-secondary 100%);
+      background-position: 0% 0%;
+      background-size: 200%;
       border-radius: 0 8px 0 0;
     }
 

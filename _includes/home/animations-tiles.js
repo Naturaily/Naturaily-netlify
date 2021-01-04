@@ -13,7 +13,7 @@ casesTilesTimeline
 technologiesTimeline
   .from("[gsap-technologies-tile]", { duration: .7, opacity: 0, y: 70, stagger: .2 });
 blogTimeline
-  .from("[gsap-blog-background]", { duration: 1, width: 0 })
+  .from("[gsap-blog-background]", { duration: 1, backgroundPosition: "100% 0" })
   .from("[gsap-blog-tile]", { duration: .6, opacity: 0, y: 50, stagger: .2 }, "-=.7")
   .from("[gsap-blog-link]", { duration: .5, opacity: 0, scale: 0.8 }, "+=.3");
 
