@@ -207,7 +207,9 @@
       width: 100%;
       height: 100%;
       border-radius: 16px;
-      background: $color-page-text;
+      background: linear-gradient(270deg, $color-white 50%, $color-page-text 0%, $color-page-text 100%);
+      background-position: 0% 0%;
+      background-size: 200%;
     }
 
     &__wrapper {
