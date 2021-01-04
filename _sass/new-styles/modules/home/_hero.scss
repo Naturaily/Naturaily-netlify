@@ -261,7 +261,9 @@
       width: 100%;
       max-width: 1530px;
       margin: 0 auto;
-      background-color: $color-secondary;
+      background: linear-gradient(270deg, $color-white 50%, $color-secondary 0%, $color-secondary 100%);
+      background-position: 0% 0%;
+      background-size: 200%;
       border-radius: 0 0 54px;
     }
 
