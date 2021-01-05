@@ -3,7 +3,7 @@ const newsletterTimeline = gsap.timeline();
 newsletterTimeline
   .set("[gsap-newsletter-half]", { opacity: 0 })
   .set("[gsap-newsletter-full]", { x: -100 })
-  .from("[gsap-newsletter-form]", { duration: .6, opacity: 0, y: 30 })
+  .from("[gsap-newsletter-form]", { duration: .8, opacity: 0, y: 30 })
   .from("[gsap-newsletter-btn]", { duration: .4, opacity: 0, scale: 0.8 })
   .from("[gsap-newsletter-text]", { duration: .4, color: "#312E2B" }, "-=.2")
   .from("[gsap-newsletter-author]", { duration: .2, opacity: 0 }, "-=.8")

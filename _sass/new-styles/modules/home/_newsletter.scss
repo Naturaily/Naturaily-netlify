@@ -16,11 +16,10 @@
     }
   }
 
-  &__input {
+  &__name, &__email {
     box-sizing: border-box;
     width: 100%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    max-width: 400px;
     padding: 10px;
     font-family: 'acumin-pro';
     font-size: 16px;
@@ -28,6 +27,23 @@
     font-weight: 200;
     border-color: $color-home-border-grey;
     border-radius: 4px;
+  }
+
+  &__name {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  &__label {
+    display: block;
+    margin-top: 15px;
+    font-size: 11px;
+    line-height: 15px;
+    opacity: 0.4;
+
+    &-checkbox {
+      display: none;
+    }
   }
 
   .btn-bordered {
@@ -111,6 +127,10 @@
       left: 0;
     }
   }
+
+  &__privacy {
+    display: none;
+  }
 }
 
 @media (min-width: 576px) {
@@ -160,14 +180,19 @@
       }
     }
 
-    &__form {
+    &__inputs {
       display: flex;
-      align-items: center;
-      max-width: 730px;
+      flex-flow: row nowrap;
     }
 
-    &__input, .btn-bordered {
+    &__name {
+      width: 40%;
       margin: 0;
+      margin-right: 10px;
+    }
+
+    &__email {
+      width: 60%;
     }
 
     &__writing-author {
@@ -181,16 +206,24 @@
         display: inline-block;
       }
     }
-
-    .btn-bordered {
-      max-width: 190px;
-      margin-left: 40px;
-    }
   }
 }
 
 @media (min-width: 1200px) {
-  .home-newsletter__input {
-    width: 500px;
+  .home-newsletter {
+    &__form {
+      display: flex;
+      align-items: center;
+    }
+
+    &__label {
+      margin-top: 5px;
+    }
+
+    .btn-bordered {
+      max-width: 190px;
+      margin: 0;
+      margin-left: 40px;
+    }
   }
 }
