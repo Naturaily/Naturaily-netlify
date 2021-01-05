@@ -87,6 +87,7 @@
 
     &__technologies, &__scenarios {
       padding: 0 100px;
+      will-change: transform;
     }
 
     &__list br {

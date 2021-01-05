@@ -252,6 +252,10 @@
     max-width: 1600px;
     margin: 0 auto;
 
+    &__background, &__header-line, &__clutch-badge, &__clutch-star, &__text, &__list-item {
+      will-change: transform, opacity;
+    }
+
     &__background {
       position: absolute;
       top: -190px;

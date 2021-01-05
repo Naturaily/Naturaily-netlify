@@ -143,6 +143,10 @@
     margin: 0 auto;
     padding-bottom: 210px;
 
+    &__header, &__text, &__link-text, .btn-bordered {
+      will-change: transform, opacity;
+    }
+
     &__header {
       position: relative;
       padding-left: 100px;
@@ -185,6 +189,10 @@
     &__image {
       bottom: 120px;
       width: 670px;
+
+      &-half, &-full, &-tablet, &-page {
+        will-change: transform, opacity;
+      }
     }
   }
 }

@@ -111,6 +111,10 @@
   .home-nondevelopment {
     padding-right: 0;
 
+    &__header .icon, &__header-mask, &__list-item, .btn-white {
+      will-change: transform, opacity;
+    }
+
     &__header {
       position: relative;
       width: 50%;

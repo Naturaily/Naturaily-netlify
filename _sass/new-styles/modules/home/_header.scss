@@ -282,6 +282,10 @@
 
 @media (min-width: 992px) {
   .home-header {
+    &__logo, &__menu-item, .btn-white {
+      will-change: transform, opacity;
+    }
+
     &__wrapper {
       background-color: $color-transparent;
     }
