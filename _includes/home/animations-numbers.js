@@ -1,4 +1,6 @@
 const numbersTimeline = gsap.timeline();
+const numbersImageTimeline = gsap.timeline();
+
 const num1 = { var: 0 };
 const num2 = { var: 0 };
 const num3 = { var: 0 };
@@ -14,11 +16,22 @@ numbersTimeline
   .to(num4, { var: 125, duration: .5, onUpdate: () => counter4.innerHTML = `${num4.var.toFixed()}k` }, "-=.9")
   .to(num5, { var: 0.8, duration: .5, onUpdate: () => counter5.innerHTML = num5.var.toFixed(1) }, "-=.6");
 
+numbersImageTimeline
+  .from("[gsap-numbers-image-mask]", { duration: 1, x: "-100%" })
+  .to("[gsap-numbers-image-img]", { duration: 0.8, x: 100, scale: 1.05 }, "-=.8");
+
 ScrollTrigger.create({
   trigger: "[gsap-numbers-tiles]",
-  animation: numbersTimeline,
   end: "top+=125 bottom",
   onEnter: () => numbersTimeline.timeScale(1).restart(),
   onLeave: () => numbersTimeline.timeScale(1).play(),
   onEnterBack: () => numbersTimeline.timeScale(2).reverse(2)
+});
+
+ScrollTrigger.create({
+  trigger: "[gsap-numbers-image]",
+  end: "top+=125 bottom",
+  onEnter: () => numbersImageTimeline.restart(),
+  onLeave: () => numbersImageTimeline.play(),
+  onEnterBack: () => numbersImageTimeline.reverse()
 });
