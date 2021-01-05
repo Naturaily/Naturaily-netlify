@@ -90,6 +90,10 @@
           background-color: $color-home-text-grey;
         }
       }
+
+      &__type {
+        display: none;
+      }
     }
   }
 
@@ -141,11 +145,19 @@
       padding-left: 100px;
     }
 
+    &__content, .btn-bordered, &__image-figure, &__image-ceo {
+      will-change: transform, opacity;
+    }
+
     &__text {
       max-width: 580px;
       margin-bottom: 50px;
       font-size: 28px;
       line-height: 39.2px;
+
+      &--secondary {
+        will-change: color;
+      }
     }
 
     &__form {
@@ -156,6 +168,18 @@
 
     &__input, .btn-bordered {
       margin: 0;
+    }
+
+    &__writing-author {
+      will-change: opacity;
+
+      &__text {
+        display: none;
+      }
+
+      &__type {
+        display: inline-block;
+      }
     }
 
     .btn-bordered {
