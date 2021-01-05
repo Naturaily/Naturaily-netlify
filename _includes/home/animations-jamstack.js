@@ -16,6 +16,8 @@ jamstackTimeline
 
 ScrollTrigger.create({
   trigger: "[gsap-jamstack]",
-  animation: jamstackTimeline,
-  toggleActions: "restart none restart none"
+  end: "top+=250 bottom",
+  onEnter: () => jamstackTimeline.restart(),
+  onLeave: () => jamstackTimeline.play(),
+  onEnterBack: () => jamstackTimeline.reverse(1)
 });
