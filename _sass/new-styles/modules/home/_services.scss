@@ -137,6 +137,10 @@
     margin: 0 auto;
     overflow: hidden;
 
+    &__left-header, &__left-text, &__right-text, &__image-mask, .btn-white {
+      will-change: transform, opacity;
+    }
+
     &__wrapper {
       box-sizing: border-box;
       max-width: 1280px;

@@ -210,6 +210,11 @@
       background: linear-gradient(270deg, $color-white 50%, $color-page-text 0%, $color-page-text 100%);
       background-position: 0% 0%;
       background-size: 200%;
+      will-change: background-position;
+    }
+
+    &__post, .btn-bordered {
+      will-change: transform;
     }
 
     &__wrapper {
