@@ -104,3 +104,9 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .home-tiles__case {
+    will-change: transform, opacity;
+  }
+}

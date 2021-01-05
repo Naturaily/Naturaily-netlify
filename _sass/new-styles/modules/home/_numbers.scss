@@ -80,6 +80,10 @@
     background-color: $color-home-grey;
     overflow: hidden;
 
+    &__background, &__list-item {
+      will-change: transform, opacity;
+    }
+
     &__background {
       position: absolute;
       top: 0;
