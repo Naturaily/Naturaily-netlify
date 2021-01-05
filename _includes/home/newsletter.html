@@ -1,8 +1,8 @@
 <div class="home-newsletter">
-  <div class="home-newsletter__content">
+  <div class="home-newsletter__content" gsap-newsletter-form>
     <p class="home-newsletter__text">
       Be sure to sign up for our
-      <span class="home-newsletter__text--secondary">free newsletter</span>
+      <span class="home-newsletter__text--secondary" gsap-newsletter-text>free newsletter</span>
       to be up to date with our work, modern technologies and interesting use cases.
     </p>
     <div class="home-newsletter__form">
@@ -11,17 +11,19 @@
         type="text"
         placeholder="Please type your company e-mail"
       />
-      <button class="btn btn-bordered">
+      <button class="btn btn-bordered" gsap-newsletter-btn>
         Sign up
         {% svg assets/images/btn-arrow.svg %}
       </button>
     </div>
   </div>
   <div class="home-newsletter__writing">
-    <p class="home-newsletter__writing-author">
-      Writing to you
+    <p class="home-newsletter__writing-author" gsap-newsletter-author>
+      <span class="home-newsletter__writing-author__text">Writing to you</span>
+      <span class="home-newsletter__writing-author__type" gsap-newsletter-type></span>
       <a href="/blog/authors/marcin-sulikowski" class="home-newsletter__writing-author__name">
-        Marcin Sulikowski
+        <span class="home-newsletter__writing-author__text">Marcin Sulikowski</span>
+        <span class="home-newsletter__writing-author__type" gsap-newsletter-type-name></span>
       </a>
     </p>
     <div class="home-newsletter__image">
@@ -30,12 +32,14 @@
         src="/assets/images/loader.gif"
         data-src="/assets/images/home/newsletter-figure.png"
         alt="geometric figure"
+        gsap-newsletter-half
       />
       <img
         class="home-newsletter__image-ceo"
         src="/assets/images/loader.gif"
         data-src="/assets/images/home/newsletter-suler.png"
         alt="Naturaily CEO"
+        gsap-newsletter-full
       />
     </div>
   </div>
