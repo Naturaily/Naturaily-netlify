@@ -21,10 +21,14 @@
   &__image {
     box-sizing: border-box;
     width: 100%;
+    border-radius: 8px;
 
     img {
       width: 100%;
-      border-radius: 8px;
+    }
+
+    &-mask {
+      display: none;
     }
   }
 
@@ -104,7 +108,6 @@
       z-index: -1;
       width: 98%;
       height: 370px;
-      background-color: $color-page-text;
       border-radius: 16px;
     }
 
@@ -135,6 +138,10 @@
     &__product .home-development {
       &__background {
         top: 210px;
+        background: linear-gradient(270deg, $color-white 50%, $color-page-text 0%, $color-page-text 100%);
+        background-position: 0% 0%;
+        background-size: 200%;
+        will-change: background-position;
       }
 
       &__list {
@@ -150,6 +157,10 @@
     &__ecommerce .home-development {
       &__background {
         top: 250px;
+        background: linear-gradient(270deg, $color-page-text 50%, $color-white 0%, $color-white 100%);
+        background-position: 100% 0%;
+        background-size: 200%;
+        will-change: background-position;
       }
 
       &__header, &__list {
@@ -186,6 +197,25 @@
       box-sizing: border-box;
     }
 
+    &__header, &__list-item, &__image-mask, &__image img {
+      will-change: transform;
+    }
+
+    &__image {
+      overflow: hidden;
+      opacity: 0;
+
+      &-mask {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 102%;
+        opacity: 0;
+      }
+    }
+
     &__product {
       padding-top: 180px;
 
@@ -200,9 +230,19 @@
         }
 
         &__image {
-          max-width: 575px;
+          top: 150px;
+          max-width: 490px;
+          height: 400px;
           padding: 0;
-          padding-right: 35px;
+          margin-right: 35px;
+
+          &-mask {
+            background: linear-gradient(180deg, $color-white 120px, $color-page-text 120px, $color-page-text 100%);
+          }
+
+          img {
+            transform: scale(1.1) translateX(-15px);
+          }
         }
       }
     }
@@ -222,12 +262,46 @@
         }
 
         &__image {
-          top: 140px;
+          top: 180px;
           left: auto;
           right: 50%;
-          max-width: 650px;
-          padding: 0 110px;
+          max-width: 380px;
+          height: 340px;
+          padding: 0;
+          margin: 0 110px;
+
+          &-mask {
+            background: linear-gradient(180deg, $color-white 50px, $color-page-text 50px, $color-page-text 99%);
+          }
+
+          img {
+            transform: scale(1.1) translateX(15px);
+          }
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-development {
+    &__product .home-development__image {
+      top: 120px;
+      max-width: 540px;
+      height: 440px;
+
+      &-mask {
+        background: linear-gradient(180deg, $color-white 150px, $color-page-text 150px, $color-page-text 100%);
+      }
+    }
+
+    &__ecommerce .home-development__image {
+      top: 140px;
+      max-width: 430px;
+      height: 385px;
+
+      &-mask {
+        background: linear-gradient(180deg, $color-white 90px, $color-page-text 90px, $color-page-text 100%);
       }
     }
   }
