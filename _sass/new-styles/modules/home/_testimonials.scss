@@ -328,8 +328,27 @@
         padding: 0px 75px 100px;
       }
 
+      &-logo {
+        width: auto;
+        height: 70px;
+      }
+
       &-logo img, &-quote {
         margin-top: 0;
+      }
+
+      &-box {
+        display: block;
+        position: absolute;
+        top: 71px;
+        left: 450px;
+        z-index: 1;
+        width: 75px;
+        text-align: left;
+      }
+
+      &-nps {
+        z-index: 2;
       }
 
       &-title {

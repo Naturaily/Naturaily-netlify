@@ -20,6 +20,7 @@ window.addEventListener('load', () => {
   };
 
   let switchData = {
+    prevIndex: null,
     index: null,
     animating: false,
     size: $($elements.cards).children().length,
@@ -58,9 +59,10 @@ window.addEventListener('load', () => {
   };
 
   const setParameters = () => {
-    const $activeCard = $(`[${attributes.activeCard}]`);
+    const index = $(`[${attributes.activeCard}]`)[0].dataset.index;
     const dataUpdate = {
-      index: parseInt($activeCard[0].dataset.index),
+      prevIndex: parseInt(index),
+      index: parseInt(index),
       isMobile: window.innerWidth < 992
     };
 
@@ -69,17 +71,79 @@ window.addEventListener('load', () => {
 
   const moveToCard = (index, direction) => {
     if (index !== switchData.index && !switchData.animating) {
-      const newPosition = switchData.isMobile ? { left: `${-100 * index}%` } : { top: `${-switchData.height * index}px` };
       const dataUpdate = { index: index, animating: true };
-      const endAnimating = () => switchData.animating = false;
-
       switchData = {...switchData, ...dataUpdate};
 
-      $elements.cards.animate(newPosition, animationTime, endAnimating());
+      animateCards(index, direction);
       updateLinks(index);
       updateCards(index);
       updateCounter(index, direction);
     };
+  };
+
+  const animateCards = (index, direction) => {
+    const newPosition = switchData.isMobile ? { left: `${-100 * index}%` } : `${-switchData.height * index}px`;
+    const endAnimating = () => switchData.animating = false;
+
+    if (switchData.isMobile) {
+      $elements.cards.animate(newPosition, animationTime, endAnimating());
+    } else {
+      (direction === 'prev') ? gsapAnimateFromTop(index, newPosition) : gsapAnimateFromBottom(index, newPosition);
+      endAnimating();
+    }
+  }
+
+  const gsapAnimateFromBottom = (index, position) => {
+    const exitToTop = gsap.timeline({ paused: true });
+    const enterFromBelow = gsap.timeline({ paused: true });
+
+    exitToTop
+      .to(`[gsap-testimonials-logo-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 })
+      .to(`[gsap-testimonials-text-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 })
+      .to(`[gsap-testimonials-nps-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 })
+      .to(`[gsap-testimonials-image-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 })
+      .to(`[gsap-testimonials-credits-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 });
+
+    enterFromBelow
+      // .from(`[gsap-testimonials-card-${index}]`, { duration: .4, y: 30, opacity: 0 })
+      .from(`[gsap-testimonials-logo-${index}]`, { duration: .4, y: 30, opacity: 0 })
+      .from(`[gsap-testimonials-text-${index}]`, { duration: .4, y: 30, opacity: 0 })
+      .from(`[gsap-testimonials-nps-${index}]`, { duration: .4, y: 30, opacity: 0 })
+      .from(`[gsap-testimonials-image-${index}]`, { duration: .4, y: 30, opacity: 0 })
+      .from(`[gsap-testimonials-credits-${index}]`, { duration: .4, y: 30, opacity: 0 });
+
+    exitToTop.pause().progress(0).play().eventCallback("onComplete", () => {
+      $elements.cards.css("top", position);
+      enterFromBelow.pause().progress(0).play();
+      exitToTop.pause().progress(0);
+    });
+  };
+
+  const gsapAnimateFromTop = (index, position) => {
+    const exitToBottom = gsap.timeline({ paused: true });
+    const enterFromTop = gsap.timeline({ paused: true });
+
+    exitToBottom
+      .to(`[gsap-testimonials-logo-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 })
+      .to(`[gsap-testimonials-text-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 })
+      .to(`[gsap-testimonials-nps-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 })
+      .to(`[gsap-testimonials-image-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 })
+      .to(`[gsap-testimonials-credits-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 });
+
+    enterFromTop
+      // .from(`[gsap-testimonials-card-${index}]`, { duration: .4, y: -30, opacity: 0 })
+      .from(`[gsap-testimonials-logo-${index}]`, { duration: .4, y: -30, opacity: 0 })
+      .from(`[gsap-testimonials-text-${index}]`, { duration: .4, y: -30, opacity: 0 })
+      .from(`[gsap-testimonials-nps-${index}]`, { duration: .4, y: -30, opacity: 0 })
+      .from(`[gsap-testimonials-image-${index}]`, { duration: .4, y: -30, opacity: 0 })
+      .from(`[gsap-testimonials-credits-${index}]`, { duration: .4, y: -30, opacity: 0 })
+    ;
+
+    exitToBottom.pause().progress(0).play().eventCallback("onComplete", () => {
+      $elements.cards.css("top", position);
+      enterFromTop.pause().progress(0).play();
+      exitToBottom.pause().progress(0);
+    });
   };
 
   const updateLinks = (index) => {
