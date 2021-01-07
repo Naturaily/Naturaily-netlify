@@ -8,6 +8,7 @@ window.addEventListener('load', () => {
     switcher: '[switch-switcher]',
     content: '[switch-content]',
     activeCard: 'switch-active-card',
+    activeLink: 'switch-active-link',
     index: 'data-index',
     linkIndex: 'data-link-index',
     autoHeight: 'data-auto-height'
@@ -25,6 +26,7 @@ window.addEventListener('load', () => {
   const animationTime = 500;
   const $allButtons = $(attributes.buttons);
   const $allLinks = $(attributes.links);
+  const testimonialsLinks = document.querySelectorAll("[switch-link]");
   let $switch;
   let $arrows;
   let $buttons;
@@ -101,16 +103,28 @@ window.addEventListener('load', () => {
     const $targetLink = $allLinks.parent().find(`[data-index="${index}"]`);
     const activeLinkClass = 'home-testimonials__switch-menu__item--active';
 
-    $allLinks.removeClass(activeLinkClass);
-    $targetLink.addClass(activeLinkClass);
+    $allLinks
+      .removeClass(activeLinkClass)
+      .removeAttr(attributes.activeLink);
+    $targetLink
+      .addClass(activeLinkClass)
+      .attr(attributes.activeLink, attributes.activeLink);
   }
 
   const updateCards = (index) => {
     const $activeCard = $cards.find(`[${attributes.activeCard}]`);
     const $newActiveCard = $cards.find(`[${attributes.index}=${index}]`);
+    const activeCardClass = switchData.type === 'testimonials' ? 'home-testimonials__switch-card--active' : 'home-switch-card--active';
+    const activeGsapAttr = switchData.type === 'testimonials' ? 'gsap-testimonials-active-card' : 'gsap-switch-active-card';
 
-    $activeCard.removeAttr(attributes.activeCard);
-    $newActiveCard.attr(attributes.activeCard, attributes.activeCard);
+    $activeCard
+      .removeClass(activeCardClass)
+      .removeAttr(attributes.activeCard)
+      .removeAttr(activeGsapAttr);
+    $newActiveCard
+      .addClass(activeCardClass)
+      .attr(attributes.activeCard, attributes.activeCard)
+      .attr(activeGsapAttr, activeGsapAttr);
   };
 
 
