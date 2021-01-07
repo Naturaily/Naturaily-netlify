@@ -24,7 +24,8 @@ window.addEventListener('load', () => {
     animating: false,
     size: $($elements.cards).children().length,
     isMobile: false,
-    autoHeight: true
+    autoHeight: true,
+    height: 400
   };
 
   $elements.buttons.click(() => switchMobile());
@@ -68,7 +69,7 @@ window.addEventListener('load', () => {
 
   const moveToCard = (index, direction) => {
     if (index !== switchData.index && !switchData.animating) {
-      const newPosition = { left: `${-100 * index}%` };
+      const newPosition = switchData.isMobile ? { left: `${-100 * index}%` } : { top: `${-switchData.height * index}px` };
       const dataUpdate = { index: index, animating: true };
       const endAnimating = () => switchData.animating = false;
 

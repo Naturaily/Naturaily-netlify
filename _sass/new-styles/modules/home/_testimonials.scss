@@ -298,24 +298,34 @@
     }
 
     &__switch {
+      width: 100vw;
+      max-width: 1600px;
+      height: 400px;
+      margin-top: 50px;
+      padding: 70px 0;
+      background-color: $color-home-grey;
+
       &-wrapper {
+        display: flex;
+        flex-direction: row nowrap;
+        align-items: flex-start;
         position: relative;
         width: 100%;
-        margin-top: 50px;
+        max-width: 1280px;
+        height: 400px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+
+      &-cards {
+        flex-direction: column;
+        width: 100%;
+        height: 800%;
       }
 
       &-card {
-        padding: 70px 75px 100px;
-
-        &__wrapper {
-          min-height: 350px;
-          max-width: 1280px;
-          margin: 0 auto;
-        }
-      }
-
-      &-project {
-        padding-left: 300px;
+        height: 400px;
+        padding: 0px 75px 100px;
       }
 
       &-logo img, &-quote {
@@ -336,14 +346,6 @@
 
       &-menu {
         display: block;
-        position: absolute;
-        top: 70px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 3;
-        width: 100%;
-        max-width: 1280px;
-        margin: 0 auto;
 
         &__list {
           width: 300px;
@@ -381,17 +383,5 @@
         }
       }
     }
-  }
-}
-
-@media (min-width: 1200px) {
-  .home-testimonials__switch-project {
-    padding-left: 400px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .home-testimonials__switch-menu__list {
-    padding-left: 0;
   }
 }
