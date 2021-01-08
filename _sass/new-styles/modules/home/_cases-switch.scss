@@ -461,6 +461,7 @@
       img {
         position: absolute;
         left: -300px;
+        transform: translateX(-50px) scale(1.1);
         width: auto;
         height: 100%;
       }
@@ -475,6 +476,7 @@
       height: 120px;
       background-color: $color-home-grey;
       border-bottom: 2px solid $color-home-border-grey;
+      cursor: pointer;
 
       &-image {
         position: relative;
@@ -482,6 +484,7 @@
         min-width: 100px;
         height: 120px;
         overflow: hidden;
+        transition: .2s;
 
         img {
           width: 200px;
@@ -496,6 +499,7 @@
           height: 100%;
           background: linear-gradient(90deg, $color-black 50%, rgba(0,0,0,0.6) 100%);
           opacity: 0.5;
+          transition: .2s;
         }
 
         &__cover {
@@ -506,14 +510,34 @@
           font-size: 13px;
           font-weight: 500;
           color: $color-white;
+          transition: .2s;
         }
       }
 
       &-title {
         padding: 20px;
+        padding-left: 40px;
         font-size: 18px;
         line-height: 25.5px;
         color: $color-page-text;
+
+        p {
+          transition: .2s;
+        }
+      }
+
+      &:hover .home-switch__next {
+        &-image {
+          transform: translate(10%, -10%) scale(1.2, 1.2);
+
+          &__shadow, &__cover {
+            opacity: 0;
+          }
+        }
+
+        &-title p {
+          transform: translate(5px, -5px);
+        }
       }
     }
   }
