@@ -87,20 +87,25 @@
       background-color: $color-white;
       border-radius: 15px;
 
-      &__value {
+      &__text {
         position: relative;
-        margin-left: 25px;
-        color: $color-secondary;
+        margin-right: 25px;
 
         &::before {
           content: '';
           position: absolute;
           top: 50%;
-          left: -15px;
+          right: -15px;
           width: 2px;
           height: 2px;
           background-color: $color-home-text-grey;
         }
+      }
+
+      &__value {
+        display: inline-block;
+        position: relative;
+        color: $color-secondary;
       }
     }
 
@@ -321,6 +326,7 @@
         flex-direction: column;
         width: 100%;
         height: 800%;
+        will-change: transform, opacity;
       }
 
       &-card {
@@ -331,10 +337,16 @@
       &-logo {
         width: auto;
         height: 70px;
+
+        img {
+          max-height: 70px;
+          max-width: 120px;
+        }
       }
 
-      &-logo img, &-quote {
+      &-logo img, &-quote, &-credits {
         margin-top: 0;
+        will-change: transform, opacity;
       }
 
       &-box {
@@ -349,6 +361,9 @@
 
       &-nps {
         z-index: 2;
+        overflow: hidden;
+        padding: 10px 20px;
+        font-size: 16px;
       }
 
       &-title {

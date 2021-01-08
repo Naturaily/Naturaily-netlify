@@ -98,19 +98,16 @@ window.addEventListener('load', () => {
     const enterFromBelow = gsap.timeline({ paused: true });
 
     exitToTop
-      .to(`[gsap-testimonials-logo-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 })
-      .to(`[gsap-testimonials-text-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 })
-      .to(`[gsap-testimonials-nps-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 })
-      .to(`[gsap-testimonials-image-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 })
-      .to(`[gsap-testimonials-credits-${switchData.prevIndex}]`, { duration: .4, y: -30, opacity: 0 });
+      .to(`[gsap-testimonials-logo-${switchData.prevIndex}]`, { duration: .3, y: -50, opacity: 0 })
+      .to(`[gsap-testimonials-nps-${switchData.prevIndex}]`, { duration: .3, y: -25 }, "-=.3")
+      .to(`[gsap-testimonials-text-${switchData.prevIndex}]`, { duration: .3, y: -50, opacity: 0 }, "-=.2")
+      .to(`[gsap-testimonials-credits-${switchData.prevIndex}]`, { duration: .3, y: -50, opacity: 0 }, "-=.2");
 
     enterFromBelow
-      // .from(`[gsap-testimonials-card-${index}]`, { duration: .4, y: 30, opacity: 0 })
-      .from(`[gsap-testimonials-logo-${index}]`, { duration: .4, y: 30, opacity: 0 })
-      .from(`[gsap-testimonials-text-${index}]`, { duration: .4, y: 30, opacity: 0 })
-      .from(`[gsap-testimonials-nps-${index}]`, { duration: .4, y: 30, opacity: 0 })
-      .from(`[gsap-testimonials-image-${index}]`, { duration: .4, y: 30, opacity: 0 })
-      .from(`[gsap-testimonials-credits-${index}]`, { duration: .4, y: 30, opacity: 0 });
+      .from(`[gsap-testimonials-logo-${index}]`, { duration: .3, y: 50, opacity: 0 })
+      .from(`[gsap-testimonials-nps-${index}]`, { duration: .3, y: 25 }, "-=.3")
+      .from(`[gsap-testimonials-text-${index}]`, { duration: .3, y: 50, opacity: 0 }, "-=.2")
+      .from(`[gsap-testimonials-credits-${index}]`, { duration: .3, y: 50, opacity: 0 }, "-=.2");
 
     exitToTop.pause().progress(0).play().eventCallback("onComplete", () => {
       $elements.cards.css("top", position);
@@ -124,19 +121,16 @@ window.addEventListener('load', () => {
     const enterFromTop = gsap.timeline({ paused: true });
 
     exitToBottom
-      .to(`[gsap-testimonials-logo-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 })
-      .to(`[gsap-testimonials-text-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 })
-      .to(`[gsap-testimonials-nps-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 })
-      .to(`[gsap-testimonials-image-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 })
-      .to(`[gsap-testimonials-credits-${switchData.prevIndex}]`, { duration: .4, y: 30, opacity: 0 });
+      .to(`[gsap-testimonials-logo-${switchData.prevIndex}]`, { duration: .3, y: 50, opacity: 0 })
+      .to(`[gsap-testimonials-nps-${switchData.prevIndex}]`, { duration: .3, y: 25 }, "-=.3")
+      .to(`[gsap-testimonials-text-${switchData.prevIndex}]`, { duration: .3, y: 50, opacity: 0 }, "-=.2")
+      .to(`[gsap-testimonials-credits-${switchData.prevIndex}]`, { duration: .3, y: 50, opacity: 0 }, "-=.2");
 
     enterFromTop
-      // .from(`[gsap-testimonials-card-${index}]`, { duration: .4, y: -30, opacity: 0 })
-      .from(`[gsap-testimonials-logo-${index}]`, { duration: .4, y: -30, opacity: 0 })
-      .from(`[gsap-testimonials-text-${index}]`, { duration: .4, y: -30, opacity: 0 })
-      .from(`[gsap-testimonials-nps-${index}]`, { duration: .4, y: -30, opacity: 0 })
-      .from(`[gsap-testimonials-image-${index}]`, { duration: .4, y: -30, opacity: 0 })
-      .from(`[gsap-testimonials-credits-${index}]`, { duration: .4, y: -30, opacity: 0 })
+      .from(`[gsap-testimonials-logo-${index}]`, { duration: .3, y: -50, opacity: 0 })
+      .from(`[gsap-testimonials-nps-${index}]`, { duration: .3, y: -25 }, "-=.3")
+      .from(`[gsap-testimonials-text-${index}]`, { duration: .3, y: -50, opacity: 0 }, "-=.2")
+      .from(`[gsap-testimonials-credits-${index}]`, { duration: .3, y: -50, opacity: 0 }, "-=.2")
     ;
 
     exitToBottom.pause().progress(0).play().eventCallback("onComplete", () => {
