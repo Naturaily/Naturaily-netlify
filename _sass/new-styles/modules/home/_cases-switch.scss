@@ -319,11 +319,28 @@
     margin: 0 auto;
     padding-top: 120px;
 
+    &__content,
+    &__project,
+    &__title,
+    &__description,
+    &__specs-list__item,
+    &__testimonials,
+    &__image,
+    &__nav,
+    &__next,
+    .btn-primary {
+      will-change: transform, opacity;
+    }
+
     &__background {
       top: 50px;
       left: 33.3%;
-      height: 100%;
       z-index: -1;
+      height: 100%;
+      background: linear-gradient(270deg, $color-white 50%, $color-page-text 0%, $color-page-text 100%);
+      background-size: 200%;
+      background-position: 0 0;
+      will-change: background-position;
     }
 
     &__wrapper {
@@ -340,6 +357,7 @@
       margin: 0 auto;
       overflow: hidden;
       border-radius: 8px 8px 0 0;
+      background-color: $color-home-grey;
     }
 
     &__header {
@@ -359,6 +377,8 @@
       flex-direction: row;
       padding: 0;
       padding-left: 75px;
+      background: none;
+      overflow: hidden;
 
       &-column {
         box-sizing: border-box;
@@ -366,7 +386,6 @@
         z-index: 3;
         width: 33.4%;
         padding: 60px 30px 60px 0;
-        background-color: $color-home-grey;
 
         &:last-of-type {
           z-index: 0;
@@ -383,7 +402,7 @@
       width: 33%;
       padding-left: 50px;
       padding-right: 0;
-      background-color: $color-home-grey-darker;
+      border-top: none;
 
       &-button--prev {
         display: none;
@@ -455,6 +474,7 @@
       left: 0;
       height: 120px;
       background-color: $color-home-grey;
+      border-bottom: 2px solid $color-home-border-grey;
 
       &-image {
         position: relative;
