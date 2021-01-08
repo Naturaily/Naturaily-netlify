@@ -62,14 +62,6 @@ description: >-
   {% include home/newsletter.html %}
 </div>
 
-<script type="text/javascript">
-  {% include home/cases-switch.js %}
-</script>
-
-<script type="text/javascript">
-  {% include home/testimonials.js %}
-</script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/TextPlugin.min.js"></script>
@@ -77,6 +69,7 @@ description: >-
 <script type="text/javascript">
   gsap.registerPlugin(ScrollTrigger);
   {% include home/animations-header.js %}
+  {% include home/animations-switch.js %}
   {% include home/animations-tiles.js %}
   {% include home/animations-testimonials.js %}
   {% include home/animations-numbers.js %}
@@ -85,4 +78,12 @@ description: >-
   {% include home/animations-nondevelopment.js %}
   {% include home/animations-development.js %}
   {% include home/animations-newsletter.js %}
+</script>
+
+<script type="text/javascript">
+  {% include home/cases-switch.js %}
+</script>
+
+<script type="text/javascript">
+  {% include home/testimonials.js %}
 </script>
