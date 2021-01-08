@@ -18,7 +18,7 @@ switchTimeline
   .from("[gsap-switch-testimonials]", { duration: .4, x: 50, opacity: 0 }, "-=.7")
   .from("[gsap-switch-nav]", { duration: .4, x: "100%" })
   .from("[gsap-switch-image]", { duration: .4, x: "100%" }, "-=.4")
-  .from("[gsap-switch-img]", { duration: .4, x: 50 })
+  .from("[gsap-switch-img]", { duration: .8, x: 50, scale: 1.05 }, "-=.4")
   .from("[gsap-switch-btn]", { duration: .4, scale: .9, opacity: 0 }, "+=.5")
   .from("[gsap-switch-next]", { duration: .7, y: "170%" }, "+=1")
 ;
