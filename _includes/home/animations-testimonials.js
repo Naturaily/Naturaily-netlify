@@ -1,5 +1,4 @@
 const testimonialsTimeline = gsap.timeline();
-const testimonialsLinks = document.querySelectorAll("[gsap-testimonials-menu-item]");
 
 testimonialsTimeline
   .from("[gsap-testimonials-header]", { duration: .6, y: 50, opacity: 0 })

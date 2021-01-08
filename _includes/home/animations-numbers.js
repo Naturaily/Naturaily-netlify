@@ -20,7 +20,7 @@ numbersTimeline
 
 ScrollTrigger.create({
   trigger: "[gsap-numbers-tiles]",
-  end: "top+=250 bottom",
+  end: "top+=200 bottom",
   onEnter: () => numbersTimeline.restart(),
   onLeave: () => numbersTimeline.play(),
   onEnterBack: () => numbersTimeline.reverse(2.2)
