@@ -1,43 +1,30 @@
 window.addEventListener('load', () => {
+  const animationTime = 500;
+
   const attributes = {
-    switch: '[switch]',
-    buttons: '[switch-button]',
-    links: '[switch-link]',
-    cards: '[switch-cards]',
-    counter: '[switch-counter]',
-    switcher: '[switch-switcher]',
-    content: '[switch-content]',
-    activeCard: 'switch-active-card',
-    activeLink: 'switch-active-link',
     index: 'data-index',
-    linkIndex: 'data-link-index',
+    activeCard: 'switch-active-card',
     autoHeight: 'data-auto-height'
+  };
+
+  const $elements = {
+    switch: $("[switch]"),
+    buttons: $("[switch-button]"),
+    cards: $("[switch-cards]"),
+    counter: $("[switch-counter]"),
+    switcher: $("[switch-switcher]")
   };
 
   let switchData = {
     index: null,
     animating: false,
-    size: null,
-    type: null,
-    isMobile: false,
-    autoHeight: false
+    size: $($elements.cards).children().length,
+    isMobile: false
   };
 
-  const animationTime = 500;
-  const $allButtons = $(attributes.buttons);
-  const $allLinks = $(attributes.links);
-  const testimonialsLinks = document.querySelectorAll("[switch-link]");
-  let $switch;
-  let $arrows;
-  let $buttons;
-  let $cards;
-  let $counter;
-  let $links;
+  $elements.buttons.click(() => startSwitch());
 
-  $allButtons.click(() => switchArrow());
-  $allLinks.click(() => switchLink());
-
-  const switchArrow = () => {
+  const startSwitch = () => {
     setParameters();
 
     let switchDirection = $(event.currentTarget)[0].dataset.direction;
@@ -54,29 +41,11 @@ window.addEventListener('load', () => {
     moveToCard(newIndex, switchDirection);
   };
 
-  const switchLink = () => {
-    setParameters();
-
-    const targetIndex = parseInt($(event.currentTarget)[0].dataset.index);
-    const switchDirection = switchData.index > targetIndex ? 'prev' : 'next';
-
-    moveToCard(targetIndex, switchDirection);
-  };
-
   const setParameters = () => {
-    $switch = $(event.target).closest($(attributes.switch));
-    $cards = $switch.find(attributes.cards);
-    $buttons = $switch.find(attributes.buttons);
-    $counter = $switch.find(attributes.counter);
-    $links = $switch.find(attributes.links);
-
-    const $activeCard = $switch.find(`[${attributes.activeCard}]`);
+    const $activeCard = $elements.switch.find(`[${attributes.activeCard}]`);
     const dataUpdate = {
       index: parseInt($activeCard[0].dataset.index),
-      type: $switch[0].dataset.switchType,
-      size: $($cards).children().length,
-      isMobile: window.innerWidth < 811,
-      autoHeight: $switch[0].dataset.autoHeight
+      isMobile: window.innerWidth < 992
     };
 
     switchData = {...switchData, ...dataUpdate};
@@ -84,7 +53,8 @@ window.addEventListener('load', () => {
 
   const moveToCard = (index, direction) => {
     if (index !== switchData.index && !switchData.animating) {
-      const newPosition = -100 * index;
+      const newPosition = { left: `${-100 * index}%` };
+      const endAnimating = () => { switchData.animating = false };
       const dataUpdate = {
         index: index,
         animating: true
@@ -92,39 +62,23 @@ window.addEventListener('load', () => {
 
       switchData = {...switchData, ...dataUpdate};
 
-      $($cards).animate({ left: `${newPosition}%` }, animationTime, () => { switchData.animating = false });
-      if ($links) updateLinks(index);
+      $($elements.cards).animate(newPosition, animationTime, endAnimating());
       updateCards(index);
       updateCounter(index, direction);
     };
   };
 
-  const updateLinks = (index) => {
-    const $targetLink = $allLinks.parent().find(`[data-index="${index}"]`);
-    const activeLinkClass = 'home-testimonials__switch-menu__item--active';
-
-    $allLinks
-      .removeClass(activeLinkClass)
-      .removeAttr(attributes.activeLink);
-    $targetLink
-      .addClass(activeLinkClass)
-      .attr(attributes.activeLink, attributes.activeLink);
-  }
-
   const updateCards = (index) => {
-    const $activeCard = $cards.find(`[${attributes.activeCard}]`);
-    const $newActiveCard = $cards.find(`[${attributes.index}=${index}]`);
-    const activeCardClass = switchData.type === 'testimonials' ? 'home-testimonials__switch-card--active' : 'home-switch-card--active';
-    const activeGsapAttr = switchData.type === 'testimonials' ? 'gsap-testimonials-active-card' : 'gsap-switch-active-card';
+    const $activeCard = $elements.cards.find(`[${attributes.activeCard}]`);
+    const $newActiveCard = $elements.cards.find(`[${attributes.index}=${index}]`);
+    const activeCardClass = 'home-switch-card--active';
 
     $activeCard
       .removeClass(activeCardClass)
       .removeAttr(attributes.activeCard)
-      .removeAttr(activeGsapAttr);
     $newActiveCard
       .addClass(activeCardClass)
       .attr(attributes.activeCard, attributes.activeCard)
-      .attr(activeGsapAttr, activeGsapAttr);
   };
 
 
@@ -134,17 +88,17 @@ window.addEventListener('load', () => {
     const secondPosition = isMoveRight ? '20px' : '0';
     const finalPosition = '50%';
 
-    $counter.animate({ left: initialPosition }, animationTime / 2, () => {
-      $counter.css('left', secondPosition);
-      $counter[0].innerHTML = index + 1;
-      $counter.animate({ left: finalPosition }, animationTime / 2);
-      if (switchData.isMobile && switchData.autoHeight) adjustHeight();
+    $elements.counter.animate({ left: initialPosition }, animationTime / 2, () => {
+      $elements.counter.css('left', secondPosition);
+      $elements.counter[0].innerHTML = index + 1;
+      $elements.counter.animate({ left: finalPosition }, animationTime / 2);
+      if (switchData.isMobile) adjustHeight();
     });
 
     const adjustHeight = (initialIndex = 0) => {
-      const $switcher = $switch.find(attributes.switcher);
-      const $initialContent = $cards.find(`[${attributes.index}="${initialIndex}"]`).find(attributes.content);
-      const $newContent = $cards.find(`[${attributes.activeCard}]`).find(attributes.content);
+      const $switcher = $elements.switch.find(attributes.switcher);
+      const $initialContent = $elements.cards.find(`[${attributes.index}="${initialIndex}"]`).find(attributes.content);
+      const $newContent = $elements.cards.find(`[${attributes.activeCard}]`).find(attributes.content);
       const marginChange = $newContent.height() - $initialContent.height();
 
       $switcher.animate({ 'margin-top': marginChange }, animationTime);
