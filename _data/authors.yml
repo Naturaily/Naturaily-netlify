@@ -103,23 +103,15 @@ authors:
     id: author-26
     name: Leo Baz
     slug: leo-baz
-  - avatar: /assets/images/michal_kosyk_profile.png
-    id: author-27
-    name: Michał Kosyk
-    slug: michal-kosyk
   - avatar: /assets/images/mateusz-pliszka.jpg
     id: author-28
     name: Mateusz Pliszka
     slug: mateusz-pliszka
-  - avatar: /assets/images/andrzej_profile.png
-    id: author-29
-    name: Andrzej Gatkowski
-    slug: andrzej-gatkowski
   - avatar: /assets/images/Weronika_profile.png
     id: author-30
     name: Weronika Nużyńska
     slug: weronika-nuzynska
-  - avatar: /assets/images/Helmut_LingoHub.png
-    id: author-31
-    name: Helmut Juskewycz
-    slug: helmut-juskewycz
+  - avatar: /assets/images/goldman_krk_20190463.jpg
+    id: author-32
+    name: Katarzyna Ciesielska
+    slug: katarzyna-ciesielska
