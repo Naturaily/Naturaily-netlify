@@ -8,7 +8,7 @@ layout: post
 date: '2021-01-11 11:39:22 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/goldman_krk_20190463.jpg
+  avatar: /assets/images/J_150X150.png
   label: Katarzyna Ciesielska
   value: author-32
 image: /assets/images/blog_ecommerce_development_company.png
@@ -17,7 +17,7 @@ text-preview: >-
   time you're doing it. Web development is evolving each day so If you want to
   be on top, there's a lot of things to acknowledge and implement. A
   professional e-commerce company has all the skills and information you need to
-  be successful. Check them out and let yourself to become the best. 
+  be successful. Check them out and let yourself to become the best.
 tags:
   - e-commerce
   - e-commerce development company
@@ -25,7 +25,7 @@ tags:
 ---
 The world has changed lately. There is no doubt that some era has finished, and we won’t go back to how we used to live before COVID-19. People had to start doing many things online, without going out. **E-commerce development companies** have been doing much more work to prepare their customers for bigger traffic and help their businesses in this new reality. Even those of you who used to believe in old-style retail had to change their minds. The hard truth is that you need to evolve, or you just die.
 
-You also have made your decision. This is the time when you’re going to change your life and your business. No more waiting for some better times. You are open to your new path and the huge billboard in your head is almost shouting: *go online*. 
+You also have made your decision. This is the time when you’re going to change your life and your business. No more waiting for some better times. You are open to your new path and the huge billboard in your head is almost shouting: *go online*.
 
 So you will go. You have a budget to invest, you have a great product and people already know your name. You have it all to be successful but… how exactly do this? Until now, you have been doing great but in the real world. Not here, not online.
 
@@ -72,5 +72,3 @@ They will understand that you need to plan, and they will go with your flow to a
 So, what do you think? Is it better to do all potential mistakes on your own to get experience or maybe just use the experience of a professional **e-commerce development company**?
 
 [{% image /assets/images/cta_estimation_1600.png Get an estimate  %}](https://naturaily.com/get-an-estimate)
-
-
