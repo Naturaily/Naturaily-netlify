@@ -1,0 +1,7 @@
+<svg width="87px" height="228px" viewBox="0 0 87 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <line data-gsap="accent-line" class="home-jamstack__accent-line" x1="82.242497" y1="157.292017" x2="23.1344538" y2="66.9327731" stroke="#761113" stroke-width="0.25" stroke-linejoin="round"></line>
+    <path data-gsap="accent-blue" class="home-jamstack__accent-blue" d="M17.9303721,219.32458 C17.9303721,223.941176 13.9482505,227.691176 9.00840336,227.691176 C4.08535844,227.691176 0.0864345738,223.941176 0.0864345738,219.32458 C0.0864345738,214.707983 4.08535844,210.957983 9.00840336,210.957983 C13.9482505,210.957983 17.9303721,214.707983 17.9303721,219.32458" fill="#00A1D6"></path>
+    <path data-gsap="accent-red" class="home-jamstack__accent-red" d="M86.8151261,16.1754202 C86.8151261,25.1204275 79.5866585,32.3508403 70.6440576,32.3508403 C61.7176279,32.3508403 54.4729892,25.1204275 54.4729892,16.1754202 C54.4729892,7.23041282 61.7176279,-8.17124146e-14 70.6440576,-8.17124146e-14 C79.5866585,-8.17124146e-14 86.8151261,7.23041282 86.8151261,16.1754202" fill="#EE3F2E"></path>
+  </g>
+</svg>

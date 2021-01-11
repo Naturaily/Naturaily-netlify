@@ -2,6 +2,10 @@
   padding-top: 50px;
   padding-bottom: 20px;
 
+  &__accent {
+    display: none;
+  }
+
   &__header, &__text {
     padding: 0 40px;
   }
@@ -139,6 +143,7 @@
 
 @media (min-width: 992px) {
   .home-jamstack {
+    position: relative;
     max-width: 1280px;
     margin: 0 auto;
     padding-bottom: 210px;
@@ -194,9 +199,16 @@
         will-change: transform, opacity;
       }
     }
+
+    &__accent {
+      display: block;
+      position: absolute;
+      top: 230px;
+      right: -170px;
+      overflow: visible;
+    }
   }
 }
-
 
 @media (min-width: 1400px) {
   .home-jamstack__image {
