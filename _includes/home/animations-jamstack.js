@@ -1,5 +1,12 @@
 ScrollTrigger.matchMedia({
   "(min-width: 992px)": () => {
+    const dajemyAccentTimeline = gsap.timeline({
+      paused: true,
+      yoyo: true,
+      repeat: -1,
+      repeatDelay: Math.random() * 2 + 2
+    });
+
     const jamstackTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "[gsap-jamstack]",
@@ -23,5 +30,15 @@ ScrollTrigger.matchMedia({
       .from("[gsap-jamstack-cta]", { duration: .5, opacity: 0, y: 40 }, "-=.5")
       .from("[gsap-jamstack-link]", { duration: 0.7, opacity: 0, scale: 0.8, y: 10 })
     ;
+
+    dajemyAccentTimeline
+      .from('[data-gsap="accent-line"]', { duration: 0.7, scale: 0 })
+      .from('[data-gsap="accent-blue"]', { duration: 0.7, x: 7, y: 7, scale: 0, ease: "elastic" }, "-=.3")
+      .from('[data-gsap="accent-red"]', { duration: 0.7, x: 15, y: 15, scale: 0, ease: "elastic" }, "-=.3")
+    ;
+
+    jamstackTimeline.eventCallback("onComplete", () => {
+      dajemyAccentTimeline.play();
+    })
   }
 });
