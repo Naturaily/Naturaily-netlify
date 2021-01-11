@@ -228,7 +228,17 @@
       line-height: 20px;
 
       &__current {
-        margin-right: 5px;
+        display: flex;
+
+        &-wrapper {
+          margin: 0 5px;
+          overflow: hidden;
+        }
+
+        &-number {
+          display: inline-block;
+          position: relative;
+        }
       }
 
       &__all {
@@ -386,6 +396,7 @@
         z-index: 3;
         width: 33.4%;
         padding: 60px 30px 60px 0;
+        overflow: hidden;
 
         &:last-of-type {
           z-index: 0;
