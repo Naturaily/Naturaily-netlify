@@ -78,6 +78,21 @@ description: >-
   {% include home/animations-nondevelopment.js %}
   {% include home/animations-development.js %}
   {% include home/animations-newsletter.js %}
+
+  window.addEventListener('load', () => {
+    $(window).resize(() => {
+      const resizeReset = () => {
+        if ($(window).width() < 992) {
+          $('[gsap][style]').removeAttr('style')
+        } else {
+          window.location = window.location;
+        }
+      }
+
+      clearTimeout(window.resizedFinished);
+      window.resizedFinished = setTimeout(resizeReset(), 250);
+    });
+  });
 </script>
 
 <script type="text/javascript">

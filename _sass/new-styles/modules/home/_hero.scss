@@ -139,10 +139,6 @@
       padding: 0;
     }
 
-    &__background {
-      min-height: 890px;
-    }
-
     &__content {
       position: relative;
       width: 100%;
@@ -240,10 +236,6 @@
 
   .scrolled .home-hero {
     min-height: 700px;
-
-    &__background {
-      min-height: 840px;
-    }
   }
 }
 
