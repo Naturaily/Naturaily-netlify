@@ -16,6 +16,7 @@ window.addEventListener('load', () => {
   };
 
   let switchData = {
+    prevIndex: null,
     index: null,
     animating: false,
     size: $($elements.cards).children().length,
@@ -27,45 +28,73 @@ window.addEventListener('load', () => {
   const startSwitch = () => {
     setParameters();
 
-    let switchDirection = $(event.currentTarget)[0].dataset.direction;
-    let newIndex = switchDirection === 'prev' ? switchData.index - 1 : switchData.index + 1;
+    const newIndex = switchData.index + 1 >= switchData.size ? 0 : switchData.index + 1;
 
-    if (newIndex < 0) {
-      newIndex = switchData.size - 1;
-      switchDirection = 'prev';
-    } else if (newIndex >= switchData.size) {
-      newIndex = 0;
-      switchDirection = 'next';
-    }
-
-    moveToCard(newIndex, switchDirection);
+    moveToCard(newIndex);
   };
 
   const setParameters = () => {
     const $activeCard = $elements.switch.find(`[${attributes.activeCard}]`);
-    const dataUpdate = {
-      index: parseInt($activeCard[0].dataset.index),
-      isMobile: window.innerWidth < 992
-    };
+    const index = parseInt($activeCard[0].dataset.index);
+    const dataUpdate = { prevIndex: index, index: index, isMobile: window.innerWidth < 992 };
 
     switchData = {...switchData, ...dataUpdate};
   };
 
-  const moveToCard = (index, direction) => {
+  const moveToCard = (index) => {
     if (index !== switchData.index && !switchData.animating) {
-      const newPosition = { left: `${-100 * index}%` };
-      const endAnimating = () => { switchData.animating = false };
-      const dataUpdate = {
-        index: index,
-        animating: true
-      };
+      const newPosition = `${-100 * index}%`;
+      switchData.index = index;
 
-      switchData = {...switchData, ...dataUpdate};
-
-      $($elements.cards).animate(newPosition, animationTime, endAnimating());
+      animateSwitch(index, newPosition);
       updateCards(index);
-      updateCounter(index, direction);
+      updateCounter(index);
     };
+  };
+
+  const gsapAnimateFromRight = (index, position) => {
+    const exitToLeft = gsap.timeline({ paused: true });
+    const enterFromRight = gsap.timeline({ paused: true });
+    switchData.animating = true;
+
+    exitToLeft
+      .to(`[gsap-switch-project-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 })
+      .to(`[gsap-switch-title-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.2")
+      .to(`[gsap-switch-text-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.2")
+      .to(`[gsap-switch-specs-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.2")
+      .to(`[gsap-switch-testimonials-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.7")
+      .to(`[gsap-switch-image-${switchData.prevIndex}]`, { duration: .4, x: "-100%" }, "-=.5")
+      .to(`[gsap-switch-btn-${switchData.prevIndex}]`, { duration: .4, x: -50, opacity: 0 }, "-=.4")
+      .to(`[gsap-switch-next-${switchData.prevIndex}]`, { duration: .4, x: "-100%", opacity: 0 }, "-=.4")
+    ;
+
+    enterFromRight
+      .from(`[gsap-switch-image-${index}]`, { duration: .4, x: "100%" })
+      .from(`[gsap-switch-project-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.4")
+      .from(`[gsap-switch-title-${index}]`, { duration: .3, x: 50, opacity: 0 })
+      .from(`[gsap-switch-text-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.2")
+      .from(`[gsap-switch-specs-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.2")
+      .from(`[gsap-switch-testimonials-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.7")
+      .from(`[gsap-switch-btn-${index}]`, { duration: .4, scale: .9, opacity: 0 })
+      .fromTo(`[gsap-switch-next-${index}]`, { y: "170%" }, { duration: .8, y: "0" }, "+=.5")
+    ;
+
+    exitToLeft.pause().progress(0).play().eventCallback("onComplete", () => {
+      exitToLeft.pause().progress(0);
+      $elements.cards.css("left", position);
+      enterFromRight.pause().progress(0).play().eventCallback("onComplete", () => {
+        switchData.animating = false;
+      });
+    });
+  };
+
+  const animateSwitch = (index, position) => {
+    if (switchData.isMobile && !switchData.animating) {
+      switchData.animating = true;
+      $elements.cards.animate({ left: position }, animationTime, () => { switchData.animating = false; });
+    } else if (!switchData.animating) {
+      gsapAnimateFromRight(index, position);
+    }
   };
 
   const updateCards = (index) => {
@@ -82,16 +111,11 @@ window.addEventListener('load', () => {
   };
 
 
-  const updateCounter = (index, direction) => {
-    const isMoveRight = direction === 'right';
-    const initialPosition = isMoveRight ? '0' : '20px';
-    const secondPosition = isMoveRight ? '20px' : '0';
-    const finalPosition = '50%';
-
-    $elements.counter.animate({ left: initialPosition }, animationTime / 2, () => {
-      $elements.counter.css('left', secondPosition);
+  const updateCounter = (index) => {
+    $elements.counter.animate({ left: '-20px' }, animationTime / 2, () => {
+      $elements.counter.css('left', '20px');
       $elements.counter[0].innerHTML = index + 1;
-      $elements.counter.animate({ left: finalPosition }, animationTime / 2);
+      $elements.counter.animate({ left: '0' }, animationTime / 2);
       if (switchData.isMobile) adjustHeight();
     });
 
