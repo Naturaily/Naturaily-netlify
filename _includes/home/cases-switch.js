@@ -63,6 +63,7 @@ window.addEventListener('load', () => {
       .to(`[gsap-switch-text-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.2")
       .to(`[gsap-switch-specs-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.2")
       .to(`[gsap-switch-testimonials-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.7")
+      .to(`[gsap-switch-credits-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.7")
       .to(`[gsap-switch-image-${switchData.prevIndex}]`, { duration: .4, x: "-100%" }, "-=.5")
       .to(`[gsap-switch-btn-${switchData.prevIndex}]`, { duration: .4, x: -50, opacity: 0 }, "-=.4")
       .to(`[gsap-switch-next-${switchData.prevIndex}]`, { duration: .4, x: "-100%", opacity: 0 }, "-=.4")
@@ -73,10 +74,11 @@ window.addEventListener('load', () => {
       .from(`[gsap-switch-project-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.4")
       .from(`[gsap-switch-title-${index}]`, { duration: .3, x: 50, opacity: 0 })
       .from(`[gsap-switch-text-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.2")
-      .from(`[gsap-switch-specs-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.2")
+      .from(`[gsap-switch-specs-${index}]`, { duration: .3, x: 50, opacity: 0, stagger: .2 }, "-=.2")
       .from(`[gsap-switch-testimonials-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.7")
+      .from(`[gsap-switch-credits-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.7")
       .from(`[gsap-switch-btn-${index}]`, { duration: .4, scale: .9, opacity: 0 })
-      .fromTo(`[gsap-switch-next-${index}]`, { y: "170%" }, { duration: .8, y: "0" }, "+=.5")
+      .fromTo(`[gsap-switch-next-${index}]`, { y: "170%" }, { duration: .8, y: "0" })
     ;
 
     exitToLeft.pause().progress(0).play().eventCallback("onComplete", () => {
