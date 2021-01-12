@@ -390,6 +390,7 @@
         }
 
         &__number {
+          transform: translateY(-13px);
           margin-right: 35px;
           transition: .2s;
         }

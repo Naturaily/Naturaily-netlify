@@ -80,13 +80,20 @@ description: >-
   {% include home/animations-newsletter.js %}
 
   window.addEventListener('load', () => {
+    let resizeStartWidth = null;
+
     $(window).resize(() => {
+      if (!resizeStartWidth) { resizeStartWidth = $(window).width(); }
+      console.log(resizeStartWidth)
+
       const resizeReset = () => {
         if ($(window).width() < 992) {
           $('[gsap][style]').removeAttr('style')
-        } else {
+        } else if (resizeStartWidth < 992 ) {
           window.location = window.location;
         }
+
+        resizeStartWidth = null;
       }
 
       clearTimeout(window.resizedFinished);
