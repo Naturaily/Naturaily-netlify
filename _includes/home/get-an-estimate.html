@@ -1,0 +1,17 @@
+<a id="homeGae" class="home-gae" href="/get-an-estimate" gsap-gae>
+  <span class="home-gae_text">
+    Get an estimate
+  </span>
+  <span class="home-gae_arrow">
+    {% svg /assets/images/btn-arrow.svg %}
+  </span>
+  <span class="home-gae_background"></span>
+</a>
+
+<script type="text/javascript">
+  window.addEventListener('load', () => {
+    var sticky = new Waypoint.Sticky({
+      element: $('#homeGae')[0]
+    });
+  });
+</script>
