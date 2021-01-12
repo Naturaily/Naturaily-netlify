@@ -85,8 +85,7 @@ description: >-
     let resizeStartWidth = null;
 
     $(window).resize(() => {
-      if (!resizeStartWidth) { resizeStartWidth = $(window).width(); }
-      console.log(resizeStartWidth)
+      if (!resizeStartWidth) resizeStartWidth = $(window).width();
 
       const resizeReset = () => {
         if ($(window).width() < 992) {
