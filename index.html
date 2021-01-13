@@ -82,23 +82,23 @@ description: >-
   {% include home/animations-newsletter.js %}
 
   window.addEventListener('load', () => {
+    let resizeTimer = false;
     let resizeStartWidth = null;
 
-    $(window).resize(() => {
-      if (!resizeStartWidth) resizeStartWidth = $(window).width();
-
-      const resizeReset = () => {
-        if ($(window).width() < 992) {
-          $('[gsap][style]').removeAttr('style')
-        } else if (resizeStartWidth < 992 ) {
-          window.location = window.location;
-        }
-
-        resizeStartWidth = null;
+    const resizeReset = () => {
+      if ($(window).width() < 992) {
+        $('[gsap][style]').removeAttr('style')
+      } else if (resizeStartWidth < 992 ) {
+        window.location = window.location;
       }
+      resizeTimer = false;
+      resizeStartWidth = null;
+    }
 
-      clearTimeout(window.resizedFinished);
-      window.resizedFinished = setTimeout(resizeReset(), 250);
+    $(window).on('resize', () => {
+      if(!resizeTimer) resizeStartWidth = $(window).width();
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => { resizeReset(); }, 250);
     });
   });
 </script>
