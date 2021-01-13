@@ -59,20 +59,20 @@ window.addEventListener('load', () => {
 
     exitToLeft
       .to(`[gsap-switch-project-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 })
-      .to(`[gsap-switch-title-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.2")
-      .to(`[gsap-switch-text-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.2")
-      .to(`[gsap-switch-specs-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.2")
+      .to(`[gsap-switch-title-${switchData.prevIndex}]`, { duration: .15, x: -50, opacity: 0 }, "-=.3")
+      .to(`[gsap-switch-text-${switchData.prevIndex}]`, { duration: .15, x: -50, opacity: 0 }, "-=.3")
+      .to(`[gsap-switch-specs-${switchData.prevIndex}]`, { duration: .15, x: -50, opacity: 0 }, "-=.3")
       .to(`[gsap-switch-testimonials-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.7")
-      .to(`[gsap-switch-credits-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.7")
-      .to(`[gsap-switch-image-${switchData.prevIndex}]`, { duration: .4, x: "-100%" }, "-=.5")
-      .to(`[gsap-switch-btn-${switchData.prevIndex}]`, { duration: .4, x: -50, opacity: 0 }, "-=.4")
-      .to(`[gsap-switch-next-${switchData.prevIndex}]`, { duration: .4, x: "-100%", opacity: 0 }, "-=.4")
+      .to(`[gsap-switch-credits-${switchData.prevIndex}]`, { duration: .2, x: -50, opacity: 0 }, "-=.7")
+      .to(`[gsap-switch-image-${switchData.prevIndex}]`, { duration: .3, x: "-100%" }, "-=.6")
+      .to(`[gsap-switch-btn-${switchData.prevIndex}]`, { duration: .3, x: -50, opacity: 0 }, "-=.5")
+      .to(`[gsap-switch-next-${switchData.prevIndex}]`, { duration: .3, x: "-100%", opacity: 0 }, "-=.5")
     ;
 
     enterFromRight
       .from(`[gsap-switch-image-${index}]`, { duration: .4, x: "100%" })
       .from(`[gsap-switch-project-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.4")
-      .from(`[gsap-switch-title-${index}]`, { duration: .3, x: 50, opacity: 0 })
+      .from(`[gsap-switch-title-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.2")
       .from(`[gsap-switch-text-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.2")
       .from(`[gsap-switch-specs-${index}]`, { duration: .3, x: 50, opacity: 0, stagger: .2 }, "-=.2")
       .from(`[gsap-switch-testimonials-${index}]`, { duration: .3, x: 50, opacity: 0 }, "-=.7")
