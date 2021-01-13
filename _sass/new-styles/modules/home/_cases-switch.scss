@@ -343,7 +343,7 @@
     }
 
     &__background {
-      top: 50px;
+      top: 85px;
       left: 33.3%;
       z-index: -1;
       height: 100%;
@@ -372,7 +372,7 @@
 
     &__header {
       max-width: 1280px;
-      margin: 0 auto 55px;
+      margin: 0 auto 85px;
       padding-left: 60px;
       font-size: 48px;
       line-height: 72px;
@@ -495,6 +495,7 @@
       background-color: $color-home-grey;
       border-bottom: 2px solid $color-home-border-grey;
       cursor: pointer;
+      overflow: hidden;
 
       &-image {
         position: relative;
@@ -546,7 +547,7 @@
 
       &:hover .home-switch__next {
         &-image {
-          transform: translate(10%, -10%) scale(1.2, 1.2);
+          transform: scale(1.1, 1.1);
 
           &__shadow, &__cover {
             opacity: 0;
