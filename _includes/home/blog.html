@@ -13,17 +13,19 @@
                 {% svg /assets/images/btn-arrow.svg %}
               </a>
             </div>
-            <div class="home-blog__post-image">
+            <a href="{{ post.url }}" class="home-blog__post-image">
               <img
                 src="/assets/images/loader.gif"
                 data-src="{{ post.image }}"
                 alt="{{ post.title }}"
               />
-            </div>
+            </a>
             <h3 class="home-blog__post-title">
               {{ post.title }}
             </h3>
-            {{ post.excerpt }}
+            <p class="home-blog__post-preview">
+              {{ post.text-preview }}
+            </p>
           </div>
         </li>
 
