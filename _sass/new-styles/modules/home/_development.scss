@@ -60,10 +60,10 @@
         &:hover {
           transform: none;
           box-shadow: none;
+        }
 
-          svg {
-            transform: translateX(30px);
-          }
+        &--disabled {
+          cursor: default;
         }
       }
 
