@@ -495,7 +495,6 @@
       background-color: $color-home-grey;
       border-bottom: 2px solid $color-home-border-grey;
       cursor: pointer;
-      overflow: hidden;
 
       &-image {
         position: relative;
@@ -547,7 +546,7 @@
 
       &:hover .home-switch__next {
         &-image {
-          transform: scale(1.1, 1.1);
+          transform: translate(10%, -10%) scale(1.2, 1.2);
 
           &__shadow, &__cover {
             opacity: 0;
