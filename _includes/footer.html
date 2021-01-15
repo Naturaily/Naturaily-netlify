@@ -21,16 +21,16 @@
         <a class="tos" href="/terms-of-service" rel="nofollow">Terms of Use</a>
       </li>
     </ul>
-    <ul class="footer_list footer_list--resources">
-      <li class="footer_list-heading">Resources</li>
-      <li><a href="/vue-resources">Vue.js</a></li>
-    </ul>
     <ul class="footer_list footer_list--jobs">
       {% assign job_offers = site.career | where: "published", "true"%}
       <li class="footer_list-heading">Job offers</li>
       {% for job_offer in job_offers %}
         <li><a href="{{job_offer.url}}">{{job_offer.short-title}}</a></li>
       {% endfor %}
+    </ul>
+    <ul class="footer_list footer_list--resources">
+      <li class="footer_list-heading">Resources</li>
+      <li><a href="/vue-resources">Vue.js</a></li>
     </ul>
 
     <div class="footer_spacer"></div>
