@@ -34,7 +34,7 @@ If you imagined running around like a chicken, that’s not what I meant here, d
 
 How much more? For example, after going headless, [Teespring’s](https://teespring.com/){:target="_blank"} early tests showed that they had boosted their performance **twice**. They are literally converting twice as good as before and this is a company that always put attention to optimization. Do you need more examples that this is **the e-commerce web solution** you’ve been looking for? 
 
-{% youtube Bxh5MHiRRW8&ab_channel=Osudio %}
+{% youtube Bxh5MHiRRW8 %}
 
 ## Headless means JAMstack
 
