@@ -46,7 +46,7 @@ about-right: >-
 
   **If your expectations coincide with ours and you want to start a fun,
   challenging adventure - send your CV today!**
-type: Operations
+type: Other
 salary-preview:
   - salary:
       contract: Contract of Employment (UoP)
