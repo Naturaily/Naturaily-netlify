@@ -1,6 +1,6 @@
 ---
 published: false
-title: Administration & Financial Specialist - don't wait - apply!
+title: Administration & Financial Specialist - don't wait - apply
 short-title: 'Administration & Financial Specialist '
 description: >-
   We are looking for orginized and independent Administration & Financial
