@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
     size: $($elements.cards).children().length,
     isMobile: false,
     autoHeight: true,
-    height: 400
+    height: 470
   };
 
   $elements.buttons.click(() => switchMobile());
@@ -145,13 +145,6 @@ window.addEventListener('load', () => {
     const $targetLink = $elements.links.parent().find(`[data-index="${index}"]`);
     const activeLinkClass = 'home-testimonials__switch-menu__item--active';
     const movedMenuClass = 'home-testimonials__switch-menu__list--moved';
-    const finalMenuClass = 'home-testimonials__switch-menu__list--final';
-
-    const cleanMenuClasses = () => {
-      $elements.menu
-        .removeClass(movedMenuClass)
-        .removeClass(finalMenuClass);
-    };
 
     $elements.links
       .removeClass(activeLinkClass)
@@ -160,14 +153,9 @@ window.addEventListener('load', () => {
       .addClass(activeLinkClass)
       .attr(attributes.activeLink, attributes.activeLink);
 
-    cleanMenuClasses();
-    
-    if (index === 4) {
-      $elements.menu.addClass(movedMenuClass);
-    } else if (index >= 5) {
-      $elements.menu.addClass(finalMenuClass);
-    }
-  }
+    $elements.menu.removeClass(movedMenuClass);
+    if (index >= 5) $elements.menu.addClass(movedMenuClass);
+  };
 
   const updateCards = (index) => {
     const $activeCard = $elements.cards.find(`[${attributes.activeCard}]`);
@@ -181,7 +169,6 @@ window.addEventListener('load', () => {
       .addClass(activeCardClass)
       .attr(attributes.activeCard, attributes.activeCard)
   };
-
 
   const updateCounter = (index, direction) => {
     const isMoveRight = direction === 'right';
