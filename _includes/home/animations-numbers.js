@@ -1,4 +1,4 @@
-const countValues = [ 7, 60, 80, 125, 0.8 ];
+const countValues = [ 7, 94, 70, 125, 0.8 ];
 
 ScrollTrigger.matchMedia({
   "(min-width: 992px)": () => {
