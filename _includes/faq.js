@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
 
     switch(faqType) {
       case 'home-switch':
-        faqClasses.rotated = 'home-switch__arrow--rotated';
+        faqClasses.rotated = 'icon--rotated';
         faqClasses.hidden = 'home-switch--hidden';
         if (nonDesktop) { runFaq(e); }
         break;

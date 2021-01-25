@@ -6,10 +6,6 @@
     display: none;
   }
 
-  &__arrow--rotated {
-    transform: rotate(180deg);
-  }
-
   &__background {
     position: absolute;
     top: 145px;
@@ -73,12 +69,17 @@
         position: absolute;
         top: 0;
         right: 0;
-        transform: rotate(-90deg);
+        transform: rotate(270deg);
         width: 32px;
         height: 32px;
         font-size: 14px;
         background-color: $color-white;
         border-radius: 100%;
+        transition: transform .4s;
+
+        &--rotated {
+          transform: rotate(90deg);
+        }
       }
     }
   }
