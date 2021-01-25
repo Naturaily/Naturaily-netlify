@@ -47,7 +47,7 @@
     &-cards {
       display: flex;
       position: relative;
-      width: 800%;
+      width: 900%;
       background-color: $color-home-grey;
     }
 
@@ -302,10 +302,13 @@
       line-height: 28.8px;
     }
 
+    &__switch, &__switch-wrapper, &__switch-card {
+      height: 470px;
+    }
+
     &__switch {
       width: 100vw;
       max-width: 1600px;
-      height: 400px;
       margin-top: 50px;
       padding: 70px 0;
       background-color: $color-home-grey;
@@ -317,7 +320,6 @@
         position: relative;
         width: 100%;
         max-width: 1280px;
-        height: 400px;
         margin: 0 auto;
         overflow: hidden;
       }
@@ -330,8 +332,11 @@
       }
 
       &-card {
-        height: 400px;
-        padding: 0px 75px 100px;
+        padding: 0 75px 100px 25px;
+        
+        &__wrapper {
+          overflow: hidden;
+        }
       }
 
       &-logo {
@@ -371,7 +376,7 @@
       }
 
       &-quote {
-        height: 390px;
+        height: 460px;
 
         &__text {
           max-width: 520px;
@@ -380,23 +385,19 @@
 
       &-menu {
         display: block;
+        min-width: 310px;
         overflow: hidden;
 
         &__list {
           position: relative;
-          width: 330px;
-          height: 370px;
+          height: 425px;
           padding-left: 75px;
           background-color: $color-home-grey;
           transition: transform .4s ease-in;
           will-change: transform;
 
           &--moved {
-            transform: translateY(-55px);
-          }
-
-          &--final {
-            transform: translateY(-130px);
+            transform: translateY(-70px);
           }
         }
 
@@ -429,5 +430,11 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-testimonials__switch-menu {
+    min-width: 370px;
   }
 }
