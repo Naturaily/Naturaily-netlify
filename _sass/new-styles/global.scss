@@ -176,6 +176,10 @@ a.text-secondary {
   width: 100%;
 }
 
+.non-breaking {
+  white-space: nowrap;
+}
+
 
 @media (max-width: 810px) {
   .paragraph {
