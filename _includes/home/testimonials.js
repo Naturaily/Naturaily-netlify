@@ -16,7 +16,8 @@ window.addEventListener('load', () => {
     cards: $("[testimonials-cards]"),
     counter: $("[testimonials-counter]"),
     links: $("[testimonials-link]"),
-    switcher: $("[testimonials-switcher]")
+    switcher: $("[testimonials-switcher]"),
+    menu: $("[testimonials-menu]")
   };
 
   let switchData = {
@@ -143,6 +144,14 @@ window.addEventListener('load', () => {
   const updateLinks = (index) => {
     const $targetLink = $elements.links.parent().find(`[data-index="${index}"]`);
     const activeLinkClass = 'home-testimonials__switch-menu__item--active';
+    const movedMenuClass = 'home-testimonials__switch-menu__list--moved';
+    const finalMenuClass = 'home-testimonials__switch-menu__list--final';
+
+    const cleanMenuClasses = () => {
+      $elements.menu
+        .removeClass(movedMenuClass)
+        .removeClass(finalMenuClass);
+    };
 
     $elements.links
       .removeClass(activeLinkClass)
@@ -150,6 +159,14 @@ window.addEventListener('load', () => {
     $targetLink
       .addClass(activeLinkClass)
       .attr(attributes.activeLink, attributes.activeLink);
+
+    cleanMenuClasses();
+    
+    if (index === 4) {
+      $elements.menu.addClass(movedMenuClass);
+    } else if (index >= 5) {
+      $elements.menu.addClass(finalMenuClass);
+    }
   }
 
   const updateCards = (index) => {
