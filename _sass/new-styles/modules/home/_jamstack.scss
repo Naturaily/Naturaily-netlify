@@ -35,16 +35,55 @@
       width: 100%;
     }
 
-    &-half, &-full, &-tablet, &-page {
+    &-tablet, &-page, .geometric-figure {
       box-sizing: border-box;
       width: 100%;
       padding: 0 20px;
     }
 
-    &-full, &-tablet, &-page {
+    &-page, .geometric-figure {
       position: absolute;
-      top: 0;
       left: 0;
+    }
+
+    &-page {
+      top: 0;
+    }
+
+    .geometric-figure {
+      bottom: 0;
+      z-index: 0;
+      transform: rotate(180deg);
+
+      &_center, &_right::after {
+        width: 60vw;
+        height: 60vw;
+      } 
+
+      &_center {
+        z-index: 1;
+        border: none;
+        background-color: $color-home-accent;
+      }
+      
+      &_right {
+        z-index: 0;
+        width: 30vw;
+        height: 60vw;
+
+        &::after {
+          background-color: $color-accent-yellow;
+        }
+      }
+    }
+
+    &-tablet {
+      position: relative;
+      z-index: 1;
+    }
+
+    &-page {
+      z-index: 2;
     }
   }
 
@@ -100,8 +139,20 @@
     }
 
     &__image {
-      &-half, &-full, &-tablet, &-page {
+      &-tablet, &-page, .geometric-figure {
         padding: 0 75px;
+      }
+
+      .geometric-figure {
+        &_center, &_right::after {
+          width: 50vw;
+          height: 50vw;
+        }
+        
+        &_right {
+          width: 25vw;
+          height: 50vw;
+        }
       }
     }
   }
@@ -133,6 +184,18 @@
       bottom: 120px;
       left: -100px;
       width: 550px;
+
+      .geometric-figure {
+        &_center, &_right::after {
+          width: 28vw;
+          height: 28vw;
+        }
+        
+        &_right {
+          width: 14vw;
+          height: 28vw;
+        }
+      }
     }
 
     &__link .btn-bordered {
@@ -195,8 +258,20 @@
       bottom: 120px;
       width: 670px;
 
-      &-half, &-full, &-tablet, &-page {
+      &-tablet, &-page, .geometric-figure_center, .geometric-figure_right {
         will-change: transform, opacity;
+      }
+
+      .geometric-figure {
+        &_center, &_right::after {
+          width: 350px;
+          height: 350px;
+        }
+
+        &_right {
+          width: 175px;
+          height: 350px;
+        }
       }
     }
 
