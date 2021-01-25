@@ -164,7 +164,7 @@
       width: 170px;
       padding: 18px 40px;
       font-size: 13px;
-      background: linear-gradient(270deg, $color-secondary 0%, $color-primary 50%, $color-white 0%, $color-white 100%);
+      background: linear-gradient(270deg, $color-secondary 0%, $color-secondary 50%, $color-white 0%, $color-white 100%);
       background-position: 100% 0%;
       background-size: 200%;
       transition: background-position .4s, color .2s;
@@ -464,7 +464,7 @@
 
       &-credits {
         margin: 30px 0;
-        
+
         &__person {
           margin-top: 0;
         }
