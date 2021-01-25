@@ -37,7 +37,7 @@
         <div style="position: absolute; left: -5000px;" aria-hidden="true">
           <input type="text" name="b_858a9583bf4d0c0d1674a5399_e1f0be7790" tabindex="-1" value="">
         </div>
-        <div class="home-newsletter__btn">
+        <div class="home-newsletter__btn" gsap gsap-newsletter-btn>
           <input
             id="mc-embedded-subscribe"
             type="submit"
@@ -72,20 +72,19 @@
       </a>
     </p>
     <div class="home-newsletter__image">
-      <img
-        class="home-newsletter__image-figure"
-        src="/assets/images/loader.gif"
-        data-src="/assets/images/home/newsletter-figure.png"
-        alt="geometric figure"
-        gsap gsap-newsletter-half
-      />
-      <img
-        class="home-newsletter__image-ceo"
-        src="/assets/images/loader.gif"
-        data-src="/assets/images/home/newsletter-suler.png"
-        alt="Naturaily CEO"
-        gsap gsap-newsletter-full
-      />
+      <figure class="geometric-figure">
+        <div class="geometric-figure_center">
+          <img
+            class="home-newsletter__image-ceo"
+            src="/assets/images/loader.gif"
+            data-src="/assets/images/home/newsletter-suler.png"
+            alt="Naturaily CEO"
+            gsap
+            gsap-newsletter-full
+          />
+        </div>
+        <div class="geometric-figure_right" gsap gsap-newsletter-half></div>
+      </figure>
     </div>
   </div>
 </div>
