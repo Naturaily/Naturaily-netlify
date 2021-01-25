@@ -87,13 +87,13 @@ description: >-
 
     const resizeReset = () => {
       if ($(window).width() < 992) {
-        $('[gsap][style]').removeAttr('style')
+        $('[gsap][style]').removeAttr('style');
       } else if (resizeStartWidth < 992 ) {
         window.location = window.location;
       }
       resizeTimer = false;
       resizeStartWidth = null;
-    }
+    };
 
     $(window).on('resize', () => {
       if(!resizeTimer) resizeStartWidth = $(window).width();
