@@ -54,12 +54,16 @@
         border-bottom: 1px solid $color-home-border-light;
 
         svg {
-          transition: .2s ease;
+          transition: transform .2s ease;
         }
 
         &:hover {
           transform: none;
           box-shadow: none;
+
+          svg {
+            transform: translateX(-25px);
+          }
         }
 
         &--disabled {

@@ -380,13 +380,24 @@
 
       &-menu {
         display: block;
+        overflow: hidden;
 
         &__list {
-          width: 300px;
+          position: relative;
+          width: 330px;
           height: 370px;
           padding-left: 75px;
           background-color: $color-home-grey;
-          overflow: scroll;
+          transition: transform .4s ease-in;
+          will-change: transform;
+
+          &--moved {
+            transform: translateY(-55px);
+          }
+
+          &--final {
+            transform: translateY(-130px);
+          }
         }
 
         &__number {
