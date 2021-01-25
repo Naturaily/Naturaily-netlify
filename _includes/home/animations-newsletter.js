@@ -18,7 +18,7 @@ ScrollTrigger.matchMedia({
       .to("[gsap-newsletter-type]", { text: { value: "Writing to you" }, duration: .8, delay: 1, ease: "none" }, "-=1.5")
       .to("[gsap-newsletter-type-name]", { text: { value: "Marcin Sulikowski" }, duration: .8, delay: 1, ease: "none" }, "-=.7")
       .from("[gsap-newsletter-full]", { duration: .6, opacity: 0 }, "-=1.4")
-      .from("[gsap-newsletter-half]", { duration: .01, opacity: 0 }, "-=.8")
+      .from("[gsap-newsletter-half]", { duration: .01, opacity: 0 }, "-=.9")
       .from("[gsap-newsletter-full]", { duration: .8, x: 100 }, "-=.8")
     ;
   }

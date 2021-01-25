@@ -130,7 +130,7 @@
 
   &__image {
     position: relative;
-    width: 294px;
+    height: 200px;
 
     .geometric-figure {
       transform: rotate(180deg);
@@ -141,10 +141,12 @@
       }
 
       &_center {
+        z-index: 1;
         border: none;
       }
 
       &_right {
+        z-index: 0;
         width: 100px;
         height: 200px;
 
@@ -184,11 +186,16 @@
     justify-content: space-between;
     padding-top: 170px;
 
+    &__content {
+      flex-grow: 1;
+    }
+
     &__text {
       padding-right: 0;
     }
 
     &__writing {
+      min-width: 220px;
       margin: 0;
       padding-left: 50px;
     }
