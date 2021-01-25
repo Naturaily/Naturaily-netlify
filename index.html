@@ -83,19 +83,18 @@ description: >-
 
   window.addEventListener('load', () => {
     let resizeTimer = false;
-    let resizeStartWidth = null;
 
     const resizeReset = () => {
       if ($(window).width() < 992) {
         $('[gsap][style]').removeAttr('style');
-      } else if (resizeStartWidth < 992 ) {
+      } else {
         window.location = window.location;
       }
-      resizeTimer = false;
-      resizeStartWidth = null;
     };
 
-    $(window).on('resize', () => {
+    if ($(window).width() < 992) $('[gsap][style]').removeAttr('style');
+
+    $(window).resize(() => {
       if(!resizeTimer) resizeStartWidth = $(window).width();
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(() => { resizeReset(); }, 250);
