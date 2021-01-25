@@ -132,14 +132,35 @@
     position: relative;
     width: 294px;
 
-    &-figure, &-ceo {
-      width: 100%;
+    .geometric-figure {
+      transform: rotate(180deg);
+
+      &_center, &_right::after {
+        width: 200px;
+        height: 200px;
+      }
+
+      &_center {
+        border: none;
+      }
+
+      &_right {
+        width: 100px;
+        height: 200px;
+
+        &::after {
+          background-color: $color-accent-yellow;
+        }
+      }
     }
 
     &-ceo {
       position: absolute;
       top: 0;
       left: 0;
+      width: 100%;
+      height: 100%;
+      transform: rotate(180deg);
     }
   }
 
@@ -180,7 +201,7 @@
       padding-left: 100px;
     }
 
-    &__content, .btn-bordered, &__image-figure, &__image-ceo {
+    &__content, &__btn, &__image-figure, &__image-ceo {
       will-change: transform, opacity;
     }
 
