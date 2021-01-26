@@ -42,6 +42,20 @@ window.addEventListener('load', () => {
   $elements.buttons.click(() => switchMobile());
   $elements.links.click(() => switchLink());
 
+  $(window).resize(() => {
+    let resizeTimer = false;
+
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => { 
+      if (window.innerWidth < 992) {
+        const resizeIndex = switchData.index ? switchData.index : 0;
+    
+        moveToCard(resizeIndex, 'next');
+        adjustCardsHeight();
+      }
+    }, 250);
+  });
+
   const switchMobile = () => {
     setParameters();
 
@@ -80,8 +94,12 @@ window.addEventListener('load', () => {
   };
 
   const moveToCard = (index, direction) => {
-    if (index !== switchData.index && !switchData.animating) {
-      const dataUpdate = { index: index, animating: true };
+    if (!switchData.animating && (index !== switchData.index || window.innerWidth < 992)) {
+      const dataUpdate = { 
+        index: index, 
+        animating: true, 
+        isMobile: window.innerWidth < 992 
+      };
       switchData = {...switchData, ...dataUpdate};
 
       animateCards(index, direction);

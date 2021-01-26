@@ -56,8 +56,8 @@
 
     &-card {
       box-sizing: border-box;
-      width: 100%;
-      padding: 40px;
+      width: 100vw;
+      padding: 40px 20px;
     }
 
     &-logo {
@@ -336,6 +336,7 @@
       }
 
       &-card {
+        width: 100%;
         padding: 0 75px 100px 25px;
         
         &__wrapper {
