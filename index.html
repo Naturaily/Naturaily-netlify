@@ -95,7 +95,6 @@ description: >-
     if ($(window).width() < 992) $('[gsap][style]').removeAttr('style');
 
     $(window).resize(() => {
-      if(!resizeTimer) resizeStartWidth = $(window).width();
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(() => { resizeReset(); }, 250);
     });
