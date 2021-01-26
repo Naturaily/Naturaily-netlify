@@ -92,7 +92,6 @@
     }
   }
 
-
   &__writing {
     display: flex;
     flex-direction: column;
@@ -101,6 +100,9 @@
     padding-right: 40px;
 
     &-author {
+      display: flex;
+      flex-flow: row nowrap;
+      min-width: 215px;
       margin-bottom: 15px;
       font-size: 14px;
       line-height: 16px;
@@ -120,6 +122,10 @@
           height: 3px;
           background-color: $color-home-text-grey;
         }
+      }
+
+      &__text {
+        margin-right: 5px;
       }
 
       &__type {
@@ -247,6 +253,7 @@
 
       &__type {
         display: inline-block;
+        margin-right: 5px;
       }
     }
   }
