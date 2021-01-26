@@ -12,8 +12,8 @@ category: JavaScript development
 authors:
   avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
-  value: author-1
   slug: wojciech-mista
+  value: author-1
 image: /assets/images/vue-vs-react-business-perspective-v2.jpg
 text-preview: >-
   At some point you have to choose the technological stack for your application.
@@ -81,7 +81,7 @@ If reading hundreds of pages of documentation isn’t your cup of tea then you�
 
 Some things have to be noted. Developing an application with only vanilla JavaScript makes it more performant than an app developed using a JS framework or library, period. But would a user notice a difference in an real-life application? I don’t think so. These differences may seem huge on paper but in reality they are (in almost every case) indistinguishable.
 
-What benefits using Vue or React gives you? Quite a lot actually! Developing an application using a JavaScript library significantly reduces the time required to achieve the same level of complexity and features of an application than using _just_ JavaScript. **They’re highly productive**. You should also consider a library if your application is going to scale in the future. It is possible, thanks to Nuxt (in Vue) and Next (in React), as they (and many other frameworks) allow developers to create Server Side Rendering applications.
+What benefits using Vue or React gives you? Quite a lot actually! Developing an application using a JavaScript library significantly reduces the time required to achieve the same level of complexity and features of an application than using *just* JavaScript. **They’re highly productive**. You should also consider a library if your application is going to scale in the future. It is possible, thanks to Nuxt (in Vue) and Next (in React), as they (and many other frameworks) allow developers to create Server Side Rendering applications.
 
 Large projects typically mean large teams. JavaScript framework or library ensures that all developers have to follow one convention making the code more readable for any new team members and easier to manage in the future.
 
@@ -93,7 +93,7 @@ Developing with React feels closer to coding with pure JavaScript than developin
 
 **Ultimately, choosing between React and Vue comes down to how experienced your developers are with either of them.**
 
-|Read more about **pros and cons of Vue [here](https://naturaily.com/blog/pros-cons-vue-js){:target="_blank"}**.|
+\|Read more about **pros and cons of Vue [here](https://naturaily.com/blog/pros-cons-vue-js){:target="_blank"}**.|
 
 ## Continuity 🔗
 
@@ -107,6 +107,6 @@ What about React? It offers similar kind of support too! The React team provides
 
 React, a mature technology with a huge number of contributors. No wonder, it’s backed by one of the biggest tech giants in the world. It quickly became widely accepted among companies creating a great job market for developers as well as other businesses looking for a dev team. **React is a great option for MVPs and scalable products - it is efficient, modular and allows for quick prototyping.**
 
-Vue is the new kid in town. It’s a young and fresh technology with no strong backing. It doesn’t mean that the project is not being actively developed - everyday the project is being improved by hundreds of contributors. Statistics don’t lie, Vue is getting more and more popular among large companies, **2018 has been the best year for the framework by far**! Maybe the job market is not as great as React’s but it’s constantly growing, evolving and becoming more competitive. **Vue is a great option is you prefer simplicity and flexibility.**
+Vue is the new kid in town. It’s a young and fresh technology with no strong backing. It doesn’t mean that the project is not being actively developed - every day the project is being improved by hundreds of contributors. Statistics don’t lie, Vue is getting more and more popular among large companies, **2018 has been the best year for the framework by far**! Maybe the job market is not as great as React’s but it’s constantly growing, evolving and becoming more competitive. **Vue is a great option is you prefer simplicity and flexibility.**
 
 [{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
