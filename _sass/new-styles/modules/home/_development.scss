@@ -60,10 +60,6 @@
         &:hover {
           transform: none;
           box-shadow: none;
-
-          svg {
-            transform: translateX(-25px);
-          }
         }
 
         &--disabled {
@@ -203,6 +199,10 @@
 
     &__header, &__list-item, &__image-mask, &__image img {
       will-change: transform;
+    }
+
+    &__list-item:hover svg {
+      transform: translateX(-25px);
     }
 
     &__image {
