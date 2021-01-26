@@ -48,7 +48,10 @@
       display: flex;
       position: relative;
       width: 900%;
+      height: 620px;
       background-color: $color-home-grey;
+      transition: height .8s;
+      will-change: height;
     }
 
     &-card {
@@ -159,6 +162,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
     height: 62px;
     padding-left: 25px;
     padding-right: 20px;

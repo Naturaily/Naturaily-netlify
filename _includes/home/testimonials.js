@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
     activeLink: 'testimonials-active-link',
     index: 'data-index',
     linkIndex: 'data-link-index',
-    autoHeight: 'data-auto-height'
+    cardWrapper: '[testimonials-card-wrapper]'
   };
 
   const $elements = {
@@ -30,6 +30,15 @@ window.addEventListener('load', () => {
     height: 470
   };
 
+  const adjustCardsHeight = () => {
+    const activeCardHeight = $(`[${attributes.activeCard}]`).find(attributes.cardWrapper).height();
+    const maxCardHeight = $elements.cards.height();
+    const adjustedHeight = maxCardHeight - (maxCardHeight - activeCardHeight) + 100;
+
+    $elements.cards.css('height', `${adjustedHeight}px`);
+  };
+
+  if (window.innerWidth < 992) adjustCardsHeight();
   $elements.buttons.click(() => switchMobile());
   $elements.links.click(() => switchLink());
 
@@ -87,12 +96,32 @@ window.addEventListener('load', () => {
     const endAnimating = () => switchData.animating = false;
 
     if (switchData.isMobile) {
-      $elements.cards.animate(newPosition, animationTime, endAnimating());
+      animateCardsMobile(newPosition);
+      endAnimating();
     } else {
       (direction === 'prev') ? gsapAnimateFromTop(index, newPosition) : gsapAnimateFromBottom(index, newPosition);
       endAnimating();
     }
-  }
+  };
+
+  const animateCardsMobile = (newPosition) => {
+    const $prevCard = $elements.cards.find(`[${attributes.index}="${switchData.prevIndex}"]`);
+    const $activeCard = $elements.cards.find(`[${attributes.index}="${switchData.index}"]`);
+    const maxCardHeight = $elements.cards.height();
+    const prevCardHeight = $prevCard.find(attributes.cardWrapper).height();
+    const activeCardHeight = $activeCard.find(attributes.cardWrapper).height();
+    const adjustedHeight = maxCardHeight - (maxCardHeight - activeCardHeight) + 100;
+
+    if (prevCardHeight < activeCardHeight) {
+      $elements.cards
+        .animate(newPosition, animationTime)
+        .css('height', `${adjustedHeight}px`);
+    } else {
+      $elements.cards.animate(newPosition, animationTime, () => {
+        $elements.cards.css('height', `${adjustedHeight}px`);
+      });
+    };
+  };
 
   const gsapAnimateFromBottom = (index, position) => {
     const exitToTop = gsap.timeline({ paused: true });
