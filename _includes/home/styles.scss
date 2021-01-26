@@ -1,0 +1,30 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/geometric-object";
+
+@import "new-styles/modules/home/eubar";
+@import "new-styles/modules/home/header";
+@import "new-styles/modules/home/hero";
+@import "new-styles/modules/home/get-an-estimate";
+@import "new-styles/modules/home/cases-switch";
+@import "new-styles/modules/home/cases-tiles";
+@import "new-styles/modules/home/testimonials";
+@import "new-styles/modules/home/numbers";
+@import "new-styles/modules/home/services";
+@import "new-styles/modules/home/jamstack";
+@import "new-styles/modules/home/nondevelopment";
+@import "new-styles/modules/home/development";
+@import "new-styles/modules/home/details";
+@import "new-styles/modules/home/blog";
+@import "new-styles/modules/home/newsletter";

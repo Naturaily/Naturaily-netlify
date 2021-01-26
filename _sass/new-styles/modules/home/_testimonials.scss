@@ -1,0 +1,445 @@
+.home-testimonials {
+  margin-top: 15px;
+  margin-bottom: 55px;
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+    &-clutch {
+      order: 1;
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    &-text {
+      order: 2;
+    }
+  }
+
+  &__header {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 72px;
+    color: $color-global-font;
+  }
+
+  &__description {
+    font-size: 14px;
+    line-height: 20px;
+    color: $color-page-text;
+    opacity: 0.7;
+  }
+
+  &__switch {
+    &-menu {
+      display: none;
+    }
+
+    &-wrapper {
+      box-sizing: border-box;
+      width: 100vw;
+      margin-top: 35px;
+    }
+
+    &-cards {
+      display: flex;
+      position: relative;
+      width: 900%;
+      height: 620px;
+      background-color: $color-home-grey;
+      transition: height .8s;
+      will-change: height;
+    }
+
+    &-card {
+      box-sizing: border-box;
+      width: 100vw;
+      padding: 40px 20px;
+    }
+
+    &-logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      img {
+        max-height: 60px;
+        max-width: 110px;
+      }
+    }
+
+    &-title {
+      font-size: 28px;
+      line-height: 56px;
+      color: $color-page-text;
+    }
+
+    &-nps {
+      display: inline-block;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      padding: 8px 15px;
+      text-align: center;
+      font-size: 14px;
+      line-height: 16px;
+      color: $color-home-text-grey;
+      background-color: $color-white;
+      border-radius: 15px;
+
+      &__text {
+        position: relative;
+        margin-right: 25px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          right: -15px;
+          width: 2px;
+          height: 2px;
+          background-color: $color-home-text-grey;
+        }
+      }
+
+      &__value {
+        display: inline-block;
+        position: relative;
+        color: $color-secondary;
+      }
+    }
+
+    &-quote {
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 120px);
+
+      &__text {
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 200;
+        font-style: italic;
+
+        &--big {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+
+      &__credits {
+        display: flex;
+        margin: 30px 0 0;
+
+        img {
+          width: 64px;
+          height: 64px;
+          border-radius: 100%;
+        }
+
+        &-person, &-position {
+          padding-left: 25px;
+          font-size: 14px;
+          line-height: 20px;
+          color: $color-page-text;
+        }
+
+        &-person {
+          font-weight: 400;
+        }
+
+        &-position {
+          margin-top: 10px;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 62px;
+    padding-left: 25px;
+    padding-right: 20px;
+    background-color: $color-home-grey;
+    border-top: 2px solid $color-home-border-grey;
+
+    &-buttons {
+      height: 100%;
+    }
+
+    &-counter {
+      display: flex;
+      align-items: center;;
+      font-size: 14px;
+      line-height: 20px;
+
+      &__current {
+        margin-right: 5px;
+      }
+
+      &__all {
+        opacity: 0.7;
+      }
+    }
+
+    &-text {
+      font-size: 13px;
+      line-height: 16px;
+      color: $color-secondary;
+      text-transform: uppercase;
+    }
+
+    &-button {
+      height: 100%;
+      padding: 0 20px;
+      border: none;
+      background-color: $color-transparent;
+
+      &--prev svg {
+        margin-right: 10px;
+      }
+
+      &--next {
+        border-left: 2px solid $color-home-border-grey;
+
+        svg {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    &-arrow {
+      &--rotated {
+        transform: rotate(180deg);
+      }
+      .arrow-line {
+        fill: $color-secondary;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .home-testimonials {
+    &__intro, &__nav {
+      padding: 0 75px;
+    }
+
+    &__switch-card {
+      padding: 40px 75px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .home-testimonials {
+    &__intro {
+      flex-direction: row;
+      align-items: flex-end;
+
+      &-text {
+        flex-grow: 1;
+        order: 0;
+      }
+    }
+
+    &__description {
+      max-width: 280px;
+    }
+
+    &__switch {
+      &-card__wrapper {
+        display: flex;
+      }
+
+      &-logo {
+        flex-direction: column;
+        align-items: flex-start;
+
+        img {
+          margin: 25px 0 10px;
+        }
+      }
+
+      &-project {
+        width: 30%;
+      }
+
+      &-quote {
+        width: 70%;
+        margin-top: 75px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .home-testimonials {
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    &__nav {
+      display: none;
+    }
+
+    &__intro {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &__header {
+      margin-top: 120px;
+      font-size: 48px;
+      line-height: 72px;
+    }
+
+    &__description {
+      max-width: 335px;
+      font-size: 16px;
+      line-height: 28.8px;
+    }
+
+    &__switch, &__switch-wrapper, &__switch-card {
+      height: 470px;
+    }
+
+    &__switch {
+      width: 100vw;
+      max-width: 1600px;
+      margin-top: 50px;
+      padding: 70px 0;
+      background-color: $color-home-grey;
+
+      &-wrapper {
+        display: flex;
+        flex-direction: row nowrap;
+        align-items: flex-start;
+        position: relative;
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+
+      &-cards {
+        flex-direction: column;
+        width: 100%;
+        height: 800%;
+        will-change: transform, opacity;
+      }
+
+      &-card {
+        width: 100%;
+        padding: 0 75px 100px 25px;
+        
+        &__wrapper {
+          overflow: hidden;
+        }
+      }
+
+      &-logo {
+        width: auto;
+        height: 70px;
+
+        img {
+          max-height: 70px;
+          max-width: 120px;
+        }
+      }
+
+      &-logo img, &-quote, &-credits {
+        margin-top: 0;
+        will-change: transform, opacity;
+      }
+
+      &-box {
+        display: block;
+        position: absolute;
+        top: 71px;
+        left: 450px;
+        z-index: 1;
+        width: 75px;
+        text-align: left;
+      }
+
+      &-nps {
+        z-index: 2;
+        overflow: hidden;
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+
+      &-title {
+        display: none;
+      }
+
+      &-quote {
+        height: 460px;
+
+        &__text {
+          max-width: 520px;
+        }
+      }
+
+      &-menu {
+        display: block;
+        min-width: 310px;
+        overflow: hidden;
+
+        &__list {
+          position: relative;
+          height: 425px;
+          padding-left: 75px;
+          background-color: $color-home-grey;
+          transition: transform .4s ease-in;
+          will-change: transform;
+
+          &--moved {
+            transform: translateY(-70px);
+          }
+        }
+
+        &__number {
+          transform: translateY(-13px);
+          margin-right: 35px;
+          transition: .2s;
+        }
+
+        &__text {
+          font-size: 28px;
+          line-height: 56px;
+          transition: .2s;
+        }
+
+        &__item {
+          display: flex;
+          align-items: flex-end;
+          max-width: 280px;
+          font-weight: 200;
+          color: $color-page-text;
+          cursor: pointer;
+
+          &--active, &:hover {
+            .home-testimonials__switch-menu__number,
+            .home-testimonials__switch-menu__text {
+              color: $color-secondary;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-testimonials__switch-menu {
+    min-width: 370px;
+  }
+}
