@@ -1,0 +1,40 @@
+<div class="home-blog" gsap gsap-blog>
+  <div class="home-blog__background" gsap gsap-blog-background></div>
+  <div class="home-blog__wrapper">
+    <ul class="home-blog__posts">
+
+      {% for post in site.posts limit: 3 %}
+
+        <li class="home-blog__post" gsap gsap-blog-tile>
+          <div class="home-blog__post-wrapper">
+            <div class="home-blog__post-mask">
+              <a class="btn btn-white" href="{{ post.url }}">
+                Learn more
+                {% svg /assets/images/btn-arrow.svg %}
+              </a>
+            </div>
+            <a href="{{ post.url }}" class="home-blog__post-image">
+              <img
+                src="/assets/images/loader.gif"
+                data-src="{{ post.image }}"
+                alt="{{ post.title }}"
+              />
+            </a>
+            <h3 class="home-blog__post-title">
+              {{ post.title }}
+            </h3>
+            <p class="home-blog__post-preview">
+              {{ post.text-preview }}
+            </p>
+          </div>
+        </li>
+
+      {% endfor %}
+
+    </ul>
+    <a href="/blog" class="btn btn-bordered" gsap gsap-blog-link>
+      See all blog posts
+      {% svg /assets/images/btn-arrow.svg %}
+    </a>
+  </div>
+</div>
