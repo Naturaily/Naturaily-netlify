@@ -6,9 +6,10 @@ layout: post
 date: '2021-01-28 12:06:55 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/epifany_bojanowska-2.jpg
-  label: Epifany Bojanowska
-  value: author-22
+  avatar: /assets/images/J_150X150.png
+  label: Katarzyna Ciesielska
+  value: author-32
+  slug: katarzyna-ciesielska
 image: /assets/images/image.png
 text-preview: >-
   Everybody around talks about Shopify, but you are still not sure why is this
