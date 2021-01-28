@@ -13,7 +13,7 @@ authors:
 image: /assets/images/blog_why_the_shopify_website_is_a_good_choice.png
 text-preview: >-
   Everybody around talks about Shopify, but you are still not sure why is this
-  actually a good choice to create your website with it. It is good sign that
+  actually a good choice to create your website with it. It is a good sign that
   you want to think before you decide for something. This article may help you
   to make the final choice. 
 tags:
