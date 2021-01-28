@@ -38,13 +38,15 @@ sitemap: false
         const fieldName = field.get("target_field");
         const fieldId = field.get("id_field");
         const fieldAvatar = field.get("avatar_field");
+        const fieldSlug = field.get("slug_field");
         const fieldDisplay = field.get("display_fields") || fieldId;
         loadEntry(collection, file).then(results => {
           const data = results.payload.entry.data[fieldName];
           const options = data.map(option => ({
             value: option[fieldId],
             label: option[fieldDisplay],
-            avatar: option[fieldAvatar]
+            avatar: option[fieldAvatar],
+            slug: option[fieldSlug]
           }));
           this.setState({ options });
         });
