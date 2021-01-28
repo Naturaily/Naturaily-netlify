@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/J_150X150.png
   label: Katarzyna Ciesielska
   value: author-32
+  slug: katarzyna-ciesielska
 image: >-
   /assets/images/blog_examples_of_ecommerce_web_solutions_for_improving_your_online_store.png
 text-preview: >-

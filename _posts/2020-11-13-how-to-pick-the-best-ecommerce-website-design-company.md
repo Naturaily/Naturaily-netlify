@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
+  slug: marcin-sulikowski
 image: >-
   /assets/images/blog_cover_How-to-Pick-the-Best-eCommerce-Website-Design-Company_.png
 text-preview: >-
