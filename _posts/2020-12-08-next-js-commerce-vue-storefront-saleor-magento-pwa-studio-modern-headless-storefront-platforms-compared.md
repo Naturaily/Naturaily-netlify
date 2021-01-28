@@ -14,6 +14,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
+  slug: beata-twardowska
 image: /assets/images/Modern-headless-storefront-platforms-compared.png
 text-preview: >-
   The headless e-commerce trend has been gaining traction recently and PWA

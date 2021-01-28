@@ -11,6 +11,7 @@ authors:
   avatar: /assets/images/J_150X150.png
   label: Katarzyna Ciesielska
   value: author-32
+  slug: katarzyna-ciesielska
 image: /assets/images/blog_ecommerce_development_company.png
 text-preview: >-
   Opening an online shop can be stressful for everybody. Even it's not the first
