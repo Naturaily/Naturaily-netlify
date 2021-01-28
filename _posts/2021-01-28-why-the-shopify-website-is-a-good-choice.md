@@ -8,9 +8,9 @@ category: E-commerce
 authors:
   avatar: /assets/images/J_150X150.png
   label: Katarzyna Ciesielska
-  value: author-32
   slug: katarzyna-ciesielska
-image: /assets/images/image.png
+  value: author-32
+image: /assets/images/blog_why_the_shopify_website_is_a_good_choice.png
 text-preview: >-
   Everybody around talks about Shopify, but you are still not sure why is this
   actually a good choice to create your website with it. It is good sign that
@@ -20,7 +20,7 @@ tags:
   - shopify
   - shopify development
 ---
-Opening a new business in 2021 may feel scary. There are many reasons why it could fail but at the same time, there are even more why you should take this opportunity to succeed. Going online is the most reasonable thing to do and deciding for the [Shopify website](https://www.shopify.com/website)is our favorite. If you’re here, you already know that we take care of web development. You also know that we focused mainly on Shopify If we talk about e-commerce platforms. But why? Why Shopify website is the right choice for you?
+Opening a new business in 2021 may feel scary. There are many reasons why it could fail but at the same time, there are even more why you should take this opportunity to succeed. Going online is the most reasonable thing to do and deciding for the [Shopify website](https://www.shopify.com/website) is our favorite. If you’re here, you already know that we take care of web development. You also know that we focused mainly on Shopify If we talk about e-commerce platforms. But why? Why Shopify website is the right choice for you?
 
 At this point I could give you numbers like over **800.000** users; **20%** market share; over **5300** stores using Shopify Plus already, used in **175** different countries, over **100** free themes to choose from, and so on… but sometimes numbers are not everything. Sometimes you need a bit more to be sure that’s a solution right for you. Because it will be you running the business, not all these numbers. So let’s talk about these extra.
 
