@@ -41,7 +41,7 @@ window.addEventListener('load', () => {
     } else {
       if(st + jQuery(window).height() < jQuery(document).height()) {
         jQuery('#checkbox, #mobileSpan').removeClass('nav-up').addClass('nav-down');
-        jQuery(".menu").removeClass('active');
+        jQuery("[data-menu]").removeClass('active');
         jQuery("#mobileSpan").removeClass('open');
       }
     }
