@@ -180,6 +180,11 @@ a.text-secondary {
   white-space: nowrap;
 }
 
+[src$="loader.gif"] {
+  max-width: 450px;
+  max-height: 300px;
+}
+
 
 @media (max-width: 810px) {
   .paragraph {
