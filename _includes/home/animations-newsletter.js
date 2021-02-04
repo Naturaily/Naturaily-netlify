@@ -1,16 +1,7 @@
 ScrollTrigger.matchMedia({
   "(min-width: 992px)": () => {
-    const newsletterTimeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: "[gsap-newsletter-text]",
-        end: "top+=200 bottom",
-        onEnter: () => newsletterTimeline.timeScale(1).restart(),
-        onLeave: () => newsletterTimeline.timeScale(1).play(),
-        onEnterBack: () => newsletterTimeline.timeScale(3).reverse()
-      }
-    });
-
-    newsletterTimeline
+    gsap
+      .timeline({ scrollTrigger: { trigger: "[gsap-newsletter-text]" } })
       .from("[gsap-newsletter-form]", { duration: .8, opacity: 0, y: 30 })
       .from("[gsap-newsletter-btn]", { duration: .4, opacity: 0, scale: 0.8 })
       .from("[gsap-newsletter-text]", { duration: .4, color: "#312E2B" }, "-=.2")

@@ -8,17 +8,8 @@ ScrollTrigger.matchMedia({
     const num4 = { var: 0 };
     const num5 = { var: 0 };
 
-    const numbersTimeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: "[gsap-numbers-tiles]",
-        end: "top+=200 bottom",
-        onEnter: () => numbersTimeline.restart(),
-        onLeave: () => numbersTimeline.play(),
-        onEnterBack: () => numbersTimeline.reverse(2.2)
-      }
-    });
-
-    numbersTimeline
+    gsap
+      .timeline({ scrollTrigger: { trigger: "[gsap-numbers-tiles]" } })
       .from("[gsap-numbers-background]", { duration: 1, backgroundPosition: "100% 0" })
       .from("[gsap-numbers-image-mask]", { duration: 1, x: "-100%" }, "-=1")
       .to("[gsap-numbers-image-img]", { duration: 0.8, x: 100, scale: 1.05 }, "-=.6")

@@ -2,27 +2,8 @@ ScrollTrigger.matchMedia({
   "(min-width: 992px)": () => {
     const gsapItemParams = { duration: .5, x: 20, opacity: 0 };
 
-    const productTimeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: "[gsap-product-image]",
-        end: "top+=250 bottom",
-        onEnter: () => productTimeline.restart(),
-        onLeave: () => productTimeline.play(),
-        onEnterBack: () => productTimeline.reverse(1.5)
-      }
-    });
-
-    const ecommerceTimeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: "[gsap-ecommerce-image]",
-        end: "top+=250 bottom",
-        onEnter: () => ecommerceTimeline.restart(),
-        onLeave: () => ecommerceTimeline.play(),
-        onEnterBack: () => ecommerceTimeline.reverse(1.5)
-      }
-    });
-
-    productTimeline
+    gsap
+      .timeline({ scrollTrigger: { trigger: "[gsap-product-image]" } })
       .from("[gsap-product-background]", { duration: .8, backgroundPosition: "100% 0" })
       .set("[gsap-product-mask], [gsap-product-image]", { duration: .01, opacity: 1 }, "-=.2")
       .to("[gsap-product-mask]", { duration: .6, x: "-100%"}, "-=.2")
@@ -33,7 +14,8 @@ ScrollTrigger.matchMedia({
       .from("[gsap-product-item-3]", gsapItemParams, "-=.1")
     ;
 
-    ecommerceTimeline
+    gsap
+      .timeline({ scrollTrigger: { trigger: "[gsap-ecommerce-image]" } })
       .from("[gsap-ecommerce-background]", { duration: .8, backgroundPosition: "0% 0%" })
       .set("[gsap-ecommerce-mask], [gsap-ecommerce-image]", { duration: .01, opacity: 1 }, "-=.2")
       .to("[gsap-ecommerce-mask]", { duration: .6, x: "100%"}, "-=.2")

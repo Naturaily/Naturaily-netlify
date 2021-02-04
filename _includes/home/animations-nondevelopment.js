@@ -1,16 +1,7 @@
 ScrollTrigger.matchMedia({
   "(min-width: 992px)": () => {
-    const nondevelopmentTimeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: "[gsap-nondevelopment]",
-        end: "top+=250 bottom",
-        onEnter: () => nondevelopmentTimeline.timeScale(1).restart(),
-        onLeave: () => nondevelopmentTimeline.timeScale(1).play(),
-        onEnterBack: () => nondevelopmentTimeline.timeScale(1.5).reverse(2)
-      }
-    });
-
-    nondevelopmentTimeline
+    gsap
+      .timeline({ scrollTrigger: { trigger: "[gsap-nondevelopment]" } })
       .from("[gsap-nondevelopment-icon-1]", { duration: .6, scale: .6, opacity: 0 })
       .to("[gsap-nondevelopment-mask-1]", { duration: 1, x: 400 }, "-=.3")
       .from("[gsap-nondevelopment-item-1]", { duration: .4, y: 10, opacity: 0, stagger: .2 }, "-=.8")
