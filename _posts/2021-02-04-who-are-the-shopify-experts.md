@@ -71,7 +71,7 @@ Some of these **Shopify experts** can build your store, but not all of them are 
 
 ## How do I find my Shopify expert?
 
-There are hundreds of Shopify experts you can choose from. Some of them live right next to your door, some are successfully working from the other part of the globe. Even if you already know which area you want to focus on first, how to actually hire a **Shopify expert**? As I mentioned before, research is crucial.
+There are hundreds of **Shopify experts** you can choose from. Some of them live right next to your door, some are successfully working from the other part of the globe. Even if you already know which area you want to focus on first, how to actually hire a **Shopify expert**? As I mentioned before, research is crucial.
 
 You will definitely find some interesting recommendations on the official Shopify website, but you can also search on your own. It is also not a bad idea to check some web development agencies right on [Clutch](https://clutch.co/profile/naturaily){:target="_blank"}. This is an excellent source of information when it comes to choosing a trustworthy company. The portal is pleasant to use, and you can choose from over 150.000 agencies.
 
@@ -85,9 +85,9 @@ Before signing any contract, check:
 
 Don’t hesitate to start a conversation with more than one e-commerce agency or a freelancer. You want to grow your business in the best way possible, and you have your right to check many options. If you feel like you’re betraying someone, stop! The most serious agencies will propose you [get free project estimation](https://naturaily.com/get-an-estimate): it’s really worth using this kind of opportunity. They might let you know how to optimize your Shopify store in the most efficient way.
 
-Remember that there is also no real need to rush. Pushing yourself to make that kind of serious decision in a minute, right after the pitch of some **Shopify expert is** not the best way. They will try to put this time pressure on you because they know that it may help them to get this project. It’s completely understandable.
+Remember that there is also no real need to rush. Pushing yourself to make that kind of serious decision in a minute, right after the pitch of some **Shopify expert** is not the best way. They will try to put this time pressure on you because they know that it may help them to get this project. It’s completely understandable.
 
-However, take your time, and make your math, so when you decide to hire a Shopify expert, you know that’s the best choice possible.
+However, take your time, and make your math, so when you decide to hire a **Shopify expert**, you know that’s the best choice possible.
 
 ![Girl typing, text saying: Always Make Your Research; portfolio, reviews, cost](https://lh4.googleusercontent.com/I1TzzKKjwHLtbwp9jlXqSiRhiAph0QcgTwo3ILYd9IUPpMGyxCl8YGmbQfq5JvpPR6RebUSZl7EDySnWxoZjxXih_TlH4UlwCT1EvlAAhr-w--uetmu4yMpuiWqf7NNxelJTYGII "Always Make Your Research")
 
