@@ -1,7 +1,7 @@
 ---
 title: Who Are The Shopify Experts?
 description: >-
-  Do you really know what are the Shopify experts? If you are not sure, this
+  Do you really know who are the Shopify experts? If you are not sure, this
   article is for you. Let's find out and decide if you need one!
 slug: who-are-the-shopify-experts
 layout: post
