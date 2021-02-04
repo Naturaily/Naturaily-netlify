@@ -24,8 +24,6 @@ tags:
   - Shopify
   - Shopify Development
 ---
-# Who are the Shopify Experts?
-
 **Doesn't matter If you already have decided for running your store on [Shopify](https://www.shopify.com/){:target="_blank"} or you are still considering your options, I am certain that you have heard already this term: Shopify experts. You read in on the official CMS website, you've heard in on some YouTube videos, and you've started doing your research. That's why you're here in the first place. Let's jump into this and answer your questions.**
 
 > Experts were once amateurs who kept practicing. -Amit Kalantri, [Wealth of Words](https://www.goodreads.com/work/quotes/52819006){:target="_blank"}
