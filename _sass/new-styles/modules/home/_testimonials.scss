@@ -125,7 +125,7 @@
 
         &--big {
           font-size: 20px;
-          line-height: 28px;
+          line-height: 30px;
         }
       }
 
@@ -306,8 +306,8 @@
       line-height: 28.8px;
     }
 
-    &__switch, &__switch-wrapper, &__switch-card {
-      height: 470px;
+    &__switch, &__switch-wrapper, &__switch-card, &__switch-card__wrapper {
+      height: 520px;
     }
 
     &__switch {
@@ -386,6 +386,10 @@
         &__text {
           max-width: 520px;
         }
+
+        &__credits {
+          margin-top: 50px;
+        }
       }
 
       &-menu {
@@ -395,15 +399,11 @@
 
         &__list {
           position: relative;
-          height: 425px;
+          height: 510px;
           padding-left: 75px;
           background-color: $color-home-grey;
           transition: transform .4s ease-in;
           will-change: transform;
-
-          &--moved {
-            transform: translateY(-70px);
-          }
         }
 
         &__number {

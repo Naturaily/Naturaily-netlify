@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
     size: $($elements.cards).children().length,
     isMobile: false,
     autoHeight: true,
-    height: 470
+    height: 520
   };
 
   const adjustCardsHeight = () => {
@@ -191,7 +191,6 @@ window.addEventListener('load', () => {
   const updateLinks = (index) => {
     const $targetLink = $elements.links.parent().find(`[data-index="${index}"]`);
     const activeLinkClass = 'home-testimonials__switch-menu__item--active';
-    const movedMenuClass = 'home-testimonials__switch-menu__list--moved';
 
     $elements.links
       .removeClass(activeLinkClass)
@@ -199,9 +198,6 @@ window.addEventListener('load', () => {
     $targetLink
       .addClass(activeLinkClass)
       .attr(attributes.activeLink, attributes.activeLink);
-
-    $elements.menu.removeClass(movedMenuClass);
-    if (index >= 5) $elements.menu.addClass(movedMenuClass);
   };
 
   const updateCards = (index) => {
