@@ -6,27 +6,27 @@
       {% for post in site.posts limit: 3 %}
 
         <li class="home-blog__post" gsap gsap-blog-tile>
-          <div class="home-blog__post-wrapper">
+          <a href="{{ post.url }}" class="home-blog__post-wrapper">
             <div class="home-blog__post-mask">
-              <a class="btn btn-white" href="{{ post.url }}">
+              <p class="btn btn-white" >
                 Learn more
                 {% svg /assets/images/btn-arrow.svg %}
-              </a>
+              </p>
             </div>
-            <a href="{{ post.url }}" class="home-blog__post-image">
+            <div href="{{ post.url }}" class="home-blog__post-image">
               <img
                 src="/assets/images/loader.gif"
                 data-src="{{ post.image }}"
                 alt="{{ post.title }}"
               />
-            </a>
+            </div>
             <h3 class="home-blog__post-title">
               {{ post.title }}
             </h3>
             <p class="home-blog__post-preview">
               {{ post.text-preview }}
             </p>
-          </div>
+          </a>
         </li>
 
       {% endfor %}
