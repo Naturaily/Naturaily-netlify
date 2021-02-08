@@ -109,13 +109,13 @@ window.addEventListener('load', () => {
     };
   };
 
+  const endAnimating = () => switchData.animating = false;
+
   const animateCards = (index, direction) => {
     const newPosition = switchData.isMobile ? { left: `${-100 * index}%` } : `${-switchData.height * index}px`;
-    const endAnimating = () => switchData.animating = false;
 
     if (switchData.isMobile) {
       animateCardsMobile(newPosition);
-      endAnimating();
     } else {
       (direction === 'prev') ? gsapAnimateFromTop(index, newPosition) : gsapAnimateFromBottom(index, newPosition);
       endAnimating();
@@ -132,11 +132,12 @@ window.addEventListener('load', () => {
 
     if (prevCardHeight < activeCardHeight) {
       $elements.cards
-        .animate(newPosition, animationTime)
+        .animate(newPosition, animationTime, () => endAnimating())
         .css('height', `${adjustedHeight}px`);
     } else {
       $elements.cards.animate(newPosition, animationTime, () => {
         $elements.cards.css('height', `${adjustedHeight}px`);
+        endAnimating();
       });
     };
   };
