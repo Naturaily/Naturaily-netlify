@@ -296,7 +296,6 @@
       .header {
         &-wrapper {
           padding: 100px 20px 50px;
-          background-color: $color-transparent;
           transition: .2s;
         }
   
@@ -372,6 +371,10 @@
 
     &-menu__item {
       padding: 10px 30px;
+    }
+
+    &--home .header-wrapper {
+      background-color: $color-transparent;
     }
   }
 }
