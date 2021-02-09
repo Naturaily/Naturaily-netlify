@@ -58,10 +58,19 @@
     font-size: 20px;
     line-height: 50px;
     font-weight: 200;
-    color: $color-white;
+
+    a {
+      display: block;
+      width: 100%;
+      color: $color-white;
+    }
 
     &-arrow {
-      display: none;
+      position: absolute;
+      top: 19px;
+      right: 20px;
+      transition: transform .2s;
+      transform: rotate(90deg);
     }
   }
 
@@ -194,14 +203,13 @@
     &__text {
       box-sizing: border-box;
       max-width: 50%;
+      height: 50px;
       padding-left: 75px;
       padding-right: 100px;
       font-size: 24px;
       line-height: 50px;
-      cursor: default;
 
       &-arrow {
-        display: block;
         position: absolute;
         top: 22px;
         right: 50%;
@@ -209,7 +217,7 @@
         transition: transform .2s ease;
       }
 
-      &:hover .home-hero__text-arrow {
+      a:hover .home-hero__text-arrow {
         transform: translateX(180px);
       }
     }
