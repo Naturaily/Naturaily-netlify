@@ -1,53 +1,88 @@
-<nav class="header">
-  <div class="header-logo">
-    <a href="/"><img src="/assets/images/loader.gif" data-src="/assets/images/logo_naturaily.svg" alt="Naturaily logo"></a>
-  </div>
-  <div class="site-nav">
-    <nav class="hamb" role="navigation">
-      <div class="menuToggle">
-        <input type="checkbox" id="checkbox" />
-        <div class="mobile-span" id="mobileSpan">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+<div class="header {% if page.url == '/' %}header--home{% elsif page.url contains '/blog' or page.url contains '/project' %}header--old{% elsif page.url contains '/portfolio/' %}header--yellow{% endif %}">
+  <div class="header-wrapper">
+    <a class="header-logo" href="/" gsap gsap-logo>
+      {% svg /assets/images/logo_naturaily.svg %}
+    </a>
+    <nav class="header-nav" role="navigation">
+      <div class="header-nav__box">
+        <input type="checkbox" id="checkbox"/>
+        <div class="header-nav__hamburger" id="mobileSpan">
+          <span class="header-nav__bar header-nav__bar--first"></span>
+          <span class="header-nav__bar header-nav__bar--second"></span>
+          <span class="header-nav__bar header-nav__bar--third"></span>
+          <span class="header-nav__bar header-nav__bar--fourth"></span>
         </div>
-        <ul class="menu" data-menu>
-          <a class="naturaily" href="/"><img src="/assets/images/loader.gif" data-src="/assets/images/logo_naturaily.svg" alt="Naturaily logo"></a>
-          <li class="{% if '/services' == page.url or page.url contains '/services' %}active{% endif %}"><a href="/services">Services</a></li>
-          <li class="{% if page.url contains '/project' or page.url contains '/portfolio' %}active{% endif %}"><a href="/portfolio">Portfolio</a></li>
-          <li class="{% if '/about' == page.url %}active{% endif %}"><a href="/about">About</a></li>
-          <li class="{% if page.url contains '/blog' %}active{% endif %}"><a href="/blog/">Blog</a></li>
-          <li class="{% if '/careers' == page.url or page.url contains '/join' or '/career-offers' == page.url %}active{% endif %}"><a href="/careers">Careers</a></li>
-          <div class="header-wave"></div>
-          <div class="header-color"></div>
+        <div class="header-menu" data-menu>
+          <ul>
+            <a class="header-menu__logo" href="/">
+              {% svg /assets/images/logo_naturaily.svg %}
+            </a>
+            <li 
+              class="header-menu__item {% if page.url contains '/services' %}header-menu__item--active{% endif %}"
+              gsap 
+              gsap-nav-item
+            >
+              <a href="/services">Services</a>
+            </li>
+            <li 
+              class="header-menu__item {% if page.url contains '/project' or page.url contains '/portfolio' %}header-menu__item--active{% endif %}"
+              gsap 
+              gsap-nav-item
+            >
+              <a href="/portfolio">Portfolio</a>
+            </li>
+            <li 
+              class="header-menu__item {% if page.url == '/about' %}header-menu__item--active{% endif %}" 
+              gsap 
+              gsap-nav-item
+            >
+              <a href="/about">About</a>
+            </li>
+            <li 
+              class="header-menu__item {% if page.url contains '/blog' %}header-menu__item--active{% endif %}" 
+              gsap 
+              gsap-nav-item
+            >
+              <a href="/blog/">Blog</a>
+            </li>
+            <li 
+              class="header-menu__item {% if page.url contains '/career' or page.url contains '/join'%}header-menu__item--active{% endif %}" 
+              gsap 
+              gsap-nav-item
+            >
+              <a href="/careers">Careers</a>
+            </li>
+          </ul>
           <div class="header-social">
             <a href="https://www.facebook.com/Naturaily/" rel="nofollow" target="_blank">
-              <img src="/assets/images/loader.gif" data-src="/assets/images/facebook-logo.png" alt="Facebook">
+              {% svg /assets/images/facebook.svg class="header-social__image" %}
             </a>
             <a href="https://twitter.com/naturailycom" rel="nofollow" target="_blank">
-              <img src="/assets/images/loader.gif" data-src="/assets/images/twitter-logo.png" alt="Twitter">
+              {% svg /assets/images/twitter.svg class="header-social__image" %}
             </a>
             <a href="https://www.linkedin.com/company/naturaily" rel="nofollow" target="_blank">
-              <img src="/assets/images/loader.gif" data-src="/assets/images/linkedin.png" alt="Linkedin">
+              {% svg /assets/images/linkedin.svg class="header-social__image" %}
             </a>
             <a href="https://github.com/naturaily" rel="nofollow" target="_blank">
-              <img class="header-github" src="/assets/images/loader.gif" data-src="/assets/images/github.png" alt="Github">
+              {% svg /assets/images/github.svg class="header-social__image" %}
             </a>
           </div>
-          <li class="menu-estimate"><a href="/get-an-estimate" class="btn btn-secondary">get an estimate</a></li>
-        </ul>
+          <a href="/get-an-estimate" class="btn btn-primary">
+            Get an estimate
+          </a>
+        </div>
       </div>
     </nav>
+    <a 
+      class="btn btn-white {% if page.url == '/get-an-estimate' %}btn-white--invisible{% endif %}"
+      href="/get-an-estimate"
+      gsap 
+      gsap-nav-estimate
+    >
+      Get an estimate
+    </a>
   </div>
-
-  {% unless page.url == "/get-an-estimate" or page.url == "/thank-you" %}
-    <div class="header-right">
-      <a href="/get-an-estimate" class="btn btn-secondary header-btn">get an estimate</a>
-    </div>
-  {% endunless %}
-
-</nav>
+</div>
 
 <script type="text/javascript">
   {% include block-scroll.js %}

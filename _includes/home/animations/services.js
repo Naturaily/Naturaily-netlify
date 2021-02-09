@@ -1,16 +1,7 @@
 ScrollTrigger.matchMedia({
   "(min-width: 992px)": () => {
-    const servicesTimeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: "[gsap-numbers-accent]",
-        end: "top+=250 bottom",
-        onEnter: () => servicesTimeline.restart(),
-        onLeave: () => servicesTimeline.play(),
-        onEnterBack: () => servicesTimeline.reverse(1)
-      }
-    });
-
-    servicesTimeline
+    gsap
+      .timeline({ scrollTrigger: { trigger: "[gsap-numbers-accent]" } })
       .from("[gsap-services-box]", { duration: .8, scaleX: 0 })
       .from("[gsap-services-image-mask]", { duration: .8, x: "100%" }, "-=.8")
       .to("[gsap-numbers-accent]", { duration: .8, scaleX: 1, x: "50vw" }, "-=.8")

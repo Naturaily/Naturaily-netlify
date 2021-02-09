@@ -147,19 +147,17 @@
       flex: 0 auto;
       flex-wrap: wrap;
       box-sizing: border-box;
-      padding-right: 40px;
+
+      &--services, &--jobs, &--resources {
+        flex-basis: 50%;
+      }
 
       &--services {
-        flex-basis: auto;
-        margin-right: auto;
+        padding-right: 15px;
       }
 
       &--resources {
-        flex-basis: 33%;
-      }
-
-      &--jobs {
-        display: none;
+        margin: 50px 0 15px;
       }
     }
 

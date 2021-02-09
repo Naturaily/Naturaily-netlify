@@ -6,12 +6,10 @@
   <body>
     {% include seo-tools.html %}
     {% include cookie.html %}
+    {% include header.html %}
+
     <div class="l-main-container" id="mainContainer">
-
-      {% include header.html %}
-
       {{ content }}
-
     </div>
 
     {% unless page.url contains "/get-an-estimate" %}
