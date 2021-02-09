@@ -229,6 +229,7 @@
         background: linear-gradient(270deg, $color-secondary 50%, $color-white 0%, $color-white 100%);
         background-position: 100% 0%;
         background-size: 200%;
+        background-clip: content-box;
         transition: background-position .4s, color .2s;
         cursor: pointer;
 
