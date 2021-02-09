@@ -1,4 +1,5 @@
 const countValues = [ 7, 94, 70, 125, 0.8 ];
+const mobileValues = [ 7, 94, '70%', '125k', 0.8 ];
 
 ScrollTrigger.matchMedia({
   "(min-width: 992px)": () => {
@@ -24,7 +25,7 @@ ScrollTrigger.matchMedia({
 
   "(max-width: 991px)": () => {
     for (const value in countValues) {
-      document.querySelector(`#counter${parseInt(value) + 1}`).innerHTML = countValues[value];
+      document.querySelector(`#counter${parseInt(value) + 1}`).innerHTML = mobileValues[value];
     }
   }
 });
