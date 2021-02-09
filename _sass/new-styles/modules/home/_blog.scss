@@ -6,6 +6,7 @@
     margin-bottom: 30px;
 
     &-wrapper {
+      display: block;
       position: relative;
       height: 100%;
       border-radius: 8px;
@@ -29,6 +30,7 @@
       .btn-white {
         display: block;
         position: relative;
+        width: 100%;
         margin-left: 30px;
         margin-bottom: 15px;
         padding-left: 0;
@@ -39,7 +41,7 @@
         svg {
           position: absolute;
           top: 50%;
-          right: -30px;
+          right: 30px;
           transform: translateY(-50%);
           transition: transform .2s ease;
         }
@@ -80,9 +82,11 @@
     }
 
     &-title {
+      transform: translateX(-25px);
       margin-top: 25px;
       margin-bottom: 25px;
-      padding-right: 100px;
+      padding-left: 25px;
+      padding-right: 80px;
       font-size: 16px;
       line-height: 24px;
       color: $color-white;
@@ -109,7 +113,7 @@
       }
 
       &-title {
-        transform: translate(60px, 10px) scale(1.2);
+        transform: translate(10%, 10px) scale(1.2);
         color: $color-page-text;
       }
 
@@ -150,8 +154,14 @@
     padding-left: 75px;
     padding-right: 75px;
 
-    &__post-image {
-      height: 260px;
+    &__post {
+      &-image {
+        height: 260px;
+      }
+
+      &-title {
+        padding-right: 100px;
+      }
     }
   }
 }
@@ -180,6 +190,10 @@
           max-width: 600px;
           transition: transform .4s;
         }
+      }
+
+      &-title {
+        padding-right: 60px;
       }
 
       &:hover .home-blog__post-image img {
@@ -241,6 +255,12 @@
     .btn-white {
       margin-bottom: 45px;
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-blog__post-title {
+    padding-right: 100px;
   }
 }
 

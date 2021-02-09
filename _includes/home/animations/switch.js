@@ -4,17 +4,8 @@ ScrollTrigger.matchMedia({
     const bottomParamsShort = { duration: .4, y: 50, opacity: 0 };
     const speedUp = "-=.2"
 
-    const switchTimeline = gsap.timeline({
-      scrollTrigger: {
-        trigger: "[gsap-switch-header]",
-        end: "top+=90 bottom",
-        onEnter: () => switchTimeline.restart(),
-        onLeave: () => switchTimeline.play(),
-        onEnterBack: () => switchTimeline.reverse(1.5)
-      }
-    });
-
-    switchTimeline
+    gsap
+      .timeline({ scrollTrigger: { trigger: "[gsap-switch-header]" } })
       .from("[gsap-switch-background]", { duration: .8, backgroundPosition: "-100% 0" })
       .from("[gsap-switch-content]", { duration: .8, x: -50, scaleX: 0 }, "-=.8")
       .from("[gsap-switch-header]", bottomParams)

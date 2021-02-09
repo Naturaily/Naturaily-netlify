@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
     size: $($elements.cards).children().length,
     isMobile: false,
     autoHeight: true,
-    height: 470
+    height: 520
   };
 
   const adjustCardsHeight = () => {
@@ -39,8 +39,8 @@ window.addEventListener('load', () => {
   };
 
   if (window.innerWidth < 992) adjustCardsHeight();
-  $elements.buttons.click(() => switchMobile());
-  $elements.links.click(() => switchLink());
+  $elements.buttons.click((e) => switchMobile(e));
+  $elements.links.click((e) => switchLink(e));
 
   $(window).resize(() => {
     let resizeTimer = false;
@@ -56,10 +56,10 @@ window.addEventListener('load', () => {
     }, 250);
   });
 
-  const switchMobile = () => {
+  const switchMobile = (e) => {
     setParameters();
 
-    let switchDirection = $(event.currentTarget)[0].dataset.direction;
+    let switchDirection = $(e.currentTarget)[0].dataset.direction;
     let newIndex = switchDirection === 'prev' ? switchData.index - 1 : switchData.index + 1;
 
     if (newIndex < 0) {
@@ -73,10 +73,10 @@ window.addEventListener('load', () => {
     moveToCard(newIndex, switchDirection);
   };
 
-  const switchLink = () => {
+  const switchLink = (e) => {
     setParameters();
 
-    const targetIndex = parseInt($(event.currentTarget)[0].dataset.index);
+    const targetIndex = parseInt($(e.currentTarget)[0].dataset.index);
     const switchDirection = switchData.index > targetIndex ? 'prev' : 'next';
 
     moveToCard(targetIndex, switchDirection);
@@ -109,16 +109,21 @@ window.addEventListener('load', () => {
     };
   };
 
+  const endAnimating = () => switchData.animating = false;
+
+  const resetGsapStyles = (items) => {
+    for (item of items) {
+      $(item).removeAttr('style');
+    }
+  }
+
   const animateCards = (index, direction) => {
     const newPosition = switchData.isMobile ? { left: `${-100 * index}%` } : `${-switchData.height * index}px`;
-    const endAnimating = () => switchData.animating = false;
 
     if (switchData.isMobile) {
       animateCardsMobile(newPosition);
-      endAnimating();
     } else {
-      (direction === 'prev') ? gsapAnimateFromTop(index, newPosition) : gsapAnimateFromBottom(index, newPosition);
-      endAnimating();
+      animateCardsDesktop(index, direction, newPosition)
     }
   };
 
@@ -132,58 +137,89 @@ window.addEventListener('load', () => {
 
     if (prevCardHeight < activeCardHeight) {
       $elements.cards
-        .animate(newPosition, animationTime)
+        .animate(newPosition, animationTime, () => endAnimating())
         .css('height', `${adjustedHeight}px`);
     } else {
       $elements.cards.animate(newPosition, animationTime, () => {
         $elements.cards.css('height', `${adjustedHeight}px`);
+        endAnimating();
       });
     };
   };
 
-  const gsapAnimateFromBottom = (index, position) => {
+  const animateCardsDesktop = (index, direction, position) => {
+    const oldItems = [
+      `[gsap-testimonials-logo-${switchData.prevIndex}]`,
+      `[gsap-testimonials-nps-${switchData.prevIndex}]`,
+      `[gsap-testimonials-text-${switchData.prevIndex}]`,
+      `[gsap-testimonials-credits-${switchData.prevIndex}]`
+    ];
+
+    const newItems = [
+      `[gsap-testimonials-logo-${index}]`,
+      `[gsap-testimonials-nps-${index}]`,
+      `[gsap-testimonials-text-${index}]`,
+      `[gsap-testimonials-credits-${index}]`
+    ];
+
+    if (direction === 'prev') {
+      gsapAnimateFromTop(oldItems, newItems, position);
+    } else {
+      gsapAnimateFromBottom(oldItems, newItems, position);
+    }
+  };
+
+  const gsapAnimateFromBottom = (oldItems, newItems, position) => {
     const exitToTop = gsap.timeline({ paused: true });
     const enterFromBelow = gsap.timeline({ paused: true });
 
     exitToTop
-      .to(`[gsap-testimonials-logo-${switchData.prevIndex}]`, { duration: .3, y: -50, opacity: 0 })
-      .to(`[gsap-testimonials-nps-${switchData.prevIndex}]`, { duration: .3, y: -25 }, "-=.3")
-      .to(`[gsap-testimonials-text-${switchData.prevIndex}]`, { duration: .3, y: -50, opacity: 0 }, "-=.2")
-      .to(`[gsap-testimonials-credits-${switchData.prevIndex}]`, { duration: .3, y: -50, opacity: 0 }, "-=.2");
+      .to(oldItems[0], { duration: .3, y: -50, opacity: 0 })
+      .to(oldItems[1], { duration: .3, y: -25 }, "-=.3")
+      .to(oldItems[2], { duration: .3, y: -50, opacity: 0 }, "-=.2")
+      .to(oldItems[3], { duration: .3, y: -50, opacity: 0 }, "-=.2");
 
     enterFromBelow
-      .from(`[gsap-testimonials-logo-${index}]`, { duration: .3, y: 50, opacity: 0 })
-      .from(`[gsap-testimonials-nps-${index}]`, { duration: .3, y: 25 }, "-=.3")
-      .from(`[gsap-testimonials-text-${index}]`, { duration: .3, y: 50, opacity: 0 }, "-=.2")
-      .from(`[gsap-testimonials-credits-${index}]`, { duration: .3, y: 50, opacity: 0 }, "-=.2");
+      .from(newItems[0], { duration: .3, y: 50, opacity: 0 })
+      .from(newItems[1], { duration: .3, y: 25 }, "-=.3")
+      .from(newItems[2], { duration: .3, y: 50, opacity: 0 }, "-=.2")
+      .from(newItems[3], { duration: .3, y: 50, opacity: 0 }, "-=.2");
 
     exitToTop.pause().progress(0).play().eventCallback("onComplete", () => {
       $elements.cards.css("top", position);
-      enterFromBelow.pause().progress(0).play();
+      enterFromBelow.pause().progress(0).play().eventCallback("onComplete", () => {
+        endAnimating();
+        resetGsapStyles(oldItems);
+        resetGsapStyles(newItems);
+      });
       exitToTop.pause().progress(0);
     });
   };
 
-  const gsapAnimateFromTop = (index, position) => {
+  const gsapAnimateFromTop = (oldItems, newItems, position) => {
     const exitToBottom = gsap.timeline({ paused: true });
     const enterFromTop = gsap.timeline({ paused: true });
 
     exitToBottom
-      .to(`[gsap-testimonials-logo-${switchData.prevIndex}]`, { duration: .3, y: 50, opacity: 0 })
-      .to(`[gsap-testimonials-nps-${switchData.prevIndex}]`, { duration: .3, y: 25 }, "-=.3")
-      .to(`[gsap-testimonials-text-${switchData.prevIndex}]`, { duration: .3, y: 50, opacity: 0 }, "-=.2")
-      .to(`[gsap-testimonials-credits-${switchData.prevIndex}]`, { duration: .3, y: 50, opacity: 0 }, "-=.2");
+      .to(oldItems[0], { duration: .3, y: 50, opacity: 0 })
+      .to(oldItems[1], { duration: .3, y: 25 }, "-=.3")
+      .to(oldItems[2], { duration: .3, y: 50, opacity: 0 }, "-=.2")
+      .to(oldItems[3], { duration: .3, y: 50, opacity: 0 }, "-=.2");
 
     enterFromTop
-      .from(`[gsap-testimonials-logo-${index}]`, { duration: .3, y: -50, opacity: 0 })
-      .from(`[gsap-testimonials-nps-${index}]`, { duration: .3, y: -25 }, "-=.3")
-      .from(`[gsap-testimonials-text-${index}]`, { duration: .3, y: -50, opacity: 0 }, "-=.2")
-      .from(`[gsap-testimonials-credits-${index}]`, { duration: .3, y: -50, opacity: 0 }, "-=.2")
+      .from(newItems[0], { duration: .3, y: -50, opacity: 0 })
+      .from(newItems[1], { duration: .3, y: -25 }, "-=.3")
+      .from(newItems[2], { duration: .3, y: -50, opacity: 0 }, "-=.2")
+      .from(newItems[3], { duration: .3, y: -50, opacity: 0 }, "-=.2")
     ;
 
     exitToBottom.pause().progress(0).play().eventCallback("onComplete", () => {
       $elements.cards.css("top", position);
-      enterFromTop.pause().progress(0).play();
+      enterFromTop.pause().progress(0).play().eventCallback("onComplete", () => {
+        endAnimating();
+        resetGsapStyles(oldItems);
+        resetGsapStyles(newItems);
+      });
       exitToBottom.pause().progress(0);
     });
   };
@@ -191,7 +227,6 @@ window.addEventListener('load', () => {
   const updateLinks = (index) => {
     const $targetLink = $elements.links.parent().find(`[data-index="${index}"]`);
     const activeLinkClass = 'home-testimonials__switch-menu__item--active';
-    const movedMenuClass = 'home-testimonials__switch-menu__list--moved';
 
     $elements.links
       .removeClass(activeLinkClass)
@@ -199,9 +234,6 @@ window.addEventListener('load', () => {
     $targetLink
       .addClass(activeLinkClass)
       .attr(attributes.activeLink, attributes.activeLink);
-
-    $elements.menu.removeClass(movedMenuClass);
-    if (index >= 5) $elements.menu.addClass(movedMenuClass);
   };
 
   const updateCards = (index) => {
