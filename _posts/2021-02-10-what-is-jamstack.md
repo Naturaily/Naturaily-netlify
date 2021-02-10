@@ -24,7 +24,7 @@ tags:
 ---
 **Jamstack is an architecture that was created to build modern websites and mobile applications. It is supposed to be very scalable, fast, and SEO friendly. JAM stands for JavaScript, APIs, and HTML Markup. Which is the greatest about it, Jamstack doesn’t even require a database. Thanks to static site generators it’s pre-rendered, frontend is decoupled from the backend, and because of the possibility to skip the webserver, Jamstack apps guarantee excellent performance from the client-side.**
 
-Well. Great. Have you understood enough about **Jamstack** until now? Because that’s mostly what you can find about it online at this moment. Web developers are pretty satisfied with these kinds of explanations, but how about you?
+Well. Great. Have you understood enough about **[Jamstack](https://jamstack.org)** until now? Because that’s mostly what you can find about it online at this moment. Web developers are pretty satisfied with these kinds of explanations, but how about you?
 
 Don’t you prefer some more details about this web development architecture, so you can truly understand why should you put your money into creating a **Jamstack** website? You shouldn’t have needed to possess any developer experience to understand the basics of the technology you want to make use of, right?
 
