@@ -24,7 +24,7 @@ tags:
 ---
 **Jamstack is an architecture that was created to build modern websites and mobile applications. It is supposed to be very scalable, fast, and SEO friendly. JAM stands for JavaScript, APIs, and HTML Markup. Which is the greatest about it, Jamstack doesn’t even require a database. Thanks to static site generators it’s pre-rendered, frontend is decoupled from the backend, and because of the possibility to skip the webserver, Jamstack apps guarantee excellent performance from the client-side.**
 
-Well. Great. Have you understood enough about **[Jamstack](https://jamstack.org)** until now? Because that’s mostly what you can find about it online at this moment. Web developers are pretty satisfied with these kinds of explanations, but how about you?
+Well. Great. Have you understood enough about **[Jamstack](https://jamstack.org)**{:target="_blank"} until now? Because that’s mostly what you can find about it online at this moment. Web developers are pretty satisfied with these kinds of explanations, but how about you?
 
 Don’t you prefer some more details about this web development architecture, so you can truly understand why should you put your money into creating a **Jamstack** website? You shouldn’t have needed to possess any developer experience to understand the basics of the technology you want to make use of, right?
 
@@ -40,7 +40,7 @@ Very loosely said, it is a way of creating the application. It’s not exactly a
 
 As you know, every single website has some content. There is nothing to present to the customers if the box is empty. Pictures can be a good example of it. But the content is not enough, of course. If you want your customers to see any site on their desktops, there needs to be a presentation layer as well.
 
-To make it all happen, we need the software layer. That’s the magic that retrieves your content from the database, wears on it pretty HTML “clothes” and returns it all to the browser. It means that every single page is regenerated each time the servers receives a request for the URL. In simple words: every time when your customer wants to see something on your website, the client needs to “ask” the server for the information and wait to get them. It’s like you needed to ask your wife (or husband) where the sugar is, when you want your coffee. Not really efficient, isn’t it?
+To make it all happen, we need the software layer. That’s the magic that retrieves your content from the database, wears on it pretty HTML “clothes” and returns it all to the browser. It means that every single page is regenerated each time the servers receives a request for the URL. In simple words: every time when your customer wants to see something on your website, the client needs to “ask” the server for the information and wait to get them. It’s like you needed to ask your wife (or husband) where the sugar is when you want your coffee. Not really efficient, isn’t it?
 
 It’s because until now, all these elements were attached to each other. Frontend (what your visitors see in their browsers) was glued to the backend (the database and software layer).
 
@@ -66,7 +66,7 @@ APIs also allow you to use other microservices, like Stripe. They will cover eve
 
 ## Who is Mathias Biilmann?
 
-If you’ve been searching for more information about **Jamstack** itself, for sure you already know this name. That is why I think it’s worth saying at least a few words about Mathias (who is also a CEO and Co-founder of Netlify).
+If you’ve been searching for more information about **Jamstack** itself, for sure you already know this name. That is why I think it’s worth saying at least a few words about Mathias (who is also a CEO and Co-founder of [Netlify](https://www.netlify.com){:target="_blank"}).
 
 Some people think that he is an inventor of **Jamstack** but as this tech stack isn’t actually a specific technology, and it doesn’t have any unbreakable rules, it would be a mistake.
 
@@ -78,7 +78,7 @@ Mathias Biilmann was the guy who created the term we use these days.
 
 A static site generator is basically a set of tools to allow developers to create a static site. This site contains multiple HTML pages that are deployed to the HTTP server. These sites are actually folders and files, so they don’t require a database or server-side rendering. That is why requesting a page is so fast. Because there is no need for searching further. The server has all the files already, so it just matches them and sends them back to the client. One of the most popular SSGs right now is Gatsby JS.
 
-Like Jekyll or Hugo, Gatsby is an open-source static site generator (SSG). It has its start in 2015 and was created to build sites with React in a simple way. However, it started getting so popular after 2018 when it became even better and more useful. It is based on the frontend development framework React. Not only that, but it also makes use of GraphQL technology and Webpack.
+Like Jekyll or Hugo, [Gatsby](https://www.gatsbyjs.com){:target="_blank"} is an open-source static site generator (SSG). It has its start in 2015 and was created to build sites with React in a simple way. However, it started getting so popular after 2018 when it became even better and more useful. It is based on the frontend development framework React. Not only that, but it also makes use of GraphQL technology and Webpack.
 
 What makes it the number 1 choice of many developers creating PWA (progressive web applications) and **Jamstack** sites is that it’s very well-supported. Developers are keeping contributing new plugins, and it’s effortless to find some help when the problem occurs.
 
@@ -104,4 +104,6 @@ Finally, Gatsby works perfectly fine with almost every available CMS (content ma
 
 First, you can think about all this money you’ll earn thanks to cutting costs and delivering the best experience to your customers.
 
-Later, you can get your free estimate and start the revolution today!
+Later, you can get your free estimate and start the revolution today!\
+\
+[{% image /assets/images/cta_estimation_1600.png Get an estimate %}](https://naturaily.com/get-an-estimate)
