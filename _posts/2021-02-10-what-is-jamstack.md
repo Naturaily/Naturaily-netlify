@@ -1,6 +1,8 @@
 ---
-title: What is Jamstack?
-description: not ready
+title: What Is Jamstack?
+description: >-
+  If you're searching for the real explanation what Jamstack is about, that's
+  the article for you. 
 slug: what-is-jamstack
 layout: post
 date: '2021-02-10 03:57:30 +0200'
@@ -11,7 +13,11 @@ authors:
   slug: katarzyna-ciesielska
   value: author-32
 image: /assets/images/Blog_what_is_jamstack.png
-text-preview: not ready
+text-preview: >-
+  Have you been searching for the best and simply explanation of what Jamstack
+  is about? This is an article for you. We work with this stack every day, and
+  we know how to explain complex things in a simple way. This article is the one
+  you've book looking for. Read it and see by yourself! 
 tags:
   - Jamstack
   - E-Commerce
