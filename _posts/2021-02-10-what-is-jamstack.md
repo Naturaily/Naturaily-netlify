@@ -30,7 +30,7 @@ Don’t you prefer some more details about this web development architecture, so
 
 So let’s get started and jump into this modern web development solution in a more appropriate way. In a way which will make you sure why it’s really worth to spend some dollars for it.
 
-![](https://lh6.googleusercontent.com/vyQh6elAeyKGK2HyC0miBwP_GAYhAy9ZBMk3mkK8OZxpYGB-RUmc_vA6W6CL95wnMA8dFmOdYtEZmEHzOsUjUFk0ViBI7cL49PLIqYyCRbsVQWjS1oYLbM3d0ks25-LHxgbje06p)
+![Jamstack infographic, JavaScript, APIs, Markup](https://lh6.googleusercontent.com/vyQh6elAeyKGK2HyC0miBwP_GAYhAy9ZBMk3mkK8OZxpYGB-RUmc_vA6W6CL95wnMA8dFmOdYtEZmEHzOsUjUFk0ViBI7cL49PLIqYyCRbsVQWjS1oYLbM3d0ks25-LHxgbje06p "Jamstack inforgraphic")
 
 ## Let’s ask again: what is this team of JavaScript APIs and Markup?
 
@@ -62,7 +62,7 @@ Going headless is definitely a better developer experience than writing in Liqui
 
 APIs also allow you to use other microservices, like Stripe. They will cover everything from remembering the baskets, delivering a great checkout experience, and proposing an easy and user-friendly payment system.
 
-![](https://lh5.googleusercontent.com/cS728sqwCwmDo0k1SV2OdW9YLaEZ06vLBisAS5hg34DnwqkfeVL94lilgIynhJFUrhjFKuLNW_r90954WwIXwhdeq1JGZRitZF7ZJH3B_UF8g5L17R7b3tdZf6qsCU5GyKDdU_CT)
+![Graphic showing : as much as possible is pre-rended](https://lh5.googleusercontent.com/cS728sqwCwmDo0k1SV2OdW9YLaEZ06vLBisAS5hg34DnwqkfeVL94lilgIynhJFUrhjFKuLNW_r90954WwIXwhdeq1JGZRitZF7ZJH3B_UF8g5L17R7b3tdZf6qsCU5GyKDdU_CT "As much as possible is pre-rended")
 
 ## Who is Mathias Biilmann?
 
@@ -86,7 +86,7 @@ Gatsby JS is a great solution when it comes to dynamic web development. I know, 
 
 Finally, Gatsby works perfectly fine with almost every available CMS (content management system) which works as a database when we build an e-commerce site.
 
-![](https://lh3.googleusercontent.com/lHmEkz9WaOkKjD7O_OskKe2jJ1JjeZqbHumeRTIKyhnhY_cXPLrlWR9xMKxxntq3KqMJ230Ttnq1bhqEEJyhYX9AtZU8Wd-IkWwsWrJ6rNpvgoS2giGPctwy0J4tAu1lK-JSk1pK)
+![Statig Site Generator gets Markup and shows Static State](https://lh3.googleusercontent.com/lHmEkz9WaOkKjD7O_OskKe2jJ1JjeZqbHumeRTIKyhnhY_cXPLrlWR9xMKxxntq3KqMJ230Ttnq1bhqEEJyhYX9AtZU8Wd-IkWwsWrJ6rNpvgoS2giGPctwy0J4tAu1lK-JSk1pK "SSG ")
 
 ## Let’s summarize what we know about Jamstack.
 
