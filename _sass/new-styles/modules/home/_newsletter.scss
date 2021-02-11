@@ -20,13 +20,21 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 400px;
-    padding: 10px;
-    font-family: 'acumin-pro';
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 200;
-    border-color: $color-home-border-grey;
-    border-radius: 4px;
+    border: 2px solid $color-home-border-grey;
+    border-radius: 6px;
+
+    input {
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      font-family: 'acumin-pro';
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 200;
+      border: none;
+      -webkit-appearance: caret;
+    }
   }
 
   &__name {
