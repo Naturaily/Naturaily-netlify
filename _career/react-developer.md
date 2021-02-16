@@ -97,7 +97,7 @@ would-be-great:
   - expectation:
       contents: 'have experience with consuming REST, GraphQL APIs'
   - expectation:
-      contents: 'have experience with SSR solutions (Next.js, Gatsby)'
+      contents: 'have experience with SSR and SSG solutions (Next.js, Gatsby)'
   - expectation:
       contents: >-
         have knowledge of additional JavaScript framework (frontend -
@@ -143,3 +143,4 @@ salaries:
       contract: (B2B)
       sum: 6000 - 12 000 PLN net + VAT
 ---
+
