@@ -54,9 +54,7 @@ Doesn’t it sound great?
 
 ![Traditional communication with sever VS jamstack](/assets/images/Blog_jam_traditional_web_jamstack.png "Jamstack")
 
-## \
-\
-Can I build my e-Commerce with Jamstack?
+## Can I build my e-Commerce with Jamstack?
 
 When we talk about business sites, that may be the end, but there is also e-commerce, right? If you want people to purchase anything online, the website can’t be static. It would be impossible for customers to use it. It needs to give them the possibility to pay for an item. You also want them to know if everything is really available or out of the stock already. There are also many other applications you want to include on your website. Is it even possible with **Jamstack**?
 
