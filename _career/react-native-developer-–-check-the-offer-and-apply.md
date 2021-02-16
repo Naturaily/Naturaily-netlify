@@ -1,6 +1,6 @@
 ---
 published: true
-title: Mid React Native Developer – check the offer and apply
+title: Mid React Native Developer - check the offer and apply
 short-title: Mid React Native Developer
 description: >-
   We're hiring! Are you a Mid React Native Developer? Join our team and help us
