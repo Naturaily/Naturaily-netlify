@@ -28,7 +28,7 @@ Well. Great. Have you understood enough about **[Jamstack](https://jamstack.org)
 
 Don’t you prefer some more details about this web development architecture, so you can truly understand why should you put your money into creating a **Jamstack** website? You shouldn’t have needed to possess any developer experience to understand the basics of the technology you want to make use of, right?
 
-So let’s get started and jump into this modern web development solution in a more appropriate way. In a way which will make you sure why it’s really worth to spend some dollars for it.
+So let’s get started and jump into this modern [web development](https://naturaily.com/services/webdevelopment) solution in a more appropriate way. In a way which will make you sure why it’s really worth to spend some dollars for it.
 
 ![Jamstack infographic, JavaScript, APIs, Markup](https://lh6.googleusercontent.com/vyQh6elAeyKGK2HyC0miBwP_GAYhAy9ZBMk3mkK8OZxpYGB-RUmc_vA6W6CL95wnMA8dFmOdYtEZmEHzOsUjUFk0ViBI7cL49PLIqYyCRbsVQWjS1oYLbM3d0ks25-LHxgbje06p "Jamstack inforgraphic")
 
@@ -50,9 +50,13 @@ It means that your site can be served to the customers right from their closest 
 
 Thanks to this, **Jamstack** sites are more human-friendly and SEO friendly. Google bots don’t have troubles, so they are indexed fast, and because of high performance they have more chances to go higher in SERP (search engine results page).
 
-Doesn’t it sound great?![](https://lh6.googleusercontent.com/7dnJ8ACn3jnEwBl-gMCV-ZiLnpydhUfTK6wD9lHIbB1fDdeX5wup3IiaNbBhSFHYvQGqVd4FxQZ3H6WPQmAGw7f2QNZ3Wq6MRQ1za1etWthZGoeASviPN8F7OUYtGVhIbdS4EQWD)
+Doesn’t it sound great?
 
-## Can I build my e-Commerce with Jamstack?
+![Traditional communication with sever VS jamstack](/assets/images/Blog_jam_traditional_web_jamstack.png "Jamstack")
+
+## \
+\
+Can I build my e-Commerce with Jamstack?
 
 When we talk about business sites, that may be the end, but there is also e-commerce, right? If you want people to purchase anything online, the website can’t be static. It would be impossible for customers to use it. It needs to give them the possibility to pay for an item. You also want them to know if everything is really available or out of the stock already. There are also many other applications you want to include on your website. Is it even possible with **Jamstack**?
 
