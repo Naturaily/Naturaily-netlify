@@ -1,9 +1,9 @@
 ---
 published: true
-title: React Native Developer – check the offer and apply
-short-title: React Native Developer
+title: Mid React Native Developer – check the offer and apply
+short-title: Mid React Native Developer
 description: >-
-  We're hiring! Are you a React Native Developer? Join our team and help us
+  We're hiring! Are you a Mid React Native Developer? Join our team and help us
   build great digital products for our clients.
 layout: career-offer
 location:
@@ -28,7 +28,7 @@ type: Development
 salary-preview:
   - salary:
       contract: + VAT (B2B)
-      sum: 8000 - 12500 PLN net + 26 paid days off
+      sum: 7000 - 12 000 PLN net + 26 paid days off
 what-we-expect:
   - expectation:
       contents: >-
@@ -144,6 +144,6 @@ benefits:
 salaries:
   - salary:
       contract: (B2B)
-      sum: 6000 - 12 000 PLN net + VAT
+      sum: 7000 - 12 000 PLN net + VAT
 ---
 
