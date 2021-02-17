@@ -1,7 +1,7 @@
 ---
 published: false
-title: Junior Marketing Specialist - check the job offer and apply
-short-title: Junior Marketing Specialist
+long-title: Junior Marketing Specialist - check the job offer and apply
+title: Junior Marketing Specialist
 description: >-
   We are looking for Junior Marketing Specialist to extend our two-person
   Marketing Team!
