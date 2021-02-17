@@ -1,7 +1,7 @@
 ---
 published: false
-title: Junior Project Manager - check the offer and apply
-short-title: Junior Project Manager
+long-title: Junior Project Manager - check the offer and apply
+title: Junior Project Manager
 description: >-
   Join our team! Work closely with the experienced Project Manager and learn how
   to manage IT projects successfully. We are waiting for you.

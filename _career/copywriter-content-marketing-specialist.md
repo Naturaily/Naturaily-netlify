@@ -1,7 +1,7 @@
 ---
 published: false
-title: Copywriter & Content Marketing Specialist - don’t wait - apply
-short-title: Copywriter & Content Marketing Specialist
+long-title: Copywriter & Content Marketing Specialist - don’t wait - apply
+title: Copywriter & Content Marketing Specialist
 description: >-
   We are looking for Copywriter & Content Marketing Specialist to help us create
   valuable content for our website and social media channels.
