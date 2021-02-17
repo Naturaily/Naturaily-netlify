@@ -1,7 +1,7 @@
 ---
 published: true
-title: Administration & Financial Specialist - don't wait - apply
-short-title: 'Administration & Financial Specialist '
+title: Administration & Financial Specialist
+meta-title-inset: don’t wait - apply
 description: >-
   We are looking for orginized and independent Administration & Financial
   Specialist who will help our HR and accountant section. 

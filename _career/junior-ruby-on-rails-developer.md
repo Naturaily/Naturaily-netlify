@@ -1,7 +1,7 @@
 ---
 published: false
-title: Junior Ruby on Rails Developer - check the job offer and apply
-short-title: Junior Ruby on Rails Developer
+title: Junior Ruby on Rails Developer
+meta-title-inset: check the job offer and apply
 description: >-
   We are looking for talented Junior Ruby on Rails Developer to help us build
   great digital products.

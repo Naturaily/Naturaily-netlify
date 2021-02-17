@@ -25,7 +25,7 @@
       {% assign job_offers = site.career | where: "published", "true"%}
       <li class="footer_list-heading">Job offers</li>
       {% for job_offer in job_offers %}
-        <li><a href="{{job_offer.url}}">{{job_offer.short-title}}</a></li>
+        <li><a href="{{job_offer.url}}">{{job_offer.title}}</a></li>
       {% endfor %}
     </ul>
     <ul class="footer_list footer_list--resources">

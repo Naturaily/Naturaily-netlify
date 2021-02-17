@@ -1,7 +1,7 @@
 ---
 published: true
-title: Frontend Developer (React.js, JAMstack) - don’t wait - apply
-short-title: Frontend Developer (React.js, JAMstack)
+title: Frontend Developer (React.js, JAMstack)
+meta-title-inset: don’t wait - apply
 description: >-
   We are looking for Frontend Developer to help us build websites and e-commerce
   stores using modern technology that gives a SEO advantage and great user

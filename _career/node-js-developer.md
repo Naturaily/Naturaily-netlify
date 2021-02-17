@@ -1,7 +1,7 @@
 ---
 published: true
-title: Node.js Developer - check the job offer and apply
-short-title: Node.js Developer
+title: Node.js Developer
+meta-title-inset: check the job offer and apply
 description: >-
   Software house is a multi-element puzzle. For seven years, we have been successfully constructing
   the team of people with matching characters and skills, which resulted in a truly beautiful
