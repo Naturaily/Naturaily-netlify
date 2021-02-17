@@ -1,7 +1,7 @@
 ---
 published: false
-long-title: Junior Project Manager - check the offer and apply
 title: Junior Project Manager
+meta-title-inset: check the job offer and apply
 description: >-
   Join our team! Work closely with the experienced Project Manager and learn how
   to manage IT projects successfully. We are waiting for you.
