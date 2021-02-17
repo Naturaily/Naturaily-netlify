@@ -1,7 +1,7 @@
 ---
 published: true
-long-title: Quality Assurance Specialist - check the job offer and apply
 title: Quality Assurance Specialist
+meta-title-inset: check the job offer and apply
 description: >-
   Working at Naturaily as Quality Assurance Specialist means cooperating with
   all the development teams assisting them in the commercial projects.

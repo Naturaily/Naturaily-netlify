@@ -1,7 +1,7 @@
 ---
 published: true
-long-title: HTML/CSS Developer - check the job offer and apply
 title: HTML/CSS Developer
+meta-title-inset: check the job offer and apply
 description: >-
   We need you to be: commercially experienced in software development using HTML5,
   CSS3 (min. 2 years), acquainted with Bootstrap/Foundation UI, knowledgeable about

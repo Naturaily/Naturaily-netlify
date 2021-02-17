@@ -86,6 +86,10 @@ collections:
     fields:
       - {label: "Published", name: "published", widget: "boolean", default: true}
       - {label: "Title(optimally 50-60, max 60 characters)", name: "long-title", widget: "string"}
+      - label: "Meta title inset (with title and dash optimally 50-60, max 60 characters)"
+        name: "meta-title-inset"
+        widget: "select"
+        options: ["don’t wait - apply", "check the job offer and apply"]
       - {label: "Short Title", name: "title", widget: "string"}
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "career-offer"}

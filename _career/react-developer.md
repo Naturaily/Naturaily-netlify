@@ -1,7 +1,7 @@
 ---
 published: true
-long-title: React Developer - check the job offer and apply
 title: React Developer
+meta-title-inset: check the job offer and apply
 description: >-
   Our company is scaling rapidly on a daily basis. Therefore, we need to see you
   are comfortable with the pace of changes we are going through and excited

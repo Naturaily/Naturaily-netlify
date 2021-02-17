@@ -1,7 +1,7 @@
 ---
 published: true
-long-title: Sales Executive - check the job offer and apply
 title: Sales Executive
+meta-title-inset: check the job offer and apply
 description: >-
   You need to know that we value individuality, professionalism, open communication and honesty.
   What we expect from you is to find potential clients, initiate contact and start cooperation
