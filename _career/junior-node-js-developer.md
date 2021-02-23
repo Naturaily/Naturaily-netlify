@@ -1,12 +1,13 @@
 ---
-published: true
-title: Junior Node.js Developer
-meta-title-inset: check the job offer and apply
+published: false
+title: Junior Node.js Developer - check the job offer and apply
+meta-title-inset: don’t wait - apply
 description: >-
-  We need you to be: commercially experienced in backend development (at least 6 months),
-  familiar with ES6/TypeScript, experienced in using SQL databases, experienced in using git >>
+  We need you to be: commercially experienced in backend development (at least 6
+  months), familiar with ES6/TypeScript, experienced in using SQL databases,
+  experienced in using git >>
 layout: career-offer
-image: '/assets/images/Junior_Nodejs_Developer.png'
+image: /assets/images/Junior_Nodejs_Developer.png
 location:
   - Wrocław
   - Remote
@@ -121,3 +122,4 @@ salaries:
       contract: (B2B)
       sum: 4600 - 7600 PLN net + VAT
 ---
+
