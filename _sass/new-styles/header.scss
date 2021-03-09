@@ -51,6 +51,10 @@
         display: block;
         font-size: 20px;
         color: $color-global-font;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
 
       &--active a {
