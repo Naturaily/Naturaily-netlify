@@ -28,7 +28,7 @@ text-preview: >
 tags:
   - Software development
 ---
-**There are over 100,000 software companies around the world and some predict the number will increase to 1 million by 2027. A lot of them are software houses, like Naturaily, whose domain is the [creation and maintenance of software for other companies](https://naturaily.com/services){:target="_blank"}**.
+**There are over 100,000 software companies around the world and some predict the number will increase to 1 million by 2027. A lot of them are [software houses](https://naturaily.com/blog/10-reasons-why-software-house-poland), like Naturaily, whose domain is the [creation and maintenance of software for other companies](https://naturaily.com/services){:target="_blank"}**.
 
 **Some say that Poland has become a software house of Europe. Why? It is simple. We are the best to work with and here is why.**
 

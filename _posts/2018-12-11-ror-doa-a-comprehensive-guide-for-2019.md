@@ -135,7 +135,7 @@ There is nothing that can beat Rails in terms of how fast it is to develop a pro
 
 ### Easy business logic implementation
 
-Ruby on Rails allows for easy implementation of complex business logic in your application. Need API as soon as possible? No problem. RoR developers can create it really fast.  Just slap a front-end framework on it, such as Vue or React, and your web application is good to go.
+Ruby on Rails allows for easy implementation of complex business logic in your application. Need API as soon as possible? No problem. RoR developers can create it really fast.  Just slap a front-end framework on it, such as [Vue or React](https://naturaily.com/blog/react-vue-similarities-and-differences), and your web application is good to go.
 
 ### Massive Library
 

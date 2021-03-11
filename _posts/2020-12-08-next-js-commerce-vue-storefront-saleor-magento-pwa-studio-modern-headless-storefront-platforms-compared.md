@@ -60,7 +60,7 @@ In e-commerce PWAs, server-side rendering can be done in a few ways. With Vue, b
 
 Headless e-commerce stores not only run faster, but also give you better control of technical SEO. This is something that’s not offered by (or at least not the main focus of) the popular e-commerce storefronts out of the box.
 
-We write more about optimizing Shopify stores for SEO in another [post](https://naturaily.com/blog/how-to-optimize-shopify-storefront-for-seo) on the blog.
+We write more about optimizing [Shopify stores](https://naturaily.com/blog/shopify-stores-problems) for SEO in another [post](https://naturaily.com/blog/how-to-optimize-shopify-storefront-for-seo) on the blog.
 
 ### 4. True omnichannel
 

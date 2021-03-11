@@ -67,7 +67,7 @@ Using Linter will help you write better, more correct code. I recommend using ei
 
 ### Browser extensions
 
-If you are using one of the popular frameworks or libraries like Angular, Vue or React you’re in luck because there are debugging browser extensions designed specifically for each one of them. On top of that, there are some extensions that support the development process such as PixelPerfect.
+If you are using one of the popular frameworks or libraries like Angular, [Vue or React](https://naturaily.com/blog/react-vue-similarities-and-differences) you’re in luck because there are debugging browser extensions designed specifically for each one of them. On top of that, there are some extensions that support the development process such as PixelPerfect.
 
 Now let’s talk about **CSS** for a bit.
 
