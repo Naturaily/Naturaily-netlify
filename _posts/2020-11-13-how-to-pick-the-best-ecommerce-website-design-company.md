@@ -106,7 +106,7 @@ Many big and successful companies are still able to provide their services and d
 
 Outsourcing the development to an offshore team based in Europe is not only cheaper, but also more effective if you’re looking for talent qualified in specific technologies. Not without reason, Poland has grown to achieve the status of the leading software development hub for countries such as the United Kingdom, Switzerland and the United States.
 
-There’s also the option of simply hiring a software development company operating within the same country as you—a practice called onshoring.
+There’s also the option of simply hiring a [software development company](https://naturaily.com/blog/choosing-the-best-software-development-company) operating within the same country as you—a practice called onshoring.
 
 * **Onshoring** – when the software development company is located in the same country.
 * **Nearshoring** – when the software development company is based in a neighboring country. This usually implies you can pay your provider a visit to talk face-to-face when needed. This arrangement may be particularly important in large-scale eCommerce projects which require constant feedback and close collaboration.
