@@ -24,7 +24,7 @@ tags:
 ---
 Wondering what platform to use for your next startup project? When it comes to building MVPs, Ruby on Rails still remains the king of frameworks but not only startups use Rails - a lot of very mature services, services you probably use every day, managed to utilize its full potential by creating applications used by hundreds of thousands of users.
 
-## Why Ruby on Rails? - quick summary
+## [Why Ruby on Rails](https://naturaily.com/blog/who-gives-f-about-rails)? - quick summary
 
 * It is great for fast and cost-effective development of MVPs - Ruby on Rails was specifically designed to improve the productivity of the developer.
 * With time and commitment, developers can quickly learn RoR because Ruby is one of the most natural programming languages to work with.

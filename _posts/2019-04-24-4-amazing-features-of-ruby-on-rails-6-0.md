@@ -26,7 +26,7 @@ Rails 6.0. is finally released. We’re excited to see all the new stuff Rails 6
 
 ## Parallel Testing
 
-Test’s performance is finally going to be improved (a lot!). Now you can use cores to your advantage of running big tests much faster. Each testing worker runs in its own thread - it should be reflected in the CPU monitor. Thanks to Eileen Uchitelle and Aaron Patterson, parallel-testing will land in the upcoming, final version of Rails framework.
+Test’s performance is finally going to be improved (a lot!). Now you can use cores to your advantage of running big tests much faster. Each testing worker runs in its own thread - it should be reflected in the CPU monitor. Thanks to Eileen Uchitelle and Aaron Patterson, parallel-testing will land in the upcoming, final version of [Rails framework](https://naturaily.com/blog/8-frameworks-ruby-not-rails).
 
 As you probably already know, the way of implementing tests is very important. We try to implement as many suitable tests as we can. It's great news for us as more tests will no longer have that much of an impact on the execution time. (Stay tuned for our guide on how to write great tests in Rails!)
 
@@ -42,7 +42,7 @@ Webpacker was introduced a while back with the 5.1 version of Ruby on Rails. It 
 
 We usually use it for JavaScript code, it works really well but it can also be used for CSS, images, fonts and assets as well. From now on, Sprockets is being replaced and Webpacker is the default JavaScript bundler for Rails through the new app/javascript directory.
 
-Currently, in modern applications, using traditional rails views is not so often anymore. User Interfaces are very interactive, there is a lot of dynamic elements which have to respond really fast. Now, the application setup with Rails on the backend and React/Vue on the frontend will be an easy-peasy pleasure :)
+Currently, in modern applications, using traditional [rails views](https://naturaily.com/blog/ruby-on-rails-trailblazer-cells) is not so often anymore. User Interfaces are very interactive, there is a lot of dynamic elements which have to respond really fast. Now, the application setup with Rails on the backend and React/Vue on the frontend will be an easy-peasy pleasure :)
 
 ## Multiple database support
 

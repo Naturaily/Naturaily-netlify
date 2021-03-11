@@ -65,7 +65,7 @@ Both libraries launched quite a while ago. Facebook is continuously improving Re
 
 What about Vue? Evan You is open about the future of his ‘progressive framework’. He has stated that the next iteration of Vue will bring many groundbreaking changes for his technology. They include an API redesign using TypeScript, significantly improved performance, plans for implementing Hooks that are similar to React’s and many more. Vue’s team is also working hard to improve the library. No wonder it’s the most popular JavaScript project on GitHub!
 
-If you’re worrying about React or Vue projects being suddenly canceled, don’t - it’s not going to happen anytime soon. They’re not being developed by Google. 😉
+If you’re worrying about [React or Vue](https://naturaily.com/blog/react-vue-similarities-and-differences) projects being suddenly canceled, don’t - it’s not going to happen anytime soon. They’re not being developed by Google. 😉
 
 ## Security 🔑
 
