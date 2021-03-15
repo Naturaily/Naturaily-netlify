@@ -6,15 +6,8 @@
 .portfolio-case {
   padding: 25px 0;
 
-  &__wrapper {
-    color: $color-portfolio-case;
-
-    &:hover .portfolio-case__image img {
-      transform: translateX(20px) rotate(-10deg) scale(1.25);
-    }
-  }
-
   &__image {
+    display: block;
     margin: 0 -20px 35px;
     overflow: hidden;
 
@@ -26,6 +19,10 @@
     }
   }
 
+  a.portfolio-case__image:hover img {
+    transform: translateX(20px) rotate(-10deg) scale(1.2);
+  }
+
   &__header {
     font-size: 2.2em;
     font-weight: 500;
@@ -33,6 +30,10 @@
 
     &--long {
       font-size: 2.1em;
+    }
+
+    a {
+      color: $color-portfolio-case;
     }
   }
 
