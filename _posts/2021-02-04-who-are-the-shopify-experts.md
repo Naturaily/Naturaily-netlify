@@ -76,7 +76,7 @@ You will definitely find some interesting recommendations on the official Shopif
 Before signing any contract, check:
 
 * portfolio of the expert (do you see any online store which you really like?),
-* reviews (try to find something besides testimonials the web page of your potential match; Clutch is an excellent source of them as it’s moderated very well),
+* reviews (try to find something besides testimonials the web page of your potential match; [Clutch](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch) is an excellent source of them as it’s moderated very well),
 * expert's knowledge of the newest trends (talk, ask questions!),
 * how usually the cooperation looks like (communication, agreements, time-planning),
 * if the cost comes with the value (and if it fits your budget).

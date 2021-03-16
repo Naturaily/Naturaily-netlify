@@ -164,7 +164,7 @@ end
 
 ## Conclusion
 
-There is definitely a lot of room for improvement in our implementation but at the same time it’s a huge step forward compared to the original legacy code. Our solution also may not be perfect in this particular application, as there are not that many conditionals but it’s much easier to read and easier to extend in the future (for example when new providers will be added). Adding new Chains is now really easy, thanks to `BasicChain` and `BaseHandler`.
+There is definitely a lot of room for improvement in our implementation but at the same time it’s a huge step forward compared to the original [legacy code](https://naturaily.com/blog/legacy-code-refactoring). Our solution also may not be perfect in this particular application, as there are not that many conditionals but it’s much easier to read and easier to extend in the future (for example when new providers will be added). Adding new Chains is now really easy, thanks to `BasicChain` and `BaseHandler`.
 
 What other solutions would you suggest for our case and why? We’re always happy to learn new things!
 

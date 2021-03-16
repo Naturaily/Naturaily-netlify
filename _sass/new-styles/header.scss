@@ -26,6 +26,11 @@
     transform: translate(-100%, 0);
     transition: transform 0.7s;
 
+    ul {
+      margin-left: 0;
+      list-style-type: none;
+    }
+
     &__logo {
       display: block;
       text-align: center;
@@ -46,6 +51,10 @@
         display: block;
         font-size: 20px;
         color: $color-global-font;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
 
       &--active a {
