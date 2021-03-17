@@ -105,108 +105,108 @@
   }
 }
   
-  @media (min-width: 811px) {
-    .dajemyslowo-hero {
-      height: 580px;
-      overflow: visible;
+@media (min-width: 811px) {
+  .dajemyslowo-hero {
+    height: 580px;
+    overflow: visible;
 
-      &__wrapper {
-        padding-top: 150px;
-      }
-  
-      &__title-text {
-        font-size: 40px;
-        line-height: 60px;
-      }
-  
-      &__image {
-        .geometric-figure {
-          top: -140px;
-          left: -40px;
-          width: 300px;
-  
-          &_center, &_right::after {
-            height: 200px;
-            width: 200px;
-          }
-  
-          &_right {
-            width: 100px;
-            height: 200px;
-          }
-        }
-  
-        &-img {
-          top: -70px;
-          left: 100px;
-          transform: rotate(10deg);
-          width: 230px;
-        }
-      }
+    &__wrapper {
+      padding-top: 150px;
     }
-  }
-  
-  @media (min-width: 992px) {
-    .dajemyslowo-hero {
-      height: 500px;
-      overflow: visible;
 
-      &__wrapper {
-        max-width: 1180px;
-        margin: 0 auto;
-      }
-
-      &__title-text, &__title-text strong {
-        font-weight: 300;
-      }
-  
-      &__title-text {
-        max-width: 450px;
-      }
-  
-      &__image {
-        .geometric-figure {
-          top: -150px;
-          left: -40px;
-          width: 500px;
-  
-          &_center, &_right::after {
-            height: 330px;
-            width: 330px;
-          }
-  
-          &_right {
-            width: 165px;
-            height: 330px;
-          }
-        }
-  
-        &-img {
-          top: -60px;
-          left: -20px;
-          width: 650px;
-          transform: none;
-        }
-      }
+    &__title-text {
+      font-size: 40px;
+      line-height: 60px;
     }
-  }
-  
-  @media (min-width: 1200px) {
-    .dajemyslowo-hero {
-      &__content {
+
+    &__image {
+      .geometric-figure {
+        top: -140px;
         left: -40px;
-      }
+        width: 300px;
   
-      &__title-text {
-        max-width: 520px;
-        font-size: 46px;
-        line-height: 68px;
+        &_center, &_right::after {
+          height: 200px;
+          width: 200px;
+        }
+
+        &_right {
+          width: 100px;
+          height: 200px;
+        }
       }
-  
-      &__image-img {
-        top: -110px;
-        width: 770px;
+
+      &-img {
+        top: -70px;
+        left: 100px;
+        transform: rotate(10deg);
+        width: 230px;
       }
     }
   }
+}
+  
+@media (min-width: 992px) {
+  .dajemyslowo-hero {
+    height: 500px;
+    overflow: visible;
+
+    &__wrapper {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    &__title-text, &__title-text strong {
+      font-weight: 300;
+    }
+
+    &__title-text {
+      max-width: 450px;
+    }
+  
+    &__image {
+      .geometric-figure {
+        top: -150px;
+        left: -40px;
+        width: 500px;
+
+        &_center, &_right::after {
+          height: 330px;
+          width: 330px;
+        }
+
+        &_right {
+          width: 165px;
+          height: 330px;
+        }
+      }
+
+      &-img {
+        top: -60px;
+        left: -20px;
+        width: 650px;
+        transform: none;
+      }
+    }
+  }
+}
+  
+@media (min-width: 1200px) {
+  .dajemyslowo-hero {
+    &__content {
+      left: -40px;
+    }
+  
+    &__title-text {
+      max-width: 520px;
+      font-size: 46px;
+      line-height: 68px;
+    }
+
+    &__image-img {
+      top: -110px;
+      width: 770px;
+    }
+  }
+}
   
