@@ -125,7 +125,7 @@
   }
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
   .dajemyslowo-goal {
     .case__step, .case__title, &__columns-left, &__columns-right, &__picture-middle {
       padding: 0 100px;
@@ -137,10 +137,9 @@
   }
 }
 
-@media(min-width: 811px) {
+@media (min-width: 811px) {
   .dajemyslowo-goal {
     position: relative;
-    margin-bottom: 500px;
     padding-top: 60px;
     overflow: visible;
 
@@ -219,7 +218,7 @@
   }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .dajemyslowo-goal {
     &__decor-2 {
       left: -120px;
