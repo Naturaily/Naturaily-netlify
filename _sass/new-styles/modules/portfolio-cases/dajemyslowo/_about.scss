@@ -120,7 +120,7 @@
       flex-flow: row wrap;
       padding: 0 100px;
 
-      &-text {
+      &-paragraph {
         font-size: 16px;
       }
 
@@ -159,6 +159,7 @@
       min-width: 100vw;
       transform: translateX(-100px);
       margin-top: 125px;
+      margin-bottom: 0;
 
       img {
         bottom: 65px;
@@ -173,6 +174,16 @@
 
 @media (min-width: 1200px) {
   .dajemyslowo-about {
+    &__columns {
+      &-left {
+        padding-right: 40px;
+      }
+
+      &-right {
+        padding-right: 20px;
+      }
+    }
+
     &__separator {
       position: relative;
       transform: none;
@@ -201,7 +212,7 @@
 
 @media(min-width: 1400px) {
   .dajemyslowo-about__separator img {
-    transform: translateX(-500px);
+    transform: translateX(-475px);
     width: 2000px;
   }
 }
