@@ -54,8 +54,8 @@
     img {
       position: relative;
       bottom: 40px;
-      width: 850px;
-      transform: translateX(-200px);
+      width: 910px;
+      transform: translateX(-215px);
     }
   }
 
@@ -193,7 +193,7 @@
       }
       
       img {
-        transform: translateX(-22%);
+        transform: translateX(-23%);
       }
     }
   }
@@ -202,6 +202,6 @@
 @media(min-width: 1400px) {
   .dajemyslowo-about__separator img {
     transform: translateX(-500px);
-    width: 2100px;
+    width: 2000px;
   }
 }
