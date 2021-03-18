@@ -1,0 +1,245 @@
+.dajemyslowo-goal {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 50px;
+
+  &__decor-1, &__decor-2 {
+    display: none;
+  }
+
+  .case__step, .case__title, &__columns-left, &__columns-right, &__picture-middle {
+    padding: 0 30px;
+  }
+
+  .case__title {
+    max-width: 400px;
+    margin: 20px 0 30px;
+    line-height: 50px;
+    color: $color-global-font;
+  }
+
+  &__columns {
+    display: flex;
+    flex-direction: column;
+
+    &-left, &-right {
+      font-size: 16px;
+      line-height: 24px;
+      color: $color-page-text;
+
+      strong {
+        font-weight: 600;
+      }
+    }
+
+    &-left {
+      order: 0;
+    }
+
+    &-right {
+      order: 2;
+    }
+  }
+
+  &__picture {
+    box-sizing: border-box;
+    order: 1;
+    position: relative;
+    width: 100%; 
+    height: 50vw;
+    margin: 30px 0;
+    background: $color-code-dajemy-bg;
+
+    &-middle {
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: 950px;
+
+      &__people, &__logo {
+        width: 30%;
+        height: 30%;
+      }
+
+      &__logo {
+        max-width: 200px;
+      }
+
+      &__hand {
+        max-width: 170px;
+        width: 23%;
+        height: 23%;
+      }
+
+      &__plus, &__equals {
+        font-size: 25px;
+        color: #4658A7;
+      }
+    }
+
+    &-letter {
+      position: absolute;
+      left: 0;
+      bottom: -10vw;
+      width: 30vw;
+      height: 30vw;
+      max-width: 200px;
+      max-height: 200px;
+    }
+
+    &-decor {
+      position: absolute;
+      top: 10px;
+      right: 20vw;
+      width: 10vw;
+      height: 10vw;
+      max-width: 70px;
+      max-height: 70px;
+    }
+
+    &-arrow {
+      position: absolute;
+      top: 45%;
+      right: -5px;  
+      width: 15vw;
+      height: 15vw;
+      max-width: 110px;
+      max-height: 110px;
+    }
+
+    &-man {
+      position: absolute;
+      bottom: -445px;
+      right: -390px;
+      width: 470px;
+      height: 470px;
+    }
+  }
+}
+
+@media(min-width: 576px) {
+  .dajemyslowo-goal {
+    .case__step, .case__title, &__columns-left, &__columns-right, &__picture-middle {
+      padding: 0 100px;
+    }
+
+    &__picture {
+      height: 40vw;
+    }
+  }
+}
+
+@media(min-width: 811px) {
+  .dajemyslowo-goal {
+    position: relative;
+    margin-bottom: 500px;
+    padding-top: 60px;
+    overflow: visible;
+
+    &__decor-1, &__decor-2 {
+      display: block;
+      position: absolute;
+    }
+
+    &__decor-1 {
+      top: 40px;
+      right: -160px;
+    }
+
+    &__decor-2 {
+      top: 430px;
+      left: -40px;
+    }
+
+    &__columns {
+      flex-flow: row wrap;
+      padding: 0 100px;
+
+      &-left, &-right {
+        box-sizing: border-box;
+        width: 50%;
+        padding: 0;
+      }
+      
+      &-left {
+        padding-right: 25px;
+      }
+
+      &-right {
+        order: 1;
+        padding-left: 25px;
+      }
+    }
+
+    &__picture {
+      order: 3;
+      width: 100%;
+      height: 35vw;
+      max-height: 420px;
+      margin: 0;
+      margin-top: 65px;
+      border-radius: 8px;
+
+      &-middle {
+        padding: 0 80px 0 30px;
+      }
+
+      &-letter {
+        left: -7px;
+        bottom: -70px;
+        width: 20vw;
+        height: 20vw;
+      }
+
+      &-decor {
+        right: 15%;
+        width: 7vw;
+        height: 7vw;
+      }
+
+      &-arrow {
+        right: 40px;
+        width: 10vw;
+        height: 10vw;
+      }
+
+      &-man {
+        bottom: -430px;
+        right: -340px;
+      }
+    }
+  }
+}
+
+@media(min-width: 1200px) {
+  .dajemyslowo-goal {
+    &__decor-2 {
+      left: -120px;
+    }
+
+    &__columns {
+      &-left {
+        padding-right: 86px;
+      }
+
+      &-right {
+        padding-right: 60px;
+      }
+    }
+
+    &__picture {
+      &-arrow {
+        top: 185px;
+        right: 70px;
+      }
+    }
+  }
+}
