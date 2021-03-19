@@ -101,8 +101,7 @@
 
 @media (min-width: 811px) {
   .dajemyslowo-solution {
-    padding-top: 100px;
-    padding-bottom: 25px;
+    padding: 100px 100px 50px;
 
     .case__title {
       margin: 40px 0;
@@ -155,16 +154,20 @@
   }
 }
 
-@media (min-width: 811px) {
-  .dajemyslowo-solution__columns {
-    &--odd .dajemyslowo-solution__columns-text,
-    &--even .dajemyslowo-solution__columns-image {
-      padding-right: 50px;
-    }
+@media (min-width: 992px) {
+  .dajemyslowo-solution{
+    padding-bottom: 25px;
 
-    &--odd .dajemyslowo-solution__columns-image,
-    &--even .dajemyslowo-solution__columns-text {
-      padding-left: 50px;
+    &__columns {
+      &--odd .dajemyslowo-solution__columns-text,
+      &--even .dajemyslowo-solution__columns-image {
+        padding-right: 50px;
+      }
+
+      &--odd .dajemyslowo-solution__columns-image,
+      &--even .dajemyslowo-solution__columns-text {
+        padding-left: 50px;
+      }
     }
   }
 }
