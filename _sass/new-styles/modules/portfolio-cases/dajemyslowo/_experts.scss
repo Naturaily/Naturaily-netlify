@@ -1,0 +1,143 @@
+.dajemyslowo-experts {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 65px 0;
+  background-color: $color-code-orange-bg;
+
+  &__header, .custom-carousel__tabs-tab {
+    padding: 0 30px;
+  }
+
+  &__header {
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 38.4px;
+    font-weight: 300;
+    color: $color-portfolio-header;
+    opacity: .7;
+  }
+
+  &__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 33px;
+    height: 33px;
+    font-size: 16px;
+    color: $color-white;
+    background-color: $color-accent-yellow;
+    border-radius: 100%;
+  }
+
+  .icon-man {
+    font-size: 36px;
+    color: $color-secondary;
+  }
+
+  &__name {
+    max-width: 85px;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-page-text;
+  }
+
+  .custom-carousel {
+    &__tabs {
+      margin: 0;
+      width: 280vw;
+
+      &-tab {
+        display: flex;
+        flex-flow: row nowrap;
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 35px;
+      }
+    }
+
+    &__dots {
+      width: 100vw;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .dajemyslowo-experts {
+    &__header, .custom-carousel__tabs-tab {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    &__number {
+      left: 100px;
+    }
+
+    .custom-carousel {
+      &__nav {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 10px;
+      }
+
+      &__tabs {
+        width: 400vw;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .dajemyslowo-experts {
+    box-sizing: border-box;
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 50px 100px 100px;
+
+    &__wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    &__header, .custom-carousel__tabs-tab {
+      padding: 0
+    }
+
+    &__header {
+      margin-bottom: 55px;
+    }
+
+    &__number {
+      top: -77px;
+      left: 0;
+    }
+
+    .custom-carousel {
+      &__tabs {
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 100%;
+        padding: 60px 30px;
+        background-color: $color-white;
+        border-radius: 8px;
+        border: 1px solid $color-global-font-10;
+
+        &-tab {
+          box-sizing: border-box;
+          width: 25%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .dajemyslowo-experts {
+    padding: 100px 100px 140px;
+    border-radius: 0 0 8px 8px;
+  }
+}
