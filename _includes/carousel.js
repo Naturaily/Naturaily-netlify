@@ -19,13 +19,15 @@ window.addEventListener('load', () => {
     tabs_disabled: false,
     node: false,
     progress_bar: false,
-    progress_bar_scale: 33.3
+    progress_bar_scale: 33.3,
+    dajemy: false
   }
 
   $carouselWrappers.on('mousedown touchstart', () => {
     $targetCarousel = $(event.target).closest($('[data-carousel="wrapper"]'));
     carousel.is_desktop = $targetCarousel.data('carouselDesktop') ? true : false;
     carousel.progress_bar = $targetCarousel.data('progressBar') ? true : false;
+    carousel.dajemy = $targetCarousel.data('dajemy') ? true : false;
     carousel.max_width = carousel.progress_bar ? 576 : 811;
     windowWidth = $(window).width();
 
@@ -47,7 +49,7 @@ window.addEventListener('load', () => {
       tabs_disabled: $targetCarousel.data('tabsDisabled') ? true : false,
       node: $targetCarousel.data('node') ? true : false,
       full_width: $targetCarousel.data('fullWidth') ? true : false,
-      scale: carousel.progress_bar && !carousel.full_width ? 70 : 100
+      scale: (carousel.progress_bar && !carousel.full_width) || (carousel.dajemy && windowWidth < 576) ? 70 : 100
     };
 
     carousel = { ...carousel, ...parametersUpdate };
