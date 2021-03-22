@@ -13,7 +13,7 @@
   <meta property="og:title"  content="{% if page.meta-title-inset %}{{ page.title }} - {{ page.meta-title-inset }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" >
   <meta property="og:description"  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" >
   <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/images/ogfacebook.jpg{% endif %}">
-  <meta property="og:url" content="{% if page.permalink %}{{ page.permalink }}{% else %}{{ site.url }}{% endif %}">
+  <meta property="og:url" content="{% if page.permalink %}{{ page.permalink }}{% elsif page.url contains 'blog' or page.url contains 'join' %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
   {% if paginator.previous_page %}
     <meta property="og:type" content="website">
   {% elsif page.url contains "/blog" %}
