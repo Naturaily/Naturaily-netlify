@@ -32,21 +32,21 @@ salary-preview:
       sum: '7500 - 12 500 PLN net + VAT '
 what-we-expect:
   - expectation:
-      contents: commercially experienced in User Interface design (min. 3 years)
+      contents: commercial experience in User Interface design (min. 3 years)
   - expectation:
       contents: >-
         the ability to reach, develop and execute design solutions for web and
         mobile applications
   - expectation:
       contents: >-
-        active engage with clients in the creation of prototypes and concepts to
-        be tested
+        active engagement with clients in the creation of prototypes and
+        concepts to be tested
   - expectation:
       contents: >-
         continued support and participation in reciprocal work with development
         teams
   - expectation:
-      contents: the translation of  clients’ needs into visual design concepts and ideas
+      contents: the translation of clients’ needs into visual design concepts and ideas
   - expectation:
       contents: 'direct cooperation with development, marketing and business teams'
   - expectation:
