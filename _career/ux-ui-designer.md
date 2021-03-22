@@ -7,7 +7,7 @@ description: >-
   development, marketing and business teams assisting them in the commercial and
   internal projects.
 layout: career-offer
-image: /assets/images/Copy of Copy of MidReactNativeDeveloper.png
+image: /assets/images/ux-ui-designer.png
 location:
   - Wrocław/Remote
 who-we-are: >-
