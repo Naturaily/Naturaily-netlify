@@ -5,7 +5,7 @@ meta-title-inset: don’t wait - apply
 description: >-
   Working at Naturaily as UX/UI Designer means cooperating with all the
   development, marketing and business teams assisting them in the commercial and
-  internal projects
+  internal projects.
 layout: career-offer
 image: /assets/images/Copy of Copy of MidReactNativeDeveloper.png
 location:
@@ -29,7 +29,7 @@ type: UX/UI
 salary-preview:
   - salary:
       contract: B2B
-      sum: '7 500- 12 500 PLN net + VAT '
+      sum: '7500 - 12 500 PLN net + VAT '
 what-we-expect:
   - expectation:
       contents: commercially experienced in User Interface design (min. 3 years)
@@ -153,9 +153,23 @@ benefits:
         dept.
       benefit-icon: financial-growth-analysis
       benefit-title: You will be proud of your work
+  - benefit:
+      benefit-content: You will be involved in projects tailored to your level of expertise.
+      benefit-icon: monitor-code
+      benefit-title: You will work on a wide range of projects
+  - benefit:
+      benefit-content: 'You can be a part of a bigger team or work alone, if you prefer.'
+      benefit-icon: query-inner-join-right
+      benefit-title: You will choose your work style
+  - benefit:
+      benefit-content: >-
+        You can be a team leader in a chosen technology or you can share your
+        knowledge & experience during in-company Tech-Friday.
+      benefit-icon: ios-photos
+      benefit-title: You will grow along with the company
 salaries:
   - salary:
       contract: B2B
-      sum: 7 500 - 12 500 net + VAT
+      sum: 7500 - 12 500 net + VAT
 ---
 
