@@ -1,8 +1,8 @@
 .dajemyslowo-hero {
   box-sizing: border-box;
   position: relative;
-  height: 800px;
   z-index: -1;
+  height: 800px;
   overflow: hidden;
   background-color: $color-code-orange-bg;
 
@@ -125,8 +125,8 @@
         width: 300px;
   
         &_center, &_right::after {
-          height: 200px;
           width: 200px;
+          height: 200px;
         }
 
         &_right {
@@ -170,8 +170,8 @@
         width: 500px;
 
         &_center, &_right::after {
-          height: 330px;
           width: 330px;
+          height: 330px;
         }
 
         &_right {
@@ -183,8 +183,8 @@
       &-img {
         top: -60px;
         left: -20px;
-        width: 650px;
         transform: none;
+        width: 650px;
       }
     }
   }

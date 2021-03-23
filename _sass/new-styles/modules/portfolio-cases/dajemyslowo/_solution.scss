@@ -132,7 +132,7 @@
       }
 
       &-image {
-        z-index:2;
+        z-index: 2;
         margin: 0;
         padding: 0;
       }
@@ -181,8 +181,8 @@
         position: relative;
 
         &--bicycle {
-          max-width: 405px;
           left: 50px;
+          max-width: 405px;
           padding-left: 50px;
         }
       }
