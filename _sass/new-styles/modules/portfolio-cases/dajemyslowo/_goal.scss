@@ -1,8 +1,8 @@
 .dajemyslowo-goal {
   box-sizing: border-box;
   width: 100%;
-  overflow: hidden;
   padding-top: 50px;
+  overflow: hidden;
 
   &__decor-1, &__decor-2 {
     display: none;
@@ -74,9 +74,9 @@
       }
 
       &__hand {
-        max-width: 170px;
         width: 23%;
         height: 23%;
+        max-width: 170px;
       }
 
       &__plus, &__equals {
@@ -234,11 +234,9 @@
       }
     }
 
-    &__picture {
-      &-arrow {
-        top: 185px;
-        right: 70px;
-      }
+    &__picture-arrow {
+      top: 185px;
+      right: 70px;
     }
   }
 }

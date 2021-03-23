@@ -36,9 +36,9 @@
   }
 
   &__list {
-    list-style-type: none;
     padding-left: 80px;
     padding-right: 15px;
+    list-style-type: none;
 
     li {
       position: relative;
@@ -76,7 +76,6 @@
       margin-top: 30px;
       font-size: 16px;
       line-height: 24px;
-      
     }
 
     .custom-carousel__tabs {
@@ -177,8 +176,8 @@
 @media (min-width: 992px) {
   .dajemyslowo-results {
     &__image {
-      width: 110%;
       transform: translateX(-5%);
+      width: 110%;
     }
 
     &__intro {

@@ -1,8 +1,8 @@
 .dajemyslowo-stack {
   padding: 65px 0;
-  background-color: $color-code-orange-bg;
   border-top: 1px solid $color-global-font-10;
   border-bottom: 1px solid $color-global-font-10;
+  background-color: $color-code-orange-bg;
 
   &__header, .custom-carousel__tabs-tab {
     padding: 0 30px;
@@ -103,10 +103,8 @@
   .dajemyslowo-stack {
     padding-top: 100px;
 
-    .custom-carousel__tabs {
-      &-tab {
-        margin-bottom: 80px;
-      }
+    .custom-carousel__tabs-tab {
+      margin-bottom: 80px;
     }
   }
 }

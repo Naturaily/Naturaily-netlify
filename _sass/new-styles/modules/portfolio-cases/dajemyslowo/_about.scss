@@ -89,8 +89,8 @@
       margin-top: 100px;
 
       img {
-        width: 1200px;
         transform: translateX(-185px);
+        width: 1200px;
       }
     }
   }
@@ -155,9 +155,9 @@
 
     &__separator {
       order: 3;
+      transform: translateX(-100px);
       width: 100vw;
       min-width: 100vw;
-      transform: translateX(-100px);
       margin-top: 125px;
       margin-bottom: 0;
 
