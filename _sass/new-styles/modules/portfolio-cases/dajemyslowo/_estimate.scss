@@ -99,30 +99,28 @@
 }
 
 @media (min-width: 992px) {
-  .dajemyslowo-estimate {
-    &__content {
-      padding-left: 70px;
+  .dajemyslowo-estimate__content {
+    padding-left: 70px;
 
-      &-header {
-        font-size: 36px;
-        line-height: 50px;
-        font-weight: 200;
-      }
+    &-header {
+      font-size: 36px;
+      line-height: 50px;
+      font-weight: 200;
+    }
 
-      &-text {
-        margin: 30px 0 40px;
-        font-size: 24px;
-        line-height: 32px;
-        font-weight: 200;
-      }
+    &-text {
+      margin: 30px 0 40px;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 200;
+    }
 
-      .btn {
-        box-shadow: 0 6px 16px 0 $color-estimate-light-shadow;
+    .btn {
+      box-shadow: 0 6px 16px 0 $color-estimate-light-shadow;
 
-        &:hover {
-          transform: scale(1.05);
-          box-shadow: 0 6px 16px 0 $color-estimate-shadow;
-        }
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 16px 0 $color-estimate-shadow;
       }
     }
   }
