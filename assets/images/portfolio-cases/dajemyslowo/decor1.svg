@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="284" height="226" viewBox="0 0 284 226">
-    <g fill="none" fill-rule="evenodd">
-        <path stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M82.319 107.848L41.845 46.024M192.763 226L266.85 208.14" transform="translate(-1292 -1852) translate(1292 1852)"/>
-        <path fill="#00A1D6" d="M69.971 150.781c0 3.222-2.756 5.84-6.174 5.84-3.407 0-6.174-2.618-6.174-5.84s2.767-5.839 6.174-5.839c3.418 0 6.174 2.617 6.174 5.84M195.052 138.416c0 2.955-2.25 5.349-5.027 5.349-2.788 0-5.038-2.394-5.038-5.349 0-2.954 2.25-5.348 5.038-5.348 2.777 0 5.027 2.394 5.027 5.348" transform="translate(-1292 -1852) translate(1292 1852)"/>
-        <path fill="#EE3F2E" d="M21.952 10.99c0 6.079-4.907 10.992-10.976 10.992C4.917 21.982 0 17.069 0 10.99 0 4.913 4.917 0 10.976 0c6.07 0 10.976 4.913 10.976 10.99" transform="translate(-1292 -1852) translate(1292 1852)"/>
-        <path stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M217.459 193.714L284 144.942" transform="translate(-1292 -1852) translate(1292 1852)"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="284" height="226" viewBox="0 0 284 226" style="overflow: visible;">
+    <path class="dajemyslowo-goal__decor-2__line-1" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M 82.319 107.848 L 41.845 46.0244"/>
+    <path class="dajemyslowo-goal__decor-2__line-2" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M 82 107 M 192.763 226 L 266.85 208.14"/>
+    <path class="dajemyslowo-goal__decor-2__line-3" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M217.459 193.714L284 144.942"/>
+    <path class="dajemyslowo-goal__decor-2__dot-red" fill="#EE3F2E" d="M21.952 10.99c0 6.079-4.907 10.992-10.976 10.992C4.917 21.982 0 17.069 0 10.99 0 4.913 4.917 0 10.976 0c6.07 0 10.976 4.913 10.976 10.99"/>
+    <path class="dajemyslowo-goal__decor-2__dot-blue1" fill="#00A1D6" d="M 69.971 150.781 c 0 3.222 -2.756 5.84 -6.174 5.84 c -3.407 0 -6.174 -2.618 -6.174 -5.84 s 2.767 -5.839 6.174 -5.839 c 3.418 0 6.174 2.617 6.174 5.84 c 0 2.955 -2.25 5.349 -5.027 5.349"/>
+    <path class="dajemyslowo-goal__decor-2__dot-blue2" fill="#00A1D6" d="M 69.971 150.781 M 195.052 138.416 c 0 2.955 -2.25 5.349 -5.027 5.349 c -2.788 0 -5.038 -2.394 -5.038 -5.349 c 0 -2.954 2.25 -5.348 5.038 -5.348 c 2.777 0 5.027 2.394 5.027 5.348"/>
 </svg>
