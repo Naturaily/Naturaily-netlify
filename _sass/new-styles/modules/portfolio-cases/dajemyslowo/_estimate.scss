@@ -1,0 +1,129 @@
+.dajemyslowo-estimate {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 65px 30px 90px;
+
+  &__image {
+    order: 1;
+
+    img {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  &__content {
+    order: 0;
+
+    &-header {
+      font-size: 24px;
+      line-height: 39px;
+      font-weight: 400;
+      color: $color-global-font;
+    }
+
+    &-text {
+      margin: 30px 0 55px;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 300;
+      color: $color-global-font;
+    }
+
+    .btn {
+      box-sizing: border-box;
+      position: absolute;
+      bottom: 10px;
+      left: 30px;
+      width: 235px;
+      padding: 19px 10px 19px 25px;
+      font-weight: 200;
+      box-shadow: none;
+
+      &:hover {
+        transform: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .dajemyslowo-estimate {
+    padding: 65px 100px 90px;
+
+    &__content .btn {
+      left: 100px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .dajemyslowo-estimate {
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 15px;
+
+    &__image, &__content {
+      order: unset;
+      box-sizing: border-box;
+    }
+
+    &__image {
+      width: 45%;
+      max-width: 370px;
+      padding-top: 45px;
+      box-shadow: 0 0 30px -18px $color-estimate-light-shadow;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 55%;
+      padding: 25px 0 15px 50px;
+
+      &-text {
+        max-width: 480px;
+        margin: 20px 0 30px;
+      }
+
+      .btn {
+        position: static;
+        margin: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .dajemyslowo-estimate {
+    &__content {
+      padding-left: 70px;
+
+      &-header {
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 200;
+      }
+
+      &-text {
+        margin: 30px 0 40px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 200;
+      }
+
+      .btn {
+        box-shadow: 0 6px 16px 0 $color-estimate-light-shadow;
+
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 0 6px 16px 0 $color-estimate-shadow;
+        }
+      }
+    }
+  }
+}
