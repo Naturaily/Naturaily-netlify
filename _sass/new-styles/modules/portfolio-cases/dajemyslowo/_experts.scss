@@ -115,21 +115,19 @@
       left: 0;
     }
 
-    .custom-carousel {
-      &__tabs {
-        box-sizing: border-box;
-        display: flex;
-        flex-flow: row nowrap;
-        width: 100%;
-        padding: 60px 30px;
-        background-color: $color-white;
-        border-radius: 8px;
-        border: 1px solid $color-global-font-10;
+    .custom-carousel__tabs {
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: row nowrap;
+      width: 100%;
+      padding: 60px 30px;
+      background-color: $color-white;
+      border-radius: 8px;
+      border: 1px solid $color-global-font-10;
 
-        &-tab {
-          box-sizing: border-box;
-          width: 25%;
-        }
+      &-tab {
+        box-sizing: border-box;
+        width: 25%;
       }
     }
   }
