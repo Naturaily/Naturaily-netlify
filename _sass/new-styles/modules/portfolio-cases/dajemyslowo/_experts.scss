@@ -137,7 +137,11 @@
 
 @media (min-width: 992px) {
   .dajemyslowo-experts {
-    padding: 100px 100px 140px;
+    padding: 100px 100px 140px 70px;
     border-radius: 0 0 8px 8px;
+
+    &__header {
+      padding: 0 30px;
+    }
   }
 }
