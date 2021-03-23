@@ -1,0 +1,137 @@
+.dajemyslowo-testimonials {
+  padding: 50px 30px;
+  background-color: $color-code-orange-bg;
+
+  .case__title {
+    padding: 30px 0 50px;
+    line-height: 50px;
+    font-weight: 200;
+    color: $color-global-font;
+  }
+
+  &__quote {
+    padding-left: 15px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 300;
+    color: $color-global-font;
+
+    &--secondary {
+      color: $color-secondary;
+    }
+  }
+
+  &__credits {
+    margin: 30px 0;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-global-font;
+
+    &-name {
+      position: relative;
+      font-weight: 400;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 9px;
+        left: -25px;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        background-color: $color-accent-yellow;
+      }
+    }
+
+    &-position {
+      opacity: .5;
+    }
+  }
+
+  &__columns {
+    &-left {
+      position: relative;
+
+      .icon-quote {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+        font-size: 70px;
+        color: $color-accent-yellow;
+        opacity: .1;
+      }
+    }
+
+    &-right {
+      font-size: 16px;
+      line-height: 28.8px;
+      color: $color-page-text;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .dajemyslowo-testimonials {
+    padding: 65px 100px;
+  }
+}
+
+@media (min-width: 811px) {
+  .dajemyslowo-testimonials {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 100px;
+
+    &__wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .case__title {
+      padding: 40px 0 55px;
+      font-weight: 300;
+    }
+
+    &__quote {
+      padding-left: 0;
+    }
+
+    &__credits {
+      margin-bottom: 0;
+    }
+
+    &__columns {
+      display: flex;
+      flex-flow: row nowrap;
+
+      &-left, &-right {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 25px;
+
+        .icon-quote {
+          display: none;
+        }
+      }
+
+      &-right {
+        padding-left: 45px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .dajemyslowo-testimonials {
+    border-radius: 0 0 8px 8px;
+  }
+}
