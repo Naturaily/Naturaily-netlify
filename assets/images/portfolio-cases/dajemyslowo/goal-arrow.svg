@@ -1,11 +1,11 @@
 <svg viewBox="0 0 150 170">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g stroke="#761113" stroke-width="0.5" stroke-linejoin="round">
-            <path d="M0,160 C0,160 117.000886,109.243816 143,27" class="primary__StyledLine-yqvnwn-2 fMXKJs"></path>
-            <path d="M86,130 C86,130 117.877493,110.218843 134,81" class="primary__StyledLine-yqvnwn-2 cLqlTQ"></path>
+            <path class="dajemyslowo-goal__picture-arrow__line" d="M0,160 C0,160 117.000886,109.243816 143,27" class="primary__StyledLine-yqvnwn-2 fMXKJs"></path>
+            <path class="dajemyslowo-goal__picture-arrow__line" d="M86,130 C86,130 117.877493,110.218843 134,81" class="primary__StyledLine-yqvnwn-2 cLqlTQ"></path>
         </g>
         <g transform="translate(112.000000, 0.000000)">
-            <polygon fill="#99A2D1" points="0.6742 55.051225 41.354 63.952975 40.3152 0.724225"></polygon>
+            <polygon class="dajemyslowo-goal__picture-arrow__triangle" fill="#99A2D1" points="0.6742 55.051225 41.354 63.952975 40.3152 0.724225"></polygon>
         </g>
     </g>
 </svg>
