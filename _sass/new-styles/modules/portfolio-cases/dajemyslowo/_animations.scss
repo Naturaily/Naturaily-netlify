@@ -5,7 +5,7 @@
         &__arrow {
           transform: scale(0) rotate(40deg);
           transform-origin: 90px 170px;
-          animation: arrowAnimation 6.5s .1s infinite;
+          animation: redArrowAnimation 6.5s .1s infinite;
         }
 
         &__line, &__arc, &__circle {
@@ -24,34 +24,38 @@
       }
 
       &__decor-2 {
-        &__line-1, &__line-2, &__line-3 {
-          stroke-dasharray: 1000;
-          stroke-dashoffset: 1000;
-          animation: linesAnimation 6.5s infinite;
+        &__line {
+          &-1, &-2, &-3 {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: linesAnimation 6.5s infinite;
+          }
+
+          &-1 { animation-delay: 2.4s; }
+          &-2 { animation-delay: 2s; }
+          &-3 { animation-delay: 3.1s; }
         }
 
-        &__dot-red, &__dot-blue1, &__dot-blue2 {
-          transform: scale(0);
-          animation: dotAnimation 6.5s infinite;
-        }
-  
-        &__line-1 { animation-delay: 2.4s; }
-        &__line-2 { animation-delay: 2s; }
-        &__line-3 { animation-delay: 3.1s; }
-  
-        &__dot-red {
-          transform-origin: 10px 10px;
-          animation-delay: 3s;
-        }
-  
-        &__dot-blue1 {
-          transform-origin: 65px 155px;
-          animation-delay: 3.6s;
-        }
-  
-        &__dot-blue2 {
-          transform-origin: 190px 150px;
-          animation-delay: 2.8s;
+        &__dot {
+          &-red, &-blue1, &-blue2 {
+            transform: scale(0);
+            animation: dotAnimation 6.5s infinite;
+          }
+
+          &-red {
+            transform-origin: 10px 10px;
+            animation-delay: 3s;
+          }
+    
+          &-blue1 {
+            transform-origin: 65px 155px;
+            animation-delay: 3.6s;
+          }
+    
+          &-blue2 {
+            transform-origin: 190px 150px;
+            animation-delay: 2.8s;
+          }
         }
       }
 
@@ -63,58 +67,101 @@
             animation: letterAnimation 6.5s 2.3s infinite;
           }
 
-          &__triangle, &__cloud1, &__cloud2 {
+          &__triangle {
             transform: scale(0);
             animation: scaleAnimation 6.5s infinite;
-          }
-
-          &__triangle, &__cloud1 {
             transform-origin: 20px 20px;
             animation-delay: 2.5s;
           }
 
-          &__cloud2 {
-            transform-origin: 140px 100px;
-            animation-delay: 2.7s;
+          &__cloud {
+            &-1, &-2 {
+              transform: scale(0);
+              animation: scaleAnimation 6.5s infinite;
+            }
+
+            &-1 {
+              transform-origin: 20px 20px;
+              animation-delay: 2.5s;
+            }
+
+            &-2 {
+              transform-origin: 140px 100px;
+              animation-delay: 2.7s;
+            }
           }
 
-          &__line1, &__line2, &__line3, &__line4 {
-            stroke-dasharray: 1000;
-            stroke-dashoffset: 1000;
-            animation-duration: 6.5s;
-            animation-iteration-count: infinite;
-          }
+          &__line {
+            &-1, &-2, &-3, &-4 {
+              stroke-dasharray: 1000;
+              stroke-dashoffset: 1000;
+              animation-duration: 6.5s;
+              animation-iteration-count: infinite;
+            }
 
-          &__line1, &__line2, &__line3 {
-            animation-name: letterPathsAnimation; 
-          }
+            &-1 {
+              animation-delay: 2s;
+              animation-name: pathsAnimation;
+            }
 
-          &__line4 {
-            animation-name: letterLinesAnimation;
-          }
+            &-2, &-3 { 
+              animation-delay: 2.5s;
+              animation-name: pathsAnimation;
+            }
 
-          &__line1 { animation-delay: 2s; }
-          &__line2, &__line3 { animation-delay: 2.5s; }
-          &__line4 { animation-delay: 2.6s; }
+            &-4 { 
+              animation-delay: 2.6s;
+              animation-name: letterPathsAnimation;
+            }
+          }
         }
 
         &-decor {
+          &__line {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: linesAnimation 6.5s infinite;
+            animation-delay: 2.4s;
+          }
+  
+          &__dot {
+            &-red, &-blue {
+              transform: scale(0);
+              animation: dotAnimation 6.5s infinite;
+            }
+            
+            &-red {
+              transform-origin: 7px 7px;
+              animation-delay: 3s;
+            }
 
+            &-blue {
+              transform-origin: 37px 87px;
+              animation-delay: 3.6s;
+            }
+          }
         }
 
         &-arrow {
-
-        }
-
-        &-confetti {
-
+          &__triangle {
+            transform: scale(0);
+            transform-origin: 25px 32px;
+            animation: violetArrowAnimation 5s 1.5s infinite;
+          }
+          
+          &__line {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: 5s 1.5s infinite;
+            animation-name: shortPathsAnimation;
+          }
         }
       }
     }
   }
 }
 
-@keyframes arrowAnimation {
+@keyframes redArrowAnimation {
   0% { transform: scale(0) rotate(40deg); }
   2% { transform: scale(0) rotate(40deg); }
   7% { transform: none; }
@@ -123,22 +170,13 @@
   100% { transform: scale(0) rotate(40deg); }
 }
 
-@keyframes lineAnimation {
-  0% { stroke-dashoffset: 1000; }
-  2% { stroke-dashoffset: 1000; }
-  10% { stroke-dashoffset: 800; }
-  74% { stroke-dashoffset: 800; }
-  80% { stroke-dashoffset: 1000; }
-  100% { stroke-dashoffset: 1000; }
-}
-
-@keyframes arcAnimation {
-  0% { stroke-dashoffset: 1000; }
-  4% { stroke-dashoffset: 1000; }
-  8% { stroke-dashoffset: 700; }
-  78% { stroke-dashoffset: 700; }
-  84% { stroke-dashoffset: 1000; }
-  100% { stroke-dashoffset: 1000; }
+@keyframes violetArrowAnimation {
+  0% { transform: scale(0) translateZ(0); }
+  2.4% { transform: scale(-.2) translateZ(0); }
+  8.4% { transform: scale(1) translateZ(0); }
+  54% { transform: scale(1) translateZ(0); }
+  61.2% { transform: scale(0) translateZ(0); }
+  100% { transform: scale(0) translateZ(0); }
 }
 
 @keyframes dotAnimation {
@@ -154,11 +192,38 @@
   100% { transform: scale(0); }
 }
 
+@keyframes scaleAnimation {
+  0% { transform: scale(0); }
+  3% { transform: scale(0); }
+  12.2% { transform: scale(1); }
+  66% { transform: scale(1); }
+  72.2% { transform: scale(0); }
+  100% { transform: scale(0); }
+}
+
+@keyframes lineAnimation {
+  0% { stroke-dashoffset: 1000; }
+  2% { stroke-dashoffset: 1000; }
+  10% { stroke-dashoffset: 800; }
+  74% { stroke-dashoffset: 800; }
+  80% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 1000; }
+}
+
 @keyframes linesAnimation {
   0% { stroke-dashoffset: 1000; }
   12.2% { stroke-dashoffset: 0; }
   70.7% { stroke-dashoffset: 0; }
   76.8% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 1000; }
+}
+
+@keyframes arcAnimation {
+  0% { stroke-dashoffset: 1000; }
+  4% { stroke-dashoffset: 1000; }
+  8% { stroke-dashoffset: 700; }
+  78% { stroke-dashoffset: 700; }
+  84% { stroke-dashoffset: 1000; }
   100% { stroke-dashoffset: 1000; }
 }
 
@@ -171,7 +236,7 @@
   100% { transform: scale(0) rotate(35deg); }
 }
 
-@keyframes letterPathsAnimation {
+@keyframes pathsAnimation {
   0% { stroke-dashoffset: 1000; }
   3% { stroke-dashoffset: 1000; }
   12.2% { stroke-dashoffset: 930; }
@@ -179,19 +244,19 @@
   72.2% { stroke-dashoffset: 1000; }
 }
 
-@keyframes letterLinesAnimation {
+@keyframes shortPathsAnimation {
+  0% { stroke-dashoffset: 1000; }
+  2.4% { stroke-dashoffset: 1000; }
+  12% { stroke-dashoffset: 750; }
+  54% { stroke-dashoffset: 750; }
+  61.2% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 1000; }
+};
+
+@keyframes letterPathsAnimation {
   0% { stroke-dashoffset: 1000; }
   3% { stroke-dashoffset: 1000; }
   15% { stroke-dashoffset: 0; }
   50% { stroke-dashoffset: 0; }
   62% { stroke-dashoffset: 1000; }
-}
-
-@keyframes scaleAnimation {
-  0% { transform: scale(0); }
-  3% { transform: scale(0); }
-  12.2% { transform: scale(1); }
-  66% { transform: scale(1); }
-  72.2% { transform: scale(0); }
-  100% { transform: scale(0); }
 }
