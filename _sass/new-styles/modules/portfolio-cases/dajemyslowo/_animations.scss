@@ -1,6 +1,45 @@
 @media (min-width: 992px) {
   .dajemyslowo {
+    &-goal__decor, &-solution__decor {
+      &-line {
+        &_1, &_2, &_3 {
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: linesAnimation 6.5s infinite;
+        }
+
+        &_1 { animation-delay: 2.4s; }
+        &_2 { animation-delay: 2s; }
+        &_3 { animation-delay: 3.1s; }
+      }
+
+      &-dot {
+        &_red, &_blue1, &_blue2 {
+          transform: scale(0);
+          animation: dotAnimation 6.5s infinite;
+        }
+
+        &_red { animation-delay: 3s; }
+        &_blue1 { animation-delay: 2.8s; }
+        &_blue2 { animation-delay: 3.6s; }
+      }
+    }
+    
     &-goal {
+      &__decor-dot {
+        &_red {
+          transform-origin: 10px 10px;
+        }
+  
+        &_blue1 {
+          transform-origin: 65px 155px;
+        }
+  
+        &_blue2 {
+          transform-origin: 190px 150px;
+        }
+      }
+
       &__decor-1 {
         &__arrow {
           transform: scale(0) rotate(40deg);
@@ -20,42 +59,6 @@
 
         &__arc {
           animation: arcAnimation 6.5s .1s infinite;
-        }
-      }
-
-      &__decor-2 {
-        &__line {
-          &-1, &-2, &-3 {
-            stroke-dasharray: 1000;
-            stroke-dashoffset: 1000;
-            animation: linesAnimation 6.5s infinite;
-          }
-
-          &-1 { animation-delay: 2.4s; }
-          &-2 { animation-delay: 2s; }
-          &-3 { animation-delay: 3.1s; }
-        }
-
-        &__dot {
-          &-red, &-blue1, &-blue2 {
-            transform: scale(0);
-            animation: dotAnimation 6.5s infinite;
-          }
-
-          &-red {
-            transform-origin: 10px 10px;
-            animation-delay: 3s;
-          }
-    
-          &-blue1 {
-            transform-origin: 65px 155px;
-            animation-delay: 3.6s;
-          }
-    
-          &-blue2 {
-            transform-origin: 190px 150px;
-            animation-delay: 2.8s;
-          }
         }
       }
 
@@ -155,6 +158,22 @@
             animation: 5s 1.5s infinite;
             animation-name: shortPathsAnimation;
           }
+        }
+      }
+    }
+
+    &-solution {
+      &__decor-dot {
+        &_red { 
+          transform-origin: 16px 16px; 
+        }
+
+        &_blue1 { 
+          transform-origin: 93px 220px; 
+        }
+
+        &_blue2 { 
+          transform-origin: 275px 200px; 
         }
       }
     }
