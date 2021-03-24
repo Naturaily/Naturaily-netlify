@@ -54,6 +54,62 @@
           animation-delay: 2.8s;
         }
       }
+
+      &__picture {
+        &-letter {
+          &__letter {
+            transform: scale(0) rotate(35deg);
+            transform-origin: 70px 90px;
+            animation: letterAnimation 6.5s 2.3s infinite;
+          }
+
+          &__triangle, &__cloud1, &__cloud2 {
+            transform: scale(0);
+            animation: scaleAnimation 6.5s infinite;
+          }
+
+          &__triangle, &__cloud1 {
+            transform-origin: 20px 20px;
+            animation-delay: 2.5s;
+          }
+
+          &__cloud2 {
+            transform-origin: 140px 100px;
+            animation-delay: 2.7s;
+          }
+
+          &__line1, &__line2, &__line3, &__line4 {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation-duration: 6.5s;
+            animation-iteration-count: infinite;
+          }
+
+          &__line1, &__line2, &__line3 {
+            animation-name: letterPathsAnimation; 
+          }
+
+          &__line4 {
+            animation-name: letterLinesAnimation;
+          }
+
+          &__line1 { animation-delay: 2s; }
+          &__line2, &__line3 { animation-delay: 2.5s; }
+          &__line4 { animation-delay: 2.6s; }
+        }
+
+        &-decor {
+
+        }
+
+        &-arrow {
+
+        }
+
+        &-confetti {
+
+        }
+      }
     }
   }
 }
@@ -104,4 +160,38 @@
   70.7% { stroke-dashoffset: 0; }
   76.8% { stroke-dashoffset: 1000; }
   100% { stroke-dashoffset: 1000; }
+}
+
+@keyframes letterAnimation {
+  0% { transform: scale(0) rotate(35deg); }
+  3% { transform: scale(0) rotate(35deg); }
+  12.2% { transform: none; }
+  66% { transform: none; }
+  72.2% { transform: scale(0) rotate(35deg); }
+  100% { transform: scale(0) rotate(35deg); }
+}
+
+@keyframes letterPathsAnimation {
+  0% { stroke-dashoffset: 1000; }
+  3% { stroke-dashoffset: 1000; }
+  12.2% { stroke-dashoffset: 930; }
+  66% { stroke-dashoffset: 930; }
+  72.2% { stroke-dashoffset: 1000; }
+}
+
+@keyframes letterLinesAnimation {
+  0% { stroke-dashoffset: 1000; }
+  3% { stroke-dashoffset: 1000; }
+  15% { stroke-dashoffset: 0; }
+  50% { stroke-dashoffset: 0; }
+  62% { stroke-dashoffset: 1000; }
+}
+
+@keyframes scaleAnimation {
+  0% { transform: scale(0); }
+  3% { transform: scale(0); }
+  12.2% { transform: scale(1); }
+  66% { transform: scale(1); }
+  72.2% { transform: scale(0); }
+  100% { transform: scale(0); }
 }
