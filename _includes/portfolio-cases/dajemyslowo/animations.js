@@ -21,7 +21,7 @@ ScrollTrigger.matchMedia({
     ;
 
     gsap
-      .timeline({ scrollTrigger: { trigger: '[data-gsap="results"]', start: "-200px center" } })
+      .timeline({ scrollTrigger: { trigger: '[data-gsap="results"]', start: "-300px center" } })
       .from('[data-gsap="results-man"]', { duration: 1, opacity: 0, x: -150, y: -200, ease: "power3.in" })
       .from('[data-gsap="results-woman"]', { duration: 1, opacity: 0, rotation: -45, x: 50, ease: "power3.in" }, "-=1")
     ;
