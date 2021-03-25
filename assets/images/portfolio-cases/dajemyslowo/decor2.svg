@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="163" height="190" viewBox="0 0 163 190">
     <g fill="none" fill-rule="evenodd">
-        <path class="dajemyslowo-goal__decor-1__line" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M11.866 10.625L69.946 0M16.862 42.504c0z" transform="translate(-42 -2248) translate(42 2248)"/>
-        <path class="dajemyslowo-goal__decor-1__circle" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M12 11 M 16.862 42.504 c 0 4.833 -3.77 8.746 -8.435 8.746 C 3.77 51.25 0 47.337 0 42.504 c 0 -4.84 3.77 -8.754 8.427 -8.754 c 4.665 0 8.435 3.913 8.435 8.754z" transform="translate(-42 -2248) translate(42 2248)"/>
+        <path class="dajemyslowo-goal__decor-1__line" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M 11.866 10.625 L 70 0 z" transform="translate(-42 -2248) translate(42 2248)"/>
+        <path class="dajemyslowo-goal__decor-1__circle" stroke="#761113" stroke-linejoin="round" stroke-width=".35" d="M12 11 M 16.862 42.504 c 0 4.833 -3.77 8.746 -8.435 8.746 C 3.77 51.25 0 47.337 0 42.504 c 0 -4.84 3.77 -8.754 8.427 -8.754 c 4.665 0 8.435 3.913 8.435 8.754z" transform="translate(-42 -2248) translate(42 2248)"/>
         <path class="dajemyslowo-goal__decor-1__arrow" fill="#EE3F2E" d="M52.185 75L21.858 117.022 60.579 131.25z" transform="translate(-42 -2248) translate(42 2248)"/>
         <path class="dajemyslowo-goal__decor-1__arc" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M81.188 190s29.783-8.787 47.415-25.494C156.613 137.933 163 111.25 163 111.25" transform="translate(-42 -2248) translate(42 2248)"/>
     </g>
