@@ -112,8 +112,8 @@
     }
 
     &__decor-2 {
-      bottom: 310px;
-      left: -150px;
+      bottom: 300px;
+      left: -200px;
     }
 
     &__columns {
@@ -175,6 +175,11 @@
 @media (min-width: 1200px) {
   .dajemyslowo-solution {
     border-radius: 8px 8px 0 0;
+
+    &__decor-2 {
+      bottom: 310px;
+      left: -140px;
+    }
     
     &__columns {
       &-image {
