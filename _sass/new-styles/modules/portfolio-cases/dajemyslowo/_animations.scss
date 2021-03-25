@@ -1,183 +1,191 @@
-@media (min-width: 992px) {
-  .dajemyslowo {
-    &-goal__decor, &-solution__decor {
-      &-line {
-        &_1, &_2, &_3 {
-          stroke-dasharray: 1000;
-          stroke-dashoffset: 1000;
-          animation: linesAnimation 6.5s infinite;
-        }
-
-        &_1 { animation-delay: 2.4s; }
-        &_2 { animation-delay: 2s; }
-        &_3 { animation-delay: 3.1s; }
+.dajemyslowo {
+  &-goal__decor, &-solution__decor {
+    &-line {
+      &_1, &_2, &_3 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: linesAnimation 6.5s infinite;
       }
 
-      &-dot {
-        &_red, &_blue1, &_blue2 {
-          transform: scale(0);
-          animation: dotAnimation 6.5s infinite;
-        }
+      &_1 { animation-delay: 2.4s; }
+      &_2 { animation-delay: 2s; }
+      &_3 { animation-delay: 3.1s; }
+    }
 
-        &_red { animation-delay: 3s; }
-        &_blue1 { animation-delay: 2.8s; }
-        &_blue2 { animation-delay: 3.6s; }
+    &-dot {
+      &_red, &_blue1, &_blue2 {
+        transform: scale(0);
+        animation: dotAnimation 6.5s infinite;
+      }
+
+      &_red { animation-delay: 3s; }
+      &_blue1 { animation-delay: 2.8s; }
+      &_blue2 { animation-delay: 3.6s; }
+    }
+  }
+  
+  &-goal {
+    &__decor-dot {
+      &_red {
+        transform-origin: 10px 10px;
+      }
+
+      &_blue1 {
+        transform-origin: 65px 155px;
+      }
+
+      &_blue2 {
+        transform-origin: 190px 150px;
       }
     }
-    
-    &-goal {
-      &__decor-dot {
-        &_red {
-          transform-origin: 10px 10px;
-        }
-  
-        &_blue1 {
-          transform-origin: 65px 155px;
-        }
-  
-        &_blue2 {
-          transform-origin: 190px 150px;
-        }
+
+    &__decor-1 {
+      &__arrow {
+        transform: scale(0) rotate(40deg);
+        transform-origin: 90px 170px;
+        animation: redArrowAnimation 6.5s .1s infinite;
       }
 
-      &__decor-1 {
-        &__arrow {
-          transform: scale(0) rotate(40deg);
-          transform-origin: 90px 170px;
-          animation: redArrowAnimation 6.5s .1s infinite;
-        }
-
-        &__line, &__arc, &__circle {
-          stroke-dasharray: 1000;
-          stroke-dashoffset: 1000;
-          animation-delay: .2s;
-        }
-
-        &__line, &__circle {
-          animation: lineAnimation 6.5s .1s infinite;
-        }
-
-        &__arc {
-          animation: arcAnimation 6.5s .1s infinite;
-        }
+      &__line, &__arc, &__circle {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation-delay: .2s;
       }
 
-      &__picture {
-        &-letter {
-          &__letter {
-            transform: scale(0) rotate(35deg);
-            transform-origin: 70px 90px;
-            animation: letterAnimation 6.5s 2.3s infinite;
-          }
+      &__line, &__circle {
+        animation: lineAnimation 6.5s .1s infinite;
+      }
 
-          &__triangle {
+      &__arc {
+        animation: arcAnimation 6.5s .1s infinite;
+      }
+    }
+
+    &__picture {
+      &-letter {
+        &__letter {
+          transform: scale(0) rotate(35deg);
+          transform-origin: 70px 90px;
+          animation: letterAnimation 6.5s 2.3s infinite;
+        }
+
+        &__triangle {
+          transform: scale(0);
+          animation: scaleAnimation 6.5s infinite;
+          transform-origin: 20px 20px;
+          animation-delay: 2.5s;
+        }
+
+        &__cloud {
+          &-1, &-2 {
             transform: scale(0);
             animation: scaleAnimation 6.5s infinite;
+          }
+
+          &-1 {
             transform-origin: 20px 20px;
             animation-delay: 2.5s;
           }
 
-          &__cloud {
-            &-1, &-2 {
-              transform: scale(0);
-              animation: scaleAnimation 6.5s infinite;
-            }
-
-            &-1 {
-              transform-origin: 20px 20px;
-              animation-delay: 2.5s;
-            }
-
-            &-2 {
-              transform-origin: 140px 100px;
-              animation-delay: 2.7s;
-            }
-          }
-
-          &__line {
-            &-1, &-2, &-3, &-4 {
-              stroke-dasharray: 1000;
-              stroke-dashoffset: 1000;
-              animation-duration: 6.5s;
-              animation-iteration-count: infinite;
-            }
-
-            &-1 {
-              animation-delay: 2s;
-              animation-name: pathsAnimation;
-            }
-
-            &-2, &-3 { 
-              animation-delay: 2.5s;
-              animation-name: pathsAnimation;
-            }
-
-            &-4 { 
-              animation-delay: 2.6s;
-              animation-name: letterPathsAnimation;
-            }
+          &-2 {
+            transform-origin: 140px 100px;
+            animation-delay: 2.7s;
           }
         }
 
-        &-decor {
-          &__line {
+        &__line {
+          &-1, &-2, &-3, &-4 {
             stroke-dasharray: 1000;
             stroke-dashoffset: 1000;
-            animation: linesAnimation 6.5s infinite;
-            animation-delay: 2.4s;
+            animation-duration: 6.5s;
+            animation-iteration-count: infinite;
           }
-  
-          &__dot {
-            &-red, &-blue {
-              transform: scale(0);
-              animation: dotAnimation 6.5s infinite;
-            }
-            
-            &-red {
-              transform-origin: 7px 7px;
-              animation-delay: 3s;
-            }
 
-            &-blue {
-              transform-origin: 37px 87px;
-              animation-delay: 3.6s;
-            }
+          &-1 {
+            animation-delay: 2s;
+            animation-name: pathsAnimation;
           }
-        }
 
-        &-arrow {
-          &__triangle {
-            transform: scale(0);
-            transform-origin: 25px 32px;
-            animation: violetArrowAnimation 5s 1.5s infinite;
+          &-2, &-3 { 
+            animation-delay: 2.5s;
+            animation-name: pathsAnimation;
           }
-          
-          &__line {
-            stroke-dasharray: 1000;
-            stroke-dashoffset: 1000;
-            animation: 5s 1.5s infinite;
-            animation-name: shortPathsAnimation;
+
+          &-4 { 
+            animation-delay: 2.6s;
+            animation-name: letterPathsAnimation;
           }
         }
       }
-    }
 
-    &-solution {
-      &__decor-dot {
-        &_red { 
-          transform-origin: 16px 16px; 
+      &-decor {
+        &__line {
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: linesAnimation 6.5s infinite;
+          animation-delay: 2.4s;
         }
 
-        &_blue1 { 
-          transform-origin: 93px 220px; 
-        }
+        &__dot {
+          &-red, &-blue {
+            transform: scale(0);
+            animation: dotAnimation 6.5s infinite;
+          }
+          
+          &-red {
+            transform-origin: 7px 7px;
+            animation-delay: 3s;
+          }
 
-        &_blue2 { 
-          transform-origin: 275px 200px; 
+          &-blue {
+            transform-origin: 37px 87px;
+            animation-delay: 3.6s;
+          }
+        }
+      }
+
+      &-arrow {
+        &__triangle {
+          transform: scale(0);
+          transform-origin: 25px 32px;
+          animation: violetArrowAnimation 5s 1.5s infinite;
+        }
+        
+        &__line {
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: 5s 1.5s infinite;
+          animation-name: shortPathsAnimation;
         }
       }
     }
   }
+
+  &-solution {
+    &__decor-dot {
+      &_red { 
+        transform-origin: 16px 16px; 
+      }
+
+      &_blue1 { 
+        transform-origin: 93px 220px; 
+      }
+
+      &_blue2 { 
+        transform-origin: 275px 200px; 
+      }
+    }
+
+    &__bicycle {
+      animation: bicycleAnimation 2s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes bicycleAnimation {
+  0% { transform: rotate(-10deg) translateX(20px) rotate(20deg) ;}
+  50%{ transform: rotate(-170deg) translateX(20px) rotate(160deg);}
+  100% { transform: rotate(-10deg) translateX(20px) rotate(20deg) ;}
 }
 
 @keyframes redArrowAnimation {
