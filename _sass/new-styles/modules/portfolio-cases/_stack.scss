@@ -10,6 +10,11 @@
     border-top: none;
   }
 
+  &--wfi {
+    margin-bottom: -40px;
+    border-bottom: none;
+  }
+
   &__image {
     height: 50px;
     margin-bottom: 25px;
@@ -93,5 +98,11 @@
     .paragraph {
       padding: 25px 0 0;
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .case-stack--wfi {
+    margin-bottom: -80px;
   }
 }
