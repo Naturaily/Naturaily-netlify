@@ -14,6 +14,7 @@ $cs-padding-sm: 24px;
   &_header {
     display: flex;
     justify-content: space-between;
+    position: relative;
     width: 100%;
 
     .paragraph.has-dot {
@@ -23,12 +24,10 @@ $cs-padding-sm: 24px;
     }
 
     &-image {
-      max-width: 520px;
-      width: 40%;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      border-radius: 8px;
+      position: absolute;
+      top: -80px;
+      left: 55%;
+      width: 630px;
 
       img {
         max-width: 100%;
@@ -39,7 +38,7 @@ $cs-padding-sm: 24px;
   &_quote {
     margin-bottom: 25px;
     padding-left: $cs-padding-lg;
-    padding-right: 40px;
+    padding-right: 100px;
     font-size: 24px;
     font-weight: 200;
     line-height: 38px;
@@ -57,6 +56,7 @@ $cs-padding-sm: 24px;
   &_redirection {
     max-width: 380px;
     margin-top: 55px;
+    margin-bottom: 30px;
     padding-left: $cs-padding-lg;
     padding-top: 35px;
     border-top: 1px solid $color-nav-border;
@@ -131,16 +131,36 @@ $cs-padding-sm: 24px;
 }
 
 @media (max-width: 1200px) {
-  .jamstack-case-studies_list {
-    &-options {
-      flex-wrap: wrap;
+  .jamstack-case-studies {
+    &_header-image {
+      top: -30px;
+      width: 550px;
+    }
+    
+    &_list {
+      &-options {
+        flex-wrap: wrap;
+      }
+  
+      &-option {
+        flex: initial;
+        width: 33%;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .jamstack-case-studies {
+    &_header-image {
+      top: 50px;
+      width: 500px;
     }
 
-    &-option {
-      flex: initial;
-      width: 33%;
-      margin-bottom: 40px;
-      box-sizing: border-box;
+    &_quote {
+      padding-right: 40px;
     }
   }
 }
@@ -156,6 +176,9 @@ $cs-padding-sm: 24px;
     }
 
     &_header-image {
+      position: relative;
+      top: 0;
+      left: 0;
       height: 260px;
       width: 50%;
     }
