@@ -1,0 +1,182 @@
+.dajemyslowo-challenge {
+  position: relative;
+  padding: 40px 30px 60px;
+
+  .case__title {
+    line-height: 50px;
+    color: $color-global-font;
+  }
+
+  &__columns {
+    &-left, &-right {
+      font-size: 16px;
+      line-height: 24px;
+      color: $color-page-text;
+
+      strong {
+        font-weight: 600;
+      }
+    }
+
+    &-left {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__circle, &__dot {
+    display: none;
+  }
+
+  &__circle {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 100%;
+    border: 1px solid $color-code-dajemy-bg;
+
+    &--small {
+      width: 350px;
+      height: 350px;
+    }
+
+    &--medium {
+      width: 675px;
+      height: 675px;
+    }
+
+    &--big {
+      width: 1000px;
+      height: 1000px;
+    }
+
+    &--large {
+      width: 1325px;
+      height: 1325px;
+    }
+  }
+
+  &__dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+    &--yellow, &--straw {
+      left: 30px;
+    }
+
+    &--yellow {
+      top: 550px;
+      background-color: $color-accent-yellow;
+    }
+
+    &--straw {
+      top: 487px;
+      background-color: #ffebcd;
+    }
+
+    &--blue {
+      bottom: 100px;
+      right: 20px;
+      background-color: $color-geometric-blue;
+    }
+
+    &--secondary {
+      top: 134px;
+      left: 570px;
+      background-color: #ffe0da;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .dajemyslowo-challenge {
+    padding: 70px 100px 50px;
+
+    &__circle, &__dot {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .dajemyslowo-challenge {
+    padding: 90px 100px;
+
+    .case__title {
+      padding: 40px 0 35px;
+    }
+
+    &__columns {
+      display: flex;
+      flex-flow: row nowrap;
+
+      &-left, &-right {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-left {
+        padding-right: 25px;
+      }
+
+      &-right {
+        padding-left: 25px;
+      }
+    }
+
+    &__circle {
+      top: 210px;
+      left: 410px;
+    }
+
+    &__dot {
+      &--secondary {
+        top: 25px;
+        left: 400px;
+      }
+
+      &--blue {
+        bottom: 190px;
+      }
+
+      &--straw {
+        top: 535px;
+      }
+
+      &--yellow {
+        top: 595px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .dajemyslowo-challenge__columns {
+    &-left {
+      padding-right: 80px;
+    }
+
+    &-right {
+      padding-right: 56px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .dajemyslowo-challenge__dot {
+    &--yellow, &--straw {
+      left: -66px;
+    }
+
+    &--yellow {
+      top: 440px;
+    }
+
+    &--straw {
+      top: 380px;
+    }
+  }
+}

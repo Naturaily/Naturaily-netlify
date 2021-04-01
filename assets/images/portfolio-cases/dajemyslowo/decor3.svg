@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="329" viewBox="0 0 414 329" style="overflow: visible;">
+    <g fill="none" fill-rule="evenodd">
+        <path class="dajemyslowo-solution__decor-line_1" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M 120 157 L 61 67" transform="translate(-1101 -3576) translate(-54 3561) translate(1155 15)"/>
+        <path class="dajemyslowo-solution__decor-line_2" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M317 282L414 211" transform="translate(-1101 -3576) translate(-54 3561) translate(1155 15)"/>
+        <path class="dajemyslowo-solution__decor-line_3" stroke="#761113" stroke-linejoin="round" stroke-width=".25" d="M 121 157 M 281 329 L 389 303" transform="translate(-1101 -3576) translate(-54 3561) translate(1155 15)"/>
+        <path class="dajemyslowo-solution__decor-dot_red" fill="#EE3F2E" d="M32 16c0 8.848-7.152 16-16 16-8.832 0-16-7.152-16-16C0 7.152 7.168 0 16 0c8.848 0 16 7.152 16 16" transform="translate(-1101 -3576) translate(-54 3561) translate(1155 15)"/>
+        <path class="dajemyslowo-solution__decor-dot_blue1" fill="#00A1D6" d="M 102 219.5 c 0 4.69 -4.017 8.5 -9 8.5 c -4.966 0 -9 -3.81 -9 -8.5 c 0 -4.69 4.034 -8.5 9 -8.5 c 4.983 0 9 3.81 9 8.5" transform="translate(-1101 -3576) translate(-54 3561) translate(1155 15)"/>
+        <path class="dajemyslowo-solution__decor-dot_blue2" fill="#00A1D6" d="M 102 220 M 284.336 201.5 c 0 4.301 -3.28 7.786 -7.328 7.786 c -4.064 0 -7.344 -3.485 -7.344 -7.786 s 3.28 -7.786 7.344 -7.786 c 4.048 0 7.328 3.485 7.328 7.786" transform="translate(-1101 -3576) translate(-54 3561) translate(1155 15)"/>
+    </g>
+</svg>

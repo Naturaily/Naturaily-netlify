@@ -1,0 +1,20 @@
+<svg width="205px" height="147px" viewBox="0 0 205 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon points="3.18215789 0.242214634 128.468105 0.242214634 128.468105 3.85197073 3.18215789 3.85197073"></polygon>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path class="dajemyslowo-goal__picture-letter__cloud-1" d="M110.276137,31.139922 C80.9590842,26.7071415 85.5380667,51.2173854 68.1003474,67.991922 C55.1874,80.4167024 45.707786,82.6547512 41.4179263,93.1122146 C30.3372947,120.1168 50.9083825,129.870361 79.2315754,129.498556 C107.558382,129.130361 137.312733,116.994361 126.542909,88.6252878 C115.003295,58.2275317 124.826242,73.9949463 127.605435,50.3366049 C129.510032,34.1396293 117.178944,32.1831415 110.276137,31.139922" fill="#F6F7FB"></path>
+        <path class="dajemyslowo-goal__picture-letter__cloud-2" d="M127.98274,94.9979512 C123.570004,89.1284878 121.029337,82.4576585 120.830565,76.2236098 C120.646249,70.462439 122.507477,65.8166829 126.078144,63.1418537 C128.224881,61.5319024 130.852284,60.7124878 133.888074,60.7124878 C141.528144,60.7124878 150.064495,65.7517073 156.164986,73.8700488 C164.835056,85.4140488 165.706039,100.001073 158.069582,105.729756 C155.919232,107.339707 153.295442,108.159122 150.259653,108.159122 C142.619582,108.159122 134.079618,103.116293 127.98274,94.9979512" fill="#FEFEFE"></path>
+        <g class="dajemyslowo-goal__picture-letter__letter">
+            <polygon fill="#F59386" points="24.1569333 44.5530537 18.9165825 71.8608585 71.4321263 84.433639 77.6193544 61.9737366"></polygon>
+            <polyline stroke="#761113" stroke-width="0.25" stroke-linejoin="round" points="24.1569333 44.5530537 48.2661614 69.9801756 77.6193544 61.9737366"></polyline>
+            <line x1="18.9158596" y1="71.8623024" x2="42.5516491" y2="63.9569366" stroke="#761113" stroke-width="0.25" stroke-linejoin="round"></line>
+            <line x1="56.5914526" y1="67.9107024" x2="71.4306807" y2="84.4325561" stroke="#761113" stroke-width="0.25" stroke-linejoin="round"></line>
+        </g>
+        <polygon class="dajemyslowo-goal__picture-letter__triangle" fill="#EE3F2E" points="6.98665263 18.9039317 24.4135298 35.1333951 33.1016702 18.2541756"></polygon>
+        <path class="dajemyslowo-goal__picture-letter__line-1" d="M0.168052632,0.418009756 C40.3922632,16.3586927 77.7144035,33.7577171 111.556228,52.2324488" stroke="#761113" stroke-width="0.25" stroke-linejoin="round"></path>
+        <line class="dajemyslowo-goal__picture-letter__line-2" x1="36.4106807" y1="32.116361" x2="20.1402947" y2="25.9184098" stroke="#761113" stroke-width="0.25" stroke-linejoin="round"></line>
+        <line class="dajemyslowo-goal__picture-letter__line-3" x1="44.782593" y1="29.0177463" x2="25.1836807" y2="22.422722" stroke="#761113" stroke-width="0.25" stroke-linejoin="round"></line>
+        <path class="dajemyslowo-goal__picture-letter__line-4" d="M86.7108211,69.9798146 C102.07047,73.022839 142.074225,87.7362049 142.074225,87.7362049 C122.139207,75.4846927 100.697137,63.6122049 77.9034175,52.2270341" stroke="#761113" stroke-width="0.25" stroke-linejoin="round"></path>
+    </g>
+</svg>
