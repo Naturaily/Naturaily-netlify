@@ -76,6 +76,8 @@ what-you-expect:
       contents: a MacBook
   - expectation:
       contents: 26 paid days off
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: commercially experienced with React.js software development
