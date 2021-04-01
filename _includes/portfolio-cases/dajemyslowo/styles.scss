@@ -1,0 +1,30 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/carousel-custom";
+
+@import "new-styles/modules/portfolio-cases/main";
+
+@import "new-styles/modules/portfolio-cases/dajemyslowo/hero";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/about";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/goal";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/challenge";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/solution";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/stack";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/experts";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/results";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/awards";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/testimonials";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/estimate";
+@import "new-styles/modules/portfolio-cases/dajemyslowo/animations";

@@ -1,0 +1,289 @@
+.dajemyslowo {
+  &-goal__decor, &-solution__decor {
+    &-line {
+      &_1, &_2, &_3 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: linesAnimation 6.5s infinite;
+      }
+
+      &_1 { animation-delay: 2.4s; }
+      &_2 { animation-delay: 2s; }
+      &_3 { animation-delay: 3.1s; }
+    }
+
+    &-dot {
+      &_red, &_blue1, &_blue2 {
+        transform: scale(0);
+        animation: dotAnimation 6.5s infinite;
+      }
+
+      &_red { animation-delay: 3s; }
+      &_blue1 { animation-delay: 2.8s; }
+      &_blue2 { animation-delay: 3.6s; }
+    }
+  }
+  
+  &-goal {
+    &__decor-dot {
+      &_red {
+        transform-origin: 10px 10px;
+      }
+
+      &_blue1 {
+        transform-origin: 65px 155px;
+      }
+
+      &_blue2 {
+        transform-origin: 190px 150px;
+      }
+    }
+
+    &__decor-1 {
+      &__arrow {
+        transform: scale(0) rotate(40deg);
+        transform-origin: 90px 170px;
+        animation: redArrowAnimation 6.5s .1s infinite;
+      }
+
+      &__line, &__arc, &__circle {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation-delay: .2s;
+      }
+
+      &__line, &__circle {
+        animation: lineAnimation 6.5s .1s infinite;
+      }
+
+      &__arc {
+        animation: arcAnimation 6.5s .1s infinite;
+      }
+    }
+
+    &__picture {
+      &-letter {
+        &__letter {
+          transform: scale(0) rotate(35deg);
+          transform-origin: 70px 90px;
+          animation: letterAnimation 6.5s 2.3s infinite;
+        }
+
+        &__triangle {
+          transform: scale(0);
+          animation: scaleAnimation 6.5s infinite;
+          transform-origin: 20px 20px;
+          animation-delay: 2.5s;
+        }
+
+        &__cloud {
+          &-1, &-2 {
+            transform: scale(0);
+            animation: scaleAnimation 6.5s infinite;
+          }
+
+          &-1 {
+            transform-origin: 20px 20px;
+            animation-delay: 2.5s;
+          }
+
+          &-2 {
+            transform-origin: 140px 100px;
+            animation-delay: 2.7s;
+          }
+        }
+
+        &__line {
+          &-1, &-2, &-3, &-4 {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation-duration: 6.5s;
+            animation-iteration-count: infinite;
+          }
+
+          &-1 {
+            animation-delay: 2s;
+            animation-name: pathsAnimation;
+          }
+
+          &-2, &-3 { 
+            animation-delay: 2.5s;
+            animation-name: pathsAnimation;
+          }
+
+          &-4 { 
+            animation-delay: 2.6s;
+            animation-name: letterPathsAnimation;
+          }
+        }
+      }
+
+      &-decor {
+        &__line {
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: linesAnimation 6.5s infinite;
+          animation-delay: 2.4s;
+        }
+
+        &__dot {
+          &-red, &-blue {
+            transform: scale(0);
+            animation: dotAnimation 6.5s infinite;
+          }
+          
+          &-red {
+            transform-origin: 7px 7px;
+            animation-delay: 3s;
+          }
+
+          &-blue {
+            transform-origin: 37px 87px;
+            animation-delay: 3.6s;
+          }
+        }
+      }
+
+      &-arrow {
+        &__triangle {
+          transform: scale(0);
+          transform-origin: 25px 32px;
+          animation: violetArrowAnimation 5s 1.5s infinite;
+        }
+        
+        &__line {
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+          animation: 5s 1.5s infinite;
+          animation-name: shortPathsAnimation;
+        }
+      }
+    }
+  }
+
+  &-solution {
+    &__decor-dot {
+      &_red { 
+        transform-origin: 16px 16px; 
+      }
+
+      &_blue1 { 
+        transform-origin: 93px 220px; 
+      }
+
+      &_blue2 { 
+        transform-origin: 275px 200px; 
+      }
+    }
+
+    &__bicycle {
+      animation: bicycleAnimation 2s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes bicycleAnimation {
+  0% { transform: rotate(-10deg) translateX(20px) rotate(20deg) ;}
+  50%{ transform: rotate(-170deg) translateX(20px) rotate(160deg);}
+  100% { transform: rotate(-10deg) translateX(20px) rotate(20deg) ;}
+}
+
+@keyframes redArrowAnimation {
+  0% { transform: scale(0) rotate(40deg); }
+  2% { transform: scale(0) rotate(40deg); }
+  7% { transform: none; }
+  74% { transform: none; }
+  80% { transform: scale(0) rotate(40deg); }
+  100% { transform: scale(0) rotate(40deg); }
+}
+
+@keyframes violetArrowAnimation {
+  0% { transform: scale(0) translateZ(0); }
+  2.4% { transform: scale(-.2) translateZ(0); }
+  8.4% { transform: scale(1) translateZ(0); }
+  54% { transform: scale(1) translateZ(0); }
+  61.2% { transform: scale(0) translateZ(0); }
+  100% { transform: scale(0) translateZ(0); }
+}
+
+@keyframes dotAnimation {
+  0% { transform: scale(0); }
+  3% { transform: scale(.6); }
+  6.1% { transform: scale(.2); }
+  9.1% { transform: scale(1.2); }
+  12.2% { transform: scale(1); }
+  69.2% { transform: scale(1); }
+  73.8% { transform: scale(.8); }
+  76.8% { transform: scale(1.2); }
+  81.4% { transform: scale(0); }
+  100% { transform: scale(0); }
+}
+
+@keyframes scaleAnimation {
+  0% { transform: scale(0); }
+  3% { transform: scale(0); }
+  12.2% { transform: scale(1); }
+  66% { transform: scale(1); }
+  72.2% { transform: scale(0); }
+  100% { transform: scale(0); }
+}
+
+@keyframes lineAnimation {
+  0% { stroke-dashoffset: 1000; }
+  2% { stroke-dashoffset: 1000; }
+  10% { stroke-dashoffset: 800; }
+  74% { stroke-dashoffset: 800; }
+  80% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 1000; }
+}
+
+@keyframes linesAnimation {
+  0% { stroke-dashoffset: 1000; }
+  12.2% { stroke-dashoffset: 0; }
+  70.7% { stroke-dashoffset: 0; }
+  76.8% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 1000; }
+}
+
+@keyframes arcAnimation {
+  0% { stroke-dashoffset: 1000; }
+  4% { stroke-dashoffset: 1000; }
+  8% { stroke-dashoffset: 700; }
+  78% { stroke-dashoffset: 700; }
+  84% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 1000; }
+}
+
+@keyframes letterAnimation {
+  0% { transform: scale(0) rotate(35deg); }
+  3% { transform: scale(0) rotate(35deg); }
+  12.2% { transform: none; }
+  66% { transform: none; }
+  72.2% { transform: scale(0) rotate(35deg); }
+  100% { transform: scale(0) rotate(35deg); }
+}
+
+@keyframes pathsAnimation {
+  0% { stroke-dashoffset: 1000; }
+  3% { stroke-dashoffset: 1000; }
+  12.2% { stroke-dashoffset: 930; }
+  66% { stroke-dashoffset: 930; }
+  72.2% { stroke-dashoffset: 1000; }
+}
+
+@keyframes shortPathsAnimation {
+  0% { stroke-dashoffset: 1000; }
+  2.4% { stroke-dashoffset: 1000; }
+  12% { stroke-dashoffset: 750; }
+  54% { stroke-dashoffset: 750; }
+  61.2% { stroke-dashoffset: 1000; }
+  100% { stroke-dashoffset: 1000; }
+};
+
+@keyframes letterPathsAnimation {
+  0% { stroke-dashoffset: 1000; }
+  3% { stroke-dashoffset: 1000; }
+  15% { stroke-dashoffset: 0; }
+  50% { stroke-dashoffset: 0; }
+  62% { stroke-dashoffset: 1000; }
+}

@@ -1,0 +1,113 @@
+.dajemyslowo-awards {
+  padding: 75px 0 50px;
+  background-color: $color-secondary;
+
+  &__header {
+    padding: 0 30px;
+    font-size: 36px;
+    line-height: 38.4px;
+    font-weight: 300;
+    color: $color-white;
+  }
+
+  &__image {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    margin-bottom: 30px;
+    
+    img {
+      height: 26px;
+    }
+
+    &--cssda img {
+      height: 100%;
+    }
+  }
+
+  &__name, &__text {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 200;
+    color: $color-white;
+  }
+
+  &__name {
+    font-weight: 500;
+  }
+
+  .custom-carousel {
+    &__tabs {
+      margin: 0;
+      
+      &-tab {
+        padding: 50px 30px 40px;
+      }
+    }
+
+    &__dots {
+      width: 100vw;
+
+      &-item {
+        background-color: $color-white;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .dajemyslowo-awards {
+    padding: 65px 0;
+
+    &__header, .custom-carousel__tabs-tab {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    .custom-carousel__nav {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0 10px;
+
+      &-item {
+        color: $color-white;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .dajemyslowo-awards {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 75px 100px 100px;
+
+    &__header, .custom-carousel__tabs-tab {
+      padding: 0;
+    }
+
+    &__wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .custom-carousel__tabs {
+      display: flex;
+      flex-flow: row nowrap;
+
+      &-tab {
+        box-sizing: border-box;
+        width: 33.3%;
+        padding: 50px 20px 0 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .dajemyslowo-awards {
+    border-radius: 3px 3px 0 0;
+  }
+}
