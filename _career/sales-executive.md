@@ -3,9 +3,10 @@ published: true
 title: Sales Executive
 meta-title-inset: check the job offer and apply
 description: >-
-  You need to know that we value individuality, professionalism, open communication and honesty.
-  What we expect from you is to find potential clients, initiate contact and start cooperation
-  discussions… Check the details >>
+  You need to know that we value individuality, professionalism, open
+  communication and honesty. What we expect from you is to find potential
+  clients, initiate contact and start cooperation discussions… Check the details
+  >>
 layout: career-offer
 image: /assets/images/Sales-Executive_Job_Offer.png
 location:
@@ -81,6 +82,8 @@ what-you-expect:
       contents: a MacBook
   - expectation:
       contents: 26 paid days off
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: experienced (3-4 years) in international B2B sales
@@ -155,3 +158,4 @@ salaries:
       contract: + VAT (B2B)
       sum: 9 000 - 14 000 PLN net
 ---
+
