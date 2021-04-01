@@ -3,9 +3,10 @@ published: true
 title: Frontend Developer (Vue.js)
 meta-title-inset: check the job offer and apply
 description: >-
-  We need you to be: experienced in software development (min. 2 years), acquainted with
-  the following technologies: JS ES6+, Vue.js, HTML, CSS/SCSS, aware of front-end performance
-  optimization, eager to mentor other developers >>
+  We need you to be: experienced in software development (min. 2 years),
+  acquainted with the following technologies: JS ES6+, Vue.js, HTML, CSS/SCSS,
+  aware of front-end performance optimization, eager to mentor other developers
+  >>
 layout: career-offer
 image: /assets/images/Frontend_Developer_Vuejs_Job_Offer.png
 location:
@@ -82,6 +83,8 @@ what-you-expect:
       contents: a MacBook
   - expectation:
       contents: 26 paid days off
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: experienced in software development (min. 2 years)
@@ -136,3 +139,4 @@ salaries:
       contract: + VAT (B2B)
       sum: 7500 - 13 000 PLN net
 ---
+
