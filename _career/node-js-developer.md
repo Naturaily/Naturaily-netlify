@@ -3,9 +3,10 @@ published: true
 title: Node.js Developer
 meta-title-inset: check the job offer and apply
 description: >-
-  Software house is a multi-element puzzle. For seven years, we have been successfully constructing
-  the team of people with matching characters and skills, which resulted in a truly beautiful
-  picture. Only one piece is missing. We believe it is you, Naturaily.
+  Software house is a multi-element puzzle. For seven years, we have been
+  successfully constructing the team of people with matching characters and
+  skills, which resulted in a truly beautiful picture. Only one piece is
+  missing. We believe it is you, Naturaily.
 layout: career-offer
 image: /assets/images/Nodejs_Developer_Job_Offer.png
 location:
@@ -79,6 +80,8 @@ what-you-expect:
       contents: a MacBook
   - expectation:
       contents: 26 paid days off
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: commercially experienced Node.js software development
@@ -134,3 +137,4 @@ salaries:
       contract: (B2B)
       sum: 11 500 - 17 000 PLN net + VAT
 ---
+
