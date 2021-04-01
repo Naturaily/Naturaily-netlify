@@ -1,6 +1,6 @@
 ---
 published: true
-title: Frontend Developer (React.js, JAMstack)
+title: 'Frontend Developer (React.js, JAMstack)'
 meta-title-inset: don’t wait - apply
 description: >-
   We are looking for Frontend Developer to help us build websites and e-commerce
@@ -93,6 +93,8 @@ what-you-expect:
       contents: 'full remote work '
   - expectation:
       contents: 26 paid days off
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: >-
@@ -173,3 +175,4 @@ salaries:
       contract: + VAT (B2B)
       sum: 8000 - 12 000 PLN net
 ---
+
