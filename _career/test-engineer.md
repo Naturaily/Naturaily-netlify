@@ -73,6 +73,8 @@ what-you-expect:
       contents: a MacBook
   - expectation:
       contents: 26 paid days off
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: experienced in manual and automated testing of web applications
@@ -128,3 +130,4 @@ salaries:
       contract: Apply now
       sum: Openning soon
 ---
+
