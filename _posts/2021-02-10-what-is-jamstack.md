@@ -53,8 +53,6 @@ As Biilmann states, *'JAM'* in Jamstack stands for *"a modern web development ar
 
 But that was simplified. Now, let's get more technical.
 
-![Jamstack infographic, JavaScript, APIs, Markup](/assets/images/Blog_jam_simple_image_javascript_apis_markup.png "Jamstack inforgraphic")
-
 <br>
 
 ## **Jamstack vs Other Web Development Stacks**
@@ -65,13 +63,13 @@ In simple terms, its architecture uses Git workflows and modern tools to serve t
 
 To sum it up, Jamstack gives you more elasticity in creating modern, user-friendly apps and websites. It also ensures that your customers and users will find it easy and inviting to move around your site or app.
 
-![Traditional communication with sever VS jamstack](/assets/images/Blog_jam_traditional_web_jamstack.png "Jamstack")
-
 <br>
 
 ## **How Does It All Work?**
 
 Understanding how Jamstack works may not be easy, especially for non-tech people. So let's analyze the core functionalities to get to know it better and understand how exactly it works.
+
+![Jamstack infographic, JavaScript, APIs, Markup](/assets/images/Blog_jam_simple_image_javascript_apis_markup.png "Jamstack inforgraphic")
 
 ### **JavaScript**
 
@@ -89,7 +87,6 @@ How does it work on a technical level? When a server receives a request for a st
 
 *Why is this important when talking about Jamstack?* Because [websites built on Jamstack](https://naturaily.com/blog/top-10-websites-built-on-jamstack) **are static files** but the APIs are accessed via HTTPS with JavaScript and that enables the websites to be **dynamic**. Jamstack's cornerstone is staticity that with the use of JavaScript and APIs, in the hands of the end-user, becomes a dynamic and interactive environment.
 
-![Statig Site Generator gets Markup and shows Static State](/assets/images/Blog_Jamstack_easy_SSG.png "SSG ")
 
 ### **APIs**
 
@@ -100,6 +97,7 @@ That's what Jamstack uses, next to JavaScript, to enable web pages to be dynamic
 [Headless CMS](https://naturaily.com/blog/comparison-of-15-headless-cms-for-jamstack-websites) is also a large part of the Jamstack environment since it allows you to deliver content wherever you need and want to — not only to a templated site but even to many receivers at the same time, like e-stores or mobile apps.
 
 Along with headless CMS, thanks to the connection to the data via API and receiving only the content part instead of the presentation part, you get the flexibility to choose your favorite front-end framework to build a site.
+
 
 ### **Applied Technologies**
 
@@ -117,6 +115,8 @@ Additionally, Jamstack has integrated tools for an automated git version control
 
 All these components make Jamstack more comprehensible, adjustable, and faster.
 
+![Statig Site Generator gets Markup and shows Static State](/assets/images/Blog_Jamstack_easy_SSG.png "SSG ")
+
 ### **The JAM**
 
 Let's sum it up in short. All the above-mentioned components co-relate with each other and create a coherent unit. Jamstack wouldn't exist without them all. Even though the framework is much powerful and extensive, the main features are its fundament around which you can freely navigate to get a stable, user-friendly [CMS environment](https://naturaily.com/blog/how-to-choose-the-best-cms-for-your-jamstack-website).
@@ -128,6 +128,8 @@ Let's sum it up in short. All the above-mentioned components co-relate with each
 Jamstack has everything you need to provide a perfect user experience. It's great for building simple apps as well as highly complex websites.
 
 Here are the main benefits of Jamstack.
+
+![Traditional communication with sever VS jamstack](/assets/images/Blog_jam_traditional_web_jamstack.png "Jamstack")
 
 ### **1. Better Performance**
 
@@ -175,13 +177,13 @@ Because of the static-dynamic combination, Jamstack gives you a lot of flexibili
 
 <br>
 
-{% image /assets/images/Blog_Jamstack_vs_wordpress.png Jamstack-vs-Wordpress Jamstack %}
-
 ## **Jamstack or WordPress — Which Is Better?**
 
 You may be wondering how is Jamstack better than the famous WordPress? Why should you even consider choosing Jamstack over the global leader used by millions of people?
 
 WordPress is definitely a behemoth in the world of CMSs but don't get discouraged by it when thinking about Jamstack. That's because Jamstack has a huge advantage over WordPress in many aspects.
+
+{% image /assets/images/Blog_Jamstack_vs_wordpress.png Jamstack-vs-Wordpress Jamstack %}
 
 ### **Fewer Glitches**
 
