@@ -104,6 +104,8 @@ what-you-expect:
       contents: a co-financed Multisport Card
   - expectation:
       contents: a MacBook
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: able to provide a portfolio with a variety of your work examples
