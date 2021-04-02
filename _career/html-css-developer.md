@@ -3,9 +3,10 @@ published: true
 title: HTML/CSS Developer
 meta-title-inset: check the job offer and apply
 description: >-
-  We need you to be: commercially experienced in software development using HTML5,
-  CSS3 (min. 2 years), acquainted with Bootstrap/Foundation UI, knowledgeable about
-  HTML/CSS validation, experienced with CSS preprocessors - LESS/SASS >>
+  We need you to be: commercially experienced in software development using
+  HTML5, CSS3 (min. 2 years), acquainted with Bootstrap/Foundation UI,
+  knowledgeable about HTML/CSS validation, experienced with CSS preprocessors -
+  LESS/SASS >>
 layout: career-offer
 image: /assets/images/HTML-CSS_Developer_Job_Offer.png
 location:
@@ -78,6 +79,8 @@ what-you-expect:
       contents: a MacBook
   - expectation:
       contents: 26 paid days off
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: 'experienced in software development using HTML5, CSS3 (min. 2 years)'
@@ -128,3 +131,4 @@ salaries:
       contract: B2B
       sum: 5000 - 7200 PLN net + VAT
 ---
+
