@@ -177,7 +177,7 @@ Because of the static-dynamic combination, Jamstack gives you a lot of flexibili
 
 <br>
 
-{% image /assets/images/Blog_Jamstack_easy_dynamic (1).png (1).png Jamstack %}
+{% image /assets/images/Blog_Jamstack_vs_wordpress.png Jamstack-vs-Wordpress Jamstack vs. WordPress %}
 
 ## **Jamstack or WordPress — Which Is Better?**
 
