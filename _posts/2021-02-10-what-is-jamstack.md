@@ -272,7 +272,6 @@ You and your team can easily track and manage changes, improve teamwork, and wor
 
 [{% image /assets/images/Blog-Jamstack-CaseStudy.png Jamstack-Case-Study Jamstack-Case-Study-Dajemyslowo %}](https://naturaily.com/portfolio/dajemy-slowo){:target=”_blank”}
 
-<br>
 
 ## A Few Words on Jamstack Drawbacks
 
