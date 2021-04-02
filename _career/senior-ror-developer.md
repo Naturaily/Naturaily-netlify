@@ -4,8 +4,8 @@ title: Senior Ruby on Rails Developer
 meta-title-inset: check the job offer and apply
 description: >-
   Naturaily is a tech company with over 10 years of experience in ruby on rails
-  development. We have created dozens of great digital products and now we are looking
-  for Senior Ruby on Rails Developer to help us build some more.
+  development. We have created dozens of great digital products and now we are
+  looking for Senior Ruby on Rails Developer to help us build some more.
 layout: career-offer
 image: /assets/images/Senior-RubyonRails-Developer_Job_Offer.png
 location:
@@ -91,6 +91,8 @@ what-you-expect:
         a MacBook
   - expectation:
       contents: 26 paid days off
+  - expectation:
+      contents: psychologist support
 we-need-you-to:
   - expectation:
       contents: |
@@ -156,3 +158,4 @@ salaries:
       contract: + VAT (B2B)
       sum: 11 500 - 18 000 PLN net
 ---
+
