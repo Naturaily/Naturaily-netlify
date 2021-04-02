@@ -5,22 +5,25 @@
   </div>
 
   <div class="footer-body">
-    <ul class="footer_list footer_list--services">
-      <li class="footer_list-heading">Services</li>
-      <li><a href="/services/webdevelopment/jamstack">JAMstack development</a></li>
-      <li><a href="/services/webdevelopment/pwa">PWA development</a></li>
-      <li><a href="/services/ecommerce/shopify-development">Shopify development</a></li>
-      <li><a href="/services/product-design">Product design</a></li>
-      <li><a href="/services/iot-development">IoT development</a></li>
-      <li><a href="/services/cloud-adoption">Cloud Adoption</a></li>
-      <li><a href="/services/webdevelopment/vue-js-development">Vue.js development</a></li>
-      <li><a href="/services/webdevelopment/react-js-development">React.js development</a></li>
-      <li><a href="/services/webdevelopment/node-js-development">Node.js development</a></li>
-      <li><a href="/services/webdevelopment/ruby-on-rails-development">Ruby on Rails development</a></li>
-      <li class="footer_list-footer">
-        <a class="tos" href="/terms-of-service" rel="nofollow">Terms of Use</a>
-      </li>
-    </ul>
+    <div class="footer_list footer_list--services">
+      <ul>
+        <li class="footer_list-heading">Services</li>
+        <li><a href="/services/webdevelopment/jamstack">JAMstack development</a></li>
+        <li><a href="/services/webdevelopment/pwa">PWA development</a></li>
+        <li><a href="/services/ecommerce/shopify-development">Shopify development</a></li>
+        <li><a href="/services/product-design">Product design</a></li>
+        <li><a href="/services/iot-development">IoT development</a></li>
+        <li><a href="/services/cloud-adoption">Cloud Adoption</a></li>
+        <li><a href="/services/webdevelopment/vue-js-development">Vue.js development</a></li>
+        <li><a href="/services/webdevelopment/react-js-development">React.js development</a></li>
+        <li><a href="/services/webdevelopment/node-js-development">Node.js development</a></li>
+        <li><a href="/services/webdevelopment/ruby-on-rails-development">Ruby on Rails development</a></li>
+      </ul>
+      <ul class="footer_list-footer">
+        <li><a href="/terms-of-service" rel="nofollow">Terms of Use</a></li>
+        <li><a href="/privacy-policy" rel="nofollow">Privacy Policy</a></li>
+      </ul>
+    </div>
     <ul class="footer_list footer_list--jobs">
       {% assign job_offers = site.career | where: "published", "true"%}
       <li class="footer_list-heading">Job offers</li>

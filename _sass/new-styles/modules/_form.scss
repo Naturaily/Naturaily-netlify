@@ -15,6 +15,13 @@
     padding-bottom: 30px;
     padding-left: 0;
   }
+
+  &-gdpr {
+    margin-top: 10px;
+    font-size: 11px;
+    color: $color-global-font;
+    opacity: .5;
+  }
 }
 
 @media (max-width: 810px) {
