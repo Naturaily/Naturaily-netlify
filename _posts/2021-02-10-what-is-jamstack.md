@@ -23,8 +23,6 @@ tags:
   - Jamstack
   - E-Commerce
 ---
-{% image    %}
-
 **Jamstack is a revolutionary architecture for building apps and websites. It's versatile, modern, and gives you a lot of flexibility and freedom to create a perfect end product. But if you're new to Jamstack, it may not be that obvious.**
 
 That's why we're giving you the ultimate guide. The good, the bad, the ugly — everything you need to know about Jamstack.
