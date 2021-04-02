@@ -8,10 +8,10 @@ layout: post
 date: '2021-02-10 03:57:30 +0200'
 category: JAMstack development
 authors:
-  avatar: /assets/images/J_150X150.png
-  label: Katarzyna Ciesielska
-  slug: katarzyna-ciesielska
-  value: author-32
+  avatar: /assets/images/Marta-Sulikowska-blog.png
+  label: Marta Sulikowska
+  slug: marta-sulikowska
+  value: author-33
 image: /assets/images/Blog_what_is_jamstack.png
 text-preview: >-
   Jamstack is a revolutionary architecture for building apps and websites. It's
@@ -89,7 +89,7 @@ How does it work on a technical level? When a server receives a request for a st
 
 *Why is this important when talking about Jamstack?* Because [websites built on Jamstack](https://naturaily.com/blog/top-10-websites-built-on-jamstack) **are static files** but the APIs are accessed via HTTPS with JavaScript and that enables the websites to be **dynamic**. Jamstack's cornerstone is staticity that with the use of JavaScript and APIs, in the hands of the end-user, becomes a dynamic and interactive environment.
 
-![Statig Site Generator gets Markup and shows Static State](https://lh3.googleusercontent.com/lHmEkz9WaOkKjD7O_OskKe2jJ1JjeZqbHumeRTIKyhnhY_cXPLrlWR9xMKxxntq3KqMJ230Ttnq1bhqEEJyhYX9AtZU8Wd-IkWwsWrJ6rNpvgoS2giGPctwy0J4tAu1lK-JSk1pK "SSG ")
+![Statig Site Generator gets Markup and shows Static State](/assets/images/Blog_Jamstack_easy_SSG.png "SSG ")
 
 ### **APIs**
 
@@ -279,6 +279,5 @@ Unless you have a team of developers or the right skills, you will get stuck at 
 Although some state that the JAM in Jamstac is already the thing of the past, these are still the core concepts behind the platform. It constantly evolves and gives you many possibilities. Undoubtedly, it's an out-of-the-box architecture that lets you create modern websites.
 
 Now that you know what Jamstack is, how it works, and what you can do with it, you can choose whether it's the right solution for you. We encourage you to build your website using Jamstack, and if you're not sure whether you’re on the right track, we're here to help!
-
 
 [{% image /assets/images/cta_estimation_1600.png Get an estimate %}](https://naturaily.com/get-an-estimate)
