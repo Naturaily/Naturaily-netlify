@@ -257,7 +257,7 @@ To simplify staging and testing workflows, and reduce contributor friction, you 
 
 You and your team can easily track and manage changes, improve teamwork, and work flexibly the way you or your team likes without the need to adjust to rigid frameworks. This ensures high-performing development, and your software team can work faster and more effectively with reduced development time and better deployments.
 
-[!{% image /assets/images/Blog-Jamstack-CaseStudy.png Jamstack-Case-Study Jamstack-Case-Study-Dajemyslowo %}](https://naturaily.com/portfolio/dajemy-slowo)
+[{% image /assets/images/Blog-Jamstack-CaseStudy.png Jamstack-Case-Study Jamstack-Case-Study-Dajemyslowo %}](https://naturaily.com/portfolio/dajemy-slowo){:target=”_blank”}
 
 <br>
 
