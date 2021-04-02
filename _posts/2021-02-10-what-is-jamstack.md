@@ -117,8 +117,6 @@ Additionally, Jamstack has integrated tools for an automated git version control
 
 All these components make Jamstack more comprehensible, adjustable, and faster.
 
-![Graphic showing: as much as possible is pre-rended](https://lh5.googleusercontent.com/cS728sqwCwmDo0k1SV2OdW9YLaEZ06vLBisAS5hg34DnwqkfeVL94lilgIynhJFUrhjFKuLNW_r90954WwIXwhdeq1JGZRitZF7ZJH3B_UF8g5L17R7b3tdZf6qsCU5GyKDdU_CT "As much as possible is pre-rended")
-
 ### **The JAM**
 
 Let's sum it up in short. All the above-mentioned components co-relate with each other and create a coherent unit. Jamstack wouldn't exist without them all. Even though the framework is much powerful and extensive, the main features are its fundament around which you can freely navigate to get a stable, user-friendly [CMS environment](https://naturaily.com/blog/how-to-choose-the-best-cms-for-your-jamstack-website).
@@ -177,7 +175,7 @@ Because of the static-dynamic combination, Jamstack gives you a lot of flexibili
 
 <br>
 
-{% image /assets/images/Blog_Jamstack_vs_wordpress.png Jamstack-vs-Wordpress Jamstack vs. WordPress %}
+{% image /assets/images/Blog_Jamstack_vs_wordpress.png Jamstack-vs-Wordpress Jamstack %}
 
 ## **Jamstack or WordPress — Which Is Better?**
 
