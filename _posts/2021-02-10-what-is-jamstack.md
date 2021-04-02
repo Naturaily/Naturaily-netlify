@@ -69,7 +69,6 @@ To sum it up, Jamstack gives you more elasticity in creating modern, user-friend
 
 Understanding how Jamstack works may not be easy, especially for non-tech people. So let's analyze the core functionalities to get to know it better and understand how exactly it works.
 
-<br>
 
 ![Jamstack infographic, JavaScript, APIs, Markup](/assets/images/Blog_jam_simple_image_javascript_apis_markup.png "Jamstack inforgraphic")
 
