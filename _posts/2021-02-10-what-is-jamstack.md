@@ -87,7 +87,6 @@ How does it work on a technical level? When a server receives a request for a st
 
 *Why is this important when talking about Jamstack?* Because [websites built on Jamstack](https://naturaily.com/blog/top-10-websites-built-on-jamstack) **are static files** but the APIs are accessed via HTTPS with JavaScript and that enables the websites to be **dynamic**. Jamstack's cornerstone is staticity that with the use of JavaScript and APIs, in the hands of the end-user, becomes a dynamic and interactive environment.
 
-
 ### **APIs**
 
 On Jamstack, the operations that can make a website dynamic are possible with the APIs — third-party services or your custom functionalities.
@@ -97,7 +96,6 @@ That's what Jamstack uses, next to JavaScript, to enable web pages to be dynamic
 [Headless CMS](https://naturaily.com/blog/comparison-of-15-headless-cms-for-jamstack-websites) is also a large part of the Jamstack environment since it allows you to deliver content wherever you need and want to — not only to a templated site but even to many receivers at the same time, like e-stores or mobile apps.
 
 Along with headless CMS, thanks to the connection to the data via API and receiving only the content part instead of the presentation part, you get the flexibility to choose your favorite front-end framework to build a site.
-
 
 ### **Applied Technologies**
 
@@ -258,6 +256,8 @@ Instant cache invalidation is a practice that ensures your content is live when 
 To simplify staging and testing workflows, and reduce contributor friction, you can freely work in version control systems such as Git.
 
 You and your team can easily track and manage changes, improve teamwork, and work flexibly the way you or your team likes without the need to adjust to rigid frameworks. This ensures high-performing development, and your software team can work faster and more effectively with reduced development time and better deployments.
+
+[!{% image /assets/images/Blog-Jamstack-CaseStudy.png Jamstack-Case-Study Jamstack-Case-Study-Dajemyslowo %}](https://naturaily.com/portfolio/dajemy-slowo)
 
 <br>
 
