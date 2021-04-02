@@ -69,7 +69,6 @@ To sum it up, Jamstack gives you more elasticity in creating modern, user-friend
 
 Understanding how Jamstack works may not be easy, especially for non-tech people. So let's analyze the core functionalities to get to know it better and understand how exactly it works.
 
-
 ![Jamstack infographic, JavaScript, APIs, Markup](/assets/images/Blog_jam_simple_image_javascript_apis_markup.png "Jamstack inforgraphic")
 
 <br>
@@ -270,8 +269,7 @@ To simplify staging and testing workflows, and reduce contributor friction, you 
 
 You and your team can easily track and manage changes, improve teamwork, and work flexibly the way you or your team likes without the need to adjust to rigid frameworks. This ensures high-performing development, and your software team can work faster and more effectively with reduced development time and better deployments.
 
-[{% image /assets/images/Blog-Jamstack-CaseStudy.png Jamstack-Case-Study Jamstack-Case-Study-Dajemyslowo %}](https://naturaily.com/portfolio/dajemy-slowo){:target=”_blank”}
-
+[{% image /assets/images/Dajemyslowo-CaseStudy-Jamstack.png Jamstack-Case-Study-Dajemyslowo Jamstack-Case-Study-Dajemyslowo %}](https://naturaily.com/portfolio/dajemy-slowo){:target=”_blank”}
 
 ## A Few Words on Jamstack Drawbacks
 
