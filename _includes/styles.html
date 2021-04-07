@@ -148,6 +148,11 @@
     {% include /services/ecommerce/custom/styles.scss %}
   {% endcapture %}
 
+{% elsif page.url == "/gdpr" or page.url == "/privacy-policy" %}
+  {% capture styles %}
+    {% include /data-policy/styles.scss %}
+  {% endcapture %}
+
 {% else %}
   {% capture styles %}
     {% include main.scss %}
