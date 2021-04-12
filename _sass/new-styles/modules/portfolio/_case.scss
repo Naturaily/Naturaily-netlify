@@ -9,10 +9,14 @@
   &__image {
     display: block;
     margin: 0 -20px 35px;
+    background-color: $color-light-grey-bg;
+    border-radius: 8px;
     overflow: hidden;
 
     img {
       width: 100%;
+      margin-bottom: -10px;
+      margin-top: -30px;
       transform: none;
       transition: transform .4s;
       will-change: transform;
@@ -21,6 +25,11 @@
 
   a.portfolio-case__image:hover img {
     transform: translateX(20px) rotate(-10deg) scale(1.2);
+  }
+
+  &--small .portfolio-case__image img {
+    margin-bottom: -5px;
+    margin-top: -20px;
   }
 
   &__header {
