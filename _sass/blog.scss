@@ -1,9 +1,5 @@
-.blog__wave {
-  grid-area: header;
-}
-
 .l-blog {
-  margin-top: 25px;
+  margin-top: 100px;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -27,13 +23,10 @@ pre, code {
     font-size: 2.2rem;
   }
 
-  &-header {
-
-    img {
-      width: 100%;
-      margin-bottom: 10px;
-      border-radius: 5px;
-    }
+  &-header img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
   }
 
   &-soc {
@@ -177,16 +170,13 @@ pre, code {
       font-weight: 200;
     }
 
-    .prev {
-
-      img {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-      }
+    .prev img {
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
     }
   }
 
@@ -339,20 +329,17 @@ pre, code {
 }
 
 @media (min-width: 768px) {
-  .post-content {
-
-    img.float {
-      float: left;
-      width: 45%;
-      margin-bottom: 10px;
-      margin-right: 20px;
-    }
+  .post-content img.float {
+    float: left;
+    width: 45%;
+    margin-bottom: 10px;
+    margin-right: 20px;
   }
 }
 
 @media (min-width: 811px) {
   .l-blog {
-    margin-top: 70px;
+    margin-top: 180px;
   }
 
   .post-navigation {
@@ -453,7 +440,6 @@ pre, code {
 @media (min-width: 1400px) {
   .l-blog {
     grid-column-gap: 160px;
-    margin-top: 100px;
   }
 
   .post {
@@ -466,24 +452,22 @@ pre, code {
 }
 
 @media screen and (max-width: 1200px) {
-  .post {
-    &-cta {
-      display: flex;
-      flex-direction: column;
+  .post-cta {
+    display: flex;
+    flex-direction: column;
 
-      &-image {
-        max-width: 100%;
-        margin-bottom: 20px;
-      }
+    &-image {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
 
-      &-left {
-        text-align: center;
-        padding-left: 0;
-      }
+    &-left {
+      text-align: center;
+      padding-left: 0;
+    }
 
-      &-link.btn {
-        color: #fff;
-      }
+    &-link.btn {
+      color: #fff;
     }
   }
 }
@@ -502,18 +486,15 @@ pre, code {
   .twitter-tweet.twitter-tweet-rendered {
     max-width: 310px !important;
   }
-
 }
 
 
 @media (max-width: 575px) {
-  .post {
-    .kpz-subjects {
-      flex-direction: column;
+  .post .kpz-subjects {
+    flex-direction: column;
 
-      a {
-        margin-right: 0;
-      }
+    a {
+      margin-right: 0;
     }
   }
 }

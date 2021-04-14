@@ -18,11 +18,9 @@ h2 {
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 320px 1fr;
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 1fr;
   grid-template-areas:
-    "header  header  header"
     "left-sidebar content right-sidebar";
-
 }
 
 @media (min-width: 350px) {
