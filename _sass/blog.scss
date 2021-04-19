@@ -142,7 +142,7 @@ pre, code {
     }
   }
 
-  &-tags {
+  &-category {
     align-items: flex-start;
     display: flex;
     flex-grow: 1;
@@ -150,7 +150,7 @@ pre, code {
     padding-top: 9px;
     position: relative;
 
-    a {
+    a, span {
       font-size: 0.75rem;
       background-color: $color-code-bg;
       border-radius: 3px;
@@ -474,7 +474,7 @@ pre, code {
 
 @media screen and (max-width: 810px) {
   .post {
-    &-tags {
+    &-category {
       display: none;
     }
 

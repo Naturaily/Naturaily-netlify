@@ -21,14 +21,6 @@ layout: default
             {{ page.date | date: date_format }}
           </time>
         </p>
-        <div class="post-tags">
-          {% for tag in page.tags %}
-            <a href="/blog/tags/{{ tag | replace: " ", "-" | downcase }}/">{{ tag }}</a>
-          {% endfor %}
-        </div>
-        {% if page.readtime %}
-          <span class="read-time">{{ page.readtime }} min czytania</span>
-        {% endif %}
       </div>
       <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     </header>
