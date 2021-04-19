@@ -17,8 +17,6 @@ text-preview: >-
   Recently we’ve overtaken a big project for maintenance and further
   development. It’s a Rails application with many models, controllers and of
   course lots of database migrations.
-tags:
-  - Ruby on Rails development
 ---
 Recently we’ve overtaken a big project for maintenance and further development. It’s a Rails application with many models, controllers and of course lots of database migrations. There were about one hundred files in db/migrate directory. The question is: how can we setup development environment with current database structure? Running `rake db:migrate` would just be a suicide. It won’t simply work, because these migrations were written long time ago and the current code and models implementation don’t fit them. Instead let’s load `schema.rb` file using this command:
 

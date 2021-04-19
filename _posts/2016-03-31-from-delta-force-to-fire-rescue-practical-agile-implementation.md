@@ -15,8 +15,6 @@ image: /assets/images/fire.jpg
 text-preview: >-
   We are a small (over a dozen people) remote development team. That kind of
   team has pretty standard and diversified portfolio of projects.
-tags:
-  - Agile
 ---
 
 We are a small (over a dozen people) remote development team. That kind of team has pretty standard and diversified portfolio of projects.

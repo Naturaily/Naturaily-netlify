@@ -13,8 +13,6 @@ authors:
   slug: sebastian-kubiak
 image: /assets/images/mister-yoda.jpg
 text-preview: Dive in and read the 7 precious tips from Master Yoda himself!
-tags:
-  - Remote development team
 ---
 
 

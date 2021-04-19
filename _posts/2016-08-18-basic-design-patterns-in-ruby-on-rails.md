@@ -19,8 +19,6 @@ text-preview: >-
   Every person has similiar difficulties, and our society has found universal
   ways, **_patterns_**, to solve that problems. As programmers we also have
   problems, which can be solved by patterns.
-tags:
-  - Ruby on Rails development
 ---
 
 

@@ -15,9 +15,6 @@ image: /assets/images/soundcloud.jpg
 text-preview: >-
   Site loved by many almost collapsed after questionable choices made by
   management. Will SoundCloud learn from their own mistakes?
-tags:
-  - Startups
-  - Agile
 ---
 Site loved by many almost collapsed after questionable choices made by management. Will SoundCloud learn from their own mistakes?
 

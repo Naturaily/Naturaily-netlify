@@ -21,8 +21,6 @@ text-preview: >
   designed exactly what was requested. In spite of that, three sprints later,
   things got messy. The code is rigid, the business requirements have changed
   and the project is out of hand, again.
-tags:
-  - Ruby on Rails development
 ---
 We have all been there. We got a task to introduce totally new functionality. New database relations, controllers, services, models, views. We all said: _this time it will be **different**_. We asked the right business questions, and designed exactly what was requested. In spite of that, three sprints later, things got messy. The code is rigid, the business requirements have changed and the project is out of hand, again.
 

@@ -21,8 +21,6 @@ text-preview: >-
   apps, and they're probably right! With tech giants behind it, Progressive Web
   Applications became an amazing technology that will soon make native
   applications obsolete.
-tags:
-  - Frontend development
 ---
 Many say that PWAs will be the new standard in the future world of mobile apps, and they're probably right! With tech giants behind it, Progressive Web Applications became an amazing technology that will soon make native applications obsolete.
 

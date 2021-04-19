@@ -18,10 +18,6 @@ image: >-
 text-preview: >-
   Migrating an app from AngularJS to Vue in TypeScript is not an easy task. In
   fact, we've come across many caveats everyone intrested should know about.
-tags:
-  - JavaScript development
-  - Vue js development
-  - Frontend development
 ---
 TypeScript became mainstream relatively not so long ago. The development started back in 2012 and the language is supported and maintained by Microsoft. It became a superset of JavaScript. In this context, what it means is that TypeScript contains everything JavaScript does and much more. The main and significant difference between these two is the inclusion of `types`. You should be quite familiar with them if you’ve ever coded with so-called strong typing languages such as Java or C++.
 

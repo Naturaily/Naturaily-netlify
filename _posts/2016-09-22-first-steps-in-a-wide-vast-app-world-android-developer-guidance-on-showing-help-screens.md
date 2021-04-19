@@ -18,9 +18,6 @@ text-preview: >-
   registering, logging in and… what now? Just some blank screen, a lot of
   buttons, twenty tabs, thirty windows... Mom! let me out! Close, delete,
   forget.
-tags:
-  - Native mobile development
-  - User experience design
 ---
 
 

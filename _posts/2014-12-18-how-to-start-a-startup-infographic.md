@@ -18,9 +18,6 @@ text-preview: >-
   development. Check out what do you need to do before applying to accelerator,
   where are the best incubators & how they work and why is it worth to outsource
   the MVP development.
-tags:
-  - Remote development team
-  - Startups
 ---
 
 Wondering how to start a startup? There are few ways. Building it on your own (if you have proper skills), going to the accelerators and outsourcing the development. Check out what do you need to do before applying to accelerator, where are the best incubators & how they work and why is it worth to outsource the MVP development.

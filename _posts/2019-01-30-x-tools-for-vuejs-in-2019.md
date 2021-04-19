@@ -19,8 +19,6 @@ text-preview: >-
   We guarantee that these JavaScript libraries will significantly speed up the
   development process of your very own Vue application and at the same time make
   sure that it will look awesome!
-tags:
-  - Frontend development
 ---
 In this post we've gathered some our favorite libraries we often use in Vue development. We guarantee that they will significantly speed up the process of creating an application and at the same time make sure that it will look awesome. So without further ado, let's jump into the 11 libraries for Vue development you should be using in 2019.
 

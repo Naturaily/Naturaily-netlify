@@ -20,11 +20,6 @@ text-preview: >-
   be looking to launch an online channel. This entails selecting a design
   company for your eCommerce website. In this article, we offer you a few tips
   to consider before choosing the right web development team for your needs.
-tags:
-  - E-commerce development
-  - Retail
-  - Shopify
-  - Digital transformation
 ---
 **Whether you’re completely new to the eCommerce game or only selling your products through a chain of brick-and-mortar stores, you will, at some point, be looking to launch an online channel. This entails selecting a design company for your eCommerce website.**
 

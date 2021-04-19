@@ -19,10 +19,6 @@ text-preview: >-
   devices, to be exact. With different resolutions, screen densities and
   parameters. So users of every age category can install it on a system that
   gets a new version every year. Well, yeah, let's talk about it...
-tags:
-  - Native mobile development
-  - Java development
-  - User experience design
 ---
 Creating apps on Android seems like a pretty straightforward task. Just take working solutions and put them on mobile devices. On about 11 thousand devices, to be exact. With different resolutions, screen densities and parameters. So users of every age category can install it on a system that gets a new version every year. Well, yeah, let's talk about it...
 

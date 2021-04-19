@@ -18,8 +18,6 @@ text-preview: >-
   This post will guide you through the world of podcasts. Our list is composed
   of our favorite startup and entrepreneurship oriented podcasts which are
   perfect for beginners.
-tags:
-  - Startups
 ---
 SoundCloud, iTunes, and Spotify have all been flooded with lots of superb podcasts about entrepreneurship, startups, and business in general. It is hard to find a place to start, so in this post, we shared some of our favorite podcasts to narrow down your search to just 10!
 

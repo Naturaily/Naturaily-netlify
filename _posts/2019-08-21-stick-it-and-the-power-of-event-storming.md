@@ -20,8 +20,6 @@ text-preview: >
   will not go away on its own. Teams will miss deadlines because something was
   not clear, the product will fail to meet the client’s expectations, ergo he
   won’t be willing to pay another invoice because.
-tags:
-  - Software development
 ---
 Miscommunication between business people and engineers is a common issue. While we could start pointing fingers and blaming either side, the problem will not go away on its own. Teams will miss deadlines because something was not clear, the product will fail to meet the client’s expectations, ergo he won’t be willing to pay another invoice because of it.
 

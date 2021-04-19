@@ -21,14 +21,10 @@ text-preview: >-
   e-commerce frontends are slowly becoming the industry standard. According to
   Gartner, 80 percent of digital experience platforms will be deployed via
   headless by 2022.
-tags:
-  - Vue Storefront
-  - Magento PWA Studio
-  - Saleor
 ---
 **The headless e-commerce trend has been gaining traction recently and PWA e-commerce frontends are slowly becoming the industry standard. According to Gartner, 80 percent of digital experience platforms will be deployed via headless by 2022.**
 
-By leveraging the benefits of headless architecture, retailers can build online stores using independent frontends on top of e-commerce backends like Magento or Shopify. This design yields many benefits: the stores run faster, have higher conversion rates and rank higher in search results. 
+By leveraging the benefits of headless architecture, retailers can build online stores using independent frontends on top of e-commerce backends like Magento or Shopify. This design yields many benefits: the stores run faster, have higher conversion rates and rank higher in search results.
 
 Of course, you can always build your own PWA storefront from scratch. But the good news is you don’t really have to. The popularity of headless architecture has resulted in the emergence of many off-the-shelf e-commerce offerings. There is a thriving market of open-source storefronts. Some of them are compatible with multiple e-commerce platforms, while others are developed only with particular ones in mind – [Gatsby Storefront](https://www.gatsbyjs.com/starters/gatsbystorefront/gatsby-starter-storefront-shopify/){:rel="dofollow"}{:target="_blank"}, for example, comes with a dedicated theme for Shopify.
 
@@ -170,7 +166,7 @@ The Magento PWA studio is dedicated for building Magento stores and consists of 
 * PWA support
 * Is open-source with a strong contributor community, which also translates into many benefits for PWA development.
 * Magento PWA studio is easy to set up from the back-end. It allows us to clone a repository and allocate the Magento instance URL to the .env file. By executing a command, it allows the application to run successfully.
-* This PWA toolset has already been used across many successful projects. 
+* This PWA toolset has already been used across many successful projects.
 * It has a dedicated PWA team to provide support and come up with solutions.
 * It is an open-source and free toolset.
 

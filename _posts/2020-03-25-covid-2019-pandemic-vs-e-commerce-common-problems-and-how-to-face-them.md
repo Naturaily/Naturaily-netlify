@@ -17,11 +17,6 @@ text-preview: >-
   COVID-19 coronavirus is officially a global pandemic. As it’s spreading around
   the world at a fast pace, it is predicted to take its toll on both people and
   businesses, including the e-commerce industry.
-tags:
-  - Retail
-  - E-commerce development
-  - Shopify
-  - COVID-19
 ---
 **COVID-19 coronavirus is officially a global pandemic. As it’s spreading around the world at a fast pace, it is predicted to take its toll on both people and businesses, including the e-commerce industry.**
 

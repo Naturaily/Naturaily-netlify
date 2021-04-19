@@ -21,10 +21,6 @@ text-preview: >-
   involvement from management, poorly defined objectives or unexpected risks, it
   only takes a few minor bumps to put the entire project off-track. So, how can
   these issues be resolved?
-tags:
-  - Bespoke enterprise software development
-  - Large-scale IT projects
-  - Enterprise-level solutions
 related_posts:
   - Why Your Organization Fails To Implement IT Projects Successfully
 ---

@@ -18,10 +18,6 @@ text-preview: >-
   In this post, I'll share some tips, tricks, and tools I use every day in
   frontend development. So buckle-up, and let’s jump into the vast world of the
   web!
-tags:
-  - JavaScript development
-  - Vue js development
-  - Frontend development
 ---
 In this post, I'll share some tips, tricks, and tools I use every day in frontend development. So buckle-up, and let’s jump into the vast world of the web!
 

@@ -26,10 +26,6 @@ text-preview: >-
   around us. Such is the case of the smart grid – a technology that enables
   instantaneous feedback from various sensors and devices on the operation of
   the power grid by streamlining the power delivery process.
-tags:
-  - IoT
-  - smart grid
-  - AI
 ---
 **Slowly but steadily, artificial intelligence is making its way to new facets of our lives. Through the automation of various processes, the use of IoT introduces unprecedented levels of comfort and better control of the devices around us. Such is the case of the smart grid – a technology that enables instantaneous feedback from various sensors and devices on the operation of the power grid by streamlining the power delivery process.**
 

@@ -19,11 +19,6 @@ text-preview: >-
   knowledge, discuss the latest news and learn from each other. As soon as we
   knew the date of the conference, we immediately booked seats on the plane from
   Wroclaw to Kiev. We had to be there, Naturaily.
-tags:
-  - RubyC
-  - Ruby
-  - Rails
-  - Ruby on Rails Development
 ---
 **RubyC is a European conference devoted to Ruby, Rails and other related technologies. Hundreds of Ruby enthusiasts and developers gather to exchange knowledge, discuss the latest news and learn from each other. As soon as we knew the date of the conference, we immediately booked seats on the plane from Wroclaw to Kiev. We had to be there, Naturaily.**
 

@@ -20,10 +20,6 @@ text-preview: >-
   infamous rent and living cost issues. In other words, it’s an ideal location
   for a startup! Here are 11 of the most inspiring or successful startups
   currently in San Diego.
-tags:
-  - Startups
-  - San Diego
-  - Scale-up
 ---
 **When you think ‘startup’ most people think about California but, while many jump to San Francisco, we look to San Diego! We’ve met some fantastic companies there, so we know that it’s an awesome (but often overlooked) place to scale-up your startup idea or business!**
 

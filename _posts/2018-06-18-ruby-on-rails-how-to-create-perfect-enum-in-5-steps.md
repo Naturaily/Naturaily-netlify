@@ -17,8 +17,6 @@ text-preview: >-
   Then, each time when a client passes new requirements to you it’s necessary to
   modify it. That process helps to understand the specific domain and mirrors
   the reality.
-tags:
-  - Ruby on Rails development
 ---
 When your project starts you probably design ERD diagram or a similar one. Then, each time when a client passes new requirements to you it’s necessary to modify it. That process helps to understand the specific domain and mirrors the reality. Entities that you model contain many attributes of various types. A quite popular requirement is to create an attribute that can be assigned to one of a few available values. In programming, that type is called **enumeration** or just **enum**.
 

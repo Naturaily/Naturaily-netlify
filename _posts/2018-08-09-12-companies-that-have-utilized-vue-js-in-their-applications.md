@@ -19,8 +19,6 @@ text-preview: >-
   The popularity of Vue.js is continuously growing at a rapid rate, so now it's
   a perfect time to take a look at companies and websites which have decided to
   utilize Vue.js in their applications.
-tags:
-  - Vue js development
 ---
 The popularity of Vue.js is continuously growing at a rapid rate, so now it's a perfect time to take a look at companies and websites which have decided to utilize Vue.js in their applications.
 

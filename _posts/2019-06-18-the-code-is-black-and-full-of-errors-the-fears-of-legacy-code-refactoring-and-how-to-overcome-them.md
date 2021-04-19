@@ -23,8 +23,6 @@ text-preview: >-
   demand some changes in that particular part of the abyss. People are trembling
   with fear, dropping their cups, spilling coffee and asking for remote work –
   all in a bid to avoid the impending catastrophe.
-tags:
-  - Software development
 ---
 **In the darkest corners of every app development process dwell lines of code that make even the bravest of developers wake up at night drenched with sweat. There are rumours around the team that business people will soon come to demand some changes in that particular part of the abyss. People are trembling with fear, dropping their cups, spilling coffee and asking for remote work – all in a bid to avoid the impending catastrophe.**
 

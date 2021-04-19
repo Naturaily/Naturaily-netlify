@@ -13,8 +13,6 @@ authors:
   slug: marcin-sulikowski
 image: /assets/images/hipster2.jpg
 text-preview: Don't believe the software development myths. Read on to learn why.
-tags:
-  - Startups
 related_posts: []
 ---
 

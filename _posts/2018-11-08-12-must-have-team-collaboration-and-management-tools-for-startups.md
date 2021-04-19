@@ -18,9 +18,6 @@ text-preview: >-
   So you have founded a startup. It wasn’t easy, was it? How about making your
   work a little bit easier? Don’t let tedious and recurring tasks drive you away
   from launching a successful product.
-tags:
-  - Startups
-  - Team Building
 ---
 So you have founded a startup. It wasn’t easy, was it?
 
