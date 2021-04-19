@@ -34,10 +34,6 @@ collections:
         slug_field: slug
       - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
-      - label: "Tags(with spaces and separated by commas, ex: 'React Js Development, Ruby on Rails development')"
-        name: "tags"
-        widget: "list"
-        allow_add: true
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Related posts"
         name: "related_posts"
