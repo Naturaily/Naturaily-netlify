@@ -5,6 +5,15 @@ layout: default
 <div class="l-content l-blog">
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
+      <div class="post-breadcrumbs">
+        <a href="/">Home</a>
+        <span class="icon icon-chevron-right"></span>
+        <a href="/blog">Blog</a>
+        <span class="icon icon-chevron-right"></span>
+        <a href="/blog/categories/{{ page.category | replace: " ", "-" | downcase }}">{{ page.category }}</a>
+        <span class="icon icon-chevron-right"></span>
+        <p>{{ page.title | escape }}</p>
+      </div>
       {% if page.image %}
         <img src="/assets/images/loader.gif" data-src="{{page.image}}" alt="Post image">
       {% endif %}
