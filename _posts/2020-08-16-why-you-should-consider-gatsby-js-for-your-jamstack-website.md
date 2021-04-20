@@ -19,9 +19,6 @@ text-preview: >
   focus on static elements, the generator you choose becomes a key driver (or
   bottleneck) of this process. Let’s explore why Gatsby and JAMstack go so well
   together.
-tags:
-  - JAMstack
-  - Gatsby JS
 ---
 If you’re building a JAMstack site, there are a few key choices you need to make - not least of all the site generator that you use.
 

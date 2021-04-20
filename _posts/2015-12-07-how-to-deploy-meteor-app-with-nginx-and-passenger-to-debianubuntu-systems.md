@@ -18,9 +18,6 @@ text-preview: >-
   Unfortunately, there are not too many deployment tools available (yet?). In
   this article I’m going to explain step by step how to release your Meteor
   application to debian/ubuntu system (apt-get command required).
-tags:
-  - Meteor js development
-  - Node js development
 ---
 
 Meteor is getting more and more popular these days. Creating a web application is so easy. But what can we do if we want to push live our great project? Unfortunately, there are not too many deployment tools available (yet?). In this article I’m going to explain step by step how to release your Meteor application to debian/ubuntu system (apt-get command required).

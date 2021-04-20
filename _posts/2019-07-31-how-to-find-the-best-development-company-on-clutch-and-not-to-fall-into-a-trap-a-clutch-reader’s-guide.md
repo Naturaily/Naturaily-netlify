@@ -24,9 +24,6 @@ text-preview: >-
   your next outsourcing company without jeopardizing the project. But – like
   anything else on the internet – even Clutch reviews should be taken with a
   pinch of salt.
-tags:
-  - Clutch
-  - Software development
 ---
 **In this article:**
 

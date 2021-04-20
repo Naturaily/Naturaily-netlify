@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-home:before {
+  content: "\e958";
+}
 .icon-clickboard:before {
   content: "\e952";
 }

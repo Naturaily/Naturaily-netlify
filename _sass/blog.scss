@@ -19,6 +19,44 @@ pre, code {
   grid-column: 1;
   position: relative;
 
+  &-breadcrumbs {
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+
+    .icon {
+      margin: 2px 4px 0;
+      font-size: 8px;
+
+      &--mobile {
+        font-size: 15px;
+        color: $color-accent-gold;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-breadcrumb {
+    max-width: 110px;
+    font-size: 14px;
+    color: $color-accent-gold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    &--desktop {
+      display: none;
+    }
+
+    &--inactive {
+      color: $color-global-font;
+    }
+
+    &--full-width {
+      max-width: none;
+    }
+  }
+
   &-title {
     font-size: 2.2rem;
   }
@@ -142,7 +180,7 @@ pre, code {
     }
   }
 
-  &-tags {
+  &-category {
     align-items: flex-start;
     display: flex;
     flex-grow: 1;
@@ -150,7 +188,7 @@ pre, code {
     padding-top: 9px;
     position: relative;
 
-    a {
+    a, span {
       font-size: 0.75rem;
       background-color: $color-code-bg;
       border-radius: 3px;
@@ -305,14 +343,26 @@ pre, code {
 }
 
 @media (min-width: 350px) {
-  .post .table-responsive {
-    width: 350px;
+  .post {
+    &-breadcrumb {
+      max-width: 125px;
+    }
+
+    .table-responsive {
+      width: 350px;
+    }
   }
 }
 
 @media (min-width: 470px) {
-  .post .table-responsive {
-    width: 450px;
+  .post {
+    &-breadcrumb {
+      max-width: 180px;
+    }
+
+    .table-responsive {
+      width: 450px;
+    }
   }
 }
 
@@ -329,11 +379,27 @@ pre, code {
 }
 
 @media (min-width: 768px) {
-  .post-content img.float {
-    float: left;
-    width: 45%;
-    margin-bottom: 10px;
-    margin-right: 20px;
+  .post {
+    &-breadcrumbs {
+      .icon {
+        margin: 2px 8px 0;
+
+        &--mobile {
+          display: none;
+        }
+      }
+    }
+
+    &-breadcrumb--desktop {
+      display: inline-block;
+    }
+
+    &-content img.float {
+      float: left;
+      width: 45%;
+      margin-bottom: 10px;
+      margin-right: 20px;
+    }
   }
 }
 
@@ -427,6 +493,10 @@ pre, code {
 
 @media (min-width: 1200px) {
   .post {
+    &-breadcrumb--inactive {
+      max-width: 340px;
+    }
+
     &-content iframe {
       max-height: 400px;
     }
@@ -474,7 +544,7 @@ pre, code {
 
 @media screen and (max-width: 810px) {
   .post {
-    &-tags {
+    &-category {
       display: none;
     }
 

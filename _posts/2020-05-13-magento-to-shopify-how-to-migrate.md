@@ -21,11 +21,6 @@ text-preview: >
   you’re looking to migrate from Magento to Shopify, we’ve prepared a handy
   guide that will hopefully put those fears to rest and even highlight the best
   ways to streamline and automate the work for you!
-tags:
-  - Magento
-  - Shopify
-  - E-commerce development
-  - Migration
 ---
 **Migrating an e-commerce store is often seen as necessary evil; we all know the benefits, but the process itself is the most daunting factor. This is arguably one of the biggest reasons people put off moving from Magento to Shopify.**
 

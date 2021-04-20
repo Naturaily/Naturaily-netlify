@@ -22,8 +22,6 @@ text-preview: >-
   the Shopify platform. All data exchange between them utilizes Sidekiq workers’
   background jobs. Generally, we want to be notified about the first occurrence
   of an error. So most exceptions are caught by Raven and sent to Sentry.
-tags:
-  - Ruby on Rails development
 ---
 We’ve been working on integrations of many different warehouse systems with the Shopify platform. All data exchange between them utilizes Sidekiq workers’ background jobs. Generally, we want to be notified about the first occurrence of an error. So most exceptions are caught by Raven and sent to Sentry. However, we faced some exceptions at remote systems, for example, connection issues. Luckily, after some worker retries the problems were solved without any additional actions. In such cases we wanted Sidekiq workers to have silent retries without spamming our Slack channel with Sentry messages.
 

@@ -16,8 +16,6 @@ image: /assets/images/value-based-pagination.jpg
 text-preview: >-
   This is a quick tutorial that will show you how to properly handle value-based
   pagination in Ruby on Rails and where to use it.
-tags:
-  - Ruby on Rails development
 ---
 Have you ever had a situation like this: You are browsing the Internet, and on the page number 889 you find a bunch of great articles, which you want to share with your friends or just save in your browser tab to read it later. Seems like a good idea, right? Unfortunately, after few hours/days/month/decades, you realize that the link you have saved is now pointing to a completely different content! What a shame!
 

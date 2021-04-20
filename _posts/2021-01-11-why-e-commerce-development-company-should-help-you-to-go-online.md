@@ -19,10 +19,6 @@ text-preview: >-
   be on top, there's a lot of things to acknowledge and implement. A
   professional e-commerce company has all the skills and information you need to
   be successful. Check them out and let yourself to become the best.
-tags:
-  - e-commerce
-  - e-commerce development company
-  - development
 ---
 The world has changed lately. There is no doubt that some era has finished, and we won’t go back to how we used to live before COVID-19. People had to start doing many things online, without going out. **E-commerce development companies** have been doing much more work to prepare their customers for bigger traffic and help their businesses in this new reality. Even those of you who used to believe in old-style retail had to change their minds. The hard truth is that you need to evolve, or you just die.
 

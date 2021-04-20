@@ -20,8 +20,6 @@ text-preview: >-
   payments, insurance, lending, deposits and funding, however, are not limited
   to sheer convenience. The ultimate goal is also to make transactions much
   faster, cheaper and, most importantly, more secure for everyone.
-tags:
-  - Fintech
 ---
 
 Fin-tech is a term which conveys the inevitable marriage of **fin**ance and **tech**. It also serves as a convenient handle for the technological revolution happening in financial services today. The changes we see in payments, insurance, lending, deposits and funding, however, are not limited to sheer convenience. The ultimate goal is also to make transactions much faster, cheaper and, most importantly, more secure for everyone.

@@ -16,8 +16,6 @@ text-preview: >-
   Ever wondered what approach your competition has to Twitter? If so, I’ve got
   good news for you. It’s super easy to check what they post about and how often
   they do.
-tags:
-  - Online marketing
 ---
 
 

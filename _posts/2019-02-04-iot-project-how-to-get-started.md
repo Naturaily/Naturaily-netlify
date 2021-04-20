@@ -19,8 +19,6 @@ text-preview: >-
   So you’re thinking of developing your own IoT (Internet of Things) project but
   have no idea what the process looks like and where you should start? Check out
   our guide.
-tags:
-  - IoT
 ---
 So you’re thinking of developing your own IoT (**Internet of Things**) project but have no idea what the process looks like and where you should start? Check out the guide below with all the necessary steps that will prepare you for the planning and development process.
 

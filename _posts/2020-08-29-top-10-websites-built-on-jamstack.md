@@ -21,11 +21,6 @@ text-preview: >
   Well, now that we’ve got your attention… we’ve previously talked about how
   great JAMstack is so it shouldn’t be a surprise that everyone’s using it,
   right? Of course, the answer is never that simple.
-tags:
-  - JAMstack
-  - Netlify
-  - Contentful
-  - Cloudflare
 ---
 **Did you know Leonardo DiCaprio uses JAMstack? And he’s not the only one!**
 

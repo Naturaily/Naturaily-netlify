@@ -19,8 +19,6 @@ text-preview: >-
   We're extremely excited to announce that the next stop on our ongoing
   Naturaily On Tour is the Japan IT Week! Join us at the most exciting Expo this
   Spring in the heart of Tokyo!
-tags:
-  - Events
 ---
 As a part of our ongoing tour, we’re pleased to announce that we will be attending the Japan IT Week this Spring!
 

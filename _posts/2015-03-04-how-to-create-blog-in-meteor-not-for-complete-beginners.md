@@ -18,9 +18,6 @@ text-preview: >-
   in Meteor. Instead of writing everything from scratch, we're going to use
   packages that can help you speed up your development cycle and be more
   productive.
-tags:
-  - JavaScript development
-  - Meteor js development
 ---
 The purpose of this post is to show you how to create a very simple blog app in Meteor. Instead of writing everything from scratch, we're going to use packages that can help you speed up your development cycle and be more productive.
 

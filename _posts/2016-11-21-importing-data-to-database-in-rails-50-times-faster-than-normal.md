@@ -16,8 +16,6 @@ text-preview: >-
   Have you ever needed to save lots of records with unique attribute to database
   using ActiveRecord? Have you noticed how time consuming such task is? I would
   like to show you how to do it quickly.
-tags:
-  - Ruby on Rails development
 ---
 
 

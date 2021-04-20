@@ -15,8 +15,6 @@ image: /assets/images/rails-elephant.jpg
 text-preview: >-
   Hello, this article will show, how easily you can add ranking functionality to
   your project.
-tags:
-  - Ruby on Rails development
 ---
 
 Hello, this article will show, how easily you can add ranking functionality to your project.

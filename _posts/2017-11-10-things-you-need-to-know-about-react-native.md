@@ -17,10 +17,6 @@ text-preview: >-
   The popularity of React Native has skyrocketed for the past 2 years. Meet the
   framework developed by Facebook Team that stands behind Facebook, Instagram,
   and Skype mobile apps.
-tags:
-  - React Native development
-  - Native mobile development
-  - JavaScript development
 ---
 
 

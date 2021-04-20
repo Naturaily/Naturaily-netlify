@@ -19,10 +19,6 @@ text-preview: >-
   Shopify experts. However, before you make your decision, you surely want to
   understand what exactly you can expect from them. Let's take a closer look and
   find out how could they help you!
-tags:
-  - E-commerce
-  - Shopify
-  - Shopify Development
 ---
 **Doesn't matter If you already have decided for running your store on [Shopify](https://www.shopify.com/){:target="_blank"} or you are still considering your options, I am certain that you have heard already this term: Shopify experts. You read in on the official CMS website, you've heard in on some YouTube videos, and you've started doing your research. That's why you're here in the first place. Let's jump into this and answer your questions.**
 

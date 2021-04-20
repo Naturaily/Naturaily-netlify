@@ -19,8 +19,6 @@ text-preview: >-
   I’d like to go back to Service pattern in this post. I really like it, it's a
   good idea to place application’s business logic there. At Naturaily we use it
   quite often.
-tags:
-  - Ruby on Rails development
 ---
 
 

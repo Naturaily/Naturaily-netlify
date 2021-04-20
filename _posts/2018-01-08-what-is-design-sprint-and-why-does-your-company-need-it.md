@@ -17,9 +17,6 @@ text-preview: >-
   build exactly, especially when it comes to start-ups. At Naturaily, clients
   often contact us, but can’t really rewrite the idea that is stuck in their
   mind onto a piece of paper.
-tags:
-  - Agile
-  - Startups
 ---
 It is very common for clients to not know what kind of product they want to build exactly, especially when it comes to start-ups. At Naturaily, clients often contact us, but can’t really rewrite the idea that is stuck in their mind onto a piece of paper.
 

@@ -18,8 +18,6 @@ text-preview: >-
   definitely worth your attention. If you’re interested check our previous post
   about [9 startups in Berlin you should know about in
   2017](https://naturaily.com/blog/berlin-startups-2017).
-tags:
-  - Startups
 ---
 
 

@@ -17,9 +17,6 @@ text-preview: >-
   In one of the projects I've been recently working on I needed i18n support for
   forms generated with AutoForm. For those who don’t know: Autoform is
   [schema-based](https://github.com/aldeed/meteor-simple-schema) form generator.
-tags:
-  - Meteor js development
-  - JavaScript development
 ---
 
 

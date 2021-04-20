@@ -16,9 +16,6 @@ text-preview: >-
   A brief introduction to Marionette’s reqres ( request-response ) and commands
   would be that they are application (or module) level event aggregators that
   either return a value or cause an action to happen.
-tags:
-  - JavaScript development
-  - Backbone js development
 ---
 A brief introduction to Marionette’s reqres ( request-response ) and commands would be that they are application (or module) level event aggregators that either return a value or cause an action to happen. Both provide similar api to execute and set handlers:
 

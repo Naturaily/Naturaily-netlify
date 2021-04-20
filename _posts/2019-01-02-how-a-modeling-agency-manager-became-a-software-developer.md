@@ -19,8 +19,6 @@ text-preview: >-
   blog article I overheard a coworker say something that has stopped me in my
   tracks. The thing that shocked me to hear in a room full of developers was
   “While I was managing a modeling agency...
-tags:
-  - Recruitment
 ---
 We’re all friends here in the tech-blog scene, so let’s get honest for a second. Sometimes lack of inspiration hits you like a ton of bricks and deadlines aren’t forgiving. I’m not saying I have the hardest job in the world but it does require a certain finesse. So when I didn’t know what to write I turned to my longtime friend - the web - for help.
 

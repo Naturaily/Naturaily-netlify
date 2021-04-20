@@ -17,8 +17,6 @@ text-preview: >-
   forgetting a quite important piece of the puzzle - the content. *Since content
   is king* and most probably your content is mostly text, the text is king.
   Let’s see what we can do to display text properly on vast range of devices.
-tags:
-  - Frontend development
 ---
 When thinking RWD most of you picture fluid grids and responsive images, forgetting a quite important piece of the puzzle - the content. _Since content is king_ and most probably your content is mostly text, the text is king. Let’s see what we can do to display text properly on vast range of devices.
 

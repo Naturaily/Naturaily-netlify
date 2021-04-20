@@ -20,10 +20,6 @@ text-preview: >
   followed by a reevaluation of their content management systems and,
   ultimately, a desire to try headless CMS. The above story then leads to an
   inevitable question: which Headless CMS is right for my JAMstack development?
-tags:
-  - JAMstack
-  - CMS
-  - Headless CMS
 ---
 **Whether it’s for SEO or to stay user-friendly, more and more people are turning to the likes of JAMstack for their website needs. This is usually followed by a reevaluation of their content management systems and, ultimately, a desire to try headless CMS.**
 

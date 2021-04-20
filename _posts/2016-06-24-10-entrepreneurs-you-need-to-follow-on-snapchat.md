@@ -18,9 +18,6 @@ text-preview: >-
   if anyone asks) just to check out what it's all about. After a few days I
   discovered that a lot of IT people are there, sharing some pretty cool stuff
   with their followers. Curious who to follow and why?
-tags:
-  - IT
-  - Startups
 ---
 As you might have guessed I'm not one of those selfie-loving teenage boys (ok, maybe just a bit). Anyway, I decided to join Snapchat the other day (@suleiro if anyone asks) just to check out what it's all about. After a few days I discovered that a lot of IT people are there, sharing some pretty cool stuff with their followers. Curious who to follow and why?
 

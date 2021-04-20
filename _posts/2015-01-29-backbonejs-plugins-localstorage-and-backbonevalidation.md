@@ -19,9 +19,6 @@ text-preview: >-
   new application and they need to save some data that they added in their
   project, and still, they do not have any information downloaded from the
   backend, they can use Local.Storage.
-tags:
-  - JavaScript development
-  - Backbone js development
 ---
 
 

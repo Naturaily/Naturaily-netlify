@@ -19,10 +19,6 @@ text-preview: >-
   reasonable to gather, at least one side of such arrangement, in one spot, that
   is the office. And so did we, only to find 5 reasons to let them out
   instead...
-tags:
-  - Agile
-  - IT
-  - Remote work
 ---
 
 We provide services remotely to customers around the world. The distance and additional hurdles in the form of different time zones and cultural differences affecting the communication style—all these factors make it reasonable to gather, at least one side of such arrangement, in one spot, that is the office. And so did we, only to find 5 reasons to let them out instead...

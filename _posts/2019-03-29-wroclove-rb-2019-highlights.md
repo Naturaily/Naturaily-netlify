@@ -19,8 +19,6 @@ text-preview: >-
   Wroclove.rb’s main goal is to help Ruby professionals get better at what they
   do. How could we miss such an opportunity and not send a strong representation
   of Naturaily? Of course, we did!
-tags:
-  - Events
 ---
 You know you’re dealing with good developers when it’s the first, sunny weekend of spring, the thermometer hits the magical 21 degrees Celsius mark – and yet they still prefer to spend the three consecutive days within the cold walls, broadening the knowledge of their trade: **Mutation Testing, Business Logic in Ruby, Building UIs for Microservices, Autoloading or Orchestrating video transcoding in Ruby**.
 

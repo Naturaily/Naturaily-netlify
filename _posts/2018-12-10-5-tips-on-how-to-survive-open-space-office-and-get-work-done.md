@@ -18,8 +18,6 @@ text-preview: >
   There is no doubt that office design plays an important role in how a company
   operates daily. The layout of a workspace holds several vital implications for
   any business, including cost, communication, privacy, and social culture.
-tags:
-  - Recruitment
 ---
 ## What is an open space?
 

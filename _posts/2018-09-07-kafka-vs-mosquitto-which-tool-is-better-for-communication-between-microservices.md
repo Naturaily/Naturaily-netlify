@@ -19,8 +19,6 @@ text-preview: >-
   Recently microservices architecture is becoming more and more popular. In this
   post, we'll compare the two most popular messaging brokers - Kafka and MQTT
   (Mosquitto) to see which one is the best.
-tags:
-  - Ruby on Rails development
 ---
 Recently microservices architecture is becoming more and more popular. Orchestration tools like Docker and Kubernetes make it very simple to create and maintain such applications. One can say that these tools are even forcing microservices architecture.
 

@@ -18,9 +18,6 @@ text-preview: >-
   developer's community for the past 3 years. Although their technical nature is
   slightly different, they are often compared to each other due to a similar set
   of features making them compete in web development market.
-tags:
-  - Comparison
-  - JavaScript development
 ---
 
 Both React and Vue have gained a lot of attention and interest from the developer's community for the past 3 years. Although their technical nature is slightly different, they are often compared to each other due to a similar set of features making them compete in web development market.

@@ -19,8 +19,6 @@ text-preview: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the
   biggest tech conferences around the world. Check out Marcin’s our CEO
   afterthoughts on the event.
-tags:
-  - Events
 ---
 **Each year for few days, Austin, Texas, also known as Silicon Hills, becomes the global capital of the entertainment and technology industry.**
 

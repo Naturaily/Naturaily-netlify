@@ -20,10 +20,6 @@ text-preview: >
   ‘hard coded’ websites often don’t work anymore. They are slow (bad for users)
   and don’t allow website owners to easily load new content (whether it’s a blog
   or ecommerce listings).
-tags:
-  - JAMStack
-  - SEO
-  - Gatsby
 ---
 Today, the internet is more popular (and more essential to business) than ever. As a result, your website needs to be good - but what “good” means has changed a lot over the years.
 

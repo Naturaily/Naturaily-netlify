@@ -2,7 +2,7 @@
 title: What Is Jamstack?
 description: >-
   If you're searching for the real explanation what Jamstack is about, that's
-  the article for you. 
+  the article for you.
 slug: what-is-jamstack
 layout: post
 date: '2021-02-10 03:57:30 +0200'
@@ -19,9 +19,6 @@ text-preview: >-
   perfect end product. But if you're new to Jamstack, it may not be that
   obvious. That's why we're giving you the ultimate guide. The good, the bad,
   the ugly — everything you need to know about Jamstack.
-tags:
-  - Jamstack
-  - E-Commerce
 ---
 **Jamstack is a revolutionary architecture for building apps and websites. It's versatile, modern, and gives you a lot of flexibility and freedom to create a perfect end product. But if you're new to Jamstack, it may not be that obvious.**
 

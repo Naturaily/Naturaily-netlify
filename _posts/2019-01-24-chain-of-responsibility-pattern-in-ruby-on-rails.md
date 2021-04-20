@@ -16,8 +16,6 @@ text-preview: >-
   While we were working on a project we stumbled upon some legacy code that
   consists of huge ‘if else’ statements. In this post we’ll show you how we
   refactored it using the Chain of responsibility pattern.
-tags:
-  - Ruby on Rails development
 ---
 While we were working on a project we stumbled upon some legacy code that consists of huge ‘if else’ statements. In this post we’ll show you how we refactored it using the Chain of responsibility pattern.
 

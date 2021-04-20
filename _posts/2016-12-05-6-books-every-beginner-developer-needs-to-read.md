@@ -19,10 +19,6 @@ text-preview: >-
   artefacts called books which could be very helpful. Here is a special list
   created by our team members. Check out what to read at the beginning of your
   coding journey...
-tags:
-  - Reading
-  - Frontend development
-  - Ruby on Rails development
 ---
 
 When you're a newbie in the complex code world and crave for knowledge, good resources are key to success. Blogs, forums, dev meetings - where to start? All of these options are worth trying but there are also those old-fashioned artefacts called books which could be very helpful. Here is a special list created by our team members. Check out what to read at the beginning of your coding journey...
