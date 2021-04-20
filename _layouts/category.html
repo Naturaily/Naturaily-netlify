@@ -8,11 +8,14 @@ layout: default
     <div class="row">
       <section>
         <div class="post-breadcrumbs">
-          <a class="post-breadcrumb home" href="/">Home</a>
+          <a class="post-breadcrumb post-breadcrumb--desktop" href="/">Home</a>
+          <span class="icon icon-home icon--mobile"></span>
           <span class="icon icon-chevron-right"></span>
           <a class="post-breadcrumb" href="/blog">Blog</a>
           <span class="icon icon-chevron-right"></span>
-          <span class="post-breadcrumb title">{{ page.category }}</span>
+          <span class="post-breadcrumb post-breadcrumb--inactive post-breadcrumb--full-width">
+            {{ page.category }}
+          </span>
         </div>
         {% if site.categories[page.filter_category] %}
           {% for post in site.categories[page.filter_category] %}

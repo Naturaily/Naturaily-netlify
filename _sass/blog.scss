@@ -25,29 +25,35 @@ pre, code {
     padding-bottom: 14px;
 
     .icon {
-      margin: 2px 6px 0;
+      margin: 2px 4px 0;
       font-size: 8px;
 
-      &:nth-of-type(1) {
-        display: none;
+      &--mobile {
+        font-size: 15px;
+        color: $color-accent-gold;
+        text-decoration: none;
       }
     }
   }
 
   &-breadcrumb {
-    max-width: 125px;
+    max-width: 110px;
     font-size: 14px;
     color: $color-accent-gold;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 
-    &.home {
+    &--desktop {
       display: none;
     }
 
-    &.title {
+    &--inactive {
       color: $color-global-font;
+    }
+
+    &--full-width {
+      max-width: none;
     }
   }
 
@@ -372,13 +378,13 @@ pre, code {
       .icon {
         margin: 2px 8px 0;
 
-        &:nth-of-type(1) {
-          display: inline-block;
+        &--mobile {
+          display: none;
         }
       }
     }
 
-    &-breadcrumb.home {
+    &-breadcrumb--desktop {
       display: inline-block;
     }
 
@@ -481,7 +487,7 @@ pre, code {
 
 @media (min-width: 1200px) {
   .post {
-    &-breadcrumb.title {
+    &-breadcrumb--inactive {
       max-width: 340px;
     }
 

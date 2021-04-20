@@ -3,6 +3,12 @@ layout: default
 ---
 
 <div class="l-content l-blog">
+  <div class="post-breadcrumbs">
+    <a class="post-breadcrumb post-breadcrumb--desktop" href="/">Home</a>
+    <a class="icon icon-home icon--mobile" href="/"></a>
+    <span class="icon icon-chevron-right"></span>
+    <span class="post-breadcrumb post-breadcrumb--inactive">Blog</span>
+  </div>
   {% for post in paginator.posts %}
     <div class="post-preview">
       <a class="post-link" href="{{ post.url | relative_url }}">

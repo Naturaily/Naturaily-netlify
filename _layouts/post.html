@@ -6,13 +6,14 @@ layout: default
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
       <div class="post-breadcrumbs">
-        <a class="post-breadcrumb home" href="/">Home</a>
+        <a class="post-breadcrumb post-breadcrumb--desktop" href="/">Home</a>
+        <span class="icon icon-home icon--mobile"></span>
         <span class="icon icon-chevron-right"></span>
         <a class="post-breadcrumb" href="/blog">Blog</a>
         <span class="icon icon-chevron-right"></span>
         <a class="post-breadcrumb category" href="/blog/categories/{{ page.category | replace: " ", "-" | downcase }}">{{ page.category }}</a>
         <span class="icon icon-chevron-right"></span>
-        <span class="post-breadcrumb title">{{ page.title | escape }}</span>
+        <span class="post-breadcrumb post-breadcrumb--inactive">{{ page.title | escape }}</span>
       </div>
       {% if page.image %}
         <img src="/assets/images/loader.gif" data-src="{{page.image}}" alt="Post image">
