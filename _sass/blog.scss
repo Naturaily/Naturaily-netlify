@@ -343,8 +343,14 @@ pre, code {
 }
 
 @media (min-width: 350px) {
-  .post .table-responsive {
-    width: 350px;
+  .post {
+    &-breadcrumb {
+      max-width: 125px;
+    }
+
+    .table-responsive {
+      width: 350px;
+    }
   }
 }
 
