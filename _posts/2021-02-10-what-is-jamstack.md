@@ -12,7 +12,7 @@ authors:
   label: Marta Sulikowska
   slug: marta-sulikowska
   value: author-33
-image: /assets/images/Blog_what_is_jamstack.png
+image: /assets/images/blog_what_is_jamstack2.jpg
 text-preview: >-
   Jamstack is a revolutionary architecture for building apps and websites. It's
   versatile, modern, and gives you a lot of flexibility and freedom to create a
