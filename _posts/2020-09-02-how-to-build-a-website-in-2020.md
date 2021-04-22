@@ -93,7 +93,7 @@ Nonetheless, a Jamstack approach will keep things as light as possible. Between 
 
 And don’t forget that the best ecommerce sites often use blogs and other pages for marketing purposes, so you’ll still need a means to add and update content.
 
-## Jamstack development for 2020… and beyond
+## Jamstack Development for 2020… and beyond
 
 So there you have it, our answer for building a website in today’s competitive age: go Jamstack. **It’s fast, it’s good for SEO and it’s easily usable by your entire company, from developers to content teams.**
 

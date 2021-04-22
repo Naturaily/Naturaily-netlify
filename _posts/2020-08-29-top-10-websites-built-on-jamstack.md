@@ -125,7 +125,7 @@ From regular blogs and updates to the ability to find dealers via postcode, or e
 
 A learning platform with a strong tech-focus, we’re not surprised [Right From Basics](https://rightfrombasics.com/){:rel="nofollow"}{:target="_blank"} has chosen the Jamstack route - in fact, they even cover Jamstack as a topic!
 
-However, Right from Basics is a little unique in that it focuses on Golang, as well as more popular web-languages such as Python. This is why they focus on Hugo, a site generator written in Go, rather than something like JavaScript ([where we would recommend Gatsby JS instead!](https://naturaily.com/blog/why-you-should-consider-gatsby-js-for-your-Jamstack-website)). Nonetheless, we like it because it showcases the wider versatility of Jamstack and the options at your disposal.
+However, Right from Basics is a little unique in that it focuses on Golang, as well as more popular web-languages such as Python. This is why they focus on Hugo, a site generator written in Go, rather than something like JavaScript ([where we would recommend Gatsby JS instead!](https://naturaily.com/blog/why-you-should-consider-gatsby-js-for-your-jamstack-website)). Nonetheless, we like it because it showcases the wider versatility of Jamstack and the options at your disposal.
 
 <br>
 
