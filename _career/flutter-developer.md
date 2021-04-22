@@ -18,8 +18,8 @@ who-we-are: >-
 about-left: >-
   You need to know that we value individuality, professionalism, open
   communication and honesty. We strive to provide our clients with the best,
-  stable, reliable and beautiful digital products. Check out
-  the[services](https://naturaily.com/services)we offer and some of our latest
+  stable, reliable and beautiful digital products. Check out the
+  [services](https://naturaily.com/services) we offer and some of our latest
   [case studies](https://naturaily.com/portfolio).
 about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
