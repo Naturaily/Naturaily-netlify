@@ -52,7 +52,7 @@ what-we-expect:
   - expectation:
       contents: >-
         high-quality custom storefronts created for e-commerce (excluding work
-        on templates) and fast, modern jamstack based websites 
+        on templates) and fast, modern Jamstack based websites 
   - expectation:
       contents: participation in product design workshops with clients
   - expectation:

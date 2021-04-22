@@ -1,7 +1,7 @@
 ---
-title: Comparison of 15 headless CMS for JAMstack websites
+title: Comparison of 15 headless CMS for Jamstack websites
 description: >-
-  Which Headless CMS is right for my JAMstack development? Take a look at the following
+  Which Headless CMS is right for my Jamstack development? Take a look at the following
   comparison of Butter CMS, Cockpit, ContentFul, CosmicJS, Craft CMS, Dato CMS, Directus,
   Forestry and many more.
 slug: comparison-of-15-headless-cms-for-jamstack-websites
@@ -16,20 +16,20 @@ authors:
 image: '/assets/images/blog_cover_Headless-CMS-JAMstack.png'
 text-preview: >
   Whether it’s for SEO or to stay user-friendly, more and more people are
-  turning to the likes of JAMstack for their website needs. This is usually
+  turning to the likes of Jamstack for their website needs. This is usually
   followed by a reevaluation of their content management systems and,
   ultimately, a desire to try headless CMS. The above story then leads to an
-  inevitable question: which Headless CMS is right for my JAMstack development?
+  inevitable question: which Headless CMS is right for my Jamstack development?
 ---
-**Whether it’s for SEO or to stay user-friendly, more and more people are turning to the likes of JAMstack for their website needs. This is usually followed by a reevaluation of their content management systems and, ultimately, a desire to try headless CMS.**
+**Whether it’s for SEO or to stay user-friendly, more and more people are turning to the likes of Jamstack for their website needs. This is usually followed by a reevaluation of their content management systems and, ultimately, a desire to try headless CMS.**
 
-The above story then leads to an inevitable question: which Headless CMS is right for my JAMstack development?
+The above story then leads to an inevitable question: which Headless CMS is right for my Jamstack development?
 
-There are numerous options available, so there isn’t one clear answer unfortunately. It’s better to understand what some of the best headless options have to offer and how they align with your particular goals. JAMstack developers have their own preferences, and the right CMS can either greatly help - or greatly hinder - your workflow.
+There are numerous options available, so there isn’t one clear answer unfortunately. It’s better to understand what some of the best headless options have to offer and how they align with your particular goals. Jamstack developers have their own preferences, and the right CMS can either greatly help - or greatly hinder - your workflow.
 
-## What is JAMstack?
+## What is Jamstack?
 
-If you want something fast and secure, a JAMstack website is the way to go. Short for JavaScript, APIs and Markup, [JAMstack development](https://naturaily.com/services/webdevelopment/jamstack) keeps to web-friendly roots. While it sacrifices heavier elements, instead relying on static websites and the increased performance, whether it’s speed, security or SEO readability, that comes with them.
+If you want something fast and secure, a Jamstack website is the way to go. Short for JavaScript, APIs and Markup, [Jamstack development](https://naturaily.com/services/webdevelopment/jamstack) keeps to web-friendly roots. While it sacrifices heavier elements, instead relying on static websites and the increased performance, whether it’s speed, security or SEO readability, that comes with them.
 
 ## What is Headless CMS?
 
@@ -49,16 +49,16 @@ On the downside, we’re limited to any Git-based restrictions. If we want to pu
 
 ## The PB&J of Fast & Dynamic Websites
 
-If you combine both JAMstack and Headless CMS, it’s easy to see the benefits. The former wants to stay fast and flexible through API, which is exactly what the latter specialises in.
+If you combine both Jamstack and Headless CMS, it’s easy to see the benefits. The former wants to stay fast and flexible through API, which is exactly what the latter specialises in.
 
 Naturally, we recommend this for websites that have high content requirements.\
-E-commerce is the perfect example. Product information is essential and you need a website that performs well (especially on mobile) and adapts to your content requirements, not the other way around. Likewise, e-commerce and other businesses have additional pages, from blogs to investor information, that need to be displayed in unique ways. With JAMstack, you can configure each area or section as needed, using API to effortlessly call the content for each section.
+E-commerce is the perfect example. Product information is essential and you need a website that performs well (especially on mobile) and adapts to your content requirements, not the other way around. Likewise, e-commerce and other businesses have additional pages, from blogs to investor information, that need to be displayed in unique ways. With Jamstack, you can configure each area or section as needed, using API to effortlessly call the content for each section.
 
 *(Well, there’s a little more to it than that, but that’s a topic for another time.)*
 
 ## Choosing The Right Headless CMS
 
-Deciding on JAMstack is easy, but there’s more than one content management system out there and, what’s more, many of the leading WordPress alternatives are headless. And a lot of them are pretty good at it, too, which makes the choice all the more difficult.
+Deciding on Jamstack is easy, but there’s more than one content management system out there and, what’s more, many of the leading WordPress alternatives are headless. And a lot of them are pretty good at it, too, which makes the choice all the more difficult.
 
 Since every web project is unique, we want to showcase the best of the best - including both their advantages and drawbacks, to help you choose the right solutions for your web development needs.
 
@@ -68,7 +68,7 @@ However, there are things we look at as much as possible:
 
 **Needs for content teams:** there’s plenty of advice on the technical side of things, but we also need to consider content teams, as they’re the ones that will use the service on a day to day basis. This means friendly interfaces, various content features (such as media) and the ability to support users and roles is essential.
 
-**Needs for developers:** do you want something that works straight after implementation, or something that developers can fully customize if given the time? Depending on your JAMstack needs, you might favour one approach over the other.
+**Needs for developers:** do you want something that works straight after implementation, or something that developers can fully customize if given the time? Depending on your Jamstack needs, you might favour one approach over the other.
 
 **Costs:** Very few CMS are free (and we have a few here). Knowing what options are available and how far the tiers scale up will help you plan ahead.
 
@@ -90,7 +90,7 @@ What’s more, ButterCMS also offers a migration service for WordPress blogs in 
 
 ### For Development Teams
 
-First of all, ButterCMS is based purely on API and webhooks, making it ideal for pretty much any website as far as compatibility goes. Of course, the API-first approach is ideal for JAMstack. You’re free to use whichever language or framework you like - and the company even has a growing range of documentation to help.
+First of all, ButterCMS is based purely on API and webhooks, making it ideal for pretty much any website as far as compatibility goes. Of course, the API-first approach is ideal for Jamstack. You’re free to use whichever language or framework you like - and the company even has a growing range of documentation to help.
 
 This, combined with a testing environment, CDN support, and the previously mentioned multi-site support make ButterCMS a possible option for larger development teams that need to cover multiple websites.
 
@@ -152,9 +152,9 @@ This is probably the hardest part for content teams to learn, but it’s very ea
 
 ### For Development Teams
 
-Developers will find plenty to like about ContentFul, as it also supports a wider range of languages beyond JAMstack to help with wider web needs.
+Developers will find plenty to like about ContentFul, as it also supports a wider range of languages beyond Jamstack to help with wider web needs.
 
-ContentFul also takes all of the fields created in the content section and converts them into both API and JSON attributes, as needed. As long as your website is using these (and of course you are - you’re using JAMstack) developers and content means can often work side by side with no problems at all.
+ContentFul also takes all of the fields created in the content section and converts them into both API and JSON attributes, as needed. As long as your website is using these (and of course you are - you’re using Jamstack) developers and content means can often work side by side with no problems at all.
 
 <div class="table-layout-fixed" markdown="block">
 | Pros                                | Cons                                          |
@@ -182,7 +182,7 @@ As an added bonus, it also includes prebuilt integrations for the likes of Slack
 
 ### For Developers
 
-If you’ve been in website development for 5 minutes, you know that any ending in “JS” is going the JavaScript route. For many, this is a plus - it means we’re able to utilize a wider range of web-friendly technologies, such as react and vue.js. As mentioned previously, these let us add dynamic elements when needed, while the headless nature of the CMS overall meets our wider JAMstack website development needs.
+If you’ve been in website development for 5 minutes, you know that any ending in “JS” is going the JavaScript route. For many, this is a plus - it means we’re able to utilize a wider range of web-friendly technologies, such as react and vue.js. As mentioned previously, these let us add dynamic elements when needed, while the headless nature of the CMS overall meets our wider Jamstack website development needs.
 
 Furthermore, CosmicJS includes AWS integrations from the get-go and also includes Cloud hosting in every option. On the downside, on-premise support is only available at the higher enterprise-level packages, so if you don’t like the Cloud, you don’t have much support here.
 
@@ -212,7 +212,7 @@ If you add the likes of localization features, live content preview generations 
 
 ### For Developers
 
-The biggest feature of Craft CMS is its “headless mode”, enabling it to switch between a more traditional platform and a headless option. Needless to say, if we’re focusing on JAMstack development, we’re keeping this switched on.
+The biggest feature of Craft CMS is its “headless mode”, enabling it to switch between a more traditional platform and a headless option. Needless to say, if we’re focusing on Jamstack development, we’re keeping this switched on.
 
 This mode enables front-end routing optimized for fast performance. By default, this uses JSON over HTML, but all of this can still be further configured if your project needs it. In other words, it’s a CMS that makes it very easy to develop in the way that you require.
 
@@ -268,13 +268,13 @@ If you want a CMS that’s easy to use and is highly agreeable with a wide range
 
 What [Directus](https://directus.io/){:rel="nofollow"}{:target="_blank"} might lack in initial glamour, it brings in versatility. The CMS is designed to support numerous solutions, from traditional websites to kiosks and other interactive digital builds.
 
-As such, when it comes to JAMstack website development, Directus will support you in whatever content you’re creating - including multilingual support, tables, text, media, and more.
+As such, when it comes to Jamstack website development, Directus will support you in whatever content you’re creating - including multilingual support, tables, text, media, and more.
 
 ### For Developers
 
-Directus arguably stands out in that it really takes its open-source nature seriously. All the essential elements, such as the API, SDK, and app, are available for free, giving developers a strong foundation for any type of set-up (naturally, as a CMS, the JAMstack approach is what we’re focusing on here).
+Directus arguably stands out in that it really takes its open-source nature seriously. All the essential elements, such as the API, SDK, and app, are available for free, giving developers a strong foundation for any type of set-up (naturally, as a CMS, the Jamstack approach is what we’re focusing on here).
 
-Secondly, Directus pulls from SQL databases directly, so we can really lean into the headless architecture of JAMstack.
+Secondly, Directus pulls from SQL databases directly, so we can really lean into the headless architecture of Jamstack.
 
 And if that wasn’t enough, it’s also in its 8th version, so you know it’s being regularly updated. If you’re wondering how an open-source project stays funded, Directus complements this with additional services, such as Cloud hosting, which may prove a highly useful option for some.
 
@@ -307,7 +307,7 @@ The fact that it’s Git-based also means that it works extremely well with stat
 
 Let’s address the most obvious difference: Forestry is Git-based, not API-based. As mentioned earlier, this comes at a trade-off - we’re sacrificing the option to easily implement additional sources (as well as more frequent updates) for a significantly more developer-friendly solution.
 
-But it’s also easy to set-up - not only because of Git, but because it goes well with flat files. If you’re focusing on such static designs - and if you’re reading about JAMstack, we think you are - then Forestry is in its natural element.
+But it’s also easy to set-up - not only because of Git, but because it goes well with flat files. If you’re focusing on such static designs - and if you’re reading about Jamstack, we think you are - then Forestry is in its natural element.
 
 <div class="table-layout-fixed" markdown="block">
 | Pros                                                                | Cons                                      |
@@ -337,7 +337,7 @@ In fact, WordPress is so popular that there’s a very high chance it’s the fi
 
 WordPress was built with themes included and the removal of that thematic ‘head’ is a relatively new idea. It’s not an official, supported product so it requires a development team that’s willing to put the time and effort in, all to create something that exists in various other forms already.
 
-Similarly, we also need to address the JAMstack issue. WordPress is built on PHP and, while many defend the latter as a web-friendly solution, it means adding another language to the tech stack. From a development point of view? If WordPress is kept in the backend and only sends data via API, this shouldn’t get in the way of a JAMstack frontend.
+Similarly, we also need to address the Jamstack issue. WordPress is built on PHP and, while many defend the latter as a web-friendly solution, it means adding another language to the tech stack. From a development point of view? If WordPress is kept in the backend and only sends data via API, this shouldn’t get in the way of a Jamstack frontend.
 
 <div class="table-layout-fixed" markdown="block">
 | Pros                                             | Cons                     |
@@ -357,7 +357,7 @@ Similarly, we also need to address the JAMstack issue. WordPress is built on PHP
 
 ### For Content Teams
 
-As for as content options go, Netlify CMS certainly hits all the core needs. Alongside rich-text editing, there is a lot of drag-and-drop versatility that makes it easy to create new pages from various components - something that most content teams will find intuitive. It also enables real-time previews, which helps ensure content is working as intended before being published - something that’s important with JAMstack and headless backends, as we’re creating our own frontends, rather than relying on existing templates, after all.
+As for as content options go, Netlify CMS certainly hits all the core needs. Alongside rich-text editing, there is a lot of drag-and-drop versatility that makes it easy to create new pages from various components - something that most content teams will find intuitive. It also enables real-time previews, which helps ensure content is working as intended before being published - something that’s important with Jamstack and headless backends, as we’re creating our own frontends, rather than relying on existing templates, after all.
 
 Furthermore, content is collated in different Collections - Netlify’s answer to different types of content - for easy templating. Paired with the workflow tab, this ensures the admin panel is very simple and easy to use, but it does require additional development help for more advanced tasks, such as creating new collections.
 
@@ -436,7 +436,7 @@ In short, if you have specific needs, Sanity needs some set-up time to get the m
 
 Confident and competent developers will find plenty to like about Sanity. Its customization is near endless, thanks to open-source support, numerous plug-ins and the ability to create custom components as needed. Throw in an easy preview feature, and it’s a very developer-friendly option. It takes time, sure, but that’s because Sanity is one of the least compromising headless CMS options.
 
-It’s also built on react and, naturally, is highly compatible with the ever popular web framework. We’re big fans of React and, as a JavaScript library designed for easy and performant frontend web development, it fits perfectly into the JAMstack strategy.
+It’s also built on react and, naturally, is highly compatible with the ever popular web framework. We’re big fans of React and, as a JavaScript library designed for easy and performant frontend web development, it fits perfectly into the Jamstack strategy.
 
 Where it falls short, however, is in a lack of support for webhooks. This, paired with a longer implementation time, means we only recommend it for experienced and capable developers.
 
@@ -474,7 +474,7 @@ Overall, we find this particularly useful with the likes of Shopify. Here, we ca
 
 Let’s address the elephant in the room: a visual editor means that Storyblok isn’t entirely headless. At least not in the way that development teams would like. This work model is great for content teams, but it means that the CMS isn’t truly acting like a database. For larger operations, where automation is more important, Storyblok will start to be a less attractive option.
 
-Sure, the datasources are one way of working around this, but it’s not as effective as API. With API and JAMstack, information is updated everywhere due to being reloaded on new requests.
+Sure, the datasources are one way of working around this, but it’s not as effective as API. With API and Jamstack, information is updated everywhere due to being reloaded on new requests.
 
 On the plus side, there are webhooks and triggers, all of which can be set in the content panels. While this meets most needs, it does result in a different work process - one suited for less code-heavy developers.
 
@@ -506,7 +506,7 @@ That said, it’s worth noting that Strapi is still in development and, while fu
 
 ### For Development Teams
 
-As we just mentioned, Strapi certainly isn’t the most in-depth product on the market. Yet it’s open-source nature, combined with the fact that it’s based on Node.js, makes it highly useful for our JAMstack needs. It’s also compatible with a wider range of database and SQL solutions, so developers will have no problems integrating it with the website or creating the exact data structure their current project requires.
+As we just mentioned, Strapi certainly isn’t the most in-depth product on the market. Yet it’s open-source nature, combined with the fact that it’s based on Node.js, makes it highly useful for our Jamstack needs. It’s also compatible with a wider range of database and SQL solutions, so developers will have no problems integrating it with the website or creating the exact data structure their current project requires.
 
 It’s also supported by a wide community, which means there’s always a good chance you’ll get help somewhere... or someone is already working on an extension that can help your own project.
 
@@ -567,10 +567,10 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 * Is there a free option available, whether open source, trial-based or otherwise limited. Doing so will let you experiment, at the very least.
 * Price range per month. Assuming you want the support or the full functionality, this is the kind of costs you can be looking at each month.
 * The number of users on the free and paid version. Larger companies have larger content teams and, thus, will need a solution that supports more roles.
-* Gatsby compatible - it’s one of the best site generators and perfect for JAMstack, so we considered this heavily.
+* Gatsby compatible - it’s one of the best site generators and perfect for Jamstack, so we considered this heavily.
 * Service Level Agreement (SLA) availability. With premium plans, an SLA is commonplace and keeps you safe if something goes wrong, whereas open-source solutions require you to maintain, update and look after the service.
 
-## Headless CMS for JAMstack Summary
+## Headless CMS for Jamstack Summary
 
 <div class="table-responsive" markdown="block">
 |                    | API or Git? | Free Option? | Price Range Per Month                 | No. of Users                         | No. of Roles             | Gatsby Compatible? | SLA Enterprise/ Premium Plans?              |
