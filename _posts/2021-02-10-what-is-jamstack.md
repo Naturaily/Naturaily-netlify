@@ -6,7 +6,7 @@ description: >-
 slug: what-is-jamstack
 layout: post
 date: '2021-02-10 03:57:30 +0200'
-category: JAMstack development
+category: Jamstack development
 authors:
   avatar: /assets/images/Marta-Sulikowska-blog.png
   label: Marta Sulikowska

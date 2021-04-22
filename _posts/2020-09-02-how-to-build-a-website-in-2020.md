@@ -7,7 +7,7 @@ description: >-
 slug: how-to-build-a-website-in-2020
 layout: post
 date: '2020-09-02 02:46:58 +0200'
-category: JAMstack development
+category: Jamstack development
 authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski

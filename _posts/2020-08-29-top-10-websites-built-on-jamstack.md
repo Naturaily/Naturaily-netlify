@@ -7,7 +7,7 @@ description: >-
 slug: top-10-websites-built-on-jamstack
 layout: post
 date: '2020-08-29 08:15:40 +0200'
-category: JAMstack development
+category: Jamstack development
 authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
