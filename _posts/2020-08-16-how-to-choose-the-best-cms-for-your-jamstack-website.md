@@ -6,7 +6,7 @@ description: >-
 slug: how-to-choose-the-best-cms-for-your-jamstack-website
 layout: post
 date: '2020-08-16 04:04:57 +0200'
-category: JAMstack development
+category: Jamstack development
 authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski

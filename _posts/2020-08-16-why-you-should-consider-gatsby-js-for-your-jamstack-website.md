@@ -7,7 +7,7 @@ description: >-
 slug: why-you-should-consider-gatsby-js-for-your-jamstack-website
 layout: post
 date: '2020-08-18 10:00:00 +0200'
-category: JAMstack development
+category: Jamstack development
 authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski

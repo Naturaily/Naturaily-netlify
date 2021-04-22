@@ -7,7 +7,7 @@ description: >-
 slug: comparison-of-15-headless-cms-for-jamstack-websites
 layout: post
 date: '2020-08-24 03:29:40 +0200'
-category: JAMstack development
+category: Jamstack development
 authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
