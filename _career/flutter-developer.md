@@ -3,9 +3,8 @@ published: true
 title: Flutter Developer
 meta-title-inset: check the job offer and apply
 description: >-
-  Working at Naturaily as UX/UI Designer means cooperating with all the
-  development, marketing and business teams assisting them in the commercial and
-  internal projects
+  We're hiring! Are you a Flutter Developer? Join our team and help us build
+  great digital products for our clients.
 layout: career-offer
 image: /assets/images/FlutterDeveloper.png
 location:
