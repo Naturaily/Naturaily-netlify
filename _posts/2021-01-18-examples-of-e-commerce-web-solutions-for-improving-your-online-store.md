@@ -34,11 +34,11 @@ How much more? For example, after going headless, [Teespring’s](https://teespr
 
 {% youtube Bxh5MHiRRW8 %}
 
-## Headless means JAMstack
+## Headless means Jamstack
 
-If you really dream about improving your online store (which I know you do) the best you can do is to pair JAMstack with headless CMS. But what is it actually?
+If you really dream about improving your online store (which I know you do) the best you can do is to pair Jamstack with headless CMS. But what is it actually?
 
-As we write in our article about [building modern websites](https://naturaily.com/blog/how-to-build-a-website-in-2020), JAMstack is a techstack, and it’s shortcut stands up for JavaScript APIs and Markup. It was created to work the best on the web, especially for the end-user.
+As we write in our article about [building modern websites](https://naturaily.com/blog/how-to-build-a-website-in-2020), Jamstack is a techstack, and it’s shortcut stands up for JavaScript APIs and Markup. It was created to work the best on the web, especially for the end-user.
 
 It’s fast and extremely SEO friendly which will make marketers' job easier. Furthermore, it loads faster, is more secure, and gives you much more freedom when you pay attention to how your website looks.  If you don’t feel it yet, take a look at some great [examples](https://naturaily.com/blog/top-10-websites-built-on-jamstack) of websites that are built this way. If Louis Vuitton trusts this e-commerce solution, so can you.
 

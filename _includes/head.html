@@ -44,7 +44,7 @@
   <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
 
   {% if page.url contains 'blog/categories'%}
-    {% unless page.filter_category == 'UX/UI' or page.filter_category == 'Naturaily Client' or page.filter_category == 'E-commerce' or page.filter_category == 'JAMstack-development' %}
+    {% unless page.filter_category == 'UX/UI' or page.filter_category == 'Naturaily Client' or page.filter_category == 'E-commerce' or page.filter_category == 'Jamstack-development' %}
       <link rel="canonical" href='/blog/tags/{{ page.filter_category | replace: " ", "-" | downcase }}/'/>
     {% endunless %}
   {% elsif page.url contains 'blog/tags' %}

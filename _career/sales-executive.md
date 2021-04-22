@@ -42,7 +42,7 @@ what-we-expect:
   - expectation:
       contents: >-
         to develop customer awareness of the benefits of PWA storefronts,
-        JAMStack/Serverless websites and custom IoT dashboards
+        Jamstack/Serverless websites and custom IoT dashboards
   - expectation:
       contents: to close outbound & inbound leads
 what-you-expect:

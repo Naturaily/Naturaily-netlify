@@ -1,7 +1,7 @@
 ---
-title: Why you should consider Gatsby JS for your JAMstack website
+title: Why you should consider Gatsby JS for your Jamstack website
 description: >-
-  There are a number of options to choose from but, since JAMstack development focuses on lean,
+  There are a number of options to choose from but, since Jamstack development focuses on lean,
   fast loading & performance with a focus on static elements, the generator you choose becomes
   a key driver of this process. That’s why we recommend Gatsby.
 slug: why-you-should-consider-gatsby-js-for-your-jamstack-website
@@ -15,16 +15,16 @@ authors:
   slug: marcin-sulikowski
 image: '/assets/images/blog_cover_Why-Gatsby-for-JAMstack-Websites.png'
 text-preview: >
-  Since JAMstack development focuses on lean, fast loading & performance with
+  Since Jamstack development focuses on lean, fast loading & performance with
   focus on static elements, the generator you choose becomes a key driver (or
-  bottleneck) of this process. Let’s explore why Gatsby and JAMstack go so well
+  bottleneck) of this process. Let’s explore why Gatsby and Jamstack go so well
   together.
 ---
-If you’re building a JAMstack site, there are a few key choices you need to make - not least of all the site generator that you use.
+If you’re building a Jamstack site, there are a few key choices you need to make - not least of all the site generator that you use.
 
-There are a number of options to choose from but, since JAMstack development focuses on lean, fast loading & performance with a focus on static elements, the generator you choose becomes a key driver (or bottleneck) of this process.\
+There are a number of options to choose from but, since Jamstack development focuses on lean, fast loading & performance with a focus on static elements, the generator you choose becomes a key driver (or bottleneck) of this process.\
 \
-**That’s why we recommend Gatsby. We’ve used it before, we’re using it now and we’re very confident we’ll use it again! Let’s explore why Gatsby and JAMstack go so well together.**
+**That’s why we recommend Gatsby. We’ve used it before, we’re using it now and we’re very confident we’ll use it again! Let’s explore why Gatsby and Jamstack go so well together.**
 
 But first...
 
@@ -34,7 +34,7 @@ But first...
 
 Gatsby - or Gatsby JS - is a static website generator. You can essentially think of it as a website publisher. It takes the input files needed and both converts and publishes them into a web-friendly format.
 
-The “static” part comes from the fact that Gatsby does this by converting to HTML, CSS, JavaScript and a splash of raw data - which keeps websites fast, performant and easy to load. (These same key principles behind static websites also power JAMstack, which we’ll get to later.)
+The “static” part comes from the fact that Gatsby does this by converting to HTML, CSS, JavaScript and a splash of raw data - which keeps websites fast, performant and easy to load. (These same key principles behind static websites also power Jamstack, which we’ll get to later.)
 
 However, while there are many static generators to choose from, we appreciate Gatsby for a few key reasons.
 
@@ -70,25 +70,25 @@ The most popular technologies don’t just exist because of their official devel
 
 It’s very well supported, with developers contributing the likes of new plugins, transformers and more. Whatever you need, if it isn’t part of the official Gatsby package, there’s a good chance someone has already worked on a solution.\
 \
-Alongside its official support, this means there are relatively few challenges Gatsby can’t overcome. Want to add third-party support, pull source data from different sources (such as using a content management system in your JAMstack package) and even using markup (another JAMstack friendly option) with the data? The community has ensured Gatsby is able to do all of that.
+Alongside its official support, this means there are relatively few challenges Gatsby can’t overcome. Want to add third-party support, pull source data from different sources (such as using a content management system in your Jamstack package) and even using markup (another Jamstack friendly option) with the data? The community has ensured Gatsby is able to do all of that.
 
 <br>
 
-## Gatsby & JAMstack Development
+## Gatsby & Jamstack development
 
-Now let’s look at Gatsby more in the context of JAMstack. All of the above benefits, of course, mirror the needs of [JAMstack development](https://naturaily.com/services/webdevelopment/jamstack){:target="_blank"} itself, but here’s why we turn to Gatsby over other generators time and time again.
+Now let’s look at Gatsby more in the context of Jamstack. All of the above benefits, of course, mirror the needs of [Jamstack development](https://naturaily.com/services/webdevelopment/jamstack){:target="_blank"} itself, but here’s why we turn to Gatsby over other generators time and time again.
 
 ### Performance Is a Priority
 
-Both JAMstack and static site generators focus on performance. While there are many options to choose from, the reason we keep choosing Gatsby JS is that it’s often just the best. It’s very well optimized and, thanks to community support, it continues to be a leading choice.
+Both Jamstack and static site generators focus on performance. While there are many options to choose from, the reason we keep choosing Gatsby JS is that it’s often just the best. It’s very well optimized and, thanks to community support, it continues to be a leading choice.
 
 For example, if you want to utilize responsive images - which is essentially a must for responsive design - [there’s a plugin for that](https://www.gatsbyjs.org/packages/gatsby-plugin-sharp/){:rel="nofollow"}{:target="_blank"}. Of course, it’s designed to keep your web projects as easy to load as possible.
 
-Whatever you need in your JAMstack development, the chances are Gatsby has it covered.
+Whatever you need in your Jamstack development, the chances are Gatsby has it covered.
 
 ### Mostly Static
 
-Static generators play a key role in JAMstack - by focusing on static HTML elements as much as possible, loading and overall performance are greatly improved. The key phrase here, however, is “as much as possible”.
+Static generators play a key role in Jamstack - by focusing on static HTML elements as much as possible, loading and overall performance are greatly improved. The key phrase here, however, is “as much as possible”.
 
 Most modern websites require dynamic content. Problems typically arise when this is used too heavily. With Gatsby, we circumvent this issue entirely. We’re still prefetching and loading static elements as much as possible, with cuts down on loading issues, saving any computational power for those dynamic elements that we need.
 
@@ -102,10 +102,10 @@ More specifically, the CMS should act like the database for the generator to dra
 
 <br>
 
-## Gatsby & JAMstack!
+## Gatsby & Jamstack!
 
 There you have it. We’re not saying that other generators aren’t up to the task (indeed, there are numerous options on the market), but simply that we feel Gatsby makes a much stronger argument than the others. From our own experiences, it’s a tried and tested method that we’ve yet to supersede.
 
-The next time you’re developing a JAMstack project, why not give Gatsby a try?
+The next time you’re developing a Jamstack project, why not give Gatsby a try?
 
 [{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
