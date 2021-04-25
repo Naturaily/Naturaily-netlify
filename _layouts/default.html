@@ -19,15 +19,28 @@
     {% endunless %}
 
     <script src="/assets/js/jquery-3.5.0.min.js"></script>
-    <script src="/assets/js/slick.min.js"></script>
-    <script src="/assets/js/sticky-kit.js"></script>
     <script src="/assets/js/js-cookie.js"></script>
-    <script src="/assets/js/jquery.waypoints.min.js"></script>
-    <script src="/assets/js/sticky-waypoints.min.js"></script>
-    {% include lazyload.html %}
 
-    {% if page.url contains "/blog" %}
-      <script src="/assets/js/disqus-loader.min.js"></script>
+    {% if page.url == "/careers" %}
+      <script src="/assets/js/slick.min.js"></script>
     {% endif %}
+
+    {% if page.url contains "/blog"
+       or page.url == '/terms-of-service' %}
+      <script src="/assets/js/sticky-kit.js"></script>
+    {% endif %}
+
+    {% if page.url == "/about"
+       or page.url == "/careers"
+       or page.url == "/services/ecommerce/shopify-development"
+       or page.url == "/services/webdevelopment/jamstack"
+       or page.url == "/services/webdevelopment/node-js-development"
+       or page.url == "/services/webdevelopment/pwa"
+       or page.url == "/services/webdevelopment/react-js-development"
+       or page.url == "/services/webdevelopment/vue-js-development" %}
+      <script src="/assets/js/jquery.waypoints.min.js"></script>
+    {% endif %}
+
+    {% include lazyload.html %}
   </body>
 </html>
