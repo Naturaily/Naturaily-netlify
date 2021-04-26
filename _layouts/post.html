@@ -53,7 +53,6 @@ layout: default
 
       {% include blog-recentpost-by-category.html %}
     </div>
-    {% include disqus_comments.html %}
   </article>
   <div class="right-column">
     {% include blog-categories.html %}
@@ -76,20 +75,7 @@ layout: default
   </div>
 </div>
 
-<!-- Facebook Share -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2&appId=686865701396106&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- End Facebook Share -->
-
 <script type="text/javascript">
-  {% include blog-sticky.js %}
-
   function copyToClipboard() {
     var copyUrl = document.getElementById("copyUrl");
     copyUrl.select();
