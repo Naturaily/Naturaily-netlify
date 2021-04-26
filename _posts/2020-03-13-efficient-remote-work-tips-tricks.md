@@ -71,7 +71,7 @@ If you don’t like a typical workout - do some yoga. It may relieve back pain a
 
 YouTube is full with tutorials dedicated to people who sit all day long. Like this one:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8QE8gQ2qEwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube 8QE8gQ2qEwA %}
 
 Here you will find [5 yoga poses every programmer should try.](https://simpleprogrammer.com/5-yoga-poses-every-programmer-try/){:target="_blank"}
 
