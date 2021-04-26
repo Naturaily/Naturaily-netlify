@@ -18,7 +18,9 @@
       </div>
     {% endunless %}
 
-    <script src="/assets/js/jquery-3.5.0.min.js"></script>
+    {% unless page.url contains "/blog" %}
+      <script src="/assets/js/jquery-3.5.0.min.js"></script>
+    {% endunless %}
     <script src="/assets/js/js-cookie.js"></script>
 
     {% if page.url == "/careers" %}
