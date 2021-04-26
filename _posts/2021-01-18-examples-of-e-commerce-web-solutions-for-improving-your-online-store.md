@@ -8,12 +8,12 @@ layout: post
 date: '2021-01-18 02:10:24 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/J_150X150.png
+  avatar: /assets/images/J_150X150.jpg
   label: Katarzyna Ciesielska
   value: author-32
   slug: katarzyna-ciesielska
 image: >-
-  /assets/images/blog_examples_of_ecommerce_web_solutions_for_improving_your_online_store.png
+  /assets/images/blog_examples_of_ecommerce_web_solutions_for_improving_your_online_store.jpg
 text-preview: >-
   Having an online store ain't easy. Everyone who has ever tried it already
   knows that gaining new customers needs a lot of work. You can't just open a

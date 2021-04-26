@@ -8,11 +8,11 @@ layout: post
 date: '2021-02-04 12:37:47 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/J_150X150.png
+  avatar: /assets/images/J_150X150.jpg
   label: Katarzyna Ciesielska
   slug: katarzyna-ciesielska
   value: author-32
-image: /assets/images/Blog_who_are_the_shopify_experts.png
+image: /assets/images/Blog_who_are_the_shopify_experts.jpg
 text-preview: >-
   If you're in a middle of setting up your online store, or you feel that's the
   time for some improvements, you may be thinking about getting some help from

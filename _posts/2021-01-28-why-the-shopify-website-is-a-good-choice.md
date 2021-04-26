@@ -6,11 +6,11 @@ layout: post
 date: '2021-01-28 12:06:55 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/J_150X150.png
+  avatar: /assets/images/J_150X150.jpg
   label: Katarzyna Ciesielska
   slug: katarzyna-ciesielska
   value: author-32
-image: /assets/images/blog_why_the_shopify_website_is_a_good_choice.png
+image: /assets/images/blog_why_the_shopify_website_is_a_good_choice.jpg
 text-preview: >-
   Everybody around talks about Shopify, but you are still not sure why is this
   actually a good choice to create your website with it. It is a good sign that

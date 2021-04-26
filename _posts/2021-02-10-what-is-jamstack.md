@@ -8,11 +8,11 @@ layout: post
 date: '2021-02-10 03:57:30 +0200'
 category: Jamstack development
 authors:
-  avatar: /assets/images/Marta-Sulikowska-blog.png
+  avatar: /assets/images/Marta-Sulikowska-blog.jpg
   label: Marta Sulikowska
   slug: marta-sulikowska
   value: author-33
-image: /assets/images/Blog_what_is_jamstack.png
+image: /assets/images/Blog_what_is_jamstack.jpg
 text-preview: >-
   Jamstack is a revolutionary architecture for building apps and websites. It's
   versatile, modern, and gives you a lot of flexibility and freedom to create a

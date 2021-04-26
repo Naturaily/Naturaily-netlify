@@ -8,11 +8,11 @@ layout: post
 date: '2021-01-11 11:39:22 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/J_150X150.png
+  avatar: /assets/images/J_150X150.jpg
   label: Katarzyna Ciesielska
   value: author-32
   slug: katarzyna-ciesielska
-image: /assets/images/blog_ecommerce_development_company.png
+image: /assets/images/blog_ecommerce_development_company.jpg
 text-preview: >-
   Opening an online shop can be stressful for everybody. Even it's not the first
   time you're doing it. Web development is evolving each day so If you want to
