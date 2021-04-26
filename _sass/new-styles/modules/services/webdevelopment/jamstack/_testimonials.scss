@@ -1,118 +1,72 @@
 .jamstack-testimonials {
   flex-direction: column;
   flex-wrap: wrap;
-  padding-top: 0;
-  padding-left: 160px;
-  padding-right: 100px;
+  max-width: calc(100% - 15px);
+  margin: 0 5px 0 10px;
+  padding: 40px 5px 50px 10px;
   box-sizing: border-box;
 
-  &_container {
-    padding: 0 45px;
+  .clutch {
+    margin-top: 0;
   }
 
-  &_header {
-    margin-bottom: 60px;
-    font-size: 36px;
-    line-height: 50px;
-    font-weight: 200;
-  }
-
-  &_companies {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    margin: 0 40px;
-  }
-
-  &_company {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-
-    &-image {
-      max-height: 32px;
-      max-width: 100px;
-
-      &.react {
-        max-height: 35px;
-      }
-
-      &.sanity {
-        max-height: 17px;
-      }
-
-      &.aws {
-        max-height: 22px;
-      }
-    }
-  }
-
-  &_link {
-    display: flex;
-    align-items: center;
-    padding-left: 180px;
-    color: $color-secondary;
-    font-size: 11px;
-    font-weight: 600;
-    text-decoration: none;
-
-    &-clutch {
-      height: 18px;
-      margin-right: 26px;
+  .portfolio__figure {
+    &-circle, &-dot {
+      display: block;
+      position: absolute;
     }
 
-    &-image {
-      height: 11px;
-      margin-left: 23px;
+    &-circle {
+      z-index: 0;
+      border-radius: 100%;
+      border: 1px solid $color-secondary;
+      opacity: 0.1;
+    }
+
+    &-dot {
+      z-index: 1;
+      border-radius: 100%;
+
+      &--secondary {
+        background-color: $color-secondary;
+      }
+
+      &--blue {
+        background-color: $color-geometric-blue;
+      }
+
+      &--yellow {
+        background-color: $color-accent-yellow;
+      }
     }
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 576px) {
+  .jamstack-testimonials .clutch {
+    margin: 0 25px;
+  }
+}
+
+@media (min-width: 811px) {
   .jamstack-testimonials {
-    &_companies {
-      margin: 0;
+    max-width: none;
+    margin: 0;
+    padding: 100px;
+    padding-left: 160px;
+
+    .clutch-review {
+      padding: 40px 0 25px;
+
+      &:first-of-type {
+        padding-top: 75px;
+      }
     }
   }
 }
 
-@media (max-width: 810px) {
-  .jamstack-testimonials {
-    max-width: calc(100% - 15px);
-    margin: 0 5px 0 10px;
-    padding: 40px 5px 50px 10px;
-
-    &_container, &_link {
-      padding: 0;
-      padding-left: 25px;
-    }
-  }
-}
-
-@media (max-width: 576px) {
-  .jamstack-testimonials {
-    &_header {
-      margin-bottom: 30px;
-    }
-
-    &_companies {
-      flex-wrap: wrap;
-      height: auto;
-    }
-
-    &_company {
-      height: 60px;
-      width: 50%;
-    }
-
-    &_link {
-      &-clutch {
-        margin-right: 10px;
-      }
-
-      &-image {
-        margin-left: 10px;
-      }
-    }
+@media (min-width: 1200px) {
+  .jamstack-testimonials .clutch-review {
+    padding-bottom: 50px;
   }
 }

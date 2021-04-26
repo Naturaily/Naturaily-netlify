@@ -18,8 +18,6 @@ text-preview: >-
   Let’s face it. Ruby on Rails is old. Really old. But judging by the changes
   that happen on the tech market it’s an extremely mature technology, so it
   makes perfect sense to use it in certain cases and applications.
-tags:
-  - Ruby on Rails development
 ---
 Let’s face it. Ruby on Rails is old. Really old. But judging by the changes that happen on the tech market it’s an extremely mature technology, so it makes perfect sense to use it in certain cases and applications.
 

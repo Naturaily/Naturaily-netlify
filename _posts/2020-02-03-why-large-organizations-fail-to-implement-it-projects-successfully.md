@@ -20,10 +20,6 @@ text-preview: >
   Other studies show that 17% of IT projects go so badly, they threaten the
   existence of the business itself. So who is to blame – managers, employers or
   stakeholders? Or maybe it’s the technology itself?
-tags:
-  - Bespoke enterprise software development
-  - Large-scale IT projects
-  - Enterprise-level solutions
 related_posts:
   - >-
     How to Find the Best Development Company on Clutch and Not to Fall Into a

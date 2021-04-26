@@ -16,9 +16,6 @@ text-preview: >-
   Despite Brexit London still remains as one of the biggest hubs and places for
   your startup. This list covers the most interesting London-based finance
   startups that are definitely worth your attention.
-tags:
-  - Fintech
-  - Startups
 ---
 
 

@@ -19,8 +19,6 @@ text-preview: >-
   efficiency. The challenges that digital reality confronts us with –
   information overdose and action paralysis – gave birth to a completely new
   breed of productivity preachers, coaches and influencers.
-tags:
-  - Software development
 ---
 In a world of distraction and endless procrastination, we are witnessing the birth of a whole-new currency, scarce but incredibly coveted: focus and efficiency. The challenges that digital reality confronts us with – information overdose and action paralysis – gave birth to a completely new breed of productivity preachers, coaches and influencers.
 

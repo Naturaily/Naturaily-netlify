@@ -17,8 +17,6 @@ text-preview: >-
   Communication between our team members is the key to success. To provide
   better quality products to our customers we use professional platforms and
   services like Slack - an instant messaging and collaboration system.
-tags:
-  - Agile
 ---
 ## Communication is the key to success
 

@@ -18,8 +18,6 @@ text-preview: >-
   There is a group of celebrities who've even launched their own funds. They
   know where to drop their dollars, that's for sure. Who invested in what and
   was it worth it?
-tags:
-  - Startups
 ---
 Sportsmen, rock stars, pop singers and actors eagerly invest in startups, especially in the US where both tech and entertainment industries are huge. There is a group of celebrities who've even launched their own funds. They know where to drop their dollars, that's for sure. Who invested in what and was it worth it?
 

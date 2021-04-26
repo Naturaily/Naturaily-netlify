@@ -18,9 +18,6 @@ text-preview: >-
   site, we were forced to make a choice. We’d build the site either from scratch
   or on top of existing solution. After a few days of getting our heads around
   the topic, we decided to take on the latter option.
-tags:
-  - Spree development
-  - Ruby on Rails development
 ---
 
 Couple months ago, after signing a contract to build an unusual e-commerce site, we were forced to make a choice. We’d build the site either from scratch or on top of existing solution. After a few days of getting our heads around the topic, we decided to take on the latter option.

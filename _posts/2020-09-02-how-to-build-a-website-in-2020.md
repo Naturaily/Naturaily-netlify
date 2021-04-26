@@ -7,7 +7,7 @@ description: >-
 slug: how-to-build-a-website-in-2020
 layout: post
 date: '2020-09-02 02:46:58 +0200'
-category: JAMstack development
+category: Jamstack development
 authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
@@ -20,10 +20,6 @@ text-preview: >
   ‘hard coded’ websites often don’t work anymore. They are slow (bad for users)
   and don’t allow website owners to easily load new content (whether it’s a blog
   or ecommerce listings).
-tags:
-  - JAMStack
-  - SEO
-  - Gatsby
 ---
 Today, the internet is more popular (and more essential to business) than ever. As a result, your website needs to be good - but what “good” means has changed a lot over the years.
 
@@ -51,15 +47,15 @@ For example, imagine you are running an ecommerce store. From a user perspective
 
 Of course, we wouldn’t be talking about it if we didn’t have the answer for you!
 
-## Why We Use JAMstack
+## Why We Use Jamstack
 
-Let’s be honest, we love [JAMstack development](https://naturaily.com/services/webdevelopment/jamstack) over here. It’s our go-to method for solving all of the above. It’s fast, it performs well (especially on mobile, so good for SEO) and, when paired with a CDN or, better yet, a headless content management system, your content, marketing and other teams can work as normal!
+Let’s be honest, we love [Jamstack development](https://naturaily.com/services/webdevelopment/jamstack) over here. It’s our go-to method for solving all of the above. It’s fast, it performs well (especially on mobile, so good for SEO) and, when paired with a CDN or, better yet, a headless content management system, your content, marketing and other teams can work as normal!
 
-If you want something fast and secure, a JAMstack website is the way to go. Short for JavaScript, APIs and Markup, hence the name [JAMstack development](https://naturaily.com/services/webdevelopment/jamstack) keeps to web-friendly roots. While it sacrifices heavier elements, instead of relying on static websites and the increased performance, whether it’s speed, security or SEO readability, that comes with them.
+If you want something fast and secure, a Jamstack website is the way to go. Short for JavaScript, APIs and Markup, hence the name [Jamstack development](https://naturaily.com/services/webdevelopment/jamstack) keeps to web-friendly roots. While it sacrifices heavier elements, instead of relying on static websites and the increased performance, whether it’s speed, security or SEO readability, that comes with them.
 
-### What is JAMstack?
+### What is Jamstack?
 
-A techstack built around technologies that work the best on the web, especially for the end user, JAMstack keeps a core focus on web-friendly technology, favoring static generators over completely dynamic content.
+A techstack built around technologies that work the best on the web, especially for the end user, Jamstack keeps a core focus on web-friendly technology, favoring static generators over completely dynamic content.
 
 As a result, it’s faster and puts less strain on browsers, so it loads much better. It’s also more secure, great for SEO and great for users alike. If you know what you’re doing, it ticks all the boxes.
 
@@ -67,25 +63,25 @@ As a result, it’s faster and puts less strain on browsers, so it loads much be
 
 Static content doesn’t require a database, so there’s never any heavy searching or requests being sent from the client to the server. In other words, static keeps things blazingly fast.
 
-The use of prebuilt markdown and entirely client-side JavaScript helps immensely. This also makes JAMstack a great option for Progressive Web Apps too, which are proving increasingly popular on mobile phones.
+The use of prebuilt markdown and entirely client-side JavaScript helps immensely. This also makes Jamstack a great option for Progressive Web Apps too, which are proving increasingly popular on mobile phones.
 
-**In short, if you want your site up to 10x faster, ditch the database and go static.** The use of a CDN or CMS will replace the need for a database, working alongside your static generator of choice ([although we highly recommend Gatsby in your JAMstack](https://naturaily.com/blog/why-you-should-consider-gatsby-js-for-your-jamstack-website)).
+**In short, if you want your site up to 10x faster, ditch the database and go static.** The use of a CDN or CMS will replace the need for a database, working alongside your static generator of choice ([although we highly recommend Gatsby in your Jamstack](https://naturaily.com/blog/why-you-should-consider-gatsby-js-for-your-jamstack-website)).
 
 ### “But I have dynamic needs!”
 
-JAMstack doesn’t mean everything has to be static, just as much as possible. If you want websites to look good, it’s expected that you might need the occasional dynamic element.
+Jamstack doesn’t mean everything has to be static, just as much as possible. If you want websites to look good, it’s expected that you might need the occasional dynamic element.
 
 Let’s use Gatsby as an example. It keeps your site as static as possible, but also supports the likes of React and other common frameworks (based on JavaScrip, of course). This, paired with API, means you can also get the dynamism you need, but the static markup will still mean the core of the website is loaded first.
 
 ## Adding a CMS
 
-We’ve already mentioned that JAMstack development tries to avoid databases as much as possible, but you still often need a CMS or some other way to store and send content to the website.
+We’ve already mentioned that Jamstack development tries to avoid databases as much as possible, but you still often need a CMS or some other way to store and send content to the website.
 
-Fortunately, [a headless CMS pairs well with JAMstack](https://naturaily.com/blog/comparison-of-15-headless-cms-for-jamstack-websites) - but only if it’s headless. Without the dedicated frontend, we’re free to use our static generators and convert the text - through the likes of markdown - through our own means.
+Fortunately, [a headless CMS pairs well with Jamstack](https://naturaily.com/blog/comparison-of-15-headless-cms-for-jamstack-websites) - but only if it’s headless. Without the dedicated frontend, we’re free to use our static generators and convert the text - through the likes of markdown - through our own means.
 
 ## What about Ecommerce?
 
-It’s worth discussing ecommerce because it’s a sector that’s continually growing and, this year, it’s been more important than ever. Fortunately, the same benefits of JAMstack apply here too - **ecommerce sites need to be fast, performance and secure**.
+It’s worth discussing ecommerce because it’s a sector that’s continually growing and, this year, it’s been more important than ever. Fortunately, the same benefits of Jamstack apply here too - **ecommerce sites need to be fast, performance and secure**.
 
 The biggest challenge with ecommerce is all the media needed to accurately display a website. As always, we stick to the mantra of delivering static content where we can and using dynamic content or pulling media where necessary. This way, we still get a fully functioning web store, but our efforts have gone into optimization without removing the key visual elements that are vital for online shopping.
 
@@ -93,13 +89,13 @@ The biggest challenge with ecommerce is all the media needed to accurately displ
 
 Platforms like Magento and Shopify are designed first and foremost for the commercial operations of a website. You still need to determine development options when it comes to the wider content needs - and if you don’t want to use Shopify included hosting and support, you can still determine your own delivery system.
 
-Nonetheless, a JAMstack approach will keep things as light as possible. Between the markdown and API, client-side strain will be minimal, even with media-enriched pages.
+Nonetheless, a Jamstack approach will keep things as light as possible. Between the markdown and API, client-side strain will be minimal, even with media-enriched pages.
 
 And don’t forget that the best ecommerce sites often use blogs and other pages for marketing purposes, so you’ll still need a means to add and update content.
 
-## JAMstack Development for 2020… and beyond
+## Jamstack Development for 2020… and beyond
 
-So there you have it, our answer for building a website in today’s competitive age: go JAMstack. **It’s fast, it’s good for SEO and it’s easily usable by your entire company, from developers to content teams.**
+So there you have it, our answer for building a website in today’s competitive age: go Jamstack. **It’s fast, it’s good for SEO and it’s easily usable by your entire company, from developers to content teams.**
 
 It’s also a great option for future expansion. Not only does it avoid hardcoding as much as possible, as it instead utilizes backend Content Delivery Networks or CMS with markdown, the performance-optimized approach means expansion (whether on-page or through new pages entirely) doesn’t immediately compound the technical issues… because said issues don’t exist in the first place!
 

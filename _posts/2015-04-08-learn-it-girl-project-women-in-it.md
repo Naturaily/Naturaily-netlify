@@ -22,10 +22,6 @@ text-preview: >-
   I started my further journey in IT. For over a year I’ve been working as a
   front-end developer. I’ve learnt how to build responsive and functional web
   applications and I found it very entertaining. It actually became my passion.
-tags:
-  - Backbone js development
-  - Diversity
-  - JavaScript development
 ---
 
 

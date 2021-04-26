@@ -21,8 +21,6 @@ text-preview: >-
   needs a software solution, you’ll most likely need to make a decision on where
   to build it. You have three obvious choices: building it in-house, hiring a
   software house or co-sourcing part of the work.
-tags:
-  - Startups
 ---
 Whether you’re a part of a Start-Up or a grown up company, when your product needs a software solution, you’ll most likely need to make a decision on where to build it. You have three obvious choices: building it in-house, hiring a software house or co-sourcing part of the work. We’ve compiled a list of 10 reasons why hiring a software house (and a one from Poland) is a great option.
 

@@ -15,8 +15,6 @@ image: /assets/images/film_quotes.png
 text-preview: >-
   Some movies are full of great pieces of advice for entrepreneurs and startup
   builders. Below you will find some of my favourite examples.
-tags:
-  - Startups
 ---
 
 

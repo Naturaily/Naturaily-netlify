@@ -16,8 +16,6 @@ text-preview: >-
   Have you ever tried to setup Devise and Doorkeeper in the simplest possible
   way, without oauth applications etc? Here it is! In this article, I'll show
   you in a few easy steps that setup you searched for!
-tags:
-  - Ruby on Rails development
 ---
 
 

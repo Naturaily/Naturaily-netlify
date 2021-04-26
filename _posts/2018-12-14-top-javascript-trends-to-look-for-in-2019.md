@@ -17,9 +17,6 @@ image: /assets/images/javascript-trends-2019.png
 text-preview: >-
   If you’re wondering what 2019 will bring when it comes to top JavaScript
   development check out our newest blog post about upcoming trends.
-tags:
-  - JavaScript development
-  - Frontend development
 ---
 According Stack Overflow Report, JavaScript has been one of the most popular languages for software development for many years, and we predict it’s not going to lose its position any time soon (thank you Captain Obvious - right?).
 

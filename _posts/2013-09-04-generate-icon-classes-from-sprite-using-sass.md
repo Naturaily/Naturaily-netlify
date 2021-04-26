@@ -18,9 +18,6 @@ text-preview: >-
   everyday site, but there are times when they come in handy. Let's take a look
   on how one would approach automatic class generation for any grid based
   sprites and how this could vastly shorten your code.
-tags:
-  - Frontend development
-  - Sass
 ---
 While we mostly use sass for it's variables, nesting and mixins, the language itself is way more powerful. A lot of features may not be used on your everyday site, but there are times when they come in handy. Let's take a look on how one would approach automatic class generation for any grid based sprites and how this could vastly shorten your code.
 

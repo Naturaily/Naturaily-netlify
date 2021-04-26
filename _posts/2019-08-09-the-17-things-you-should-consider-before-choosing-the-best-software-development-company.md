@@ -24,8 +24,6 @@ text-preview: >-
   quite a challenge. When talking to our current or potential clients, we try to
   listen to their objections and, within reason, address them accordingly. But
   we also know that such concerns are not completely unfounded.
-tags:
-  - Software development
 ---
 Whether you’re after a team that would build your future project from scratch or looking to hire an augmented team, finding a solid tech partner is always quite a challenge. When talking to our current or potential clients, we try to listen to their objections and, within reason, address them accordingly. But we also know that such concerns are not completely unfounded. Hiring people from halfway around the globe and working with them remotely – often across time zones, cultural differences and, very likely, languages – is bound to raise a certain degree of uncertainty.
 

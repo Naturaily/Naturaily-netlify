@@ -16,8 +16,6 @@ text-preview: >-
   Berlin is the second largest startup hub in Europe (right after London)! We
   took a closer look at German startups that are gaining more interest in 2017
   that, in our opinion, are worth your attention.
-tags:
-  - Startups
 ---
 
 

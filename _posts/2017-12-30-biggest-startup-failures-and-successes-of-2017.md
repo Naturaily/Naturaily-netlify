@@ -15,8 +15,6 @@ image: /assets/images/rise-and-fall.jpeg
 text-preview: >-
   We’re bringing you the biggest fails of 2017 as well as some startups that you
   should definitely keep an eye on.
-tags:
-  - Startups
 ---
 
 > Fail often so you can succeed sooner. ~ Tom Kelley, Ideo partner

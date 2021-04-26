@@ -19,10 +19,6 @@ text-preview: >-
   Vue JS is coming really strong into 2019, and with every month is getting
   closer to stand against giants such as Angular or even React in terms of
   popularity and utilization in business applications.
-tags:
-  - Vue js development
-  - Frontend development
-  - JavaScript development
 ---
 So, if you’re here then you are probably wondering where the Vue framework is in 2019. The past year was really good for this, loved by many, framework. With constant updates, support from its creators and very talented community, Vue JS is coming really strong into 2019, and with every month is getting closer to stand against giants such as Angular or even React in terms of popularity and utilization in business applications.
 

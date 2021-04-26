@@ -19,11 +19,6 @@ text-preview: >
   by the workload of making your app available for various markets, regions and
   languages, we hope these tips on how to localize your software without going
   crazy will be helpful.
-tags:
-  - Multilingual software
-  - LingoHub
-  - Localized software
-  - Vue.js development
 ---
 **As English is the de facto language of the internet and of our apps, localization and translation are usually after-thoughts in our software development projects.**
 

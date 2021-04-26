@@ -19,11 +19,6 @@ text-preview: >-
   At some point you have to choose the technological stack for your application.
   Vue vs React, which JavaScript framework should you use for software
   development?  
-tags:
-  - JavaScript development
-  - Vue js development
-  - React js development
-  - Frontend development
 ---
 Being in charge of software development is not an easy task. There’s a lot of things you have to take into consideration in order to develop a successful web product, ins and outs you may not initially think of. One of the key things you have to look into is the technological stack.
 

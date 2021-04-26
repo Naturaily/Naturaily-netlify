@@ -21,8 +21,6 @@ text-preview: >-
   only say that choosing the right person will result in peace of your mind and
   growth of your business. But choosing the wrong one, you may end up with
   plenty of troubles.
-tags:
-  - Startups
 ---
 Whether you're building a ONE BILLION startup or a smallish web developement agency, as an entrepreneur you have one tough task: finding a technical co-founder. That's probably one of the most important tasks in early days of your empire _in spe_.<!--more--> I've been there a couple of times and I can only say that choosing the right person will result in peace of your mind and growth of your business. But choosing the wrong one, you may end up with plenty of troubles.
 

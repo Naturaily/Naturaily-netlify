@@ -23,8 +23,6 @@ text-preview: >-
   therefore you do not need to worry about the assets pipeline and other
   full-stack projects related issues. And you get an API for mobile devices. For
   free.
-tags:
-  - Ruby on Rails development
 ---
 
 

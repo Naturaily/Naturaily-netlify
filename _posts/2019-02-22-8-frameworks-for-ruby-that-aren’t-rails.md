@@ -23,8 +23,6 @@ text-preview: >-
   in PHP, you could simply build a blog in under 15 minutes. On top of that, the
   code looked beautiful. That being said, there are many other options out there
   for Ruby developers, that aren’t Rails.
-tags:
-  - Ruby on Rails development
 ---
 It’s common for a **Ruby** developer to only have experience with Rails and describe themselves as a [Ruby on Rails](https://naturaily.com/services/webdevelopment/ruby-on-rails-development){:target="_blank"} developer. Since David Heinemeier Hansson created Rails in 2003 it has been one of the most popular web frameworks out there. After many painful years spent creating spaghetti code in PHP, you could simply build a blog in under 15 minutes. On top of that the code looked beautiful. That being said, there are many other options out there for Ruby developers, that aren’t **Rails**. The majority of us have heard of Sinatra or Padrino, but there’s a ton of other (usually micro) frameworks like Cuba or Hanami out there. Check out the examples below:
 

@@ -18,9 +18,6 @@ text-preview: >-
   startups use Rails - a lot of very mature services, services you probably use
   every day, managed to utilize its full potential by creating applications used
   by hundreds of thousands of users.
-tags:
-  - Ruby on Rails development
-  - Startups
 ---
 Wondering what platform to use for your next startup project? When it comes to building MVPs, Ruby on Rails still remains the king of frameworks but not only startups use Rails - a lot of very mature services, services you probably use every day, managed to utilize its full potential by creating applications used by hundreds of thousands of users.
 

@@ -1,12 +1,12 @@
 ---
-title: How to Choose the Best CMS for Your JAMstack Website?
+title: How to Choose the Best CMS for Your Jamstack Website?
 description: >-
   We want to explain the most essential factors you need to consider because, if
   you know these, then choosing the right CMS becomes much, much easier!
 slug: how-to-choose-the-best-cms-for-your-jamstack-website
 layout: post
 date: '2020-08-16 04:04:57 +0200'
-category: JAMstack development
+category: Jamstack development
 authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
@@ -17,23 +17,20 @@ text-preview: >
   When it comes to building websites, fast, speedy and overall performance is
   the way to go. While this might sound limiting, this couldn’t be further from
   the truth. With the right selection, we really can have the best of both
-  worlds. This is why we turn to the JAMstack method time and time again, but
+  worlds. This is why we turn to the Jamstack method time and time again, but
   the choice of CMS is one of the most common issues we get asked about.
-tags:
-  - JAMstack
-  - CMS
 ---
 **When it comes to building websites, fast, speedy and overall performance is the way to go. While this might sound limiting, this couldn’t be further from the truth. With the right selection, we really can have the best of both worlds.**
 
-This is why we turn to the JAMstack method time and time again, but the choice of CMS is one of the most common issues we get asked about. Many people are only familiar with the big traditional options, such as WordPress or Bolt, and aren’t aware of the wider options that can better meet their JAMstack and website needs.
+This is why we turn to the Jamstack method time and time again, but the choice of CMS is one of the most common issues we get asked about. Many people are only familiar with the big traditional options, such as WordPress or Bolt, and aren’t aware of the wider options that can better meet their Jamstack and website needs.
 
 Since every site is different, we want to explain the most essential factors you need to consider because, if you know these, then choosing the right CMS becomes much, much easier!
 
 <br>
 
-## What is JAMstack trying to achieve?
+## What is Jamstack trying to achieve?
 
-JAMstack - a combination of JavaScript, APIs and Markup - is a tech stack for web development that’s focused on improving overall performance. When we chose [JAMstack development](https://naturaily.com/services/webdevelopment/jamstack), we chose it because:
+Jamstack - a combination of JavaScript, APIs and Markup - is a tech stack for web development that’s focused on improving overall performance. When we chose [Jamstack development](https://naturaily.com/services/webdevelopment/jamstack), we chose it because:
 
 * We know static websites load and perform faster.
 * We also know their better for SEO (which makes them great for e-commerce development, by the way).
@@ -41,15 +38,15 @@ JAMstack - a combination of JavaScript, APIs and Markup - is a tech stack for we
 * We want to update it automatically, such as via a content delivery network.
 * We want to give the frontend the freedom to what is needed for the end-user, rather than shackling them due to choices made in the backend (thus the markup and API approach).
 
-You can think of JAMstack as a form of transformation. More than just choosing only the most web-friendly technologies, we’re breaking up monolithic approaches that forced us to compromise in vital areas.
+You can think of Jamstack as a form of transformation. More than just choosing only the most web-friendly technologies, we’re breaking up monolithic approaches that forced us to compromise in vital areas.
 
 Which leads us to our choice of content management system...
 
 <br>
 
-## How does a CMS influence your JAMstack website?
+## How does a CMS influence your Jamstack website?
 
-In any website, we need a way to upload content to the frontend. Content Management Systems have filled this need perfectly, giving companies a means to draft, edit, preview and ultimately push content to the website. However, each CMS offers something different and, when it comes to JAMstack development, we need something that works with what we said earlier:
+In any website, we need a way to upload content to the frontend. Content Management Systems have filled this need perfectly, giving companies a means to draft, edit, preview and ultimately push content to the website. However, each CMS offers something different and, when it comes to Jamstack development, we need something that works with what we said earlier:
 
 * It needs to be fast
 * It needs to work with JavaScript and Markup (such as HTML)
@@ -68,7 +65,7 @@ We can do better - which is why it helps to know what you want from a CMS.
 
 Depending on your website’s setup, you might need to find a hosting solution for your CMS. After all, while it doesn’t need to handle the traffic peaks of the website itself, it does need to be accessible for both your content teams.
 
-Also, given that JAMstack development favours delivery networks that send files over for fast, automatic updates, you need stable hosting that ensures such requests can be made quickly.
+Also, given that Jamstack development favours delivery networks that send files over for fast, automatic updates, you need stable hosting that ensures such requests can be made quickly.
 
 Some CMS come with their own hosting options, others do not - especially the open-source or free options.
 
@@ -76,9 +73,9 @@ Some CMS come with their own hosting options, others do not - especially the ope
 
 ## API Support
 
-The use of API is an essential factor in JAMstack. We want to call only the files that are needed via API to remove much of the strain on the HTML side (an area where loading starts to slow down).
+The use of API is an essential factor in Jamstack. We want to call only the files that are needed via API to remove much of the strain on the HTML side (an area where loading starts to slow down).
 
-WordPress, for example, isn’t very API friendly because it's shackled with its own frontend templates. Instead, as far as JAMstack development is concerned, we should look at decoupled or headless options - any solution where we can better control the requests between the backend and frontend.
+WordPress, for example, isn’t very API friendly because it's shackled with its own frontend templates. Instead, as far as Jamstack development is concerned, we should look at decoupled or headless options - any solution where we can better control the requests between the backend and frontend.
 
 Generally, we should be happy with API options, but we can also consider Git-based solutions as well. Git is more developer-friendly. It allows for rollbacks and can still enable automatic updates.
 
@@ -96,7 +93,7 @@ Does your website, for example, rely on React for the frontend? If so, many CMS�
 
 ## Integrations & Compatibility
 
-Like any technology, you need to consider how it interacts with the other options you are making. With JAMstack, we have some technologies already chosen, but every CMS will work with these web essentials. It’s the additional elements that you need to consider.
+Like any technology, you need to consider how it interacts with the other options you are making. With Jamstack, we have some technologies already chosen, but every CMS will work with these web essentials. It’s the additional elements that you need to consider.
 
 If you’re using the likes of React and other frameworks based on it, it’s important to choose a CMS that’s either built to work with React in mind. Similarly, if you’re using any other advanced integrations, such as Magento or Shopify for e-commerce, this needs to be considered. Different CMS are built with different integrations in mind and we certainly don’t believe there’s a golden CMS that’s perfect with everything.
 
@@ -112,7 +109,7 @@ If possible, it’s ideal to have the CMS to act as the database, storing all th
 
 ## Users and Roles
 
-This might seem simple but it’s important. While JAMstack is well known for its scalability, we also need a CMS that does the same. Yet most CMS come in the form of subscription packages - and therein lies the problem.
+This might seem simple but it’s important. While Jamstack is well known for its scalability, we also need a CMS that does the same. Yet most CMS come in the form of subscription packages - and therein lies the problem.
 
 A package that gives us limited user accounts - or even role management - bottlenecks the overall productivity. A team of 5 people can likely use any such CMS as needed but, what happens when you need 20-30 people with different levels of access? You might need to upgrade your CMS package, drastically denting the existing budget.
 
@@ -130,7 +127,7 @@ Usability is essential and this is one area where a simple trial run may be the 
 
 ## Headless or Not?
 
-Finally, there’s one option that’s relatively easy to decide. If you’re obeying the JAMstack principle, you need a headless CMS.
+Finally, there’s one option that’s relatively easy to decide. If you’re obeying the Jamstack principle, you need a headless CMS.
 
 That’s because traditional systems, like WordPress, have a combined frontend that renders complex pages that slow down performance. Headless CMS keeps the content management strictly to the backend and there are a number of such WordPress alternatives to choose from, which we’ve already covered.
 

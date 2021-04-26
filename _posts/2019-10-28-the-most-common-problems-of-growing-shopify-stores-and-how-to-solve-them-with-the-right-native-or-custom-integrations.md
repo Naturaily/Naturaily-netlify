@@ -20,10 +20,6 @@ text-preview: >
   technology, logistics or communication. In our daily work here, we focus on
   solving technical problems, so let’s look into most common technical issues
   among our customers.
-tags:
-  - Shopify development
-  - Shopify Plus
-  - Integrations
 ---
 **Once you’ve grown your e-commerce business to the larger, 6-figure extent, your store is likely not the same anymore. Your business is now probably divided into different teams handling accounting, logistics, customer service or the store’s design.**
 

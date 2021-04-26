@@ -18,8 +18,6 @@ text-preview: >
   Have you ever wanted to calculate how many articles will be left in a certain
   category after search? In this blogpost, I will show you how to use elastic
   aggregations to achieve this.
-tags:
-  - Ruby on Rails development
 ---
 Have you ever wanted to count how many articles will be left in a certain category after search? To give you an idea of what I mean, as an example let’s use the application that will be the outcome of this tutorial. Our database contains music albums which are categorized by the genre and subgenre.
 

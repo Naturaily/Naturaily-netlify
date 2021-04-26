@@ -19,10 +19,6 @@ text-preview: >-
   So you have a mobile app you would like to build. The first question you need
   to ask yourself is what kind of app is it going to be? Native? Hybrid? Web?
   What is the difference and how should you choose?
-tags:
-  - Native mobile development
-  - JavaScript development
-  - Frontend development
 ---
 So you have a mobile app you would like to build. The first question you need to ask yourself is what kind of app is it going to be? **Native? Hybrid? Web?** What is the difference and how should you choose?
 

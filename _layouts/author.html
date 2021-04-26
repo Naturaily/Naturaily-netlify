@@ -29,14 +29,9 @@ layout: default
                     {{ post.date | date: date_format }}
                   </time>
                 </p>
-                <div class="post-tags">
-                  {% for tag in post.tags %}
-                    <a href="/blog/tags/{{ tag | replace: " ", "-" | downcase }}/">{{ tag }}</a>
-                  {% endfor %}
+                <div class="post-category">
+                  <a href="/blog/categories/{{ post.category | replace: " ", "-" | downcase }}">{{ post.category }}</a>
                 </div>
-                {% if post.readtime %}
-                  <span class="read-time">{{ post.readtime }} min read</span>
-                {% endif %}
               </div>
               <a class="post-link" href="{{ post.url | relative_url }}">
                 <h1 class="post-title">{{ post.title | escape }}</h1>
@@ -85,7 +80,3 @@ layout: default
     {% endif %}
   </ul>
 </div>
-
-<script type="text/javascript">
-  {% include blog-sticky.js %}
-</script>

@@ -18,10 +18,6 @@ image: /assets/images/pros-cons-vue-js.png
 text-preview: >-
   Despite being relatively new, the Vue.js framework is growing more and more
   popular everyday. Just last month it’s been downloaded over 2.4 million times.
-tags:
-  - Vue js development
-  - Frontend development
-  - JavaScript development
 ---
 Despite being relatively new, the Vue.js framework is growing more and more popular everyday. Just last month it’s been downloaded over **2.4 million times**. Last year it received the highest amount of stars on GitHub out of all JavaScript projects out there, demonstrating how much developers enjoy and appreciate it. The fact that many developers are thinking of trying it out, has inspired us to compile a list of the pros and cons of Vue.js.
 

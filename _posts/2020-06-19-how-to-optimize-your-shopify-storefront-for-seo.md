@@ -22,11 +22,6 @@ text-preview: >
   That’s why we’ve prepared a quick guide on the best approaches to SEO and
   Shopify optimization. From the optimization basics to more advanced Shopify
   and PWA development tips, we’ve covered a wide range of important factors!
-tags:
-  - Shopify optimization
-  - PWA development
-  - Storefront
-  - SEO
 ---
 **Even the best e-commerce stores can fail if they’re not visible online. This is why getting search engine optimization (SEO) right for your Shopify storefront is essential.**
 

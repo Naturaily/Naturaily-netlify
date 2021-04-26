@@ -17,9 +17,6 @@ image: /assets/images/5-reasons-to-work-at-naturaily.jpg
 text-preview: >-
   Are looking for a new job in the software development sector? Here are 5
   reasons why you will love working at Naturaily.
-tags:
-  - Recruitment
-  - Remote work
 ---
 If you’re reading this, then you’re probably looking for a new job in the software development sector, isn’t that right? Do you want to use top-notch technologies to work on exciting projects and create new amazing applications? Are you looking for a place where you can grow professionally and develop new and existing skills, while also retaining a reasonable work-life balance? Here are 5 reasons why you will love working at Naturaily.
 

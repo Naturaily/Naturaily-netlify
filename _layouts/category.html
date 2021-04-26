@@ -7,6 +7,16 @@ layout: default
   <div class="container">
     <div class="row">
       <section>
+        <div class="post-breadcrumbs">
+          <a class="post-breadcrumb post-breadcrumb--desktop" href="/">Home</a>
+          <a class="icon icon-home icon--mobile" href="/"></a>
+          <span class="icon icon-chevron-right"></span>
+          <a class="post-breadcrumb" href="/blog">Blog</a>
+          <span class="icon icon-chevron-right"></span>
+          <span class="post-breadcrumb post-breadcrumb--inactive post-breadcrumb--full-width">
+            {{ page.category }}
+          </span>
+        </div>
         {% if site.categories[page.filter_category] %}
           {% for post in site.categories[page.filter_category] %}
             <div class="post-preview">
@@ -28,14 +38,9 @@ layout: default
                     {{ post.date | date: date_format }}
                   </time>
                 </p>
-                <div class="post-tags">
-                  {% for tag in post.tags %}
-                    <a href="/blog/tags/{{ tag | replace: " ", "-" | downcase }}/">{{ tag }}</a>
-                  {% endfor %}
+                <div class="post-category">
+                  <span>{{ post.category }}</span>
                 </div>
-                {% if post.readtime %}
-                  <span class="read-time">{{ post.readtime }} min read</span>
-                {% endif %}
               </div>
               <a class="post-link" href="{{ post.url | relative_url }}">
                 <h1 class="post-title">{{ post.title | escape }}</h1>
@@ -84,7 +89,3 @@ layout: default
     {% endif %}
   </ul>
 </div>
-
-<script type="text/javascript">
-  {% include blog-sticky.js %}
-</script>

@@ -17,8 +17,6 @@ image: /assets/images/4-best-features-of-ruby-on-rails-6.0.png
 text-preview: >-
   Rails 6.0. is finally released. We’re excited to see all the new stuff Rails
   6.0 has to offer!
-tags:
-  - Ruby on Rails development
 ---
 Rails 6.0. is finally released. We’re excited to see all the new stuff Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Rails 6.0 bring back the [enormous popularity RoR once had](https://naturaily.com/blog/who-gives-f-about-rails){:target="_blank"}?
 

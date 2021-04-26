@@ -19,8 +19,6 @@ text-preview: >-
   An online storefront is a frontend solution that can be connected to your
   Shopify store’s backend, letting you display the content in a smoother,
   faster, and more responsive form.
-tags:
-  - Shopify development
 related_posts:
   - >-
     The Most Common Problems of Growing Shopify Stores and How to Solve Them

@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'Frontend Developer (React.js, JAMstack)'
+title: 'Frontend Developer (React.js, Jamstack)'
 meta-title-inset: don’t wait - apply
 description: >-
   We are looking for Frontend Developer to help us build websites and e-commerce
@@ -34,7 +34,7 @@ salary-preview:
 what-we-expect:
   - expectation:
       contents: >-
-        Development of fast and safe websites  & progressive web apps (JAMstack
+        Development of fast and safe websites  & progressive web apps (Jamstack
         based)
   - expectation:
       contents: 'Development of  beautiful, award-winning websites with React'
@@ -111,7 +111,7 @@ we-need-you-to:
   - expectation:
       contents: >-
         Experienced with integrating Headless CMS (like Sanity, Storyblok,
-        ContentFul or others) with JAMstack sites
+        ContentFul or others) with Jamstack sites
   - expectation:
       contents: 'Experienced in HTML5, CSS3, Webpack'
   - expectation:
@@ -175,4 +175,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 8000 - 12 000 PLN net
 ---
-

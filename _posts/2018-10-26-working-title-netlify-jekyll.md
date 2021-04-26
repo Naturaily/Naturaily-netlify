@@ -18,8 +18,6 @@ image: /assets/images/netlify-jekyll.jpg
 text-preview: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
   result of that love.
-tags:
-  - Ruby on Rails development
 ---
 Is love at first sight even a thing? I believe it is! And our new site is a result of that love.
 

@@ -18,8 +18,6 @@ text-preview: >-
   from scratch. We were looking for a set of rules that would remove browser
   inconsistencies while preserving some default and desirable styling.
   Foundation's normalize.css gives you just that.
-tags:
-  - Frontend development
 ---
 ## Gentle normalize.css
 

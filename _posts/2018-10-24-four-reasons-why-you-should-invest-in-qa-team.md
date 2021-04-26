@@ -19,8 +19,6 @@ text-preview: >
   The need for Quality Assurance Engineers has been strikingly increasing in the
   past years due to software applications being more demanded than ever. Here
   are four reasons why you should invest in a QA.
-tags:
-  - Team Building
 ---
 The need for Quality Assurance Engineers has been strikingly increasing in the past years due to software applications being more demanded than ever. Here are four reasons why you should invest in a QA.
 

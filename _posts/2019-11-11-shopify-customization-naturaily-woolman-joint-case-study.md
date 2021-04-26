@@ -21,10 +21,6 @@ text-preview: >-
   100% flawless. Luckily for us, there is a shortage of integrations with
   external management, tracking or shipping systems, especially on the European
   market.
-tags:
-  - Shopify development
-  - Integrations
-  - Case study
 ---
 **Cooperation between Naturaily and our Partner in a nutshell:**
 
