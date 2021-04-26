@@ -34,7 +34,7 @@ And this is the moment when you probably start thinking: how can I do this witho
 
 Well, actually you can't. But **Shopify experts** can.
 
-![Woman typing on computer; above her written: integrations, content, design, seo](/assets/images/Simple_image_article2.png "Blog_shopify_expert")
+{% image /assets/images/Simple_image_article2.png Blog_shopify_expert Blog_shopify_expert %}
 
 ## What do Shopify Experts really do?
 
@@ -83,7 +83,7 @@ Remember that there is also no real need to rush. Pushing yourself to make that 
 
 However, take your time, and make your math, so when you decide to hire a **Shopify expert**, you know that’s the best choice possible.
 
-![Girl typing, text saying: Always Make Your Research; portfolio, reviews, cost](https://lh4.googleusercontent.com/I1TzzKKjwHLtbwp9jlXqSiRhiAph0QcgTwo3ILYd9IUPpMGyxCl8YGmbQfq5JvpPR6RebUSZl7EDySnWxoZjxXih_TlH4UlwCT1EvlAAhr-w--uetmu4yMpuiWqf7NNxelJTYGII "Always Make Your Research")
+{% image https://lh4.googleusercontent.com/I1TzzKKjwHLtbwp9jlXqSiRhiAph0QcgTwo3ILYd9IUPpMGyxCl8YGmbQfq5JvpPR6RebUSZl7EDySnWxoZjxXih_TlH4UlwCT1EvlAAhr-w--uetmu4yMpuiWqf7NNxelJTYGII Research Research %}
 
 ## How much do Shopify experts charge?
 

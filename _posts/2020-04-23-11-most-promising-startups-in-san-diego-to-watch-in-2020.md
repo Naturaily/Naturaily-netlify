@@ -77,7 +77,7 @@ What makes DiversyFund standout, more than it’s online ‘click-and-go’ desi
 
 Now, San Diego has the same answer for real estate investment - and it has the potential to go global, which is why it’s worth keeping an eye on!
 
-<div class='embed-container'><iframe src="https://player.vimeo.com/video/280461512?title=0&byline=0&portrait=0" width="800" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+{% vimeo 280461512 %}
 
 <br>
 

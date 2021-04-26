@@ -66,7 +66,7 @@ To sum it up, Jamstack gives you more elasticity in creating modern, user-friend
 
 Understanding how Jamstack works may not be easy, especially for non-tech people. So let's analyze the core functionalities to get to know it better and understand how exactly it works.
 
-![Jamstack infographic, JavaScript, APIs, Markup](/assets/images/Blog_jam_simple_image_javascript_apis_markup.png "Jamstack inforgraphic")
+{% image /assets/images/Blog_jam_simple_image_javascript_apis_markup.png infographic infographic %}
 
 <br>
 
@@ -114,7 +114,7 @@ All these components make Jamstack more comprehensible, adjustable, and faster.
 
 <br>
 
-![Statig Site Generator gets Markup and shows Static State](/assets/images/Blog_Jamstack_easy_SSG.png "SSG ")
+{% image /assets/images/Blog_jam_simple_image_javascript_apis_markup.png SSG SSG %}
 
 <br>
 
@@ -130,7 +130,7 @@ Jamstack has everything you need to provide a perfect user experience. It's grea
 
 Here are the main benefits of Jamstack.
 
-![Traditional communication with sever VS jamstack](/assets/images/Blog_jam_traditional_web_jamstack.png "Jamstack")
+{% image /assets/images/Blog_jam_simple_image_javascript_apis_markup.png Jamstack Jamstack %}
 
 <br>
 
