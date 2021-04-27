@@ -13,7 +13,7 @@ authors:
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
-image: /assets/images/collectivity.jpg
+image: /assets/images/collectivity2.webp
 text-preview: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
   look at how Collectivity, with our help, improves knowledge sharing and

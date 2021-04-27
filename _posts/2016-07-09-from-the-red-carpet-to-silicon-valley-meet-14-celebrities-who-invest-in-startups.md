@@ -7,7 +7,7 @@ slug: celebrities-who-invest-in-startups
 date: '2016-07-09 10:38:01 +0000'
 category: Startups
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

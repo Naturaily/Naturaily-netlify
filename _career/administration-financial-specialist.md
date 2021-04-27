@@ -4,9 +4,9 @@ title: Administration & Financial Specialist
 meta-title-inset: don’t wait - apply
 description: >-
   We are looking for orginized and independent Administration & Financial
-  Specialist who will help our HR and accountant section. 
+  Specialist who will help our HR and accountant section.
 layout: career-offer
-image: /assets/images/Administration&Financial Specialist (1).png
+image: /assets/images/Administration&Financial-Specialist.webp
 location:
   - Wrocław
   - Remote
@@ -43,7 +43,7 @@ what-we-expect:
       contents: >-
         ordering coffee, snacks and other things necessary for the proper
         functioning of our office (and to make our team and their bellies happy
-        :)) 
+        :))
 what-you-expect:
   - expectation:
       contents: the software needed to work
@@ -115,4 +115,3 @@ salaries:
       contract: Contract of Employment (UoP)
       sum: 3000-4200 gross
 ---
-

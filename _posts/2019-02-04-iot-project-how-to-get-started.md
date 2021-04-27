@@ -36,7 +36,7 @@ Occasionally known as the **Industrial IoT**, the benefits of the IoT for busine
 
 Most of the challenges of developing an IoT project stem from lack of knowledge and preparation. Some companies decide to develop it on their own to reduce cost and end up failing, in turn increasing the overall cost of development. Management often underestimate the complexity of the project and don’t take into account the necessary research, testing and time it takes to succeed. Like any project, an IoT one takes time and money to develop. So be prepared to invest both if you want to get it right.
 
-{% image /assets/images/2.png iot_project iot_project %}
+{% image /assets/images/challenges.webp iot_project iot_project %}
 
 ## Step by step how to and what not to forget
 
@@ -70,7 +70,7 @@ For your IoT project you will need:
 * Q/A testing experts
 * UX/UI designers.
 
-{% image /assets/images/3.png iot_project iot_project %}
+{% image /assets/images/project.webp iot_project iot_project %}
 
 **Step 4** Build a prototype.
 

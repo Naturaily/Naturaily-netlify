@@ -9,7 +9,7 @@ slug: thecollectivity
 layout: portfolio-details
 image: /assets/images/collectivity-screen-5.png
 twitter-card: summary_large_image
-project-screenshot: /assets/images/collectivity.png
+project-screenshot: /assets/images/collectivity.webp
 project-logo: /assets/images/collectivity-logo.png
 banner-bg: /assets/images/projects-background-green.jpg
 banner-header: Case study on developing a successful web-based app for NGO.

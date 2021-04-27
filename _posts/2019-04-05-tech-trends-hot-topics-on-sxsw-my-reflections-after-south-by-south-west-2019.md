@@ -10,7 +10,7 @@ twitter-card: summary_large_image
 date: '2019-04-05 10:41:22 +0200'
 category: Events
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

@@ -9,7 +9,7 @@ layout: post
 date: '2020-06-19 01:32:44 +0200'
 category: Shopify development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

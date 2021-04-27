@@ -88,7 +88,7 @@ ResearchGate provides a professional network for the scientific community to con
 In February 2017, ResearchGate announced that it raised $52.6M in Series D round of funding, bringing the total raised to over $100 million. The startup has been using the funds to expand its functionality by adding new features such as Projects.
 
 
-## <a href="http://www.soundcloud.com/" class="inline-image" target="_blank"><img src="/assets/images/soundcloud.png"  alt="SoundCloud"></a> - the most popular music streaming service
+## <a href="http://www.soundcloud.com/" class="inline-image" target="_blank"><img src="/assets/images/soundcloud.webp"  alt="SoundCloud"></a> - the most popular music streaming service
 
 SoundCloud got popular years before anyone has heard about Spotify or Tidal. People praised it for its “rebelliousness” and free to listen user-generated content. Recently, multiple reports suggest that the site is in trouble because of the lack of funding and proper monetizing model making the future of the service unknown. We covered some of the mistakes made by SoundCloud’s management in this [article](https://naturaily.com/blog/what-happened-to-soundcloud-and-why).
 

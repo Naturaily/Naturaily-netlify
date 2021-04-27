@@ -9,7 +9,7 @@ layout: post
 date: '2020-09-02 02:46:58 +0200'
 category: Jamstack development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

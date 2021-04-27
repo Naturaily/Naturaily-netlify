@@ -8,7 +8,7 @@ slug: how-to-find-technical-co-founder
 date: '2014-08-11 10:38:01 +0000'
 category: Startups
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

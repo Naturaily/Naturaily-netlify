@@ -8,7 +8,7 @@ twitter-card: summary_large_image
 date: '2016-11-09 10:38:01 +0000'
 category: Startups
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

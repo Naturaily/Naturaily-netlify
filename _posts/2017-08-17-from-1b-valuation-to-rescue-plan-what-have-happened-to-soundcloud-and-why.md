@@ -11,7 +11,7 @@ authors:
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
-image: /assets/images/soundcloud.jpg
+image: /assets/images/soundcloud-cover.webp
 text-preview: >-
   Site loved by many almost collapsed after questionable choices made by
   management. Will SoundCloud learn from their own mistakes?

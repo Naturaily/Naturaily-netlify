@@ -8,7 +8,7 @@ layout: post
 date: '2020-11-13 08:48:00 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

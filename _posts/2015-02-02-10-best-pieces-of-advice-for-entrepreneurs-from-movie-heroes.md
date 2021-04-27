@@ -9,7 +9,7 @@ category: Startups
 authors:
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   slug: marcin-sulikowski
 image: /assets/images/film_quotes.png
 text-preview: >-

@@ -11,7 +11,7 @@ twitter-card: >-
 date: '2019-05-29 08:46:38 +0200'
 category: Software development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

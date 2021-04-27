@@ -7,7 +7,7 @@ slug: how-to-start-startup
 date: '2014-12-18 10:38:01 +0000'
 category: Startups
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

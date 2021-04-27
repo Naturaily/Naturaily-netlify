@@ -42,6 +42,6 @@ slide-left: LVCloud
 slide-left-logo: /assets/images/LVCloud.png
 slide-left-link: /portfolio/lvcloud
 slide-right: Collectivity
-slide-right-logo: /assets/images/collectivity.png
+slide-right-logo: /assets/images/collectivity.webp
 slide-right-link: /project/thecollectivity
 ---

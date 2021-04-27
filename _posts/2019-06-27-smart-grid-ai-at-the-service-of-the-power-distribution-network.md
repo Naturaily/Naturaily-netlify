@@ -13,7 +13,7 @@ twitter-card: >-
 date: '2019-06-28 12:43:53 +0200'
 category: IoT
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski

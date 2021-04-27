@@ -76,7 +76,7 @@ testimonial-text: >-
   very successful I would definitely recommend them to anyone looking for
   professional Ruby on Rails developers.
 slide-left: Collectivity
-slide-left-logo: /assets/images/collectivity.png
+slide-left-logo: /assets/images/collectivity.webp
 slide-left-link: /project/thecollectivity
 slide-right: LVCloud
 slide-right-logo: /assets/images/LVCloud.png
