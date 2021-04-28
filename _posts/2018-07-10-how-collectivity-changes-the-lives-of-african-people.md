@@ -9,7 +9,7 @@ layout: post
 date: '2018-09-10 11:35:00 +0200'
 category: Naturaily Client
 authors:
-  avatar: /assets/images/wojciech.jpg
+  avatar: /assets/images/wojciech.webp
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
@@ -101,4 +101,4 @@ Want to **learn more about this project**? Read **[Collectivity case study](http
 
 <hr>
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

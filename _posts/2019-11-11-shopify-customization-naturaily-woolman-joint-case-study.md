@@ -8,12 +8,12 @@ layout: post
 date: '2019-11-11 07:00:55 +0200'
 category: Shopify development
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
 image: >-
-  /assets/images/shopify-customization_-naturaily-amp_-woolman-joint-case-study.png
+  /assets/images/shopify-customization_-naturaily-amp_-woolman-joint-case-study.webp
 text-preview: >-
   Shopify remains the most popular e-commerce platform in the world. With
   800,000 clients on board, who have made combined sales in excess of $100
@@ -46,7 +46,7 @@ Naturaily's task was to:
 
 Let’s start with a quick view on how the communication between Shopify’s API, Storefront and Integrations works.
 
-{% image /assets/images/diagram_1.png Integrations Integrations %}
+{% image /assets/images/diagram_1.webp Integrations Integrations %}
 
 Shopify offers a lot of features but lacks some important ones, such as ready-to-use solutions for simplifying order management (on the European market), for instance. If you need something extra, like a shipping list generated in real time - you need a dedicated application. That is what we help our clients with >> **Shopify app development**.
 
@@ -71,13 +71,13 @@ Thanks to the integration, when new data is entered in one of the external syste
 
 **The biggest challenge was data incompatibility.** Our job was to format the data so that it would be readable for Shopify.
 
-{% image /assets/images/diagram_2.png diagram diagram %}
+{% image /assets/images/diagram_2.webp diagram diagram %}
 
 In simple terms, the application is a communication layer that processes data to the appropriate format. This way, the data exchange is smooth and the information contained in external systems and presented in the store are consistent.
 
 Have a look at how it works.
 
-{% image /assets/images/diagram_3_new.png diagram diagram %}
+{% image /assets/images/diagram_3_new.webp diagram diagram %}
 
 Data incompatibility example:
 
@@ -114,4 +114,4 @@ and many more.
 
 As you can see, the integration possibilities between Shopify and external systems are almost limitless. If you want to increase the efficiency of your online store, improve order processing, increase conversion, facilitate sales management, minimize errors or achieve other goals - contact us and we will help you. Shopify app development is one of our specialties.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

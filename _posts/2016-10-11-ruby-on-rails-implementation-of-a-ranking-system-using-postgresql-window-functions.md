@@ -7,11 +7,11 @@ slug: ranking-system-implementation-postgresql
 date: '2016-10-11 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/ciabos.jpg
+  avatar: /assets/images/ciabos.webp
   label: Patryk Szeliga
   value: author-9
   slug: patryk-szeliga
-image: /assets/images/rails-elephant.jpg
+image: /assets/images/rails-elephant.webp
 text-preview: >-
   Hello, this article will show, how easily you can add ranking functionality to
   your project.
@@ -125,7 +125,7 @@ end
 
 With templates specified earlier, we see something like this when we visit our ```Posts#index```:
 
-{% image /assets/images/ranking-1.png ranking-1 ranking-1 %}
+{% image /assets/images/ranking-1.webp ranking-1 ranking-1 %}
 
 Of course you might want something prettier than plain number.
 With a little effort, you can change it to something cool, for example stars.
@@ -145,7 +145,7 @@ With one small change in our partial file ```_post.html.erb```, like this:
 
 I've achieved result like this:
 
-{% image /assets/images/ranking-2.png ranking-2 ranking-2 %}
+{% image /assets/images/ranking-2.webp ranking-2 ranking-2 %}
 
 Pros of this approach:
 
@@ -157,4 +157,4 @@ Pros of this approach:
 Cons:
   You tell me. Are there any?
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

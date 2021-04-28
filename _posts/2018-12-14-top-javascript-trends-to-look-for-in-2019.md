@@ -9,11 +9,11 @@ twitter-card: summary_large_image
 date: '2018-12-14 01:54:58 +0200'
 category: JavaScript development
 authors:
-  avatar: /assets/images/epifany_bojanowska-2.jpg
+  avatar: /assets/images/epifany_bojanowska-2.webp
   label: Epifany Bojanowska
   value: author-22
   slug: epifany-bojanowska
-image: /assets/images/javascript-trends-2019.png
+image: /assets/images/javascript-trends-2019.webp
 text-preview: >-
   If you’re wondering what 2019 will bring when it comes to top JavaScript
   development check out our newest blog post about upcoming trends.
@@ -68,4 +68,4 @@ The community is currently standing strong behind React, and other libraries are
 
 When it comes to backend frameworks written in JavaScript, Node still has no competition, but look out for GraphQL - it might surprise you in the future!
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

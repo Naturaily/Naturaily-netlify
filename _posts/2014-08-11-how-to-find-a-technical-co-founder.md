@@ -12,7 +12,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/cofounder.jpg
+image: /assets/images/cofounder.webp
 text-preview: >-
   Whether you're building a ONE BILLION startup or a smallish web developement
   agency, as an entrepreneur you have one tough task: finding a technical
@@ -89,4 +89,4 @@ PS: If you have trouble with finding your CTO, you can always start building you
 
 
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

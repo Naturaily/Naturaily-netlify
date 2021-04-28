@@ -8,11 +8,11 @@ layout: post
 date: '2021-02-04 12:37:47 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/J_150X150.png
+  avatar: /assets/images/J_150X150.webp
   label: Katarzyna Ciesielska
   slug: katarzyna-ciesielska
   value: author-32
-image: /assets/images/Blog_who_are_the_shopify_experts.png
+image: /assets/images/Blog_who_are_the_shopify_experts.webp
 text-preview: >-
   If you're in a middle of setting up your online store, or you feel that's the
   time for some improvements, you may be thinking about getting some help from
@@ -34,7 +34,7 @@ And this is the moment when you probably start thinking: how can I do this witho
 
 Well, actually you can't. But **Shopify experts** can.
 
-{% image /assets/images/Simple_image_article2.png Blog_shopify_expert Blog_shopify_expert %}
+{% image /assets/images/Simple_image_article2.webp Blog_shopify_expert Blog_shopify_expert %}
 
 ## What do Shopify Experts really do?
 
@@ -109,4 +109,4 @@ Hiring **Shopify experts** may cost you more at the beginning, but it's definite
 
 ### If you already have some great ideas for integrations and a unique store theme, we are all ears! If you're not sure yet... we are happy to help you! [Make your first small ](https://naturaily.com/get-an-estimate)step today and enjoy your successful business tomorrow.
 
-[{% image /assets/images/cta_estimation_1600.png Get an estimate  %}](https://naturaily.com/get-an-estimate)
+[{% image /assets/images/cta_estimation_1600.webp Get an estimate  %}](https://naturaily.com/get-an-estimate)

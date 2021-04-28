@@ -14,7 +14,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/naturaily-blog-sxsw.jpg
+image: /assets/images/naturaily-blog-sxsw.webp
 text-preview: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the
   biggest tech conferences around the world. Check out Marcin’s our CEO
@@ -34,7 +34,7 @@ One of the most interesting lectures I was able to attend was also a panel organ
 
 One of them was Steadyapp.com - an application helping to find an additional, casual job close to where you live. Despite a good economic condition, many people living in the US barely make ends meet. Statistics show that 43% of Americans work two jobs. The discussion of the representatives of solutions that could help in finding an additional source of income or reducing mortgage costs allowed us to look in a broader perspective at the personal situation of recipients of many technological solutions often created in isolation from the reality and the real needs of a large social group that goes far beyond the stereotypical citizen of the rich West. It was a very informative lesson followed by great discussions with **Adam Roseman** (CEO, Steady), **Paul Kesserwani** (CEO, Cushion.ai) and **Nadim Homsany** (Cofounder, EarnUp)!
 
-{% image /assets/images/the-gig-economy-financial-health_sxsw.jpg SXSW SXSW %}
+{% image /assets/images/the-gig-economy-financial-health_sxsw.webp SXSW SXSW %}
 
 ## Great opportunity to network with interesting open-minded people
 
@@ -56,4 +56,4 @@ If the topic is close to you – they are worth listening to:
 
 [The Second Golden Age of Audio-Podcasting SXSW 2019](https://www.youtube.com/watch?v=1OZq_Zo8Hc4){:rel="nofollow"}{:target="_blank"}
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

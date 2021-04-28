@@ -9,11 +9,11 @@ twitter-card: summary_large_image
 date: '2019-01-02 11:30:43 +0200'
 category: Recruitment
 authors:
-  avatar: /assets/images/epifany_bojanowska-2.jpg
+  avatar: /assets/images/epifany_bojanowska-2.webp
   label: Epifany Bojanowska
   value: author-22
   slug: epifany-bojanowska
-image: /assets/images/modelin-agency-manager-software-developer.png
+image: /assets/images/modelin-agency-manager-software-developer.webp
 text-preview: >-
   While scouring the internet for an interesting topic for my newest company
   blog article I overheard a coworker say something that has stopped me in my
@@ -28,7 +28,7 @@ To all you folks wondering at home - **is it possible to suddenly become a devel
 
 Łukasz, is a 27 year old man, with a passion for art and tech. Interesting combination you say? I thought so too - and so I kept dwelling. In his own words _“I spent my life torn between the two worlds and kept going back and forth. When I was in primary school I got my first computer and fell in love with fixing it up. Even as a kid I was fascinated with how it all worked. My hobby turned into a plan for the future when I went to an IT technical school.”_
 
-{% image /assets/images/2.jpg model-2 model-2 %}
+{% image /assets/images/2.webp model-2 model-2 %}
 
 By now you’re probably wondering - as was I - **what about the models?!** Turns out, our friendly developer is also a talented painter and decided to pursue a painting degree at an Art School. There he developed a passion for graphic design and photography. His interests pushed him to study film production. From there he started earning his money shooting portfolios for models. With time he got offered a managing position for a modeling agency but quickly got bored. If you’re internally screaming I assure you - I was as surprised as you are right now. Turns out, he missed the tech aspect and decided to change careers. He then became a product manager for an electronic supply company and began handling contracts with powerhouse brands like Nintendo, Sony and Microsoft, just to name a few.
 
@@ -36,10 +36,10 @@ _“After few years I felt stagnation creeping up on me. I wanted to grow profes
 
 Sounds neat, doesn’t it? But it didn’t answer all of my questions. Surely the desire to learn programming at home isn’t enough to become a developer? How did he go about finding a job in this competitive market?
 
-{% image /assets/images/3.jpg model-3 model-3 %}
+{% image /assets/images/3.webp model-3 model-3 %}
 
 _“Turns out the programming world is forgiving when it comes to age of beginners. Most of my basic coding skills I learned at home but then I needed some hands on experience. I was lucky enough to score an **internship with Naturaily**, where they taught me to code while **avoiding technical debt**, be thorough and last but not least they’ve let me stay creative. After my internship I’ve decided to stay and become a fully fledged developer. I love what I do because it gives me me the ability to continuously broaden my knowledge and grow professionally.”_
 
 Inspiring, isn’t it? The moral of the story is - **don’t be afraid of changing careers and becoming a developer**, because it’s never too late to start learning and with a little bit of support you too can become a coding expert.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

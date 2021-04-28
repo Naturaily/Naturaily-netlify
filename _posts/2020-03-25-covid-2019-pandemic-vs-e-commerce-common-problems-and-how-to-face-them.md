@@ -8,11 +8,11 @@ layout: post
 date: '2020-03-25 02:53:41 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/Weronika_profile.png
+  avatar: /assets/images/Weronika_profile.webp
   label: Weronika Nużyńska
   value: author-30
   slug: weronika-nuzynska
-image: /assets/images/Blog_COVID-2019_Pandemic_vs_E-commerce.png
+image: /assets/images/Blog_COVID-2019_Pandemic_vs_E-commerce.webp
 text-preview: >-
   COVID-19 coronavirus is officially a global pandemic. As it’s spreading around
   the world at a fast pace, it is predicted to take its toll on both people and
@@ -56,11 +56,11 @@ Plus, there’s a risk of long-term economic uncertainty, so your customers may 
 
 With the lion’s share of consumers staying home, it makes perfect sense that e-commerce retailers will see an upsurge in traffic. E-commerce consultant Dan Barker highlights the impact of coronavirus across different retail categories [on his Twitter](https://twitter.com/danbarker/status/1239307814549454849){:rel="nofollow"}{:target="_blank"}. For example, furniture stores and garden furniture are doing pretty well. At the same time, all topics related to fashion have noted a major drop.
 
-{% image /assets/images/Blog_Furniture_stores_google_trends.png trends trends %}
+{% image /assets/images/Blog_Furniture_stores_google_trends.webp trends trends %}
 
 <small class="text-center">Furniture industry interest rising </small>
 
-{% image /assets/images/Blog_Fashion_industry_google_trends.png trends trends %}
+{% image /assets/images/Blog_Fashion_industry_google_trends.webp trends trends %}
 
 <small class="text-center">Fashion industry interest dropping </small>
 
@@ -76,7 +76,7 @@ However, while e-commerce retailers may benefit in the short-term, there are iss
 
 As the virus began to do damage in the US (the article shows the data from the March 15th, but now the number of infected Americans is dramatically increasing, with the number of app downloads getting much higher), grocery apps have experienced record numbers of daily downloads in March, according to app analytics portal[ Apptopia](https://blog.apptopia.com/instacart-and-grocery-delivery-apps-set-consecutive-days-of-record-downloads){:rel="nofollow"}{:target="_blank"}.
 
-{% image /assets/images/Blog_.Grocery_App.png app app %}
+{% image /assets/images/Blog_.Grocery_App.webp app app %}
 
 <small class="text-center">Source: [Apptopia](https://blog.apptopia.com/instacart-and-grocery-delivery-apps-set-consecutive-days-of-record-downloads){:rel="nofollow"}{:target="_blank"}</small>
 
@@ -108,7 +108,7 @@ Interestingly, we’re also hearing arguments that, in the long term, online sho
 >
 > *It will be a net positive for all digital commerce, especially grocery and household supplies and things like that. You’ll see a bump from this and that behavior will persist going forward.*
 
-{% image /assets/images/Blog_Amish_Jani.png Amish Amish %}
+{% image /assets/images/Blog_Amish_Jani.webp Amish Amish %}
 
 <small class="text-center">Amish Jani </small>
 

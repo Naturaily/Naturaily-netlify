@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2018-10-25 11:00:01 +0200'
 category: Agile
 authors:
-  avatar: /assets/images/wojciech.jpg
+  avatar: /assets/images/wojciech.webp
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
-image: /assets/images/four-reasons-why-qa-team.jpg
+image: /assets/images/four-reasons-why-qa-team.webp
 text-preview: >
   The need for Quality Assurance Engineers has been strikingly increasing in the
   past years due to software applications being more demanded than ever. Here
@@ -66,4 +66,4 @@ Having a QA in your team will definitely result in improved workflow within your
 
 Regular software checks help you find bugs early in the development. It’s much easier and faster to fix an early issue rather than when the app is almost finished. The more complex an app is, the higher the chances are of something going wrong while debugging. Investing in a QA will help you save a lot of man hours, unnecessary stress and will ensure significant reducement in development costs.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

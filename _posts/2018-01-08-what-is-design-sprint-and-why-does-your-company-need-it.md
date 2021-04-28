@@ -7,11 +7,11 @@ slug: what-is-design-sprint
 date: '2018-01-08 10:38:01 +0000'
 category: Agile
 authors:
-  avatar: /assets/images/wojciech.jpg
+  avatar: /assets/images/wojciech.webp
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
-image: /assets/images/google-sprint.jpg
+image: /assets/images/google-sprint.webp
 text-preview: >-
   It is very common for clients to not know what kind of product they want to
   build exactly, especially when it comes to start-ups. At Naturaily, clients
@@ -61,7 +61,7 @@ In exchange for the **short amount of your time**, you’re going to get a lot -
 
 **Stuck** - Some projects and challenges are very difficult to start. Sometimes all you need is a fresh idea that would just kickstart the problem-solving. Workshops let you work with a team of experts and other people experienced in various fields. They will give you their feedback about your project which can be very helpful in boosting its momentum.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 
 Resources:

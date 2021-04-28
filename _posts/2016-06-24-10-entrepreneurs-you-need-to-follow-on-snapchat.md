@@ -11,7 +11,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/snapchat_entrepreneurs.jpeg
+image: /assets/images/snapchat_entrepreneurs.webp
 text-preview: >-
   As you might have guessed I'm not one of those selfie-loving teenage boys (ok,
   maybe just a bit). Anyway, I decided to join Snapchat the other day (@suleiro
@@ -33,59 +33,59 @@ Here’s my list of the most active Polish and foreign users.
 
 1. **Justin Kan** (justinkan) - Partner at Y Combinator, Co-founder of live video platforms: Justin.tv and Twitch.tv
     <br><br>
-    {% image /assets/images/snapchat-justin-kan.png justinkan justinkan %}
+    {% image /assets/images/snapchat-justin-kan.webp justinkan justinkan %}
 
 2. **Justin Wu** (hackapreneur) - Founder of Growth.ly
     <br><br>
-    {% image /assets/images/snapchat-justin-wu.png hackapreneur hackapreneur %}
+    {% image /assets/images/snapchat-justin-wu.webp hackapreneur hackapreneur %}
 
 3. **Gary Vaynerchuk** (garyvee) - Investor, entrepreneur, CEO of VaynerMedia
     <br><br>
-    {% image /assets/images/snapchat-gary-vaynerchuk.png garyvee garyvee %}
+    {% image /assets/images/snapchat-gary-vaynerchuk.webp garyvee garyvee %}
 
 4. **Alexis Ohanian** (alexisohanian) - Co-founder of Reddit, Partner at Y Combinator
     <br><br>
-    {% image /assets/images/snapchat-alexis-ohanian.png alexisohanian alexisohanian %}
+    {% image /assets/images/snapchat-alexis-ohanian.webp alexisohanian alexisohanian %}
 
 5. **Hunter Walk** (hunterwalk) - Partner at Homebrew VC
     <br><br>
-    {% image /assets/images/snapchat-hunter-walk.png hunterwalk hunterwalk %}
+    {% image /assets/images/snapchat-hunter-walk.webp hunterwalk hunterwalk %}
 
 6. **Staszek Kolarzowski** (kolarzowski) - Co-founder & COO of Pilot
     <br><br>
-    {% image /assets/images/snapchat-staszek-kolarzowski.png kolarzowski kolarzowski %}
+    {% image /assets/images/snapchat-staszek-kolarzowski.webp kolarzowski kolarzowski %}
 
 7. **Michał Sadowski** (sdmik) - Founder & CEO of Brand24
     <br><br>
-    {% image /assets/images/snapchat-michal-sadowski.png sdmik sdmik %}
+    {% image /assets/images/snapchat-michal-sadowski.webp sdmik sdmik %}
 
 8. **Andrzej Krzywda** (andrzejkrzywda) - Founder & CEO of Arkency
     <br><br>
-    {% image /assets/images/snapchat-andrzej-krzywda.png andrzejkrzywda andrzejkrzywda %}
+    {% image /assets/images/snapchat-andrzej-krzywda.webp andrzejkrzywda andrzejkrzywda %}
 
 9. **Konrad Traczyk** (konradtraczyk) - Fouder & CEO of HASH FM
     <br><br>
-    {% image /assets/images/snapchat-konrad-traczyk.png konradtraczyk konradtraczyk %}
+    {% image /assets/images/snapchat-konrad-traczyk.webp konradtraczyk konradtraczyk %}
 
 10. **Tomasz Muter** (materpl) - Co-founder of Droids on Roids
     <br><br>
-    {% image /assets/images/snapchat-tomasz-muter.png materpl materpl %}
+    {% image /assets/images/snapchat-tomasz-muter.webp materpl materpl %}
 
 ## EXTRA
 
 11. **Mark Suster** (msuster) - General Partner at Upfront Ventures
     <br><br>
-    {% image /assets/images/snapchat-mark-suster.png msuster msuster %}
+    {% image /assets/images/snapchat-mark-suster.webp msuster msuster %}
 
 12. **Monika Mikowska** (mobimoni) - Co-owner of mobee dick
     <br><br>
-    {% image /assets/images/snapchat-monika-mikowska.png mobimoni mobimoni %}
+    {% image /assets/images/snapchat-monika-mikowska.webp mobimoni mobimoni %}
 
 It's interesting that I couldn't find any Polish VCs on Snapchat. Or maybe I missed someone? If there is anyone who is worth to follow in your opinion - please let me know by leaving a comment. We'll update the list.
 
 PS. Don't forget to follow me (suleiro) if you want to see what a life of a software team looks like or check if I haven't lost my mind yet.
 
 <br>
-{% image /assets/images/snapchat-suler.png suleiro suleiro %}
+{% image /assets/images/snapchat-suler.webp suleiro suleiro %}
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

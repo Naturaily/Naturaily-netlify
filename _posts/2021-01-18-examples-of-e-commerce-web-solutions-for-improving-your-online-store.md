@@ -8,12 +8,12 @@ layout: post
 date: '2021-01-18 02:10:24 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/J_150X150.png
+  avatar: /assets/images/J_150X150.webp
   label: Katarzyna Ciesielska
   value: author-32
   slug: katarzyna-ciesielska
 image: >-
-  /assets/images/blog_examples_of_ecommerce_web_solutions_for_improving_your_online_store.png
+  /assets/images/blog_examples_of_ecommerce_web_solutions_for_improving_your_online_store.webp
 text-preview: >-
   Having an online store ain't easy. Everyone who has ever tried it already
   knows that gaining new customers needs a lot of work. You can't just open a
@@ -61,4 +61,4 @@ This is one of the examples of **e-commerce web solutions** that you can’t jus
 
 Let’s be honest, you haven’t been looking for answers like this just because you’re simply curious about what’s happening in the web development world. If it was the reason, you would go to check experts’ forums, looking for more deep technical information.  I believe that you’re looking for all these **examples of** **e-commerce web solutions** because you would like to implement the best of them on your online store. If that’s right, here we are! Ready to hear your needs and propose to you the most efficient ways to boost your conversion rate thanks to development.  If that’s not right, tell us what brought you here and what are your thoughts so far!
 
-[{% image /assets/images/cta_estimation_1600.png Get an estimate  %}](https://naturaily.com/get-an-estimate)
+[{% image /assets/images/cta_estimation_1600.webp Get an estimate  %}](https://naturaily.com/get-an-estimate)

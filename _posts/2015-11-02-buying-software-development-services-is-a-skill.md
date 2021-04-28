@@ -11,7 +11,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/hipster2.jpg
+image: /assets/images/hipster2.webp
 text-preview: Don't believe the software development myths. Read on to learn why.
 related_posts: []
 ---
@@ -54,4 +54,4 @@ There are of course more myths than these described above. The key takeaway is: 
 
 You need to understand how software is built to omit errors. And you need to know what you want to build. If you don’t know, you need experience and know-how to go agile. Agile is great, but only for experienced product owners.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

@@ -11,11 +11,11 @@ twitter-card: summary_large_image
 date: '2019-02-15 12:31:43 +0200'
 category: Startups
 authors:
-  avatar: /assets/images/epifany_bojanowska-2.jpg
+  avatar: /assets/images/epifany_bojanowska-2.webp
   label: Epifany Bojanowska
   value: author-22
   slug: epifany-bojanowska
-image: /assets/images/software-house.jpeg
+image: /assets/images/software-house.webp
 text-preview: >-
   Whether you’re a part of a Start-Up or a grown up company, when your product
   needs a software solution, you’ll most likely need to make a decision on where
@@ -39,7 +39,7 @@ By partnering with a full-service software development company, you are essentia
 5. ### Risk management
    If you commission software from an outside company, rather than developing it in-house, the software house is responsible for delivering the product in a specified time and for a set amount of money. Every step of the development process is regulated in the contract, which in turn reduces the risk of faulty software and/or time delays (under the threat of penalty).
 
-{% image /assets/images/software-houses-warsaw.jpeg software-houses-warsaw software-houses-warsaw %}
+{% image /assets/images/software-houses-warsaw.webp software-houses-warsaw software-houses-warsaw %}
 
 ## Why a software house from Poland:
 
@@ -62,4 +62,4 @@ By partnering with a full-service software development company, you are essentia
 
 Hopefully, after reading this post your mind got a bit clearer, when it comes to choosing a way of developing your software. Whether you’re looking to develop a fully fledged application, IoT solution or an MVP, it’s always good to know all of the available options.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

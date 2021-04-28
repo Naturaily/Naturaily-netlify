@@ -11,11 +11,11 @@ twitter-card: summary_large_image
 date: '2019-01-04 09:00:45 +0200'
 category: Frontend development
 authors:
-  avatar: /assets/images/wojciech.jpg
+  avatar: /assets/images/wojciech.webp
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
-image: /assets/images/pwa-guide-2018.png
+image: /assets/images/pwa-guide-2018.webp
 text-preview: >-
   Many say that PWAs will be the new standard in the future world of mobile
   apps, and they're probably right! With tech giants behind it, Progressive Web
@@ -146,4 +146,4 @@ As other mentioned above apps, Tinder Online was created to expand on new market
 
 Link: [https://tinder.com/](https://tinder.com/?lang=en){:rel="nofollow"}{:target="_blank"}
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

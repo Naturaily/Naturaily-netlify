@@ -8,11 +8,11 @@ slug: diet-rails
 date: '2014-08-19 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/swierszcz.png
+  avatar: /assets/images/swierszcz.webp
   label: Przemysław Świercz
   value: author-15
   slug: przemyslaw-swiercz
-image: /assets/images/railsondiet.jpg
+image: /assets/images/railsondiet.webp
 text-preview: >-
   More and more apps are being created with an API support. Growing popularity
   of Angular.js and Backbone.js makes it even more important part of new
@@ -271,4 +271,4 @@ From now on it's all up to you. If you've chosen only those middlewares and fram
 
 That's all for now. Till next time.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

@@ -13,7 +13,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: '/assets/images/blog_cover_Headless-CMS-JAMstack.png'
+image: '/assets/images/blog_cover_Headless-CMS-JAMstack.webp'
 text-preview: >
   Whether it’s for SEO or to stay user-friendly, more and more people are
   turning to the likes of Jamstack for their website needs. This is usually
@@ -597,4 +597,4 @@ To compare these options, it really helps to put them side-by-side. Here, we wan
 
 \*Headless WordPress is often custom, so results can be varied.
 
-[{% image /assets/images/get-an-estimate.png Get-an-estimate et-an-estimateG %}](https://naturaily.com/get-an-estimate){:target=”_blank”}
+[{% image /assets/images/get-an-estimate.webp Get-an-estimate et-an-estimateG %}](https://naturaily.com/get-an-estimate){:target=”_blank”}

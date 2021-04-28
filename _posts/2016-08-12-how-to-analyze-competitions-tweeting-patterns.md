@@ -11,7 +11,7 @@ authors:
   value: author-6
   avatar: /assets/images/marcin.webp
   slug: marcin-sulikowski
-image: /assets/images/analyze_competition.jpg
+image: /assets/images/analyze_competition.webp
 text-preview: >-
   Ever wondered what approach your competition has to Twitter? If so, I’ve got
   good news for you. It’s super easy to check what they post about and how often
@@ -29,27 +29,27 @@ Ever wondered what approach your competition has to Twitter? If so, I’ve got g
 
 1. Create a new Google spreadsheet and one worksheet per each competitor within it. I’ve used Netguru and El Passion as an example.
 
-  {% image /assets/images/analyze_competition_01.png analyze_competition_01 analyze_competition_01 %}
+  {% image /assets/images/analyze_competition_01.webp analyze_competition_01 analyze_competition_01 %}
 
   Next make sure to enter column names in each worksheet, you will need them later to assign data from Twitter.
 
-  {% image /assets/images/analyze_competition_02.png analyze_competition_02 analyze_competition_02 %}
+  {% image /assets/images/analyze_competition_02.webp analyze_competition_02 analyze_competition_02 %}
 
 2. I assume you have a Zapier account already. So log in and open this [zap](https://zapier.com/app/min/1353/start). It’s a zap that saves tweets from chosen Twitter accounts to Google sheets.
 
-  {% image /assets/images/analyze_competition_03.png analyze_competition_03 analyze_competition_03 %}
+  {% image /assets/images/analyze_competition_03.webp analyze_competition_03 analyze_competition_03 %}
 
 3. Now click “Make this Zap!” button and connect your Twitter account.
 
-  {% image /assets/images/analyze_competition_04.png analyze_competition_04 analyze_competition_04 %}
+  {% image /assets/images/analyze_competition_04.webp analyze_competition_04 analyze_competition_04 %}
 
 4. After connecting Twitter type in you competition account name, here we use “netguru”.
 
-  {% image /assets/images/analyze_competition_05.png analyze_competition_05 analyze_competition_05 %}
+  {% image /assets/images/analyze_competition_05.webp analyze_competition_05 analyze_competition_05 %}
 
 5. In the last step we need to choose the spreadsheet, worksheet and assign proper Twitter feed data (Text and Created At in our case) to worksheet columns.
 
-  {% image /assets/images/analyze_competition_06.png analyze_competition_06 analyze_competition_06 %}
+  {% image /assets/images/analyze_competition_06.webp analyze_competition_06 analyze_competition_06 %}
 
 6. Now run a test and then just wait for spreadsheet to fill in.
 

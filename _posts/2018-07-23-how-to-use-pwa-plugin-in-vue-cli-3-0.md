@@ -9,11 +9,11 @@ twitter-card: summary_large_image
 date: '2018-08-06 10:42:09 +0000'
 category: JavaScript development
 authors:
-  avatar: /assets/images/tomasz.jpg
+  avatar: /assets/images/tomasz.webp
   label: Tomasz Żdanuk
   value: author-2
   slug: tomasz-zdanuk
-image: /assets/images/pwa-vue-cli-3.jpg
+image: /assets/images/pwa-vue-cli-3.webp
 text-preview: >-
   In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin
   as one of the greatest features in my opinion. In this post, I'd like to
@@ -276,4 +276,4 @@ I hope the Apple will soon fully support PWA apps because that should help PWA i
 
 All what you have to worry about is preparing graphics and making decisions on what and how you want to cache, Vue PWA plugin will do the dirty work for you.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

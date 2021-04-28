@@ -7,11 +7,11 @@ slug: marionette-tutorial-objects-commands
 date: '2014-07-15 10:38:01 +0000'
 category: JavaScript development
 authors:
-  avatar: /assets/images/maciek.png
+  avatar: /assets/images/maciek.webp
   label: Maciej Kucharski
   value: author-16
   slug: maciej-kucharski
-image: /assets/images/marionette.jpg
+image: /assets/images/marionette.webp
 text-preview: >-
   A brief introduction to Marionette’s reqres ( request-response ) and commands
   would be that they are application (or module) level event aggregators that
@@ -110,4 +110,4 @@ Second version is of course more concise and readable.
 
 Although I gave Marionette a rough time, you shouldn't get discouraged. The apis are just a minor part of the framework and the dificulties you might have with them are vastly outweighted by all the awesomeness Marionette brings to the table. At Naturaily we love and cherish Marionette and believe it to be the best of libraries built on top of Backbone and maybe even the very best framework for single page applications available.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

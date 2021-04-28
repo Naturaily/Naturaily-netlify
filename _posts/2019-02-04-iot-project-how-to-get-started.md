@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2019-02-04 09:55:56 +0200'
 category: IoT
 authors:
-  avatar: /assets/images/epifany_bojanowska-2.jpg
+  avatar: /assets/images/epifany_bojanowska-2.webp
   label: Epifany Bojanowska
   value: author-22
   slug: epifany-bojanowska
-image: /assets/images/iot_project_how_to_get_started.png
+image: /assets/images/iot_project_how_to_get_started.webp
 text-preview: >-
   So you’re thinking of developing your own IoT (Internet of Things) project but
   have no idea what the process looks like and where you should start? Check out
@@ -30,7 +30,7 @@ An IoT project is the act of connecting any physical object to the Internet to c
 
 Occasionally known as the **Industrial IoT**, the benefits of the IoT for business depend on the particular implementation, but the key is that enterprises should have access to more data about their own products and their own internal systems, and a greater ability to make changes as a result. IoT thrives in improving logistics of transport and production. It helps with tracking inventory, supply, demand and even consumer experience. It’s also extremely useful in developing Smart Cities where it enables monitoring of everything starting with public transport to waste management. It shows immense potential in the field of healthcare - like drug monitoring devices that could ensure patients are taking the correct doses of medication as well as measuring patient’s vitals remotely. Another domain where IoT is gaining popularity in agriculture and meteorology where it enables tracking and gathering information in remote places.
 
-{% image /assets/images/smart-city.jpg smart_city smart_city %}
+{% image /assets/images/smart-city.webp smart_city smart_city %}
 
 ## The challenges of developing an IoT Project
 
@@ -98,4 +98,4 @@ The success of your IoT project depends on its use case, market demand, research
 
 <br>
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

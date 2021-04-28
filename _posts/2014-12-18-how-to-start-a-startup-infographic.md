@@ -11,7 +11,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/startup-info.jpg
+image: /assets/images/startup-info.webp
 text-preview: >-
   Wondering how to start a startup? There are few ways. Building it on your own
   (if you have proper skills), going to the accelerators and outsourcing the
@@ -24,6 +24,6 @@ Wondering how to start a startup? There are few ways. Building it on your own (i
 
 
 
-{% image /assets/images/info-startup.jpg infostartup infostartup %}
+{% image /assets/images/info-startup.webp infostartup infostartup %}
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

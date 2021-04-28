@@ -9,11 +9,11 @@ layout: post
 date: '2019-09-04 08:40:22 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/michal_kosyk_profile.png
+  avatar: /assets/images/michal_kosyk_profile.webp
   label: Michał Kosyk
   value: author-27
   slug: michal-kosyk
-image: /assets/images/why-do-we-fail-at-abstractions_.png
+image: /assets/images/why-do-we-fail-at-abstractions_.webp
 text-preview: >
   We have all been there. We got a task to introduce totally new functionality.
   New database relations, controllers, services, models, views. We all said:
@@ -246,4 +246,4 @@ Use this knowledge to battle the unnecessary complexity of concretisation and re
 
 Farewell
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

@@ -15,7 +15,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/why-is-it-worth-to-work-with-a-software-house-from-poland.png
+image: /assets/images/why-is-it-worth-to-work-with-a-software-house-from-poland.webp
 text-preview: >
   There are over 100,000 software companies around the world and some predict
   the number will increase to 1 million by 2027. A lot of them are software
@@ -35,7 +35,7 @@ text-preview: >
 * We have the right **communication skills** and a good knowledge of English.
 * Our **hourly rates are very competitive** in comparison to the cost of hiring a development team from the US or Western Europe.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 <br>
 
@@ -86,4 +86,4 @@ I hope that the article helped you answer the question of whether to hire develo
 
 <br>
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

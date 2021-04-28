@@ -7,11 +7,11 @@ slug: finance-banking-startups-uk-2017
 date: '2017-12-15 10:38:01 +0000'
 category: Startups
 authors:
-  avatar: /assets/images/wojciech.jpg
+  avatar: /assets/images/wojciech.webp
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
-image: /assets/images/uk-banking.jpg
+image: /assets/images/uk-banking.webp
 text-preview: >-
   Despite Brexit London still remains as one of the biggest hubs and places for
   your startup. This list covers the most interesting London-based finance
@@ -78,4 +78,4 @@ Check out our other Startup lists right here:
 - [9 Startups in Berlin You Should Know about in 2017](https://naturaily.com/blog/berlin-startups-2017){:target="_blank"}
 - [Interesting German Startups You Should Definitely Check Out!](https://naturaily.com/blog/interesting-german-startups){:target="_blank"}
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

@@ -10,9 +10,9 @@ category: JavaScript development
 authors:
   label: Jan Wieczorkowski
   value: author-8
-  avatar: /assets/images/janpol.png
+  avatar: /assets/images/janpol.webp
   slug: jan-wieczorkowski
-image: /assets/images/meteor3.png
+image: /assets/images/meteor3.webp
 text-preview: >-
   In one of the projects I've been recently working on I needed i18n support for
   forms generated with AutoForm. For those who don’t know: Autoform is

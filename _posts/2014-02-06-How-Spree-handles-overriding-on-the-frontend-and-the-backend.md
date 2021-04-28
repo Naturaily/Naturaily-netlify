@@ -10,9 +10,9 @@ category: Spree development
 authors:
   label: Mateusz Barczak
   value: author-17
-  avatar: /assets/images/mateusz.png
+  avatar: /assets/images/mateusz.webp
   slug: mateusz-barczak
-image: /assets/images/spreecomerce.jpg
+image: /assets/images/spreecomerce.webp
 text-preview: >-
   Couple months ago, after signing a contract to build an unusual e-commerce
   site, we were forced to make a choice. We’d build the site either from scratch

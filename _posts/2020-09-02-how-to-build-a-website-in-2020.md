@@ -13,7 +13,7 @@ authors:
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/How_to_build_website_in_2020.png
+image: /assets/images/How_to_build_website_in_2020.webp
 text-preview: >
   These days, we need to look at many areas, from speed, performance and SEO, to
   user needs and the ability to manage the website effectively. This is why
@@ -99,4 +99,4 @@ So there you have it, our answer for building a website in today’s competitive
 
 It’s also a great option for future expansion. Not only does it avoid hardcoding as much as possible, as it instead utilizes backend Content Delivery Networks or CMS with markdown, the performance-optimized approach means expansion (whether on-page or through new pages entirely) doesn’t immediately compound the technical issues… because said issues don’t exist in the first place!
 
-[{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.webp Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

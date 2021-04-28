@@ -9,11 +9,11 @@ layout: post
 date: '2020-08-29 08:15:40 +0200'
 category: Jamstack development
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
-image: /assets/images/Top10_JAMstack_Websites.png
+image: /assets/images/Top10_JAMstack_Websites.webp
 text-preview: >
   Did you know Leonardo DiCaprio uses Jamstack? And he’s not the only one!
 
@@ -171,4 +171,4 @@ Jamstack developers, take note: great websites don’t need to come at a cost. T
 
 Through the correct use of content management systems, site generators and a focus on web friendly technology (hello, JavaScript, Markdown and HTML!), it’s very easy to get a great looking and functionally hyper-performant website out there.
 
-[{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.webp Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

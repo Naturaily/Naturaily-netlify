@@ -9,11 +9,11 @@ layout: post
 date: '2018-07-23 12:26:02 +0000'
 category: JavaScript development
 authors:
-  avatar: /assets/images/tomasz.jpg
+  avatar: /assets/images/tomasz.webp
   label: Tomasz Żdanuk
   value: author-2
   slug: tomasz-zdanuk
-image: /assets/images/vue-js-cli.jpg
+image: /assets/images/vue-js-cli.webp
 text-preview: >-
   Vue.js gets better and better with each update but this time, the inclusion of
   zero config setup for Vue apps in Vue CLI 3 sets a new standard in the
@@ -66,7 +66,7 @@ Plugins which you can choose:
 * Unit Testing
 * E2E Testing
 
-{% image /assets/images/vue-cli-3-built-in-features.jpg vue-cli-3-built-in-features vue-cli-3-built-in-features %}
+{% image /assets/images/vue-cli-3-built-in-features.webp vue-cli-3-built-in-features vue-cli-3-built-in-features %}
 
 ### No need to eject
 
@@ -96,7 +96,7 @@ Globally installed Vue CLI 3 allows you to serve .js or .vue files, just using '
 
 Quite a cool feature in the new CLI is also Graphical User Interface. If you are not a huge fan of typing in the console and you prefer more "windows" style configuration that's probably a great feature for you.
 
-{% image /assets/images/vue-cli-3-gui.jpg vue-cli-3-gui vue-cli-3-gui %}
+{% image /assets/images/vue-cli-3-gui.webp vue-cli-3-gui vue-cli-3-gui %}
 
 ### Environment Variables and Modes
 
@@ -163,7 +163,7 @@ I really like the plugin structure and all the advantages coming from that archi
 
 Out of the box, PWA support is an amazing feature and an opportunity to create this type of apps more often. Thanks to CLI 3, you can focus only on the most important things, and let the CLI do the rest of tiring configuration work for you.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}
 
 ### Sources
 

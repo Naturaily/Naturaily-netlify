@@ -9,11 +9,11 @@ twitter-card: summary_large_image
 date: '2018-11-23 11:20:14 +0200'
 category: Recruitment
 authors:
-  avatar: /assets/images/wojciech.jpg
+  avatar: /assets/images/wojciech.webp
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
-image: /assets/images/5-reasons-to-work-at-naturaily.jpg
+image: /assets/images/5-reasons-to-work-at-naturaily.webp
 text-preview: >-
   Are looking for a new job in the software development sector? Here are 5
   reasons why you will love working at Naturaily.
@@ -36,7 +36,7 @@ Each week we have Pizza Friday! That’s right! We love spending quality time to
 
 And the fun doesn’t end there. Each time we finish a project or a product we throw a celebration party. For such occasions we usually go out and have fun at museums or shooting ranges, it really depends on the theme.
 
-{% image /assets/images/why-work-at-naturaily-3.jpg null null %}
+{% image /assets/images/why-work-at-naturaily-3.webp null null %}
 
 ## Like to sleep-in? Work from home
 
@@ -50,7 +50,7 @@ On your first day at Naturaily, you will be equipped with a MacBook so you won�
 
 What would great hardware be without great software? We use all sorts of tools and applications to make our lives easier and more productive. From Slack and Appear.in, to always keep in touch with other team members, Adobe Cloud, InVision and Sketch for those beautiful UI designs, to PluralSight so that every team member can always learn and improve their skills.
 
-{% image /assets/images/why-work-at-naturaily.jpg null null %}
+{% image /assets/images/why-work-at-naturaily.webp null null %}
 
 ## Like informal atmosphere? Join us
 
@@ -60,4 +60,4 @@ After time-consuming and challenging tasks you can go relax in our chill room. I
 
 There is no hierarchy in our teams. We highly value equality. Everyone is allowed to speak their minds and is treated equally, no matter their position or experience.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

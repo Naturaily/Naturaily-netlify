@@ -7,11 +7,11 @@ slug: startup-failures-successes-2017
 date: '2017-12-30 10:38:01 +0000'
 category: Startups
 authors:
-  avatar: /assets/images/wojciech.jpg
+  avatar: /assets/images/wojciech.webp
   label: Wojciech Miśta
   value: author-1
   slug: wojciech-mista
-image: /assets/images/rise-and-fall.jpeg
+image: /assets/images/rise-and-fall.webp
 text-preview: >-
   We’re bringing you the biggest fails of 2017 as well as some startups that you
   should definitely keep an eye on.
@@ -81,4 +81,4 @@ Atrium learned that it is quite uncommon for companies to introduce innovation i
 
 What do you think about 2017 as a year for startups? Did we miss anything on our list? Tell us in the comments down below!
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

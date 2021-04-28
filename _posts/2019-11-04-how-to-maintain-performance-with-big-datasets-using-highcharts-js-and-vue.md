@@ -9,12 +9,12 @@ layout: post
 date: '2019-11-13 10:56:21 +0200'
 category: JavaScript development
 authors:
-  avatar: /assets/images/andrzej_profile.png
+  avatar: /assets/images/andrzej_profile.webp
   label: Andrzej Gatkowski
   value: author-29
   slug: andrzej-gatkowski
 image: >-
-  /assets/images/how-to-maintain-performance-with-big-datasets-using-highcharts.js-and-vue.jpg
+  /assets/images/how-to-maintain-performance-with-big-datasets-using-highcharts.js-and-vue.webp
 text-preview: >-
   Sometimes you just need to show big datasets in your project. However, the
   library that you’ve used so far, as soon as you start to add data, becomes
@@ -354,4 +354,4 @@ You can find a working example [here](https://gitlab.naturaily.eu/andrzej.gatkow
 
 <br>
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

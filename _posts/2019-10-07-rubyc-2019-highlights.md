@@ -8,11 +8,11 @@ layout: post
 date: '2019-10-07 08:55:38 +0200'
 category: Events
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
-image: /assets/images/rubyc-2019-highlights.jpg
+image: /assets/images/rubyc-2019-highlights.webp
 text-preview: >-
   RubyC is a European conference devoted to Ruby, Rails and other related
   technologies. Hundreds of Ruby enthusiasts and developers gather to exchange
@@ -30,7 +30,7 @@ Conference details:
 
 Our representatives: **Dominik** & **Stefan**
 
-{% image /assets/images/rubyc_1.png conference conference %}
+{% image /assets/images/rubyc_1.webp conference conference %}
 
 ## What impression did the conference make on them? Here's what they told us on their return.
 
@@ -170,12 +170,12 @@ You can watch Benoit's presentation here:
 
 Have you also been to RubyC in Kiev? If so, please let us know which presentations you found the most valuable and why. You can also watch all of them on [Svitla Systems’ Youtube Channel](https://www.youtube.com/channel/UC1nu2LV4_08GoZThHEindWA){:rel="nofollow"}{:target="_blank"}. Enjoy!
 
-{% image /assets/images/rubyc_3.png RubyC-Kiev RubyC-Kiev %}
+{% image /assets/images/rubyc_3.webp RubyC-Kiev RubyC-Kiev %}
 
-{% image /assets/images/rubyc_2.png RubyC-Kiev RubyC-Kiev %}
+{% image /assets/images/rubyc_2.webp RubyC-Kiev RubyC-Kiev %}
 
-{% image /assets/images/rubyc_4.png RubyC-Kiev RubyC-Kiev %}
+{% image /assets/images/rubyc_4.webp RubyC-Kiev RubyC-Kiev %}
 
 <br>
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

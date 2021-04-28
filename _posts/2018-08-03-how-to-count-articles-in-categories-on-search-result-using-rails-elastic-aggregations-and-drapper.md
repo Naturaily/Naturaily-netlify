@@ -9,11 +9,11 @@ layout: post
 date: '2018-08-27 11:55:08 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/arek.jpg
+  avatar: /assets/images/arek.webp
   label: Arek Poczobut
   value: author-18
   slug: arek-poczobut
-image: /assets/images/rails-elastic-aggregation-drapper.jpg
+image: /assets/images/rails-elastic-aggregation-drapper.webp
 text-preview: >
   Have you ever wanted to calculate how many articles will be left in a certain
   category after search? In this blogpost, I will show you how to use elastic
@@ -254,7 +254,7 @@ Now we can take care of searching and aggregates.
 
 ### Oh look! We're halfway through the post! Here's a picture of a cute kitten:
 
-{% image /assets/images/kitten.jpg cate cate %}
+{% image /assets/images/kitten.webp cate cate %}
 
 Add a simple class for the search form:
 
@@ -496,4 +496,4 @@ That's all, you can check working example downloading repo:
   docker-compose run web rake db:create db:migrate db:seed
 ```
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}
