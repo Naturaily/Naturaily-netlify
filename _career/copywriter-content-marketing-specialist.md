@@ -6,7 +6,7 @@ description: >-
   We are looking for Copywriter & Content Marketing Specialist to help us create
   valuable content for our website and social media channels.
 layout: career-offer
-image: /assets/images/Copywriter & Content Marketing Specialist_Job_Offer.png
+image: /assets/images/Copywriter & Content Marketing Specialist_Job_Offer.webp
 location:
   - Wrocław
   - Remote

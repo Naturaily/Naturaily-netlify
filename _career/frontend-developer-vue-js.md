@@ -8,7 +8,7 @@ description: >-
   aware of front-end performance optimization, eager to mentor other developers
   >>
 layout: career-offer
-image: /assets/images/Frontend_Developer_Vuejs_Job_Offer.png
+image: /assets/images/Frontend_Developer_Vuejs_Job_Offer.webp
 location:
   - Wrocław
   - Remote
@@ -27,7 +27,7 @@ about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
   We are waiting for you!
-about-image: /assets/images/careers_main_photo.png
+about-image: /assets/images/careers_main_photo.webp
 type: Development
 salary-preview:
   - salary:

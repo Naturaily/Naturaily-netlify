@@ -7,7 +7,7 @@ description: >-
   development. We have created dozens of great digital products and now we are
   looking for Ruby on Rails Developer to help us build some more.
 layout: career-offer
-image: /assets/images/Ruby-on-Rails_Developer_Job_Offer.png
+image: /assets/images/Ruby-on-Rails_Developer_Job_Offer.webp
 location:
   - Wrocław
 who-we-are: >

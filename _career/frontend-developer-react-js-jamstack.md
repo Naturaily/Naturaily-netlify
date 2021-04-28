@@ -7,7 +7,7 @@ description: >-
   stores using modern technology that gives a SEO advantage and great user
   experience.
 layout: career-offer
-image: /assets/images/Frontend Developer.png
+image: /assets/images/Frontend Developer.webp
 location:
   - Wrocław
   - Remote

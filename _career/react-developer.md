@@ -7,7 +7,7 @@ description: >-
   are comfortable with the pace of changes we are going through and excited
   about the new challenges and opportunities ahead of us.
 layout: career-offer
-image: /assets/images/React_Developer_Job_Offer.png
+image: /assets/images/React_Developer_Job_Offer.webp
 location:
   - Wrocław/ Remote
 who-we-are: >-

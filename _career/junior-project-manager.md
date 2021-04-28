@@ -6,7 +6,7 @@ description: >-
   Join our team! Work closely with the experienced Project Manager and learn how
   to manage IT projects successfully. We are waiting for you.
 layout: career-offer
-image: /assets/images/Junior-Project-Manager.png
+image: /assets/images/Junior-Project-Manager.webp
 location:
   - Wrocław
   - Remote

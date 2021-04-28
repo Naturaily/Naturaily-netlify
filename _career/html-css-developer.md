@@ -8,7 +8,7 @@ description: >-
   knowledgeable about HTML/CSS validation, experienced with CSS preprocessors -
   LESS/SASS >>
 layout: career-offer
-image: /assets/images/HTML-CSS_Developer_Job_Offer.png
+image: /assets/images/HTML-CSS_Developer_Job_Offer.webp
 location:
   - Wrocław
 who-we-are: >-

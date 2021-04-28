@@ -7,7 +7,7 @@ description: >-
   months), familiar with ES6/TypeScript, experienced in using SQL databases,
   experienced in using git >>
 layout: career-offer
-image: /assets/images/Junior_Nodejs_Developer.png
+image: /assets/images/Junior_Nodejs_Developer.webp
 location:
   - Wrocław
   - Remote

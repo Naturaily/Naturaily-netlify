@@ -6,7 +6,7 @@ description: >-
   We're hiring! Are you a Flutter Developer? Join our team and help us build
   great digital products for our clients.
 layout: career-offer
-image: /assets/images/FlutterDeveloper.png
+image: /assets/images/FlutterDeveloper.webp
 location:
   - Wrocław
   - Remote

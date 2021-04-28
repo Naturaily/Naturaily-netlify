@@ -8,7 +8,7 @@ description: >-
   skills, which resulted in a truly beautiful picture. Only one piece is
   missing. We believe it is you, Naturaily.
 layout: career-offer
-image: /assets/images/Nodejs_Developer_Job_Offer.png
+image: /assets/images/Nodejs_Developer_Job_Offer.webp
 location:
   - Wrocław
   - Remote

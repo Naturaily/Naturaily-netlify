@@ -6,7 +6,7 @@ description: >-
   We're hiring! Are you a Mid React Native Developer? Join our team and help us
   build great digital products for our clients.
 layout: career-offer
-image: /assets/images/MidReactNativeDeveloper.png
+image: /assets/images/MidReactNativeDeveloper.webp
 location:
   - Wrocław
   - Remote

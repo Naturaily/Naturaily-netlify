@@ -8,7 +8,7 @@ description: >-
   clients, initiate contact and start cooperation discussions… Check the details
   >>
 layout: career-offer
-image: /assets/images/Sales-Executive_Job_Offer.png
+image: /assets/images/Sales-Executive_Job_Offer.webp
 location:
   - Wrocław
   - Remote
