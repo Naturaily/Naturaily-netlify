@@ -144,7 +144,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - _compress_images_cache.yml
 
 include:
   - .htaccess
