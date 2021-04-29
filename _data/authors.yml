@@ -5,7 +5,7 @@ authors:
     slug: wojciech-mista
   - avatar: /assets/images/tomasz.webp
     id: author-2
-    name: Tomasz zdanuk
+    name: Tomasz Zdanuk
     slug: tomasz-zdanuk
   - avatar: /assets/images/agata.webp
     id: author-3
@@ -57,7 +57,7 @@ authors:
     slug: sebastian-brych
   - avatar: /assets/images/swierszcz.webp
     id: author-15
-    name: Przemyslaw swiercz
+    name: Przemyslaw Swiercz
     slug: przemyslaw-swiercz
   - avatar: /assets/images/maciek.webp
     id: author-16

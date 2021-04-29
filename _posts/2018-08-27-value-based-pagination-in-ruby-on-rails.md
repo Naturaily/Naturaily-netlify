@@ -9,7 +9,7 @@ date: '2018-09-03 09:29:02 +0200'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/tomasz.webp
-  label: Tomasz zdanuk
+  label: Tomasz Zdanuk
   value: author-2
   slug: tomasz-zdanuk
 image: /assets/images/value-based-pagination.webp

@@ -10,7 +10,7 @@ date: '2018-08-06 10:42:09 +0000'
 category: JavaScript development
 authors:
   avatar: /assets/images/tomasz.webp
-  label: Tomasz zdanuk
+  label: Tomasz Zdanuk
   value: author-2
   slug: tomasz-zdanuk
 image: /assets/images/pwa-vue-cli-3.webp

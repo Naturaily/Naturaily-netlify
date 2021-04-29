@@ -26,7 +26,7 @@ While scouring the internet for an interesting topic for my newest company blog 
 
 To all you folks wondering at home - **is it possible to suddenly become a developer and completely change your (professional) life?** Well, while not quite easy, it’s not impossible either. Let’s take our friendly developer as an example and take a deep dive into his life.
 
-lukasz, is a 27 year old man, with a passion for art and tech. Interesting combination you say? I thought so too - and so I kept dwelling. In his own words _“I spent my life torn between the two worlds and kept going back and forth. When I was in primary school I got my first computer and fell in love with fixing it up. Even as a kid I was fascinated with how it all worked. My hobby turned into a plan for the future when I went to an IT technical school.”_
+Lukasz, is a 27 year old man, with a passion for art and tech. Interesting combination you say? I thought so too - and so I kept dwelling. In his own words _“I spent my life torn between the two worlds and kept going back and forth. When I was in primary school I got my first computer and fell in love with fixing it up. Even as a kid I was fascinated with how it all worked. My hobby turned into a plan for the future when I went to an IT technical school.”_
 
 {% image /assets/images/2.webp model-2 model-2 %}
 
