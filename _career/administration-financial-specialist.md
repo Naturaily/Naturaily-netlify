@@ -6,9 +6,9 @@ description: >-
   We are looking for orginized and independent Administration & Financial
   Specialist who will help our HR and accountant section.
 layout: career-offer
-image: /assets/images/Administration&Financial-Specialist.webp
+image: /assets/images/Administration&Financial-Specialist.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >-
   Software house is a multi-element puzzle. For six years, we have been
@@ -57,7 +57,7 @@ what-you-expect:
       contents: 'an additional budget for trainings, workshops, conferences, etc. '
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław, surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw, surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a co-financed Multisport Card

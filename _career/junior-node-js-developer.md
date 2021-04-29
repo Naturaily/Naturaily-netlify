@@ -7,9 +7,9 @@ description: >-
   months), familiar with ES6/TypeScript, experienced in using SQL databases,
   experienced in using git >>
 layout: career-offer
-image: /assets/images/Junior_Nodejs_Developer.webp
+image: /assets/images/Junior_Nodejs_Developer.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >-
   Software house is a multi-element puzzle. For six years, we have been
@@ -65,7 +65,7 @@ what-you-expect:
       contents: the flexibility of working hours
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a co-financed Multisport Card
@@ -122,4 +122,3 @@ salaries:
       contract: (B2B)
       sum: 4600 - 7600 PLN net + VAT
 ---
-

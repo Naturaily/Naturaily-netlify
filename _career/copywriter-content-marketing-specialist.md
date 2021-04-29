@@ -6,9 +6,9 @@ description: >-
   We are looking for Copywriter & Content Marketing Specialist to help us create
   valuable content for our website and social media channels.
 layout: career-offer
-image: /assets/images/Copywriter & Content Marketing Specialist_Job_Offer.webp
+image: /assets/images/Copywriter&ContentMarketingSpecialist_Job_Offer.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >-
   Software house is a multi-element puzzle. For six years, we have been
@@ -90,7 +90,7 @@ what-you-expect:
       contents: the flexibility of working hours with ability to work full remotely
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a MacBook
@@ -152,4 +152,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 5 000 - 7 000 PLN net
 ---
-

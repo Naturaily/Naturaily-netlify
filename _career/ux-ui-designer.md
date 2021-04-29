@@ -7,9 +7,9 @@ description: >-
   development, marketing and business teams assisting them in the commercial and
   internal projects.
 layout: career-offer
-image: /assets/images/ux-ui-designer.webp
+image: /assets/images/ux-ui-designer.png
 location:
-  - Wrocław/Remote
+  - Wroclaw/Remote
 who-we-are: >-
   Software house is a multi-element puzzle. For six years, we have been
   successfully constructing the team of people with matching characters and
@@ -52,13 +52,13 @@ what-we-expect:
   - expectation:
       contents: >-
         high-quality custom storefronts created for e-commerce (excluding work
-        on templates) and fast, modern Jamstack based websites 
+        on templates) and fast, modern Jamstack based websites
   - expectation:
       contents: participation in product design workshops with clients
   - expectation:
       contents: >-
         support for internal marketing & image needs (website, social media,
-        rich content for blog) 
+        rich content for blog)
   - expectation:
       contents: active participate in estimations and valuations
   - expectation:
@@ -98,7 +98,7 @@ what-you-expect:
       contents: the flexibility of working hours
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław, surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw, surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a co-financed Multisport Card
@@ -112,7 +112,7 @@ we-need-you-to:
   - expectation:
       contents: >-
         demonstrate the ability to create high-quality mockups for mobile and
-        web applications 
+        web applications
   - expectation:
       contents: 'experienced in conducting a research and testing design solutions '
   - expectation:
@@ -174,4 +174,3 @@ salaries:
       contract: B2B
       sum: 7500 - 12 500 net + VAT
 ---
-

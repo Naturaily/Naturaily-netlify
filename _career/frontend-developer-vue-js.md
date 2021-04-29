@@ -8,9 +8,9 @@ description: >-
   aware of front-end performance optimization, eager to mentor other developers
   >>
 layout: career-offer
-image: /assets/images/Frontend_Developer_Vuejs_Job_Offer.webp
+image: /assets/images/Frontend_Developer_Vuejs_Job_Offer.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >-
   **Software house is a multi-element puzzle. For six years, we have been
@@ -75,7 +75,7 @@ what-you-expect:
       contents: the flexibility of working hours
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a co-financed Multisport Card
@@ -139,4 +139,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 7500 - 13 000 PLN net
 ---
-
