@@ -18,7 +18,11 @@
       </div>
     {% endunless %}
 
-    <script src="/assets/js/jquery-3.5.0.min.js"></script>
+    {% if page.url == "/vue-resources" %}
+      <script src="/assets/js/jquery-3.6.0.slim.min.js"></script>
+    {% else %}
+      <script src="/assets/js/jquery-3.5.0.min.js"></script>
+    {% endif %}
     <script src="/assets/js/js-cookie.js"></script>
 
     {% if page.url == "/careers" %}
