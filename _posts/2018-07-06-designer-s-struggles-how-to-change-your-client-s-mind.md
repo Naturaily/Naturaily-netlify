@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2018-07-16 02:10:29 +0000'
 category: UX/UI
 authors:
-  avatar: /assets/images/agata.jpg
-  label: Agata Zięba
+  avatar: /assets/images/agata.webp
+  label: Agata Zieba
   value: author-3
   slug: agata-zieba
-image: /assets/images/designer.jpg
+image: /assets/images/designer.webp
 text-preview: >-
   In my experience, when it comes to project design, clients tend to make
   unreasonable decisions based on their inner beliefs, convictions, and
@@ -80,7 +80,7 @@ Conducting detailed research on users that will give your client clear, quantita
 
    Note every small detail about the basis of the project that was made from the very beginning of the development process. It will help you defend the solutions by simply showing where they came from, what were their origins, what may influence them and what will be their result.
 
-{% image /assets/images/designer-desk.jpg designer's-desk designer's-desk %}
+{% image /assets/images/designer-desk.webp designer's-desk designer's-desk %}
 
 ## Conclusion
 
@@ -101,4 +101,4 @@ Special thanks to:
 * [Luke Chesser](https://unsplash.com/@lukechesser){:rel="nofollow"}{:target="_blank"} on Unsplash
 * [rawpixel](https://unsplash.com/@rawpixel/collections){:rel="nofollow"}{:target="_blank"} on Unsplash
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

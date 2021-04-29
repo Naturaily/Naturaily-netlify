@@ -9,11 +9,11 @@ layout: post
 date: '2018-09-17 12:00:15 +0200'
 category: Frontend development
 authors:
-  avatar: /assets/images/bartek.jpg
+  avatar: /assets/images/bartek.webp
   label: Bartek Zienkiewicz
   value: author-19
   slug: bartek-zienkiewicz
-image: /assets/images/frontend-development-easier-faster.jpg
+image: /assets/images/frontend-development-easier-faster.webp
 text-preview: >-
   In this post, I'll share some tips, tricks, and tools I use every day in
   frontend development. So buckle-up, and let’s jump into the vast world of the
@@ -89,4 +89,4 @@ I highly recommend using bundlers such as Webpack or Parcel. They are great for 
 
 That’s all folks. If you have any questions or suggestions make sure to leave a comment down below! And remember: work smart, not hard. :)
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

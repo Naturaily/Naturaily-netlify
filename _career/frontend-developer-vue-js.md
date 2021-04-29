@@ -10,7 +10,7 @@ description: >-
 layout: career-offer
 image: /assets/images/Frontend_Developer_Vuejs_Job_Offer.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >-
   **Software house is a multi-element puzzle. For six years, we have been
@@ -27,7 +27,7 @@ about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
   We are waiting for you!
-about-image: /assets/images/careers_main_photo.png
+about-image: /assets/images/careers_main_photo.webp
 type: Development
 salary-preview:
   - salary:
@@ -75,7 +75,7 @@ what-you-expect:
       contents: the flexibility of working hours
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a co-financed Multisport Card
@@ -139,4 +139,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 7500 - 13 000 PLN net
 ---
-

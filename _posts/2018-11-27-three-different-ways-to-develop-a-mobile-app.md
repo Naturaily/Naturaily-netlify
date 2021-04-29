@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2018-11-28 11:15:00 +0200'
 category: Native mobile development
 authors:
-  avatar: /assets/images/epifany_bojanowska-2.jpg
+  avatar: /assets/images/epifany_bojanowska-2.webp
   label: Epifany Bojanowska
   value: author-22
   slug: epifany-bojanowska
-image: /assets/images/ways-to-develop-mobile-apps.jpg
+image: /assets/images/ways-to-develop-mobile-apps.webp
 text-preview: >-
   So you have a mobile app you would like to build. The first question you need
   to ask yourself is what kind of app is it going to be? Native? Hybrid? Web?
@@ -70,4 +70,4 @@ Once you develop and release your app, it will most likely grow and change, so t
 
 The golden rule for an app developer is: no matter what type of application, it has to make life easier. And all types of apps, be it native, hybrid or web, should primarily cater to the needs of the end user. **Each type of app has its pros and cons, and therefore sometimes the business requirements may dictate the choice of one or the other.**
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

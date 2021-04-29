@@ -8,11 +8,11 @@ layout: post
 date: '2020-08-16 04:04:57 +0200'
 category: Jamstack development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: '/assets/images/blog_cover_Best-CMS-for-JAMstack.png'
+image: '/assets/images/blog_cover_Best-CMS-for-JAMstack.webp'
 text-preview: >
   When it comes to building websites, fast, speedy and overall performance is
   the way to go. While this might sound limiting, this couldn’t be further from
@@ -148,4 +148,4 @@ There’s no one right answer - if there was, this post would have only been a c
 
 We hope that helps but, of course, we can always answer any questions you might have!
 
-[{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.webp Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

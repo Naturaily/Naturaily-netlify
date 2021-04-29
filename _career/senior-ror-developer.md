@@ -9,7 +9,7 @@ description: >-
 layout: career-offer
 image: /assets/images/Senior-RubyonRails-Developer_Job_Offer.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >
   Software house is a multi-element puzzle. For six years, we have been
@@ -81,7 +81,7 @@ what-you-expect:
         the flexibility of working hours
   - expectation:
       contents: >
-        a nice office in the heart of Wrocław surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: |
@@ -158,4 +158,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 11 500 - 18 000 PLN net
 ---
-

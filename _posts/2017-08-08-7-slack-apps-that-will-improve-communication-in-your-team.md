@@ -8,11 +8,11 @@ slug: slack-apps-improving-team-communication
 date: '2017-08-08 10:38:01 +0000'
 category: Agile
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/slack.jpg
+image: /assets/images/slack.webp
 text-preview: >-
   Communication between our team members is the key to success. To provide
   better quality products to our customers we use professional platforms and
@@ -63,7 +63,7 @@ https://calamari.io
 
 Using Slack’s huge app store it is possible to solve some of the trouble with using different services for every specific task by simply having them all in one place – services like live chat. You no longer have to use other platforms to chat with your customers or visitors – Smallchat lets you do to that and much more from Slack’s platform.
 
-{% image /assets/images/smallchat.png smallchat smallchat %}
+{% image /assets/images/smallchat.webp smallchat smallchat %}
 
 Each conversation creates a new thread, allowing our team to manage them all from one place. Smallchat helps us with providing a better experience by creating a direct line of communication between our team and our customers.
 
@@ -73,7 +73,7 @@ https://small.chat
 
 To put in simple words – Droplr is a file-sharing tool created especially with Mac, Windows and Slack users in mind. It is perfect for effortless, quick and easy “drag & drop” file sharing with your friends or co-workers. Droplr allows you to take screenshots and then quickly mark them with annotations or notes.
 
-{% image /assets/images/droplr.jpg droplr droplr %}
+{% image /assets/images/droplr.webp droplr droplr %}
 
 Everything you share gets a short link that can be previewed in the browser, Microsoft Office, Twitter, Facebook, you name it. You can even share mockups from Photoshop or Illustrator using third-party Adobe integration!
 
@@ -121,4 +121,4 @@ https://marker.io/
 
 
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

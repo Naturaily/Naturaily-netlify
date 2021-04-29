@@ -8,11 +8,11 @@ twitter-card: summary_large_image
 date: '2019-01-11 10:38:01 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/jacek.png
-  label: Jacek Hiszpański
+  avatar: /assets/images/jacek.webp
+  label: Jacek Hiszpanski
   value: author-12
   slug: jacek-hiszpanski
-image: /assets/images/migrations.jpg
+image: /assets/images/migrations.webp
 text-preview: >-
   Recently we’ve overtaken a big project for maintenance and further
   development. It’s a Rails application with many models, controllers and of
@@ -114,4 +114,4 @@ We just removed all migrations by adding new one with the whole structure. We ca
 
 Thanks all for now. Thank you and bye :)
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

@@ -11,12 +11,12 @@ twitter-card: >-
 date: '2019-05-20 09:36:13 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/arek.jpg
+  avatar: /assets/images/arek.webp
   label: Arek Poczobut
   value: author-18
   slug: arek-poczobut
 image: >-
-  /assets/images/how-to-skip-sentry-slack-notifications-until-a-specific-count-of-retries-in-sidekiq.jpg
+  /assets/images/how-to-skip-sentry-slack-notifications-until-a-specific-count-of-retries-in-sidekiq.webp
 text-preview: >-
   We’ve been working on integrations of many different warehouse systems with
   the Shopify platform. All data exchange between them utilizes Sidekiq workers’
@@ -110,4 +110,4 @@ end
 
 Sentry will be notified after ninth retry of some errors. We wanted to avoid overflooding Sentry/Slack with notifications. Some jobs after some retries are successful and there’s no need to get notifications from the very beginning.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

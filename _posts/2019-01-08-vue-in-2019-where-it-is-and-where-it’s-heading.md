@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2019-01-08 11:19:26 +0200'
 category: Frontend development
 authors:
-  avatar: /assets/images/wojciech.jpg
-  label: Wojciech Miśta
+  avatar: /assets/images/wojciech.webp
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
-image: /assets/images/vue-in-2019.png
+image: /assets/images/vue-in-2019.webp
 text-preview: >-
   Vue JS is coming really strong into 2019, and with every month is getting
   closer to stand against giants such as Angular or even React in terms of
@@ -30,7 +30,7 @@ According to BuiltWith.com, over **97,000 live websites** are currently using Vu
 
 Next up, NPM downloads.
 
-{% image /assets/images/npm-stat-2019-vue-react.jpg npm-stats npm-stats %}
+{% image /assets/images/npm-stat-2019-vue-react.webp npm-stats npm-stats %}
 
 December of 2018 has been the best month for Vue by far. That month there were over **2 600 000 downloads of the Vue package**! React had a great year too! In October there were over 14 millions downloads of React.
 
@@ -46,7 +46,7 @@ Quite a lot! The Vue codebase is now written using TypeScript. Wait, what? Yeah,
 
 Multiple sources show that TypeScript is growing with tremendous speed. In 2017 and 2018 it’s surpassed Shell, Ruby and C in the number of projects created on [GitHub](https://octoverse.github.com/projects){:rel="nofollow"}{:target="_blank"}.
 
-{% image /assets/images/typescript-2019-github.jpg github-octoverse github-octoverse %}
+{% image /assets/images/typescript-2019-github.webp github-octoverse github-octoverse %}
 
 StackOverflow survey shows that TypeScript is the 12th most popular programming language among developers. Due to its static type checking nature (think of Java) it’s a bit easier to learn and debug that JavaScript since developers are fully in control of each and every variable, array etc. within their codes. TypeScript doesn’t have type coercion, which can be both good and bad, but ultimately, it leads to less bugs and improves readability which is a big thing for large teams as your code has to be perfectly clear for others.
 
@@ -80,4 +80,4 @@ To read the whole article with all the goods that are coming with Vue 3.0 head o
 
 That’s a lot of new features! Hopefully they will be good enough to make more significant changes in the frontend JavaScript frameworks market. Vue is still going strong and showing no signs of stopping. Will Vue finally catch up with React? Only time will tell.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

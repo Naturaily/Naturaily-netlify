@@ -7,11 +7,11 @@ slug: foundation-framework-naturaily
 date: '2013-08-27 10:38:01 +0000'
 category: Frontend development
 authors:
-  avatar: /assets/images/maciek.png
+  avatar: /assets/images/maciek.webp
   label: Maciej Kucharski
   value: author-16
   slug: maciej-kucharski
-image: /assets/images/foundation.jpg
+image: /assets/images/foundation.webp
 text-preview: >-
   Gentle normalize.css ----------------------- Your usual reset.css leaves you
   with absolutely nothing - each and every style has to be written by yourself,
@@ -91,4 +91,4 @@ That’s all Folks!
 
 
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2018-10-01 10:00:04 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/mantle.png
+  avatar: /assets/images/mantle.webp
   label: Marcin Mantke
   value: author-11
   slug: marcin-mantke
-image: /assets/images/kafka-mosquitto-microservices.jpg
+image: /assets/images/kafka-mosquitto-microservices.webp
 text-preview: >-
   Recently microservices architecture is becoming more and more popular. In this
   post, we'll compare the two most popular messaging brokers - Kafka and MQTT
@@ -64,4 +64,4 @@ Check out both tools here:
 * [Eclipse Mosquitto](https://mosquitto.org/){:rel="nofollow"}{:target="_blank"}
 * [Apache Kafka](https://kafka.apache.org/){:rel="nofollow"}{:target="_blank"}
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

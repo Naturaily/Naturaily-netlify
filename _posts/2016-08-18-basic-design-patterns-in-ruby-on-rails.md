@@ -9,11 +9,11 @@ twitter-card: summary_large_image
 date: '2016-08-18 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/mantle.png
+  avatar: /assets/images/mantle.webp
   label: Marcin Mantke
   value: author-11
   slug: marcin-mantke
-image: /assets/images/patterns.jpg
+image: /assets/images/patterns.webp
 text-preview: >-
   Not only as programmers, but in day-to-day life, we encounter some problems.
   Every person has similiar difficulties, and our society has found universal
@@ -124,4 +124,4 @@ And then, we can use this code in our views:
 
 Of course not, you silly! The world of design patterns is a lot lot bigger than that. Not every of them would be applicable in RoR application, though. Or that particular problem you have. But still, it's very good to know some design patterns, even their main ideas. Because maybe one day, you'll have some problem and it can be solved with design pattern you know or at least heard of. Or maybe you will develop your own design pattern, that will be described in books? ;)
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

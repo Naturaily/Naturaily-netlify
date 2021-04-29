@@ -91,7 +91,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "career-offer"}
       - {label: "Meta Image", name: "image", widget: "image", required: false}
       - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
-      - label: "Location(Add location with spaces and separated by commas, ex: 'Wrocław, Remote')"
+      - label: "Location(Add location with spaces and separated by commas, ex: 'Wroclaw, Remote')"
         name: "location"
         widget: "list"
         allow_add: true

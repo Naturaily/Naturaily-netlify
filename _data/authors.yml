@@ -1,133 +1,133 @@
 authors:
-  - avatar: /assets/images/wojciech.jpg
+  - avatar: /assets/images/wojciech.webp
     id: author-1
-    name: Wojciech Miśta
+    name: Wojciech Mista
     slug: wojciech-mista
-  - avatar: /assets/images/tomasz.jpg
+  - avatar: /assets/images/tomasz.webp
     id: author-2
-    name: Tomasz Żdanuk
+    name: Tomasz Zdanuk
     slug: tomasz-zdanuk
-  - avatar: /assets/images/agata.jpg
+  - avatar: /assets/images/agata.webp
     id: author-3
-    name: Agata Zięba
+    name: Agata Zieba
     slug: agata-zieba
-  - avatar: /assets/images/blazej.png
+  - avatar: /assets/images/blazej.webp
     id: author-4
-    name: Błażej Pichur
+    name: Blazej Pichur
     slug: blazej-pichur
-  - avatar: /assets/images/seba.jpg
+  - avatar: /assets/images/seba.webp
     id: author-5
     name: Sebastian Kubiak
     slug: sebastian-kubiak
-  - avatar: /assets/images/marcin.jpg
+  - avatar: /assets/images/marcin.webp
     id: author-6
     name: Marcin Sulikowski
     slug: marcin-sulikowski
-  - avatar: /assets/images/claus.jpg
+  - avatar: /assets/images/claus.webp
     id: author-7
-    name: Mikołaj Grygiel
+    name: Mikolaj Grygiel
     slug: mikolaj-grygiel
-  - avatar: /assets/images/janpol.png
+  - avatar: /assets/images/janpol.webp
     id: author-8
     name: Jan Wieczorkowski
     slug: jan-wieczorkowski
-  - avatar: /assets/images/ciabos.jpg
+  - avatar: /assets/images/ciabos.webp
     id: author-9
     name: Patryk Szeliga
     slug: patryk-szeliga
-  - avatar: /assets/images/kamil.jpg
+  - avatar: /assets/images/kamil.webp
     id: author-10
     name: Kamil Buczel
     slug: kamil-buczel
-  - avatar: /assets/images/mantle.png
+  - avatar: /assets/images/mantle.webp
     id: author-11
     name: Marcin Mantke
     slug: marcin-mantke
-  - avatar: /assets/images/jacek.png
+  - avatar: /assets/images/jacek.webp
     id: author-12
-    name: Jacek Hiszpański
+    name: Jacek Hiszpanski
     slug: jacek-hiszpanski
-  - avatar: /assets/images/aga.png
+  - avatar: /assets/images/aga.webp
     id: author-13
     name: Agnieszka Bugajska
     slug: agnieszka-bugajska
-  - avatar: /assets/images/no-image.png
+  - avatar: /assets/images/no-image.webp
     id: author-14
     name: Sebastian Brych
     slug: sebastian-brych
-  - avatar: /assets/images/swierszcz.png
+  - avatar: /assets/images/swierszcz.webp
     id: author-15
-    name: Przemysław Świercz
+    name: Przemyslaw Swiercz
     slug: przemyslaw-swiercz
-  - avatar: /assets/images/maciek.png
+  - avatar: /assets/images/maciek.webp
     id: author-16
     name: Maciej Kucharski
     slug: maciej-kucharski
-  - avatar: /assets/images/mateusz.png
+  - avatar: /assets/images/mateusz.webp
     id: author-17
     name: Mateusz Barczak
     slug: mateusz-barczak
-  - avatar: /assets/images/arek.jpg
+  - avatar: /assets/images/arek.webp
     id: author-18
     name: Arek Poczobut
     slug: arek-poczobut
-  - avatar: /assets/images/bartek.jpg
+  - avatar: /assets/images/bartek.webp
     id: author-19
     name: Bartek Zienkiewicz
     slug: bartek-zienkiewicz
-  - avatar: /assets/images/piotrek-musielak.jpg
+  - avatar: /assets/images/piotrek-musielak.webp
     id: author-20
     name: Piotrek Musielak
     slug: piotrek-musielak
-  - avatar: /assets/images/lighto.jpg
+  - avatar: /assets/images/lighto.webp
     id: author-21
-    name: Paweł Cybulski
+    name: Pawel Cybulski
     slug: pawel-cybulski
-  - avatar: /assets/images/epifany_bojanowska-2.jpg
+  - avatar: /assets/images/epifany_bojanowska-2.webp
     id: author-22
     name: Epifany Bojanowska
     slug: epifany-bojanowska
-  - avatar: /assets/images/klaudusia.jpg
+  - avatar: /assets/images/klaudusia.webp
     id: author-23
     name: Klaudia Chudy
     slug: klaudia-chudy
-  - avatar: /assets/images/beata.jpg
+  - avatar: /assets/images/beata.webp
     id: author-24
     name: Beata Twardowska
     slug: beata-twardowska
-  - avatar: /assets/images/kamil_sopata_profile.png
+  - avatar: /assets/images/kamil_sopata_profile.webp
     id: author-25
     name: Kamil Sopata
     slug: kamil-sopata
-  - avatar: /assets/images/leo_baz_profile.png
+  - avatar: /assets/images/leo_baz_profile.webp
     id: author-26
     name: Leo Baz
     slug: leo-baz
-  - avatar: /assets/images/michal_kosyk_profile.png
+  - avatar: /assets/images/michal_kosyk_profile.webp
     id: author-27
-    name: Michał Kosyk
+    name: Michal Kosyk
     slug: michal-kosyk
-  - avatar: /assets/images/mateusz-pliszka.jpg
+  - avatar: /assets/images/mateusz-pliszka.webp
     id: author-28
     name: Mateusz Pliszka
     slug: mateusz-pliszka
-  - avatar: /assets/images/andrzej_profile.png
+  - avatar: /assets/images/andrzej_profile.webp
     id: author-29
     name: Andrzej Gatkowski
     slug: andrzej-gatkowski
-  - avatar: /assets/images/Weronika_profile.png
+  - avatar: /assets/images/Weronika_profile.webp
     id: author-30
-    name: Weronika Nużyńska
+    name: Weronika Nuzynska
     slug: weronika-nuzynska
-  - avatar: /assets/images/Helmut_LingoHub.png
+  - avatar: /assets/images/Helmut_LingoHub.webp
     id: author-31
     name: Helmut Juskewycz
     slug: helmut-juskewycz
-  - avatar: /assets/images/J_150X150.png
+  - avatar: /assets/images/J_150X150.webp
     id: author-32
     name: Katarzyna Ciesielska
     slug: katarzyna-ciesielska
-  - avatar: /assets/images/Marta-Sulikowska-blog.png
+  - avatar: /assets/images/Marta-Sulikowska-blog.webp
     id: author-33
     name: Marta Sulikowska
     slug: marta-sulikowska

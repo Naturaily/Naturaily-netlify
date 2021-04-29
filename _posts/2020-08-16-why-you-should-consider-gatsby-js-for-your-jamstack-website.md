@@ -9,11 +9,11 @@ layout: post
 date: '2020-08-18 10:00:00 +0200'
 category: Jamstack development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: '/assets/images/blog_cover_Why-Gatsby-for-JAMstack-Websites.png'
+image: '/assets/images/blog_cover_Why-Gatsby-for-JAMstack-Websites.webp'
 text-preview: >
   Since Jamstack development focuses on lean, fast loading & performance with
   focus on static elements, the generator you choose becomes a key driver (or
@@ -108,4 +108,4 @@ There you have it. We’re not saying that other generators aren’t up to the t
 
 The next time you’re developing a Jamstack project, why not give Gatsby a try?
 
-[{% image /assets/images/get-an-estimate.png Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.webp Get_an_estimate get-an-estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

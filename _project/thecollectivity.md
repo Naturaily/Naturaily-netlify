@@ -7,11 +7,11 @@ description: >-
   systems for the better.
 slug: thecollectivity
 layout: portfolio-details
-image: /assets/images/collectivity-screen-5.png
+image: /assets/images/collectivity-screen-5.webp
 twitter-card: summary_large_image
-project-screenshot: /assets/images/collectivity.png
-project-logo: /assets/images/collectivity-logo.png
-banner-bg: /assets/images/projects-background-green.jpg
+project-screenshot: /assets/images/collectivity.webp
+project-logo: /assets/images/collectivity-logo.webp
+banner-bg: /assets/images/projects-background-green.webp
 banner-header: Case study on developing a successful web-based app for NGO.
 banner-text: >-
   Collectivity is a platform that allows people from all around the world to
@@ -29,7 +29,7 @@ step-one-text: >-
   there’s no place to share insights and organize cooperation. That’s where
   Naturaily enters the scene to help build online community solution.
 step-two-title: It’s all about communities and projects
-step-one-image: /assets/images/collectivity-screen-1.png
+step-one-image: /assets/images/collectivity-screen-1.webp
 step-two-text: >-
   Naturaily has created a community website that makes communication and
   cooperation much easier. Two key sections of the website are Activities and
@@ -42,7 +42,7 @@ step-two-text: >-
   focused on discussions and resources. Each community can discuss issues and
   store resources on its page. Links to projects and community experts’ profiles
   are stored on the community page as well.
-step-two-image: /assets/images/collectivity-screen-2.png
+step-two-image: /assets/images/collectivity-screen-2.webp
 step-three-title: Ruby on Rails application
 step-three-text: >-
   Collectivity is a regular Ruby on Rails application. It’s been developed with
@@ -52,33 +52,33 @@ step-three-text: >-
   enable smooth development and deployment process. Among them Jenkins with
   plugins for continuous integration and ensuring code quality, Docker for
   deployment.<br><br>Project has been managed using Kanban methodology.
-step-three-image: /assets/images/collectivity-screen-3.png
-src-stack-1: /assets/images/ruby-logo.png
+step-three-image: /assets/images/collectivity-screen-3.webp
+src-stack-1: /assets/images/ruby-logo.webp
 alt-stack-1: ruby
-src-stack-2: /assets/images/backbone-logo.png
+src-stack-2: /assets/images/backbone-logo.webp
 alt-stack-2: backbone
-src-stack-3: /assets/images/high-quality-picture.jpg
+src-stack-3: /assets/images/high-quality-picture.webp
 alt-stack-3: delete-me
 step-four-title: Healthier African people
 step-four-text: >-
   Successful cooperation has resulted in many completed projects changing the
   African health systems for better.
-step-four-image-one: /assets/images/collectivity-screen-4.png
-step-four-image-two: /assets/images/collectivity-screen-5.png
-step-four-image-three: /assets/images/collectivity-screen-6.png
-testimonial-photo: /assets/images/MaximeRouve.png
+step-four-image-one: /assets/images/collectivity-screen-4.webp
+step-four-image-two: /assets/images/collectivity-screen-5.webp
+step-four-image-three: /assets/images/collectivity-screen-6.webp
+testimonial-photo: /assets/images/MaximeRouve.webp
 testimonial-name: Maxime Rouve
 testimonial-brand: Project Manager ITM
-testimonial-logo: /assets/images/itm.png
+testimonial-logo: /assets/images/itm.webp
 testimonial-text: >-
   Naturaily’s exceptional reactivity makes them a valuable development partner.
   Another advantage is their ability to communicate well with non-technical
   people. While they could maybe improve their schedule estimates, they
   consistently hit deadlines and deliver clever solutions.
 slide-left: Zapnito
-slide-left-logo: /assets/images/zapnito.png
+slide-left-logo: /assets/images/zapnito.webp
 slide-left-link: /project/zapnito
 slide-right: Snipsl
-slide-right-logo: /assets/images/snipsl.png
+slide-right-logo: /assets/images/snipsl.webp
 slide-right-link: /project/snipsl
 ---

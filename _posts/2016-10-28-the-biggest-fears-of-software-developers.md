@@ -8,11 +8,11 @@ twitter-card: summary_large_image
 date: '2016-10-28 10:38:01 +0000'
 category: Software development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/fears.png
+image: /assets/images/fears.webp
 text-preview: >-
   Software development is not a walk in the park. It’s rather a 24-hour run
   through a misty jungle full of spiderwebs and creepy creatures. Developers
@@ -74,7 +74,7 @@ Software development is not a walk in the park. It’s rather a 24-hour run thro
 
 ## 13. Remaining unrecognized
 
-  {% image /assets/images/13_unrecognized.jpg Remaining Remaining %}
+  {% image /assets/images/13_unrecognized.webp Remaining Remaining %}
 
 ## 14. Breaking finger!
 
@@ -91,4 +91,4 @@ Software development is not a walk in the park. It’s rather a 24-hour run thro
 
 What's your biggest fear?
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

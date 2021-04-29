@@ -8,12 +8,12 @@ layout: post
 date: '2020-11-13 08:48:00 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
 image: >-
-  /assets/images/blog_cover_How-to-Pick-the-Best-eCommerce-Website-Design-Company_.png
+  /assets/images/blog_cover_How-to-Pick-the-Best-eCommerce-Website-Design-Company_.webp
 text-preview: >-
   Whether you’re completely new to the eCommerce game or only selling your
   products through a chain of brick-and-mortar stores, you will, at some point,
@@ -57,7 +57,7 @@ To save yourself a little work here, you can actually approach the company direc
 
 Reaching out to the company makes sense because some projects may not be listed on the website due to confidentiality agreements – or simply because the agency hasn’t updated the site for a while. The company may provide you with more detailed information about the work they’ve done in a more specific scope.
 
-{% image /assets/images/NaturailyCaseStudies.png Naturaly-Case-Study Naturaly-Case-Study %}
+{% image /assets/images/NaturailyCaseStudies.webp Naturaly-Case-Study Naturaly-Case-Study %}
 
 **The portfolio should say it all. Look for work examples that are most relevant for your project.**
 
@@ -85,7 +85,7 @@ Websites like Clutch are a rich trove of information, allowing you to verify the
 
 <br>
 
-[{% image /assets/images/blog_cover_Naturaily-Clutch-reviews.png Naturaily-Clutch-Review Naturaily-Clutch-Review %}](https://clutch.co/profile/naturaily){:target="_blank"}
+[{% image /assets/images/blog_cover_Naturaily-Clutch-reviews.webp Naturaily-Clutch-Review Naturaily-Clutch-Review %}](https://clutch.co/profile/naturaily){:target="_blank"}
 
 **Clutch reviews are a great source of trustworthy, unbiased customer reviews, helping you make the final decision before choosing the development company to work with.**
 

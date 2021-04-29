@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2018-10-31 10:40:17 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/lighto.jpg
-  label: Paweł Cybulski
+  avatar: /assets/images/lighto.webp
+  label: Pawel Cybulski
   value: author-21
   slug: pawel-cybulski
-image: /assets/images/netlify-jekyll.jpg
+image: /assets/images/netlify-jekyll.webp
 text-preview: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
   result of that love.
@@ -57,24 +57,24 @@ So choosing Netlify seemed like a good idea though there still was the case of j
 
 What’s this Editorial Workflow all about actually? It gives our content creators ability to write content (posts, case studies, testimonials and such), request changes, edit it and then, when it’s ready, publish it. Thanks to the way Netlify CMS implements that, each post, testimonial, etc. can be published without any involvement from a developer, but the cool thing about this is that before going live our changes can be previewed on a separate site which is deployed by Netlify out of the box.
 
-{% image /assets/images/netlify-editorial-workflow.png null null %}
+{% image /assets/images/netlify-editorial-workflow.webp null null %}
 
 ## Admin
 
 To fully utilise Netlify and for Editorial Workflow to actually work we have to first make Netlify CMS work and making that happen can’t be simpler. We just have to add `admin` folder in our project, few files, some javascript snippet and we’re set. This gives us access to admin panel like so: [www.netlify-example.com/admin](http://www.netlify-example.com/admin){:rel="nofollow"}{:target="_blank"}. In there we have a list of collections we can edit, workflow tab and assets uploaded. Thanks to Netlify we can manage who can access our admin page with [Identity](https://www.netlify.com/docs/identity/){:rel="nofollow"}{:target="_blank"}.
 
-{% image /assets/images/netlify-admin.jpg netlify netlify %}
+{% image /assets/images/netlify-admin.webp netlify netlify %}
 
 ## Widgets
 
 In my opinion widgets are the main awesomeness of using Netlify CMS. They give use power to make any page editable through the admin panel, pretty much anything can be edited there. It gives our content creators an ability to set name of  url, title and description, add images, change layouts, and anything else you may think about.
 
-{% image /assets/images/netlify-widget-1.jpg null null %}
+{% image /assets/images/netlify-widget-1.webp null null %}
 
-{% image /assets/images/netlify-widget-2.jpg null null %}
+{% image /assets/images/netlify-widget-2.webp null null %}
 
 ## Is that all?
 
 Of course not, there are many more features that Netlify along with Netlify CMS offer that we haven't used like _Forms_, _Prerendering_ for single page applications, _Split Testing_, _Lambda functions_ for thoese who want more, we can even create custom _Widgets_ and remember that features are constantly added so you can check and test (or use) some _Beta Features_. You can check all that on Netlify Documentation [page](https://www.netlify.com/docs){:rel="nofollow"}{:target="_blank"}, as well as Netlify CMS Docs [page](https://www.netlifycms.org/docs){:rel="nofollow"}{:target="_blank"}
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

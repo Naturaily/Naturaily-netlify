@@ -10,9 +10,9 @@ category: JavaScript development
 authors:
   label: Jan Wieczorkowski
   value: author-8
-  avatar: /assets/images/janpol.png
+  avatar: /assets/images/janpol.webp
   slug: jan-wieczorkowski
-image: /assets/images/meteor3.png
+image: /assets/images/meteor3.webp
 text-preview: >-
   In one of the projects I've been recently working on I needed i18n support for
   forms generated with AutoForm. For those who don’t know: Autoform is
@@ -202,9 +202,9 @@ From a few i18n packages available I chose tap:i18n. It’s not a requirement, b
     // i18n/pl.i18n.json
     {
       "title" : "Witaj!",
-      "signUp" : "Zarejestruj się",
-      "signIn" : "Zaloguj się",
-      "logout" : "Wyloguj się"
+      "signUp" : "Zarejestruj sie",
+      "signIn" : "Zaloguj sie",
+      "logout" : "Wyloguj sie"
     }
   ```
 
@@ -302,9 +302,9 @@ Next, we have to add some translations:
       //...
       "labels" : {
         //...
-        "login" : "Nazwa użytkownika lub email",
-        "password" : "Hasło",
-        "passwordConfirmation" : "Powtórz hasło"
+        "login" : "Nazwa uzytkownika lub email",
+        "password" : "Haslo",
+        "passwordConfirmation" : "Powtorz haslo"
       }
     }
   ```

@@ -9,7 +9,7 @@ description: >-
 layout: career-offer
 image: /assets/images/Ruby-on-Rails_Developer_Job_Offer.png
 location:
-  - Wrocław
+  - Wroclaw
 who-we-are: >
   Software house is a multi-element puzzle. For six years, we have been
   successfully constructing the team of people with matching characters and
@@ -76,7 +76,7 @@ what-you-expect:
         the flexibility of working hours
   - expectation:
       contents: >
-        a nice office in the heart of Wrocław surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: |
@@ -147,4 +147,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 6500 - 11 000 PLN net
 ---
-

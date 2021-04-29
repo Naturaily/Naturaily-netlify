@@ -4,11 +4,11 @@ title: Administration & Financial Specialist
 meta-title-inset: don’t wait - apply
 description: >-
   We are looking for orginized and independent Administration & Financial
-  Specialist who will help our HR and accountant section. 
+  Specialist who will help our HR and accountant section.
 layout: career-offer
-image: /assets/images/Administration&Financial Specialist (1).png
+image: /assets/images/Administration&Financial-Specialist.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >-
   Software house is a multi-element puzzle. For six years, we have been
@@ -43,7 +43,7 @@ what-we-expect:
       contents: >-
         ordering coffee, snacks and other things necessary for the proper
         functioning of our office (and to make our team and their bellies happy
-        :)) 
+        :))
 what-you-expect:
   - expectation:
       contents: the software needed to work
@@ -57,7 +57,7 @@ what-you-expect:
       contents: 'an additional budget for trainings, workshops, conferences, etc. '
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław, surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw, surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a co-financed Multisport Card
@@ -115,4 +115,3 @@ salaries:
       contract: Contract of Employment (UoP)
       sum: 3000-4200 gross
 ---
-

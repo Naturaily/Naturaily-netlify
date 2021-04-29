@@ -8,11 +8,11 @@ layout: post
 date: '2020-04-23 12:34:38 +0200'
 category: Startups
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
-image: /assets/images/Blog_San_Diego_Startups_cover.png
+image: /assets/images/Blog_San_Diego_Startups_cover.webp
 text-preview: >-
   San Diego has a lot going for it over its more famous contemporary
   counterpart. While it isn’t a globally recognized IT talent pool like ‘San
@@ -37,7 +37,7 @@ Retention Rocket specializes in retention marketing for the e-commerce sector. T
 
 Thanks to its versatility and white label approach, it’s already utilized by over 100 brands, creating more than 20 million in additional revenue. If e-commerce continues to grow (and, let’s be honest, it will!), support tools like this will become essential, putting Retention Rocket in a very good position.
 
-{% image /assets/images/Blog_Retention_Rocket.jpeg Retention-Rocket Retention-Rocket %}
+{% image /assets/images/Blog_Retention_Rocket.webp Retention-Rocket Retention-Rocket %}
 
 <small class="text-center">[Source](https://twitter.com/retentionrocket){:rel="nofollow"}{:target="_blank"}</small>
 
@@ -51,7 +51,7 @@ The latter will improve in time, but there are a number of companies looking to 
 
 Alongside connecting local teachers with those looking to learn, this San Diego startup offers virtual courses. All teachers are pre-screened and the organization is currently active in over 2,800 cities in the U.S, and boasts 300 subjects to choose from. However, it’s the ability to offer virtual meetings and courses that has the most potential here, and one we expect TakeLessons to (at least temporarily) pivot heavily to.
 
-{% image /assets/images/Blog_Take_Lessons.png Take-Lessons Take-Lessons %}
+{% image /assets/images/Blog_Take_Lessons.webp Take-Lessons Take-Lessons %}
 
 <small class="text-center">[Source](https://takelessons.com/){:rel="nofollow"}{:target="_blank"}</small>
 
@@ -123,7 +123,7 @@ We’re passionate about e-commerce, so you shouldn’t be surprised to find a r
 
 Given the rise of e-commerce solutions in the wake of the recent epidemic, Daasity’s pre-built dashboards might find an audience in businesses that have had to accelerate their online shopping plans. Whether it’s viable for more advanced purposes remains to be seen.
 
-{% image /assets/images/Blog_Daasity.png Daasity Daasity %}
+{% image /assets/images/Blog_Daasity.webp Daasity Daasity %}
 
 <small class="text-center">[Source](https://www.facebook.com/daasityinc/?ref=br_rs){:rel="nofollow"}{:target="_blank"}</small>
 

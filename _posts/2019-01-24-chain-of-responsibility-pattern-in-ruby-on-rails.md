@@ -7,11 +7,11 @@ twitter-card: summary_large_image
 date: '2019-01-24 12:45:21 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/klaudusia.jpg
+  avatar: /assets/images/klaudusia.webp
   label: Klaudia Chudy
   value: author-23
   slug: klaudia-chudy
-image: /assets/images/chain-of-responsibility-pattern.jpg
+image: /assets/images/chain-of-responsibility-pattern.webp
 text-preview: >-
   While we were working on a project we stumbled upon some legacy code that
   consists of huge ‘if else’ statements. In this post we’ll show you how we
@@ -23,7 +23,7 @@ While we were working on a project we stumbled upon some legacy code that consis
 
 >Chain the receiving objects and pass the request along the chain until an object handles it.
 >
->~Krzysztof Kempiński, [Chain of Responsibility Design Pattern in Ruby](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b){:rel="nofollow"}{:target="_blank"}
+>~Krzysztof Kempinski, [Chain of Responsibility Design Pattern in Ruby](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b){:rel="nofollow"}{:target="_blank"}
 
 It may be useful if we need to store some data that is not related to any model. Essentially, it’s an object oriented version of `if … elsif … elsif … else … end` that is much much easier to extend. Because of that we can’t use hashes. Processing objects, aka handlers, contain logic for handling exactly one case.
 
@@ -166,6 +166,6 @@ There is definitely a lot of room for improvement in our implementation but at t
 
 What other solutions would you suggest for our case and why? We’re always happy to learn new things!
 
-**Special thanks to the reviewer of this post: Jakub Flasiński.**
+**Special thanks to the reviewer of this post: Jakub Flasinski.**
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

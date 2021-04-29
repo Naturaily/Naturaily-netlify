@@ -7,9 +7,9 @@ description: >-
   stores using modern technology that gives a SEO advantage and great user
   experience.
 layout: career-offer
-image: /assets/images/Frontend Developer.png
+image: /assets/images/FrontendDeveloper.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >-
   Software house is a multi-element puzzle. For six years, we have been
@@ -77,7 +77,7 @@ what-you-expect:
       contents: the flexibility of working hours
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: 'fresh fruits & snacks everyday in the office '

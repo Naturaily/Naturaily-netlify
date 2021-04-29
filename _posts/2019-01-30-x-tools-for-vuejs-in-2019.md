@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2019-02-08 10:50:02 +0200'
 category: Frontend development
 authors:
-  avatar: /assets/images/wojciech.jpg
-  label: Wojciech Miśta
+  avatar: /assets/images/wojciech.webp
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
-image: /assets/images/libraries-vue-2019.jpg
+image: /assets/images/libraries-vue-2019.webp
 text-preview: >-
   We guarantee that these JavaScript libraries will significantly speed up the
   development process of your very own Vue application and at the same time make
@@ -24,7 +24,7 @@ In this post we've gathered some our favorite libraries we often use in Vue deve
 
 <br>
 
-{% image /assets/images/vuetify.jpg null null %}
+{% image /assets/images/vuetify.webp null null %}
 
 ### Vuetify
 
@@ -36,7 +36,7 @@ Vuetify is a widely-loved and praised by developers component framework for Vue.
 
 <br>
 
-{% image /assets/images/bootstrap-vue.jpg null null %}
+{% image /assets/images/bootstrap-vue.webp null null %}
 
 ### Bootstrap-vue
 
@@ -48,7 +48,7 @@ Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 comp
 
 <br>
 
-{% image /assets/images/highcharts.jpg null null %}
+{% image /assets/images/highcharts.webp null null %}
 
 ### HighCharts
 
@@ -62,7 +62,7 @@ One of the most popular JavaScript charting library out there, used by companies
 
 <br>
 
-{% image /assets/images/fontawesome.png null null %}
+{% image /assets/images/fontawesome.webp null null %}
 
 ### Fontawesome
 
@@ -76,7 +76,7 @@ FontAwesome is a great resource to get your icons and SVGs from. It has a wide l
 
 <br>
 
-{% image /assets/images/bulma-banner.png null null %}
+{% image /assets/images/bulma-banner.webp null null %}
 
 ### Bulma
 
@@ -104,7 +104,7 @@ SweetModal allows for easy implementation of various kind of modals. Good lookin
 
 <br>
 
-{% image /assets/images/vue-i18n.jpg null null %}
+{% image /assets/images/vue-i18n.webp null null %}
 
 ### Vue-i18n
 
@@ -116,7 +116,7 @@ This plugin makes an internalization of your application a breeze. I18n has a si
 
 <br>
 
-{% image /assets/images/masonry-css.jpg null null %}
+{% image /assets/images/masonry-css.webp null null %}
 
 ### Vue-masonry-css
 
@@ -142,7 +142,7 @@ Quick and easy way to implement drop-down list in your Vue application. jQuery f
 
 <br>
 
-{% image /assets/images/veevalidate.jpg null null %}
+{% image /assets/images/veevalidate.webp null null %}
 
 ### VeeValidate
 
@@ -170,4 +170,4 @@ Great and easy way to implement the parallax effect in you project. Parallaxy is
 
 ### Would you add anything to our list? Make sure to share the GitHub link with us in the comments down below!
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

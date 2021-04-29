@@ -8,11 +8,11 @@ layout: post
 date: '2020-04-02 08:06:00 +0200'
 category: Software development
 authors:
-  avatar: /assets/images/Helmut_LingoHub.png
+  avatar: /assets/images/Helmut_LingoHub.webp
   label: Helmut Juskewycz
   value: author-31
   slug: helmut-juskewycz
-image: '/assets/images/Blog_Multilingual_Software.png'
+image: '/assets/images/Blog_Multilingual_Software.webp'
 text-preview: >
   If you are not catering to users beyond your own country’s borders and
   language(s), you’re missing out on great opportunities. If you’re intimidated
@@ -40,7 +40,7 @@ As you can see: The value of a localized product is manyfold.
 
 <br>
 
-{% image /assets/images/Blog_multilingual_software_graphic.png graphic graphic %}
+{% image /assets/images/Blog_multilingual_software_graphic.webp graphic graphic %}
 
 <br>
 
@@ -67,7 +67,7 @@ At [LingoHub](https://lingohub.com/){:target="_blank"}, we are strong believers 
 
 > *Fully integrated translation workflows empower ship-ready products for all locales at the same time. Local users and customers will always use the latest version of your product in their native language.*
 
-{% image /assets/images/Blog_multilingual_software_graphic2.png graphic graphic %}
+{% image /assets/images/Blog_multilingual_software_graphic2.webp graphic graphic %}
 
 Continuous Translation is the counterpart to traditional translation cycles. The following key differences lead to faster releases and a more productive setup:
 
@@ -148,4 +148,4 @@ Making software translations less painful and intimidating was actually the enti
 
 |About the author: **Helmut Juskewycz** is CEO and founder of LingoHub which helps companies and software makers to localize their software. Helmut is an enthusiastic entrepreneur and developer at heart with a vast experience in the technology space. Naturaily is responsible for [frontend development](https://naturaily.com/blog/faster-easier-frontend-development) part of the project. We have been working on LingoHub for over a year now. Our main task was to rewrite the existing part of the app from Angular to Vue.js to increase the performace and make the app easier to optimize.|
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

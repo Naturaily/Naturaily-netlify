@@ -11,11 +11,11 @@ twitter-card: >-
 date: '2019-06-18 02:48:11 +0200'
 category: Software development
 authors:
-  avatar: /assets/images/michal_kosyk_profile.png
-  label: Michał Kosyk
+  avatar: /assets/images/michal_kosyk_profile.webp
+  label: Michal Kosyk
   value: author-27
   slug: michal-kosyk
-image: /assets/images/legacy-code-refactor.png
+image: /assets/images/legacy-code-refactor.webp
 text-preview: >-
   In the darkest corners of every app development process dwell lines of code
   that make even the bravest of developers wake up at night drenched with sweat.
@@ -101,4 +101,4 @@ Enjoy your small refactors!
 
 Farewell
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

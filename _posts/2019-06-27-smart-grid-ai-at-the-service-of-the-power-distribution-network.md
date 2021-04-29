@@ -13,12 +13,12 @@ twitter-card: >-
 date: '2019-06-28 12:43:53 +0200'
 category: IoT
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
 image: >-
-  /assets/images/smart-grid-ai-at-the-service-of-the-power-distribution-network.png
+  /assets/images/smart-grid-ai-at-the-service-of-the-power-distribution-network.webp
 text-preview: >-
   Slowly but steadily, artificial intelligence is making its way to new facets
   of our lives. Through the automation of various processes, the use of IoT
@@ -45,7 +45,7 @@ The software collects information from the so-called [reclosers ](https://en.wik
 
 [LVCloud](https://naturaily.com/portfolio/lvcloud){:target="_blank"} also aggregates and interprets data from other devices: TDRs (Time-domain reflectometers) and ATLMs (ALVIN Transformer Load Monitors), and enables managing them. Engineers can access a web based dashboard and get email or text notifications in case of emergency.
 
-{% image /assets/images/lvcloud_800x450.png LVCloud LVCloud %}
+{% image /assets/images/lvcloud_800x450.webp LVCloud LVCloud %}
 
 ## How AI supports and optimizes electric networks around the world
 
@@ -82,4 +82,4 @@ Significant investments in the infrastructure will be needed to help smart grids
 
 The technology is not here yet, but it is certainly on its way to revolutionize power supply. Before we fully embrace it, there will be a lot of testing, improvements, consumer education, development of standards and regulations, and information sharing between projects to ensure that the benefits we envision from the Smart Grid become a reality.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

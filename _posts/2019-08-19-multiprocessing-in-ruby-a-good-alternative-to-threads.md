@@ -9,11 +9,11 @@ layout: post
 date: '2019-08-19 12:59:00 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/kamil_sopata_profile.png
+  avatar: /assets/images/kamil_sopata_profile.webp
   label: Kamil Sopata
   value: author-25
   slug: kamil-sopata
-image: /assets/images/multiprocessing-in-ruby-a-good-alternative-to-threads_.png
+image: /assets/images/multiprocessing-in-ruby-a-good-alternative-to-threads_.webp
 text-preview: >-
   Parallel computing is a cure for performance issues. It allows to do several
   things at once, which sounds great in the context of background jobs. Inspired
@@ -185,13 +185,13 @@ We have 21 ruby processes (1 parent and 20 subprocesses) – is it much? Actuall
 Please take a look at the output from HTOP:
 
 **Idle:**
-{% image /assets/images/idle.png Idle Idle %}
+{% image /assets/images/idle.webp Idle Idle %}
 
 **Single-process script:**
-{% image /assets/images/singleprocess.png single single %}
+{% image /assets/images/singleprocess.webp single single %}
 
 **Multi-processes script:**
-{% image /assets/images/multiprocess.png multi multi %}
+{% image /assets/images/multiprocess.webp multi multi %}
 
 At first glance, we can see that multi-processes script makes better use of the computing power of my computer. I mentioned earlier that my processor has 2 physical cores, we can see here 4 thanks to Hyperthreading – Intel technology that divides one core into 2 virtual ones.
 
@@ -258,7 +258,7 @@ To achieve it we can use process status, which we can find, for instance, in `ps
 
 ➜ `ps aux | grep test.rb`
 
-{% image /assets/images/user.png user user %}
+{% image /assets/images/user.webp user user %}
 
 As you can see – two processes have the status R+ (running in the foreground) and 1 has S+ (sleeping in the foreground). This can be quite useful information, description of all statuses can be found by entering: `man ps`.
 
@@ -474,4 +474,4 @@ Everyone should take some time to consider the question – does my project real
 
 It’s also good to know a bit about the operating system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

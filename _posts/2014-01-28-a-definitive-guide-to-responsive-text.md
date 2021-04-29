@@ -7,11 +7,11 @@ slug: responsive-text-guide
 date: '2014-01-28 10:38:01 +0000'
 category: Frontend development
 authors:
-  avatar: /assets/images/maciek.png
+  avatar: /assets/images/maciek.webp
   label: Maciej Kucharski
   value: author-16
   slug: maciej-kucharski
-image: /assets/images/responsivetext.jpg
+image: /assets/images/responsivetext.webp
 text-preview: >-
   When thinking RWD most of you picture fluid grids and responsive images,
   forgetting a quite important piece of the puzzle - the content. *Since content
@@ -135,4 +135,4 @@ The responsive text approach is fairly simple - use relative units everywhere an
 
 That would be all for now. Till next time!
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

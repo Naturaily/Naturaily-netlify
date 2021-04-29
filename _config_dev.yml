@@ -86,9 +86,6 @@ defaults:
 
 permalink: /blog/:title
 
-compress_images:
-  images_path: "assets/images/**/*.{gif,png,jpg,jpeg,svg}"
-
 imageoptim:
   skip_missing_workers: true
   nice: 5
@@ -101,7 +98,6 @@ autopages:
 plugins:
   - jekyll-debug
   - jekyll-include-cache
-  - jekyll-compress-images
   - jekyll-inline-svg
 
 exclude:
@@ -115,7 +111,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - _compress_images_cache.yml
   - _posts/
   - _career/
   - _data/

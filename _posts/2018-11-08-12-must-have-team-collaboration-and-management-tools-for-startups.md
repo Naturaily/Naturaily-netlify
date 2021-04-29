@@ -9,11 +9,11 @@ twitter-card: summary_large_image
 date: '2018-11-09 12:50:51 +0200'
 category: Agile
 authors:
-  avatar: /assets/images/wojciech.jpg
-  label: Wojciech Miśta
+  avatar: /assets/images/wojciech.webp
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
-image: /assets/images/12-management-collaboration-tools-startups.jpg
+image: /assets/images/12-management-collaboration-tools-startups.webp
 text-preview: >-
   So you have founded a startup. It wasn’t easy, was it? How about making your
   work a little bit easier? Don’t let tedious and recurring tasks drive you away
@@ -39,7 +39,7 @@ Check it out here: [Monday](https://monday.com/){:rel="nofollow"}{:target="_blan
 
 ## Carrd.co - Easy website builder
 
-{% image /assets/images/carrd-co-demo.jpg carrd-co-website-builder-demo carrd-co-website-builder-demo %}
+{% image /assets/images/carrd-co-demo.webp carrd-co-website-builder-demo carrd-co-website-builder-demo %}
 
 Do you need a simple and beautiful website for cheap? Are you looking for easy-to-use tools that will help you create an amazing UI for your visitors? Check out `carrd.co`. It’s a free tool that allows users to create modern-looking websites with ease - no programming knowledge needed!  With additional 9$/year you get premium features such as SSL support [now crucial for SEO](https://moz.com/blog/half-page-one-google-results-https){:rel="nofollow"}{:target="_blank"}, custom domain name, Google Analytics integration and many more.
 
@@ -93,7 +93,7 @@ Now that we have those out of the way, let’s dive deep into some **obvious one
 
 ## Trello
 
-{% image /assets/images/trello-board.jpg trello-board-management-tool trello-board-management-tool %}
+{% image /assets/images/trello-board.webp trello-board-management-tool trello-board-management-tool %}
 
 Trello is a web-based project management application that can significantly improve the workflow of your team. Create cards, fill them with tasks and assign your team members to them. Simple, easy and convenient, just like an online whiteboard. This solution is extremely popular among not only development teams, but also schools and real estate agents.
 
@@ -133,4 +133,4 @@ Check it out here: [LastPass](https://lastpass.com/){:rel="nofollow"}{:target="_
 
 Is there anything you would want to add to our list? **Let us know if the comments down below!**
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

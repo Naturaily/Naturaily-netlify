@@ -7,11 +7,11 @@ slug: books-for-beginner-developers
 date: '2016-12-05 10:38:01 +0000'
 category: Software development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/recommended-books.jpg
+image: /assets/images/recommended-books.webp
 text-preview: >-
   When you're a newbie in the complex code world and crave for knowledge, good
   resources are key to success. Blogs, forums, dev meetings - where to start?
@@ -30,7 +30,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/1_Clean_Code_A_Handbook_of_Agile_Software_Craftsmanship.png">
+    <img class="android-image" src="/assets/images/1_Clean_Code_A_Handbook_of_Agile_Software_Craftsmanship.webp">
 
     <div class="recomended-book-text">
       <p>
@@ -52,7 +52,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/2_Practical_Object_Oriented_Design_in_Ruby.png">
+    <img class="android-image" src="/assets/images/2_Practical_Object_Oriented_Design_in_Ruby.webp">
 
     <div class="recomended-book-text">
       <p>
@@ -74,11 +74,11 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/3_The_Clean_Coder_A_Code_of_Conduct_for_Professional_Programmers .png">
+    <img class="android-image" src="/assets/images/3_The_Clean_Coder_A_Code_of_Conduct_for_Professional_Programmers .webp">
 
     <div class="recomended-book-text">
       <p>
-        Recommended by Mikołaj (Ruby on Rails Developer): It doesn't tell you how to write a good quality code, but how to be a solid developer.
+        Recommended by Mikolaj (Ruby on Rails Developer): It doesn't tell you how to write a good quality code, but how to be a solid developer.
       </p>
 
       <p>
@@ -96,7 +96,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/4_Refactoring_ Improving_the_Design_of_Existing_Code.png">
+    <img class="android-image" src="/assets/images/4_Refactoring_ Improving_the_Design_of_Existing_Code.webp">
 
     <div class="recomended-book-text">
       <p>
@@ -118,7 +118,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/5_Eloquent_JavaScript.png">
+    <img class="android-image" src="/assets/images/5_Eloquent_JavaScript.webp">
 
     <div class="recomended-book-text">
       <p>
@@ -140,7 +140,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/6_Management_3.0__Leading_Agile_Developers,_Developing_Agile_Leaders.png">
+    <img class="android-image" src="/assets/images/6_Management_3.0__Leading_Agile_Developers,_Developing_Agile_Leaders.webp">
 
     <div class="recomended-book-text">
       <p>
@@ -162,11 +162,11 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
   <div class="recomended-book">
 
-    <img class="android-image" src="/assets/images/7_CSS_Secrets_Better_Solutions_to_Everyday_Web_Design_Problems.png">
+    <img class="android-image" src="/assets/images/7_CSS_Secrets_Better_Solutions_to_Everyday_Web_Design_Problems.webp">
 
     <div class="recomended-book-text">
       <p>
-        Recommended by Paweł (Front-end Developer): Maybe it's not for beginners but it's definitely worth reading. It is well written and really helpful for those experienced front-end developers who want to jump up to the next level.
+        Recommended by Pawel (Front-end Developer): Maybe it's not for beginners but it's definitely worth reading. It is well written and really helpful for those experienced front-end developers who want to jump up to the next level.
       </p>
 
       <p>
@@ -183,4 +183,4 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
 I'm sure all of you have your own favourite books, so feel free to add comments and share your recommendations.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

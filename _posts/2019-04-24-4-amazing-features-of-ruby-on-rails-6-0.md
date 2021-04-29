@@ -9,11 +9,11 @@ twitter-card: summary_large_image
 date: '2019-04-24 09:22:32 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/klaudusia.jpg
+  avatar: /assets/images/klaudusia.webp
   label: Klaudia Chudy
   value: author-23
   slug: klaudia-chudy
-image: /assets/images/4-best-features-of-ruby-on-rails-6.0.png
+image: /assets/images/4-best-features-of-ruby-on-rails-6.0.webp
 text-preview: >-
   Rails 6.0. is finally released. We’re excited to see all the new stuff Rails
   6.0 has to offer!
@@ -59,4 +59,4 @@ With this version of Rails a new code loader was introduced - Zeitwerk. It promi
 
 **Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release){:rel="nofollow"}{:target="_blank"}.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}
