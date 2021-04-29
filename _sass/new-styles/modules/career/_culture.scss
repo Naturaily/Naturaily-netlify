@@ -160,3 +160,24 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .culture .image {
+    position: relative;
+    width: 490px !important;
+    height: 340px;
+    overflow: hidden;
+
+    &--oversized {
+      width: 810px !important;
+      height: 515px;
+    }
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
