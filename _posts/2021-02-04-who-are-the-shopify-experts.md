@@ -83,8 +83,6 @@ Remember that there is also no real need to rush. Pushing yourself to make that 
 
 However, take your time, and make your math, so when you decide to hire a **Shopify expert**, you know that’s the best choice possible.
 
-{% image https://lh4.googleusercontent.com/I1TzzKKjwHLtbwp9jlXqSiRhiAph0QcgTwo3ILYd9IUPpMGyxCl8YGmbQfq5JvpPR6RebUSZl7EDySnWxoZjxXih_TlH4UlwCT1EvlAAhr-w--uetmu4yMpuiWqf7NNxelJTYGII Research Research %}
-
 ## How much do Shopify experts charge?
 
 This is one of these questions for which the answer is… it depends. As I told you before, a **Shopify expert** doesn’t necessarily need to be a web developer. Design and development teams will charge differently from SEO agencies. Content writers also have their rates. However, as I don’t want to leave you without any answer, let’s take a look at some examples.
