@@ -22,12 +22,19 @@
       <span class="etno-about__dot etno-about__dot--secondary"></span>
       <span class="etno-about__dot etno-about__dot--yellow"></span>
     </div>
-    <div class="etno-about__separator">
-      <img
-        src="/assets/images/loader.gif"
-        data-src="/assets/images/portfolio-cases/etno/separator.png"
+    <picture class="etno-about__separator">
+      <source
+        media="(max-width: 811px)"
+        class="etno-about__separator-img"
+        srcset="/assets/images/portfolio-cases/etno/separator-mobile.webp"
         alt="Etno Cafe screens"
-      />
-    </div>
+      >
+      <img
+        class="etno-about__separator-img"
+        src="/assets/images/loader.gif"
+        data-src="/assets/images/portfolio-cases/etno/separator.webp"
+        alt="Etno Cafe screens"
+      >
+    </picture>
   </div>
 </div>
