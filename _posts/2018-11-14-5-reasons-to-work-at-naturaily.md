@@ -10,7 +10,7 @@ date: '2018-11-23 11:20:14 +0200'
 category: Recruitment
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/5-reasons-to-work-at-naturaily.webp
@@ -40,7 +40,7 @@ And the fun doesn’t end there. Each time we finish a project or a product we t
 
 ## Like to sleep-in? Work from home
 
-At Naturaily many of our team members work remotely. Our communication has proven to work so well that we can successfully collaborate on projects with people working hundreds of kilometers away from our central office in Wrocław.
+At Naturaily many of our team members work remotely. Our communication has proven to work so well that we can successfully collaborate on projects with people working hundreds of kilometers away from our central office in Wroclaw.
 
 Each week we have a ‘weekly’ (what a surprise, right?) meeting. It allows us to be up to date with all of our projects, share new ideas or learn what’s going on at Naturaily. Even our remote team members participate online! If you decide to work remotely at Naturaily just drop by from time to time.
 

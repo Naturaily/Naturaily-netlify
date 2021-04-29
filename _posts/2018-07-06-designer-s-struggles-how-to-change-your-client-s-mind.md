@@ -11,7 +11,7 @@ date: '2018-07-16 02:10:29 +0000'
 category: UX/UI
 authors:
   avatar: /assets/images/agata.webp
-  label: Agata Zięba
+  label: Agata Zieba
   value: author-3
   slug: agata-zieba
 image: /assets/images/designer.webp

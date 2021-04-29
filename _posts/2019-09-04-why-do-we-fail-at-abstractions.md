@@ -10,7 +10,7 @@ date: '2019-09-04 08:40:22 +0200'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/michal_kosyk_profile.webp
-  label: Michał Kosyk
+  label: Michal Kosyk
   value: author-27
   slug: michal-kosyk
 image: /assets/images/why-do-we-fail-at-abstractions_.webp

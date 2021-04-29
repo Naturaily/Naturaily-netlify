@@ -202,9 +202,9 @@ From a few i18n packages available I chose tap:i18n. It’s not a requirement, b
     // i18n/pl.i18n.json
     {
       "title" : "Witaj!",
-      "signUp" : "Zarejestruj się",
-      "signIn" : "Zaloguj się",
-      "logout" : "Wyloguj się"
+      "signUp" : "Zarejestruj sie",
+      "signIn" : "Zaloguj sie",
+      "logout" : "Wyloguj sie"
     }
   ```
 
@@ -302,9 +302,9 @@ Next, we have to add some translations:
       //...
       "labels" : {
         //...
-        "login" : "Nazwa użytkownika lub email",
-        "password" : "Hasło",
-        "passwordConfirmation" : "Powtórz hasło"
+        "login" : "Nazwa uzytkownika lub email",
+        "password" : "Haslo",
+        "passwordConfirmation" : "Powtorz haslo"
       }
     }
   ```

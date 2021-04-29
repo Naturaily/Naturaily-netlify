@@ -114,7 +114,7 @@ All these components make Jamstack more comprehensible, adjustable, and faster.
 
 <br>
 
-{% image /assets/images/Blog_jam_simple_image_javascript_apis_markup.webp SSG SSG %}
+{% image /assets/images/Blog_Jamstack_easy_SSG.webp SSG SSG %}
 
 <br>
 
@@ -130,7 +130,7 @@ Jamstack has everything you need to provide a perfect user experience. It's grea
 
 Here are the main benefits of Jamstack.
 
-{% image /assets/images/Blog_jam_simple_image_javascript_apis_markup.webp Jamstack Jamstack %}
+{% image /assets/images/Blog_jam_traditional_web_jamstack.webp Jamstack Jamstack %}
 
 <br>
 

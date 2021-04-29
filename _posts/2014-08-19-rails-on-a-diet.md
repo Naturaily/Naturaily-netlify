@@ -9,7 +9,7 @@ date: '2014-08-19 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/swierszcz.webp
-  label: Przemysław Świercz
+  label: Przemyslaw swiercz
   value: author-15
   slug: przemyslaw-swiercz
 image: /assets/images/railsondiet.webp

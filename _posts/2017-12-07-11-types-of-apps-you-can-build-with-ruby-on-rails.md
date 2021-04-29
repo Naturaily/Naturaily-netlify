@@ -8,7 +8,7 @@ date: '2017-12-07 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/ruby-is-cool.webp

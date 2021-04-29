@@ -69,7 +69,7 @@ If you want to listen to the presentation, you will find it here:
 
 {% youtube jDMUBRPI5zc %}
 
-The third and the last is the presentation by Aleksander Dąbrowski: "10 performance sins of Rails application".
+The third and the last is the presentation by Aleksander Dabrowski: "10 performance sins of Rails application".
 
 > Aleksander is a CTO of koleo.pl - the fastest growing train ticket retailer in Poland. He has worked in a variety of start-ups and even in a marketing agency. Aleks has worked with Ruby for more than a decade, has co-organized Warsaw's Ruby User Group, and was the author of rubysfera.pl, the leading Polish blog focused on Ruby and Rails. - [source](https://rubyc.eu/#speakers){:rel="nofollow"}{:target="_blank"}
 

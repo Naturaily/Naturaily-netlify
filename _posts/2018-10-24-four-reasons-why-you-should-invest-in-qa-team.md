@@ -11,7 +11,7 @@ date: '2018-10-25 11:00:01 +0200'
 category: Agile
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/four-reasons-why-qa-team.webp

@@ -11,7 +11,7 @@ date: '2019-03-27 12:30:12 +0200'
 category: Events
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/japan_it_week_header_post.webp

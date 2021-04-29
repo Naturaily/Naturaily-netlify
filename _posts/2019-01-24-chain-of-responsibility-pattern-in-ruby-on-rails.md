@@ -23,7 +23,7 @@ While we were working on a project we stumbled upon some legacy code that consis
 
 >Chain the receiving objects and pass the request along the chain until an object handles it.
 >
->~Krzysztof Kempiński, [Chain of Responsibility Design Pattern in Ruby](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b){:rel="nofollow"}{:target="_blank"}
+>~Krzysztof Kempinski, [Chain of Responsibility Design Pattern in Ruby](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b){:rel="nofollow"}{:target="_blank"}
 
 It may be useful if we need to store some data that is not related to any model. Essentially, it’s an object oriented version of `if … elsif … elsif … else … end` that is much much easier to extend. Because of that we can’t use hashes. Processing objects, aka handlers, contain logic for handling exactly one case.
 
@@ -166,6 +166,6 @@ There is definitely a lot of room for improvement in our implementation but at t
 
 What other solutions would you suggest for our case and why? We’re always happy to learn new things!
 
-**Special thanks to the reviewer of this post: Jakub Flasiński.**
+**Special thanks to the reviewer of this post: Jakub Flasinski.**
 
 [{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

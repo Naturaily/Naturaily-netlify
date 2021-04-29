@@ -12,7 +12,7 @@ date: '2019-01-04 09:00:45 +0200'
 category: Frontend development
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/pwa-guide-2018.webp

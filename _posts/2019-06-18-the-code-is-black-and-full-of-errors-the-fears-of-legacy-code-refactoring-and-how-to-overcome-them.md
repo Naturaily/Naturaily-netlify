@@ -12,7 +12,7 @@ date: '2019-06-18 02:48:11 +0200'
 category: Software development
 authors:
   avatar: /assets/images/michal_kosyk_profile.webp
-  label: Michał Kosyk
+  label: Michal Kosyk
   value: author-27
   slug: michal-kosyk
 image: /assets/images/legacy-code-refactor.webp

@@ -10,7 +10,7 @@ date: '2018-07-30 10:18:26 +0000'
 category: JavaScript development
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/node-js-applications.webp

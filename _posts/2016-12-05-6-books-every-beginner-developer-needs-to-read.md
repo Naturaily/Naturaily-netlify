@@ -78,7 +78,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
     <div class="recomended-book-text">
       <p>
-        Recommended by Mikołaj (Ruby on Rails Developer): It doesn't tell you how to write a good quality code, but how to be a solid developer.
+        Recommended by Mikolaj (Ruby on Rails Developer): It doesn't tell you how to write a good quality code, but how to be a solid developer.
       </p>
 
       <p>
@@ -166,7 +166,7 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
     <div class="recomended-book-text">
       <p>
-        Recommended by Paweł (Front-end Developer): Maybe it's not for beginners but it's definitely worth reading. It is well written and really helpful for those experienced front-end developers who want to jump up to the next level.
+        Recommended by Pawel (Front-end Developer): Maybe it's not for beginners but it's definitely worth reading. It is well written and really helpful for those experienced front-end developers who want to jump up to the next level.
       </p>
 
       <p>

@@ -8,7 +8,7 @@ date: '2018-01-08 10:38:01 +0000'
 category: Agile
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/google-sprint.webp

@@ -11,7 +11,7 @@ date: '2018-10-31 10:40:17 +0200'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/lighto.webp
-  label: Paweł Cybulski
+  label: Pawel Cybulski
   value: author-21
   slug: pawel-cybulski
 image: /assets/images/netlify-jekyll.webp

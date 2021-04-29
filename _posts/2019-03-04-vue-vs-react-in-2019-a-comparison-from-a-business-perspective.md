@@ -11,7 +11,7 @@ date: '2019-03-05 12:55:17 +0200'
 category: JavaScript development
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   slug: wojciech-mista
   value: author-1
 image: /assets/images/vue-vs-react-business-perspective-v2.webp

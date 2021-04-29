@@ -10,7 +10,7 @@ date: '2019-01-15 11:45:05 +0200'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   slug: wojciech-mista
   value: author-1
 image: /assets/images/ror_doa_2019.webp
@@ -244,7 +244,7 @@ Few years back, Yukihiro ‘Matz’ Matsumoto - The creator of Ruby programming 
 
 > “Ruby world ends on one web framework. Rails keeps Ruby alive and hurts Ruby at the same time.”
 >
-> ~Grzegorz Wilczyński, Software Engineer, [Lunarem](https://lunarem.com){:rel="nofollow"}{:target="_blank"}
+> ~Grzegorz Wilczynski, Software Engineer, [Lunarem](https://lunarem.com){:rel="nofollow"}{:target="_blank"}
 
 Fans have noticed that some of the parts of the new version already live in the preview of Ruby 2.6. Various benchmarks show a significant increase in performance due to the inclusion of JIT compiler. Of course, it’s not the only thing that’s going be to changed. Matz stated in an interview that Ruby 2.6 will be released on [Christmas](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/){:rel="nofollow"}{:target="_blank"} Day and will also have some type of concurrency abstraction.
 

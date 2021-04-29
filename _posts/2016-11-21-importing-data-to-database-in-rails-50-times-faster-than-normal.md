@@ -8,7 +8,7 @@ date: '2016-11-21 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/claus.webp
-  label: Mikołaj Grygiel
+  label: Mikolaj Grygiel
   value: author-7
   slug: mikolaj-grygiel
 image: /assets/images/speed_up.webp

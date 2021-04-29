@@ -9,7 +9,7 @@ date: '2019-08-20 06:40:53 +0200'
 category: Software development
 authors:
   avatar: /assets/images/michal_kosyk_profile.webp
-  label: Michał Kosyk
+  label: Michal Kosyk
   value: author-27
   slug: michal-kosyk
 image: /assets/images/productivity-tools-why-use-productivity-tools-at-all_-1-.webp

@@ -8,7 +8,7 @@ date: '2018-06-18 10:00:00 +0000'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/blazej.webp
-  label: Błażej Pichur
+  label: Blazej Pichur
   value: author-4
   slug: blazej-pichur
 image: /assets/images/perfect-enum.webp

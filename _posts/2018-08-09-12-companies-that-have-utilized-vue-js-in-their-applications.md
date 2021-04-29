@@ -11,7 +11,7 @@ date: '2018-10-08 10:40:31 +0200'
 category: Frontend development
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/companies-vue-js-applications.webp

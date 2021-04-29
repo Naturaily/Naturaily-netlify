@@ -9,7 +9,7 @@ date: '2019-01-11 10:38:01 +0200'
 category: Ruby on Rails development
 authors:
   avatar: /assets/images/jacek.webp
-  label: Jacek Hiszpański
+  label: Jacek Hiszpanski
   value: author-12
   slug: jacek-hiszpanski
 image: /assets/images/migrations.webp

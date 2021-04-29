@@ -9,7 +9,7 @@ date: '2017-10-26 10:38:01 +0000'
 category: Startups
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/more-berlin-startups.webp

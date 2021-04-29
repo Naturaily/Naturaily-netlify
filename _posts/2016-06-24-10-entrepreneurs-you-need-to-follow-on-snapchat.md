@@ -55,7 +55,7 @@ Here’s my list of the most active Polish and foreign users.
     <br><br>
     {% image /assets/images/snapchat-staszek-kolarzowski.webp kolarzowski kolarzowski %}
 
-7. **Michał Sadowski** (sdmik) - Founder & CEO of Brand24
+7. **Michal Sadowski** (sdmik) - Founder & CEO of Brand24
     <br><br>
     {% image /assets/images/snapchat-michal-sadowski.webp sdmik sdmik %}
 

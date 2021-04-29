@@ -10,7 +10,7 @@ date: '2018-09-10 11:35:00 +0200'
 category: Naturaily Client
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/collectivity2.webp

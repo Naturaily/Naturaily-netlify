@@ -9,7 +9,7 @@ date: '2020-03-25 02:53:41 +0200'
 category: E-commerce
 authors:
   avatar: /assets/images/Weronika_profile.webp
-  label: Weronika Nużyńska
+  label: Weronika Nuzynska
   value: author-30
   slug: weronika-nuzynska
 image: /assets/images/Blog_COVID-2019_Pandemic_vs_E-commerce.webp

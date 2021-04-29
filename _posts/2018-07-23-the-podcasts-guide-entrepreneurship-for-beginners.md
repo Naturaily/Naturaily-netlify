@@ -10,7 +10,7 @@ date: '2018-08-13 12:59:01 +0000'
 category: Startups
 authors:
   avatar: /assets/images/wojciech.webp
-  label: Wojciech Miśta
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
 image: /assets/images/entrepreneurship-podcasts.webp

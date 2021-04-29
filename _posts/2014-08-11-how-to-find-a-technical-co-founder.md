@@ -73,7 +73,7 @@ What was wrong? Naturaily didn't need a "corporate" lead developer, willing to w
 
 After three months the cooperation was dead. I was on the hunt again.
 
-Luckily for me, an old friend moved to Wrocław. An old friend with experience in running agencies like Naturaily. An engineer, but business passionate as well. We were "dating" for a couple of months and finally he joined the team. I felt he was THE ONE who can take the company to the next level and that exactly happened.
+Luckily for me, an old friend moved to Wroclaw. An old friend with experience in running agencies like Naturaily. An engineer, but business passionate as well. We were "dating" for a couple of months and finally he joined the team. I felt he was THE ONE who can take the company to the next level and that exactly happened.
 
 Why this time it worked? We have known each other for a long time. We share motivations and values. We have complementary skills. We were born the same year. You don't necessarily need a technical co-founder who's born exactly the same year, but your age matters. I'd find it hard to co-found with a person much younger.
 
