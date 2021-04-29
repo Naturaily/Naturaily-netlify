@@ -1,18 +1,10 @@
-.etno-goal {
+.etno-challenge {
   box-sizing: border-box;
   width: 100%;
-  padding-top: 50px;
+  padding: 50px 30px;
   overflow: hidden;
 
-  .case__step,
-  .case__title,
-  &__columns-left,
-  &__columns-right {
-    padding: 0 30px;
-  }
-
   .case__title {
-    max-width: 300px;
     margin: 30px 0;
     line-height: 50px;
     font-weight: 200;
@@ -54,7 +46,7 @@
 }
 
 @media (min-width: 576px) {
-  .etno-goal {
+  .etno-challenge {
     padding-left: 100px;
     padding-right: 100px;
 
@@ -73,7 +65,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-goal {
+  .etno-challenge {
     padding-top: 80px;
 
     &__columns {
@@ -107,13 +99,12 @@
 }
 
 @media (min-width: 1200px) {
-  .etno-goal__columns {
+  .etno-challenge__columns {
     &-left {
-      padding-right: 45px;
+      padding-right: 50px;
     }
 
     &-right {
-      padding-right: 10px;
       padding-left: 40px;
     }
   }
