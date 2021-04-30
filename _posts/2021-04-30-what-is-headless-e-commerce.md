@@ -109,3 +109,86 @@ One of the assumptions of the headless approach is to be able to use modern tech
 It's helpful in A/B testing to find out how customers behave and interact with the website to improve CX.
 
 What's more, development teams responsible for back-end and front-end don't have to interrupt each other but can work more efficiently, and even collaborate better. **Smooth processes ensure fast innovation**, a quick and steady pace of change, and better adjustability to the customer needs of your e-commerce.
+
+[Statistics](https://www.superoffice.com/blog/customer-experience-statistics/) show that **86%** of buyers are willing to pay more for a great customer experience. If you want to meet their needs, you need to be ready for change and innovation. And there's no better way to do it than to adopt headless.
+
+### Improved developer experience
+
+Headless is fully customizable not only from the side of user experience but also developer experience. Your IT team can choose which framework they want to work in, what tools to use, and what methodology suits them best.
+
+You control how everything works and looks like as an admin and builder of the code. **You own the architecture.**
+
+It makes work easier and more enjoyable. As a result, the end product is delivered faster, better, and in high quality.
+
+### Better performance
+
+The headless approach ensures **scalability and high performanc**e.
+
+You don't have to worry when your site goes down or has some glitches. It's much easier to fix bugs and add patches when the back-end and front-end are separated.
+
+Headless is focused on delivering fast results in the most convenient way.
+
+### Integrated commerce experience
+
+With headless e-commerce, you can customize the user experience for every stage of the buyer's journey. That way users engage more with the platform. Instead of separate links and references, you have **all the touch points smoothly integrated**.
+
+That provides better adjustability to client's changing needs. And your developers can ensure an undisturbed buyer's journey, from beginning to end.
+
+### Lower cost of maintenance
+
+Headless is cheaper than traditional commerce. When you operate on separate pieces, it requires less engagement from fewer people. Especially, if you want to introduce smallish changes.
+
+Additionally, when you use external APIs and third-party apps, you can **save money on some of the aspects of DevOps and maintenance of the servers**.
+
+## Advantages & Disadvantages of Headless
+
+Despite the fact, that headless offers possibilities for quick innovation and saves a lot of time and money, it has its flaws.
+
+Let's look at the bigger picture and analyze all the pros and cons of headless e-commerce for you and the customers.
+
+### Pros:
+
++ **Quick updates** — all changes are implemented with a blink of an eye on the contrary to sites built on classic architecture.
+
++ **Better user experience** — with a fully customizable front-end, you can create a perfect UX to attract more customers.
+
++ **Performance & fast loading pages** — headless supports fast delivery of websites so all changes happen quickly, thereby your site will load much faster. It's [widely known](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/) that if a page takes more than 3 or 4 seconds to load, the visitor will leave it. Headless prevents that from happening.
+
++ **The right tools** — the APIs allow you to add whatever you want with pre-built integrations. That gives the developers full control of how the end-product will look like but also what environment and framework they work within.
+
++ **Time to market** — with headless commerce, businesses can react quickly to changes.
+
++ **Automated touchpoints** —payment, shipping procedures, and other commerce processes can be easily automated for even better customer experience
+
++ **Higher security** — because the headless as a development ecosystem is less vulnerable to outside breaches, the safety of your website and client information is ensured.
+
++ **Better control** — the separation of back-end from front-end help to save time; you don't have to find lines of code, interfere with the databases. The management is much easier and straightforward.
+
++ **Easy content management** — simple to use admin for content editing, product management, and visual [e-commerce website design](https://naturaily.com/blog/how-to-pick-the-best-ecommerce-website-design-company).
+
++ **Omnichannel delivery** — multi-channel servicing is on the rise. People want to buy more and quicker via different channels. Headless allows you to deliver your site to any device connected to the web, be it a smartphone, smartwatch, laptop, or tablet.
+
++ **Staying ahead of competitors** — quick change, embracing innovation, tailored customer experience, high performance, and flexibility — you get it all when using headless technology. That helps you become a serious competitor for other brands from your niche.
+
++ **SEO-friendly** — Google and other web browsers like well-performing, fast, and secure pages. Headless gives you all these elements at once.
+
+### \
+Cons:
+
+\- **Requires technical skills** — you need to have a front-end developer, or an entire team if you're building a large e-commerce site
+
+\- **Complex design** — if you're looking for a simple solution that doesn't require lots of customization and personalization, headless may not be right for your business.
+
+\- **Higher cost of dev teams** — in [e-commerce development](https://naturaily.com/services/ecommerce/custom-development), when building a complex platform with many features, you may need to hire many people. And the more developers you hire to build and maintain your system, the higher the costs.
+
+\- **More content to manage** — managing content with headless is a bit like adding another smaller piece to the puzzle. It gets bigger and requires more management.
+
+Overall, the pros outweigh the cons. Using the API-driven architecture offers many more positive aspects than sticking to the classical, old-fashioned monolithic one.
+
+## Conclusion
+
+Without any doubt, headless is the future of e-commerce. Quick changing needs of customers and market trends will force businesses to reinvent their approaches.
+
+Is your e-commerce ready for innovation? If you need help switching to headless architecture and are looking for a [professional e-commerce development company](https://naturaily.com/blog/why-ecommerce-development-company-should-help-you-to-go-online), we'll give you a hand!
+
+Remember that the crucial aspect in deciding what type of infrastructure you need for your e-commerce depends on your business needs, niche, and other factors. Good luck with your headless commerce!
