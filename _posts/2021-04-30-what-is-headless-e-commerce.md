@@ -187,15 +187,15 @@ Let's look at the bigger picture and analyze all the pros and cons of headless e
 
 **+ SEO-friendly** — Google and other web browsers like well-performing, fast, and secure pages. Headless gives you all these elements at once.
 
-Cons:
+### Cons:
 
-**- Requires technical skills** — you need to have a front-end developer, or an entire team if you're building a large e-commerce site
+**\- Requires technical skills** — you need to have a front-end developer, or an entire team if you're building a large e-commerce site
 
-**- Complex design** — if you're looking for a simple solution that doesn't require lots of customization and personalization, headless may not be right for your business.
+**\- Complex design** — if you're looking for a simple solution that doesn't require lots of customization and personalization, headless may not be right for your business.
 
-**- Higher cost of dev teams** — in [e-commerce development](https://naturaily.com/services/ecommerce/custom-development), when building a complex platform with many features, you may need to hire many people. And the more developers you hire to build and maintain your system, the higher the costs.
+**\- Higher cost of dev teams** — in [e-commerce development](https://naturaily.com/services/ecommerce/custom-development), when building a complex platform with many features, you may need to hire many people. And the more developers you hire to build and maintain your system, the higher the costs.
 
-**- More content to manage** — managing content with headless is a bit like adding another smaller piece to the puzzle. It gets bigger and requires more management.
+**\- More content to manage** — managing content with headless is a bit like adding another smaller piece to the puzzle. It gets bigger and requires more management.
 
 Overall, the pros outweigh the cons. Using the API-driven architecture offers many more positive aspects than sticking to the classical, old-fashioned monolithic one.
 
