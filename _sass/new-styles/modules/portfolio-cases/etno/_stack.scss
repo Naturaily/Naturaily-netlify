@@ -1,0 +1,98 @@
+.etno-stack {
+  padding: 65px 0;
+  border-top: 1px solid $color-global-font-10;
+  border-bottom: 1px solid $color-global-font-10;
+  background-color: $color-code-orange-bg;
+
+  &__header, .custom-carousel__tabs-tab {
+    padding: 0 30px;
+  }
+
+  &__header {
+    margin-bottom: 45px;
+  }
+
+  &__name {
+    max-width: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-global-font;
+  }
+
+  &__image {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  .custom-carousel {
+    &__tabs {
+      margin: 0;
+    }
+
+    &__dots {
+      width: 100vw;
+      margin-top: 25px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .etno-stack {
+    &__header, .custom-carousel__tabs-tab {
+      padding: 0 100px;
+    }
+
+    .custom-carousel__nav {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0 10px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .etno-stack {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 50px 100px 20px;
+
+    &__header, .custom-carousel__tabs-tab {
+      padding: 0;
+    }
+
+    &__wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .custom-carousel__tabs {
+      display: flex;
+      flex-flow: row wrap;
+
+      &-tab {
+        box-sizing: border-box;
+        width: 33.3%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .etno-stack {
+    padding-top: 100px;
+
+    .custom-carousel__tabs-tab {
+      margin-bottom: 80px;
+    }
+  }
+}
