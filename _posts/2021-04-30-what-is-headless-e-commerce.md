@@ -125,7 +125,7 @@ It's helpful in A/B testing to find out how customers behave and interact with t
 
 What's more, development teams responsible for back-end and front-end don't have to interrupt each other but can work more efficiently, and even collaborate better. **Smooth processes ensure fast innovation**, a quick and steady pace of change, and better adjustability to the customer needs of your e-commerce.
 
-[Statistics](https://www.superoffice.com/blog/customer-experience-statistics/) show that **86%** of buyers are willing to pay more for a great customer experience. If you want to meet their needs, you need to be ready for change and innovation. And there's no better way to do it than to adopt headless.
+[Statistics](https://www.superoffice.com/blog/customer-experience-statistics/){:rel="nofollow"} show that **86%** of buyers are willing to pay more for a great customer experience. If you want to meet their needs, you need to be ready for change and innovation. And there's no better way to do it than to adopt headless.
 
 ### Improved developer experience
 
@@ -165,18 +165,16 @@ Let's look at the bigger picture and analyze all the pros and cons of headless e
 
 * **Quick updates** — all changes are implemented with a blink of an eye on the contrary to sites built on classic architecture.
 * **Better user experience** — with a fully customizable front-end, you can create a perfect UX to attract more customers.
-* **Performance & fast loading pages** — headless supports fast delivery of websites so all changes happen quickly, thereby your site will load much faster. It's [widely known](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/) that if a page takes more than 3 or 4 seconds to load, the visitor will leave it. Headless prevents that from happening.
+* **Performance & fast loading pages** — headless supports fast delivery of websites so all changes happen quickly, thereby your site will load much faster. It's [widely known](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/){:rel="nofollow"} that if a page takes more than 3 or 4 seconds to load, the visitor will leave it. Headless prevents that from happening.
 * **The right tools** — the APIs allow you to add whatever you want with pre-built integrations. That gives the developers full control of how the end-product will look like but also what environment and framework they work within.
 * **Time to market** — with headless commerce, businesses can react quickly to changes.
-* **Automated touchpoints** —payment, shipping procedures, and other commerce processes can be easily automated for even better customer experience
+* **Automated touchpoints** — payment, shipping procedures, and other commerce processes can be easily automated for even better customer experience
 * **Higher security** — because the headless as a development ecosystem is less vulnerable to outside breaches, the safety of your website and client information is ensured.
 * **Better control** — the separation of back-end from front-end help to save time; you don't have to find lines of code, interfere with the databases. The management is much easier and straightforward.
 * **Easy content management** — simple to use admin for content editing, product management, and visual [e-commerce website design](https://naturaily.com/blog/how-to-pick-the-best-ecommerce-website-design-company).
 * **Omnichannel delivery** — multi-channel servicing is on the rise. People want to buy more and quicker via different channels. Headless allows you to deliver your site to any device connected to the web, be it a smartphone, smartwatch, laptop, or tablet.
 * **Staying ahead of competitors** — quick change, embracing innovation, tailored customer experience, high performance, and flexibility — you get it all when using headless technology. That helps you become a serious competitor for other brands from your niche.
 * **SEO-friendly** — Google and other web browsers like well-performing, fast, and secure pages. Headless gives you all these elements at once.
-
-### \
 
 Cons:
 
