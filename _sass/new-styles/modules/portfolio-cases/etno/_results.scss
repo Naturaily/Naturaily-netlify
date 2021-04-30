@@ -1,0 +1,306 @@
+.etno-results {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 50px;
+  overflow: hidden;
+
+  .case__step,
+  &__intro,
+  &__columns {
+    padding: 0 30px;
+  }
+
+  .case__title {
+    max-width: 300px;
+    line-height: 50px;
+    font-weight: 200;
+    color: $color-global-font;
+  }
+
+  &__intro-text {
+    font-size: 24px;
+    line-height: 38.4px;
+  }
+
+  &__columns {
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-page-text;
+  }
+
+  &__picture {
+    width: 200%;
+    transform: translateX(-30%);
+    margin: 25px 0;
+  }
+
+  &__numbers {
+    &-header {
+      padding: 0 30px;
+    }
+
+    &-metric {
+      padding: 25px 30px;
+      border-bottom: 1px solid $color-global-font-10;
+
+      &:last-of-type {
+        border: none;
+      }
+
+      &__name {
+        margin-bottom: 25px;
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+      &__data {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        &-initial, &-final {
+          font-size: 40px;
+          font-weight: 300;
+
+          &--red {
+            color: $color-secondary;
+          }
+
+          &--yellow {
+            color: $color-accent-yellow;
+          }
+
+          &--green {
+            color: $color-accent-green;
+          }
+        }
+
+        &-initial {
+          &::before, &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+          }
+
+          &::before {
+            transform: translate(-23px, -50%);
+            width: 20px;
+            height: 1px;
+            background-color: $color-portolio-arrow;
+          }
+
+          &::after {
+            display: inline-block;
+            transform: translate(-10px, -50%) rotate(-45deg);
+            padding: 3px;
+            border: solid $color-portolio-arrow;
+            border-width: 0 1px 1px 0;
+          }
+        }
+
+        &-final {
+          position: relative;
+
+          &::after {
+            content: '';
+            position: absolute;
+            top: 7px;
+            right: -10px;
+            width: 0;
+            height: 0;
+            border-width: 0 3px 6px 3px;
+            border-color: $color-transparent;
+            border-style: solid;
+          }
+
+          &--red::after {
+            border-bottom-color: $color-secondary;
+          }
+
+          &--yellow:after {
+            border-bottom-color: $color-accent-yellow;
+          }
+
+          &--green:after {
+            border-bottom-color: $color-accent-green;
+          }
+        }
+      }
+    }
+  }
+
+  &__columns-left {
+    margin: 25px 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .etno-results {
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .case__step,
+    &__intro,
+    &__columns,
+    &__numbers-header,
+    &__numbers-metric {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    &__picture {
+      width: 100%;
+      transform: none;
+      border-radius: 8px;
+    }
+
+    &__numbers-metric__data-initial {
+      &::before {
+        transform: translateX(-50px);
+        width: 90px;
+      }
+
+      &::after {
+        transform: translate(33px, -3px) rotate(-45deg);
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .etno-results {
+    padding: 100px;
+
+    &__intro, &__columns {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+    &__intro {
+      padding-top: 40px;
+
+      .case__title {
+        box-sizing: border-box;
+        width: 40%;
+        max-width: 40%;
+        padding-top: 0;
+      }
+
+      &-text {
+        box-sizing: border-box;
+        width: 60%;
+      }
+    }
+
+    &__picture {
+      margin: 65px 0;
+    }
+
+    &__numbers {
+      &-header {
+        margin-bottom: 40px;
+      }
+
+      &-metric {
+        display: flex;
+        flex-flow: row nowrap;
+
+        &__name, &__data {
+          box-sizing: border-box;
+          width: 50%;
+        }
+
+        &__data {
+          padding-left: 25px;
+          padding-right: 10px;
+
+          &-initial {
+            &::before {
+              transform: translateX(-35px);
+              width: 60px;
+            }
+      
+            &::after {
+              transform: translate(18px, -3px) rotate(-45deg);
+            }
+          }
+        }
+      }
+    }
+
+    &__columns {
+      margin-top: 30px;
+
+      &-left, &-right {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-left {
+        margin: 0;
+        padding-right: 25px;
+      }
+
+      &-right {
+        padding-left: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .etno-results {
+    &__intro {
+      .case__title span {
+        display: block;
+      }
+
+      &-text {
+        padding-right: 50px;
+      }
+    }
+
+    &__picture {
+      margin-top: 100px;
+    }
+
+    &__numbers-metric__data {
+      margin-left: 25px;
+    }
+
+    &__columns {
+      &-left {
+        padding-right: 45px;
+      }
+
+      &-right {
+        padding-right: 35px;
+        padding-left: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .etno-results__numbers {
+    padding-right: 90px;
+
+    &-metric__data {
+      margin-left: 200px;
+
+      &-initial {
+        &::before {
+          transform: translateX(-50px);
+          width: 90px;
+        }
+
+        &::after {
+          transform: translate(33px, -3px) rotate(-45deg);
+        }
+      }
+    }
+  }
+}
