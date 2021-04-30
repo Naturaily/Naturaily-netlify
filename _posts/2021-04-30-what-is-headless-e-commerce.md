@@ -163,28 +163,39 @@ Let's look at the bigger picture and analyze all the pros and cons of headless e
 
 ### Pros:
 
-* **Quick updates** — all changes are implemented with a blink of an eye on the contrary to sites built on classic architecture.
-* **Better user experience** — with a fully customizable front-end, you can create a perfect UX to attract more customers.
-* **Performance & fast loading pages** — headless supports fast delivery of websites so all changes happen quickly, thereby your site will load much faster. It's [widely known](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/){:rel="nofollow"} that if a page takes more than 3 or 4 seconds to load, the visitor will leave it. Headless prevents that from happening.
-* **The right tools** — the APIs allow you to add whatever you want with pre-built integrations. That gives the developers full control of how the end-product will look like but also what environment and framework they work within.
-* **Time to market** — with headless commerce, businesses can react quickly to changes.
-* **Automated touchpoints** — payment, shipping procedures, and other commerce processes can be easily automated for even better customer experience
-* **Higher security** — because the headless as a development ecosystem is less vulnerable to outside breaches, the safety of your website and client information is ensured.
-* **Better control** — the separation of back-end from front-end help to save time; you don't have to find lines of code, interfere with the databases. The management is much easier and straightforward.
-* **Easy content management** — simple to use admin for content editing, product management, and visual [e-commerce website design](https://naturaily.com/blog/how-to-pick-the-best-ecommerce-website-design-company).
-* **Omnichannel delivery** — multi-channel servicing is on the rise. People want to buy more and quicker via different channels. Headless allows you to deliver your site to any device connected to the web, be it a smartphone, smartwatch, laptop, or tablet.
-* **Staying ahead of competitors** — quick change, embracing innovation, tailored customer experience, high performance, and flexibility — you get it all when using headless technology. That helps you become a serious competitor for other brands from your niche.
-* **SEO-friendly** — Google and other web browsers like well-performing, fast, and secure pages. Headless gives you all these elements at once.
+**+ Quick updates** — all changes are implemented with a blink of an eye on the contrary to sites built on classic architecture.
+
+**+ Better user experience** — with a fully customizable front-end, you can create a perfect UX to attract more customers.
+
+**+ Performance & fast loading pages** — headless supports fast delivery of websites so all changes happen quickly, thereby your site will load much faster. It's [widely known](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/){:rel="nofollow"} that if a page takes more than 3 or 4 seconds to load, the visitor will leave it. Headless prevents that from happening.
+
+**+ The right tools** — the APIs allow you to add whatever you want with pre-built integrations. That gives the developers full control of how the end-product will look like but also what environment and framework they work within.
+
+**+ Time to market** — with headless commerce, businesses can react quickly to changes.
+
+**+ Automated touchpoints** — payment, shipping procedures, and other commerce processes can be easily automated for even better customer experience
+
+**+ Higher security** — because the headless as a development ecosystem is less vulnerable to outside breaches, the safety of your website and client information is ensured.
+
+**+ Better control** — the separation of back-end from front-end help to save time; you don't have to find lines of code, interfere with the databases. The management is much easier and straightforward.
+
+**+ Easy content management** — simple to use admin for content editing, product management, and visual [e-commerce website design](https://naturaily.com/blog/how-to-pick-the-best-ecommerce-website-design-company).
+
+**+ Omnichannel delivery** — multi-channel servicing is on the rise. People want to buy more and quicker via different channels. Headless allows you to deliver your site to any device connected to the web, be it a smartphone, smartwatch, laptop, or tablet.
+
+**+ Staying ahead of competitors** — quick change, embracing innovation, tailored customer experience, high performance, and flexibility — you get it all when using headless technology. That helps you become a serious competitor for other brands from your niche.
+
+**+ SEO-friendly** — Google and other web browsers like well-performing, fast, and secure pages. Headless gives you all these elements at once.
 
 Cons:
 
-\- **Requires technical skills** — you need to have a front-end developer, or an entire team if you're building a large e-commerce site
+**- Requires technical skills** — you need to have a front-end developer, or an entire team if you're building a large e-commerce site
 
-\- **Complex design** — if you're looking for a simple solution that doesn't require lots of customization and personalization, headless may not be right for your business.
+**- Complex design** — if you're looking for a simple solution that doesn't require lots of customization and personalization, headless may not be right for your business.
 
-\- **Higher cost of dev teams** — in [e-commerce development](https://naturaily.com/services/ecommerce/custom-development), when building a complex platform with many features, you may need to hire many people. And the more developers you hire to build and maintain your system, the higher the costs.
+**- Higher cost of dev teams** — in [e-commerce development](https://naturaily.com/services/ecommerce/custom-development), when building a complex platform with many features, you may need to hire many people. And the more developers you hire to build and maintain your system, the higher the costs.
 
-\- **More content to manage** — managing content with headless is a bit like adding another smaller piece to the puzzle. It gets bigger and requires more management.
+**- More content to manage** — managing content with headless is a bit like adding another smaller piece to the puzzle. It gets bigger and requires more management.
 
 Overall, the pros outweigh the cons. Using the API-driven architecture offers many more positive aspects than sticking to the classical, old-fashioned monolithic one.
 
