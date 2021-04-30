@@ -20,11 +20,20 @@ text-preview: >-
   from traditional commerce. Many headless storefront platforms embrace the
   possibilities offered by this technology.
 ---
-
-
-```
-
-```
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": {
+    "@type": "Question",
+    "name": "What Is Headless E-commerce?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Headless may seem a complicated concept behind which lies an advanced technology. But in reality, the concept of \"headless\" is simple. It's decoupling (separating) the front-end of your system from the back-end. That allows you to create the architecture just the way you'd like it to be."
+    }
+  }
+}
+</script>
 
 **Headless e-commerce becomes more popular. Since it gives you more flexibility and allows for a personalized user experience, it may be a good idea to switch from traditional commerce. Many [headless storefront platforms](https://naturaily.com/blog/next-js-commerce-vue-storefront-saleor-magento-pwa-studio-modern-headless-storefront-platforms-compared) embrace the possibilities offered by this technology.**
 
