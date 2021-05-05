@@ -18,7 +18,7 @@
   
   &__title-text {
     z-index: 2;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 48px;
     color: $color-global-font;
   
@@ -76,7 +76,6 @@
 
     &__title-text {
       width: 300px;
-      font-size: 30px;
 
       &--nonbreak {
         word-break: keep-all;
@@ -200,7 +199,7 @@
     }
   
     &__title {
-      width: 550px;
+      width: 570px;
       
       &-text {
         font-size: 48px;

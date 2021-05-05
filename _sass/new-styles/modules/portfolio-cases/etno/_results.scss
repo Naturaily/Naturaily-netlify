@@ -6,7 +6,8 @@
 
   .case__step,
   &__intro,
-  &__columns {
+  &__columns,
+  &__numbers-header {
     padding: 0 30px;
   }
 
@@ -34,7 +35,7 @@
     margin: 25px 0;
   }
 
-  &__numbers {
+  &__progress {
     &-header {
       padding: 0 30px;
     }
@@ -135,6 +136,29 @@
   &__columns-left {
     margin: 25px 0;
   }
+
+  &__numbers {
+    margin-top: 65px;
+
+    &-number {
+      font-size: 56px;
+      color: $color-secondary;
+    }
+
+    &-text {
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .custom-carousel__tabs {
+      margin: 0;
+
+      &-tab {
+        padding: 30px 30px 10px;
+      }
+    }
+  }
 }
 
 @media (min-width: 576px) {
@@ -145,8 +169,9 @@
     .case__step,
     &__intro,
     &__columns,
-    &__numbers-header,
-    &__numbers-metric {
+    &__progress-header,
+    &__progress-metric,
+    &__numbers-header {
       padding-left: 0;
       padding-right: 0;
     }
@@ -157,7 +182,7 @@
       border-radius: 8px;
     }
 
-    &__numbers-metric__data-initial {
+    &__progress-metric__data-initial {
       &::before {
         transform: translateX(-50px);
         width: 90px;
@@ -199,7 +224,7 @@
       margin: 65px 0;
     }
 
-    &__numbers {
+    &__progress {
       &-header {
         margin-bottom: 40px;
       }
@@ -248,6 +273,22 @@
         padding-left: 25px;
       }
     }
+
+    &__numbers {
+      margin-top: 80px;
+
+      .custom-carousel__tabs {
+        display: flex;
+        flex-flow: row wrap;
+        padding-top: 50px;
+  
+        &-tab {
+          box-sizing: border-box;
+          width: 25%;
+          padding: 0;
+        }
+      }
+    }
   }
 }
 
@@ -267,7 +308,7 @@
       margin-top: 100px;
     }
 
-    &__numbers-metric__data {
+    &__progress-metric__data {
       margin-left: 25px;
     }
 
@@ -285,7 +326,7 @@
 }
 
 @media (min-width: 1200px) {
-  .etno-results__numbers {
+  .etno-results__progress {
     padding-right: 90px;
 
     &-metric__data {
