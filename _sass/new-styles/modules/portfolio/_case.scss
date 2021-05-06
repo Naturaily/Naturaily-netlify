@@ -108,6 +108,26 @@
     width: 50%;
     padding: 50px 15px;
 
+    &--full {
+      display: flex;
+      flex-flow: row nowrap;
+      width: 100%;
+
+      .portfolio-case {
+        &__left, &__right {
+          width: 50%;
+        }
+
+        &__left {
+          padding-right: 15px;
+        }
+
+        &__right {
+          padding-left: 15px;
+        }
+      }
+    }
+
     &__header--long {
       height: 105px;
       font-size: 1.5em;
@@ -165,5 +185,15 @@
 
   .portfolio-case {
     padding: 50px 65px;
+
+    &--full .portfolio-case {
+      &__left {
+        padding-right: 65px;
+      }
+
+      &__right {
+        padding-left: 65px;
+      }
+    }
   }
 }
