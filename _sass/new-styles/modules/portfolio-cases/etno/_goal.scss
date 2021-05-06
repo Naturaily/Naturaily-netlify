@@ -44,11 +44,19 @@
 
   &__picture {
     order: 1;
+    position: relative;
+    transform: translateX(-39%);
+    width: 200%;
+    padding-bottom: 60%;
     margin: 25px 0;
+    overflow: hidden;
 
     img {
-      width: 200%;
-      transform: translateX(-39%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
     }
   }
 }
@@ -65,9 +73,14 @@
       padding: 0;
     }
 
-    &__picture img {
-      width: 100%;
+    &__picture {
       transform: none;
+      width: 100%;
+      padding-bottom: 30%;
+      
+      img {
+        border-radius: 8px;
+      }
     }
   }
 }
@@ -98,10 +111,6 @@
     &__picture {
       order: 3;
       margin-top: 65px;
-
-      img {
-        border-radius: 8px;
-      }
     }
   }
 }

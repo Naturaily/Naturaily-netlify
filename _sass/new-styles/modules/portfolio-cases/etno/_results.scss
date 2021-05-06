@@ -30,9 +30,20 @@
   }
 
   &__picture {
+    position: relative;
     width: 200%;
     transform: translateX(-30%);
     margin: 25px 0;
+    padding-bottom: 60%;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+    }
   }
 
   &__progress {
@@ -177,9 +188,13 @@
     }
 
     &__picture {
-      width: 100%;
       transform: none;
-      border-radius: 8px;
+      width: 100%;
+      padding-bottom: 30%;
+      
+      img {
+        border-radius: 8px;
+      }
     }
 
     &__progress-metric__data-initial {
