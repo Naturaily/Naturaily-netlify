@@ -4,15 +4,18 @@
   </div>
   <script type="text/javascript" src="https://form.jotformeu.com/jsform/92513454424353?jobType={{page.title}}"></script>
   <script type="text/javascript">
-    window.addEventListener('load', () => {
-      $('#scrollToForm').click((e) => {
-      	e.preventDefault();
+    document
+      .getElementById('scrollToForm')
+      .addEventListener('click', (e) => {
+        e.preventDefault();
+        const hash = e.target.hash;
+        const target = document.querySelector(hash);
 
-      	$('body, html').animate({
-      		scrollTop: $($(e.target).attr('href')).offset().top
-      	}, 500);
-      });
-    });
+        window.scrollTo({
+          top: target.offsetTop,
+          behavior: "smooth"
+        });
+      })
   </script>
   <a href="/gdpr" class="form-gdpr">
     Check out information related to the processing of personal data
