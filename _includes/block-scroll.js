@@ -1,51 +1,40 @@
-window.addEventListener('load', () => {
-  var didScroll,
-      lastScrollTop = 0,
-      delta = 5,
-      navbarHeight = jQuery('#checkbox, #mobileSpan').outerHeight();
+const hamburgerIcon = document.getElementById('mobileSpan');
+const hamburgerIconHeight = hamburgerIcon.offsetHeight;
+const navigation = document.querySelector('[data-menu]');
+let lastScrollTop = 0;
 
-  jQuery('#checkbox').on('click', function() {
-    if (jQuery('[data-menu]').hasClass('active')) {
-      jQuery('[data-menu]').removeClass('active');
-    } else {
-      jQuery('[data-menu]').addClass('active');
+const throttle = (fn, wait) => {
+  let time = Date.now();
+
+  return () => {
+    if ((time + wait - Date.now()) < 0) {
+      fn();
+      time = Date.now();
     }
-  });
-
-  jQuery('#mobileSpan').click(function(){
-  	jQuery(this).toggleClass('open');
-    jQuery('#checkbox').click();
-  });
-
-  jQuery(window).scroll(function(event){
-    didScroll = true;
-  });
-
-  setInterval(function() {
-    if (didScroll) {
-      hasScrolled();
-      didScroll = false;
-    }
-  }, 250);
-
-  function hasScrolled() {
-    var st = jQuery(this).scrollTop();
-
-    if(Math.abs(lastScrollTop - st) <= delta)
-    return;
-
-    if (st > lastScrollTop && st > navbarHeight){
-      jQuery('#checkbox, #mobileSpan').removeClass('nav-down').addClass('nav-up');
-      jQuery("[data-menu]").removeClass('active');
-      jQuery("#mobileSpan").removeClass('open');
-    } else {
-      if(st + jQuery(window).height() < jQuery(document).height()) {
-        jQuery('#checkbox, #mobileSpan').removeClass('nav-up').addClass('nav-down');
-        jQuery("[data-menu]").removeClass('active');
-        jQuery("#mobileSpan").removeClass('open');
-      }
-    }
-
-    lastScrollTop = st;
   }
-}, { passive: true });
+}
+
+const hasScrolled = () => {
+  const scrollTop = window.scrollY;
+  const scrollThrottle = 40;
+
+  if (Math.abs(lastScrollTop - scrollTop) <= scrollThrottle) return;
+
+  if (scrollTop > lastScrollTop && scrollTop > hamburgerIconHeight){
+    hamburgerIcon.classList.add('nav-up');
+  } else if (scrollTop + window.innerHeight < document.body.clientHeight) {
+    hamburgerIcon.classList.remove('nav-up');
+  }
+
+  navigation.classList.remove('active');
+  hamburgerIcon.classList.remove('open');
+
+  lastScrollTop = scrollTop;
+}
+
+hamburgerIcon.addEventListener('click', () => {
+  hamburgerIcon.classList.toggle('open');
+  navigation.classList.toggle('active');
+})
+
+window.addEventListener('scroll', throttle(hasScrolled, 150));
