@@ -16,11 +16,15 @@ layout: default
         <span class="post-breadcrumb post-breadcrumb--inactive">{{ page.title | escape }}</span>
       </div>
       {% if page.image %}
-        <img src="/assets/images/loader.gif" data-src="{{page.image}}" alt="Post image">
+        <div class="post-cover">
+          <img src="/assets/images/loader.gif" data-src="{{page.image}}" alt="Post image">
+        </div>
       {% endif %}
       <div class="post-meta">
         {% if page.authors.avatar %}
-          <img class="avatar" src="/assets/images/loader.gif" data-src="{{ page.authors.avatar }}" alt="Author avatar">
+          <div class="avatar">
+            <img src="/assets/images/loader.gif" data-src="{{ page.authors.avatar }}" alt="Author avatar">
+          </div>
         {% endif %}
         <p class="author">
           {% if page.authors.label %}

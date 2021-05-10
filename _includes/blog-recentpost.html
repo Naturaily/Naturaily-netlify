@@ -2,7 +2,9 @@
   <h3>See recent posts</h3>
   {% for post in site.posts limit:3 %}
     <a href="{{ post.url }}" class="list-group-item">
-      <img src="/assets/images/loader.gif" data-src="{{ post.image }}" alt="{{ post.title }}">
+      <div class="recent-post--image">
+        <img src="/assets/images/loader.gif" data-src="{{ post.image }}" alt="{{ post.title }}">
+      </div>
       {{ post.title }}
     </a>
   {% endfor %}
