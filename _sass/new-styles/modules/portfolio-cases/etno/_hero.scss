@@ -49,10 +49,10 @@
   
     &-img {
       position: relative;
-      top: 40px;
+      top: 50px;
       z-index: -1;
-      transform: translateX(-18%);
-      width: 150%;
+      transform: translateX(-12%);
+      width: 130%;
     }
   }
 }
@@ -100,7 +100,7 @@
       }
   
       &-img {
-        top: 160px;
+        top: 150px;
         transform: translateX(-30%);
         width: 550px;
       }
@@ -111,7 +111,6 @@
 @media (min-width: 811px) {
   .etno-hero {
     height: 520px;
-    overflow: visible;
 
     &__wrapper {
       padding-top: 150px;
@@ -142,9 +141,9 @@
 
       &-img {
         top: 70px;
-        left: -170px;
+        left: -100px;
         transform: none;
-        width: 750px;
+        width: 600px;
       }
     }
   }
@@ -186,7 +185,8 @@
 
       &-img {
         top: -35px;
-        width: 900px;
+        left: -70px;
+        width: 740px;
       }
     }
   }
@@ -215,7 +215,8 @@
 
       &-img {
         top: -20px;
-        width: 1000px;
+        left: -50px;
+        width: 820px;
       }
     }
   }
