@@ -18,8 +18,16 @@
       </div>
     {% endunless %}
 
-    <script src="/assets/js/jquery-3.5.0.min.js"></script>
-    <script src="/assets/js/js-cookie.js"></script>
+    {% unless page.url == "/vue-resources"
+           or page.url == "/career-offers"
+           or page.url contains "/join"
+           or page.url contains "/blog"
+           or page.url == "/gdpr"
+           or page.url == "/privacy-policy" %}
+      <script src="/assets/js/jquery-3.5.0.min.js"></script>
+    {% endunless %}
+    <!-- lighter jquery version -->
+    <!-- <script src="/assets/js/jquery-3.6.0.slim.min.js"></script> -->
 
     {% if page.url == "/careers" %}
       <script src="/assets/js/slick.min.js"></script>

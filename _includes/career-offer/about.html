@@ -15,7 +15,10 @@
     {% if !page.about-image.empty %}
       <img class="image about_image" src="/assets/images/loader.gif" data-src="{{page.about-image}}" alt="career">
     {% else %}
-      <img class="image about_image" src="/assets/images/loader.gif" data-src="/assets/images/careers_main_photo.webp" alt="office photo">
+      <picture>
+        <source media="(min-width: 541px)" class="services-testimonials_image" srcset="/assets/images/careers_main_photo.webp" alt="office photo">
+        <img class="image about_image" src="/assets/images/careers_main_photo_small.webp" alt="office photo">
+      </picture>
     {% endif %}
   </div>
 </section>
