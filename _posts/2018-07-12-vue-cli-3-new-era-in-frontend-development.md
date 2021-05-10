@@ -25,7 +25,7 @@ Not so long ago, **Vue CLI** finally changed status from '_Beta_' to '_Release C
 
 During Vuejs meeting in Amsterdam February of 2018, Evan You, the creator of Vue have pointed few problems with previous versions of the Vue CLI.
 
-<center><iframe width="100%" height="450" src="https://www.youtube.com/embed/TRJMT9yjONQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+{% youtube TRJMT9yjONQ %}
 
 According to his talk, those problems were:
 

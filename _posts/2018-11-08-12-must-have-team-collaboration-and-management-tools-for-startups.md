@@ -33,7 +33,7 @@ Amazing tools for startups you’ve probably never heard of.
 
 Teams from all around the world say that if you like Trello then you will love Monday. Monday lets you manage a variety of tasks, broken down into manageable projects that you are in complete control of. The tool makes it easy for startups and teams to keep track of the projects by creating boards that show them in current or completed stages. It’s easy to create a priority and set a deadline.
 
-<iframe width="100%" height="450px" src="https://www.youtube.com/embed/1UbaEcto56k" frameborder="0" allowfullscreen></iframe>
+{% youtube 1UbaEcto56k %}
 
 Check it out here: [Monday](https://monday.com/){:rel="nofollow"}{:target="_blank"}
 
@@ -49,7 +49,7 @@ Check it out here: [Carrd.co](https://carrd.co/){:rel="nofollow"}{:target="_blan
 
 So you know how Slack is the dominant chat app for teams? It’s always good to have an alternative or competition. Meet HeySpace. It’s actually a startup from the city we’re from! It’s quite an interesting take on Slack as each message can be converted into a Trello-like task. With HeySpace you’re getting the familiar experience with cool, additional features. On one screen you’re getting both team chats and task board to maximize your workflow and productivity. You don’t have to jump between tabs and apps, everything’s in one place. HeySpace is certainly an app where things will get done.
 
-<iframe width="100%" height="450px" src="https://www.youtube.com/embed/RrUFYHsK3Ms" frameborder="0" allowfullscreen></iframe>
+{% youtube RrUFYHsK3Ms %}
 
 Check it out here: [HeySpace](https://hey.space/){:rel="nofollow"}{:target="_blank"}
 
@@ -57,7 +57,7 @@ Check it out here: [HeySpace](https://hey.space/){:rel="nofollow"}{:target="_bla
 
 AirTable is a flexible, web-based application that reinvents the way you think of spreadsheets. It’s an easy-to-use database with a familiar look of spreadsheet you already know from Google Sheets or Microsoft Excel but with a twist. Each cell is a record that can be adjusted for your needs. Most common uses for AirTable include planners, calendars, time trackers or business management - everything within one app! It’s an extremely interesting collaboration and management tool for startup and teams that you have to check out!
 
-<iframe width="100%" height="450px" src="https://www.youtube.com/embed/r0lsyTaAuJE" frameborder="0" allowfullscreen></iframe>
+{% youtube r0lsyTaAuJE %}
 
 Check it out here: [AirTable](https://airtable.com/){:rel="nofollow"}{:target="_blank"}
 
@@ -65,7 +65,7 @@ Check it out here: [AirTable](https://airtable.com/){:rel="nofollow"}{:target="_
 
 Coda is a management and collaboration tool that was created with product teams and startups in mind. It is a combination of tools you probably already know and use, such as Trello, Google Docs, Sheets, Keep and so on. Whole management thing happens within only one app, no need to jump from a tab to another. It’s flexible, so you can tailor the complexity of your project to you and your needs.
 
-<iframe width="100%" height="450px" src="https://www.youtube.com/embed/Wgtjaxa43e8" frameborder="0" allowfullscreen></iframe>
+{% youtube Wgtjaxa43e8 %}
 
 Check it out here: [Coda](https://coda.io/){:rel="nofollow"}{:target="_blank"}
 
@@ -73,7 +73,7 @@ Check it out here: [Coda](https://coda.io/){:rel="nofollow"}{:target="_blank"}
 
 Zapier allows you to automate your tasks by connecting apps you use together. This is a great tool for startups and teams because it makes your job much easier as it takes many manual tasks off your hands. The connection between apps it provides is like magic. You can, for example, get notified on Slack about a form being filled out on your website or upload every new GMail attachment straight to cloud service of your choice. Possibilities are literally endless.
 
-<iframe width="100%" height="450px" src="https://www.youtube.com/embed/yG90m3H_kgA" frameborder="0" allowfullscreen></iframe>
+{% youtube yG90m3H_kgA %}
 
 Check it out here: [Zapier](https://zapier.com/){:rel="nofollow"}{:target="_blank"}
 

@@ -3,9 +3,19 @@
   font-weight: 300;
 
   .post-image {
+    position: relative;
     width: 100%;
     margin-bottom: 10px;
+    padding-bottom: 39%;
     border-radius: 5px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 
   hr {
@@ -123,10 +133,21 @@
     &:hover {
       text-decoration: none;
     }
+  }
+
+  .recent-post--image {
+    position: relative;
+    width: 100%;
+    padding-bottom: 39%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    overflow: hidden;
 
     img {
-      margin-bottom: 15px;
-      border-radius: 5px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
 }
@@ -206,6 +227,5 @@
     display: block;
     grid-column: 2;
     margin-bottom: 40px;
-
   }
 }
