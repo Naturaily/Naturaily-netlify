@@ -56,7 +56,7 @@ React Native attempts to bring the best developer experience by saving time it t
 
 A video is worth a thousand words so here’s a comparison between Live Reload and Hot Reload:
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/2uQzVi-KFuc" frameborder="0" allowfullscreen></iframe>
+{% youtube 2uQzVi-KFuc %}
 
 ## What are the disadvantages of React Native?
 

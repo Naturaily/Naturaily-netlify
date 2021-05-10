@@ -40,7 +40,7 @@ Let’s start with Polly. Polly is a tool that allows us to create quick polls o
 
 We can use it to measure the mood in our team or ask other collective questions like “Where should we go on our next integration trip?” or “Pizza or tacos?”.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/lb2EQDJ-biM" frameborder="0" allowfullscreen></iframe>
+{% youtube lb2EQDJ-biM %}
 
 <p></p>
 
@@ -53,7 +53,7 @@ Do you still ask your employees to make a special paper to take a leave of absen
 Your employees can make online leave requests which you and your HR team will later get via email or notification. The request shows how many people will be having a leave at that time so you can make a better decision.
 It features paid time off tracking, automatic leave calculation and multilevel approval process. Everything is done within the realm of Slack and Calamari’s online platform.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/LKPE5Z3HVYI" frameborder="0" allowfullscreen></iframe>
+{% youtube LKPE5Z3HVYI %}
 
 Calamari can also keep a record of the time of work of your employees by asking them to sign in to Slack or check-in at workplace using Calamari’s app.
 
@@ -113,7 +113,7 @@ Do you often find yourself taking screenshots just to send them once in a single
 
 The process of saving screenshots, annotating them, and then sharing them with your team doesn’t have to be so manual and complicated. Marker is here to help – an incredibly useful Chrome extension for your employees who regularly share screenshots with teammates on Slack.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/7XKhmi9ULno" frameborder="0" allowfullscreen></iframe>
+{% youtube 7XKhmi9ULno %}
 
 Capturing your screen, annotating and sending it to a person or channel on Slack has never been this easy. Marker has many uses – from reporting typos and bugs to sharing ideas or interesting articles.
 
