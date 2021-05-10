@@ -1,0 +1,100 @@
+<div class="footer-columns">
+  <div class="footer-column footer-column--services">
+    <p class="footer-column__header">Services</p>
+    <nav class="footer-column__links">
+      <p class="footer-column__links-item">
+        Consulting
+      </p>
+      <a class="footer-column__links-item" href="/services/webdevelopment">
+        Web development
+      </a>
+      <a class="footer-column__links-item" href="/services/webdevelopment/pwa">
+        PWA development
+      </a>
+      <a class="footer-column__links-item" href="/services/product-design">
+        Product design
+      </a>
+      <a class="footer-column__links-item" href="/services/cloud-adoption">
+        Cloud Adoption
+      </a>
+      <a class="footer-column__links-item" href="/services/ecommerce">
+        E-commerce development
+      </a>
+      <p class="footer-column__links-item">
+        Custom e-commerce Development
+      </p>
+      <a class="footer-column__links-item" href="/services/ecommerce/shopify-development">
+        Shopify development
+      </a>
+      <a class="footer-column__links-item" href="/services/iot-development">
+        IoT development
+      </a>
+    </nav>
+    <p class="footer-column__header">Resources</p>
+    <nav class="footer-column__links">
+      <a class="footer-column__links-item" href="/vue-resources">
+        Vue.js
+      </a>
+    </nav>
+  </div>
+  <div class="footer-column footer-column--offers">
+    <p class="footer-column__header">Job offers</p>
+    <ul class="footer_list footer_list--jobs">
+
+      {% assign job_offers = site.career | where: "published", "true"%}
+
+      {% for job_offer in job_offers %}
+        <li class="footer-column__links-item">
+          <a href="{{ job_offer.url }}">{{ job_offer.title }}</a>
+        </li>
+      {% endfor %}
+      
+    </ul>
+  </div>
+  <div class="footer-column footer-column--development">
+    <p class="footer-column__header">Development</p>
+    <nav class="footer-column__links">
+      <a class="footer-column__links-item" href="/services/webdevelopment/jamstack">
+        Jamstack development
+      </a>
+      <a class="footer-column__links-item" href="/services/webdevelopment/ruby-on-rails-development">
+        Ruby on Rails development
+      </a>
+      <a class="footer-column__links-item" href="/services/webdevelopment/react-js-development">
+        React.js development
+      </a>
+      <a class="footer-column__links-item" href="/services/webdevelopment/node-js-development">
+        Node.js development
+      </a>
+      <a class="footer-column__links-item" href="/services/webdevelopment/vue-js-development">
+        Vue.js development
+      </a>
+    </nav>
+  </div>
+  <div class="footer-column footer-column--portfolio">
+    <p class="footer-column__header">Case studies by Industries</p>
+    <nav class="footer-column__links">
+      <a class="footer-column__links-item" href="/portfolio/work-for-impact">
+        NGO
+      </a>
+      <a class="footer-column__links-item" href="/portfolio/lvcloud">
+        Energy
+      </a>
+      <a class="footer-column__links-item" href="/portfolio/artinfo">
+        Art
+      </a>
+      <a class="footer-column__links-item" href="/portfolio/woolman">
+        Shopify
+      </a>
+      <a class="footer-column__links-item" href="/portfolio/awn">
+        Ecommerce
+      </a>
+      <a class="footer-column__links-item" href="/portfolio/retention-rocket">
+        MarTech
+      </a>
+      <a class="footer-column__links-item" href="/services/webdevelopment/vue-js-development">
+        FinTech
+      </a>
+    </nav>
+  </div>
+</div>

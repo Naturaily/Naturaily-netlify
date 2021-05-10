@@ -13,9 +13,7 @@
     </div>
 
     {% unless page.url contains "/get-an-estimate" %}
-      <div class="l-footer">
-        {% include footer.html %}
-      </div>
+      {% include footer/index.html %}
     {% endunless %}
 
     {% if page.url == "/get-an-estimate"
