@@ -18,7 +18,8 @@
       </div>
     {% endunless %}
 
-    {% if page.url == "/get-an-estimate" %}
+    {% if page.url == "/get-an-estimate"
+       or page.url == "/about" %}
       <script src="/assets/js/jquery-3.6.0.slim.min.js"></script>
     {% else %}
       {% unless page.url == "/vue-resources"

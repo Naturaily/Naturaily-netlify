@@ -9,7 +9,10 @@ window.addEventListener('load', () => {
 
   $('[data-page-navigation]').on('click', 'a', function(e){
     e.preventDefault();
-    $('html, body').animate({scrollTop:getRelatedContent(this).offset().top})
+    window.scrollTo({
+      top: getRelatedContent(this).offset().top,
+      behavior: "smooth"
+    });
   });
 
   $('[data-page-navigation]').on('click', '[data-dropdown-show]', function(e){
