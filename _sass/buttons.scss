@@ -128,6 +128,45 @@
   }
 }
 
+.btn-bordered-white {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color-white;
+  background: linear-gradient(270deg, $color-secondary 0%, $color-secondary 50%, $color-white 0%, $color-white 100%);
+  background-position: 100% 0%;
+  background-size: 200%;
+  border: 1px solid $color-white;
+  border-radius: 30px;
+  transition: background-position .4s, color .2s;
+
+  svg {
+    display: flex;
+    align-items: center;
+    height: 11px;
+    padding-top: 2px;
+
+    .arrow-line {
+      fill: $color-white;
+      transition: fill .4s;
+    }
+  }
+
+  &:hover {
+    transform: none;
+    background-position: 0 0;
+    color: $color-secondary;
+
+    svg .arrow-line {
+      fill: $color-secondary;
+    }
+  }
+}
+
 .btn-white {
   max-width: 150px;
   margin-left: -27px;

@@ -1,0 +1,117 @@
+.footer-secondary {
+  margin-top: 50px;
+  background-color: $color-secondary;
+
+  &__awards-header, &__knowledge-header {
+    font-size: 24px;
+    line-height: 24px;
+    color: $color-white;
+  }
+
+  &__awards {
+    padding: 55px 20px 50px;
+
+    &-header {
+      margin-bottom: 20px;
+    }
+
+    &-image {
+      display: flex;
+      align-items: flex-end;
+      height: 70px;
+      margin-bottom: 25px;
+    }
+
+    &-name, &-text {
+      font-size: 14px;
+      line-height: 18px;
+      color: $color-white;
+    }
+
+    &-name {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    &-text {
+      font-weight: 200;
+    }
+  
+    &-badges {
+      display: flex;
+      flex-flow: row wrap;
+
+      &__cssda, &__mobile, &__mention, &__clutch {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &__cssda, &__mobile {
+        padding-bottom: 35px;
+      }
+
+      &__cssda .footer-secondary__awards-image img {
+        height: 50px;
+      }
+  
+      &__mobile, &__mention {
+        .footer-secondary__awards-image img {
+          height: 20px;
+        }
+      }
+
+      &__clutch .footer-secondary__awards-image img {
+        height: 100%;
+      }
+    }
+  }
+
+  &__knowledge {
+    padding-bottom: 50px;
+
+    &-header {
+      padding: 20px 20px 40px;
+    }
+
+    &-posts {
+      &__item {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+        font-size: 14px;
+        line-height: 24px;
+        border-top: 1px solid $color-footer-border;
+        color: $color-white;
+
+        &:first-of-type {
+          border-top: none;
+        }
+      }
+
+      &__right {
+        height: auto;
+        max-height: 0;
+        opacity: 0;
+        border-top: 1px solid $color-footer-border;
+        overflow: hidden;
+        transition: all .4s ease-in-out;
+
+        &.active {
+          max-height: 600px;
+          opacity: 1;
+        }
+      }
+    }
+
+    .btn {
+      width: 280px;
+      margin: 20px 20px 0;
+
+      &.active {
+        opacity: 0;
+        margin-bottom: -70px;
+        pointer-events: none;
+      }
+    }
+  }
+}

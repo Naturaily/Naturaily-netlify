@@ -1,56 +1,78 @@
 <div class="footer-secondary">
   <div class="footer-secondary__wrapper">
-    <div class="footer-awards">
-      <p class="footer-awards__header">Awards</p>
-      <div class="footer-awards__badges">
-        <div class="footer-awards__badges-cssda">
-          <div class="footer-awards__badges-image">
+    <div class="footer-secondary__awards">
+      <p class="footer-secondary__awards-header">Awards</p>
+      <div class="footer-secondary__awards-badges">
+        <div class="footer-secondary__awards-badges__cssda">
+          <div class="footer-secondary__awards-image">
             <img
               src="/assets/images/loader.gif"
               data-src="/assets/images/footer/cssda.webp"
               alt="CSSDA logo"
             />
           </div>
-          <p class="footer-awards__badges-name">CSS Design Awards</p>
-          <p class="footer-awards__badges-text">Special design kudos</p>
+          <p class="footer-secondary__awards-name">CSS Design Awards</p>
+          <p class="footer-secondary__awards-text">Special design kudos</p>
         </div>
-        <div class="footer-awards__badges-mobile">
-          <div class="footer-awards__badges-image">
+        <div class="footer-secondary__awards-badges__mobile">
+          <div class="footer-secondary__awards-image">
             <img
               src="/assets/images/loader.gif"
               data-src="/assets/images/footer/awwwards.webp"
               alt="Awwwards logo"
             />
           </div>
-          <p class="footer-awards__badges-name">Awwwards</p>
-          <p class="footer-awards__badges-text">Mobile excellence</p>
+          <p class="footer-secondary__awards-name">Awwwards</p>
+          <p class="footer-secondary__awards-text">Mobile excellence</p>
         </div>
-        <div class="footer-awards__badges-mention">
-          <div class="footer-awards__badges-image">
+        <div class="footer-secondary__awards-badges__mention">
+          <div class="footer-secondary__awards-image">
             <img
               src="/assets/images/loader.gif"
               data-src="/assets/images/footer/awwwards.webp"
               alt="Awwwards logo"
             />
           </div>
-          <p class="footer-awards__badges-name">Awwwards</p>
-          <p class="footer-awards__badges-text">Honorable mention</p>
+          <p class="footer-secondary__awards-name">Awwwards</p>
+          <p class="footer-secondary__awards-text">Honorable mention</p>
         </div>
-        <div class="footer-awards__badges-clutch">
-          <div class="footer-awards__badges-image">
+        <div class="footer-secondary__awards-badges__clutch">
+          <div class="footer-secondary__awards-image">
             <img
               src="/assets/images/loader.gif"
               data-src="/assets/images/footer/clutch.webp"
               alt="Clutch badge"
             />
           </div>
-          <p class="footer-awards__badges-name">Clutch</p>
-          <p class="footer-awards__badges-text">Top developers Poland</p>
+          <p class="footer-secondary__awards-name">Clutch</p>
+          <p class="footer-secondary__awards-text">Top developers Poland</p>
         </div>
       </div>
     </div>
-    <div class="footer-knowledge"> 
-      <p class="footer-knowledge__header">Knowledge</p>
+    <div class="footer-secondary__knowledge"> 
+      <p class="footer-secondary__knowledge-header">Knowledge</p>
+      <div class="footer-secondary__knowledge-posts">
+        <div class="footer-secondary__knowledge-posts__left">
+          {% for post in site.posts limit: 6 %}
+            <a class="footer-secondary__knowledge-posts__item" href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+          {% endfor %}
+        </div>
+        <div class="footer-secondary__knowledge-posts__right" data-acc="footer-more" data-acc-target="footer-more">
+          {% for post in site.posts limit: 11 %}
+            {% if forloop.index > 6 %}
+              <a class="footer-secondary__knowledge-posts__item" href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <button class="btn btn-bordered-white" data-acc="footer-more" data-acc-trigger="footer-more">
+        See more
+        {% svg /assets/images/btn-arrow.svg %}
+      </button>
     </div>
   </div>
 </div>
