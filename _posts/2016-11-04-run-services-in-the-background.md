@@ -8,11 +8,11 @@ slug: ruby-on-rails-background-services
 date: '2016-11-04 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/janpol.png
+  avatar: /assets/images/janpol.webp
   label: Jan Wieczorkowski
   value: author-8
   slug: jan-wieczorkowski
-image: /assets/images/random_console.png
+image: /assets/images/random_console.webp
 text-preview: >-
   Some time ago [Marcin wrote about basic design patterns in Ruby on
   Rails](https://naturaily.com/blog/ruby-on-rails-design-patterns).
@@ -106,4 +106,4 @@ It is very easy, nothing fancy. However, there is a hidden message: you have to 
 
 Thank you! Bye!
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

@@ -10,9 +10,9 @@ category: JavaScript development
 authors:
   label: Agnieszka Bugajska
   value: author-13
-  avatar: /assets/images/aga.png
+  avatar: /assets/images/aga.webp
   slug: agnieszka-bugajska
-image: /assets/images/backbone_lol.png
+image: /assets/images/backbone_lol.webp
 text-preview: >-
   What is Backbone Local.Storage? Backbone Local.Storage is a method which helps
   frontend developers to store the data locally. When someone starts making a

@@ -9,11 +9,11 @@ layout: post
 date: '2020-02-03 10:39:00 +0200'
 category: Software development
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
-image: /assets/images/Why Organisations Fails at Implementing IT Projects.jpg
+image: /assets/images/Why Organisations Fails at Implementing IT Projects.webp
 text-preview: >
   According to a Gallup study, only 2.5% of companies complete 100% of their
   projects. The numbers are shocking but they show the scale of the problem.
@@ -204,4 +204,4 @@ Large organizations can succeed at implementing IT projects by **learning and ad
 
 <br>
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

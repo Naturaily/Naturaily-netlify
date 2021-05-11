@@ -8,7 +8,7 @@ description: >-
 layout: career-offer
 image: /assets/images/junior_marketing_specialist.png
 location:
-  - Wrocław
+  - Wroclaw
 who-we-are: >-
   **Every software house is a multi-element puzzle. For six years, we have been
   successfully constructing a team of people with complementary characters and
@@ -82,7 +82,7 @@ what-you-expect:
       contents: the flexibility of working hours
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław, surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw, surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a co-financed Multisport Card

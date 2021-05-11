@@ -9,12 +9,12 @@ layout: post
 date: '2019-12-16 11:14:59 +0200'
 category: Shopify development
 authors:
-  avatar: /assets/images/mateusz-pliszka.jpg
+  avatar: /assets/images/mateusz-pliszka.webp
   label: Mateusz Pliszka
   value: author-28
   slug: mateusz-pliszka
 image: >-
-  /assets/images/5-main-benefits-of-implementing-pwa-storefront-technology-at-your-shopify-store-2.jpg
+  /assets/images/5-main-benefits-of-implementing-pwa-storefront-technology-at-your-shopify-store-2.webp
 text-preview: >-
   An online storefront is a frontend solution that can be connected to your
   Shopify store’s backend, letting you display the content in a smoother,
@@ -42,7 +42,7 @@ However, for medium and large stores with higher demand when it comes to design 
 
 With the **limitations of liquid** (which requires some degree of specialized knowledge) and Shopify automatically adding particular elements to the theme, **frontend design can become quite a pain** with development hours not resulting in actual monetary effects.
 
-{% image /assets/images/gymshark-checkout.png checkout checkout %}
+{% image /assets/images/gymshark-checkout.webp checkout checkout %}
 
 _Checkout at Gymshark.co Shopify store (Source: gymshark.co)._
 
@@ -62,7 +62,7 @@ Limited Shopify theme customization can also impact page speed optimization, whi
 
 Significant code alterations and image rendering are both essential steps on the road to successful loading time reductions. With Shopify theme limitations and liquid, **code minification becomes a challenge** or even impossible to apply in the real world.
 
-{% image /assets/images/page-speed-at-mvm-watches.png page-speed page-speed %}
+{% image /assets/images/page-speed-at-mvm-watches.webp page-speed page-speed %}
 
 _Page speed at MVMT Watches Shopify store's product page (Source: mvmtwatches.com)._
 
@@ -78,7 +78,7 @@ Page speed is at the heart of every e-commerce business. Not only will it make y
 
 With storefront, you get unlimited capabilities when it comes to code minification, image size optimization or creating smooth user experience animations. This can help you reduce the loading time by even 30%.
 
-{% image /assets/images/storefront-technology-structure.png Storefront Storefront %}
+{% image /assets/images/storefront-technology-structure.webp Storefront Storefront %}
 
 _Example Storefront integration structure (Source: vuestorefront.io)._
 
@@ -92,7 +92,7 @@ Implementing Google Structured Data snippets becomes easier, which will help you
 
 With Shopify checkout being significantly limited to the built-in admin modification (according to Shopify support, this is related to security reasons), a storefront integration will allow you to build a **completely custom checkout experience**.
 
-{% image /assets/images/zadig-voltaire-checkout.png checkout checkout %}
+{% image /assets/images/zadig-voltaire-checkout.webp checkout checkout %}
 
 _Custom checkout created using storefront technology at Zadig&Voltaire online store (Source: zadig-et-voltaire.com)._
 
@@ -102,7 +102,7 @@ The average abandonment rate is close to 70%, which makes the checkout experienc
 
 With storefront/PWA implementation, you will support mobile and offline experience among your customers. The storefront will **automatically cache the information about your website** for offline usage. It will also let you download a mobile app to your iPhone/Android desktop.
 
-{% image /assets/images/services/webdevelopment/pwa-applications-for-kubota.png pwa pwa %}
+{% image /assets/images/services/webdevelopment/pwa-applications-for-kubota.webp pwa pwa %}
 
 _An example of PWA application created for Kubota (Source: divante.co)._
 
@@ -126,4 +126,4 @@ With its open-source architecture, it is flexible enough and gets updated regula
 
 So, once you grow your store to the medium-size level, think about implementing it at your store to make sure you keep your business growing at a sustainable rate, staying up to date with new technology, and ensuring the best user experience for your customers. If you do, they’ll likely show their appreciation by converting into actual customers.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

@@ -7,11 +7,11 @@ slug: ruby-on-rails-apps
 date: '2017-12-07 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/wojciech.jpg
-  label: Wojciech Miśta
+  avatar: /assets/images/wojciech.webp
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
-image: /assets/images/ruby-is-cool.png
+image: /assets/images/ruby-is-cool.webp
 text-preview: >-
   Wondering what platform to use for your next startup project? When it comes to
   building MVPs, Ruby on Rails still remains the king of frameworks but not only
@@ -75,4 +75,4 @@ With 150M users, 500,000 stays per night, and 4M listings, Airbnb remains the le
 
 Did you know that the services we mentioned use Ruby on Rails? What would you add to our list? Share your thoughts with us in the comments!
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

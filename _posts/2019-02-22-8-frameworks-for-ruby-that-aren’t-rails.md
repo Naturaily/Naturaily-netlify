@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2019-02-22 01:24:47 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/epifany_bojanowska-2.jpg
+  avatar: /assets/images/epifany_bojanowska-2.webp
   label: Epifany Bojanowska
   value: author-22
   slug: epifany-bojanowska
-image: /assets/images/8-frameworks-ruby-not-rails.jpg
+image: /assets/images/8-frameworks-ruby-not-rails.webp
 text-preview: >-
   It’s common for a Ruby developer to only have experience with Rails and
   describe themselves as a Ruby on Rails developer. Since David Heinemeier
@@ -65,4 +65,4 @@ is technically not a framework but rather a **DSL** (domain-specific language) f
 
 Hopefully this round-up of some alternative Ruby frameworks will help expand your horizon. Chances are, you don’t always need a massive framework like Rails, and could sometimes use a micro one, like some of the aforementioned frameworks. That being said we’re still huge fans of [Ruby on Rails](https://naturaily.com/services/webdevelopment/ruby-on-rails-development){:target="_blank"}.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

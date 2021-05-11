@@ -8,13 +8,13 @@ layout: post
 date: '2020-02-06 08:56:00 +0200'
 category: Software development
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
 image: >-
   /assets/images/Enterprise Software Development_Why Should You Use an External
-  Team.jpg
+  Team.webp
 text-preview: >-
   Whether it’s a small scale project or full enterprise software development,
   there are some issues that are always present. Whether it's a lack of
@@ -124,4 +124,4 @@ Yet it’s also worth remembering that bringing in external teams is also an opp
 
 Software development isn’t just about adapting the technology - it’s also about adapting the wider business as well. And a helping hand in this journey is never a bad way to learn.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

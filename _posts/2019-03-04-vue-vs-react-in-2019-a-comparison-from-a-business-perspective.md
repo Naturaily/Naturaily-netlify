@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2019-03-05 12:55:17 +0200'
 category: JavaScript development
 authors:
-  avatar: /assets/images/wojciech.jpg
-  label: Wojciech Miśta
+  avatar: /assets/images/wojciech.webp
+  label: Wojciech Mista
   slug: wojciech-mista
   value: author-1
-image: /assets/images/vue-vs-react-business-perspective-v2.jpg
+image: /assets/images/vue-vs-react-business-perspective-v2.webp
 text-preview: >-
   At some point you have to choose the technological stack for your application.
   Vue vs React, which JavaScript framework should you use for software
@@ -32,7 +32,7 @@ React originated at Facebook and is still being developed there. With a lot of r
 
 Well, some of the developers who were looking for a new technology to learn, chose React simply because it launched earlier. Others were not really convinced, since Vue hasn’t had a similarly strong company backing it.
 
-{% image /assets/images/react-vs-vue-2019-job-postings.png Job-Postings Job-Postings %}
+{% image /assets/images/react-vs-vue-2019-job-postings.webp Job-Postings Job-Postings %}
 
 There are about 42% more projects utilizing React than Vue (source: [Builtwith](https://builtwith.com){:rel="nofollow"}{:target="_blank"}). On top of that, React Developers are in much more demand than Vue’s. It’s been proven by multiple sources such as LinkedIn, with 1:5 job offers ratio, and Indeed 1:12 ratio. According to a StackOverflow survey, **React is the 3rd most popular library among developers**. Similar data is presented on [StateOfJS](https://stateofjs.com){:rel="nofollow"}{:target="_blank"} - almost 65% of React developers have stated that they use React and would use it again in future projects - that’s the highest percentage out of all JavaScript Front-end frameworks.
 
@@ -40,7 +40,7 @@ The same source also shows an average salary of developers. **Vue.js developers 
 
 What does this mean for you? If you want to assemble your very own dev team, **it should be much easier to find good React programmers**. It’s also a safe bet if you want to learn new technologies and get into frontend development. Right now it doesn’t seem like this situation is going to change. On the other hand, **React.js development team may be more expensive than Vue.js**. It’s a key factor if you’re developing an MVP or have a limited budget.
 
-{% image /assets/images/vue-vs-react-npm-downloads-march-2019.jpg NPM-downloads NPM-downloads %}
+{% image /assets/images/vue-vs-react-npm-downloads-march-2019.webp NPM-downloads NPM-downloads %}
 
 Source: [npm-stat.com](https://npm-stat.com){:rel="nofollow"}{:target="_blank"}
 
@@ -104,4 +104,4 @@ React, a mature technology with a huge number of contributors. No wonder, it’s
 
 Vue is the new kid in town. It’s a young and fresh technology with no strong backing. It doesn’t mean that the project is not being actively developed - every day the project is being improved by hundreds of contributors. Statistics don’t lie, Vue is getting more and more popular among large companies, **2018 has been the best year for the framework by far**! Maybe the job market is not as great as React’s but it’s constantly growing, evolving and becoming more competitive. **Vue is a great option is you prefer simplicity and flexibility.**
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

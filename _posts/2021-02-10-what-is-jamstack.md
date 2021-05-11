@@ -8,11 +8,11 @@ layout: post
 date: '2021-02-10 03:57:30 +0200'
 category: Jamstack development
 authors:
-  avatar: /assets/images/Marta-Sulikowska-blog.png
+  avatar: /assets/images/Marta-Sulikowska-blog.webp
   label: Marta Sulikowska
   slug: marta-sulikowska
   value: author-33
-image: /assets/images/Blog_what_is_jamstack.png
+image: /assets/images/Blog_what_is_jamstack.webp
 text-preview: >-
   Jamstack is a revolutionary architecture for building apps and websites. It's
   versatile, modern, and gives you a lot of flexibility and freedom to create a
@@ -66,7 +66,7 @@ To sum it up, Jamstack gives you more elasticity in creating modern, user-friend
 
 Understanding how Jamstack works may not be easy, especially for non-tech people. So let's analyze the core functionalities to get to know it better and understand how exactly it works.
 
-![Jamstack infographic, JavaScript, APIs, Markup](/assets/images/Blog_jam_simple_image_javascript_apis_markup.png "Jamstack inforgraphic")
+{% image /assets/images/Blog_jam_simple_image_javascript_apis_markup.webp infographic infographic %}
 
 <br>
 
@@ -114,7 +114,7 @@ All these components make Jamstack more comprehensible, adjustable, and faster.
 
 <br>
 
-![Statig Site Generator gets Markup and shows Static State](/assets/images/Blog_Jamstack_easy_SSG.png "SSG ")
+{% image /assets/images/Blog_Jamstack_easy_SSG.webp SSG SSG %}
 
 <br>
 
@@ -130,7 +130,7 @@ Jamstack has everything you need to provide a perfect user experience. It's grea
 
 Here are the main benefits of Jamstack.
 
-![Traditional communication with sever VS jamstack](/assets/images/Blog_jam_traditional_web_jamstack.png "Jamstack")
+{% image /assets/images/Blog_jam_traditional_web_jamstack.webp Jamstack Jamstack %}
 
 <br>
 
@@ -188,7 +188,7 @@ WordPress is definitely a behemoth in the world of CMSs but don't get discourage
 
 <br>
 
-{% image /assets/images/Blog_Jamstack_vs_wordpress.png Jamstack-vs-Wordpress Jamstack %}
+{% image /assets/images/Blog_Jamstack_vs_wordpress.webp Jamstack-vs-Wordpress Jamstack %}
 
 <br>
 
@@ -266,7 +266,7 @@ To simplify staging and testing workflows, and reduce contributor friction, you 
 
 You and your team can easily track and manage changes, improve teamwork, and work flexibly the way you or your team likes without the need to adjust to rigid frameworks. This ensures high-performing development, and your software team can work faster and more effectively with reduced development time and better deployments.
 
-[{% image /assets/images/Dajemyslowo-CaseStudy-Jamstack.png Jamstack-Case-Study-Dajemyslowo Jamstack-Case-Study-Dajemyslowo %}](https://naturaily.com/portfolio/dajemy-slowo){:target=”_blank”}
+[{% image /assets/images/Dajemyslowo-CaseStudy-Jamstack.webp Jamstack-Case-Study-Dajemyslowo Jamstack-Case-Study-Dajemyslowo %}](https://naturaily.com/portfolio/dajemy-slowo){:target=”_blank”}
 
 ## A Few Words on Jamstack Drawbacks
 
@@ -289,4 +289,4 @@ Although some state that the JAM in Jamstac is already the thing of the past, th
 
 Now that you know what Jamstack is, how it works, and what you can do with it, you can choose whether it's the right solution for you. We encourage you to build your website using Jamstack, and if you're not sure whether you’re on the right track, we're here to help!
 
-[{% image /assets/images/cta_estimation_1600.png Get an estimate %}](https://naturaily.com/get-an-estimate)
+[{% image /assets/images/cta_estimation_1600.webp Get an estimate %}](https://naturaily.com/get-an-estimate)

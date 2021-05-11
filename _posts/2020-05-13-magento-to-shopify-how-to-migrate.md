@@ -9,11 +9,11 @@ layout: post
 date: '2020-05-13 03:44:07 +0200'
 category: Shopify development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/blog_magento_shopify_migration.png
+image: /assets/images/blog_magento_shopify_migration.webp
 text-preview: >
   Migrating an e-commerce store is often seen as necessary evil; we all know the
   benefits, but the process itself is the most daunting factor. This is arguably
@@ -153,7 +153,7 @@ If you’re worried about migrating or integrating these functionalities, worry 
 
 Using these tools will take much of the hassle away from your Magento migration while also ensuring your new Shopify store performs as intended.
 
-[{% image /assets/images/blog_cs_awn_cta.png Consulting_Workshops_Ecommerce_Optimization awn %}](https://naturaily.com/portfolio/awn){:target=”_blank”}
+[{% image /assets/images/blog_cs_awn_cta.webp Consulting_Workshops_Ecommerce_Optimization awn %}](https://naturaily.com/portfolio/awn){:target=”_blank”}
 
 <br>
 

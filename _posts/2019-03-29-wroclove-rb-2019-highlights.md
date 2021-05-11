@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2019-03-29 04:05:01 +0200'
 category: Events
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
-image: /assets/images/wrocloverb_highlights.jpeg
+image: /assets/images/wrocloverb_highlights.webp
 text-preview: >-
   Wroclove.rb’s main goal is to help Ruby professionals get better at what they
   do. How could we miss such an opportunity and not send a strong representation
@@ -24,19 +24,19 @@ You know you’re dealing with good developers when it’s the first, sunny week
 
 As the organizers say: Wroclove.rb’s main goal is to help Ruby professionals get better at what they do. How could we miss such an opportunity and not send a strong representation of Naturaily? Of course, we did!
 
-{% image /assets/images/naturaily-team-wroclove-rb.jpg naturaily naturaily %}
+{% image /assets/images/naturaily-team-wroclove-rb.webp naturaily naturaily %}
 
 Wroclove.rb in a nutshell:
 
 **Date:** 22-24 March 2019
 
-**Speakers:** Markus Schirp, Andrzej Krzywda, Ethan Garofolo, Janko Marohnić, Martin Gamsjaeger, Norbert Wójtowicz, Dmitry Salahutdinov, Victor Shepelev, Michał Matyas, Chris Seaton, Anton Davydov and Dávid Halász
+**Speakers:** Markus Schirp, Andrzej Krzywda, Ethan Garofolo, Janko Marohnic, Martin Gamsjaeger, Norbert Wojtowicz, Dmitry Salahutdinov, Victor Shepelev, Michal Matyas, Chris Seaton, Anton Davydov and Dávid Halász
 
-How was it? What were the most interesting topics? Check out what Błażej, Stefan and Adam have to say about it.
+How was it? What were the most interesting topics? Check out what Blazej, Stefan and Adam have to say about it.
 
 
 
-## Błażej:
+## Blazej:
 
 Definitely, the most noteworthy talks were:
 
@@ -80,9 +80,9 @@ Definitely, the most noteworthy talks were:
 
 ## Stefan:
 
-> Importantly, Martin's speech, mentioned by Błażej, was not just a bunch of "philosophical ramblings". It presented a specific approach to naming changes (commits) and their granulation. This unified approach results from the analysis of the types of changes we introduce to the code (years of insights). In my opinion, using it can help in dividing tasks into individual changes and enforces a small granulation of changes accordingly. It enforces a kind of a disciplined approach to making changes and hence teaches their stable implementation in the code. So even though the topic does not sound practical, it is actually something that is very much related to our daily work and we could start using it right away.
+> Importantly, Martin's speech, mentioned by Blazej, was not just a bunch of "philosophical ramblings". It presented a specific approach to naming changes (commits) and their granulation. This unified approach results from the analysis of the types of changes we introduce to the code (years of insights). In my opinion, using it can help in dividing tasks into individual changes and enforces a small granulation of changes accordingly. It enforces a kind of a disciplined approach to making changes and hence teaches their stable implementation in the code. So even though the topic does not sound practical, it is actually something that is very much related to our daily work and we could start using it right away.
 >
-> What I also found interesting, apart from the topics mentioned above, was Norbert Wójtowicz's talk about declarative downloading of API data, using the parser Pathom written in Clojure. Pathom can download and parse data from various sources (YouTube, Facebook, SpaceX, etc.). The data we need is expressed in a declarative manner –  a solution which seems very clear and easy to maintain – combining data from various sources of information seems fabulously simple.
+> What I also found interesting, apart from the topics mentioned above, was Norbert Wojtowicz's talk about declarative downloading of API data, using the parser Pathom written in Clojure. Pathom can download and parse data from various sources (YouTube, Facebook, SpaceX, etc.). The data we need is expressed in a declarative manner –  a solution which seems very clear and easy to maintain – combining data from various sources of information seems fabulously simple.
 
 <br>
 
@@ -94,4 +94,4 @@ If you've also been to Wroclove.rb, be sure to share your opinion in a comment a
 
 <br>
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

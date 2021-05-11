@@ -10,7 +10,7 @@ description: >-
 layout: career-offer
 image: /assets/images/Nodejs_Developer_Job_Offer.png
 location:
-  - Wrocław
+  - Wroclaw
   - Remote
 who-we-are: >-
   Software house is a multi-element puzzle. For six years, we have been
@@ -72,7 +72,7 @@ what-you-expect:
       contents: the flexibility of working hours
   - expectation:
       contents: >-
-        a nice office in the heart of Wrocław surrounded by cafés, restaurants,
+        a nice office in the heart of Wroclaw surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
       contents: a co-financed Multisport Card
@@ -137,4 +137,3 @@ salaries:
       contract: (B2B)
       sum: 11 500 - 17 000 PLN net + VAT
 ---
-

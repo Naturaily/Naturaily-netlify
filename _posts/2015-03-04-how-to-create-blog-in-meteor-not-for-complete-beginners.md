@@ -10,9 +10,9 @@ category: JavaScript development
 authors:
   label: Sebastian Brych
   value: author-14
-  avatar: /assets/images/no-image.png
+  avatar: /assets/images/no-image.webp
   slug: sebastian-brych
-image: /assets/images/meteor_blog.jpg
+image: /assets/images/meteor_blog.webp
 text-preview: >-
   The purpose of this post is to show you how to create a very simple blog app
   in Meteor. Instead of writing everything from scratch, we're going to use

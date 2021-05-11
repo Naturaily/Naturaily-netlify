@@ -8,11 +8,11 @@ slug: react-native-things-to-know
 date: '2017-11-10 10:38:01 +0000'
 category: JavaScript development
 authors:
-  avatar: /assets/images/wojciech.jpg
-  label: Wojciech Miśta
+  avatar: /assets/images/wojciech.webp
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
-image: /assets/images/react-native.jpg
+image: /assets/images/react-native.webp
 text-preview: >-
   The popularity of React Native has skyrocketed for the past 2 years. Meet the
   framework developed by Facebook Team that stands behind Facebook, Instagram,
@@ -56,7 +56,7 @@ React Native attempts to bring the best developer experience by saving time it t
 
 A video is worth a thousand words so here’s a comparison between Live Reload and Hot Reload:
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/2uQzVi-KFuc" frameborder="0" allowfullscreen></iframe>
+{% youtube 2uQzVi-KFuc %}
 
 ## What are the disadvantages of React Native?
 
@@ -65,7 +65,7 @@ A video is worth a thousand words so here’s a comparison between Live Reload a
 **Debugging** - React Native introduces another layer to your application, making debugging more difficult, especially at the intersection of React and the host platform.
 
 
-{% image /assets/images/react-native-naturaily.png react-native-naturaily react-native-naturaily %}
+{% image /assets/images/react-native-naturaily.webp react-native-naturaily react-native-naturaily %}
 
 
 
@@ -95,4 +95,4 @@ React Native is a strong competitor to native app development and other mobile f
 
 ###### [4] “Message from Apple Review...“ | https://forums.developer.apple.com/thread/73640
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

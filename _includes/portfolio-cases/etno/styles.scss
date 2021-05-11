@@ -1,0 +1,28 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "footer";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/carousel-custom";
+
+@import "new-styles/modules/portfolio-cases/main";
+
+@import "new-styles/modules/portfolio-cases/etno/hero";
+@import "new-styles/modules/portfolio-cases/etno/about";
+@import "new-styles/modules/portfolio-cases/etno/goal";
+@import "new-styles/modules/portfolio-cases/etno/challenge";
+@import "new-styles/modules/portfolio-cases/etno/solution";
+@import "new-styles/modules/portfolio-cases/etno/stack";
+@import "new-styles/modules/portfolio-cases/etno/experts";
+@import "new-styles/modules/portfolio-cases/etno/results";
+@import "new-styles/modules/portfolio-cases/etno/testimonials";
+@import "new-styles/modules/portfolio-cases/etno/estimate";

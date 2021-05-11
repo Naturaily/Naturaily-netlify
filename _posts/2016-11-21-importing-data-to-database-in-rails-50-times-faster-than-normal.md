@@ -7,11 +7,11 @@ slug: ruby-on-rails-fast-data-import
 date: '2016-11-21 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/claus.jpg
-  label: Mikołaj Grygiel
+  avatar: /assets/images/claus.webp
+  label: Mikolaj Grygiel
   value: author-7
   slug: mikolaj-grygiel
-image: /assets/images/speed_up.jpg
+image: /assets/images/speed_up.webp
 text-preview: >-
   Have you ever needed to save lots of records with unique attribute to database
   using ActiveRecord? Have you noticed how time consuming such task is? I would
@@ -256,7 +256,7 @@ Ok, but my engineerial soul has one more question: Will the last method always b
 | import users                      | 0,073s   | 0,160s   | 1,200s   | 7,443s   | 80,004s  |
 | import users with sql validations | 0,002s   | 0,005s   | 0,0480s  | 0,376s   | 4,213s   |
 
-{% image /assets/images/time-saving-stats.png timesaved timesaved %}
+{% image /assets/images/time-saving-stats.webp timesaved timesaved %}
 
 
 Table and chart show that the best way is using ```ActiveRecord::Import``` with validations on database side.
@@ -264,4 +264,4 @@ Table and chart show that the best way is using ```ActiveRecord::Import``` with 
 
 I know it’s a really simple case, without any other validations, but you can treat it as a hint how to use SQL validations to speed up saving data to database.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

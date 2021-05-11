@@ -11,11 +11,11 @@ layout: post
 date: '2020-12-08 01:15:33 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
-image: /assets/images/Modern-headless-storefront-platforms-compared.png
+image: /assets/images/Modern-headless-storefront-platforms-compared.webp
 text-preview: >-
   The headless e-commerce trend has been gaining traction recently and PWA
   e-commerce frontends are slowly becoming the industry standard. According to

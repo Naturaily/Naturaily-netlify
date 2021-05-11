@@ -7,11 +7,11 @@ slug: meteor-app-ngnix-debian
 date: '2015-12-07 10:38:01 +0000'
 category: JavaScript development
 authors:
-  label: Jacek Hiszpański
+  label: Jacek Hiszpanski
   value: author-12
-  avatar: /assets/images/jacek.png
+  avatar: /assets/images/jacek.webp
   slug: jacek-hiszpanski
-image: /assets/images/meteor2.jpg
+image: /assets/images/meteor2.webp
 text-preview: >-
   Meteor is getting more and more popular these days. Creating a web application
   is so easy. But what can we do if we want to push live our great project?
@@ -205,7 +205,7 @@ Finally we are ready to restart the app:
 
 Your Meteor application should be up and running now. Go to http://example.com to check it.
 
-{% image /assets/images/meteor.png meteor meteor %}
+{% image /assets/images/meteor.webp meteor meteor %}
 
 Make automation script for deployment
 -------------------------------------

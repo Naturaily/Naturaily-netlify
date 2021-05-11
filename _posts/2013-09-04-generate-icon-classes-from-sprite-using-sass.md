@@ -7,11 +7,11 @@ slug: sprite-icon-classes-sass
 date: '2013-09-04 10:38:01 +0000'
 category: SASS
 authors:
-  avatar: /assets/images/maciek.png
+  avatar: /assets/images/maciek.webp
   label: Maciej Kucharski
   value: author-16
   slug: maciej-kucharski
-image: /assets/images/sass.jpg
+image: /assets/images/sass.webp
 text-preview: >-
   While we mostly use sass for it's variables, nesting and mixins, the language
   itself is way more powerful. A lot of features may not be used on your
@@ -168,4 +168,4 @@ $icon-list: (
 
 
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

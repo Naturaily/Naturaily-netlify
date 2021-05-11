@@ -11,11 +11,11 @@ twitter-card: summary_large_image
 date: '2018-09-24 12:30:25 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/piotrek-musielak.jpg
+  avatar: /assets/images/piotrek-musielak.webp
   label: Piotrek Musielak
   value: author-20
   slug: piotrek-musielak
-image: /assets/images/paid-order-shopify-api.jpg
+image: /assets/images/paid-order-shopify-api.webp
 text-preview: >-
   Creating an order using Shopify API with status set to 'paid' might be
   somewhat a tough and tricky task. Surprisingly, this is not a practical or a
@@ -89,4 +89,4 @@ Nevertheless, I hope you will find this small workaround interesting and also he
 
 |If you want to know more about the most common problems of growing Shopify stores and how to solve them with the right native or custom integrations - [read this article](https://naturaily.com/blog/shopify-stores-problems){:target="_blank"} by Mateusz.|
 
-[{% image /assets/images/get-an-estimate.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/get-an-estimate.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

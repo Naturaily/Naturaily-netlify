@@ -9,11 +9,11 @@ layout: post
 date: '2019-08-27 07:24:52 +0200'
 category: Software development
 authors:
-  avatar: /assets/images/michal_kosyk_profile.png
-  label: Michał Kosyk
+  avatar: /assets/images/michal_kosyk_profile.webp
+  label: Michal Kosyk
   value: author-27
   slug: michal-kosyk
-image: /assets/images/stick-it_-and-the-power-of-event-storming-1-.png
+image: /assets/images/stick-it_-and-the-power-of-event-storming-1-.webp
 text-preview: >
   Miscommunication between business people and engineers is a common issue.
   While we could start pointing fingers and blaming either side, the problem
@@ -41,17 +41,17 @@ We can easily understand things like: a fire started, the coffee machine broke. 
 
 Let us imagine programming a coffee machine. We have no idea about what a coffee machine does except that it gives coffee. We could start with something like this:
 
-{% image /assets/images/1_stick_it.png null null %}
+{% image /assets/images/1_stick_it.webp null null %}
 
 Okay, we see the beginning of a process and its end. We stand with a barista as a domain expert and he adds some few stick-its.
 
-{% image /assets/images/2_stick_it.png null null %}
+{% image /assets/images/2_stick_it.webp null null %}
 
 Okay, something fishy is going on here. You’re not an expert but this is really confusing. You ask – Is this right? Is the order right?
 
 The barista thinks for a second and comes up with a simple – “not really, let me fix it for you”:
 
-{% image /assets/images/3_stick_it.png null null %}
+{% image /assets/images/3_stick_it.webp null null %}
 
 Then the developer looks at the events and does some thinking. Finally, the question arises – what if there is no coffee?
 
@@ -59,7 +59,7 @@ The barista takes a deep breath gazing at the stick-its. He understands the prob
 
 The developer asks a few more questions and other problems pop out. The board looks like this:
 
-{% image /assets/images/4_stick_itpng.png null null %}
+{% image /assets/images/4_stick_itpng.webp null null %}
 
 The barista and the developer look at the board.
 
@@ -67,29 +67,29 @@ The barista and the developer look at the board.
 
 “Ok, let’s do it.”
 
-{% image /assets/images/5_stick_it.png null null %}
+{% image /assets/images/5_stick_it.webp null null %}
 
 “Does it look good?” Asks the developer.
 
 “Yeah. Let’s add espresso.” Says the barista.
 
-{% image /assets/images/6_stick_it.png null null %}
+{% image /assets/images/6_stick_it.webp null null %}
 
 They look at the board again. Without a word, they added more stick-its, change the order and, end up with something like:
 
-{% image /assets/images/7_stick_it.png null null %}
+{% image /assets/images/7_stick_it.webp null null %}
 
 “I think we have some redundancy here.” Says the developer. The barista nods and points at the ‘Coffee ground’ domain event and responds, “I think this has something in common, right?”
 
 They remove the redundancy the best way they could.
 
-{% image /assets/images/8_stick_it.png null null %}
+{% image /assets/images/8_stick_it.webp null null %}
 
 “Hey, right! This is it! Latte is just milk with some espresso. That means we can close the process of making espresso and use it as the basis for a latte.”  Says the barista.
 
 An interesting thing then happens. The business side of the story, a person who obviously knew all of the answers, realizes that a process can be streamlined by reorganizing it. The barista quickly shuffles the stick-its on the board:
 
-{% image /assets/images/9__stick_it.png null null %}
+{% image /assets/images/9__stick_it.webp null null %}
 
 Now, the cost of understanding the process is much smaller. They were also able to overcome the initial problem of communicating with each other, which **was the main goal in the first place**.
 
@@ -97,7 +97,7 @@ This is just a small example of how an **event storming session** can unfold its
 
 ## Building blocks
 
-{% image /assets/images/10__stick_it.png null null %}
+{% image /assets/images/10__stick_it.webp null null %}
 
 You already saw a few building blocks. As I was writing this article, I planned to use the collection above, yet I found out that in the middle of the process I need a new one, which we can call “business process”. Let’s go through them:
 
@@ -127,4 +127,4 @@ Sources:
 * [Event storming](https://www.eventstorming.com/){:rel="nofollow"}{:target="_blank"}
 * [Oracle](https://www.oracle.com/technetwork/articles/javase/devinsight-1-139780.html#1){:rel="nofollow"}{:target="_blank"}
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

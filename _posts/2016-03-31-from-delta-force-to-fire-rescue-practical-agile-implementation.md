@@ -7,11 +7,11 @@ slug: practical-agile-implementation
 date: '2016-03-31 10:38:01 +0000'
 category: Agile
 authors:
-  avatar: /assets/images/seba.jpg
+  avatar: /assets/images/seba.webp
   label: Sebastian Kubiak
   value: author-5
   slug: sebastian-kubiak
-image: /assets/images/fire.jpg
+image: /assets/images/fire.webp
 text-preview: >-
   We are a small (over a dozen people) remote development team. That kind of
   team has pretty standard and diversified portfolio of projects.
@@ -71,4 +71,4 @@ To sum up, we implement the following “Natudologies” actually:
 
 Remember, every organization is different and has its own history. How it evolved in your company?
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

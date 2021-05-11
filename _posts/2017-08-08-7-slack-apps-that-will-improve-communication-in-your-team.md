@@ -8,11 +8,11 @@ slug: slack-apps-improving-team-communication
 date: '2017-08-08 10:38:01 +0000'
 category: Agile
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/slack.jpg
+image: /assets/images/slack.webp
 text-preview: >-
   Communication between our team members is the key to success. To provide
   better quality products to our customers we use professional platforms and
@@ -40,7 +40,7 @@ Let’s start with Polly. Polly is a tool that allows us to create quick polls o
 
 We can use it to measure the mood in our team or ask other collective questions like “Where should we go on our next integration trip?” or “Pizza or tacos?”.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/lb2EQDJ-biM" frameborder="0" allowfullscreen></iframe>
+{% youtube lb2EQDJ-biM %}
 
 <p></p>
 
@@ -53,7 +53,7 @@ Do you still ask your employees to make a special paper to take a leave of absen
 Your employees can make online leave requests which you and your HR team will later get via email or notification. The request shows how many people will be having a leave at that time so you can make a better decision.
 It features paid time off tracking, automatic leave calculation and multilevel approval process. Everything is done within the realm of Slack and Calamari’s online platform.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/LKPE5Z3HVYI" frameborder="0" allowfullscreen></iframe>
+{% youtube LKPE5Z3HVYI %}
 
 Calamari can also keep a record of the time of work of your employees by asking them to sign in to Slack or check-in at workplace using Calamari’s app.
 
@@ -63,7 +63,7 @@ https://calamari.io
 
 Using Slack’s huge app store it is possible to solve some of the trouble with using different services for every specific task by simply having them all in one place – services like live chat. You no longer have to use other platforms to chat with your customers or visitors – Smallchat lets you do to that and much more from Slack’s platform.
 
-{% image /assets/images/smallchat.png smallchat smallchat %}
+{% image /assets/images/smallchat.webp smallchat smallchat %}
 
 Each conversation creates a new thread, allowing our team to manage them all from one place. Smallchat helps us with providing a better experience by creating a direct line of communication between our team and our customers.
 
@@ -73,7 +73,7 @@ https://small.chat
 
 To put in simple words – Droplr is a file-sharing tool created especially with Mac, Windows and Slack users in mind. It is perfect for effortless, quick and easy “drag & drop” file sharing with your friends or co-workers. Droplr allows you to take screenshots and then quickly mark them with annotations or notes.
 
-{% image /assets/images/droplr.jpg droplr droplr %}
+{% image /assets/images/droplr.webp droplr droplr %}
 
 Everything you share gets a short link that can be previewed in the browser, Microsoft Office, Twitter, Facebook, you name it. You can even share mockups from Photoshop or Illustrator using third-party Adobe integration!
 
@@ -113,7 +113,7 @@ Do you often find yourself taking screenshots just to send them once in a single
 
 The process of saving screenshots, annotating them, and then sharing them with your team doesn’t have to be so manual and complicated. Marker is here to help – an incredibly useful Chrome extension for your employees who regularly share screenshots with teammates on Slack.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/7XKhmi9ULno" frameborder="0" allowfullscreen></iframe>
+{% youtube 7XKhmi9ULno %}
 
 Capturing your screen, annotating and sending it to a person or channel on Slack has never been this easy. Marker has many uses – from reporting typos and bugs to sharing ideas or interesting articles.
 
@@ -121,4 +121,4 @@ https://marker.io/
 
 
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

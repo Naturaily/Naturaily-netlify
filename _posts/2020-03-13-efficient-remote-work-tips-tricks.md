@@ -8,11 +8,11 @@ layout: post
 date: '2020-03-13 16:45:00 +0200'
 category: Remote work
 authors:
-  avatar: /assets/images/beata.jpg
+  avatar: /assets/images/beata.webp
   label: Beata Twardowska
   value: author-24
   slug: beata-twardowska
-image: /assets/images/remotework_cover.jpg
+image: /assets/images/remotework_cover.webp
 text-preview: >-
   All who can - switch to remote work mode. This is nothing new for the IT
   industry, but not all of us have had the opportunity to work remotely for an
@@ -71,7 +71,7 @@ If you don’t like a typical workout - do some yoga. It may relieve back pain a
 
 YouTube is full with tutorials dedicated to people who sit all day long. Like this one:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8QE8gQ2qEwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube 8QE8gQ2qEwA %}
 
 Here you will find [5 yoga poses every programmer should try.](https://simpleprogrammer.com/5-yoga-poses-every-programmer-try/){:target="_blank"}
 

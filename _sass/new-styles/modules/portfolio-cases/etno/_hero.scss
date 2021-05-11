@@ -1,0 +1,223 @@
+.etno-hero {
+  box-sizing: border-box;
+  position: relative;
+  z-index: -1;
+  height: 600px;
+  overflow: hidden;
+  background-color: $color-code-orange-bg;
+
+  &__wrapper {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 120px 20px 0;
+  }
+  
+  &__title-text, &__title strong {
+    font-weight: 200;
+  }
+  
+  &__title-text {
+    z-index: 2;
+    font-size: 30px;
+    line-height: 48px;
+    color: $color-global-font;
+  
+    strong {
+      display: block;
+      color: $color-secondary;
+    }
+  }
+  
+  &__image {
+    position: relative;
+
+    .geometric-figure {
+      top: 0;
+      right: -65px;
+      z-index: -2;
+  
+      &_center, &_right::after {
+        height: 130px;
+        width: 130px;
+      }
+
+      &_right {
+        width: 65px;
+        height: 130px;
+      }
+    }
+  
+    &-img {
+      position: relative;
+      top: 50px;
+      z-index: -1;
+      transform: translateX(-12%);
+      width: 120%;
+    }
+  }
+}
+  
+@media (min-width: 576px) {
+  .etno-hero {
+    height: 500px;
+
+    &__wrapper {
+      display: flex;
+      flex-flow: row nowrap;
+      max-width: 100%;
+      margin: 0;
+      padding-left: 100px;
+    }
+
+    &__title, &__image {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &__title-text {
+      width: 300px;
+
+      &--nonbreak {
+        word-break: keep-all;
+      }
+    }
+  
+    &__image {
+      .geometric-figure {
+        top: -20px;
+        left: -10px;
+        width: 300px;
+
+        &_center, &_right::after {
+          height: 200px;
+          width: 200px;
+        }
+  
+        &_right {
+          width: 100px;
+          height: 200px;
+        }
+      }
+  
+      &-img {
+        top: 150px;
+        transform: translateX(-30%);
+        width: 450px;
+      }
+    }
+  }
+}
+  
+@media (min-width: 811px) {
+  .etno-hero {
+    height: 520px;
+
+    &__wrapper {
+      padding-top: 150px;
+    }
+
+    &__title-text {
+      width: 400px;
+      font-size: 40px;
+      line-height: 60px;
+    }
+
+    &__image {
+      .geometric-figure {
+        top: -130px;
+        left: 0;
+        width: 450px;
+  
+        &_center, &_right::after {
+          height: 300px;
+          width: 300px;
+        }
+  
+        &_right {
+          width: 150px;
+          height: 300px;
+        }
+      }
+
+      &-img {
+        top: 70px;
+        left: -100px;
+        transform: none;
+        width: 550px;
+      }
+    }
+  }
+}
+  
+@media (min-width: 992px) {
+  .etno-hero {
+    height: 510px;
+
+    &__wrapper {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    &__title {
+      width: 490px;
+
+      &-text {
+        width: 100%;
+      }
+    }
+  
+    &__image {
+      .geometric-figure {
+        top: -110px;
+        left: 40px;
+        width: 495px;
+
+        &_center, &_right::after {
+          width: 330px;
+          height: 330px;
+        }
+
+        &_right {
+          width: 165px;
+          height: 330px;
+        }
+      }
+
+      &-img {
+        top: -10px;
+        left: -40px;
+        width: 600px;
+      }
+    }
+  }
+}
+  
+@media (min-width: 1200px) {
+  .etno-hero {
+    &__content {
+      left: -40px;
+    }
+  
+    &__title {
+      width: 570px;
+      
+      &-text {
+        font-size: 48px;
+        line-height: 72px;
+      }
+    }
+
+    &__image {
+      .geometric-figure {
+        top: -80px;
+        left: 300px;
+      }
+
+      &-img {
+        top: -5px;
+        left: -30px;
+        width: 700px;
+      }
+    }
+  }
+}

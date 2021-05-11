@@ -16,11 +16,15 @@ layout: default
         <span class="post-breadcrumb post-breadcrumb--inactive">{{ page.title | escape }}</span>
       </div>
       {% if page.image %}
-        <img src="/assets/images/loader.gif" data-src="{{page.image}}" alt="Post image">
+        <div class="post-cover">
+          <img src="/assets/images/loader.gif" data-src="{{page.image}}" alt="Post image">
+        </div>
       {% endif %}
       <div class="post-meta">
         {% if page.authors.avatar %}
-          <img class="avatar" src="/assets/images/loader.gif" data-src="{{ page.authors.avatar }}" alt="Author avatar">
+          <div class="avatar">
+            <img src="/assets/images/loader.gif" data-src="{{ page.authors.avatar }}" alt="Author avatar">
+          </div>
         {% endif %}
         <p class="author">
           {% if page.authors.label %}
@@ -43,10 +47,10 @@ layout: default
           <span class="tooltip-text" id="copyTooltip" data-post-shared="{{page.title}}">Copy to clipboard</span>
         </div>
         <a class="post-soc-shr" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow" data-share="twitter" data-post-shared="{{page.title}}">
-          <img src="/assets/images/loader.gif" data-src="/assets/images/twitter-icon.png" alt="Twitter">
+          <img src="/assets/images/loader.gif" data-src="/assets/images/twitter-icon.webp" alt="Twitter">
         </a>
         <a class="post-soc-shr" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow" data-share="facebook" data-post-shared="{{page.title}}">
-          <img src="/assets/images/loader.gif" data-src="/assets/images/facebook-icon.png" alt="Facebook">
+          <img src="/assets/images/loader.gif" data-src="/assets/images/facebook-icon.webp" alt="Facebook">
         </a>
       </div>
       {{ content }}
@@ -62,14 +66,14 @@ layout: default
   <div class="post-navigation">
     {% if page.next.url %}
       <a class="next" href="{{page.next.url}}" rel="next">
-        <img src="/assets/images/arrow-brown.png" alt="arrow">
+        <img src="/assets/images/arrow-brown.webp" alt="arrow">
         {{page.next.title}}
       </a>
     {% endif %}
     {% if page.previous.url %}
       <a class="prev" href="{{page.previous.url}}" rel="prev">
         {{page.previous.title}}
-        <img src="/assets/images/arrow-brown.png" alt="arrow">
+        <img src="/assets/images/arrow-brown.webp" alt="arrow">
       </a>
     {% endif %}
   </div>

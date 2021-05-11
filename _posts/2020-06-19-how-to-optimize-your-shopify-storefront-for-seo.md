@@ -9,11 +9,11 @@ layout: post
 date: '2020-06-19 01:32:44 +0200'
 category: Shopify development
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/blog_cover_shopify_seo_optimization.png
+image: /assets/images/blog_cover_shopify_seo_optimization.webp
 text-preview: >
   Even the best e-commerce stores can fail if they’re not visible online. This
   is why getting search engine optimization (SEO) right for your Shopify
@@ -166,4 +166,4 @@ As you can see, there’s always something you can do. Shopify optimization is e
 
 So, if you want to invest in SEO, it’s worth doing it in detail. We hope these approaches here are useful. We’re always here if you want to take it a step further!
 
-[{% image /assets/images/cta_estimation_1600.png Get an estimate  %}](https://naturaily.com/get-an-estimate){:target=”_blank”}
+[{% image /assets/images/cta_estimation_1600.webp Get an estimate  %}](https://naturaily.com/get-an-estimate){:target=”_blank”}

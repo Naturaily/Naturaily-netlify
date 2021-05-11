@@ -8,11 +8,11 @@ slug: interesting-german-startups
 date: '2017-10-26 10:38:01 +0000'
 category: Startups
 authors:
-  avatar: /assets/images/wojciech.jpg
-  label: Wojciech Miśta
+  avatar: /assets/images/wojciech.webp
+  label: Wojciech Mista
   value: author-1
   slug: wojciech-mista
-image: /assets/images/more-berlin-startups.jpg
+image: /assets/images/more-berlin-startups.webp
 text-preview: >-
   Here’s another portion of interesting, Germany-based startups that are
   definitely worth your attention. If you’re interested check our previous post
@@ -74,4 +74,4 @@ Peat Technology claims that their product is 95% accurate. The list of diseases 
 
 What do you think about list? What startups should we add here? Share your thoughts with us in the comments below!
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

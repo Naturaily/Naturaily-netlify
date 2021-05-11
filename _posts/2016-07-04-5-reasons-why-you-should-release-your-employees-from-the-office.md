@@ -7,11 +7,11 @@ slug: remote-work-pros
 date: '2016-07-04 10:38:01 +0000'
 category: Agile
 authors:
-  avatar: /assets/images/marcin.jpg
+  avatar: /assets/images/marcin.webp
   label: Marcin Sulikowski
   value: author-6
   slug: marcin-sulikowski
-image: /assets/images/release-employees.jpg
+image: /assets/images/release-employees.webp
 text-preview: >-
   We provide services remotely to customers around the world. The distance and
   additional hurdles in the form of different time zones and cultural
@@ -41,7 +41,7 @@ We have introduced a company-wide remote work day. From now on everyone in Natur
 
 Speaking of which: Greetings from my living room couch ;)
 
-{% image /assets/images/couch-greetings.jpg couch couch %}
+{% image /assets/images/couch-greetings.webp couch couch %}
 
 
 ## 1. Remote work fosters loyalty! ##
@@ -74,4 +74,4 @@ Speaking of which: Greetings from my living room couch ;)
 
    We're making our first steps in implementing remote work and are open to reading about your experiences. Is allowing telecommuting a good idea? If not, what are the consequences?
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

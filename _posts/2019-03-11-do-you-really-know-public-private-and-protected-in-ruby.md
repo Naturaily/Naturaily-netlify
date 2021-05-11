@@ -10,11 +10,11 @@ twitter-card: summary_large_image
 date: '2019-03-18 09:30:43 +0200'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/blazej.png
-  label: Błażej Pichur
+  avatar: /assets/images/blazej.webp
+  label: Blazej Pichur
   value: author-4
   slug: blazej-pichur
-image: /assets/images/public-private-protected-ruby.jpg
+image: /assets/images/public-private-protected-ruby.webp
 text-preview: >-
   Public, private and protected access - all of the programmers are familiar
   with that concept. Nothing special, we work with them on a daily basis.
@@ -114,7 +114,7 @@ class City < Region
 end
 
 # initialization
-wroclaw = City.new('Wrocław', 638_000, 293, 'Europe')
+wroclaw = City.new('Wroclaw', 638_000, 293, 'Europe')
 san_francisco = City.new('San Francisco', 884_000, 121, 'Northern America')
 poland = Country.new('Poland', 38_000_000, 312_000, 'Europe')
 
@@ -146,7 +146,7 @@ Ok, let’s start! In the 3rd section of the initialization, the following objec
 In the first section `greeting` method is invoked twice: by the `wroclaw` and by the `poland` objects. Nothing special here. Public access is straightforward. The `greeting` is accessible for its class’s object (`poland`) and for its child-class’s object (`wroclaw`).
 
 ```
-Hello, I'm Wrocław! 638000 people live here.
+Hello, I'm Wroclaw! 638000 people live here.
 Hello, I'm Poland! 38000000 people live here.
 ```
 
@@ -170,7 +170,7 @@ private method `population_info' called for #<City:0x...> (NoMethodError)
 This time we have `City::own_greeting` which uses inherited protected method inside (`name_info`) and `Country::own_greeting` which uses inherited private method inside (`population_info`). Both private and protected methods (even if they are inherited) are accessible inside the class. So it’s not the point which distinguishes private from protected access.
 
 ```
-Hello, I'm Wrocław! The population: 638000 people.
+Hello, I'm Wroclaw! The population: 638000 people.
 The country name: Poland. 38000000 people live here.
 ```
 
@@ -202,7 +202,7 @@ Hmm, that’s interesting. **Private** method `Region::population_density` hasn�
 ```
 wroclaw.the_same_continent?(san_francisco)
 
-=> Wrocław and San Francisco lie in the different continents.
+=> Wroclaw and San Francisco lie in the different continents.
 ```
 
 This one works. Any difference here? Right, `the_same_continent?` uses **protected** attribute - `continent`. Ok, let’s continue.
@@ -250,4 +250,4 @@ In the end, as I promised - answers to the statements:
 
 I’ve written this article because for me it was also surprising how **public, private and protected access actually work** in Ruby. The simplest things are the hardest to understand, or at least they can be. I really hope that this article was helpful for you. Or perhaps, you were aware of the access rules before reading it. Share your thoughts in the comments, I’m very curious of them. You can take a look at the  [docs](https://ruby-doc.com/docs/ProgrammingRuby/html/tut_classes.html){:rel="nofollow"}{:target="_blank"} too. You will find all these details there :)
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

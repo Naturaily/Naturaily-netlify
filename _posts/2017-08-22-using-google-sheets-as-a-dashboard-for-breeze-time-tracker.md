@@ -7,11 +7,11 @@ slug: google-sheets-breeze-time-tracker
 date: '2017-08-22 10:38:01 +0000'
 category: Agile
 authors:
-  avatar: /assets/images/seba.jpg
+  avatar: /assets/images/seba.webp
   label: Sebastian Kubiak
   value: author-5
   slug: sebastian-kubiak
-image: /assets/images/macierevicz.jpg
+image: /assets/images/macierevicz.webp
 text-preview: >-
   Some of our everyday issues and tasks can be solved or simplified with a
   little bit of ingenuity and right tools. With the increased number of projects
@@ -98,4 +98,4 @@ We believe there are many areas where this approach could be efficient cost-wise
 
 Do you have any suggestions regarding our project? Did you do anything similar yourself? Go ahead and share your ideas with us in the comments!
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}

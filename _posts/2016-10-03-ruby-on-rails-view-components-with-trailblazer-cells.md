@@ -8,11 +8,11 @@ twitter-card: summary_large_image
 date: '2016-10-03 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
-  avatar: /assets/images/claus.jpg
-  label: Mikołaj Grygiel
+  avatar: /assets/images/claus.webp
+  label: Mikolaj Grygiel
   value: author-7
   slug: mikolaj-grygiel
-image: /assets/images/trailblazer.jpg
+image: /assets/images/trailblazer.webp
 text-preview: >-
   In recent times view components became a really popular web design pattern.
   View component is standalone part of view, which can be used at many views.
@@ -33,7 +33,7 @@ I could just list adventages of cells, but you can find them in the ["documentat
 
 The example is a simple app with CRUD actions for below database.
 
-{% image /assets/images/trailblazer1.png trailblazer_one trailblazer_one %}
+{% image /assets/images/trailblazer1.webp trailblazer_one trailblazer_one %}
 
 Let’s start by creating the app with scaffolds.
   1. ```rails new cells-app```
@@ -54,7 +54,7 @@ We’ve created base app with scaffolds for company, department and employee. No
 
 So, finally we can go to most interesting part – cells implementation. If we list the ```app/views``` we will see that we already have a lot of views:
 
-<img class="post--trailblazer-image" src="/assets/images/trailblazer2.png" alt="trailblazer-master-tree-view">
+<img class="post--trailblazer-image" src="/assets/images/trailblazer2.webp" alt="trailblazer-master-tree-view">
 
 We will use code from these views in our cells.
 
@@ -76,7 +76,7 @@ We will replace each template with cell. Completed project you can find on ["Git
 
 Firstly, we need to create files structure. ```TableCell``` is built from one ruby file and four erb(html) files. Our cells’ directory should look like below.
 
-<img class="post--trailblazer-image" src="/assets/images/trailblazer3.png" alt="trailblazer-app-cells-view">
+<img class="post--trailblazer-image" src="/assets/images/trailblazer3.webp" alt="trailblazer-app-cells-view">
 
 ```table_cell.rb``` is the core of our cell, it contains all helpful methods.
 
@@ -360,4 +360,4 @@ That’s all. The change at one file is propagated to all views. How cool is tha
 
 Of course, cells have more advantages, but I had only one goal in this article. I wanted to show you that with cells you can create flexible and reusable views at rails. I hope that now you can see it.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

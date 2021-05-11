@@ -9,11 +9,11 @@ twitter-card: summary_large_image
 date: '2018-12-10 12:28:16 +0200'
 category: Recruitment
 authors:
-  avatar: /assets/images/epifany_bojanowska-2.jpg
+  avatar: /assets/images/epifany_bojanowska-2.webp
   label: Epifany Bojanowska
   value: author-22
   slug: epifany-bojanowska
-image: /assets/images/5-tips-survive-open-space-office-work.jpg
+image: /assets/images/5-tips-survive-open-space-office-work.webp
 text-preview: >
   There is no doubt that office design plays an important role in how a company
   operates daily. The layout of a workspace holds several vital implications for
@@ -69,4 +69,4 @@ If you have a large and varied to-do list, using the Pomodoro Technique can help
 
 If you find yourself having to work in an **open office** space for the first time, don’t be afraid. Talk to your colleagues to see how they’ve adjusted. Everyone has a different approach that may be beneficial to finding your groove. Be considerate of those around you and **you will do just fine**.
 
-[{% image /assets/images/job-offers_naturaily.png join join %}](https://naturaily.com/careers){:target="_blank"}
+[{% image /assets/images/job-offers_naturaily.webp join join %}](https://naturaily.com/careers){:target="_blank"}

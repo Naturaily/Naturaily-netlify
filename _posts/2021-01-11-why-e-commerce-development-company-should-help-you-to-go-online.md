@@ -8,11 +8,11 @@ layout: post
 date: '2021-01-11 11:39:22 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/J_150X150.png
+  avatar: /assets/images/J_150X150.webp
   label: Katarzyna Ciesielska
   value: author-32
   slug: katarzyna-ciesielska
-image: /assets/images/blog_ecommerce_development_company.png
+image: /assets/images/blog_ecommerce_development_company.webp
 text-preview: >-
   Opening an online shop can be stressful for everybody. Even it's not the first
   time you're doing it. Web development is evolving each day so If you want to
@@ -68,4 +68,4 @@ They will understand that you need to plan, and they will go with your flow to a
 
 So, what do you think? Is it better to do all potential mistakes on your own to get experience or maybe just use the experience of a professional **e-commerce development company**?
 
-[{% image /assets/images/cta_estimation_1600.png Get an estimate  %}](https://naturaily.com/get-an-estimate)
+[{% image /assets/images/cta_estimation_1600.webp Get an estimate  %}](https://naturaily.com/get-an-estimate)

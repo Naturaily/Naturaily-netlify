@@ -13,11 +13,11 @@ twitter-card: >-
 date: '2019-07-31 02:04:06 +0200'
 category: Clutch
 authors:
-  avatar: /assets/images/leo_baz_profile.png
+  avatar: /assets/images/leo_baz_profile.webp
   label: Leo Baz
   value: author-26
   slug: leo-baz
-image: /assets/images/how-to-find-the-best-development-company-on-clutch.png
+image: /assets/images/how-to-find-the-best-development-company-on-clutch.webp
 text-preview: >-
   Clutch is the industry go-to place for reliable reviews of potential software
   development contractors. On paper, this sounds like a perfect way to x-ray
@@ -88,7 +88,7 @@ Try to do some research. No worries, everybody does a little espionage now and t
 
 Also, try to reach out to the company that has given a review. Just say something along the lines of “Hi, I’ve read the review you gave to the company X at Clutch, could you tell me more about them? How was the cooperation? Is there anything I should be careful about? Did you have any problems with them? Would you recommend this company? Would you hire them for another project?”. It’s a good start. Of course, there is no guarantee you will get a response, but it doesn’t hurt to try.
 
-[{% image /assets/images/company-presentation_1600.png presentation presentation %}](https://docsend.com/view/q8rascf){:target="_blank"}
+[{% image /assets/images/company-presentation_1600.webp presentation presentation %}](https://docsend.com/view/q8rascf){:target="_blank"}
 
 ## Double check everything
 
@@ -100,13 +100,13 @@ At Naturaily, unlike in many other software development companies, we try to tre
 
 When you contact us to discuss your project, we will be ready to provide you with in-depth portfolios and detailed testimonials of each of our specialists. If you want to, you will also get an opportunity to talk to them directly in your first calls.
 
-[{% image /assets/images/cta_estimation_1600.png estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
+[{% image /assets/images/cta_estimation_1600.webp estimate estimate %}](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 ## Reach out directly
 
 Try to reach out to decision-makers who are in charge of the teams that would develop your digital product – it’s best if you ping them directly. You can try to arrange a short call with the CEO or CTO of the company – it could yield more valuable insights than anything else you read or see on Clutch. In the video call, you can ask them to show their office and the people who work there. It would be also helpful for you to find out who they really are: what the office looks like: is it a comfortable place, do the people look happy? Solid, reliable companies respect their employees as much as they respect their clients ([_Delivering Happiness_](https://www.deliveringhappiness.com/){:rel="nofollow"}{:target="_blank"}, anyone?). And happy employees who care for the success of the company will do their best to build exactly the product you need.
 
-{% image /assets/images/naturaily-team.png team team %}
+{% image /assets/images/naturaily-team.webp team team %}
 
 <small class="text-center">Naturaily team</small>
 
@@ -114,7 +114,7 @@ The client may not always want – or be contractually allowed to – share the 
 
 Also, a long list of anonymous reviews may be a warning sign in itself. Such a strategy could suggest a clever marketing agenda of a company wanting to get Clutch-worthy based on fake reviews and projects that never really took place.
 
-{% image /assets/images/naturaily-team_2.png team team %}
+{% image /assets/images/naturaily-team_2.webp team team %}
 
 <small class="text-center">Naturaily team</small>
 
