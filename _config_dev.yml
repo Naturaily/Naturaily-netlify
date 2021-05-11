@@ -114,6 +114,7 @@ exclude:
   - _posts/
   - _career/
   - _data/
+  - _compress_images_cache.yml
 
 include:
   - .htaccess
