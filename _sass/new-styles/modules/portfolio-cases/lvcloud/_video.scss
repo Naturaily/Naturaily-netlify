@@ -3,83 +3,31 @@
   padding-top: 0;
   padding-bottom: 50px;
 
+  br {
+    display: none;
+  }
+
   &__wrapper {
     position: relative;
-    width: 100vw;
-    height: 270px;
     margin: 0 -35px;
-    border-radius: 8px;
+    padding-bottom: 56%;
   }
 
-  &__player {
-    height: 100%;
-  }
-
-  &__cover, &__cover-shadow, iframe {
+  &__iframe {
+    position: absolute;
     width: 100%;
     height: 100%;
-  }
-
-  &__cover {
-    position: absolute;
-    background-image: url('/assets/images/portfolio-cases/lvcloud/video-mobile.webp');
-    background-position: center;
-    background-size: cover;
-    z-index: 2;
-
-    &-shadow {
-      background-color: $color-white;
-      opacity: 0.6;
-    }
-
-    &-content {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-      padding: 0 25px;
-
-      .case__title {
-        padding: 10px 0;
-        line-height: 1.5;
-        font-size: 1.5em;
-      }
-    }
   }
 }
 
 @media (min-width: 576px) {
   .case-video {
     &__wrapper {
-      width: 100%;
       margin: 0;
     }
 
-    &__cover {
-      background-image: url('/assets/images/portfolio-cases/lvcloud/video.webp');
+    br {
+      display: block;
     }
-  }
-}
-
-@media (min-width: 811px) {
-  .case-video {
-    &__wrapper {
-      height: 500px;
-    }
-
-    &__cover-content {
-      padding: 0 100px;
-
-      .case__title {
-        padding: 25px 0;
-        font-size: 2em;
-      }
-    }
-  }
-}
-
-@media (min-width: 1200px) {
-  .case-video__wrapper {
-    height: 600px;
   }
 }
