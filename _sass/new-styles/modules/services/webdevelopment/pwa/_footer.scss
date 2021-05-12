@@ -1,12 +1,11 @@
 .shopify-footer {
   margin-top: 150px;
-  padding: 0 100px 50px;
+  padding: 0 100px 80px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
   position: relative;
-  border-bottom: 1px solid $color-global-font-10;
   align-items: flex-start;
   justify-content: space-between;
   &-block {
@@ -62,7 +61,7 @@
 @media (max-width: 1080px) {
   .shopify-footer {
     max-width: calc(100% - 15px);
-    margin: 0 5px 0 10px;
+    margin: 50px 5px 0 10px;
     padding: 40px 5px 50px 10px;
   }
 }
@@ -70,6 +69,8 @@
 @media (max-width: 940px) {
   .shopify-footer {
     flex-direction: column;
+    margin-top: 50px;
+
     &-main {
       margin-left: 50px;
     }

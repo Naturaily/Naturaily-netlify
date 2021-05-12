@@ -115,6 +115,10 @@
     padding-bottom: 100px;
     border-radius: 8px;
 
+    &.page-estimate {
+      margin-bottom: 125px;
+    }
+
     .page-estimate {
       &__content-text {
         padding-left: 150px;
