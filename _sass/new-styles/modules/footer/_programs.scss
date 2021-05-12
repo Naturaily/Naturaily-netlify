@@ -1,0 +1,159 @@
+.footer-programs {
+  &__info {
+    padding: 25px 20px;
+    border-top: 1px solid $color-global-font-10;
+    border-bottom: 1px solid $color-global-font-10;
+    text-align: center;
+
+    &-header {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 600;
+      color: $color-page-text;
+    }
+  
+    &-text {
+      width: 220px;
+      margin: 10px auto 20px;
+      font-size: 12px;
+      line-height: 20px;
+      color: $color-text-muted;
+  
+      a {
+        color: $color-secondary;
+      }
+  
+      strong {
+        font-weight: 500;
+      }
+    }
+  
+    &-icons {
+      &__eo img {
+        width: 116px;
+      }
+
+      &__eu {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        max-width: 350px;
+        margin: 25px auto 0;
+      }
+
+      &__image {
+        box-sizing: border-box;
+        width: 33.3%;
+
+        img {
+          width: 100%;
+        }
+
+        &:nth-of-type(even) {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+
+  &__copyrights {
+    padding: 25px 20px;
+    text-align: center;
+
+    &-info {
+      font-size: 14px;
+      line-height: 24px;
+      color: $color-text-muted;
+    }
+
+    &-privacy {
+      margin-top: 10px;
+
+      a {
+        margin: 0 5px;
+        color: $color-page-text;
+        transition: color .2s;
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .footer-programs {
+    &__info-text {
+      width: 100%;
+    }
+
+    &__copyrights {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+
+      &-info {
+        &__rights, &__vat {
+          display: inline-block;
+        }
+        
+        &__vat {
+          margin-left: 20px;
+        }
+      }
+
+      &-privacy {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .footer-programs {
+    &__info, &__copyrights {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &__info {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+
+      &-header, &-text {
+        margin: 0;
+        text-align: left;
+      }
+
+      &-header {
+        width: 230px;
+        min-width: 230px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-programs {
+    &__info {
+      &-icons {
+        display: flex;
+        align-items: center;
+        width: 400px;
+        min-width: 400px;
+
+        &__eo img {
+          width: 100px;
+        }
+
+        &__eu {
+          margin: 0;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
