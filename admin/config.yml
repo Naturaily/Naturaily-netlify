@@ -114,7 +114,7 @@ collections:
             fields:
               - {label: "Sum", name: "sum", widget: "string"}
               - {label: "Contract type", name: "contract", widget: "string"}
-      - label: "What we expect from you is"
+      - label: "Your duties"
         name: "what-we-expect"
         widget: "list"
         allow_add: true

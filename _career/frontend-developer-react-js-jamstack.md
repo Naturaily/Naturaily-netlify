@@ -34,18 +34,18 @@ salary-preview:
 what-we-expect:
   - expectation:
       contents: >-
-        Development of fast and safe websites  & progressive web apps (Jamstack
-        based)
+        Developing fast and safe websites & progressive web
+        apps (jamstack based)
   - expectation:
-      contents: 'Development of  beautiful, award-winning websites with React'
+      contents: 'Developing beautiful, award-winning websites with React'
   - expectation:
       contents: >-
         Building successful  frontends  for web and  mobile Products With
         React.js for our clients
   - expectation:
       contents: >-
-        Development of web-based interface that has reusable components, is both
-        functional and highly-responsive
+        Developing web-based interface that have reusable components, and are both functional
+        and highly-responsive
   - expectation:
       contents: >-
         Working and collaborating with our great team members (project managers,

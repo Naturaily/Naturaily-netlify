@@ -31,15 +31,15 @@ salary-preview:
       sum: Opening soon
 what-we-expect:
   - expectation:
-      contents: to perform manual and automated tests of web applications and APIs
+      contents: performing manual and automated tests of web applications and APIs
   - expectation:
-      contents: 'to report bugs, create test plans, scenarios and test cases'
+      contents: reporting bugs, as well as creating test plans, scenarios and test cases
   - expectation:
-      contents: 'to research production maintenance issues and bugs '
+      contents: researching production maintenance issues and bugs
   - expectation:
-      contents: 'to participate in defining new features '
+      contents: participating in the defining of new features
   - expectation:
-      contents: to communicate in English (both written and spoken)
+      contents: communicating in English (both written and spoken)
 what-you-expect:
   - expectation:
       contents: >-

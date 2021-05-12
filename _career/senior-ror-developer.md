@@ -34,26 +34,26 @@ salary-preview:
 what-we-expect:
   - expectation:
       contents: |
-        to drive software architecture, design & development activities
+        driving software architecture, design & development activities
   - expectation:
       contents: >
-        to keep abreast of new technology trends & to identify opportunities and
+        keeping abreast of new technology trends & identifying opportunities and
         risks
   - expectation:
       contents: |
-        to learn &  adopt new tools/ technologies/ programming languages
+        learning & adopting new tools, technologies and programming languages
   - expectation:
       contents: |
-        to communicate with the client on behalf of team
+        communicating with the client on behalf of the team
   - expectation:
       contents: |
-        to extend &  maintain DevTeam’s knowledge base
+        extending & maintaining the DevTeam’s knowledge base
   - expectation:
       contents: |
-        to mentor other RoR Developers
+        mentoring other RoR Developers
   - expectation:
       contents: >
-        to initiate/ to take part in grass-roots, both internal & external
+        initiating or taking part in both internal and external grass-roots
         activities
 what-you-expect:
   - expectation:

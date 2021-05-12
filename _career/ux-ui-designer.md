@@ -32,45 +32,37 @@ salary-preview:
       sum: '7500 - 12 500 PLN net + VAT '
 what-we-expect:
   - expectation:
-      contents: commercial experience in User Interface design (min. 3 years)
-  - expectation:
       contents: >-
-        the ability to reach, develop and execute design solutions for web and
+        Reaching, developing and executing design solutions for web and
         mobile applications
   - expectation:
       contents: >-
-        active engagement with clients in the creation of prototypes and
+        actively engaging with clients in the creation of prototypes and
         concepts to be tested
   - expectation:
       contents: >-
-        continued support and participation in reciprocal work with development
+        continually supporting and participating in reciprocal work with development
         teams
   - expectation:
-      contents: the translation of clients’ needs into visual design concepts and ideas
+      contents: translating clients’ needs into visual design concepts and ideas
   - expectation:
-      contents: 'direct cooperation with development, marketing and business teams'
-  - expectation:
-      contents: >-
-        high-quality custom storefronts created for e-commerce (excluding work
-        on templates) and fast, modern Jamstack based websites
-  - expectation:
-      contents: participation in product design workshops with clients
+      contents: 'directly cooperating with the development, marketing and business teams'
   - expectation:
       contents: >-
-        support for internal marketing & image needs (website, social media,
-        rich content for blog)
+        creating high-quality custom storefronts for e-commerce (excluding work
+        on templates) and fast, modern jamstack based websites
   - expectation:
-      contents: active participate in estimations and valuations
+      contents: participating in product design workshops with clients
   - expectation:
       contents: >-
-        a desire to take care of the visibility and coherence of digital
-        products
+        supporting internal marketing & image needs (website, social media and
+        rich content for our blog)
   - expectation:
-      contents: continued monitoring of UI/UX trends and technologies
+      contents: actively participating in estimations and valuations
   - expectation:
-      contents: improvements Naturaily's design processes
+      contents: continually monitoring UI/UX trends and technologies
   - expectation:
-      contents: communication in English (both written and spoken)
+      contents: improving Naturaily's design processes
 what-you-expect:
   - expectation:
       contents: >-
