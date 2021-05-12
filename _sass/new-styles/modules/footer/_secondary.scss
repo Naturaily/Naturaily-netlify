@@ -9,7 +9,8 @@
   }
 
   &__awards {
-    padding: 55px 20px 50px;
+    margin-bottom: 50px;
+    padding: 55px 20px 0;
 
     &-header {
       margin-bottom: 20px;
@@ -56,7 +57,7 @@
   
       &__mobile, &__mention {
         .footer-secondary__awards-image img {
-          height: 20px;
+          height: 22px;
         }
       }
 
@@ -112,6 +113,130 @@
         margin-bottom: -70px;
         pointer-events: none;
       }
+    }
+  }
+}
+
+@media(min-width: 576px) {
+  .footer-secondary {
+    padding: 75px 20px;
+
+    &__awards, &__knowledge {
+      padding: 0;
+    }
+
+    &__awards-header,
+    &__knowledge-header,
+    &__knowledge-posts__item {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    &__awards {
+      margin-bottom: 75px;
+    }
+
+    &__knowledge .btn {
+      margin-left: 0;
+    }
+  }
+}
+
+@media(min-width: 811px) {
+  .footer-secondary {
+    &__wrapper {
+      display: flex;
+      flex-flow: row nowrap;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    &__awards, &__knowledge {
+      box-sizing: border-box;
+      width: 50%;
+    }
+
+    &__awards {
+      margin-bottom: 0;
+
+      &-header {
+        margin-bottom: 35px;
+      }
+
+      &-image {
+        align-items: center;
+        height: 100px;
+      }
+
+      &-badges__cssda .footer-secondary__awards-image img {
+        height: 70px;
+      }
+    }
+
+    &__knowledge {
+      padding-left: 25px;
+
+      &-header {
+        padding-top: 0;
+        padding-bottom: 35px;
+      }
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .footer-secondary__knowledge {
+    padding: 0;
+
+    &-posts {
+      display: flex;
+      flex-flow: row wrap;
+
+      &__item {
+        border: none;
+      }
+
+      &__left, &__right {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &__left .footer-secondary__knowledge-posts__item {
+        position: relative;
+        padding-right: 10px;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 1px;
+          width: 50vw;
+          background-color: $color-footer-border;
+        }
+
+        &:last-of-type::after {
+          display: none;
+        }
+      }
+
+      &__right {
+        max-height: 600px;
+        opacity: 1;
+        border-top: none;
+
+        .footer-secondary__knowledge-posts__item {
+          padding-left: 10px;
+        }
+      }
+
+      &__item {
+        height: 50px;
+      }
+    }
+
+    .btn {
+      display: none;
     }
   }
 }
