@@ -129,10 +129,10 @@
 }
 
 .btn-bordered-white {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  position: relative;
+  text-align: center;
   padding: 15px;
+  padding-right: 50px;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
@@ -145,10 +145,9 @@
   transition: background-position .4s, color .2s;
 
   svg {
-    display: flex;
-    align-items: center;
-    height: 11px;
-    padding-top: 2px;
+    position: absolute;
+    top: 17px;
+    right: 20px;
 
     .arrow-line {
       fill: $color-white;
