@@ -10,32 +10,3 @@
 <script type="text/javascript">
   {% include accordion-vertical.js %}
 </script>
-
-<!-- <script type="text/javascript">
-  window.addEventListener('load', () => {
-    function getSelectionText() {
-      var text = '';
-      if (window.getSelection) {
-        text = window.getSelection().toString();
-      } else if (document.selection && document.selection.type != 'Control') {
-        text = document.selection.createRange().text;
-      }
-      if (text.includes("735 220 414") || text.includes("533 294 604") || text.includes("hello@naturaily.com") ) {
-        return text;
-      }
-      else {
-        return false
-      }
-    }
-
-    document.addEventListener('copy', function(e){
-      var textCopied = getSelectionText();
-      if (typeof(textCopied) === "string") {
-        dataLayer.push({
-          'event': 'linkCopied',
-          'linkCopied': getSelectionText()
-        });
-      }
-    }, { passive: true });
-  }, { passive: true });
-</script> -->
