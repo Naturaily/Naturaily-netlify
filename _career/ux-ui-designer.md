@@ -100,6 +100,12 @@ what-you-expect:
       contents: psychologist support
 we-need-you-to:
   - expectation:
+      contents: commercially experienced in User Interface design (min. 3 years)
+  - expectation:
+      contents: able to take care of the visibility and coherence of digital products
+  - expectation:
+      contents: fluent in English (both written and spoken)
+  - expectation:
       contents: able to provide a portfolio with a variety of your work examples
   - expectation:
       contents: >-
