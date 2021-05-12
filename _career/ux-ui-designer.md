@@ -33,7 +33,7 @@ salary-preview:
 what-we-expect:
   - expectation:
       contents: >-
-        Reaching, developing and executing design solutions for web and
+        reaching, developing and executing design solutions for web and
         mobile applications
   - expectation:
       contents: >-

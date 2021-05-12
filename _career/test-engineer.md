@@ -31,7 +31,7 @@ salary-preview:
       sum: Opening soon
 what-we-expect:
   - expectation:
-      contents: performing manual and automated tests of web applications and APIs
+      contents: performing manual tests of web applications
   - expectation:
       contents: reporting bugs, as well as creating test plans, scenarios and test cases
   - expectation:
@@ -77,24 +77,22 @@ what-you-expect:
       contents: psychologist support
 we-need-you-to:
   - expectation:
-      contents: experienced in manual and automated testing of web applications
+      contents: experienced in the manual testing of web applications (min. 6 months)
   - expectation:
-      contents: 'skilled with SQL on the basic level '
+      contents: experienced in working in the Agile methodology
   - expectation:
-      contents: commercially experienced with Selenium or other testing framework
+      contents: a problem solver with analytical skills
   - expectation:
-      contents: 'knowledgeable of Python '
-  - expectation:
-      contents: experienced in working in Agile methodology
+      contents: communicative and open minded
 would-be-great:
   - expectation:
-      contents: 'have ISTQB certification '
+      contents: have commercial experience with Selenium or other testing frameworks
   - expectation:
-      contents: have commercially used Git
+      contents: are skilled with SQL at a basic level
   - expectation:
-      contents: have basic knowledge of REST APIs
+      contents: have commercial experience using Git
   - expectation:
-      contents: are able to work with Docker on the basic level
+      contents: have basic knowledge of REST / GraphQL APIs
   - expectation:
       contents: have worked for a software development company in the past
   - expectation:

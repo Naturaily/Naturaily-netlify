@@ -39,8 +39,8 @@ what-we-expect:
         discussions
   - expectation:
       contents: >-
-        'cooperating with the Delivery Team in the customer's journey by participating in workshops,
-        as well as coming up with project estimates and negotiating contracts'
+        cooperating with the Delivery Team in the customer's journey by participating in workshops,
+        as well as coming up with project estimates and negotiating contracts
   - expectation:
       contents: >-
        developing customer awareness of the benefits of PWA storefronts,
