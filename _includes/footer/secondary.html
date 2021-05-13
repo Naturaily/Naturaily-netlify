@@ -53,15 +53,15 @@
       <p class="footer-secondary__knowledge-header">Knowledge</p>
       <div class="footer-secondary__knowledge-posts">
         <div class="footer-secondary__knowledge-posts__left">
-          {% for post in site.posts limit: 6 %}
+          {% for post in site.posts limit: 5 %}
             <a class="footer-secondary__knowledge-posts__item" href="{{ post.url }}">
               {{ post.title }}
             </a>
           {% endfor %}
         </div>
         <div class="footer-secondary__knowledge-posts__right" data-acc="footer-more" data-acc-target="footer-more">
-          {% for post in site.posts limit: 11 %}
-            {% if forloop.index > 6 %}
+          {% for post in site.posts limit: 10 %}
+            {% if forloop.index > 5 %}
               <a class="footer-secondary__knowledge-posts__item" href="{{ post.url }}">
                 {{ post.title }}
               </a>
