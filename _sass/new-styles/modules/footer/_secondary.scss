@@ -96,22 +96,24 @@
         border-top: 1px solid $color-footer-border;
         overflow: hidden;
         transition: all .4s ease-in-out;
-
-        &.active {
-          max-height: 600px;
-          opacity: 1;
-        }
       }
-    }
 
-    .btn {
-      width: 280px;
-      margin: 20px 20px 0;
+      .btn {
+        width: 280px;
+        margin: 20px 20px 0;
+      }
 
       &.active {
-        opacity: 0;
-        margin-bottom: -70px;
-        pointer-events: none;
+        .footer-secondary__knowledge-posts__right {
+          max-height: 600px;
+          margin-bottom: -70px;
+          opacity: 1;
+        }
+  
+        .btn {
+          opacity: 0;
+          pointer-events: none;
+        }
       }
     }
   }
@@ -234,10 +236,10 @@
       &__item {
         height: 65px;
       }
-    }
 
-    .btn {
-      display: none;
+      .btn {
+        display: none;
+      }
     }
   }
 }

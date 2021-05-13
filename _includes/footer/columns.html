@@ -1,11 +1,11 @@
 <div class="footer-columns">
   <div class="footer-columns__column footer-columns__column--services">
-    <div>
-      <p class="footer-columns__column-header" data-acc="footer-columns" data-acc-trigger="footer-services">
+    <div class="footer-columns__column-links" data-acc-group="footer-columns">
+      <p class="footer-columns__column-links__header" data-acc-trigger="true">
         Services
         {% svg /assets/images/btn-arrow.svg %}
       </p>
-      <nav class="footer-columns__column-links" data-acc="footer-columns" data-acc-target="footer-services">
+      <nav class="footer-columns__column-links__list">
         <a class="footer-columns__column-links__item" href="/services/webdevelopment">
           Web development
         </a>
@@ -32,12 +32,12 @@
         </a>
       </nav>
     </div>
-    <div class="footer-columns__column-bottom">
-      <p class="footer-columns__column-header" data-acc="footer-columns" data-acc-trigger="footer-resources">
+    <div class="footer-columns__column-links footer-columns__column-links--bottom" data-acc-group="footer-columns">
+      <p class="footer-columns__column-links__header" data-acc-trigger="true">
         Resources
         {% svg /assets/images/btn-arrow.svg %}
       </p>
-      <nav class="footer-columns__column-links" data-acc="footer-columns" data-acc-target="footer-resources">
+      <nav class="footer-columns__column-links__list">
         <a class="footer-columns__column-links__item" href="/vue-resources">
           Vue.js
         </a>
@@ -45,72 +45,78 @@
     </div>
   </div>
   <div class="footer-columns__column footer-columns__column--offers">
-    <p class="footer-columns__column-header" data-acc="footer-columns" data-acc-trigger="footer-offers">
-      Job offers
-      {% svg /assets/images/btn-arrow.svg %}
-    </p>
-    <nav class="footer-columns__column-links" data-acc="footer-columns" data-acc-target="footer-offers">
+    <div class="footer-columns__column-links" data-acc-group="footer-columns">
+      <p class="footer-columns__column-links__header" data-acc-trigger="true">
+        Job offers
+        {% svg /assets/images/btn-arrow.svg %}
+      </p>
+      <nav class="footer-columns__column-links__list">
 
-      {% assign job_offers = site.career | where: "published", "true"%}
+        {% assign job_offers = site.career | where: "published", "true"%}
 
-      {% for job_offer in job_offers %}
-        <a class="footer-columns__column-links__item" href="{{ job_offer.url }}">
-          {{ job_offer.title }}
-        </a>
-      {% endfor %}
-      
-    </ul>
+        {% for job_offer in job_offers %}
+          <a class="footer-columns__column-links__item" href="{{ job_offer.url }}">
+            {{ job_offer.title }}
+          </a>
+        {% endfor %}
+        
+      </nav>
+    </div>
   </div>
   <div class="footer-columns__column footer-columns__column--development">
-    <p class="footer-columns__column-header" data-acc="footer-columns" data-acc-trigger="footer-development">
-      Development
-      {% svg /assets/images/btn-arrow.svg %}
-    </p>
-    <nav class="footer-columns__column-links" data-acc="footer-columns" data-acc-target="footer-development">
-      <a class="footer-columns__column-links__item" href="/services/webdevelopment/jamstack">
-        Jamstack development
-      </a>
-      <a class="footer-columns__column-links__item" href="/services/webdevelopment/ruby-on-rails-development">
-        Ruby on Rails development
-      </a>
-      <a class="footer-columns__column-links__item" href="/services/webdevelopment/react-js-development">
-        React.js development
-      </a>
-      <a class="footer-columns__column-links__item" href="/services/webdevelopment/node-js-development">
-        Node.js development
-      </a>
-      <a class="footer-columns__column-links__item" href="/services/webdevelopment/vue-js-development">
-        Vue.js development
-      </a>
-    </nav>
+    <div class="footer-columns__column-links" data-acc-group="footer-columns">
+      <p class="footer-columns__column-links__header" data-acc-trigger="true">
+        Development
+        {% svg /assets/images/btn-arrow.svg %}
+      </p>
+      <nav class="footer-columns__column-links__list">
+        <a class="footer-columns__column-links__item" href="/services/webdevelopment/jamstack">
+          Jamstack development
+        </a>
+        <a class="footer-columns__column-links__item" href="/services/webdevelopment/ruby-on-rails-development">
+          Ruby on Rails development
+        </a>
+        <a class="footer-columns__column-links__item" href="/services/webdevelopment/react-js-development">
+          React.js development
+        </a>
+        <a class="footer-columns__column-links__item" href="/services/webdevelopment/node-js-development">
+          Node.js development
+        </a>
+        <a class="footer-columns__column-links__item" href="/services/webdevelopment/vue-js-development">
+          Vue.js development
+        </a>
+      </nav>
+    </div>
   </div>
   <div class="footer-columns__column columns__column--portfolio">
-    <p class="footer-columns__column-header" data-acc="footer-columns" data-acc-trigger="footer-portfolio">
-      Case studies by Industries
-      {% svg /assets/images/btn-arrow.svg %}
-    </p>
-    <nav class="footer-columns__column-links" data-acc="footer-columns" data-acc-target="footer-portfolio">
-      <a class="footer-columns__column-links__item" href="/portfolio/work-for-impact">
-        NGO
-      </a>
-      <a class="footer-columns__column-links__item" href="/portfolio/lvcloud">
-        Energy
-      </a>
-      <a class="footer-columns__column-links__item" href="/portfolio/artinfo">
-        Art
-      </a>
-      <a class="footer-columns__column-links__item" href="/portfolio/woolman">
-        Shopify
-      </a>
-      <a class="footer-columns__column-links__item" href="/portfolio/awn">
-        Ecommerce
-      </a>
-      <a class="footer-columns__column-links__item" href="/portfolio/retention-rocket">
-        MarTech
-      </a>
-      <!-- <a class="footer-columns__column-links__item" href="/portfolio/bgl">
-        Real Estate
-      </a> -->
-    </nav>
+    <div class="footer-columns__column-links" data-acc-group="footer-columns">
+      <p class="footer-columns__column-links__header" data-acc-trigger="true">
+        Case studies by Industries
+        {% svg /assets/images/btn-arrow.svg %}
+      </p>
+      <nav class="footer-columns__column-links__list">
+        <a class="footer-columns__column-links__item" href="/portfolio/work-for-impact">
+          NGO
+        </a>
+        <a class="footer-columns__column-links__item" href="/portfolio/lvcloud">
+          Energy
+        </a>
+        <a class="footer-columns__column-links__item" href="/portfolio/artinfo">
+          Art
+        </a>
+        <a class="footer-columns__column-links__item" href="/portfolio/woolman">
+          Shopify
+        </a>
+        <a class="footer-columns__column-links__item" href="/portfolio/awn">
+          Ecommerce
+        </a>
+        <a class="footer-columns__column-links__item" href="/portfolio/retention-rocket">
+          MarTech
+        </a>
+        <!-- <a class="footer-columns__column-links__item" href="/portfolio/bgl">
+          Real Estate
+        </a> -->
+      </nav>
+    </div>
   </div>
 </div>

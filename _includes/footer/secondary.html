@@ -51,7 +51,7 @@
     </div>
     <div class="footer-secondary__knowledge"> 
       <p class="footer-secondary__knowledge-header">Knowledge</p>
-      <div class="footer-secondary__knowledge-posts">
+      <div class="footer-secondary__knowledge-posts" data-acc-group="footer-more">
         <div class="footer-secondary__knowledge-posts__left">
           {% for post in site.posts limit: 5 %}
             <a class="footer-secondary__knowledge-posts__item" href="{{ post.url }}">
@@ -59,7 +59,7 @@
             </a>
           {% endfor %}
         </div>
-        <div class="footer-secondary__knowledge-posts__right" data-acc="footer-more" data-acc-target="footer-more">
+        <div class="footer-secondary__knowledge-posts__right">
           {% for post in site.posts limit: 10 %}
             {% if forloop.index > 5 %}
               <a class="footer-secondary__knowledge-posts__item" href="{{ post.url }}">
@@ -68,11 +68,11 @@
             {% endif %}
           {% endfor %}
         </div>
+        <button class="btn btn-bordered-white" data-acc-trigger="true">
+          See more
+          {% svg /assets/images/btn-arrow.svg %}
+        </button>
       </div>
-      <button class="btn btn-bordered-white" data-acc="footer-more" data-acc-trigger="footer-more">
-        See more
-        {% svg /assets/images/btn-arrow.svg %}
-      </button>
     </div>
   </div>
 </div>
