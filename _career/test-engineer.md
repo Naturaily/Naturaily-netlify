@@ -8,6 +8,7 @@ description: >-
 layout: career-offer
 location:
   - Wroclaw
+  - Remote
 who-we-are: >-
   **Every software house is a multi-element puzzle. For six years, we have been
   successfully building a team of people with complementary characters and
@@ -27,8 +28,8 @@ about-right: >-
 type: Development
 salary-preview:
   - salary:
-      contract: Apply now
-      sum: Opening soon
+      contract: B2B
+      sum: '5000 - 6000 PLN net + VAT '
 what-we-expect:
   - expectation:
       contents: performing manual tests of web applications
@@ -125,7 +126,7 @@ benefits:
       benefit-title: You will gain valuable experience
 salaries:
   - salary:
-      contract: Apply now
-      sum: Openning soon
+      contract: B2B
+      sum: '5000 - 6000 PLN net + VAT '
 ---
 
