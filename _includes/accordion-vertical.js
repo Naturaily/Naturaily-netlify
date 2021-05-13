@@ -1,33 +1,25 @@
-const accAttr = 'data-acc';
-const accTargetAttr = `${accAttr}-target`;
+const accGroupAttr = 'data-acc-group';
 const openClass = 'active';
 
-const openAccordion = (trigger, target, acc) => {
-  const activeInAcc = document.querySelectorAll(`[${accAttr}=${acc}].${openClass}`);
-  
-  [...activeInAcc].forEach((item) => item.classList.remove(openClass));
-  trigger.classList.add(openClass);
-  target.classList.add(openClass);
+const openAccordion = (accordion) => accordion.classList.add(openClass);
+
+const closeActiveAccordions = (group) => {
+  const openAccGroup = document.querySelectorAll(`[${accGroupAttr}=${group}].${openClass}`);
+  openAccGroup.forEach((acc) => acc.classList.remove(openClass));
 };
 
-const closeAccordion = (trigger, target) => {
-  trigger.classList.remove(openClass);
-  target.classList.remove(openClass);
+const handleAccordion = (accordion) => {
+  const isAccOpened = accordion.classList.contains(openClass);
+
+  closeActiveAccordions(accordion.dataset.accGroup);
+  if (!isAccOpened) openAccordion(accordion);
 };
 
 document.addEventListener('click', (e) => {
-  const accTrigger = e.target;
-  const accTriggerData = accTrigger.dataset.accTrigger;
-  const currentAcc = accTrigger.dataset.acc;
-  
-  if (accTriggerData) {
-    const accTarget = document.querySelector(`[${accTargetAttr}="${accTriggerData}"`);
-    const isAccOpened = accTarget.classList.contains('active');
+  const trigger = e.target.dataset.accTrigger;
 
-    if (isAccOpened) {
-      closeAccordion(accTrigger, accTarget);
-    } else {
-      openAccordion(accTrigger, accTarget, currentAcc);
-    }
+  if (trigger) {
+    const targetAcc = e.target.parentNode.closest(`[${accGroupAttr}]`);
+    handleAccordion(targetAcc);
   }
 });
