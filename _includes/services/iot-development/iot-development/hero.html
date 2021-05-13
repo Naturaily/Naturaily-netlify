@@ -22,14 +22,19 @@
   </div>
   <img
     class="service-hero__image service-hero__image--left"
-    src="/assets/images/loader.gif"
-    data-src="/assets/images/services/iot-development/hero-left.webp"
+    src="/assets/images/services/iot-development/hero-left.webp"
     alt="Naturaily team photo"
   />
-  <img
-    class="service-hero__image service-hero__image--right"
-    src="/assets/images/loader.gif"
-    data-src="/assets/images/services/iot-development/hero-right.webp"
-    alt="Naturaily team photo"
-  />
+  <picture>
+    <source
+      media="(min-width: 541px)"
+      srcset="/assets/images/services/iot-development/hero-right.webp"
+      alt="Naturaily team photo"
+    >
+    <img
+      class="service-hero__image service-hero__image--right"
+      src="/assets/images/services/iot-development/hero-right-small.webp"
+      alt="Naturaily team photo"
+    />
+  </picture>
 </div>
