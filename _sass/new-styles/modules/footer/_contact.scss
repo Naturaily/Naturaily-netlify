@@ -1,5 +1,7 @@
 .footer-contact {
+  max-width: 100%;
   padding: 0 20px;
+  overflow: hidden;
 
   &__company {
     position: relative;
@@ -120,7 +122,8 @@
     display: flex;
     flex-flow: row nowrap;
     max-width: 1280px;
-    margin: 0 auto 50px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 
     &__company, &__phone, &__mail, &__social {
       box-sizing: border-box;
