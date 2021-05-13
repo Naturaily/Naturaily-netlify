@@ -34,22 +34,22 @@ salary-preview:
       sum: 11 500 - 17 000 PLN net + VAT + 26 paid days off
 what-we-expect:
   - expectation:
-      contents: 'to drive software architecture, design & development activities '
+      contents: 'driving software architecture, design & development activities'
   - expectation:
       contents: >-
-        to keep abreast of new technology trends & to identify opportunities and
+        keeping abreast of new technology trends & identifying opportunities and
         risks
   - expectation:
-      contents: to learn &  adopt new tools/ technologies/ programming languages
+      contents: learning & adopting new tools, technologies and programming languages
   - expectation:
-      contents: to communicate with the client on behalf of team
+      contents: communicating with the client on behalf of the team
   - expectation:
-      contents: to extend &  maintain DevTeam’s knowledge base
+      contents: extending & maintaining the DevTeam’s knowledge base
   - expectation:
-      contents: to mentor other Developers
+      contents: mentoring other Developers
   - expectation:
       contents: >-
-        to initiate/ to take part in grass-roots, both internal & external
+        initiating or taking part in both internal and external grass-roots
         activities
 what-you-expect:
   - expectation:

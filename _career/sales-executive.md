@@ -35,16 +35,18 @@ salary-preview:
 what-we-expect:
   - expectation:
       contents: >-
-        to find potential clients, initiate contact and start cooperation
+        finding potential clients, initiating contact and starting cooperation
         discussions
   - expectation:
-      contents: ' to cooperate with Delivery Team in customer''s journey through participating in workshops, coming up with project estimates and negotiating contracts'
+      contents: >-
+        cooperating with the Delivery Team in the customer's journey by participating in workshops,
+        as well as coming up with project estimates and negotiating contracts
   - expectation:
       contents: >-
-        to develop customer awareness of the benefits of PWA storefronts,
-        Jamstack/Serverless websites and custom IoT dashboards
+       developing customer awareness of the benefits of PWA storefronts,
+       JAMStack/Serverless websites and custom IoT dashboards
   - expectation:
-      contents: to close outbound & inbound leads
+      contents: closing outbound & inbound leads
 what-you-expect:
   - expectation:
       contents: chance to build the sales team from scratch
