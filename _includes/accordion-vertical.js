@@ -1,5 +1,4 @@
-window.addEventListener('load', () => {
-  const accAttr = 'data-acc';
+const accAttr = 'data-acc';
   const accTargetAttr = `${accAttr}-target`;
   const openClass = 'active';
 
@@ -16,22 +15,19 @@ window.addEventListener('load', () => {
     target.classList.remove(openClass);
   };
 
-  (function () {
-    document.addEventListener('click', (e) => {
-      const accTrigger = e.target;
-      const accTriggerData = accTrigger.dataset.accTrigger;
-      const currentAcc = accTrigger.dataset.acc;
-      
-      if (accTriggerData) {
-        const accTarget = document.querySelector(`[${accTargetAttr}="${accTriggerData}"`);
-        const isAccOpened = accTarget.classList.contains('active');
+  document.addEventListener('click', (e) => {
+    const accTrigger = e.target;
+    const accTriggerData = accTrigger.dataset.accTrigger;
+    const currentAcc = accTrigger.dataset.acc;
+    
+    if (accTriggerData) {
+      const accTarget = document.querySelector(`[${accTargetAttr}="${accTriggerData}"`);
+      const isAccOpened = accTarget.classList.contains('active');
 
-        if (isAccOpened) {
-          closeAccordion(accTrigger, accTarget);
-        } else {
-          openAccordion(accTrigger, accTarget, currentAcc);
-        }
+      if (isAccOpened) {
+        closeAccordion(accTrigger, accTarget);
+      } else {
+        openAccordion(accTrigger, accTarget, currentAcc);
       }
-    });
-  })();
-});
+    }
+  });

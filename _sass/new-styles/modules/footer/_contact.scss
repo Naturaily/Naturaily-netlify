@@ -84,6 +84,11 @@
         border-radius: 100%;
         transition: transform .4s, background-color .4s;
 
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+
         .fill {
           fill: white;
           transition: fill .4s;
