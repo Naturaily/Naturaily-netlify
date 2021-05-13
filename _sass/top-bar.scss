@@ -6,12 +6,8 @@
   grid-area: header;
   position: relative;
   z-index: 3;
-  top: 56px;
+  top: 0;
   transition: top .2s ease;
-
-  .scrolled & {
-    top: 0;
-  }
 
   .topbar {
     grid-column: 2;

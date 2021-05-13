@@ -214,5 +214,9 @@
 @media (min-width: 992px) {
   .case__section {
     padding: 100px;
+
+    &.other {
+      padding-top: 0;
+    }
   }
 }
