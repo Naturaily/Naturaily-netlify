@@ -8,6 +8,7 @@ description: >-
 layout: career-offer
 location:
   - Wroclaw
+  - Remote
 who-we-are: >-
   **Every software house is a multi-element puzzle. For six years, we have been
   successfully building a team of people with complementary characters and
@@ -27,19 +28,19 @@ about-right: >-
 type: Development
 salary-preview:
   - salary:
-      contract: Apply now
-      sum: Opening soon
+      contract: B2B
+      sum: '5000 - 6000 PLN net + VAT '
 what-we-expect:
   - expectation:
-      contents: to perform manual and automated tests of web applications and APIs
+      contents: performing manual tests of web applications
   - expectation:
-      contents: 'to report bugs, create test plans, scenarios and test cases'
+      contents: reporting bugs, as well as creating test plans, scenarios and test cases
   - expectation:
-      contents: 'to research production maintenance issues and bugs '
+      contents: researching production maintenance issues and bugs
   - expectation:
-      contents: 'to participate in defining new features '
+      contents: participating in the defining of new features
   - expectation:
-      contents: to communicate in English (both written and spoken)
+      contents: communicating in English (both written and spoken)
 what-you-expect:
   - expectation:
       contents: >-
@@ -77,24 +78,22 @@ what-you-expect:
       contents: psychologist support
 we-need-you-to:
   - expectation:
-      contents: experienced in manual and automated testing of web applications
+      contents: experienced in the manual testing of web applications (min. 6 months)
   - expectation:
-      contents: 'skilled with SQL on the basic level '
+      contents: experienced in working in the Agile methodology
   - expectation:
-      contents: commercially experienced with Selenium or other testing framework
+      contents: a problem solver with analytical skills
   - expectation:
-      contents: 'knowledgeable of Python '
-  - expectation:
-      contents: experienced in working in Agile methodology
+      contents: communicative and open minded
 would-be-great:
   - expectation:
-      contents: 'have ISTQB certification '
+      contents: have commercial experience with Selenium or other testing frameworks
   - expectation:
-      contents: have commercially used Git
+      contents: are skilled with SQL at a basic level
   - expectation:
-      contents: have basic knowledge of REST APIs
+      contents: have commercial experience using Git
   - expectation:
-      contents: are able to work with Docker on the basic level
+      contents: have basic knowledge of REST / GraphQL APIs
   - expectation:
       contents: have worked for a software development company in the past
   - expectation:
@@ -127,7 +126,7 @@ benefits:
       benefit-title: You will gain valuable experience
 salaries:
   - salary:
-      contract: Apply now
-      sum: Openning soon
+      contract: B2B
+      sum: '5000 - 6000 PLN net + VAT '
 ---
 

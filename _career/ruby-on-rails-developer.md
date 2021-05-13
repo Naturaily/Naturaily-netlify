@@ -33,23 +33,23 @@ salary-preview:
 what-we-expect:
   - expectation:
       contents: >
-        to actively participate in software development of both: commercial &
+        actively participating in the software development of both commercial & 
         internal projects
   - expectation:
       contents: |
-        to write clean & easily maintainable code
+        writing clean & easily maintainable code
   - expectation:
       contents: |
-        to learn &  adopt new tools/ technologies/ programming languages
+        learning & adopting new tools, technologies and programming languages
   - expectation:
       contents: |
-        to be able to transparently & openly  communicate with the client
+        transparently & openly communicating with the client
   - expectation:
       contents: |
-        to contribute into maintaining DevTeam’s knowledge base
+        contributing towards the maintenance of the DevTeam’s knowledge base
   - expectation:
       contents: |
-        to take part in grass-roots, both internal & external activities
+        initiating or taking part in both internal and external grass-roots activities
 what-you-expect:
   - expectation:
       contents: >

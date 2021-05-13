@@ -6,7 +6,6 @@ ScrollTrigger.matchMedia({
       .from("[gsap-hero-background]", { duration: 1, backgroundPosition: "100% 0", delay: 1 })
       .from("[gsap-logo]", { duration: .5, opacity: 0, ease: "back" }, "-=.7")
       .from("[gsap-nav-item]", { duration: .5, opacity: 0, y: -150, stagger: 0.15 }, "-=.5")
-      .from("[gsap-eu-bar]", { duration: 1, opacity: 0, y: -100 }, "-=1")
       .from("[gsap-nav-estimate]", { duration: .5, opacity: 0, ease: "back" }, "-=.5")
       .from("[gsap-hero-line]", { duration: 0.7, opacity: 0, y: 20, stagger: .25 })
       .from("[gsap-hero-mask]", { duration: .05, opacity: 0 }, "-=1.3")

@@ -13,9 +13,7 @@
     </div>
 
     {% unless page.url contains "/get-an-estimate" %}
-      <div class="l-footer">
-        {% include footer.html %}
-      </div>
+      {% include footer/index.html %}
     {% endunless %}
 
     {% if page.url == "/get-an-estimate"
@@ -50,6 +48,8 @@
        or page.url == "/services/webdevelopment/vue-js-development" %}
       <script src="/assets/js/jquery.waypoints.min.js"></script>
     {% endif %}
+
+    <script src="https://widget.clutch.co/static/js/widget.js"></script>
 
     {% include lazyload.html %}
   </body>

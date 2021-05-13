@@ -51,9 +51,10 @@
 
 @media (min-width: 576px) {
   .etno-estimate {
-    padding: 65px 100px 90px;
+    padding: 65px 100px 120px;
 
     &__content .btn {
+      bottom: 40px;
       left: 100px;
     }
   }
@@ -63,7 +64,7 @@
   .etno-estimate {
     flex-direction: row;
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 
     &__image, &__content {
       order: unset;

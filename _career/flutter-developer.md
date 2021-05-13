@@ -32,22 +32,22 @@ salary-preview:
       sum: '9000- 15 000 PLN net + VAT '
 what-we-expect:
   - expectation:
-      contents: to grow along with the company & be rewarded for following through
+      contents: growing along with the company & being rewarded for following through
   - expectation:
-      contents: to work on the business requirements within the project
+      contents: working on business requirements within a project
   - expectation:
-      contents: to communicate with the client on behalf of the team
+      contents: communicating with the client on behalf of the team
   - expectation:
-      contents: to extend & maintain DevTeam’s knowledge base
+      contents: extending & maintaining the Dev Team’s knowledge base
   - expectation:
       contents: >-
-        to keep abreast of new technology trends & to identify opportunities and
+        keeping abreast of new technology trends & identifying both opportunities and
         risks
   - expectation:
-      contents: to learn & adopt new tools/ technologies/ programming languages
+      contents: learning & adopting new tools, technologies and programming languages
   - expectation:
       contents: >-
-        to initiate/ to take part in grass-roots, both internal & external
+        initiating and participating in both internal & external grass-roots
         activities
 what-you-expect:
   - expectation:

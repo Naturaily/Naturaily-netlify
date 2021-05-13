@@ -34,23 +34,23 @@ salary-preview:
 what-we-expect:
   - expectation:
       contents: >-
-        to work closely with Software Developers in order to create high quality
-        and usability IT systems
+        working closely with Software Developers to create high quality
+        and usable IT systems
   - expectation:
-      contents: to design and implement RWD user interfaces
+      contents: designing and implementing RWD user interfaces
   - expectation:
-      contents: 'to implement best UI practices within the project teams '
+      contents: 'implementing best UI practices within the project teams'
   - expectation:
-      contents: to conduct CSS/HTML code review
+      contents: conducting CSS/HTML code reviews
   - expectation:
-      contents: to adapt the design of applications/ systems to new graphic requirements
+      contents: adapting application and system designs to new graphic requirements
   - expectation:
-      contents: to extend & maintain DevTeam’s knowledge base
+      contents: extending & maintaining the DevTeam’s knowledge base
   - expectation:
-      contents: to learn & adopt new tools/ technologies/ programming languages
+      contents: learning & adopting new tools, technologies and programming languages
   - expectation:
       contents: >-
-        to initiate/ to take part in grass-roots, both internal & external
+        initiating or taking part in both internal and external grass-roots
         activities
 what-you-expect:
   - expectation:

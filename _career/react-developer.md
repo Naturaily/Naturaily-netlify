@@ -33,21 +33,21 @@ salary-preview:
 what-we-expect:
   - expectation:
       contents: >-
-        to develop web based interface with reusable components, both functional
+        developing web based interfaces that have reusable components and are both functional
         & highly-responsive
   - expectation:
-      contents: to predict & adapt to user interactions
+      contents: predicting & adapting to user interactions
   - expectation:
-      contents: to learn &  adopt new tools/ technologies/ programming languages
+      contents: learning & adopting new tools, technologies and programming languages
   - expectation:
-      contents: to communicate with the client on behalf of the team
+      contents: communicating with the client on behalf of the team
   - expectation:
-      contents: to extend & maintain DevTeam’s knowledge base
+      contents: extending & maintaining the DevTeam’s knowledge base
   - expectation:
-      contents: to collaborate & mentor other team members
+      contents: collaborating & mentoring other team members
   - expectation:
       contents: >-
-        to initiate/ to take part in grass-roots, both internal & external
+        initiating or taking part in both internal and external grass-roots
         activities
 what-you-expect:
   - expectation:

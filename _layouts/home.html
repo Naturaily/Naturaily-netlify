@@ -10,15 +10,14 @@
       {{ content }}
     </div>
 
-    {% include cookie.html %}
+    {% include footer/index.html %}
 
-    <div class="l-footer">
-      {% include footer.html %}
-    </div>
+    {% include cookie.html %}
 
     {% include awwwards.html %}
 
     <script src="/assets/js/jquery-3.5.0.min.js"></script>
+    <script src="/assets/js/jquery.waypoints.min.js"></script>
     <script src="https://widget.clutch.co/static/js/widget.js"></script>
     {% include lazyload.html %}
   </body>
