@@ -26,7 +26,7 @@ That's because customers are becoming more demanding and have higher needs. And 
 
 If you're wondering what is headless commerce, how it works, and why it's better than a traditional platform for building an e-commerce website, we'll help you understand all the intricacies of headless.
 
-{% image /assets/images/What whatisheadless What_is_headless %}
+{% image  whatisheadless What_is_headless %}
 
 **Here are the key takeaways you'll learn from this guide about headless commerce:**
 
@@ -174,7 +174,7 @@ What's more, development teams responsible for back-end and front-end don't have
 
 [Statistics](https://www.superoffice.com/blog/customer-experience-statistics/) show that **86%** of buyers are willing to pay more for a great customer experience. If you want to meet their needs, you need to be ready for change and innovation. And there's no better way to do it than to adopt the headless solution.
 
-{% image /assets/images/Dajemyslowo Dajemyslowocase case %}
+{% image /assets/images/Dajemyslowo Jamstack case %}
 
 ### Improved developer experience
 
@@ -216,7 +216,7 @@ Let's look at the bigger picture and analyze all the pros and cons of a headless
 
 There's a reason why headless commerce is gaining popularity and has many advocates.
 
-{% image /assets/images/Advantages advantagesheadless Headless_advantages %}
+{% image /assets/images/Advantages of Headless %}
 
 Here are the benefits of headless commerce solution:
 
@@ -247,7 +247,7 @@ Here are the benefits of headless commerce solution:
 
 Overall, the pros outweigh the cons. Using the API-driven architecture offers many more positive aspects than sticking to the classical, old-fashioned monolithic one.
 
-{% image /assets/images/Disadvantages disadvantagesheadless Headless_disadvantages %}
+{% image /assets/images/Disadvantages of Headless %}
 
 ## Headless Commerce Solutions
 
@@ -259,7 +259,7 @@ You now know all the technicalities of headless technology. To give you some exa
 
 ### **Jamstack**
 
-**[Jamstack](https://naturaily.com/services/webdevelopment/jamstack)** is a framework with a set of tools that allow you to build dynamic pages with third-party apps and APIs. It's perfect for building a fully customizable headless commerce platform for people with strong technical skills and website development knowledge.
+**[Jamstack](https://naturaily.com/services/webdevelopment/jamstack)**is a framework with a set of tools that allow you to build dynamic pages with third-party apps and APIs. It's perfect for building a fully customizable headless commerce platform for people with strong technical skills and website development knowledge.
 
 ### **BigCommerce**
 
@@ -267,7 +267,7 @@ You now know all the technicalities of headless technology. To give you some exa
 
 You can also check your favorite or most popular ecommerce brands to look out for interesting solutions.
 
-{% image /assets/images/What whatisjamstack What_is_jamstack %}
+{% image /assets/images/What is jamstack.jpg %}
 
 ## Headless Commerce - Conclusion
 
