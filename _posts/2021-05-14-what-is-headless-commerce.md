@@ -17,10 +17,8 @@ image: /assets/images/headless-commerce.jpg
 text-preview: >-
   Headless e-commerce becomes more popular. Since it gives you more flexibility
   and allows for a personalized user experience, it may be a good idea to switch
-  from traditional commerce to a headless commerce solution. Many [headless
-  storefront
-  platforms](https://naturaily.com/blog/next-js-commerce-vue-storefront-saleor-magento-pwa-studio-modern-headless-storefront-platforms-compared)
-  embrace the possibilities offered by this technology.
+  from traditional commerce to a headless commerce solution. Many headless
+  storefront platforms embrace the possibilities offered by this technology.
 ---
 Headless e-commerce becomes more popular. Since it gives you more flexibility and allows for a personalized user experience, it may be a good idea to switch from traditional commerce to a headless commerce solution. Many [headless storefront platforms](https://naturaily.com/blog/next-js-commerce-vue-storefront-saleor-magento-pwa-studio-modern-headless-storefront-platforms-compared) embrace the possibilities offered by this technology.
 
