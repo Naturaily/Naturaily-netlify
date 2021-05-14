@@ -26,7 +26,7 @@ That's because customers are becoming more demanding and have higher needs. And 
 
 If you're wondering what is headless commerce, how it works, and why it's better than a traditional platform for building an e-commerce website, we'll help you understand all the intricacies of headless.
 
-{% image /assets/images/What Is Headless.jpg %}
+{% image /assets/images/What whatisheadless What_is_headless %}
 
 **Here are the key takeaways you'll learn from this guide about headless commerce:**
 
