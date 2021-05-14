@@ -9,7 +9,7 @@ layout: post
 date: '2021-04-30 12:53:35 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/Marta-Sulikowska-blog.png
+  avatar: /assets/images/Marta-Sulikowska-blog.webp
   label: Marta Sulikowska
   slug: marta-sulikowska
   value: author-33
