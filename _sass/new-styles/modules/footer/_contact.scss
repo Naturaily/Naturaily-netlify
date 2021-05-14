@@ -1,23 +1,28 @@
 .footer-contact {
-  max-width: 100%;
   padding: 0 20px;
-  overflow: hidden;
 
   &__company {
-    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
 
     &-name {
-      width: 100%;
       font-size: 16px;
       line-height: 24px;
       color: $color-page-text;
     }
 
-    .clutch-widget {
-      position: absolute;
-      top: -10px;
-      right: -130px;
-      transform: scale(0.6);
+    &-clutch {
+      width: 115px;
+      overflow: hidden;
+
+      .clutch-widget {
+        position: relative;
+        right: 80px;
+        width: 420px;
+        transform: scale(0.6);
+      }
     }
   }
 
@@ -110,10 +115,13 @@
 }
 
 @media (min-width: 576px) {
-  .footer-contact__company .clutch-widget {
-    top: 0;
-    right: -110px;
-    transform: none;
+  .footer-contact__company-clutch {
+    width: 190px;
+
+    .clutch-widget {
+      right: 0;
+      transform: none;
+    }
   }
 }
 
@@ -133,12 +141,14 @@
     &__company {
       display: block;
 
-      .clutch-widget {
-        position: relative;
-        top: 25px;
-        left: -20px;
-        right: auto;
-        transform: scale(0.8);
+      &-clutch {
+        padding-top: 25px;
+
+        .clutch-widget {
+          left: -40px;
+          right: auto;
+          transform: scale(0.8);
+        }
       }
     }
 
@@ -159,12 +169,6 @@
         max-width: 210px;
       }
     }
-  }
-}
-
-@media (min-width: 1200px) {
-  .footer-contact__company .clutch-widget {
-    left: -30px;
   }
 }
 
