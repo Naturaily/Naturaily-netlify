@@ -1,15 +1,15 @@
 ---
-title: What Is Headless E-commerce?
+title: What Is Headless Commerce?
 description: >-
   If you’re wondering what is headless commerce, how it works, and why it’s
   better than a traditional platform for building an e-commerce website, we’ll
   help you understand all the intricacies of headless.
-slug: what-is-headless-ecommerce
+slug: what-is-headless-commerce
 layout: post
 date: '2021-04-30 12:53:35 +0200'
 category: E-commerce
 authors:
-  avatar: /assets/images/Marta-Sulikowska-blog.webp
+  avatar: /assets/images/Marta-Sulikowska-blog.png
   label: Marta Sulikowska
   slug: marta-sulikowska
   value: author-33
@@ -46,17 +46,11 @@ If you're wondering what is headless commerce, how it works, and why it's better
 ### **Here are the key takeaways you'll learn from this guide about headless commerce:**
 
 1. What is a commerce platform
-
 2. What is headless and how it works
-
 3. The difference between traditional and headless commerce
-
 4. How headless commerce works
-
 5. Why headless is better than traditional e-commerce platforms
-
 6. The pros and cons of a headless ecommerce system
-
 7. Use cases for headless commerce
 
 ## What Is Commerce Platform?
@@ -73,8 +67,6 @@ Some of the most popular providers of commerce functionality are, for example, S
 
 Ecommerce functionality is crucial for every ecommerce store. It has all the elements necessary to have an ecommerce platform, beginning from a content management system (CMS), user interfaces, to digital asset management (DAM), and payment processing among others.
 
-
-
 ### Commerce Platform and Headless Commerce System
 
 Every ecommerce platform has its **commerce engine**. It's the heart that fuels all ecommerce platforms and enables people to buy from you.
@@ -85,7 +77,7 @@ So before you **decide on which commerce engine you want to build your ecommerce
 
 We suggest the latter, since headless commerce architecture offers more opportunities for growth, and is much more adaptable to changes and new ideas.
 
-{% image /assets/images/Moreflexibleforcustomer .jpg flexible Flexible_for_customer %}
+{% image /assets/images/Moreflexibleforcustomer.jpg flexible flexible %}
 
 ## What Is Headless Commerce?
 
@@ -103,8 +95,6 @@ In other words, **in headless commerce architecture**, you don't base your platf
 
 Let's dive a bit deeper into the traditional ecommerce model and headless commerce architectures. The difference between the two is simple and crucial if you're wondering which is better for your business and fits your ecommerce strategy more.
 
-
-
 ### Traditional e-commerce
 
 Traditional commerce platforms are based on **monolithic architecture**. It means that there's one, unified model for the design of the platform. A traditional ecommerce site is usually large and difficult to change. It's also based on a long, hard-to-maintain source code with a fixed framework.
@@ -117,7 +107,7 @@ Such a framework is best for well-established businesses, personal websites with
 
 Some of the best examples of monolithic platforms are those built on WordPress. It's an environment where you create all platforms within one platform. Although you can add extensions to make your experience more customizable, you're still limited by just one platform.
 
-{% image /assets/images/TraditionalvsHeadless  .jpg traditional traditional_headless %}
+{% image /assets/images/TraditionalvsHeadless.jpg traditional traditional %}
 
 ### Headless commerce system
 
@@ -242,33 +232,33 @@ Let's look at the bigger picture and analyze all the pros and cons of a headless
 
 There's a reason why headless commerce is gaining popularity and has many advocates.
 
-{% image /assets/images/AdvantagesofHeadlessCommerce .jpg advantages Advantages_headless %}
+{% image /assets/images/AdvantagesofHeadlessCommerce.jpg advantages advantages %}
 
 Here are the benefits of headless commerce solution:
 
-+**Quick updates**— all changes are implemented with a blink of an eye on the contrary to sites built on classic architecture.
+**+ Quick updates**— all changes are implemented with a blink of an eye on the contrary to sites built on classic architecture.
 
-+**Better user experience** — with a fully customizable front-end, you can create a perfect UX to attract more customers. Also, the user interface within headless CMS isn't problematic for developers and store owners.
+**+ Better user experience** — with a fully customizable front-end, you can create a perfect UX to attract more customers. Also, the user interface within headless CMS isn't problematic for developers and store owners.
 
-+ **Performance & fast loading pages** — headless commerce supports fast delivery of websites so all changes happen quickly, thereby your site will load much faster. It's [widely known](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/) that if a page takes more than 3 or 4 seconds to load, the visitor will leave it. Headless prevents that from happening.
+**+ Performance & fast loading pages** — headless commerce supports fast delivery of websites so all changes happen quickly, thereby your site will load much faster. It's [widely known](https://www.marketingdive.com/news/google-53-of-mobile-users-abandon-sites-that-take-over-3-seconds-to-load/426070/) that if a page takes more than 3 or 4 seconds to load, the visitor will leave it. Headless prevents that from happening.
 
-+ **The right tools** — the APIs allow you to add whatever you want with pre-built integrations. That gives the developers full control of how the end-product will look like but also what environment and framework they work within.
+**+ The right tools** — the APIs allow you to add whatever you want with pre-built integrations. That gives the developers full control of how the end-product will look like but also what environment and framework they work within.
 
-+ **Time to market** — with headless commerce, businesses can react quickly to changes. It's helpful also for marketing teams who need to take care of all things marketing-related.
+**+ Time to market** — with headless commerce, businesses can react quickly to changes. It's helpful also for marketing teams who need to take care of all things marketing-related.
 
-+ **Automated touchpoints** —payment, shipping procedures, and other commerce processes can be easily automated for even better customer experience
+**+ Automated touchpoints** —payment, shipping procedures, and other commerce processes can be easily automated for even better customer experience
 
-+ **Higher security**— because the headless as a development ecosystem is less vulnerable to outside breaches, the safety of your website and client information is ensured. Additionally, using the API for queries instead of SQL technology protects against SQL injection attacks.
+**+ Higher security**— because the headless as a development ecosystem is less vulnerable to outside breaches, the safety of your website and client information is ensured. Additionally, using the API for queries instead of SQL technology protects against SQL injection attacks.
 
-+ **Better control** — the separation of back-end from front-end helps to save time; you don't have to find lines of code, interfere with the databases. The management is much easier and straightforward.
+**+ Better control** — the separation of back-end from front-end helps to save time; you don't have to find lines of code, interfere with the databases. The management is much easier and straightforward.
 
-+ **Easy content management**— simple to use admin for content editing, product management, and visual [e-commerce website design](https://naturaily.com/blog/how-to-pick-the-best-ecommerce-website-design-company). Headless commerce platform ensures that you have all the ecommerce stack at hand.
+**+ Easy content management**— simple to use admin for content editing, product management, and visual [e-commerce website design](https://naturaily.com/blog/how-to-pick-the-best-ecommerce-website-design-company). Headless commerce platform ensures that you have all the ecommerce stack at hand.
 
-+ **Omnichannel delivery** — multi-channel servicing is on the rise. People want to buy more and quicker via different channels. Headless allows you to deliver your site to any device connected to the web, be it a smartphone, smartwatch, laptop, or tablet, with the digital experience platform.
+**+ Omnichannel delivery** — multi-channel servicing is on the rise. People want to buy more and quicker via different channels. Headless allows you to deliver your site to any device connected to the web, be it a smartphone, smartwatch, laptop, or tablet, with the digital experience platform.
 
-+ **Staying ahead of competitors**— quick change, embracing innovation, tailored customer experience, high performance, and flexibility — you get it all when using headless commerce technology. That helps you become a serious competitor for other brands from your niche.
+**+ Staying ahead of competitors**— quick change, embracing innovation, tailored customer experience, high performance, and flexibility — you get it all when using headless commerce technology. That helps you become a serious competitor for other brands from your niche.
 
-+ **SEO-friendly** — Google and other web browsers like well-performing, fast, and secure pages. Headless gives you all these elements at once. It's easier for your marketing team to position your brand and reach out to more people.
+**+ SEO-friendly** — Google and other web browsers like well-performing, fast, and secure pages. Headless gives you all these elements at once. It's easier for your marketing team to position your brand and reach out to more people.
 
 ### Cons:
 
@@ -298,7 +288,7 @@ You now know all the technicalities of headless technology. To give you some exa
 
 ### **BigCommerce**
 
-**BigCommerce**may be an alternative to Salesforce. It allows you to implement headless on any other platform to streamline management.
+**BigCommerce** may be an alternative to Salesforce. It allows you to implement headless on any other platform to streamline management.
 
 You can also check your favorite or most popular ecommerce brands to look out for interesting solutions.
 
