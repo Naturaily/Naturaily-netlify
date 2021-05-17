@@ -6,7 +6,7 @@ description: >-
   help you understand all the intricacies of headless.
 slug: what-is-headless-commerce
 layout: post
-date: '2021-04-30 12:53:35 +0200'
+date: '2021-05-17 10:30:35 +0200'
 category: E-commerce
 authors:
   avatar: /assets/images/Marta-Sulikowska-blog.webp
@@ -43,7 +43,16 @@ If you're wondering what is headless commerce, how it works, and why it's better
 
 
 
+<br>
+
+
+
 {% image /assets/images/WhatIsHeadless.png whatisheadless What_is_headless %}
+
+
+<br>
+
+
 
 ### **Here are the key takeaways you'll learn from this guide about headless commerce:**
 
@@ -65,7 +74,15 @@ The final product of the commerce system is the ecommerce website — a place wh
 
 
 
+<br>
+
+
+
 {% image /assets/images/headlessecommerce.png headlessecommerce Headless_Ecommerce %}
+
+
+
+<br>
 
 
 
@@ -85,7 +102,15 @@ We suggest the latter, since headless commerce architecture offers more opportun
 
 
 
-{% image /assets/images/Moreflexibleforcustomer.png flexible flexible %}
+<br>
+
+
+
+[{% image /assets/images/Moreflexibleforcustomer.png flexible flexible %}](https://naturaily.com/get-an-estimate)
+
+
+<br>
+
 
 ## What Is Headless Commerce?
 
@@ -117,7 +142,15 @@ Some of the best examples of monolithic platforms are those built on WordPress. 
 
 
 
+<br>
+
+
+
 {% image /assets/images/TraditionalvsHeadless.png traditional traditional %}
+
+
+<br>
+
 
 ### Headless commerce system
 
@@ -141,7 +174,15 @@ Here's how it looks like in a few steps:
 
 
 
+<br>
+
+
+
 {% image /assets/images/HowDoesHeadlessCommerceWork.png howdoesitwork How_headless_work %}
+
+
+
+<br>
 
 
 
@@ -170,7 +211,13 @@ In this case, **headless storefronts are the opposite of monolithic platforms**.
 
 
 
-{% image /assets/images/ProgressiveWebApp.png pwa PWA %}
+<br>
+
+
+
+[{% image /assets/images/ProgressiveWebApp.png pwa PWA %}](https://web.dev/orange/){:target=“_blank”}
+
+<br>
 
 ## Why Is Headless Commerce Better Than Traditional?
 
@@ -208,7 +255,15 @@ What's more, development teams responsible for back-end and front-end don't have
 
 
 
-{% image /assets/images/DajemyslowoJamstackcasestudy.png jamstackcase Dajemy_case %}
+<br>
+
+
+
+[{% image /assets/images/DajemyslowoJamstackcasestudy.png jamstackcase Dajemy_case %}](https://naturaily.com/portfolio/dajemy-slowo)
+
+
+<br>
+
 
 ### Improved developer experience
 
@@ -252,7 +307,15 @@ There's a reason why headless commerce is gaining popularity and has many advoca
 
 
 
+<br>
+
+
+
 {% image /assets/images/AdvantagesofHeadlessCommerce.png advantages advantages %}
+
+
+
+<br>
 
 
 
@@ -296,7 +359,16 @@ Overall, the pros outweigh the cons. Using the API-driven architecture offers ma
 
 
 
+<br>
+
+
+
 {% image /assets/images/DisadvantagesofHeadlessCommerce.png disadvanatges disadvantages_headless %}
+
+
+<br>
+
+
 
 ## Headless Commerce Solutions
 
@@ -316,7 +388,7 @@ You now know all the technicalities of headless technology. To give you some exa
 
 You can also check your favorite or most popular ecommerce brands to look out for interesting solutions.
 
-{% image /assets/images/Whatisjamstack.png jamstack jamstack %}
+[{% image /assets/images/Whatisjamstack.png jamstack jamstack %}](https://naturaily.com/blog/what-is-jamstack)
 
 ## [](https://naturaily.com/blog/what-is-jamstack)Headless Commerce - Conclusion
 
