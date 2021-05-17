@@ -6,7 +6,7 @@ description: >-
   help you understand all the intricacies of headless.
 slug: what-is-headless-commerce
 layout: post
-date: '2021-05-17 10:30:35 +0200'
+date: '2021-05-17 08:30:35 +0200'
 category: E-commerce
 authors:
   avatar: /assets/images/Marta-Sulikowska-blog.webp
