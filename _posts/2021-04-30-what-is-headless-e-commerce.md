@@ -13,7 +13,7 @@ authors:
   label: Marta Sulikowska
   slug: marta-sulikowska
   value: author-33
-image: /assets/images/headless-commerce.jpg
+image: /assets/images/headless-commerce.webp
 text-preview: >-
   Headless e-commerce becomes more popular. Since it gives you more flexibility
   and allows for a personalized user experience, it may be a good idea to switch
@@ -43,7 +43,7 @@ If you're wondering what is headless commerce, how it works, and why it's better
 
 <br>
 
-{% image /assets/images/WhatIsHeadless.png whatisheadless What_is_headless %}
+{% image /assets/images/WhatIsHeadless.webp whatisheadless What_is_headless %}
 
 <br>
 
@@ -67,7 +67,7 @@ The final product of the commerce system is the ecommerce website — a place wh
 
 <br>
 
-{% image /assets/images/headlessecommerce.png headlessecommerce Headless_Ecommerce %}
+{% image /assets/images/headlessecommerce.webp headlessecommerce Headless_Ecommerce %}
 
 <br>
 
@@ -87,7 +87,7 @@ We suggest the latter, since headless commerce architecture offers more opportun
 
 <br>
 
-[{% image /assets/images/Moreflexibleforcustomer.png flexible flexible %}](https://naturaily.com/get-an-estimate)
+[{% image /assets/images/Moreflexibleforcustomer.webp flexible flexible %}](https://naturaily.com/get-an-estimate)
 
 <br>
 
@@ -121,7 +121,7 @@ Some of the best examples of monolithic platforms are those built on WordPress. 
 
 <br>
 
-{% image /assets/images/TraditionalvsHeadless.png traditional traditional %}
+{% image /assets/images/TraditionalvsHeadless.webp traditional traditional %}
 
 <br>
 
@@ -147,7 +147,7 @@ Here's how it looks like in a few steps:
 
 <br>
 
-{% image /assets/images/HowDoesHeadlessCommerceWork.png howdoesitwork How_headless_work %}
+{% image /assets/images/HowDoesHeadlessCommerceWork_.webp howdoesitwork How_headless_work %}
 
 <br>
 
@@ -176,7 +176,7 @@ In this case, **headless storefronts are the opposite of monolithic platforms**.
 
 <br>
 
-[{% image /assets/images/ProgressiveWebApp.png pwa PWA %}](https://web.dev/orange/){:target=“_blank”}
+[{% image /assets/images/ProgressiveWebApp.webp pwa PWA %}](https://web.dev/orange/){:target=“_blank”}
 
 <br>
 
@@ -216,7 +216,7 @@ What's more, development teams responsible for back-end and front-end don't have
 
 <br>
 
-[{% image /assets/images/DajemyslowoJamstackcasestudy.png jamstackcase Dajemy_case %}](https://naturaily.com/portfolio/dajemy-slowo)
+[{% image /assets/images/DajemyslowoJamstackcasestudy.webp jamstackcase Dajemy_case %}](https://naturaily.com/portfolio/dajemy-slowo)
 
 <br>
 
@@ -262,7 +262,7 @@ There's a reason why headless commerce is gaining popularity and has many advoca
 
 <br>
 
-{% image /assets/images/AdvantagesofHeadlessCommerce.png advantages advantages %}
+{% image /assets/images/AdvantagesofHeadlessCommerce.webp advantages advantages %}
 
 <br>
 
@@ -306,7 +306,7 @@ Overall, the pros outweigh the cons. Using the API-driven architecture offers ma
 
 <br>
 
-{% image /assets/images/DisadvantagesofHeadlessCommerce.png disadvanatges disadvantages_headless %}
+{% image /assets/images/DisadvantagesofHeadlessCommerce.webp disadvanatges disadvantages_headless %}
 
 <br>
 
@@ -328,7 +328,7 @@ You now know all the technicalities of headless technology. To give you some exa
 
 You can also check your favorite or most popular ecommerce brands to look out for interesting solutions.
 
-[{% image /assets/images/Whatisjamstack.png jamstack jamstack %}](https://naturaily.com/blog/what-is-jamstack)
+[{% image /assets/images/Whatisjamstack.webp jamstack jamstack %}](https://naturaily.com/blog/what-is-jamstack)
 
 ## [](https://naturaily.com/blog/what-is-jamstack)Headless Commerce - Conclusion
 
