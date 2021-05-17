@@ -41,18 +41,11 @@ That's because customers are becoming more demanding and have higher needs. And 
 
 If you're wondering what is headless commerce, how it works, and why it's better than a traditional platform for building an e-commerce website, we'll help you understand all the intricacies of headless.
 
-
-
 <br>
-
-
 
 {% image /assets/images/WhatIsHeadless.png whatisheadless What_is_headless %}
 
-
 <br>
-
-
 
 ### **Here are the key takeaways you'll learn from this guide about headless commerce:**
 
@@ -72,19 +65,11 @@ So what is a commerce platform and why is it important when talking about headle
 
 The final product of the commerce system is the ecommerce website — a place where you can sell products, and your customers can easily buy them from any place in the world.
 
-
-
 <br>
-
-
 
 {% image /assets/images/headlessecommerce.png headlessecommerce Headless_Ecommerce %}
 
-
-
 <br>
-
-
 
 Some of the most popular providers of commerce functionality are, for example, Shopify, Weebly, or BigCommerce. These offer **an entire system to create ecommerce sites** for your ecommerce business.
 
@@ -100,17 +85,11 @@ So before you **decide on which commerce engine you want to build your ecommerce
 
 We suggest the latter, since headless commerce architecture offers more opportunities for growth, and is much more adaptable to changes and new ideas.
 
-
-
 <br>
-
-
 
 [{% image /assets/images/Moreflexibleforcustomer.png flexible flexible %}](https://naturaily.com/get-an-estimate)
 
-
 <br>
-
 
 ## What Is Headless Commerce?
 
@@ -140,17 +119,11 @@ Such a framework is best for well-established businesses, personal websites with
 
 Some of the best examples of monolithic platforms are those built on WordPress. It's an environment where you create all platforms within one platform. Although you can add extensions to make your experience more customizable, you're still limited by just one platform.
 
-
-
 <br>
-
-
 
 {% image /assets/images/TraditionalvsHeadless.png traditional traditional %}
 
-
 <br>
-
 
 ### Headless commerce system
 
@@ -172,19 +145,11 @@ Here's how it looks like in a few steps:
 2. **Manage**— you manage it, change, adjust, and customize
 3. **Deliver**— you deliver the content to a chosen front-end, so here’s how it's going to look as a dynamic material. It's an easy way to change the layout without getting rid of content data. Here, you use APIs (Application Programming Interface) for transferring the data between the backend system and the presentation layer.
 
-
-
 <br>
-
-
 
 {% image /assets/images/HowDoesHeadlessCommerceWork.png howdoesitwork How_headless_work %}
 
-
-
 <br>
-
-
 
 Headless commerce allows you to quickly deliver content and build a data repository and inventory management system, for example, for all the products you want to have in your e-store. That way, you don't have to focus on tiresome digging in the code.
 
@@ -209,11 +174,7 @@ It's especially helpful because PWA in headless commerce lets you engage custome
 
 In this case, **headless storefronts are the opposite of monolithic platforms**. Traditional platforms don't offer such freedom and limit your existence to just one platform. Or you need to build a dedicated app strictly connected with the presentation layer.
 
-
-
 <br>
-
-
 
 [{% image /assets/images/ProgressiveWebApp.png pwa PWA %}](https://web.dev/orange/){:target=“_blank”}
 
@@ -253,17 +214,11 @@ What's more, development teams responsible for back-end and front-end don't have
 
 [Statistics](https://www.superoffice.com/blog/customer-experience-statistics/) show that **86%** of buyers are willing to pay more for a great customer experience. If you want to meet their needs, you need to be ready for change and innovation. And there's no better way to do it than to adopt the headless solution.
 
-
-
 <br>
-
-
 
 [{% image /assets/images/DajemyslowoJamstackcasestudy.png jamstackcase Dajemy_case %}](https://naturaily.com/portfolio/dajemy-slowo)
 
-
 <br>
-
 
 ### Improved developer experience
 
@@ -305,19 +260,11 @@ Let's look at the bigger picture and analyze all the pros and cons of a headless
 
 There's a reason why headless commerce is gaining popularity and has many advocates.
 
-
-
 <br>
-
-
 
 {% image /assets/images/AdvantagesofHeadlessCommerce.png advantages advantages %}
 
-
-
 <br>
-
-
 
 Here are the benefits of headless commerce solution:
 
@@ -357,18 +304,11 @@ Here are the benefits of headless commerce solution:
 
 Overall, the pros outweigh the cons. Using the API-driven architecture offers many more positive aspects than sticking to the classical, old-fashioned monolithic one.
 
-
-
 <br>
-
-
 
 {% image /assets/images/DisadvantagesofHeadlessCommerce.png disadvanatges disadvantages_headless %}
 
-
 <br>
-
-
 
 ## Headless Commerce Solutions
 
