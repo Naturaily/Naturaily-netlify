@@ -3,7 +3,17 @@
     <span class="main-point">The need</span>
     <h2>{{ page.step-one-title }}</h2>
     {{ page.step-one-text | markdownify }}
-    <img class="image-right" src="/assets/images/loader.gif" data-src="{{ page.step-one-image }}" alt="First project image">
+    <picture class="image-right">
+      <source
+        media="(min-width: 541px)"
+        srcset="{{ page.step-one-image }}.webp"
+      >
+      <img
+        src="/assets/images/loader.gif"
+        data-src="{{ page.step-one-image }}-small.webp"
+        alt="First project image"
+      >
+    </picture>
   </div>
 </div>
 
@@ -12,7 +22,17 @@
     <span class="main-point">The solution</span>
     <h2>{{ page.step-two-title }}</h2>
     {{ page.step-two-text | markdownify }}
-    <img class="image-left" src="/assets/images/loader.gif" data-src="{{ page.step-two-image }}" alt="Second project image">
+    <picture class="image-left">
+      <source
+        media="(min-width: 541px)"
+        srcset="{{ page.step-two-image }}.webp"
+      >
+      <img
+        src="/assets/images/loader.gif"
+        data-src="{{ page.step-two-image }}-small.webp"
+        alt="Second project image"
+      >
+    </picture>
   </div>
 </div>
 
@@ -32,7 +52,17 @@
         <img src="/assets/images/loader.gif" data-src="{{ page.src-stack-3 }}" alt="{{ page.alt-stack-3 }}" alt="project stack">
       {% endif %}
     </div>
-    <img class="image-right" src="/assets/images/loader.gif" data-src="{{ page.step-three-image }}" alt="Third project image">
+    <picture class="image-right">
+      <source
+        media="(min-width: 541px)"
+        srcset="{{ page.step-three-image }}.webp"
+      >
+      <img
+        src="/assets/images/loader.gif"
+        data-src="{{ page.step-three-image }}-small.webp"
+        alt="Third project image"
+      >
+    </picture>
   </div>
 </div>
 
