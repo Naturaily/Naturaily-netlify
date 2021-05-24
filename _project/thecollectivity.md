@@ -29,7 +29,7 @@ step-one-text: >-
   there’s no place to share insights and organize cooperation. That’s where
   Naturaily enters the scene to help build online community solution.
 step-two-title: It’s all about communities and projects
-step-one-image: /assets/images/collectivity-screen-1.webp
+step-one-image: /assets/images/collectivity-screen-1
 step-two-text: >-
   Naturaily has created a community website that makes communication and
   cooperation much easier. Two key sections of the website are Activities and
@@ -42,7 +42,7 @@ step-two-text: >-
   focused on discussions and resources. Each community can discuss issues and
   store resources on its page. Links to projects and community experts’ profiles
   are stored on the community page as well.
-step-two-image: /assets/images/collectivity-screen-2.webp
+step-two-image: /assets/images/collectivity-screen-2
 step-three-title: Ruby on Rails application
 step-three-text: >-
   Collectivity is a regular Ruby on Rails application. It’s been developed with
@@ -52,7 +52,7 @@ step-three-text: >-
   enable smooth development and deployment process. Among them Jenkins with
   plugins for continuous integration and ensuring code quality, Docker for
   deployment.<br><br>Project has been managed using Kanban methodology.
-step-three-image: /assets/images/collectivity-screen-3.webp
+step-three-image: /assets/images/collectivity-screen-3
 src-stack-1: /assets/images/ruby-logo.webp
 alt-stack-1: ruby
 src-stack-2: /assets/images/backbone-logo.webp

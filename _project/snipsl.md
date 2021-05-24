@@ -28,7 +28,7 @@ step-one-text: >-
   the service, Snipsl group requested implementation of a Shopify-based online
   store to provide steady income for the service as well as other minor but
   useful features.
-step-one-image: /assets/images/snipsl-screen-1.webp
+step-one-image: /assets/images/snipsl-screen-1
 step-two-title: Fixes and improvements
 step-two-text: >-
   Naturaily has significantly improved already existing product by fixing issues
@@ -40,7 +40,7 @@ step-two-text: >-
   their readers. Now authors can not only share text posts but also sounds and
   pictures.<br><br>Users can now like the stories with the heart icon and share
   them on Facebook and other social media.
-step-two-image: /assets/images/snipsl-screen-2.webp
+step-two-image: /assets/images/snipsl-screen-2
 step-three-title: Heart made of Ruby
 step-three-text: >-
   Since Snipsl is a Ruby on Rails application, AWS EC2 instance has been chosen
@@ -50,7 +50,7 @@ step-three-text: >-
   for the frontend which is stored on AWS S3. Mobile applications for iOS and
   Android were created natively.<br><br>The e-shop stands strong on Shopify
   platform.<br><br>Project has been managed using Kanban methodology.
-step-three-image: /assets/images/snipsl-screen-3.webp
+step-three-image: /assets/images/snipsl-screen-3
 src-stack-1: /assets/images/ruby-logo.webp
 alt-stack-1: ruby
 src-stack-2: /assets/images/react-logo.webp
