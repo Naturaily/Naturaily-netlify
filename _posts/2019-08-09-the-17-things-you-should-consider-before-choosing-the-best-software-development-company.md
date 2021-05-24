@@ -77,7 +77,7 @@ Once it’s delivered, you can finally monetize it (yay!). If you’d chosen Com
 
 Companies often offer some sort of a **free trial** to give clients more confidence signing the final deal. If the expectations are not met you can terminate the cooperation but keep in mind that after doing so you lose all progress achieved by the team. At Naturaily, the trial usually lasts 2 weeks.
 
-[{% image /assets/images/company-presentation_1600.webp presentation presentation %}](https://docsend.com/view/q8rascf){:target="_blank"}
+[{% image /assets/images/company-presentation_1000.webp presentation presentation %}](https://docsend.com/view/q8rascf){:target="_blank"}
 
 
 ## 4. Technological stack

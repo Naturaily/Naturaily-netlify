@@ -88,7 +88,7 @@ Try to do some research. No worries, everybody does a little espionage now and t
 
 Also, try to reach out to the company that has given a review. Just say something along the lines of “Hi, I’ve read the review you gave to the company X at Clutch, could you tell me more about them? How was the cooperation? Is there anything I should be careful about? Did you have any problems with them? Would you recommend this company? Would you hire them for another project?”. It’s a good start. Of course, there is no guarantee you will get a response, but it doesn’t hurt to try.
 
-[{% image /assets/images/company-presentation_1600.webp presentation presentation %}](https://docsend.com/view/q8rascf){:target="_blank"}
+[{% image /assets/images/company-presentation_1000.webp presentation presentation %}](https://docsend.com/view/q8rascf){:target="_blank"}
 
 ## Double check everything
 
