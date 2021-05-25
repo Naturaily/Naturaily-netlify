@@ -17,13 +17,13 @@ banner-tech:
 - Ruby on Rails, Ember
 step-one-title: Sharing collective expertise
 step-one-text: Zapnito is a unique platform that allows organizations to share and monetize their professional, collective expertise with other companies and clients. With too much work on their hands, Zapnito sought for skilled and precise on-demand developers. Scaling up their IT team in order to acquire help with the small things allowed them to focus on the bigger picture of their product. Naturaily took on the challenge.
-step-one-image: /assets/images/zapnito-screen-1.webp
+step-one-image: /assets/images/zapnito-screen-1
 step-two-title: Fixes and maintenance
 step-two-text: The main focus of our cooperation with Zapnito was cleaning up the code and refactoring service’s features. Our team upgraded Ruby on Rails version on the client’s side and performed several bug fixing. Apart from that, Naturaily was in charge of general maintenance of the service and adding cosmetic touches.
-step-two-image: /assets/images/zapnito-screen-2.webp
+step-two-image: /assets/images/zapnito-screen-2
 step-three-title: Ruby on Rails application
 step-three-text: Zapnito is a SaaS (Software as a Service) application. It uses Ruby on Rails on the server-side, users are welcomed with Ember.js on frontend-side. PostgreSQL was used as the database system, Sendgrid as the email service.<br><br>The project has been managed using Kanban methodology.
-step-three-image: /assets/images/zapnito-screen-3.webp
+step-three-image: /assets/images/zapnito-screen-3
 src-stack-1: /assets/images/ruby-logo.webp
 alt-stack-1: ruby
 src-stack-2: /assets/images/ember-logo.webp
