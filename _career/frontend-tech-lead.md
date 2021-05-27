@@ -1,13 +1,13 @@
 ---
 published: true
-title: Frontend Tech Lead
+title: Frontend Tech Lead (React)
 meta-title-inset: don’t wait - apply
 description: >-
   Working at Naturaily as Frontend Tech Lead means taking charge of Naturaily’s
   Frontend Team (React) and keeping them up to date with the newest trends in
   Jamstack/React development.
 layout: career-offer
-image: /assets/images/Frontend Tech Lead.png
+image: /assets/images/FrontendTechLead.png
 location:
   - Wrocław/Remote
 who-we-are: >-
@@ -30,7 +30,7 @@ type: Development
 salary-preview:
   - salary:
       contract: B2B
-      sum: 16000 - 24 000 PLN net + VAT
+      sum: 17000 - 27 000 PLN net + VAT
 what-we-expect:
   - expectation:
       contents: >-
@@ -150,6 +150,6 @@ benefits:
 salaries:
   - salary:
       contract: B2B
-      sum: 16000 - 24 000 PLN net + VAT
+      sum: 17000 - 27 000 PLN net + VAT
 ---
 
