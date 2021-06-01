@@ -300,7 +300,7 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 | Team                       | Naturaily - Jamstack dev, <br> PM Orisono - designer |
 | :-------------------------- | :----------------------------------------------- |
 | Pages                      | 15                                              |
-| Hours spend on development | 200                                             |
+| Hours spend on the project | 200                                             |
 | Price per hour             | 55 euro                                         |
 | Total cost                 | 11 000 euro                                     |
 | Tech stack                 | Storyblok CMS, Vercel, Tailwind, NextJS         |
@@ -316,7 +316,7 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 | Team                       | Jamstack developer, PM, UX/UI designer, motion  designer                                                                           |
 |: -------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
 | Pages                      | 10                                                                                                                                 |
-| Hours spend on development | Development – 350 h <br> Animations (scenarios and  implementation) ~ 150 h <br> The rest of dev work – 200 h <br> Design – 50 h <br> SUM = 400 hours |
+| Hours spend on the project | Development – 350 h <br> Animations (scenarios and  implementation) ~ 150 h <br> The rest of dev work – 200 h <br> Design – 50 h <br> SUM = 400 hours |
 | Price per hour             | 55 euro                                                                                                                            |
 | Total cost                 | 22 000 euro                                                                                                                        |
 | Tech stack                 | GatsbyJS, Netlify, Sanity CMS (yet to be)                                                                                          |
@@ -332,7 +332,7 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 | Team                       | 2 developers, 1 copywriter, 1 UX/UI designer, 1 PM              |
 | :-------------------------- | :--------------------------------------------------------------- |
 | Pages                      | 10                                                              |
-| Hours spend on development | Copy – 70 h <br> Design – 110 h <br> Development – 300 h <br> SUM = 480 hours |
+| Hours spend on the project | Copy – 70 h <br> Design – 110 h <br> Development – 300 h <br> SUM = 480 hours |
 | Price per hour             | 55 euro                                                         |
 | Total cost                 | 26 400 euro                                                     |
 | Tech stack                 | GatsbyJS, Netlify, Sanity.io CMS                                |
