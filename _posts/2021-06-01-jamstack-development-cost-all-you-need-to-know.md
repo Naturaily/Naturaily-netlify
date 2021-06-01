@@ -297,8 +297,8 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 
 ### Example 1: Development for BGL
 
-| Team                       | Naturaily - Jamstack dev,\PM Orisono - designer |
-| -------------------------- | ----------------------------------------------- |
+| Team                       | Naturaily - Jamstack dev, </br> PM Orisono - designer |
+| :-------------------------- | :----------------------------------------------- |
 | Pages                      | 15                                              |
 | Hours spend on development | 200                                             |
 | Price per hour             | 55 euro                                         |
@@ -314,9 +314,9 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 ### Example 2: DajemySłowo - design + animations + dev
 
 | Team                       | Jamstack developer, PM, UX/UI designer, motion  designer                                                                           |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+|: -------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
 | Pages                      | 10                                                                                                                                 |
-| Hours spend on development | Development – 350 h\Animations (scenarios and  implementation) ~ 150 h\The rest of dev work – 200 h\Design – 50 h\SUM = 400 hours |
+| Hours spend on development | Development – 350 h </br> Animations (scenarios and  implementation) ~ 150 h </br> The rest of dev work – 200 h\Design – 50 h </br> SUM = 400 hours |
 | Price per hour             | 55 euro                                                                                                                            |
 | Total cost                 | 22 000 euro                                                                                                                        |
 | Tech stack                 | GatsbyJS, Netlify, Sanity CMS (yet to be)                                                                                          |
@@ -330,9 +330,9 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 ### Example 3: Etno Cafe - all project: copy + design + dev
 
 | Team                       | 2 developers, 1 copywriter, 1 UX/UI designer, 1 PM              |
-| -------------------------- | --------------------------------------------------------------- |
+| :-------------------------- | :--------------------------------------------------------------- |
 | Pages                      | 10                                                              |
-| Hours spend on development | Copy – 70 h\Design – 110 h\Development – 300 h\SUM = 480 hours |
+| Hours spend on development | Copy – 70 h </br> Design – 110 h </br> Development – 300 h </br> SUM = 480 hours |
 | Price per hour             | 55 euro                                                         |
 | Total cost                 | 26 400 euro                                                     |
 | Tech stack                 | GatsbyJS, Netlify, Sanity.io CMS                                |
