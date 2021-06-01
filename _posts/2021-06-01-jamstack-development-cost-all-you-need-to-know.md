@@ -297,7 +297,7 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 
 ### Example 1: Development for BGL
 
-| Team                       | Naturaily - Jamstack dev, <br> PM Orisono - designer |
+| Team                       | Naturaily - Jamstack dev, PM <br> Orisono - designer |
 | :-------------------------- | :----------------------------------------------- |
 | Pages                      | 15                                              |
 | Hours spend on the project | 200                                             |
