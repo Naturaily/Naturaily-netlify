@@ -267,7 +267,7 @@ Using the right tools will result in better performance and higher scalability. 
 
 Here's a quick cheat sheet with a comparison of the most popular headless CMSs and how much they cost. Note that the pricing depends on the number of users, features, and differs across platforms:
 
-#### **Netlify CMS**
+#### Netlify CMS
 
 Netlify offers a **free** **open-source CMS.**It has a user-friendly interface and it's easy to use. Although, if you need complex functionalities, you may find Netlify not suitable. Overall, Netlify gives you all the necessary tools to build a great site.
 
