@@ -132,8 +132,6 @@ would-be-great:
   - expectation:
       contents: Have knowledge of serverless architecture
   - expectation:
-      contents: Have knowledge of serverless architecture
-  - expectation:
       contents: Are familiar with tools like Zeplin/InVision/Sketch/Figma or other
   - expectation:
       contents: Have experience with consuming RESTful and GraphQL APIs
