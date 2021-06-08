@@ -204,6 +204,3 @@ DEPENDENCIES
   rouge
   sassc-rails
   tzinfo-data
-
-BUNDLED WITH
-   2.0.1
