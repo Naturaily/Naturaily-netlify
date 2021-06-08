@@ -37,25 +37,23 @@
   display: none;
 
   &-list {
-    max-width: 265px;
+    max-width: 270px;
     min-height: 240px;
     font-weight: 200;
     list-style: none;
     margin-left: 20px;
-    background-color: $color-white;
-    border-radius: 5px;
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
     padding: 30px 0;
 
     li {
-
       margin: 0 -20px;
       font-weight: 200;
       cursor: pointer;
 
       a {
         display: block;
-        padding: 16px 50px;
+        position: relative;
+        margin-top: -1px;
+        padding: 20px 50px;
         color: $color-global-font;
 
         &:hover {
@@ -63,14 +61,27 @@
         }
 
         &.active {
-          min-height: 30px;
           border-radius: 4px;
           color: $color-white;
           background: $color-accent-yellow;
-          -webkit-transition: .5s all ease-out;
-          -moz-transition: .5s all ease-out;
           transition: .5s all ease-out;
         }
+
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: -1;
+          width: 95%;
+          height: 1px;
+          background-color: $color-global-font-10;
+        }
+      }
+
+      &:last-of-type a::after {
+        display: none;
       }
     }
   }
