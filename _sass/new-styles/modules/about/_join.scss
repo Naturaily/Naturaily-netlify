@@ -1,5 +1,4 @@
 .join {
-
   .section_desc {
     flex-basis: 45%;
     padding-right: 200px;
@@ -17,8 +16,23 @@
 
   .btn {
     display: inline-block;
-    margin-left: 45px;
+    width: 260px;
     margin-top: 50px;
+    margin-left: 45px; 
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .join .section_desc {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .join .section_desc {
+    padding-right: 70px;
   }
 }
 
@@ -39,6 +53,7 @@
     .section_heading {
       font-size: 28px;
       padding-bottom: 20px;
+      padding-left: 0;
     }
 
     .section_content {
@@ -59,6 +74,13 @@
 
     .image {
       top: -105px;
+    }
+
+    .btn {
+      display: flex;
+      width: 240px;
+      margin-top: 20px;
+      margin-left: 0;
     }
   }
 }
