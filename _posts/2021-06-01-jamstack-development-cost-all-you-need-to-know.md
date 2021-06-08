@@ -12,7 +12,7 @@ authors:
   label: Marta Sulikowska
   slug: marta-sulikowska
   value: author-33
-image: /assets/images/Blog_COVID-2019_Pandemic_vs_E-commerce.webp
+image: /assets/images/Jamstack Development Cost - All You Need to Know.jpg
 text-preview: >-
   Jamstack is becoming the new normal in the world of web developers. It's a
   commonly used architecture that allows dev teams to freely create all kinds of
@@ -163,7 +163,7 @@ Also, it serves your pre-built markup and all content over a CDN. When CDNs are 
 
 It boosts the speed, there are fewer lags, no slowdowns, and no problems with loading sites. And when you build your platform with best practices in mind, you can be sure the performance will skyrocket.
 
-It's worth remembering. Why? Because**Google loves high-performing websites**. They even present a [study](https://support.google.com/webmasters/answer/9205520?hl=en) which says that if page load time increases from**1 second to 3 seconds**, the bounce rate increases **32%**, and if the load time increases from **1 second to 6 seconds**, the bounce rate increases by**106%**.
+It's worth remembering. Why? Because**Google loves high-performing websites**. They even present a [study](https://support.google.com/webmasters/answer/9205520?hl=en){:rel="nofollow"}{:target="_blank"} which says that if page load time increases from**1 second to 3 seconds**, the bounce rate increases **32%**, and if the load time increases from **1 second to 6 seconds**, the bounce rate increases by**106%**.
 
 And Jamstack solves this problem. It fits perfectly in the new Google algorithm and Core Web Vitals.
 
