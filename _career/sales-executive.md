@@ -1,6 +1,6 @@
 ---
 published: true
-title: Sales Executive
+title: Sales IT Executive
 meta-title-inset: check the job offer and apply
 description: >-
   You need to know that we value individuality, professionalism, open
@@ -8,7 +8,7 @@ description: >-
   clients, initiate contact and start cooperation discussions… Check the details
   >>
 layout: career-offer
-image: /assets/images/Sales-Executive_Job_Offer.png
+image: /assets/images/SalesIT.png
 location:
   - Wroclaw
   - Remote
@@ -31,7 +31,7 @@ type: Sales&Marketing
 salary-preview:
   - salary:
       contract: + VAT (B2B)
-      sum: 9 000 - 14 000 PLN net + 26 paid days off
+      sum: 9 000 - 15 000 PLN net + 26 paid days off
 what-we-expect:
   - expectation:
       contents: >-
@@ -39,12 +39,13 @@ what-we-expect:
         discussions
   - expectation:
       contents: >-
-        cooperating with the Delivery Team in the customer's journey by participating in workshops,
-        as well as coming up with project estimates and negotiating contracts
+        cooperating with the Delivery Team in the customer's journey by
+        participating in workshops, as well as coming up with project estimates
+        and negotiating contracts
   - expectation:
       contents: >-
-       developing customer awareness of the benefits of PWA storefronts,
-       JAMStack/Serverless websites and custom IoT dashboards
+        developing customer awareness of the benefits of PWA storefronts,
+        JAMStack/Serverless websites and custom IoT dashboards
   - expectation:
       contents: closing outbound & inbound leads
 what-you-expect:
@@ -83,7 +84,7 @@ what-you-expect:
   - expectation:
       contents: a MacBook
   - expectation:
-      contents: 26 paid days off
+      contents: 20/26 paid days off
   - expectation:
       contents: psychologist support
 we-need-you-to:
@@ -160,3 +161,4 @@ salaries:
       contract: + VAT (B2B)
       sum: 9 000 - 14 000 PLN net
 ---
+
