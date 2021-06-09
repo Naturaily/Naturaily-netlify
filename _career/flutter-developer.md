@@ -6,7 +6,7 @@ description: >-
   We're hiring! Are you a Flutter Developer? Join our team and help us build
   great digital products for our clients.
 layout: career-offer
-image: /assets/images/FlutterDeveloper.png
+image: /assets/images/FlutterDev.png
 location:
   - Wroclaw
   - Remote
@@ -41,10 +41,10 @@ what-we-expect:
       contents: extending & maintaining the Dev Team’s knowledge base
   - expectation:
       contents: >-
-        keeping abreast of new technology trends & identifying both opportunities and
-        risks
+        keeping abreast of new technology trends & identifying both
+        opportunities and risks
   - expectation:
-      contents: learning & adopting new tools, technologies and programming languages
+      contents: 'learning & adopting new tools, technologies and programming languages'
   - expectation:
       contents: >-
         initiating and participating in both internal & external grass-roots
@@ -77,7 +77,7 @@ what-you-expect:
   - expectation:
       contents: a MacBook
   - expectation:
-      contents: 20/26 paid days off
+      contents: 16/20 paid days off
   - expectation:
       contents: psychologist support
 we-need-you-to:
@@ -137,3 +137,4 @@ salaries:
       contract: B2B
       sum: 9000 - 15 000 PLN net + VAT
 ---
+
