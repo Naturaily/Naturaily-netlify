@@ -159,6 +159,6 @@ benefits:
 salaries:
   - salary:
       contract: + VAT (B2B)
-      sum: 9 000 - 14 000 PLN net
+      sum: 9 000 - 15 000 PLN net
 ---
 
