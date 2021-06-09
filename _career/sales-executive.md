@@ -8,7 +8,7 @@ description: >-
   clients, initiate contact and start cooperation discussions… Check the details
   >>
 layout: career-offer
-image: /assets/images/SalesIT.png
+image: /assets/images/SalesITExec.png
 location:
   - Wroclaw
   - Remote
@@ -31,7 +31,7 @@ type: Sales&Marketing
 salary-preview:
   - salary:
       contract: + VAT (B2B)
-      sum: 9 000 - 15 000 PLN net + 26 paid days off
+      sum: 9 000 - 15 000 PLN net + 20/26 paid days off
 what-we-expect:
   - expectation:
       contents: >-
