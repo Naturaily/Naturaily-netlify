@@ -9,6 +9,10 @@
     font-size: 2em;
     line-height: 1.5;
 
+     &-link {
+       color: $color-page-text;
+     }
+
     &.portfolio__header--bold {
       font-weight: 300;
     }
