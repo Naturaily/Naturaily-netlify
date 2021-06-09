@@ -1,6 +1,6 @@
 ---
 published: true
-title: Junior Quality Assurance Specialist
+title: Quality Assurance Specialist
 meta-title-inset: check the job offer and apply
 description: >-
   Working at Naturaily as Quality Assurance Specialist means cooperating with
@@ -73,7 +73,7 @@ what-you-expect:
   - expectation:
       contents: a MacBook
   - expectation:
-      contents: 20 paid days off
+      contents: 16 paid days off
   - expectation:
       contents: psychologist support
 we-need-you-to:
