@@ -6,6 +6,7 @@ description: >-
   Working at Naturaily as Quality Assurance Specialist means cooperating with
   all the development teams assisting them in the commercial projects.
 layout: career-offer
+image: /assets/images/QA.png
 location:
   - Wroclaw
   - Remote
