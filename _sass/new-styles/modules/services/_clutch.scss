@@ -1,16 +1,18 @@
 .services-clutch {
+  padding-top: 20px;
+
   &__badge {
     width: 130px;
-    margin-left: -15px;
   }
 
   &__logo {
     width: 100px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .btn-white {
     max-width: 280px;
+    margin-top: 10px;
     margin-left: -17px;
   }
 }
@@ -27,11 +29,13 @@
     }
 
     &__logo {
-      width: 70px;
+      width: 80px;
+      margin-left: 50px;
     }
 
     .btn-white {
       max-width: 300px;
+      margin-top: 0;
       margin-left: 50px;
 
       svg {

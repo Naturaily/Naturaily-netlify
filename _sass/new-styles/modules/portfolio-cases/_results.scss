@@ -58,8 +58,28 @@
     }
 
     &-image--with-figure {
+      position: relative;
       margin-left: 0;
       margin-right: 0;
+
+      .geometric-figure--schema2 {
+        display: block;
+        top: 50%;
+        left: 50%;
+        right: auto;
+        transform: translate(-50%, -50%) scale(1.5);
+        z-index: -1;
+    
+        .geometric-figure_center {
+          width: 162px;
+          height: 162px;
+          background-color: $color-accent-yellow;
+        }
+  
+        .geometric-figure_right {
+          display: none;
+        }
+      }
     }
 
     &-intro {
@@ -115,6 +135,11 @@
 
       &-image img {
         border-radius: 8px;
+      }
+
+      &-image--with-figure .geometric-figure--schema2 .geometric-figure_center {
+        width: 300px;
+        height: 300px;
       }
     }
 

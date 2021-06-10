@@ -252,6 +252,7 @@
 
     &-title {
       align-self: flex-start;
+      margin-bottom: 10px;
     }
 
     &-desc {
@@ -270,6 +271,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-top: 15px;
     color: $color-secondary;
     font-size: 11px;
     font-weight: 600;
@@ -288,7 +290,7 @@
     &-link {
       display: flex;
       align-items: center;
-      max-width: 460px;
+      max-width: 500px;
       padding-left: 45px;
       color: $color-secondary;
       font-size: 13px;
@@ -296,19 +298,27 @@
       text-decoration: none;
       text-transform: uppercase;
 
-      &-badge {
-        max-width: 60px;
-        margin-right: 60px;
+      &__badge {
+        max-width: 80px;
+        margin-right: 50px;
       }
 
-      &-clutch {
-        height: 18px;
-        margin-right: 90px;
+      &__clutch {
+        height: 22px;
+        margin-right: 80px;
       }
 
-      &-image {
+      &__text {
+        min-width: 150px;
+      }
+
+      svg {
         height: 11px;
         margin-left: 28px;
+
+        .arrow-line {
+          fill: $color-secondary;
+        }
       }
     }
   }
@@ -430,8 +440,8 @@
       flex-wrap: wrap;
       max-width: 320px;
 
-      &-badge, &-clutch {
-        margin-bottom: 15px;
+      &__badge, &__clutch {
+        margin-bottom: 25px;
       }
     }
 
