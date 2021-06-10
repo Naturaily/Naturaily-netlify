@@ -4,41 +4,24 @@
       {{ page.stack-header }}
     </h3>
     <div class="custom-carousel__wrapper" data-carousel="wrapper">
-      {% case page.stack-quantity %}
+      {% case page.stack.size %}
         {% when 3 %} {% assign class = 'three' %}
         {% when 4 %} {% assign class = 'four' %}
       {% endcase %}
 
       <ul class="custom-carousel__tabs custom-carousel__tabs--{{ class }}" data-carousel="tabs">
 
-        {% for i in (1..page.stack-quantity) %}
-          {% case i %}
-            {% when 1 %}
-              {% assign icon = page.stack-1-icon %}
-              {% assign name = page.stack-1-name %}
-              {% assign alt = page.stack-1-alt %}
-            {% when 2 %}
-              {% assign icon = page.stack-2-icon %}
-              {% assign name = page.stack-2-name %}
-              {% assign alt = page.stack-2-alt %}
-            {% when 3 %}
-              {% assign icon = page.stack-3-icon %}
-              {% assign name = page.stack-3-name %}
-              {% assign alt = page.stack-3-alt %}
-            {% when 4 %}
-              {% assign icon = page.stack-4-icon %}
-              {% assign name = page.stack-4-name %}
-              {% assign alt = page.stack-4-alt %}
-          {% endcase %}
+        {% for technology in page.stack %}
+          {% for item in technology %}
+            <li class="custom-carousel__tabs-tab" data-carousel="tab" data-tab-index="{{ forloop.index | minus: 1 }}">
+              <div class="case-stack__image">
+                <img src="/assets/images/loader.gif" data-src="{{ item[1][1] }}" alt="{{ item[0] }} icon"/>
+              </div>
+              <h4 class="case-stack__name">{{ item[1][0] }}</h4>
+            </li>
+          {% endfor %}
+        {% endfor %}
 
-          <li class="custom-carousel__tabs-tab" data-carousel="tab" data-tab-index="{{ i | minus: 1 }}">
-            <div class="case-stack__image">
-              <img src="/assets/images/loader.gif" data-src="{{ icon }}" alt="{{ alt }}"/>
-            </div>
-            <h4 class="case-stack__name">{{ name }}</h4>
-          </li>
-        {% endfor %} 
-        
       </ul>
       <div class="custom-carousel__dots" data-carousel="dots">
         <div
@@ -48,11 +31,11 @@
           data-dot-active="true"
         ></div>
 
-        {% for j in (2..page.stack-quantity) %}
+        {% for i in (2..page.stack.size) %}
           <div
             class="custom-carousel__dots-item"
             data-carousel="dots-item"
-            data-dot-index="{{ j | minus: 1 }}"
+            data-dot-index="{{ i | minus: 1 }}"
             data-dot-active="false"
           ></div>
         {% endfor %}
