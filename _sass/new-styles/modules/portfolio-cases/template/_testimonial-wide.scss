@@ -1,4 +1,4 @@
-.etno-testimonials {
+.case-wide-testimonial {
   padding: 50px 0;
   background-color: $color-code-orange-bg;
 
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 576px) {
-  .etno-testimonials {
+  .case-wide-testimonial {
     padding: 100px;
 
     .case__step,
@@ -95,7 +95,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-testimonials {
+  .case-wide-testimonial {
     box-sizing: border-box;
     width: 100%;
     max-width: 1470px;
@@ -140,7 +140,7 @@
 }
 
 @media (min-width: 992px) {
-  .etno-testimonials {
+  .case-wide-testimonial {
     &__columns {
       &-left {
         padding-right: 80px;
@@ -159,7 +159,7 @@
 }
 
 @media (min-width: 1200px) {
-  .etno-testimonials {
+  .case-wide-testimonial {
     border-radius: 8px;
   }
 }
