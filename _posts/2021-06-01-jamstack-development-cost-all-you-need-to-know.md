@@ -68,7 +68,7 @@ Overall, when it comes to the cost of web development in Jamstack, such a soluti
 
 👉 If you want to know more about Jamstack, make sure to check our guide — [What Is Jamstack?](https://naturaily.com/blog/what-is-jamstack)
 
-{% image /assets/images/What is jamstack.webp What-is-Jamstack  %}
+{% image /assets/images/What is jamstack.webp What-is-Jamstack jamstack.webp %}
 
 <br>
 
@@ -90,7 +90,7 @@ In other words, traditional web dev is based on monolithic architecture while [h
 
 Additionally, Jamstack is one of the favorites in e-commerce because it has many benefits that the niche can use to its advantage. Nowadays customers expect a quick, user-friendly experience, and **headless CMSs allow for innovation**.
 
-{% image /assets/images/What is headless ecommerce.webp What-is-headless-ecommerce  %}
+{% image /assets/images/What is headless %}
 
 Thanks to Jamstack you can also choose open-source CMS that you want to use to have more control over your projects.
 
@@ -108,7 +108,7 @@ Moreover, static site generators give an even better developer experience as the
 
 Overall, developing websites in Jamstack is more effective, easier, and allows you to create higher-quality projects. While traditional dev limits your possibilities for innovation.
 
-{% image /assets/images/etnocafe  Jamstack case study.webp Case-study-Etno-Cafe  %}
+{% image /assets/images/etnocafe  Jamstack %}
 
 <br>
 
@@ -140,7 +140,7 @@ But that's not all. Jamstack web developers can benefit from many conveniences:
 * Because the **front-end is separated from the back-end**, there's no need to dig in the code whenever you need to modify your project. That way, your business can quickly respond to changes.
 * Jamstack is a fantastic environment for the Agile approach — the dev team can smoothly transition from one tool to another, experiment, and test new ideas for more efficiency. It also helps to **save money**.
 
-{% image /assets/images/jamstack saves money.webp Jamstack-saves-money  %}
+{% image /assets/images/jamstack saves money.webp %}
 
 Such flexibility flourishes a better developer experience that results in a first-hand user experience for the customers and page visitors.
 
@@ -175,7 +175,7 @@ It boosts the speed, there are fewer lags, no slowdowns, and no problems with lo
 
 It's worth remembering. Why? Because**Google loves high-performing websites**. They even present a [study](https://support.google.com/webmasters/answer/9205520?hl=en){:rel="nofollow"}{:target="_blank"} which says that if page load time increases from**1 second to 3 seconds**, the bounce rate increases **32%**, and if the load time increases from **1 second to 6 seconds**, the bounce rate increases by**106%**.
 
-{% image /assets/images/Progressive Web App.webp Google-loves-performance  %}
+{% image /assets/images/Progressive Web App.webp %}
 
 And Jamstack solves this problem. It fits perfectly in the new Google algorithm and Core Web Vitals.
 
@@ -191,7 +191,7 @@ Many people love Jamstack for its SEO-friendliness. Just as it helps to boost pe
 
 Additionally, CDN doesn't go unnoticed here. It gives much more opportunities for growth and reaching a broad range of potential customers for e-commerce platforms.
 
-{% image /assets/images/get_an _estimate.webp Estimate-your-project-with-Naturaily  %}
+{% image /assets/images/get_an _estimate.webp Estimate-your-project-with-Naturaily %}
 
 ### Lower costs
 
@@ -211,7 +211,7 @@ Since Jamstack websites are build in a different way than the traditional ones, 
 
 Here's how the Jamstack workflow can look like:
 
-{% image /assets/images/Jamstack Workflow and Development Process.webp Jamstack-workflow  %}
+{% image /assets/images/Jamstack Workflow and %}
 
 1. **Building**: Your team of developers builds a website with their favorite tools, methodologies, and any programming language.
 2. **Customizing**: The development process includes the use of APIS or third-party services, static site generators, and headless CMSs. These are necessary to build additional features, have a reliable content management environment to quickly deliver a lot of content fast, and guarantee a good user experience.
@@ -248,7 +248,7 @@ Every project is different just as every business has different needs and aims a
 
 Based on our experience, **the average cost to build a website with the use of Jamstack is $11.000 with 200 hours of work**. But the higher your needs and the more complex the project, the higher the price.
 
-{% image /assets/images/Jamstack Development Cost.webp Jamstack-development-cost  %}
+{% image /assets/images/Jamstack Development Cost.webp %}
 
 ## What to Count When Building Jamstack Sites
 
@@ -263,7 +263,6 @@ First of all, to get an accurate estimate of web development costs, you need to 
 * What is your budget?
 * What niche does your business operate in?
 * Do you want a static website (e.g. a personal blog or portfolio) or want a dynamic environment that allows users to freely move around the site and use its features (most suitable for e-commerce).
-
 
 The strategy will differ for every job but you need to have clear guidelines so your contractor knows how to plan their work.
 
@@ -280,7 +279,7 @@ When you know what you want, you can hire a team of specialists that will provid
 
 You can either outsource agencies that offer professional [Jamstack services](https://naturaily.com/services/webdevelopment/jamstack) or put together your own team of Jamstack developers.
 
-{% image /assets/images/Team of specialists.webp Naturaily-team-of-specialists  %}
+{% image /assets/images/Team of specialists.webp %}
 
 ### Tech stack
 
@@ -383,7 +382,7 @@ That'll help ensure the credibility and engagement of the people and result in b
 
 Outsourcing the services also helps to **reduce costs**.
 
-{% image /assets/images/top-performing developers in Poland (1).webp Top-Jamstack-Agency  %}
+{% image /assets/images/top-performing developers in %}
 
 <br>
 
