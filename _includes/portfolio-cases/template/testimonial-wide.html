@@ -1,0 +1,34 @@
+<div class="case-wide-testimonial">
+  <div class="case-wide-testimonial__wrapper">
+    <span class="case__step">
+      {{ page.testimonial-step }}
+    </span>
+    <h2 class="case__title">
+      {{ page.testimonial-header }}
+    </h2>
+    <img
+      class="case-wide-testimonial__picture"
+      src="/assets/images/loader.gif"
+      data-src="{{ page.testimonial-img }}"
+      alt="{{ page.testimonial-name }}"
+    />
+    <div class="case-wide-testimonial__columns">
+      <div class="case-wide-testimonial__columns-left">
+        <p class="case-wide-testimonial__quote">
+          {{ page.testimonial-intro }}
+        </p>
+        <div class="case-wide-testimonial__credits">
+          <p class="case-wide-testimonial__credits-name">
+            {{ page.testimonial-name }}
+          </p>
+          <p class="case-wide-testimonial__credits-position">
+            {{ page.testimonial-position }}
+          </p>
+        </div>
+      </div>
+      <p class="case-wide-testimonial__columns-right">
+        {{ page.testimonial-text }}
+      </p>
+    </div>
+  </div>
+</div>
