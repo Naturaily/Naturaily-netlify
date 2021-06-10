@@ -1,5 +1,5 @@
 ---
-title: Jamstack Development Cost - All You Need to Know
+title: Jamstack Development Cost – All You Need to Know
 description: >-
   How much does it cost to develop a site in Jamstack? What do you need to
   include in the costs when hiring Jamstack experts? Here is your guide. 
@@ -68,7 +68,7 @@ Overall, when it comes to the cost of web development in Jamstack, such a soluti
 
 👉 If you want to know more about Jamstack, make sure to check our guide — [What Is Jamstack?](https://naturaily.com/blog/what-is-jamstack)
 
-{% image /assets/images/What is jamstack.webp %}
+{% image /assets/images/What is jamstack.webp what-is-jamstack jamstack.webp %}
 
 <br>
 
