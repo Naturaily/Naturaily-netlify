@@ -1,4 +1,4 @@
-.etno-hero {
+.case-hero {
   box-sizing: border-box;
   position: relative;
   z-index: -1;
@@ -58,7 +58,7 @@
 }
   
 @media (min-width: 576px) {
-  .etno-hero {
+  .case-hero {
     height: 500px;
 
     &__wrapper {
@@ -109,7 +109,7 @@
 }
   
 @media (min-width: 811px) {
-  .etno-hero {
+  .case-hero {
     height: 520px;
 
     &__wrapper {
@@ -150,7 +150,7 @@
 }
   
 @media (min-width: 992px) {
-  .etno-hero {
+  .case-hero {
     height: 510px;
 
     &__wrapper {
@@ -193,7 +193,7 @@
 }
   
 @media (min-width: 1200px) {
-  .etno-hero {
+  .case-hero {
     &__content {
       left: -40px;
     }
