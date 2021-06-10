@@ -68,7 +68,7 @@ Overall, when it comes to the cost of web development in Jamstack, such a soluti
 
 👉 If you want to know more about Jamstack, make sure to check our guide — [What Is Jamstack?](https://naturaily.com/blog/what-is-jamstack)
 
-{% image /assets/images/What is jamstack.webp What-is-Jamstack jamstack.webp %}
+{% image /assets/images/What is jamstack.webp What-is-jamstack jamstack.webp %}
 
 <br>
 
