@@ -1,0 +1,110 @@
+<div class="case-results">
+  <span class="case__step">
+    {{ page.results-step }}
+  </span>
+  <div class="case-results__intro">
+    <h2 class="case__title">
+      {{ page.results-header }}
+    </h2>
+    <p class="case-results__intro-text">
+      {{ page.results-intro }}
+    </p>
+  </div>
+  <div class="case-results__picture">
+    <img
+      src="/assets/images/loader.gif"
+      data-src="{{ page.results-img }}"
+      alt="{{ page.results-alt }}"
+    />
+  </div>
+  
+  {% if page.modifier == 'etno' %}
+    {% include portfolio-cases/etno/numbers.html %}
+  {% endif %}
+
+  {% if page.results-column-1 %}
+    <div class="case-results__columns">
+      <p class="case-results__columns-left">
+        {{ page.results-column-1 }}
+      </p>
+      <p class="case-results__columns-right">
+        {{ page.results-column-2 }}
+      </p>
+    </div>
+  {% endif %}
+
+  {% if page.results-numbers-header %}
+    <div class="case-results__numbers">
+      <h3 class="case-results__numbers-header">
+        {{ page.results-numbers-header }}
+      </h3>
+      <div class="custom-carousel__wrapper" data-carousel="wrapper">
+        {% case page.results-quantity %}
+          {% when 4 %} {% assign class = 'four' %}
+        {% endcase %}
+
+        <ul class="custom-carousel__tabs custom-carousel__tabs--{{ class }}" data-carousel="tabs">
+          {% for i in (1..page.results-quantity) %}
+            {% case i %}
+              {% when 1 %}
+                {% assign number = page.results-1-number %}
+                {% assign text = page.results-1-text %}
+              {% when 2 %}
+                {% assign number = page.results-2-number %}
+                {% assign text = page.results-2-text %}
+              {% when 3 %}
+                {% assign number = page.results-3-number %}
+                {% assign text = page.results-3-text %}
+              {% when 4 %}
+                {% assign number = page.results-4-number %}
+                {% assign text = page.results-4-text %}
+            {% endcase %}
+
+            <li
+              class="custom-carousel__tabs-tab"
+              data-carousel="tab"
+              data-tab-index="{{ page.results-quantity | minus: 1 }}"
+            >
+              <span class="case-results__numbers-number">{{ number }}</span>
+              <p class="case-results__numbers-text">{{ text }}</p>
+            </li>
+          {% endfor %}
+
+        </ul>
+        <div class="custom-carousel__dots" data-carousel="dots">
+          <div
+            class="custom-carousel__dots-item custom-carousel__dots-item--active"
+            data-carousel="dots-item"
+            data-dot-index="0"
+            data-dot-active="true"
+          ></div>
+
+          {% for j in (2..page.results-quantity) %}
+            <div
+              class="custom-carousel__dots-item"
+              data-carousel="dots-item"
+              data-dot-index="{{ j | minus: 1 }}"
+              data-dot-active="false"
+            ></div>
+          {% endfor %}
+
+        </div>
+        <div class="custom-carousel__nav" data-carousel="nav">
+          <div 
+            class="icon icon-chevron-left custom-carousel__nav-item custom-carousel__nav-item--disabled"
+            data-carousel="nav-item"
+            data-nav="prev"
+            data-nav-disabled="true"
+          ></div>
+          <div
+            class="icon icon-chevron-right custom-carousel__nav-item"
+            data-carousel="nav-item"
+            data-nav="next"
+            data-nav-disabled="false"
+          ></div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+</div>
