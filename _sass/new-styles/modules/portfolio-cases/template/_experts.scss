@@ -1,4 +1,4 @@
-.etno-experts {
+.case-experts {
   box-sizing: border-box;
   width: 100%;
   padding: 65px 0;
@@ -64,7 +64,7 @@
 }
 
 @media (min-width: 576px) {
-  .etno-experts {
+  .case-experts {
     &__header, .custom-carousel__tabs-tab {
       padding-left: 100px;
       padding-right: 100px;
@@ -83,7 +83,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-experts {
+  .case-experts {
     box-sizing: border-box;
     max-width: 1470px;
     margin: 0 auto;
@@ -135,7 +135,7 @@
 }
 
 @media (min-width: 992px) {
-  .etno-experts {
+  .case-experts {
     padding: 100px 100px 140px 70px;
     border-radius: 0 0 8px 8px;
 
