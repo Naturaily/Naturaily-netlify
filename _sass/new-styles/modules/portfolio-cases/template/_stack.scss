@@ -1,4 +1,4 @@
-.etno-stack {
+.case-stack {
   padding: 65px 0;
   border-top: 1px solid $color-global-font-10;
   border-bottom: 1px solid $color-global-font-10;
@@ -44,7 +44,7 @@
 }
 
 @media (min-width: 576px) {
-  .etno-stack {
+  .case-stack {
     &__header, .custom-carousel__tabs-tab {
       padding: 0 100px;
     }
@@ -58,7 +58,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-stack {
+  .case-stack {
     box-sizing: border-box;
     width: 100%;
     max-width: 1470px;
@@ -88,7 +88,7 @@
 }
 
 @media (min-width: 992px) {
-  .etno-stack {
+  .case-stack {
     padding-top: 100px;
 
     .custom-carousel__tabs-tab {
