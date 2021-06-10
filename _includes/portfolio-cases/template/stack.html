@@ -1,0 +1,73 @@
+<div class="case-stack case-stack--{{ page.modifier }}">
+  <div class="case-stack__wrapper">
+    <h3 class="case-stack__header">
+      {{ page.stack-header }}
+    </h3>
+    <div class="custom-carousel__wrapper" data-carousel="wrapper">
+      {% case page.stack-quantity %}
+        {% when 3 %} {% assign class = 'three' %}
+        {% when 4 %} {% assign class = 'four' %}
+      {% endcase %}
+
+      <ul class="custom-carousel__tabs custom-carousel__tabs--{{ class }}" data-carousel="tabs">
+
+        {% for i in (1..page.stack-quantity) %}
+          {% case i %}
+            {% when 1 %}
+              {% assign icon = page.stack-1-icon %}
+              {% assign name = page.stack-1-name %}
+            {% when 2 %}
+              {% assign icon = page.stack-2-icon %}
+              {% assign name = page.stack-2-name %}
+            {% when 3 %}
+              {% assign icon = page.stack-3-icon %}
+              {% assign name = page.stack-3-name %}
+            {% when 4 %}
+              {% assign icon = page.stack-4-icon %}
+              {% assign name = page.stack-4-name %}
+          {% endcase %}
+
+          <li class="custom-carousel__tabs-tab" data-carousel="tab" data-tab-index="{{ i | minus: 1 }}">
+            <div class="case-stack__image">
+              <img src="/assets/images/loader.gif" data-src="{{ icon }}" alt="{{ name }} icon"/>
+            </div>
+            <h4 class="case-stack__name">{{ name }}</h4>
+          </li>
+        {% endfor %} 
+        
+      </ul>
+      <div class="custom-carousel__dots" data-carousel="dots">
+        <div
+          class="custom-carousel__dots-item custom-carousel__dots-item--active"
+          data-carousel="dots-item"
+          data-dot-index="0"
+          data-dot-active="true"
+        ></div>
+
+        {% for j in (2..page.stack-quantity) %}
+          <div
+            class="custom-carousel__dots-item"
+            data-carousel="dots-item"
+            data-dot-index="{{ j | minus: 1 }}"
+            data-dot-active="false"
+          ></div>
+        {% endfor %}
+        
+      </div>
+      <div class="custom-carousel__nav" data-carousel="nav">
+        <div
+          class="icon icon-chevron-left custom-carousel__nav-item custom-carousel__nav-item--disabled"
+          data-carousel="nav-item"
+          data-nav="prev"
+          data-nav-disabled="true"
+        ></div>
+        <div
+          class="icon icon-chevron-right custom-carousel__nav-item"
+          data-carousel="nav-item"
+          data-nav="next"
+          data-nav-disabled="false"
+        ></div>
+      </div>
+    </div>
+  </div>
+</div>
