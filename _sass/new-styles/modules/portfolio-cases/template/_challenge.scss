@@ -1,4 +1,4 @@
-.etno-challenge {
+.case-challenge {
   box-sizing: border-box;
   width: 100%;
   padding: 50px 30px;
@@ -46,7 +46,7 @@
 }
 
 @media (min-width: 576px) {
-  .etno-challenge {
+  .case-challenge {
     padding-left: 100px;
     padding-right: 100px;
 
@@ -65,7 +65,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-challenge {
+  .case-challenge {
     padding: 80px 100px 100px;
 
     &__columns {
@@ -99,7 +99,7 @@
 }
 
 @media (min-width: 1200px) {
-  .etno-challenge__columns {
+  .case-challenge__columns {
     &-left {
       padding-right: 50px;
     }
