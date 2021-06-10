@@ -39,35 +39,23 @@
         {{ page.results-numbers-header }}
       </h3>
       <div class="custom-carousel__wrapper" data-carousel="wrapper">
-        {% case page.results-quantity %}
+        {% case page.results.size %}
           {% when 4 %} {% assign class = 'four' %}
         {% endcase %}
 
         <ul class="custom-carousel__tabs custom-carousel__tabs--{{ class }}" data-carousel="tabs">
-          {% for i in (1..page.results-quantity) %}
-            {% case i %}
-              {% when 1 %}
-                {% assign number = page.results-1-number %}
-                {% assign text = page.results-1-text %}
-              {% when 2 %}
-                {% assign number = page.results-2-number %}
-                {% assign text = page.results-2-text %}
-              {% when 3 %}
-                {% assign number = page.results-3-number %}
-                {% assign text = page.results-3-text %}
-              {% when 4 %}
-                {% assign number = page.results-4-number %}
-                {% assign text = page.results-4-text %}
-            {% endcase %}
 
-            <li
-              class="custom-carousel__tabs-tab"
-              data-carousel="tab"
-              data-tab-index="{{ page.results-quantity | minus: 1 }}"
-            >
-              <span class="case-results__numbers-number">{{ number }}</span>
-              <p class="case-results__numbers-text">{{ text }}</p>
-            </li>
+          {% for result in page.results %}
+            {% for item in result %}
+              <li
+                class="custom-carousel__tabs-tab"
+                data-carousel="tab"
+                data-tab-index="{{ forloop.index | minus: 1 }}"
+              >
+                <span class="case-results__numbers-number">{{ item[1] }}</span>
+                <p class="case-results__numbers-text">{{ item[0] }}</p>
+              </li>
+            {% endfor %}
           {% endfor %}
 
         </ul>
@@ -79,11 +67,11 @@
             data-dot-active="true"
           ></div>
 
-          {% for j in (2..page.results-quantity) %}
+          {% for i in (2..page.results.size) %}
             <div
               class="custom-carousel__dots-item"
               data-carousel="dots-item"
-              data-dot-index="{{ j | minus: 1 }}"
+              data-dot-index="{{ i | minus: 1 }}"
               data-dot-active="false"
             ></div>
           {% endfor %}

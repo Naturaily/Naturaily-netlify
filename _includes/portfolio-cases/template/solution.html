@@ -3,33 +3,32 @@
     <span class="case__step">{{ page.solution-step }}</span>
     <h2 class="case__title">{{ page.solution-header }}</h2>
 
-    {% for i in (1..page.solution-quantity) %}
-      {% case i %}
-        {% when 1 %}
-          {% assign class = 'first' %}
-          {% assign img = page.solution-img-1 %}
-          {% assign alt = page.solution-alt-1 %}
-          {% assign text = page.solution-text-1 %}
-        {% when 2 %}
-          {% assign class = 'second' %}
-          {% assign img = page.solution-img-2 %}
-          {% assign alt = page.solution-alt-2 %}
-          {% assign text = page.solution-text-2 %}
-        {% when 3 %}
-          {% assign class = 'third' %}
-          {% assign img = page.solution-img-3 %}
-          {% assign alt = page.solution-alt-3 %}
-          {% assign text = page.solution-text-3 %}
-      {% endcase %}
-
-      <div class="case-solution__columns case-solution__columns--{{ class }}">
+    {% if page.solution-text-1 %}
+      <div class="case-solution__columns case-solution__columns--first">
         <div class="case-solution__columns-image">
-          <img src="/assets/images/loader.gif" data-src="{{ img }}" alt="{{ alt }}"/>
+          <img src="/assets/images/loader.gif" data-src="{{ page.solution-img-1 }}" alt="{{ page.solution-alt-1  }}"/>
         </div>
-        <p class="case-solution__columns-text">{{ text }}</p>
+        <p class="case-solution__columns-text">{{ page.solution-text-1 }}</p>
       </div>
+    {% endif %}
 
-    {% endfor %}
+    {% if page.solution-text-2 %}
+      <div class="case-solution__columns case-solution__columns--second">
+        <div class="case-solution__columns-image">
+          <img src="/assets/images/loader.gif" data-src="{{ page.solution-img-2 }}" alt="{{ page.solution-alt-2  }}"/>
+        </div>
+        <p class="case-solution__columns-text">{{ page.solution-text-2 }}</p>
+      </div>
+    {% endif %}
+
+    {% if page.solution-text-3 %}
+      <div class="case-solution__columns case-solution__columns--third">
+        <div class="case-solution__columns-image">
+          <img src="/assets/images/loader.gif" data-src="{{ page.solution-img-3 }}" alt="{{ page.solution-alt-3 }}"/>
+        </div>
+        <p class="case-solution__columns-text">{{ page.solution-text-3 }}</p>
+      </div>
+    {% endif %}
 
     {% if page.solution-blog-url %}
       <div class="case-solution__columns case-solution__columns--blog">
