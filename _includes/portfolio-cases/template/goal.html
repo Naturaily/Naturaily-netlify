@@ -1,0 +1,23 @@
+<div class="case-goal">
+  <span class="case__step">
+    {{ page.goal-step }}
+  </span>
+  <h2 class="case__title">
+    {{ page.goal-header }}
+  </h2>
+  <div class="case-goal__columns">
+    <p class="case-goal__columns-left">
+      {{ page.goal-column-1 }}
+    </p>
+    <p class="case-goal__columns-right">
+      {{ page.goal-column-2 }}
+    </p>
+    <div class="case-goal__picture">
+      <img
+        src="/assets/images/loader.gif"
+        data-src="{{ page.goal-img }}"
+        alt="{{ page.goal-alt }}"
+      />
+    </div>
+  </div>
+</div>

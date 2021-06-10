@@ -1,4 +1,4 @@
-.etno-goal {
+.case-goal {
   box-sizing: border-box;
   width: 100%;
   padding-top: 50px;
@@ -62,7 +62,7 @@
 }
 
 @media (min-width: 576px) {
-  .etno-goal {
+  .case-goal {
     padding-left: 100px;
     padding-right: 100px;
 
@@ -86,7 +86,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-goal {
+  .case-goal {
     padding-top: 80px;
 
     &__columns {
@@ -116,7 +116,7 @@
 }
 
 @media (min-width: 1200px) {
-  .etno-goal__columns {
+  .case-goal__columns {
     &-left {
       padding-right: 45px;
     }
