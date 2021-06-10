@@ -1,4 +1,4 @@
-.etno-estimate {
+.case-estimate {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -50,7 +50,7 @@
 }
 
 @media (min-width: 576px) {
-  .etno-estimate {
+  .case-estimate {
     padding: 65px 100px 120px;
 
     &__content .btn {
@@ -61,7 +61,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-estimate {
+  .case-estimate {
     flex-direction: row;
     padding-top: 100px;
     padding-bottom: 80px;
@@ -99,7 +99,7 @@
 }
 
 @media (min-width: 992px) {
-  .etno-estimate__content {
+  .case-estimate__content {
     padding-left: 70px;
 
     &-header {
@@ -127,7 +127,7 @@
 }
 
 @media (min-width: 1200px) {
-  .etno-estimate__content {
+  .case-estimate__content {
     &-header, &-text {
       min-width: 550px;
     }
