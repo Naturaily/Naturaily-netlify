@@ -52,6 +52,8 @@ Here's a portion of knowledge about Jamstack in a nutshell.
 
 The main assumption behind Jamstack architecture is to give developers and designers full flexibility in using tools and workflows they like most. At the same time, websites are fast, fully responsive, and secure.
 
+{% image /assets/images/javascript_apis_markup.webp Javascript-API-Markup  %}
+
 The JAM in Jamstack stands for JavaScript, APIS, and markup. And here's how it works in short:
 
 1. **JavaScript**(JS): JavaScript is a fundamental element for interactive and dynamic apps and websites — it converts static websites with static files into interactive ones.
@@ -65,6 +67,8 @@ With the use of JavaScript and API, the input data becomes a dynamic and interac
 Overall, when it comes to the cost of web development in Jamstack, such a solution helps to stay productive and improve the developer experience. It's easier to manage it so you don't need to spend money on extra maintenance.
 
 👉 If you want to know more about Jamstack, make sure to check our guide — [What Is Jamstack?](https://naturaily.com/blog/what-is-jamstack)
+
+{% image /assets/images/What is jamstack.webp What-is-Jamstack  %}
 
 <br>
 
@@ -86,6 +90,8 @@ In other words, traditional web dev is based on monolithic architecture while [h
 
 Additionally, Jamstack is one of the favorites in e-commerce because it has many benefits that the niche can use to its advantage. Nowadays customers expect a quick, user-friendly experience, and **headless CMSs allow for innovation**.
 
+{% image /assets/images/What is headless ecommerce.webp What-is-headless-ecommerce  %}
+
 Thanks to Jamstack you can also choose open-source CMS that you want to use to have more control over your projects.
 
 ### What Is a Static Site Generator?
@@ -101,6 +107,8 @@ The greatest benefit of using a static site generator is that viewers don't have
 Moreover, static site generators give an even better developer experience as they can be used with different programming languages, tools, and operate in many environments.
 
 Overall, developing websites in Jamstack is more effective, easier, and allows you to create higher-quality projects. While traditional dev limits your possibilities for innovation.
+
+{% image /assets/images/etnocafe  Jamstack case study.webp Case-study-Etno-Cafe  %}
 
 <br>
 
@@ -131,6 +139,8 @@ But that's not all. Jamstack web developers can benefit from many conveniences:
 * With **reusable APIs**,developers can reuse the API's functionality for different sites instead of creating new ones from scratch each time you want to introduce change or a new feature.
 * Because the **front-end is separated from the back-end**, there's no need to dig in the code whenever you need to modify your project. That way, your business can quickly respond to changes.
 * Jamstack is a fantastic environment for the Agile approach — the dev team can smoothly transition from one tool to another, experiment, and test new ideas for more efficiency. It also helps to **save money**.
+
+{% image /assets/images/jamstack saves money.webp Jamstack-saves-money  %}
 
 Such flexibility flourishes a better developer experience that results in a first-hand user experience for the customers and page visitors.
 
@@ -165,6 +175,8 @@ It boosts the speed, there are fewer lags, no slowdowns, and no problems with lo
 
 It's worth remembering. Why? Because**Google loves high-performing websites**. They even present a [study](https://support.google.com/webmasters/answer/9205520?hl=en){:rel="nofollow"}{:target="_blank"} which says that if page load time increases from**1 second to 3 seconds**, the bounce rate increases **32%**, and if the load time increases from **1 second to 6 seconds**, the bounce rate increases by**106%**.
 
+{% image /assets/images/Progressive Web App.webp Google-loves-performance  %}
+
 And Jamstack solves this problem. It fits perfectly in the new Google algorithm and Core Web Vitals.
 
 ### Scalability
@@ -178,6 +190,8 @@ You don't have to worry about server-side processes because everything takes pla
 Many people love Jamstack for its SEO-friendliness. Just as it helps to boost performance, it also allows you to increase organic traffic with SEO. Dynamic, responsive, and fast pages play an important role in performance.
 
 Additionally, CDN doesn't go unnoticed here. It gives much more opportunities for growth and reaching a broad range of potential customers for e-commerce platforms.
+
+{% image /assets/images/get_an _estimate.webp Estimate-your-project-with-Naturaily  %}
 
 ### Lower costs
 
@@ -196,6 +210,8 @@ Furthermore, when dev teams use the APIs and third-party apps to manage DevOps, 
 Since Jamstack websites are build in a different way than the traditional ones, the flow of work is more efficient.
 
 Here's how the Jamstack workflow can look like:
+
+{% image /assets/images/Jamstack Workflow and Development Process.webp Jamstack-workflow  %}
 
 1. **Building**: Your team of developers builds a website with their favorite tools, methodologies, and any programming language.
 2. **Customizing**: The development process includes the use of APIS or third-party services, static site generators, and headless CMSs. These are necessary to build additional features, have a reliable content management environment to quickly deliver a lot of content fast, and guarantee a good user experience.
@@ -232,6 +248,8 @@ Every project is different just as every business has different needs and aims a
 
 Based on our experience, **the average cost to build a website with the use of Jamstack is $11.000 with 200 hours of work**. But the higher your needs and the more complex the project, the higher the price.
 
+{% image /assets/images/Jamstack Development Cost.webp Jamstack-development-cost  %}
+
 ## What to Count When Building Jamstack Sites
 
 Each element affects the final price but in Jamstack there are several important components you need to consider when making financial estimates.
@@ -245,6 +263,7 @@ First of all, to get an accurate estimate of web development costs, you need to 
 * What is your budget?
 * What niche does your business operate in?
 * Do you want a static website (e.g. a personal blog or portfolio) or want a dynamic environment that allows users to freely move around the site and use its features (most suitable for e-commerce).
+
 
 The strategy will differ for every job but you need to have clear guidelines so your contractor knows how to plan their work.
 
@@ -260,6 +279,8 @@ When you know what you want, you can hire a team of specialists that will provid
 * **A project manager** who will supervise the workflow, bring people together, and oversee changes.
 
 You can either outsource agencies that offer professional [Jamstack services](https://naturaily.com/services/webdevelopment/jamstack) or put together your own team of Jamstack developers.
+
+{% image /assets/images/Team of specialists.webp Naturaily-team-of-specialists  %}
 
 ### Tech stack
 
@@ -298,12 +319,12 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 ### Example 1: Development for BGL
 
 | Team                       | Naturaily - Jamstack dev, PM <br> Orisono - designer |
-| :-------------------------- | :----------------------------------------------- |
-| Pages                      | 15                                              |
-| Hours spend on the project | 200                                             |
-| Price per hour             | 55 euro                                         |
-| Total cost                 | 11 000 euro                                     |
-| Tech stack                 | Storyblok CMS, Vercel, Tailwind, NextJS         |
+| -------------------------- | ---------------------------------------------------- |
+| Pages                      | 15                                                   |
+| Hours spend on the project | 200                                                  |
+| Price per hour             | 55 euro                                              |
+| Total cost                 | 11 000 euro                                          |
+| Tech stack                 | Storyblok CMS, Vercel, Tailwind, NextJS              |
 
 <br>
 
@@ -313,13 +334,13 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 
 ### Example 2: Dajemy Slowo - design + animations + dev
 
-| Team                       | Jamstack developer, PM, UX/UI designer, motion  designer                                                                           |
-|: -------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| Pages                      | 10                                                                                                                                 |
+| Team                       | Jamstack developer, PM, UX/UI designer, motion  designer                                                                                              |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Pages                      | 10                                                                                                                                                    |
 | Hours spend on the project | Development – 350 h <br> Animations (scenarios and  implementation) ~ 150 h <br> The rest of dev work – 200 h <br> Design – 50 h <br> SUM = 400 hours |
-| Price per hour             | 55 euro                                                                                                                            |
-| Total cost                 | 22 000 euro                                                                                                                        |
-| Tech stack                 | GatsbyJS, Netlify, Sanity CMS (yet to be)                                                                                          |
+| Price per hour             | 55 euro                                                                                                                                               |
+| Total cost                 | 22 000 euro                                                                                                                                           |
+| Tech stack                 | GatsbyJS, Netlify, Sanity CMS (yet to be)                                                                                                             |
 
 <br>
 
@@ -329,13 +350,13 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 
 ### Example 3: Etno Cafe - all project: copy + design + dev
 
-| Team                       | 2 developers, 1 copywriter, 1 UX/UI designer, 1 PM              |
-| :-------------------------- | :--------------------------------------------------------------- |
-| Pages                      | 10                                                              |
+| Team                       | 2 developers, 1 copywriter, 1 UX/UI designer, 1 PM                            |
+| -------------------------- | ----------------------------------------------------------------------------- |
+| Pages                      | 10                                                                            |
 | Hours spend on the project | Copy – 70 h <br> Design – 110 h <br> Development – 300 h <br> SUM = 480 hours |
-| Price per hour             | 55 euro                                                         |
-| Total cost                 | 26 400 euro                                                     |
-| Tech stack                 | GatsbyJS, Netlify, Sanity.io CMS                                |
+| Price per hour             | 55 euro                                                                       |
+| Total cost                 | 26 400 euro                                                                   |
+| Tech stack                 | GatsbyJS, Netlify, Sanity.io CMS                                              |
 
 <br>
 
@@ -361,6 +382,8 @@ A good agency that would help you develop a high-quality Jamstack site should ha
 That'll help ensure the credibility and engagement of the people and result in better performance for your platform.
 
 Outsourcing the services also helps to **reduce costs**.
+
+{% image /assets/images/top-performing developers in Poland (1).webp Top-Jamstack-Agency  %}
 
 <br>
 
