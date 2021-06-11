@@ -4,11 +4,7 @@
       {{ page.experts-header }}
     </h3>
     <div class="custom-carousel__wrapper" data-carousel="wrapper">
-      {% case page.experts.size %}
-        {% when 5 %} {% assign class = 'five' %}
-      {% endcase %}
-
-      <ul class="custom-carousel__tabs custom-carousel__tabs--{{ class }}" data-carousel="tabs">
+      <ul class="custom-carousel__tabs custom-carousel__tabs--{{ page.experts.size }}" data-carousel="tabs">
 
         {% for expert in page.experts %}
           <li class="custom-carousel__tabs-tab" data-carousel="tab" data-tab-index="{{ forloop.index | minus: 1 }}">
