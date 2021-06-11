@@ -4,12 +4,7 @@
       {{ page.stack-header }}
     </h3>
     <div class="custom-carousel__wrapper" data-carousel="wrapper">
-      {% case page.stack.size %}
-        {% when 3 %} {% assign class = 'three' %}
-        {% when 4 %} {% assign class = 'four' %}
-      {% endcase %}
-
-      <ul class="custom-carousel__tabs custom-carousel__tabs--{{ class }}" data-carousel="tabs">
+      <ul class="custom-carousel__tabs custom-carousel__tabs--{{ page.stack.size }}" data-carousel="tabs">
 
         {% for technology in page.stack %}
           {% for item in technology %}
