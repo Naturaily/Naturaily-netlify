@@ -377,6 +377,8 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 
 **Core assumptions**: This site was supposed to be very fast and performant, and SEO-friendly. Also, we were to change the WordPress part for a headless CMS. In the end, we delivered a great result which took dajemyslowo.com on a higher level!
 
+[Check case study](https://naturaily.com/portfolio/dajemy-slowo)
+
 ### Example 3: Etno Cafe - all project: copy + design + dev
 
 <br>
@@ -394,6 +396,8 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 **Approach**: Agile
 
 This project was based on copywriting, so the designs needed to emphasize it. The client shared with us his Brand Identity and preferred approach to the visuals, giving us, more or less, a free hand as to what the website should look like. The effect is a very performant and SEO-friendly site, even considering the huge amount of graphics on photographs visible on the site.
+
+[Check case study](https://naturaily.com/portfolio/etno-cafe)
 
 <br>
 
