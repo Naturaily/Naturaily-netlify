@@ -54,6 +54,8 @@ The main assumption behind Jamstack architecture is to give developers and desig
 
 {% image /assets/images/javascript_apis_markup.webp Javascript-API-Markup Javascript-API-Markup %}
 
+<br>
+
 The JAM in Jamstack stands for JavaScript, APIS, and markup. And here's how it works in short:
 
 1. **JavaScript**(JS): JavaScript is a fundamental element for interactive and dynamic apps and websites — it converts static websites with static files into interactive ones.
@@ -106,6 +108,8 @@ Moreover, static site generators give an even better developer experience as the
 
 Overall, developing websites in Jamstack is more effective, easier, and allows you to create higher-quality projects. While traditional dev limits your possibilities for innovation.
 
+<br>
+
 [{% image /assets/images/etnocafe-Jamstack-case-study.webp etnocafe etnocafe %}](https://naturaily.com/portfolio/etno-cafe)
 
 <br>
@@ -139,6 +143,8 @@ But that's not all. Jamstack web developers can benefit from many conveniences:
 * Jamstack is a fantastic environment for the Agile approach — the dev team can smoothly transition from one tool to another, experiment, and test new ideas for more efficiency. It also helps to **save money**.
 
 {% image /assets/images/jamstack-saves-money.webp jamstack-saves-money jamstack-saves-money %}
+
+<br>
 
 Such flexibility flourishes a better developer experience that results in a first-hand user experience for the customers and page visitors.
 
@@ -189,7 +195,11 @@ Many people love Jamstack for its SEO-friendliness. Just as it helps to boost pe
 
 Additionally, CDN doesn't go unnoticed here. It gives much more opportunities for growth and reaching a broad range of potential customers for e-commerce platforms.
 
+<br>
+
 [{% image /assets/images/get-an-estimate.webp Estimate-your-project %}](https://naturaily.com/get-an-estimate)
+
+<br>
 
 ### Lower costs
 
@@ -209,7 +219,11 @@ Since Jamstack websites are build in a different way than the traditional ones, 
 
 Here's how the Jamstack workflow can look like:
 
-{% image /assets/images/Jamstack-Workflow-and-Development-Process.webp workflow %}
+<br>
+
+{% image /assets/images/Jamstack-Workflow-and-Development-Process.webp workflow  %}
+
+<br>
 
 1. **Building**: Your team of developers builds a website with their favorite tools, methodologies, and any programming language.
 2. **Customizing**: The development process includes the use of APIS or third-party services, static site generators, and headless CMSs. These are necessary to build additional features, have a reliable content management environment to quickly deliver a lot of content fast, and guarantee a good user experience.
@@ -246,7 +260,11 @@ Every project is different just as every business has different needs and aims a
 
 Based on our experience, **the average cost to build a website with the use of Jamstack is $11.000 with 200 hours of work**. But the higher your needs and the more complex the project, the higher the price.
 
-{% image /assets/images/Jamstack-Development-Cost.webp cost %}
+<br>
+
+{% image /assets/images/Jamstack-Development-Cost.webp cost  %}
+
+<br>
 
 ## What to Count When Building Jamstack Sites
 
@@ -264,7 +282,11 @@ First of all, to get an accurate estimate of web development costs, you need to 
 
 The strategy will differ for every job but you need to have clear guidelines so your contractor knows how to plan their work.
 
+<br>
+
 {% image /assets/images/your-needs.webp Your-needs Your-needs %}
+
+<br>
 
 ### Dev team
 
@@ -279,7 +301,11 @@ When you know what you want, you can hire a team of specialists that will provid
 
 You can either outsource agencies that offer professional [Jamstack services](https://naturaily.com/services/webdevelopment/jamstack) or put together your own team of Jamstack developers.
 
-{% image /assets/images/Team-of-specialists.webp team %}
+<br>
+
+{% image /assets/images/Team-of-specialists.webp team  %}
+
+<br>
 
 ### Tech stack
 
@@ -317,6 +343,8 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 
 ### Example 1: Development for BGL
 
+<br>
+
 | Team                       | Naturaily - Jamstack dev, PM <br> Orisono - designer |
 | -------------------------- | ---------------------------------------------------- |
 | Pages                      | 15                                                   |
@@ -333,6 +361,8 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 
 ### Example 2: Dajemy Slowo - design + animations + dev
 
+<br>
+
 | Team                       | Jamstack developer, PM, UX/UI designer, motion  designer                                                                                              |
 | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Pages                      | 10                                                                                                                                                    |
@@ -348,6 +378,8 @@ Take a look at what it may cost if you decide to outsource the services. Note th
 **Core assumptions**: This site was supposed to be very fast and performant, and SEO-friendly. Also, we were to change the WordPress part for a headless CMS. In the end, we delivered a great result which took dajemyslowo.com on a higher level!
 
 ### Example 3: Etno Cafe - all project: copy + design + dev
+
+<br>
 
 | Team                       | 2 developers, 1 copywriter, 1 UX/UI designer, 1 PM                            |
 | -------------------------- | ----------------------------------------------------------------------------- |
@@ -381,6 +413,8 @@ A good agency that would help you develop a high-quality Jamstack site should ha
 That'll help ensure the credibility and engagement of the people and result in better performance for your platform.
 
 Outsourcing the services also helps to **reduce costs**.
+
+<br>
 
 [{% image /assets/images/top-performing-developers-in-Poland.webp top-performing-developers-in-Poland %}](https://naturaily.com/get-an-estimate)
 
