@@ -1,0 +1,19 @@
+@import "new-styles/reset";
+
+@import "variables";
+@import "utilities";
+@import "custom-icons";
+@import "buttons";
+@import "cookies";
+
+@import "new-styles/layout/layout";
+@import "new-styles/global";
+@import "new-styles/header";
+@import "new-styles/footer";
+
+@import "new-styles/modules/geometric-object";
+@import "new-styles/modules/carousel-custom";
+
+@import "new-styles/modules/portfolio-cases/main";
+
+@import "new-styles/modules/portfolio-cases/template/hero";

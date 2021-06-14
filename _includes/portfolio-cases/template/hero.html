@@ -1,15 +1,14 @@
-<div class="case-hero">
+<div class="case-hero case-hero--{{ page.modifier }}">
   <div class="case-hero__wrapper">
     <div class="case-hero__title">
       <h1 class="case-hero__title-text">
         {{ page.hero-text }}
       </h1>
     </div>
-    <div class="case-hero__image case-hero__image--{{ page.modifier }}">
+    <div class="case-hero__image">
       <img
         class="case-hero__image-img"
-        src="/assets/images/loader.gif"
-        data-src="{{ page.hero-img }}"
+        src="{{ page.hero-img }}"
         alt="{{ page.hero-alt }}"
       />
       <figure class="geometric-figure geometric-figure--{{ page.modifier }}">
