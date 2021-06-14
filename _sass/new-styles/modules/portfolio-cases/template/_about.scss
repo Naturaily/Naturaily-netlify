@@ -58,6 +58,7 @@
     width: 910px;
     margin: 65px 0 45px;
     padding-bottom: 306px;
+    background-color: $color-accent-yellow;
     
     &-img {
       position: absolute;
@@ -67,8 +68,8 @@
       width: 100%;
     }
 
-    &--etno {
-      background-color: $color-accent-yellow;
+    &--bgl {
+      background-color: $color-geometric-blue-accent;
     }
   }
 
@@ -213,6 +214,10 @@
         width: 200vw;
         height: 100%;
         background-color: $color-accent-yellow;
+      }
+
+      &--bgl::after {
+        background-color: $color-geometric-blue-accent;
       }
     }
   }
