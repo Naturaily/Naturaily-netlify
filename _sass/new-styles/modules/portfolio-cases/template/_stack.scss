@@ -41,6 +41,10 @@
       margin-top: 25px;
     }
   }
+
+  &--bgl {
+    border-bottom: none;
+  }
 }
 
 @media (min-width: 576px) {
@@ -80,9 +84,20 @@
 
       &-tab {
         box-sizing: border-box;
-        width: 33.3%;
         margin-bottom: 30px;
       }
+
+      &--3 .custom-carousel__tabs-tab {
+        width: 33.3%;
+      }
+
+      &--4 .custom-carousel__tabs-tab {
+        width: 25%;
+      }
+    }
+
+    &--bgl .custom-carousel__tabs {
+      margin-right: -200px;
     }
   }
 }
@@ -94,5 +109,15 @@
     .custom-carousel__tabs-tab {
       margin-bottom: 80px;
     }
+
+    &--bgl {
+      padding-top: 80px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .case-stack--bgl {
+    border-radius: 0 0 8px 8px;
   }
 }

@@ -10,7 +10,7 @@
           {% for item in technology %}
             <li class="custom-carousel__tabs-tab" data-carousel="tab" data-tab-index="{{ forloop.index | minus: 1 }}">
               <div class="case-stack__image">
-                <img src="/assets/images/loader.gif" data-src="{{ item[1][1] }}" alt="{{ item[0] }} icon"/>
+                <img src="{{ item[1][1] }}" alt="{{ item[0] }} icon"/>
               </div>
               <h4 class="case-stack__name">{{ item[1][0] }}</h4>
             </li>
