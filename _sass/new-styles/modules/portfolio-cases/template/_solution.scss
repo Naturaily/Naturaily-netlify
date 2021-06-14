@@ -221,12 +221,18 @@
 }
 
 @media (min-width: 992px) {
-  .case-solution__columns {
-    margin-bottom: 0;
+  .case-solution {
+    &__columns {
+      margin-bottom: 0;
 
-    &--blog {
-      margin-top: 70px;
-      margin-bottom: 90px;
+      &--blog {
+        margin-top: 70px;
+        margin-bottom: 90px;
+      }
+    }
+
+    &--bgl .case-solution__columns--second .case-solution__columns-image img {
+      margin: 30px 0 70px -85px;
     }
   }
 }
