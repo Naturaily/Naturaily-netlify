@@ -72,8 +72,12 @@
   .case-blog {
     display: flex;
     flex-flow: row nowrap;
-    margin-bottom: 70px;
+    margin-bottom: 0;
     padding: 0;
+
+    &--solution {
+      margin-bottom: 70px;
+    }
 
     &__content {
       box-sizing: border-box;
@@ -109,13 +113,18 @@
 @media (min-width: 992px) {
   .case-blog {
     margin-top: 70px;
-    margin-bottom: 90px;
+
+    &--solution {
+      margin-bottom: 90px;
+    }
   }
 }
 
 @media (min-width: 1200px) {
   .case-blog {
-    padding-bottom: 25px;
+    &--solution {
+      padding-bottom: 25px;
+    }
     
     &__content {
       display: flex;
