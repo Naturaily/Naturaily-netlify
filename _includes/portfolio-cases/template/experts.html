@@ -1,13 +1,20 @@
 <div class="case-experts">
   <div class="case-experts__wrapper">
     <h3 class="case-experts__header">
-      {{ page.experts-header }}
+      {{ page.experts.header }}
     </h3>
     <div class="custom-carousel__wrapper" data-carousel="wrapper">
-      <ul class="custom-carousel__tabs custom-carousel__tabs--{{ page.experts.size }}" data-carousel="tabs">
+      <ul
+        class="custom-carousel__tabs custom-carousel__tabs--{{ page.experts.names.size }}"
+        data-carousel="tabs"
+      >
 
-        {% for expert in page.experts %}
-          <li class="custom-carousel__tabs-tab" data-carousel="tab" data-tab-index="{{ forloop.index | minus: 1 }}">
+        {% for expert in page.experts.names %}
+          <li
+            class="custom-carousel__tabs-tab"
+            data-carousel="tab"
+            data-tab-index="{{ forloop.index | minus: 1 }}"
+          >
             <span class="icon icon-man"></span>
             <div class="case-experts__number">{{ forloop.index }}</div>
             <p class="case-experts__name">{{ expert }}</p>
@@ -23,7 +30,7 @@
           data-dot-active="true"
         ></div>
 
-        {% for i in (2..page.experts.size) %}
+        {% for i in (2..page.experts.names.size) %}
           <div
             class="custom-carousel__dots-item"
             data-carousel="dots-item"
