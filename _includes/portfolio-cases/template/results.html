@@ -1,20 +1,20 @@
 <div class="case-results">
   <span class="case__step">
-    {{ page.results-step }}
+    {{ page.results.step }}
   </span>
   <div class="case-results__intro">
     <h2 class="case__title">
-      {{ page.results-header }}
+      {{ page.results.header }}
     </h2>
     <p class="case-results__intro-text">
-      {{ page.results-intro }}
+      {{ page.results.intro }}
     </p>
   </div>
   <div class="case-results__picture">
     <img
       src="/assets/images/loader.gif"
-      data-src="{{ page.results-img }}"
-      alt="{{ page.results-alt }}"
+      data-src="{{ page.results.img }}"
+      alt="{{ page.results.alt }}"
     />
   </div>
   
@@ -22,26 +22,29 @@
     {% include portfolio-cases/etno/numbers.html %}
   {% endif %}
 
-  {% if page.results-column-left %}
+  {% if page.results.columns %}
     <div class="case-results__columns">
       <p class="case-results__columns-left">
-        {{ page.results-column-left }}
+        {{ page.results.columns.left }}
       </p>
       <p class="case-results__columns-right">
-        {{ page.results-column-right }}
+        {{ page.results.columns.right }}
       </p>
     </div>
   {% endif %}
 
-  {% if page.results-numbers-header %}
+  {% if page.results.numbers %}
     <div class="case-results__numbers">
       <h3 class="case-results__numbers-header">
-        {{ page.results-numbers-header }}
+        {{ page.results.numbers.header }}
       </h3>
       <div class="custom-carousel__wrapper" data-carousel="wrapper">
-        <ul class="custom-carousel__tabs custom-carousel__tabs--{{ page.results.size }}" data-carousel="tabs">
+        <ul
+          class="custom-carousel__tabs custom-carousel__tabs--{{ page.results.stats.size }}"
+          data-carousel="tabs"
+        >
           
-          {% for result in page.results %}
+          {% for result in page.results.numbers.stats %}
             {% for item in result %}
               <li
                 class="custom-carousel__tabs-tab"
@@ -63,7 +66,7 @@
             data-dot-active="true"
           ></div>
 
-          {% for i in (2..page.results.size) %}
+          {% for i in (2..page.results.numbers.stats.size) %}
             <div
               class="custom-carousel__dots-item"
               data-carousel="dots-item"
