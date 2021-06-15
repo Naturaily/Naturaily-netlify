@@ -3,6 +3,7 @@
   border-top: 1px solid $color-global-font-10;
   border-bottom: 1px solid $color-global-font-10;
   background-color: $color-code-orange-bg;
+  overflow: hidden;
 
   &__header, .custom-carousel__tabs-tab {
     padding: 0 30px;
