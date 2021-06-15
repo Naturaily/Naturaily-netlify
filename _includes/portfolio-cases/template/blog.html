@@ -1,19 +1,19 @@
-{% if page.solution-blog-url %}
-  {% assign url = page.solution-blog-url %}
-  {% assign cover = page.solution-blog-cover %}
-  {% assign alt = page.solution-blog-alt %}
-  {% assign text = page.solution-blog-text %}
-  {% assign cta = page.solution-blog-cta %}
+{% if page.solution.blog %}
+  {% assign url = page.solution.blog.url %}
+  {% assign cover = page.solution.blog.cover %}
+  {% assign alt = page.solution.blog.alt %}
+  {% assign text = page.solution.blog.text %}
+  {% assign cta = page.solution.blog.cta %}
 
-{% elsif page.blog-url %}
-  {% assign url = page.blog-url %}
-  {% assign cover = page.blog-cover %}
-  {% assign alt = page.blog-alt %}
-  {% assign text = page.blog-text %}
-  {% assign cta = page.blog-cta %}
+{% elsif page.blog %}
+  {% assign url = page.blog.url %}
+  {% assign cover = page.blog.cover %}
+  {% assign alt = page.blog.alt %}
+  {% assign text = page.blog.text %}
+  {% assign cta = page.blog.cta %}
 {% endif %}
 
-<div class="case-blog {% if page.solution-blog-url %}case-blog--solution{% endif %}">
+<div class="case-blog {% if page.solution.blog %}case-blog--solution{% endif %}">
   <a class="case-blog__image" href="{{ url }}">
     <img
       class="case-blog__image-img"
