@@ -10,13 +10,18 @@
       {{ page.results.intro }}
     </p>
   </div>
-  <div class="case-results__picture">
+  <picture class="case-results__picture">
+    <source
+      media="(max-width: 576px)"
+      srcset="{{ page.results.img-mobile }}"
+      alt="{{ page.results.alt }}"
+    />
     <img
       src="/assets/images/loader.gif"
       data-src="{{ page.results.img }}"
       alt="{{ page.results.alt }}"
     />
-  </div>
+  </picture>
   
   {% if page.modifier == 'etno' %}
     {% include portfolio-cases/etno/numbers.html %}
