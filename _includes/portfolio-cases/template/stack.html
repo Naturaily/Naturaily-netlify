@@ -1,14 +1,21 @@
 <div class="case-stack case-stack--{{ page.modifier }}">
   <div class="case-stack__wrapper">
     <h3 class="case-stack__header">
-      {{ page.stack-header }}
+      {{ page.stack.header }}
     </h3>
     <div class="custom-carousel__wrapper" data-carousel="wrapper">
-      <ul class="custom-carousel__tabs custom-carousel__tabs--{{ page.stack.size }}" data-carousel="tabs">
+      <ul
+        class="custom-carousel__tabs custom-carousel__tabs--{{ page.stack.technologies.size }}"
+        data-carousel="tabs"
+      >
 
-        {% for technology in page.stack %}
+        {% for technology in page.stack.technologies %}
           {% for item in technology %}
-            <li class="custom-carousel__tabs-tab" data-carousel="tab" data-tab-index="{{ forloop.index | minus: 1 }}">
+            <li
+              class="custom-carousel__tabs-tab"
+              data-carousel="tab"
+              data-tab-index="{{ forloop.index | minus: 1 }}"
+            >
               <div class="case-stack__image">
                 <img src="{{ item[1][1] }}" alt="{{ item[0] }} icon"/>
               </div>
@@ -26,7 +33,7 @@
           data-dot-active="true"
         ></div>
 
-        {% for i in (2..page.stack.size) %}
+        {% for i in (2..page.stack.technologies.size) %}
           <div
             class="custom-carousel__dots-item"
             data-carousel="dots-item"
