@@ -30,9 +30,9 @@
   }
 
   &__picture {
+    display: block;
     position: relative;
-    width: 200%;
-    transform: translateX(-30%);
+    width: 100%;
     margin: 25px 0;
     padding-bottom: 60%;
     overflow: hidden;
@@ -91,7 +91,6 @@
 
     &__picture {
       transform: none;
-      width: 100%;
       padding-bottom: 30%;
       
       img {

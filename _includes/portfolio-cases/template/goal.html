@@ -12,7 +12,12 @@
     <p class="case-goal__columns-right">
       {{ page.goal.columns.right }}
     </p>
-    <div class="case-goal__picture">
+    <picture class="case-goal__picture">
+      <source
+        media="(max-width: 576px)"
+        srcset="{{ page.goal.img-mobile }}"
+        alt="{{ page.goal.alt }}"
+      />
       <img
         src="/assets/images/loader.gif"
         data-src="{{ page.goal.img }}"
