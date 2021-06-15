@@ -53,41 +53,6 @@
       margin: 35px 0;
     }
 
-    &--blog {
-      margin: 50px 0;
-
-      .case-solution__columns-blog {
-        &_header a {
-          display: block;
-          margin: 25px 0 15px;
-          font-weight: 200;
-          color: $color-page-text;
-
-          strong {
-            font-weight: 200;
-            color: $color-secondary;
-          }
-        }
-
-        .btn {
-          margin-left: -30px;
-
-          svg {
-            transition: transform .2s ease;
-          }
-  
-          &:hover {
-            transform: none;
-            box-shadow: none;
-  
-            svg {
-              transform: translateX(30px);
-            }
-          }
-        }
-      }
-    }
-
     &--text .case-solution__columns-text {
       padding-bottom: 25px;
     }
@@ -100,8 +65,7 @@
 
     .case__step,
     .case__title,
-    &__columns-text,
-    &__columns-blog {
+    &__columns-text {
       padding-left: 0;
       padding-right: 0;
     }
@@ -171,38 +135,6 @@
         left: 50px;
       }
 
-      &--blog  {
-        padding: 0;
-
-        .case-solution__columns {
-          &-image {
-            width: calc(50% + 50px);
-            border-radius: 8px;
-            overflow: hidden;
-
-            img {
-              position: relative;
-              transition: transform .4s;
-            }
-
-            &:hover img {
-              transform: translate(-50px, -20px) scale(1.25);
-            }
-          }
-
-          &-blog {
-            box-sizing: border-box;
-            width: 50%;
-            padding-left: 25px;
-
-            &_header a {
-              max-width: 320px;
-              margin-top: 0;
-            }
-          }
-        }
-      }
-
       &--text {
         margin-bottom: 0;
 
@@ -224,11 +156,6 @@
   .case-solution {
     &__columns {
       margin-bottom: 0;
-
-      &--blog {
-        margin-top: 70px;
-        margin-bottom: 90px;
-      }
     }
 
     &--bgl .case-solution__columns--second .case-solution__columns-image img {
@@ -273,19 +200,6 @@
       &--third .case-solution__columns-image {
         left: 70px;
         padding-left: 40px;
-      }
-
-      &--blog .case-solution__columns {
-        &-image {
-          width: calc(50% + 150px);
-        }
-
-        &-blog {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          padding-left: 50px;
-        }
       }
 
       &--text .case-solution__columns-text {

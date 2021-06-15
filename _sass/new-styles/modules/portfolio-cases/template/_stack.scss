@@ -119,5 +119,9 @@
 @media (min-width: 1200px) {
   .case-stack--bgl {
     border-radius: 0 0 8px 8px;
+
+    .custom-carousel__tabs {
+      margin-right: -230px;
+    }
   }
 }
