@@ -1,8 +1,9 @@
-.etno-stack {
+.case-stack {
   padding: 65px 0;
   border-top: 1px solid $color-global-font-10;
   border-bottom: 1px solid $color-global-font-10;
   background-color: $color-code-orange-bg;
+  overflow: hidden;
 
   &__header, .custom-carousel__tabs-tab {
     padding: 0 30px;
@@ -41,10 +42,14 @@
       margin-top: 25px;
     }
   }
+
+  &--bgl {
+    border-bottom: none;
+  }
 }
 
 @media (min-width: 576px) {
-  .etno-stack {
+  .case-stack {
     &__header, .custom-carousel__tabs-tab {
       padding: 0 100px;
     }
@@ -58,7 +63,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-stack {
+  .case-stack {
     box-sizing: border-box;
     width: 100%;
     max-width: 1470px;
@@ -80,19 +85,44 @@
 
       &-tab {
         box-sizing: border-box;
-        width: 33.3%;
         margin-bottom: 30px;
       }
+
+      &--3 .custom-carousel__tabs-tab {
+        width: 33.3%;
+      }
+
+      &--4 .custom-carousel__tabs-tab {
+        width: 25%;
+      }
+    }
+
+    &--bgl .custom-carousel__tabs {
+      margin-right: -200px;
     }
   }
 }
 
 @media (min-width: 992px) {
-  .etno-stack {
+  .case-stack {
     padding-top: 100px;
 
     .custom-carousel__tabs-tab {
       margin-bottom: 80px;
+    }
+
+    &--bgl {
+      padding-top: 80px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .case-stack--bgl {
+    border-radius: 0 0 8px 8px;
+
+    .custom-carousel__tabs {
+      margin-right: -230px;
     }
   }
 }

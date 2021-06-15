@@ -1,18 +1,10 @@
-.etno-goal {
+.case-challenge {
   box-sizing: border-box;
   width: 100%;
-  padding-top: 50px;
+  padding: 50px 30px;
   overflow: hidden;
 
-  .case__step,
-  .case__title,
-  &__columns-left,
-  &__columns-right {
-    padding: 0 30px;
-  }
-
   .case__title {
-    max-width: 300px;
     margin: 30px 0;
     line-height: 50px;
     font-weight: 200;
@@ -44,25 +36,17 @@
 
   &__picture {
     order: 1;
-    position: relative;
-    transform: translateX(-39%);
-    width: 200%;
-    padding-bottom: 60%;
     margin: 25px 0;
-    overflow: hidden;
 
     img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
+      width: 200%;
+      transform: translateX(-39%);
     }
   }
 }
 
 @media (min-width: 576px) {
-  .etno-goal {
+  .case-challenge {
     padding-left: 100px;
     padding-right: 100px;
 
@@ -73,21 +57,16 @@
       padding: 0;
     }
 
-    &__picture {
-      transform: none;
+    &__picture img {
       width: 100%;
-      padding-bottom: 30%;
-      
-      img {
-        border-radius: 8px;
-      }
+      transform: none;
     }
   }
 }
 
 @media (min-width: 811px) {
-  .etno-goal {
-    padding-top: 80px;
+  .case-challenge {
+    padding: 80px 100px 100px;
 
     &__columns {
       flex-flow: row wrap;
@@ -111,18 +90,21 @@
     &__picture {
       order: 3;
       margin-top: 65px;
+
+      img {
+        border-radius: 8px;
+      }
     }
   }
 }
 
 @media (min-width: 1200px) {
-  .etno-goal__columns {
+  .case-challenge__columns {
     &-left {
-      padding-right: 45px;
+      padding-right: 50px;
     }
 
     &-right {
-      padding-right: 10px;
       padding-left: 40px;
     }
   }

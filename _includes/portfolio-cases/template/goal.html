@@ -1,0 +1,28 @@
+<div class="case-goal">
+  <span class="case__step">
+    {{ page.goal.step }}
+  </span>
+  <h2 class="case__title">
+    {{ page.goal.header }}
+  </h2>
+  <div class="case-goal__columns">
+    <p class="case-goal__columns-left">
+      {{ page.goal.columns.left }}
+    </p>
+    <p class="case-goal__columns-right">
+      {{ page.goal.columns.right }}
+    </p>
+    <picture class="case-goal__picture">
+      <source
+        media="(max-width: 576px)"
+        srcset="{{ page.goal.img-mobile }}"
+        alt="{{ page.goal.alt }}"
+      />
+      <img
+        src="/assets/images/loader.gif"
+        data-src="{{ page.goal.img }}"
+        alt="{{ page.goal.alt }}"
+      />
+    </div>
+  </div>
+</div>

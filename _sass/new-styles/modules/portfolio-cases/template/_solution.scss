@@ -1,4 +1,4 @@
-.etno-solution {
+.case-solution {
   box-sizing: border-box;
   position: relative;
   width: 100%;
@@ -49,59 +49,23 @@
       }
     }
 
-    &--third .etno-solution__columns-image {
+    &--third .case-solution__columns-image {
       margin: 35px 0;
     }
 
-    &--blog {
-      margin: 50px 0;
-
-      .etno-solution__columns-blog {
-        &_header a {
-          display: block;
-          margin: 25px 0 15px;
-          font-weight: 200;
-          color: $color-page-text;
-
-          strong {
-            font-weight: 200;
-            color: $color-secondary;
-          }
-        }
-
-        .btn {
-          margin-left: -30px;
-
-          svg {
-            transition: transform .2s ease;
-          }
-  
-          &:hover {
-            transform: none;
-            box-shadow: none;
-  
-            svg {
-              transform: translateX(30px);
-            }
-          }
-        }
-      }
-    }
-
-    &--text .etno-solution__columns-text {
+    &--text .case-solution__columns-text {
       padding-bottom: 25px;
     }
   }
 }
 
 @media (min-width: 576px) {
-  .etno-solution {
+  .case-solution {
     padding: 70px 100px;
 
     .case__step,
     .case__title,
-    &__columns-text,
-    &__columns-blog {
+    &__columns-text {
       padding-left: 0;
       padding-right: 0;
     }
@@ -113,7 +77,7 @@
 }
 
 @media (min-width: 811px) {
-  .etno-solution {
+  .case-solution {
     padding: 100px 50px 50px;
 
     .case__step {
@@ -145,7 +109,7 @@
       }
 
       &--first, &--third {
-        .etno-solution__columns {
+        .case-solution__columns {
           &-text {
             order: -1;
             padding-right: 25px;
@@ -157,56 +121,24 @@
         }
       } 
 
-      &--first .etno-solution__columns-image {
+      &--first .case-solution__columns-image {
         left: 25px;
       }
 
-      &--second .etno-solution__columns-text {
+      &--second .case-solution__columns-text {
         position: relative;
         left: 25px;
         padding-left: 25px;
       }
 
-      &--third .etno-solution__columns-image {
+      &--third .case-solution__columns-image {
         left: 50px;
-      }
-
-      &--blog  {
-        padding: 0;
-
-        .etno-solution__columns {
-          &-image {
-            width: calc(50% + 50px);
-            border-radius: 8px;
-            overflow: hidden;
-
-            img {
-              position: relative;
-              transition: transform .4s;
-            }
-
-            &:hover img {
-              transform: translate(-50px, -20px) scale(1.25);
-            }
-          }
-
-          &-blog {
-            box-sizing: border-box;
-            width: 50%;
-            padding-left: 25px;
-
-            &_header a {
-              max-width: 320px;
-              margin-top: 0;
-            }
-          }
-        }
       }
 
       &--text {
         margin-bottom: 0;
 
-        .etno-solution__columns-text {
+        .case-solution__columns-text {
           &:first-of-type {
             padding-right: 25px;
           }
@@ -221,18 +153,19 @@
 }
 
 @media (min-width: 992px) {
-  .etno-solution__columns {
-    margin-bottom: 0;
+  .case-solution {
+    &__columns {
+      margin-bottom: 0;
+    }
 
-    &--blog {
-      margin-top: 70px;
-      margin-bottom: 90px;
+    &--bgl .case-solution__columns--second .case-solution__columns-image img {
+      margin: 30px 0 100px -85px;
     }
   }
 }
 
 @media (min-width: 1200px) {
-  .etno-solution {
+  .case-solution {
     padding-bottom: 25px;
 
     .case__title {
@@ -240,19 +173,19 @@
     }
 
     &__columns {
-      &--first .etno-solution__columns-text,
-      &--third .etno-solution__columns-text {
+      &--first .case-solution__columns-text,
+      &--third .case-solution__columns-text {
         padding-right: 70px;
       }
 
-      &--first .etno-solution__columns-image img {
+      &--first .case-solution__columns-image img {
         position: absolute;
         top: -330px;
         left: 0;
         width: 520px;
       }
 
-      &--second .etno-solution__columns {
+      &--second .case-solution__columns {
         &-text {
           left: 80px;
           padding-right: 80px;
@@ -264,25 +197,12 @@
         }
       }
 
-      &--third .etno-solution__columns-image {
+      &--third .case-solution__columns-image {
         left: 70px;
         padding-left: 40px;
       }
 
-      &--blog .etno-solution__columns {
-        &-image {
-          width: calc(50% + 150px);
-        }
-
-        &-blog {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          padding-left: 50px;
-        }
-      }
-
-      &--text .etno-solution__columns-text {
+      &--text .case-solution__columns-text {
         &:first-of-type {
           padding-right: 75px;
         }
@@ -297,7 +217,7 @@
 }
 
 @media (min-width: 1200px) {
-  .etno-solution {
+  .case-solution {
     border-radius: 8px 8px 0 0;
   }
 }

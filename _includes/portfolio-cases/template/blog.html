@@ -1,0 +1,36 @@
+{% if page.solution.blog %}
+  {% assign url = page.solution.blog.url %}
+  {% assign cover = page.solution.blog.cover %}
+  {% assign alt = page.solution.blog.alt %}
+  {% assign text = page.solution.blog.text %}
+  {% assign cta = page.solution.blog.cta %}
+
+{% elsif page.blog %}
+  {% assign url = page.blog.url %}
+  {% assign cover = page.blog.cover %}
+  {% assign alt = page.blog.alt %}
+  {% assign text = page.blog.text %}
+  {% assign cta = page.blog.cta %}
+{% endif %}
+
+<div class="case-blog {% if page.solution.blog %}case-blog--solution{% endif %}">
+  <a class="case-blog__image" href="{{ url }}">
+    <img
+      class="case-blog__image-img"
+      src="/assets/images/loader.gif"
+      data-src="{{ cover }}"
+      alt="{{ alt }}"
+    />
+  </a> 
+  <div class="case-blog__content">
+    <h3 class="case-blog__content-header">
+      <a class="case-blog__content-header__link" href="{{ url }}">
+        {{ text }}
+      </a>
+    </h3>
+    <a class="btn btn-white" href="{{ url }}">
+      {{ cta }}
+      {% svg /assets/images/btn-arrow.svg %}
+    </a>
+  </div>
+</div>

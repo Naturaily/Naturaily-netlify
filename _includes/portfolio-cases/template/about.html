@@ -1,0 +1,31 @@
+<div class="case-about">
+  <span class="case__step">{{ page.about.step }}</span>
+  <h2 class="case__title">{{ page.about.header }}</h2>
+  <div class="case-about__columns">
+    <div class="case-about__columns-left">
+      <p class="case-about__columns-paragraph">
+        {{ page.about.columns.left }}
+      </p>
+    </div>
+    <div class="case-about__columns-right">
+      <p class="case-about__columns-paragraph">
+        {{ page.about.columns.right }}
+      </p>
+      <span class="case-about__dot case-about__dot--secondary"></span>
+      <span class="case-about__dot case-about__dot--yellow"></span>
+    </div>
+    <picture class="case-about__separator case-about__separator--{{ page.modifier }}">
+      <source
+        media="(max-width: 576px)"
+        srcset="{{ page.about.separator.mobile }}"
+        alt="{{ page.about.separator.alt }}"
+      />
+      <img
+        class="case-about__separator-img"
+        src="/assets/images/loader.gif"
+        data-src="{{ page.about.separator.desktop }}"
+        alt="{{ page.about.separator.alt }}"
+      />
+    </picture>
+  </div>
+</div>

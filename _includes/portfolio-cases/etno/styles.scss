@@ -16,13 +16,16 @@
 
 @import "new-styles/modules/portfolio-cases/main";
 
-@import "new-styles/modules/portfolio-cases/etno/hero";
-@import "new-styles/modules/portfolio-cases/etno/about";
-@import "new-styles/modules/portfolio-cases/etno/goal";
-@import "new-styles/modules/portfolio-cases/etno/challenge";
-@import "new-styles/modules/portfolio-cases/etno/solution";
-@import "new-styles/modules/portfolio-cases/etno/stack";
-@import "new-styles/modules/portfolio-cases/etno/experts";
-@import "new-styles/modules/portfolio-cases/etno/results";
-@import "new-styles/modules/portfolio-cases/etno/testimonials";
-@import "new-styles/modules/portfolio-cases/etno/estimate";
+@import "new-styles/modules/portfolio-cases/template/hero";
+@import "new-styles/modules/portfolio-cases/template/about";
+@import "new-styles/modules/portfolio-cases/template/goal";
+@import "new-styles/modules/portfolio-cases/template/challenge";
+@import "new-styles/modules/portfolio-cases/template/solution";
+@import "new-styles/modules/portfolio-cases/template/blog";
+@import "new-styles/modules/portfolio-cases/template/stack";
+@import "new-styles/modules/portfolio-cases/template/experts";
+@import "new-styles/modules/portfolio-cases/template/results";
+@import "new-styles/modules/portfolio-cases/template/testimonial-wide";
+@import "new-styles/modules/portfolio-cases/template/estimate";
+
+@import "new-styles/modules/portfolio-cases/etno/numbers";

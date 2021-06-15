@@ -1,0 +1,166 @@
+.case-wide-testimonial {
+  padding: 50px 0;
+  background-color: $color-code-orange-bg;
+  overflow: hidden;
+
+  .case__step,
+  .case__title,
+  &__columns {
+    padding: 0 30px;
+  }
+
+  .case__title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 50px;
+    font-weight: 200;
+    color: $color-global-font;
+  }
+
+  &__picture {
+    width: 200%;
+    transform: translateX(-20%);
+  }
+
+  &__quote {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 300;
+    color: $color-global-font;
+
+    &--secondary {
+      color: $color-secondary;
+
+      span {
+        color: $color-global-font;
+      }
+    }
+  }
+
+  &__credits {
+    margin: 30px 0;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-global-font;
+
+    &-name {
+      position: relative;
+      font-weight: 400;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 9px;
+        left: -25px;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        background-color: $color-accent-yellow;
+      }
+    }
+
+    &-position {
+      opacity: .5;
+    }
+  }
+
+  &__columns {
+    margin-top: 40px;
+
+    &-right {
+      font-size: 16px;
+      line-height: 28.8px;
+      color: $color-page-text;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .case-wide-testimonial {
+    padding: 100px;
+
+    .case__step,
+    .case__title,
+    &__columns {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    &__picture {
+      transform: none;
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .case-wide-testimonial {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 100px;
+
+    &__wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .case__title {
+      padding-bottom: 70px;
+    }
+
+    &__credits {
+      margin-bottom: 0;
+    }
+
+    &__columns {
+      display: flex;
+      flex-flow: row nowrap;
+      margin-top: 70px;
+
+      &-left, &-right {
+        box-sizing: border-box;
+        width: 50%;
+      }
+
+      &-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 25px;
+      }
+
+      &-right {
+        padding-left: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .case-wide-testimonial {
+    &__columns {
+      &-left {
+        padding-right: 80px;
+      }
+
+      &-right {
+        padding-left: 40px;
+        padding-right: 10px;
+      }
+    }
+
+    &__quote--secondary {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .case-wide-testimonial {
+    border-radius: 8px;
+  }
+}

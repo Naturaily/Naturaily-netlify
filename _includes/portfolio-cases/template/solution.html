@@ -1,0 +1,58 @@
+<div class="case-solution case-solution--{{ page.modifier }}">
+  <div class="case-solution__wrapper">
+    <span class="case__step">{{ page.solution.step }}</span>
+    <h2 class="case__title">{{ page.solution.header }}</h2>
+
+    {% if page.solution.columns.one %}
+      <div class="case-solution__columns case-solution__columns--first">
+        <div class="case-solution__columns-image">
+          <img
+            src="/assets/images/loader.gif"
+            data-src="{{ page.solution.columns.one.img }}"
+            alt="{{ page.solution.columns.one.alt }}"/>
+        </div>
+        <p class="case-solution__columns-text">{{ page.solution.columns.one.text }}</p>
+      </div>
+    {% endif %}
+
+    {% if page.solution.columns.two %}
+      <div class="case-solution__columns case-solution__columns--second">
+        <div class="case-solution__columns-image">
+          <img
+            src="/assets/images/loader.gif"
+            data-src="{{ page.solution.columns.two.img }}"
+            alt="{{ page.solution.columns.two.alt  }}"/>
+        </div>
+        <p class="case-solution__columns-text">{{ page.solution.columns.two.text }}</p>
+      </div>
+    {% endif %}
+
+    {% if page.solution.columns.three %}
+      <div class="case-solution__columns case-solution__columns--third">
+        <div class="case-solution__columns-image">
+          <img
+            src="/assets/images/loader.gif"
+            data-src="{{ page.solution.columns.three.img }}"
+            alt="{{ page.solution.columns.three.alt }}"/>
+        </div>
+        <p class="case-solution__columns-text">{{ page.solution.columns.three.text }}</p>
+      </div>
+    {% endif %}
+
+    {% if page.solution.blog %}
+      {% include portfolio-cases/template/blog.html %}
+    {% endif %}
+    
+    {% if page.solution.final-columns %}
+      <div class="case-solution__columns case-solution__columns--text">
+        <p class="case-solution__columns-text">
+          {{ page.solution.final-columns.left }}
+        </p>
+        <p class="case-solution__columns-text">
+          {{ page.solution.final-columns.right }}
+        </p>
+      </div>
+    {% endif %}
+
+  </div>
+</div>

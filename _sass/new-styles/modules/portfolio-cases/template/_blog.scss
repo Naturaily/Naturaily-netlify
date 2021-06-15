@@ -1,0 +1,140 @@
+.case-blog {
+  &--solution {
+    margin: 50px 0;
+  }
+
+  &__content {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &-header__link {
+      display: block;
+      margin: 25px 0 15px;
+      font-weight: 200;
+      color: $color-page-text;
+
+      strong {
+        font-weight: 200;
+        color: $color-secondary;
+      }
+    }
+  }
+
+  &__image {
+    text-align: center;
+    margin: 25px 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .btn {
+    max-width: 200px;
+    margin-left: -30px;
+
+    svg {
+      transition: transform .2s ease;
+    }
+
+    &:hover {
+      transform: none;
+      box-shadow: none;
+
+      svg {
+        transform: translateX(30px);
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .case-blog {
+    margin: 50px 0;
+    padding: 0 100px;
+
+    &--solution {
+      padding: 0;
+    }
+
+    &__content {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    &__image-img {
+      border-radius: 8px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .case-blog {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 0;
+    padding: 0;
+
+    &--solution {
+      margin-bottom: 70px;
+    }
+
+    &__content {
+      box-sizing: border-box;
+      width: 50%;
+      padding-left: 25px;
+
+      &-header__link {
+        max-width: 320px;
+        margin-top: 0;
+      }
+    }
+
+    &__image {
+      box-sizing: border-box;
+      width: calc(50% + 50px);
+      margin: 0;
+      padding: 0;
+      border-radius: 8px;
+      overflow: hidden;
+
+      &-img {
+        position: relative;
+        transition: transform .4s;
+      }
+
+      &:hover .case-blog__image-img {
+        transform: translate(-50px, -20px) scale(1.25);
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .case-blog {
+    margin-top: 70px;
+
+    &--solution {
+      margin-bottom: 90px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .case-blog {
+    &--solution {
+      padding-bottom: 25px;
+    }
+    
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 50px;
+    }
+
+    &__image {
+      width: calc(50% + 150px);
+    }
+  }
+}
