@@ -31,26 +31,7 @@
     {% endif %}
 
     {% if page.solution-blog-url %}
-      <div class="case-solution__columns case-solution__columns--blog">
-        <a href="{{ page.solution-blog-url }}" class="case-solution__columns-image">
-          <img
-            src="/assets/images/loader.gif"
-            data-src="{{ page.solution-blog-cover }}"
-            alt="{{ page.solution-blog-alt }}"
-          />
-        </a> 
-        <div class="case-solution__columns-blog">
-          <h3 class="case-solution__columns-blog_header">
-            <a href="{{ page.solution-blog-url}}">
-              {{ page.solution-blog-text }}
-            </a>
-          </h3>
-          <a class="btn btn-white" href="{{ page.solution.blog-url}}">
-            {{ page.solution-blog-cta }}
-            {% svg /assets/images/btn-arrow.svg %}
-          </a>
-        </div>
-      </div>
+      {% include portfolio-cases/template/blog.html %}
     {% endif %}
     
     {% if page.solution-final-column-left %}
