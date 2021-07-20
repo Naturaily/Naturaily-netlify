@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Copywriter & Content Marketing Specialist
 meta-title-inset: don’t wait - apply
 description: >-
